@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Proyek Statis</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    
+    <script src="./assets/js/auth.js"></script>
+    <script>requireAuth();</script>
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <h2>Dashboard</h2>
+            <button id="logout-button" class="btn btn-secondary">Logout</button>
+        </div>
+    </header>
+    <main class="container">
+        <div class="card">
+            <h1 id="welcome-message">Memuat...</h1>
+            <p>Anda telah berhasil login. Ini adalah area aman Anda.</p>
+        </div>
+    </main>
+
+    <script>
+        // Menjalankan event listener setelah DOM selesai dimuat
+        document.addEventListener('DOMContentLoaded', () => {
+            const userEmail = localStorage.getItem('userEmail');
+            const welcomeMessage = document.getElementById('welcome-message');
+            const logoutButton = document.getElementById('logout-button');
+
+            if (userEmail) {
+                welcomeMessage.textContent = `Selamat Datang, ${userEmail}!`;
+            }
+
+            logoutButton.addEventListener('click', () => {
+                logout(); // Fungsi logout() dari auth.js
+            });
+        });
+    </script>
+</body>
+</html>
