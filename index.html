@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Proyek Statis</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <script src="./assets/js/auth.js"></script>
+    <script>redirectIfAuthenticated();</script>
+
+    <main class="container">
+        <div class="card">
+            <h1>Login</h1>
+            <p>Selamat datang! Silakan masuk untuk melanjutkan.</p>
+            <form id="login-form" novalidate>
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="user@example.com">
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required placeholder="password123">
+                </div>
+                <p id="error-message" class="error-message" aria-live="polite"></p>
+                <button type="submit" class="btn">Login</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
