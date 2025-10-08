@@ -3,20 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard - Proyek Statis</title>
+    <title>Dashboard - Proyek Keren</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/styles.css">
     
     <script src="./assets/js/auth.js"></script>
     <script>requireAuth();</script>
 </head>
 <body>
-    <header class="header">
-        <div class="container header-container">
-            <h2>Dashboard</h2>
+    <header class="dashboard-header">
+        <div class="header-container">
+            <h2 class="header-title">Dashboard</h2>
             <button id="logout-button" class="btn btn-secondary">Logout</button>
         </div>
     </header>
-    <main class="container">
+
+    <main class="dashboard-main">
         <div class="card">
             <h1 id="welcome-message">Memuat...</h1>
             <p>Anda telah berhasil login. Ini adalah area aman Anda.</p>
@@ -24,7 +28,6 @@
     </main>
 
     <script>
-        // Menjalankan event listener setelah DOM selesai dimuat
         document.addEventListener('DOMContentLoaded', () => {
             const userEmail = localStorage.getItem('userEmail');
             const welcomeMessage = document.getElementById('welcome-message');
@@ -34,9 +37,11 @@
                 welcomeMessage.textContent = `Selamat Datang, ${userEmail}!`;
             }
 
-            logoutButton.addEventListener('click', () => {
-                logout(); // Fungsi logout() dari auth.js
-            });
+            if (logoutButton) {
+                logoutButton.addEventListener('click', () => {
+                    logout(); // Fungsi logout() dari auth.js
+                });
+            }
         });
     </script>
 </body>
