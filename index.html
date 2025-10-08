@@ -3,31 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Proyek Statis</title>
+    <title>Masuk - Proyek Keren</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
     <script src="./assets/js/auth.js"></script>
     <script>redirectIfAuthenticated();</script>
 
-    <main class="container">
-        <div class="card">
-            <h1>Login</h1>
-            <p>Selamat datang! Silakan masuk untuk melanjutkan.</p>
-            <form id="login-form" novalidate>
-                <div class="input-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required placeholder="user@example.com">
-                </div>
-                <div class="input-group">
-                    <label for="password">Password</label>
-                    <input type="password" id="password" name="password" required placeholder="password123">
-                </div>
-                <p id="error-message" class="error-message" aria-live="polite"></p>
-                <button type="submit" class="btn">Login</button>
-            </form>
+    <div class="login-container">
+        <div class="login-branding">
+            <div class="branding-content">
+                <h1 class="branding-title">Kelola Komunitas dalam Genggaman Anda.</h1>
+                <p class="branding-description">Platform modern untuk membangun, mengelola, dan menumbuhkan komunitas Anda dengan lebih mudah dan efisien.</p>
+            </div>
         </div>
-    </main>
+
+        <div class="login-form-wrapper">
+            <div class="login-form-content">
+                <header class="login-header">
+                    <h2>Masuk ke Akun Anda</h2>
+                    <p>Selamat datang kembali! Silakan masukkan detail Anda.</p>
+                </header>
+
+                <form id="login-form" novalidate>
+                    <button type="button" class="btn btn-social">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" preserveAspectRatio="xMidYMid" viewBox="0 0 256 262"><path fill="#4285F4" d="M255.878 133.451c0-10.734-.871-18.567-2.756-26.686H130.55v48.448h71.947c-1.45 12.04-9.283 30.172-26.69 42.356l-.244 1.622l38.755 30.023l2.685.268c24.659-22.774 38.875-56.282 38.875-96.027"/><path fill="#34A853" d="M130.55 261.1c35.248 0 64.839-11.605 86.453-31.622l-41.196-31.913c-11.024 7.688-25.82 13.055-45.257 13.055c-34.523 0-63.824-22.773-74.269-54.25l-1.531.13-40.298 31.187l-.527 1.465C35.34 226.438 79.032 261.1 130.55 261.1"/><path fill="#FBBC05" d="M56.281 156.37c-2.756-8.123-4.351-16.827-4.351-25.82c0-8.994 1.595-17.697 4.206-25.82l-.073-1.73L15.26 71.98l-1.615.035C5.902 89.24 0 109.517 0 130.55s5.902 41.31 15.26 58.57l41.02-31.79z"/><path fill="#EB4335" d="M130.55 50.479c19.205 0 36.117 6.556 49.088 18.913l36.756-35.742C195.245 12.91 165.798 0 130.55 0C79.032 0 35.34 34.663 15.26 76.655l41.02 31.79c10.446-31.477 39.746-54.25 74.269-54.25"/></svg>
+                        <span>Masuk dengan Google</span>
+                    </button>
+
+                    <div class="separator">
+                        <span>atau masuk dengan email</span>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="email@anda.com">
+                    </div>
+                    <div class="input-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required placeholder="••••••••">
+                    </div>
+
+                    <div class="form-options">
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="remember-me" name="remember-me">
+                            <label for="remember-me">Ingat Saya</label>
+                        </div>
+                        <a href="#" class="forgot-password">Lupa Password?</a>
+                    </div>
+                    
+                    <p id="error-message" class="error-message" aria-live="polite"></p>
+
+                    <button type="submit" class="btn btn-primary">Masuk</button>
+                </form>
+
+                <footer class="login-footer">
+                    <p>Belum punya akun? <a href="#">Daftar</a></p>
+                </footer>
+            </div>
+        </div>
+    </div>
 
     <script src="./assets/js/main.js"></script>
 </body>
