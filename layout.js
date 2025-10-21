@@ -78,8 +78,8 @@ const footerHTML = `
             <div class="row">
                 <div class="col-xl-3 col-lg-4 col-md-6"><div class="ud-widget"><a href="index.html" class="ud-footer-logo"><img src="https://groupy.id/assets/images/logo/groupy_white.png" alt="logo"/></a><p class="ud-widget-desc">Unlock Premium Together</p><ul class="ud-widget-socials"><li><a href="#"><i class="fa-brands fa-instagram"></i></a></li><li><a href="#"><i class="fa-brands fa-discord"></i></a></li></ul></div></div>
                 <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6"><div class="ud-widget"><h5 class="ud-widget-title">About</h5><ul class="ud-widget-links"><li><a href="index.html#features">Features</a></li><li><a href="index.html#about">About</a></li><li><a href="index.html#pricing">Pricing</a></li><li><a href="index.html#services">Services</a></li></ul></div></div>
-                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6"><div class="ud-widget"><h5 class="ud-widget-title">Dashboard</h5><ul class="ud-widget-links"><li><a href="dashboard.html">View dashboard <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li><li><a href="#">Purchase premium <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li></ul></div></div>
-                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6"><div class="ud-widget"><h5 class="ud-widget-title">Extension</h5><ul class="ud-widget-links"><li><a href="dashboard.html">Download extension <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li></ul></div></div>
+                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6"><div class="ud-widget"><h5 class="ud-widget-title">Dashboard</h5><ul class="ud-widget-links"><li><a href="https://gracely011.github.io/haidashboard.html">View dashboard <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li><li><a href="#">Purchase premium <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li></ul></div></div>
+                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6"><div class="ud-widget"><h5 class="ud-widget-title">Extension</h5><ul class="ud-widget-links"><li><a href="https://gracely011.github.io/haidashboard.html">Download extension <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li></ul></div></div>
                 <div class="col-xl-2 col-lg-2 col-md-6 col-sm-10"><div class="ud-widget"><h5 class="ud-widget-title">Partners</h5><ul class="ud-widget-brands"><li><a href="#" rel="nofollow noopener" target="_blank"><img src="https://tripay.co.id/new-template/images/logo-dark.png" alt="TriPay"></a><a href="#" rel="nofollow noopener" target="_blank"><img src="https://companieslogo.com/img/orig/NET_BIG.D-52893f5e.png" alt="Cloudflare"></a></li></ul></div></div>
             </div>
         </div>
@@ -131,5 +131,6 @@ function loadLayout() {
       initializeScripts();
     }
 }
+
 
 document.addEventListener("DOMContentLoaded", loadLayout);
