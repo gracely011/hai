@@ -97,12 +97,63 @@ const footerHTML = `
 
 const backToTopHTML = `<a href="javascript:void(0)" class="back-to-top"><i class="fa-solid fa-arrow-up"></i></a>`;
 
+/**
+ * [FUNGSI BARU]
+ * Fungsi ini mengubah konten di halaman index.html jika pengguna sudah login.
+ */
+function modifyIndexPageContent() {
+    // Pastikan kita berada di halaman index
+    const path = window.location.pathname;
+    const isIndexPage = path.endsWith('/') || path.endsWith('index.html');
+
+    if (!isIndexPage) {
+        return;
+    }
+
+    // Cek apakah pengguna sudah login
+    if (typeof isAuthenticated === 'function' && isAuthenticated()) {
+        const allLinks = document.querySelectorAll('a');
+        let signUpButton = null;
+        let learnMoreButton = null;
+
+        // Cari tombol "Sign Up Now" dan "Learn More" berdasarkan teksnya
+        allLinks.forEach(link => {
+            const text = link.textContent.trim();
+            if (text === 'Sign Up Now') {
+                signUpButton = link;
+            } else if (text === 'Learn More') {
+                learnMoreButton = link;
+            }
+        });
+
+        // Jika tombol "Sign Up Now" ditemukan, ubah jadi tombol "Dashboard"
+        if (signUpButton) {
+            signUpButton.textContent = 'Go to Dashboard';
+            signUpButton.href = 'dashboard.html';
+            
+            // Ubah style jika perlu (contoh: dari tombol putih jadi tombol utama)
+            if (signUpButton.classList.contains('ud-white-btn')) {
+                 signUpButton.classList.remove('ud-white-btn');
+                 signUpButton.classList.add('ud-main-btn');
+            }
+        }
+
+        // Sembunyikan tombol "Learn More"
+        if (learnMoreButton) {
+            learnMoreButton.style.display = 'none';
+        }
+    }
+}
+
+
 function loadLayout() {
     const announcementPlaceholder = document.getElementById("announcement-placeholder");
     const navbarPlaceholder = document.getElementById("navbar-placeholder");
     const footerPlaceholder = document.getElementById("footer-placeholder");
     const backToTopPlaceholder = document.getElementById("back-to-top-placeholder");
-    const loginStatusPlaceholder = document.getElementById("login-status-placeholder");
+    
+    // HAPUS placeholder untuk "login-status"
+    // const loginStatusPlaceholder = document.getElementById("login-status-placeholder");
 
     if (announcementPlaceholder) announcementPlaceholder.innerHTML = announcementBarHTML;
     if (footerPlaceholder) footerPlaceholder.innerHTML = footerHTML;
@@ -117,6 +168,8 @@ function loadLayout() {
         }
     }
 
+    // HAPUS blok 'if (loginStatusPlaceholder)'
+    /*
     if (loginStatusPlaceholder) {
         if (typeof isAuthenticated === 'function' && isAuthenticated()) {
             loginStatusPlaceholder.textContent = "Status: Sudah Login";
@@ -126,14 +179,15 @@ function loadLayout() {
             loginStatusPlaceholder.style.color = "orange";
         }
     }
+    */
 
     if (typeof initializeScripts === 'function') {
       initializeScripts();
     }
+    
+    // PANGGIL FUNGSI BARU di sini
+    modifyIndexPageContent();
 }
 
 
 document.addEventListener("DOMContentLoaded", loadLayout);
-
-
-
