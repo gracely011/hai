@@ -5,12 +5,14 @@ function setCookie(name, value, days) {
         date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
         expires = "; expires=" + date.toUTCString();
     }
-    let cookieString = name + "=" + (value || "") + expires + "; path=/; SameSite=Lax";
+    // PERBAIKAN: Tambahkan 'Secure' karena situs ini HTTPS
+    let cookieString = name + "=" + (value || "") + expires + "; path=/; SameSite=Lax; Secure";
     document.cookie = cookieString;
 }
 
 function eraseCookie(name) {
-    document.cookie = name + '=; Max-Age=-99999999; path=/; SameSite=Lax';
+    // PERBAIKAN: Tambahkan 'Secure'
+    document.cookie = name + '=; Max-Age=-99999999; path=/; SameSite=Lax; Secure';
 }
 
 async function login(email, password) {
