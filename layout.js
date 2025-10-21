@@ -10,7 +10,7 @@ const defaultNavbarHTML = `
     <div class="row">
       <div class="col-lg-12">
         <nav class="navbar navbar-expand-lg">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="https://gracely011.github.io/hai/index.html">
             <img src="https://groupy.id/assets/images/logo/groupy_mobile_white.png" alt="Logo" id="logo" />
           </a>
           <button class="navbar-toggler">
@@ -134,5 +134,6 @@ function loadLayout() {
 
 
 document.addEventListener("DOMContentLoaded", loadLayout);
+
 
 
