@@ -156,7 +156,7 @@ function initializeScripts() {
 
       if (result.success) {
         console.log("[DEBUG scripts.js] Login sukses, redirect ke dashboard.html"); // <-- DEBUG SUKSES
-        window.location.href = "dashboard.html";
+        window.location.href = "https://gracely011.github.io/hai/dashboard.html";
       } else {
         errorMessage.textContent = result.message;
         console.log("[DEBUG scripts.js] Login gagal dari auth.js:", result.message); // <-- DEBUG GAGAL
@@ -178,4 +178,5 @@ function initializeScripts() {
 }
 
 // Panggil fungsi initializeScripts setelah layout dimuat (ini penting dari layout.js)
+
 // Tidak perlu event listener DOMContentLoaded di sini karena layout.js sudah menanganinya
