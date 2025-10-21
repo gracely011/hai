@@ -9,9 +9,6 @@ const gracelyConfig = {
     "onGuardMissing": "https://petrusperdana1.github.io/p/contact.html",
     "onLogoutBlock": "https://petrussiahaan.blogspot.com/p/ruang-syahdu.html"
   },
-  "dataSources": {
-    "services": "https://petrusperdana1.github.io/tpsyunix/databaru.js"
-  },
   "notifications": {
     "announcement": {
       "enabled": true,
