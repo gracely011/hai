@@ -44,7 +44,7 @@ function eraseCookie(name) {
 async function login(email, password) {
     console.log("[DEBUG auth.js] Fungsi login() dipanggil."); // <-- DEBUG
     try {
-        const response = await fetch('credentials.json');
+        const response = await fetch('https://gracely011.github.io/hai/credentials.json');
         console.log("[DEBUG auth.js] Fetch credentials response:", response.ok); // <-- DEBUG
         if (!response.ok) throw new Error('Failed to load credentials.');
 
