@@ -25,22 +25,20 @@ function setLoginCookies(username, isPremium, configUrl) {
     }
 }
 
-function getAuthStatus() {
+function getCookie(name) {
     const cookies = document.cookie.split('; ').reduce((acc, cookie) => {
-        const [name, value] = cookie.split('=');
-        acc[name] = value;
+        const [key, value] = cookie.split('=');
+        acc[key] = value;
         return acc;
     }, {});
+    return cookies[name];
+}
 
-    let authData = {
-        isActive: cookies.gracely_active_session === 'true',
-        isPremium: cookies.is_premium === 'true',
-        configUrl: cookies.gracely_config_url,
-        username: cookies.username
-    };
+function restoreSessionFromBackup() {
+    const isActiveCookie = getCookie('gracely_active_session');
 
-    if (authData.isActive && authData.isPremium) {
-        return authData;
+    if (isActiveCookie === 'true') {
+        return;
     }
 
     try {
@@ -50,18 +48,20 @@ function getAuthStatus() {
             
             if (parsedBackup.isActive && parsedBackup.isPremium) {
                 console.log("Memulihkan sesi auth dari backup localStorage...");
-                
                 setCookiesInternal(parsedBackup.username, parsedBackup.isPremium, parsedBackup.configUrl);
-
-                return parsedBackup;
             }
         }
     } catch (e) {
         console.error("Gagal membaca backup auth", e);
         localStorage.removeItem('gracely_auth');
     }
+}
 
-    return { isActive: false, isPremium: false };
+function getAuthStatus() {
+    const isActive = getCookie('gracely_active_session') === 'true';
+    const isPremium = getCookie('is_premium') === 'true';
+    
+    return { isActive, isPremium };
 }
 
 function logout() {
@@ -77,6 +77,8 @@ function logout() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+    restoreSessionFromBackup();
+
     if (document.body.id === 'login-page' || document.body.id === 'index-page') {
         checkAuth(false);
     } else {
