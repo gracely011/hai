@@ -7,6 +7,7 @@ function initializeScripts() {
 
     const loginForm = document.getElementById('login-form');
     if (loginForm) {
+        // Tambahkan 'async' di sini
         loginForm.addEventListener('submit', async function(event) {
             event.preventDefault();
             const email = document.getElementById('email').value;
@@ -18,6 +19,7 @@ function initializeScripts() {
             submitButton.disabled = true;
             submitButton.textContent = 'Logging in...';
 
+            // Tambahkan 'await' di sini
             const result = await login(email, password);
 
             if (result.success) {
