@@ -1,7 +1,9 @@
 function initializeScripts() {
   "use strict";
   console.log("[DEBUG scripts.js] initializeScripts() dimulai."); // <-- DEBUG AWAL
-
+  console.log('%cgracely', 'color: black; font-size: 60px; font-weight: bold; font-family: "Montserrat", sans-serif;');
+  console.log('%cUnlock Premium Together', 'color: black; font-size: 20px; font-weight: bold; font-family: "Montserrat", sans-serif;');
+  console.log('%ccontact@gracely.id', 'color: black; font-size: 15px; font-weight: bold; font-family: "Montserrat", sans-serif;');
   // ======= Logika untuk Navbar Sticky & Tombol Back-to-Top =======
   window.onscroll = function () {
     const ud_header = document.querySelector(".ud-header");
@@ -180,4 +182,5 @@ function initializeScripts() {
 // Panggil fungsi initializeScripts setelah layout dimuat (ini penting dari layout.js)
 
 // Tidak perlu event listener DOMContentLoaded di sini karena layout.js sudah menanganinya
+
 
