@@ -11,9 +11,9 @@
     <link rel="shortcut icon" href="https://groupy.id/assets/images/favicon.png" type="image/png"/>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="animate.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
     <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet">
-    <link rel="stylesheet" href="ud-styles.css" />
+    <link rel="stylesheet" href="assets/css/ud-styles.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     
@@ -74,12 +74,10 @@
         
         <div class="menu-section">
           <div class="menu-section-header">Extension</div>
-          <a href="https://groupy.id/download/groupy-guard-1.0.4-release.zip" class="menu-item">
-            <span class="icon"><i class="fa fa-download"></i></span> Download Gracely Guard (v1.0.4)
+          <a href="httpsTUTORIAL.zip" class="menu-item"> <span class="icon"><i class="fa fa-download"></i></span> Download Gracely Guard (v1.0.4)
             <span class="chevron">›</span>
           </a>
-          <a href="https://groupy.id/download/groupy-extension-2.3-release.zip" class="menu-item">
-            <span class="icon"><i class="fa fa-download"></i></span> Download Gracely Extension (v2.3)
+          <a href="TUTORIAL.zip" class="menu-item"> <span class="icon"><i class="fa fa-download"></i></span> Download Gracely Extension (v2.3)
             <span class="chevron">›</span>
           </a>
           <a id="openModalBtn" class="menu-item">
@@ -99,21 +97,21 @@
         <div id="videoModal" class="modal">
           <div class="modal-content">
               <video id="videoElement" controls loop width="100%" height="100%">
-              <source src="https://groupy.id/assets/videos/groupy_tutorial_windows_2025.mp4" type="video/mp4">
+              <source src="assets/videos/groupy_tutorial_windows_2025.mp4" type="video/mp4">
               </video>
           </div>
         </div>
         <div id="videoModalKiwi" class="modal">
           <div class="modal-content">
               <video id="videoElementKiwi" controls loop width="40%" height="40%">
-              <source src="https://groupy.id/assets/videos/kiwi_2025.mp4" type="video/mp4">
+              <source src="assets/videos/kiwi_2025.mp4" type="video/mp4">
               </video>
           </div>
         </div>
         <div id="videoModalOrion" class="modal">
           <div class="modal-content">
               <video id="videoElementOrion" controls loop width="40%" height="40%">
-              <source src="https://groupy.id/assets/videos/orion_2025.mp4" type="video/mp4">
+              <source src="assets/videos/orion_2025.mp4" type="video/mp4">
               </video>
           </div>
         </div>
@@ -131,12 +129,9 @@
 
     <div id="back-to-top-placeholder"></div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="wow.min.js"></script>
-    <script src="scripts.js"></script>
-    <script src="layout.js"></script>
-    
-    <script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/main.js"></script> <script src="scripts.js"></script> <script src="layout.js"></script> <script>
         document.addEventListener('DOMContentLoaded', () => {
             const planSection = document.getElementById('plan-status-section');
             const isPremium = localStorage.getItem('isPremium') === 'true';
@@ -147,9 +142,37 @@
                 const today = new Date(); today.setHours(0, 0, 0, 0);
                 const timeLeft = expiryDate.getTime() - today.getTime();
                 const daysLeft = Math.ceil(timeLeft / (1000 * 60 * 60 * 24));
-                planHTML = `<div class="menu-section"><div class="menu-section-mini-header">Your plan</div><div class="menu-section-plan-premium">Premium</div><div class="menu-section-plan-description">You have access to Gracely Extension. <br><strong>Expires on: ${expiryDate.toLocaleDateString()} (${daysLeft} days left)</strong></div></div>`;
+                
+                // Menggunakan markup asli dari Groupy (dengan logo)
+                planHTML = `
+                <div class="menu-section">
+                  <div class="menu-section-mini-header">
+                    Your plan
+                  </div>
+                  <img src="assets/images/logo/groupy_mobile_white.png" alt="Logo" id="logo" class="top-right-image">
+                  <div class="menu-section-plan-premium"> 
+                    Premium
+                  </div>
+                  <div class="menu-section-plan-description">
+                    You have access to Gracely Extension. <br>
+                    <strong>Expires on: ${expiryDate.toLocaleDateString()} (${daysLeft} days left)</strong>
+                  </div>
+                </div>`;
             } else {
-                planHTML = `<div class="menu-section"><div class="menu-section-mini-header">Your plan</div><div class="menu-section-plan-free">No Premium</div><div class="menu-section-plan-description">Premium is required to access Gracely Extension.</div></div>`;
+                // Menggunakan markup asli dari Groupy (dengan logo)
+                planHTML = `
+                <div class="menu-section">
+                  <div class="menu-section-mini-header">
+                    Your plan
+                  </div>
+                  <img src="assets/images/logo/groupy_mobile_white.png" alt="Logo" id="logo" class="top-right-image">
+                  <div class="menu-section-plan-free">
+                    No Premium
+                  </div>
+                  <div class="menu-section-plan-description">
+                    Premium is required to access Gracely Extension.
+                  </div>
+                </div>`;
             }
             planSection.innerHTML = planHTML;
         });
