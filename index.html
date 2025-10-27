@@ -1,60 +1,542 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home | Gracely</title>
+
+    <meta name="title" content="Gracely | Unlock Premium Together">
+    <meta name="description" content="Unlock premium experiences together with our one-click access extension. Join us and start enjoying premium content without the premium price tag.">
     <link rel="shortcut icon" href="https://groupy.id/assets/images/favicon.png" type="image/png" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.lineicons.com/4.0/lineicons.css" />
+    <link rel="stylesheet" href="animate.css" />
+    <link rel="stylesheet" href="ud-styles.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-</head>
-<body>
-    <script src="https://gracely011.github.io/hai/auth.js"></script>
+  </head>
+  <body>
+    <script src="auth.js"></script>
 
     <div id="announcement-placeholder"></div>
     <div id="navbar-placeholder"></div>
-    <div id="login-status-placeholder" style="text-align: center; padding: 10px; font-weight: bold;"></div> 
 
-    <main>
-        <section id="home" class="ud-hero" style="padding-top: 180px; padding-bottom: 80px;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="ud-hero-content wow fadeInUp" data-wow-delay=".2s">
-                            <h1 class="ud-hero-title">Welcome to Gracely!</h1>
-                            <p class="ud-hero-desc">Unlock Premium Together. Join Gracely to access shared premium services easily.</p>
-                            <ul class="ud-hero-buttons">
-                                <li><a href="signup.html" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-white-btn">Sign Up Now</a></li>
-                                <li><a href="#features" rel="nofollow noopener" class="ud-main-btn ud-link-btn">Learn More <i class="fa-solid fa-arrow-right"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
+    <section id="home" class="ud-hero" style="background-image: url(assets/images/hero/hero-bg.png)">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="ud-hero-content wow fadeInUp" data-wow-delay=".2s">
+              <h1 class="ud-hero-title">
+                Unlock Premium Experiences Together
+              </h1>
+              <p class="ud-hero-desc">
+                Join us and start enjoying premium content without the premium
+                price tag. All-in-One premium access.
+              </p>
+              <ul class="ud-hero-buttons">
+                <li>
+                  <a href="./premium" class="ud-main-btn ud-white-btn">
+                    Purchase
+                  </a>
+                </li>
+                <li>
+                  <a
+                    id="openModalBtn"
+                    rel="nofollow noopener"
+                    class="ud-main-btn ud-link-btn"
+                  >
+                    Watch Demo <i class="fa-solid fa-play"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="ud-hero-brands-wrapper wow fadeInUp"
+              data-wow-delay=".3s"
+            >
+              <img src="assets/images/hero/brands.png" alt="brands" />
+            </div>
+            <div class="ud-hero-image wow fadeInUp" data-wow-delay=".25s">
+              <img src="assets/images/hero/hero-image.png" alt="hero-image" />
+              <img
+                src="assets/images/hero/dotted-shape.svg"
+                alt="shape"
+                class="shape shape-1"
+              />
+              <img
+                src="assets://images/hero/dotted-shape.svg"
+                alt="shape"
+                class="shape shape-2"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="videoModal" class="modal">
+      <div class="modal-content">
+        <video id="videoElement" controls loop width="100%" height="100%">
+          <source
+            src="assets/videos/groupy_demo_2025.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+    <section id="features" class="ud-features">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="ud-section-title">
+              <span>Features</span>
+              <h2>Main Features of Groupy</h2>
+              <p>
+                There are many variations of passages of Lorem Ipsum available
+                but the majority have suffered alteration in some form.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-3 col-lg-3 col-sm-6">
+            <div class="ud-single-feature wow fadeInUp" data-wow-delay=".1s">
+              <div class="ud-feature-icon">
+                <i class="fa-solid fa-bolt"></i>
+              </div>
+              <div class="ud-feature-content">
+                <h3 class="ud-feature-title">Instant Access</h3>
+                <p class="ud-feature-desc">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-sm-6">
+            <div class="ud-single-feature wow fadeInUp" data-wow-delay=".15s">
+              <div class="ud-feature-icon">
+                <i class="fa-solid fa-lock"></i>
+              </div>
+              <div class="ud-feature-content">
+                <h3 class="ud-feature-title">Secure & Private</h3>
+                <p class="ud-feature-desc">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-sm-6">
+            <div class="ud-single-feature wow fadeInUp" data-wow-delay=".2s">
+              <div class="ud-feature-icon">
+                <i class="fa-solid fa-rotate"></i>
+              </div>
+              <div class="ud-feature-content">
+                <h3 class="ud-feature-title">Auto-Update</h3>
+                <p class="ud-feature-desc">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-sm-6">
+            <div class="ud-single-feature wow fadeInUp" data-wow-delay=".25s">
+              <div class="ud-feature-icon">
+                <i class="fa-solid fa-headset"></i>
+              </div>
+              <div class="ud-feature-content">
+                <h3 class="ud-feature-title">Fast Support</h3>
+                <p class="ud-feature-desc">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="ud-about">
+      <div class="container">
+        <div class="ud-about-wrapper wow fadeInUp" data-wow-delay=".2s">
+          <div class="ud-about-content-wrapper">
+            <div class="ud-about-content">
+              <span class="tag">About Us</span>
+              <h2>One-Click Access to All Premium Services.</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                facilisi. Sed eu leo consectur, condimentum purus ac, ultrices
+                erat. Aliquam euismod, sapien non scelerisque bibendum, nulla
+                nisl congue arcu, velM facilisis sapien leo at mi.
+              </p>
+
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                facilisi. Sed eu leo consectur, condimentum purus ac, ultrices
+                erat.
+              </p>
+              <a href="javascript:void(0)" class="ud-main-btn">Learn More</a>
+            </div>
+          </div>
+          <div class="ud-about-image">
+            <img src="assets/images/about/about-image.svg" alt="about-image" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="pricing" class="ud-pricing">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="ud-section-title mx-auto text-center">
+              <span>Pricing</span>
+              <h2>Our Pricing Plans</h2>
+              <p>
+                There are many variations of passages of Lorem Ipsum available
+                but the majority have suffered alteration in some form.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row g-0 align-items-center justify-content-center">
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <div
+              class="ud-single-pricing first-item wow fadeInUp"
+              data-wow-delay=".1s"
+            >
+              <div class="ud-pricing-header">
+                <h3>PREMIUM</h3>
+                <h4>Rp35.000/month</h4>
+                <h5><s>Rp50.000</s></h5>
+              </div>
+              <div class="ud-pricing-body">
+                <ul>
+                  <li>Access to <b>30+</b> premium services</li>
+                  <li>Limited access</li>
+                  <li>Standard support</li>
+                  <li>Regular updates</li>
+                </ul>
+              </div>
+              <div class="ud-pricing-footer">
+                <a href="javascript:void(0)" class="ud-main-btn ud-border-btn">
+                  Purchase Now
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <div
+              class="ud-single-pricing active wow fadeInUp"
+              data-wow-delay=".15s"
+            >
+              <span class="ud-popular-tag">RECOMMENDED</span>
+              <div class="ud-pricing-header">
+                <h3>PREMIUM + PRO</h3>
+                <h4>Rp55.000/month</h4>
+                <h5><s>Rp80.000</s></h5>
+              </div>
+              <div class="ud-pricing-body">
+                <ul>
+                  <li>Access to <b>60+</b> premium services</li>
+                  <li>Full access</li>
+                  <li>Priority support</li>
+                  <li>Early updates</li>
+                </ul>
+              </div>
+              <div class="ud-pricing-footer">
+                <a href="javascript:void(0)" class="ud-main-btn ud-white-btn">
+                  Purchase Now
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <div
+              class="ud-single-pricing last-item wow fadeInUp"
+              data-wow-delay=".2s"
+            >
+              <div class="ud-pricing-header">
+                <h3>PREMIUM + THE PHANTOM</h3>
+                <h4>Rp80.000/month</h4>
+                <h5><s>Rp120.000</s></h5>
+              </div>
+              <div class="ud-pricing-body">
+                <ul>
+                  <li>Access to <b>80+</b> premium services</li>
+                  <li>Full access + Phantom</li>
+                  <li>VIP support</li>
+                  <li>Instant updates</li>
+                </ul>
+              </div>
+              <div class="ud-pricing-footer">
+                <a href="javascript:void(0)" class="ud-main-btn ud-border-btn">
+                  Purchase Now
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services" class="ud-services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="ud-section-title mx-auto text-center">
+              <span>Services</span>
+              <h2>Our Premium Service List</h2>
+              <p>
+                We provide access to a wide range of premium services to meet
+                your needs.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <ul
+          class="nav nav-tabs justify-content-center mb-4"
+          id="servicesTab"
+          role="tablist"
+        >
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="premium-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#premium"
+              type="button"
+              role="tab"
+              aria-controls="premium"
+              aria-selected="true"
+            >
+              Premium
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="pro-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#pro"
+              type="button"
+              role="tab"
+              aria-controls="pro"
+              aria-selected="false"
+            >
+              Pro Exclusive
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="phantom-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#phantom"
+              type="button"
+              role="tab"
+              aria-controls="phantom"
+              aria-selected="false"
+            >
+              The Phantom Exclusive
+            </button>
+          </li>
+        </ul>
+
+        <div class="tab-content" id="servicesTabContent">
+          <div
+            class="tab-pane fade show active"
+            id="premium"
+            role="tabpanel"
+            aria-labelledby="premium-tab"
+          >
+            <div class="ud-brands-logo">
+              <div class="ud-single-logo wow fadeInUp" data-wow-delay=".1s">
+                <img src="assets/images/services/chatgpt.png" alt="ChatGPT" />
+                <div class="image-text">ChatGPT</div>
+              </div>
+              <div class="ud-single-logo wow fadeInUp" data-wow-delay=".1s">
+                <img src="assets/images/services/netflix.png" alt="Netflix" />
+                <div class="image-text">Netflix</div>
+              </div>
+              </div>
+          </div>
+
+          <div
+            class="tab-pane fade"
+            id="pro"
+            role="tabpanel"
+            aria-labelledby="pro-tab"
+          >
+            <div class="ud-brands-logo">
+              <div class="ud-single-logo wow fadeInUp" data-wow-delay=".1s">
+                <img src="assets/images/services/claude.png" alt="Claude AI" />
+                <div class="image-text">Claude AI</div>
+              </div>
+              <div class="ud-single-logo wow fadeInUp" data-wow-delay=".1s">
+                <img
+                  src="assets/images/services/perplexity.png"
+                  alt="Perplexity AI"
+                />
+                <div class="image-text">Perplexity AI</div>
+              </div>
+              </div>
+          </div>
+
+          <div
+            class="tab-pane fade"
+            id="phantom"
+            role="tabpanel"
+            aria-labelledby="phantom-tab"
+          >
+            <div class="ud-brands-logo">
+              <div class="ud-single-logo wow fadeInUp" data-wow-delay=".1s">
+                <img src="assets/images/services/investingpro.png" alt="InvestingPro" />
+                <div class="image-text">InvestingPro</div>
+              </div>
+              <div class="ud-single-logo wow fadeInUp" data-wow-delay=".1s">
+                <img src="assets/images/services/wsj.png" alt="Wall Street Journal" />
+                <div class="image-text">Wall Street Journal</div>
+              </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="faq" class="ud-faq">
+      <div class="shape">
+        <img src="assets/images/faq/shape.svg" alt="shape" />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="ud-section-title text-center">
+              <span>FAQ</span>
+              <h2>Any Questions? Answered</h2>
+              <p>
+                There are many variations of passages of Lorem Ipsum available
+                but the majority have suffered alteration in some form.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="ud-single-faq wow fadeInUp" data-wow-delay=".1s">
+              <div class="accordion">
+                <button
+                  class="ud-faq-btn collapsed"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                >
+                  <span class="icon flex-shrink-0"
+                    ><i class="fa-solid fa-chevron-down"></i
+                  ></span>
+                  <span>How to use Groupy extension?</span>
+                </button>
+                <div id="collapseOne" class="accordion-collapse collapse">
+                  <div class="ud-faq-body">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book.
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          <div class="col-lg-6">
+            <div class="ud-single-faq wow fadeInUp" data-wow-delay=".15s">
+              <div class="accordion">
+                <button
+                  class="ud-faq-btn collapsed"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                >
+                  <span class="icon flex-shrink-0"
+                    ><i class="fa-solid fa-chevron-down"></i
+                  ></span>
+                  <span>Is Groupy free to use?</span>
+                </button>
+                <div id="collapseFour" class="accordion-collapse collapse">
+                  <div class="ud-faq-body">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="ud-contact">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-xl-8 col-lg-7">
+            <div class="ud-contact-content-wrapper">
+              <div class="ud-contact-title">
+                <span>CONTACT US</span>
+                <h2>
+                  Let’s talk about <br />
+                  love to hear from you!
+                </h2>
+              </div>
+              <div class="ud-contact-info-wrapper">
+                <div class="ud-single-info">
+                  <div class="ud-info-icon">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                  </div>
+                  <div class="ud-info-meta">
+                    <h5>Our Location</h5>
+                    <p>401 Broadway, 24th Floor, Orchard Cloud, Singapore</p>
+                  </div>
+                </div>
                 </div>
             </div>
-        </section>
-        
-        <section id="features" style="padding-top: 80px; padding-bottom: 80px;">
-             <div class="container"><h2>Features Placeholder</h2></div>
-        </section>
-        <section id="about" style="padding-top: 80px; padding-bottom: 80px; background: #f8f9fa;">
-             <div class="container"><h2>About Us Placeholder</h2></div>
-        </section>
-        <section id="pricing" style="padding-top: 80px; padding-bottom: 80px;">
-             <div class="container"><h2>Pricing Placeholder</h2></div>
-        </section>
-        <section id="services" style="padding-top: 80px; padding-bottom: 80px; background: #f8f9fa;">
-             <div class="container"><h2>Our Services Placeholder</h2></div>
-        </section>
-        <section id="contact" style="padding-top: 80px; padding-bottom: 80px;">
-             <div class="container"><h2>Contact Us Placeholder</h2></div>
-        </section>
-    </main>
-
+          </div>
+          <div class="col-xl-4 col-lg-5">
+            <div
+              class="ud-contact-form-wrapper wow fadeInUp"
+              data-wow-delay=".2s"
+            >
+              <h3 class="ud-contact-form-title">Send us a Message</h3>
+              <form class="ud-contact-form">
+                <div class="ud-form-group">
+                  <label for="fullName">Full Name*</label>
+                  <input
+                    type="text"
+                    name="fullName"
+                    placeholder="John Doe"
+                  />
+                </div>
+                <div class="ud-form-group mb-0">
+                  <button type="submit" class="ud-main-btn">
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <div id="footer-placeholder"></div>
+
     <div id="back-to-top-placeholder"></div>
 
-    <script src="https://gracely011.github.io/hai/wow.min.js"></script>
-    <script src="https://gracely011.github.io/hai/scripts.js"></script>
-    <script src="https://gracely011.github.io/hai/layout.js"></script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="wow.min.js"></script>
+    <script src="scripts.js"></script>
+    <script src="layout.js"></script>
+  </body>
 </html>
