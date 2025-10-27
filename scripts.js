@@ -1,9 +1,11 @@
 function initializeScripts() {
   "use strict";
-  console.log("[DEBUG scripts.js] initializeScripts() dimulai."); // <-- DEBUG AWAL
+  // ===== Logo Console =====
   console.log('%cgracely', 'color: black; font-size: 60px; font-weight: bold; font-family: "Montserrat", sans-serif;');
   console.log('%cUnlock Premium Together', 'color: black; font-size: 20px; font-weight: bold; font-family: "Montserrat", sans-serif;');
   console.log('%ccontact@gracely.id', 'color: black; font-size: 15px; font-weight: bold; font-family: "Montserrat", sans-serif;');
+  // ========================
+
   // ======= Logika untuk Navbar Sticky & Tombol Back-to-Top =======
   window.onscroll = function () {
     const ud_header = document.querySelector(".ud-header");
@@ -87,6 +89,9 @@ function initializeScripts() {
 
   // ======= Logika untuk Semua Video Modal =======
     const modals = [
+        // Modal Demo di Index
+        { btnId: "openModalBtnDemo", modalId: "videoModalDemo", videoId: "videoElementDemo" },
+        // Modal Tutorial di Dashboard
         { btnId: "openModalBtn", modalId: "videoModal", videoId: "videoElement" },
         { btnId: "openModalBtnKiwi", modalId: "videoModalKiwi", videoId: "videoElementKiwi" },
         { btnId: "openModalBtnOrion", modalId: "videoModalOrion", videoId: "videoElementOrion" }
@@ -101,7 +106,11 @@ function initializeScripts() {
             openBtn.addEventListener("click", () => {
                 videoModal.style.display = "block";
                 videoElement.currentTime = 0;
-                videoElement.play();
+                // Penanganan error jika video gagal dimuat
+                videoElement.play().catch(error => {
+                    console.error(`Error playing video ${modalInfo.videoId}:`, error);
+                    // Anda bisa tambahkan pesan error ke UI di sini jika mau
+                });
             });
 
             window.addEventListener("click", (event) => {
@@ -116,10 +125,8 @@ function initializeScripts() {
   // ======= Logika Form Login =======
   const loginForm = document.getElementById("login-form");
   if (loginForm) {
-    console.log("[DEBUG scripts.js] Event listener untuk #login-form ditambahkan."); // <-- DEBUG LISTENER
     loginForm.addEventListener("submit", async (event) => {
       event.preventDefault();
-      console.log("[DEBUG scripts.js] Form #login-form disubmit."); // <-- DEBUG SUBMIT
 
       let errorMessage = document.getElementById("error-message");
       if (!errorMessage) {
@@ -128,59 +135,42 @@ function initializeScripts() {
           errorMessage.style.color = 'red';
           errorMessage.style.marginTop = '15px';
           const buttonContainer = loginForm.querySelector('.ud-form-group');
-          // Periksa apakah buttonContainer ditemukan sebelum menyisipkan
           if (buttonContainer) {
              loginForm.insertBefore(errorMessage, buttonContainer);
           } else {
-             loginForm.appendChild(errorMessage); // Fallback jika .ud-form-group tidak ada
-             console.warn("[DEBUG scripts.js] .ud-form-group tidak ditemukan, error message ditambahkan di akhir form.");
+             loginForm.appendChild(errorMessage);
           }
       }
       errorMessage.textContent = '';
 
-      const emailInput = document.getElementById('email'); // Ambil elemen input
-      const passwordInput = document.getElementById('password'); // Ambil elemen input
-
-      // Pastikan elemen input ada sebelum mengambil value
+      const emailInput = document.getElementById('email');
+      const passwordInput = document.getElementById('password');
       const email = emailInput ? emailInput.value.trim() : '';
       const password = passwordInput ? passwordInput.value.trim() : '';
-      console.log(`[DEBUG scripts.js] Email: ${email}, Password: *****`); // <-- DEBUG KREDENSIAL
 
       if (!email || !password) {
         errorMessage.textContent = "Email dan password tidak boleh kosong.";
-        console.log("[DEBUG scripts.js] Login gagal: Email atau password kosong."); // <-- DEBUG VALIDASI
         return;
       }
 
-      console.log("[DEBUG scripts.js] Memanggil fungsi login() dari auth.js..."); // <-- DEBUG PANGGIL AUTH.JS
-      const result = await login(email, password); // Ini memanggil auth.js
-      console.log("[DEBUG scripts.js] Hasil dari auth.js:", result); // <-- DEBUG HASIL AUTH.JS
+      const result = await login(email, password); // Memanggil auth.js
 
       if (result.success) {
-        console.log("[DEBUG scripts.js] Login sukses, redirect ke dashboard.html"); // <-- DEBUG SUKSES
-        window.location.href = "https://gracely011.github.io/hai/dashboard.html";
+        // Alamat lengkap tetap diperlukan untuk GitHub Pages
+        window.location.href = "https://gracely011.github.io/hai/dashboard.html"; 
       } else {
         errorMessage.textContent = result.message;
-        console.log("[DEBUG scripts.js] Login gagal dari auth.js:", result.message); // <-- DEBUG GAGAL
       }
     });
-  } else {
-      console.warn("[DEBUG scripts.js] Elemen #login-form tidak ditemukan."); // <-- DEBUG FORM TIDAK ADA
   }
 
   // ======= Logika Tombol Logout =======
   document.body.addEventListener('click', function(event) {
-    if (event.target && event.target.id === 'logout-button') {
-        console.log("[DEBUG scripts.js] Tombol logout ditekan."); // <-- DEBUG LOGOUT
-        logout(); // Ini memanggil auth.js
+    // Gunakan .closest() untuk target yang lebih fleksibel
+    if (event.target.closest('#logout-button')) { 
+        logout(); // Memanggil auth.js
     }
   });
 
-  console.log("[DEBUG scripts.js] initializeScripts() selesai."); // <-- DEBUG AKHIR
 }
-
-// Panggil fungsi initializeScripts setelah layout dimuat (ini penting dari layout.js)
-
-// Tidak perlu event listener DOMContentLoaded di sini karena layout.js sudah menanganinya
-
-
+// Fungsi initializeScripts() akan dipanggil oleh layout.js setelah DOM siap
