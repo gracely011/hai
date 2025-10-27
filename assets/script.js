@@ -56,9 +56,10 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    console.log('%cgroupy', 'color: black; font-size: 60px; font-weight: bold; font-family: "Montserrat", sans-serif;');
-    console.log('%cUnlock Premium Together', 'color: black; font-size: 20px; font-weight: bold; font-family: "Montserrat", sans-serif;');
-    console.log('%ccontact@groupy.id', 'color: black; font-size: 15px; font-weight: bold; font-family: "Montserrat", sans-serif;');
+  console.log('%cgracely', 'color: black; font-size: 60px; font-weight: bold; font-family: "Montserrat", sans-serif;');
+  console.log('%cUnlock Premium Together', 'color: black; font-size: 20px; font-weight: bold; font-family: "Montserrat", sans-serif;');
+  console.log('%ccontact@gracely.id', 'color: black; font-size: 15px; font-weight: bold; font-family: "Montserrat", sans-serif;');
+
 
     let currentNotification = 0;
     const notifications = document.querySelectorAll(".notificationModal");
@@ -88,4 +89,58 @@ document.addEventListener("DOMContentLoaded", () => {
   
     // Expose the closeNotification function to the global scope
     window.closeNotification = closeNotification;
+
 });
+
+// ======= Logika Form Login =======
+  const loginForm = document.getElementById("login-form");
+  if (loginForm) {
+    loginForm.addEventListener("submit", async (event) => {
+      event.preventDefault();
+
+      let errorMessage = document.getElementById("error-message");
+      if (!errorMessage) {
+          errorMessage = document.createElement('p');
+          errorMessage.id = 'error-message';
+          errorMessage.style.color = 'red';
+          errorMessage.style.marginTop = '15px';
+          const buttonContainer = loginForm.querySelector('.ud-form-group');
+          if (buttonContainer) {
+             loginForm.insertBefore(errorMessage, buttonContainer);
+          } else {
+             loginForm.appendChild(errorMessage);
+          }
+      }
+      errorMessage.textContent = '';
+
+      const emailInput = document.getElementById('email');
+      const passwordInput = document.getElementById('password');
+      const email = emailInput ? emailInput.value.trim() : '';
+      const password = passwordInput ? passwordInput.value.trim() : '';
+
+      if (!email || !password) {
+        errorMessage.textContent = "Email dan password tidak boleh kosong.";
+        return;
+      }
+
+      const result = await login(email, password); // Memanggil auth.js
+
+      if (result.success) {
+        // Alamat lengkap tetap diperlukan untuk GitHub Pages
+        window.location.href = "https://gracely011.github.io/hai/dashboard.html"; 
+      } else {
+        errorMessage.textContent = result.message;
+      }
+    });
+  }
+
+  // ======= Logika Tombol Logout =======
+  document.body.addEventListener('click', function(event) {
+    // Gunakan .closest() untuk target yang lebih fleksibel
+    if (event.target.closest('#logout-button')) { 
+        logout(); // Memanggil auth.js
+    }
+  });
+
+}
+// Fungsi initializeScripts() akan dipanggil oleh layout.js setelah DOM siap
