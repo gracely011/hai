@@ -1,72 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard | Gracely</title>
-    <link rel="shortcut icon" href="https://groupy.id/assets/images/favicon.png" type="image/png" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <meta name="title" content="Dashboard | Gracely">
+    <meta name="description" content="Manage your Gracely account and download extensions.">
+    <link rel="shortcut icon" href="https://groupy.id/assets/images/favicon.png" type="image/png"/>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="animate.css" />
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet">
+    <link rel="stylesheet" href="ud-styles.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     
     <script src="auth.js"></script>
     <script>requireAuth();</script>
-</head>
-<body>
+  </head>
+  <body>
     <div id="announcement-placeholder"></div>
     <div id="navbar-placeholder"></div>
-    <div id="login-status-placeholder" style="text-align: center; padding: 10px; font-weight: bold;"></div>
-
-    <main>
-        <section class="ud-page-banner">
-            <div class="container"><div class="row"><div class="col-lg-12"><div class="ud-banner-content"><h1>Dashboard</h1></div></div></div></div>
-        </section>
-        <section class="dashboard">
-            <div class="container">
-                
-                <div id="plan-status-section"></div>
-
-                <div class="menu-section">
-                    <div class="menu-section-header">Account</div>
-                    <a href="#" class="menu-item"><span class="icon"><i class="fa fa-pen-to-square"></i></span> Edit profile <span class="chevron">›</span></a>
-                    <a href="#" class="menu-item"><span class="icon"><i class="fa fa-clock"></i></span> Activity logs <span class="chevron">›</span></a>
-                    <a href="#" class="menu-item"><span class="icon"><i class="fa-brands fa-discord"></i></span> Manage Discord connection <span class="chevron">›</span></a>
-                </div>
-                
-                <div class="menu-section">
-                    <div class="menu-section-header">Premium</div>
-                    <a href="#" class="menu-item"><span class="icon"><i class="fa fa-shopping-cart"></i></span> Purchase premium <span class="chevron">›</span></a>
-                    <a href="#" class="menu-item"><span class="icon"><i class="fa fa-paperclip"></i></span> Order history <span class="chevron">›</span></a>
-                    <a href="#" class="menu-item"><span class="icon"><i class="fa fa-right-left"></i></span> Convert Premium plan <span class="chevron">›</span></a>
-                </div>
-
-                <div class="menu-section">
-                    <div class="menu-section-header">Extension</div>
-                    <a href="#" class="menu-item"><span class="icon"><i class="fa fa-download"></i></span> Download Gracely Guard (v1.0.4) <span class="chevron">›</span></a>
-                    <a href="#" class="menu-item"><span class="icon"><i class="fa fa-download"></i></span> Download Gracely Extension (v2.3) <span class="chevron">›</span></a>
-                    <a id="openModalBtn" class="menu-item"><span class="icon"><i class="fa fa-play"></i></span> Watch video (Windows/macOS/Linux) <span class="chevron">›</span></a>
-                    <a id="openModalBtnKiwi" class="menu-item"><span class="icon"><i class="fa fa-play"></i></span> Watch video (Android with Kiwi Browser) <span class="chevron">›</span></a>
-                    <a id="openModalBtnOrion" class="menu-item"><span class="icon"><i class="fa fa-play"></i></span> Watch video (iOS with Orion Browser) <span class="chevron">›</span></a>
-                </div>
-
-                <div class="menu-section">
-                    <div class="menu-section-header">Service</div>
-                    <a href="#" class="menu-item"><span class="icon"><i class="fa fa-flag"></i></span> Report service <span class="chevron">›</span></a>
-                </div>
-            </div>
-        </section>
-        
-        <div id="videoModal" class="modal"><div class="modal-content"><video id="videoElement" controls loop width="100%"><source src="https://groupy.id/assets/videos/groupy_tutorial_windows_2025.mp4" type="video/mp4"></video></div></div>
-        <div id="videoModalKiwi" class="modal"><div class="modal-content"><video id="videoElementKiwi" controls loop width="40%"><source src="https://groupy.id/assets/videos/kiwi_2025.mp4" type="video/mp4"></video></div></div>
-        <div id="videoModalOrion" class="modal"><div class="modal-content"><video id="videoElementOrion" controls loop width="40%"><source src="https://groupy.id/assets/videos/orion_2025.mp4" type="video/mp4"></video></div></div>
-    </main>
-
-    <div id="footer-placeholder"></div>
-    <div id="back-to-top-placeholder"></div>
     
+    <section class="ud-page-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="ud-banner-content">
+              <h1>Dashboard</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="dashboard">
+      <div class="container">
+
+        <div id="plan-status-section"></div>
+
+        <div class="menu-section">
+          <div class="menu-section-header">Account</div>
+          <a href="#" class="menu-item">
+            <span class="icon"><i class="fa fa-pen-to-square" aria-hidden="true"></i></span> Edit profile
+            <span class="chevron">›</span>
+          </a>
+          <a href="#" class="menu-item">
+            <span class="icon"><i class="fa fa-clock" aria-hidden="true"></i></span> Activity logs
+            <span class="chevron">›</span>
+          </a>
+          <a href="#" class="menu-item">
+            <span class="icon"><i class="fa-brands fa-discord" aria-hidden="true"></i></span> Manage Discord connection
+            <span class="chevron">›</span>
+          </a>
+        </div>
+        
+        <div class="menu-section">
+          <div class="menu-section-header">Premium</div>
+          <a href="#" class="menu-item">
+            <span class="icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></span> Purchase premium
+            <span class="chevron">›</span>
+          </a>
+          <a href="#" class="menu-item">
+            <span class="icon"><i class="fa fa-paperclip" aria-hidden="true"></i></span> Order history
+            <span class="chevron">›</span>
+          </a>
+          <a href="#" class="menu-item">
+            <span class="icon"><i class="fa fa-right-left"></i></span> Convert Premium plan
+            <span class="chevron">›</span>
+          </a>
+        </div>
+        
+        <div class="menu-section">
+          <div class="menu-section-header">Extension</div>
+          <a href="https://groupy.id/download/groupy-guard-1.0.4-release.zip" class="menu-item">
+            <span class="icon"><i class="fa fa-download"></i></span> Download Gracely Guard (v1.0.4)
+            <span class="chevron">›</span>
+          </a>
+          <a href="https://groupy.id/download/groupy-extension-2.3-release.zip" class="menu-item">
+            <span class="icon"><i class="fa fa-download"></i></span> Download Gracely Extension (v2.3)
+            <span class="chevron">›</span>
+          </a>
+          <a id="openModalBtn" class="menu-item">
+            <span class="icon"><i class="fa fa-play"></i></span> Watch video (Windows/macOS/Linux)
+            <span class="chevron">›</span>
+          </a>
+          <a id="openModalBtnKiwi" class="menu-item">
+            <span class="icon"><i class="fa fa-play"></i></span> Watch video (Android with Kiwi Browser)
+            <span class="chevron">›</span>
+          </a>
+          <a id="openModalBtnOrion" class="menu-item">
+            <span class="icon"><i class="fa fa-play"></i></span> Watch video (iOS with Orion Browser)
+            <span class="chevron">›</span>
+          </a>
+        </div>
+
+        <div id="videoModal" class="modal">
+          <div class="modal-content">
+              <video id="videoElement" controls loop width="100%" height="100%">
+              <source src="https://groupy.id/assets/videos/groupy_tutorial_windows_2025.mp4" type="video/mp4">
+              </video>
+          </div>
+        </div>
+        <div id="videoModalKiwi" class="modal">
+          <div class="modal-content">
+              <video id="videoElementKiwi" controls loop width="40%" height="40%">
+              <source src="https://groupy.id/assets/videos/kiwi_2025.mp4" type="video/mp4">
+              </video>
+          </div>
+        </div>
+        <div id="videoModalOrion" class="modal">
+          <div class="modal-content">
+              <video id="videoElementOrion" controls loop width="40%" height="40%">
+              <source src="https://groupy.id/assets/videos/orion_2025.mp4" type="video/mp4">
+              </video>
+          </div>
+        </div>
+
+        <div class="menu-section">
+          <div class="menu-section-header">Service</div>
+          <a href="#" class="menu-item">
+            <span class="icon"><i class="fa fa-flag"></i></span> Report service
+            <span class="chevron">›</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <div id="footer-placeholder"></div>
+
+    <div id="back-to-top-placeholder"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="wow.min.js"></script>
     <script src="scripts.js"></script>
     <script src="layout.js"></script>
-
+    
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const planSection = document.getElementById('plan-status-section');
@@ -85,5 +154,5 @@
             planSection.innerHTML = planHTML;
         });
     </script>
-</body>
+  </body>
 </html>
