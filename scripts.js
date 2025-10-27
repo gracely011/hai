@@ -17,9 +17,9 @@ function initializeScripts() {
 
     if (logo) {
       if (ud_header.classList.contains("sticky")) {
-        logo.src = "https://groupy.id/assets/images/logo/groupy_mobile_black.png";
+        logo.src = "assets/images/logo/groupy_mobile_black.png";
       } else {
-        logo.src = "https://groupy.id/assets/images/logo/groupy_mobile_white.png";
+        logo.src = "assets/images/logo/groupy_mobile_white.png";
       }
     }
 
@@ -180,3 +180,4 @@ function initializeScripts() {
 // Panggil fungsi initializeScripts setelah layout dimuat (ini penting dari layout.js)
 
 // Tidak perlu event listener DOMContentLoaded di sini karena layout.js sudah menanganinya
+
