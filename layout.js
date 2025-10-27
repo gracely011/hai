@@ -8,7 +8,7 @@ const defaultNavbarHTML = `
       <div class="col-lg-12">
         <nav class="navbar navbar-expand-lg">
           <a class="navbar-brand" href="index.html">
-            <img src="assets/images/logo/groupy_mobile_white.png" alt="Logo" id="logo" />
+            <img src="assets/images/logo/gracely_mobile_white.png" alt="Logo" id="logo" />
           </a>
           <button class="navbar-toggler">
             <span class="toggler-icon"></span><span class="toggler-icon"></span><span class="toggler-icon"></span>
@@ -40,7 +40,7 @@ const loggedInNavbarHTML = (userName) => `
       <div class="col-lg-12">
         <nav class="navbar navbar-expand-lg">
           <a class="navbar-brand" href="index.html">
-             <img src="assets/images/logo/groupy_mobile_white.png" alt="Logo" id="logo" />
+             <img src="assets/images/logo/gracely_mobile_white.png" alt="Logo" id="logo" />
           </a>
           <button class="navbar-toggler">
             <span class="toggler-icon"></span><span class="toggler-icon"></span><span class="toggler-icon"></span>
@@ -83,19 +83,19 @@ const footerHTML = `
         <div class="col-xl-3 col-lg-4 col-md-6">
           <div class="ud-widget">
             <a href="./" class="ud-footer-logo">
-              <img src="assets/images/logo/groupy_white.png" alt="logo" />
+              <img src="assets/images/logo/gracely_white.png" alt="logo" />
             </a>
             <p class="ud-widget-desc">
             Unlock Premium Together
             </p>
             <ul class="ud-widget-socials">
               <li>
-                <a href="https://instagram.com/groupy.id">
+                <a href="#">
                   <i class="fa-brands fa-instagram"></i>
                 </a>
               </li>
               <li>
-                <a href="https://discord.gg/groupy">
+                <a href="#">
                   <i class="fa-brands fa-discord"></i>
                 </a>
               </li>
@@ -135,10 +135,10 @@ const footerHTML = `
             <h5 class="ud-widget-title">Partners</h5>
             <ul class="ud-widget-brands">
               <li>
-                <a href="https://tripay.co.id/" rel="nofollow noopener" target="_blank">
+                <a href="#" rel="nofollow noopener" target="_blank">
                   <img src="https://tripay.co.id/new-template/images/logo-dark.png" alt="TriPay">
                 </a>
-                <a href="https://cloudflare.com/" rel="nofollow noopener" target="_blank">
+                <a href="#" rel="nofollow noopener" target="_blank">
                   <img src="https://companieslogo.com/img/orig/NET_BIG.D-52893f5e.png" alt="Cloudflare">
                 </a>
               </li>
@@ -235,3 +235,4 @@ function loadLayout() {
 }
 
 document.addEventListener("DOMContentLoaded", loadLayout);
+
