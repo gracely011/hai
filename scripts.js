@@ -21,9 +21,9 @@ function initializeScripts() {
 
     if (logo) {
       if (ud_header.classList.contains("sticky")) {
-        logo.src = "assets/images/logo/groupy_mobile_black.png";
+        logo.src = "assets/images/logo/gracely_mobile_black.png";
       } else {
-        logo.src = "assets/images/logo/groupy_mobile_white.png";
+        logo.src = "assets/images/logo/gracely_white_text.png";
       }
     }
 
@@ -174,3 +174,4 @@ function initializeScripts() {
 
 }
 // Fungsi initializeScripts() akan dipanggil oleh layout.js setelah DOM siap
+
