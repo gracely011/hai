@@ -65,30 +65,108 @@ const loggedInNavbarHTML = (userName) => `
 </header>
 `;
 
+// [PERBAIKAN] Kode footer lengkap dari Groupy
 const footerHTML = `
 <footer class="ud-footer" data-wow-delay=".15s">
-    <div class="shape shape-1"><img src="assets/images/footer/leftshape.png" alt="shape"/></div>
-    <div class="shape shape-2"><img src="assets/images/footer/dotted-shape.svg" alt="shape"/></div>
-    <div class="shape shape-3"><img src="assets/images/footer/rightshape.png" alt="shape"/></div>
-    <div class="ud-footer-widgets">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-3 col-lg-4 col-md-6"><div class="ud-widget"><a href="index.html" class="ud-footer-logo"><img src="assets/images/logo/groupy_white.png" alt="logo"/></a><p class="ud-widget-desc">Unlock Premium Together</p><ul class="ud-widget-socials"><li><a href="#"><i class="fa-brands fa-instagram"></i></a></li><li><a href="#"><i class="fa-brands fa-discord"></i></a></li></ul></div></div>
-                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6"><div class="ud-widget"><h5 class="ud-widget-title">About</h5><ul class="ud-widget-links"><li><a href="index.html#features">Features</a></li><li><a href="index.html#about">About</a></li><li><a href="index.html#pricing">Pricing</a></li><li><a href="index.html#services">Services</a></li></ul></div></div>
-                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6"><div class="ud-widget"><h5 class="ud-widget-title">Dashboard</h5><ul class="ud-widget-links"><li><a href="dashboard.html">View dashboard <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li><li><a href="#">Purchase premium <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li></ul></div></div>
-                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6"><div class="ud-widget"><h5 class="ud-widget-title">Extension</h5><ul class="ud-widget-links"><li><a href="dashboard.html">Download extension <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li></ul></div></div>
-                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-10"><div class="ud-widget"><h5 class="ud-widget-title">Partners</h5><ul class="ud-widget-brands"><li><a href="#" rel="nofollow noopener" target="_blank"><img src="httpsid/new-template/images/logo-dark.png" alt="TriPay"></a><a href="#" rel="nofollow noopener" target="_blank"><img src="https://companieslogo.com/img/orig/NET_BIG.D-52893f5e.png" alt="Cloudflare"></a></li></ul></div></div>
-            </div>
+  <div class="shape shape-1">
+    <img src="assets/images/footer/leftshape.png" alt="shape" />
+  </div>
+  <div class="shape shape-2">
+    <img src="assets/images/footer/dotted-shape.svg" alt="shape" />
+  </div>
+  <div class="shape shape-3">
+    <img src="assets/images/footer/rightshape.png" alt="shape" />
+  </div>
+  <div class="ud-footer-widgets">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-3 col-lg-4 col-md-6">
+          <div class="ud-widget">
+            <a href="./" class="ud-footer-logo">
+              <img src="assets/images/logo/groupy_white.png" alt="logo" />
+            </a>
+            <p class="ud-widget-desc">
+            Unlock Premium Together
+            </p>
+            <ul class="ud-widget-socials">
+              <li>
+                <a href="https://instagram.com/groupy.id">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://discord.gg/groupy">
+                  <i class="fa-brands fa-discord"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </div>
-    <div class="ud-footer-bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8"><ul class="ud-footer-bottom-left"><li><a href="#">Privacy Policy</a></li><li><a href="#">Terms of Service</a></li><li><a href="index.html#contact">Contact Us</a></li></ul></div>
-                <div class="col-md-4"><p class="ud-footer-bottom-right">Gracely © 2023-2025</p></div>
-            </div>
+        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
+          <div class="ud-widget">
+            <h5 class="ud-widget-title">About</h5>
+            <ul class="ud-widget-links">
+              <li><a href="index.html#features">Features</a></li>
+              <li><a href="index.html#about">About</a></li>
+              <li><a href="index.html#pricing">Pricing</a></li>
+              <li><a href="index.html#services">Services</a></li>
+            </ul>
+          </div>
         </div>
+        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
+          <div class="ud-widget">
+            <h5 class="ud-widget-title">Dashboard</h5>
+            <ul class="ud-widget-links">
+              <li><a href="dashboard.html" rel="nofollow noopener">View dashboard <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+              <li><a href="signup.html" rel="nofollow noopener">Purchase premium <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
+          <div class="ud-widget">
+            <h5 class="ud-widget-title">Extension</h5>
+            <ul class="ud-widget-links">
+              <li><a href="dashboard.html" rel="nofollow noopener">Download extension <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-10">
+          <div class="ud-widget">
+            <h5 class="ud-widget-title">Partners</h5>
+            <ul class="ud-widget-brands">
+              <li>
+                <a href="https://tripay.co.id/" rel="nofollow noopener" target="_blank">
+                  <img src="https://tripay.co.id/new-template/images/logo-dark.png" alt="TriPay">
+                </a>
+                <a href="https://cloudflare.com/" rel="nofollow noopener" target="_blank">
+                  <img src="https://companieslogo.com/img/orig/NET_BIG.D-52893f5e.png" alt="Cloudflare">
+                </a>
+              </li>
+            </ul> </div>
+        </div>
+      </div>
     </div>
+  </div>
+  <div class="ud-footer-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <ul class="ud-footer-bottom-left">
+            <li><a href="#">Privacy Policy</a></li> <li><a href="#">Terms of Service</a></li> <li><a href="index.html#contact">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <p class="ud-footer-bottom-right">Gracely &copy; 2023-2025</p>
+          <p class="ud-footer-bottom-right">
+          This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a> and <a href="https://policies.google.com/terms" target="_blank">Terms of Service</a> apply.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="groupy-wave" style="margin-top:-23px">
+      <div class="bg-white" style="margin-top:0px;height:23px"></div><div class="bg-white" style="margin-top:1px;height:22px"></div><div class="bg-white" style="margin-top:2px;height:21px"></div><div class="bg-white" style="margin-top:3px;height:20px"></div><div class="bg-white" style="margin-top:4px;height:19px"></div><div class="bg-white" style="margin-top:5px;height:18px"></div><div class="bg-white" style="margin-top:6px;height:17px"></div><div class="bg-white" style="margin-top:7px;height:16px"></div><div class="bg-white" style="margin-top:8px;height:15px"></div><div class="bg-white" style="margin-top:9px;height:14px"></div><div class="bg-white" style="margin-top:10px;height:13px"></div><div class="bg-white" style="margin-top:11px;height:12px"></div><div class="bg-white" style="margin-top:12px;height:11px"></div><div class="bg-white" style="margin-top:13px;height:10px"></div><div class="bg-white" style="margin-top:14px;height:9px"></div><div class="bg-white" style="margin-top:15px;height:8px"></div><div class="bg-white" style="margin-top:16px;height:7px"></div><div class="bg-white" style="margin-top:17px;height:6px"></div><div class="bg-white" style="margin-top:18px;height:5px"></div><div class="bg-white" style="margin-top:19px;height:4px"></div><div class="bg-white" style="margin-top:20px;height:3px"></div><div class="bg-white" style="margin-top:21px;height:2px"></div><div class="bg-white" style="margin-top:22px;height:1px"></div><div class="bg-white" style="margin-top:23px;height:0px"></div>
+  </div>
 </footer>
 `;
 
@@ -96,11 +174,12 @@ const backToTopHTML = `<a href="javascript:void(0)" class="back-to-top"><i class
 
 /**
  * [FUNGSI DIPERBARUI]
- * Fungsi ini sekarang menargetkan tombol di index.html Groupy yang asli.
+ * Fungsi ini menargetkan tombol di index.html Groupy yang asli.
  */
 function modifyIndexPageContent() {
     const path = window.location.pathname;
-    const isIndexPage = path.endsWith('/') || path.endsWith('index.html') || path.endsWith('hai/');
+    // Diperbarui agar cocok dengan path GitHub Pages
+    const isIndexPage = path.endsWith('/') || path.endsWith('/hai/') || path.endsWith('index.html'); 
 
     if (!isIndexPage) {
         return;
@@ -109,14 +188,14 @@ function modifyIndexPageContent() {
     if (typeof isAuthenticated === 'function' && isAuthenticated()) {
         // Cari tombol "Purchase" dan "Watch Demo" di hero section
         const purchaseButton = document.querySelector('#home .ud-hero-buttons .ud-white-btn');
-        const demoButton = document.querySelector('#home .ud-hero-buttons .ud-link-btn');
+        const demoButton = document.querySelector('#home .ud-hero-buttons .ud-link-btn'); // Targetkan tombol demo
 
         // Ubah tombol "Purchase" menjadi "Go to Dashboard"
         if (purchaseButton) {
             purchaseButton.textContent = 'Go to Dashboard';
-            purchaseButton.href = 'dashboard.html';
-            // Hapus target="_blank" jika ada
-            purchaseButton.removeAttribute('target');
+            purchaseButton.href = 'dashboard.html'; // Path relatif
+            purchaseButton.removeAttribute('target'); // Hapus target jika ada
+            // (Tidak perlu ganti kelas karena sudah ud-white-btn)
         }
 
         // Sembunyikan tombol "Watch Demo"
