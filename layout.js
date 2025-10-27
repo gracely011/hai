@@ -1,7 +1,5 @@
 const announcementBarHTML = `
-<div class="announcement-bar">
-    The only official Gracely website is <b>https://gracely.id/</b>. Please be aware of fake websites. Join our Discord server for service updates and the latest discounts: <a href="#">https://discord.gg/gracely</a>
-</div>
+
 `;
 
 const defaultNavbarHTML = `
@@ -98,11 +96,11 @@ const footerHTML = `
 const backToTopHTML = `<a href="javascript:void(0)" class="back-to-top"><i class="fa-solid fa-arrow-up"></i></a>`;
 
 /**
- * [FUNGSI BARU]
- * Fungsi ini mengubah konten di halaman index.html jika pengguna sudah login.
+ * [FUNGSI DIMODIFIKASI]
+ * Fungsi ini sekarang menargetkan tombol "Purchase" dan "Watch Demo"
+ * dari file index.html Groupy yang asli.
  */
 function modifyIndexPageContent() {
-    // Pastikan kita berada di halaman index
     const path = window.location.pathname;
     const isIndexPage = path.endsWith('/') || path.endsWith('index.html');
 
@@ -110,37 +108,20 @@ function modifyIndexPageContent() {
         return;
     }
 
-    // Cek apakah pengguna sudah login
     if (typeof isAuthenticated === 'function' && isAuthenticated()) {
-        const allLinks = document.querySelectorAll('a');
-        let signUpButton = null;
-        let learnMoreButton = null;
+        // Cari tombol berdasarkan kelas uniknya
+        const purchaseButton = document.querySelector('.ud-hero-buttons .ud-white-btn');
+        const demoButton = document.querySelector('.ud-hero-buttons .ud-link-btn');
 
-        // Cari tombol "Sign Up Now" dan "Learn More" berdasarkan teksnya
-        allLinks.forEach(link => {
-            const text = link.textContent.trim();
-            if (text === 'Sign Up Now') {
-                signUpButton = link;
-            } else if (text === 'Learn More') {
-                learnMoreButton = link;
-            }
-        });
-
-        // Jika tombol "Sign Up Now" ditemukan, ubah jadi tombol "Dashboard"
-        if (signUpButton) {
-            signUpButton.textContent = 'Go to Dashboard';
-            signUpButton.href = 'dashboard.html';
-            
-            // Ubah style jika perlu (contoh: dari tombol putih jadi tombol utama)
-            if (signUpButton.classList.contains('ud-white-btn')) {
-                 signUpButton.classList.remove('ud-white-btn');
-                 signUpButton.classList.add('ud-main-btn');
-            }
+        // Ubah tombol "Purchase" menjadi "Go to Dashboard"
+        if (purchaseButton) {
+            purchaseButton.textContent = 'Go to Dashboard';
+            purchaseButton.href = 'dashboard.html';
         }
 
-        // Sembunyikan tombol "Learn More"
-        if (learnMoreButton) {
-            learnMoreButton.style.display = 'none';
+        // Sembunyikan tombol "Watch Demo"
+        if (demoButton) {
+            demoButton.style.display = 'none';
         }
     }
 }
@@ -152,9 +133,6 @@ function loadLayout() {
     const footerPlaceholder = document.getElementById("footer-placeholder");
     const backToTopPlaceholder = document.getElementById("back-to-top-placeholder");
     
-    // HAPUS placeholder untuk "login-status"
-    // const loginStatusPlaceholder = document.getElementById("login-status-placeholder");
-
     if (announcementPlaceholder) announcementPlaceholder.innerHTML = announcementBarHTML;
     if (footerPlaceholder) footerPlaceholder.innerHTML = footerHTML;
     if (backToTopPlaceholder) backToTopPlaceholder.innerHTML = backToTopHTML;
@@ -168,26 +146,11 @@ function loadLayout() {
         }
     }
 
-    // HAPUS blok 'if (loginStatusPlaceholder)'
-    /*
-    if (loginStatusPlaceholder) {
-        if (typeof isAuthenticated === 'function' && isAuthenticated()) {
-            loginStatusPlaceholder.textContent = "Status: Sudah Login";
-            loginStatusPlaceholder.style.color = "lightgreen";
-        } else {
-            loginStatusPlaceholder.textContent = "Status: Belum Login";
-            loginStatusPlaceholder.style.color = "orange";
-        }
-    }
-    */
-
     if (typeof initializeScripts === 'function') {
       initializeScripts();
     }
     
-    // PANGGIL FUNGSI BARU di sini
     modifyIndexPageContent();
 }
-
 
 document.addEventListener("DOMContentLoaded", loadLayout);
