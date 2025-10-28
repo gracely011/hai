@@ -15,11 +15,11 @@ const defaultNavbarHTML = `
           </button>
           <div class="navbar-collapse">
             <ul id="nav" class="navbar-nav mx-auto">
-              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#home">Home</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#features">Features</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#about">About</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#pricing">Pricing</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#services">Services</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="/">Home</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="hai/#features">Features</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="hai/#about">About</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="hai/#pricing">Pricing</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="hai/#services">Services</a></li>
             </ul>
           </div>
           <div class="navbar-btn">
@@ -235,4 +235,5 @@ function loadLayout() {
 }
 
 document.addEventListener("DOMContentLoaded", loadLayout);
+
 
