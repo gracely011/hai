@@ -1,64 +1,96 @@
-// GANTI DENGAN URL WEB APP ANDA
-const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyntU9KHfwS--AqWoVXkESY2Nb8gwlOjfkOiiA7x3YR9sZ5i0DOK6Zm-DTT0jgg7IKc/exec"; // CONTOH URL DARI ANDA
+function setCookie(name, value, days) {
+    let expires = "";
+    if (days) {
+        const date = new Date();
+        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        expires = "; expires=" + date.toUTCString();
+    }
+    // PERBAIKAN: Tambahkan 'Secure' karena situs ini HTTPS
+    let cookieString = name + "=" + (value || "") + expires + "; path=/; SameSite=Lax; Secure";
+    document.cookie = cookieString;
+}
+
+function eraseCookie(name) {
+    // PERBAIKAN: Tambahkan 'Secure'
+    document.cookie = name + '=; Max-Age=-99999999; path=/; SameSite=Lax; Secure';
+}
 
 async function login(email, password) {
     try {
-        // 1. Kirim data ke "Penjaga" (Google Apps Script)
-        const response = await fetch(SCRIPT_URL, {
-            method: 'POST',
-            mode: 'cors', // Diperlukan untuk Apps Script
-            cache: 'no-cache', // Pastikan tidak mengambil data lama
-            
-            // PENTING: Bagian ini memberi tahu server kita mengirim JSON
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            
-            // PENTING: Bagian ini mengubah data JS menjadi string JSON
-            body: JSON.stringify({ email: email, password: password }),
-        });
+        const response = await fetch('https://gracely011.github.io/hai/credentials.json');
+        if (!response.ok) throw new Error('Failed to load credentials.');
 
-        if (!response.ok) {
-            throw new Error('Network response was not ok.');
-        }
+        const users = await response.json();
+        const user = users.find(u => u.email === email);
 
-        // 2. Terima balasan dari "Penjaga"
-        const result = await response.json();
+        if (user && user.password === password) {
+            let isCurrentlyPremium = false;
+            if (user.isPremium && user.premiumExpiryDate) {
+                const expiryDate = new Date(user.premiumExpiryDate);
+                const today = new Date();
+                if (today <= expiryDate) {
+                    isCurrentlyPremium = true;
+                }
+            }
 
-        // 3. Proses balasan
-        if (result.success && result.user) {
-            const user = result.user;
-            
-            // Simpan data ke localStorage (seperti kode lama Anda)
             localStorage.setItem('isAuthenticated', 'true');
             localStorage.setItem('userEmail', user.email);
             localStorage.setItem('userName', user.name);
-            localStorage.setItem('isPremium', user.isPremium);
-            setCookie('gracely_active_session', 'true', 30);
-            
-            if (user.isPremium) {
+            localStorage.setItem('isPremium', isCurrentlyPremium);
+
+            setCookie('gracely_active_session', 'true', 30); 
+
+            if (isCurrentlyPremium) {
                 localStorage.setItem('premiumExpiryDate', user.premiumExpiryDate);
+                localStorage.setItem('gracelyPremiumConfig', user.configUrl);
                 setCookie('is_premium', 'true', 30);
-                // (Anda perlu mengamankan data.js di langkah berikutnya)
+                setCookie('gracely_config_url', user.configUrl, 30);
             } else {
                 localStorage.removeItem('premiumExpiryDate');
                 localStorage.removeItem('gracelyPremiumConfig');
                 setCookie('is_premium', 'false', 30);
                 eraseCookie('gracely_config_url');
             }
-            
-            return { success: true }; // Kirim sukses ke script.js
-
+            return { success: true };
         } else {
-            // Jika login gagal (balasan dari server)
             eraseCookie('gracely_active_session');
             eraseCookie('is_premium');
             eraseCookie('gracely_config_url');
-            return { success: false, message: result.message || 'Email or password is incorrect.' };
+            return { success: false, message: 'Email or password is incorrect.' };
         }
     } catch (error) {
         console.error('[auth.js] Login error:', error);
-        // Ini adalah error yang Anda lihat di halaman login
-        return { success: false, message: 'An error occurred on the system.' }; 
+        return { success: false, message: 'An error occurred on the system.' };
+    }
+}
+
+function logout() {
+    localStorage.removeItem('isAuthenticated');
+    localStorage.removeItem('userEmail');
+    localStorage.removeItem('userName');
+    localStorage.removeItem('isPremium');
+    localStorage.removeItem('premiumExpiryDate');
+    localStorage.removeItem('gracelyPremiumConfig');
+
+    eraseCookie('gracely_active_session');
+    eraseCookie('is_premium');
+    eraseCookie('gracely_config_url');
+
+    window.location.href = 'login.html';
+}
+
+function isAuthenticated() {
+    return localStorage.getItem('isAuthenticated') === 'true';
+}
+
+function requireAuth() {
+    if (!isAuthenticated()) {
+        window.location.href = 'login.html';
+    }
+}
+
+function redirectIfAuthenticated() {
+    if (isAuthenticated()) {
+        window.location.href = 'dashboard.html';
     }
 }
