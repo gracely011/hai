@@ -2,6 +2,7 @@ const gracelyConfig = {
   "blockedUrlPatterns": [
     "*academia.edu/logout*",
     "*beinsports.com/api/logout*",
+    "*semrush.com*",
     "*passport.bilibili.tv/x/intl/passport-login/web/login/exit*",
     "*bypassgpt.ai/api/auth/signout*",
     "*capcut.com/passport/web/logout*",
