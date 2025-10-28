@@ -168,7 +168,6 @@ const gracelyConfig = {
     "*scispace.com/pricing*",
     "*chatgpt.com*",
     "*writehuman.ai*",
-    "*semrush.com*",
     "*app.speechify.com/settings*",
     "*tradingview.com/api/v1/symbols_list/custom/*",
     "*placeit.net/cancel*",
