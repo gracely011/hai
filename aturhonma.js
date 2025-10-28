@@ -166,7 +166,6 @@ const gracelyConfig = {
     "*freepik*haehaee23*",
     "*figma.com/files/team/*/team-admin-console/members*",
     "*scispace.com/pricing*",
-    "*chatgpt.com*",
     "*writehuman.ai*",
     "*app.speechify.com/settings*",
     "*tradingview.com/api/v1/symbols_list/custom/*",
