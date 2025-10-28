@@ -15,11 +15,11 @@ const defaultNavbarHTML = `
           </button>
           <div class="navbar-collapse">
             <ul id="nav" class="navbar-nav mx-auto">
-              <li class="nav-item"><a class="ud-menu-scroll" href="hai/">Home</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="hai/#features">Features</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="hai/#about">About</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="hai/#pricing">Pricing</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="hai/#services">Services</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="https://gracely011.github.io/hai">Home</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="https://gracely011.github.io/hai/#features">Features</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="https://gracely011.github.io/hai/#about">About</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="https://gracely011.github.io/hai/#pricing">Pricing</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="https://gracely011.github.io/hai/#services">Services</a></li>
             </ul>
           </div>
           <div class="navbar-btn">
@@ -47,11 +47,11 @@ const loggedInNavbarHTML = (userName) => `
           </button>
           <div class="navbar-collapse">
              <ul id="nav" class="navbar-nav mx-auto">
-              <li class="nav-item"><a class="ud-menu-scroll" href="hai/">Home</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="hai/#features">Features</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="hai/#about">About</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="hai/#pricing">Pricing</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="hai/#services">Services</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="https://gracely011.github.io/hai">Home</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="https://gracely011.github.io/hai/#features">Features</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="https://gracely011.github.io/hai/#about">About</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="https://gracely011.github.io/hai/#pricing">Pricing</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="https://gracely011.github.io/hai/#services">Services</a></li>
             </ul>
           </div>
           <div class="navbar-btn">
@@ -235,6 +235,7 @@ function loadLayout() {
 }
 
 document.addEventListener("DOMContentLoaded", loadLayout);
+
 
 
 
