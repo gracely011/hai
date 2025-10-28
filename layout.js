@@ -106,10 +106,10 @@ const footerHTML = `
           <div class="ud-widget">
             <h5 class="ud-widget-title">About</h5>
             <ul class="ud-widget-links">
-              <li><a href="index.html#features">Features</a></li>
-              <li><a href="index.html#about">About</a></li>
-              <li><a href="index.html#pricing">Pricing</a></li>
-              <li><a href="index.html#services">Services</a></li>
+              <li><a href="https://gracely011.github.io/hai/#features">Features</a></li>
+              <li><a href="https://gracely011.github.io/hai/#about">About</a></li>
+              <li><a href="https://gracely011.github.io/hai/#pricing">Pricing</a></li>
+              <li><a href="https://gracely011.github.io/hai/#services">Services</a></li>
             </ul>
           </div>
         </div>
@@ -235,6 +235,7 @@ function loadLayout() {
 }
 
 document.addEventListener("DOMContentLoaded", loadLayout);
+
 
 
 
