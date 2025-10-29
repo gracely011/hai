@@ -1,13 +1,17 @@
 // =================================================================
-//                 AUTH.JS (Versi SUPABASE - FINAL)
-//         Ini adalah satu-satunya file yang butuh API Key
+//                 AUTH.JS (Versi SUPABASE - PERBAIKAN)
+//         Memperbaiki error "Cannot access 'supabase' before initialization"
 // =================================================================
 
 // 1. Inisialisasi Klien Supabase
 const SUPABASE_URL = 'https://mujasmmozswplmtkijr.supabase.co';
 const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im11amFzbW1sb3pzd3BsbXRraWpyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjE3MDM4ODgsImV4cCI6MjA3NzI3OTg4OH0.tttyPcoVUtyPLfBm1irS2qYthzt84Yb0OhjxD-tZ4Nw';
 
-const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+// [PERBAIKAN]
+// Kita panggil fungsi 'createClient' dari 'supabase' (global, dari CDN)
+// dan simpan di variabel baru 'supabaseClient' agar tidak tabrakan nama.
+const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+
 
 /**
  * [BARU] Fungsi Signup
@@ -15,14 +19,12 @@ const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
  */
 async function signup(name, email, password) {
     try {
-        // Kirim data ke Supabase Auth
-        const { data, error } = await supabase.auth.signUp({
+        // [PERBAIKAN] Menggunakan 'supabaseClient'
+        const { data, error } = await supabaseClient.auth.signUp({
             email: email,
             password: password,
             options: {
                 data: {
-                    // Ini penting agar trigger SQL Anda (handle_new_user)
-                    // bisa menangkap nama ini dan menyimpannya ke tabel 'profiles'
                     full_name: name 
                 }
             }
@@ -48,8 +50,9 @@ async function signup(name, email, password) {
  */
 async function login(email, password) {
     try {
-        // 1. Coba login ke Supabase Authentication
-        let { data: authData, error: authError } = await supabase.auth.signInWithPassword({
+        // 1. Coba login
+        // [PERBAIKAN] Menggunakan 'supabaseClient'
+        let { data: authData, error: authError } = await supabaseClient.auth.signInWithPassword({
             email: email,
             password: password,
         });
@@ -59,21 +62,18 @@ async function login(email, password) {
         }
 
         // 2. Jika login berhasil, ambil data dari tabel 'profiles'
-        //    (Ini butuh RLS Policy 'SELECT' yang sudah Anda buat)
-        let { data: profileData, error: profileError } = await supabase
+        // [PERBAIKAN] Menggunakan 'supabaseClient'
+        let { data: profileData, error: profileError } = await supabaseClient
             .from('profiles')
-            .select('*') // Ambil semua kolom (name, isPremium, configUrl, dll)
-            .eq('id', authData.user.id) // Cari yang ID-nya cocok
-            .single(); // Kita tahu hasilnya pasti cuma 1
+            .select('*') 
+            .eq('id', authData.user.id)
+            .single(); 
 
         if (profileError) {
-            // Jika error (misal: RLS belum diatur atau profil tidak ada)
             throw profileError;
         }
 
         // 3. SUKSES! Simpan semua data ke LocalStorage
-        //    (Kita gunakan key yang sama persis dengan auth.js lama Anda
-        //     agar dashboard.html dan layout.js tidak error)
         localStorage.setItem('isAuthenticated', 'true');
         localStorage.setItem('userEmail', authData.user.email);
         localStorage.setItem('userName', profileData.name);
@@ -90,17 +90,14 @@ async function login(email, password) {
         
         localStorage.setItem('isPremium', isCurrentlyPremium);
 
-        // Hanya simpan data premium jika benar-benar premium
         if (isCurrentlyPremium) {
             localStorage.setItem('premiumExpiryDate', profileData.premiumExpiryDate);
             localStorage.setItem('gracelyPremiumConfig', profileData.configUrl);
         } else {
-            // Hapus data premium jika sudah kedaluwarsa atau non-premium
             localStorage.removeItem('premiumExpiryDate');
             localStorage.removeItem('gracelyPremiumConfig');
         }
         
-        // Hapus cookie lama (jika ada) untuk bersih-bersih
         eraseCookie('gracely_active_session');
         eraseCookie('is_premium');
         eraseCookie('gracely_config_url');
@@ -109,10 +106,8 @@ async function login(email, password) {
 
     } catch (error) {
         console.error('[auth.js] Login error:', error.message);
-        // Hapus sisa-sisa login yang gagal
         localStorage.clear();
         
-        // Berikan pesan error yang lebih ramah
         if (error.message.includes("Invalid login credentials")) {
             return { success: false, message: 'Email atau password salah.' };
         }
@@ -126,19 +121,19 @@ async function login(email, password) {
 
 /**
  * Fungsi Logout Baru
- * Memanggil supabase.auth.signOut()
  */
 async function logout() {
     // 1. Beritahu Supabase untuk logout
-    const { error } = await supabase.auth.signOut();
+    // [PERBAIKAN] Menggunakan 'supabaseClient'
+    const { error } = await supabaseClient.auth.signOut();
     if (error) {
         console.error("Error logging out:", error.message);
     }
     
-    // 2. Hapus semua data dari LocalStorage (cara paling bersih)
+    // 2. Hapus semua data dari LocalStorage
     localStorage.clear();
 
-    // 3. Hapus cookie lama (jika ada)
+    // 3. Hapus cookie lama
     eraseCookie('gracely_active_session');
     eraseCookie('is_premium');
     eraseCookie('gracely_config_url');
@@ -149,7 +144,6 @@ async function logout() {
 
 /**
  * Fungsi Helper (Tidak Berubah)
- * Ini akan tetap berfungsi karena membaca dari LocalStorage
  */
 function isAuthenticated() {
     return localStorage.getItem('isAuthenticated') === 'true';
@@ -167,7 +161,6 @@ function redirectIfAuthenticated() {
     }
 }
 
-// Helper dari auth.js lama Anda
 function eraseCookie(name) {
     document.cookie = name + '=; Max-Age=-99999999; path=/; SameSite=Lax; Secure';
 }
