@@ -1,17 +1,49 @@
 // =================================================================
-//                 AUTH.JS (Versi SUPABASE)
-//         GANTIKAN SEMUA FILE LAMA ANDA DENGAN INI
+//                 AUTH.JS (Versi SUPABASE - FINAL)
+//         Ini adalah satu-satunya file yang butuh API Key
 // =================================================================
 
-// 1. Inisialisasi Klien Supabase (API Key Anda di sini)
+// 1. Inisialisasi Klien Supabase
 const SUPABASE_URL = 'https://mujasmmozswplmtkijr.supabase.co';
 const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im11amFzbW1sb3pzd3BsbXRraWpyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjE3MDM4ODgsImV4cCI6MjA3NzI3OTg4OH0.tttyPcoVUtyPLfBm1irS2qYthzt84Yb0OhjxD-tZ4Nw';
 
 const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
+/**
+ * [BARU] Fungsi Signup
+ * Mendaftar pengguna baru ke Supabase Auth
+ */
+async function signup(name, email, password) {
+    try {
+        // Kirim data ke Supabase Auth
+        const { data, error } = await supabase.auth.signUp({
+            email: email,
+            password: password,
+            options: {
+                data: {
+                    // Ini penting agar trigger SQL Anda (handle_new_user)
+                    // bisa menangkap nama ini dan menyimpannya ke tabel 'profiles'
+                    full_name: name 
+                }
+            }
+        });
+        
+        if (error) {
+            throw error; // Lempar error jika ada
+        }
+        
+        // Sukses
+        return { success: true, data: data };
+
+    } catch (error) {
+        // Tampilkan Error
+        return { success: false, message: error.message };
+    }
+}
+
 
 /**
- * [DIROMBAK] Fungsi Login Baru
+ * Fungsi Login
  * Menghubungi Supabase untuk login & mengambil data profil
  */
 async function login(email, password) {
@@ -23,12 +55,11 @@ async function login(email, password) {
         });
 
         if (authError) {
-            // Jika error (misal: password salah)
             throw authError;
         }
 
         // 2. Jika login berhasil, ambil data dari tabel 'profiles'
-        //    (Ini butuh RLS Policy SELECT yang sudah kita buat)
+        //    (Ini butuh RLS Policy 'SELECT' yang sudah Anda buat)
         let { data: profileData, error: profileError } = await supabase
             .from('profiles')
             .select('*') // Ambil semua kolom (name, isPremium, configUrl, dll)
@@ -36,7 +67,7 @@ async function login(email, password) {
             .single(); // Kita tahu hasilnya pasti cuma 1
 
         if (profileError) {
-            // Jika error (misal: RLS belum diatur)
+            // Jika error (misal: RLS belum diatur atau profil tidak ada)
             throw profileError;
         }
 
@@ -59,6 +90,7 @@ async function login(email, password) {
         
         localStorage.setItem('isPremium', isCurrentlyPremium);
 
+        // Hanya simpan data premium jika benar-benar premium
         if (isCurrentlyPremium) {
             localStorage.setItem('premiumExpiryDate', profileData.premiumExpiryDate);
             localStorage.setItem('gracelyPremiumConfig', profileData.configUrl);
@@ -67,6 +99,11 @@ async function login(email, password) {
             localStorage.removeItem('premiumExpiryDate');
             localStorage.removeItem('gracelyPremiumConfig');
         }
+        
+        // Hapus cookie lama (jika ada) untuk bersih-bersih
+        eraseCookie('gracely_active_session');
+        eraseCookie('is_premium');
+        eraseCookie('gracely_config_url');
 
         return { success: true };
 
@@ -88,8 +125,8 @@ async function login(email, password) {
 }
 
 /**
- * [DIPERBARUI] Fungsi Logout Baru
- * Sekarang juga memanggil supabase.auth.signOut()
+ * Fungsi Logout Baru
+ * Memanggil supabase.auth.signOut()
  */
 async function logout() {
     // 1. Beritahu Supabase untuk logout
@@ -98,15 +135,10 @@ async function logout() {
         console.error("Error logging out:", error.message);
     }
     
-    // 2. Hapus semua data dari LocalStorage
-    localStorage.removeItem('isAuthenticated');
-    localStorage.removeItem('userEmail');
-    localStorage.removeItem('userName');
-    localStorage.removeItem('isPremium');
-    localStorage.removeItem('premiumExpiryDate');
-    localStorage.removeItem('gracelyPremiumConfig');
+    // 2. Hapus semua data dari LocalStorage (cara paling bersih)
+    localStorage.clear();
 
-    // 3. Hapus cookie lama (jika ada - ini dari auth.js lama Anda)
+    // 3. Hapus cookie lama (jika ada)
     eraseCookie('gracely_active_session');
     eraseCookie('is_premium');
     eraseCookie('gracely_config_url');
@@ -116,8 +148,8 @@ async function logout() {
 }
 
 /**
- * [TETAP SAMA] Fungsi-fungsi ini masih bekerja
- * karena mereka membaca dari LocalStorage
+ * Fungsi Helper (Tidak Berubah)
+ * Ini akan tetap berfungsi karena membaca dari LocalStorage
  */
 function isAuthenticated() {
     return localStorage.getItem('isAuthenticated') === 'true';
@@ -135,7 +167,7 @@ function redirectIfAuthenticated() {
     }
 }
 
-// Helper dari auth.js lama Anda (ditaruh di bawah agar rapi)
+// Helper dari auth.js lama Anda
 function eraseCookie(name) {
     document.cookie = name + '=; Max-Age=-99999999; path=/; SameSite=Lax; Secure';
 }
