@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     
     <script src="auth.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   </head>
   <body>
     <div id="announcement-placeholder"></div>
@@ -81,11 +83,80 @@
     document.addEventListener("DOMContentLoaded",function(){let e=["gmail.com","yahoo.com","hotmail.com","outlook.com","aol.com","icloud.com","live.com","msn.com"],t=document.getElementById("email"),n=document.getElementById("email-suggestion");function l(e,t){let n=[];for(let l=0;l<=e.length;l++){let o=l;for(let i=0;i<=t.length;i++)if(0===l)n[i]=i;else if(i>0){let r=n[i-1];e.charAt(l-1)!==t.charAt(i-1)&&(r=Math.min(r,o,n[i])+1),n[i-1]=o,o=r}l>0&&(n[t.length]=o)}return n[t.length]}t.addEventListener("blur",function(){let o=this.value.trim();if(n.innerHTML="",!o.includes("@"))return;let[i,r]=o.split("@");if(r){let c=function t(n){let o=1/0,i=null;for(let r of e){let c=l(n.toLowerCase(),r);c<o&&c<=2&&(o=c,i=r)}return i}(r);if(c&&c!==r){let a=`${i}@${c}`,u=`Did you mean <a href="#" style="text-decoration: underline; font-weight: bold; color: #000000;">${a}</a>?`;n.innerHTML=u,n.querySelector("a").addEventListener("click",function(e){e.preventDefault(),t.value=a,n.innerHTML=""})}}})});    
     </script>
 
-    <div id="footer-placeholder"></div>
+    <script>
+      // 1. Definisikan Kunci dan URL
+      //    URL-nya saya ambil dari 'ref' di dalam Kunci API Anda.
+      const SUPABASE_URL = 'https://mujasmmozswplmtkijr.supabase.co';
+      const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im11amFzbW1sb3pzd3BsbXRraWpyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjE3MDM4ODgsImV4cCI6MjA3NzI3OTg4OH0.tttyPcoVUtyPLfBm1irS2qYthzt84Yb0OhjxD-tZ4Nw';
 
+      const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+
+      // 2. Targetkan Form Anda
+      const signupForm = document.getElementById('reCAPTCHA');
+
+      signupForm.addEventListener('submit', async (event) => {
+        event.preventDefault(); // Mencegah form terkirim
+
+        // 3. Ambil data (Gunakan name attribute dari HTML Anda)
+        const name = signupForm.querySelector('input[name="name"]').value;
+        const email = signupForm.querySelector('input[name="email"]').value;
+        const password = signupForm.querySelector('input[name="password"]').value;
+        const confirmPassword = signupForm.querySelector('input[name="confirm_password"]').value;
+        
+        // 4. Validasi Sederhana
+        if (password !== confirmPassword) {
+          alert('Password tidak cocok!');
+          return;
+        }
+        if (!name || !email || !password) {
+          alert('Semua kolom harus diisi!');
+          return;
+        }
+
+        // 5. Tampilkan status loading di tombol
+        const submitButton = signupForm.querySelector('button[type="submit"]');
+        submitButton.disabled = true;
+        submitButton.innerHTML = 'Mendaftar...';
+
+        try {
+          // 6. Kirim data ke Supabase Auth
+          const { data, error } = await supabase.auth.signUp({
+            email: email,
+            password: password,
+            options: {
+              data: {
+                // Ini penting agar trigger SQL Anda (handle_new_user)
+                // bisa menangkap nama ini dan menyimpannya ke tabel 'profiles'
+                full_name: name 
+              }
+            }
+          });
+
+          if (error) {
+            throw error; // Lempar error jika ada
+          }
+
+          // 7. Sukses
+          alert('Pendaftaran berhasil! Silakan cek email Anda untuk verifikasi.');
+          window.location.href = 'login.html'; // Arahkan ke halaman login
+
+        } catch (error) {
+          // 8. Tampilkan Error
+          alert('Error: ' + error.message);
+          submitButton.disabled = false;
+          submitButton.innerHTML = 'Sign up';
+        }
+      });
+    </script>
+
+
+    <div id="footer-placeholder"></div>
     <div id="back-to-top-placeholder"></div>
 
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/main.js"></script> <script src="assets/script.js"></script> <script src="layout.js"></script> </body>
+    <script src="assets/js/main.js"></script> 
+    <script src="assets/script.js"></script> 
+    <script src="layout.js"></script> 
+  </body>
 </html>
