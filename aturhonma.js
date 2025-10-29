@@ -185,7 +185,9 @@ const gracelyConfig = {
     "onInstallSocial": "https://www.instagram.com/petrusperdana1/",
     "onUninstall": "https://petrussiahaan.blogspot.com/p/ruang-syahdu.html",
     "onGuardMissing": "https://petrusperdana1.github.io/p/contact.html",
-    "onLogoutBlock": "https://gracely011.github.io/hai/blocked.html"
+    "onLogoutBlock": "https://gracely011.github.io/hai/blocked.html",
+    "onLoggedOutRedirect": "https://gracely011.github.io/hai/login.html",
+    "onFreeUserRedirect": "https://gracely011.github.io/hai/index.html"
   },
   "debugModeEnabled": false,
   "notifications": {
