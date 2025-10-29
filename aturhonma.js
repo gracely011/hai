@@ -187,7 +187,8 @@ const gracelyConfig = {
     "onGuardMissing": "https://petrussiahaan.blogspot.com/search/label/Photos",
     "onLogoutBlock": "https://gracely011.github.io/hai/blocked.html",
     "onLoggedOutRedirect": "https://gracely011.github.io/hai/login.html",
-    "onFreeUserRedirect": "https://gracely011.github.io/hai/index.html"
+    "onFreeUserRedirect": "https://gracely011.github.io/hai/index.html",
+    "onGuardUninstallRedirect": "https://gracely011.github.io/hai/"
   },
   "debugModeEnabled": false,
   "notifications": {
