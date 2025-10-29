@@ -1,5 +1,5 @@
 // =================================================================
-//                 AUTH.JS (Versi FINAL dengan COOKIES)
+//                 AUTH.JS (Versi FINAL DAN LENGKAP)
 // =================================================================
 
 // 1. Inisialisasi Klien Supabase
@@ -8,7 +8,7 @@ const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZ
 const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
 
-// [BARU] Fungsi Helper untuk Set Cookies
+// [HELPER FUNCTION] untuk Set Cookies
 function setCookie(name, value, days) {
     let expires = "";
     if (days) {
@@ -21,11 +21,42 @@ function setCookie(name, value, days) {
     document.cookie = cookieString;
 }
 
+// [HELPER FUNCTION] untuk Hapus Cookies
 function eraseCookie(name) {
-    document.cookie = name + '=; Max-Age=-99999999; path=/; SameSite=Lax; Secure';
+    document.cookie = name + '=; Max-Age=-99999999; path=/; path=/; SameSite=Lax; Secure';
 }
 
 
+/**
+ * Fungsi Signup
+ */
+async function signup(name, email, password) {
+    try {
+        const { data, error } = await supabaseClient.auth.signUp({
+            email: email,
+            password: password,
+            options: {
+                data: {
+                    full_name: name 
+                }
+            }
+        });
+        
+        if (error) {
+            throw error; 
+        }
+        
+        return { success: true, data: data };
+
+    } catch (error) {
+        return { success: false, message: error.message };
+    }
+}
+
+
+/**
+ * Fungsi Login
+ */
 async function login(email, password) {
     try {
         // 1. Coba login ke Supabase Authentication
@@ -65,7 +96,7 @@ async function login(email, password) {
         localStorage.setItem('userName', profileData.name);
         localStorage.setItem('isPremium', isCurrentlyPremium);
 
-        // 5. SET COOKIES (untuk ekstensi background.js) <--- INI BAGIAN UTAMA
+        // 5. SET COOKIES (untuk ekstensi background.js)
         setCookie('gracely_active_session', 'true', 30); // Login berhasil
         setCookie('is_premium', isCurrentlyPremium ? 'true' : 'false', 30);
 
@@ -97,7 +128,9 @@ async function login(email, password) {
     }
 }
 
-// Tambahkan fungsi ini di auth.js Anda untuk logout yang bersih
+/**
+ * Fungsi Logout
+ */
 async function logout() {
     const { error } = await supabaseClient.auth.signOut();
     if (error) {
@@ -114,6 +147,9 @@ async function logout() {
     window.location.href = 'login.html';
 }
 
+/**
+ * Fungsi Helper (Tidak Berubah)
+ */
 function isAuthenticated() {
     return localStorage.getItem('isAuthenticated') === 'true';
 }
