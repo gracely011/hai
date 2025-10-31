@@ -1,5 +1,5 @@
 // =================================================================
-//                 AUTH.JS (Edisi Final & Diperbaiki)
+//                 AUTH.JS (Versi FINAL DAN LENGKAP)
 // =================================================================
 
 // 1. Inisialisasi Klien Supabase
@@ -37,7 +37,7 @@ async function signup(name, email, password) {
             password: password,
             options: {
                 data: {
-                    full_name: name // Metadata yang disimpan di auth.users
+                    full_name: name 
                 }
             }
         });
@@ -45,23 +45,8 @@ async function signup(name, email, password) {
         if (error) {
             throw error; 
         }
-
-        // PERBAIKAN: Langsung insert ke profiles dengan kolom 'username'
-        const { error: profileError } = await supabaseClient
-            .from('profiles')
-            .insert({ 
-                id: data.user.id, 
-                username: name,
-                isPremium: false,
-                premiumExpiryDate: null,
-                configUrl: null
-            });
-            
-        if (profileError) {
-             throw profileError;
-        }
         
-        return { success: true };
+        return { success: true, data: data };
 
     } catch (error) {
         return { success: false, message: error.message };
@@ -87,44 +72,38 @@ async function login(email, password) {
         // 2. Ambil data dari tabel 'profiles'
         let { data: profileData, error: profileError } = await supabaseClient
             .from('profiles')
-            .select('username, isPremium, premiumExpiryDate, configUrl') // Ambil kolom yang dibutuhkan
+            .select('*')
             .eq('id', authData.user.id)
             .single();
 
         if (profileError) {
-            // Ini akan terjadi jika profil tidak ada
-            throw profileError; 
+            throw profileError;
         }
 
-        // 3. Tentukan Nama Pengguna (Menggunakan kolom 'username')
-        // PERBAIKAN UTAMA: Ambil nama dari kolom 'username'
-        const userName = profileData.username || 'User'; 
-        
-        // 4. Tentukan Status Premium
+        // 3. Cek Status Premium
         let isCurrentlyPremium = false;
         if (profileData.isPremium && profileData.premiumExpiryDate) {
             const expiryDate = new Date(profileData.premiumExpiryDate);
             const today = new Date();
-            // Periksa jika tanggal hari ini <= tanggal kedaluwarsa
             if (today <= expiryDate) {
                 isCurrentlyPremium = true;
             }
         }
         
-        // 5. Set LocalStorage (untuk dashboard.html)
+        // 4. Set LocalStorage (untuk dashboard.html)
         localStorage.setItem('isAuthenticated', 'true');
         localStorage.setItem('userEmail', authData.user.email);
-        localStorage.setItem('userName', userName); // Nama sudah benar
+        localStorage.setItem('userName', profileData.name);
         localStorage.setItem('isPremium', isCurrentlyPremium);
 
-        // 6. SET COOKIES (untuk ekstensi background.js)
-        setCookie('gracely_active_session', 'true', 30);
+        // 5. SET COOKIES (untuk ekstensi background.js)
+        setCookie('gracely_active_session', 'true', 30); // Login berhasil
         setCookie('is_premium', isCurrentlyPremium ? 'true' : 'false', 30);
 
         if (isCurrentlyPremium && profileData.configUrl) {
             localStorage.setItem('premiumExpiryDate', profileData.premiumExpiryDate);
             localStorage.setItem('gracelyPremiumConfig', profileData.configUrl);
-            setCookie('gracely_config_url', profileData.configUrl, 30);
+            setCookie('gracely_config_url', profileData.configUrl, 30); // Config URL yang dicari ekstensi
         } else {
             localStorage.removeItem('premiumExpiryDate');
             localStorage.removeItem('gracelyPremiumConfig');
@@ -145,29 +124,6 @@ async function login(email, password) {
         if (error.message.includes("Invalid login credentials")) {
             return { success: false, message: 'Email atau password salah.' };
         }
-        return { success: false, message: error.message };
-    }
-}
-
-/**
- * Fungsi Reset Password
- */
-async function sendPasswordResetEmail(email) {
-    try {
-        const { error } = await supabaseClient.auth.resetPasswordForEmail(email, {
-            redirectTo: 'https://gracely011.github.io/hai/update-password.html', 
-        });
-
-        if (error) {
-            // Memberikan pesan error yang lebih umum untuk mencegah enumerasi email
-            // (Ini mengatasi error Supabase yang mengatakan email tidak valid)
-            return { success: true, message: 'Jika email terdaftar, tautan reset kata sandi telah dikirim ke kotak masuk Anda. Harap cek folder spam/sampah.' };
-        }
-
-        return { success: true, message: 'Jika email terdaftar, tautan reset kata sandi telah dikirim ke kotak masuk Anda. Harap cek folder spam/sampah.' };
-
-    } catch (error) {
-        console.error('[auth.js] Password reset error:', error.message);
         return { success: false, message: error.message };
     }
 }
