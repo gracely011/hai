@@ -104,28 +104,52 @@ function initializeScripts() {
     }
   });
   
-  // =================================================================
-  //                 LOGIKA SESI TUNGGAL (SINGLE SESSION)
-  // =================================================================
-
   function handleMultiLoginKick(message) {
       alert(`PEMBERITAHUAN! ${message}`);
       
-      // Hapus data lokal
       localStorage.clear();
       localStorage.removeItem('gracely_active_session_token');
       
-      // ** PERBAIKAN: Hapus Cookies Sesi Lama **
-      // Kita panggil eraseCookie karena ini adalah fungsi helper global dari auth.js
       if (typeof eraseCookie === 'function') {
           eraseCookie('gracely_active_session');
           eraseCookie('gracely_config_url');
           eraseCookie('is_premium');
       }
 
-      // Arahkan ke halaman login (sesi lama diusir)
       window.location.href = 'login.html';
   }
+
+  function handleStatusUpdate(dbStatus) {
+      alert("PEMBERITAHUAN! Status Premium Anda telah diperbarui oleh Admin. Halaman akan dimuat ulang.");
+      
+      if (typeof eraseCookie === 'function') {
+          eraseCookie('is_premium');
+          eraseCookie('gracely_config_url');
+      }
+      localStorage.removeItem('isPremium');
+      localStorage.removeItem('premiumExpiryDate');
+      localStorage.removeItem('gracelyPremiumConfig');
+
+      const isPremium = dbStatus.isPremium;
+      
+      if (isPremium) {
+          if (typeof setCookie === 'function') {
+               setCookie('is_premium', 'true', 30);
+               setCookie('gracely_config_url', dbStatus.configUrl, 30);
+          }
+          localStorage.setItem('isPremium', 'true');
+          localStorage.setItem('premiumExpiryDate', dbStatus.premiumExpiryDate);
+          localStorage.setItem('gracelyPremiumConfig', dbStatus.configUrl);
+      } else {
+          if (typeof setCookie === 'function') {
+               setCookie('is_premium', 'false', 30);
+          }
+          localStorage.setItem('isPremium', 'false');
+      }
+
+      window.location.reload(); 
+  }
+
 
   function startSessionCheckLoop() {
       if (localStorage.getItem('isAuthenticated') !== 'true') {
@@ -133,6 +157,10 @@ function initializeScripts() {
       }
 
       const localSessionToken = localStorage.getItem('gracely_active_session_token'); 
+      const localIsPremium = localStorage.getItem('isPremium');
+      const localExpiryDate = localStorage.getItem('premiumExpiryDate');
+      const localConfigUrl = localStorage.getItem('gracelyPremiumConfig');
+      
       const checkInterval = 5000;
 
       if (!localSessionToken) {
@@ -141,23 +169,38 @@ function initializeScripts() {
       }
       
       setInterval(async () => {
-          if (typeof getUserId !== 'function' || typeof getActiveSessionToken !== 'function') {
+          if (typeof getUserId !== 'function' || typeof getActiveSessionToken !== 'function' || typeof getPremiumStatus !== 'function') {
               return;
           }
           
           const userId = await getUserId();
           if (!userId) {
-              // Jika ID pengguna hilang, sesi sudah berakhir
               handleMultiLoginKick("Sesi Anda telah berakhir.");
               return;
           }
 
+          // 1. Cek Sesi Tunggal (Session Kick)
           const dbSessionToken = await getActiveSessionToken(userId);
-
-          // KUNCI PERBAIKAN: Sesi lama (yang memiliki token berbeda) akan diusir. 
-          // Sesi baru (yang tokennya sama dengan DB) akan dipertahankan.
           if (dbSessionToken && dbSessionToken !== localSessionToken) {
               handleMultiLoginKick("Akun Anda terdeteksi melakukan Login di perangkat atau browser lain.");
+              return;
+          }
+          
+          // 2. Cek Status Premium Otomatis
+          const dbStatus = await getPremiumStatus(userId);
+          
+          if (dbStatus) {
+              const dbIsPremium = dbStatus.isPremium ? 'true' : 'false';
+              const dbExpiryDate = dbStatus.premiumExpiryDate;
+              const dbConfigUrl = dbStatus.configUrl;
+
+              const isStatusChanged = (dbIsPremium !== localIsPremium) || 
+                                      (dbExpiryDate !== localExpiryDate) ||
+                                      (dbConfigUrl !== localConfigUrl);
+
+              if (isStatusChanged) {
+                   handleStatusUpdate(dbStatus);
+              }
           }
 
       }, checkInterval);
