@@ -218,15 +218,19 @@ function initializeScripts() {
               const limit = profileSessionData.multilogin_limit || 1;
               const count = profileSessionData.active_login_count || 0;
 
-              if (limit === 1 && dbSessionToken && dbSessionToken !== localSessionToken) {
-                  handleMultiLoginKick("Akun Anda terdeteksi melakukan Login di perangkat atau browser lain.");
-                  return;
+              if (dbSessionToken && dbSessionToken !== localSessionToken) {
+                  if (limit === 1) {
+                      handleMultiLoginKick("Akun Anda terdeteksi melakukan Login di perangkat atau browser lain.");
+                      return;
+                  }
               }
               
-              else if (limit > 1 && count > limit && dbSessionToken && dbSessionToken === localSessionToken) {
-                  alert("Batas login perangkat telah terlampaui. Sesi Anda (sebagai login terbaru) akan ditutup.");
-                  logout();
-                  return;
+              else if (count > limit && limit > 0) {
+                  if (dbSessionToken && dbSessionToken === localSessionToken) {
+                      alert("Batas login perangkat telah terlampaui. Sesi Anda (sebagai login terbaru) akan ditutup.");
+                      logout();
+                      return;
+                  }
               }
           }
           
