@@ -183,7 +183,6 @@ function initializeScripts() {
       window.location.reload(); 
   }
 
-
   function startSessionCheckLoop() {
       if (localStorage.getItem('isAuthenticated') !== 'true') {
           return;
@@ -212,10 +211,16 @@ function initializeScripts() {
               return;
           }
 
-          const dbSessionToken = await getActiveSessionToken(userId);
-          if (dbSessionToken && dbSessionToken !== localSessionToken) {
-              handleMultiLoginKick("Akun Anda terdeteksi melakukan Login di perangkat atau browser lain.");
-              return;
+          const profileSessionData = await getActiveSessionToken(userId);
+          
+          if (profileSessionData) {
+              const dbSessionToken = profileSessionData.session_id;
+              const canMultiLogin = profileSessionData.allow_multilogin === true;
+
+              if (!canMultiLogin && dbSessionToken && dbSessionToken !== localSessionToken) {
+                  handleMultiLoginKick("Akun Anda terdeteksi melakukan Login di perangkat atau browser lain.");
+                  return;
+              }
           }
           
           const dbStatus = await getPremiumStatus(userId);
@@ -223,21 +228,16 @@ function initializeScripts() {
           if (dbStatus) {
               const dbIsPremium = dbStatus.isPremium ? 'true' : 'false';
               
-              // Cek Status Premium: Bandingkan status dasar (TRUE/FALSE)
               const isStatusChanged = (dbIsPremium !== localIsPremium);
               
-              // Cek Data Premium: Bandingkan tanggal dan URL jika statusnya masih Premium
               let isDataChanged = false;
               if (dbIsPremium === 'true') {
                   const dbExpiryDate = dbStatus.premiumExpiryDate;
                   const dbConfigUrl = dbStatus.configUrl;
                   
-                  // Gunakan operator kesamaan longgar (==) untuk menangani NULL/undefined/null secara konsisten
                   isDataChanged = (dbExpiryDate != localExpiryDate) || (dbConfigUrl != localConfigUrl);
               }
 
-              // Panggil update hanya jika status dasar (TRUE/FALSE) berubah ATAU 
-              // data premium (tanggal/config) berubah saat statusnya TRUE.
               if (isStatusChanged || isDataChanged) {
                    handleStatusUpdate(dbStatus);
               }
