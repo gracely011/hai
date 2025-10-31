@@ -32,12 +32,12 @@ async function getClientIp() {
     }
 }
 
-async function getActiveSessionToken(userId) {
+async function getProfileSessionData(userId) {
     if (!userId) return null;
     try {
         const { data } = await supabaseClient
             .from('profiles')
-            .select('session_id, allow_multilogin')
+            .select('session_id, multilogin_limit')
             .eq('id', userId)
             .single();
 
@@ -91,7 +91,9 @@ async function signup(name, email, password) {
                 last_sign_out: null,
                 last_ip: null,
                 last_browser: null,
-                config_hash: null
+                config_hash: null,
+                multilogin_limit: 1,
+                active_login_count: 0
             });
             
         if (profileError) {
@@ -120,16 +122,29 @@ async function login(email, password) {
         const clientIp = await getClientIp();
         const userAgent = navigator.userAgent; 
         const sessionId = authData.session.access_token;
+        const userId = authData.user.id;
 
         let { data: profileData, error: profileError } = await supabaseClient
             .from('profiles')
             .select('*') 
-            .eq('id', authData.user.id)
+            .eq('id', userId)
             .single();
 
         if (profileError) {
             throw profileError;
         }
+
+        const limit = profileData.multilogin_limit || 1;
+        const count = profileData.active_login_count || 0;
+
+        if (count >= limit && limit > 0) {
+            if (limit === 1) {
+            } else {
+                return { success: false, message: 'Batas login perangkat telah tercapai. Harap logout dari perangkat lain.' };
+            }
+        }
+
+        const newCount = (limit === 1) ? 1 : count + 1;
 
         const userName = profileData.name || 'User'; 
         
@@ -151,9 +166,10 @@ async function login(email, password) {
                 last_ip: clientIp,
                 last_browser: userAgent,
                 session_id: sessionId,
-                config_hash: configHash 
+                config_hash: configHash,
+                active_login_count: newCount
             })
-            .eq('id', authData.user.id);
+            .eq('id', userId);
             
         if (updateSignInError) {
              console.warn(updateSignInError.message);
@@ -213,19 +229,30 @@ async function logout() {
     
     if (userId) {
         const now = new Date().toISOString();
+        
+        let { data: profileData, error: profileError } = await supabaseClient
+            .from('profiles')
+            .select('active_login_count') 
+            .eq('id', userId)
+            .single();
+
+        let newCount = 0;
+        if (profileData && profileData.active_login_count) {
+            newCount = Math.max(0, profileData.active_login_count - 1);
+        }
+
         const { error: updateSignOutError } = await supabaseClient
             .from('profiles')
-            .update({ last_sign_out: now })
+            .update({ 
+                last_sign_out: now,
+                active_login_count: newCount
+            })
             .eq('id', userId);
 
         if (updateSignOutError) {
             console.warn(updateSignOutError.message);
         }
     }
-    
-    // ===== PERUBAHAN UTAMA DI SINI =====
-    // Kita tidak memanggil 'supabaseClient.auth.signOut()'
-    // Kita lakukan logout manual di sisi klien
     
     localStorage.clear();
 
