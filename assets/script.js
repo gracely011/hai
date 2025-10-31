@@ -104,11 +104,15 @@ function initializeScripts() {
     }
   });
   
+  // =================================================================
+  //                 LOGIKA VIDEO MODAL (DASHBOARD & INDEX)
+  // =================================================================
+  
   const videoModals = [
       { btnId: "openModalBtn", modalId: "videoModal", videoId: "videoElement" },
       { btnId: "openModalBtnKiwi", modalId: "videoModalKiwi", videoId: "videoElementKiwi" },
       { btnId: "openModalBtnOrion", modalId: "videoModalOrion", videoId: "videoElementOrion" },
-      { btnId: "openModalBtnDemo", modalId: "videoModalDemo", videoId: "videoElementDemo" }
+      { btnId: "openModalBtnDemo", modalId: "videoModalDemo", videoId: "videoElementDemo" } // Untuk index.html
   ];
 
   videoModals.forEach(({ btnId, modalId, videoId }) => {
@@ -117,12 +121,14 @@ function initializeScripts() {
       const video = document.getElementById(videoId);
 
       if (openBtn && modal && video) {
+          // Buka Modal
           openBtn.addEventListener("click", () => {
-              modal.style.display = "flex";
+              modal.style.display = "flex"; // Menggunakan 'flex' untuk centering
               video.currentTime = 0;
               video.play();
           });
 
+          // Tutup Modal saat klik di luar area video
           window.addEventListener("click", (event) => {
               if (event.target === modal) {
                   modal.style.display = "none";
@@ -130,6 +136,7 @@ function initializeScripts() {
               }
           });
           
+          // Tutup Modal saat tombol ESC ditekan
           document.addEventListener('keydown', (event) => {
               if (event.key === 'Escape' && modal.style.display === 'flex') {
                   modal.style.display = "none";
@@ -139,7 +146,13 @@ function initializeScripts() {
       }
   });
   
+  // =================================================================
+  //                 LOGIKA SESI TUNGGAL & AUTO-UPDATE
+  // =================================================================
+
   function handleMultiLoginKick(message) {
+      alert(`PEMBERITAHUAN! ${message}`);
+      
       localStorage.clear();
       localStorage.removeItem('gracely_active_session_token');
       
@@ -149,11 +162,11 @@ function initializeScripts() {
           eraseCookie('is_premium');
       }
 
-      alert(message + " Anda akan diarahkan ke halaman Login.");
       window.location.href = 'login.html';
   }
 
   function handleStatusUpdate(dbStatus) {
+      alert("PEMBERITAHUAN! Status Premium Anda telah diperbarui oleh Admin. Halaman akan dimuat ulang.");
       
       if (typeof eraseCookie === 'function') {
           eraseCookie('is_premium');
@@ -197,7 +210,7 @@ function initializeScripts() {
       const checkInterval = 5000;
 
       if (!localSessionToken) {
-          handleMultiLoginKick("Token sesi lokal hilang.");
+          handleMultiLoginKick("Token sesi lokal hilang. Silakan Login ulang.");
           return;
       }
       
@@ -212,12 +225,14 @@ function initializeScripts() {
               return;
           }
 
+          // 1. Cek Sesi Tunggal (Session Kick)
           const dbSessionToken = await getActiveSessionToken(userId);
           if (dbSessionToken && dbSessionToken !== localSessionToken) {
               handleMultiLoginKick("Akun Anda terdeteksi melakukan Login di perangkat atau browser lain.");
               return;
           }
           
+          // 2. Cek Status Premium Otomatis
           const dbStatus = await getPremiumStatus(userId);
           
           if (dbStatus) {
