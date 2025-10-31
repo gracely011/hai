@@ -201,7 +201,7 @@ function initializeScripts() {
       }
       
       setInterval(async () => {
-          if (typeof getUserId !== 'function' || typeof getActiveSessionToken !== 'function' || typeof getPremiumStatus !== 'function') {
+          if (typeof getUserId !== 'function' || typeof getProfileSessionData !== 'function' || typeof getPremiumStatus !== 'function') {
               return;
           }
           
@@ -211,14 +211,14 @@ function initializeScripts() {
               return;
           }
 
-          const profileSessionData = await getActiveSessionToken(userId);
+          const profileSessionData = await getProfileSessionData(userId);
           
           if (profileSessionData) {
               const dbSessionToken = profileSessionData.session_id;
-              const canMultiLogin = profileSessionData.allow_multilogin === true;
+              const limit = profileSessionData.multilogin_limit || 1;
 
-              if (!canMultiLogin && dbSessionToken && dbSessionToken !== localSessionToken) {
-                  handleMultiLoginKick("Akun Anda terdeteksi melakukan Login di perangkat atau browser lain.");
+              if (limit === 1 && dbSessionToken && dbSessionToken !== localSessionToken) {
+                  handleMultiLoginKick("Sesi Anda telah digantikan oleh login di perangkat baru.");
                   return;
               }
           }
