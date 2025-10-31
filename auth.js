@@ -223,7 +223,7 @@ async function logout() {
         }
     }
     
-    const { error } = await supabaseClient.auth.signOut();
+    const { error } = await supabaseClient.auth.signOut({ scope: 'local' });
     if (error) {
         console.error(error.message);
     }
