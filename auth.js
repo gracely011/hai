@@ -23,33 +23,46 @@ async function getUserId() {
 }
 
 async function getActiveSessionToken(userId) {
-    const { data: profiles, error } = await supabaseClient
+    if (!userId) return null;
+    const { data, error } = await supabaseClient
         .from('profiles')
         .select('active_session_token')
         .eq('id', userId)
         .single();
     if (error) {
+        console.error(error.message);
         return null;
     }
-    return profiles.active_session_token;
+    return data ? data.active_session_token : null;
 }
 
 async function signup(name, email, password) {
     try {
-        const { error } = await supabaseClient.auth.signUp({
+        const { data: { user }, error } = await supabaseClient.auth.signUp({
             email: email,
             password: password,
             options: {
-                data: { full_name: name, last_sign_in: new Date().toISOString() },
-            },
+                data: { full_name: name }
+            }
         });
 
         if (error) {
-            return { success: false, message: error.message };
+            throw error;
+        }
+        
+        const userId = user.id;
+
+        const { error: insertError } = await supabaseClient
+            .from('profiles')
+            .insert([
+                { id: userId, full_name: name, email: email }
+            ]);
+
+        if (insertError) {
+            console.error(insertError.message);
         }
 
         return { success: true };
-
     } catch (error) {
         return { success: false, message: error.message };
     }
@@ -63,59 +76,45 @@ async function login(email, password) {
         });
 
         if (error) {
-            if (error.message.includes("Invalid login credentials")) {
-                return { success: false, message: 'Email atau password salah.' };
-            }
-            return { success: false, message: error.message };
+            throw error;
         }
 
         const user = data.user;
-        const userId = user.id;
         const sessionToken = crypto.randomUUID();
         const now = new Date().toISOString();
 
-        const { error: updateError } = await supabaseClient
+        const { data: updateData, error: updateError } = await supabaseClient
             .from('profiles')
-            .update({ last_sign_in: now, active_session_token: sessionToken })
-            .eq('id', userId);
+            .update({ active_session_token: sessionToken, last_sign_in: now })
+            .eq('id', user.id)
+            .select();
 
-        if (updateError) {}
+        if (updateError) {
+            throw new Error(updateError.message);
+        }
+
+        const userName = updateData[0].full_name;
 
         localStorage.setItem('isAuthenticated', 'true');
-        localStorage.setItem('userName', user.user_metadata.full_name || 'User');
+        localStorage.setItem('userName', userName);
         localStorage.setItem('gracely_active_session_token', sessionToken);
-        setCookie('gracely_active_session', 'true', 7);
-
-        const { data: profilesData, error: profilesError } = await supabaseClient
-            .from('profiles')
-            .select('is_premium, premium_expiry_date, config_url')
-            .eq('id', userId)
+        setCookie('gracely_active_session', 'true', 30);
+        
+        const { data: premiumData } = await supabaseClient
+            .from('premium_users')
+            .select('expiry_date, config_url')
+            .eq('user_id', user.id)
             .single();
 
-        if (!profilesError) {
-            const isPremium = profilesData.is_premium;
-            const expiryDate = profilesData.premium_expiry_date;
-            const configUrl = profilesData.config_url;
-
-            localStorage.setItem('isPremium', isPremium ? 'true' : 'false');
-            setCookie('is_premium', isPremium ? 'true' : 'false', 7);
-
-            if (isPremium && expiryDate) {
-                localStorage.setItem('premiumExpiryDate', expiryDate);
-            } else {
-                localStorage.removeItem('premiumExpiryDate');
-            }
-
-            if (configUrl) {
-                localStorage.setItem('gracelyPremiumConfig', configUrl);
-                setCookie('gracely_config_url', configUrl, 7);
-            } else {
-                localStorage.removeItem('gracelyPremiumConfig');
-                eraseCookie('gracely_config_url');
-            }
+        if (premiumData && new Date(premiumData.expiry_date) > new Date()) {
+            const expiryDate = new Date(premiumData.expiry_date);
+            localStorage.setItem('isPremium', 'true');
+            localStorage.setItem('premiumExpiryDate', expiryDate.toISOString());
+            localStorage.setItem('gracelyPremiumConfig', JSON.stringify({ config_url: premiumData.config_url }));
+            setCookie('is_premium', 'true', 30);
+            setCookie('gracely_config_url', premiumData.config_url, 30);
         } else {
-            localStorage.setItem('isPremium', 'false');
-            setCookie('is_premium', 'false', 7);
+            localStorage.removeItem('isPremium');
             localStorage.removeItem('premiumExpiryDate');
             localStorage.removeItem('gracelyPremiumConfig');
             eraseCookie('gracely_config_url');
@@ -128,6 +127,7 @@ async function login(email, password) {
         eraseCookie('gracely_active_session');
         eraseCookie('is_premium');
         eraseCookie('gracely_config_url');
+        localStorage.removeItem('gracely_active_session_token');
 
         if (error.message.includes("Invalid login credentials")) {
             return { success: false, message: 'Email atau password salah.' };
@@ -138,9 +138,13 @@ async function login(email, password) {
 
 async function sendPasswordResetEmail(email) {
     try {
-        await supabaseClient.auth.resetPasswordForEmail(email, {
-            redirectTo: 'https://gracely011.github.io/hai/update-password.html', 
+        const { error } = await supabaseClient.auth.resetPasswordForEmail(email, {
+            redirectTo: 'https://gracely011.github.io/hai/update-password.html',
         });
+
+        if (error) {
+            throw error;
+        }
 
         return { success: true, message: 'Jika email terdaftar, tautan reset kata sandi telah dikirim ke kotak masuk Anda. Harap cek folder spam/sampah.' };
 
@@ -159,10 +163,15 @@ async function logout() {
             .update({ last_sign_out: now })
             .eq('id', userId);
 
-        if (updateSignOutError) {}
+        if (updateSignOutError) {
+            console.warn(updateSignOutError.message);
+        }
     }
     
-    await supabaseClient.auth.signOut();
+    const { error } = await supabaseClient.auth.signOut();
+    if (error) {
+        console.error(error.message);
+    }
     
     localStorage.clear();
 
@@ -189,11 +198,3 @@ function redirectIfAuthenticated() {
         window.location.href = 'dashboard.html';
     }
 }
-
-window.sendPasswordResetEmail = sendPasswordResetEmail;
-window.logout = logout;
-window.isAuthenticated = isAuthenticated;
-window.requireAuth = requireAuth;
-window.redirectIfAuthenticated = redirectIfAuthenticated;
-window.login = login;
-window.signup = signup;
