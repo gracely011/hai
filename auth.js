@@ -35,14 +35,29 @@ async function getClientIp() {
 async function getActiveSessionToken(userId) {
     if (!userId) return null;
     try {
-        const { data, error } = await supabaseClient
+        const { data } = await supabaseClient
             .from('profiles')
             .select('session_id')
             .eq('id', userId)
             .single();
 
-        if (error) throw error;
-        return data.session_id;
+        return data ? data.session_id : null;
+
+    } catch (error) {
+        return null;
+    }
+}
+
+async function getPremiumStatus(userId) {
+    if (!userId) return null;
+    try {
+        const { data } = await supabaseClient
+            .from('profiles')
+            .select('isPremium, premiumExpiryDate, configUrl')
+            .eq('id', userId)
+            .single();
+
+        return data; 
 
     } catch (error) {
         return null;
@@ -55,9 +70,7 @@ async function signup(name, email, password) {
             email: email,
             password: password,
             options: {
-                data: {
-                    full_name: name 
-                }
+                data: { full_name: name }
             }
         });
         
@@ -77,7 +90,8 @@ async function signup(name, email, password) {
                 last_sign_in: null, 
                 last_sign_out: null,
                 last_ip: null,
-                last_browser: null
+                last_browser: null,
+                config_hash: null
             });
             
         if (profileError) {
@@ -107,20 +121,6 @@ async function login(email, password) {
         const userAgent = navigator.userAgent; 
         const sessionId = authData.session.access_token;
 
-        const { error: updateSignInError } = await supabaseClient
-            .from('profiles')
-            .update({ 
-                last_sign_in: now,
-                last_ip: clientIp,
-                last_browser: userAgent,
-                session_id: sessionId
-            })
-            .eq('id', authData.user.id);
-            
-        if (updateSignInError) {
-             console.warn(updateSignInError.message);
-        }
-
         let { data: profileData, error: profileError } = await supabaseClient
             .from('profiles')
             .select('*') 
@@ -142,11 +142,27 @@ async function login(email, password) {
             }
         }
         
+        const configHash = isCurrentlyPremium ? profileData.configUrl.substring(0, 8) : 'NULL';
+
+        const { error: updateSignInError } = await supabaseClient
+            .from('profiles')
+            .update({ 
+                last_sign_in: now,
+                last_ip: clientIp,
+                last_browser: userAgent,
+                session_id: sessionId,
+                config_hash: configHash 
+            })
+            .eq('id', authData.user.id);
+            
+        if (updateSignInError) {
+             console.warn(updateSignInError.message);
+        }
+
         localStorage.setItem('isAuthenticated', 'true');
         localStorage.setItem('userEmail', authData.user.email);
         localStorage.setItem('userName', userName); 
         localStorage.setItem('isPremium', isCurrentlyPremium);
-        // Kunci Sesi Klien untuk Fitur Sesi Tunggal
         localStorage.setItem('gracely_active_session_token', authData.session.access_token);
 
         setCookie('gracely_active_session', 'true', 30); 
@@ -170,6 +186,7 @@ async function login(email, password) {
         eraseCookie('gracely_active_session');
         eraseCookie('is_premium');
         eraseCookie('gracely_config_url');
+        localStorage.removeItem('gracely_active_session_token');
 
         if (error.message.includes("Invalid login credentials")) {
             return { success: false, message: 'Email atau password salah.' };
@@ -216,7 +233,6 @@ async function logout() {
     eraseCookie('gracely_active_session');
     eraseCookie('is_premium');
     eraseCookie('gracely_config_url');
-    // Hapus kunci sesi lokal
     localStorage.removeItem('gracely_active_session_token');
 
     window.location.href = 'login.html';
