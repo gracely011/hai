@@ -1,12 +1,9 @@
 function initializeScripts() {
   "use strict";
-  // ===== Logo Console =====
   console.log('%cgracely', 'color: black; font-size: 60px; font-weight: bold; font-family: "Montserrat", sans-serif;');
   console.log('%cUnlock Premium Together', 'color: black; font-size: 20px; font-weight: bold; font-family: "Montserrat", sans-serif;');
   console.log('%ccontact@gracely.id', 'color: black; font-size: 15px; font-weight: bold; font-family: "Montserrat", sans-serif;');
-  // ========================
 
-  // ======= Logika untuk Navbar Sticky & Tombol Back-to-Top =======
   window.onscroll = function () {
     const ud_header = document.querySelector(".ud-header");
     if (!ud_header) return;
@@ -37,101 +34,33 @@ function initializeScripts() {
     }
   };
 
-  // ======= Logika untuk Menu Mobile (Hamburger) =======
-  const navbarToggler = document.querySelector(".navbar-toggler");
-  const navbarCollapse = document.querySelector(".navbar-collapse");
-  if (navbarToggler && navbarCollapse) {
-      document.querySelectorAll(".ud-menu-scroll").forEach((e) =>
-          e.addEventListener("click", () => {
-              navbarToggler.classList.remove("active");
-              navbarCollapse.classList.remove("show");
-          })
-      );
-      navbarToggler.addEventListener("click", function () {
-          navbarToggler.classList.toggle("active");
-          navbarCollapse.classList.toggle("show");
-      });
-  }
-
-  // ======= Inisialisasi Animasi Scroll (WOW.js) =======
-  if (typeof WOW !== 'undefined') {
-    new WOW().init();
-  }
-
-  // ======= Fungsi untuk Scroll-to-Top =======
-  function scrollTo(element, to = 0, duration = 500) {
-    const start = element.scrollTop;
-    const change = to - start;
-    const increment = 20;
-    let currentTime = 0;
-    const animateScroll = () => {
-      currentTime += increment;
-      const val = Math.easeInOutQuad(currentTime, start, change, duration);
-      element.scrollTop = val;
-      if (currentTime < duration) {
-        setTimeout(animateScroll, increment);
-      }
-    };
-    animateScroll();
-  }
-  Math.easeInOutQuad = function (t, b, c, d) {
-    t /= d / 2;
-    if (t < 1) return (c / 2) * t * t + b;
-    t--;
-    return (-c / 2) * (t * (t - 2) - 1) + b;
-  };
-
-  document.body.addEventListener('click', event => {
-      if (event.target.closest('.back-to-top')) {
-          scrollTo(document.documentElement);
-      }
+  document.body.addEventListener('click', function(event) {
+    if (event.target.closest('.back-to-top')) {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
   });
 
-  // ======= Logika untuk Semua Video Modal =======
-    const modals = [
-        // Modal Demo di Index
-        { btnId: "openModalBtnDemo", modalId: "videoModalDemo", videoId: "videoElementDemo" },
-        // Modal Tutorial di Dashboard
-        { btnId: "openModalBtn", modalId: "videoModal", videoId: "videoElement" },
-        { btnId: "openModalBtnKiwi", modalId: "videoModalKiwi", videoId: "videoElementKiwi" },
-        { btnId: "openModalBtnOrion", modalId: "videoModalOrion", videoId: "videoElementOrion" }
-    ];
-
-    modals.forEach(modalInfo => {
-        const openBtn = document.getElementById(modalInfo.btnId);
-        const videoModal = document.getElementById(modalInfo.modalId);
-        const videoElement = document.getElementById(modalInfo.videoId);
-
-        if (openBtn && videoModal && videoElement) {
-            openBtn.addEventListener("click", () => {
-                videoModal.style.display = "block";
-                videoElement.currentTime = 0;
-                // Penanganan error jika video gagal dimuat
-                videoElement.play().catch(error => {
-                    console.error(`Error playing video ${modalInfo.videoId}:`, error);
-                    // Anda bisa tambahkan pesan error ke UI di sini jika mau
-                });
-            });
-
-            window.addEventListener("click", (event) => {
-                if (event.target === videoModal) {
-                    videoModal.style.display = "none";
-                    videoElement.pause();
-                }
-            });
-        }
+  const navbarToggler = document.querySelector(".navbar-toggler");
+  if (navbarToggler) {
+    navbarToggler.addEventListener("click", function () {
+      navbarToggler.classList.toggle("active");
+      const navbarCollapse = document.querySelector(".navbar-collapse");
+      if (navbarCollapse) {
+        navbarCollapse.classList.toggle("show");
+      }
     });
+  }
 
-  // ======= Logika Form Login =======
-  const loginForm = document.getElementById("login-form");
+  const loginForm = document.getElementById('login-form');
   if (loginForm) {
-    loginForm.addEventListener("submit", async (event) => {
+    loginForm.addEventListener('submit', async (event) => {
       event.preventDefault();
 
-      let errorMessage = document.getElementById("error-message");
+      let errorMessage = document.getElementById('login-error-message');
       if (!errorMessage) {
           errorMessage = document.createElement('p');
-          errorMessage.id = 'error-message';
+          errorMessage.id = 'login-error-message';
           errorMessage.style.color = 'red';
           errorMessage.style.marginTop = '15px';
           const buttonContainer = loginForm.querySelector('.ud-form-group');
@@ -153,25 +82,84 @@ function initializeScripts() {
         return;
       }
 
-      const result = await login(email, password); // Memanggil auth.js
+      const submitButton = loginForm.querySelector('button[type="submit"]');
+      submitButton.disabled = true;
+      submitButton.innerHTML = 'Memuat...';
+
+      const result = await login(email, password);
 
       if (result.success) {
-        // Alamat lengkap tetap diperlukan untuk GitHub Pages
         window.location.href = "https://gracely011.github.io/hai/dashboard.html"; 
       } else {
         errorMessage.textContent = result.message;
+        submitButton.disabled = false;
+        submitButton.innerHTML = 'Log in';
       }
     });
   }
 
-  // ======= Logika Tombol Logout =======
   document.body.addEventListener('click', function(event) {
-    // Gunakan .closest() untuk target yang lebih fleksibel
     if (event.target.closest('#logout-button')) { 
-        logout(); // Memanggil auth.js
+        logout();
     }
   });
+  
+  // =================================================================
+  //                 LOGIKA SESI TUNGGAL (SINGLE SESSION)
+  // =================================================================
 
+  function handleMultiLoginKick(message) {
+      alert(`PEMBERITAHUAN! ${message}`);
+      // Memanggil fungsi logout global dari auth.js
+      if (typeof logout === 'function') {
+          logout();
+      } else {
+          localStorage.clear();
+          window.location.href = 'login.html';
+      }
+  }
+
+  function startSessionCheckLoop() {
+      if (localStorage.getItem('isAuthenticated') !== 'true') {
+          return;
+      }
+
+      // Ambil token yang disimpan di browser klien
+      const localSessionToken = localStorage.getItem('gracely_active_session_token'); 
+      const checkInterval = 5000; // Cek setiap 5 detik
+
+      if (!localSessionToken) {
+          // Jika token sesi lokal hilang (tapi isAuthenticated true), paksa logout
+          handleMultiLoginKick("Token sesi lokal hilang. Silakan Login ulang.");
+          return;
+      }
+      
+      setInterval(async () => {
+          // Fungsi getUserId dan getActiveSessionToken berasal dari auth.js
+          if (typeof getUserId !== 'function' || typeof getActiveSessionToken !== 'function') {
+              console.warn("Auth functions not loaded.");
+              return;
+          }
+          
+          const userId = await getUserId();
+          if (!userId) {
+              handleMultiLoginKick("Sesi Anda telah berakhir.");
+              return;
+          }
+
+          const dbSessionToken = await getActiveSessionToken(userId);
+
+          // Logika Kick: Jika token DB ada DAN tidak cocok dengan token lokal
+          if (dbSessionToken && dbSessionToken !== localSessionToken) {
+              handleMultiLoginKick("Akun Anda terdeteksi melakukan Login di perangkat atau browser lain.");
+          } else if (!dbSessionToken) {
+               // Kasus tambahan: jika session_id di DB tiba-tiba NULL/kosong
+               handleMultiLoginKick("Sesi database Anda telah dihapus. Silakan Login ulang.");
+          }
+
+      }, checkInterval);
+  }
+
+  // Panggil loop pengecekan sesi saat skrip diinisialisasi (halaman dashboard dimuat)
+  startSessionCheckLoop();
 }
-// Fungsi initializeScripts() akan dipanggil oleh layout.js setelah DOM siap
-
