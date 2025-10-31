@@ -1,14 +1,12 @@
 // =================================================================
-//                 AUTH.JS (Versi FINAL DAN LENGKAP)
+//                 AUTH.JS
 // =================================================================
 
-// 1. Inisialisasi Klien Supabase
 const SUPABASE_URL = 'https://mujasmmlozswplmtkijr.supabase.co';
 const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im11amFzbW1sb3pzd3BsbXRraWpyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjE3MDM4ODgsImV4cCI6MjA3NzI3OTg4OH0.tttyPcoVUtyPLfBm1irS2qYthzt84Yb0OhjxD-tZ4Nw';
 const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
 
-// [HELPER FUNCTION] untuk Set Cookies
 function setCookie(name, value, days) {
     let expires = "";
     if (days) {
@@ -16,20 +14,25 @@ function setCookie(name, value, days) {
         date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
         expires = "; expires=" + date.toUTCString();
     }
-    // Wajib: path=/, SameSite=Lax, Secure
     let cookieString = name + "=" + (value || "") + expires + "; path=/; SameSite=Lax; Secure";
     document.cookie = cookieString;
 }
 
-// [HELPER FUNCTION] untuk Hapus Cookies
-function eraseCookie(name) {
-    document.cookie = name + '=; Max-Age=-99999999; path=/; path=/; SameSite=Lax; Secure';
+function getCookie(name) {
+    const nameEQ = name + "=";
+    const ca = document.cookie.split(';');
+    for(let i=0; i < ca.length; i++) {
+        let c = ca[i];
+        while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+        if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+    }
+    return null;
 }
 
+function eraseCookie(name) {   
+    document.cookie = name+'=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+}
 
-/**
- * Fungsi Signup
- */
 async function signup(name, email, password) {
     try {
         const { data, error } = await supabaseClient.auth.signUp({
@@ -37,30 +40,43 @@ async function signup(name, email, password) {
             password: password,
             options: {
                 data: {
-                    full_name: name 
+                    user_name: name
                 }
             }
         });
-        
+
         if (error) {
-            throw error; 
+            throw error;
         }
-        
-        return { success: true, data: data };
+
+        const { error: profileError } = await supabaseClient
+            .from('profiles')
+            .insert([
+                { 
+                    id: data.user.id, 
+                    username: name,
+                    isPremium: false,
+                    premiumExpiryDate: null,
+                    configUrl: null
+                }
+            ]);
+
+        if (profileError) {
+            await supabaseClient.auth.signOut();
+            throw profileError;
+        }
+
+        return { success: true };
 
     } catch (error) {
+        console.error('[auth.js] Signup error:', error.message);
         return { success: false, message: error.message };
     }
 }
 
-
-/**
- * Fungsi Login
- */
 async function login(email, password) {
     try {
-        // 1. Coba login ke Supabase Authentication
-        let { data: authData, error: authError } = await supabaseClient.auth.signInWithPassword({
+        const { data: authData, error: authError } = await supabaseClient.auth.signInWithPassword({
             email: email,
             password: password,
         });
@@ -69,8 +85,7 @@ async function login(email, password) {
             throw authError;
         }
 
-        // 2. Ambil data dari tabel 'profiles'
-        let { data: profileData, error: profileError } = await supabaseClient
+        const { data: profileData, error: profileError } = await supabaseClient
             .from('profiles')
             .select('*')
             .eq('id', authData.user.id)
@@ -80,30 +95,22 @@ async function login(email, password) {
             throw profileError;
         }
 
-        // 3. Cek Status Premium
-        let isCurrentlyPremium = false;
-        if (profileData.isPremium && profileData.premiumExpiryDate) {
-            const expiryDate = new Date(profileData.premiumExpiryDate);
-            const today = new Date();
-            if (today <= expiryDate) {
-                isCurrentlyPremium = true;
-            }
-        }
-        
-        // 4. Set LocalStorage (untuk dashboard.html)
+        const isPremium = profileData.isPremium || false;
+        const expiryDate = profileData.premiumExpiryDate;
+        const configUrl = profileData.configUrl;
+        const userName = profileData.username;
+
         localStorage.setItem('isAuthenticated', 'true');
-        localStorage.setItem('userEmail', authData.user.email);
-        localStorage.setItem('userName', profileData.name);
-        localStorage.setItem('isPremium', isCurrentlyPremium);
-
-        // 5. SET COOKIES (untuk ekstensi background.js)
-        setCookie('gracely_active_session', 'true', 30); // Login berhasil
-        setCookie('is_premium', isCurrentlyPremium ? 'true' : 'false', 30);
-
-        if (isCurrentlyPremium && profileData.configUrl) {
-            localStorage.setItem('premiumExpiryDate', profileData.premiumExpiryDate);
-            localStorage.setItem('gracelyPremiumConfig', profileData.configUrl);
-            setCookie('gracely_config_url', profileData.configUrl, 30); // Config URL yang dicari ekstensi
+        localStorage.setItem('userName', userName);
+        localStorage.setItem('isPremium', isPremium);
+        
+        setCookie('gracely_active_session', authData.session.access_token, 30);
+        setCookie('is_premium', isPremium ? 'true' : 'false', 30);
+        
+        if (isPremium) {
+            localStorage.setItem('premiumExpiryDate', expiryDate);
+            localStorage.setItem('gracelyPremiumConfig', configUrl);
+            setCookie('gracely_config_url', configUrl, 30);
         } else {
             localStorage.removeItem('premiumExpiryDate');
             localStorage.removeItem('gracelyPremiumConfig');
@@ -116,7 +123,6 @@ async function login(email, password) {
         console.error('[auth.js] Login error:', error.message);
         localStorage.clear();
         
-        // Hapus semua cookies saat gagal login
         eraseCookie('gracely_active_session');
         eraseCookie('is_premium');
         eraseCookie('gracely_config_url');
@@ -128,9 +134,24 @@ async function login(email, password) {
     }
 }
 
-/**
- * Fungsi Logout
- */
+async function sendPasswordResetEmail(email) {
+    try {
+        const { error } = await supabaseClient.auth.resetPasswordForEmail(email, {
+            redirectTo: 'https://gracely011.github.io/hai/update-password.html', 
+        });
+
+        if (error) {
+            throw error;
+        }
+
+        return { success: true, message: 'Jika email terdaftar, tautan reset kata sandi telah dikirim ke kotak masuk Anda. Harap cek folder spam/sampah.' };
+
+    } catch (error) {
+        console.error('[auth.js] Password reset error:', error.message);
+        return { success: false, message: error.message };
+    }
+}
+
 async function logout() {
     const { error } = await supabaseClient.auth.signOut();
     if (error) {
@@ -139,7 +160,6 @@ async function logout() {
     
     localStorage.clear();
 
-    // Hapus semua cookies
     eraseCookie('gracely_active_session');
     eraseCookie('is_premium');
     eraseCookie('gracely_config_url');
@@ -147,9 +167,6 @@ async function logout() {
     window.location.href = 'login.html';
 }
 
-/**
- * Fungsi Helper (Tidak Berubah)
- */
 function isAuthenticated() {
     return localStorage.getItem('isAuthenticated') === 'true';
 }
