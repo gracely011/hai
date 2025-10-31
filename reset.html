@@ -99,19 +99,15 @@
             return;
           }
 
-          // Reset status dan tampilkan loading
           messageElement.textContent = '';
           resetButton.disabled = true;
           resetButton.innerHTML = 'Mengirim...';
 
-          // Panggil fungsi Supabase dari auth.js
           const result = await sendPasswordResetEmail(email);
 
-          // Tampilkan pesan kepada pengguna
           messageElement.textContent = result.message;
           if (result.success) {
             messageElement.style.color = 'green';
-            emailInput.value = ''; // Kosongkan input
           } else {
             messageElement.style.color = 'red';
           }
