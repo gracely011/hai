@@ -1,11 +1,10 @@
 // =================================================================
-//                 AUTH.JS
+//                 AUTH.JS (Versi FINAL DAN LENGKAP)
 // =================================================================
 
 const SUPABASE_URL = 'https://mujasmmlozswplmtkijr.supabase.co';
 const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im11amFzbW1sb3pzd3BsbXRraWpyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjE3MDM4ODgsImV4cCI6MjA3NzI3OTg4OH0.tttyPcoVUtyPLfBm1irS2qYthzt84Yb0OhjxD-tZ4Nw';
 const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
-
 
 function setCookie(name, value, days) {
     let expires = "";
@@ -18,25 +17,8 @@ function setCookie(name, value, days) {
     document.cookie = cookieString;
 }
 
-function getCookie(name) {
-    const nameEQ = name + "=";
-    const ca = document.cookie.split(';');
-    for(let i=0; i < ca.length; i++) {
-        let c = ca[i];
-        while (c.charAt(0) === ' ') c = c.substring(1, c.length);
-        if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
-    }
-    return null;
-}
-
 function eraseCookie(name) {   
     document.cookie = name+'=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
-}
-
-// Fungsi untuk mendapatkan sesi Supabase saat ini
-async function getActiveSession() {
-    const { data: { session } } = await supabaseClient.auth.getSession();
-    return session;
 }
 
 async function signup(name, email, password) {
@@ -46,7 +28,7 @@ async function signup(name, email, password) {
             password: password,
             options: {
                 data: {
-                    user_name: name
+                    user_name: name 
                 }
             }
         });
@@ -55,47 +37,33 @@ async function signup(name, email, password) {
             throw error;
         }
 
-        // Supabase user ID
         const userId = data.user.id;
         
-        // Cek jika user sudah ada (hanya jika sign-up berhasil tapi profile belum ada)
-        const { data: existingProfile } = await supabaseClient
+        // Cek/Insert ke tabel 'profiles' menggunakan kolom 'username'
+        const { error: profileError } = await supabaseClient
             .from('profiles')
-            .select('id')
-            .eq('id', userId)
-            .single();
+            .upsert({ 
+                id: userId, 
+                username: name,
+                isPremium: false,
+                premiumExpiryDate: null,
+                configUrl: null
+            }, { onConflict: 'id' });
 
-        if (!existingProfile) {
-             const { error: profileError } = await supabaseClient
-                .from('profiles')
-                .insert([
-                    { 
-                        id: userId, 
-                        username: name,
-                        isPremium: false,
-                        premiumExpiryDate: null,
-                        configUrl: null
-                    }
-                ]);
-
-            if (profileError) {
-                // Opsional: Hapus user jika profil gagal dibuat
-                // await supabaseClient.auth.admin.deleteUser(userId);
-                throw profileError;
-            }
+        if (profileError) {
+            throw profileError;
         }
        
         return { success: true };
 
     } catch (error) {
-        console.error('[auth.js] Signup error:', error.message);
         return { success: false, message: error.message };
     }
 }
 
 async function login(email, password) {
     try {
-        const { data: authData, error: authError } = await supabaseClient.auth.signInWithPassword({
+        let { data: authData, error: authError } = await supabaseClient.auth.signInWithPassword({
             email: email,
             password: password,
         });
@@ -104,59 +72,47 @@ async function login(email, password) {
             throw authError;
         }
 
-        const { data: profileData, error: profileError } = await supabaseClient
+        // Ambil data dari tabel 'profiles'
+        let { data: profileData, error: profileError } = await supabaseClient
             .from('profiles')
-            .select('*')
+            .select('isPremium, premiumExpiryDate, configUrl, username')
             .eq('id', authData.user.id)
             .single();
 
-        if (profileError) {
-            // Jika profile tidak ditemukan (kasus lama/error)
-            console.error('Profile not found, trying to use user metadata.');
-            const userMetadata = authData.user.user_metadata;
-            
-            const isPremium = userMetadata.isPremium || false;
-            const expiryDate = userMetadata.premiumExpiryDate || null;
-            const configUrl = userMetadata.configUrl || null;
-            const userName = userMetadata.user_name || 'User';
+        let userName = 'User';
+        let isCurrentlyPremium = false;
+        let configUrl = null;
+        let premiumExpiryDate = null;
+        
+        if (profileData && profileData.username) {
+             // **PERBAIKAN UTAMA: Gunakan kolom 'username' dari tabel profiles**
+            userName = profileData.username;
+            isCurrentlyPremium = profileData.isPremium || false;
+            premiumExpiryDate = profileData.premiumExpiryDate;
+            configUrl = profileData.configUrl;
 
-            // Set LocalStorage dan Cookies berdasarkan metadata jika profile table gagal
-            localStorage.setItem('isAuthenticated', 'true');
-            localStorage.setItem('userName', userName);
-            localStorage.setItem('isPremium', isPremium);
-            setCookie('gracely_active_session', authData.session.access_token, 30);
-            setCookie('is_premium', isPremium ? 'true' : 'false', 30);
-
-            if (isPremium) {
-                localStorage.setItem('premiumExpiryDate', expiryDate);
-                localStorage.setItem('gracelyPremiumConfig', configUrl);
-                setCookie('gracely_config_url', configUrl, 30);
-            } else {
-                localStorage.removeItem('premiumExpiryDate');
-                localStorage.removeItem('gracelyPremiumConfig');
-                eraseCookie('gracely_config_url');
+            if (isCurrentlyPremium && premiumExpiryDate) {
+                const expiryDate = new Date(premiumExpiryDate);
+                const today = new Date();
+                isCurrentlyPremium = today <= expiryDate;
             }
-            return { success: true };
-
-        }
-
-        // Logika normal jika profile ditemukan
-        const isPremium = profileData.isPremium || false;
-        const expiryDate = profileData.premiumExpiryDate;
-        const configUrl = profileData.configUrl;
-        const userName = profileData.username;
-
+        } 
+        
+        // JANGAN MENGGUNAKAN profileData.name karena skema Anda memakai 'username'
+        
+        // 4. Set LocalStorage (untuk dashboard.html)
         localStorage.setItem('isAuthenticated', 'true');
         localStorage.setItem('userName', userName);
-        localStorage.setItem('isPremium', isPremium);
-        
-        setCookie('gracely_active_session', authData.session.access_token, 30);
-        setCookie('is_premium', isPremium ? 'true' : 'false', 30);
-        
-        if (isPremium) {
-            localStorage.setItem('premiumExpiryDate', expiryDate);
+        localStorage.setItem('isPremium', isCurrentlyPremium);
+
+        // 5. SET COOKIES
+        setCookie('gracely_active_session', 'true', 30);
+        setCookie('is_premium', isCurrentlyPremium ? 'true' : 'false', 30);
+
+        if (isCurrentlyPremium && configUrl) {
+            localStorage.setItem('premiumExpiryDate', premiumExpiryDate);
             localStorage.setItem('gracelyPremiumConfig', configUrl);
-            setCookie('gracely_config_url', configUrl, 30);
+            setCookie('gracely_config_url', configUrl, 30); 
         } else {
             localStorage.removeItem('premiumExpiryDate');
             localStorage.removeItem('gracelyPremiumConfig');
@@ -187,25 +143,17 @@ async function sendPasswordResetEmail(email) {
         });
 
         if (error) {
-            // Jika Supabase menolak karena 'invalid email', cek apakah itu karena domain 'example.com'
-            if (error.message.includes("Invalid login credentials") && email.endsWith('@example.com')) {
-                return { success: false, message: 'Penggunaan domain uji "example.com" tidak diizinkan untuk reset kata sandi.' };
+            // Memberikan pesan error yang lebih umum untuk mencegah enumerasi email
+            if (error.message.includes("Email address") && error.message.includes("is invalid")) {
+                 return { success: true, message: 'Jika email terdaftar, tautan reset kata sandi telah dikirim ke kotak masuk Anda. Harap cek folder spam/sampah.' };
             }
             throw error;
         }
 
-        // Pesan sukses umum untuk keamanan.
         return { success: true, message: 'Jika email terdaftar, tautan reset kata sandi telah dikirim ke kotak masuk Anda. Harap cek folder spam/sampah.' };
 
     } catch (error) {
         console.error('[auth.js] Password reset error:', error.message);
-        
-        // Tampilkan pesan error spesifik jika bukan error Supabase (misalnya, network error)
-        if (error.message.includes("Failed to fetch")) {
-             return { success: false, message: 'Gagal mengirim permintaan. Periksa koneksi internet Anda.' };
-        }
-        
-        // Gunakan pesan Supabase asli untuk error lainnya (yang seringkali sudah cukup informatif)
         return { success: false, message: error.message };
     }
 }
