@@ -223,9 +223,10 @@ async function logout() {
         }
     }
     
-    // ===== PERUBAHAN UTAMA DI SINI =====
-    // Kita tidak memanggil 'supabaseClient.auth.signOut()'
-    // Kita lakukan logout manual di sisi klien
+    const { error } = await supabaseClient.auth.signOut();
+    if (error) {
+        console.error(error.message);
+    }
     
     localStorage.clear();
 
