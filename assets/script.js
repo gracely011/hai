@@ -222,14 +222,23 @@ function initializeScripts() {
           
           if (dbStatus) {
               const dbIsPremium = dbStatus.isPremium ? 'true' : 'false';
-              const dbExpiryDate = dbStatus.premiumExpiryDate;
-              const dbConfigUrl = dbStatus.configUrl;
+              
+              // Cek Status Premium: Bandingkan status dasar (TRUE/FALSE)
+              const isStatusChanged = (dbIsPremium !== localIsPremium);
+              
+              // Cek Data Premium: Bandingkan tanggal dan URL jika statusnya masih Premium
+              let isDataChanged = false;
+              if (dbIsPremium === 'true') {
+                  const dbExpiryDate = dbStatus.premiumExpiryDate;
+                  const dbConfigUrl = dbStatus.configUrl;
+                  
+                  // Gunakan operator kesamaan longgar (==) untuk menangani NULL/undefined/null secara konsisten
+                  isDataChanged = (dbExpiryDate != localExpiryDate) || (dbConfigUrl != localConfigUrl);
+              }
 
-              const isStatusChanged = (dbIsPremium !== localIsPremium) || 
-                                      (dbExpiryDate !== localExpiryDate) ||
-                                      (dbConfigUrl !== localConfigUrl);
-
-              if (isStatusChanged) {
+              // Panggil update hanya jika status dasar (TRUE/FALSE) berubah ATAU 
+              // data premium (tanggal/config) berubah saat statusnya TRUE.
+              if (isStatusChanged || isDataChanged) {
                    handleStatusUpdate(dbStatus);
               }
           }
