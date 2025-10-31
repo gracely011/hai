@@ -143,8 +143,8 @@ async function login(email, password) {
                 return { success: false, message: 'Batas login perangkat telah tercapai. Harap logout dari perangkat lain.' };
             }
         }
-
-        const newCount = (limit === 1) ? 1 : count + 1;
+        
+        const newCount = count + 1;
 
         const userName = profileData.name || 'User'; 
         
