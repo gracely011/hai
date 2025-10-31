@@ -116,13 +116,14 @@ function initializeScripts() {
       localStorage.removeItem('gracely_active_session_token');
       
       // ** PERBAIKAN: Hapus Cookies Sesi Lama **
+      // Kita panggil eraseCookie karena ini adalah fungsi helper global dari auth.js
       if (typeof eraseCookie === 'function') {
           eraseCookie('gracely_active_session');
           eraseCookie('gracely_config_url');
           eraseCookie('is_premium');
       }
 
-      // Arahkan ke halaman login
+      // Arahkan ke halaman login (sesi lama diusir)
       window.location.href = 'login.html';
   }
 
@@ -146,12 +147,15 @@ function initializeScripts() {
           
           const userId = await getUserId();
           if (!userId) {
+              // Jika ID pengguna hilang, sesi sudah berakhir
               handleMultiLoginKick("Sesi Anda telah berakhir.");
               return;
           }
 
           const dbSessionToken = await getActiveSessionToken(userId);
 
+          // KUNCI PERBAIKAN: Sesi lama (yang memiliki token berbeda) akan diusir. 
+          // Sesi baru (yang tokennya sama dengan DB) akan dipertahankan.
           if (dbSessionToken && dbSessionToken !== localSessionToken) {
               handleMultiLoginKick("Akun Anda terdeteksi melakukan Login di perangkat atau browser lain.");
           }
@@ -159,6 +163,5 @@ function initializeScripts() {
       }, checkInterval);
   }
 
-  // Panggil loop pengecekan sesi saat skrip diinisialisasi
   startSessionCheckLoop();
 }
