@@ -32,6 +32,23 @@ async function getClientIp() {
     }
 }
 
+async function getActiveSessionToken(userId) {
+    if (!userId) return null;
+    try {
+        const { data, error } = await supabaseClient
+            .from('profiles')
+            .select('session_id')
+            .eq('id', userId)
+            .single();
+
+        if (error) throw error;
+        return data.session_id;
+
+    } catch (error) {
+        return null;
+    }
+}
+
 async function signup(name, email, password) {
     try {
         const { data, error } = await supabaseClient.auth.signUp({
@@ -88,7 +105,7 @@ async function login(email, password) {
         const now = new Date().toISOString();
         const clientIp = await getClientIp();
         const userAgent = navigator.userAgent; 
-        const sessionId = authData.session.access_token; // Mengisi session_id dengan Access Token
+        const sessionId = authData.session.access_token;
 
         const { error: updateSignInError } = await supabaseClient
             .from('profiles')
@@ -96,7 +113,7 @@ async function login(email, password) {
                 last_sign_in: now,
                 last_ip: clientIp,
                 last_browser: userAgent,
-                session_id: sessionId // Menyimpan Access Token
+                session_id: sessionId
             })
             .eq('id', authData.user.id);
             
@@ -129,6 +146,8 @@ async function login(email, password) {
         localStorage.setItem('userEmail', authData.user.email);
         localStorage.setItem('userName', userName); 
         localStorage.setItem('isPremium', isCurrentlyPremium);
+        // Kunci Sesi Klien untuk Fitur Sesi Tunggal
+        localStorage.setItem('gracely_active_session_token', authData.session.access_token);
 
         setCookie('gracely_active_session', 'true', 30); 
         setCookie('is_premium', isCurrentlyPremium ? 'true' : 'false', 30);
@@ -197,6 +216,8 @@ async function logout() {
     eraseCookie('gracely_active_session');
     eraseCookie('is_premium');
     eraseCookie('gracely_config_url');
+    // Hapus kunci sesi lokal
+    localStorage.removeItem('gracely_active_session_token');
 
     window.location.href = 'login.html';
 }
