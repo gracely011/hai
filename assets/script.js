@@ -154,7 +154,6 @@ function initializeScripts() {
   }
 
   function handleStatusUpdate(dbStatus) {
-      alert("PEMBERITAHUAN! Status Premium Anda telah diperbarui oleh Admin. Halaman akan dimuat ulang.");
       
       if (typeof eraseCookie === 'function') {
           eraseCookie('is_premium');
