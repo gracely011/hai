@@ -128,10 +128,14 @@
         } else {
             let message = result.message;
             
-            if (message.includes("User already registered") || message.includes("duplicate key value") || message.includes("violates row-level security policy")) {
+            if (message.includes("violates row-level security policy") || message.includes("duplicate key value")) {
+                alert('Pendaftaran berhasil! Silakan langsung Login.');
+                window.location.href = 'login.html';
+                return;
+            }
+
+            if (message.includes("User already registered")) {
                 message = "Akun dengan email ini sudah terdaftar. Silakan Log in.";
-            } else if (message.includes("Password should be at least 6 characters")) {
-                message = "Kata sandi harus minimal 6 karakter.";
             }
 
             errorMessage.textContent = 'Error: ' + message;
