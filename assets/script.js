@@ -201,7 +201,7 @@ function initializeScripts() {
       }
       
       setInterval(async () => {
-          if (typeof getUserId !== 'function' || typeof getProfileSessionData !== 'function' || typeof getPremiumStatus !== 'function') {
+          if (typeof getUserId !== 'function' || typeof getActiveSessionToken !== 'function' || typeof getPremiumStatus !== 'function') {
               return;
           }
           
@@ -211,26 +211,15 @@ function initializeScripts() {
               return;
           }
 
-          const profileSessionData = await getProfileSessionData(userId);
+          const profileSessionData = await getActiveSessionToken(userId);
           
           if (profileSessionData) {
               const dbSessionToken = profileSessionData.session_id;
-              const limit = profileSessionData.multilogin_limit || 1;
-              const count = profileSessionData.active_login_count || 0;
+              const canMultiLogin = profileSessionData.allow_multilogin === true;
 
-              if (dbSessionToken && dbSessionToken !== localSessionToken) {
-                  if (limit === 1) {
-                      handleMultiLoginKick("Akun Anda terdeteksi melakukan Login di perangkat atau browser lain.");
-                      return;
-                  }
-              }
-              
-              else if (count > limit && limit > 0) {
-                  if (dbSessionToken && dbSessionToken === localSessionToken) {
-                      alert("Batas login perangkat telah terlampaui. Sesi Anda (sebagai login terbaru) akan ditutup.");
-                      logout();
-                      return;
-                  }
+              if (!canMultiLogin && dbSessionToken && dbSessionToken !== localSessionToken) {
+                  handleMultiLoginKick("Akun Anda terdeteksi melakukan Login di perangkat atau browser lain.");
+                  return;
               }
           }
           
