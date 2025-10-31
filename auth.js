@@ -1,5 +1,5 @@
 // =================================================================
-//                 AUTH.JS (Final Fix: Menggunakan Kolom 'name')
+//                 AUTH.JS (Final Fix 2: Mengembalikan Logika Signup Profiles)
 // =================================================================
 
 // 1. Inisialisasi Klien Supabase
@@ -16,7 +16,6 @@ function setCookie(name, value, days) {
         date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
         expires = "; expires=" + date.toUTCString();
     }
-    // Wajib: path=/, SameSite=Lax, Secure
     let cookieString = name + "=" + (value || "") + expires + "; path=/; SameSite=Lax; Secure";
     document.cookie = cookieString;
 }
@@ -32,6 +31,7 @@ function eraseCookie(name) {
  */
 async function signup(name, email, password) {
     try {
+        // 1. Buat user di Supabase Auth
         const { data, error } = await supabaseClient.auth.signUp({
             email: email,
             password: password,
@@ -46,22 +46,25 @@ async function signup(name, email, password) {
             throw error; 
         }
 
-        // PERBAIKAN: Insert ke tabel 'profiles' menggunakan kolom 'name'
+        // 2. PERBAIKAN: Insert baris ke tabel 'profiles'
         const { error: profileError } = await supabaseClient
             .from('profiles')
+            // Menggunakan kolom 'name' sesuai skema database Anda
             .insert({ 
                 id: data.user.id, 
-                name: name, // MENGGUNAKAN KOLOM 'name'
+                name: name, 
                 isPremium: false,
                 premiumExpiryDate: null,
                 configUrl: null
             });
             
         if (profileError) {
+             // Jika gagal membuat profile, kita bisa pertimbangkan menghapus user yang baru dibuat 
+             // atau membiarkannya dan memunculkan error, untuk saat ini kita throw error saja.
              throw profileError;
         }
         
-        return { success: true };
+        return { success: true, data: data };
 
     } catch (error) {
         return { success: false, message: error.message };
@@ -86,14 +89,14 @@ async function login(email, password) {
 
         // 2. Ambil data dari tabel 'profiles'
         let { data: profileData, error: profileError } = await supabaseClient
+            // Menggunakan select * karena kolom 'name' sudah dikonfirmasi ada
             .from('profiles')
-            // PERBAIKAN UTAMA: Ambil kolom 'name' BUKAN 'username'
-            .select('name, isPremium, premiumExpiryDate, configUrl') 
+            .select('*') 
             .eq('id', authData.user.id)
             .single();
 
         if (profileError) {
-            throw profileError; 
+            throw profileError;
         }
 
         // 3. Tentukan Nama Pengguna (Menggunakan kolom 'name')
@@ -104,7 +107,6 @@ async function login(email, password) {
         if (profileData.isPremium && profileData.premiumExpiryDate) {
             const expiryDate = new Date(profileData.premiumExpiryDate);
             const today = new Date();
-            // Periksa jika tanggal hari ini <= tanggal kedaluwarsa
             if (today <= expiryDate) {
                 isCurrentlyPremium = true;
             }
@@ -113,17 +115,17 @@ async function login(email, password) {
         // 5. Set LocalStorage (untuk dashboard.html)
         localStorage.setItem('isAuthenticated', 'true');
         localStorage.setItem('userEmail', authData.user.email);
-        localStorage.setItem('userName', userName); // Nama sudah benar
+        localStorage.setItem('userName', userName); 
         localStorage.setItem('isPremium', isCurrentlyPremium);
 
         // 6. SET COOKIES (untuk ekstensi background.js)
-        setCookie('gracely_active_session', 'true', 30);
+        setCookie('gracely_active_session', 'true', 30); 
         setCookie('is_premium', isCurrentlyPremium ? 'true' : 'false', 30);
 
         if (isCurrentlyPremium && profileData.configUrl) {
             localStorage.setItem('premiumExpiryDate', profileData.premiumExpiryDate);
             localStorage.setItem('gracelyPremiumConfig', profileData.configUrl);
-            setCookie('gracely_config_url', profileData.configUrl, 30);
+            setCookie('gracely_config_url', profileData.configUrl, 30); 
         } else {
             localStorage.removeItem('premiumExpiryDate');
             localStorage.removeItem('gracelyPremiumConfig');
@@ -136,7 +138,6 @@ async function login(email, password) {
         console.error('[auth.js] Login error:', error.message);
         localStorage.clear();
         
-        // Hapus semua cookies saat gagal login
         eraseCookie('gracely_active_session');
         eraseCookie('is_premium');
         eraseCookie('gracely_config_url');
@@ -149,29 +150,7 @@ async function login(email, password) {
 }
 
 /**
- * Fungsi Reset Password
- */
-async function sendPasswordResetEmail(email) {
-    try {
-        const { error } = await supabaseClient.auth.resetPasswordForEmail(email, {
-            redirectTo: 'https://gracely011.github.io/hai/update-password.html', 
-        });
-
-        if (error) {
-            // Memberikan pesan sukses umum untuk alasan keamanan
-            return { success: true, message: 'Jika email terdaftar, tautan reset kata sandi telah dikirim ke kotak masuk Anda. Harap cek folder spam/sampah.' };
-        }
-
-        return { success: true, message: 'Jika email terdaftar, tautan reset kata sandi telah dikirim ke kotak masuk Anda. Harap cek folder spam/sampah.' };
-
-    } catch (error) {
-        console.error('[auth.js] Password reset error:', error.message);
-        return { success: false, message: error.message };
-    }
-}
-
-/**
- * Fungsi Logout
+ * Fungsi Logout, Helper (Tidak Berubah)
  */
 async function logout() {
     const { error } = await supabaseClient.auth.signOut();
@@ -181,7 +160,6 @@ async function logout() {
     
     localStorage.clear();
 
-    // Hapus semua cookies
     eraseCookie('gracely_active_session');
     eraseCookie('is_premium');
     eraseCookie('gracely_config_url');
@@ -189,9 +167,6 @@ async function logout() {
     window.location.href = 'login.html';
 }
 
-/**
- * Fungsi Helper (Tidak Berubah)
- */
 function isAuthenticated() {
     return localStorage.getItem('isAuthenticated') === 'true';
 }
