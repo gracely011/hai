@@ -133,7 +133,12 @@
 
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/main.js"></script> <script src="assets/script.js"></script> <script src="layout.js"></script> <script>
+    <script src="assets/js/main.js"></script>
+    
+    <script src="auth.js"></script>
+    <script src="layout.js"></script> 
+    <script src="assets/script.js"></script> 
+    <script>
         document.addEventListener('DOMContentLoaded', () => {
             const planSection = document.getElementById('plan-status-section');
             const isPremium = localStorage.getItem('isPremium') === 'true';
@@ -145,7 +150,6 @@
                 const timeLeft = expiryDate.getTime() - today.getTime();
                 const daysLeft = Math.ceil(timeLeft / (1000 * 60 * 60 * 24));
                 
-                // Menggunakan markup asli dari Groupy (dengan logo)
                 planHTML = `
                 <div class="menu-section">
                   <div class="menu-section-mini-header">
@@ -161,7 +165,6 @@
                   </div>
                 </div>`;
             } else {
-                // Menggunakan markup asli dari Groupy (dengan logo)
                 planHTML = `
                 <div class="menu-section">
                   <div class="menu-section-mini-header">
