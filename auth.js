@@ -1,5 +1,5 @@
 // =================================================================
-//                 AUTH.JS (Final Fix 2: Mengembalikan Logika Signup Profiles)
+//                 AUTH.JS (FINAL FIX 3: Perbaikan Return Values & Login)
 // =================================================================
 
 // 1. Inisialisasi Klien Supabase
@@ -46,10 +46,9 @@ async function signup(name, email, password) {
             throw error; 
         }
 
-        // 2. PERBAIKAN: Insert baris ke tabel 'profiles'
+        // 2. Insert baris ke tabel 'profiles'
         const { error: profileError } = await supabaseClient
             .from('profiles')
-            // Menggunakan kolom 'name' sesuai skema database Anda
             .insert({ 
                 id: data.user.id, 
                 name: name, 
@@ -59,12 +58,11 @@ async function signup(name, email, password) {
             });
             
         if (profileError) {
-             // Jika gagal membuat profile, kita bisa pertimbangkan menghapus user yang baru dibuat 
-             // atau membiarkannya dan memunculkan error, untuk saat ini kita throw error saja.
              throw profileError;
         }
         
-        return { success: true, data: data };
+        // PERBAIKAN: Return Sederhana untuk mencegah error di script.js
+        return { success: true }; 
 
     } catch (error) {
         return { success: false, message: error.message };
@@ -77,7 +75,6 @@ async function signup(name, email, password) {
  */
 async function login(email, password) {
     try {
-        // 1. Coba login ke Supabase Authentication
         let { data: authData, error: authError } = await supabaseClient.auth.signInWithPassword({
             email: email,
             password: password,
@@ -87,9 +84,7 @@ async function login(email, password) {
             throw authError;
         }
 
-        // 2. Ambil data dari tabel 'profiles'
         let { data: profileData, error: profileError } = await supabaseClient
-            // Menggunakan select * karena kolom 'name' sudah dikonfirmasi ada
             .from('profiles')
             .select('*') 
             .eq('id', authData.user.id)
@@ -99,10 +94,8 @@ async function login(email, password) {
             throw profileError;
         }
 
-        // 3. Tentukan Nama Pengguna (Menggunakan kolom 'name')
         const userName = profileData.name || 'User'; 
         
-        // 4. Tentukan Status Premium
         let isCurrentlyPremium = false;
         if (profileData.isPremium && profileData.premiumExpiryDate) {
             const expiryDate = new Date(profileData.premiumExpiryDate);
@@ -112,13 +105,13 @@ async function login(email, password) {
             }
         }
         
-        // 5. Set LocalStorage (untuk dashboard.html)
+        // Set LocalStorage 
         localStorage.setItem('isAuthenticated', 'true');
         localStorage.setItem('userEmail', authData.user.email);
         localStorage.setItem('userName', userName); 
         localStorage.setItem('isPremium', isCurrentlyPremium);
 
-        // 6. SET COOKIES (untuk ekstensi background.js)
+        // SET COOKIES 
         setCookie('gracely_active_session', 'true', 30); 
         setCookie('is_premium', isCurrentlyPremium ? 'true' : 'false', 30);
 
@@ -146,6 +139,27 @@ async function login(email, password) {
             return { success: false, message: 'Email atau password salah.' };
         }
         return { success: false, message: error.message };
+    }
+}
+
+/**
+ * Fungsi Reset Password
+ */
+async function sendPasswordResetEmail(email) {
+    try {
+        // PENTING: Gunakan await di sini untuk memastikan Supabase selesai sebelum return
+        await supabaseClient.auth.resetPasswordForEmail(email, {
+            redirectTo: 'https://gracely011.github.io/hai/update-password.html', 
+        });
+
+        // KARENA ADA ERROR KETIKA MENGIRIM DENGAN EMAIL NON-VERIFIED, 
+        // kita selalu kembalikan sukses di sini untuk alasan keamanan.
+        return { success: true, message: 'Jika email terdaftar, tautan reset kata sandi telah dikirim ke kotak masuk Anda. Harap cek folder spam/sampah.' };
+
+    } catch (error) {
+        console.error('[auth.js] Password reset error:', error.message);
+        // Jika ada error jaringan atau klien, tampilkan pesan error yang sesuai.
+        return { success: false, message: 'Gagal memproses permintaan. Silakan coba lagi.' };
     }
 }
 
