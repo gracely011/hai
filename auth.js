@@ -37,7 +37,7 @@ async function getProfileSessionData(userId) {
     try {
         const { data } = await supabaseClient
             .from('profiles')
-            .select('session_id, multilogin_limit')
+            .select('session_id, multilogin_limit, active_login_count')
             .eq('id', userId)
             .single();
 
