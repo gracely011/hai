@@ -22,69 +22,33 @@ async function getUserId() {
     return user ? user.id : null;
 }
 
-async function getClientIp() {
-    try {
-        const response = await fetch('https://api.ipify.org?format=json');
-        const data = await response.json();
-        return data.ip || 'Unknown';
-    } catch (e) {
-        return 'Unknown';
-    }
-}
-
 async function getActiveSessionToken(userId) {
-    if (!userId) return null;
-    try {
-        const { data, error } = await supabaseClient
-            .from('profiles')
-            .select('session_id')
-            .eq('id', userId)
-            .single();
-
-        if (error) throw error;
-        return data.session_id;
-
-    } catch (error) {
+    const { data: profiles, error } = await supabaseClient
+        .from('profiles')
+        .select('active_session_token')
+        .eq('id', userId)
+        .single();
+    if (error) {
         return null;
     }
+    return profiles.active_session_token;
 }
 
 async function signup(name, email, password) {
     try {
-        const { data, error } = await supabaseClient.auth.signUp({
+        const { error } = await supabaseClient.auth.signUp({
             email: email,
             password: password,
             options: {
-                data: {
-                    full_name: name 
-                }
-            }
+                data: { full_name: name, last_sign_in: new Date().toISOString() },
+            },
         });
-        
+
         if (error) {
-            throw error; 
+            return { success: false, message: error.message };
         }
 
-        const { error: profileError } = await supabaseClient
-            .from('profiles')
-            .insert({ 
-                id: data.user.id, 
-                name: name, 
-                isPremium: false,
-                premiumExpiryDate: null,
-                configUrl: null,
-                session_id: null,
-                last_sign_in: null, 
-                last_sign_out: null,
-                last_ip: null,
-                last_browser: null
-            });
-            
-        if (profileError) {
-             throw profileError;
-        }
-        
-        return { success: true }; 
+        return { success: true };
 
     } catch (error) {
         return { success: false, message: error.message };
@@ -93,70 +57,65 @@ async function signup(name, email, password) {
 
 async function login(email, password) {
     try {
-        let { data: authData, error: authError } = await supabaseClient.auth.signInWithPassword({
+        const { data, error } = await supabaseClient.auth.signInWithPassword({
             email: email,
             password: password,
         });
 
-        if (authError) {
-            throw authError;
+        if (error) {
+            if (error.message.includes("Invalid login credentials")) {
+                return { success: false, message: 'Email atau password salah.' };
+            }
+            return { success: false, message: error.message };
         }
-        
+
+        const user = data.user;
+        const userId = user.id;
+        const sessionToken = crypto.randomUUID();
         const now = new Date().toISOString();
-        const clientIp = await getClientIp();
-        const userAgent = navigator.userAgent; 
-        const sessionId = authData.session.access_token;
 
-        const { error: updateSignInError } = await supabaseClient
+        const { error: updateError } = await supabaseClient
             .from('profiles')
-            .update({ 
-                last_sign_in: now,
-                last_ip: clientIp,
-                last_browser: userAgent,
-                session_id: sessionId
-            })
-            .eq('id', authData.user.id);
-            
-        if (updateSignInError) {
-             console.warn(updateSignInError.message);
-        }
+            .update({ last_sign_in: now, active_session_token: sessionToken })
+            .eq('id', userId);
 
-        let { data: profileData, error: profileError } = await supabaseClient
+        if (updateError) {}
+
+        localStorage.setItem('isAuthenticated', 'true');
+        localStorage.setItem('userName', user.user_metadata.full_name || 'User');
+        localStorage.setItem('gracely_active_session_token', sessionToken);
+        setCookie('gracely_active_session', 'true', 7);
+
+        const { data: profilesData, error: profilesError } = await supabaseClient
             .from('profiles')
-            .select('*') 
-            .eq('id', authData.user.id)
+            .select('is_premium, premium_expiry_date, config_url')
+            .eq('id', userId)
             .single();
 
-        if (profileError) {
-            throw profileError;
-        }
+        if (!profilesError) {
+            const isPremium = profilesData.is_premium;
+            const expiryDate = profilesData.premium_expiry_date;
+            const configUrl = profilesData.config_url;
 
-        const userName = profileData.name || 'User'; 
-        
-        let isCurrentlyPremium = false;
-        if (profileData.isPremium && profileData.premiumExpiryDate) {
-            const expiryDate = new Date(profileData.premiumExpiryDate);
-            const today = new Date();
-            if (today <= expiryDate) {
-                isCurrentlyPremium = true;
+            localStorage.setItem('isPremium', isPremium ? 'true' : 'false');
+            setCookie('is_premium', isPremium ? 'true' : 'false', 7);
+
+            if (isPremium && expiryDate) {
+                localStorage.setItem('premiumExpiryDate', expiryDate);
+            } else {
+                localStorage.removeItem('premiumExpiryDate');
             }
-        }
-        
-        localStorage.setItem('isAuthenticated', 'true');
-        localStorage.setItem('userEmail', authData.user.email);
-        localStorage.setItem('userName', userName); 
-        localStorage.setItem('isPremium', isCurrentlyPremium);
-        // Kunci Sesi Klien untuk Fitur Sesi Tunggal
-        localStorage.setItem('gracely_active_session_token', authData.session.access_token);
 
-        setCookie('gracely_active_session', 'true', 30); 
-        setCookie('is_premium', isCurrentlyPremium ? 'true' : 'false', 30);
-
-        if (isCurrentlyPremium && profileData.configUrl) {
-            localStorage.setItem('premiumExpiryDate', profileData.premiumExpiryDate);
-            localStorage.setItem('gracelyPremiumConfig', profileData.configUrl);
-            setCookie('gracely_config_url', profileData.configUrl, 30); 
+            if (configUrl) {
+                localStorage.setItem('gracelyPremiumConfig', configUrl);
+                setCookie('gracely_config_url', configUrl, 7);
+            } else {
+                localStorage.removeItem('gracelyPremiumConfig');
+                eraseCookie('gracely_config_url');
+            }
         } else {
+            localStorage.setItem('isPremium', 'false');
+            setCookie('is_premium', 'false', 7);
             localStorage.removeItem('premiumExpiryDate');
             localStorage.removeItem('gracelyPremiumConfig');
             eraseCookie('gracely_config_url');
@@ -166,7 +125,6 @@ async function login(email, password) {
 
     } catch (error) {
         localStorage.clear();
-        
         eraseCookie('gracely_active_session');
         eraseCookie('is_premium');
         eraseCookie('gracely_config_url');
@@ -201,22 +159,16 @@ async function logout() {
             .update({ last_sign_out: now })
             .eq('id', userId);
 
-        if (updateSignOutError) {
-            console.warn(updateSignOutError.message);
-        }
+        if (updateSignOutError) {}
     }
     
-    const { error } = await supabaseClient.auth.signOut();
-    if (error) {
-        console.error(error.message);
-    }
+    await supabaseClient.auth.signOut();
     
     localStorage.clear();
 
     eraseCookie('gracely_active_session');
     eraseCookie('is_premium');
     eraseCookie('gracely_config_url');
-    // Hapus kunci sesi lokal
     localStorage.removeItem('gracely_active_session_token');
 
     window.location.href = 'login.html';
@@ -237,3 +189,11 @@ function redirectIfAuthenticated() {
         window.location.href = 'dashboard.html';
     }
 }
+
+window.sendPasswordResetEmail = sendPasswordResetEmail;
+window.logout = logout;
+window.isAuthenticated = isAuthenticated;
+window.requireAuth = requireAuth;
+window.redirectIfAuthenticated = redirectIfAuthenticated;
+window.login = login;
+window.signup = signup;
