@@ -198,10 +198,6 @@ function modifyIndexPageContent() {
             // (Tidak perlu ganti kelas karena sudah ud-white-btn)
         }
 
-        // Sembunyikan tombol "Watch Demo"
-        if (demoButton) {
-            demoButton.style.display = 'none';
-        }
     }
 }
 
@@ -235,6 +231,7 @@ function loadLayout() {
 }
 
 document.addEventListener("DOMContentLoaded", loadLayout);
+
 
 
 
