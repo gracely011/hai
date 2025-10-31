@@ -1,5 +1,5 @@
 // =================================================================
-//                 AUTH.JS (FINAL FIX 3: Perbaikan Return Values & Login)
+//                 AUTH.JS (Final dengan Log Sign In/Out)
 // =================================================================
 
 // 1. Inisialisasi Klien Supabase
@@ -25,13 +25,18 @@ function eraseCookie(name) {
     document.cookie = name + '=; Max-Age=-99999999; path=/; path=/; SameSite=Lax; Secure';
 }
 
+// [HELPER FUNCTION] untuk mendapatkan user ID
+async function getUserId() {
+    const { data: { user } } = await supabaseClient.auth.getUser();
+    return user ? user.id : null;
+}
+
 
 /**
  * Fungsi Signup
  */
 async function signup(name, email, password) {
     try {
-        // 1. Buat user di Supabase Auth
         const { data, error } = await supabaseClient.auth.signUp({
             email: email,
             password: password,
@@ -46,7 +51,7 @@ async function signup(name, email, password) {
             throw error; 
         }
 
-        // 2. Insert baris ke tabel 'profiles'
+        // Insert baris ke tabel 'profiles' dengan kolom baru (NULL)
         const { error: profileError } = await supabaseClient
             .from('profiles')
             .insert({ 
@@ -54,14 +59,16 @@ async function signup(name, email, password) {
                 name: name, 
                 isPremium: false,
                 premiumExpiryDate: null,
-                configUrl: null
+                configUrl: null,
+                session_id: null,
+                last_sign_in: null, // Kolom baru
+                last_sign_out: null // Kolom baru
             });
             
         if (profileError) {
              throw profileError;
         }
         
-        // PERBAIKAN: Return Sederhana untuk mencegah error di script.js
         return { success: true }; 
 
     } catch (error) {
@@ -82,6 +89,17 @@ async function login(email, password) {
 
         if (authError) {
             throw authError;
+        }
+        
+        // ** PERBAIKAN: UPDATE last_sign_in sebelum mengambil profile **
+        const now = new Date().toISOString();
+        const { error: updateSignInError } = await supabaseClient
+            .from('profiles')
+            .update({ last_sign_in: now })
+            .eq('id', authData.user.id);
+            
+        if (updateSignInError) {
+             console.warn("Gagal update last_sign_in:", updateSignInError.message);
         }
 
         let { data: profileData, error: profileError } = await supabaseClient
@@ -147,31 +165,44 @@ async function login(email, password) {
  */
 async function sendPasswordResetEmail(email) {
     try {
-        // PENTING: Gunakan await di sini untuk memastikan Supabase selesai sebelum return
         await supabaseClient.auth.resetPasswordForEmail(email, {
             redirectTo: 'https://gracely011.github.io/hai/update-password.html', 
         });
 
-        // KARENA ADA ERROR KETIKA MENGIRIM DENGAN EMAIL NON-VERIFIED, 
-        // kita selalu kembalikan sukses di sini untuk alasan keamanan.
         return { success: true, message: 'Jika email terdaftar, tautan reset kata sandi telah dikirim ke kotak masuk Anda. Harap cek folder spam/sampah.' };
 
     } catch (error) {
         console.error('[auth.js] Password reset error:', error.message);
-        // Jika ada error jaringan atau klien, tampilkan pesan error yang sesuai.
         return { success: false, message: 'Gagal memproses permintaan. Silakan coba lagi.' };
     }
 }
 
 /**
- * Fungsi Logout, Helper (Tidak Berubah)
+ * Fungsi Logout
  */
 async function logout() {
+    const userId = await getUserId();
+    
+    // 1. **PERBAIKAN**: UPDATE last_sign_out di tabel profiles
+    if (userId) {
+        const now = new Date().toISOString();
+        const { error: updateSignOutError } = await supabaseClient
+            .from('profiles')
+            .update({ last_sign_out: now })
+            .eq('id', userId);
+
+        if (updateSignOutError) {
+            console.warn("Gagal update last_sign_out:", updateSignOutError.message);
+        }
+    }
+    
+    // 2. Sign out dari Supabase Auth
     const { error } = await supabaseClient.auth.signOut();
     if (error) {
         console.error("Error logging out:", error.message);
     }
     
+    // 3. Bersihkan cache lokal
     localStorage.clear();
 
     eraseCookie('gracely_active_session');
@@ -181,6 +212,9 @@ async function logout() {
     window.location.href = 'login.html';
 }
 
+/**
+ * Fungsi Helper (Tidak Berubah)
+ */
 function isAuthenticated() {
     return localStorage.getItem('isAuthenticated') === 'true';
 }
