@@ -33,6 +33,12 @@ function eraseCookie(name) {
     document.cookie = name+'=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
 }
 
+// Fungsi untuk mendapatkan sesi Supabase saat ini
+async function getActiveSession() {
+    const { data: { session } } = await supabaseClient.auth.getSession();
+    return session;
+}
+
 async function signup(name, email, password) {
     try {
         const { data, error } = await supabaseClient.auth.signUp({
@@ -49,23 +55,36 @@ async function signup(name, email, password) {
             throw error;
         }
 
-        const { error: profileError } = await supabaseClient
+        // Supabase user ID
+        const userId = data.user.id;
+        
+        // Cek jika user sudah ada (hanya jika sign-up berhasil tapi profile belum ada)
+        const { data: existingProfile } = await supabaseClient
             .from('profiles')
-            .insert([
-                { 
-                    id: data.user.id, 
-                    username: name,
-                    isPremium: false,
-                    premiumExpiryDate: null,
-                    configUrl: null
-                }
-            ]);
+            .select('id')
+            .eq('id', userId)
+            .single();
 
-        if (profileError) {
-            await supabaseClient.auth.signOut();
-            throw profileError;
+        if (!existingProfile) {
+             const { error: profileError } = await supabaseClient
+                .from('profiles')
+                .insert([
+                    { 
+                        id: userId, 
+                        username: name,
+                        isPremium: false,
+                        premiumExpiryDate: null,
+                        configUrl: null
+                    }
+                ]);
+
+            if (profileError) {
+                // Opsional: Hapus user jika profil gagal dibuat
+                // await supabaseClient.auth.admin.deleteUser(userId);
+                throw profileError;
+            }
         }
-
+       
         return { success: true };
 
     } catch (error) {
@@ -92,9 +111,36 @@ async function login(email, password) {
             .single();
 
         if (profileError) {
-            throw profileError;
+            // Jika profile tidak ditemukan (kasus lama/error)
+            console.error('Profile not found, trying to use user metadata.');
+            const userMetadata = authData.user.user_metadata;
+            
+            const isPremium = userMetadata.isPremium || false;
+            const expiryDate = userMetadata.premiumExpiryDate || null;
+            const configUrl = userMetadata.configUrl || null;
+            const userName = userMetadata.user_name || 'User';
+
+            // Set LocalStorage dan Cookies berdasarkan metadata jika profile table gagal
+            localStorage.setItem('isAuthenticated', 'true');
+            localStorage.setItem('userName', userName);
+            localStorage.setItem('isPremium', isPremium);
+            setCookie('gracely_active_session', authData.session.access_token, 30);
+            setCookie('is_premium', isPremium ? 'true' : 'false', 30);
+
+            if (isPremium) {
+                localStorage.setItem('premiumExpiryDate', expiryDate);
+                localStorage.setItem('gracelyPremiumConfig', configUrl);
+                setCookie('gracely_config_url', configUrl, 30);
+            } else {
+                localStorage.removeItem('premiumExpiryDate');
+                localStorage.removeItem('gracelyPremiumConfig');
+                eraseCookie('gracely_config_url');
+            }
+            return { success: true };
+
         }
 
+        // Logika normal jika profile ditemukan
         const isPremium = profileData.isPremium || false;
         const expiryDate = profileData.premiumExpiryDate;
         const configUrl = profileData.configUrl;
@@ -141,13 +187,25 @@ async function sendPasswordResetEmail(email) {
         });
 
         if (error) {
+            // Jika Supabase menolak karena 'invalid email', cek apakah itu karena domain 'example.com'
+            if (error.message.includes("Invalid login credentials") && email.endsWith('@example.com')) {
+                return { success: false, message: 'Penggunaan domain uji "example.com" tidak diizinkan untuk reset kata sandi.' };
+            }
             throw error;
         }
 
+        // Pesan sukses umum untuk keamanan.
         return { success: true, message: 'Jika email terdaftar, tautan reset kata sandi telah dikirim ke kotak masuk Anda. Harap cek folder spam/sampah.' };
 
     } catch (error) {
         console.error('[auth.js] Password reset error:', error.message);
+        
+        // Tampilkan pesan error spesifik jika bukan error Supabase (misalnya, network error)
+        if (error.message.includes("Failed to fetch")) {
+             return { success: false, message: 'Gagal mengirim permintaan. Periksa koneksi internet Anda.' };
+        }
+        
+        // Gunakan pesan Supabase asli untuk error lainnya (yang seringkali sudah cukup informatif)
         return { success: false, message: error.message };
     }
 }
