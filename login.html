@@ -17,26 +17,25 @@
     <link rel="stylesheet" href="assets/styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="auth.js"></script>
-    <script>redirectIfAuthenticated();</script>
   </head>
   <body>
     <div id="announcement-placeholder"></div>
     <div id="navbar-placeholder"></div>
-
+    
     <section class="ud-page-banner">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
             <div class="ud-banner-content">
-              <h1>Log in to Gracely</h1>
+              <h1>Log In</h1>
             </div>
           </div>
         </div>
       </div>
     </section>
+    
     <section class="ud-login">
       <div class="container">
         <div class="row">
@@ -48,6 +47,7 @@
                     type="text"
                     name="email"
                     id="email" placeholder=" "
+                    required
                   />
                   <label for="email">Email</label>
                 </div>
@@ -56,6 +56,7 @@
                     type="password"
                     name="password"
                     id="password" placeholder=" "
+                    required
                   />
                   <label for="password">Password</label>
                 </div>
@@ -65,7 +66,7 @@
                   </button>
                 </div>
               </form>
-              <a class="forget-pass" href="#">Forgot password?</a>
+              <a class="forget-pass" href="reset.html">Forgot password?</a>
               <p class="signup-option">
                 Haven't joined us yet? <a href="signup.html">Sign up</a>
               </p>
@@ -74,6 +75,7 @@
         </div>
       </div>
     </section>
+    
     <div id="footer-placeholder"></div>
 
     <div id="back-to-top-placeholder"></div>
