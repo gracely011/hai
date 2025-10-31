@@ -23,46 +23,55 @@ async function getUserId() {
 }
 
 async function getActiveSessionToken(userId) {
-    if (!userId) return null;
-    const { data, error } = await supabaseClient
+    const { data } = await supabaseClient
         .from('profiles')
         .select('active_session_token')
         .eq('id', userId)
         .single();
-    if (error) {
-        console.error(error.message);
-        return null;
-    }
+
     return data ? data.active_session_token : null;
+}
+
+async function setActiveSessionToken(userId, token) {
+    await supabaseClient
+        .from('profiles')
+        .update({ active_session_token: token, last_sign_in: new Date().toISOString() })
+        .eq('id', userId);
 }
 
 async function signup(name, email, password) {
     try {
-        const { data: { user }, error } = await supabaseClient.auth.signUp({
+        const { data: { user }, error: authError } = await supabaseClient.auth.signUp({
             email: email,
             password: password,
             options: {
-                data: { full_name: name }
+                data: {
+                    full_name: name,
+                }
             }
         });
 
-        if (error) {
-            throw error;
+        if (authError) {
+            if (authError.message.includes("already registered")) {
+                return { success: false, message: 'User already registered' };
+            }
+            throw authError;
         }
+
+        if (user) {
+            const { error: insertError } = await supabaseClient
+                .from('profiles')
+                .insert([
+                    { id: user.id, full_name: name, email: email }
+                ]);
         
-        const userId = user.id;
-
-        const { error: insertError } = await supabaseClient
-            .from('profiles')
-            .insert([
-                { id: userId, full_name: name, email: email }
-            ]);
-
-        if (insertError) {
-            console.error(insertError.message);
+            if (insertError) {
+                throw insertError;
+            }
         }
 
         return { success: true };
+
     } catch (error) {
         return { success: false, message: error.message };
     }
@@ -80,44 +89,38 @@ async function login(email, password) {
         }
 
         const user = data.user;
-        const sessionToken = crypto.randomUUID();
-        const now = new Date().toISOString();
-
-        const { data: updateData, error: updateError } = await supabaseClient
-            .from('profiles')
-            .update({ active_session_token: sessionToken, last_sign_in: now })
-            .eq('id', user.id)
-            .select();
-
-        if (updateError) {
-            throw new Error(updateError.message);
-        }
-
-        const userName = updateData[0].full_name;
+        const userId = user.id;
+        const sessionToken = Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
+        
+        await setActiveSessionToken(userId, sessionToken);
 
         localStorage.setItem('isAuthenticated', 'true');
-        localStorage.setItem('userName', userName);
+        localStorage.setItem('userName', user.user_metadata.full_name || 'User');
         localStorage.setItem('gracely_active_session_token', sessionToken);
         setCookie('gracely_active_session', 'true', 30);
         
-        const { data: premiumData } = await supabaseClient
-            .from('premium_users')
-            .select('expiry_date, config_url')
-            .eq('user_id', user.id)
+        const { data: profileData, error: profileError } = await supabaseClient
+            .from('profiles')
+            .select('is_premium, premium_expiry_date, gracely_premium_config_url')
+            .eq('id', userId)
             .single();
 
-        if (premiumData && new Date(premiumData.expiry_date) > new Date()) {
-            const expiryDate = new Date(premiumData.expiry_date);
-            localStorage.setItem('isPremium', 'true');
-            localStorage.setItem('premiumExpiryDate', expiryDate.toISOString());
-            localStorage.setItem('gracelyPremiumConfig', JSON.stringify({ config_url: premiumData.config_url }));
+        if (profileError) {
+            throw new Error('Gagal mengambil data profil.');
+        }
+
+        if (profileData.is_premium) {
             setCookie('is_premium', 'true', 30);
-            setCookie('gracely_config_url', premiumData.config_url, 30);
+            setCookie('gracely_config_url', profileData.gracely_premium_config_url, 30);
+            localStorage.setItem('isPremium', 'true');
+            localStorage.setItem('premiumExpiryDate', profileData.premium_expiry_date);
+            localStorage.setItem('gracelyPremiumConfig', profileData.gracely_premium_config_url);
         } else {
+            eraseCookie('is_premium');
+            eraseCookie('gracely_config_url');
             localStorage.removeItem('isPremium');
             localStorage.removeItem('premiumExpiryDate');
             localStorage.removeItem('gracelyPremiumConfig');
-            eraseCookie('gracely_config_url');
         }
 
         return { success: true };
@@ -127,7 +130,6 @@ async function login(email, password) {
         eraseCookie('gracely_active_session');
         eraseCookie('is_premium');
         eraseCookie('gracely_config_url');
-        localStorage.removeItem('gracely_active_session_token');
 
         if (error.message.includes("Invalid login credentials")) {
             return { success: false, message: 'Email atau password salah.' };
@@ -138,13 +140,9 @@ async function login(email, password) {
 
 async function sendPasswordResetEmail(email) {
     try {
-        const { error } = await supabaseClient.auth.resetPasswordForEmail(email, {
+        await supabaseClient.auth.resetPasswordForEmail(email, {
             redirectTo: 'https://gracely011.github.io/hai/update-password.html',
         });
-
-        if (error) {
-            throw error;
-        }
 
         return { success: true, message: 'Jika email terdaftar, tautan reset kata sandi telah dikirim ke kotak masuk Anda. Harap cek folder spam/sampah.' };
 
@@ -158,20 +156,13 @@ async function logout() {
     
     if (userId) {
         const now = new Date().toISOString();
-        const { error: updateSignOutError } = await supabaseClient
+        await supabaseClient
             .from('profiles')
             .update({ last_sign_out: now })
             .eq('id', userId);
-
-        if (updateSignOutError) {
-            console.warn(updateSignOutError.message);
-        }
     }
     
-    const { error } = await supabaseClient.auth.signOut();
-    if (error) {
-        console.error(error.message);
-    }
+    await supabaseClient.auth.signOut();
     
     localStorage.clear();
 
