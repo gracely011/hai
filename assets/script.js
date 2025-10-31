@@ -110,9 +110,11 @@ function initializeScripts() {
 
   function handleMultiLoginKick(message) {
       alert(`PEMBERITAHUAN! ${message}`);
-      // Memanggil fungsi logout global dari auth.js
       if (typeof logout === 'function') {
-          logout();
+          // Hanya bersihkan cache lokal tanpa update DB lagi
+          localStorage.clear();
+          localStorage.removeItem('gracely_active_session_token');
+          window.location.href = 'login.html';
       } else {
           localStorage.clear();
           window.location.href = 'login.html';
@@ -120,24 +122,22 @@ function initializeScripts() {
   }
 
   function startSessionCheckLoop() {
+      // Pastikan loop hanya berjalan jika ada sesi yang aktif
       if (localStorage.getItem('isAuthenticated') !== 'true') {
           return;
       }
 
-      // Ambil token yang disimpan di browser klien
+      // Ambil Access Token yang disimpan saat LOGIN di browser klien.
       const localSessionToken = localStorage.getItem('gracely_active_session_token'); 
       const checkInterval = 5000; // Cek setiap 5 detik
 
       if (!localSessionToken) {
-          // Jika token sesi lokal hilang (tapi isAuthenticated true), paksa logout
           handleMultiLoginKick("Token sesi lokal hilang. Silakan Login ulang.");
           return;
       }
       
       setInterval(async () => {
-          // Fungsi getUserId dan getActiveSessionToken berasal dari auth.js
           if (typeof getUserId !== 'function' || typeof getActiveSessionToken !== 'function') {
-              console.warn("Auth functions not loaded.");
               return;
           }
           
@@ -149,17 +149,15 @@ function initializeScripts() {
 
           const dbSessionToken = await getActiveSessionToken(userId);
 
-          // Logika Kick: Jika token DB ada DAN tidak cocok dengan token lokal
+          // KUNCI LOGIKA: Kick terjadi HANYA jika token di DB ada dan TIDAK SAMA dengan token lokal.
+          // Sesi terbaru (yang tokennya sama dengan DB) akan dipertahankan.
           if (dbSessionToken && dbSessionToken !== localSessionToken) {
               handleMultiLoginKick("Akun Anda terdeteksi melakukan Login di perangkat atau browser lain.");
-          } else if (!dbSessionToken) {
-               // Kasus tambahan: jika session_id di DB tiba-tiba NULL/kosong
-               handleMultiLoginKick("Sesi database Anda telah dihapus. Silakan Login ulang.");
           }
 
       }, checkInterval);
   }
 
-  // Panggil loop pengecekan sesi saat skrip diinisialisasi (halaman dashboard dimuat)
+  // Panggil loop pengecekan sesi saat skrip diinisialisasi
   startSessionCheckLoop();
 }
