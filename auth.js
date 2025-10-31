@@ -37,11 +37,11 @@ async function getActiveSessionToken(userId) {
     try {
         const { data } = await supabaseClient
             .from('profiles')
-            .select('session_id')
+            .select('session_id, allow_multilogin')
             .eq('id', userId)
             .single();
 
-        return data ? data.session_id : null;
+        return data;
 
     } catch (error) {
         return null;
