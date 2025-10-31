@@ -223,10 +223,9 @@ async function logout() {
         }
     }
     
-    const { error } = await supabaseClient.auth.signOut({ scope: 'local' });
-    if (error) {
-        console.error(error.message);
-    }
+    // ===== PERUBAHAN UTAMA DI SINI =====
+    // Kita tidak memanggil 'supabaseClient.auth.signOut()'
+    // Kita lakukan logout manual di sisi klien
     
     localStorage.clear();
 
