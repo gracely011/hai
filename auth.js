@@ -22,55 +22,69 @@ async function getUserId() {
     return user ? user.id : null;
 }
 
-async function getActiveSessionToken(userId) {
-    const { data } = await supabaseClient
-        .from('profiles')
-        .select('active_session_token')
-        .eq('id', userId)
-        .single();
-
-    return data ? data.active_session_token : null;
+async function getClientIp() {
+    try {
+        const response = await fetch('https://api.ipify.org?format=json');
+        const data = await response.json();
+        return data.ip || 'Unknown';
+    } catch (e) {
+        return 'Unknown';
+    }
 }
 
-async function setActiveSessionToken(userId, token) {
-    await supabaseClient
-        .from('profiles')
-        .update({ active_session_token: token, last_sign_in: new Date().toISOString() })
-        .eq('id', userId);
+async function getActiveSessionToken(userId) {
+    if (!userId) return null;
+    try {
+        const { data, error } = await supabaseClient
+            .from('profiles')
+            .select('session_id')
+            .eq('id', userId)
+            .single();
+
+        if (error) throw error;
+        return data.session_id;
+
+    } catch (error) {
+        return null;
+    }
 }
 
 async function signup(name, email, password) {
     try {
-        const { data: { user }, error: authError } = await supabaseClient.auth.signUp({
+        const { data, error } = await supabaseClient.auth.signUp({
             email: email,
             password: password,
             options: {
                 data: {
-                    full_name: name,
+                    full_name: name 
                 }
             }
         });
-
-        if (authError) {
-            if (authError.message.includes("already registered")) {
-                return { success: false, message: 'User already registered' };
-            }
-            throw authError;
-        }
-
-        if (user) {
-            const { error: insertError } = await supabaseClient
-                .from('profiles')
-                .insert([
-                    { id: user.id, full_name: name, email: email }
-                ]);
         
-            if (insertError) {
-                throw insertError;
-            }
+        if (error) {
+            throw error; 
         }
 
-        return { success: true };
+        const { error: profileError } = await supabaseClient
+            .from('profiles')
+            .insert({ 
+                id: data.user.id, 
+                name: name, 
+                isPremium: false,
+                premiumExpiryDate: null,
+                configUrl: null,
+                session_id: null,
+                last_sign_in: null, 
+                last_sign_out: null,
+                last_ip: null,
+                last_browser: null
+            });
+            
+        if (profileError) {
+             throw profileError;
+        }
+        
+        return { success: true }; 
 
     } catch (error) {
         return { success: false, message: error.message };
@@ -79,54 +93,80 @@ async function signup(name, email, password) {
 
 async function login(email, password) {
     try {
-        const { data, error } = await supabaseClient.auth.signInWithPassword({
+        let { data: authData, error: authError } = await supabaseClient.auth.signInWithPassword({
             email: email,
             password: password,
         });
 
-        if (error) {
-            throw error;
+        if (authError) {
+            throw authError;
+        }
+        
+        const now = new Date().toISOString();
+        const clientIp = await getClientIp();
+        const userAgent = navigator.userAgent; 
+        const sessionId = authData.session.access_token;
+
+        const { error: updateSignInError } = await supabaseClient
+            .from('profiles')
+            .update({ 
+                last_sign_in: now,
+                last_ip: clientIp,
+                last_browser: userAgent,
+                session_id: sessionId
+            })
+            .eq('id', authData.user.id);
+            
+        if (updateSignInError) {
+             console.warn(updateSignInError.message);
         }
 
-        const user = data.user;
-        const userId = user.id;
-        const sessionToken = Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
-        
-        await setActiveSessionToken(userId, sessionToken);
-
-        localStorage.setItem('isAuthenticated', 'true');
-        localStorage.setItem('userName', user.user_metadata.full_name || 'User');
-        localStorage.setItem('gracely_active_session_token', sessionToken);
-        setCookie('gracely_active_session', 'true', 30);
-        
-        const { data: profileData, error: profileError } = await supabaseClient
+        let { data: profileData, error: profileError } = await supabaseClient
             .from('profiles')
-            .select('is_premium, premium_expiry_date, gracely_premium_config_url')
-            .eq('id', userId)
+            .select('*') 
+            .eq('id', authData.user.id)
             .single();
 
         if (profileError) {
-            throw new Error('Gagal mengambil data profil.');
+            throw profileError;
         }
 
-        if (profileData.is_premium) {
-            setCookie('is_premium', 'true', 30);
-            setCookie('gracely_config_url', profileData.gracely_premium_config_url, 30);
-            localStorage.setItem('isPremium', 'true');
-            localStorage.setItem('premiumExpiryDate', profileData.premium_expiry_date);
-            localStorage.setItem('gracelyPremiumConfig', profileData.gracely_premium_config_url);
+        const userName = profileData.name || 'User'; 
+        
+        let isCurrentlyPremium = false;
+        if (profileData.isPremium && profileData.premiumExpiryDate) {
+            const expiryDate = new Date(profileData.premiumExpiryDate);
+            const today = new Date();
+            if (today <= expiryDate) {
+                isCurrentlyPremium = true;
+            }
+        }
+        
+        localStorage.setItem('isAuthenticated', 'true');
+        localStorage.setItem('userEmail', authData.user.email);
+        localStorage.setItem('userName', userName); 
+        localStorage.setItem('isPremium', isCurrentlyPremium);
+        // Kunci Sesi Klien untuk Fitur Sesi Tunggal
+        localStorage.setItem('gracely_active_session_token', authData.session.access_token);
+
+        setCookie('gracely_active_session', 'true', 30); 
+        setCookie('is_premium', isCurrentlyPremium ? 'true' : 'false', 30);
+
+        if (isCurrentlyPremium && profileData.configUrl) {
+            localStorage.setItem('premiumExpiryDate', profileData.premiumExpiryDate);
+            localStorage.setItem('gracelyPremiumConfig', profileData.configUrl);
+            setCookie('gracely_config_url', profileData.configUrl, 30); 
         } else {
-            eraseCookie('is_premium');
-            eraseCookie('gracely_config_url');
-            localStorage.removeItem('isPremium');
             localStorage.removeItem('premiumExpiryDate');
             localStorage.removeItem('gracelyPremiumConfig');
+            eraseCookie('gracely_config_url');
         }
 
         return { success: true };
 
     } catch (error) {
         localStorage.clear();
+        
         eraseCookie('gracely_active_session');
         eraseCookie('is_premium');
         eraseCookie('gracely_config_url');
@@ -141,7 +181,7 @@ async function login(email, password) {
 async function sendPasswordResetEmail(email) {
     try {
         await supabaseClient.auth.resetPasswordForEmail(email, {
-            redirectTo: 'https://gracely011.github.io/hai/update-password.html',
+            redirectTo: 'https://gracely011.github.io/hai/update-password.html', 
         });
 
         return { success: true, message: 'Jika email terdaftar, tautan reset kata sandi telah dikirim ke kotak masuk Anda. Harap cek folder spam/sampah.' };
@@ -156,19 +196,27 @@ async function logout() {
     
     if (userId) {
         const now = new Date().toISOString();
-        await supabaseClient
+        const { error: updateSignOutError } = await supabaseClient
             .from('profiles')
             .update({ last_sign_out: now })
             .eq('id', userId);
+
+        if (updateSignOutError) {
+            console.warn(updateSignOutError.message);
+        }
     }
     
-    await supabaseClient.auth.signOut();
+    const { error } = await supabaseClient.auth.signOut();
+    if (error) {
+        console.error(error.message);
+    }
     
     localStorage.clear();
 
     eraseCookie('gracely_active_session');
     eraseCookie('is_premium');
     eraseCookie('gracely_config_url');
+    // Hapus kunci sesi lokal
     localStorage.removeItem('gracely_active_session_token');
 
     window.location.href = 'login.html';
