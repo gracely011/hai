@@ -1,5 +1,5 @@
 // =================================================================
-//                 AUTH.JS (Final dengan Log Sign In/Out)
+//                 AUTH.JS (Final dengan Log Sign In/Out, IP, & Browser)
 // =================================================================
 
 // 1. Inisialisasi Klien Supabase
@@ -29,6 +29,18 @@ function eraseCookie(name) {
 async function getUserId() {
     const { data: { user } } = await supabaseClient.auth.getUser();
     return user ? user.id : null;
+}
+
+// [HELPER FUNCTION BARU] untuk mendapatkan IP publik klien
+async function getClientIp() {
+    try {
+        const response = await fetch('https://api.ipify.org?format=json');
+        const data = await response.json();
+        return data.ip || 'Unknown';
+    } catch (e) {
+        console.error("Gagal mendapatkan IP:", e);
+        return 'Unknown';
+    }
 }
 
 
@@ -61,8 +73,10 @@ async function signup(name, email, password) {
                 premiumExpiryDate: null,
                 configUrl: null,
                 session_id: null,
-                last_sign_in: null, // Kolom baru
-                last_sign_out: null // Kolom baru
+                last_sign_in: null, 
+                last_sign_out: null,
+                last_ip: null, // Kolom baru
+                last_browser: null // Kolom baru
             });
             
         if (profileError) {
@@ -91,16 +105,25 @@ async function login(email, password) {
             throw authError;
         }
         
-        // ** PERBAIKAN: UPDATE last_sign_in sebelum mengambil profile **
+        // --- LOGIKA PENGUMPULAN DATA IP & BROWSER BARU ---
         const now = new Date().toISOString();
+        const clientIp = await getClientIp();
+        const userAgent = navigator.userAgent; 
+
+        // Update last_sign_in, last_ip, dan last_browser di tabel profiles
         const { error: updateSignInError } = await supabaseClient
             .from('profiles')
-            .update({ last_sign_in: now })
+            .update({ 
+                last_sign_in: now,
+                last_ip: clientIp, // Kolom baru
+                last_browser: userAgent // Kolom baru
+            })
             .eq('id', authData.user.id);
             
         if (updateSignInError) {
-             console.warn("Gagal update last_sign_in:", updateSignInError.message);
+             console.warn("Gagal update log sign-in:", updateSignInError.message);
         }
+        // --------------------------------------------------
 
         let { data: profileData, error: profileError } = await supabaseClient
             .from('profiles')
@@ -183,7 +206,7 @@ async function sendPasswordResetEmail(email) {
 async function logout() {
     const userId = await getUserId();
     
-    // 1. **PERBAIKAN**: UPDATE last_sign_out di tabel profiles
+    // 1. UPDATE last_sign_out di tabel profiles
     if (userId) {
         const now = new Date().toISOString();
         const { error: updateSignOutError } = await supabaseClient
