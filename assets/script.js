@@ -110,26 +110,29 @@ function initializeScripts() {
 
   function handleMultiLoginKick(message) {
       alert(`PEMBERITAHUAN! ${message}`);
-      if (typeof logout === 'function') {
-          // Hanya bersihkan cache lokal tanpa update DB lagi
-          localStorage.clear();
-          localStorage.removeItem('gracely_active_session_token');
-          window.location.href = 'login.html';
-      } else {
-          localStorage.clear();
-          window.location.href = 'login.html';
+      
+      // Hapus data lokal
+      localStorage.clear();
+      localStorage.removeItem('gracely_active_session_token');
+      
+      // ** PERBAIKAN: Hapus Cookies Sesi Lama **
+      if (typeof eraseCookie === 'function') {
+          eraseCookie('gracely_active_session');
+          eraseCookie('gracely_config_url');
+          eraseCookie('is_premium');
       }
+
+      // Arahkan ke halaman login
+      window.location.href = 'login.html';
   }
 
   function startSessionCheckLoop() {
-      // Pastikan loop hanya berjalan jika ada sesi yang aktif
       if (localStorage.getItem('isAuthenticated') !== 'true') {
           return;
       }
 
-      // Ambil Access Token yang disimpan saat LOGIN di browser klien.
       const localSessionToken = localStorage.getItem('gracely_active_session_token'); 
-      const checkInterval = 5000; // Cek setiap 5 detik
+      const checkInterval = 5000;
 
       if (!localSessionToken) {
           handleMultiLoginKick("Token sesi lokal hilang. Silakan Login ulang.");
@@ -149,8 +152,6 @@ function initializeScripts() {
 
           const dbSessionToken = await getActiveSessionToken(userId);
 
-          // KUNCI LOGIKA: Kick terjadi HANYA jika token di DB ada dan TIDAK SAMA dengan token lokal.
-          // Sesi terbaru (yang tokennya sama dengan DB) akan dipertahankan.
           if (dbSessionToken && dbSessionToken !== localSessionToken) {
               handleMultiLoginKick("Akun Anda terdeteksi melakukan Login di perangkat atau browser lain.");
           }
