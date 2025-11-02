@@ -18939,27 +18939,47 @@
       "id": "codedex-1014",
       "name": "Codedex",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2sH_6-EH9eaPT8YfscbEcq3-i1KLzvZ50JQ&s",
-      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Codedex&login=codedex@belajaar.id&password=CodedexMilikGroupy2025!&url=https://www.codedex.io/login",
-      "category": "productivity"
+      "url": "https://gracely011.github.io/hai/manual.html?name=Turnitin&login=halo@belajaar.id&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us",
+      "category": "productivity",
+      "isGroup": true
     },
-    "cookies": [
+    "accounts": [
       {
-        "name": "dummy",
-        "value": "5",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "domain": "codedex.io"
+        "name": "Codedex 1",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "codedex.io"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Turnitin&login=halo@belajaar.id&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us"
+      },
+      {
+        "name": "Codedex 2",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "codedex.io"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Codedex&login=codedex@belajaar.id&password=CodedexMilikGroupy2025!&url=https://www.codedex.io/login"
       }
-    ],
-    "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Codedex&login=codedex@belajaar.id&password=CodedexMilikGroupy2025!&url=https://www.codedex.io/login"
+    ]
   },
   {
     "meta": {
       "id": "consensus-1016",
       "name": "Consensus",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRweoQJzl9iPGJqBYN-uOcjxdcH72RA9W1PKiCmAisHjg&s",
-      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Consensus&login=gd@belajaar.id&password=WeAreGroupy2025!&url=https://consensus.app/account/",
+      "url": "https://gracely011.github.io/hai/manual.html?name=Consensus&login=gd@belajaar.id&password=WeAreGroupy2025!&url=https://consensus.app/account",
       "category": "education"
     },
     "cookies": [
@@ -18972,7 +18992,7 @@
         "domain": "consensus.app"
       }
     ],
-    "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Consensus&login=gd@belajaar.id&password=WeAreGroupy2025!&url=https://consensus.app/account/"
+    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Consensus&login=gd@belajaar.id&password=WeAreGroupy2025!&url=https://consensus.app/account"
   },
   {
     "meta": {
@@ -55940,7 +55960,7 @@
       "id": "the-wall-street-journal-1084",
       "name": "The Wall Street Journal",
       "icon": "https://play-lh.googleusercontent.com/eksxaPfxbTVb6VTl5aj1sXLpKc_N9Z6AZ3_5Oq6JhTXmgEQza-1v58a66p_ID0phE2Zv",
-      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=The%20Wall%20Street%20Journal&login=wsj@killua.cloud&password=TheWallStreetJournalGroupy2025!!!&url=https://www.wsj.com/",
+      "url": "https://gracely011.github.io/hai/manual.html?name=The%20Wall%20Street%20Journal&login=wsj@killua.cloud&password=TheWallStreetJournalGroupy2025!!!&url=https://www.wsj.com",
       "category": "productivity"
     },
     "cookies": [
@@ -55953,7 +55973,7 @@
         "domain": "wsj.com"
       }
     ],
-    "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=The%20Wall%20Street%20Journal&login=wsj@killua.cloud&password=TheWallStreetJournalGroupy2025!!!&url=https://www.wsj.com/"
+    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=The%20Wall%20Street%20Journal&login=wsj@killua.cloud&password=TheWallStreetJournalGroupy2025!!!&url=https://www.wsj.com"
   },
   {
     "meta": {
@@ -56140,7 +56160,7 @@
       "id": "turnitin-1077",
       "name": "Turnitin",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIrf73LGu_mACI2Mc_jdghOV02eXRocoXKo0o3qZHFjGgJMUr5M_v8uwap&s=10",
-      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Turnitin&login=halo@belajaar.id&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us",
+      "url": "https://gracely011.github.io/hai/manual.html?name=Turnitin%202&login=hola@belajaar.id&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us",
       "category": "productivity",
       "isGroup": true
     },
@@ -56157,49 +56177,49 @@
             "domain": "turnitin.com"
           }
         ],
-        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Turnitin&login=halo@belajaar.id&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us"
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Turnitin%202&login=hola@belajaar.id&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us"
       },
       {
         "name": "Turnitin 2",
         "cookies": [
           {
             "name": "dummy",
-            "value": "3",
+            "value": "5",
             "path": "/",
             "httpOnly": false,
             "secure": true,
             "domain": "turnitin.com"
           }
         ],
-        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Turnitin%202&login=hola@belajaar.id&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us"
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Turnitin%203&login=hola@tokito.xyz&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us"
       },
       {
         "name": "Turnitin 3",
         "cookies": [
           {
             "name": "dummy",
-            "value": "3",
+            "value": "5",
             "path": "/",
             "httpOnly": false,
             "secure": true,
             "domain": "turnitin.com"
           }
         ],
-        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Turnitin%203&login=hola@tokito.xyz&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us"
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Turnitin%204&login=bangor@tokito.xyz&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us"
       },
       {
         "name": "Turnitin 4",
         "cookies": [
           {
             "name": "dummy",
-            "value": "3",
+            "value": "5",
             "path": "/",
             "httpOnly": false,
             "secure": true,
             "domain": "turnitin.com"
           }
         ],
-        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Turnitin%204&login=bangor@tokito.xyz&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us"
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Turnitin&login=halo@belajaar.id&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us"
       }
     ]
   },
@@ -57777,7 +57797,7 @@
       "id": "viu-1081",
       "name": "Viu",
       "icon": "https://groupy.id/assets/images/services/viu.png",
-      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu&login=kalimmar61@moviesisme.com&password=viuku123&url=https://viu.com",
+      "url": "https://gracely011.github.io/hai/manual.html?name=Viu&login=kalimmar61@moviesisme.com&password=viuku123&url=https://viu.com",
       "category": "streaming",
       "isGroup": true
     },
@@ -57787,126 +57807,126 @@
         "cookies": [
           {
             "name": "dummy",
-            "value": "1",
+            "value": "5",
             "path": "/",
             "httpOnly": false,
             "secure": true,
             "domain": "viu.com"
           }
         ],
-        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu&login=kalimmar61@moviesisme.com&password=viuku123&url=https://viu.com"
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Viu&login=kalimmar61@moviesisme.com&password=viuku123&url=https://viu.com"
       },
       {
         "name": "Viu 2",
         "cookies": [
           {
             "name": "dummy",
-            "value": "2",
+            "value": "5",
             "path": "/",
             "httpOnly": false,
             "secure": true,
             "domain": "viu.com"
           }
         ],
-        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu%202&login=kamalramadan6885@moviesisme.com&password=viuku123&url=https://viu.com"
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Viu%202&login=kamalramadan6885@moviesisme.com&password=viuku123&url=https://viu.com"
       },
       {
         "name": "Viu 3",
         "cookies": [
           {
             "name": "dummy",
-            "value": "3",
+            "value": "5",
             "path": "/",
             "httpOnly": false,
             "secure": true,
             "domain": "viu.com"
           }
         ],
-        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu%203&login=kamalwinarsih34@moviesisme.com&password=viuku123&url=https://viu.com"
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Viu%203&login=kamalwinarsih34@moviesisme.com&password=viuku123&url=https://viu.com"
       },
       {
         "name": "Viu 4",
         "cookies": [
           {
             "name": "dummy",
-            "value": "4",
+            "value": "5",
             "path": "/",
             "httpOnly": false,
             "secure": true,
             "domain": "viu.com"
           }
         ],
-        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu%204&login=kamajagaw0966@moviesisme.com&password=viuku123&url=https://viu.com"
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Viu%204&login=kamajagaw0966@moviesisme.com&password=viuku123&url=https://viu.com"
       },
       {
         "name": "Viu 5",
         "cookies": [
           {
             "name": "dummy",
-            "value": "4",
+            "value": "5",
             "path": "/",
             "httpOnly": false,
             "secure": true,
             "domain": "viu.com"
           }
         ],
-        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu%205&login=kalasirait3030@moviesisme.com&password=viuku123&url=https://viu.com"
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Viu%205&login=kalasirait3030@moviesisme.com&password=viuku123&url=https://viu.com"
       },
       {
         "name": "Viu 6",
         "cookies": [
           {
             "name": "dummy",
-            "value": "4",
+            "value": "5",
             "path": "/",
             "httpOnly": false,
             "secure": true,
             "domain": "viu.com"
           }
         ],
-        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu%206&login=kamarianapitupulu5971@moviesisme.com&password=viuku123&url=https://viu.com"
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Viu%206&login=kamarianapitupulu5971@moviesisme.com&password=viuku123&url=https://viu.com"
       },
       {
         "name": "Viu 7",
         "cookies": [
           {
             "name": "dummy",
-            "value": "4",
+            "value": "5",
             "path": "/",
             "httpOnly": false,
             "secure": true,
             "domain": "viu.com"
           }
         ],
-        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu%207&login=kambalisaptono896@moviesisme.com&password=viuku123&url=https://viu.com"
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Viu%207&login=kambalisaptono896@moviesisme.com&password=viuku123&url=https://viu.com"
       },
       {
         "name": "Viu 8",
         "cookies": [
           {
             "name": "dummy",
-            "value": "4",
+            "value": "5",
             "path": "/",
             "httpOnly": false,
             "secure": true,
             "domain": "viu.com"
           }
         ],
-        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu%208&login=kambaliutami98@moviesisme.com&password=viuku123&url=https://viu.com"
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Viu%208&login=kambaliutami98@moviesisme.com&password=viuku123&url=https://viu.com"
       },
       {
         "name": "Viu 9",
         "cookies": [
           {
             "name": "dummy",
-            "value": "4",
+            "value": "5",
             "path": "/",
             "httpOnly": false,
             "secure": true,
             "domain": "viu.com"
           }
         ],
-        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu%209&login=kamilafarida09@moviesisme.com&password=viuku123&url=https://viu.com"
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Viu%209&login=kamilafarida09@moviesisme.com&password=viuku123&url=https://viu.com"
       },
       {
         "name": "Viu 10",
@@ -57920,7 +57940,7 @@
             "domain": "viu.com"
           }
         ],
-        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu%2010&login=kamilalailasarisei731@moviesisme.com&password=viuku123&url=https://viu.com"
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Viu%2010&login=kamilalailasarisei731@moviesisme.com&password=viuku123&url=https://viu.com"
       }
     ]
   },
