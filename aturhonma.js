@@ -218,6 +218,10 @@ const gracelyConfig = {
         "title": "Perplexity",
         "content": "<p>Jika Perpexity <b>tidak terlogin-login</b>, silahkan lakukan akses ulang sampai terlogin.</p>"
       },
+      "wetv-group-id": {
+        "title": "WeTV",
+        "content": "<p>Jika WeTV tidak VIP, silahkan tunggu 5 detik lalu lakukan refresh pada browser yang kamu gunakan.</p>"
+      },
       "prime-video-group-id": {
         "title": "Info Prime Video",
         "content": "<p>Jika Prime Video meminta PIN, masukan <b>'12345'</b></p>"
