@@ -4,7 +4,7 @@
       "id": "academia-1000",
       "name": "Academia",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
-      "url": "https://www.academia.edu/",
+      "url": "https://www.academia.edu",
       "category": "education"
     },
     "cookies": [
@@ -174,7 +174,7 @@
       "id": "alight-motion-1001",
       "name": "Alight Motion",
       "icon": "https://play-lh.googleusercontent.com/OU0BlP8C9-V7ECl2crma7B48nzDbK7liSLjn0j_fpTlyWG6qyEE-mw_KFZ9aOXF0a3w",
-      "url": "https://petrusperdana1.github.io/tpsyunix/al1ghttt.html",
+      "url": "https://alightmotion.com",
       "category": "design"
     },
     "cookies": [
@@ -194,13 +194,13 @@
       "id": "apple-music-1052",
       "name": "Apple Music",
       "icon": "https://play-lh.googleusercontent.com/mOkjjo5Rzcpk7BsHrsLWnqVadUK1FlLd2-UlQvYkLL4E9A0LpyODNIQinXPfUMjUrbE",
-      "url": "https://music.apple.com/ca/home",
+      "url": "https://music.apple.com",
       "category": "music",
       "isGroup": true
     },
     "accounts": [
       {
-        "name": "Apple Music 1",
+        "name": "music.apple.com_ca_home_2025-11-02 (1).json",
         "cookies": [
           {
             "name": "dslang",
@@ -331,7 +331,7 @@
         "sourceUrl": "https://music.apple.com/ca/home"
       },
       {
-        "name": "Apple Music 2",
+        "name": "music.apple.com_ca_home_2025-11-02 (2).json",
         "cookies": [
           {
             "name": "dslang",
@@ -462,7 +462,7 @@
         "sourceUrl": "https://music.apple.com/ca/home"
       },
       {
-        "name": "Apple Music 3",
+        "name": "music.apple.com_us_new_2025-10-29.json",
         "cookies": [
           {
             "name": "dslang",
@@ -598,13 +598,13 @@
       "id": "apple-tv--1077",
       "name": "Apple TV+",
       "icon": "https://play-lh.googleusercontent.com/1XBAZjSOWaVM7UDFKvzuMR-WRoR5gCnsYrw17_ihHLcJKT9Qc7hXptHwWQ3Bf83mry4",
-      "url": "https://tv.apple.com/ca",
+      "url": "https://tv.apple.com",
       "category": "streaming",
       "isGroup": true
     },
     "accounts": [
       {
-        "name": "Apple TV+ 1",
+        "name": "tv.apple.com_ca_2025-11-02 (1).json",
         "cookies": [
           {
             "name": "dslang",
@@ -726,7 +726,7 @@
         "sourceUrl": "https://tv.apple.com/ca"
       },
       {
-        "name": "Apple TV+ 2",
+        "name": "tv.apple.com_ca_2025-11-02 (2).json",
         "cookies": [
           {
             "name": "dslang",
@@ -848,7 +848,7 @@
         "sourceUrl": "https://tv.apple.com/ca"
       },
       {
-        "name": "Apple TV+ 3",
+        "name": "tv.apple.com_ca_2025-11-02 (3).json",
         "cookies": [
           {
             "name": "dslang",
@@ -970,7 +970,7 @@
         "sourceUrl": "https://tv.apple.com/ca"
       },
       {
-        "name": "Apple TV+ 4",
+        "name": "tv.apple.com_ca_2025-11-02 (4).json",
         "cookies": [
           {
             "name": "dslang",
@@ -1092,7 +1092,7 @@
         "sourceUrl": "https://tv.apple.com/ca"
       },
       {
-        "name": "Apple TV+ 5",
+        "name": "tv.apple.com_ca_2025-11-02.json",
         "cookies": [
           {
             "name": "dslang",
@@ -1220,7 +1220,7 @@
       "id": "askyourpdf-1007",
       "name": "AskYourPDF",
       "icon": "https://play-lh.googleusercontent.com/WRl_6Jv1ljYKf3xiy27h3xx-ST7Kntg3mon8J53OBpjdm35jG2Mw80GZ2Qrhlau-YqI7=w240-h480-rw",
-      "url": "https://askyourpdf.com/conversations",
+      "url": "https://askyourpdf.com",
       "category": "productivity"
     },
     "cookies": [
@@ -1372,13 +1372,13 @@
       "id": "bein-sports-1015",
       "name": "Bein Sports",
       "icon": "https://play-lh.googleusercontent.com/jBDZq3aBmCXuvtuJHEasqsdYPRxMBGzYmEha4dMlgoIk19Zlh6BGQC08Zt6Ifrmzhg=w240-h480-rw",
-      "url": "https://connect-id.beinsports.com/id",
+      "url": "https://www.beinsports.com",
       "category": "streaming",
       "isGroup": true
     },
     "accounts": [
       {
-        "name": "Bein Sports 1",
+        "name": "connect-id.beinsports.com_id_2025-11-02 (1).json",
         "cookies": [
           {
             "name": "_fbp",
@@ -1592,7 +1592,7 @@
         "sourceUrl": "https://connect-id.beinsports.com/id"
       },
       {
-        "name": "Bein Sports 2",
+        "name": "connect-id.beinsports.com_id_2025-11-02 (2).json",
         "cookies": [
           {
             "name": "_fbp",
@@ -1806,7 +1806,7 @@
         "sourceUrl": "https://connect-id.beinsports.com/id"
       },
       {
-        "name": "Bein Sports 3",
+        "name": "connect-id.beinsports.com_id_2025-11-02 (3).json",
         "cookies": [
           {
             "name": "_fbp",
@@ -2011,7 +2011,7 @@
         "sourceUrl": "https://connect-id.beinsports.com/id"
       },
       {
-        "name": "Bein Sports 4",
+        "name": "connect-id.beinsports.com_id_2025-11-02 (4).json",
         "cookies": [
           {
             "name": "_fbp",
@@ -2225,7 +2225,7 @@
         "sourceUrl": "https://connect-id.beinsports.com/id"
       },
       {
-        "name": "Bein Sports 5",
+        "name": "connect-id.beinsports.com_id_2025-11-02 (5).json",
         "cookies": [
           {
             "name": "_fbp",
@@ -2439,7 +2439,7 @@
         "sourceUrl": "https://connect-id.beinsports.com/id"
       },
       {
-        "name": "Bein Sports 6",
+        "name": "connect-id.beinsports.com_id_2025-11-02.json",
         "cookies": [
           {
             "name": "_fbp",
@@ -2659,13 +2659,13 @@
       "id": "brain-fm-1054",
       "name": "Brain.fm",
       "icon": "https://play-lh.googleusercontent.com/oQnd9u11H7j1g99Pzswt5LTm52g8XyMrgz0GRBX5lmzdPv2Vt7bBrOKgbVbs-gHc504=w240-h480-rw",
-      "url": "https://my.brain.fm/",
+      "url": "https://www.brain.fm",
       "category": "music",
       "isGroup": true
     },
     "accounts": [
       {
-        "name": "Brain.fm 1",
+        "name": "my.brain.fm_2025-10-26.json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -2884,7 +2884,7 @@
         "sourceUrl": "https://my.brain.fm/"
       },
       {
-        "name": "Brain.fm 2",
+        "name": "my.brain.fm_2025-11-02 (1).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -3105,7 +3105,7 @@
         "sourceUrl": "https://my.brain.fm/"
       },
       {
-        "name": "Brain.fm 3",
+        "name": "my.brain.fm_2025-11-02.json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -3341,7 +3341,7 @@
       "id": "brilliant-1009",
       "name": "Brilliant",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT07Aba7sYgSCOIW9P2mAWcAcO9r_tpM_svzw&s",
-      "url": "https://brilliant.org/home/",
+      "url": "https://brilliant.org",
       "category": "education"
     },
     "cookies": [
@@ -3460,13 +3460,13 @@
       "id": "bstation-1008",
       "name": "Bstation",
       "icon": "https://play-lh.googleusercontent.com/nug7F0n-jWMpAWLaU7Qi1kuTIYjrAtUJmZd5FW4mEyspYR7-zGa-3_fwnYkPgyzHozE3",
-      "url": "https://www.bilibili.tv/en/anime",
+      "url": "https://www.bilibili.tv",
       "category": "streaming",
       "isGroup": true
     },
     "accounts": [
       {
-        "name": "Bstation 1",
+        "name": "bilibili.tv_en_anime_2025-11-02 (1).json",
         "cookies": [
           {
             "name": "_ga",
@@ -3592,7 +3592,7 @@
         "sourceUrl": "https://www.bilibili.tv/en/anime"
       },
       {
-        "name": "Bstation 2",
+        "name": "bilibili.tv_en_anime_2025-11-02.json",
         "cookies": [
           {
             "name": "_ga",
@@ -3724,7 +3724,7 @@
       "id": "busuu-1010",
       "name": "Busuu",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdfQ07W8Z1b0olxbugP-i2Hk5BJo6I-B8yKA&s",
-      "url": "https://www.busuu.com/dashboard/timeline/a1",
+      "url": "https://www.busuu.com",
       "category": "education"
     },
     "cookies": [
@@ -4301,7 +4301,7 @@
       "id": "bypassgpt-1011",
       "name": "BypassGPT",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVpNp17p7NogV0-YTH9UnJYGg7IowMwYmj3w&s",
-      "url": "https://www.bypassgpt.ai/",
+      "url": "https://bypassgpt.ai",
       "category": "productivity"
     },
     "cookies": [
@@ -4529,7 +4529,7 @@
       "id": "canva-group-id",
       "name": "Canva",
       "icon": "https://play-lh.googleusercontent.com/JC3HW-ps59VAEU3vuJoi3I5XB_IQ9ISuILLudUY9uLSW7eKfqtXitrB-fF865rV4TQ",
-      "url": "https://gracely011.github.io/hai/manual.html?name=Canva&login=subutomo@kanvaa.site&password=Premium121@&url=https://canva.com",
+      "url": "https://www.canva.com",
       "category": "design",
       "isGroup": true
     },
@@ -4567,7 +4567,7 @@
         "cookies": [
           {
             "name": "dummy",
-            "value": "2",
+            "value": "3",
             "path": "/",
             "httpOnly": false,
             "secure": true,
@@ -4581,7 +4581,7 @@
         "cookies": [
           {
             "name": "dummy",
-            "value": "2",
+            "value": "4",
             "path": "/",
             "httpOnly": false,
             "secure": true,
@@ -4611,13 +4611,13 @@
       "id": "capcut-1012",
       "name": "CapCut",
       "icon": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxtHdRB6xk71KqOPxE23.XPiUcBp9_h5.Va3lapJy.K9tACxvjL4_WF3lJCLozay.Kx6V1mfBFaOOF4V5Rx4RHLY-&format=source",
-      "url": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video",
+      "url": "https://www.capcut.com",
       "category": "design",
       "isGroup": true
     },
     "accounts": [
       {
-        "name": "CapCut 1",
+        "name": "capcut.com_my-edit_2025-11-02 (1).json",
         "cookies": [
           {
             "name": "_clck",
@@ -5027,7 +5027,7 @@
         "sourceUrl": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video"
       },
       {
-        "name": "CapCut 2",
+        "name": "capcut.com_my-edit_2025-11-02 (2).json",
         "cookies": [
           {
             "name": "_clck",
@@ -5437,7 +5437,7 @@
         "sourceUrl": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video"
       },
       {
-        "name": "CapCut 3",
+        "name": "capcut.com_my-edit_2025-11-02 (3).json",
         "cookies": [
           {
             "name": "_clck",
@@ -5847,7 +5847,7 @@
         "sourceUrl": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video"
       },
       {
-        "name": "CapCut 4",
+        "name": "capcut.com_my-edit_2025-11-02 (4).json",
         "cookies": [
           {
             "name": "_clck",
@@ -6257,7 +6257,7 @@
         "sourceUrl": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video"
       },
       {
-        "name": "CapCut 5",
+        "name": "capcut.com_my-edit_2025-11-02 (5).json",
         "cookies": [
           {
             "name": "_clck",
@@ -6667,7 +6667,7 @@
         "sourceUrl": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video"
       },
       {
-        "name": "CapCut 6",
+        "name": "capcut.com_my-edit_2025-11-02.json",
         "cookies": [
           {
             "name": "_clck",
@@ -7360,13 +7360,13 @@
       "id": "chatgpt-group-id",
       "name": "ChatGPT",
       "icon": "https://groupy.id/assets/images/services/chatgptplus.png",
-      "url": "https://chatgpt.com/",
+      "url": "https://chatgpt.com",
       "category": "productivity",
       "isGroup": true
     },
     "accounts": [
       {
-        "name": "ChatGPT 1",
+        "name": "chatgpt.com_2025-10-26 (1).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -7645,7 +7645,7 @@
         "sourceUrl": "https://chatgpt.com/#i-love-groupy"
       },
       {
-        "name": "ChatGPT 2",
+        "name": "chatgpt.com_2025-10-26 (2).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -7924,7 +7924,7 @@
         "sourceUrl": "https://chatgpt.com/#i-like-groupy"
       },
       {
-        "name": "ChatGPT 3",
+        "name": "chatgpt.com_2025-10-26 (3).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -8203,7 +8203,7 @@
         "sourceUrl": "https://chatgpt.com/#killua"
       },
       {
-        "name": "ChatGPT 4",
+        "name": "chatgpt.com_2025-10-26 (4).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -8482,7 +8482,7 @@
         "sourceUrl": "https://chatgpt.com/#i-like-groupy"
       },
       {
-        "name": "ChatGPT 5",
+        "name": "chatgpt.com_2025-10-26 (5).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -8761,7 +8761,7 @@
         "sourceUrl": "https://chatgpt.com/#i-like-groupy"
       },
       {
-        "name": "ChatGPT 6",
+        "name": "chatgpt.com_2025-10-26 (6).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -9040,7 +9040,7 @@
         "sourceUrl": "https://chatgpt.com/#i-like-groupy"
       },
       {
-        "name": "ChatGPT 7",
+        "name": "chatgpt.com_2025-10-26 (7).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -9319,7 +9319,7 @@
         "sourceUrl": "https://chatgpt.com/#no-groupy-no-love"
       },
       {
-        "name": "ChatGPT 8",
+        "name": "chatgpt.com_2025-10-26 (8).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -9598,7 +9598,7 @@
         "sourceUrl": "https://chatgpt.com/#no-groupy-no-love"
       },
       {
-        "name": "ChatGPT 9",
+        "name": "chatgpt.com_2025-10-26 (9).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -9877,7 +9877,7 @@
         "sourceUrl": "https://chatgpt.com/#no-groupy-no-love"
       },
       {
-        "name": "ChatGPT 10",
+        "name": "chatgpt.com_2025-10-26 (10).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -10156,7 +10156,7 @@
         "sourceUrl": "https://chatgpt.com/#no-groupy-no-love"
       },
       {
-        "name": "ChatGPT 11",
+        "name": "chatgpt.com_2025-10-26 (11).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -10435,7 +10435,7 @@
         "sourceUrl": "https://chatgpt.com/#fourteen"
       },
       {
-        "name": "ChatGPT 12",
+        "name": "chatgpt.com_2025-10-26 (12).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -10714,7 +10714,7 @@
         "sourceUrl": "https://chatgpt.com/#fiveteen"
       },
       {
-        "name": "ChatGPT 13",
+        "name": "chatgpt.com_2025-10-26 (13).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -10993,7 +10993,7 @@
         "sourceUrl": "https://chatgpt.com/#16"
       },
       {
-        "name": "ChatGPT 14",
+        "name": "chatgpt.com_2025-10-26 (14).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -11272,7 +11272,7 @@
         "sourceUrl": "https://chatgpt.com/"
       },
       {
-        "name": "ChatGPT 15",
+        "name": "chatgpt.com_2025-10-26 (15).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -11551,7 +11551,7 @@
         "sourceUrl": "https://chatgpt.com/"
       },
       {
-        "name": "ChatGPT 16",
+        "name": "chatgpt.com_2025-10-26 (16).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -11830,7 +11830,7 @@
         "sourceUrl": "https://chatgpt.com/"
       },
       {
-        "name": "ChatGPT 17",
+        "name": "chatgpt.com_2025-10-26 (17).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -12109,7 +12109,7 @@
         "sourceUrl": "https://chatgpt.com/"
       },
       {
-        "name": "ChatGPT 18",
+        "name": "chatgpt.com_2025-10-26 (18).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -12388,7 +12388,7 @@
         "sourceUrl": "https://chatgpt.com/#tokito"
       },
       {
-        "name": "ChatGPT 19",
+        "name": "chatgpt.com_2025-10-26 (19) SPESIAL.json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -12659,7 +12659,7 @@
         "sourceUrl": "https://chatgpt.com/#tokito"
       },
       {
-        "name": "ChatGPT 20",
+        "name": "chatgpt.com_2025-10-26 (19).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -12938,7 +12938,7 @@
         "sourceUrl": "https://chatgpt.com/#tokito"
       },
       {
-        "name": "ChatGPT 21",
+        "name": "chatgpt.com_2025-10-26 (20).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -13217,7 +13217,7 @@
         "sourceUrl": "https://chatgpt.com/#tokito"
       },
       {
-        "name": "ChatGPT 22",
+        "name": "chatgpt.com_2025-10-26 (21).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -13496,7 +13496,7 @@
         "sourceUrl": "https://chatgpt.com/#tokito"
       },
       {
-        "name": "ChatGPT 23",
+        "name": "chatgpt.com_2025-10-26 (22).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -13775,7 +13775,7 @@
         "sourceUrl": "https://chatgpt.com/#tokito"
       },
       {
-        "name": "ChatGPT 24",
+        "name": "chatgpt.com_2025-10-26 (23).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -14054,7 +14054,7 @@
         "sourceUrl": "https://chatgpt.com/#tokito"
       },
       {
-        "name": "ChatGPT 25",
+        "name": "chatgpt.com_2025-10-26 (24).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -14333,7 +14333,7 @@
         "sourceUrl": "https://chatgpt.com/#tokito"
       },
       {
-        "name": "ChatGPT 26",
+        "name": "chatgpt.com_2025-10-26 (25).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -14612,7 +14612,7 @@
         "sourceUrl": "https://chatgpt.com/#tokito"
       },
       {
-        "name": "ChatGPT 27",
+        "name": "chatgpt.com_2025-10-26 (26).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -14891,7 +14891,7 @@
         "sourceUrl": "https://chatgpt.com/#tokito"
       },
       {
-        "name": "ChatGPT 28",
+        "name": "chatgpt.com_2025-10-26 (27).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -15170,7 +15170,7 @@
         "sourceUrl": "https://chatgpt.com/#tokito"
       },
       {
-        "name": "ChatGPT 29",
+        "name": "chatgpt.com_2025-10-26 (28) SEPSIAL.json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -15441,7 +15441,7 @@
         "sourceUrl": "https://chatgpt.com/#tokito"
       },
       {
-        "name": "ChatGPT 30",
+        "name": "chatgpt.com_2025-10-26 (28).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -15720,7 +15720,7 @@
         "sourceUrl": "https://chatgpt.com/#tokito"
       },
       {
-        "name": "ChatGPT 31",
+        "name": "chatgpt.com_2025-10-26 (29).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -15999,7 +15999,7 @@
         "sourceUrl": "https://chatgpt.com/#helloworld"
       },
       {
-        "name": "ChatGPT 32",
+        "name": "chatgpt.com_2025-10-26 (30).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -16278,7 +16278,7 @@
         "sourceUrl": "https://chatgpt.com/#helloworld"
       },
       {
-        "name": "ChatGPT 33",
+        "name": "chatgpt.com_2025-10-26 (31).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -16557,7 +16557,7 @@
         "sourceUrl": "https://chatgpt.com/#helloworld"
       },
       {
-        "name": "ChatGPT 34",
+        "name": "chatgpt.com_2025-10-26 (32).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -16836,7 +16836,7 @@
         "sourceUrl": "https://chatgpt.com/#helloworld"
       },
       {
-        "name": "ChatGPT 35",
+        "name": "chatgpt.com_2025-10-26 (33).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -17115,7 +17115,7 @@
         "sourceUrl": "https://chatgpt.com/#helloworld"
       },
       {
-        "name": "ChatGPT 36",
+        "name": "chatgpt.com_2025-10-26 (34).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -17394,7 +17394,7 @@
         "sourceUrl": "https://chatgpt.com/#helloworld"
       },
       {
-        "name": "ChatGPT 37",
+        "name": "chatgpt.com_2025-10-26 (35).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -17673,7 +17673,7 @@
         "sourceUrl": "https://chatgpt.com/#helloworld"
       },
       {
-        "name": "ChatGPT 38",
+        "name": "chatgpt.com_2025-10-26 SPESIAL.json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -17944,7 +17944,7 @@
         "sourceUrl": "https://chatgpt.com/"
       },
       {
-        "name": "ChatGPT 39",
+        "name": "chatgpt.com_2025-10-26.json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -18229,13 +18229,13 @@
       "id": "chutes-1013",
       "name": "Chutes",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuJ8v1EICNl78zLPEfHkAimzusUBWT7z2nTw&s",
-      "url": "https://chutes.ai/app",
+      "url": "https://chutes.ai",
       "category": "productivity",
       "isGroup": true
     },
     "accounts": [
       {
-        "name": "Chutes 1",
+        "name": "chutes.ai_app_2025-10-26.json",
         "cookies": [
           {
             "name": "__fx",
@@ -18299,7 +18299,7 @@
         "sourceUrl": "https://chutes.ai/app"
       },
       {
-        "name": "Chutes 2",
+        "name": "chutes.ai_app_2025-11-02 (1).json",
         "cookies": [
           {
             "name": "__fx",
@@ -18384,7 +18384,7 @@
         "sourceUrl": "https://chutes.ai/app"
       },
       {
-        "name": "Chutes 3",
+        "name": "chutes.ai_app_2025-11-02.json",
         "cookies": [
           {
             "name": "__fx",
@@ -18475,7 +18475,7 @@
       "id": "codedex-1014",
       "name": "Codedex",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2sH_6-EH9eaPT8YfscbEcq3-i1KLzvZ50JQ&s",
-      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Codedex&login=codedex@belajaar.id&password=CodedexMilikGroupy2025!&url=https://www.codedex.io/login",
+      "url": "https://www.codedex.io",
       "category": "productivity"
     },
     "cookies": [
@@ -18495,7 +18495,7 @@
       "id": "consensus-1016",
       "name": "Consensus",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRweoQJzl9iPGJqBYN-uOcjxdcH72RA9W1PKiCmAisHjg&s",
-      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Consensus&login=gd@belajaar.id&password=WeAreGroupy2025!&url=https://consensus.app/account/",
+      "url": "https://consensus.app",
       "category": "education"
     },
     "cookies": [
@@ -18515,7 +18515,7 @@
       "id": "coohom-1017",
       "name": "Coohom",
       "icon": "https://play-lh.googleusercontent.com/HWA5QTohakrzdjQnJWyPih_CDFubc9PZi0gW1v-eoopRUAGWpHspB-NeFBH3FQnQc6kz=w240-h480-rw",
-      "url": "https://www.coohom.com/pub/saas/workbench",
+      "url": "https://www.coohom.com",
       "category": "design"
     },
     "cookies": [
@@ -18813,7 +18813,7 @@
       "id": "course-hero-1018",
       "name": "Course Hero",
       "icon": "https://play-lh.googleusercontent.com/FGtdclS6wXoOO9lA-9DkK9Skis0T-tY2SCFAl7wLX4ZDFSNO3RBADCEcnCMInsZCKlc",
-      "url": "https://www.coursehero.com/dashboard/",
+      "url": "https://www.coursehero.com",
       "category": "education"
     },
     "cookies": [
@@ -19117,7 +19117,7 @@
       "id": "coursera-1019",
       "name": "Coursera",
       "icon": "https://play-lh.googleusercontent.com/H8crzfriK6t5b0N5wXykhxMjPopyWGDZPaMJlvWlAKb7EG-26KGu15P_RnFDinBw1Jc",
-      "url": "https://www.coursera.org/",
+      "url": "https://www.coursera.org",
       "category": "education"
     },
     "cookies": [
@@ -19474,13 +19474,13 @@
       "id": "crunchyroll-1020",
       "name": "Crunchyroll",
       "icon": "https://groupy.id/assets/images/services/crunchyroll.png",
-      "url": "https://www.crunchyroll.com/discover",
+      "url": "https://www.crunchyroll.com",
       "category": "streaming",
       "isGroup": true
     },
     "accounts": [
       {
-        "name": "Crunchyroll 1",
+        "name": "crunchyroll.com_discover_2025-11-02 (1).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -19604,7 +19604,7 @@
         "sourceUrl": "https://www.crunchyroll.com/discover"
       },
       {
-        "name": "Crunchyroll 2",
+        "name": "crunchyroll.com_discover_2025-11-02 (2).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -19728,7 +19728,7 @@
         "sourceUrl": "https://www.crunchyroll.com/discover"
       },
       {
-        "name": "Crunchyroll 3",
+        "name": "crunchyroll.com_discover_2025-11-02.json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -19858,7 +19858,7 @@
       "id": "cryptoquant-1021",
       "name": "CryptoQuant",
       "icon": "https://cdn.prod.website-files.com/653c8107e2b70a34921d24fd/67a672f11fe6c47be600f037_cryptoquant.png",
-      "url": "https://cryptoquant.com/asset/btc/summary",
+      "url": "https://cryptoquant.com",
       "category": "productivity"
     },
     "cookies": [
@@ -20036,13 +20036,13 @@
       "id": "curiosity-stream-1022",
       "name": "Curiosity Stream",
       "icon": "https://play-lh.googleusercontent.com/YXqChSEFUdn1A9Jxu9sIZPwlyLYaA_sU_U_h-uW_RyXhEx1WzBNqNWcdNwC3WOGzjg",
-      "url": "https://curiositystream.com/home",
+      "url": "https://curiositystream.com",
       "category": "streaming",
       "isGroup": true
     },
     "accounts": [
       {
-        "name": "Curiosity Stream 1",
+        "name": "curiositystream.com_home_2025-11-02 (1).json",
         "cookies": [
           {
             "name": "__zlcmid",
@@ -20699,7 +20699,7 @@
         "sourceUrl": "https://curiositystream.com/home"
       },
       {
-        "name": "Curiosity Stream 2",
+        "name": "curiositystream.com_home_2025-11-02.json",
         "cookies": [
           {
             "name": "__zlcmid",
@@ -21362,13 +21362,13 @@
       "id": "cursor-1023",
       "name": "Cursor",
       "icon": "https://miro.medium.com/v2/resize:fit:800/0*zWCTHFNFdGAgSw2d",
-      "url": "https://cursor.com/dashboard",
+      "url": "https://cursor.com",
       "category": "productivity",
       "isGroup": true
     },
     "accounts": [
       {
-        "name": "Cursor 1",
+        "name": "cursor.com_dashboard_2025-11-02 (1).json",
         "cookies": [
           {
             "name": "generaltranslation.locale-routing-enabled",
@@ -21430,7 +21430,7 @@
         "sourceUrl": "https://cursor.com/dashboard"
       },
       {
-        "name": "Cursor 2",
+        "name": "cursor.com_dashboard_2025-11-02 (2).json",
         "cookies": [
           {
             "name": "generaltranslation.locale-routing-enabled",
@@ -21492,7 +21492,7 @@
         "sourceUrl": "https://cursor.com/dashboard"
       },
       {
-        "name": "Cursor 3",
+        "name": "cursor.com_dashboard_2025-11-02.json",
         "cookies": [
           {
             "name": "generaltranslation.locale-routing-enabled",
@@ -21560,7 +21560,7 @@
       "id": "datacamp-1002",
       "name": "DataCamp",
       "icon": "https://yt3.googleusercontent.com/ytc/AIdro_m6psai1Pd5oG3nGbw_hVfG-qmJ8R1ntco83MTXDf5cdoo=s900-c-k-c0x00ffffff-no-rj",
-      "url": "https://app.datacamp.com/",
+      "url": "https://www.datacamp.com",
       "category": "education"
     },
     "cookies": [
@@ -21880,13 +21880,13 @@
       "id": "deepl-1024",
       "name": "DeepL",
       "icon": "https://play-lh.googleusercontent.com/0IH4L3pX-jqQXKYCDmxTM5t3Tvak2cb_zUuIs9nKCHPeOqkaRJ_bRTq1qKawsSvunw=w240-h480-rw",
-      "url": "https://www.deepl.com/en/translator/files",
+      "url": "https://www.deepl.com",
       "category": "utilities",
       "isGroup": true
     },
     "accounts": [
       {
-        "name": "DeepL 1",
+        "name": "deepl.com_en_translator_files_2025-11-02 (1).json",
         "cookies": [
           {
             "name": "_ga",
@@ -22078,7 +22078,7 @@
         "sourceUrl": "https://www.deepl.com/en/translator/files"
       },
       {
-        "name": "DeepL 2",
+        "name": "deepl.com_en_translator_files_2025-11-02 (2).json",
         "cookies": [
           {
             "name": "_ga",
@@ -22270,7 +22270,7 @@
         "sourceUrl": "https://www.deepl.com/en/translator/files"
       },
       {
-        "name": "DeepL 3",
+        "name": "deepl.com_en_translator_files_2025-11-02 (3).json",
         "cookies": [
           {
             "name": "_ga",
@@ -22462,7 +22462,7 @@
         "sourceUrl": "https://www.deepl.com/en/translator/files"
       },
       {
-        "name": "DeepL 4",
+        "name": "deepl.com_en_translator_files_2025-11-02.json",
         "cookies": [
           {
             "name": "_ga",
@@ -22660,7 +22660,7 @@
       "id": "duolingo-1025",
       "name": "Duolingo",
       "icon": "https://www.langoly.com/wp-content/uploads/2020/03/Duolingo-app-icon.png",
-      "url": "https://www.duolingo.com/learn",
+      "url": "https://www.duolingo.com",
       "category": "education"
     },
     "cookies": [
@@ -22890,7 +22890,7 @@
       "id": "educative-1026",
       "name": "Educative",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiHav_EAmaStXwVlYg4pL5sFbdOyKcRKefbg&s",
-      "url": "https://www.educative.io/explore",
+      "url": "https://www.educative.io",
       "category": "education"
     },
     "cookies": [
@@ -23395,7 +23395,7 @@
       "id": "elicit-1027",
       "name": "Elicit",
       "icon": "https://yt3.googleusercontent.com/ksfLLIjvy8Y5vvtAmnSzIeF-svAUzrZyJBs-YwCVZUZGct8XNDb6-KJSepMwCrcuFkb6b8oCczo=s900-c-k-c0x00ffffff-no-rj",
-      "url": "https://elicit.com/library",
+      "url": "https://elicit.com",
       "category": "productivity"
     },
     "cookies": [
@@ -23506,13 +23506,13 @@
       "id": "epidemic-sound-1028",
       "name": "Epidemic Sound",
       "icon": "https://groupy.id/assets/images/services/epidemicsound.jpg",
-      "url": "https://www.epidemicsound.com/music/featured/",
+      "url": "https://www.epidemicsound.com",
       "category": "music",
       "isGroup": true
     },
     "accounts": [
       {
-        "name": "Epidemic Sound 1",
+        "name": "epidemicsound.com_music_featured_2025-11-02 (1).json",
         "cookies": [
           {
             "name": "_fbp",
@@ -24001,7 +24001,7 @@
         "sourceUrl": "https://www.epidemicsound.com/music/featured/"
       },
       {
-        "name": "Epidemic Sound 2",
+        "name": "epidemicsound.com_music_featured_2025-11-02 (2).json",
         "cookies": [
           {
             "name": "_fbp",
@@ -24490,7 +24490,7 @@
         "sourceUrl": "https://www.epidemicsound.com/music/featured/"
       },
       {
-        "name": "Epidemic Sound 3",
+        "name": "epidemicsound.com_music_featured_2025-11-02 (3).json",
         "cookies": [
           {
             "name": "_fbp",
@@ -24979,7 +24979,7 @@
         "sourceUrl": "https://www.epidemicsound.com/music/featured/"
       },
       {
-        "name": "Epidemic Sound 4",
+        "name": "epidemicsound.com_music_featured_2025-11-02 (4).json",
         "cookies": [
           {
             "name": "_fbp",
@@ -25468,7 +25468,7 @@
         "sourceUrl": "https://www.epidemicsound.com/music/featured/"
       },
       {
-        "name": "Epidemic Sound 5",
+        "name": "epidemicsound.com_music_featured_2025-11-02.json",
         "cookies": [
           {
             "name": "_fbp",
@@ -25943,7 +25943,7 @@
       "id": "everand-1029",
       "name": "Everand",
       "icon": "https://play-lh.googleusercontent.com/i6RqZKwmmgvCq8FGoGewoEDWYq8Q2ghi8gUnWLBlPHmYCyRM4bl39YZTAoHu7mzU8vN7",
-      "url": "https://www.everand.com/home",
+      "url": "https://www.everand.com",
       "category": "music"
     },
     "cookies": [
@@ -26239,7 +26239,7 @@
       "id": "figma-1030",
       "name": "Figma",
       "icon": "https://play-lh.googleusercontent.com/hoVBnPBRehmXsCqESLXRH2E3OTxklkwKZlb1psn7imm0VUSobn2nevS9RRFWb9GM4-o",
-      "url": "https://www.figma.com/files/team/1560676200091399701/recents-and-sharing?fuid=1561637155941475997",
+      "url": "https://www.figma.com",
       "category": "design"
     },
     "cookies": [
@@ -26515,13 +26515,13 @@
       "id": "flaticon-1031",
       "name": "Flaticon",
       "icon": "https://groupy.id/assets/images/services/flaticon.png",
-      "url": "https://www.flaticon.com/profile/me",
+      "url": "https://www.flaticon.com",
       "category": "design",
       "isGroup": true
     },
     "accounts": [
       {
-        "name": "Flaticon 1",
+        "name": "flaticon.com_profile_me_2025-11-02 (1).json",
         "cookies": [
           {
             "name": "_ga",
@@ -26799,7 +26799,7 @@
         "sourceUrl": "https://www.flaticon.com/profile/me"
       },
       {
-        "name": "Flaticon 2",
+        "name": "flaticon.com_profile_me_2025-11-02.json",
         "cookies": [
           {
             "name": "_ga",
@@ -27063,7 +27063,7 @@
       "id": "freepik-group-id",
       "name": "Freepik",
       "icon": "https://groupy.id/assets/images/services/freepik.png",
-      "url": "https://www.freepik.com/user/my-subscriptions",
+      "url": "https://www.freepik.com",
       "category": "design"
     },
     "cookies": [
@@ -27268,7 +27268,7 @@
       "id": "gamma-1032",
       "name": "Gamma",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRM9dtIK5wd1yJAH0qg6ytSsgMzrNx-cvlK78QZqzzTejsr0qtC9Kgj_i1&s=10",
-      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Gamma&login=milikgpy@belajaar.id&password=JanganLupPerpanjangGroupy2025!&url=https://gamma.app/signin",
+      "url": "https://gamma.app",
       "category": "productivity"
     },
     "cookies": [
@@ -27288,13 +27288,13 @@
       "id": "grammarly-1003",
       "name": "Grammarly",
       "icon": "https://groupy.id/assets/images/services/grammarly.png",
-      "url": "https://app.grammarly.com/",
+      "url": "https://www.grammarly.com",
       "category": "productivity",
       "isGroup": true
     },
     "accounts": [
       {
-        "name": "Grammarly 1",
+        "name": "app.grammarly.com_2025-11-02 (1).json",
         "cookies": [
           {
             "name": "__podscribe_did",
@@ -27636,7 +27636,7 @@
         "sourceUrl": "https://app.grammarly.com/"
       },
       {
-        "name": "Grammarly 2",
+        "name": "app.grammarly.com_2025-11-02.json",
         "cookies": [
           {
             "name": "__podscribe_did",
@@ -27934,7 +27934,7 @@
       "id": "guitartricks-1033",
       "name": "GuitarTricks",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlrIfBbD7fof4ZwKxkeWgU0t2u1lK7x_nPrA&s",
-      "url": "https://www.guitartricks.com/home",
+      "url": "https://www.guitartricks.com",
       "category": "productivity"
     },
     "cookies": [
@@ -28280,7 +28280,7 @@
       "id": "hbo-max-1034",
       "name": "HBO Max",
       "icon": "https://play-lh.googleusercontent.com/bvyVXgpxu65YO3PNeVhNM9Y7ao7g7FnnKdoNXcwqO48aOlVvnH_b2O9rcZzgEFHzHtI",
-      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=HBO%20Max&login=maxmilikgroupy2@tokito.xyz&password=gpyt}89.6P`ENF0;^,qNQ-21hH5MXX!&url=https://play.max.com/",
+      "url": "https://www.hbo.com",
       "category": "streaming",
       "isGroup": true
     },
@@ -28320,7 +28320,7 @@
       "id": "iflix-1038",
       "name": "iflix",
       "icon": "https://play-lh.googleusercontent.com/_j_9jVM50j43oII8sejBsK4DkHXxFw_MYUQOcHNjgX7SgJMQiLUsa8BuKWGK_84H_OE",
-      "url": "https://www.iflix.com/en",
+      "url": "https://www.iflix.com",
       "category": "streaming"
     },
     "cookies": [
@@ -28700,7 +28700,7 @@
       "id": "iloveimg-1039",
       "name": "iLoveIMG",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVjyJOS7PN-2Xh37-pXo0aOghZLt45Fa2UBw&s",
-      "url": "https://www.iloveimg.com/",
+      "url": "https://www.iloveimg.com",
       "category": "utilities"
     },
     "cookies": [
@@ -28862,7 +28862,7 @@
       "id": "ilovepdf-1040",
       "name": "iLovePDF",
       "icon": "https://play-lh.googleusercontent.com/I5yxs1Pspu1rB3NPfqnoX2NscvfzAW7e3Zq5GGhXcr2g207X9-npiuP48Ys7107M1VvA",
-      "url": "https://www.ilovepdf.com/",
+      "url": "https://www.ilovepdf.com",
       "category": "utilities"
     },
     "cookies": [
@@ -29015,13 +29015,13 @@
       "id": "iqiyi-1042",
       "name": "iQIYI",
       "icon": "https://groupy.id/assets/images/services/iqiyi.png",
-      "url": "https://www.iq.com/",
+      "url": "https://www.iq.com",
       "category": "streaming",
       "isGroup": true
     },
     "accounts": [
       {
-        "name": "iQIYI 1",
+        "name": "iq.com_2025-11-02 (1).json",
         "cookies": [
           {
             "name": "__dfp",
@@ -29360,7 +29360,7 @@
         "sourceUrl": "https://www.iq.com/"
       },
       {
-        "name": "iQIYI 2",
+        "name": "iq.com_2025-11-02.json",
         "cookies": [
           {
             "name": "__dfp",
@@ -29705,7 +29705,7 @@
       "id": "linkedin-learning-1044",
       "name": "LinkedIn Learning",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4fcdsIUPUgmbvGaP-RC4RbHYdVtoN_fM8aya_8gOXI2BRtClESO-0_jgWTtKtIVmOQKs&usqp=CAU",
-      "url": "https://www.linkedin.com/learning/?u=73723940",
+      "url": "https://www.linkedin.com/learning",
       "category": "education"
     },
     "cookies": [
@@ -29977,7 +29977,7 @@
       "id": "marvel-unlimited-1045",
       "name": "Marvel Unlimited",
       "icon": "https://play-lh.googleusercontent.com/ikcy-XJG8_oFwVztH9vK3y--_mUcRu5zyco7d4FqugxzSkX9wMo63oBDPLWZnUsYDg",
-      "url": "https://www.marvel.com/comics/unlimited/home",
+      "url": "https://www.marvel.com/unlimited",
       "category": "utilities"
     },
     "cookies": [
@@ -30254,7 +30254,7 @@
       "id": "masterclass-1046",
       "name": "MasterClass",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeoBuunz4xK_-2t35N6astSudIfb7Bnr0R6HDcwoqbzmzOcuNpiZdiRFRv&s=10",
-      "url": "https://www.masterclass.com/profiles",
+      "url": "https://www.masterclass.com",
       "category": "education"
     },
     "cookies": [
@@ -30664,7 +30664,7 @@
       "id": "medium-1047",
       "name": "Medium",
       "icon": "https://miro.medium.com/v2/resize:fill:128:128/1*sHhtYhaCe2Uc3IU0IgKwIQ.png",
-      "url": "https://medium.com/",
+      "url": "https://medium.com",
       "category": "education"
     },
     "cookies": [
@@ -30744,7 +30744,7 @@
       "id": "mermaidchart-1048",
       "name": "Mermaidchart",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPMgbHVXJCw0zQzk3DtR607-823YIxR1Zi_Q&s",
-      "url": "https://www.mermaidchart.com/app/dashboard",
+      "url": "https://mermaidchart.com",
       "category": "productivity"
     },
     "cookies": [
@@ -30922,7 +30922,7 @@
       "id": "mimo-1049",
       "name": "Mimo",
       "icon": "https://play-lh.googleusercontent.com/qPfmmEDFhGVmIXIKpmfbQeH6vXygXotzj6ied-j2el0YIB36fApN32XoVDrGoMQZ11Q",
-      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Mimo&login=mimo@bahrudin.xyz&password=OnlyGroupy888~&url=https://mimo.org/web/login",
+      "url": "https://mimo.org",
       "category": "productivity"
     },
     "cookies": [
@@ -30942,7 +30942,7 @@
       "id": "motion-array-1050",
       "name": "Motion Array",
       "icon": "https://s3-eu-west-1.amazonaws.com/tpd/logos/5b1e60b2b50df6000112eb83/0x0.png",
-      "url": "https://motionarray.com/account/downloads/",
+      "url": "https://motionarray.com",
       "category": "design"
     },
     "cookies": [
@@ -31288,7 +31288,7 @@
       "id": "mubi-1051",
       "name": "Mubi",
       "icon": "https://images.mubicdn.net/images/avatars/169655/cache-169655-1620041787/images-large.png?size=800x",
-      "url": "https://mubi.com/en/id/showing",
+      "url": "https://mubi.com",
       "category": "streaming"
     },
     "cookies": [
@@ -31641,7 +31641,7 @@
       "id": "musicbed-1053",
       "name": "Musicbed",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMRzHPEXnSURkOyU9StcI8BZPOTeqzvcJP_A&s",
-      "url": "https://www.musicbed.com/songs",
+      "url": "https://www.musicbed.com",
       "category": "music"
     },
     "cookies": [
@@ -31806,13 +31806,13 @@
       "id": "netflix-1055",
       "name": "Netflix",
       "icon": "https://groupy.id/assets/images/services/netflix.png",
-      "url": "https://www.netflix.com/browse",
+      "url": "https://www.netflix.com",
       "category": "streaming",
       "isGroup": true
     },
     "accounts": [
       {
-        "name": "Netflix 1",
+        "name": "netflix.com_browse_2025-10-19 (1).json",
         "cookies": [
           {
             "name": "dsca",
@@ -31907,7 +31907,7 @@
         "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix 2",
+        "name": "netflix.com_browse_2025-10-19 (2).json",
         "cookies": [
           {
             "name": "dsca",
@@ -32002,7 +32002,7 @@
         "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix 3",
+        "name": "netflix.com_browse_2025-10-19 (3).json",
         "cookies": [
           {
             "name": "dsca",
@@ -32097,7 +32097,7 @@
         "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix 4",
+        "name": "netflix.com_browse_2025-10-19 (4).json",
         "cookies": [
           {
             "name": "dsca",
@@ -32192,7 +32192,7 @@
         "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix 5",
+        "name": "netflix.com_browse_2025-10-19 (5).json",
         "cookies": [
           {
             "name": "dsca",
@@ -32287,7 +32287,7 @@
         "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix 6",
+        "name": "netflix.com_browse_2025-10-19 (6).json",
         "cookies": [
           {
             "name": "dsca",
@@ -32382,7 +32382,7 @@
         "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix 7",
+        "name": "netflix.com_browse_2025-10-19 (7).json",
         "cookies": [
           {
             "name": "dsca",
@@ -32477,7 +32477,7 @@
         "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix 8",
+        "name": "netflix.com_browse_2025-10-19 (8).json",
         "cookies": [
           {
             "name": "dsca",
@@ -32572,7 +32572,7 @@
         "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix 9",
+        "name": "netflix.com_browse_2025-10-19 (9).json",
         "cookies": [
           {
             "name": "dsca",
@@ -32667,7 +32667,7 @@
         "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix 10",
+        "name": "netflix.com_browse_2025-10-19 (10).json",
         "cookies": [
           {
             "name": "dsca",
@@ -32762,7 +32762,7 @@
         "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix 11",
+        "name": "netflix.com_browse_2025-10-19 (11).json",
         "cookies": [
           {
             "name": "dsca",
@@ -32857,7 +32857,7 @@
         "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix 12",
+        "name": "netflix.com_browse_2025-10-19 (12).json",
         "cookies": [
           {
             "name": "dsca",
@@ -32952,7 +32952,7 @@
         "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix 13",
+        "name": "netflix.com_browse_2025-10-19 (13).json",
         "cookies": [
           {
             "name": "dsca",
@@ -33047,7 +33047,7 @@
         "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix 14",
+        "name": "netflix.com_browse_2025-10-19 (14).json",
         "cookies": [
           {
             "name": "dsca",
@@ -33142,7 +33142,7 @@
         "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix 15",
+        "name": "netflix.com_browse_2025-10-19 (15).json",
         "cookies": [
           {
             "name": "dsca",
@@ -33237,7 +33237,7 @@
         "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix 16",
+        "name": "netflix.com_browse_2025-10-19 (16).json",
         "cookies": [
           {
             "name": "dsca",
@@ -33332,7 +33332,7 @@
         "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix 17",
+        "name": "netflix.com_browse_2025-10-19 (17).json",
         "cookies": [
           {
             "name": "dsca",
@@ -33427,7 +33427,7 @@
         "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix 18",
+        "name": "netflix.com_browse_2025-10-19 (18).json",
         "cookies": [
           {
             "name": "dsca",
@@ -33502,7 +33502,7 @@
         "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix 19",
+        "name": "netflix.com_browse_2025-10-19 (19).json",
         "cookies": [
           {
             "name": "dsca",
@@ -33597,7 +33597,7 @@
         "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix 20",
+        "name": "netflix.com_browse_2025-10-19 (20).json",
         "cookies": [
           {
             "name": "dsca",
@@ -33692,7 +33692,7 @@
         "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix 21",
+        "name": "netflix.com_browse_2025-10-19 (21).json",
         "cookies": [
           {
             "name": "dsca",
@@ -33787,7 +33787,7 @@
         "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix 22",
+        "name": "netflix.com_browse_2025-10-19 (22).json",
         "cookies": [
           {
             "name": "dsca",
@@ -33891,7 +33891,7 @@
         "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix 23",
+        "name": "netflix.com_browse_2025-10-19 (23).json",
         "cookies": [
           {
             "name": "dsca",
@@ -33986,7 +33986,7 @@
         "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix 24",
+        "name": "netflix.com_browse_2025-10-19 (24).json",
         "cookies": [
           {
             "name": "dsca",
@@ -34081,7 +34081,7 @@
         "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix 25",
+        "name": "netflix.com_browse_2025-10-19 (25).json",
         "cookies": [
           {
             "name": "dsca",
@@ -34166,7 +34166,7 @@
         "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix 26",
+        "name": "netflix.com_browse_2025-10-19 (26).json",
         "cookies": [
           {
             "name": "dsca",
@@ -34261,7 +34261,7 @@
         "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix 27",
+        "name": "netflix.com_browse_2025-10-19 (27).json",
         "cookies": [
           {
             "name": "dsca",
@@ -34356,7 +34356,7 @@
         "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix 28",
+        "name": "netflix.com_browse_2025-10-19 (28).json",
         "cookies": [
           {
             "name": "dsca",
@@ -34451,7 +34451,7 @@
         "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix 29",
+        "name": "netflix.com_browse_2025-10-19 (29).json",
         "cookies": [
           {
             "name": "dsca",
@@ -34546,7 +34546,7 @@
         "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix 30",
+        "name": "netflix.com_browse_2025-10-19 (30).json",
         "cookies": [
           {
             "name": "dsca",
@@ -34641,7 +34641,7 @@
         "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix 31",
+        "name": "netflix.com_browse_2025-10-19 (31).json",
         "cookies": [
           {
             "name": "dsca",
@@ -34736,7 +34736,7 @@
         "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix 32",
+        "name": "netflix.com_browse_2025-10-19 (32).json",
         "cookies": [
           {
             "name": "dsca",
@@ -34831,7 +34831,7 @@
         "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix 33",
+        "name": "netflix.com_browse_2025-10-19 (33).json",
         "cookies": [
           {
             "name": "dsca",
@@ -34926,7 +34926,7 @@
         "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix 34",
+        "name": "netflix.com_browse_2025-10-19 (34).json",
         "cookies": [
           {
             "name": "dsca",
@@ -35021,7 +35021,7 @@
         "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix 35",
+        "name": "netflix.com_browse_2025-10-19 (35).json",
         "cookies": [
           {
             "name": "dsca",
@@ -35116,7 +35116,7 @@
         "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix 36",
+        "name": "netflix.com_browse_2025-10-19 (36).json",
         "cookies": [
           {
             "name": "dsca",
@@ -35211,7 +35211,7 @@
         "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix 37",
+        "name": "netflix.com_browse_2025-10-19 (37).json",
         "cookies": [
           {
             "name": "dsca",
@@ -35306,7 +35306,7 @@
         "sourceUrl": "https://www.netflix.com/browse"
       },
       {
-        "name": "Netflix 38",
+        "name": "netflix.com_browse_2025-10-19.json",
         "cookies": [
           {
             "name": "gsid",
@@ -35397,13 +35397,13 @@
       "id": "notegpt-1056",
       "name": "NoteGPT",
       "icon": "https://10web.io/wp-content/uploads/2024/08/NoteGPT_logo.jpg",
-      "url": "https://notegpt.io/workspace/home",
+      "url": "https://notegpt.io",
       "category": "productivity",
       "isGroup": true
     },
     "accounts": [
       {
-        "name": "NoteGPT 1",
+        "name": "notegpt.io_workspace_home_2025-10-26.json",
         "cookies": [
           {
             "name": "_ga",
@@ -35533,7 +35533,7 @@
         "sourceUrl": "https://notegpt.io/workspace/home"
       },
       {
-        "name": "NoteGPT 2",
+        "name": "notegpt.io_workspace_home_2025-11-02.json",
         "cookies": [
           {
             "name": "_ga",
@@ -35672,7 +35672,7 @@
       "id": "notion-1057",
       "name": "Notion",
       "icon": "https://play-lh.googleusercontent.com/vy-9s86d-81wk1acsXvAxN1xV5Y-doJdgbskG3GonOerbUwUtvNXk_XSRHoraaXZcX4",
-      "url": "https://www.notion.so/Groupy-d01df0db902a828989ae01f13a61d8f1",
+      "url": "https://www.notion.so",
       "category": "productivity"
     },
     "cookies": [
@@ -35901,7 +35901,7 @@
       "id": "pacdora-1058",
       "name": "Pacdora",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9l1bvE2alHZrnR4bmSsbK2KjHemNk_p4Dsf-GVh6-5hFtZgugYYNfQfo0L3CQxZqdLC4&usqp=CAU",
-      "url": "https://www.pacdora.com/my-design",
+      "url": "https://www.pacdora.com",
       "category": "design"
     },
     "cookies": [
@@ -36122,13 +36122,13 @@
       "id": "perplexity-group-id",
       "name": "Perplexity",
       "icon": "https://play-lh.googleusercontent.com/6STp0lYx2ctvQ-JZpXA1LeAAZIlq6qN9gpy7swLPlRhmp-hfvZePcBxqwVkqN2BH1g",
-      "url": "https://www.perplexity.ai/",
+      "url": "https://www.perplexity.ai",
       "category": "productivity",
       "isGroup": true
     },
     "accounts": [
       {
-        "name": "Perplexity 1",
+        "name": "perplexity.ai_2025-11-02.json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -36399,7 +36399,7 @@
         "sourceUrl": "https://www.perplexity.ai/"
       },
       {
-        "name": "Perplexity 2",
+        "name": "perplexity.ai_account_details_2025-11-02 (1).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -36670,7 +36670,7 @@
         "sourceUrl": "https://www.perplexity.ai/account/details"
       },
       {
-        "name": "Perplexity 3",
+        "name": "perplexity.ai_account_details_2025-11-02.json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -36947,7 +36947,7 @@
       "id": "picsart-1059",
       "name": "Picsart",
       "icon": "https://play-lh.googleusercontent.com/1JMJ518jogwPeaD0pYn2mBu1cRLD0xRi45wNbtTIRvam1_xx-y3KJOjRAx-W9P4Lf0U=s256-rw",
-      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Picsart&login=btsyt@wareyk.com&password=Premium@123&url=https://picsart.com/",
+      "url": "https://picsart.com",
       "category": "design",
       "isGroup": true
     },
@@ -37001,7 +37001,7 @@
       "id": "prezi-ai-1060",
       "name": "Prezi AI",
       "icon": "https://play-lh.googleusercontent.com/3rVZ7Lc7-bxsALDo0nWOcuojR9ISxlhO20KnVM3uP00drxIXXt7ATM0V5-YjfM0pPtA",
-      "url": "https://prezi.com/dashboard/next/",
+      "url": "https://prezi.com",
       "category": "productivity"
     },
     "cookies": [
@@ -37365,13 +37365,13 @@
       "id": "prime-video-group-id",
       "name": "Prime Video",
       "icon": "https://groupy.id/assets/images/services/primevideo.png",
-      "url": "https://www.primevideo.com/region/eu/",
+      "url": "https://www.primevideo.com",
       "category": "streaming",
       "isGroup": true
     },
     "accounts": [
       {
-        "name": "Prime Video 1",
+        "name": "primevideo.com_region_eu_2025-10-19 (1).json",
         "cookies": [
           {
             "name": "at-main-av",
@@ -37507,7 +37507,7 @@
         "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "Prime Video 2",
+        "name": "primevideo.com_region_eu_2025-10-19 (2).json",
         "cookies": [
           {
             "name": "at-main-av",
@@ -37633,7 +37633,7 @@
         "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "Prime Video 3",
+        "name": "primevideo.com_region_eu_2025-10-19 (3).json",
         "cookies": [
           {
             "name": "at-main-av",
@@ -37759,7 +37759,7 @@
         "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "Prime Video 4",
+        "name": "primevideo.com_region_eu_2025-10-19 (4).json",
         "cookies": [
           {
             "name": "at-main-av",
@@ -37885,7 +37885,7 @@
         "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "Prime Video 5",
+        "name": "primevideo.com_region_eu_2025-10-19 (5).json",
         "cookies": [
           {
             "name": "at-main-av",
@@ -38011,7 +38011,7 @@
         "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "Prime Video 6",
+        "name": "primevideo.com_region_eu_2025-10-19 (6).json",
         "cookies": [
           {
             "name": "at-main-av",
@@ -38137,7 +38137,7 @@
         "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "Prime Video 7",
+        "name": "primevideo.com_region_eu_2025-10-19 (7).json",
         "cookies": [
           {
             "name": "at-main-av",
@@ -38263,7 +38263,7 @@
         "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "Prime Video 8",
+        "name": "primevideo.com_region_eu_2025-10-19 (8).json",
         "cookies": [
           {
             "name": "at-main-av",
@@ -38389,7 +38389,7 @@
         "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "Prime Video 9",
+        "name": "primevideo.com_region_eu_2025-10-19 (9).json",
         "cookies": [
           {
             "name": "at-main-av",
@@ -38515,7 +38515,7 @@
         "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "Prime Video 10",
+        "name": "primevideo.com_region_eu_2025-10-19 (10).json",
         "cookies": [
           {
             "name": "at-main-av",
@@ -38651,7 +38651,7 @@
         "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "Prime Video 11",
+        "name": "primevideo.com_region_eu_2025-10-19 (11).json",
         "cookies": [
           {
             "name": "at-main-av",
@@ -38787,7 +38787,7 @@
         "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "Prime Video 12",
+        "name": "primevideo.com_region_eu_2025-10-19 (12).json",
         "cookies": [
           {
             "name": "at-main-av",
@@ -38923,7 +38923,7 @@
         "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "Prime Video 13",
+        "name": "primevideo.com_region_eu_2025-10-19 (13).json",
         "cookies": [
           {
             "name": "at-main-av",
@@ -39059,7 +39059,7 @@
         "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "Prime Video 14",
+        "name": "primevideo.com_region_eu_2025-10-19 (14).json",
         "cookies": [
           {
             "name": "at-main-av",
@@ -39195,7 +39195,7 @@
         "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "Prime Video 15",
+        "name": "primevideo.com_region_eu_2025-10-19 (15).json",
         "cookies": [
           {
             "name": "at-main-av",
@@ -39331,7 +39331,7 @@
         "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "Prime Video 16",
+        "name": "primevideo.com_region_eu_2025-10-19 (16).json",
         "cookies": [
           {
             "name": "at-main-av",
@@ -39467,7 +39467,7 @@
         "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "Prime Video 17",
+        "name": "primevideo.com_region_eu_2025-10-19 (17).json",
         "cookies": [
           {
             "name": "at-main-av",
@@ -39603,7 +39603,7 @@
         "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "Prime Video 18",
+        "name": "primevideo.com_region_eu_2025-10-19 (18).json",
         "cookies": [
           {
             "name": "at-main-av",
@@ -39739,7 +39739,7 @@
         "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "Prime Video 19",
+        "name": "primevideo.com_region_eu_2025-10-19 (19).json",
         "cookies": [
           {
             "name": "at-main-av",
@@ -39875,7 +39875,7 @@
         "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "Prime Video 20",
+        "name": "primevideo.com_region_eu_2025-10-19 (20).json",
         "cookies": [
           {
             "name": "at-main-av",
@@ -40011,7 +40011,7 @@
         "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "Prime Video 21",
+        "name": "primevideo.com_region_eu_2025-10-19 (21).json",
         "cookies": [
           {
             "name": "at-main-av",
@@ -40147,7 +40147,7 @@
         "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "Prime Video 22",
+        "name": "primevideo.com_region_eu_2025-10-19 (22).json",
         "cookies": [
           {
             "name": "at-main-av",
@@ -40283,7 +40283,7 @@
         "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "Prime Video 23",
+        "name": "primevideo.com_region_eu_2025-10-19 (23).json",
         "cookies": [
           {
             "name": "at-main-av",
@@ -40419,7 +40419,7 @@
         "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "Prime Video 24",
+        "name": "primevideo.com_region_eu_2025-10-19 (24).json",
         "cookies": [
           {
             "name": "at-main-av",
@@ -40555,7 +40555,7 @@
         "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "Prime Video 25",
+        "name": "primevideo.com_region_eu_2025-10-19 (25).json",
         "cookies": [
           {
             "name": "at-main-av",
@@ -40691,7 +40691,7 @@
         "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "Prime Video 26",
+        "name": "primevideo.com_region_eu_2025-10-19 (26).json",
         "cookies": [
           {
             "name": "at-main-av",
@@ -40827,7 +40827,7 @@
         "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "Prime Video 27",
+        "name": "primevideo.com_region_eu_2025-10-19 (27).json",
         "cookies": [
           {
             "name": "at-main-av",
@@ -40963,7 +40963,7 @@
         "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "Prime Video 28",
+        "name": "primevideo.com_region_eu_2025-10-19 (28).json",
         "cookies": [
           {
             "name": "at-main-av",
@@ -41099,7 +41099,7 @@
         "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "Prime Video 29",
+        "name": "primevideo.com_region_eu_2025-10-19 (29).json",
         "cookies": [
           {
             "name": "at-main-av",
@@ -41235,7 +41235,7 @@
         "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "Prime Video 30",
+        "name": "primevideo.com_region_eu_2025-10-19.json",
         "cookies": [
           {
             "name": "at-main-av",
@@ -41351,7 +41351,7 @@
         "sourceUrl": "https://www.primevideo.com/region/eu/"
       },
       {
-        "name": "Prime Video 31",
+        "name": "primevideo.com_region_eu_storefront_2025-10-29.json",
         "cookies": [
           {
             "name": "at-main-av",
@@ -41483,7 +41483,7 @@
       "id": "productioncrate-1061",
       "name": "ProductionCrate",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd_sbW5wMx4hP2Y8wrJkjxjlSbrpy5f1Zgbw&s",
-      "url": "https://www.productioncrate.com/",
+      "url": "https://www.productioncrate.com",
       "category": "design"
     },
     "cookies": [
@@ -41595,7 +41595,7 @@
       "id": "quizlet-1062",
       "name": "Quizlet",
       "icon": "https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/szx9duflfycmltpnvcvw",
-      "url": "https://quizlet.com/latest",
+      "url": "https://quizlet.com",
       "category": "education"
     },
     "cookies": [
@@ -42026,7 +42026,7 @@
       "id": "rawpixel-1063",
       "name": "Rawpixel",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq1xJnAZa_h6WueAi4mr73cH3K7_pGeTz6Gw&s",
-      "url": "https://www.rawpixel.com/",
+      "url": "https://www.rawpixel.com",
       "category": "design"
     },
     "cookies": [
@@ -42098,7 +42098,7 @@
       "id": "relume-1064",
       "name": "Relume",
       "icon": "https://yt3.googleusercontent.com/MGRbvVhtCttJ7i2qW3igFxIJSkeoaRln_mIAFAfDgZIFD1yNUQC5mn1a5VqXKzcqRmAuDswu=s900-c-k-c0x00ffffff-no-rj",
-      "url": "https://www.relume.io/",
+      "url": "https://www.relume.io",
       "category": "design"
     },
     "cookies": [
@@ -42259,7 +42259,7 @@
       "id": "scholarcy-1043",
       "name": "Scholarcy",
       "icon": "https://yt3.googleusercontent.com/ytc/AIdro_kqv2zcFC4lZDK0qSXEbuI1Kcs5wYJoLmONwCf9QX3Qoc4=s900-c-k-c0x00ffffff-no-rj",
-      "url": "https://library.scholarcy.com/home",
+      "url": "https://www.scholarcy.com",
       "category": "education"
     },
     "cookies": [
@@ -42381,13 +42381,13 @@
       "id": "scite-1065",
       "name": "Scite",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHo4BcTYbuMiQFR7oUYKZy6zjOgzEORDrzeie96OS1sj3Ur0LpoCPV_ts&s=10",
-      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Scite&login=sct@tokito.xyz&password=Sc1teGroupy%&url=https://scite.ai/assistant",
+      "url": "https://scite.ai",
       "category": "productivity",
       "isGroup": true
     },
     "accounts": [
       {
-        "name": "Scite 1",
+        "name": "Scite 1 ",
         "cookies": [
           {
             "name": "dummy",
@@ -42449,13 +42449,13 @@
       "id": "scribd-1066",
       "name": "Scribd",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRebq-8lrzgXjVWMvUDApp_q1MhiL5eSyO15VAHMuNaE4RbrPi-f7c2NMc&s=10",
-      "url": "https://www.scribd.com/home",
+      "url": "https://www.scribd.com",
       "category": "utilities",
       "isGroup": true
     },
     "accounts": [
       {
-        "name": "Scribd 1",
+        "name": "scribd.com_home_2025-11-02 (1).json",
         "cookies": [
           {
             "name": "__ssid",
@@ -42871,7 +42871,7 @@
         "sourceUrl": "https://www.scribd.com/home"
       },
       {
-        "name": "Scribd 2",
+        "name": "scribd.com_home_2025-11-02 (2).json",
         "cookies": [
           {
             "name": "__CJ_LEARN_MORE_FLASH_SHOWN",
@@ -43296,7 +43296,7 @@
         "sourceUrl": "https://www.scribd.com/home"
       },
       {
-        "name": "Scribd 3",
+        "name": "scribd.com_home_2025-11-02 (3).json",
         "cookies": [
           {
             "name": "__CJ_LEARN_MORE_FLASH_SHOWN",
@@ -43721,7 +43721,7 @@
         "sourceUrl": "https://www.scribd.com/home"
       },
       {
-        "name": "Scribd 4",
+        "name": "scribd.com_home_2025-11-02.json",
         "cookies": [
           {
             "name": "__ssid",
@@ -44134,7 +44134,7 @@
       "id": "semrush-1067",
       "name": "Semrush",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7TPtYsfoyLxuSORs6sqgApBGYHOx1aZ43ra1DqBNb8BRYz4ciWF4Mg9uR&s=10",
-      "url": "https://www.semrush.com/projects/",
+      "url": "https://www.semrush.com",
       "category": "utilities"
     },
     "cookies": [
@@ -44511,7 +44511,7 @@
       "id": "sider-ai-1068",
       "name": "Sider AI",
       "icon": "https://play-lh.googleusercontent.com/VghuZRn0-oLvbaGqptsM-9Qr6Ka7Pmw7lfmu6_UQ56mZS6bsXbET9Uf0wF0FECP8lEM",
-      "url": "https://sider.ai/chat",
+      "url": "https://sider.ai",
       "category": "productivity"
     },
     "cookies": [
@@ -44798,7 +44798,7 @@
       "id": "skillshare-1069",
       "name": "Skillshare",
       "icon": "https://groupy.id/assets/images/services/skillshare.png",
-      "url": "https://www.skillshare.com/en/home",
+      "url": "https://www.skillshare.com",
       "category": "education"
     },
     "cookies": [
@@ -45200,13 +45200,13 @@
       "id": "slidesgo-1070",
       "name": "Slidesgo",
       "icon": "https://cdn-icons-png.flaticon.com/512/14649/14649063.png",
-      "url": "https://slidesgo.com/profile/downloads",
+      "url": "https://slidesgo.com",
       "category": "design",
       "isGroup": true
     },
     "accounts": [
       {
-        "name": "Slidesgo 1",
+        "name": "slidesgo.com_profile_downloads_2025-11-02 (1).json",
         "cookies": [
           {
             "name": "_gcl_au",
@@ -45381,7 +45381,7 @@
         "sourceUrl": "https://slidesgo.com/profile/downloads"
       },
       {
-        "name": "Slidesgo 2",
+        "name": "slidesgo.com_profile_downloads_2025-11-02 (2).json",
         "cookies": [
           {
             "name": "_gcl_au",
@@ -45565,7 +45565,7 @@
         "sourceUrl": "https://slidesgo.com/profile/downloads"
       },
       {
-        "name": "Slidesgo 3",
+        "name": "slidesgo.com_profile_downloads_2025-11-02 (3).json",
         "cookies": [
           {
             "name": "_gcl_au",
@@ -45740,7 +45740,7 @@
         "sourceUrl": "https://slidesgo.com/profile/downloads"
       },
       {
-        "name": "Slidesgo 4",
+        "name": "slidesgo.com_profile_downloads_2025-11-02.json",
         "cookies": [
           {
             "name": "_gcl_au",
@@ -45921,7 +45921,7 @@
       "id": "slideshare-1071",
       "name": "Slideshare",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFu2smlszvneX1otpsXxgwhKyPha7Boi8VJg&s",
-      "url": "https://www.slideshare.net/",
+      "url": "https://www.slideshare.net",
       "category": "productivity"
     },
     "cookies": [
@@ -46119,7 +46119,7 @@
       "id": "sololearn-1072",
       "name": "Sololearn",
       "icon": "https://play-lh.googleusercontent.com/zxbe_H6JVg6ZnIeA1xorxxXr416kKdShmyonBzi5Qe28-GNdczX-NST_ul0AQJ007OA",
-      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Sololearn&login=sololearn@belajaar.id&password=WeAreGroupy2025!&url=https://www.sololearn.com/en/users/login",
+      "url": "https://www.sololearn.com",
       "category": "education"
     },
     "cookies": [
@@ -46138,14 +46138,14 @@
     "meta": {
       "id": "sora-1073",
       "name": "Sora",
-      "icon": "https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/sora-color.png",
-      "url": "https://sora.chatgpt.com/explore",
+      "icon": "https://groupy.id/assets/images/services/sora_plus.png",
+      "url": "https://sora.chatgpt.com",
       "category": "productivity",
       "isGroup": true
     },
     "accounts": [
       {
-        "name": "Sora 1",
+        "name": "sora.chatgpt.com_explore_2025-10-20 (1).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -46394,7 +46394,7 @@
         "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora 2",
+        "name": "sora.chatgpt.com_explore_2025-10-20 (2).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -46653,7 +46653,7 @@
         "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora 3",
+        "name": "sora.chatgpt.com_explore_2025-10-20 (3).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -46912,7 +46912,7 @@
         "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora 4",
+        "name": "sora.chatgpt.com_explore_2025-10-20 (4).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -47171,7 +47171,7 @@
         "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora 5",
+        "name": "sora.chatgpt.com_explore_2025-10-20 (5).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -47430,7 +47430,7 @@
         "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora 6",
+        "name": "sora.chatgpt.com_explore_2025-10-20 (6).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -47689,7 +47689,7 @@
         "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora 7",
+        "name": "sora.chatgpt.com_explore_2025-10-20 (7).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -47948,7 +47948,7 @@
         "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora 8",
+        "name": "sora.chatgpt.com_explore_2025-10-20 (8).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -48207,7 +48207,7 @@
         "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora 9",
+        "name": "sora.chatgpt.com_explore_2025-10-20 (9).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -48466,7 +48466,7 @@
         "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora 10",
+        "name": "sora.chatgpt.com_explore_2025-10-20 (10).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -48725,7 +48725,7 @@
         "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora 11",
+        "name": "sora.chatgpt.com_explore_2025-10-20 (11).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -48984,7 +48984,7 @@
         "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora 12",
+        "name": "sora.chatgpt.com_explore_2025-10-20 (12).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -49243,7 +49243,7 @@
         "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora 13",
+        "name": "sora.chatgpt.com_explore_2025-10-20 (13).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -49502,7 +49502,7 @@
         "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora 14",
+        "name": "sora.chatgpt.com_explore_2025-10-20 (14).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -49761,7 +49761,7 @@
         "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora 15",
+        "name": "sora.chatgpt.com_explore_2025-10-20 (15).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -50020,7 +50020,7 @@
         "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora 16",
+        "name": "sora.chatgpt.com_explore_2025-10-20 (16).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -50279,7 +50279,7 @@
         "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora 17",
+        "name": "sora.chatgpt.com_explore_2025-10-20 (17).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -50538,7 +50538,7 @@
         "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora 18",
+        "name": "sora.chatgpt.com_explore_2025-10-20 (18).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -50797,7 +50797,7 @@
         "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora 19",
+        "name": "sora.chatgpt.com_explore_2025-10-20 (19).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -51056,7 +51056,7 @@
         "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora 20",
+        "name": "sora.chatgpt.com_explore_2025-10-20 (20).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -51315,7 +51315,7 @@
         "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora 21",
+        "name": "sora.chatgpt.com_explore_2025-10-20 (21).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -51574,7 +51574,7 @@
         "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora 22",
+        "name": "sora.chatgpt.com_explore_2025-10-20 (22).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -51833,7 +51833,7 @@
         "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora 23",
+        "name": "sora.chatgpt.com_explore_2025-10-20 (23).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -52092,7 +52092,7 @@
         "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora 24",
+        "name": "sora.chatgpt.com_explore_2025-10-20 (24).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -52351,7 +52351,7 @@
         "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora 25",
+        "name": "sora.chatgpt.com_explore_2025-10-20 (25).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -52610,7 +52610,7 @@
         "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora 26",
+        "name": "sora.chatgpt.com_explore_2025-10-20 (26).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -52869,7 +52869,7 @@
         "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora 27",
+        "name": "sora.chatgpt.com_explore_2025-10-20 (27).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -53128,7 +53128,7 @@
         "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora 28",
+        "name": "sora.chatgpt.com_explore_2025-10-20 (28).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -53387,7 +53387,7 @@
         "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora 29",
+        "name": "sora.chatgpt.com_explore_2025-10-20 (29).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -53646,7 +53646,7 @@
         "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora 30",
+        "name": "sora.chatgpt.com_explore_2025-10-20 (30).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -53905,7 +53905,7 @@
         "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora 31",
+        "name": "sora.chatgpt.com_explore_2025-10-20 (31).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -54164,7 +54164,7 @@
         "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora 32",
+        "name": "sora.chatgpt.com_explore_2025-10-20 (32).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -54423,7 +54423,7 @@
         "sourceUrl": "https://sora.chatgpt.com/explore"
       },
       {
-        "name": "Sora 33",
+        "name": "sora.chatgpt.com_explore_2025-10-20.json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -54638,7 +54638,7 @@
       "id": "speechify-1005",
       "name": "Speechify",
       "icon": "https://play-lh.googleusercontent.com/W0GcGHbSPEA2VBf8CM-SoRG9yYS2RwxgPM9Q25MmhmU6YzJ2t8lHIAnejL0nL9LvYwMx",
-      "url": "https://app.speechify.com/",
+      "url": "https://speechify.com",
       "category": "productivity"
     },
     "cookies": [
@@ -54886,7 +54886,7 @@
       "id": "studocu-1074",
       "name": "Studocu",
       "icon": "https://play-lh.googleusercontent.com/20ssDWF3SWEXIFYy8iFwXjomuIqtuHjGc3OxIWqVojIaeo_9_XxUZEDdmm5YPreLucij",
-      "url": "https://www.studocu.com/en-us/home",
+      "url": "https://www.studocu.com",
       "category": "education"
     },
     "cookies": [
@@ -55277,7 +55277,7 @@
       "id": "svgator-1006",
       "name": "SVGator",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXMLBuRJYssEV7zT3Lh8qRl-h2zuHgyEz2HA&s",
-      "url": "https://app.svgator.com/",
+      "url": "https://svgator.com",
       "category": "design"
     },
     "cookies": [
@@ -55426,7 +55426,7 @@
       "id": "symbolab-1075",
       "name": "Symbolab",
       "icon": "https://play-lh.googleusercontent.com/DKlax_iJQtJOKJlIPDSS7DZpbm9gCkHh3vWgrj8BOMRwDPDVKXdTQf9sV4cRuXSdRA",
-      "url": "https://www.symbolab.com/",
+      "url": "https://www.symbolab.com",
       "category": "education"
     },
     "cookies": [
@@ -55620,7 +55620,7 @@
       "id": "the-wall-street-journal-1083",
       "name": "The Wall Street Journal",
       "icon": "https://play-lh.googleusercontent.com/eksxaPfxbTVb6VTl5aj1sXLpKc_N9Z6AZ3_5Oq6JhTXmgEQza-1v58a66p_ID0phE2Zv",
-      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=The%20Wall%20Street%20Journal&login=wsj@killua.cloud&password=TheWallStreetJournalGroupy2025!!!&url=https://www.wsj.com/",
+      "url": "https://www.wsj.com",
       "category": "productivity"
     },
     "cookies": [
@@ -55640,7 +55640,7 @@
       "id": "tradingview-1041",
       "name": "TradingView",
       "icon": "https://groupy.id/assets/images/services/tradingview.png",
-      "url": "https://in.tradingview.com/",
+      "url": "https://www.tradingview.com",
       "category": "utilities"
     },
     "cookies": [
@@ -55820,7 +55820,7 @@
       "id": "turnitin-1076",
       "name": "Turnitin",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIrf73LGu_mACI2Mc_jdghOV02eXRocoXKo0o3qZHFjGgJMUr5M_v8uwap&s=10",
-      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Turnitin&login=halo@belajaar.id&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us",
+      "url": "https://www.turnitin.com",
       "category": "productivity",
       "isGroup": true
     },
@@ -55888,7 +55888,7 @@
       "id": "ubersuggest-1004",
       "name": "Ubersuggest",
       "icon": "https://groupy.id/assets/images/services/ubersuggest.png",
-      "url": "https://app.neilpatel.com/en/ubersuggest/overview",
+      "url": "https://app.neilpatel.com",
       "category": "utilities"
     },
     "cookies": [
@@ -56224,13 +56224,13 @@
       "id": "udemy-1078",
       "name": "Udemy",
       "icon": "https://play-lh.googleusercontent.com/dsCkmJE2Fa8IjyXERAcwc5YeQ8_NvbZ4_OI8LgqyjILpXUfS5YhEcnAMajKPrZI-og",
-      "url": "https://www.udemy.com/personal/home/",
+      "url": "https://www.udemy.com",
       "category": "education",
       "isGroup": true
     },
     "accounts": [
       {
-        "name": "Udemy 1",
+        "name": "udemy.com_personal_home_2025-11-02 (1).json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -56795,7 +56795,7 @@
         "sourceUrl": "https://www.udemy.com/personal/home/"
       },
       {
-        "name": "Udemy 2",
+        "name": "udemy.com_personal_home_2025-11-02.json",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -57387,7 +57387,7 @@
       "id": "vectorizer-ai-1037",
       "name": "Vectorizer AI",
       "icon": "https://cdn.prod.website-files.com/648e04d4bbae7004f1b35f15/65de13535268a099387a6f60_vectorizer-ai-icon.png",
-      "url": "https://id.vectorizer.ai/",
+      "url": "https://vectorizer.ai",
       "category": "design"
     },
     "cookies": [
@@ -57439,7 +57439,7 @@
       "id": "virtual-threads-1079",
       "name": "Virtual Threads",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_zqaiVJeMxFHsHmHsk8ViZdV3v-nd11cpPw&s",
-      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Virtual%20Threads&login=step1@belajaar.id&password=WeAreGroupy2025!&url=https://www.virtualthreads.io/login",
+      "url": "https://virtual-threads.com",
       "category": "productivity"
     },
     "cookies": [
@@ -57459,7 +57459,7 @@
       "id": "viu-1080",
       "name": "Viu",
       "icon": "https://groupy.id/assets/images/services/viu.png",
-      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu&login=kalimmar61@moviesisme.com&password=viuku123&url=https://viu.com",
+      "url": "https://www.viu.com",
       "category": "streaming",
       "isGroup": true
     },
@@ -57611,13 +57611,13 @@
       "id": "wetv-group-id",
       "name": "WeTV",
       "icon": "https://groupy.id/assets/images/services/wetv.png",
-      "url": "https://wetv.vip/id/profile?tab=profile",
+      "url": "https://wetv.vip",
       "category": "streaming",
       "isGroup": true
     },
     "accounts": [
       {
-        "name": "WeTV 1",
+        "name": "wetv.vip_id_profile_2025-11-02 (1).json",
         "cookies": [
           {
             "name": "_clck",
@@ -57991,7 +57991,7 @@
         "sourceUrl": "https://wetv.vip/id/profile?tab=profile"
       },
       {
-        "name": "WeTV 2",
+        "name": "wetv.vip_id_profile_2025-11-02 (2).json",
         "cookies": [
           {
             "name": "_clck",
@@ -58375,7 +58375,7 @@
         "sourceUrl": "https://wetv.vip/id/profile?tab=profile"
       },
       {
-        "name": "WeTV 3",
+        "name": "wetv.vip_id_profile_2025-11-02 (3).json",
         "cookies": [
           {
             "name": "_clck",
@@ -58759,7 +58759,7 @@
         "sourceUrl": "https://wetv.vip/id/profile?tab=profile"
       },
       {
-        "name": "WeTV 4",
+        "name": "wetv.vip_id_profile_2025-11-02 (4).json",
         "cookies": [
           {
             "name": "_clck",
@@ -59143,7 +59143,7 @@
         "sourceUrl": "https://wetv.vip/id/profile?tab=profile"
       },
       {
-        "name": "WeTV 5",
+        "name": "wetv.vip_id_profile_2025-11-02.json",
         "cookies": [
           {
             "name": "_clck",
@@ -59553,7 +59553,7 @@
       "id": "wolframalpha-1081",
       "name": "WolframAlpha",
       "icon": "https://play-lh.googleusercontent.com/OceHg5bH7EsTRwl-lD7jjV9WM0mpj0oH4YfA-CSbjvfa7NCLQBu5-4cLwNlDvCUp5Q4",
-      "url": "https://www.wolframalpha.com/",
+      "url": "https://www.wolframalpha.com",
       "category": "productivity"
     },
     "cookies": [
@@ -59624,7 +59624,7 @@
       "id": "writehuman-1082",
       "name": "WriteHuman",
       "icon": "https://earlyshark.com/wp-content/uploads/2024/01/writehuman-logo-1024x1024.png",
-      "url": "https://writehuman.ai/ai-detector",
+      "url": "https://writehuman.ai",
       "category": "utilities"
     },
     "cookies": [
