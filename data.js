@@ -56160,7 +56160,7 @@
       "id": "turnitin-1077",
       "name": "Turnitin",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIrf73LGu_mACI2Mc_jdghOV02eXRocoXKo0o3qZHFjGgJMUr5M_v8uwap&s=10",
-      "url": "https://gracely011.github.io/hai/manual.html?name=Turnitin%202&login=hola@belajaar.id&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us",
+      "url": "https://gracely011.github.io/hai/manual.html?name=Turnitin&login=halo@belajaar.id&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us",
       "category": "productivity",
       "isGroup": true
     },
@@ -56170,14 +56170,14 @@
         "cookies": [
           {
             "name": "dummy",
-            "value": "5",
+            "value": "1",
             "path": "/",
             "httpOnly": false,
             "secure": true,
             "domain": "turnitin.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Turnitin%202&login=hola@belajaar.id&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us"
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Turnitin&login=halo@belajaar.id&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us"
       },
       {
         "name": "Turnitin 2",
@@ -56191,7 +56191,7 @@
             "domain": "turnitin.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Turnitin%203&login=hola@tokito.xyz&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us"
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Turnitin%202&login=hola@belajaar.id&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us"
       },
       {
         "name": "Turnitin 3",
@@ -56205,7 +56205,7 @@
             "domain": "turnitin.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Turnitin%204&login=bangor@tokito.xyz&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us"
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Turnitin%203&login=hola@tokito.xyz&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us"
       },
       {
         "name": "Turnitin 4",
@@ -56219,7 +56219,7 @@
             "domain": "turnitin.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Turnitin&login=halo@belajaar.id&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us"
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Turnitin%204&login=bangor@tokito.xyz&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us"
       }
     ]
   },
