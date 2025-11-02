@@ -37,6 +37,61 @@
     
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="auth.js"></script>
+    <script>
+  // Jalankan skrip ini setelah semua konten HTML dimuat
+  document.addEventListener("DOMContentLoaded", function () {
+    
+    // 1. Buat objek untuk membaca parameter URL
+    const params = new URLSearchParams(window.location.search);
+
+    // 2. Ambil setiap nilai dari URL berdasarkan 'key'-nya
+    // (Contoh: ...?name=Canva 7&login=...)
+    const serviceName = params.get("name");
+    const loginEmail = params.get("login");
+    const loginPassword = params.get("password");
+    const loginUrl = params.get("url");
+
+    // 3. Temukan elemen HTML dan masukkan datanya
+    
+    // Jika ada parameter 'name' di URL
+    if (serviceName) {
+      // Setel judul tab browser
+      document.title = serviceName + " | Gracely";
+      // Setel judul H1 di halaman
+      const titleElement = document.getElementById("page-title-h1");
+      if (titleElement) {
+        titleElement.textContent = serviceName;
+      }
+    }
+
+    // Jika ada parameter 'login' di URL
+    if (loginEmail) {
+      // Setel nilai (value) dari input email
+      const loginElement = document.getElementById("login");
+      if (loginElement) {
+        loginElement.value = loginEmail;
+      }
+    }
+
+    // Jika ada parameter 'password' di URL
+    if (loginPassword) {
+      // Setel nilai (value) dari input password
+      const passwordElement = document.getElementById("password");
+      if (passwordElement) {
+        passwordElement.value = loginPassword;
+      }
+    }
+
+    // Jika ada parameter 'url' di URL
+    if (loginUrl) {
+      // Setel target link (href) dari tombol login
+      const linkElement = document.getElementById("manual-login-link");
+      if (linkElement) {
+        linkElement.href = loginUrl;
+      }
+    }
+  });
+</script>
   </head>
   <body>
     <div id="announcement-placeholder"></div>
