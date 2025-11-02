@@ -19952,7 +19952,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762067248.473419,
             "sameSite": "no_restriction",
             "domain": ".crunchyroll.com"
           },
@@ -20077,7 +20076,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762067257.558203,
             "sameSite": "no_restriction",
             "domain": ".crunchyroll.com"
           },
@@ -20202,7 +20200,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762067238.060775,
             "sameSite": "no_restriction",
             "domain": ".crunchyroll.com"
           },
@@ -20616,7 +20613,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762067291,
             "sameSite": "no_restriction",
             "domain": ".curiositystream.com"
           },
@@ -21095,7 +21091,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762067297,
             "sameSite": "no_restriction",
             "domain": "curiositystream.com"
           },
@@ -21275,7 +21270,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762067276,
             "sameSite": "no_restriction",
             "domain": ".curiositystream.com"
           },
@@ -21754,7 +21748,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762067285,
             "sameSite": "no_restriction",
             "domain": "curiositystream.com"
           },
@@ -22395,7 +22388,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762067378,
             "sameSite": "lax",
             "domain": ".deepl.com"
           },
@@ -22588,7 +22580,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762067387,
             "sameSite": "lax",
             "domain": ".deepl.com"
           },
@@ -22781,7 +22772,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762067397,
             "sameSite": "lax",
             "domain": ".deepl.com"
           },
@@ -22974,7 +22964,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762067369,
             "sameSite": "lax",
             "domain": ".deepl.com"
           },
@@ -24065,7 +24054,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762067424,
             "sameSite": "no_restriction",
             "domain": ".epidemicsound.com"
           },
@@ -24413,7 +24401,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762067426,
             "sameSite": "no_restriction",
             "domain": "www.epidemicsound.com"
           },
@@ -24442,7 +24429,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762067429,
             "sameSite": "no_restriction",
             "domain": "www.epidemicsound.com"
           },
@@ -24472,7 +24458,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762067426.136952,
             "sameSite": "no_restriction",
             "domain": "www.epidemicsound.com"
           }
@@ -24558,7 +24543,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762067435,
             "sameSite": "no_restriction",
             "domain": ".epidemicsound.com"
           },
@@ -24906,7 +24890,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762067436,
             "sameSite": "no_restriction",
             "domain": "www.epidemicsound.com"
           },
@@ -24935,7 +24918,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762067438,
             "sameSite": "no_restriction",
             "domain": "www.epidemicsound.com"
           },
@@ -24965,7 +24947,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762067436.940869,
             "sameSite": "no_restriction",
             "domain": "www.epidemicsound.com"
           }
@@ -25051,7 +25032,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762067444,
             "sameSite": "no_restriction",
             "domain": ".epidemicsound.com"
           },
@@ -25399,7 +25379,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762067446,
             "sameSite": "no_restriction",
             "domain": "www.epidemicsound.com"
           },
@@ -25428,7 +25407,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762067448,
             "sameSite": "no_restriction",
             "domain": "www.epidemicsound.com"
           },
@@ -25458,7 +25436,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762067446.324172,
             "sameSite": "no_restriction",
             "domain": "www.epidemicsound.com"
           }
@@ -25544,7 +25521,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762067454,
             "sameSite": "no_restriction",
             "domain": ".epidemicsound.com"
           },
@@ -25892,7 +25868,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762067456,
             "sameSite": "no_restriction",
             "domain": "www.epidemicsound.com"
           },
@@ -25921,7 +25896,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762067461,
             "sameSite": "no_restriction",
             "domain": "www.epidemicsound.com"
           },
@@ -25951,7 +25925,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762067456.041988,
             "sameSite": "no_restriction",
             "domain": "www.epidemicsound.com"
           }
@@ -26037,7 +26010,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762067412,
             "sameSite": "no_restriction",
             "domain": ".epidemicsound.com"
           },
@@ -26385,7 +26357,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762067412,
             "sameSite": "no_restriction",
             "domain": "www.epidemicsound.com"
           },
@@ -26414,7 +26385,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762067413,
             "sameSite": "no_restriction",
             "domain": "www.epidemicsound.com"
           },
@@ -26424,7 +26394,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762067412.37131,
             "sameSite": "no_restriction",
             "domain": "www.epidemicsound.com"
           }
@@ -27064,7 +27033,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762067487,
             "sameSite": "no_restriction",
             "domain": ".flaticon.com"
           },
@@ -27344,7 +27312,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762067477,
             "sameSite": "no_restriction",
             "domain": ".flaticon.com"
           },
@@ -37512,714 +37479,363 @@
       "name": "Prezi AI",
       "icon": "https://play-lh.googleusercontent.com/3rVZ7Lc7-bxsALDo0nWOcuojR9ISxlhO20KnVM3uP00drxIXXt7ATM0V5-YjfM0pPtA",
       "url": "https://prezi.com/dashboard/next/",
-      "category": "productivity",
-      "isGroup": true
+      "category": "productivity"
     },
-    "accounts": [
+    "cookies": [
       {
-        "name": "Prezi AI 1",
-        "cookies": [
-          {
-            "name": "__hssc",
-            "value": "108475037.1.1761438126522",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "lax",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "__hssrc",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "lax",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "__hstc",
-            "value": "108475037.ba8fa92c4a6b127a65a0c09ff906b72e.1761318769933.1761318769933.1761438126522.2",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1776990126,
-            "sameSite": "lax",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "__putma",
-            "value": "e620b0aa-b0eb-11f0-ba72-aa0e2d2928cb",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795998119.140391,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "__stripe_mid",
-            "value": "289319f2-c82a-4405-9f27-225b881effda313f8d",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1792974127,
-            "sameSite": "strict",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "__stripe_sid",
-            "value": "40294ece-514b-49f6-95a1-59ba166544749289da",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "strict",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "_clck",
-            "value": "ye2fop%5E2%5Eg0h%5E0%5E2123",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1792974126,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "_clsk",
-            "value": "1epsjwy%5E1761438130570%5E1%5E1%5Eo.clarity.ms%2Fcollect",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "_fbp",
-            "value": "fb.1.1761318766393.190115718225232772",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1769214122,
-            "sameSite": "lax",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "_ga",
-            "value": "GA1.2.1607660100.1761318769",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795998121.81634,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "_ga_N6JQLWRW1C",
-            "value": "GS2.1.s1761438121$o2$g0$t1761438121$j60$l0$h0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795998121.804398,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "_gcl_au",
-            "value": "1.1.464042779.1761215978.1866377169.1761318756.1761318766",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1768991978,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "_gid",
-            "value": "GA1.2.1596973971.1761438122",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "_hjSession_67374",
-            "value": "eyJpZCI6IjRlYTkwNzU1LTEzNGItNDFhMi1hZDUzLWZjNTA0Y2YxZDUyNCIsImMiOjE3NjE0MzgxMjI2NzUsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjowfQ==",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "_hjSessionUser_67374",
-            "value": "eyJpZCI6ImU0MmJmNjY0LTI1ODgtNThlYS1iYTRkLTNkOWIwODA2MzkyZSIsImNyZWF0ZWQiOjE3NjEzMTg3Njk3MTgsImV4aXN0aW5nIjp0cnVlfQ==",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1792974122,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "_tt_enable_cookie",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795134123,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "_ttp",
-            "value": "01K8BCF4BE2X7EH4N06RGVNNC1_.tt.1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795134123,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "_uetsid",
-            "value": "cbc41c30b20111f0af186ffa94c6dfea",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "_uetvid",
-            "value": "67c7bbc0a06a11f0af57ed913f41b2b6",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795134123,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "ab.storage.deviceId.e030e06b-65da-4234-bd49-26743094b195",
-            "value": "%7B%22g%22%3A%222ce7b948-1cee-aa69-d5b6-edcb30b117f3%22%2C%22c%22%3A1761318770031%2C%22l%22%3A1761438122884%7D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795998122,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "ab.storage.sessionId.e030e06b-65da-4234-bd49-26743094b195",
-            "value": "%7B%22g%22%3A%22ac9348d0-a3e3-f8de-63a3-26d91587e5ab%22%2C%22e%22%3A1761439922891%2C%22c%22%3A1761438122884%2C%22l%22%3A1761438122891%7D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795998122,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "ab.storage.userId.e030e06b-65da-4234-bd49-26743094b195",
-            "value": "%7B%22g%22%3A%22347956548%22%2C%22c%22%3A1761318770030%2C%22l%22%3A1761438122885%7D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795998122,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "auth-sessionid",
-            "value": ".eJxVj7tPwzAYxEN4FgkhMTAzwmL5kcTJhoooYkCs3iw_E7eRI8cNLQMSfzoGsnT5Trr76fTdd_4Vsnt2lWUZF9O241M0I3c6HLFF8khBm7Iqizrk7OaQkUJtjNfhmD2kQK-FbwegBr8dnQS_GJiJCN4GbfrlzJ-w68OiTsQunLLH5CJNiII1RE2FrSJCWWt1jSHCGGmMrEUGWthYSrCyNZGFLKEpqa2wwgRBGs7Ybarph9b5aGJ0g-ezpknn7C6FavnysYHvI3V0J9dPutvT1bjbr56b18_Yxipc_D34P4j36U6iNWHB8uQaHy4n8ANbJlxQ:1vCJTT:TthF4wBILaPefc6r7qQgZZNUjxc",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1763910783.9863,
-            "sameSite": "lax",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "csrftoken",
-            "value": "QH5FQ0ynYC4hOX0WDpcFPyGfLVF5JqKU",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1792887722.748102,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "django_language",
-            "value": "en",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "glassbox-session-id",
-            "value": "eyJzZXNzaW9uX2lkIjoiZjZhMjA3MWUtOWMzMC00NThjLWFiNTktOTZjZjk5N2M4OGM2In0=",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "hubspotutk",
-            "value": "ba8fa92c4a6b127a65a0c09ff906b72e",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1776990126,
-            "sameSite": "lax",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "optimizelyEndUserId",
-            "value": "oeu1761318768472r0.417810682526329",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1776990119,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "optimizelySession",
-            "value": "0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1776990119,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "prezi-auth",
-            "value": ".eJyNV2tv5CYU_S_-2kxkzyuT-VSpq7RqK7WrZvvQaoUwxjPEGBzAkzhR_nsv4Ac4jlplVxqfc-Ee7sv4NWFFctxsb253-932cJVI-5y8dDmrCHku8y1KrpJWUyVwTYGpcCULJk6A0hozDlCj6Av7PqccP2CsrmGDq6RkShvUr6kZZxWAHE_YScm26QAssKHoQTJBC8S0BGqdrner9GaV7e-zw3GzPmZ7sGMaaYPLMjmWmGvqRCGt-fgMBgXVlZENsnpH_IwnwiiGOaLPDVO0GC3cvpgQqnVyFC3nEAZ1QjWtc7vP12_-GRc1E_6xpNi0CvxTA8Bmf9ik2_Vht9ls12l2c7tPt1df0yv_l7n_w9-ALT2Pv76BC01PNRUGGybBKWhsC3hcSXMGTRD854YqZi1AhD1LsslTTHZrvNqv9-tVlpXpKs_3xSpdZzcp3e3KMk1tEhihAkJ3wZwVqBWG8Snu-1V6WGXb-zQ9un-BPYS3wZ3N_NGolk6E6Rqb0MCUYNHHeG5rc-FyFsONgh_JMTuk12m8MfL12DBDzrrlDW91tu3A8Msfn1ZkxSevkLpXb2d_BKeLTuYLKT7Ie7lgMq-RmfJY8f9UCtsy4WswrFrXCiMQldZr0lfuSDdFabVJZSYIHnDObRihEUe2F0pf5vbaSIVPFD220mBU58kxtQeiNWtrpNsmMpZPot-Xy5Ocjm8RozATLpCDEsUutp0dracz1tYdLZgJoi7LkkPTI40vdLQEEdKv11PtxxyBfFdBe-ewJ_IeNMXKpr9niIQwEgXxnBzg4oIFgVHz4QksjAXmnWFED2I1x6SC5Bl6Ur2qnvDhQuSMzRxrzlJMngfUWPlTemy5jCJDTJ-xmkFE1rbhJ7E9aiMbW1rEalJGx8RYTiHo0kY61LQ5BHeZO7MC5s8H63zaYzJOZcwF8Y2OMtTEUjwGbnHDCyuoRG3DJS5my4RblWPNSJDuBZOxNN4XhT9t1GazZGFOdSkVoXGRRBu04KdmBjxcGH0Cn9WYHFeq-MKw6hAtS0qMjst4EnemNZ3HLRwKwYbLdTHPoQsnVU7UjGsMdFY8axyR85YaCa-iqRuj9LYFkzGUQ__YOSeKvlcXeslb_hdNpPiYpc-QPGQHXJdzSapZ9ZMWKJhxpA9ipFBhUYS14SaBL6wnms8mhMdrTBbxJzblHjM1q2eL-HZCriDc_A3AsU7CBX5jTsUJoh4vi6jFxSXcadA5ggoY7LZb_Or3ngScAjSrGqsqZIc2VBRKLIyXJTm70PnzhztNlSdgUEA2spky3eaGGU4dEyXQv4rSAY099NvYyxuMeY478GAXuIl0sa9eu9COOn0eRpebtu4wWchJX406ggd9EVjjJrZ6p2kg9COHkS0E9LhUOhLDSgWX47HlQpm2J-zEcBpDwo3sscACP34XBNdrHOEyfwDXMILhaL6BAhJDnRhaQ9TM7NTvIt_jLqg06O9olSuAdxKWMj8qmF4NcXiXwjK-EAFz_Yuqvi80rjnc17zWuuXu7u7D6K_1eoEZ7z4hM9zHAmFLdP8uXCaZuEBLorwbvynAqhLyidPi5F5OsH9r4OqSvcFJWluy8-8ydYKUvbiUOc5_p9jrY0v1MKDf3pZvmTAVy9LWyRlD5XF_Xbce-3uuDj-9snS13t-n6-M6O-5ur2_SzWG3X7BHrSGzNZlf893w8UC0Ko2s7MUh-fzT7u5z2ol_ftief_s7_etTQ-5-734sf_3zbvfz4y9fkrd_AQZRNDQ.aP1ppw.RNCusD5DQ8QxmLTTtu7V_AZsVKM",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "safehousetoken",
-            "value": "b'c2cee5c2fa60706c9cd9a7a3e7e024a573f6e171bd9f4ca78e60f3ab5e8c'",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1763910767.119722,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "ttcsid",
-            "value": "1761438123252::slR1AZFjOOXGzX62tYos.2.1761438179183.0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795134179,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "ttcsid_CLB0F4JC77UBB9N4T5R0",
-            "value": "1761438123252::zKPqU1PafmfHoQ3yDs8Z.2.1761438179183.0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795134179,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "auth-sessionid",
-            "value": ".eJxVj7tPwzAYxEN4FgkhMTAzwmL5kcTJhoooYkCs3iw_E7eRI8cNLQMSfzoGsnT5Trr76fTdd_4Vsnt2lWUZF9O241M0I3c6HLFF8khBm7Iqizrk7OaQkUJtjNfhmD2kQK-FbwegBr8dnQS_GJiJCN4GbfrlzJ-w68OiTsQunLLH5CJNiII1RE2FrSJCWWt1jSHCGGmMrEUGWthYSrCyNZGFLKEpqa2wwgRBGs7Ybarph9b5aGJ0g-ezpknn7C6FavnysYHvI3V0J9dPutvT1bjbr56b18_Yxipc_D34P4j36U6iNWHB8uQaHy4n8ANbJlxQ:1vCoWF:Y_fjb-8_kbW4phyxTLfB_5CkF5E",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1764030122.168128,
-            "sameSite": "lax",
-            "domain": "prezi.com"
-          },
-          {
-            "name": "django_language",
-            "value": "en",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": "prezi.com"
-          }
-        ],
-        "sourceUrl": "https://prezi.com/dashboard/next/#/all"
+        "name": "__hssc",
+        "value": "108475037.1.1762064883464",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "lax",
+        "domain": ".prezi.com"
       },
       {
-        "name": "Prezi AI 2",
-        "cookies": [
-          {
-            "name": "__hssc",
-            "value": "108475037.1.1762064883464",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "lax",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "__hssrc",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "lax",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "__hstc",
-            "value": "108475037.ba8fa92c4a6b127a65a0c09ff906b72e.1761318769933.1761318769933.1762064883464.2",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1777616883,
-            "sameSite": "lax",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "__putma",
-            "value": "e620b0aa-b0eb-11f0-ba72-aa0e2d2928cb",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1796624866.010447,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "__stripe_mid",
-            "value": "289319f2-c82a-4405-9f27-225b881effda313f8d",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1793600883,
-            "sameSite": "strict",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "__stripe_sid",
-            "value": "93348e9e-58d1-4fda-8050-bfb09007f6fa0bd064",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "strict",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "_clck",
-            "value": "ye2fop%5E2%5Eg0o%5E0%5E2123",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1793600873,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "_clsk",
-            "value": "jv35yu%5E1762064876039%5E1%5E0%5Ej.clarity.ms%2Fcollect",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1762151276,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "_fbp",
-            "value": "fb.1.1761318766393.190115718225232772",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1769840872,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "_ga",
-            "value": "GA1.1.1607660100.1761318769",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1796624870.829277,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "_ga_N6JQLWRW1C",
-            "value": "GS2.1.s1762064870$o2$g0$t1762064870$j60$l0$h0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1796624870.841216,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "_gat_UA-2156578-3",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "_gcl_au",
-            "value": "1.1.464042779.1761215978.1866377169.1761318756.1761318766",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1768991978,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "_gid",
-            "value": "GA1.2.12169714.1762064870",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1762151270,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "_hjSession_67374",
-            "value": "eyJpZCI6IjdlMjdkNmFjLTg0ZjUtNDgxNS1hM2I3LTM3NGU1ZGU3MjJhMiIsImMiOjE3NjIwNjQ4NzI3MDEsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjowLCJzcCI6MX0=",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "_hjSessionUser_67374",
-            "value": "eyJpZCI6ImU0MmJmNjY0LTI1ODgtNThlYS1iYTRkLTNkOWIwODA2MzkyZSIsImNyZWF0ZWQiOjE3NjEzMTg3Njk3MTgsImV4aXN0aW5nIjp0cnVlfQ==",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1793600872,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "_tt_enable_cookie",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795760871,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "_ttp",
-            "value": "01K8BCF4BE2X7EH4N06RGVNNC1_.tt.1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795760871,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "_uetsid",
-            "value": "0f987250b7b511f083a593b82aaf5f2d",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1762151272,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "_uetvid",
-            "value": "67c7bbc0a06a11f0af57ed913f41b2b6",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795760872,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "ab.storage.deviceId.e030e06b-65da-4234-bd49-26743094b195",
-            "value": "%7B%22g%22%3A%222ce7b948-1cee-aa69-d5b6-edcb30b117f3%22%2C%22c%22%3A1761318770031%2C%22l%22%3A1762064873466%7D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1796624873,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "ab.storage.sessionId.e030e06b-65da-4234-bd49-26743094b195",
-            "value": "%7B%22g%22%3A%22032ccb9a-3519-e3b6-9333-194afca1c8b5%22%2C%22e%22%3A1762066673471%2C%22c%22%3A1762064873466%2C%22l%22%3A1762064873471%7D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1796624873,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "ab.storage.userId.e030e06b-65da-4234-bd49-26743094b195",
-            "value": "%7B%22g%22%3A%22347956548%22%2C%22c%22%3A1761318770030%2C%22l%22%3A1762064873467%7D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1796624873,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "auth-sessionid",
-            "value": ".eJxVj7tPwzAYxEN4FgkhMTAzwmL5kcTJhoooYkCs3iw_E7eRI8cNLQMSfzoGsnT5Trr76fTdd_4Vsnt2lWUZF9O241M0I3c6HLFF8khBm7Iqizrk7OaQkUJtjNfhmD2kQK-FbwegBr8dnQS_GJiJCN4GbfrlzJ-w68OiTsQunLLH5CJNiII1RE2FrSJCWWt1jSHCGGmMrEUGWthYSrCyNZGFLKEpqa2wwgRBGs7Ybarph9b5aGJ0g-ezpknn7C6FavnysYHvI3V0J9dPutvT1bjbr56b18_Yxipc_D34P4j36U6iNWHB8uQaHy4n8ANbJlxQ:1vCJTT:TthF4wBILaPefc6r7qQgZZNUjxc",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1763910783.9863,
-            "sameSite": "lax",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "csrftoken",
-            "value": "QH5FQ0ynYC4hOX0WDpcFPyGfLVF5JqKU",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1793514473.832635,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "django_language",
-            "value": "en",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "glassbox-session-id",
-            "value": "eyJzZXNzaW9uX2lkIjoiZTFiYzAzOTAtN2VmZC00M2E1LWI3MTEtMGIzMGY5ZGI2YzljIn0=",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "hubspotutk",
-            "value": "ba8fa92c4a6b127a65a0c09ff906b72e",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1777616883,
-            "sameSite": "lax",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "optimizelyEndUserId",
-            "value": "oeu1761318768472r0.417810682526329",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1777616866,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "optimizelySession",
-            "value": "0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1777616866,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "prezi-auth",
-            "value": ".eJyNV2tv5CYU_S_-2kxkz3vnU6Wu0qqt1K6624dWK4QxniHG4ACexIny33sBP8Bx1Cq70vicC_dwX8YvCSuS02Z7-LDb77bHm0Ta5-S5y1lFyFOZb1Fyk7SaKoFrCkyFK1kwcQaU1phxgBpFn9n3OeX4HmN1CxvcJCVT2qB-Tc04qwDkeMLOSrZNB2CBDUX3kglaIKYlUOt0vVulh1W2_5wdT5v1KduDHdNIG1yWyanEXFMnCmnNx2cwKKiujGyQ1TviFzwRRjHMEX1qmKLFaOH2xYRQrZOTaDmHMKgzqmmd232-fvPPuKiZ8I8lxaZV4J8aADb74ybdro-7zWa7TrPDh326vfma3vi_zP0f_gZs6Xn89Q1caHquqTDYMAlOQWNbwONKmgtoguA_NVQxawEi7FmSTZ5islvj1X69X6-yrExXeb4vVuk6O6R0tyvLNLVJYIQKCN0Vc1agVhjGp7jvV-lxlW0_p-nJ_QvsIbwN7mzmT0a1dCJM19iEBqYEiz7Gc1ubC5ezGG4U_EhO2TG9TeONka_Hhhly0S1veKuzbQeGX_74uCIrPnmF1L14O_sjOF10Ml9I8UHeygWTeY3MlMeK_6dS2JYJX4Nh1bpWGIGotF6SvnJHuilKq00qM0HwgHNuwwiNOLK9UPo8t9dGKnym6KGVBqM6T06pPRCtWVsj3TaRsXwU_b5cnuV0fIsYhZlwgRyUKHa17exoPZ2xtu5owUwQdVmWHJoeaXyloyWIkH69nmo_5gjkuwraO4c9kfegKVY2_T1DJISRKIjn5AAXVywIjJp3T2BhLDDvDCN6EKs5JhUkz9Cz6lX1hA8XIhds5lhzkWLyPKDGyp_SY8tlFBli-oLVDCKytg0_ie1RG9nY0iJWkzI6JsZyCkGXNtKhps0huMvchRUwf95Z59Mek3EqYy6Ib3SUoSaW4jFwixteWUElahsucTFbJtyqHGtGgnQvmIyl8bYo_GmjNpslC3OqS6kIjYsk2qAFPzUz4OHK6CP4rMbkuFLFV4ZVh2hZUmJ0XMaTuAut6Txu4VAINlyui3kOXTipcqJmXGOgs-JZ44ict9RIeBVN3Rilty2YjKEc-sfOOVH0vbrQS97yv2gixfssfYLkITvgupxLUs2qn7RAwYwjfRAjhQqLIqwNNwl8YT3SfDYhPF5jsog_sin3mKlZPVvEtxNyBeHmbwCOdRIu8BtzKs4Q9XhZRC0uLuFOgy4RVMBgt93iV7_1JOAUoFnVWFUhO7SholBiYbwsydmVzp_f3WmqPAGDArKRzZTpNjfMcOqYKIH-VZQOaOyh38Ze3mDMc9yBB7vATaSrffXahXbU6cswuty0dYfJQk76atQRPOiLwBo3sdUbTQOhHziMbCGgx6XSkRhWKrgcjy0XyrQ9YSeG0xgSbmSPBRb48bsguF7jCJf5PbiGEQxH8w0UkBjqxNAaomZmp34T-R53QaVBf0erXAG8kbCU-VHB9GqIw7sUlvGFCJjrX1T1faFxzeG-5rXWLXd3dx9Gf63XC8x49wmZ4T4WCFui-3fhMsnEFVoS5d34TQFWlZCPnBZn93KC_VsDV5fsFU7S2pKdf5epM6Ts2aXMcf47xV4fW6qHAf36unzLhKlYlrZOLhgqj_vruvXY33N1-OmVZfDN8Dk9ntaH025zu17v08NhwR61hszWHPya74aPB6JVaWRlLw7Jp592d5_STvzzw_by29_pXx8bcvd792P56593u58ffvmSvP4LBPo0MQ.aQb56Q.jPgdq8Kl-K14zTK2cyHKfVvKdmM",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1762154873.584055,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "safehousetoken",
-            "value": "b'c2cee5c2fa60706c9cd9a7a3e7e024a573f6e171bd9f4ca78e60f3ab5e8c'",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1763910767.119722,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "ttcsid",
-            "value": "1762064871738::lpa6XbQej0c67WnOevnY.2.1762064872941.0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795760872,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "ttcsid_CLB0F4JC77UBB9N4T5R0",
-            "value": "1762064871737::1GcdCy3rPg_fSuBmSodz.2.1762064872941.0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795760872,
-            "sameSite": "no_restriction",
-            "domain": ".prezi.com"
-          },
-          {
-            "name": "auth-sessionid",
-            "value": ".eJxVj7tPwzAYxEN4FgkhMTAzwmL5kcTJhoooYkCs3iw_E7eRI8cNLQMSfzoGsnT5Trr76fTdd_4Vsnt2lWUZF9O241M0I3c6HLFF8khBm7Iqizrk7OaQkUJtjNfhmD2kQK-FbwegBr8dnQS_GJiJCN4GbfrlzJ-w68OiTsQunLLH5CJNiII1RE2FrSJCWWt1jSHCGGmMrEUGWthYSrCyNZGFLKEpqa2wwgRBGs7Ybarph9b5aGJ0g-ezpknn7C6FavnysYHvI3V0J9dPutvT1bjbr56b18_Yxipc_D34P4j36U6iNWHB8uQaHy4n8ANbJlxQ:1vFRZB:CDRtSaED5_2OLZpUmQuC1QyN0n0",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1764656873.584151,
-            "sameSite": "lax",
-            "domain": "prezi.com"
-          },
-          {
-            "name": "django_language",
-            "value": "en",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": "prezi.com"
-          }
-        ],
-        "sourceUrl": "https://prezi.com/dashboard/next/#/all"
+        "name": "__hssrc",
+        "value": "1",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "lax",
+        "domain": ".prezi.com"
+      },
+      {
+        "name": "__hstc",
+        "value": "108475037.ba8fa92c4a6b127a65a0c09ff906b72e.1761318769933.1761318769933.1762064883464.2",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1777616883,
+        "sameSite": "lax",
+        "domain": ".prezi.com"
+      },
+      {
+        "name": "__putma",
+        "value": "e620b0aa-b0eb-11f0-ba72-aa0e2d2928cb",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1796624866.010447,
+        "sameSite": "no_restriction",
+        "domain": ".prezi.com"
+      },
+      {
+        "name": "__stripe_mid",
+        "value": "289319f2-c82a-4405-9f27-225b881effda313f8d",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1793600883,
+        "sameSite": "strict",
+        "domain": ".prezi.com"
+      },
+      {
+        "name": "__stripe_sid",
+        "value": "93348e9e-58d1-4fda-8050-bfb09007f6fa0bd064",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "strict",
+        "domain": ".prezi.com"
+      },
+      {
+        "name": "_clck",
+        "value": "ye2fop%5E2%5Eg0o%5E0%5E2123",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1793600873,
+        "sameSite": "no_restriction",
+        "domain": ".prezi.com"
+      },
+      {
+        "name": "_clsk",
+        "value": "jv35yu%5E1762064876039%5E1%5E0%5Ej.clarity.ms%2Fcollect",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1762151276,
+        "sameSite": "no_restriction",
+        "domain": ".prezi.com"
+      },
+      {
+        "name": "_fbp",
+        "value": "fb.1.1761318766393.190115718225232772",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1769840872,
+        "sameSite": "no_restriction",
+        "domain": ".prezi.com"
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.1607660100.1761318769",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1796624870.829277,
+        "sameSite": "no_restriction",
+        "domain": ".prezi.com"
+      },
+      {
+        "name": "_ga_N6JQLWRW1C",
+        "value": "GS2.1.s1762064870$o2$g0$t1762064870$j60$l0$h0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1796624870.841216,
+        "sameSite": "no_restriction",
+        "domain": ".prezi.com"
+      },
+      {
+        "name": "_gat_UA-2156578-3",
+        "value": "1",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".prezi.com"
+      },
+      {
+        "name": "_gcl_au",
+        "value": "1.1.464042779.1761215978.1866377169.1761318756.1761318766",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1768991978,
+        "sameSite": "no_restriction",
+        "domain": ".prezi.com"
+      },
+      {
+        "name": "_gid",
+        "value": "GA1.2.12169714.1762064870",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1762151270,
+        "sameSite": "no_restriction",
+        "domain": ".prezi.com"
+      },
+      {
+        "name": "_hjSession_67374",
+        "value": "eyJpZCI6IjdlMjdkNmFjLTg0ZjUtNDgxNS1hM2I3LTM3NGU1ZGU3MjJhMiIsImMiOjE3NjIwNjQ4NzI3MDEsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjowLCJzcCI6MX0=",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".prezi.com"
+      },
+      {
+        "name": "_hjSessionUser_67374",
+        "value": "eyJpZCI6ImU0MmJmNjY0LTI1ODgtNThlYS1iYTRkLTNkOWIwODA2MzkyZSIsImNyZWF0ZWQiOjE3NjEzMTg3Njk3MTgsImV4aXN0aW5nIjp0cnVlfQ==",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1793600872,
+        "sameSite": "no_restriction",
+        "domain": ".prezi.com"
+      },
+      {
+        "name": "_tt_enable_cookie",
+        "value": "1",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1795760871,
+        "sameSite": "no_restriction",
+        "domain": ".prezi.com"
+      },
+      {
+        "name": "_ttp",
+        "value": "01K8BCF4BE2X7EH4N06RGVNNC1_.tt.1",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1795760871,
+        "sameSite": "no_restriction",
+        "domain": ".prezi.com"
+      },
+      {
+        "name": "_uetsid",
+        "value": "0f987250b7b511f083a593b82aaf5f2d",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1762151272,
+        "sameSite": "no_restriction",
+        "domain": ".prezi.com"
+      },
+      {
+        "name": "_uetvid",
+        "value": "67c7bbc0a06a11f0af57ed913f41b2b6",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1795760872,
+        "sameSite": "no_restriction",
+        "domain": ".prezi.com"
+      },
+      {
+        "name": "ab.storage.deviceId.e030e06b-65da-4234-bd49-26743094b195",
+        "value": "%7B%22g%22%3A%222ce7b948-1cee-aa69-d5b6-edcb30b117f3%22%2C%22c%22%3A1761318770031%2C%22l%22%3A1762064873466%7D",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1796624873,
+        "sameSite": "no_restriction",
+        "domain": ".prezi.com"
+      },
+      {
+        "name": "ab.storage.sessionId.e030e06b-65da-4234-bd49-26743094b195",
+        "value": "%7B%22g%22%3A%22032ccb9a-3519-e3b6-9333-194afca1c8b5%22%2C%22e%22%3A1762066673471%2C%22c%22%3A1762064873466%2C%22l%22%3A1762064873471%7D",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1796624873,
+        "sameSite": "no_restriction",
+        "domain": ".prezi.com"
+      },
+      {
+        "name": "ab.storage.userId.e030e06b-65da-4234-bd49-26743094b195",
+        "value": "%7B%22g%22%3A%22347956548%22%2C%22c%22%3A1761318770030%2C%22l%22%3A1762064873467%7D",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1796624873,
+        "sameSite": "no_restriction",
+        "domain": ".prezi.com"
+      },
+      {
+        "name": "auth-sessionid",
+        "value": ".eJxVj7tPwzAYxEN4FgkhMTAzwmL5kcTJhoooYkCs3iw_E7eRI8cNLQMSfzoGsnT5Trr76fTdd_4Vsnt2lWUZF9O241M0I3c6HLFF8khBm7Iqizrk7OaQkUJtjNfhmD2kQK-FbwegBr8dnQS_GJiJCN4GbfrlzJ-w68OiTsQunLLH5CJNiII1RE2FrSJCWWt1jSHCGGmMrEUGWthYSrCyNZGFLKEpqa2wwgRBGs7Ybarph9b5aGJ0g-ezpknn7C6FavnysYHvI3V0J9dPutvT1bjbr56b18_Yxipc_D34P4j36U6iNWHB8uQaHy4n8ANbJlxQ:1vCJTT:TthF4wBILaPefc6r7qQgZZNUjxc",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1763910783.9863,
+        "sameSite": "lax",
+        "domain": ".prezi.com"
+      },
+      {
+        "name": "csrftoken",
+        "value": "QH5FQ0ynYC4hOX0WDpcFPyGfLVF5JqKU",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1793514473.832635,
+        "sameSite": "no_restriction",
+        "domain": ".prezi.com"
+      },
+      {
+        "name": "django_language",
+        "value": "en",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".prezi.com"
+      },
+      {
+        "name": "glassbox-session-id",
+        "value": "eyJzZXNzaW9uX2lkIjoiZTFiYzAzOTAtN2VmZC00M2E1LWI3MTEtMGIzMGY5ZGI2YzljIn0=",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".prezi.com"
+      },
+      {
+        "name": "hubspotutk",
+        "value": "ba8fa92c4a6b127a65a0c09ff906b72e",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1777616883,
+        "sameSite": "lax",
+        "domain": ".prezi.com"
+      },
+      {
+        "name": "optimizelyEndUserId",
+        "value": "oeu1761318768472r0.417810682526329",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1777616866,
+        "sameSite": "no_restriction",
+        "domain": ".prezi.com"
+      },
+      {
+        "name": "optimizelySession",
+        "value": "0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1777616866,
+        "sameSite": "no_restriction",
+        "domain": ".prezi.com"
+      },
+      {
+        "name": "prezi-auth",
+        "value": ".eJyNV2tv5CYU_S_-2kxkz3vnU6Wu0qqt1K6624dWK4QxniHG4ACexIny33sBP8Bx1Cq70vicC_dwX8YvCSuS02Z7-LDb77bHm0Ta5-S5y1lFyFOZb1Fyk7SaKoFrCkyFK1kwcQaU1phxgBpFn9n3OeX4HmN1CxvcJCVT2qB-Tc04qwDkeMLOSrZNB2CBDUX3kglaIKYlUOt0vVulh1W2_5wdT5v1KduDHdNIG1yWyanEXFMnCmnNx2cwKKiujGyQ1TviFzwRRjHMEX1qmKLFaOH2xYRQrZOTaDmHMKgzqmmd232-fvPPuKiZ8I8lxaZV4J8aADb74ybdro-7zWa7TrPDh326vfma3vi_zP0f_gZs6Xn89Q1caHquqTDYMAlOQWNbwONKmgtoguA_NVQxawEi7FmSTZ5islvj1X69X6-yrExXeb4vVuk6O6R0tyvLNLVJYIQKCN0Vc1agVhjGp7jvV-lxlW0_p-nJ_QvsIbwN7mzmT0a1dCJM19iEBqYEiz7Gc1ubC5ezGG4U_EhO2TG9TeONka_Hhhly0S1veKuzbQeGX_74uCIrPnmF1L14O_sjOF10Ml9I8UHeygWTeY3MlMeK_6dS2JYJX4Nh1bpWGIGotF6SvnJHuilKq00qM0HwgHNuwwiNOLK9UPo8t9dGKnym6KGVBqM6T06pPRCtWVsj3TaRsXwU_b5cnuV0fIsYhZlwgRyUKHa17exoPZ2xtu5owUwQdVmWHJoeaXyloyWIkH69nmo_5gjkuwraO4c9kfegKVY2_T1DJISRKIjn5AAXVywIjJp3T2BhLDDvDCN6EKs5JhUkz9Cz6lX1hA8XIhds5lhzkWLyPKDGyp_SY8tlFBli-oLVDCKytg0_ie1RG9nY0iJWkzI6JsZyCkGXNtKhps0huMvchRUwf95Z59Mek3EqYy6Ib3SUoSaW4jFwixteWUElahsucTFbJtyqHGtGgnQvmIyl8bYo_GmjNpslC3OqS6kIjYsk2qAFPzUz4OHK6CP4rMbkuFLFV4ZVh2hZUmJ0XMaTuAut6Txu4VAINlyui3kOXTipcqJmXGOgs-JZ44ict9RIeBVN3Rilty2YjKEc-sfOOVH0vbrQS97yv2gixfssfYLkITvgupxLUs2qn7RAwYwjfRAjhQqLIqwNNwl8YT3SfDYhPF5jsog_sin3mKlZPVvEtxNyBeHmbwCOdRIu8BtzKs4Q9XhZRC0uLuFOgy4RVMBgt93iV7_1JOAUoFnVWFUhO7SholBiYbwsydmVzp_f3WmqPAGDArKRzZTpNjfMcOqYKIH-VZQOaOyh38Ze3mDMc9yBB7vATaSrffXahXbU6cswuty0dYfJQk76atQRPOiLwBo3sdUbTQOhHziMbCGgx6XSkRhWKrgcjy0XyrQ9YSeG0xgSbmSPBRb48bsguF7jCJf5PbiGEQxH8w0UkBjqxNAaomZmp34T-R53QaVBf0erXAG8kbCU-VHB9GqIw7sUlvGFCJjrX1T1faFxzeG-5rXWLXd3dx9Gf63XC8x49wmZ4T4WCFui-3fhMsnEFVoS5d34TQFWlZCPnBZn93KC_VsDV5fsFU7S2pKdf5epM6Ts2aXMcf47xV4fW6qHAf36unzLhKlYlrZOLhgqj_vruvXY33N1-OmVZfDN8Dk9ntaH025zu17v08NhwR61hszWHPya74aPB6JVaWRlLw7Jp592d5_STvzzw_by29_pXx8bcvd792P56593u58ffvmSvP4LBPo0MQ.aQb56Q.jPgdq8Kl-K14zTK2cyHKfVvKdmM",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1762154873.584055,
+        "sameSite": "no_restriction",
+        "domain": ".prezi.com"
+      },
+      {
+        "name": "safehousetoken",
+        "value": "b'c2cee5c2fa60706c9cd9a7a3e7e024a573f6e171bd9f4ca78e60f3ab5e8c'",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1763910767.119722,
+        "sameSite": "no_restriction",
+        "domain": ".prezi.com"
+      },
+      {
+        "name": "ttcsid",
+        "value": "1762064871738::lpa6XbQej0c67WnOevnY.2.1762064872941.0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1795760872,
+        "sameSite": "no_restriction",
+        "domain": ".prezi.com"
+      },
+      {
+        "name": "ttcsid_CLB0F4JC77UBB9N4T5R0",
+        "value": "1762064871737::1GcdCy3rPg_fSuBmSodz.2.1762064872941.0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1795760872,
+        "sameSite": "no_restriction",
+        "domain": ".prezi.com"
+      },
+      {
+        "name": "auth-sessionid",
+        "value": ".eJxVj7tPwzAYxEN4FgkhMTAzwmL5kcTJhoooYkCs3iw_E7eRI8cNLQMSfzoGsnT5Trr76fTdd_4Vsnt2lWUZF9O241M0I3c6HLFF8khBm7Iqizrk7OaQkUJtjNfhmD2kQK-FbwegBr8dnQS_GJiJCN4GbfrlzJ-w68OiTsQunLLH5CJNiII1RE2FrSJCWWt1jSHCGGmMrEUGWthYSrCyNZGFLKEpqa2wwgRBGs7Ybarph9b5aGJ0g-ezpknn7C6FavnysYHvI3V0J9dPutvT1bjbr56b18_Yxipc_D34P4j36U6iNWHB8uQaHy4n8ANbJlxQ:1vFRZB:CDRtSaED5_2OLZpUmQuC1QyN0n0",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1764656873.584151,
+        "sameSite": "lax",
+        "domain": "prezi.com"
+      },
+      {
+        "name": "django_language",
+        "value": "en",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": "prezi.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://prezi.com/dashboard/next/#/all"
   },
   {
     "meta": {
@@ -44568,7 +44184,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762067164,
             "sameSite": "strict",
             "domain": "www.scribd.com"
           },
@@ -56484,7 +56099,7 @@
   },
   {
     "meta": {
-      "id": "the-wall-street-journal-1084",
+      "id": "the-wall-street-journal-1083",
       "name": "The Wall Street Journal",
       "icon": "https://play-lh.googleusercontent.com/eksxaPfxbTVb6VTl5aj1sXLpKc_N9Z6AZ3_5Oq6JhTXmgEQza-1v58a66p_ID0phE2Zv",
       "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=The%20Wall%20Street%20Journal&login=wsj@killua.cloud&password=TheWallStreetJournalGroupy2025!!!&url=https://www.wsj.com/",
@@ -57105,7 +56720,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762067631.447582,
             "sameSite": "no_restriction",
             "domain": ".udemy.com"
           },
@@ -57263,7 +56877,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762067634,
             "sameSite": "strict",
             "domain": ".udemy.com"
           },
@@ -57330,7 +56943,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762067635,
             "sameSite": "strict",
             "domain": ".www.udemy.com"
           },
@@ -57673,7 +57285,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762067609.762099,
             "sameSite": "no_restriction",
             "domain": ".udemy.com"
           },
@@ -57821,7 +57432,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762067622,
             "sameSite": "strict",
             "domain": ".udemy.com"
           },
@@ -57898,7 +57508,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762067617,
             "sameSite": "strict",
             "domain": ".www.udemy.com"
           },
@@ -58481,7 +58090,7 @@
   },
   {
     "meta": {
-      "id": "wetv-1081",
+      "id": "wetv-group-id",
       "name": "WeTV",
       "icon": "https://groupy.id/assets/images/services/wetv.png",
       "url": "https://wetv.vip/id/profile?tab=profile",
@@ -60423,7 +60032,7 @@
   },
   {
     "meta": {
-      "id": "wolframalpha-1082",
+      "id": "wolframalpha-1081",
       "name": "WolframAlpha",
       "icon": "https://play-lh.googleusercontent.com/OceHg5bH7EsTRwl-lD7jjV9WM0mpj0oH4YfA-CSbjvfa7NCLQBu5-4cLwNlDvCUp5Q4",
       "url": "https://www.wolframalpha.com/",
@@ -60495,7 +60104,7 @@
   },
   {
     "meta": {
-      "id": "writehuman-1083",
+      "id": "writehuman-1082",
       "name": "WriteHuman",
       "icon": "https://earlyshark.com/wp-content/uploads/2024/01/writehuman-logo-1024x1024.png",
       "url": "https://writehuman.ai/ai-detector",
