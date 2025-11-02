@@ -18703,70 +18703,6 @@
         "cookies": [
           {
             "name": "__fx",
-            "value": "964ab41f-859b-4a07-954d-ae2ac8b5128c",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795997988.726306,
-            "sameSite": "no_restriction",
-            "domain": ".chutes.ai"
-          },
-          {
-            "name": "__Secure-authjs.callback-url",
-            "value": "https%3A%2F%2Fchutes.ai",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "lax",
-            "domain": ".chutes.ai"
-          },
-          {
-            "name": "_ga",
-            "value": "GA1.1.757752041.1760806973",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795997984.071379,
-            "sameSite": "no_restriction",
-            "domain": ".chutes.ai"
-          },
-          {
-            "name": "_ga_3XPN9K624N",
-            "value": "GS2.1.s1761437984$o2$g0$t1761437984$j60$l0$h2093155162",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795997984.071096,
-            "sameSite": "no_restriction",
-            "domain": ".chutes.ai"
-          },
-          {
-            "name": "_gcl_au",
-            "value": "1.1.1217693926.1760806973",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1768582973,
-            "sameSite": "no_restriction",
-            "domain": ".chutes.ai"
-          },
-          {
-            "name": "fx_referrer",
-            "value": "",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".chutes.ai"
-          }
-        ],
-        "sourceUrl": "https://chutes.ai/app"
-      },
-      {
-        "name": "Chutes 2",
-        "cookies": [
-          {
-            "name": "__fx",
             "value": "ab823a60-68a5-4fb7-8021-e4dcc4017e62",
             "path": "/",
             "httpOnly": false,
@@ -18848,7 +18784,7 @@
         "sourceUrl": "https://chutes.ai/app"
       },
       {
-        "name": "Chutes 3",
+        "name": "Chutes 2",
         "cookies": [
           {
             "name": "__fx",
@@ -18939,40 +18875,20 @@
       "id": "codedex-1014",
       "name": "Codedex",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2sH_6-EH9eaPT8YfscbEcq3-i1KLzvZ50JQ&s",
-      "url": "https://gracely011.github.io/hai/manual.html?name=Turnitin&login=halo@belajaar.id&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us",
-      "category": "productivity",
-      "isGroup": true
+      "url": "https://gracely011.github.io/hai/manual.html?name=Codedex&login=codedex@belajaar.id&password=CodedexMilikGroupy2025!&url=https://www.codedex.io/login",
+      "category": "productivity"
     },
-    "accounts": [
+    "cookies": [
       {
-        "name": "Codedex 1",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "codedex.io"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Turnitin&login=halo@belajaar.id&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us"
-      },
-      {
-        "name": "Codedex 2",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "codedex.io"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Codedex&login=codedex@belajaar.id&password=CodedexMilikGroupy2025!&url=https://www.codedex.io/login"
+        "name": "dummy",
+        "value": "5",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "domain": "codedex.io"
       }
-    ]
+    ],
+    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Codedex&login=codedex@belajaar.id&password=CodedexMilikGroupy2025!&url=https://www.codedex.io/login"
   },
   {
     "meta": {
