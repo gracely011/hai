@@ -595,7 +595,7 @@
   },
   {
     "meta": {
-      "id": "apple-tv--1077",
+      "id": "apple-tv--1078",
       "name": "Apple TV+",
       "icon": "https://play-lh.googleusercontent.com/1XBAZjSOWaVM7UDFKvzuMR-WRoR5gCnsYrw17_ihHLcJKT9Qc7hXptHwWQ3Bf83mry4",
       "url": "https://tv.apple.com/ca",
@@ -24327,7 +24327,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762096045,
             "sameSite": "no_restriction",
             "domain": ".www.epidemicsound.com"
           },
@@ -29661,7 +29660,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762087829,
             "sameSite": "no_restriction",
             "domain": ".iq.com"
           },
@@ -29709,7 +29707,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762097673,
             "sameSite": "no_restriction",
             "domain": ".iq.com"
           },
@@ -29719,7 +29716,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762097673,
             "sameSite": "no_restriction",
             "domain": ".iq.com"
           },
@@ -29806,7 +29802,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762087831,
             "sameSite": "no_restriction",
             "domain": ".iq.com"
           }
@@ -29998,7 +29993,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762087798,
             "sameSite": "no_restriction",
             "domain": ".iq.com"
           },
@@ -30046,7 +30040,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762097661,
             "sameSite": "no_restriction",
             "domain": ".iq.com"
           },
@@ -30056,7 +30049,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762097661,
             "sameSite": "no_restriction",
             "domain": ".iq.com"
           },
@@ -30143,7 +30135,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762087802,
             "sameSite": "no_restriction",
             "domain": ".iq.com"
           }
@@ -30685,7 +30676,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762079239.067096,
         "sameSite": "no_restriction",
         "domain": ".www.marvel.com"
       },
@@ -31315,7 +31305,6 @@
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1762084569.885828,
         "sameSite": "lax",
         "domain": ".www.mermaidchart.com"
       },
@@ -35850,274 +35839,138 @@
       "name": "NoteGPT",
       "icon": "https://10web.io/wp-content/uploads/2024/08/NoteGPT_logo.jpg",
       "url": "https://notegpt.io/workspace/home",
-      "category": "productivity",
-      "isGroup": true
+      "category": "productivity"
     },
-    "accounts": [
+    "cookies": [
       {
-        "name": "NoteGPT 1",
-        "cookies": [
-          {
-            "name": "_ga",
-            "value": "GA1.2.1377026926.1761035036",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795998161.457225,
-            "sameSite": "no_restriction",
-            "domain": ".notegpt.io"
-          },
-          {
-            "name": "_ga_PFX3BRW5RQ",
-            "value": "GS2.1.s1761438160$o2$g0$t1761438160$j60$l0$h84667090",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795998160.214757,
-            "sameSite": "no_restriction",
-            "domain": ".notegpt.io"
-          },
-          {
-            "name": "_gat_gtag_UA_252982427_14",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".notegpt.io"
-          },
-          {
-            "name": "_gid",
-            "value": "GA1.2.1169440600.1761438161",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".notegpt.io"
-          },
-          {
-            "name": "_identity",
-            "value": "42d678528d0d072f0058835f3f6d816323c5e574cfc9e8f8e44474b59139062ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A22%3A%22%5B15880904%2Cnull%2C604800%5D%22%3B%7D",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".notegpt.io"
-          },
-          {
-            "name": "_trackUserId",
-            "value": "G-1761035036000",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1763627036,
-            "sameSite": "no_restriction",
-            "domain": ".notegpt.io"
-          },
-          {
-            "name": "anonymous_user_id",
-            "value": "f82c4f73-ffb0-4300-813e-93ff11ec5708",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".notegpt.io"
-          },
-          {
-            "name": "crisp-client%2Fsession%2F02aa9b53-fc37-4ca7-954d-7a99fb3393de",
-            "value": "session_f5fd061f-f789-4562-b8f7-d5b6b6de2820",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1777206164,
-            "sameSite": "no_restriction",
-            "domain": ".notegpt.io"
-          },
-          {
-            "name": "g_state",
-            "value": "{\"i_l\":0,\"i_ll\":1761035088620,\"i_b\":\"TqGEGetmBz6BP8ROOZryx4ZHaU6CcQSO2XutFjEI5B0\"}",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1776587088,
-            "sameSite": "no_restriction",
-            "domain": ".notegpt.io"
-          },
-          {
-            "name": "last_login",
-            "value": "c9e53bffd77024de2be9850263340070ec8c86a59077f4229fe724196d3c1995a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22last_login%22%3Bi%3A1%3Bi%3A1%3B%7D",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".notegpt.io"
-          },
-          {
-            "name": "sbox-guid",
-            "value": "MTc2MTAzNTAzM3wxNTZ8OTM1MjcxMDEw",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795595034.709974,
-            "sameSite": "no_restriction",
-            "domain": ".notegpt.io"
-          },
-          {
-            "name": "sign",
-            "value": "34326c644335794e6e6b7a345a4f696241796e616233567a4c574c676f6e6452434a4c6f594e703572584d2f55394a6c43462f6d564f7043536f454a6d755768",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".notegpt.io"
-          },
-          {
-            "name": "ZFSESSID",
-            "value": "eonj86nrcr848kslehmg7ui3h6",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1764030162.652264,
-            "sameSite": "no_restriction",
-            "domain": ".notegpt.io"
-          }
-        ],
-        "sourceUrl": "https://notegpt.io/workspace/home"
+        "name": "_ga",
+        "value": "GA1.2.201816946.1761666478",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1796624864.200003,
+        "sameSite": "no_restriction",
+        "domain": ".notegpt.io"
       },
       {
-        "name": "NoteGPT 2",
-        "cookies": [
-          {
-            "name": "_ga",
-            "value": "GA1.2.201816946.1761666478",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1796624864.200003,
-            "sameSite": "no_restriction",
-            "domain": ".notegpt.io"
-          },
-          {
-            "name": "_ga_PFX3BRW5RQ",
-            "value": "GS2.1.s1762064855$o2$g0$t1762064855$j60$l0$h1178981866",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1796624855.535009,
-            "sameSite": "no_restriction",
-            "domain": ".notegpt.io"
-          },
-          {
-            "name": "_gat_gtag_UA_252982427_14",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".notegpt.io"
-          },
-          {
-            "name": "_gid",
-            "value": "GA1.2.1896851423.1762064864",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1762151264,
-            "sameSite": "no_restriction",
-            "domain": ".notegpt.io"
-          },
-          {
-            "name": "_identity",
-            "value": "42d678528d0d072f0058835f3f6d816323c5e574cfc9e8f8e44474b59139062ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A22%3A%22%5B15880904%2Cnull%2C604800%5D%22%3B%7D",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1762271378.722084,
-            "sameSite": "no_restriction",
-            "domain": ".notegpt.io"
-          },
-          {
-            "name": "_trackUserId",
-            "value": "G-1761666478000",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1764258478,
-            "sameSite": "no_restriction",
-            "domain": ".notegpt.io"
-          },
-          {
-            "name": "anonymous_user_id",
-            "value": "8377c044-3a55-4d8c-82cf-c6225f1c2140",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".notegpt.io"
-          },
-          {
-            "name": "crisp-client%2Fsession%2F02aa9b53-fc37-4ca7-954d-7a99fb3393de",
-            "value": "session_11d41211-e4f4-4f20-864e-ae84f72f9591",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1777832868,
-            "sameSite": "no_restriction",
-            "domain": ".notegpt.io"
-          },
-          {
-            "name": "g_state",
-            "value": "{\"i_l\":0,\"i_ll\":1761666517059,\"i_b\":\"kkDMikxhG9NqilNejEElV7FlwuiLXEC28qD3ac3x4K4\"}",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1777218517,
-            "sameSite": "no_restriction",
-            "domain": ".notegpt.io"
-          },
-          {
-            "name": "last_login",
-            "value": "c9e53bffd77024de2be9850263340070ec8c86a59077f4229fe724196d3c1995a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22last_login%22%3Bi%3A1%3Bi%3A1%3B%7D",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".notegpt.io"
-          },
-          {
-            "name": "sbox-guid",
-            "value": "MTc2MTY2NjQ3NXwyOTZ8OTEwNzM2NTky",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1796226475.996909,
-            "sameSite": "no_restriction",
-            "domain": ".notegpt.io"
-          },
-          {
-            "name": "sign",
-            "value": "4d7a7847506c77555764694e43514338714f3744684b5358304434514a445071496b5741766a64592b536231474141357375304950777574494a397a65537739",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1762271378.722084,
-            "sameSite": "no_restriction",
-            "domain": ".notegpt.io"
-          },
-          {
-            "name": "ZFSESSID",
-            "value": "cjmib5fq26j0m6i7m723vhfbr3",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1764656860.68446,
-            "sameSite": "no_restriction",
-            "domain": ".notegpt.io"
-          }
-        ],
-        "sourceUrl": "https://notegpt.io/workspace/home"
+        "name": "_ga_PFX3BRW5RQ",
+        "value": "GS2.1.s1762064855$o2$g0$t1762064855$j60$l0$h1178981866",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1796624855.535009,
+        "sameSite": "no_restriction",
+        "domain": ".notegpt.io"
+      },
+      {
+        "name": "_gat_gtag_UA_252982427_14",
+        "value": "1",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".notegpt.io"
+      },
+      {
+        "name": "_gid",
+        "value": "GA1.2.1896851423.1762064864",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1762151264,
+        "sameSite": "no_restriction",
+        "domain": ".notegpt.io"
+      },
+      {
+        "name": "_identity",
+        "value": "42d678528d0d072f0058835f3f6d816323c5e574cfc9e8f8e44474b59139062ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A22%3A%22%5B15880904%2Cnull%2C604800%5D%22%3B%7D",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1762271378.722084,
+        "sameSite": "no_restriction",
+        "domain": ".notegpt.io"
+      },
+      {
+        "name": "_trackUserId",
+        "value": "G-1761666478000",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1764258478,
+        "sameSite": "no_restriction",
+        "domain": ".notegpt.io"
+      },
+      {
+        "name": "anonymous_user_id",
+        "value": "8377c044-3a55-4d8c-82cf-c6225f1c2140",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".notegpt.io"
+      },
+      {
+        "name": "crisp-client%2Fsession%2F02aa9b53-fc37-4ca7-954d-7a99fb3393de",
+        "value": "session_11d41211-e4f4-4f20-864e-ae84f72f9591",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1777832868,
+        "sameSite": "no_restriction",
+        "domain": ".notegpt.io"
+      },
+      {
+        "name": "g_state",
+        "value": "{\"i_l\":0,\"i_ll\":1761666517059,\"i_b\":\"kkDMikxhG9NqilNejEElV7FlwuiLXEC28qD3ac3x4K4\"}",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1777218517,
+        "sameSite": "no_restriction",
+        "domain": ".notegpt.io"
+      },
+      {
+        "name": "last_login",
+        "value": "c9e53bffd77024de2be9850263340070ec8c86a59077f4229fe724196d3c1995a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22last_login%22%3Bi%3A1%3Bi%3A1%3B%7D",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".notegpt.io"
+      },
+      {
+        "name": "sbox-guid",
+        "value": "MTc2MTY2NjQ3NXwyOTZ8OTEwNzM2NTky",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1796226475.996909,
+        "sameSite": "no_restriction",
+        "domain": ".notegpt.io"
+      },
+      {
+        "name": "sign",
+        "value": "4d7a7847506c77555764694e43514338714f3744684b5358304434514a445071496b5741766a64592b536231474141357375304950777574494a397a65537739",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1762271378.722084,
+        "sameSite": "no_restriction",
+        "domain": ".notegpt.io"
+      },
+      {
+        "name": "ZFSESSID",
+        "value": "cjmib5fq26j0m6i7m723vhfbr3",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1764656860.68446,
+        "sameSite": "no_restriction",
+        "domain": ".notegpt.io"
       }
-    ]
+    ],
+    "sourceUrl": "https://notegpt.io/workspace/home"
   },
   {
     "meta": {
@@ -55330,7 +55183,27 @@
   },
   {
     "meta": {
-      "id": "studocu-1074",
+      "id": "storytribe-1074",
+      "name": "StoryTribe",
+      "icon": "https://media.licdn.com/dms/image/v2/D560BAQGFNn9uuWNKvA/company-logo_200_200/B56ZWE4DUHGUAU-/0/1741691041788/storytribeapp_logo?e=2147483647&v=beta&t=3qm4zJ4TSorw5yxfeP9WtXnDj_DKgiqhVZeGH42wT7g",
+      "url": "https://gracely011.github.io/hai/manual.html?name=StoryTribe&login=beapp@prem1um.xyz&password=MilikGroupy2025!&url=https://storytribeapp.com/login-signup",
+      "category": "productivity"
+    },
+    "cookies": [
+      {
+        "name": "dummy",
+        "value": "5",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "domain": "storytribe.app"
+      }
+    ],
+    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=StoryTribe&login=beapp@prem1um.xyz&password=MilikGroupy2025!&url=https://storytribeapp.com/login-signup"
+  },
+  {
+    "meta": {
+      "id": "studocu-1075",
       "name": "Studocu",
       "icon": "https://play-lh.googleusercontent.com/20ssDWF3SWEXIFYy8iFwXjomuIqtuHjGc3OxIWqVojIaeo_9_XxUZEDdmm5YPreLucij",
       "url": "https://www.studocu.com/en-us/home",
@@ -55870,7 +55743,7 @@
   },
   {
     "meta": {
-      "id": "symbolab-1075",
+      "id": "symbolab-1076",
       "name": "Symbolab",
       "icon": "https://play-lh.googleusercontent.com/DKlax_iJQtJOKJlIPDSS7DZpbm9gCkHh3vWgrj8BOMRwDPDVKXdTQf9sV4cRuXSdRA",
       "url": "https://www.symbolab.com/",
@@ -56064,7 +55937,7 @@
   },
   {
     "meta": {
-      "id": "the-wall-street-journal-1083",
+      "id": "the-wall-street-journal-1084",
       "name": "The Wall Street Journal",
       "icon": "https://play-lh.googleusercontent.com/eksxaPfxbTVb6VTl5aj1sXLpKc_N9Z6AZ3_5Oq6JhTXmgEQza-1v58a66p_ID0phE2Zv",
       "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=The%20Wall%20Street%20Journal&login=wsj@killua.cloud&password=TheWallStreetJournalGroupy2025!!!&url=https://www.wsj.com/",
@@ -56264,7 +56137,7 @@
   },
   {
     "meta": {
-      "id": "turnitin-1076",
+      "id": "turnitin-1077",
       "name": "Turnitin",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIrf73LGu_mACI2Mc_jdghOV02eXRocoXKo0o3qZHFjGgJMUr5M_v8uwap&s=10",
       "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Turnitin&login=halo@belajaar.id&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us",
@@ -56668,7 +56541,7 @@
   },
   {
     "meta": {
-      "id": "udemy-1078",
+      "id": "udemy-1079",
       "name": "Udemy",
       "icon": "https://play-lh.googleusercontent.com/dsCkmJE2Fa8IjyXERAcwc5YeQ8_NvbZ4_OI8LgqyjILpXUfS5YhEcnAMajKPrZI-og",
       "url": "https://www.udemy.com/personal/home/",
@@ -57881,7 +57754,7 @@
   },
   {
     "meta": {
-      "id": "virtual-threads-1079",
+      "id": "virtual-threads-1080",
       "name": "Virtual Threads",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_zqaiVJeMxFHsHmHsk8ViZdV3v-nd11cpPw&s",
       "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Virtual%20Threads&login=step1@belajaar.id&password=WeAreGroupy2025!&url=https://www.virtualthreads.io/login",
@@ -57901,7 +57774,7 @@
   },
   {
     "meta": {
-      "id": "viu-1080",
+      "id": "viu-1081",
       "name": "Viu",
       "icon": "https://groupy.id/assets/images/services/viu.png",
       "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Viu&login=kalimmar61@moviesisme.com&password=viuku123&url=https://viu.com",
@@ -59993,7 +59866,7 @@
   },
   {
     "meta": {
-      "id": "wolframalpha-1081",
+      "id": "wolframalpha-1082",
       "name": "WolframAlpha",
       "icon": "https://play-lh.googleusercontent.com/OceHg5bH7EsTRwl-lD7jjV9WM0mpj0oH4YfA-CSbjvfa7NCLQBu5-4cLwNlDvCUp5Q4",
       "url": "https://www.wolframalpha.com/",
@@ -60064,7 +59937,7 @@
   },
   {
     "meta": {
-      "id": "writehuman-1082",
+      "id": "writehuman-1083",
       "name": "WriteHuman",
       "icon": "https://earlyshark.com/wp-content/uploads/2024/01/writehuman-logo-1024x1024.png",
       "url": "https://writehuman.ai/ai-detector",
