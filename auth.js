@@ -17,31 +17,6 @@ function eraseCookie(name) {
     document.cookie = name + '=; Max-Age=-99999999; path=/; path=/; SameSite=Lax; Secure';
 }
 
-function decodeGracelyToken(token) {
-    try {
-        const payloadBase64 = token.split('.')[1];
-        const decodedPayload = atob(payloadBase64.replace(/-/g, '+').replace(/_/g, '/'));
-        const payload = JSON.parse(decodedPayload);
-        
-        let isCurrentlyPremium = false;
-        if (payload.premium && payload.expiry) {
-            const expiryDate = new Date(payload.expiry);
-            const today = new Date();
-            if (today <= expiryDate) {
-                isCurrentlyPremium = true;
-            }
-        }
-        
-        return {
-            ...payload,
-            isCurrentlyPremium: isCurrentlyPremium
-        };
-    } catch (e) {
-        console.error("Gagal decode token:", e);
-        return null;
-    }
-}
-
 async function getUserId() {
     const { data: { user } } = await supabaseClient.auth.getUser();
     return user ? user.id : null;
@@ -62,7 +37,7 @@ async function getActiveSessionToken(userId) {
     try {
         const { data } = await supabaseClient
             .from('profiles')
-            .select('session_id, allow_multilogin, gracelyToken')
+            .select('session_id, allow_multilogin')
             .eq('id', userId)
             .single();
 
@@ -74,31 +49,17 @@ async function getActiveSessionToken(userId) {
 }
 
 async function getPremiumStatus(userId) {
-    return null;
-}
-
-async function generateGracelyToken(userId, userAccessToken) {
-    const EDGE_FUNCTION_URL = `${SUPABASE_URL}/functions/v1/generate-token`;
-    
+    if (!userId) return null;
     try {
-        const response = await fetch(EDGE_FUNCTION_URL, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'Authorization': `Bearer ${userAccessToken}`, 
-            },
-            body: JSON.stringify({ user_id: userId })
-        });
+        const { data } = await supabaseClient
+            .from('profiles')
+            .select('isPremium, premiumExpiryDate, configUrl')
+            .eq('id', userId)
+            .single();
 
-        if (!response.ok) {
-            const errorData = await response.json();
-            throw new Error(errorData.error || 'Gagal membuat token premium.');
-        }
+        return data; 
 
-        const data = await response.json();
-        return data.gracelyToken;
     } catch (error) {
-        console.error("Error generating token:", error);
         return null;
     }
 }
@@ -130,8 +91,7 @@ async function signup(name, email, password) {
                 last_sign_out: null,
                 last_ip: null,
                 last_browser: null,
-                config_hash: null,
-                gracelyToken: null
+                config_hash: null
             });
             
         if (profileError) {
@@ -159,36 +119,30 @@ async function login(email, password) {
         const now = new Date().toISOString();
         const clientIp = await getClientIp();
         const userAgent = navigator.userAgent; 
-        const supabaseSessionId = authData.session.access_token;
+        const sessionId = authData.session.access_token;
 
         let { data: profileData, error: profileError } = await supabaseClient
             .from('profiles')
-            .select('name') 
+            .select('*') 
             .eq('id', authData.user.id)
             .single();
 
-        // [PERBAIKAN BUG 'TypeError']
-        // Cek jika profil tidak ada (karena gagal signup)
-        if (!profileData && !profileError) {
-            const { error: createProfileError } = await supabaseClient
-                .from('profiles')
-                .insert({ id: authData.user.id, name: 'User' }); // Buat profil darurat
-            
-            if (createProfileError) {
-                 return { success: false, message: 'Login gagal: Gagal memperbaiki profil yang hilang.' };
-            }
-            profileData = { name: 'User' };
-        } else if (profileError) {
+        if (profileError) {
             throw profileError;
         }
+
+        const userName = profileData.name || 'User'; 
         
-        const userName = profileData.name || 'User';
-
-        const gracelyToken = await generateGracelyToken(authData.user.id, supabaseSessionId);
-
-        if (!gracelyToken) {
-            return { success: false, message: 'Login gagal: Gagal mengamankan token sesi premium.' };
+        let isCurrentlyPremium = false;
+        if (profileData.isPremium && profileData.premiumExpiryDate) {
+            const expiryDate = new Date(profileData.premiumExpiryDate);
+            const today = new Date();
+            if (today <= expiryDate) {
+                isCurrentlyPremium = true;
+            }
         }
+        
+        const configHash = isCurrentlyPremium ? profileData.configUrl.substring(0, 8) : 'NULL';
 
         const { error: updateSignInError } = await supabaseClient
             .from('profiles')
@@ -196,8 +150,8 @@ async function login(email, password) {
                 last_sign_in: now,
                 last_ip: clientIp,
                 last_browser: userAgent,
-                session_id: supabaseSessionId,
-                gracelyToken: gracelyToken
+                session_id: sessionId,
+                config_hash: configHash 
             })
             .eq('id', authData.user.id);
             
@@ -205,31 +159,39 @@ async function login(email, password) {
              console.warn(updateSignInError.message);
         }
 
-        localStorage.clear();
-        eraseCookie('gracely_active_session');
-        eraseCookie('is_premium');
-        eraseCookie('gracely_config_url');
-
         localStorage.setItem('isAuthenticated', 'true');
+        localStorage.setItem('userEmail', authData.user.email);
         localStorage.setItem('userName', userName); 
-        localStorage.setItem('gracelyToken', gracelyToken);
-        localStorage.setItem('gracely_active_session_token', supabaseSessionId);
+        localStorage.setItem('isPremium', isCurrentlyPremium);
+        localStorage.setItem('gracely_active_session_token', authData.session.access_token);
+
         setCookie('gracely_active_session', 'true', 30); 
+        setCookie('is_premium', isCurrentlyPremium ? 'true' : 'false', 30);
+
+        if (isCurrentlyPremium && profileData.configUrl) {
+            localStorage.setItem('premiumExpiryDate', profileData.premiumExpiryDate);
+            localStorage.setItem('gracelyPremiumConfig', profileData.configUrl);
+            setCookie('gracely_config_url', profileData.configUrl, 30); 
+        } else {
+            localStorage.removeItem('premiumExpiryDate');
+            localStorage.removeItem('gracelyPremiumConfig');
+            eraseCookie('gracely_config_url');
+        }
 
         return { success: true };
 
     } catch (error) {
         localStorage.clear();
+        
         eraseCookie('gracely_active_session');
         eraseCookie('is_premium');
         eraseCookie('gracely_config_url');
         localStorage.removeItem('gracely_active_session_token');
-        localStorage.removeItem('gracelyToken');
 
         if (error.message.includes("Invalid login credentials")) {
             return { success: false, message: 'Email atau password salah.' };
         }
-        return { success: false, message: 'Login gagal: ' + error.message };
+        return { success: false, message: error.message };
     }
 }
 
@@ -253,11 +215,7 @@ async function logout() {
         const now = new Date().toISOString();
         const { error: updateSignOutError } = await supabaseClient
             .from('profiles')
-            .update({ 
-                last_sign_out: now,
-                gracelyToken: null,
-                session_id: null
-             })
+            .update({ last_sign_out: now })
             .eq('id', userId);
 
         if (updateSignOutError) {
@@ -266,17 +224,18 @@ async function logout() {
     }
     
     localStorage.clear();
+
+    // Hapus semua cookies sesi (PERBAIKAN KEAMANAN)
     eraseCookie('gracely_active_session');
     eraseCookie('is_premium');
     eraseCookie('gracely_config_url');
     localStorage.removeItem('gracely_active_session_token');
-    localStorage.removeItem('gracelyToken');
 
     window.location.href = 'login.html';
 }
 
 function isAuthenticated() {
-    return localStorage.getItem('gracelyToken') ? true : false;
+    return localStorage.getItem('isAuthenticated') === 'true';
 }
 
 function requireAuth() {
