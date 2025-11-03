@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="assets/styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    
     <script src="auth.js"></script>
     <script>requireAuth();</script>
   </head>
@@ -122,7 +121,6 @@
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/main.js"></script>
-    <script src="auth.js"></script>
     <script src="layout.js"></script> 
     <script src="assets/script.js"></script> 
     <script>document.addEventListener('DOMContentLoaded',()=>{const planSection=document.getElementById('plan-status-section');const token=localStorage.getItem('gracelyToken');if(!token){planSection.innerHTML='<div class="menu-section"><div class="menu-section-plan-free">Error: Token Sesi Tidak Ditemukan.</div></div>';return}const tokenData=decodeGracelyToken(token);const isPremium=tokenData.isCurrentlyPremium;const expiryDateStr=tokenData.expiry;let planHTML='';if(isPremium&&expiryDateStr){const expiryDate=new Date(expiryDateStr);const today=new Date;today.setHours(0,0,0,0);const timeLeft=expiryDate.getTime()-today.getTime();const daysLeft=Math.ceil(timeLeft/864e5);planHTML='<div class="menu-section"><div class="menu-section-mini-header">Your plan</div><img src="assets/images/logo/gracely_mobile_white.png" alt="Logo" id="logo" class="top-right-image"><div class="menu-section-plan-premium">Premium</div><div class="menu-section-plan-description">You have access to Gracely Extension. <br><strong>Expires on: '+expiryDate.toLocaleDateString()+' ('+daysLeft+' days left)</strong></div></div>'}else{planHTML='<div class="menu-section"><div class="menu-section-mini-header">Your plan</div><img src="assets/images/logo/gracely_mobile_white.png" alt="Logo" id="logo" class="top-right-image"><div class="menu-section-plan-free">No Premium</div><div class="menu-section-plan-description">Premium is required to access Gracely Extension.</div></div>'}planSection.innerHTML=planHTML});</script>
