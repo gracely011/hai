@@ -5,22 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard | Gracely</title>
+
     <meta name="title" content="Dashboard | Gracely">
     <meta name="description" content="Manage your Gracely account and download extensions.">
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png"/>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/animate.css" />
     <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/ud-styles.css" />
     <link rel="stylesheet" href="assets/styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    
     <script src="auth.js"></script>
     <script>requireAuth();</script>
   </head>
   <body>
     <div id="announcement-placeholder"></div>
     <div id="navbar-placeholder"></div>
+    
     <section class="ud-page-banner">
       <div class="container">
         <div class="row">
@@ -34,7 +39,9 @@
     </section>
     <section class="dashboard">
       <div class="container">
+
         <div id="plan-status-section"></div>
+
         <div class="menu-section">
           <div class="menu-section-header">Account</div>
           <a href="#" class="menu-item">
@@ -50,6 +57,7 @@
             <span class="chevron">›</span>
           </a>
         </div>
+        
         <div class="menu-section">
           <div class="menu-section-header">Premium</div>
           <a href="#" class="menu-item">
@@ -65,6 +73,7 @@
             <span class="chevron">›</span>
           </a>
         </div>
+        
         <div class="menu-section">
           <div class="menu-section-header">Extension</div>
           <a href="httpsTUTORIAL.zip" class="menu-item"> <span class="icon"><i class="fa fa-download"></i></span> Download Gracely Guard (v1.0.4)
@@ -86,6 +95,7 @@
             <span class="chevron">›</span>
           </a>
         </div>
+
         <div id="videoModal" class="modal">
           <div class="modal-content">
               <video id="videoElement" controls loop width="100%" height="100%">
@@ -107,6 +117,7 @@
               </video>
           </div>
         </div>
+
         <div class="menu-section">
           <div class="menu-section-header">Service</div>
           <a href="#" class="menu-item">
@@ -117,12 +128,59 @@
       </div>
     </section>
     <div id="footer-placeholder"></div>
+
     <div id="back-to-top-placeholder"></div>
+
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/main.js"></script>
+    
+    <script src="auth.js"></script>
     <script src="layout.js"></script> 
     <script src="assets/script.js"></script> 
-    <script>document.addEventListener('DOMContentLoaded',()=>{const planSection=document.getElementById('plan-status-section');const token=localStorage.getItem('gracelyToken');if(!token){planSection.innerHTML='<div class="menu-section"><div class="menu-section-plan-free">Error: Token Sesi Tidak Ditemukan.</div></div>';return}const tokenData=decodeGracelyToken(token);const isPremium=tokenData.isCurrentlyPremium;const expiryDateStr=tokenData.expiry;let planHTML='';if(isPremium&&expiryDateStr){const expiryDate=new Date(expiryDateStr);const today=new Date;today.setHours(0,0,0,0);const timeLeft=expiryDate.getTime()-today.getTime();const daysLeft=Math.ceil(timeLeft/864e5);planHTML='<div class="menu-section"><div class="menu-section-mini-header">Your plan</div><img src="assets/images/logo/gracely_mobile_white.png" alt="Logo" id="logo" class="top-right-image"><div class="menu-section-plan-premium">Premium</div><div class="menu-section-plan-description">You have access to Gracely Extension. <br><strong>Expires on: '+expiryDate.toLocaleDateString()+' ('+daysLeft+' days left)</strong></div></div>'}else{planHTML='<div class="menu-section"><div class="menu-section-mini-header">Your plan</div><img src="assets/images/logo/gracely_mobile_white.png" alt="Logo" id="logo" class="top-right-image"><div class="menu-section-plan-free">No Premium</div><div class="menu-section-plan-description">Premium is required to access Gracely Extension.</div></div>'}planSection.innerHTML=planHTML});</script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const planSection = document.getElementById('plan-status-section');
+            const isPremium = localStorage.getItem('isPremium') === 'true';
+            const expiryDateStr = localStorage.getItem('premiumExpiryDate');
+            let planHTML = '';
+            if (isPremium && expiryDateStr) {
+                const expiryDate = new Date(expiryDateStr);
+                const today = new Date(); today.setHours(0, 0, 0, 0);
+                const timeLeft = expiryDate.getTime() - today.getTime();
+                const daysLeft = Math.ceil(timeLeft / (1000 * 60 * 60 * 24));
+                
+                planHTML = `
+                <div class="menu-section">
+                  <div class="menu-section-mini-header">
+                    Your plan
+                  </div>
+                  <img src="assets/images/logo/gracely_mobile_white.png" alt="Logo" id="logo" class="top-right-image">
+                  <div class="menu-section-plan-premium"> 
+                    Premium
+                  </div>
+                  <div class="menu-section-plan-description">
+                    You have access to Gracely Extension. <br>
+                    <strong>Expires on: ${expiryDate.toLocaleDateString()} (${daysLeft} days left)</strong>
+                  </div>
+                </div>`;
+            } else {
+                planHTML = `
+                <div class="menu-section">
+                  <div class="menu-section-mini-header">
+                    Your plan
+                  </div>
+                  <img src="assets/images/logo/gracely_mobile_white.png" alt="Logo" id="logo" class="top-right-image">
+                  <div class="menu-section-plan-free">
+                    No Premium
+                  </div>
+                  <div class="menu-section-plan-description">
+                    Premium is required to access Gracely Extension.
+                  </div>
+                </div>`;
+            }
+            planSection.innerHTML = planHTML;
+        });
+    </script>
   </body>
 </html>
