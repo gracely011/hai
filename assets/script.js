@@ -143,6 +143,7 @@ function initializeScripts() {
       localStorage.clear();
       localStorage.removeItem('gracely_active_session_token');
       
+      // Hapus semua cookies sesi (PERBAIKAN KEAMANAN)
       if (typeof eraseCookie === 'function') {
           eraseCookie('gracely_active_session');
           eraseCookie('gracely_config_url');
