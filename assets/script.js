@@ -161,6 +161,17 @@ function initializeScripts() {
   }
 
   function startSessionCheckLoop() {
+      // 1. Cek jika user login
+      if (localStorage.getItem('isAuthenticated') !== 'true') {
+          return;
+      }
+      
+      // 2. [PERBAIKAN BUG] JANGAN JALANKAN LOOP DI HALAMAN AUTH
+      const path = window.location.pathname;
+      if (path.endsWith('login.html') || path.endsWith('signup.html') || path.endsWith('reset.html') || path.endsWith('update-password.html')) {
+          return;
+      }
+
       const localSupabaseToken = localStorage.getItem('gracely_active_session_token'); 
       const localGracelyToken = localStorage.getItem('gracelyToken');
       
@@ -189,14 +200,11 @@ function initializeScripts() {
               const dbGracelyToken = profileSessionData.gracelyToken;
               const canMultiLogin = profileSessionData.allow_multilogin === true;
 
-              // 1. Cek Session Kick (Supabase Token)
               if (!canMultiLogin && dbSupabaseToken && dbSupabaseToken !== localSupabaseToken) {
                   handleMultiLoginKick("Akun Anda terdeteksi melakukan Login di perangkat atau browser lain.");
                   return;
               }
               
-              // 2. Cek Status Premium Kick (Gracely Token)
-              // Jika token di DB tidak sama dengan token di lokal, berarti Admin mengubah status
               if (dbGracelyToken && dbGracelyToken !== localGracelyToken) {
                    handleStatusUpdate(dbGracelyToken);
                    return;
