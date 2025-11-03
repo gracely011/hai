@@ -142,8 +142,8 @@ function initializeScripts() {
   function handleMultiLoginKick(message) {
       localStorage.clear();
       localStorage.removeItem('gracely_active_session_token');
-      localStorage.removeItem('gracelyToken');
       
+      // Hapus semua cookies sesi (PERBAIKAN KEAMANAN)
       if (typeof eraseCookie === 'function') {
           eraseCookie('gracely_active_session');
           eraseCookie('gracely_config_url');
@@ -154,36 +154,55 @@ function initializeScripts() {
       window.location.href = 'login.html';
   }
 
-  function handleStatusUpdate(newGracelyToken) {
-      localStorage.removeItem('gracelyToken');
-      localStorage.setItem('gracelyToken', newGracelyToken);
+  function handleStatusUpdate(dbStatus) {
+      
+      if (typeof eraseCookie === 'function') {
+          eraseCookie('is_premium');
+          eraseCookie('gracely_config_url');
+      }
+      localStorage.removeItem('isPremium');
+      localStorage.removeItem('premiumExpiryDate');
+      localStorage.removeItem('gracelyPremiumConfig');
+
+      const isPremium = dbStatus.isPremium;
+      
+      if (isPremium) {
+          if (typeof setCookie === 'function') {
+               setCookie('is_premium', 'true', 30);
+               setCookie('gracely_config_url', dbStatus.configUrl, 30);
+          }
+          localStorage.setItem('isPremium', 'true');
+          localStorage.setItem('premiumExpiryDate', dbStatus.premiumExpiryDate);
+          localStorage.setItem('gracelyPremiumConfig', dbStatus.configUrl);
+      } else {
+          if (typeof setCookie === 'function') {
+               setCookie('is_premium', 'false', 30);
+          }
+          localStorage.setItem('isPremium', 'false');
+      }
+
       window.location.reload(); 
   }
 
   function startSessionCheckLoop() {
-      // 1. Cek jika user login
       if (localStorage.getItem('isAuthenticated') !== 'true') {
           return;
       }
-      
-      // 2. [PERBAIKAN BUG] JANGAN JALANKAN LOOP DI HALAMAN AUTH
-      const path = window.location.pathname;
-      if (path.endsWith('login.html') || path.endsWith('signup.html') || path.endsWith('reset.html') || path.endsWith('update-password.html')) {
-          return;
-      }
 
-      const localSupabaseToken = localStorage.getItem('gracely_active_session_token'); 
-      const localGracelyToken = localStorage.getItem('gracelyToken');
+      const localSessionToken = localStorage.getItem('gracely_active_session_token'); 
+      const localIsPremium = localStorage.getItem('isPremium');
+      const localExpiryDate = localStorage.getItem('premiumExpiryDate');
+      const localConfigUrl = localStorage.getItem('gracelyPremiumConfig');
       
       const checkInterval = 5000;
 
-      if (!localSupabaseToken || !localGracelyToken) {
-          handleMultiLoginKick("Token sesi lokal hilang atau rusak.");
+      if (!localSessionToken) {
+          handleMultiLoginKick("Token sesi lokal hilang.");
           return;
       }
       
       setInterval(async () => {
-          if (typeof getUserId !== 'function' || typeof getActiveSessionToken !== 'function') {
+          if (typeof getUserId !== 'function' || typeof getActiveSessionToken !== 'function' || typeof getPremiumStatus !== 'function') {
               return;
           }
           
@@ -196,18 +215,32 @@ function initializeScripts() {
           const profileSessionData = await getActiveSessionToken(userId);
           
           if (profileSessionData) {
-              const dbSupabaseToken = profileSessionData.session_id;
-              const dbGracelyToken = profileSessionData.gracelyToken;
+              const dbSessionToken = profileSessionData.session_id;
               const canMultiLogin = profileSessionData.allow_multilogin === true;
 
-              if (!canMultiLogin && dbSupabaseToken && dbSupabaseToken !== localSupabaseToken) {
+              if (!canMultiLogin && dbSessionToken && dbSessionToken !== localSessionToken) {
                   handleMultiLoginKick("Akun Anda terdeteksi melakukan Login di perangkat atau browser lain.");
                   return;
               }
+          }
+          
+          const dbStatus = await getPremiumStatus(userId);
+          
+          if (dbStatus) {
+              const dbIsPremium = dbStatus.isPremium ? 'true' : 'false';
               
-              if (dbGracelyToken && dbGracelyToken !== localGracelyToken) {
-                   handleStatusUpdate(dbGracelyToken);
-                   return;
+              const isStatusChanged = (dbIsPremium !== localIsPremium);
+              
+              let isDataChanged = false;
+              if (dbIsPremium === 'true') {
+                  const dbExpiryDate = dbStatus.premiumExpiryDate;
+                  const dbConfigUrl = dbStatus.configUrl;
+                  
+                  isDataChanged = (dbExpiryDate != localExpiryDate) || (dbConfigUrl != localConfigUrl);
+              }
+
+              if (isStatusChanged || isDataChanged) {
+                   handleStatusUpdate(dbStatus);
               }
           }
 
