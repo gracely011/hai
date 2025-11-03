@@ -74,9 +74,6 @@ async function getActiveSessionToken(userId) {
 }
 
 async function getPremiumStatus(userId) {
-    // Fungsi ini tidak lagi mengambil status, tapi token
-    // Fungsi ini sekarang digantikan oleh getActiveSessionToken
-    // Kita biarkan kosong agar tidak error jika dipanggil di tempat lama
     return null;
 }
 
@@ -105,7 +102,6 @@ async function generateGracelyToken(userId, userAccessToken) {
         return null;
     }
 }
-
 
 async function signup(name, email, password) {
     try {
@@ -171,13 +167,23 @@ async function login(email, password) {
             .eq('id', authData.user.id)
             .single();
 
-        if (profileError) {
+        // [PERBAIKAN BUG 'TypeError']
+        // Cek jika profil tidak ada (karena gagal signup)
+        if (!profileData && !profileError) {
+            const { error: createProfileError } = await supabaseClient
+                .from('profiles')
+                .insert({ id: authData.user.id, name: 'User' }); // Buat profil darurat
+            
+            if (createProfileError) {
+                 return { success: false, message: 'Login gagal: Gagal memperbaiki profil yang hilang.' };
+            }
+            profileData = { name: 'User' };
+        } else if (profileError) {
             throw profileError;
         }
         
         const userName = profileData.name || 'User';
 
-        // Panggil Edge Function untuk membuat token aman
         const gracelyToken = await generateGracelyToken(authData.user.id, supabaseSessionId);
 
         if (!gracelyToken) {
@@ -199,20 +205,15 @@ async function login(email, password) {
              console.warn(updateSignInError.message);
         }
 
-        // Hapus semua penyimpanan lama
         localStorage.clear();
         eraseCookie('gracely_active_session');
         eraseCookie('is_premium');
         eraseCookie('gracely_config_url');
 
-        // Simpan data sesi baru yang aman
         localStorage.setItem('isAuthenticated', 'true');
         localStorage.setItem('userName', userName); 
         localStorage.setItem('gracelyToken', gracelyToken);
-        
-        // Simpan token Supabase (dibutuhkan untuk session kick)
         localStorage.setItem('gracely_active_session_token', supabaseSessionId);
-
         setCookie('gracely_active_session', 'true', 30); 
 
         return { success: true };
@@ -228,7 +229,7 @@ async function login(email, password) {
         if (error.message.includes("Invalid login credentials")) {
             return { success: false, message: 'Email atau password salah.' };
         }
-        return { success: false, message: error.message };
+        return { success: false, message: 'Login gagal: ' + error.message };
     }
 }
 
@@ -275,7 +276,6 @@ async function logout() {
 }
 
 function isAuthenticated() {
-    // Status login sekarang tergantung pada keberadaan gracelyToken
     return localStorage.getItem('gracelyToken') ? true : false;
 }
 
