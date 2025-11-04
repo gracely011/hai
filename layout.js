@@ -1,4 +1,3 @@
-// Kosongkan sesuai permintaan Anda
 const announcementBarHTML = ``;
 
 const defaultNavbarHTML = `
@@ -65,7 +64,6 @@ const loggedInNavbarHTML = (userName) => `
 </header>
 `;
 
-// [PERBAIKAN] Kode footer lengkap dari Groupy
 const footerHTML = `
 <footer class="ud-footer" data-wow-delay=".15s">
   <div class="shape shape-1">
@@ -172,13 +170,8 @@ const footerHTML = `
 
 const backToTopHTML = `<a href="javascript:void(0)" class="back-to-top"><i class="fa-solid fa-arrow-up"></i></a>`;
 
-/**
- * [FUNGSI DIPERBARUI]
- * Fungsi ini menargetkan tombol di index.html Groupy yang asli.
- */
 function modifyIndexPageContent() {
     const path = window.location.pathname;
-    // Diperbarui agar cocok dengan path GitHub Pages
     const isIndexPage = path.endsWith('/') || path.endsWith('/hai/') || path.endsWith('index.html'); 
 
     if (!isIndexPage) {
@@ -186,18 +179,14 @@ function modifyIndexPageContent() {
     }
 
     if (typeof isAuthenticated === 'function' && isAuthenticated()) {
-        // Cari tombol "Purchase" dan "Watch Demo" di hero section
         const purchaseButton = document.querySelector('#home .ud-hero-buttons .ud-white-btn');
-        const demoButton = document.querySelector('#home .ud-hero-buttons .ud-link-btn'); // Targetkan tombol demo
+        const demoButton = document.querySelector('#home .ud-hero-buttons .ud-link-btn'); 
 
-        // Ubah tombol "Purchase" menjadi "Go to Dashboard"
         if (purchaseButton) {
             purchaseButton.textContent = 'Go to Dashboard';
-            purchaseButton.href = 'dashboard.html'; // Path relatif
-            purchaseButton.removeAttribute('target'); // Hapus target jika ada
-            // (Tidak perlu ganti kelas karena sudah ud-white-btn)
+            purchaseButton.href = 'dashboard.html'; 
+            purchaseButton.removeAttribute('target'); 
         }
-
     }
 }
 
@@ -218,24 +207,15 @@ function loadLayout() {
             navbarPlaceholder.innerHTML = loggedInNavbarHTML(userName);
         } else {
             navbarPlaceholder.innerHTML = defaultNavbarHTML;
+            if (typeof setCookie === 'function') setCookie('UnangJahaCookieOnLae', 'true', 1);
         }
     }
 
-    // Panggil initializeScripts() dari scripts.js SETELAH layout dimuat
     if (typeof initializeScripts === 'function') {
       initializeScripts();
     }
     
-    // Panggil fungsi untuk memodifikasi index.html
     modifyIndexPageContent();
 }
 
 document.addEventListener("DOMContentLoaded", loadLayout);
-
-
-
-
-
-
-
-
