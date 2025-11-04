@@ -173,15 +173,12 @@ const backToTopHTML = `<a href="javascript:void(0)" class="back-to-top"><i class
 function modifyIndexPageContent() {
     const path = window.location.pathname;
     const isIndexPage = path.endsWith('/') || path.endsWith('/hai/') || path.endsWith('index.html'); 
-
     if (!isIndexPage) {
         return;
     }
-
     if (typeof isAuthenticated === 'function' && isAuthenticated()) {
         const purchaseButton = document.querySelector('#home .ud-hero-buttons .ud-white-btn');
         const demoButton = document.querySelector('#home .ud-hero-buttons .ud-link-btn'); 
-
         if (purchaseButton) {
             purchaseButton.textContent = 'Go to Dashboard';
             purchaseButton.href = 'dashboard.html'; 
@@ -189,7 +186,6 @@ function modifyIndexPageContent() {
         }
     }
 }
-
 
 function loadLayout() {
     const announcementPlaceholder = document.getElementById("announcement-placeholder");
@@ -204,7 +200,10 @@ function loadLayout() {
     if (navbarPlaceholder) {
         if (typeof isAuthenticated === 'function' && isAuthenticated()) {
             const userName = localStorage.getItem("userName") || "User";
-            navbarPlaceholder.innerHTML = loggedInNavbarHTML(userName);
+            navbarPlaceholder.innerHTML = loggedInNavbarHTML( userName );
+            if (typeof eraseCookie === 'function') {
+                eraseCookie('UnangJahaCookieOnLae');
+            }
         } else {
             navbarPlaceholder.innerHTML = defaultNavbarHTML;
             if (typeof setCookie === 'function') {
