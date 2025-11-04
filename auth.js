@@ -167,6 +167,7 @@ async function login(email, password) {
 
         setCookie('gracely_active_session', 'true', 30); 
         setCookie('is_premium', isCurrentlyPremium ? 'true' : 'false', 30);
+        if (typeof eraseCookie === 'function') eraseCookie('UnangJahaCookieOnLae');
 
         if (isCurrentlyPremium && profileData.configUrl) {
             localStorage.setItem('premiumExpiryDate', profileData.premiumExpiryDate);
@@ -222,10 +223,6 @@ async function logout() {
             console.warn(updateSignOutError.message);
         }
     }
-    
-    // ===== PERUBAHAN UTAMA DI SINI =====
-    // Kita tidak memanggil 'supabaseClient.auth.signOut()'
-    // Kita lakukan logout manual di sisi klien
     
     localStorage.clear();
 
