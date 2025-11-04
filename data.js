@@ -163,7 +163,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762260433.454137,
         "sameSite": "no_restriction",
         "domain": "www.academia.edu"
       }
@@ -2669,7 +2668,6 @@
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1762261623.123786,
         "sameSite": "no_restriction",
         "domain": ".brain.fm"
       },
@@ -2876,7 +2874,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762261632,
         "sameSite": "strict",
         "domain": ".my.brain.fm"
       }
@@ -3626,7 +3623,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762261689,
             "sameSite": "no_restriction",
             "domain": ".busuu.com"
           },
@@ -3850,529 +3846,246 @@
       "name": "Bypass | HIX AI",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrXZQ0Wq17Y4CjDKiytXbd1hG39lu6u-rBsw&s",
       "url": "https://hix.ai/app/bypass-ai-detection",
-      "category": "productivity",
-      "isGroup": true
+      "category": "productivity"
     },
-    "accounts": [
+    "cookies": [
       {
-        "name": "Bypass | HIX AI 1",
-        "cookies": [
-          {
-            "name": "__Secure-next-auth.callback-url",
-            "value": "https%3A%2F%2Fhix.ai%2Fsign-in",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "lax",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "__Secure-next-auth.session-token",
-            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..s_F-96PveUvrRGcP.GxiXUWIhOWRii2f0G_lWoJjw7FSRzduiIw9JnSph0ydMfDWmQ2qLh2steYLQYX5cf1lt17i5LzI7whMHyjlZyJQySZFkhL6j6sFanShsSiZMG4lUxgFb3ggjy3Smd9kgsMZkHoMIPEPN2_kX0j0XfUeTzAWc0F9avoLnCUiLTim3p1uJNvzoYwUsSAcS6rLaoDTQZpIeSkgrohXsaBETQW0DwVzmVGdvV7g366E7gLHPiCwclq7YqjDGYy1Ux6oPENhTLpAyaMczORfh6RRKAwulrcgScdpo_P7LGVSg4e7MHeg9Rr9JAlBue4hGpNm2CMLMsUgZIeJbtZH5U-4lQJu1tcqRKcjhRZSfTfKETmma4gI_qTDgaA-BLqvK_ceKbN_BJClDRhs.CdJDjlxVB-D_aBvtMMS6Kg",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1769840696.354957,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_ce.clock_data",
-            "value": "-132%2C36.76.152.160%2C1%2Cc4f67afc2a327ed63ef9855b149e20a6%2COpera%2CID",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "strict",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_ce.s",
-            "value": "v~4f710e21ebe81b6922b7a956507f181dd8e2a644~lcw~1762064636283~vir~new~lva~1762017671828~vpv~0~v11ls~82ab5c30-b7b4-11f0-83a0-29c108dbc5fc~v11.cs~458893~v11.s~82ab5c30-b7b4-11f0-83a0-29c108dbc5fc~v11.vs~4f710e21ebe81b6922b7a956507f181dd8e2a644~v11.fsvd~eyJ1cmwiOiJoaXguYWkvYXBwL2J5cGFzcy1haS1kZXRlY3Rpb24iLCJyZWYiOiIiLCJ1dG0iOltdfQ%3D%3D~v11.sla~1762064636278~v11.ss~1762064636283~lcw~1762064636286",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1793600636,
-            "sameSite": "strict",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_clck",
-            "value": "vrye7c%5E2%5Eg0o%5E0%5E2085",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1793600635,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_clsk",
-            "value": "11r6svp%5E1762064637560%5E1%5E1%5Ej.clarity.ms%2Fcollect",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_fbp",
-            "value": "fb.1.1758001561678.433072511371420926",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1769840696,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_ga",
-            "value": "GA1.1.824288062.1758001561",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1796624634.50698,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_ga_JS0YXNKF22",
-            "value": "GS2.1.s1762064633$o2$g1$t1762064634$j59$l0$h0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1796624634.587105,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_ga_NSMTS5QKXE",
-            "value": "GS2.1.s1762064633$o4$g1$t1762064634$j59$l0$h0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1796624634.594072,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_gcl_au",
-            "value": "1.1.912591999.1758001561.131509169.1758001564.1758001564",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1765777561,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_tt_enable_cookie",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795760696,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_ttp",
-            "value": "01K58GY0CQ6V0KNRYEAZ08J1YY_.tt.1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795760696,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_uetsid",
-            "value": "290c7d20b74711f0b99c7339090ec95d",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_uetvid",
-            "value": "03f741a06b4c11f0a2a78756b89e0a10",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795760634,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_yjsu_yjad",
-            "value": "1762017670.acf6b961-ff31-41b9-975d-502564efae3b",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1793553670,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "cebs",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "strict",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "cebsp_",
-            "value": "4",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "strict",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "device-id",
-            "value": "90aa7d721f7d313c6c9f0f368832cc37",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1766641561,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "first-visit-url",
-            "value": "https%3A%2F%2Fhix.ai%2Fsign-in",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1766641561,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "FPID",
-            "value": "FPID2.2.jse1iUYvV67GpWomW3dGhkUAJmunT5d3joRms2%2Buuww%3D.1758001561",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1796624634.743731,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "FPLC",
-            "value": "bbzYX6EiO74sbkBfRgAO%2FqKmlPJ2fTtNai6fFvqxvHlaQoXFOZRvvLzTvk9%2Bu%2BwbPEMy9HbsHmEj%2F%2FtILbwdNPjPo8v2iuNJGv8XqZPaCErSdKa%2FLCjvkxd94I4h6Q%3D%3D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "sign",
-            "value": "4d7a7847506c77555764694e43514338714f374468462b363645634b48344a7a737739697a2f492f535130546975646d565442794f726f4f6d6873334a684748",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1765777650,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "ttcsid",
-            "value": "1762064634938::gySm-7qqEj5V-Y9jnXGP.2.1762064696780.0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795760696,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "ttcsid_CVDREMRC77U6RTOFKU10",
-            "value": "1762064634938::UbS5PettLcbfm0yIL2DN.2.1762064696779.0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795760696,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "user-info",
-            "value": "%7B%22id%22%3A%22cmff6q14t1igs4kjayittqfzi%22%2C%22name%22%3A%22%22%2C%22email%22%3A%22futureisgold%40gmail.com%22%2C%22firstName%22%3A%22%22%2C%22lastName%22%3A%22%22%2C%22image%22%3A%22%22%7D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1769840635.068134,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "user_group",
-            "value": "120",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1796624634.641192,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "__Host-next-auth.csrf-token",
-            "value": "f699906013395224e7b94a66ca1103aaefb5a7cc726320f04f2170f6c9bca7e5%7C55547119068e60aa6d524536563eda819b9401b27f6eb04caad4a2a605042f41",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "lax"
-          }
-        ],
-        "sourceUrl": "https://hix.ai/app/bypass-ai-detection"
+        "name": "__Secure-next-auth.callback-url",
+        "value": "https%3A%2F%2Fhix.ai%2Fsign-in",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "lax",
+        "domain": ".hix.ai"
       },
       {
-        "name": "Bypass | HIX AI 2",
-        "cookies": [
-          {
-            "name": "__Secure-next-auth.callback-url",
-            "value": "https%3A%2F%2Fhix.ai%2Fsign-in",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "lax",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "__Secure-next-auth.session-token",
-            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..J4PDb-VXSLPhYxGH.HlqaiCir5Tuf4HIjseIQyahXp5H-j7oe7ntpOlpoiefrQUztqA-xzenG9-D99H9kUHInkWfCmUkln0wLISelkyzw3b7UHSrVCWI15sGiqGnHwPz2dvP_mvyVr5dtCewZ9qsjdXsVvqhgz43pVyZMelcw_pjoTXe3M7-b5yqFavQ2c8kRDy7sWjTPlXM87yBCgwvXBy7rjmjbOyihxqCUiqvX48U4M2DjdAVK3W6fH33hQHRM8NtIMEXD8B6nyKPTkbUDMYmQbLtgqQ7AIMRLFg5DxVHw25aEdEDnyosHx23Q9xMc2aLOnsT8tJ7LQN4h0kabZdX3hDkyAO7moesoXdYKZVn77OtdkeMm1ac222sx1G8a6KONJGUXjonTWeu-i9Gny_xTKOA.agi7SaucLJ4ypI3_TnWtJw",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1770035949.168048,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_ce.s",
-            "value": "v~4f710e21ebe81b6922b7a956507f181dd8e2a644~lcw~1762064636283~vir~new~lva~1762017671828~vpv~0~v11ls~82ab5c30-b7b4-11f0-83a0-29c108dbc5fc~v11.cs~458893~v11.s~82ab5c30-b7b4-11f0-83a0-29c108dbc5fc~v11.vs~4f710e21ebe81b6922b7a956507f181dd8e2a644~v11.fsvd~eyJ1cmwiOiJoaXguYWkvYXBwL2J5cGFzcy1haS1kZXRlY3Rpb24iLCJyZWYiOiIiLCJ1dG0iOltdfQ%3D%3D~v11.sla~1762064636278~v11.ss~1762064636283~lcw~1762064636286",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1793600636,
-            "sameSite": "strict",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_clck",
-            "value": "vrye7c%5E2%5Efzd%5E0%5E2085",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1789537561,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_fbp",
-            "value": "fb.1.1758001561678.433072511371420926",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1765777650,
-            "sameSite": "lax",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_ga",
-            "value": "GA1.1.824288062.1758001561",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1792561630.152963,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_ga_JS0YXNKF22",
-            "value": "GS2.1.s1758001561$o1$g1$t1758001651$j38$l0$h0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1792561651.112978,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_ga_NSMTS5QKXE",
-            "value": "GS2.1.s1758001546$o3$g1$t1758001651$j26$l0$h0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1792561651.118263,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_gcl_au",
-            "value": "1.1.912591999.1758001561.131509169.1758001564.1758001564",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1765777561,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_tt_enable_cookie",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791697629,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_ttp",
-            "value": "01K58GY0CQ6V0KNRYEAZ08J1YY_.tt.1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791697629,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_uetvid",
-            "value": "03f741a06b4c11f0a2a78756b89e0a10",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791697650,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_yjsu_yjad",
-            "value": "1762017670.acf6b961-ff31-41b9-975d-502564efae3b",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1793553670,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "cebs",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "strict",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "cebsp_",
-            "value": "4",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "strict",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "device-id",
-            "value": "90aa7d721f7d313c6c9f0f368832cc37",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1766641561,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "first-visit-url",
-            "value": "https%3A%2F%2Fhix.ai%2Fsign-in",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1766641561,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "FPID",
-            "value": "FPID2.2.jse1iUYvV67GpWomW3dGhkUAJmunT5d3joRms2%2Buuww%3D.1758001561",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1792561630.196154,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "sign",
-            "value": "4d7a7847506c77555764694e43514338714f374468462b363645634b48344a7a737739697a2f492f535130546975646d565442794f726f4f6d6873334a684748",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1765777650,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "ttcsid",
-            "value": "1758001562010::FLQD-K_yrznYcMTo6AVX.1.1758001650088",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791697650,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "ttcsid_CVDREMRC77U6RTOFKU10",
-            "value": "1758001562009::AUnkQbwc7oj0XJltK53G.1.1758001650307",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791697650,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "user-info",
-            "value": "%7B%22id%22%3A%22cmff6q14t1igs4kjayittqfzi%22%2C%22name%22%3A%22%22%2C%22email%22%3A%22futureisgold%40gmail.com%22%2C%22firstName%22%3A%22%22%2C%22lastName%22%3A%22%22%2C%22image%22%3A%22%22%7D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1770035861.519953,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "user_group",
-            "value": "120",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1796819861.008942,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "__Host-next-auth.csrf-token",
-            "value": "f699906013395224e7b94a66ca1103aaefb5a7cc726320f04f2170f6c9bca7e5%7C55547119068e60aa6d524536563eda819b9401b27f6eb04caad4a2a605042f41",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "lax"
-          }
-        ],
-        "sourceUrl": "https://hix.ai/app/bypass-ai-detection"
+        "name": "__Secure-next-auth.session-token",
+        "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..J4PDb-VXSLPhYxGH.HlqaiCir5Tuf4HIjseIQyahXp5H-j7oe7ntpOlpoiefrQUztqA-xzenG9-D99H9kUHInkWfCmUkln0wLISelkyzw3b7UHSrVCWI15sGiqGnHwPz2dvP_mvyVr5dtCewZ9qsjdXsVvqhgz43pVyZMelcw_pjoTXe3M7-b5yqFavQ2c8kRDy7sWjTPlXM87yBCgwvXBy7rjmjbOyihxqCUiqvX48U4M2DjdAVK3W6fH33hQHRM8NtIMEXD8B6nyKPTkbUDMYmQbLtgqQ7AIMRLFg5DxVHw25aEdEDnyosHx23Q9xMc2aLOnsT8tJ7LQN4h0kabZdX3hDkyAO7moesoXdYKZVn77OtdkeMm1ac222sx1G8a6KONJGUXjonTWeu-i9Gny_xTKOA.agi7SaucLJ4ypI3_TnWtJw",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1770035949.168048,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_ce.s",
+        "value": "v~4f710e21ebe81b6922b7a956507f181dd8e2a644~lcw~1762064636283~vir~new~lva~1762017671828~vpv~0~v11ls~82ab5c30-b7b4-11f0-83a0-29c108dbc5fc~v11.cs~458893~v11.s~82ab5c30-b7b4-11f0-83a0-29c108dbc5fc~v11.vs~4f710e21ebe81b6922b7a956507f181dd8e2a644~v11.fsvd~eyJ1cmwiOiJoaXguYWkvYXBwL2J5cGFzcy1haS1kZXRlY3Rpb24iLCJyZWYiOiIiLCJ1dG0iOltdfQ%3D%3D~v11.sla~1762064636278~v11.ss~1762064636283~lcw~1762064636286",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1793600636,
+        "sameSite": "strict",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_clck",
+        "value": "vrye7c%5E2%5Efzd%5E0%5E2085",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1789537561,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_fbp",
+        "value": "fb.1.1758001561678.433072511371420926",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1765777650,
+        "sameSite": "lax",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.824288062.1758001561",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1792561630.152963,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_ga_JS0YXNKF22",
+        "value": "GS2.1.s1758001561$o1$g1$t1758001651$j38$l0$h0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1792561651.112978,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_ga_NSMTS5QKXE",
+        "value": "GS2.1.s1758001546$o3$g1$t1758001651$j26$l0$h0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1792561651.118263,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_gcl_au",
+        "value": "1.1.912591999.1758001561.131509169.1758001564.1758001564",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1765777561,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_tt_enable_cookie",
+        "value": "1",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1791697629,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_ttp",
+        "value": "01K58GY0CQ6V0KNRYEAZ08J1YY_.tt.1",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1791697629,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_uetvid",
+        "value": "03f741a06b4c11f0a2a78756b89e0a10",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1791697650,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_yjsu_yjad",
+        "value": "1762017670.acf6b961-ff31-41b9-975d-502564efae3b",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1793553670,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "cebs",
+        "value": "1",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "strict",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "cebsp_",
+        "value": "4",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "strict",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "device-id",
+        "value": "90aa7d721f7d313c6c9f0f368832cc37",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1766641561,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "first-visit-url",
+        "value": "https%3A%2F%2Fhix.ai%2Fsign-in",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1766641561,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "FPID",
+        "value": "FPID2.2.jse1iUYvV67GpWomW3dGhkUAJmunT5d3joRms2%2Buuww%3D.1758001561",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1792561630.196154,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "sign",
+        "value": "4d7a7847506c77555764694e43514338714f374468462b363645634b48344a7a737739697a2f492f535130546975646d565442794f726f4f6d6873334a684748",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1765777650,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "ttcsid",
+        "value": "1758001562010::FLQD-K_yrznYcMTo6AVX.1.1758001650088",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1791697650,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "ttcsid_CVDREMRC77U6RTOFKU10",
+        "value": "1758001562009::AUnkQbwc7oj0XJltK53G.1.1758001650307",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1791697650,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "user-info",
+        "value": "%7B%22id%22%3A%22cmff6q14t1igs4kjayittqfzi%22%2C%22name%22%3A%22%22%2C%22email%22%3A%22futureisgold%40gmail.com%22%2C%22firstName%22%3A%22%22%2C%22lastName%22%3A%22%22%2C%22image%22%3A%22%22%7D",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1770035861.519953,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "user_group",
+        "value": "120",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1796819861.008942,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "__Host-next-auth.csrf-token",
+        "value": "f699906013395224e7b94a66ca1103aaefb5a7cc726320f04f2170f6c9bca7e5%7C55547119068e60aa6d524536563eda819b9401b27f6eb04caad4a2a605042f41",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "lax"
       }
-    ]
+    ],
+    "sourceUrl": "https://hix.ai/app/bypass-ai-detection"
   },
   {
     "meta": {
@@ -7598,539 +7311,256 @@
       "name": "Chat | HIX AI",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrXZQ0Wq17Y4CjDKiytXbd1hG39lu6u-rBsw&s",
       "url": "https://hix.ai/id/home",
-      "category": "productivity",
-      "isGroup": true
+      "category": "productivity"
     },
-    "accounts": [
+    "cookies": [
       {
-        "name": "Chat | HIX AI 1",
-        "cookies": [
-          {
-            "name": "__Secure-next-auth.callback-url",
-            "value": "https%3A%2F%2Fhix.ai%2Fsign-in",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "lax",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "__Secure-next-auth.session-token",
-            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..s_F-96PveUvrRGcP.GxiXUWIhOWRii2f0G_lWoJjw7FSRzduiIw9JnSph0ydMfDWmQ2qLh2steYLQYX5cf1lt17i5LzI7whMHyjlZyJQySZFkhL6j6sFanShsSiZMG4lUxgFb3ggjy3Smd9kgsMZkHoMIPEPN2_kX0j0XfUeTzAWc0F9avoLnCUiLTim3p1uJNvzoYwUsSAcS6rLaoDTQZpIeSkgrohXsaBETQW0DwVzmVGdvV7g366E7gLHPiCwclq7YqjDGYy1Ux6oPENhTLpAyaMczORfh6RRKAwulrcgScdpo_P7LGVSg4e7MHeg9Rr9JAlBue4hGpNm2CMLMsUgZIeJbtZH5U-4lQJu1tcqRKcjhRZSfTfKETmma4gI_qTDgaA-BLqvK_ceKbN_BJClDRhs.CdJDjlxVB-D_aBvtMMS6Kg",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1769840696.354957,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_ce.clock_data",
-            "value": "-132%2C36.76.152.160%2C1%2Cc4f67afc2a327ed63ef9855b149e20a6%2COpera%2CID",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "strict",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_ce.s",
-            "value": "v~4f710e21ebe81b6922b7a956507f181dd8e2a644~lcw~1762064636283~vir~new~lva~1762017671828~vpv~0~v11ls~82ab5c30-b7b4-11f0-83a0-29c108dbc5fc~v11.cs~458893~v11.s~82ab5c30-b7b4-11f0-83a0-29c108dbc5fc~v11.vs~4f710e21ebe81b6922b7a956507f181dd8e2a644~v11.fsvd~eyJ1cmwiOiJoaXguYWkvYXBwL2J5cGFzcy1haS1kZXRlY3Rpb24iLCJyZWYiOiIiLCJ1dG0iOltdfQ%3D%3D~v11.sla~1762064636278~v11.ss~1762064636283~lcw~1762064636286",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1793600636,
-            "sameSite": "strict",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_clck",
-            "value": "vrye7c%5E2%5Eg0o%5E0%5E2085",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1793600635,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_clsk",
-            "value": "11r6svp%5E1762064637560%5E1%5E1%5Ej.clarity.ms%2Fcollect",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_fbp",
-            "value": "fb.1.1758001561678.433072511371420926",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1769840696,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_ga",
-            "value": "GA1.1.824288062.1758001561",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1796624634.50698,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_ga_JS0YXNKF22",
-            "value": "GS2.1.s1762064633$o2$g1$t1762064697$j60$l0$h0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1796624697.933955,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_ga_NSMTS5QKXE",
-            "value": "GS2.1.s1762064633$o4$g1$t1762064697$j60$l0$h0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1796624697.940427,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_gcl_au",
-            "value": "1.1.912591999.1758001561.131509169.1758001564.1758001564",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1765777561,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_tt_enable_cookie",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795760696,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_ttp",
-            "value": "01K58GY0CQ6V0KNRYEAZ08J1YY_.tt.1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795760696,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_uetsid",
-            "value": "290c7d20b74711f0b99c7339090ec95d",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_uetvid",
-            "value": "03f741a06b4c11f0a2a78756b89e0a10",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795760634,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_yjsu_yjad",
-            "value": "1762017670.acf6b961-ff31-41b9-975d-502564efae3b",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1793553670,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "cebs",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "strict",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "cebsp_",
-            "value": "4",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "strict",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "device-id",
-            "value": "90aa7d721f7d313c6c9f0f368832cc37",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1766641561,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "first-visit-url",
-            "value": "https%3A%2F%2Fhix.ai%2Fsign-in",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1766641561,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "FPID",
-            "value": "FPID2.2.jse1iUYvV67GpWomW3dGhkUAJmunT5d3joRms2%2Buuww%3D.1758001561",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1796624634.743731,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "FPLC",
-            "value": "bbzYX6EiO74sbkBfRgAO%2FqKmlPJ2fTtNai6fFvqxvHlaQoXFOZRvvLzTvk9%2Bu%2BwbPEMy9HbsHmEj%2F%2FtILbwdNPjPo8v2iuNJGv8XqZPaCErSdKa%2FLCjvkxd94I4h6Q%3D%3D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "sign",
-            "value": "4d7a7847506c77555764694e43514338714f374468462b363645634b48344a7a737739697a2f492f535130546975646d565442794f726f4f6d6873334a684748",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1765777650,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "ttcsid",
-            "value": "1762064634938::gySm-7qqEj5V-Y9jnXGP.2.1762064697000.0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795760697,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "ttcsid_CVDREMRC77U6RTOFKU10",
-            "value": "1762064634938::UbS5PettLcbfm0yIL2DN.2.1762064697000.0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795760697,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "user-info",
-            "value": "%7B%22id%22%3A%22cmff6q14t1igs4kjayittqfzi%22%2C%22name%22%3A%22%22%2C%22email%22%3A%22futureisgold%40gmail.com%22%2C%22firstName%22%3A%22%22%2C%22lastName%22%3A%22%22%2C%22image%22%3A%22%22%7D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1769840635.068134,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "user_group",
-            "value": "120",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1796624634.641192,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "__Host-next-auth.csrf-token",
-            "value": "f699906013395224e7b94a66ca1103aaefb5a7cc726320f04f2170f6c9bca7e5%7C55547119068e60aa6d524536563eda819b9401b27f6eb04caad4a2a605042f41",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "lax"
-          }
-        ],
-        "sourceUrl": "https://hix.ai/id/home"
+        "name": "__Secure-next-auth.callback-url",
+        "value": "https%3A%2F%2Fhix.ai%2Fsign-in",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "lax",
+        "domain": ".hix.ai"
       },
       {
-        "name": "Chat | HIX AI 2",
-        "cookies": [
-          {
-            "name": "__Secure-next-auth.callback-url",
-            "value": "https%3A%2F%2Fhix.ai%2Fsign-in",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "lax",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "__Secure-next-auth.session-token",
-            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..ip6Z6hoJHU4vKc67.PbSSNP032fM-M6NMu-s10zKsHwIXQIb4_CksjRnukU8pZk65gqdO1FHDj31ZPsmYy2q_N4Dbc5il2t5z5ci1QtJpDW0LJS1d_oMepRvjNi6Yc3HMOPsMcVKCH51bohRf6E1XeXxFiP8CwSr6IXAHHSmYm8O5fQrQbv2HbfY9EyxWz-0zb3nMS-cbwDVjyloX7ZVCRXDG013xC45My7sEwc3ZPGHDUyCSMptt3xByt4ERHm-U1hhq-M7If0JuHXgURv0TXhvkVURdBJoNu-tBGMV1vAmfSLhp06JKT963GzebVhDqGMs60omaOsl1t8rtH6IiFBHeDbsXDKYx0QcaISuuNiK1_s2sZk1nlXxnGcyTI9A-P4gN775pBf1VsDD-tZ4eTzuZMN8.D6xz63u8xMpC-Z6Xs_8dgg",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1770035951.527896,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_ce.s",
-            "value": "v~4f710e21ebe81b6922b7a956507f181dd8e2a644~lcw~1762064636283~vir~new~lva~1762017671828~vpv~0~v11ls~82ab5c30-b7b4-11f0-83a0-29c108dbc5fc~v11.cs~458893~v11.s~82ab5c30-b7b4-11f0-83a0-29c108dbc5fc~v11.vs~4f710e21ebe81b6922b7a956507f181dd8e2a644~v11.fsvd~eyJ1cmwiOiJoaXguYWkvYXBwL2J5cGFzcy1haS1kZXRlY3Rpb24iLCJyZWYiOiIiLCJ1dG0iOltdfQ%3D%3D~v11.sla~1762064636278~v11.ss~1762064636283~lcw~1762064636286",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1793600636,
-            "sameSite": "strict",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_clck",
-            "value": "vrye7c%5E2%5Eg0q%5E0%5E2085",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1793795950,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_fbp",
-            "value": "fb.1.1758001561678.433072511371420926",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1765777650,
-            "sameSite": "lax",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_ga",
-            "value": "GA1.1.824288062.1758001561",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1792561630.152963,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_ga_JS0YXNKF22",
-            "value": "GS2.1.s1758001561$o1$g1$t1758001651$j38$l0$h0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1792561651.112978,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_ga_NSMTS5QKXE",
-            "value": "GS2.1.s1758001546$o3$g1$t1758001651$j26$l0$h0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1792561651.118263,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_gcl_au",
-            "value": "1.1.912591999.1758001561.131509169.1758001564.1758001564",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1765777561,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_tt_enable_cookie",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795955952,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_ttp",
-            "value": "01K58GY0CQ6V0KNRYEAZ08J1YY_.tt.1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795955952,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_uetsid",
-            "value": "426c1ef0b97b11f089c28b791474b0a3",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1762346352,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_uetvid",
-            "value": "03f741a06b4c11f0a2a78756b89e0a10",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795955952,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "_yjsu_yjad",
-            "value": "1762017670.acf6b961-ff31-41b9-975d-502564efae3b",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1793553670,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "cebs",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "strict",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "cebsp_",
-            "value": "4",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "strict",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "device-id",
-            "value": "90aa7d721f7d313c6c9f0f368832cc37",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1766641561,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "first-visit-url",
-            "value": "https%3A%2F%2Fhix.ai%2Fsign-in",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1766641561,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "FPID",
-            "value": "FPID2.2.jse1iUYvV67GpWomW3dGhkUAJmunT5d3joRms2%2Buuww%3D.1758001561",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1792561630.196154,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "sign",
-            "value": "4d7a7847506c77555764694e43514338714f374468462b363645634b48344a7a737739697a2f492f535130546975646d565442794f726f4f6d6873334a684748",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1765777650,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "ttcsid",
-            "value": "1762259949623::qJr9VmooOmIXsZQoVPDS.2.1762259952623.0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795955952,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "ttcsid_CVDREMRC77U6RTOFKU10",
-            "value": "1762259949622::RJx74ryk6EK3NC4b4QNY.2.1762259952623.0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795955952,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "user-info",
-            "value": "%7B%22id%22%3A%22cmff6q14t1igs4kjayittqfzi%22%2C%22name%22%3A%22%22%2C%22email%22%3A%22futureisgold%40gmail.com%22%2C%22firstName%22%3A%22%22%2C%22lastName%22%3A%22%22%2C%22image%22%3A%22%22%7D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1770035861.519953,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "user_group",
-            "value": "120",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1796819861.008942,
-            "sameSite": "no_restriction",
-            "domain": ".hix.ai"
-          },
-          {
-            "name": "__Host-next-auth.csrf-token",
-            "value": "f699906013395224e7b94a66ca1103aaefb5a7cc726320f04f2170f6c9bca7e5%7C55547119068e60aa6d524536563eda819b9401b27f6eb04caad4a2a605042f41",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "lax"
-          }
-        ],
-        "sourceUrl": "https://hix.ai/id/home"
+        "name": "__Secure-next-auth.session-token",
+        "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..ip6Z6hoJHU4vKc67.PbSSNP032fM-M6NMu-s10zKsHwIXQIb4_CksjRnukU8pZk65gqdO1FHDj31ZPsmYy2q_N4Dbc5il2t5z5ci1QtJpDW0LJS1d_oMepRvjNi6Yc3HMOPsMcVKCH51bohRf6E1XeXxFiP8CwSr6IXAHHSmYm8O5fQrQbv2HbfY9EyxWz-0zb3nMS-cbwDVjyloX7ZVCRXDG013xC45My7sEwc3ZPGHDUyCSMptt3xByt4ERHm-U1hhq-M7If0JuHXgURv0TXhvkVURdBJoNu-tBGMV1vAmfSLhp06JKT963GzebVhDqGMs60omaOsl1t8rtH6IiFBHeDbsXDKYx0QcaISuuNiK1_s2sZk1nlXxnGcyTI9A-P4gN775pBf1VsDD-tZ4eTzuZMN8.D6xz63u8xMpC-Z6Xs_8dgg",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1770035951.527896,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_ce.s",
+        "value": "v~4f710e21ebe81b6922b7a956507f181dd8e2a644~lcw~1762064636283~vir~new~lva~1762017671828~vpv~0~v11ls~82ab5c30-b7b4-11f0-83a0-29c108dbc5fc~v11.cs~458893~v11.s~82ab5c30-b7b4-11f0-83a0-29c108dbc5fc~v11.vs~4f710e21ebe81b6922b7a956507f181dd8e2a644~v11.fsvd~eyJ1cmwiOiJoaXguYWkvYXBwL2J5cGFzcy1haS1kZXRlY3Rpb24iLCJyZWYiOiIiLCJ1dG0iOltdfQ%3D%3D~v11.sla~1762064636278~v11.ss~1762064636283~lcw~1762064636286",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1793600636,
+        "sameSite": "strict",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_clck",
+        "value": "vrye7c%5E2%5Eg0q%5E0%5E2085",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1793795950,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_fbp",
+        "value": "fb.1.1758001561678.433072511371420926",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1765777650,
+        "sameSite": "lax",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.824288062.1758001561",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1792561630.152963,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_ga_JS0YXNKF22",
+        "value": "GS2.1.s1758001561$o1$g1$t1758001651$j38$l0$h0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1792561651.112978,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_ga_NSMTS5QKXE",
+        "value": "GS2.1.s1758001546$o3$g1$t1758001651$j26$l0$h0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1792561651.118263,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_gcl_au",
+        "value": "1.1.912591999.1758001561.131509169.1758001564.1758001564",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1765777561,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_tt_enable_cookie",
+        "value": "1",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1795955952,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_ttp",
+        "value": "01K58GY0CQ6V0KNRYEAZ08J1YY_.tt.1",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1795955952,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_uetsid",
+        "value": "426c1ef0b97b11f089c28b791474b0a3",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1762346352,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_uetvid",
+        "value": "03f741a06b4c11f0a2a78756b89e0a10",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1795955952,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "_yjsu_yjad",
+        "value": "1762017670.acf6b961-ff31-41b9-975d-502564efae3b",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1793553670,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "cebs",
+        "value": "1",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "strict",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "cebsp_",
+        "value": "4",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "strict",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "device-id",
+        "value": "90aa7d721f7d313c6c9f0f368832cc37",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1766641561,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "first-visit-url",
+        "value": "https%3A%2F%2Fhix.ai%2Fsign-in",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1766641561,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "FPID",
+        "value": "FPID2.2.jse1iUYvV67GpWomW3dGhkUAJmunT5d3joRms2%2Buuww%3D.1758001561",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1792561630.196154,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "sign",
+        "value": "4d7a7847506c77555764694e43514338714f374468462b363645634b48344a7a737739697a2f492f535130546975646d565442794f726f4f6d6873334a684748",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1765777650,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "ttcsid",
+        "value": "1762259949623::qJr9VmooOmIXsZQoVPDS.2.1762259952623.0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1795955952,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "ttcsid_CVDREMRC77U6RTOFKU10",
+        "value": "1762259949622::RJx74ryk6EK3NC4b4QNY.2.1762259952623.0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1795955952,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "user-info",
+        "value": "%7B%22id%22%3A%22cmff6q14t1igs4kjayittqfzi%22%2C%22name%22%3A%22%22%2C%22email%22%3A%22futureisgold%40gmail.com%22%2C%22firstName%22%3A%22%22%2C%22lastName%22%3A%22%22%2C%22image%22%3A%22%22%7D",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1770035861.519953,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "user_group",
+        "value": "120",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1796819861.008942,
+        "sameSite": "no_restriction",
+        "domain": ".hix.ai"
+      },
+      {
+        "name": "__Host-next-auth.csrf-token",
+        "value": "f699906013395224e7b94a66ca1103aaefb5a7cc726320f04f2170f6c9bca7e5%7C55547119068e60aa6d524536563eda819b9401b27f6eb04caad4a2a605042f41",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "lax"
       }
-    ]
+    ],
+    "sourceUrl": "https://hix.ai/id/home"
   },
   {
     "meta": {
@@ -8339,7 +7769,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762261327.326303,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -8590,7 +8019,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762261342.996965,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -8841,7 +8269,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762261356.197159,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -9092,7 +8519,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762261368.502049,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -9343,7 +8769,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762261426.653029,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -9586,7 +9011,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762261380.762228,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -9829,7 +9253,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762261466.057898,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -10080,7 +9503,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762261480.823878,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -10331,7 +9753,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762261502.124997,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -10602,7 +10023,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762261520.865228,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -10873,7 +10293,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762261545.227484,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -11136,7 +10555,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762261565.429628,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -11407,7 +10825,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762261579.01691,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -11678,7 +11095,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762261590.192423,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -11949,7 +11365,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762261604.737175,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -12220,7 +11635,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762261615.882165,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -12483,7 +11897,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762261641.163415,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -12754,7 +12167,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762261677.218446,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -13025,7 +12437,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762261694.115312,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -13296,7 +12707,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762261716.027985,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -13567,7 +12977,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762261727.301579,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -13830,7 +13239,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762261749.679551,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -14093,7 +13501,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762261772.529406,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -14364,7 +13771,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762261789.294618,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -14635,7 +14041,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762261808.200717,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -14906,7 +14311,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762261823.582746,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -15177,7 +14581,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762261838.497894,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -15448,7 +14851,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762261854.097692,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -15711,7 +15113,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762261891.585854,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -15973,7 +15374,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762261908.909786,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -16235,7 +15635,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762261929.117188,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -16498,7 +15897,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762261936.624336,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -16761,7 +16159,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762261952.597115,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -17024,7 +16421,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762261971.22606,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -17287,7 +16683,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762262026.787251,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -17550,7 +16945,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762261996.937254,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -17813,7 +17207,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762262044.258524,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -18076,7 +17469,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762262061.011659,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -18347,7 +17739,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762262074.667903,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -18618,7 +18009,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762262087.532305,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -18889,7 +18279,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762262099.512524,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -19160,7 +18549,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762262111.08653,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -19431,7 +18819,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762262121.46311,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -19702,7 +19089,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762262131.882094,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -19953,7 +19339,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762261121.110281,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -20248,7 +19633,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762261657,
         "sameSite": "lax",
         "domain": ".coohom.com"
       },
@@ -20841,7 +20225,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762261656,
         "sameSite": "no_restriction",
         "domain": ".coursera.org"
       },
@@ -20851,7 +20234,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762261761,
         "sameSite": "no_restriction",
         "domain": ".coursera.org"
       },
@@ -21564,7 +20946,6 @@
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1762261660.741455,
         "sameSite": "no_restriction",
         "domain": ".cryptoquant.com"
       },
@@ -27778,7 +27159,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762261684,
         "sameSite": "strict",
         "domain": ".everand.com"
       },
@@ -27788,7 +27168,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762261684,
         "sameSite": "strict",
         "domain": ".everand.com"
       },
@@ -27858,7 +27237,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762261682,
         "sameSite": "strict",
         "domain": ".www.everand.com"
       },
@@ -27898,7 +27276,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762260866,
         "sameSite": "strict",
         "domain": "www.everand.com"
       },
@@ -32636,7 +32013,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762261694,
         "sameSite": "no_restriction",
         "domain": ".mermaidchart.com"
       },
@@ -32785,7 +32161,6 @@
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1762261745.017195,
         "sameSite": "no_restriction",
         "domain": ".motionarray.com"
       },
@@ -32883,7 +32258,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762261767,
         "sameSite": "no_restriction",
         "domain": ".motionarray.com"
       },
@@ -33102,7 +32476,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762261739.017092,
         "sameSite": "no_restriction",
         "domain": "motionarray.com"
       },
@@ -36354,7 +35727,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762264990.627988,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -38092,7 +37464,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762260824.777125,
             "sameSite": "no_restriction",
             "domain": ".perplexity.ai"
           },
@@ -38354,7 +37725,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762260849.358745,
             "sameSite": "no_restriction",
             "domain": ".perplexity.ai"
           },
@@ -38606,7 +37976,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762260808.780552,
             "sameSite": "no_restriction",
             "domain": ".perplexity.ai"
           },
@@ -43482,7 +42851,6 @@
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1762261443.457171,
         "sameSite": "no_restriction",
         "domain": ".quizlet.com"
       },
@@ -43677,7 +43045,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762261446,
         "sameSite": "lax",
         "domain": ".quizlet.com"
       },
@@ -43883,7 +43250,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762261446,
         "sameSite": "no_restriction",
         "domain": "quizlet.com"
       },
@@ -44719,7 +44085,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762261515,
             "sameSite": "strict",
             "domain": ".www.scribd.com"
           },
@@ -44749,7 +44114,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762260616,
             "sameSite": "strict",
             "domain": "www.scribd.com"
           },
@@ -45146,7 +44510,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762261536,
             "sameSite": "strict",
             "domain": ".www.scribd.com"
           },
@@ -45166,7 +44529,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762260638,
             "sameSite": "strict",
             "domain": "www.scribd.com"
           },
