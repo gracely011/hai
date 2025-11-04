@@ -9,12 +9,13 @@ function setCookie(name, value, days) {
         date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
         expires = "; expires=" + date.toUTCString();
     }
-    let cookieString = name + "=" + (value || "") + expires + "; path=/; SameSite=Lax; Secure";
+    let cookieString = name + "=" + (value || "") + expires + "; path=/hai/; SameSite=Lax; Secure";
     document.cookie = cookieString;
 }
 
 function eraseCookie(name) {
-    document.cookie = name + '=; Max-Age=-99999999; path=/; path=/; SameSite=Lax; Secure';
+    document.cookie = name + '=; Max-Age=-99999999; path=/; SameSite=Lax; Secure';
+    document.cookie = name + '=; Max-Age=-99999999; path=/hai/; SameSite=Lax; Secure';
 }
 
 async function getUserId() {
@@ -40,9 +41,7 @@ async function getActiveSessionToken(userId) {
             .select('session_id, allow_multilogin')
             .eq('id', userId)
             .single();
-
         return data;
-
     } catch (error) {
         return null;
     }
@@ -56,9 +55,7 @@ async function getPremiumStatus(userId) {
             .select('isPremium, premiumExpiryDate, configUrl')
             .eq('id', userId)
             .single();
-
         return data; 
-
     } catch (error) {
         return null;
     }
@@ -73,11 +70,9 @@ async function signup(name, email, password) {
                 data: { full_name: name }
             }
         });
-        
         if (error) {
             throw error; 
         }
-
         const { error: profileError } = await supabaseClient
             .from('profiles')
             .insert({ 
@@ -93,13 +88,10 @@ async function signup(name, email, password) {
                 last_browser: null,
                 config_hash: null
             });
-            
         if (profileError) {
              throw profileError;
         }
-        
         return { success: true }; 
-
     } catch (error) {
         return { success: false, message: error.message };
     }
@@ -111,28 +103,22 @@ async function login(email, password) {
             email: email,
             password: password,
         });
-
         if (authError) {
             throw authError;
         }
-        
         const now = new Date().toISOString();
         const clientIp = await getClientIp();
         const userAgent = navigator.userAgent; 
         const sessionId = authData.session.access_token;
-
         let { data: profileData, error: profileError } = await supabaseClient
             .from('profiles')
             .select('*') 
             .eq('id', authData.user.id)
             .single();
-
         if (profileError) {
             throw profileError;
         }
-
         const userName = profileData.name || 'User'; 
-        
         let isCurrentlyPremium = false;
         if (profileData.isPremium && profileData.premiumExpiryDate) {
             const expiryDate = new Date(profileData.premiumExpiryDate);
@@ -141,9 +127,7 @@ async function login(email, password) {
                 isCurrentlyPremium = true;
             }
         }
-        
         const configHash = isCurrentlyPremium ? profileData.configUrl.substring(0, 8) : 'NULL';
-
         const { error: updateSignInError } = await supabaseClient
             .from('profiles')
             .update({ 
@@ -154,21 +138,17 @@ async function login(email, password) {
                 config_hash: configHash 
             })
             .eq('id', authData.user.id);
-            
         if (updateSignInError) {
              console.warn(updateSignInError.message);
         }
-
         localStorage.setItem('isAuthenticated', 'true');
         localStorage.setItem('userEmail', authData.user.email);
         localStorage.setItem('userName', userName); 
         localStorage.setItem('isPremium', isCurrentlyPremium);
         localStorage.setItem('gracely_active_session_token', authData.session.access_token);
-
         setCookie('gracely_active_session', 'true', 30); 
         setCookie('is_premium', isCurrentlyPremium ? 'true' : 'false', 30);
         if (typeof eraseCookie === 'function') eraseCookie('UnangJahaCookieOnLae');
-
         if (isCurrentlyPremium && profileData.configUrl) {
             localStorage.setItem('premiumExpiryDate', profileData.premiumExpiryDate);
             localStorage.setItem('gracelyPremiumConfig', profileData.configUrl);
@@ -178,17 +158,13 @@ async function login(email, password) {
             localStorage.removeItem('gracelyPremiumConfig');
             eraseCookie('gracely_config_url');
         }
-
         return { success: true };
-
     } catch (error) {
         localStorage.clear();
-        
         eraseCookie('gracely_active_session');
         eraseCookie('is_premium');
         eraseCookie('gracely_config_url');
         localStorage.removeItem('gracely_active_session_token');
-
         if (error.message.includes("Invalid login credentials")) {
             return { success: false, message: 'Email atau password salah.' };
         }
@@ -201,9 +177,7 @@ async function sendPasswordResetEmail(email) {
         await supabaseClient.auth.resetPasswordForEmail(email, {
             redirectTo: 'https://gracely011.github.io/hai/update-password.html', 
         });
-
         return { success: true, message: 'Jika email terdaftar, tautan reset kata sandi telah dikirim ke kotak masuk Anda. Harap cek folder spam/sampah.' };
-
     } catch (error) {
         return { success: false, message: 'Gagal memproses permintaan. Silakan coba lagi.' };
     }
@@ -211,26 +185,21 @@ async function sendPasswordResetEmail(email) {
 
 async function logout() {
     const userId = await getUserId();
-    
     if (userId) {
         const now = new Date().toISOString();
         const { error: updateSignOutError } = await supabaseClient
             .from('profiles')
             .update({ last_sign_out: now })
             .eq('id', userId);
-
         if (updateSignOutError) {
             console.warn(updateSignOutError.message);
         }
     }
-    
     localStorage.clear();
-
     eraseCookie('gracely_active_session');
     eraseCookie('is_premium');
     eraseCookie('gracely_config_url');
     localStorage.removeItem('gracely_active_session_token');
-
     window.location.href = 'login.html';
 }
 
