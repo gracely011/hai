@@ -223,9 +223,12 @@ async function logout() {
         }
     }
     
+    // ===== PERUBAHAN UTAMA DI SINI =====
+    // Kita tidak memanggil 'supabaseClient.auth.signOut()'
+    // Kita lakukan logout manual di sisi klien
+    
     localStorage.clear();
 
-    // Hapus semua cookies sesi (PERBAIKAN KEAMANAN)
     eraseCookie('gracely_active_session');
     eraseCookie('is_premium');
     eraseCookie('gracely_config_url');
