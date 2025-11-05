@@ -239,5 +239,13 @@ const gracelyConfig = {
     "warningMessage": "Layanan akan memasuki mode perbaikan dalam:",
     "maintenanceTitle": "SEDANG MAINTENANCE",
     "maintenanceMessage": "Mohon bersabar. Kami sedang melakukan perbaikan."
+  },
+  "versionControl": {
+    "extensionName": "Gracely Extension",
+    "requiredExtensionVersion": "2.2",
+    "guardName": "Gracely Guard",
+    "requiredGuardVersion": "1.0.3",
+    "onVersionMismatchUrl": "https://gracely011.github.io/hai/update.html",
+    "sharedVerificationCode": "Mazmur_94_:_17"
   }
 };
