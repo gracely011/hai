@@ -180,7 +180,7 @@ const gracelyConfig = {
   "urls": {
     "profileIcon": "https://petrusperdana1.github.io/tpsyunix/halooo.png",
     "tutorial": "https://petrussiahaan.blogspot.com/p/tools-online-gratis.html",
-    "purchase": "aHR0cHM6Ly9ncmFjZWx5MDExLmdpdGh1Yi5pby9oYWkvcHJlbWl1bS5odG1s",
+    "purchase": "https://gracely011.github.io/hai/premium.html",
     "onInstallHomepage": "https://petrussiahaan.blogspot.com/",
     "onInstallSocial": "https://www.instagram.com/petrusperdana1/",
     "onUninstall": "https://petrussiahaan.blogspot.com/p/ruang-syahdu.html",
