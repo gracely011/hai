@@ -28640,7 +28640,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762349294.243095,
             "sameSite": "no_restriction",
             "domain": ".grammarly.com"
           },
@@ -28758,7 +28757,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762349294.243017,
             "sameSite": "no_restriction",
             "domain": ".grammarly.com"
           },
@@ -62722,7 +62720,7 @@
         "cookies": [
           {
             "name": "dummy",
-            "value": "1",
+            "value": "5",
             "path": "/",
             "httpOnly": false,
             "secure": true,
