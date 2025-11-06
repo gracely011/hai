@@ -191,7 +191,7 @@
   },
   {
     "meta": {
-      "id": "apple-music-1051",
+      "id": "apple-music-1052",
       "name": "Apple Music",
       "icon": "https://play-lh.googleusercontent.com/mOkjjo5Rzcpk7BsHrsLWnqVadUK1FlLd2-UlQvYkLL4E9A0LpyODNIQinXPfUMjUrbE",
       "url": "https://music.apple.com/ca/home",
@@ -595,7 +595,7 @@
   },
   {
     "meta": {
-      "id": "apple-tv--1077",
+      "id": "apple-tv--1078",
       "name": "Apple TV+",
       "icon": "https://play-lh.googleusercontent.com/1XBAZjSOWaVM7UDFKvzuMR-WRoR5gCnsYrw17_ihHLcJKT9Qc7hXptHwWQ3Bf83mry4",
       "url": "https://tv.apple.com/ca",
@@ -2656,7 +2656,7 @@
   },
   {
     "meta": {
-      "id": "brain-fm-1053",
+      "id": "brain-fm-1054",
       "name": "Brain.fm",
       "icon": "https://play-lh.googleusercontent.com/oQnd9u11H7j1g99Pzswt5LTm52g8XyMrgz0GRBX5lmzdPv2Vt7bBrOKgbVbs-gHc504=w240-h480-rw",
       "url": "https://my.brain.fm/",
@@ -28198,7 +28198,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762434319.198235,
             "sameSite": "no_restriction",
             "domain": ".grammarly.com"
           },
@@ -28316,7 +28315,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762434319.198148,
             "sameSite": "no_restriction",
             "domain": ".grammarly.com"
           },
@@ -28532,7 +28530,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762434303.937241,
             "sameSite": "no_restriction",
             "domain": ".grammarly.com"
           },
@@ -28650,7 +28647,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762434303.937173,
             "sameSite": "no_restriction",
             "domain": ".grammarly.com"
           },
@@ -30446,7 +30442,166 @@
   },
   {
     "meta": {
-      "id": "linkedin-learning-1043",
+      "id": "jitter-1042",
+      "name": "Jitter",
+      "icon": "https://yt3.googleusercontent.com/9CC-I1I2tcXcFJV-OGEfPPrHrKpKx-jR_KQJFMJtDivfJ6eFCleMtXFrIyysIu_2bGLg5sWO=s900-c-k-c0x00ffffff-no-rj",
+      "url": "https://jitter.video/?noredir=1",
+      "category": "design"
+    },
+    "cookies": [
+      {
+        "name": "__stripe_mid",
+        "value": "f88f28b2-e8a0-4d59-b9ce-371faa523e4c3ac8df",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1793971018,
+        "sameSite": "strict",
+        "domain": ".jitter.video"
+      },
+      {
+        "name": "__stripe_sid",
+        "value": "1ca70cfc-6cd8-42f9-9a10-7b028d7d27764303cf",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1762436818,
+        "sameSite": "strict",
+        "domain": ".jitter.video"
+      },
+      {
+        "name": "_fbp",
+        "value": "fb.1.1762434597433.946133501904457459",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1770211016,
+        "sameSite": "no_restriction",
+        "domain": ".jitter.video"
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.2130303728.1762434596",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".jitter.video"
+      },
+      {
+        "name": "_ga_FH539XQSBR",
+        "value": "GS2.1.s1762434595$o1$g1$t1762435016$j60$l0$h902551971",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".jitter.video"
+      },
+      {
+        "name": "_gcl_au",
+        "value": "1.1.1272190121.1762434589.294285511.1762434627.1762434993",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".jitter.video"
+      },
+      {
+        "name": "_hjSession_3726068",
+        "value": "eyJpZCI6ImUzNWI3ZjA3LWY3MDAtNGQyZS1iMjRjLTE5MTU2NjYzMDI4MyIsImMiOjE3NjI0MzQ1OTY0MjksInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1762436799,
+        "sameSite": "no_restriction",
+        "domain": ".jitter.video"
+      },
+      {
+        "name": "_hjSessionUser_3726068",
+        "value": "eyJpZCI6IjNjMzQxNzAwLWJkNjQtNTViYS05YzNjLTRjMTVlNzEwMjZlOCIsImNyZWF0ZWQiOjE3NjI0MzQ1OTY0MjgsImV4aXN0aW5nIjp0cnVlfQ==",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1793970662,
+        "sameSite": "no_restriction",
+        "domain": ".jitter.video"
+      },
+      {
+        "name": "ajs_anonymous_id",
+        "value": "a79ee62f-e127-40a0-af00-3c60ffb64163",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1793971016,
+        "sameSite": "lax",
+        "domain": ".jitter.video"
+      },
+      {
+        "name": "ajs_user_id",
+        "value": "fe542e3f-4b68-4b39-980f-4936afc48c52",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1793971016,
+        "sameSite": "lax",
+        "domain": ".jitter.video"
+      },
+      {
+        "name": "analytics_session_id",
+        "value": "1762434595830",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1793971016,
+        "sameSite": "lax",
+        "domain": ".jitter.video"
+      },
+      {
+        "name": "analytics_session_id.last_access",
+        "value": "1762435016717",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1793971016,
+        "sameSite": "lax",
+        "domain": ".jitter.video"
+      },
+      {
+        "name": "intercom-device-id-l8r66h6o",
+        "value": "dd04452d-e577-4a2e-a5d5-8a4c3eb931f8",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1785764675,
+        "sameSite": "lax",
+        "domain": ".jitter.video"
+      },
+      {
+        "name": "intercom-id-l8r66h6o",
+        "value": "dddfc345-f094-424f-ab01-d18fdf7bf1bc",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1785764664,
+        "sameSite": "lax",
+        "domain": ".jitter.video"
+      },
+      {
+        "name": "intercom-session-l8r66h6o",
+        "value": "NlQ1bE1JNG0yWFk0ZjFnbEpyeUVwb0NneHllWHR2eGVGUWxyNVVIcXFSSWRLMVNiVjd2TU55VkNPYUU5OXFTM3c1L0N3TDI1VWhTYTkvTTNPMFFNZHVKTlJEUFNVbitpTXZESUJ4ajBoTW89LS1WenBMMWJ6OG9RU1RLQ3YzSTY0UGtBPT0=--e75aa63718d934fc33143b27d7a49490f175ee8e",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1763039473,
+        "sameSite": "lax",
+        "domain": ".jitter.video"
+      }
+    ],
+    "sourceUrl": "https://jitter.video/?noredir=1"
+  },
+  {
+    "meta": {
+      "id": "linkedin-learning-1044",
       "name": "LinkedIn Learning",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4fcdsIUPUgmbvGaP-RC4RbHYdVtoN_fM8aya_8gOXI2BRtClESO-0_jgWTtKtIVmOQKs&usqp=CAU",
       "url": "https://www.linkedin.com/learning/?u=73723940",
@@ -30717,7 +30872,7 @@
   },
   {
     "meta": {
-      "id": "marvel-unlimited-1044",
+      "id": "marvel-unlimited-1045",
       "name": "Marvel Unlimited",
       "icon": "https://play-lh.googleusercontent.com/ikcy-XJG8_oFwVztH9vK3y--_mUcRu5zyco7d4FqugxzSkX9wMo63oBDPLWZnUsYDg",
       "url": "https://www.marvel.com/comics/unlimited/home",
@@ -30994,7 +31149,7 @@
   },
   {
     "meta": {
-      "id": "masterclass-1045",
+      "id": "masterclass-1046",
       "name": "MasterClass",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeoBuunz4xK_-2t35N6astSudIfb7Bnr0R6HDcwoqbzmzOcuNpiZdiRFRv&s=10",
       "url": "https://www.masterclass.com/profiles",
@@ -31403,7 +31558,7 @@
   },
   {
     "meta": {
-      "id": "medium-1046",
+      "id": "medium-1047",
       "name": "Medium",
       "icon": "https://miro.medium.com/v2/resize:fill:128:128/1*sHhtYhaCe2Uc3IU0IgKwIQ.png",
       "url": "https://medium.com/",
@@ -31483,7 +31638,7 @@
   },
   {
     "meta": {
-      "id": "mentimeter-1047",
+      "id": "mentimeter-1048",
       "name": "Mentimeter",
       "icon": "https://images.saasworthy.com/mentimeter_870_logo_1600681783_e5oqu.png",
       "url": "https://gracely011.github.io/hai/manual.html?name=Mentimeter&login=mentimeter@prem1um.xyz&password=MentimeterGroupy2025!&url=https://www.mentimeter.com/app/home",
@@ -31503,7 +31658,7 @@
   },
   {
     "meta": {
-      "id": "mermaidchart-1048",
+      "id": "mermaidchart-1049",
       "name": "Mermaidchart",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPMgbHVXJCw0zQzk3DtR607-823YIxR1Zi_Q&s",
       "url": "https://www.mermaidchart.com/app/dashboard",
@@ -31681,7 +31836,7 @@
   },
   {
     "meta": {
-      "id": "motion-array-1049",
+      "id": "motion-array-1050",
       "name": "Motion Array",
       "icon": "https://s3-eu-west-1.amazonaws.com/tpd/logos/5b1e60b2b50df6000112eb83/0x0.png",
       "url": "https://motionarray.com/account/downloads/",
@@ -32027,7 +32182,7 @@
   },
   {
     "meta": {
-      "id": "mubi-1050",
+      "id": "mubi-1051",
       "name": "Mubi",
       "icon": "https://images.mubicdn.net/images/avatars/169655/cache-169655-1620041787/images-large.png?size=800x",
       "url": "https://mubi.com/en/id/showing",
@@ -32379,7 +32534,7 @@
   },
   {
     "meta": {
-      "id": "musicbed-1052",
+      "id": "musicbed-1053",
       "name": "Musicbed",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMRzHPEXnSURkOyU9StcI8BZPOTeqzvcJP_A&s",
       "url": "https://www.musicbed.com/songs",
@@ -32622,7 +32777,7 @@
   },
   {
     "meta": {
-      "id": "netflix-1054",
+      "id": "netflix-1055",
       "name": "Netflix",
       "icon": "https://groupy.id/assets/images/services/netflix.png",
       "url": "https://www.netflix.com/browse",
@@ -36433,7 +36588,7 @@
   },
   {
     "meta": {
-      "id": "notegpt-1055",
+      "id": "notegpt-1056",
       "name": "NoteGPT",
       "icon": "https://10web.io/wp-content/uploads/2024/08/NoteGPT_logo.jpg",
       "url": "https://notegpt.io/workspace/home",
@@ -36581,7 +36736,7 @@
   },
   {
     "meta": {
-      "id": "notion-1056",
+      "id": "notion-1057",
       "name": "Notion",
       "icon": "https://play-lh.googleusercontent.com/vy-9s86d-81wk1acsXvAxN1xV5Y-doJdgbskG3GonOerbUwUtvNXk_XSRHoraaXZcX4",
       "url": "https://www.notion.so/Groupy-d01df0db902a828989ae01f13a61d8f1",
@@ -36809,7 +36964,7 @@
   },
   {
     "meta": {
-      "id": "pacdora-1057",
+      "id": "pacdora-1058",
       "name": "Pacdora",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9l1bvE2alHZrnR4bmSsbK2KjHemNk_p4Dsf-GVh6-5hFtZgugYYNfQfo0L3CQxZqdLC4&usqp=CAU",
       "url": "https://www.pacdora.com/my-design",
@@ -37821,7 +37976,7 @@
   },
   {
     "meta": {
-      "id": "picsart-1058",
+      "id": "picsart-1059",
       "name": "Picsart",
       "icon": "https://play-lh.googleusercontent.com/1JMJ518jogwPeaD0pYn2mBu1cRLD0xRi45wNbtTIRvam1_xx-y3KJOjRAx-W9P4Lf0U=s256-rw",
       "url": "https://gracely011.github.io/hai/manual.html?name=Picsart&login=turner@wareyk.com&password=Premium@123&url=https://picsart.com",
@@ -37875,7 +38030,7 @@
   },
   {
     "meta": {
-      "id": "prezi-ai-1059",
+      "id": "prezi-ai-1060",
       "name": "Prezi AI",
       "icon": "https://play-lh.googleusercontent.com/3rVZ7Lc7-bxsALDo0nWOcuojR9ISxlhO20KnVM3uP00drxIXXt7ATM0V5-YjfM0pPtA",
       "url": "https://prezi.com/dashboard/next/",
@@ -42312,7 +42467,7 @@
   },
   {
     "meta": {
-      "id": "productioncrate-1060",
+      "id": "productioncrate-1061",
       "name": "ProductionCrate",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd_sbW5wMx4hP2Y8wrJkjxjlSbrpy5f1Zgbw&s",
       "url": "https://www.productioncrate.com/",
@@ -42422,7 +42577,7 @@
   },
   {
     "meta": {
-      "id": "quizlet-1061",
+      "id": "quizlet-1062",
       "name": "Quizlet",
       "icon": "https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/szx9duflfycmltpnvcvw",
       "url": "https://quizlet.com/latest",
@@ -42853,7 +43008,7 @@
   },
   {
     "meta": {
-      "id": "rawpixel-1062",
+      "id": "rawpixel-1063",
       "name": "Rawpixel",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq1xJnAZa_h6WueAi4mr73cH3K7_pGeTz6Gw&s",
       "url": "https://www.rawpixel.com/",
@@ -42925,7 +43080,7 @@
   },
   {
     "meta": {
-      "id": "relume-1063",
+      "id": "relume-1064",
       "name": "Relume",
       "icon": "https://yt3.googleusercontent.com/MGRbvVhtCttJ7i2qW3igFxIJSkeoaRln_mIAFAfDgZIFD1yNUQC5mn1a5VqXKzcqRmAuDswu=s900-c-k-c0x00ffffff-no-rj",
       "url": "https://www.relume.io/",
@@ -43066,7 +43221,7 @@
   },
   {
     "meta": {
-      "id": "scholarcy-1042",
+      "id": "scholarcy-1043",
       "name": "Scholarcy",
       "icon": "https://yt3.googleusercontent.com/ytc/AIdro_kqv2zcFC4lZDK0qSXEbuI1Kcs5wYJoLmONwCf9QX3Qoc4=s900-c-k-c0x00ffffff-no-rj",
       "url": "https://library.scholarcy.com/home",
@@ -43187,7 +43342,7 @@
   },
   {
     "meta": {
-      "id": "scite-1064",
+      "id": "scite-1065",
       "name": "Scite",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHo4BcTYbuMiQFR7oUYKZy6zjOgzEORDrzeie96OS1sj3Ur0LpoCPV_ts&s=10",
       "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Scite&login=sct@tokito.xyz&password=Sc1teGroupy%&url=https://scite.ai/assistant",
@@ -43255,7 +43410,7 @@
   },
   {
     "meta": {
-      "id": "scribd-1065",
+      "id": "scribd-1066",
       "name": "Scribd",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRebq-8lrzgXjVWMvUDApp_q1MhiL5eSyO15VAHMuNaE4RbrPi-f7c2NMc&s=10",
       "url": "https://www.scribd.com/home",
@@ -44498,7 +44653,7 @@
   },
   {
     "meta": {
-      "id": "semrush-1066",
+      "id": "semrush-1067",
       "name": "Semrush",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7TPtYsfoyLxuSORs6sqgApBGYHOx1aZ43ra1DqBNb8BRYz4ciWF4Mg9uR&s=10",
       "url": "https://www.semrush.com/home/",
@@ -46320,7 +46475,7 @@
   },
   {
     "meta": {
-      "id": "sider-ai-1067",
+      "id": "sider-ai-1068",
       "name": "Sider AI",
       "icon": "https://play-lh.googleusercontent.com/VghuZRn0-oLvbaGqptsM-9Qr6Ka7Pmw7lfmu6_UQ56mZS6bsXbET9Uf0wF0FECP8lEM",
       "url": "https://sider.ai/chat",
@@ -46607,7 +46762,7 @@
   },
   {
     "meta": {
-      "id": "skillshare-1068",
+      "id": "skillshare-1069",
       "name": "Skillshare",
       "icon": "https://groupy.id/assets/images/services/skillshare.png",
       "url": "https://www.skillshare.com/en/home",
@@ -47389,7 +47544,7 @@
   },
   {
     "meta": {
-      "id": "slidesgo-1069",
+      "id": "slidesgo-1070",
       "name": "Slidesgo",
       "icon": "https://cdn-icons-png.flaticon.com/512/14649/14649063.png",
       "url": "https://slidesgo.com/profile/downloads",
@@ -48106,7 +48261,7 @@
   },
   {
     "meta": {
-      "id": "slideshare-1070",
+      "id": "slideshare-1071",
       "name": "Slideshare",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFu2smlszvneX1otpsXxgwhKyPha7Boi8VJg&s",
       "url": "https://www.slideshare.net/",
@@ -48304,7 +48459,7 @@
   },
   {
     "meta": {
-      "id": "sololearn-1071",
+      "id": "sololearn-1072",
       "name": "Sololearn",
       "icon": "https://play-lh.googleusercontent.com/zxbe_H6JVg6ZnIeA1xorxxXr416kKdShmyonBzi5Qe28-GNdczX-NST_ul0AQJ007OA",
       "url": "https://gracely011.github.io/hai/manual.html?name=Sololearn&login=sololearn@belajaar.id&password=WeAreGroupy2025!&url=https://www.sololearn.com/en/users/login",
@@ -48324,7 +48479,7 @@
   },
   {
     "meta": {
-      "id": "sora-1072",
+      "id": "sora-1073",
       "name": "Sora",
       "icon": "https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/sora-color.png",
       "url": "https://sora.chatgpt.com/explore",
@@ -59482,7 +59637,7 @@
   },
   {
     "meta": {
-      "id": "storytribe-1073",
+      "id": "storytribe-1074",
       "name": "StoryTribe",
       "icon": "https://media.licdn.com/dms/image/v2/D560BAQGFNn9uuWNKvA/company-logo_200_200/B56ZWE4DUHGUAU-/0/1741691041788/storytribeapp_logo?e=2147483647&v=beta&t=3qm4zJ4TSorw5yxfeP9WtXnDj_DKgiqhVZeGH42wT7g",
       "url": "https://gracely011.github.io/hai/manual.html?name=StoryTribe&login=beapp@prem1um.xyz&password=MilikGroupy2025!&url=https://storytribeapp.com/login-signup",
@@ -59502,7 +59657,7 @@
   },
   {
     "meta": {
-      "id": "studocu-1074",
+      "id": "studocu-1075",
       "name": "Studocu",
       "icon": "https://play-lh.googleusercontent.com/20ssDWF3SWEXIFYy8iFwXjomuIqtuHjGc3OxIWqVojIaeo_9_XxUZEDdmm5YPreLucij",
       "url": "https://www.studocu.com/en-us/home",
@@ -59807,7 +59962,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762434647.32188,
         "sameSite": "lax",
         "domain": "www.studocu.com"
       },
@@ -60043,7 +60197,7 @@
   },
   {
     "meta": {
-      "id": "symbolab-1075",
+      "id": "symbolab-1076",
       "name": "Symbolab",
       "icon": "https://play-lh.googleusercontent.com/DKlax_iJQtJOKJlIPDSS7DZpbm9gCkHh3vWgrj8BOMRwDPDVKXdTQf9sV4cRuXSdRA",
       "url": "https://www.symbolab.com/",
@@ -60237,7 +60391,7 @@
   },
   {
     "meta": {
-      "id": "the-wall-street-journal-1083",
+      "id": "the-wall-street-journal-1084",
       "name": "The Wall Street Journal",
       "icon": "https://play-lh.googleusercontent.com/eksxaPfxbTVb6VTl5aj1sXLpKc_N9Z6AZ3_5Oq6JhTXmgEQza-1v58a66p_ID0phE2Zv",
       "url": "https://gracely011.github.io/hai/manual.html?name=The%20Wall%20Street%20Journal&login=wsj@killua.cloud&password=TheWallStreetJournalGroupy2025!!!&url=https://www.wsj.com",
@@ -60257,7 +60411,7 @@
   },
   {
     "meta": {
-      "id": "turnitin-1076",
+      "id": "turnitin-1077",
       "name": "Turnitin",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIrf73LGu_mACI2Mc_jdghOV02eXRocoXKo0o3qZHFjGgJMUr5M_v8uwap&s=10",
       "url": "https://gracely011.github.io/hai/manual.html?name=Turnitin&login=halo@belajaar.id&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us",
@@ -60658,7 +60812,7 @@
   },
   {
     "meta": {
-      "id": "udemy-1078",
+      "id": "udemy-1079",
       "name": "Udemy",
       "icon": "https://play-lh.googleusercontent.com/dsCkmJE2Fa8IjyXERAcwc5YeQ8_NvbZ4_OI8LgqyjILpXUfS5YhEcnAMajKPrZI-og",
       "url": "https://www.udemy.com/personal/home/",
@@ -62019,7 +62173,7 @@
   },
   {
     "meta": {
-      "id": "virtual-threads-1079",
+      "id": "virtual-threads-1080",
       "name": "Virtual Threads",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_zqaiVJeMxFHsHmHsk8ViZdV3v-nd11cpPw&s",
       "url": "https://gracely011.github.io/hai/manual.html?name=Virtual%20Threads&login=step1@belajaar.id&password=WeAreGroupy2025!&url=https://www.virtualthreads.io/login",
@@ -62039,7 +62193,7 @@
   },
   {
     "meta": {
-      "id": "viu-1080",
+      "id": "viu-1081",
       "name": "Viu",
       "icon": "https://groupy.id/assets/images/services/viu.png",
       "url": "https://gracely011.github.io/hai/manual.html?name=Viu&login=jessidrti1872@moviesisme.com&password=viuku123&url=https://viu.com",
@@ -64117,7 +64271,7 @@
   },
   {
     "meta": {
-      "id": "wolframalpha-1081",
+      "id": "wolframalpha-1082",
       "name": "WolframAlpha",
       "icon": "https://play-lh.googleusercontent.com/OceHg5bH7EsTRwl-lD7jjV9WM0mpj0oH4YfA-CSbjvfa7NCLQBu5-4cLwNlDvCUp5Q4",
       "url": "https://www.wolframalpha.com/",
@@ -64170,7 +64324,6 @@
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1762433990.003454,
         "sameSite": "lax",
         "domain": ".wolframalpha.com"
       },
@@ -64189,7 +64342,7 @@
   },
   {
     "meta": {
-      "id": "writehuman-1082",
+      "id": "writehuman-1083",
       "name": "WriteHuman",
       "icon": "https://earlyshark.com/wp-content/uploads/2024/01/writehuman-logo-1024x1024.png",
       "url": "https://writehuman.ai/ai-detector",
@@ -64459,7 +64612,7 @@
   },
   {
     "meta": {
-      "id": "youtube-noads-1084",
+      "id": "youtube-noads-1085",
       "name": "YouTube NoAds",
       "icon": "https://play-lh.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc",
       "url": "https://gracely011.github.io/hai/youtube-noads.html",
