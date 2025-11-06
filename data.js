@@ -30445,7 +30445,7 @@
       "id": "jitter-1042",
       "name": "Jitter",
       "icon": "https://yt3.googleusercontent.com/9CC-I1I2tcXcFJV-OGEfPPrHrKpKx-jR_KQJFMJtDivfJ6eFCleMtXFrIyysIu_2bGLg5sWO=s900-c-k-c0x00ffffff-no-rj",
-      "url": "https://jitter.video/?noredir=1",
+      "url": "https://jitter.video/files/",
       "category": "design"
     },
     "cookies": [
@@ -30455,7 +30455,7 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1793971018,
+        "expirationDate": 1793971288,
         "sameSite": "strict",
         "domain": ".jitter.video"
       },
@@ -30465,7 +30465,7 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762436818,
+        "expirationDate": 1762437088,
         "sameSite": "strict",
         "domain": ".jitter.video"
       },
@@ -30475,7 +30475,7 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1770211016,
+        "expirationDate": 1770211283,
         "sameSite": "no_restriction",
         "domain": ".jitter.video"
       },
@@ -30490,7 +30490,7 @@
       },
       {
         "name": "_ga_FH539XQSBR",
-        "value": "GS2.1.s1762434595$o1$g1$t1762435016$j60$l0$h902551971",
+        "value": "GS2.1.s1762434595$o1$g1$t1762435283$j60$l0$h902551971",
         "path": "/",
         "httpOnly": false,
         "secure": true,
@@ -30512,7 +30512,7 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762436799,
+        "expirationDate": 1762436917,
         "sameSite": "no_restriction",
         "domain": ".jitter.video"
       },
@@ -30532,7 +30532,7 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1793971016,
+        "expirationDate": 1793971283,
         "sameSite": "lax",
         "domain": ".jitter.video"
       },
@@ -30542,7 +30542,7 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1793971016,
+        "expirationDate": 1793971283,
         "sameSite": "lax",
         "domain": ".jitter.video"
       },
@@ -30552,17 +30552,17 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1793971016,
+        "expirationDate": 1793971283,
         "sameSite": "lax",
         "domain": ".jitter.video"
       },
       {
         "name": "analytics_session_id.last_access",
-        "value": "1762435016717",
+        "value": "1762435283486",
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1793971016,
+        "expirationDate": 1793971283,
         "sameSite": "lax",
         "domain": ".jitter.video"
       },
@@ -30572,7 +30572,7 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1785764675,
+        "expirationDate": 1785765288,
         "sameSite": "lax",
         "domain": ".jitter.video"
       },
@@ -30588,16 +30588,16 @@
       },
       {
         "name": "intercom-session-l8r66h6o",
-        "value": "NlQ1bE1JNG0yWFk0ZjFnbEpyeUVwb0NneHllWHR2eGVGUWxyNVVIcXFSSWRLMVNiVjd2TU55VkNPYUU5OXFTM3c1L0N3TDI1VWhTYTkvTTNPMFFNZHVKTlJEUFNVbitpTXZESUJ4ajBoTW89LS1WenBMMWJ6OG9RU1RLQ3YzSTY0UGtBPT0=--e75aa63718d934fc33143b27d7a49490f175ee8e",
+        "value": "UnV1NEhKY3MwSFJMT2dUUmJhMXIyd1g0NmtET1E2djVObzBrWm1qb3k5L0NUVDlocUpXbmd4QkJGajVnN1dSWkRsZWdldThXWE9iVFVtQjFtV3M1N1dja0krYTJ3UFBVNTZPRzdyMnBPcmM9LS03dVVQQkFadkZabUZzbVBPMHljUFZ3PT0=--3830cc868e5a304dfc1f58ccd0ad6e8ea9a647fa",
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1763039473,
+        "expirationDate": 1763040086,
         "sameSite": "lax",
         "domain": ".jitter.video"
       }
     ],
-    "sourceUrl": "https://jitter.video/?noredir=1"
+    "sourceUrl": "https://jitter.video/files/"
   },
   {
     "meta": {
