@@ -64456,5 +64456,25 @@
       }
     ],
     "sourceUrl": "https://writehuman.ai/ai-detector"
+  },
+  {
+    "meta": {
+      "id": "youtube-noads-1084",
+      "name": "YouTube NoAds",
+      "icon": "https://play-lh.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc",
+      "url": "https://gracely011.github.io/hai/youtube-noads.html",
+      "category": "streaming"
+    },
+    "cookies": [
+      {
+        "name": "dummy",
+        "value": "5",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "domain": "youtube.com"
+      }
+    ],
+    "sourceUrl": "https://gracely011.github.io/hai/youtube-noads.html"
   }
 ]
