@@ -2669,7 +2669,6 @@
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1762432251.713093,
         "sameSite": "no_restriction",
         "domain": ".brain.fm"
       },
@@ -2885,7 +2884,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762431963,
         "sameSite": "strict",
         "domain": ".my.brain.fm"
       }
@@ -3348,7 +3346,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762431974,
         "sameSite": "no_restriction",
         "domain": ".busuu.com"
       },
@@ -19615,7 +19612,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762431987,
         "sameSite": "lax",
         "domain": ".coohom.com"
       },
@@ -19926,7 +19922,6 @@
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1762431985.537638,
         "sameSite": "no_restriction",
         "domain": ".coursehero.com"
       },
@@ -20241,7 +20236,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762431995,
         "sameSite": "no_restriction",
         "domain": ".coursera.org"
       },
@@ -20251,7 +20245,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762432268,
         "sameSite": "no_restriction",
         "domain": ".coursera.org"
       },
@@ -20974,7 +20967,6 @@
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1762431998.544341,
         "sameSite": "no_restriction",
         "domain": ".cryptoquant.com"
       },
@@ -22740,7 +22732,6 @@
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1762432002.893601,
         "sameSite": "no_restriction",
         "domain": ".datacamp.com"
       },
@@ -22828,7 +22819,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762432010,
         "sameSite": "no_restriction",
         "domain": ".datacamp.com"
       },
@@ -22868,7 +22858,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762432030,
         "sameSite": "no_restriction",
         "domain": ".datacamp.com"
       },
@@ -22948,7 +22937,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762432008.622868,
         "sameSite": "strict",
         "domain": ".datacamp.com"
       },
@@ -23432,7 +23420,6 @@
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1762432013.452902,
         "sameSite": "no_restriction",
         "domain": ".educative.io"
       },
@@ -23442,7 +23429,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762432017,
         "sameSite": "lax",
         "domain": ".educative.io"
       },
@@ -23561,7 +23547,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762432017.849569,
         "sameSite": "strict",
         "domain": ".educative.io"
       },
@@ -26632,7 +26617,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762432038,
         "sameSite": "strict",
         "domain": ".everand.com"
       },
@@ -26642,7 +26626,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762432038,
         "sameSite": "strict",
         "domain": ".everand.com"
       },
@@ -26712,7 +26695,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762432039,
         "sameSite": "strict",
         "domain": ".www.everand.com"
       },
@@ -28742,7 +28724,6 @@
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1762432033.469691,
         "sameSite": "no_restriction",
         "domain": ".guitartricks.com"
       },
@@ -28860,7 +28841,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762432140,
         "sameSite": "no_restriction",
         "domain": ".guitartricks.com"
       },
@@ -29030,7 +29010,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762432042,
         "sameSite": "lax",
         "domain": "www.guitartricks.com"
       },
@@ -29511,7 +29490,6 @@
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1762432399.991027,
         "sameSite": "no_restriction",
         "domain": ".iloveimg.com"
       },
@@ -29674,7 +29652,6 @@
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1762432402.65596,
         "sameSite": "no_restriction",
         "domain": ".ilovepdf.com"
       },
@@ -31569,7 +31546,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762432139,
         "sameSite": "no_restriction",
         "domain": ".mermaidchart.com"
       },
@@ -31718,7 +31694,6 @@
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1762432443.637028,
         "sameSite": "no_restriction",
         "domain": ".motionarray.com"
       },
@@ -31816,7 +31791,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762432416,
         "sameSite": "no_restriction",
         "domain": ".motionarray.com"
       },
@@ -32035,7 +32009,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762432411,
         "sameSite": "no_restriction",
         "domain": "motionarray.com"
       },
@@ -37915,7 +37888,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762432369,
         "sameSite": "lax",
         "domain": ".prezi.com"
       },
@@ -37964,7 +37936,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762432371,
         "sameSite": "strict",
         "domain": ".prezi.com"
       },
@@ -38044,7 +38015,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762432397,
         "sameSite": "no_restriction",
         "domain": ".prezi.com"
       },
@@ -38163,7 +38133,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762432365,
         "sameSite": "no_restriction",
         "domain": ".prezi.com"
       },
@@ -42466,7 +42435,6 @@
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1762432379.851011,
         "sameSite": "no_restriction",
         "domain": ".quizlet.com"
       },
@@ -42652,7 +42620,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762432383,
         "sameSite": "lax",
         "domain": ".quizlet.com"
       },
@@ -42858,7 +42825,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762432387,
         "sameSite": "no_restriction",
         "domain": "quizlet.com"
       },
@@ -46377,7 +46343,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762432236,
         "sameSite": "strict",
         "domain": ".sider.ai"
       },
@@ -47052,7 +47017,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762432233.136866,
             "sameSite": "no_restriction",
             "domain": ".skillshare.com"
           },
@@ -47395,7 +47359,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762432227,
             "sameSite": "no_restriction",
             "domain": "www.skillshare.com"
           },
@@ -59552,7 +59515,6 @@
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1762432847.321962,
         "sameSite": "no_restriction",
         "domain": ".studocu.com"
       },
@@ -59611,7 +59573,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762432849,
         "sameSite": "no_restriction",
         "domain": ".studocu.com"
       },
@@ -59955,7 +59916,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762432557,
         "sameSite": "lax",
         "domain": ".svgator.com"
       },
@@ -64252,7 +64212,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762432192,
         "sameSite": "strict",
         "domain": ".writehuman.ai"
       },
