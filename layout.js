@@ -1,5 +1,64 @@
 const announcementBarHTML = ``;
 
+async function initializeWebsiteAnnouncement() {
+    try {
+        const configResponse = await fetch('aturhonma.js');
+        if (!configResponse.ok) return;
+
+        const configText = await configResponse.text();
+        const gracelyConfig = JSON.parse(configText.replace('const gracelyConfig =', '').trim().replace(/;$/, ''));
+
+        const notifData = gracelyConfig.notifications?.announcement;
+        if (!notifData || !notifData.enabled || !notifData.id) {
+            return;
+        }
+
+        const newNotifId = notifData.id;
+        const lastShownTimestamp = localStorage.getItem('websiteNotificationLastShown');
+        const lastShownId = localStorage.getItem('websiteNotificationLastShownId');
+        
+        const oneDay = 24 * 60 * 60 * 1000;
+        const timeDiff = Date.now() - parseInt(lastShownTimestamp || '0');
+
+        const modalContainer = document.getElementById('notification-0');
+        const modalContent = modalContainer.querySelector('.notificationModal-content');
+
+        const showModal = () => {
+            let contentParagraphs = '';
+            if (notifData.lines && Array.isArray(notifData.lines)) {
+                contentParagraphs = notifData.lines.map(line => `<p>${line}</p>`).join('');
+            }
+            
+            const notificationHTML = `
+                <i class="fa fa-times close-icon" id="notification-close" style="font-size: 18px; color: #888; cursor: pointer;"></i>
+                <h2>${notifData.title}</h2>
+                ${contentParagraphs}
+                <button class="ud-main-btn" id="notification-ok" style="margin-top: 10px;">OK</button>
+            `;
+            
+            modalContent.innerHTML = notificationHTML;
+            modalContainer.style.display = 'flex';
+            
+            modalContainer.querySelector('#notification-close').addEventListener('click', closeModal);
+            modalContainer.querySelector('#notification-ok').addEventListener('click', closeModal);
+        };
+
+        const closeModal = () => {
+            modalContainer.style.display = 'none';
+            localStorage.setItem('websiteNotificationLastShown', Date.now().toString());
+            localStorage.setItem('websiteNotificationLastShownId', newNotifId);
+        };
+
+        if (!lastShownTimestamp || timeDiff > oneDay || newNotifId !== lastShownId) {
+            showModal();
+        }
+
+    } catch (error) {
+        console.warn("Gagal memuat notifikasi website:", error);
+    }
+}
+
+
 const defaultNavbarHTML = `
 <header class="ud-header">
   <div class="container">
@@ -193,6 +252,15 @@ function loadLayout() {
     const footerPlaceholder = document.getElementById("footer-placeholder");
     const backToTopPlaceholder = document.getElementById("back-to-top-placeholder");
     
+    // === SUNTIK HTML MODAL DI SINI ===
+    const modalDiv = document.createElement('div');
+    modalDiv.className = 'notificationModal';
+    modalDiv.id = 'notification-0';
+    modalDiv.style.display = 'none';
+    modalDiv.innerHTML = '<div class="notificationModal-content"></div>';
+    document.body.appendChild(modalDiv);
+    // === AKHIR SUNTIK HTML ===
+    
     if (announcementPlaceholder) announcementPlaceholder.innerHTML = announcementBarHTML;
     if (footerPlaceholder) footerPlaceholder.innerHTML = footerHTML;
     if (backToTopPlaceholder) backToTopPlaceholder.innerHTML = backToTopHTML;
@@ -220,6 +288,9 @@ function loadLayout() {
     }
     
     modifyIndexPageContent();
+    
+    // === PANGGIL FUNGSI NOTIFIKASI DI SINI ===
+    initializeWebsiteAnnouncement();
 }
 
 document.addEventListener("DOMContentLoaded", loadLayout);
