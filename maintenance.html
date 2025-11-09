@@ -23,15 +23,17 @@
         :root {
             --text-color: #ffffff;
             --background-color: #000000;
-            --accent-color: #888888;
+            --accent-color: #888888; /* A slightly lighter grey for the border */
             --illustration-color: #ffffff;
         }
+
         html, body {
             height: 100%;
             margin: 0;
             padding: 0;
             overflow: hidden;
         }
+
         body {
             font-family: 'Montserrat', sans-serif;
             background-color: var(--background-color);
@@ -45,72 +47,44 @@
             box-sizing: border-box;
             perspective: 1000px;
         }
+
         .illustration {
             width: 120px;
             height: 120px;
-            margin-bottom: 2rem;
+            margin-bottom: 30px;
+            opacity: 0.8;
         }
+
         .container {
             max-width: 600px;
+            width: 100%;
         }
+
         h1 {
-            font-size: 3rem;
+            font-size: 10rem;
             font-weight: 900;
             margin: 0;
+            line-height: 1;
             color: var(--text-color);
-            text-shadow: 
-                0 0 5px var(--text-color),
-                0 0 10px var(--text-color),
-                0 0 20px #fff,
-                0 0 40px #fff;
-            animation: flicker 2s infinite alternate;
+            text-shadow: 0 5px 25px rgba(255, 255, 255, 0.1);
+            transition: transform 0.1s ease-out;
+            text-transform: uppercase; /* Ensures "Soon" is capitalized */
         }
+
         h2 {
-            font-size: 1.5rem;
+            font-size: 1.75rem;
             font-weight: 700;
-            margin: 1rem 0;
+            margin: 10px 0 20px 0;
             color: var(--accent-color);
         }
+
         p {
-            font-size: 1rem;
+            font-size: 1.125rem;
             line-height: 1.6;
-            margin-bottom: 2rem;
-            color: var(--text-color);
-        }
-        #countdown {
-            font-size: 2.5rem;
-            font-weight: 700;
-            margin-bottom: 2rem;
-            color: var(--text-color);
-        }
-        a {
-            display: inline-block;
-            padding: 10px 25px;
-            font-size: 1rem;
-            font-weight: 700;
-            color: var(--background-color);
-            background-color: var(--text-color);
-            border: 2px solid var(--text-color);
-            border-radius: 50px;
-            text-decoration: none;
-            transition: all 0.3s ease;
-        }
-        a:hover {
-            background-color: transparent;
-            color: var(--text-color);
-        }
-        @keyframes flicker {
-            0%, 18%, 22%, 25%, 53%, 57%, 100% {
-                text-shadow:
-                    0 0 4px var(--text-color),
-                    0 0 11px var(--text-color),
-                    0 0 19px #fff,
-                    0 0 40px #fff,
-                    0 0 80px #fff;
-            }
-            20%, 24%, 55% {        
-                text-shadow: none;
-            }
+            margin: 0 0 30px 0;
+            max-width: 450px;
+            margin-left: auto;
+            margin-right: auto;
         }
     </style>
 </head>
@@ -118,70 +92,37 @@
 
     <div class="illustration">
         <svg viewBox="0 0 100 100" fill="none" stroke="var(--illustration-color)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M80 60 L80 85 L20 85 L20 60 M50 15 L50 70 M35 70 L65 70 M25 45 L40 45 M60 45 L75 45 M25 30 L40 30 M60 30 L75 30 M30 60 C30 52, 35 45, 45 45 M55 45 C65 45, 70 52, 70 60"/>
+            <path d="M25 75 L75 25 M70 30 L80 20 M20 80 L30 70" />
+            <path d="M25 25 L75 75 M25 35 L35 25 M65 75 L75 65" />
         </svg>
     </div>
 
     <main class="container">
-        <h1>MAINTENANCE</h1>
-        <h2>We'll be back shortly</h2>
-        <p>Gracely is currently undergoing scheduled maintenance to improve our services. We apologize for any inconvenience.</p>
-        <div id="countdown">00:00:00</div>
-        <a href="https://gracely011.github.io/hai/">Return to Homepage</a>
-    </main>
+        <h1 id="text-3d">Soon</h1>
+        <h2>Under Maintenance</h2>
+        <p>This service is momentarily offline for some quick updates. We'll be back up and running shortly. Thanks for your patience!</p>
+        </main>
 
     <script>
-        (function() {
-            // Ini adalah nilai statis dari file HTML asli Abang
-            const targetTime = "23:54:00"; 
-            const durationMinutes = 5; 
+        const textElement = document.getElementById('text-3d');
+        const maxRotation = 90;
 
-            function getTargetDateTime() {
-                const now = new Date();
-                const [hours, minutes, seconds] = targetTime.split(':').map(Number);
-                
-                let target = new Date();
-                target.setHours(hours, minutes, seconds, 0);
-                
-                if (now.getTime() > target.getTime() + (durationMinutes * 60000)) {
-                    target.setDate(target.getDate() + 1);
-                }
-                
-                return target;
-            }
+        document.addEventListener('mousemove', (e) => {
+            const { clientX, clientY } = e;
+            const { innerWidth, innerHeight } = window;
 
-            function updateCountdown() {
-                const target = getTargetDateTime();
-                const now = new Date().getTime();
-                let distance = target.getTime() - now;
+            const x = (clientX / innerWidth) - 0.5;
+            const y = (clientY / innerHeight) - 0.5;
 
-                const endTime = target.getTime() + (durationMinutes * 60 * 1000);
-                if (now < endTime && now >= target.getTime()) {
-                    distance = endTime - now;
-                } else if (now > endTime) {
-                    distance = 0;
-                    document.getElementById("countdown").innerHTML = "00:00:00";
-                    return;
-                }
-                
-                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-                
-                document.getElementById("countdown").innerHTML = 
-                    (hours < 10 ? "0" : "") + hours + ":" + 
-                    (minutes < 10 ? "0" : "") + minutes + ":" + 
-                    (seconds < 10 ? "0" : "") + seconds;
-                
-                if (distance < 0) {
-                    clearInterval(interval);
-                    document.getElementById("countdown").innerHTML = "Loading...";
-                }
-            }
-            
-            const interval = setInterval(updateCountdown, 1000);
-            updateCountdown();
-        })();
+            const rotateY = x * (maxRotation * 2);
+            const rotateX = -y * (maxRotation * 2);
+
+            textElement.style.transform = `rotateY(${rotateY}deg) rotateX(${rotateX}deg)`;
+        });
+
+        document.addEventListener('mouseleave', () => {
+             textElement.style.transform = 'rotateY(0deg) rotateX(0deg)';
+        });
     </script>
 
 </body>
