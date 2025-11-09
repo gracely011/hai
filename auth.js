@@ -25,7 +25,7 @@ async function getUserId() {
 
 async function getClientIp() {
     try {
-        const response = await fetch('https://api.ipify.org?format=json');
+        const response = await fetch('https.api.ipify.org?format=json');
         const data = await response.json();
         return data.ip || 'Unknown';
     } catch (e) {
@@ -182,6 +182,35 @@ async function sendPasswordResetEmail(email) {
         return { success: false, message: 'Gagal memproses permintaan. Silakan coba lagi.' };
     }
 }
+
+// ==== INI FUNGSI BARU YANG DITAMBAHKAN ====
+async function updateUserPassword(newPassword) {
+    try {
+        const { data, error } = await supabaseClient.auth.updateUser({
+            password: newPassword
+        });
+
+        if (error) {
+            throw error;
+        }
+        
+        // Logout paksa setelah password diubah
+        await supabaseClient.auth.signOut();
+        
+        return { success: true, message: 'Password Anda telah berhasil diperbarui! Anda akan diarahkan ke halaman login.' };
+
+    } catch (error) {
+        let userMessage = 'Gagal memperbarui password. Silakan coba lagi.';
+        if (error.message.includes("Password should be at least 6 characters")) {
+            userMessage = 'Password minimal harus 6 karakter.';
+        }
+        if (error.message.includes("session is missing") || error.message.includes("Auth session missing")) {
+            userMessage = 'Sesi Anda tidak valid atau sudah kadaluarsa. Silakan minta tautan reset baru.';
+        }
+        return { success: false, message: userMessage };
+    }
+}
+// ==== AKHIR FUNGSI BARU ====
 
 async function logout() {
     const userId = await getUserId();
