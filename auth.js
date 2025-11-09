@@ -25,7 +25,7 @@ async function getUserId() {
 
 async function getClientIp() {
     try {
-        const response = await fetch('https.api.ipify.org?format=json');
+        const response = await fetch('https://api.ipify.org?format=json');
         const data = await response.json();
         return data.ip || 'Unknown';
     } catch (e) {
@@ -36,9 +36,11 @@ async function getClientIp() {
 async function getActiveSessionToken(userId) {
     if (!userId) return null;
     try {
+        // ==== PERUBAHAN DI SINI ====
+        // Kita ambil juga last_ip dan last_browser
         const { data } = await supabaseClient
             .from('profiles')
-            .select('session_id, allow_multilogin')
+            .select('session_id, allow_multilogin, last_ip, last_browser')
             .eq('id', userId)
             .single();
         return data;
@@ -183,22 +185,16 @@ async function sendPasswordResetEmail(email) {
     }
 }
 
-// ==== INI FUNGSI BARU YANG DITAMBAHKAN ====
 async function updateUserPassword(newPassword) {
     try {
         const { data, error } = await supabaseClient.auth.updateUser({
             password: newPassword
         });
-
         if (error) {
             throw error;
         }
-        
-        // Logout paksa setelah password diubah
         await supabaseClient.auth.signOut();
-        
         return { success: true, message: 'Password Anda telah berhasil diperbarui! Anda akan diarahkan ke halaman login.' };
-
     } catch (error) {
         let userMessage = 'Gagal memperbarui password. Silakan coba lagi.';
         if (error.message.includes("Password should be at least 6 characters")) {
@@ -210,7 +206,6 @@ async function updateUserPassword(newPassword) {
         return { success: false, message: userMessage };
     }
 }
-// ==== AKHIR FUNGSI BARU ====
 
 async function logout() {
     const userId = await getUserId();
