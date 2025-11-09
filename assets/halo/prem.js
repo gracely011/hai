@@ -35418,7 +35418,7 @@
   },
   {
     "meta": {
-      "id": "canva-group-id",
+      "id": "canva-pro-group-id",
       "name": "Pro: Canva",
       "icon": "https://play-lh.googleusercontent.com/JC3HW-ps59VAEU3vuJoi3I5XB_IQ9ISuILLudUY9uLSW7eKfqtXitrB-fF865rV4TQ",
       "url": "https://gracely011.github.io/hai/manual.html?name=Canva&login=natthawut1976@syapdak.biz.id&password=masuk123&url=https://canva.com",
@@ -56822,7 +56822,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762681046.553461,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -57438,7 +57437,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762681034.388189,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
