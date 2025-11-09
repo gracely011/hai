@@ -214,6 +214,10 @@ const gracelyConfig = {
         "title": "Informasi",
         "content": "<p>Silakan undang email pribadi kamu untuk bergabung dengan team Canva. Jika sudah penuh, mohon laporkan melalui Telegram.</p>"
       },
+      "canva-pro-group-id": {
+        "title": "Informasi",
+        "content": "<p>Silakan undang email pribadi kamu untuk bergabung dengan team Canva. Jika sudah penuh, mohon laporkan melalui Telegram.</p>"
+      },
       "perplexity-group-id": {
         "title": "Perplexity",
         "content": "<p>Jika Perpexity <b>tidak terlogin-login</b>, silahkan lakukan akses ulang sampai terlogin.</p>"
