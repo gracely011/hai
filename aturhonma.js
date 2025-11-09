@@ -238,7 +238,7 @@ const gracelyConfig = {
     "dailyTime": "23:54:00",
     "specificDateTime": "2025-12-31T23:00:00",
     "durationMinutes": 5,
-    "countdownMinutes": 30,
+    "countdownMinutes": 10,
     "warningTitle": "Informasi Maintenance",
     "warningMessage": "Layanan akan memasuki mode perbaikan dalam:",
     "maintenanceTitle": "Sedang Maintenance",
