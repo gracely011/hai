@@ -1,7 +1,7 @@
 [
   {
     "meta": {
-      "id": "academia-1199",
+      "id": "academia-1335",
       "name": "Academia.edu",
       "icon": "https://www.academia.edu/favicon.ico",
       "url": "https://www.academia.edu/",
@@ -204,7 +204,7 @@
   },
   {
     "meta": {
-      "id": "petrusperdana1-1997",
+      "id": "petrusperdana1-1540",
       "name": "Alightmotion.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://petrusperdana1.github.io/tpsyunix/al1ghttt.html",
@@ -213,7 +213,7 @@
     },
     "accounts": [
       {
-        "id": "petrusperdana1-1997-Alight-Motion",
+        "id": "petrusperdana1-1540-Alight-Motion",
         "name": "Alight Motion",
         "cookies": []
       }
@@ -221,7 +221,7 @@
   },
   {
     "meta": {
-      "id": "app-1493",
+      "id": "app-1109",
       "name": "App.datacamp.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://app.datacamp.com/",
@@ -610,7 +610,7 @@
   },
   {
     "meta": {
-      "id": "app-1937",
+      "id": "app-1100",
       "name": "App.grammarly.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://app.grammarly.com/",
@@ -1028,7 +1028,7 @@
   },
   {
     "meta": {
-      "id": "app-1067",
+      "id": "app-1641",
       "name": "App.grammarly.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://app.grammarly.com/",
@@ -1422,7 +1422,7 @@
   },
   {
     "meta": {
-      "id": "app-1341",
+      "id": "app-1069",
       "name": "App.neilpatel.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://app.neilpatel.com/en/ubersuggest/overview",
@@ -1838,7 +1838,7 @@
   },
   {
     "meta": {
-      "id": "app-1969",
+      "id": "app-1980",
       "name": "App.speechify.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://app.speechify.com/",
@@ -2138,7 +2138,7 @@
   },
   {
     "meta": {
-      "id": "app-1753",
+      "id": "app-1267",
       "name": "App.svgator.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://app.svgator.com/#/",
@@ -2316,7 +2316,7 @@
   },
   {
     "meta": {
-      "id": "askyourpdf-1441",
+      "id": "askyourpdf-1460",
       "name": "Askyourpdf.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://askyourpdf.com/conversations",
@@ -2496,7 +2496,7 @@
   },
   {
     "meta": {
-      "id": "bilibili-1847",
+      "id": "bilibili-1613",
       "name": "Bilibili.tv",
       "icon": "https://www.bilibili.tv/favicon.ico",
       "url": "https://www.bilibili.tv/en/anime",
@@ -2652,7 +2652,7 @@
   },
   {
     "meta": {
-      "id": "bilibili-1287",
+      "id": "bilibili-1648",
       "name": "Bilibili.tv",
       "icon": "https://www.bilibili.tv/favicon.ico",
       "url": "https://www.bilibili.tv/en/anime",
@@ -2808,7 +2808,7 @@
   },
   {
     "meta": {
-      "id": "brilliant-1758",
+      "id": "brilliant-1139",
       "name": "Brilliant.org",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://brilliant.org/home/",
@@ -2949,7 +2949,7 @@
   },
   {
     "meta": {
-      "id": "busuu-1943",
+      "id": "busuu-1946",
       "name": "Busuu.com",
       "icon": "https://www.busuu.com/favicon.ico",
       "url": "https://www.busuu.com/dashboard/timeline/a1",
@@ -3296,7 +3296,7 @@
   },
   {
     "meta": {
-      "id": "bypassgpt-1433",
+      "id": "bypassgpt-1496",
       "name": "Bypassgpt.ai",
       "icon": "https://bypassgpt.ai/favicon.ico",
       "url": "https://www.bypassgpt.ai/#groupy",
@@ -3569,7 +3569,234 @@
   },
   {
     "meta": {
-      "id": "canva-1432",
+      "id": "canva-1607",
+      "name": "Canva.com",
+      "icon": "https://static.canva.com/static/images/favicon.ico",
+      "url": "https://www.canva.com/templates",
+      "category": "design",
+      "isGroup": false
+    },
+    "cookies": [
+      {
+        "url": "https://canva.com/",
+        "name": "__cf_bm",
+        "value": "LL2c_BQRsomHuOvX6JhmFNTkppHUMoJ12_neAJ9HSwA-1762271348-1.0.1.1-YcPVN0jUXQs9nA8KvnGRTKWtSF5qgQhtDBncrrbd5fpWdBQaVhj5czz44ADHl4WYikLqBtPLrUuW0KHACY7yrP7N_10BWM4C2aVL5eI8S3Wgea6vYsARtZFFvUPtspCz",
+        "domain": ".canva.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1762273149.029878,
+        "sameSite": "no_restriction",
+        "storeId": "0"
+      },
+      {
+        "url": "http://canva.com/",
+        "name": "__cuid",
+        "value": "b1fe28a672c043ceb658782ed42e2800",
+        "domain": ".canva.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "expirationDate": 1796831342,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://canva.com/",
+        "name": "_cfuvid",
+        "value": "aIEVVB3GHZ9I.NjcIHtLme7EKWY8CZcl9rJGVgRPLWk-1762271078020-0.0.1.1-604800000",
+        "domain": ".canva.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "no_restriction",
+        "storeId": "0"
+      },
+      {
+        "url": "https://canva.com/",
+        "name": "CS",
+        "value": "1",
+        "domain": ".canva.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1764863356.459399,
+        "sameSite": "no_restriction",
+        "storeId": "0"
+      },
+      {
+        "url": "https://canva.com/",
+        "name": "CTC",
+        "value": "eyJBIjoxNzYyMjcxMjEwNTAzLCJCIjoxNzYyMjcxMjEwNTAzLCJEIjpmYWxzZSwiSSI6Wy01ODM2OSwzOTMxMzAzXSwiSiI6WzBdLCJLIjp0cnVlfQ==",
+        "domain": ".canva.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1777823210.790864,
+        "sameSite": "no_restriction",
+        "storeId": "0"
+      },
+      {
+        "url": "https://canva.com/",
+        "name": "CUI",
+        "value": "BsUOS9i-xo4yFVngNqyg_bcRqeSzWx4TeAeCTJ69NoiNFOH9aVIzah30XvzgdQQGnwdqcg",
+        "domain": ".canva.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1764863356.459301,
+        "sameSite": "no_restriction",
+        "storeId": "0"
+      },
+      {
+        "url": "http://www.canva.com/",
+        "name": "__cuid",
+        "value": "b1fe28a672c043ceb658782ed42e2800",
+        "domain": ".www.canva.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "expirationDate": 1796831342,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://www.canva.com/",
+        "name": "ASI",
+        "value": "01K97RXB24SM1QZPCE542EMBGP",
+        "domain": "www.canva.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1762273162.489213,
+        "sameSite": "no_restriction",
+        "storeId": "0"
+      },
+      {
+        "url": "https://www.canva.com/",
+        "name": "CAU",
+        "value": "eyJBIjoiVUFHMXRpbGlFemciLCJCIjoiQkFHMXRobWljU28ifQ==",
+        "domain": "www.canva.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1764863356.459178,
+        "sameSite": "no_restriction",
+        "storeId": "0"
+      },
+      {
+        "url": "https://www.canva.com/",
+        "name": "CAZ",
+        "value": "cnvan08H6E04yrhDN3Ct6Nl7Vpi04ROrbqOJ-I9iOHcafnW97uQo9gJMhUd7sPxr3ONgdqOmYAQgZGd4kcU0Ub66lNWiYIzGg9nZJiJGCQ9qMuLS9mRQn1yeUzA7BJOCTIim9ZxwSMPZE5VR6dKD-kWNNTNknSyi5vxXfx7Av7lCCUHAyV3Z_d2aeSl9hdtFIS8XJjJTz-Qp8yjcO42gHvg5helIcQKdRmF2H2fq9d4zR4vJsfiJmC4_Gv28ey37PWvvlmN3pYA492dc8cb",
+        "domain": "www.canva.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1764863356.45907,
+        "sameSite": "no_restriction",
+        "storeId": "0"
+      },
+      {
+        "url": "https://www.canva.com/",
+        "name": "CB",
+        "value": "BAG1thmicSo",
+        "domain": "www.canva.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1764863356.459144,
+        "sameSite": "no_restriction",
+        "storeId": "0"
+      },
+      {
+        "url": "https://www.canva.com/",
+        "name": "CCK",
+        "value": "dSTCNXZw8Uaos623mDoxvA",
+        "domain": "www.canva.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1762282156.857745,
+        "sameSite": "no_restriction",
+        "storeId": "0"
+      },
+      {
+        "url": "https://www.canva.com/",
+        "name": "CDI",
+        "value": "98e803c6-2c84-4d81-a831-bfe0e8b656b7",
+        "domain": "www.canva.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1793807078.172439,
+        "sameSite": "no_restriction",
+        "storeId": "0"
+      },
+      {
+        "url": "https://www.canva.com/",
+        "name": "CID",
+        "value": "cnvanz6YQVepFbCNlffbKN8HtVOQcKSg6MdzjvAQ7EMFzQTQKPQbd61HmWycRnsXqxJV4mYOAUupEg6Rnu2ztBjDBjat9WIe-uuY6K-ZIY81ETqDPcLCv095aaf9a",
+        "domain": "www.canva.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1764863356.459267,
+        "sameSite": "no_restriction",
+        "storeId": "0"
+      },
+      {
+        "url": "https://www.canva.com/",
+        "name": "CL",
+        "value": "en",
+        "domain": "www.canva.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1764863356.45921,
+        "sameSite": "no_restriction",
+        "storeId": "0"
+      },
+      {
+        "url": "https://www.canva.com/",
+        "name": "CPA",
+        "value": "cnvanLEwHrST_JlK8QC-J31Zw1mSHFKEpdgahDYzN9agJj4jUSjE_Z7CWTxKTiW40J2angJJ16q8dDJKdZXI3X9s5_coV7DES77cAbVNp4VkQph8TeuFsk4Zvu0G80n6COzt6m5L2v_TLF0FsgnxnOMdIsd8IwubVBf7pv_tYUsGUHs00LHcp9rDLX5w2drW_wqqIIeHNjUcbD5RQ7tM2C-W1Ts6zm7l2OR2o-3zIBULcjcYigUF3Mjw2ky8ZqkT-qn_2grE_OhKILJbpOAj8-Ogn2-R0P8gBi9HhtE4lDJYxfjTG7ZmX49bc-4A_lHf_BSfsZZqti3_-B-rXiP0-qvX-3CpWfAPzxStcvsH5jenVuGc9h4mPqtoug-VpH8xDKQY_r9VWiZTL5zdinLC5nhxEjB2vMTC44cSIMBGlO-WRqJLkDJmEIiO-JwCr2twBMfrum1qi0F7Vo3oAcf4EcfSxoicowpdY3zHc24oxtDUuDq8HSQ-2KHCsUEui2IN9exkGkK9rVWOylNkc-1ZBgE_acPovnK5uPdGrpgpjLxXg3662elNbBMS7nZR7lfaYfZzwou_rF9RbDib0fhrA4fKsHFT-tOKoAvuIQ05hpKOoSh-6P3aXPbjTC_1_HZvKr9Bd5UwbI0pjchJ80KEvlaBfyvne3g4n7U4kr6d93SB46klKfg_2RV-4GJQXC8V45nlNzjrUSmZt7itSfC1R_bUfUU1BRwcFaZqNVC-3GKPH96L194YQ1zW2zTn_8DXz59GhgmlTegd071406f",
+        "domain": "www.canva.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1762282156.857227,
+        "sameSite": "no_restriction",
+        "storeId": "0"
+      },
+      {
+        "url": "https://www.canva.com/",
+        "name": "CUL",
+        "value": "cnvruIudWX47-9yuCIx200fGcLou1Va13392w9DI2dFNfHojnURvDxplNX8REd13enbQ7FJeBUQCjfZYg2nuBjVLwPqNAuGs7KzyOVKYZ20ZEuVjQv_fVbB_SVpGlD3b-Lm3uI4tzGQb4fa9bfc",
+        "domain": "www.canva.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1793807356.459338,
+        "sameSite": "no_restriction",
+        "storeId": "0"
+      },
+      {
+        "url": "http://www.canva.com/",
+        "name": "g_state",
+        "value": "{\"i_l\":0,\"i_ll\":1762271342189,\"i_b\":\"hRHJG7P0yhif/QIy6WsvDGVzDkRJrYcXnlswJ+hrahE\",\"i_t\":1762357742189}",
+        "domain": "www.canva.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "expirationDate": 1777823342,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "id": "canva-1308",
       "name": "Canva.com",
       "icon": "https://static.canva.com/static/images/favicon.ico",
       "url": "https://www.canva.com/templates",
@@ -3928,7 +4155,7 @@
   },
   {
     "meta": {
-      "id": "canva-1473",
+      "id": "canva-1310",
       "name": "Canva.com",
       "icon": "https://static.canva.com/static/images/favicon.ico",
       "url": "https://www.canva.com/templates",
@@ -4311,234 +4538,7 @@
   },
   {
     "meta": {
-      "id": "canva-1183",
-      "name": "Canva.com",
-      "icon": "https://static.canva.com/static/images/favicon.ico",
-      "url": "https://www.canva.com/templates",
-      "category": "design",
-      "isGroup": false
-    },
-    "cookies": [
-      {
-        "url": "https://canva.com/",
-        "name": "__cf_bm",
-        "value": "LL2c_BQRsomHuOvX6JhmFNTkppHUMoJ12_neAJ9HSwA-1762271348-1.0.1.1-YcPVN0jUXQs9nA8KvnGRTKWtSF5qgQhtDBncrrbd5fpWdBQaVhj5czz44ADHl4WYikLqBtPLrUuW0KHACY7yrP7N_10BWM4C2aVL5eI8S3Wgea6vYsARtZFFvUPtspCz",
-        "domain": ".canva.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1762273149.029878,
-        "sameSite": "no_restriction",
-        "storeId": "0"
-      },
-      {
-        "url": "http://canva.com/",
-        "name": "__cuid",
-        "value": "b1fe28a672c043ceb658782ed42e2800",
-        "domain": ".canva.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "expirationDate": 1796831342,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://canva.com/",
-        "name": "_cfuvid",
-        "value": "aIEVVB3GHZ9I.NjcIHtLme7EKWY8CZcl9rJGVgRPLWk-1762271078020-0.0.1.1-604800000",
-        "domain": ".canva.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "sameSite": "no_restriction",
-        "storeId": "0"
-      },
-      {
-        "url": "https://canva.com/",
-        "name": "CS",
-        "value": "1",
-        "domain": ".canva.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1764863356.459399,
-        "sameSite": "no_restriction",
-        "storeId": "0"
-      },
-      {
-        "url": "https://canva.com/",
-        "name": "CTC",
-        "value": "eyJBIjoxNzYyMjcxMjEwNTAzLCJCIjoxNzYyMjcxMjEwNTAzLCJEIjpmYWxzZSwiSSI6Wy01ODM2OSwzOTMxMzAzXSwiSiI6WzBdLCJLIjp0cnVlfQ==",
-        "domain": ".canva.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1777823210.790864,
-        "sameSite": "no_restriction",
-        "storeId": "0"
-      },
-      {
-        "url": "https://canva.com/",
-        "name": "CUI",
-        "value": "BsUOS9i-xo4yFVngNqyg_bcRqeSzWx4TeAeCTJ69NoiNFOH9aVIzah30XvzgdQQGnwdqcg",
-        "domain": ".canva.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1764863356.459301,
-        "sameSite": "no_restriction",
-        "storeId": "0"
-      },
-      {
-        "url": "http://www.canva.com/",
-        "name": "__cuid",
-        "value": "b1fe28a672c043ceb658782ed42e2800",
-        "domain": ".www.canva.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "expirationDate": 1796831342,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://www.canva.com/",
-        "name": "ASI",
-        "value": "01K97RXB24SM1QZPCE542EMBGP",
-        "domain": "www.canva.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1762273162.489213,
-        "sameSite": "no_restriction",
-        "storeId": "0"
-      },
-      {
-        "url": "https://www.canva.com/",
-        "name": "CAU",
-        "value": "eyJBIjoiVUFHMXRpbGlFemciLCJCIjoiQkFHMXRobWljU28ifQ==",
-        "domain": "www.canva.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1764863356.459178,
-        "sameSite": "no_restriction",
-        "storeId": "0"
-      },
-      {
-        "url": "https://www.canva.com/",
-        "name": "CAZ",
-        "value": "cnvan08H6E04yrhDN3Ct6Nl7Vpi04ROrbqOJ-I9iOHcafnW97uQo9gJMhUd7sPxr3ONgdqOmYAQgZGd4kcU0Ub66lNWiYIzGg9nZJiJGCQ9qMuLS9mRQn1yeUzA7BJOCTIim9ZxwSMPZE5VR6dKD-kWNNTNknSyi5vxXfx7Av7lCCUHAyV3Z_d2aeSl9hdtFIS8XJjJTz-Qp8yjcO42gHvg5helIcQKdRmF2H2fq9d4zR4vJsfiJmC4_Gv28ey37PWvvlmN3pYA492dc8cb",
-        "domain": "www.canva.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1764863356.45907,
-        "sameSite": "no_restriction",
-        "storeId": "0"
-      },
-      {
-        "url": "https://www.canva.com/",
-        "name": "CB",
-        "value": "BAG1thmicSo",
-        "domain": "www.canva.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1764863356.459144,
-        "sameSite": "no_restriction",
-        "storeId": "0"
-      },
-      {
-        "url": "https://www.canva.com/",
-        "name": "CCK",
-        "value": "dSTCNXZw8Uaos623mDoxvA",
-        "domain": "www.canva.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1762282156.857745,
-        "sameSite": "no_restriction",
-        "storeId": "0"
-      },
-      {
-        "url": "https://www.canva.com/",
-        "name": "CDI",
-        "value": "98e803c6-2c84-4d81-a831-bfe0e8b656b7",
-        "domain": "www.canva.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1793807078.172439,
-        "sameSite": "no_restriction",
-        "storeId": "0"
-      },
-      {
-        "url": "https://www.canva.com/",
-        "name": "CID",
-        "value": "cnvanz6YQVepFbCNlffbKN8HtVOQcKSg6MdzjvAQ7EMFzQTQKPQbd61HmWycRnsXqxJV4mYOAUupEg6Rnu2ztBjDBjat9WIe-uuY6K-ZIY81ETqDPcLCv095aaf9a",
-        "domain": "www.canva.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1764863356.459267,
-        "sameSite": "no_restriction",
-        "storeId": "0"
-      },
-      {
-        "url": "https://www.canva.com/",
-        "name": "CL",
-        "value": "en",
-        "domain": "www.canva.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1764863356.45921,
-        "sameSite": "no_restriction",
-        "storeId": "0"
-      },
-      {
-        "url": "https://www.canva.com/",
-        "name": "CPA",
-        "value": "cnvanLEwHrST_JlK8QC-J31Zw1mSHFKEpdgahDYzN9agJj4jUSjE_Z7CWTxKTiW40J2angJJ16q8dDJKdZXI3X9s5_coV7DES77cAbVNp4VkQph8TeuFsk4Zvu0G80n6COzt6m5L2v_TLF0FsgnxnOMdIsd8IwubVBf7pv_tYUsGUHs00LHcp9rDLX5w2drW_wqqIIeHNjUcbD5RQ7tM2C-W1Ts6zm7l2OR2o-3zIBULcjcYigUF3Mjw2ky8ZqkT-qn_2grE_OhKILJbpOAj8-Ogn2-R0P8gBi9HhtE4lDJYxfjTG7ZmX49bc-4A_lHf_BSfsZZqti3_-B-rXiP0-qvX-3CpWfAPzxStcvsH5jenVuGc9h4mPqtoug-VpH8xDKQY_r9VWiZTL5zdinLC5nhxEjB2vMTC44cSIMBGlO-WRqJLkDJmEIiO-JwCr2twBMfrum1qi0F7Vo3oAcf4EcfSxoicowpdY3zHc24oxtDUuDq8HSQ-2KHCsUEui2IN9exkGkK9rVWOylNkc-1ZBgE_acPovnK5uPdGrpgpjLxXg3662elNbBMS7nZR7lfaYfZzwou_rF9RbDib0fhrA4fKsHFT-tOKoAvuIQ05hpKOoSh-6P3aXPbjTC_1_HZvKr9Bd5UwbI0pjchJ80KEvlaBfyvne3g4n7U4kr6d93SB46klKfg_2RV-4GJQXC8V45nlNzjrUSmZt7itSfC1R_bUfUU1BRwcFaZqNVC-3GKPH96L194YQ1zW2zTn_8DXz59GhgmlTegd071406f",
-        "domain": "www.canva.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1762282156.857227,
-        "sameSite": "no_restriction",
-        "storeId": "0"
-      },
-      {
-        "url": "https://www.canva.com/",
-        "name": "CUL",
-        "value": "cnvruIudWX47-9yuCIx200fGcLou1Va13392w9DI2dFNfHojnURvDxplNX8REd13enbQ7FJeBUQCjfZYg2nuBjVLwPqNAuGs7KzyOVKYZ20ZEuVjQv_fVbB_SVpGlD3b-Lm3uI4tzGQb4fa9bfc",
-        "domain": "www.canva.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1793807356.459338,
-        "sameSite": "no_restriction",
-        "storeId": "0"
-      },
-      {
-        "url": "http://www.canva.com/",
-        "name": "g_state",
-        "value": "{\"i_l\":0,\"i_ll\":1762271342189,\"i_b\":\"hRHJG7P0yhif/QIy6WsvDGVzDkRJrYcXnlswJ+hrahE\",\"i_t\":1762357742189}",
-        "domain": "www.canva.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "expirationDate": 1777823342,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      }
-    ]
-  },
-  {
-    "meta": {
-      "id": "gracely011-1788",
+      "id": "gracely011-1719",
       "name": "Canva1.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://gracely011.github.io/hai/manual.html?name=Canva&login=jessidrti1872@moviesisme.com&password=Canvaku123&url=https://Canva.com",
@@ -4547,7 +4547,7 @@
     },
     "accounts": [
       {
-        "id": "gracely011-1788-Canva-1",
+        "id": "gracely011-1719-Canva-1",
         "name": "Canva 1",
         "cookies": [
           {
@@ -4557,7 +4557,7 @@
         ]
       },
       {
-        "id": "gracely011-1788-Canva-2",
+        "id": "gracely011-1719-Canva-2",
         "name": "Canva 2",
         "cookies": [
           {
@@ -4567,7 +4567,7 @@
         ]
       },
       {
-        "id": "gracely011-1788-Canva-3",
+        "id": "gracely011-1719-Canva-3",
         "name": "Canva 3",
         "cookies": [
           {
@@ -4577,7 +4577,7 @@
         ]
       },
       {
-        "id": "gracely011-1788-Canva-4",
+        "id": "gracely011-1719-Canva-4",
         "name": "Canva 4",
         "cookies": [
           {
@@ -4587,7 +4587,7 @@
         ]
       },
       {
-        "id": "gracely011-1788-Canva-5",
+        "id": "gracely011-1719-Canva-5",
         "name": "Canva 5",
         "cookies": [
           {
@@ -4597,7 +4597,7 @@
         ]
       },
       {
-        "id": "gracely011-1788-Canva-6",
+        "id": "gracely011-1719-Canva-6",
         "name": "Canva 6",
         "cookies": [
           {
@@ -4607,7 +4607,7 @@
         ]
       },
       {
-        "id": "gracely011-1788-Canva-7",
+        "id": "gracely011-1719-Canva-7",
         "name": "Canva 7",
         "cookies": [
           {
@@ -4617,7 +4617,7 @@
         ]
       },
       {
-        "id": "gracely011-1788-Canva-8",
+        "id": "gracely011-1719-Canva-8",
         "name": "Canva 8",
         "cookies": [
           {
@@ -4627,7 +4627,7 @@
         ]
       },
       {
-        "id": "gracely011-1788-Canva-9",
+        "id": "gracely011-1719-Canva-9",
         "name": "Canva 9",
         "cookies": [
           {
@@ -4637,7 +4637,7 @@
         ]
       },
       {
-        "id": "gracely011-1788-Canva-10",
+        "id": "gracely011-1719-Canva-10",
         "name": "Canva 10",
         "cookies": [
           {
@@ -4647,7 +4647,7 @@
         ]
       },
       {
-        "id": "gracely011-1788-Canva-11",
+        "id": "gracely011-1719-Canva-11",
         "name": "Canva 11",
         "cookies": [
           {
@@ -4657,7 +4657,7 @@
         ]
       },
       {
-        "id": "gracely011-1788-Canva-12",
+        "id": "gracely011-1719-Canva-12",
         "name": "Canva 12",
         "cookies": [
           {
@@ -4667,7 +4667,7 @@
         ]
       },
       {
-        "id": "gracely011-1788-Canva-13",
+        "id": "gracely011-1719-Canva-13",
         "name": "Canva 13",
         "cookies": [
           {
@@ -4677,7 +4677,7 @@
         ]
       },
       {
-        "id": "gracely011-1788-Canva-14",
+        "id": "gracely011-1719-Canva-14",
         "name": "Canva 14",
         "cookies": [
           {
@@ -4687,7 +4687,7 @@
         ]
       },
       {
-        "id": "gracely011-1788-Canva-15",
+        "id": "gracely011-1719-Canva-15",
         "name": "Canva 15",
         "cookies": [
           {
@@ -4697,7 +4697,7 @@
         ]
       },
       {
-        "id": "gracely011-1788-Canva-16",
+        "id": "gracely011-1719-Canva-16",
         "name": "Canva 16",
         "cookies": [
           {
@@ -4707,7 +4707,7 @@
         ]
       },
       {
-        "id": "gracely011-1788-Canva-17",
+        "id": "gracely011-1719-Canva-17",
         "name": "Canva 17",
         "cookies": [
           {
@@ -4717,7 +4717,7 @@
         ]
       },
       {
-        "id": "gracely011-1788-Canva-18",
+        "id": "gracely011-1719-Canva-18",
         "name": "Canva 18",
         "cookies": [
           {
@@ -4727,7 +4727,7 @@
         ]
       },
       {
-        "id": "gracely011-1788-Canva-19",
+        "id": "gracely011-1719-Canva-19",
         "name": "Canva 19",
         "cookies": [
           {
@@ -4737,7 +4737,7 @@
         ]
       },
       {
-        "id": "gracely011-1788-Canva-20",
+        "id": "gracely011-1719-Canva-20",
         "name": "Canva 20",
         "cookies": [
           {
@@ -4750,7 +4750,7 @@
   },
   {
     "meta": {
-      "id": "gracely011-1410",
+      "id": "gracely011-1579",
       "name": "Canvapro11.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://gracely011.github.io/hai/manual.html?name=Canva&login=natthawut1976@syapdak.biz.id&password=masuk123&url=https://canva.com",
@@ -4759,102 +4759,102 @@
     },
     "accounts": [
       {
-        "id": "gracely011-1410-Canva",
+        "id": "gracely011-1579-Canva",
         "name": "Canva",
         "cookies": []
       },
       {
-        "id": "gracely011-1410-Canva-2",
+        "id": "gracely011-1579-Canva-2",
         "name": "Canva 2",
         "cookies": []
       },
       {
-        "id": "gracely011-1410-Canva-3",
+        "id": "gracely011-1579-Canva-3",
         "name": "Canva 3",
         "cookies": []
       },
       {
-        "id": "gracely011-1410-Canva-4",
+        "id": "gracely011-1579-Canva-4",
         "name": "Canva 4",
         "cookies": []
       },
       {
-        "id": "gracely011-1410-Canva-5",
+        "id": "gracely011-1579-Canva-5",
         "name": "Canva 5",
         "cookies": []
       },
       {
-        "id": "gracely011-1410-Canva-6",
+        "id": "gracely011-1579-Canva-6",
         "name": "Canva 6",
         "cookies": []
       },
       {
-        "id": "gracely011-1410-Canva-7",
+        "id": "gracely011-1579-Canva-7",
         "name": "Canva 7",
         "cookies": []
       },
       {
-        "id": "gracely011-1410-Canva-8",
+        "id": "gracely011-1579-Canva-8",
         "name": "Canva 8",
         "cookies": []
       },
       {
-        "id": "gracely011-1410-Canva-9",
+        "id": "gracely011-1579-Canva-9",
         "name": "Canva 9",
         "cookies": []
       },
       {
-        "id": "gracely011-1410-Canva-10",
+        "id": "gracely011-1579-Canva-10",
         "name": "Canva 10",
         "cookies": []
       },
       {
-        "id": "gracely011-1410-Canva-11",
+        "id": "gracely011-1579-Canva-11",
         "name": "Canva 11",
         "cookies": []
       },
       {
-        "id": "gracely011-1410-Canva-12",
+        "id": "gracely011-1579-Canva-12",
         "name": "Canva 12",
         "cookies": []
       },
       {
-        "id": "gracely011-1410-Canva-13",
+        "id": "gracely011-1579-Canva-13",
         "name": "Canva 13",
         "cookies": []
       },
       {
-        "id": "gracely011-1410-Canva-14",
+        "id": "gracely011-1579-Canva-14",
         "name": "Canva 14",
         "cookies": []
       },
       {
-        "id": "gracely011-1410-Canva-15",
+        "id": "gracely011-1579-Canva-15",
         "name": "Canva 15",
         "cookies": []
       },
       {
-        "id": "gracely011-1410-Canva-16",
+        "id": "gracely011-1579-Canva-16",
         "name": "Canva 16",
         "cookies": []
       },
       {
-        "id": "gracely011-1410-Canva-17",
+        "id": "gracely011-1579-Canva-17",
         "name": "Canva 17",
         "cookies": []
       },
       {
-        "id": "gracely011-1410-Canva-18",
+        "id": "gracely011-1579-Canva-18",
         "name": "Canva 18",
         "cookies": []
       },
       {
-        "id": "gracely011-1410-Canva-19",
+        "id": "gracely011-1579-Canva-19",
         "name": "Canva 19",
         "cookies": []
       },
       {
-        "id": "gracely011-1410-Canva-20",
+        "id": "gracely011-1579-Canva-20",
         "name": "Canva 20",
         "cookies": []
       }
@@ -4862,7 +4862,7 @@
   },
   {
     "meta": {
-      "id": "capcut-1093",
+      "id": "capcut-1894",
       "name": "Capcut.com",
       "icon": "https://www.capcut.com/favicon.ico",
       "url": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video",
@@ -5361,7 +5361,7 @@
   },
   {
     "meta": {
-      "id": "capcut-1298",
+      "id": "capcut-1948",
       "name": "Capcut.com",
       "icon": "https://www.capcut.com/favicon.ico",
       "url": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video",
@@ -5872,7 +5872,7 @@
   },
   {
     "meta": {
-      "id": "capcut-1335",
+      "id": "capcut-1238",
       "name": "Capcut.com",
       "icon": "https://www.capcut.com/favicon.ico",
       "url": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video",
@@ -6383,7 +6383,7 @@
   },
   {
     "meta": {
-      "id": "capcut-1074",
+      "id": "capcut-1038",
       "name": "Capcut.com",
       "icon": "https://www.capcut.com/favicon.ico",
       "url": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video",
@@ -6882,7 +6882,7 @@
   },
   {
     "meta": {
-      "id": "chatgpt-1195",
+      "id": "chatgpt-1562",
       "name": "Chatgpt.com",
       "icon": "https://chatgpt.com/favicon.ico",
       "url": "https://chatgpt.com/#i-love-groupy",
@@ -7263,7 +7263,7 @@
   },
   {
     "meta": {
-      "id": "chatgpt-1684",
+      "id": "chatgpt-1586",
       "name": "Chatgpt.com",
       "icon": "https://chatgpt.com/favicon.ico",
       "url": "https://chatgpt.com/#16",
@@ -7656,7 +7656,7 @@
   },
   {
     "meta": {
-      "id": "chatgpt-1273",
+      "id": "chatgpt-1205",
       "name": "Chatgpt.com",
       "icon": "https://chatgpt.com/favicon.ico",
       "url": "https://chatgpt.com/",
@@ -8049,7 +8049,7 @@
   },
   {
     "meta": {
-      "id": "chatgpt-1338",
+      "id": "chatgpt-1284",
       "name": "Chatgpt.com",
       "icon": "https://chatgpt.com/favicon.ico",
       "url": "https://chatgpt.com/",
@@ -8432,7 +8432,7 @@
   },
   {
     "meta": {
-      "id": "chatgpt-1023",
+      "id": "chatgpt-1813",
       "name": "Chatgpt.com",
       "icon": "https://chatgpt.com/favicon.ico",
       "url": "https://chatgpt.com/",
@@ -8825,7 +8825,7 @@
   },
   {
     "meta": {
-      "id": "chatgpt-1744",
+      "id": "chatgpt-1536",
       "name": "Chatgpt.com",
       "icon": "https://chatgpt.com/favicon.ico",
       "url": "https://chatgpt.com/",
@@ -9218,7 +9218,7 @@
   },
   {
     "meta": {
-      "id": "chatgpt-1248",
+      "id": "chatgpt-1819",
       "name": "Chatgpt.com",
       "icon": "https://chatgpt.com/favicon.ico",
       "url": "https://chatgpt.com/#tokito",
@@ -9611,7 +9611,7 @@
   },
   {
     "meta": {
-      "id": "chatgpt-1258",
+      "id": "chatgpt-1023",
       "name": "Chatgpt.com",
       "icon": "https://chatgpt.com/favicon.ico",
       "url": "https://chatgpt.com/#tokito",
@@ -10028,7 +10028,7 @@
   },
   {
     "meta": {
-      "id": "chatgpt-1509",
+      "id": "chatgpt-1844",
       "name": "Chatgpt.com",
       "icon": "https://chatgpt.com/favicon.ico",
       "url": "https://chatgpt.com/#tokito",
@@ -10421,7 +10421,7 @@
   },
   {
     "meta": {
-      "id": "chatgpt-1502",
+      "id": "chatgpt-1722",
       "name": "Chatgpt.com",
       "icon": "https://chatgpt.com/favicon.ico",
       "url": "https://chatgpt.com/#tokito",
@@ -10814,7 +10814,7 @@
   },
   {
     "meta": {
-      "id": "chatgpt-1470",
+      "id": "chatgpt-1890",
       "name": "Chatgpt.com",
       "icon": "https://chatgpt.com/favicon.ico",
       "url": "https://chatgpt.com/#tokito",
@@ -11207,7 +11207,7 @@
   },
   {
     "meta": {
-      "id": "chatgpt-1022",
+      "id": "chatgpt-1700",
       "name": "Chatgpt.com",
       "icon": "https://chatgpt.com/favicon.ico",
       "url": "https://chatgpt.com/#tokito",
@@ -11600,7 +11600,7 @@
   },
   {
     "meta": {
-      "id": "chatgpt-1880",
+      "id": "chatgpt-1083",
       "name": "Chatgpt.com",
       "icon": "https://chatgpt.com/favicon.ico",
       "url": "https://chatgpt.com/#i-like-groupy",
@@ -11981,7 +11981,7 @@
   },
   {
     "meta": {
-      "id": "chatgpt-1180",
+      "id": "chatgpt-1336",
       "name": "Chatgpt.com",
       "icon": "https://chatgpt.com/favicon.ico",
       "url": "https://chatgpt.com/#helloworld",
@@ -12398,7 +12398,7 @@
   },
   {
     "meta": {
-      "id": "chatgpt-1759",
+      "id": "chatgpt-1572",
       "name": "Chatgpt.com",
       "icon": "https://chatgpt.com/favicon.ico",
       "url": "https://chatgpt.com/#helloworld",
@@ -12815,7 +12815,7 @@
   },
   {
     "meta": {
-      "id": "chatgpt-1439",
+      "id": "chatgpt-1913",
       "name": "Chatgpt.com",
       "icon": "https://chatgpt.com/favicon.ico",
       "url": "https://chatgpt.com/#helloworld",
@@ -13232,7 +13232,7 @@
   },
   {
     "meta": {
-      "id": "chatgpt-1664",
+      "id": "chatgpt-1253",
       "name": "Chatgpt.com",
       "icon": "https://chatgpt.com/favicon.ico",
       "url": "https://chatgpt.com/#helloworld",
@@ -13649,7 +13649,7 @@
   },
   {
     "meta": {
-      "id": "chatgpt-1051",
+      "id": "chatgpt-1636",
       "name": "Chatgpt.com",
       "icon": "https://chatgpt.com/favicon.ico",
       "url": "https://chatgpt.com/",
@@ -14056,7 +14056,7 @@
   },
   {
     "meta": {
-      "id": "chatgpt-1152",
+      "id": "chatgpt-1167",
       "name": "Chatgpt.com",
       "icon": "https://chatgpt.com/favicon.ico",
       "url": "https://chatgpt.com/",
@@ -14463,7 +14463,7 @@
   },
   {
     "meta": {
-      "id": "chatgpt-1095",
+      "id": "chatgpt-1950",
       "name": "Chatgpt.com",
       "icon": "https://chatgpt.com/favicon.ico",
       "url": "https://chatgpt.com/#helloworld",
@@ -14846,7 +14846,7 @@
   },
   {
     "meta": {
-      "id": "chatgpt-1792",
+      "id": "chatgpt-1167",
       "name": "Chatgpt.com",
       "icon": "https://chatgpt.com/favicon.ico",
       "url": "https://chatgpt.com/#helloworld",
@@ -15229,7 +15229,7 @@
   },
   {
     "meta": {
-      "id": "chatgpt-1667",
+      "id": "chatgpt-1523",
       "name": "Chatgpt.com",
       "icon": "https://chatgpt.com/favicon.ico",
       "url": "https://chatgpt.com/#no-groupy-no-love",
@@ -15610,7 +15610,7 @@
   },
   {
     "meta": {
-      "id": "chatgpt-1224",
+      "id": "chatgpt-1382",
       "name": "Chatgpt.com",
       "icon": "https://chatgpt.com/favicon.ico",
       "url": "https://chatgpt.com/#i-like-groupy",
@@ -15981,7 +15981,7 @@
   },
   {
     "meta": {
-      "id": "chatgpt-1757",
+      "id": "chatgpt-1354",
       "name": "Chatgpt.com",
       "icon": "https://chatgpt.com/favicon.ico",
       "url": "https://chatgpt.com/#i-like-groupy",
@@ -16362,7 +16362,7 @@
   },
   {
     "meta": {
-      "id": "chatgpt-1138",
+      "id": "chatgpt-1553",
       "name": "Chatgpt.com",
       "icon": "https://chatgpt.com/favicon.ico",
       "url": "https://chatgpt.com/#i-like-groupy",
@@ -16743,7 +16743,7 @@
   },
   {
     "meta": {
-      "id": "chatgpt-1033",
+      "id": "chatgpt-1543",
       "name": "Chatgpt.com",
       "icon": "https://chatgpt.com/favicon.ico",
       "url": "https://chatgpt.com/#no-groupy-no-love",
@@ -17124,7 +17124,7 @@
   },
   {
     "meta": {
-      "id": "chatgpt-1367",
+      "id": "chatgpt-1559",
       "name": "Chatgpt.com",
       "icon": "https://chatgpt.com/favicon.ico",
       "url": "https://chatgpt.com/#no-groupy-no-love",
@@ -17481,7 +17481,7 @@
   },
   {
     "meta": {
-      "id": "chatgpt-1101",
+      "id": "chatgpt-1019",
       "name": "Chatgpt.com",
       "icon": "https://chatgpt.com/favicon.ico",
       "url": "https://chatgpt.com/#no-groupy-no-love",
@@ -17838,7 +17838,7 @@
   },
   {
     "meta": {
-      "id": "chatgpt-1075",
+      "id": "chatgpt-1215",
       "name": "Chatgpt.com",
       "icon": "https://chatgpt.com/favicon.ico",
       "url": "https://chatgpt.com/#fourteen",
@@ -18195,7 +18195,7 @@
   },
   {
     "meta": {
-      "id": "chatgpt-1392",
+      "id": "chatgpt-1858",
       "name": "Chatgpt.com",
       "icon": "https://chatgpt.com/favicon.ico",
       "url": "https://chatgpt.com/#groupy",
@@ -18576,7 +18576,7 @@
   },
   {
     "meta": {
-      "id": "chutes-1331",
+      "id": "chutes-1217",
       "name": "Chutes.ai",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://chutes.ai/app",
@@ -18683,7 +18683,7 @@
   },
   {
     "meta": {
-      "id": "chutes-1980",
+      "id": "chutes-1334",
       "name": "Chutes.ai",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://chutes.ai/app",
@@ -18790,7 +18790,7 @@
   },
   {
     "meta": {
-      "id": "gracely011-1391",
+      "id": "gracely011-1158",
       "name": "Codedex.io",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://gracely011.github.io/hai/manual.html?name=Codedex&login=codedex@belajaar.id&password=CodedexMilikGroupy2025!&url=https://www.codedex.io/login",
@@ -18799,7 +18799,7 @@
     },
     "accounts": [
       {
-        "id": "gracely011-1391-Codedex",
+        "id": "gracely011-1158-Codedex",
         "name": "Codedex",
         "cookies": []
       }
@@ -18807,535 +18807,7 @@
   },
   {
     "meta": {
-      "id": "connect-id-1830",
-      "name": "Connect-id.beinsports.com",
-      "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
-      "url": "https://connect-id.beinsports.com/id",
-      "category": "utilities",
-      "isGroup": false
-    },
-    "cookies": [
-      {
-        "url": "http://beinsports.com/",
-        "name": "_fbp",
-        "value": "fb.1.1751434960424.872673431398711231",
-        "domain": ".beinsports.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "expirationDate": 1770390521,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "http://beinsports.com/",
-        "name": "_ga",
-        "value": "GA1.1.1007617483.1759488386",
-        "domain": ".beinsports.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "expirationDate": 1797174520.530489,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "http://beinsports.com/",
-        "name": "_ga_1SW15VD3JK",
-        "value": "GS2.1.s1762614520$o4$g1$t1762614522$j58$l0$h0",
-        "domain": ".beinsports.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "expirationDate": 1797174522.979757,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "http://beinsports.com/",
-        "name": "_ga_EFESHF8SCV",
-        "value": "GS2.1.s1762614520$o7$g1$t1762614522$j58$l0$h0",
-        "domain": ".beinsports.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "expirationDate": 1797174522.973794,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "http://beinsports.com/",
-        "name": "_gcl_au",
-        "value": "1.1.993804734.1759488386",
-        "domain": ".beinsports.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "expirationDate": 1767264386,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "http://beinsports.com/",
-        "name": "ab.storage.deviceId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
-        "value": "g%3A66ee4bbf-fbb8-74ba-95fa-d81163a4a81b%7Ce%3Aundefined%7Cc%3A1746423336454%7Cl%3A1762614521311",
-        "domain": ".beinsports.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "expirationDate": 1797174521,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "http://beinsports.com/",
-        "name": "ab.storage.sessionId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
-        "value": "g%3Af88fc160-358f-1db2-bd2e-a4e0b43ddc79%7Ce%3A1762616321311%7Cc%3A1762614521311%7Cl%3A1762614521311",
-        "domain": ".beinsports.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "expirationDate": 1797174521,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "http://beinsports.com/",
-        "name": "ab.storage.userId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
-        "value": "g%3AVID_EixXav0kSOwUjSKSwojtEIMImVgE%7Ce%3Aundefined%7Cc%3A1762614521310%7Cl%3A1762614521312",
-        "domain": ".beinsports.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "expirationDate": 1797174521,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://beinsports.com/",
-        "name": "dtCookie",
-        "value": "-20$4EQ1V6RHO4O8QFDA4OIH8FJCF9UQQ56C",
-        "domain": ".beinsports.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "http://beinsports.com/",
-        "name": "dtPC",
-        "value": "-20$414520660_78h1vFRTWHKHMCWIQNPTKSBOJSKEKHEDJUKAK-0",
-        "domain": ".beinsports.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "http://beinsports.com/",
-        "name": "rxVisitor",
-        "value": "1760858021687I8CFVA8BKT1CAMPN7H74D9312I2STMOI",
-        "domain": ".beinsports.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "http://beinsports.com/",
-        "name": "rxvt",
-        "value": "1762616320664|1762614520664",
-        "domain": ".beinsports.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://beinsports.com/",
-        "name": "sign",
-        "value": "4d7a7847506c77555764694e43514338714f374468455973724b6b6f59592f45336c58684a697873753868635061685a75764e7770754c705333556269334c56",
-        "domain": ".beinsports.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1768634027,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://connect-id.beinsports.com/",
-        "name": "apacgeo",
-        "value": "5189",
-        "domain": ".connect-id.beinsports.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://connect-id.beinsports.com/",
-        "name": "Authorization",
-        "value": "i%3DMx3MQ395RHrcRd8YSJUhhm9XBGHBUBcGUE3EJRaAEdOhFfP55eUv9vutzxphpyaPVDHIjByVly2a29xC6HqPuBMPkMardYEzjB5SImjaULH0bYg5VNGiD%252bpt0pOMQcx0ql3WlydZ3aESIdV5UVzxRCllzwN5OlRLTNBUqv%252fo%252fnQ%253d",
-        "domain": ".connect-id.beinsports.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://connect-id.beinsports.com/",
-        "name": "CountryCode",
-        "value": "ID",
-        "domain": ".connect-id.beinsports.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://connect-id.beinsports.com/",
-        "name": "DeviceId",
-        "value": "zFrrwPUlWpyt7Bc4hrPvZ",
-        "domain": ".connect-id.beinsports.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://connect-id.beinsports.com/",
-        "name": "host",
-        "value": "connect-id.beinsports.com",
-        "domain": ".connect-id.beinsports.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://connect-id.beinsports.com/",
-        "name": "NEXT_LOCALE",
-        "value": "id",
-        "domain": ".connect-id.beinsports.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1763450020.552183,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://connect-id.beinsports.com/",
-        "name": "token",
-        "value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IlZJREVPIiwiYWNjZXNzdG9rZW4iOiJpPU14M01RMzk1UkhyY1JkOFlTSlVoaG05WEJHSEJVQmNHVUUzRUpSYUFFZE9oRmZQNTVlVXY5dnV0enhwaHB5YVBWREhJakJ5Vmx5MmEyOXhDNkhxUHVCTVBrTWFyZFlFempCNVNJbWphVUxIMGJZZzVWTkdpRCUyYnB0MHBPTVFjeDBxbDNXbHlkWjNhRVNJZFY1VVZ6eFJDbGx6d041T2xSTFROQlVxdiUyZm8lMmZuUSUzZCZ1aT1HRldIK2k1a0tkdTZUdDN2cHMwQkhGYm1wZ1BUSVhodDhhVkNzYkRwbUtJPSIsImVtYWlsIjpudWxsLCJpYXQiOjE3NjA4NTgwMzgsImV4cCI6MTc2ODYzNDAzOH0.x6xzvQrE2DjV968yhvleUisd3OVI8anr8EaPoaiLnXM",
-        "domain": ".connect-id.beinsports.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://connect-id.beinsports.com/",
-        "name": "host",
-        "value": "connect-id.beinsports.com",
-        "domain": "connect-id.beinsports.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://connect-id.beinsports.com/",
-        "name": "token",
-        "value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IlZJREVPIiwiYWNjZXNzdG9rZW4iOiJpPU14M01RMzk1UkhyY1JkOFlTSlVoaG05WEJHSEJVQmNHVUUzRUpSYUFFZE9oRmZQNTVlVXY5dnV0enhwaHB5YVBWREhJakJ5Vmx5MmEyOXhDNkhxUHVCTVBrTWFyZFlFempCNVNJbWphVUxIMGJZZzVWTkdpRCUyYnB0MHBPTVFjeDBxbDNXbHlkWjNhRVNJZFY1VVZ6eFJDbGx6d041T2xSTFROQlVxdiUyZm8lMmZuUSUzZCZ1aT1sWm5vTCt3T3ZJcjZoVVgzZ3Z6bjBFR1Z3eDZpTlA3MnJnaWZpd2JJU2xnPSIsImVtYWlsIjpudWxsLCJpYXQiOjE3NjI2MTQ1MTksImV4cCI6MTc3MDM5MDUxOX0.Dy1DAqL2TXtLmBCJkMrdzGw36NRl6FrEDTrOuQHug8M",
-        "domain": "connect-id.beinsports.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      }
-    ]
-  },
-  {
-    "meta": {
-      "id": "connect-id-1917",
-      "name": "Connect-id.beinsports.com",
-      "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
-      "url": "https://connect-id.beinsports.com/id",
-      "category": "utilities",
-      "isGroup": false
-    },
-    "cookies": [
-      {
-        "url": "http://beinsports.com/",
-        "name": "_fbp",
-        "value": "fb.1.1751434960424.872673431398711231",
-        "domain": ".beinsports.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "expirationDate": 1770390532,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "http://beinsports.com/",
-        "name": "_ga",
-        "value": "GA1.1.1007617483.1759488386",
-        "domain": ".beinsports.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "expirationDate": 1797174530.543817,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "http://beinsports.com/",
-        "name": "_ga_1SW15VD3JK",
-        "value": "GS2.1.s1762614530$o4$g1$t1762614533$j57$l0$h0",
-        "domain": ".beinsports.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "expirationDate": 1797174533.041699,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "http://beinsports.com/",
-        "name": "_ga_EFESHF8SCV",
-        "value": "GS2.1.s1762614530$o7$g1$t1762614533$j57$l0$h0",
-        "domain": ".beinsports.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "expirationDate": 1797174533.047332,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "http://beinsports.com/",
-        "name": "_gcl_au",
-        "value": "1.1.993804734.1759488386",
-        "domain": ".beinsports.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "expirationDate": 1767264386,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "http://beinsports.com/",
-        "name": "ab.storage.deviceId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
-        "value": "g%3A66ee4bbf-fbb8-74ba-95fa-d81163a4a81b%7Ce%3Aundefined%7Cc%3A1746423336454%7Cl%3A1762614531467",
-        "domain": ".beinsports.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "expirationDate": 1797174531,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "http://beinsports.com/",
-        "name": "ab.storage.sessionId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
-        "value": "g%3Ad62b0739-fe12-82f9-0be6-12478fc4c6f4%7Ce%3A1762616331466%7Cc%3A1762614531466%7Cl%3A1762614531466",
-        "domain": ".beinsports.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "expirationDate": 1797174531,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "http://beinsports.com/",
-        "name": "ab.storage.userId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
-        "value": "g%3AVID_fNBf6w3lqEKRSoNl2ShtbSgOGBEE%7Ce%3Aundefined%7Cc%3A1762614531466%7Cl%3A1762614531467",
-        "domain": ".beinsports.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "expirationDate": 1797174531,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://beinsports.com/",
-        "name": "dtCookie",
-        "value": "-20$4EQ1V6RHO4O8QFDA4OIH8FJCF9UQQ56C",
-        "domain": ".beinsports.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "http://beinsports.com/",
-        "name": "dtPC",
-        "value": "-20$414530700_331h1vRFKETIQFHAAKQAKCERJHDGUPRDFNMEKA-0",
-        "domain": ".beinsports.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "http://beinsports.com/",
-        "name": "rxVisitor",
-        "value": "1760858021687I8CFVA8BKT1CAMPN7H74D9312I2STMOI",
-        "domain": ".beinsports.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "http://beinsports.com/",
-        "name": "rxvt",
-        "value": "1762616330705|1762614530705",
-        "domain": ".beinsports.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://beinsports.com/",
-        "name": "sign",
-        "value": "4d7a7847506c77555764694e43514338714f374468455973724b6b6f59592f45336c58684a69787375386773735a427650473030736847313665646a4b56757a",
-        "domain": ".beinsports.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1768634027,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://connect-id.beinsports.com/",
-        "name": "apacgeo",
-        "value": "5189",
-        "domain": ".connect-id.beinsports.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://connect-id.beinsports.com/",
-        "name": "Authorization",
-        "value": "i%3DMx3MQ395RHrcRd8YSJUhhm9XBGHBUBcGUE3EJRaAEdOhFfP55eUv9vutzxphpyaPVDHIjByVly2a29xC6HqPuBMPkMardYEzjB5SImjaULH0bYg5VNGiD%252bpt0pOMQcx0ql3WlydZ3aESIdV5UVzxRCllzwN5OlRLTNBUqv%252fo%252fnQ%253d",
-        "domain": ".connect-id.beinsports.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://connect-id.beinsports.com/",
-        "name": "CountryCode",
-        "value": "ID",
-        "domain": ".connect-id.beinsports.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://connect-id.beinsports.com/",
-        "name": "DeviceId",
-        "value": "zFrrwPUlWpyt7Bc4hrPvZ",
-        "domain": ".connect-id.beinsports.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://connect-id.beinsports.com/",
-        "name": "host",
-        "value": "connect-id.beinsports.com",
-        "domain": ".connect-id.beinsports.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://connect-id.beinsports.com/",
-        "name": "NEXT_LOCALE",
-        "value": "id",
-        "domain": ".connect-id.beinsports.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1763450020.552183,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://connect-id.beinsports.com/",
-        "name": "token",
-        "value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IlZJREVPIiwiYWNjZXNzdG9rZW4iOiJpPU14M01RMzk1UkhyY1JkOFlTSlVoaG05WEJHSEJVQmNHVUUzRUpSYUFFZE9oRmZQNTVlVXY5dnV0enhwaHB5YVBWREhJakJ5Vmx5MmEyOXhDNkhxUHVCTVBrTWFyZFlFempCNVNJbWphVUxIMGJZZzVWTkdpRCUyYnB0MHBPTVFjeDBxbDNXbHlkWjNhRVNJZFY1VVZ6eFJDbGx6d041T2xSTFROQlVxdiUyZm8lMmZuUSUzZCZ1aT1HRldIK2k1a0tkdTZUdDN2cHMwQkhGYm1wZ1BUSVhodDhhVkNzYkRwbUtJPSIsImVtYWlsIjpudWxsLCJpYXQiOjE3NjA4NTgwMzgsImV4cCI6MTc2ODYzNDAzOH0.x6xzvQrE2DjV968yhvleUisd3OVI8anr8EaPoaiLnXM",
-        "domain": ".connect-id.beinsports.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://connect-id.beinsports.com/",
-        "name": "host",
-        "value": "connect-id.beinsports.com",
-        "domain": "connect-id.beinsports.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://connect-id.beinsports.com/",
-        "name": "token",
-        "value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IlZJREVPIiwiYWNjZXNzdG9rZW4iOiJpPU14M01RMzk1UkhyY1JkOFlTSlVoaG05WEJHSEJVQmNHVUUzRUpSYUFFZE9oRmZQNTVlVXY5dnV0enhwaHB5YVBWREhJakJ5Vmx5MmEyOXhDNkhxUHVCTVBrTWFyZFlFempCNVNJbWphVUxIMGJZZzVWTkdpRCUyYnB0MHBPTVFjeDBxbDNXbHlkWjNhRVNJZFY1VVZ6eFJDbGx6d041T2xSTFROQlVxdiUyZm8lMmZuUSUzZCZ1aT1sWm5vTCt3T3ZJcjZoVVgzZ3Z6bjBQMTcwQ1RiY3RMVXR6YjdoM1gxbTZZPSIsImVtYWlsIjpudWxsLCJpYXQiOjE3NjI2MTQ1MjQsImV4cCI6MTc3MDM5MDUyNH0.S0tmek9AioePvr9jQHU_dzdIfprOtinG2XNua3cXsX8",
-        "domain": "connect-id.beinsports.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      }
-    ]
-  },
-  {
-    "meta": {
-      "id": "connect-id-1004",
+      "id": "connect-id-1330",
       "name": "Connect-id.beinsports.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://connect-id.beinsports.com/id",
@@ -19599,7 +19071,7 @@
   },
   {
     "meta": {
-      "id": "connect-id-1230",
+      "id": "connect-id-1032",
       "name": "Connect-id.beinsports.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://connect-id.beinsports.com/id",
@@ -19863,7 +19335,7 @@
   },
   {
     "meta": {
-      "id": "connect-id-1908",
+      "id": "connect-id-1990",
       "name": "Connect-id.beinsports.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://connect-id.beinsports.com/id",
@@ -20127,7 +19599,7 @@
   },
   {
     "meta": {
-      "id": "connect-id-1021",
+      "id": "connect-id-1852",
       "name": "Connect-id.beinsports.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://connect-id.beinsports.com/id",
@@ -20380,7 +19852,535 @@
   },
   {
     "meta": {
-      "id": "gracely011-1075",
+      "id": "connect-id-1345",
+      "name": "Connect-id.beinsports.com",
+      "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
+      "url": "https://connect-id.beinsports.com/id",
+      "category": "utilities",
+      "isGroup": false
+    },
+    "cookies": [
+      {
+        "url": "http://beinsports.com/",
+        "name": "_fbp",
+        "value": "fb.1.1751434960424.872673431398711231",
+        "domain": ".beinsports.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "expirationDate": 1770390521,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "http://beinsports.com/",
+        "name": "_ga",
+        "value": "GA1.1.1007617483.1759488386",
+        "domain": ".beinsports.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "expirationDate": 1797174520.530489,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "http://beinsports.com/",
+        "name": "_ga_1SW15VD3JK",
+        "value": "GS2.1.s1762614520$o4$g1$t1762614522$j58$l0$h0",
+        "domain": ".beinsports.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "expirationDate": 1797174522.979757,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "http://beinsports.com/",
+        "name": "_ga_EFESHF8SCV",
+        "value": "GS2.1.s1762614520$o7$g1$t1762614522$j58$l0$h0",
+        "domain": ".beinsports.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "expirationDate": 1797174522.973794,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "http://beinsports.com/",
+        "name": "_gcl_au",
+        "value": "1.1.993804734.1759488386",
+        "domain": ".beinsports.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "expirationDate": 1767264386,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "http://beinsports.com/",
+        "name": "ab.storage.deviceId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+        "value": "g%3A66ee4bbf-fbb8-74ba-95fa-d81163a4a81b%7Ce%3Aundefined%7Cc%3A1746423336454%7Cl%3A1762614521311",
+        "domain": ".beinsports.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "expirationDate": 1797174521,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "http://beinsports.com/",
+        "name": "ab.storage.sessionId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+        "value": "g%3Af88fc160-358f-1db2-bd2e-a4e0b43ddc79%7Ce%3A1762616321311%7Cc%3A1762614521311%7Cl%3A1762614521311",
+        "domain": ".beinsports.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "expirationDate": 1797174521,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "http://beinsports.com/",
+        "name": "ab.storage.userId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+        "value": "g%3AVID_EixXav0kSOwUjSKSwojtEIMImVgE%7Ce%3Aundefined%7Cc%3A1762614521310%7Cl%3A1762614521312",
+        "domain": ".beinsports.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "expirationDate": 1797174521,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://beinsports.com/",
+        "name": "dtCookie",
+        "value": "-20$4EQ1V6RHO4O8QFDA4OIH8FJCF9UQQ56C",
+        "domain": ".beinsports.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "http://beinsports.com/",
+        "name": "dtPC",
+        "value": "-20$414520660_78h1vFRTWHKHMCWIQNPTKSBOJSKEKHEDJUKAK-0",
+        "domain": ".beinsports.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "http://beinsports.com/",
+        "name": "rxVisitor",
+        "value": "1760858021687I8CFVA8BKT1CAMPN7H74D9312I2STMOI",
+        "domain": ".beinsports.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "http://beinsports.com/",
+        "name": "rxvt",
+        "value": "1762616320664|1762614520664",
+        "domain": ".beinsports.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://beinsports.com/",
+        "name": "sign",
+        "value": "4d7a7847506c77555764694e43514338714f374468455973724b6b6f59592f45336c58684a697873753868635061685a75764e7770754c705333556269334c56",
+        "domain": ".beinsports.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1768634027,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://connect-id.beinsports.com/",
+        "name": "apacgeo",
+        "value": "5189",
+        "domain": ".connect-id.beinsports.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://connect-id.beinsports.com/",
+        "name": "Authorization",
+        "value": "i%3DMx3MQ395RHrcRd8YSJUhhm9XBGHBUBcGUE3EJRaAEdOhFfP55eUv9vutzxphpyaPVDHIjByVly2a29xC6HqPuBMPkMardYEzjB5SImjaULH0bYg5VNGiD%252bpt0pOMQcx0ql3WlydZ3aESIdV5UVzxRCllzwN5OlRLTNBUqv%252fo%252fnQ%253d",
+        "domain": ".connect-id.beinsports.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://connect-id.beinsports.com/",
+        "name": "CountryCode",
+        "value": "ID",
+        "domain": ".connect-id.beinsports.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://connect-id.beinsports.com/",
+        "name": "DeviceId",
+        "value": "zFrrwPUlWpyt7Bc4hrPvZ",
+        "domain": ".connect-id.beinsports.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://connect-id.beinsports.com/",
+        "name": "host",
+        "value": "connect-id.beinsports.com",
+        "domain": ".connect-id.beinsports.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://connect-id.beinsports.com/",
+        "name": "NEXT_LOCALE",
+        "value": "id",
+        "domain": ".connect-id.beinsports.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1763450020.552183,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://connect-id.beinsports.com/",
+        "name": "token",
+        "value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IlZJREVPIiwiYWNjZXNzdG9rZW4iOiJpPU14M01RMzk1UkhyY1JkOFlTSlVoaG05WEJHSEJVQmNHVUUzRUpSYUFFZE9oRmZQNTVlVXY5dnV0enhwaHB5YVBWREhJakJ5Vmx5MmEyOXhDNkhxUHVCTVBrTWFyZFlFempCNVNJbWphVUxIMGJZZzVWTkdpRCUyYnB0MHBPTVFjeDBxbDNXbHlkWjNhRVNJZFY1VVZ6eFJDbGx6d041T2xSTFROQlVxdiUyZm8lMmZuUSUzZCZ1aT1HRldIK2k1a0tkdTZUdDN2cHMwQkhGYm1wZ1BUSVhodDhhVkNzYkRwbUtJPSIsImVtYWlsIjpudWxsLCJpYXQiOjE3NjA4NTgwMzgsImV4cCI6MTc2ODYzNDAzOH0.x6xzvQrE2DjV968yhvleUisd3OVI8anr8EaPoaiLnXM",
+        "domain": ".connect-id.beinsports.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://connect-id.beinsports.com/",
+        "name": "host",
+        "value": "connect-id.beinsports.com",
+        "domain": "connect-id.beinsports.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://connect-id.beinsports.com/",
+        "name": "token",
+        "value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IlZJREVPIiwiYWNjZXNzdG9rZW4iOiJpPU14M01RMzk1UkhyY1JkOFlTSlVoaG05WEJHSEJVQmNHVUUzRUpSYUFFZE9oRmZQNTVlVXY5dnV0enhwaHB5YVBWREhJakJ5Vmx5MmEyOXhDNkhxUHVCTVBrTWFyZFlFempCNVNJbWphVUxIMGJZZzVWTkdpRCUyYnB0MHBPTVFjeDBxbDNXbHlkWjNhRVNJZFY1VVZ6eFJDbGx6d041T2xSTFROQlVxdiUyZm8lMmZuUSUzZCZ1aT1sWm5vTCt3T3ZJcjZoVVgzZ3Z6bjBFR1Z3eDZpTlA3MnJnaWZpd2JJU2xnPSIsImVtYWlsIjpudWxsLCJpYXQiOjE3NjI2MTQ1MTksImV4cCI6MTc3MDM5MDUxOX0.Dy1DAqL2TXtLmBCJkMrdzGw36NRl6FrEDTrOuQHug8M",
+        "domain": "connect-id.beinsports.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "id": "connect-id-1016",
+      "name": "Connect-id.beinsports.com",
+      "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
+      "url": "https://connect-id.beinsports.com/id",
+      "category": "utilities",
+      "isGroup": false
+    },
+    "cookies": [
+      {
+        "url": "http://beinsports.com/",
+        "name": "_fbp",
+        "value": "fb.1.1751434960424.872673431398711231",
+        "domain": ".beinsports.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "expirationDate": 1770390532,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "http://beinsports.com/",
+        "name": "_ga",
+        "value": "GA1.1.1007617483.1759488386",
+        "domain": ".beinsports.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "expirationDate": 1797174530.543817,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "http://beinsports.com/",
+        "name": "_ga_1SW15VD3JK",
+        "value": "GS2.1.s1762614530$o4$g1$t1762614533$j57$l0$h0",
+        "domain": ".beinsports.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "expirationDate": 1797174533.041699,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "http://beinsports.com/",
+        "name": "_ga_EFESHF8SCV",
+        "value": "GS2.1.s1762614530$o7$g1$t1762614533$j57$l0$h0",
+        "domain": ".beinsports.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "expirationDate": 1797174533.047332,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "http://beinsports.com/",
+        "name": "_gcl_au",
+        "value": "1.1.993804734.1759488386",
+        "domain": ".beinsports.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "expirationDate": 1767264386,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "http://beinsports.com/",
+        "name": "ab.storage.deviceId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+        "value": "g%3A66ee4bbf-fbb8-74ba-95fa-d81163a4a81b%7Ce%3Aundefined%7Cc%3A1746423336454%7Cl%3A1762614531467",
+        "domain": ".beinsports.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "expirationDate": 1797174531,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "http://beinsports.com/",
+        "name": "ab.storage.sessionId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+        "value": "g%3Ad62b0739-fe12-82f9-0be6-12478fc4c6f4%7Ce%3A1762616331466%7Cc%3A1762614531466%7Cl%3A1762614531466",
+        "domain": ".beinsports.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "expirationDate": 1797174531,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "http://beinsports.com/",
+        "name": "ab.storage.userId.3c8140be-c42d-4a3d-81a8-cdbff04ec6e6",
+        "value": "g%3AVID_fNBf6w3lqEKRSoNl2ShtbSgOGBEE%7Ce%3Aundefined%7Cc%3A1762614531466%7Cl%3A1762614531467",
+        "domain": ".beinsports.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "expirationDate": 1797174531,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://beinsports.com/",
+        "name": "dtCookie",
+        "value": "-20$4EQ1V6RHO4O8QFDA4OIH8FJCF9UQQ56C",
+        "domain": ".beinsports.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "http://beinsports.com/",
+        "name": "dtPC",
+        "value": "-20$414530700_331h1vRFKETIQFHAAKQAKCERJHDGUPRDFNMEKA-0",
+        "domain": ".beinsports.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "http://beinsports.com/",
+        "name": "rxVisitor",
+        "value": "1760858021687I8CFVA8BKT1CAMPN7H74D9312I2STMOI",
+        "domain": ".beinsports.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "http://beinsports.com/",
+        "name": "rxvt",
+        "value": "1762616330705|1762614530705",
+        "domain": ".beinsports.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://beinsports.com/",
+        "name": "sign",
+        "value": "4d7a7847506c77555764694e43514338714f374468455973724b6b6f59592f45336c58684a69787375386773735a427650473030736847313665646a4b56757a",
+        "domain": ".beinsports.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1768634027,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://connect-id.beinsports.com/",
+        "name": "apacgeo",
+        "value": "5189",
+        "domain": ".connect-id.beinsports.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://connect-id.beinsports.com/",
+        "name": "Authorization",
+        "value": "i%3DMx3MQ395RHrcRd8YSJUhhm9XBGHBUBcGUE3EJRaAEdOhFfP55eUv9vutzxphpyaPVDHIjByVly2a29xC6HqPuBMPkMardYEzjB5SImjaULH0bYg5VNGiD%252bpt0pOMQcx0ql3WlydZ3aESIdV5UVzxRCllzwN5OlRLTNBUqv%252fo%252fnQ%253d",
+        "domain": ".connect-id.beinsports.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://connect-id.beinsports.com/",
+        "name": "CountryCode",
+        "value": "ID",
+        "domain": ".connect-id.beinsports.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://connect-id.beinsports.com/",
+        "name": "DeviceId",
+        "value": "zFrrwPUlWpyt7Bc4hrPvZ",
+        "domain": ".connect-id.beinsports.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://connect-id.beinsports.com/",
+        "name": "host",
+        "value": "connect-id.beinsports.com",
+        "domain": ".connect-id.beinsports.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://connect-id.beinsports.com/",
+        "name": "NEXT_LOCALE",
+        "value": "id",
+        "domain": ".connect-id.beinsports.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1763450020.552183,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://connect-id.beinsports.com/",
+        "name": "token",
+        "value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IlZJREVPIiwiYWNjZXNzdG9rZW4iOiJpPU14M01RMzk1UkhyY1JkOFlTSlVoaG05WEJHSEJVQmNHVUUzRUpSYUFFZE9oRmZQNTVlVXY5dnV0enhwaHB5YVBWREhJakJ5Vmx5MmEyOXhDNkhxUHVCTVBrTWFyZFlFempCNVNJbWphVUxIMGJZZzVWTkdpRCUyYnB0MHBPTVFjeDBxbDNXbHlkWjNhRVNJZFY1VVZ6eFJDbGx6d041T2xSTFROQlVxdiUyZm8lMmZuUSUzZCZ1aT1HRldIK2k1a0tkdTZUdDN2cHMwQkhGYm1wZ1BUSVhodDhhVkNzYkRwbUtJPSIsImVtYWlsIjpudWxsLCJpYXQiOjE3NjA4NTgwMzgsImV4cCI6MTc2ODYzNDAzOH0.x6xzvQrE2DjV968yhvleUisd3OVI8anr8EaPoaiLnXM",
+        "domain": ".connect-id.beinsports.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://connect-id.beinsports.com/",
+        "name": "host",
+        "value": "connect-id.beinsports.com",
+        "domain": "connect-id.beinsports.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://connect-id.beinsports.com/",
+        "name": "token",
+        "value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IlZJREVPIiwiYWNjZXNzdG9rZW4iOiJpPU14M01RMzk1UkhyY1JkOFlTSlVoaG05WEJHSEJVQmNHVUUzRUpSYUFFZE9oRmZQNTVlVXY5dnV0enhwaHB5YVBWREhJakJ5Vmx5MmEyOXhDNkhxUHVCTVBrTWFyZFlFempCNVNJbWphVUxIMGJZZzVWTkdpRCUyYnB0MHBPTVFjeDBxbDNXbHlkWjNhRVNJZFY1VVZ6eFJDbGx6d041T2xSTFROQlVxdiUyZm8lMmZuUSUzZCZ1aT1sWm5vTCt3T3ZJcjZoVVgzZ3Z6bjBQMTcwQ1RiY3RMVXR6YjdoM1gxbTZZPSIsImVtYWlsIjpudWxsLCJpYXQiOjE3NjI2MTQ1MjQsImV4cCI6MTc3MDM5MDUyNH0.S0tmek9AioePvr9jQHU_dzdIfprOtinG2XNua3cXsX8",
+        "domain": "connect-id.beinsports.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "id": "gracely011-1092",
       "name": "Consensus.app",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://gracely011.github.io/hai/manual.html?name=Consensus&login=gd@belajaar.id&password=WeAreGroupy2025!&url=https://consensus.app/account",
@@ -20389,7 +20389,7 @@
     },
     "accounts": [
       {
-        "id": "gracely011-1075-Consensus",
+        "id": "gracely011-1092-Consensus",
         "name": "Consensus",
         "cookies": []
       }
@@ -20397,7 +20397,7 @@
   },
   {
     "meta": {
-      "id": "coohom-1778",
+      "id": "coohom-1462",
       "name": "Coohom.com",
       "icon": "https://www.coohom.com/favicon.ico",
       "url": "https://www.coohom.com/pub/saas/apps/project/list",
@@ -20780,7 +20780,7 @@
   },
   {
     "meta": {
-      "id": "coursehero-1260",
+      "id": "coursehero-1910",
       "name": "Coursehero.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://www.coursehero.com/dashboard/",
@@ -21145,7 +21145,7 @@
   },
   {
     "meta": {
-      "id": "coursera-1875",
+      "id": "coursera-1250",
       "name": "Coursera.org",
       "icon": "https://www.coursera.org/favicon.ico",
       "url": "https://www.coursera.org/",
@@ -21574,7 +21574,7 @@
   },
   {
     "meta": {
-      "id": "create-1537",
+      "id": "create-1273",
       "name": "Create.wan.video",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://create.wan.video/",
@@ -21739,7 +21739,7 @@
   },
   {
     "meta": {
-      "id": "crunchyroll-1244",
+      "id": "crunchyroll-1181",
       "name": "Crunchyroll.com",
       "icon": "https://www.crunchyroll.com/favicon.ico",
       "url": "https://www.crunchyroll.com/discover",
@@ -21894,7 +21894,7 @@
   },
   {
     "meta": {
-      "id": "crunchyroll-1522",
+      "id": "crunchyroll-1848",
       "name": "Crunchyroll.com",
       "icon": "https://www.crunchyroll.com/favicon.ico",
       "url": "https://www.crunchyroll.com/discover",
@@ -22049,7 +22049,7 @@
   },
   {
     "meta": {
-      "id": "crunchyroll-1846",
+      "id": "crunchyroll-1096",
       "name": "Crunchyroll.com",
       "icon": "https://www.crunchyroll.com/favicon.ico",
       "url": "https://www.crunchyroll.com/discover",
@@ -22204,7 +22204,7 @@
   },
   {
     "meta": {
-      "id": "cryptoquant-1161",
+      "id": "cryptoquant-1576",
       "name": "Cryptoquant.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://cryptoquant.com/asset/btc/summary",
@@ -22418,7 +22418,7 @@
   },
   {
     "meta": {
-      "id": "curiositystream-1713",
+      "id": "curiositystream-1745",
       "name": "Curiositystream.com",
       "icon": "https://curiositystream.com/favicon.ico",
       "url": "https://curiositystream.com/home",
@@ -23218,7 +23218,7 @@
   },
   {
     "meta": {
-      "id": "curiositystream-1633",
+      "id": "curiositystream-1416",
       "name": "Curiositystream.com",
       "icon": "https://curiositystream.com/favicon.ico",
       "url": "https://curiositystream.com/home",
@@ -24018,7 +24018,7 @@
   },
   {
     "meta": {
-      "id": "cursor-1855",
+      "id": "cursor-1880",
       "name": "Cursor.com",
       "icon": "https://cursor.com/favicon.ico",
       "url": "https://cursor.com/dashboard",
@@ -24098,7 +24098,7 @@
   },
   {
     "meta": {
-      "id": "cursor-1616",
+      "id": "cursor-1177",
       "name": "Cursor.com",
       "icon": "https://cursor.com/favicon.ico",
       "url": "https://cursor.com/dashboard",
@@ -24189,7 +24189,7 @@
   },
   {
     "meta": {
-      "id": "cursor-1481",
+      "id": "cursor-1048",
       "name": "Cursor.com",
       "icon": "https://cursor.com/favicon.ico",
       "url": "https://cursor.com/dashboard",
@@ -24269,7 +24269,7 @@
   },
   {
     "meta": {
-      "id": "notegpt-1877",
+      "id": "notegpt-1669",
       "name": "Deepseek.com-11-05.json",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://notegpt.io/workspace/chat",
@@ -24447,7 +24447,7 @@
   },
   {
     "meta": {
-      "id": "duolingo-1335",
+      "id": "duolingo-1499",
       "name": "Duolingo.com",
       "icon": "https://www.duolingo.com/favicon.ico",
       "url": "https://www.duolingo.com/learn",
@@ -24722,7 +24722,7 @@
   },
   {
     "meta": {
-      "id": "educative-1856",
+      "id": "educative-1189",
       "name": "Educative.io",
       "icon": "https://www.educative.io/favicon.ico",
       "url": "https://www.educative.io/explore",
@@ -25331,7 +25331,7 @@
   },
   {
     "meta": {
-      "id": "elicit-1441",
+      "id": "elicit-1255",
       "name": "Elicit.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://elicit.com/library",
@@ -25463,7 +25463,7 @@
   },
   {
     "meta": {
-      "id": "epidemicsound-1473",
+      "id": "epidemicsound-1074",
       "name": "Epidemicsound.com",
       "icon": "https://www.epidemicsound.com/favicon.ico",
       "url": "https://www.epidemicsound.com/music/featured/",
@@ -26060,7 +26060,7 @@
   },
   {
     "meta": {
-      "id": "epidemicsound-1507",
+      "id": "epidemicsound-1220",
       "name": "Epidemicsound.com",
       "icon": "https://www.epidemicsound.com/favicon.ico",
       "url": "https://www.epidemicsound.com/music/featured/",
@@ -26657,7 +26657,7 @@
   },
   {
     "meta": {
-      "id": "epidemicsound-1547",
+      "id": "epidemicsound-1833",
       "name": "Epidemicsound.com",
       "icon": "https://www.epidemicsound.com/favicon.ico",
       "url": "https://www.epidemicsound.com/music/featured/",
@@ -27254,7 +27254,7 @@
   },
   {
     "meta": {
-      "id": "epidemicsound-1387",
+      "id": "epidemicsound-1601",
       "name": "Epidemicsound.com",
       "icon": "https://www.epidemicsound.com/favicon.ico",
       "url": "https://www.epidemicsound.com/music/featured/",
@@ -27851,7 +27851,7 @@
   },
   {
     "meta": {
-      "id": "epidemicsound-1883",
+      "id": "epidemicsound-1271",
       "name": "Epidemicsound.com",
       "icon": "https://www.epidemicsound.com/favicon.ico",
       "url": "https://www.epidemicsound.com/music/featured/",
@@ -28424,7 +28424,7 @@
   },
   {
     "meta": {
-      "id": "everand-1269",
+      "id": "everand-1289",
       "name": "Everand.com",
       "icon": "https://www.everand.com/favicon.ico",
       "url": "https://www.everand.com/home",
@@ -28794,7 +28794,7 @@
   },
   {
     "meta": {
-      "id": "figma-1882",
+      "id": "figma-1953",
       "name": "Figma.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://www.figma.com/files/team/1560676200091399701/recents-and-sharing?fuid=1561637155941475997",
@@ -29142,7 +29142,7 @@
   },
   {
     "meta": {
-      "id": "flaticon-1337",
+      "id": "flaticon-1048",
       "name": "Flaticon.com",
       "icon": "https://flaticon.com/favicon.ico",
       "url": "https://www.flaticon.com/profile/me",
@@ -29484,7 +29484,7 @@
   },
   {
     "meta": {
-      "id": "flaticon-1227",
+      "id": "flaticon-1099",
       "name": "Flaticon.com",
       "icon": "https://flaticon.com/favicon.ico",
       "url": "https://www.flaticon.com/profile/me",
@@ -29802,7 +29802,7 @@
   },
   {
     "meta": {
-      "id": "freepik-1111",
+      "id": "freepik-1070",
       "name": "Freepik.com",
       "icon": "https://freepik.com/favicon.ico",
       "url": "https://www.freepik.com/user/my-subscriptions#from-element=dropdown_menu",
@@ -30074,7 +30074,7 @@
   },
   {
     "meta": {
-      "id": "freepik-1001",
+      "id": "freepik-1631",
       "name": "Freepik.com",
       "icon": "https://freepik.com/favicon.ico",
       "url": "https://www.freepik.com/user/my-subscriptions#from-element=dropdown_menu",
@@ -30323,7 +30323,7 @@
   },
   {
     "meta": {
-      "id": "gracely011-1221",
+      "id": "gracely011-1890",
       "name": "Ground.news",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://gracely011.github.io/hai/manual.html?name=Ground%20News&login=news@belajaar.id&password=NewsGroupy2025!&url=https://ground.news/login",
@@ -30332,7 +30332,7 @@
     },
     "accounts": [
       {
-        "id": "gracely011-1221-Ground-News",
+        "id": "gracely011-1890-Ground-News",
         "name": "Ground News",
         "cookies": []
       }
@@ -30340,7 +30340,7 @@
   },
   {
     "meta": {
-      "id": "guitartricks-1838",
+      "id": "guitartricks-1159",
       "name": "Guitartricks.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://www.guitartricks.com/home",
@@ -30758,7 +30758,7 @@
   },
   {
     "meta": {
-      "id": "gracely011-1595",
+      "id": "gracely011-1773",
       "name": "Hbo.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://gracely011.github.io/hai/manual.html?name=HBO%20Max%202&login=hbo01@belajaar.id&password=HBOgroupy2025!&url=https://play.max.com",
@@ -30767,12 +30767,12 @@
     },
     "accounts": [
       {
-        "id": "gracely011-1595-HBO-Max-1",
+        "id": "gracely011-1773-HBO-Max-1",
         "name": "HBO Max 1",
         "cookies": []
       },
       {
-        "id": "gracely011-1595-HBO-Max-2",
+        "id": "gracely011-1773-HBO-Max-2",
         "name": "HBO Max 2",
         "cookies": []
       }
@@ -30780,7 +30780,7 @@
   },
   {
     "meta": {
-      "id": "hix-1547",
+      "id": "hix-1106",
       "name": "Hix.ai",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://hix.ai/app/bypass-ai-detection",
@@ -31076,7 +31076,7 @@
   },
   {
     "meta": {
-      "id": "hix-1059",
+      "id": "hix-1058",
       "name": "Hix.ai",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://hix.ai/id/home",
@@ -31408,7 +31408,7 @@
   },
   {
     "meta": {
-      "id": "id-1710",
+      "id": "id-1336",
       "name": "Id.vectorizer.ai",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://id.vectorizer.ai/",
@@ -31468,7 +31468,7 @@
   },
   {
     "meta": {
-      "id": "iflix-1748",
+      "id": "iflix-1155",
       "name": "Iflix.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://www.iflix.com/en",
@@ -31922,7 +31922,7 @@
   },
   {
     "meta": {
-      "id": "iloveimg-1206",
+      "id": "iloveimg-1959",
       "name": "Iloveimg.com",
       "icon": "https://www.iloveimg.com/img/iloveimg.ico",
       "url": "https://www.iloveimg.com/",
@@ -32117,7 +32117,7 @@
   },
   {
     "meta": {
-      "id": "ilovepdf-1083",
+      "id": "ilovepdf-1619",
       "name": "Ilovepdf.com",
       "icon": "https://www.ilovepdf.com/img/ilovepdf.ico",
       "url": "https://www.ilovepdf.com/",
@@ -32301,7 +32301,7 @@
   },
   {
     "meta": {
-      "id": "iq-1441",
+      "id": "iq-1685",
       "name": "Iq.com",
       "icon": "https://www.iq.com/favicon.ico",
       "url": "https://www.iq.com/",
@@ -32703,7 +32703,7 @@
   },
   {
     "meta": {
-      "id": "iq-1204",
+      "id": "iq-1954",
       "name": "Iq.com",
       "icon": "https://www.iq.com/favicon.ico",
       "url": "https://www.iq.com/",
@@ -33105,7 +33105,7 @@
   },
   {
     "meta": {
-      "id": "library-1728",
+      "id": "library-1752",
       "name": "Library.scholarcy.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://library.scholarcy.com/home",
@@ -33248,7 +33248,7 @@
   },
   {
     "meta": {
-      "id": "linkedin-1162",
+      "id": "linkedin-1074",
       "name": "Linkedin.com",
       "icon": "https://www.linkedin.com/favicon.ico",
       "url": "https://www.linkedin.com/learning/?u=73723940",
@@ -33575,7 +33575,7 @@
   },
   {
     "meta": {
-      "id": "marvel-1068",
+      "id": "marvel-1363",
       "name": "Marvel.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://www.marvel.com/comics/unlimited/home",
@@ -33908,7 +33908,7 @@
   },
   {
     "meta": {
-      "id": "masterclass-1753",
+      "id": "masterclass-1967",
       "name": "Masterclass.com",
       "icon": "https://www.masterclass.com/favicon.ico",
       "url": "https://www.masterclass.com/profiles",
@@ -34403,7 +34403,7 @@
   },
   {
     "meta": {
-      "id": "medium-1137",
+      "id": "medium-1004",
       "name": "Medium.com",
       "icon": "https://medium.com/favicon.ico",
       "url": "https://medium.com/",
@@ -34498,7 +34498,7 @@
   },
   {
     "meta": {
-      "id": "gracely011-1390",
+      "id": "gracely011-1654",
       "name": "Mentimeter.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://gracely011.github.io/hai/manual.html?name=Mentimeter&login=mentimeter@prem1um.xyz&password=MentimeterGroupy2025!&url=https://www.mentimeter.com/app/home",
@@ -34507,7 +34507,7 @@
     },
     "accounts": [
       {
-        "id": "gracely011-1390-Mentimeter",
+        "id": "gracely011-1654-Mentimeter",
         "name": "Mentimeter",
         "cookies": []
       }
@@ -34515,7 +34515,7 @@
   },
   {
     "meta": {
-      "id": "mermaidchart-1866",
+      "id": "mermaidchart-1371",
       "name": "Mermaidchart.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://www.mermaidchart.com/app/dashboard",
@@ -34729,7 +34729,7 @@
   },
   {
     "meta": {
-      "id": "motionarray-1224",
+      "id": "motionarray-1227",
       "name": "Motionarray.com",
       "icon": "https://motionarray.com/favicon.ico",
       "url": "https://motionarray.com/account/downloads/",
@@ -35147,7 +35147,7 @@
   },
   {
     "meta": {
-      "id": "mubi-1137",
+      "id": "mubi-1021",
       "name": "Mubi.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://mubi.com/en/id/showing",
@@ -35572,7 +35572,7 @@
   },
   {
     "meta": {
-      "id": "music-1187",
+      "id": "music-1591",
       "name": "Music.apple.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://music.apple.com/ca/home",
@@ -35735,7 +35735,7 @@
   },
   {
     "meta": {
-      "id": "music-1767",
+      "id": "music-1497",
       "name": "Music.apple.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://music.apple.com/ca/home",
@@ -35898,7 +35898,7 @@
   },
   {
     "meta": {
-      "id": "music-1644",
+      "id": "music-1131",
       "name": "Music.apple.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://music.apple.com/ca/home",
@@ -36061,7 +36061,7 @@
   },
   {
     "meta": {
-      "id": "musicbed-1029",
+      "id": "musicbed-1106",
       "name": "Musicbed.com",
       "icon": "https://www.musicbed.com/favicon.ico",
       "url": "https://www.musicbed.com/songs",
@@ -36357,7 +36357,7 @@
   },
   {
     "meta": {
-      "id": "my-1037",
+      "id": "my-1508",
       "name": "My.brain.fm",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://my.brain.fm/",
@@ -36642,7 +36642,7 @@
   },
   {
     "meta": {
-      "id": "netflix-1770",
+      "id": "netflix-1995",
       "name": "Netflix.com",
       "icon": "https://www.netflix.com/favicon.ico",
       "url": "https://www.netflix.com/browse",
@@ -36762,247 +36762,7 @@
   },
   {
     "meta": {
-      "id": "netflix-1301",
-      "name": "Netflix.com",
-      "icon": "https://www.netflix.com/favicon.ico",
-      "url": "https://www.netflix.com/browse",
-      "category": "entertainment",
-      "isGroup": false
-    },
-    "cookies": [
-      {
-        "url": "https://netflix.com/",
-        "name": "dsca",
-        "value": "true",
-        "domain": ".netflix.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1796887346.909327,
-        "sameSite": "strict",
-        "storeId": "0"
-      },
-      {
-        "url": "https://netflix.com/",
-        "name": "gsid",
-        "value": "ecbd00f2-48d2-4699-83c7-f56e70923b12",
-        "domain": ".netflix.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1762759757.1543,
-        "sameSite": "no_restriction",
-        "storeId": "0"
-      },
-      {
-        "url": "http://netflix.com/",
-        "name": "netflix-sans-bold-3-loaded",
-        "value": "true",
-        "domain": ".netflix.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "expirationDate": 1770449357.154264,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "http://netflix.com/",
-        "name": "netflix-sans-normal-3-loaded",
-        "value": "true",
-        "domain": ".netflix.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "expirationDate": 1770449357.154212,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://netflix.com/",
-        "name": "NetflixId",
-        "value": "v%3D3%26ct%3DBgjHlOvcAxKBA4oO_Vb6tZquMDo_LtmqwqIyyJ-3r9cET6PLGsrKa1iCZ7IbUTTBqU-hLmzOI7tGXAbWTlSw7BUJTZ9NwX8ohh07-ORtMc8gZJDxFNbz__eoyErtG7DSEPfqjA6cFImmq-9HaTyUn_QUcAOdY09XF1ruMA2epFiBLroZE4rHvvmQOU2bW_IIJAX-G0q7QLa5m2KTVYhhPiJ4Lo30r_wMGrufkCgxk08FIW5IS3DErCjc--oZ0alUWiZD86b7pGk6hDcV2Ul827kyMKn7M3u_f7fiWz8MEly9JHzXWnKiWTmbOlIQg72ZO6FhdTCHqUQ-jXlWtXddeJ4VJ7WlN7LHpoewhVFSPqQSgZc60vp6WcEZmRAqDLIDPMMU-r6b_O9XmGbhTbpCweaZctUSLOFCjfhsei-hBmMEcOjbWmb_qCG15BDVd0nm5Ch29tKa0Rj1W30vFkZpvhhq_H8YDM0AbYpX9u_IM78PzQ-PK-9tE6Ch0hBp17HIyxCJGQ5bw2FlRrAYBiIOCgwmAp46urMF5szLdXo.%26pg%3DTK7VC2L2OZB4JPH4VOXXQZLPG4%26ch%3DAQEAEAABABRlEqC7kP65OKuHnGoThgyPXG7U6NId3jc.",
-        "domain": ".netflix.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1794209356.244186,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://netflix.com/",
-        "name": "nfvdid",
-        "value": "BQFmAAEBEHJyV1F6fbbUp4iT3SsqmnNgXl9H5G0-4OxYvYlNoX9FUqa_89yGzPVm6oUsf6SOqrvWfZ2DnEQOa0xvX1XESh5gZ20H4YCO179zoH_gxXjWJXW4ooLYR6xWFvAud56cAsw9bH3CylsY4gXU1mDva_GY",
-        "domain": ".netflix.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1788942667.384321,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "http://netflix.com/",
-        "name": "OptanonConsent",
-        "value": "isGpcEnabled=0&datestamp=Sun+Nov+09+2025+14%3A29%3A17+GMT%2B0700+(Indochina+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=b86d5860-52c4-4541-9969-0ac11bed67db&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
-        "domain": ".netflix.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "expirationDate": 1794209357,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://netflix.com/",
-        "name": "SecureNetflixId",
-        "value": "v%3D3%26mac%3DAQEAEQABABSwOZ1-wZddPaa-ayFaR0Edki8djv4wex8.%26dt%3D1762673355041",
-        "domain": ".netflix.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1794209356.244111,
-        "sameSite": "strict",
-        "storeId": "0"
-      },
-      {
-        "url": "https://netflix.com/",
-        "name": "sign",
-        "value": "4d7a7847506c77555764694e43514338714f3744684f57776c316f69664433715954706c78427a395251454339554463372f32334d394869344a685471617535",
-        "domain": ".netflix.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1769074427.175785,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      }
-    ]
-  },
-  {
-    "meta": {
-      "id": "netflix-1624",
-      "name": "Netflix.com",
-      "icon": "https://www.netflix.com/favicon.ico",
-      "url": "https://www.netflix.com/browse",
-      "category": "entertainment",
-      "isGroup": false
-    },
-    "cookies": [
-      {
-        "url": "https://netflix.com/",
-        "name": "dsca",
-        "value": "true",
-        "domain": ".netflix.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1796887346.909327,
-        "sameSite": "strict",
-        "storeId": "0"
-      },
-      {
-        "url": "https://netflix.com/",
-        "name": "gsid",
-        "value": "636e70b6-0090-4fa9-8a60-3fded74d275f",
-        "domain": ".netflix.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1762759780.225523,
-        "sameSite": "no_restriction",
-        "storeId": "0"
-      },
-      {
-        "url": "http://netflix.com/",
-        "name": "netflix-sans-bold-3-loaded",
-        "value": "true",
-        "domain": ".netflix.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "expirationDate": 1770449380.225487,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "http://netflix.com/",
-        "name": "netflix-sans-normal-3-loaded",
-        "value": "true",
-        "domain": ".netflix.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "expirationDate": 1770449380.225435,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://netflix.com/",
-        "name": "NetflixId",
-        "value": "v%3D3%26ct%3DBgjHlOvcAxKFA2q_Jn2q5j0UyTuhOeYZVNXXPEP-yELU9Kl1iaUsxLfvEFc_5xMewZB3dmnF6hOw5ueahK_-T48wplKIE4VGV9l69p1T0Ap_9iPFhJwgoWoPnmzjMnRcucg6HIRUYHegpq8wmF0OfNinP17-M-n7uyIERUXA5xp_RhmACHYmcUWSF8z_S_QRtI7bZeKhpdUd83kqMP5bBM2yqTJPqQWGx_SwBFZbdUbnJwdVQkqJLBd_rzTQbZIZfxS42DYZgBjMvALcRKqRZkNX0V1cs5PCfn0aal__trZ2WF57e6UXZuXMzj6NBWPs-nl3TMGnHTvqADX1nLHoVWtoSTYpdNRQV9SUmVbjzooC7Nz5GwPrMABPMXSWOG36VEfHsfmt7bYUtf45DDYFAYjamfgxkaUuCIqDQBXaPV0H2dUoC7Uy99MA-IBmEdgI-ngwhJAPJ6GbrvFj5OnMABv96zBSHy0EEKLrlURd1HkueIVDxKSGGs3vrMePDts26tYmJ-9w0Oeu_mq8bZRLGAYiDgoM6zm7vj5Bzf8andz-%26pg%3DSYPAXSBPQ5EXRMVLENKA4SANUA%26ch%3DAQEAEAABABQd0n96BeTmQdXMogknVKkVHyYlRLXOrhE.",
-        "domain": ".netflix.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1794209379.385431,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://netflix.com/",
-        "name": "nfvdid",
-        "value": "BQFmAAEBEA7wvxI3WZ7VOoqysBaZ449gA648RzY6qaiYujhbkLoEcqQlzaYEFBsK2CA7zhLEQMm1K7iEA8eU2roB5-7Fyx0DrXDpDk1Yxt_uFIwxzbCDCqhiZl-C7JeFDdwLC4bQwWVKTuyVWh_fbXFGQflKIq79",
-        "domain": ".netflix.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1794122216.561087,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "http://netflix.com/",
-        "name": "OptanonConsent",
-        "value": "isGpcEnabled=0&datestamp=Sun+Nov+09+2025+14%3A29%3A40+GMT%2B0700+(Indochina+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=f3856cd4-7563-4e6f-9f2d-3b48be823381&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
-        "domain": ".netflix.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "expirationDate": 1794209380,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://netflix.com/",
-        "name": "SecureNetflixId",
-        "value": "v%3D3%26mac%3DAQEAEQABABQyLGPlQh53tjJMripTxWlhNnlmE5xtnuI.%26dt%3D1762673378186",
-        "domain": ".netflix.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1794209379.385299,
-        "sameSite": "strict",
-        "storeId": "0"
-      },
-      {
-        "url": "https://netflix.com/",
-        "name": "sign",
-        "value": "4d7a7847506c77555764694e43514338714f3744684f57776c316f69664433715954706c78427a395251474e6f5855727732305a582f427a3241324171673835",
-        "domain": ".netflix.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1770362217.717286,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      }
-    ]
-  },
-  {
-    "meta": {
-      "id": "netflix-1982",
+      "id": "netflix-1363",
       "name": "Netflix.com",
       "icon": "https://www.netflix.com/favicon.ico",
       "url": "https://www.netflix.com/browse",
@@ -37122,7 +36882,7 @@
   },
   {
     "meta": {
-      "id": "netflix-1642",
+      "id": "netflix-1920",
       "name": "Netflix.com",
       "icon": "https://www.netflix.com/favicon.ico",
       "url": "https://www.netflix.com/browse",
@@ -37242,7 +37002,7 @@
   },
   {
     "meta": {
-      "id": "netflix-1800",
+      "id": "netflix-1168",
       "name": "Netflix.com",
       "icon": "https://www.netflix.com/favicon.ico",
       "url": "https://www.netflix.com/browse",
@@ -37362,7 +37122,7 @@
   },
   {
     "meta": {
-      "id": "netflix-1135",
+      "id": "netflix-1240",
       "name": "Netflix.com",
       "icon": "https://www.netflix.com/favicon.ico",
       "url": "https://www.netflix.com/browse",
@@ -37482,7 +37242,7 @@
   },
   {
     "meta": {
-      "id": "netflix-1455",
+      "id": "netflix-1501",
       "name": "Netflix.com",
       "icon": "https://www.netflix.com/favicon.ico",
       "url": "https://www.netflix.com/browse",
@@ -37602,7 +37362,7 @@
   },
   {
     "meta": {
-      "id": "netflix-1046",
+      "id": "netflix-1184",
       "name": "Netflix.com",
       "icon": "https://www.netflix.com/favicon.ico",
       "url": "https://www.netflix.com/browse",
@@ -37722,7 +37482,7 @@
   },
   {
     "meta": {
-      "id": "netflix-1269",
+      "id": "netflix-1200",
       "name": "Netflix.com",
       "icon": "https://www.netflix.com/favicon.ico",
       "url": "https://www.netflix.com/browse",
@@ -37842,7 +37602,7 @@
   },
   {
     "meta": {
-      "id": "netflix-1067",
+      "id": "netflix-1284",
       "name": "Netflix.com",
       "icon": "https://www.netflix.com/favicon.ico",
       "url": "https://www.netflix.com/browse",
@@ -37962,7 +37722,7 @@
   },
   {
     "meta": {
-      "id": "netflix-1394",
+      "id": "netflix-1485",
       "name": "Netflix.com",
       "icon": "https://www.netflix.com/favicon.ico",
       "url": "https://www.netflix.com/browse",
@@ -38082,7 +37842,7 @@
   },
   {
     "meta": {
-      "id": "netflix-1706",
+      "id": "netflix-1341",
       "name": "Netflix.com",
       "icon": "https://www.netflix.com/favicon.ico",
       "url": "https://www.netflix.com/browse",
@@ -38202,7 +37962,127 @@
   },
   {
     "meta": {
-      "id": "netflix-1515",
+      "id": "netflix-1373",
+      "name": "Netflix.com",
+      "icon": "https://www.netflix.com/favicon.ico",
+      "url": "https://www.netflix.com/browse",
+      "category": "entertainment",
+      "isGroup": false
+    },
+    "cookies": [
+      {
+        "url": "https://netflix.com/",
+        "name": "dsca",
+        "value": "true",
+        "domain": ".netflix.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1796887346.909327,
+        "sameSite": "strict",
+        "storeId": "0"
+      },
+      {
+        "url": "https://netflix.com/",
+        "name": "gsid",
+        "value": "ecbd00f2-48d2-4699-83c7-f56e70923b12",
+        "domain": ".netflix.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1762759757.1543,
+        "sameSite": "no_restriction",
+        "storeId": "0"
+      },
+      {
+        "url": "http://netflix.com/",
+        "name": "netflix-sans-bold-3-loaded",
+        "value": "true",
+        "domain": ".netflix.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "expirationDate": 1770449357.154264,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "http://netflix.com/",
+        "name": "netflix-sans-normal-3-loaded",
+        "value": "true",
+        "domain": ".netflix.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "expirationDate": 1770449357.154212,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://netflix.com/",
+        "name": "NetflixId",
+        "value": "v%3D3%26ct%3DBgjHlOvcAxKBA4oO_Vb6tZquMDo_LtmqwqIyyJ-3r9cET6PLGsrKa1iCZ7IbUTTBqU-hLmzOI7tGXAbWTlSw7BUJTZ9NwX8ohh07-ORtMc8gZJDxFNbz__eoyErtG7DSEPfqjA6cFImmq-9HaTyUn_QUcAOdY09XF1ruMA2epFiBLroZE4rHvvmQOU2bW_IIJAX-G0q7QLa5m2KTVYhhPiJ4Lo30r_wMGrufkCgxk08FIW5IS3DErCjc--oZ0alUWiZD86b7pGk6hDcV2Ul827kyMKn7M3u_f7fiWz8MEly9JHzXWnKiWTmbOlIQg72ZO6FhdTCHqUQ-jXlWtXddeJ4VJ7WlN7LHpoewhVFSPqQSgZc60vp6WcEZmRAqDLIDPMMU-r6b_O9XmGbhTbpCweaZctUSLOFCjfhsei-hBmMEcOjbWmb_qCG15BDVd0nm5Ch29tKa0Rj1W30vFkZpvhhq_H8YDM0AbYpX9u_IM78PzQ-PK-9tE6Ch0hBp17HIyxCJGQ5bw2FlRrAYBiIOCgwmAp46urMF5szLdXo.%26pg%3DTK7VC2L2OZB4JPH4VOXXQZLPG4%26ch%3DAQEAEAABABRlEqC7kP65OKuHnGoThgyPXG7U6NId3jc.",
+        "domain": ".netflix.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1794209356.244186,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://netflix.com/",
+        "name": "nfvdid",
+        "value": "BQFmAAEBEHJyV1F6fbbUp4iT3SsqmnNgXl9H5G0-4OxYvYlNoX9FUqa_89yGzPVm6oUsf6SOqrvWfZ2DnEQOa0xvX1XESh5gZ20H4YCO179zoH_gxXjWJXW4ooLYR6xWFvAud56cAsw9bH3CylsY4gXU1mDva_GY",
+        "domain": ".netflix.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1788942667.384321,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "http://netflix.com/",
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Sun+Nov+09+2025+14%3A29%3A17+GMT%2B0700+(Indochina+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=b86d5860-52c4-4541-9969-0ac11bed67db&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+        "domain": ".netflix.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "expirationDate": 1794209357,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://netflix.com/",
+        "name": "SecureNetflixId",
+        "value": "v%3D3%26mac%3DAQEAEQABABSwOZ1-wZddPaa-ayFaR0Edki8djv4wex8.%26dt%3D1762673355041",
+        "domain": ".netflix.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1794209356.244111,
+        "sameSite": "strict",
+        "storeId": "0"
+      },
+      {
+        "url": "https://netflix.com/",
+        "name": "sign",
+        "value": "4d7a7847506c77555764694e43514338714f3744684f57776c316f69664433715954706c78427a395251454339554463372f32334d394869344a685471617535",
+        "domain": ".netflix.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1769074427.175785,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "id": "netflix-1798",
       "name": "Netflix.com",
       "icon": "https://www.netflix.com/favicon.ico",
       "url": "https://www.netflix.com/browse",
@@ -38322,7 +38202,7 @@
   },
   {
     "meta": {
-      "id": "netflix-1466",
+      "id": "netflix-1640",
       "name": "Netflix.com",
       "icon": "https://www.netflix.com/favicon.ico",
       "url": "https://www.netflix.com/browse",
@@ -38442,7 +38322,7 @@
   },
   {
     "meta": {
-      "id": "netflix-1036",
+      "id": "netflix-1745",
       "name": "Netflix.com",
       "icon": "https://www.netflix.com/favicon.ico",
       "url": "https://www.netflix.com/browse",
@@ -38562,7 +38442,7 @@
   },
   {
     "meta": {
-      "id": "netflix-1443",
+      "id": "netflix-1446",
       "name": "Netflix.com",
       "icon": "https://www.netflix.com/favicon.ico",
       "url": "https://www.netflix.com/browse",
@@ -38682,7 +38562,7 @@
   },
   {
     "meta": {
-      "id": "netflix-1636",
+      "id": "netflix-1298",
       "name": "Netflix.com",
       "icon": "https://www.netflix.com/favicon.ico",
       "url": "https://www.netflix.com/browse",
@@ -38802,7 +38682,7 @@
   },
   {
     "meta": {
-      "id": "netflix-1739",
+      "id": "netflix-1414",
       "name": "Netflix.com",
       "icon": "https://www.netflix.com/favicon.ico",
       "url": "https://www.netflix.com/browse",
@@ -38922,7 +38802,7 @@
   },
   {
     "meta": {
-      "id": "netflix-1372",
+      "id": "netflix-1491",
       "name": "Netflix.com",
       "icon": "https://www.netflix.com/favicon.ico",
       "url": "https://www.netflix.com/browse",
@@ -39042,7 +38922,7 @@
   },
   {
     "meta": {
-      "id": "netflix-1008",
+      "id": "netflix-1277",
       "name": "Netflix.com",
       "icon": "https://www.netflix.com/favicon.ico",
       "url": "https://www.netflix.com/browse",
@@ -39162,7 +39042,7 @@
   },
   {
     "meta": {
-      "id": "netflix-1095",
+      "id": "netflix-1385",
       "name": "Netflix.com",
       "icon": "https://www.netflix.com/favicon.ico",
       "url": "https://www.netflix.com/browse",
@@ -39282,7 +39162,7 @@
   },
   {
     "meta": {
-      "id": "netflix-1560",
+      "id": "netflix-1620",
       "name": "Netflix.com",
       "icon": "https://www.netflix.com/favicon.ico",
       "url": "https://www.netflix.com/browse",
@@ -39402,7 +39282,127 @@
   },
   {
     "meta": {
-      "id": "netflix-1742",
+      "id": "netflix-1369",
+      "name": "Netflix.com",
+      "icon": "https://www.netflix.com/favicon.ico",
+      "url": "https://www.netflix.com/browse",
+      "category": "entertainment",
+      "isGroup": false
+    },
+    "cookies": [
+      {
+        "url": "https://netflix.com/",
+        "name": "dsca",
+        "value": "true",
+        "domain": ".netflix.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1796887346.909327,
+        "sameSite": "strict",
+        "storeId": "0"
+      },
+      {
+        "url": "https://netflix.com/",
+        "name": "gsid",
+        "value": "636e70b6-0090-4fa9-8a60-3fded74d275f",
+        "domain": ".netflix.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1762759780.225523,
+        "sameSite": "no_restriction",
+        "storeId": "0"
+      },
+      {
+        "url": "http://netflix.com/",
+        "name": "netflix-sans-bold-3-loaded",
+        "value": "true",
+        "domain": ".netflix.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "expirationDate": 1770449380.225487,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "http://netflix.com/",
+        "name": "netflix-sans-normal-3-loaded",
+        "value": "true",
+        "domain": ".netflix.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "expirationDate": 1770449380.225435,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://netflix.com/",
+        "name": "NetflixId",
+        "value": "v%3D3%26ct%3DBgjHlOvcAxKFA2q_Jn2q5j0UyTuhOeYZVNXXPEP-yELU9Kl1iaUsxLfvEFc_5xMewZB3dmnF6hOw5ueahK_-T48wplKIE4VGV9l69p1T0Ap_9iPFhJwgoWoPnmzjMnRcucg6HIRUYHegpq8wmF0OfNinP17-M-n7uyIERUXA5xp_RhmACHYmcUWSF8z_S_QRtI7bZeKhpdUd83kqMP5bBM2yqTJPqQWGx_SwBFZbdUbnJwdVQkqJLBd_rzTQbZIZfxS42DYZgBjMvALcRKqRZkNX0V1cs5PCfn0aal__trZ2WF57e6UXZuXMzj6NBWPs-nl3TMGnHTvqADX1nLHoVWtoSTYpdNRQV9SUmVbjzooC7Nz5GwPrMABPMXSWOG36VEfHsfmt7bYUtf45DDYFAYjamfgxkaUuCIqDQBXaPV0H2dUoC7Uy99MA-IBmEdgI-ngwhJAPJ6GbrvFj5OnMABv96zBSHy0EEKLrlURd1HkueIVDxKSGGs3vrMePDts26tYmJ-9w0Oeu_mq8bZRLGAYiDgoM6zm7vj5Bzf8andz-%26pg%3DSYPAXSBPQ5EXRMVLENKA4SANUA%26ch%3DAQEAEAABABQd0n96BeTmQdXMogknVKkVHyYlRLXOrhE.",
+        "domain": ".netflix.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1794209379.385431,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://netflix.com/",
+        "name": "nfvdid",
+        "value": "BQFmAAEBEA7wvxI3WZ7VOoqysBaZ449gA648RzY6qaiYujhbkLoEcqQlzaYEFBsK2CA7zhLEQMm1K7iEA8eU2roB5-7Fyx0DrXDpDk1Yxt_uFIwxzbCDCqhiZl-C7JeFDdwLC4bQwWVKTuyVWh_fbXFGQflKIq79",
+        "domain": ".netflix.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1794122216.561087,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "http://netflix.com/",
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Sun+Nov+09+2025+14%3A29%3A40+GMT%2B0700+(Indochina+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=f3856cd4-7563-4e6f-9f2d-3b48be823381&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+        "domain": ".netflix.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "expirationDate": 1794209380,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://netflix.com/",
+        "name": "SecureNetflixId",
+        "value": "v%3D3%26mac%3DAQEAEQABABQyLGPlQh53tjJMripTxWlhNnlmE5xtnuI.%26dt%3D1762673378186",
+        "domain": ".netflix.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1794209379.385299,
+        "sameSite": "strict",
+        "storeId": "0"
+      },
+      {
+        "url": "https://netflix.com/",
+        "name": "sign",
+        "value": "4d7a7847506c77555764694e43514338714f3744684f57776c316f69664433715954706c78427a395251474e6f5855727732305a582f427a3241324171673835",
+        "domain": ".netflix.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1770362217.717286,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "id": "netflix-1652",
       "name": "Netflix.com",
       "icon": "https://www.netflix.com/favicon.ico",
       "url": "https://www.netflix.com/browse",
@@ -39522,7 +39522,7 @@
   },
   {
     "meta": {
-      "id": "netflix-1517",
+      "id": "netflix-1359",
       "name": "Netflix.com",
       "icon": "https://www.netflix.com/favicon.ico",
       "url": "https://www.netflix.com/browse",
@@ -39642,7 +39642,7 @@
   },
   {
     "meta": {
-      "id": "netflix-1931",
+      "id": "netflix-1047",
       "name": "Netflix.com",
       "icon": "https://www.netflix.com/favicon.ico",
       "url": "https://www.netflix.com/browse",
@@ -39726,7 +39726,7 @@
   },
   {
     "meta": {
-      "id": "netflix-1224",
+      "id": "netflix-1203",
       "name": "Netflix.com",
       "icon": "https://www.netflix.com/favicon.ico",
       "url": "https://www.netflix.com/browse",
@@ -39846,7 +39846,7 @@
   },
   {
     "meta": {
-      "id": "netflix-1060",
+      "id": "netflix-1850",
       "name": "Netflix.com",
       "icon": "https://www.netflix.com/favicon.ico",
       "url": "https://www.netflix.com/browse",
@@ -39966,7 +39966,7 @@
   },
   {
     "meta": {
-      "id": "netflix-1800",
+      "id": "netflix-1975",
       "name": "Netflix.com",
       "icon": "https://www.netflix.com/favicon.ico",
       "url": "https://www.netflix.com/browse",
@@ -40086,7 +40086,7 @@
   },
   {
     "meta": {
-      "id": "netflix-1995",
+      "id": "netflix-1037",
       "name": "Netflix.com",
       "icon": "https://www.netflix.com/favicon.ico",
       "url": "https://www.netflix.com/browse",
@@ -40206,7 +40206,7 @@
   },
   {
     "meta": {
-      "id": "netflix-1609",
+      "id": "netflix-1059",
       "name": "Netflix.com",
       "icon": "https://www.netflix.com/favicon.ico",
       "url": "https://www.netflix.com/browse",
@@ -40326,7 +40326,7 @@
   },
   {
     "meta": {
-      "id": "netflix-1104",
+      "id": "netflix-1562",
       "name": "Netflix.com",
       "icon": "https://www.netflix.com/favicon.ico",
       "url": "https://www.netflix.com/browse",
@@ -40446,7 +40446,7 @@
   },
   {
     "meta": {
-      "id": "notegpt-1262",
+      "id": "notegpt-1309",
       "name": "Notegpt.io",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://notegpt.io/workspace/home",
@@ -40612,7 +40612,7 @@
   },
   {
     "meta": {
-      "id": "notion-1107",
+      "id": "notion-1447",
       "name": "Notion.so",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://www.notion.so/Groupy-d01df0db902a828989ae01f13a61d8f1",
@@ -40887,7 +40887,7 @@
   },
   {
     "meta": {
-      "id": "pacdora-1650",
+      "id": "pacdora-1432",
       "name": "Pacdora.com",
       "icon": "https://www.pacdora.com/favicon.ico",
       "url": "https://www.pacdora.com/my-design",
@@ -41161,7 +41161,7 @@
   },
   {
     "meta": {
-      "id": "perplexity-1569",
+      "id": "perplexity-1933",
       "name": "Perplexity.ai",
       "icon": "https://www.perplexity.ai/favicon.ico",
       "url": "https://www.perplexity.ai/",
@@ -41493,7 +41493,7 @@
   },
   {
     "meta": {
-      "id": "perplexity-1010",
+      "id": "perplexity-1804",
       "name": "Perplexity.ai",
       "icon": "https://www.perplexity.ai/favicon.ico",
       "url": "https://www.perplexity.ai/",
@@ -41813,7 +41813,7 @@
   },
   {
     "meta": {
-      "id": "perplexity-1280",
+      "id": "perplexity-1825",
       "name": "Perplexity.ai",
       "icon": "https://www.perplexity.ai/favicon.ico",
       "url": "https://www.perplexity.ai/",
@@ -42145,7 +42145,7 @@
   },
   {
     "meta": {
-      "id": "gracely011-1582",
+      "id": "gracely011-1484",
       "name": "Picsart.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://gracely011.github.io/hai/manual.html?name=Picsart&login=turner@wareyk.com&password=Premium@123&url=https://picsart.com",
@@ -42154,17 +42154,17 @@
     },
     "accounts": [
       {
-        "id": "gracely011-1582-Picsart-1",
+        "id": "gracely011-1484-Picsart-1",
         "name": "Picsart 1",
         "cookies": []
       },
       {
-        "id": "gracely011-1582-Picsart-2",
+        "id": "gracely011-1484-Picsart-2",
         "name": "Picsart 2",
         "cookies": []
       },
       {
-        "id": "gracely011-1582-Picsart-3",
+        "id": "gracely011-1484-Picsart-3",
         "name": "Picsart 3",
         "cookies": []
       }
@@ -42172,7 +42172,7 @@
   },
   {
     "meta": {
-      "id": "prezi-1169",
+      "id": "prezi-1567",
       "name": "Prezi.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://prezi.com/dashboard/next/#/all",
@@ -42601,7 +42601,7 @@
   },
   {
     "meta": {
-      "id": "primevideo-1965",
+      "id": "primevideo-1231",
       "name": "Primevideo.com",
       "icon": "https://www.primevideo.com/favicon.ico",
       "url": "https://www.primevideo.com/region/eu/",
@@ -42769,7 +42769,7 @@
   },
   {
     "meta": {
-      "id": "primevideo-1492",
+      "id": "primevideo-1542",
       "name": "Primevideo.com",
       "icon": "https://www.primevideo.com/favicon.ico",
       "url": "https://www.primevideo.com/region/eu/",
@@ -42937,7 +42937,7 @@
   },
   {
     "meta": {
-      "id": "primevideo-1383",
+      "id": "primevideo-1778",
       "name": "Primevideo.com",
       "icon": "https://www.primevideo.com/favicon.ico",
       "url": "https://www.primevideo.com/region/eu/",
@@ -43105,679 +43105,7 @@
   },
   {
     "meta": {
-      "id": "primevideo-1214",
-      "name": "Primevideo.com",
-      "icon": "https://www.primevideo.com/favicon.ico",
-      "url": "https://www.primevideo.com/region/eu/",
-      "category": "entertainment",
-      "isGroup": false
-    },
-    "cookies": [
-      {
-        "url": "https://primevideo.com/",
-        "name": "at-main-av",
-        "value": "Atza|gQDT38JIAQEBAbKX_CpDEA_surFAxiHmr5VuSTV0e7L7KZTFokx2PAYzLUHwWzpdSRg2MOwPwvqBD0uGYPSXOZY4idN6hzRBo0mkZaFbZKHPbEf1LG6vJLya2REHsRQdMh-kWblKL5LjvyBH2HA70ayfob_MSvKDgj4d0v66m_vySQ7eBW-g4HFL-udCFqnQKEuH4JEvbg-f7qaczfCcoxtJLHLAtbv_f3-KXqGzvHFPwi_WwjF2umVmo0db9_-Se7fHLay06KwNQOnhmjBL05aAe1aJ4qh8_TpJqssLfWZY-IJYgBh8uaKWdibi3ukTiePG5VnnKeIOjeUbH3FHxtp53AuCWeznme4",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1793604112,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://primevideo.com/",
-        "name": "av-profile",
-        "value": "cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTJDQjg1UEEzTkFJUTkmdGltZXN0YW1wPTE3NjI2MTQyNDQ0NjImdmVyc2lvbj12MQ.g6sr4yIg6VZslhJQXbWcBeQ2ir5xcoxldDcYlExSif5FAAAAAQAAAABpD1vkcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765206244.542547,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "http://primevideo.com/",
-        "name": "av-timezone",
-        "value": "Asia/Bangkok",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "expirationDate": 1794150239,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://primevideo.com/",
-        "name": "i18n-prefs",
-        "value": "USD",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1793604113,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://primevideo.com/",
-        "name": "lc-main-av",
-        "value": "en_US",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1793604113,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://primevideo.com/",
-        "name": "sess-at-main-av",
-        "value": "dBqWxIrHD0qwomyxxcyU9BwqcUQ9tK8RlSHG+yn+Euo=",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1793604112,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://primevideo.com/",
-        "name": "session-id",
-        "value": "357-8197873-3426022",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1797174248.998221,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://primevideo.com/",
-        "name": "session-id-time",
-        "value": "2082787201l",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1793604113,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://primevideo.com/",
-        "name": "session-token",
-        "value": "\"r+FwKy7Geiq/ZZexBy5QqhG+hkA7o4n7ASfFEYiL1MeIzNKmykL7Srhv46Kg+urUnlbMbb9QxyUeLce615pgg1DuMKa1JkNLZAOsjchxP7G8Yfh3Jdb7nVrdb633l0ngPLu/kM45ybQotMGyRA0JCp8k2o/3ML5Q0K3EAzlSpg6BBfTEmLcEVGQgfrjrOyRsN2EXHPkjUgSVECyC0AxwM9/yABXozs2w/BUWsuG1T/EULxE/CgWGYbher5e102OGGAsN+tMPaQwGz/GEEpKU7DqXUWRYWXBTNlPwuRaawH/beSZwebI5JK+K0DeizL/AWQRtP0L3ZYSnJoqG/FzcYNOjIx+oXrLwd7tp+qRMHkqnv9E1unr/ogAUxVCf2HKntof3I5YZvqg=\"",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1794150245.166604,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://primevideo.com/",
-        "name": "sign",
-        "value": "4d7a7847506c77555764694e43514338714f3744684757794f414c755a363054746a7739787a2b774469556137416c56592b473153632b774e6e6b625a48635a",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1793604113,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://primevideo.com/",
-        "name": "ubid-main-av",
-        "value": "355-0464537-6456668",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1793604113,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://primevideo.com/",
-        "name": "x-main-av",
-        "value": "\"UdX?BDHD7Fl10bhGB?8VHD1LkWCWuG3H9rJmT4CvNUJBuuG1bZhL0JZ8y@AvhV0u\"",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1794150245.166664,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "http://www.primevideo.com/",
-        "name": "csm-hit",
-        "value": "tb:s-PTZWM7XM0AVZXVYHYY5Y|1762614246023&t:1762614247237&adb:adblk_no",
-        "domain": "www.primevideo.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "expirationDate": 1792854247,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      }
-    ]
-  },
-  {
-    "meta": {
-      "id": "primevideo-1349",
-      "name": "Primevideo.com",
-      "icon": "https://www.primevideo.com/favicon.ico",
-      "url": "https://www.primevideo.com/region/eu/",
-      "category": "entertainment",
-      "isGroup": false
-    },
-    "cookies": [
-      {
-        "url": "https://primevideo.com/",
-        "name": "at-main-av",
-        "value": "Atza|gQAv95VtAQEBAVR2qfRIDVbct7Zh9SE8GTmqfm3cjcHZAeBXJU_JxKWk43iXmSRt5xANIMPBrvCBDjdOSBdGf5m_x7EGRnHfeiPA4fXiNwmFRNUN1wv6bbpgvt2uCYJ15uHSUM3b7IdT-ehqeSwPGQBNyOzWBjJfdgZPihnYVZo1CluxrvU0PLlRTiDhIcQ4cJO0c2J8wUT5Dn_wKOkqUhY_NCvKbdZ6JnXVMYsBvkOmvhuIH3rgIge5MTS7fHD8cdTZXh64xGBAHLQScWA35NkRuD33owXdyqRX_Fk6Sf4LEum06XRtvUqMNCdUDbEU2j55Fy3xFXI2GU9iNqGKB85G1hZmQ7FlVA",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1793604113,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://primevideo.com/",
-        "name": "av-profile",
-        "value": "cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTNDSDZJTlpHS0o3VlMmdGltZXN0YW1wPTE3NjI2MTQyNTUzODAmdmVyc2lvbj12MQ.g88YA7G1XooAg0INEIMJ2L3rymOjfoCGArSp4jXOPW2bAAAAAQAAAABpD1vvcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765206255.411823,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "http://primevideo.com/",
-        "name": "av-timezone",
-        "value": "Asia/Bangkok",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "expirationDate": 1794150251,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://primevideo.com/",
-        "name": "i18n-prefs",
-        "value": "USD",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1793604114,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://primevideo.com/",
-        "name": "lc-main-av",
-        "value": "en_US",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1793604114,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://primevideo.com/",
-        "name": "sess-at-main-av",
-        "value": "5XROgbhObKx5UH9H18FjL51bPkdnzIJ+1HONcmkiRaE=",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1793604113,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://primevideo.com/",
-        "name": "session-id",
-        "value": "358-7099273-3370267",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1797174259.579174,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://primevideo.com/",
-        "name": "session-id-time",
-        "value": "2082787201l",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1793604114,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://primevideo.com/",
-        "name": "session-token",
-        "value": "\"WVP7t7gEFwKLAkagqqTJa3md9gfSv+Z/u0pTmFlNWD5/RrlLJHt6VA4nA/n96gP54veBEMhxWpcg+ZWQJS3vEZ7dVzMUQM9Np84Jbgkik6Mqi9EPBN49CD5QwqONv1LLm6zgNT6aeoXNlTkmuy8gneEP/hLa4tJZm1RTr6co3Uw4fFJ3mLjRYd/oa4Mb08JzyyJAhSQPzeg76JM7lwaJ7iXvcbEHnv5DKfmfA8BWnSPbrJHarSem8X6E56vthdAGIFWaUhdsvGfMcYySCvc+cFgaMeiIjfbpiOsihJ2gDXmSIA6o9k4vQFykCmZpuh9K7wFooLcDIYSkLqlVE5EjVkWyYEyo5E6x+UBGMeeZ+CYUvor6bmsFQbZ599NQsvKpJKMVS29YjaE=\"",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1794150256.069946,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://primevideo.com/",
-        "name": "sign",
-        "value": "4d7a7847506c77555764694e43514338714f3744684757794f414c755a363054746a7739787a2b774469575042356939764851647a6174707863723877396b52",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1793604114,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://primevideo.com/",
-        "name": "ubid-main-av",
-        "value": "355-1916323-4545900",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1793604114,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://primevideo.com/",
-        "name": "x-main-av",
-        "value": "\"lFU8JnU@mqorDHzG3pgZxTKkZrIr50FQcnLUKfjtvU7dmmhI2o7phZimTsrL1Mpw\"",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1794150256.070011,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "http://www.primevideo.com/",
-        "name": "csm-hit",
-        "value": "tb:s-39TNNXSKMKPKAYANXKR3|1762614256772&t:1762614257796&adb:adblk_no",
-        "domain": "www.primevideo.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "expirationDate": 1792854257,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      }
-    ]
-  },
-  {
-    "meta": {
-      "id": "primevideo-1195",
-      "name": "Primevideo.com",
-      "icon": "https://www.primevideo.com/favicon.ico",
-      "url": "https://www.primevideo.com/region/eu/",
-      "category": "entertainment",
-      "isGroup": false
-    },
-    "cookies": [
-      {
-        "url": "https://primevideo.com/",
-        "name": "at-main-av",
-        "value": "Atza|gQBN0YPdAQEBATs5RCft4NF4rkWOSyHwDTDGoW-Q6oKFg6je8KY1R8sSiaRWR78w5eMhNBx6onKBEMAMYNb8TljviXPhNKEF8tI6dLI60YDfROZVx41p5VdR-tyCksKfJBQHKWbkjDHEOjdc5rZDvaX15lKo6lypoGBUJhRb460QCAtp_70Zrs2TdsoIgbSZetH1DI8wNOJc5L5kNNIy0vgMaRv_q8b9ZFieruKyz0dbBUFZ9IXftk32svloYuz4QFaoNuWj67kLYEDhpC0HpDzDP4jC8c_KRoqr_SfxTaJAYKLpjDADxeznTARZqbRYpqFztUSDrfgWqDT7mbxkI19Q2DeR4UWxGqqW",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1793604116,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://primevideo.com/",
-        "name": "av-profile",
-        "value": "cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTFXR01OVVEyUTAzNVkmdGltZXN0YW1wPTE3NjI2MTQyNjY4MjgmdmVyc2lvbj12MQ.gxQLL2pVlXDKl26AEB_8j6qUWyqZsEU7e5gTVkYq6dhwAAAAAQAAAABpD1v6cmF3AAAAAPgWC9WfHH8iB-olH_E9xQ",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765206266.851566,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "http://primevideo.com/",
-        "name": "av-timezone",
-        "value": "Asia/Bangkok",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "expirationDate": 1794150263,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://primevideo.com/",
-        "name": "i18n-prefs",
-        "value": "USD",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1793604116,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://primevideo.com/",
-        "name": "lc-main-av",
-        "value": "en_US",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1793604116,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://primevideo.com/",
-        "name": "sess-at-main-av",
-        "value": "MnHJdPfbheSRuv0V5OYzYstgQMPQPbpQDUNfNsd0oM8=",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1793604116,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://primevideo.com/",
-        "name": "session-id",
-        "value": "357-3739244-1549054",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1797174271.253,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://primevideo.com/",
-        "name": "session-id-time",
-        "value": "2082787201l",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1793604116,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://primevideo.com/",
-        "name": "session-token",
-        "value": "\"7msxjBGlh++CKOtbbgQKPAhRAMHx286Wm9+JZNh/BeFe0FyWA620FSwlPSeLe1T55yL9YnLHDKQPk0rJkgNULNrbiL3Mw5LMzwxk2CSFl+Sy5lQRaC2ukWIXHARm/T8l+6uDqe3MVl1tvEMlJs3Zsr5j28FlraR3vhLxzYb33kSLAn4z3XcEF4vcJrEZ5qf0ZCxKQ8f/5kcWJ+VRJZewZGmUcSAuOjoFwyt6+pKEEXEUoWWvlGfwvVsH34nzBVnkf4Txqu0rPJwilde3rjR3pUJfy8XJf4Wy1AGxRPNwfx3JZQfSSQ086qIGRt0i0Pj1GDVs5qD3egAmZnrDprJB4ARmWFaAEk0lrpH1NslU5quMNxdM3rlKABXo/hMn7Mtf6mJSkRCULfo=\"",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1794150267.536203,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://primevideo.com/",
-        "name": "sign",
-        "value": "4d7a7847506c77555764694e43514338714f3744684757794f414c755a363054746a7739787a2b77446958786c456a4361614a58537a524a4b756659324b2b2f",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1793604116,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://primevideo.com/",
-        "name": "ubid-main-av",
-        "value": "356-5360612-9065052",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1793604116,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://primevideo.com/",
-        "name": "x-main-av",
-        "value": "\"K8rXE0tr2UGFjgzsoBkpmptCrGe3xCPQ42zh@KyqBAjR3ebdx7PcnAYk1CuQ4fp?\"",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1794150267.536268,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "http://www.primevideo.com/",
-        "name": "csm-hit",
-        "value": "tb:s-P9WGM13DBB2EGEX2JGYS|1762614268268&t:1762614269575&adb:adblk_no",
-        "domain": "www.primevideo.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "expirationDate": 1792854269,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      }
-    ]
-  },
-  {
-    "meta": {
-      "id": "primevideo-1767",
-      "name": "Primevideo.com",
-      "icon": "https://www.primevideo.com/favicon.ico",
-      "url": "https://www.primevideo.com/region/eu/",
-      "category": "entertainment",
-      "isGroup": false
-    },
-    "cookies": [
-      {
-        "url": "https://primevideo.com/",
-        "name": "at-main-av",
-        "value": "Atza|gQBwssTsAQEBATLynW5Ww_fS3u50zSGK0SpE1BYc1Y5LsqwVKH8uxH0ncS3TSy9EDotI9yxIsy6BDwbm2W8z0btOCOzWDkmbwai2KCVXBfRmCLFeZ5NPD5GtaGBpk1UZK5rUmaQvDZcjH5MWCzPnAiTm7HkzSXiZrK_VM6dc16uvxpLScTSusdtBcjg8qNYEWxR5JE3Ry4CZxJXt4D7FnNJdP8uKq94MjP2aMwaLkBQGSTOlddLZ2BUY0hsNB8HpULL5PyWwrkp4QDiODWKECQKHb2LEfGR9h49HQkMag9yk1L2WUCSXB8_Ar-6tZ9_rG1epFCsTKtQNy8bL9G_JbQHQnWd58yPCStU",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1793535148,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://primevideo.com/",
-        "name": "av-profile",
-        "value": "cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTEyMFNXVVpaN0taNSZ0aW1lc3RhbXA9MTc2MjYxNDE3MDE1NiZ2ZXJzaW9uPXYx.g07_5xjJ2yx76TZMHEqzinoEWgOUDEusweK-6CPHkhAIAAAAAQAAAABpD1uacmF3AAAAAPgWC9WfHH8iB-olH_E9xQ",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765206170.195538,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "http://primevideo.com/",
-        "name": "av-timezone",
-        "value": "Asia/Bangkok",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "expirationDate": 1793794925,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://primevideo.com/",
-        "name": "i18n-prefs",
-        "value": "USD",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1793535148,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://primevideo.com/",
-        "name": "lc-main-av",
-        "value": "en_US",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1793535148,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://primevideo.com/",
-        "name": "sess-at-main-av",
-        "value": "GD80tREb5ojdm7tvIo7AfY+WeYuWhtQV2gun1YraJBg=",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1793535148,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://primevideo.com/",
-        "name": "session-id",
-        "value": "358-2266930-4890857",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1797174175.166317,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://primevideo.com/",
-        "name": "session-id-time",
-        "value": "2082787201l",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1793535148,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://primevideo.com/",
-        "name": "session-token",
-        "value": "\"3yDP6uhmFFeDQV0lXCgaTBRP4pjunH4T0jmpQ9HsftcAcJsZm6+Oae92IkxjR3+PqsP5wwHxyt2plN0QHCfiOP0Cxc/AxjNLY8qDSOPtEV6brLys8SxoWZNvENQFrgLAkV690iCa2iL9R7mmi6/Qy59/4rwaV+RBU0hNG/UvwjqdQjkr4IlzvAb0lhb27F56ghXNww37bnDcDkYd88iwxtGka+/MrKVt3pxZYETQGh1myEWm2cz6x1Y2FbFLysvb2cMVa9ay66Rwtpp5oATf0MrdBv27M19ynH4UylLSGl/ScR2v0fN46N/eft4AAy0jOEs+zZuCqqX7C334Xatku7LkaIuzy6w/PixF/XDcvfv4TWe4QsUh8oA7IePIT9sa6aEXZHBNTwg=\"",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1794150170.845282,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://primevideo.com/",
-        "name": "sign",
-        "value": "4d7a7847506c77555764694e43514338714f3744684757794f414c755a363054746a7739787a2b77446956537a6f54766843654448366d5643736d3450666256",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1793535148,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://primevideo.com/",
-        "name": "ubid-main-av",
-        "value": "358-3604609-5730211",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1793535148,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://primevideo.com/",
-        "name": "x-main-av",
-        "value": "\"rEeqLUA9ndJ@ciorFhfX5ikKw9CfGsoCSXWVGaE2ia09v4PMki0?m1qU?XvHFoiy\"",
-        "domain": ".primevideo.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1794150170.845344,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "http://www.primevideo.com/",
-        "name": "csm-hit",
-        "value": "tb:s-WD8YPWP9JWC7W1ZVED7D|1762614172671&t:1762614173146&adb:adblk_no",
-        "domain": "www.primevideo.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "expirationDate": 1792854173,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      }
-    ]
-  },
-  {
-    "meta": {
-      "id": "primevideo-1898",
+      "id": "primevideo-1606",
       "name": "Primevideo.com",
       "icon": "https://www.primevideo.com/favicon.ico",
       "url": "https://www.primevideo.com/region/eu/",
@@ -43945,7 +43273,679 @@
   },
   {
     "meta": {
-      "id": "productioncrate-1978",
+      "id": "primevideo-1715",
+      "name": "Primevideo.com",
+      "icon": "https://www.primevideo.com/favicon.ico",
+      "url": "https://www.primevideo.com/region/eu/",
+      "category": "entertainment",
+      "isGroup": false
+    },
+    "cookies": [
+      {
+        "url": "https://primevideo.com/",
+        "name": "at-main-av",
+        "value": "Atza|gQDT38JIAQEBAbKX_CpDEA_surFAxiHmr5VuSTV0e7L7KZTFokx2PAYzLUHwWzpdSRg2MOwPwvqBD0uGYPSXOZY4idN6hzRBo0mkZaFbZKHPbEf1LG6vJLya2REHsRQdMh-kWblKL5LjvyBH2HA70ayfob_MSvKDgj4d0v66m_vySQ7eBW-g4HFL-udCFqnQKEuH4JEvbg-f7qaczfCcoxtJLHLAtbv_f3-KXqGzvHFPwi_WwjF2umVmo0db9_-Se7fHLay06KwNQOnhmjBL05aAe1aJ4qh8_TpJqssLfWZY-IJYgBh8uaKWdibi3ukTiePG5VnnKeIOjeUbH3FHxtp53AuCWeznme4",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1793604112,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://primevideo.com/",
+        "name": "av-profile",
+        "value": "cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTJDQjg1UEEzTkFJUTkmdGltZXN0YW1wPTE3NjI2MTQyNDQ0NjImdmVyc2lvbj12MQ.g6sr4yIg6VZslhJQXbWcBeQ2ir5xcoxldDcYlExSif5FAAAAAQAAAABpD1vkcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765206244.542547,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "http://primevideo.com/",
+        "name": "av-timezone",
+        "value": "Asia/Bangkok",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "expirationDate": 1794150239,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://primevideo.com/",
+        "name": "i18n-prefs",
+        "value": "USD",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1793604113,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://primevideo.com/",
+        "name": "lc-main-av",
+        "value": "en_US",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1793604113,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://primevideo.com/",
+        "name": "sess-at-main-av",
+        "value": "dBqWxIrHD0qwomyxxcyU9BwqcUQ9tK8RlSHG+yn+Euo=",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1793604112,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://primevideo.com/",
+        "name": "session-id",
+        "value": "357-8197873-3426022",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1797174248.998221,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://primevideo.com/",
+        "name": "session-id-time",
+        "value": "2082787201l",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1793604113,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://primevideo.com/",
+        "name": "session-token",
+        "value": "\"r+FwKy7Geiq/ZZexBy5QqhG+hkA7o4n7ASfFEYiL1MeIzNKmykL7Srhv46Kg+urUnlbMbb9QxyUeLce615pgg1DuMKa1JkNLZAOsjchxP7G8Yfh3Jdb7nVrdb633l0ngPLu/kM45ybQotMGyRA0JCp8k2o/3ML5Q0K3EAzlSpg6BBfTEmLcEVGQgfrjrOyRsN2EXHPkjUgSVECyC0AxwM9/yABXozs2w/BUWsuG1T/EULxE/CgWGYbher5e102OGGAsN+tMPaQwGz/GEEpKU7DqXUWRYWXBTNlPwuRaawH/beSZwebI5JK+K0DeizL/AWQRtP0L3ZYSnJoqG/FzcYNOjIx+oXrLwd7tp+qRMHkqnv9E1unr/ogAUxVCf2HKntof3I5YZvqg=\"",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1794150245.166604,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://primevideo.com/",
+        "name": "sign",
+        "value": "4d7a7847506c77555764694e43514338714f3744684757794f414c755a363054746a7739787a2b774469556137416c56592b473153632b774e6e6b625a48635a",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1793604113,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://primevideo.com/",
+        "name": "ubid-main-av",
+        "value": "355-0464537-6456668",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1793604113,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://primevideo.com/",
+        "name": "x-main-av",
+        "value": "\"UdX?BDHD7Fl10bhGB?8VHD1LkWCWuG3H9rJmT4CvNUJBuuG1bZhL0JZ8y@AvhV0u\"",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1794150245.166664,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "http://www.primevideo.com/",
+        "name": "csm-hit",
+        "value": "tb:s-PTZWM7XM0AVZXVYHYY5Y|1762614246023&t:1762614247237&adb:adblk_no",
+        "domain": "www.primevideo.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "expirationDate": 1792854247,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "id": "primevideo-1551",
+      "name": "Primevideo.com",
+      "icon": "https://www.primevideo.com/favicon.ico",
+      "url": "https://www.primevideo.com/region/eu/",
+      "category": "entertainment",
+      "isGroup": false
+    },
+    "cookies": [
+      {
+        "url": "https://primevideo.com/",
+        "name": "at-main-av",
+        "value": "Atza|gQAv95VtAQEBAVR2qfRIDVbct7Zh9SE8GTmqfm3cjcHZAeBXJU_JxKWk43iXmSRt5xANIMPBrvCBDjdOSBdGf5m_x7EGRnHfeiPA4fXiNwmFRNUN1wv6bbpgvt2uCYJ15uHSUM3b7IdT-ehqeSwPGQBNyOzWBjJfdgZPihnYVZo1CluxrvU0PLlRTiDhIcQ4cJO0c2J8wUT5Dn_wKOkqUhY_NCvKbdZ6JnXVMYsBvkOmvhuIH3rgIge5MTS7fHD8cdTZXh64xGBAHLQScWA35NkRuD33owXdyqRX_Fk6Sf4LEum06XRtvUqMNCdUDbEU2j55Fy3xFXI2GU9iNqGKB85G1hZmQ7FlVA",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1793604113,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://primevideo.com/",
+        "name": "av-profile",
+        "value": "cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTNDSDZJTlpHS0o3VlMmdGltZXN0YW1wPTE3NjI2MTQyNTUzODAmdmVyc2lvbj12MQ.g88YA7G1XooAg0INEIMJ2L3rymOjfoCGArSp4jXOPW2bAAAAAQAAAABpD1vvcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765206255.411823,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "http://primevideo.com/",
+        "name": "av-timezone",
+        "value": "Asia/Bangkok",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "expirationDate": 1794150251,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://primevideo.com/",
+        "name": "i18n-prefs",
+        "value": "USD",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1793604114,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://primevideo.com/",
+        "name": "lc-main-av",
+        "value": "en_US",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1793604114,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://primevideo.com/",
+        "name": "sess-at-main-av",
+        "value": "5XROgbhObKx5UH9H18FjL51bPkdnzIJ+1HONcmkiRaE=",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1793604113,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://primevideo.com/",
+        "name": "session-id",
+        "value": "358-7099273-3370267",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1797174259.579174,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://primevideo.com/",
+        "name": "session-id-time",
+        "value": "2082787201l",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1793604114,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://primevideo.com/",
+        "name": "session-token",
+        "value": "\"WVP7t7gEFwKLAkagqqTJa3md9gfSv+Z/u0pTmFlNWD5/RrlLJHt6VA4nA/n96gP54veBEMhxWpcg+ZWQJS3vEZ7dVzMUQM9Np84Jbgkik6Mqi9EPBN49CD5QwqONv1LLm6zgNT6aeoXNlTkmuy8gneEP/hLa4tJZm1RTr6co3Uw4fFJ3mLjRYd/oa4Mb08JzyyJAhSQPzeg76JM7lwaJ7iXvcbEHnv5DKfmfA8BWnSPbrJHarSem8X6E56vthdAGIFWaUhdsvGfMcYySCvc+cFgaMeiIjfbpiOsihJ2gDXmSIA6o9k4vQFykCmZpuh9K7wFooLcDIYSkLqlVE5EjVkWyYEyo5E6x+UBGMeeZ+CYUvor6bmsFQbZ599NQsvKpJKMVS29YjaE=\"",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1794150256.069946,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://primevideo.com/",
+        "name": "sign",
+        "value": "4d7a7847506c77555764694e43514338714f3744684757794f414c755a363054746a7739787a2b774469575042356939764851647a6174707863723877396b52",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1793604114,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://primevideo.com/",
+        "name": "ubid-main-av",
+        "value": "355-1916323-4545900",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1793604114,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://primevideo.com/",
+        "name": "x-main-av",
+        "value": "\"lFU8JnU@mqorDHzG3pgZxTKkZrIr50FQcnLUKfjtvU7dmmhI2o7phZimTsrL1Mpw\"",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1794150256.070011,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "http://www.primevideo.com/",
+        "name": "csm-hit",
+        "value": "tb:s-39TNNXSKMKPKAYANXKR3|1762614256772&t:1762614257796&adb:adblk_no",
+        "domain": "www.primevideo.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "expirationDate": 1792854257,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "id": "primevideo-1290",
+      "name": "Primevideo.com",
+      "icon": "https://www.primevideo.com/favicon.ico",
+      "url": "https://www.primevideo.com/region/eu/",
+      "category": "entertainment",
+      "isGroup": false
+    },
+    "cookies": [
+      {
+        "url": "https://primevideo.com/",
+        "name": "at-main-av",
+        "value": "Atza|gQBN0YPdAQEBATs5RCft4NF4rkWOSyHwDTDGoW-Q6oKFg6je8KY1R8sSiaRWR78w5eMhNBx6onKBEMAMYNb8TljviXPhNKEF8tI6dLI60YDfROZVx41p5VdR-tyCksKfJBQHKWbkjDHEOjdc5rZDvaX15lKo6lypoGBUJhRb460QCAtp_70Zrs2TdsoIgbSZetH1DI8wNOJc5L5kNNIy0vgMaRv_q8b9ZFieruKyz0dbBUFZ9IXftk32svloYuz4QFaoNuWj67kLYEDhpC0HpDzDP4jC8c_KRoqr_SfxTaJAYKLpjDADxeznTARZqbRYpqFztUSDrfgWqDT7mbxkI19Q2DeR4UWxGqqW",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1793604116,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://primevideo.com/",
+        "name": "av-profile",
+        "value": "cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTFXR01OVVEyUTAzNVkmdGltZXN0YW1wPTE3NjI2MTQyNjY4MjgmdmVyc2lvbj12MQ.gxQLL2pVlXDKl26AEB_8j6qUWyqZsEU7e5gTVkYq6dhwAAAAAQAAAABpD1v6cmF3AAAAAPgWC9WfHH8iB-olH_E9xQ",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765206266.851566,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "http://primevideo.com/",
+        "name": "av-timezone",
+        "value": "Asia/Bangkok",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "expirationDate": 1794150263,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://primevideo.com/",
+        "name": "i18n-prefs",
+        "value": "USD",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1793604116,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://primevideo.com/",
+        "name": "lc-main-av",
+        "value": "en_US",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1793604116,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://primevideo.com/",
+        "name": "sess-at-main-av",
+        "value": "MnHJdPfbheSRuv0V5OYzYstgQMPQPbpQDUNfNsd0oM8=",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1793604116,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://primevideo.com/",
+        "name": "session-id",
+        "value": "357-3739244-1549054",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1797174271.253,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://primevideo.com/",
+        "name": "session-id-time",
+        "value": "2082787201l",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1793604116,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://primevideo.com/",
+        "name": "session-token",
+        "value": "\"7msxjBGlh++CKOtbbgQKPAhRAMHx286Wm9+JZNh/BeFe0FyWA620FSwlPSeLe1T55yL9YnLHDKQPk0rJkgNULNrbiL3Mw5LMzwxk2CSFl+Sy5lQRaC2ukWIXHARm/T8l+6uDqe3MVl1tvEMlJs3Zsr5j28FlraR3vhLxzYb33kSLAn4z3XcEF4vcJrEZ5qf0ZCxKQ8f/5kcWJ+VRJZewZGmUcSAuOjoFwyt6+pKEEXEUoWWvlGfwvVsH34nzBVnkf4Txqu0rPJwilde3rjR3pUJfy8XJf4Wy1AGxRPNwfx3JZQfSSQ086qIGRt0i0Pj1GDVs5qD3egAmZnrDprJB4ARmWFaAEk0lrpH1NslU5quMNxdM3rlKABXo/hMn7Mtf6mJSkRCULfo=\"",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1794150267.536203,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://primevideo.com/",
+        "name": "sign",
+        "value": "4d7a7847506c77555764694e43514338714f3744684757794f414c755a363054746a7739787a2b77446958786c456a4361614a58537a524a4b756659324b2b2f",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1793604116,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://primevideo.com/",
+        "name": "ubid-main-av",
+        "value": "356-5360612-9065052",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1793604116,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://primevideo.com/",
+        "name": "x-main-av",
+        "value": "\"K8rXE0tr2UGFjgzsoBkpmptCrGe3xCPQ42zh@KyqBAjR3ebdx7PcnAYk1CuQ4fp?\"",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1794150267.536268,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "http://www.primevideo.com/",
+        "name": "csm-hit",
+        "value": "tb:s-P9WGM13DBB2EGEX2JGYS|1762614268268&t:1762614269575&adb:adblk_no",
+        "domain": "www.primevideo.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "expirationDate": 1792854269,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "id": "primevideo-1488",
+      "name": "Primevideo.com",
+      "icon": "https://www.primevideo.com/favicon.ico",
+      "url": "https://www.primevideo.com/region/eu/",
+      "category": "entertainment",
+      "isGroup": false
+    },
+    "cookies": [
+      {
+        "url": "https://primevideo.com/",
+        "name": "at-main-av",
+        "value": "Atza|gQBwssTsAQEBATLynW5Ww_fS3u50zSGK0SpE1BYc1Y5LsqwVKH8uxH0ncS3TSy9EDotI9yxIsy6BDwbm2W8z0btOCOzWDkmbwai2KCVXBfRmCLFeZ5NPD5GtaGBpk1UZK5rUmaQvDZcjH5MWCzPnAiTm7HkzSXiZrK_VM6dc16uvxpLScTSusdtBcjg8qNYEWxR5JE3Ry4CZxJXt4D7FnNJdP8uKq94MjP2aMwaLkBQGSTOlddLZ2BUY0hsNB8HpULL5PyWwrkp4QDiODWKECQKHb2LEfGR9h49HQkMag9yk1L2WUCSXB8_Ar-6tZ9_rG1epFCsTKtQNy8bL9G_JbQHQnWd58yPCStU",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1793535148,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://primevideo.com/",
+        "name": "av-profile",
+        "value": "cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTEyMFNXVVpaN0taNSZ0aW1lc3RhbXA9MTc2MjYxNDE3MDE1NiZ2ZXJzaW9uPXYx.g07_5xjJ2yx76TZMHEqzinoEWgOUDEusweK-6CPHkhAIAAAAAQAAAABpD1uacmF3AAAAAPgWC9WfHH8iB-olH_E9xQ",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765206170.195538,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "http://primevideo.com/",
+        "name": "av-timezone",
+        "value": "Asia/Bangkok",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "expirationDate": 1793794925,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://primevideo.com/",
+        "name": "i18n-prefs",
+        "value": "USD",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1793535148,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://primevideo.com/",
+        "name": "lc-main-av",
+        "value": "en_US",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1793535148,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://primevideo.com/",
+        "name": "sess-at-main-av",
+        "value": "GD80tREb5ojdm7tvIo7AfY+WeYuWhtQV2gun1YraJBg=",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1793535148,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://primevideo.com/",
+        "name": "session-id",
+        "value": "358-2266930-4890857",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1797174175.166317,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://primevideo.com/",
+        "name": "session-id-time",
+        "value": "2082787201l",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1793535148,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://primevideo.com/",
+        "name": "session-token",
+        "value": "\"3yDP6uhmFFeDQV0lXCgaTBRP4pjunH4T0jmpQ9HsftcAcJsZm6+Oae92IkxjR3+PqsP5wwHxyt2plN0QHCfiOP0Cxc/AxjNLY8qDSOPtEV6brLys8SxoWZNvENQFrgLAkV690iCa2iL9R7mmi6/Qy59/4rwaV+RBU0hNG/UvwjqdQjkr4IlzvAb0lhb27F56ghXNww37bnDcDkYd88iwxtGka+/MrKVt3pxZYETQGh1myEWm2cz6x1Y2FbFLysvb2cMVa9ay66Rwtpp5oATf0MrdBv27M19ynH4UylLSGl/ScR2v0fN46N/eft4AAy0jOEs+zZuCqqX7C334Xatku7LkaIuzy6w/PixF/XDcvfv4TWe4QsUh8oA7IePIT9sa6aEXZHBNTwg=\"",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1794150170.845282,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://primevideo.com/",
+        "name": "sign",
+        "value": "4d7a7847506c77555764694e43514338714f3744684757794f414c755a363054746a7739787a2b77446956537a6f54766843654448366d5643736d3450666256",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1793535148,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://primevideo.com/",
+        "name": "ubid-main-av",
+        "value": "358-3604609-5730211",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1793535148,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://primevideo.com/",
+        "name": "x-main-av",
+        "value": "\"rEeqLUA9ndJ@ciorFhfX5ikKw9CfGsoCSXWVGaE2ia09v4PMki0?m1qU?XvHFoiy\"",
+        "domain": ".primevideo.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1794150170.845344,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "http://www.primevideo.com/",
+        "name": "csm-hit",
+        "value": "tb:s-WD8YPWP9JWC7W1ZVED7D|1762614172671&t:1762614173146&adb:adblk_no",
+        "domain": "www.primevideo.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "expirationDate": 1792854173,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "id": "productioncrate-1980",
       "name": "Productioncrate.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://www.productioncrate.com/",
@@ -44077,7 +44077,7 @@
   },
   {
     "meta": {
-      "id": "quizlet-1877",
+      "id": "quizlet-1915",
       "name": "Quizlet.com",
       "icon": "https://quizlet.com/favicon.ico",
       "url": "https://quizlet.com/latest",
@@ -44599,7 +44599,7 @@
   },
   {
     "meta": {
-      "id": "rawpixel-1665",
+      "id": "rawpixel-1574",
       "name": "Rawpixel.com",
       "icon": "https://www.rawpixel.com/favicon.ico",
       "url": "https://www.rawpixel.com/",
@@ -44683,7 +44683,7 @@
   },
   {
     "meta": {
-      "id": "relume-1030",
+      "id": "relume-1259",
       "name": "Relume.io",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://www.relume.io/",
@@ -44850,7 +44850,7 @@
   },
   {
     "meta": {
-      "id": "scispace-1370",
+      "id": "scispace-1063",
       "name": "Scispace.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://scispace.com/library",
@@ -45064,7 +45064,7 @@
   },
   {
     "meta": {
-      "id": "petrusperdana1-1381",
+      "id": "petrusperdana1-1687",
       "name": "Scite.ai",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Scite&login=sct@tokito.xyz&password=Sc1teGroupy%&url=https://scite.ai/assistant",
@@ -45073,22 +45073,22 @@
     },
     "accounts": [
       {
-        "id": "petrusperdana1-1381-Scite-1-",
+        "id": "petrusperdana1-1687-Scite-1-",
         "name": "Scite 1 ",
         "cookies": []
       },
       {
-        "id": "petrusperdana1-1381-Scite-2",
+        "id": "petrusperdana1-1687-Scite-2",
         "name": "Scite 2",
         "cookies": []
       },
       {
-        "id": "petrusperdana1-1381-Scite-3",
+        "id": "petrusperdana1-1687-Scite-3",
         "name": "Scite 3",
         "cookies": []
       },
       {
-        "id": "petrusperdana1-1381-Scite-4",
+        "id": "petrusperdana1-1687-Scite-4",
         "name": "Scite 4",
         "cookies": []
       }
@@ -45096,7 +45096,7 @@
   },
   {
     "meta": {
-      "id": "scribd-1208",
+      "id": "scribd-1786",
       "name": "Scribd.com",
       "icon": "https://www.scribd.com/favicon.ico",
       "url": "https://www.scribd.com/home",
@@ -45618,7 +45618,7 @@
   },
   {
     "meta": {
-      "id": "scribd-1648",
+      "id": "scribd-1987",
       "name": "Scribd.com",
       "icon": "https://www.scribd.com/favicon.ico",
       "url": "https://www.scribd.com/home",
@@ -46140,7 +46140,7 @@
   },
   {
     "meta": {
-      "id": "scribd-1270",
+      "id": "scribd-1547",
       "name": "Scribd.com",
       "icon": "https://www.scribd.com/favicon.ico",
       "url": "https://www.scribd.com/home",
@@ -46614,7 +46614,7 @@
   },
   {
     "meta": {
-      "id": "semrush-1053",
+      "id": "semrush-1380",
       "name": "Semrush.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://www.semrush.com/home/",
@@ -47164,7 +47164,7 @@
   },
   {
     "meta": {
-      "id": "semrush-1153",
+      "id": "semrush-1483",
       "name": "Semrush.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://www.semrush.com/home/",
@@ -47714,7 +47714,7 @@
   },
   {
     "meta": {
-      "id": "semrush-1272",
+      "id": "semrush-1720",
       "name": "Semrush.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://www.semrush.com/home/",
@@ -48275,7 +48275,7 @@
   },
   {
     "meta": {
-      "id": "semrush-1041",
+      "id": "semrush-1750",
       "name": "Semrush.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://www.semrush.com/home/",
@@ -48836,7 +48836,7 @@
   },
   {
     "meta": {
-      "id": "sider-1784",
+      "id": "sider-1681",
       "name": "Sider.ai",
       "icon": "https://sider.ai/favicon.ico",
       "url": "https://sider.ai/chat",
@@ -49180,7 +49180,7 @@
   },
   {
     "meta": {
-      "id": "skillshare-1518",
+      "id": "skillshare-1561",
       "name": "Skillshare.com",
       "icon": "https://www.skillshare.com/favicon.ico",
       "url": "https://www.skillshare.com/en/home",
@@ -49641,7 +49641,7 @@
   },
   {
     "meta": {
-      "id": "slidesgo-1019",
+      "id": "slidesgo-1934",
       "name": "Slidesgo.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://slidesgo.com/profile/downloads",
@@ -49856,7 +49856,7 @@
   },
   {
     "meta": {
-      "id": "slidesgo-1343",
+      "id": "slidesgo-1059",
       "name": "Slidesgo.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://slidesgo.com/profile/downloads",
@@ -50082,7 +50082,7 @@
   },
   {
     "meta": {
-      "id": "slidesgo-1962",
+      "id": "slidesgo-1192",
       "name": "Slidesgo.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://slidesgo.com/profile/downloads",
@@ -50297,7 +50297,7 @@
   },
   {
     "meta": {
-      "id": "slidesgo-1228",
+      "id": "slidesgo-1473",
       "name": "Slidesgo.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://slidesgo.com/profile/downloads",
@@ -50512,7 +50512,7 @@
   },
   {
     "meta": {
-      "id": "slideshare-1246",
+      "id": "slideshare-1127",
       "name": "Slideshare.net",
       "icon": "https://www.slideshare.net/favicon.ico",
       "url": "https://www.slideshare.net/",
@@ -50748,7 +50748,7 @@
   },
   {
     "meta": {
-      "id": "gracely011-1305",
+      "id": "gracely011-1900",
       "name": "Sololearn.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://gracely011.github.io/hai/manual.html?name=Sololearn&login=sololearn@belajaar.id&password=WeAreGroupy2025!&url=https://www.sololearn.com/en/users/login",
@@ -50757,7 +50757,7 @@
     },
     "accounts": [
       {
-        "id": "gracely011-1305-Sololearn",
+        "id": "gracely011-1900-Sololearn",
         "name": "Sololearn",
         "cookies": []
       }
@@ -50765,747 +50765,7 @@
   },
   {
     "meta": {
-      "id": "sora-1959",
-      "name": "Sora.chatgpt.com",
-      "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
-      "url": "https://sora.chatgpt.com/explore",
-      "category": "utilities",
-      "isGroup": false
-    },
-    "cookies": [
-      {
-        "url": "https://chatgpt.com/",
-        "name": "__cf_bm",
-        "value": "2jtjE2W737bVyJcSWdFEUBKwRAxcx66h7ki6NIkywJo-1762674287-1.0.1.1-7cfdGat3jmgKHm.Wp3XwhZplsYLbmsaiifUgOcz4K7ibb7kQBlv5k1kIiAq1OGmQN8V5kGlTMPRlrjZhhGCyHjFGHtbsaVpHCBwNEewKNqU",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1762676088.279256,
-        "sameSite": "no_restriction",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "__Secure-next-auth.callback-url",
-        "value": "https%3A%2F%2Fchatgpt.com%2F",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765131662.078385,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "__Secure-next-auth.session-token",
-        "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..0TQcCFDj9wDOgKyL.8ynlXGocKTrjo5Q_qTf4dMCEFrFfmCP68ZOJA6rhOuDv-UtsUNK0263rzW7H9aR3_wPXCNHtQ8lqxIi0kiscM_NQHoNGGAvigiHprtXzyNUBYaiDcsB8J5TuKnIbcfbELZuYheGhnG3MKWJ30o8HLy-Dwm6UcgRW3n4Vh9q3fBt-G8Qk7E8RS18N4d_WTE4ZdlFxxXhi2jSetfsUwfcKiuABdU1wXefRzYJthJSmQwEtU6nozaNUfxeLhMJXwH2AU2ND-lNitAfVxjf9wi5w1vY3P8TOE52QqHYceF2q9V5YPeg6hs9beVNEaz-3iCwybJ3jyay1I2Okk5Rh1ZvbjFT2f3BoTkztfMRG0uAfk2HAjLL7Zt9CpgbvswjMMEqnkwvkYJi9vPLvkpQG0nSIktBPlsucgeWBjLF5KBLxJW2zpaU0BA4b2DzUU8CAUWokmP-cY9I82_GXFtmZ5AXTQn24FBKCQdGTSVrb1knPU_NCJmmaTxKulPdOwFJUBIuADSqr5tV-i-4NDEP56vjR9Nj6p3YfO0L-oogG54cLLdbto8xCWxbb2-4pJQHzou3g-8TCPSyFqmFQkqxULLMDyOtY0hvljzU5pzbVeuxRacA2SQyXhFTlqC0rhAt8ISHkYCR1txsxxvkgX1WjuRg1BpQN6i7el1y_PsjwyRaWQ9ccTF_NwYh1H-Z-piXizv28ccSIrYoQ6nApZFx6lOirDtp404QcRIeKA-wnTJ4uGbBeXyAilsDvzaXxPmiX-U_frsup12HEjF7p0bjKYzYYkIExW65hpHHoUvZNvVkOk8XKOO93EbmXrWLpNo57p9yTcpD4bZLVxLx-0gGorw4u2b0ksHhlJKo_vpltsegZzAZx7qXE52M0H3Bp4ZnhXIci6FFR-lA2SI3lzEI8rmXFttxY-56JiRm6dLYNeIL7u-opFh41PnRgMMT0fM21Q_2GX99m9Q9w5ZDwjadRYIkQ1GFevEDQlHjI00KFiySIkWnmkZGvjcWJLaMjyRNKcZ4Z8O7WzZTKsfcxqwsq7wV702RHJ3aXXqrV7Bwh6g541P4YKmNTks8s0ddvwDVUe_u_KZzPPumng_c2kC_mEJSJ5h5fjUpE1E0fQPvDAhXln5Bax5MkQVGpaqHiimdeptOIQnImwra2bimo8vqDRcpK-GovmrwescbOa_tWjAqbT9UOq9aP_HaP6zVlssPbsq2god5XNZjrA8hY3iwZlAFoY5sJFuENi_JvuADWJI0ET9XzoPB66z-7lYXq2DOff4W1JqJcEGfrI8jqYym-qfqpCbEXR6p7MnGXVAIf0Ch_1MGW-ikmScQAZ78x14J-scvBKInZPuc3-nefipMPpBYowUJQ9rz8-1jmk8e2-aFDJMNpLoOYBGRvKG84jBHWgZJ1obDBIW4eefM7Kmj2sVFSsHnw9Qt8TT3Q3rUb0eQWmZSvc1lVmJy2afipUBhCmWmyasHMrzegKidPZX2oo7tqKu2yvBOXx62kye3gc6sk3yrM2Iwzb8qxLUmAQwhl4VndDYQCVl9_bBQ-IHYXBK10_VnqCM2w0J7SmDw4L1BQuVa89RaLcT7MOK3WnP4U3FgXsE4uSxkttfDzqdthqAgRghgfejSMhoA3sJ1U1iGdu_2Pn9kFFgd4iSCjiKnaXRsqMi28mjgbAjmqo8Jq8CWFfwOkLT9Krot9gaLIA1i6TSluG92Zwzqt75954icmVeT92TWu0XdDCvHvAU9Ck7yYgNsD8Mqmy0xcMaSuPDw41MOtHwizolr_L2oqipzcMNnCEXE9KnIfG9Tl1gKzJ1Wjj9jOgIkSJRTTpT91j5OgCLYfsMN-nvp9XT9XnFmKULnAuA_pXvjN6gbFK9nkP3xwaVspK7niNnQPEay1OeHXsnn-pXukRi7sGyDO-ZbaDOr9nOLl3d06brBOXzadOHBnVlr8FrhS9IgEzPrlmFeoXZOuyNPpv2NW95wn_0O3SZhINJlljZY5__3PUUdFr8WkFDIvMCAUFfQIRaZ0ZLpU8V2JLJNDUek8f0JbSdZxqaX_QbqAYTL9MBmKGJN9ezwCTl7WXvOhoX5l6j9mZt15kcmzZHhmvnkZciTN4RHhqsbFm4folO08g1IxwA7R4NuVk7DREKKQZDL9ZwUBsObg5_tESwRIEN4DF49RvJbc0FigPMq0XRJj2XK7i1LLoBuv705Jcz30Uyy0dApA8fhpetwQaRRXZ3SmnKMB8pkDMrOE58m4-VhqPB-l_NlSZUvhKPhj28IEdX4dDMHtza6BzKtw37Fvo-GX96UE9JYGpIJZrOCvq1knZ3QE1estvngVG4LaD-1On-JjRH3qfijkG45AYMammjfCGlpbFiWbPJdzUUExoevfVG-6-z7r1HYQIrm9rGBKguH8c34-zCrlRwgNQxuz3p-UO6NA_AoCEpYcPwKQ71em7jSIC-7Mj6JOKjS78zr63VFtoQAOc900rm9Bs0duINXC6PYnchpR_fSo0ekijySwgM6XF8S54CnLL9pCQLSVfkzuCHrTXV0rbd5yqhibN1ZGiYh-8h0spB6qyXhkZvOxdmqa3SLrx9fubMeSKWfJsI0sLil577Ua6NrR66Jx_oUM2ASdZ5kIqHCSO1SKc0E8haM83vfx4RpNLOxWhCSi3mp0QUy06t-Mx96KLlxqkk4sZikm9_6JlDQhsswyj-cPR8vX0xcaxWSnnNjxPwaV9DXltgoF4WD3TxTyd6paTy6NZGtrIQIHJ_25Tfz5t6OvHPX9JyoSjw_VShlwOyrBs_E70PFpMasmVYRWzJP_Su1BY7ZNk8RT3HMzthVjbWJ8xfpy4v7w60W6D48I-0Ee4yMp3ewy1NeH0MUUnIa5D_ltJUgiMLbliNd9nQOnXD6jX8cloFYwYSmicEtP_H1br_UWQEleSI8g8Hho_mCHVb-L1lH9Vgo-AQukwv333trAi4X3-njTpumti71pdCdqn7fUg1Nlls_lDbs8rq0r0iaacnqrffOV4_TZvs1OsnyMcaSSvI02JEfsKrDdy60FKGs5vCleYRm-aE6EMZIhhWOH4A_FqpDDQclLUgyog4ldXEvNlgdzJnb-NCvr7Sf4y8s8NRt_D3JXVEan59pOOQPqHt8eqil0PxBA31UAKaC4ItqHa7zWUo93AMtsfZSskYOck9bZ4w.ulclRxnVyIvr76Xox8ovzw",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1770450288.472974,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "_account",
-        "value": "personal",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765084826.579486,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "_account_residency_region",
-        "value": "no_constraint",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765025925.928367,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "_dd_s",
-        "value": "aid=e3f006fc-3b9e-4626-8ccc-727357f83de4&rum=0&expire=1762540556760&logs=1&id=6a815e6b-f2ec-4bea-9fbd-6f5ca5ba9cd6&created=1762539461018",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765131662.078395,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "_ga",
-        "value": "GA1.1.590247585.1762654352",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765246403.133406,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "_ga_9SHBSK2D9J",
-        "value": "GS2.1.s1762654352$o1$g1$t1762654391$j21$l0$h0",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765246403.133469,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "_puid",
-        "value": "user-8lkXFtnHeNY4XMtS8mbcTBam:1762539613-kkKj57sChuKM2G%2Fm9kCwNYkEFOaZ9Sdo6yszasBEGeU%3D",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765131662.07839,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "_uasid",
-        "value": "\"Z0FBQUFBQnBEamxxTm9TZm52YmZWNEZWZEFtWEowOS1uN0h4Zzl2WG9TYXlmTEQxTk9PMWRKQXVCMTUzOURZenB6OFB2VVBSQzlONVlWdnFzSFIySW9IdHB1UlJvaF9KMTRQX29nQ29uQUtuMUxPMkRvZEFKQVJra3cxVHRyQlRQem1VVWpWeFZmSUcxczRaQUpFSmZvVU5jbUp3dGRZZnNxalV3cGFTeS1UelgySHJxa2dWaE1qRmxrUm5iQ1p5ZGg2eFcyMjVScXpueGFvM3c3RnJ0MVVJRVU5YWJHdUh4UjdVcUNrNmtyMUdsQW1XVEdEWE1vNTJpMERKRXgtS0g3TUMySHVzZEs5YkZjZnp6dmpmeGcwRGVkUmk1cVBhMFpnLVowd2tha3AwT0VMc3l1WHdkOEQxR1RTVWtxR19XdDVlNkpZOS1IeW5OdVExNWkwTDNyal9Gb1NtcGRUbF9nPT0=\"",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765131837.611826,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "_umsid",
-        "value": "\"Z0FBQUFBQnBEamxxVUpCNEJySXZfSURjUTJSZlZYVE5xN0lKd193STFTa0EybFN4SDhybkk5ZTE4X0pPZEU0LXpLQ0JSY3loNlBUN2tPVzNLQzRnSEhlR241aTVuRk9TblgweWxGUmVaMnJla0d0bzFZX1plUjdfbkpLeS1ZVkZKQk9qbUxiM1JQdjlodlViTktPOWJ3cHZSS1BlZFd6RGc2LU5Wd0g0b1pPWUMzN0tSLVE5NUJOS3VkRkRsQWp3eXBRWjdERHFHc2xaeG56ck5KYmJwSFFwYkZXTXFYdGFxNVJheV9hR1BMNW53WFJwSExqdzUtcz0=\"",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765131837.611827,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "cf_clearance",
-        "value": "IZoKt_AYCv808I5dBLbENGivdRohkh4b0DZMY2VbFMM-1762539523-1.2.1.1-Rm17_1H5KH9SZfQJXsZOcPl5JJRMeE8tEHiUsRYPxjj0s4U2dFvh6bnedgVo8D1erVySSz3feGvkfH1cPmQ2CmgKZCIfHP2r08zdnE8yv8OFfw4M5Y.LnyF2pkgXzGXN_kv_z8083dSIZf87ww.5PVHUz1NFpnSbdDVpaN6wFgCh9KxOfF91HQmaY4JB5ZNHNo5_uPUw1W4g..1bST2G1uIEh4kUvoCH9uiFPIAEuTc",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765131662.078385,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "conv_key",
-        "value": "\"VE6vGENUo478Osqwac3-W55Np2AoiunwKguMufWf84Q=\"",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765131837.611826,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "oai-allow-ne",
-        "value": "false",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765131662.078389,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "oai-client-auth-info",
-        "value": "%7B%22user%22%3A%7B%22name%22%3A%22Groupy%20Pro%22%2C%22email%22%3A%22cheetos%40killua.cloud%22%2C%22picture%22%3Anull%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1762539551444%7D%2C%22isOptedOut%22%3Afalse%7D",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765131662.078389,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "oai-did",
-        "value": "2217f975-f20e-401c-a5bc-90097b1eb3d2",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765131662.078383,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "oai-gn",
-        "value": "",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765131662.07839,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "oai-hlib",
-        "value": "true",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765131662.078387,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "oai-hm",
-        "value": "AGENDA_TODAY%20%7C%20ON_YOUR_MIND",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765131662.078391,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "oai-last-model-config",
-        "value": "%7B%22model%22%3A%22gpt-5-thinking%22%2C%22effort%22%3A%22extended%22%7D",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765131662.078393,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "oai-sc",
-        "value": "0gAAAAABpEEZvX15tpC-1hvuJTJqP1f4NLtrlQfeMnBjK0hBNO0saHI89jdX9pY1GRXltzdyc1oT68veZ7kLKCqbWaz8nHFP64QBQspSRNPpWGpcRmrg8GSGNNef7cQkjg_MPuNjVz2nGVdLPqqArL7Jv1QWjgWkN9fAw2GbGRSbIoXJt3GrP1pccfxEcda0kzfx2Mka3Bm8OJbQ8dx-7aPz3fgkShJ4MoylFZg0brNYbOmuWB7TBS1Q",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1794210289.14828,
-        "sameSite": "no_restriction",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "oai_consent_analytics",
-        "value": "false",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765131662.078388,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "oai_consent_marketing",
-        "value": "false",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765131662.078388,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "sign",
-        "value": "4d7a7847506c77555764694e43514338714f374468495132304b7a4a784249726670314c586570444f596f3d",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1765131662.078381,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://sora.chatgpt.com/",
-        "name": "__cf_bm",
-        "value": "wOXETtZjYixPO..DyQngzqcZP...WsLnBuKimqMP7vE-1762674286-1.0.1.1-UyiCn.oqvPpEKoelRIiIfyVOZUg.yY..lkjxpOmB7fl34Yw.oyTNTD.Z.np7GPFjYKCx6tM_yydn_Bxbnlo6IkV2.Hq6S23BT4LJZfAMy1o",
-        "domain": ".sora.chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1762676087.632418,
-        "sameSite": "no_restriction",
-        "storeId": "0"
-      },
-      {
-        "url": "https://sora.chatgpt.com/",
-        "name": "_cfuvid",
-        "value": "t.aqkfzvUd3r_6tTU9jNEHwvcMzkQRnoZNHd11F3JHg-1762674286555-0.0.1.1-604800000",
-        "domain": ".sora.chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "sameSite": "no_restriction",
-        "storeId": "0"
-      },
-      {
-        "url": "https://sora.chatgpt.com/",
-        "name": "__cflb",
-        "value": "0H28vBjUqcdJN5F5i82iriTLTdVMReMA8GYhchpKLgD",
-        "domain": "sora.chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1762676087.632445,
-        "sameSite": "no_restriction",
-        "storeId": "0"
-      },
-      {
-        "url": "https://sora.chatgpt.com/",
-        "name": "__Host-next-auth.csrf-token",
-        "value": "085feae4067cb48b1a2228455ecb7c25f2dcf508f277c111017e3bdd62828191%7Cf7cc05e7da906ab7677faff8c49b69c9024a493b758fd2d103bf26d55a3b004a",
-        "domain": "sora.chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765131662.078381,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://sora.chatgpt.com/",
-        "name": "__Secure-next-auth.callback-url",
-        "value": "https%3A%2F%2Fsora.com",
-        "domain": "sora.chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "http://sora.chatgpt.com/",
-        "name": "_dd_s",
-        "value": "rum=2&id=39484eae-82cb-4ecb-aacf-981d28ec29b0&created=1762674288479&expire=1762675188479",
-        "domain": "sora.chatgpt.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "expirationDate": 1762675191,
-        "sameSite": "strict",
-        "storeId": "0"
-      }
-    ]
-  },
-  {
-    "meta": {
-      "id": "sora-1200",
-      "name": "Sora.chatgpt.com",
-      "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
-      "url": "https://sora.chatgpt.com/explore",
-      "category": "utilities",
-      "isGroup": false
-    },
-    "cookies": [
-      {
-        "url": "https://chatgpt.com/",
-        "name": "__cf_bm",
-        "value": "hErl2YRsjfVlpIK_wGthUIzQFwBvilewTC4y6LwV_K8-1762674298-1.0.1.1-iiqm__83PTX4KiOSHIIPtecQs2ZISVPkT7hdad6N_EaKSsJwuvP3O4RizKGQulWmo4iYBLeiWmVtBXvD2v7U64f4ni4GOVUE9cEZqEMQfRA",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1762676099.088152,
-        "sameSite": "no_restriction",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "__Secure-next-auth.callback-url",
-        "value": "https%3A%2F%2Fchatgpt.com%2F",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765002160.808434,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "__Secure-next-auth.session-token",
-        "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..h6l5_Zs2sivLfSni.lRMSC5-lIaxIVsZd33VEfAX0zqKi4ilwTjgC5wjSMEAwUP4HMr2p3ujlpe3f2y461shiA-LYT1IQm03idl7TCI7TlzcrhGx4XxXti7IF7iWV6hNLiRVQ5h4fA3W9orTASNC35Empz09wE-YeeSlP6nHEMxtUoAs9MsPqL4i07SEDzzMcnh7_5AQFM-D_Dyp_VwW6Ux3EWhNepCN8RMuVyMdCVjNe5wVlSIujEuKc-qL2ESNtxALeDVsAokjoGd9jcuKJQ4EaKn70qDAuK1WMe8NteotitnN3VEMf4PZzRybwNhFcZk3PemDuUGEZ2pLNz1DX_Xbk-wLEmsfCXLev2keMiu6SOi1Ro0BCXEifGX5SpcCjvND2ciLEGOnuhwaVFHWzPZ9zaR9wsYePW9tYk2SG82HswLDN5uawgw8kMIOJ-07wl6f5uOcpEFNG587YXzJcAJKeYpusoii8_8NSTgEtR_i1sk8FN51mdgi-dq-AfL_eTNdOSxwk87gpEqFL0nd8f2ZKhyxB9cGbQr3okH0Dzo4UIpkbpWDEScbMLg8IM3fKETCqg7NfyGwA3nGdCNjLP6NXnyKv7vSRZDcgqBymG9n781t4v_kmmpcS6YmWzHG1j6VBmr3M5bbAzr5gu9QHi3oF5zXwWxyAWCuWvTLkzEIAViSrXFud3jk7-ohIyIhcJ7AHyzC5f0B7OWfBR5pc2qEda8XSUzJfCLdfjd8RZ9gNbCCtHqhGzrJofcNWKTGzP_BrsKm822NMGkaZTixUnlH4-XPQWdBz_OsPlRHKGehTQMuoFMt3FGibGh-TJRz4y9M_99nTr0-4dmDxMgYLNci5cbMlsWhjyUAr0eMhnzrXKyw-3pzkd1BWmxZaAUCTWRq9vr6KKetHfj0mns1r8QyIEevJf3fYxUw24SmrP-RQGe-2Q0dUCm46RKxFy3WGv2I4nW39AnRJKklageTa459FWQQVNS6rEQp7B9TIyPflXQI6q4bl3SOyHrGprd9bm_Y5bU8IwoBtRrxxxqTQBl-mfd3nNaEvYQbV74laA_ZkE0NrPjjRsgeUktZiWCPt2FKSyr7hMruCrGEcUHlRELRkcwh8FSXc--IWjJoDxMvER0mcOjdZ2sXtHgpa-JW8Qm5YU5aJJNL_9htn9pKLtNWD83nKTwLahakXfiIxEoBVd_7AiOcEALVSbMihfo8eOrzr7aV7HK-rOHlv9bfeEBpwPX9dFBkq4leVcU2xI2tsQgVBxstoHuGs5P4J9dP_5y4g8gdzZOLwhSAcz7Yu3NzPPmNbB8E9JC2EHsNWI-PiRrmc07gPnvYbGVV5K95YfdnLWu5ONtMl_s8atwt-YQMsy4qT3C1IDgeczhlyaLBhK6wFlUn6X7uxx1LjhRlMAnQAcL98Ec0CDaaeFudaynH3eyi7CHFg2VDkVMrJLKRp4769U9VOYdwK9aq1NTnwvOFW494rLtxTQJpGflatOwaBwhaG01zv_FuZnUqfoLjf2tFJ0sOiCvJUs-BOHky6tTyRlSF4MisLyiDVQtDDPWVfFSMDGjwrnVjR7EVF6VVhVJuNhkqA0UQ20VnE-vaH003lbMY4zF1mpTD_MvS0f9aTUlqNvNgOjGodRh9QhIVek84TMNjnOOfqVpkMAPWb66bpKdzE32fLCoeIE6ij-bu3Pu9IPFkbKkfkNb4n8rNhd_Rbnt0ZXWLpjAN00KZ2Jr6EtMcDfTQLUb_4AkPwEhkxRJdei-ydiKso9eEg-JOZWdFK-5FMWxtDKh4SzeVPu2LMZwIVKUZfss8zrd9GpUVF1QwQTV3be3XdEtQKRh2MRDGvw8KRTe7E49bLYx9L2pLDvBjCYHhS9NlVuHXsub8mM4Py983mKw_4MEUKnnGeyXdId09Z054Q3SKKBNyiXbhA1sM7mHaP5A4IOuBri9Wa-9mTT8DYHF0Fs8WIcDIVYCRtMFuZwRrr11QIHqDACG1Tt_ZKKPg7fJ1X_AdvbZzm3fXnZ6OC1E5jNBLs1nsTiVh-X_6W7KtYvxALMBNqjZ00N7qRHteDtmz_I9GM3ZnOjYGh88_S2o9IcVfPr9awke5RKDA3Uv5XWK5vBT0zRl1s5VHIlybwKsbKEEv2lE6c3RCLS4X_o9vUIggDHg2Lad1cxblwfBjcYVB5D4Spyiw61kdQd86glk5bAQkyqmYVb_rhAtStX5gIU4xK6D2veTZ_D4asMMV7sp8uVz77leSGFlFUPuhrPgzf5_7G-4qlTNoMSwIRY8wn37tyiINsWVgGdlU3UPdxQOv_juUM549FH4exCK8-HC0HcA-rNiiZgbZiMueTWoBgehq-DlCnk_HhNmZFquDA-y8G_2Rpos_XI74u_6iMOf8GuIb9kXb52APH0EeHFzQli5U1MRdOXoEFnBHGbVXG7OSog2rNIECMRNneqtky-j-6VI_IV4brYbqbValFBViUBupbGjVbUvXLIIQknOWMF74QggQ6e8pdUVKVok0sbmCwreodrrS4VryZFQxvZak8GnlVM-p8m_BIT_ONVHpeQYl61_6x43fRi018WxP4SiDLePDYZ6K0dx3qyO6chT4HeLtLbROHvDrRmm02M1Fwe7YBN6Y28JcOoDgW-VcBWlJm7METNAoP875vBfFNTxF3iU5NzIlRpmnA9-iQSf0GLBKQb3l43zEzmBPNnB4CUHcoSRetkAirm28GIKfRr0QnKUGN3JJCZEmN8fIYHm3XrKPyCjjlk9lbqulyxHSn3pXgWWy89CbG-MeQYKSW43PRd_c0Dj-hNDGpjOrZI9EN5JfhtOcbChLou0qhSFYgoBe69QgPfJQ9-whT4WvWVeeU1dJWSlJ_4hybES0FkvHV3gSB6L5z6TnyXYXQFFNvlqer6MCZUCSjKBnqYe41KoVB_TeyMB3uNkM-kjzJiZvHLFy4LCY5q6jQ7OAi69Nqx5PVCy6XMudj_vj2x1p2oieY28i9WBNtZmnlQUbRi9gWrNC-cj1sGcKdUEnwWN86gRvwrOpiQo6eqkky1NIXBZ4ileGCa2lmrfquU9IwsokwhWiV1z-IY2Ylkuq9HCUL2N1cubReigZchvg_m-A020K1vhGuurhR74AXYkeSNym5ZTSwogXf7TQtaO4HMlt4WXOjKaDytlQ0kDSkYKnZTCZ6QoBManzIpA.NZ69lrxFMwXdLwh6qxQEIw",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1770450299.287961,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "_account",
-        "value": "personal",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765084826.579486,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "_account_residency_region",
-        "value": "no_constraint",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765025925.928367,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "_dd_s",
-        "value": "aid=5814ee91-a344-4bc8-8dc7-0d87921f3b2a&rum=0&expire=1762411055336&logs=1&id=3b6a6902-4b25-4c26-b36d-ff68a6b05572&created=1762409450897",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765002160.808442,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "_ga",
-        "value": "GA1.1.590247585.1762654352",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765246403.133406,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "_ga_9SHBSK2D9J",
-        "value": "GS2.1.s1762654352$o1$g1$t1762654391$j21$l0$h0",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765246403.133469,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "_puid",
-        "value": "user-AT8TrFeocuJKMetCJCpi2d17:1762409957-PKm0JGc3IB%2BD28oadooNkjGcsXVmJnh7Qu476R2pHXA%3D",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765002160.808436,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "_uasid",
-        "value": "\"Z0FBQUFBQnBEamxxTm9TZm52YmZWNEZWZEFtWEowOS1uN0h4Zzl2WG9TYXlmTEQxTk9PMWRKQXVCMTUzOURZenB6OFB2VVBSQzlONVlWdnFzSFIySW9IdHB1UlJvaF9KMTRQX29nQ29uQUtuMUxPMkRvZEFKQVJra3cxVHRyQlRQem1VVWpWeFZmSUcxczRaQUpFSmZvVU5jbUp3dGRZZnNxalV3cGFTeS1UelgySHJxa2dWaE1qRmxrUm5iQ1p5ZGg2eFcyMjVScXpueGFvM3c3RnJ0MVVJRVU5YWJHdUh4UjdVcUNrNmtyMUdsQW1XVEdEWE1vNTJpMERKRXgtS0g3TUMySHVzZEs5YkZjZnp6dmpmeGcwRGVkUmk1cVBhMFpnLVowd2tha3AwT0VMc3l1WHdkOEQxR1RTVWtxR19XdDVlNkpZOS1IeW5OdVExNWkwTDNyal9Gb1NtcGRUbF9nPT0=\"",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765131837.611826,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "_umsid",
-        "value": "\"Z0FBQUFBQnBEamxxVUpCNEJySXZfSURjUTJSZlZYVE5xN0lKd193STFTa0EybFN4SDhybkk5ZTE4X0pPZEU0LXpLQ0JSY3loNlBUN2tPVzNLQzRnSEhlR241aTVuRk9TblgweWxGUmVaMnJla0d0bzFZX1plUjdfbkpLeS1ZVkZKQk9qbUxiM1JQdjlodlViTktPOWJ3cHZSS1BlZFd6RGc2LU5Wd0g0b1pPWUMzN0tSLVE5NUJOS3VkRkRsQWp3eXBRWjdERHFHc2xaeG56ck5KYmJwSFFwYkZXTXFYdGFxNVJheV9hR1BMNW53WFJwSExqdzUtcz0=\"",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765131837.611827,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "cf_clearance",
-        "value": "ntzbpJ4DO2tGL5irB4rIduKl7FxIIAGqCFPzGzDS9yg-1762409509-1.2.1.1-nvSTBDOboVPxMy9EC.jLbewzPPGT8RQs.Qy5zUxMhJActMe9fXih6SVj_67nYm7h0a7pk.tSvWcJyPME36poOjv_3TM4JRxFx8vOGotLnxtA5m4gV3fTyEmbhOzYKNaON4adPqvBNS2gwYvyCfnSenVtoOpIJRnSvYk0gclwhtqwBNCRdvwggkMctJfVwGeYBZfakh8DNh2HLtKd6DAzJeu1jFdLAgvptJ.9E5UJtcg",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765002160.808433,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "conv_key",
-        "value": "\"VE6vGENUo478Osqwac3-W55Np2AoiunwKguMufWf84Q=\"",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765131837.611826,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "oai-allow-ne",
-        "value": "false",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765002160.808437,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "oai-client-auth-info",
-        "value": "%7B%22user%22%3A%7B%22name%22%3A%22champbell%22%2C%22email%22%3A%22giajwc%40rifkiidr.id%22%2C%22picture%22%3A%22https%3A%2F%2Fs.gravatar.com%2Favatar%2F7c835eae4a091372dd127a73c611ef08%3Fs%3D480%26r%3Dpg%26d%3Dhttps%253A%252F%252Fcdn.auth0.com%252Favatars%252Fgi.png%22%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1762409899360%7D%2C%22isOptedOut%22%3Afalse%7D",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765002160.808437,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "oai-did",
-        "value": "7abfedef-db5a-45ff-bc82-b23afd7aedfa",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765002160.808431,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "oai-gn",
-        "value": "devan",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765002160.808439,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "oai-hlib",
-        "value": "true",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765002160.808435,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "oai-hm",
-        "value": "READY_WHEN_YOU_ARE%20%7C%20READY_WHEN_YOU_ARE",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765002160.808439,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "oai-last-model-config",
-        "value": "%7B%22model%22%3A%22gpt-5%22%7D",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765002160.808442,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "oai-sc",
-        "value": "0gAAAAABpEEZ6JolNNjnhSfla6P_mT1GTPSPp1ioyetwt-nZSRm5vogWgzkEGPyBy-ePd4oThsoFUybc17Le4bCIjUzmgJIpAlYHGW-ePC51ugeYjPGZwEHxWenIxOnXZnt3lawzhy_wCFWYDLJQfJJX0waiVl_WEtoszbqPC1sKvxF1ZJupNTo5XYGh5u71G90CRd_zeU-kWilfa78mChIOnJzy1muV1UVCGKv9QvwTZJtWNib3wH_Q",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1794210299.969306,
-        "sameSite": "no_restriction",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "oai_consent_analytics",
-        "value": "false",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765002160.808436,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "oai_consent_marketing",
-        "value": "false",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765002160.808437,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "name": "sign",
-        "value": "4d7a7847506c77555764694e43514338714f3744684c43756c72587770314a72426f5441514c386d3147343d",
-        "domain": ".chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "expirationDate": 1765002160.808429,
-        "sameSite": "unspecified",
-        "storeId": "0"
-      },
-      {
-        "url": "https://sora.chatgpt.com/",
-        "name": "__cf_bm",
-        "value": "f_S3WhXyurKHSHu6nCyRe9MByyEseSorvrjy.ttsVJU-1762674297-1.0.1.1-JVq2VCGF5FdEzA6e7buiLiWub4rMx9WytNNNpWVuUB84prVDMllO0iTKQIyN9lAkCijytBzH7NacrMpWHRlWeDwMrgmoPTi9bCrawdsvpH0",
-        "domain": ".sora.chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1762676098.454872,
-        "sameSite": "no_restriction",
-        "storeId": "0"
-      },
-      {
-        "url": "https://sora.chatgpt.com/",
-        "name": "_cfuvid",
-        "value": "Gpm1d8oLFy3eqiviszOsR0boi_4cIhW.hqL181QIZeg-1762674297375-0.0.1.1-604800000",
-        "domain": ".sora.chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "sameSite": "no_restriction",
-        "storeId": "0"
-      },
-      {
-        "url": "https://sora.chatgpt.com/",
-        "name": "__cflb",
-        "value": "0H28vBjUqcdJN5F5i82iriTLTdVMReM9nhYCU8VS7Xb",
-        "domain": "sora.chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1762676098.454895,
-        "sameSite": "no_restriction",
-        "storeId": "0"
-      },
-      {
-        "url": "https://sora.chatgpt.com/",
-        "name": "__Host-next-auth.csrf-token",
-        "value": "bf38cb804b67a9f39a4d317f8e34cd1eb15eea6a431c5024542c5cd036889f29%7C3022266e3aa4192b52346d78101aa3800af018daae6a45d6acd87e79b018a05e",
-        "domain": "sora.chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "expirationDate": 1765002160.808429,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "https://sora.chatgpt.com/",
-        "name": "__Secure-next-auth.callback-url",
-        "value": "https%3A%2F%2Fsora.com",
-        "domain": "sora.chatgpt.com",
-        "path": "/",
-        "secure": true,
-        "httpOnly": true,
-        "sameSite": "lax",
-        "storeId": "0"
-      },
-      {
-        "url": "http://sora.chatgpt.com/",
-        "name": "_dd_s",
-        "value": "rum=2&id=36471164-d67b-4b7e-a808-eb43ef49b728&created=1762674299293&expire=1762675199293",
-        "domain": "sora.chatgpt.com",
-        "path": "/",
-        "secure": false,
-        "httpOnly": false,
-        "expirationDate": 1762675201,
-        "sameSite": "strict",
-        "storeId": "0"
-      }
-    ]
-  },
-  {
-    "meta": {
-      "id": "sora-1263",
+      "id": "sora-1986",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -51875,7 +51135,7 @@
   },
   {
     "meta": {
-      "id": "sora-1543",
+      "id": "sora-1480",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -52245,7 +51505,7 @@
   },
   {
     "meta": {
-      "id": "sora-1341",
+      "id": "sora-1452",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -52615,7 +51875,7 @@
   },
   {
     "meta": {
-      "id": "sora-1325",
+      "id": "sora-1068",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -52985,7 +52245,7 @@
   },
   {
     "meta": {
-      "id": "sora-1647",
+      "id": "sora-1712",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -53355,7 +52615,7 @@
   },
   {
     "meta": {
-      "id": "sora-1817",
+      "id": "sora-1425",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -53725,7 +52985,7 @@
   },
   {
     "meta": {
-      "id": "sora-1257",
+      "id": "sora-1428",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -54095,7 +53355,7 @@
   },
   {
     "meta": {
-      "id": "sora-1552",
+      "id": "sora-1182",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -54465,7 +53725,7 @@
   },
   {
     "meta": {
-      "id": "sora-1254",
+      "id": "sora-1310",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -54835,7 +54095,7 @@
   },
   {
     "meta": {
-      "id": "sora-1804",
+      "id": "sora-1022",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -55205,7 +54465,7 @@
   },
   {
     "meta": {
-      "id": "sora-1728",
+      "id": "sora-1242",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -55575,7 +54835,377 @@
   },
   {
     "meta": {
-      "id": "sora-1716",
+      "id": "sora-1876",
+      "name": "Sora.chatgpt.com",
+      "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
+      "url": "https://sora.chatgpt.com/explore",
+      "category": "utilities",
+      "isGroup": false
+    },
+    "cookies": [
+      {
+        "url": "https://chatgpt.com/",
+        "name": "__cf_bm",
+        "value": "2jtjE2W737bVyJcSWdFEUBKwRAxcx66h7ki6NIkywJo-1762674287-1.0.1.1-7cfdGat3jmgKHm.Wp3XwhZplsYLbmsaiifUgOcz4K7ibb7kQBlv5k1kIiAq1OGmQN8V5kGlTMPRlrjZhhGCyHjFGHtbsaVpHCBwNEewKNqU",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1762676088.279256,
+        "sameSite": "no_restriction",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "__Secure-next-auth.callback-url",
+        "value": "https%3A%2F%2Fchatgpt.com%2F",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765131662.078385,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "__Secure-next-auth.session-token",
+        "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..0TQcCFDj9wDOgKyL.8ynlXGocKTrjo5Q_qTf4dMCEFrFfmCP68ZOJA6rhOuDv-UtsUNK0263rzW7H9aR3_wPXCNHtQ8lqxIi0kiscM_NQHoNGGAvigiHprtXzyNUBYaiDcsB8J5TuKnIbcfbELZuYheGhnG3MKWJ30o8HLy-Dwm6UcgRW3n4Vh9q3fBt-G8Qk7E8RS18N4d_WTE4ZdlFxxXhi2jSetfsUwfcKiuABdU1wXefRzYJthJSmQwEtU6nozaNUfxeLhMJXwH2AU2ND-lNitAfVxjf9wi5w1vY3P8TOE52QqHYceF2q9V5YPeg6hs9beVNEaz-3iCwybJ3jyay1I2Okk5Rh1ZvbjFT2f3BoTkztfMRG0uAfk2HAjLL7Zt9CpgbvswjMMEqnkwvkYJi9vPLvkpQG0nSIktBPlsucgeWBjLF5KBLxJW2zpaU0BA4b2DzUU8CAUWokmP-cY9I82_GXFtmZ5AXTQn24FBKCQdGTSVrb1knPU_NCJmmaTxKulPdOwFJUBIuADSqr5tV-i-4NDEP56vjR9Nj6p3YfO0L-oogG54cLLdbto8xCWxbb2-4pJQHzou3g-8TCPSyFqmFQkqxULLMDyOtY0hvljzU5pzbVeuxRacA2SQyXhFTlqC0rhAt8ISHkYCR1txsxxvkgX1WjuRg1BpQN6i7el1y_PsjwyRaWQ9ccTF_NwYh1H-Z-piXizv28ccSIrYoQ6nApZFx6lOirDtp404QcRIeKA-wnTJ4uGbBeXyAilsDvzaXxPmiX-U_frsup12HEjF7p0bjKYzYYkIExW65hpHHoUvZNvVkOk8XKOO93EbmXrWLpNo57p9yTcpD4bZLVxLx-0gGorw4u2b0ksHhlJKo_vpltsegZzAZx7qXE52M0H3Bp4ZnhXIci6FFR-lA2SI3lzEI8rmXFttxY-56JiRm6dLYNeIL7u-opFh41PnRgMMT0fM21Q_2GX99m9Q9w5ZDwjadRYIkQ1GFevEDQlHjI00KFiySIkWnmkZGvjcWJLaMjyRNKcZ4Z8O7WzZTKsfcxqwsq7wV702RHJ3aXXqrV7Bwh6g541P4YKmNTks8s0ddvwDVUe_u_KZzPPumng_c2kC_mEJSJ5h5fjUpE1E0fQPvDAhXln5Bax5MkQVGpaqHiimdeptOIQnImwra2bimo8vqDRcpK-GovmrwescbOa_tWjAqbT9UOq9aP_HaP6zVlssPbsq2god5XNZjrA8hY3iwZlAFoY5sJFuENi_JvuADWJI0ET9XzoPB66z-7lYXq2DOff4W1JqJcEGfrI8jqYym-qfqpCbEXR6p7MnGXVAIf0Ch_1MGW-ikmScQAZ78x14J-scvBKInZPuc3-nefipMPpBYowUJQ9rz8-1jmk8e2-aFDJMNpLoOYBGRvKG84jBHWgZJ1obDBIW4eefM7Kmj2sVFSsHnw9Qt8TT3Q3rUb0eQWmZSvc1lVmJy2afipUBhCmWmyasHMrzegKidPZX2oo7tqKu2yvBOXx62kye3gc6sk3yrM2Iwzb8qxLUmAQwhl4VndDYQCVl9_bBQ-IHYXBK10_VnqCM2w0J7SmDw4L1BQuVa89RaLcT7MOK3WnP4U3FgXsE4uSxkttfDzqdthqAgRghgfejSMhoA3sJ1U1iGdu_2Pn9kFFgd4iSCjiKnaXRsqMi28mjgbAjmqo8Jq8CWFfwOkLT9Krot9gaLIA1i6TSluG92Zwzqt75954icmVeT92TWu0XdDCvHvAU9Ck7yYgNsD8Mqmy0xcMaSuPDw41MOtHwizolr_L2oqipzcMNnCEXE9KnIfG9Tl1gKzJ1Wjj9jOgIkSJRTTpT91j5OgCLYfsMN-nvp9XT9XnFmKULnAuA_pXvjN6gbFK9nkP3xwaVspK7niNnQPEay1OeHXsnn-pXukRi7sGyDO-ZbaDOr9nOLl3d06brBOXzadOHBnVlr8FrhS9IgEzPrlmFeoXZOuyNPpv2NW95wn_0O3SZhINJlljZY5__3PUUdFr8WkFDIvMCAUFfQIRaZ0ZLpU8V2JLJNDUek8f0JbSdZxqaX_QbqAYTL9MBmKGJN9ezwCTl7WXvOhoX5l6j9mZt15kcmzZHhmvnkZciTN4RHhqsbFm4folO08g1IxwA7R4NuVk7DREKKQZDL9ZwUBsObg5_tESwRIEN4DF49RvJbc0FigPMq0XRJj2XK7i1LLoBuv705Jcz30Uyy0dApA8fhpetwQaRRXZ3SmnKMB8pkDMrOE58m4-VhqPB-l_NlSZUvhKPhj28IEdX4dDMHtza6BzKtw37Fvo-GX96UE9JYGpIJZrOCvq1knZ3QE1estvngVG4LaD-1On-JjRH3qfijkG45AYMammjfCGlpbFiWbPJdzUUExoevfVG-6-z7r1HYQIrm9rGBKguH8c34-zCrlRwgNQxuz3p-UO6NA_AoCEpYcPwKQ71em7jSIC-7Mj6JOKjS78zr63VFtoQAOc900rm9Bs0duINXC6PYnchpR_fSo0ekijySwgM6XF8S54CnLL9pCQLSVfkzuCHrTXV0rbd5yqhibN1ZGiYh-8h0spB6qyXhkZvOxdmqa3SLrx9fubMeSKWfJsI0sLil577Ua6NrR66Jx_oUM2ASdZ5kIqHCSO1SKc0E8haM83vfx4RpNLOxWhCSi3mp0QUy06t-Mx96KLlxqkk4sZikm9_6JlDQhsswyj-cPR8vX0xcaxWSnnNjxPwaV9DXltgoF4WD3TxTyd6paTy6NZGtrIQIHJ_25Tfz5t6OvHPX9JyoSjw_VShlwOyrBs_E70PFpMasmVYRWzJP_Su1BY7ZNk8RT3HMzthVjbWJ8xfpy4v7w60W6D48I-0Ee4yMp3ewy1NeH0MUUnIa5D_ltJUgiMLbliNd9nQOnXD6jX8cloFYwYSmicEtP_H1br_UWQEleSI8g8Hho_mCHVb-L1lH9Vgo-AQukwv333trAi4X3-njTpumti71pdCdqn7fUg1Nlls_lDbs8rq0r0iaacnqrffOV4_TZvs1OsnyMcaSSvI02JEfsKrDdy60FKGs5vCleYRm-aE6EMZIhhWOH4A_FqpDDQclLUgyog4ldXEvNlgdzJnb-NCvr7Sf4y8s8NRt_D3JXVEan59pOOQPqHt8eqil0PxBA31UAKaC4ItqHa7zWUo93AMtsfZSskYOck9bZ4w.ulclRxnVyIvr76Xox8ovzw",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1770450288.472974,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "_account",
+        "value": "personal",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765084826.579486,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "_account_residency_region",
+        "value": "no_constraint",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765025925.928367,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "_dd_s",
+        "value": "aid=e3f006fc-3b9e-4626-8ccc-727357f83de4&rum=0&expire=1762540556760&logs=1&id=6a815e6b-f2ec-4bea-9fbd-6f5ca5ba9cd6&created=1762539461018",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765131662.078395,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "_ga",
+        "value": "GA1.1.590247585.1762654352",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765246403.133406,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "_ga_9SHBSK2D9J",
+        "value": "GS2.1.s1762654352$o1$g1$t1762654391$j21$l0$h0",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765246403.133469,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "_puid",
+        "value": "user-8lkXFtnHeNY4XMtS8mbcTBam:1762539613-kkKj57sChuKM2G%2Fm9kCwNYkEFOaZ9Sdo6yszasBEGeU%3D",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765131662.07839,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "_uasid",
+        "value": "\"Z0FBQUFBQnBEamxxTm9TZm52YmZWNEZWZEFtWEowOS1uN0h4Zzl2WG9TYXlmTEQxTk9PMWRKQXVCMTUzOURZenB6OFB2VVBSQzlONVlWdnFzSFIySW9IdHB1UlJvaF9KMTRQX29nQ29uQUtuMUxPMkRvZEFKQVJra3cxVHRyQlRQem1VVWpWeFZmSUcxczRaQUpFSmZvVU5jbUp3dGRZZnNxalV3cGFTeS1UelgySHJxa2dWaE1qRmxrUm5iQ1p5ZGg2eFcyMjVScXpueGFvM3c3RnJ0MVVJRVU5YWJHdUh4UjdVcUNrNmtyMUdsQW1XVEdEWE1vNTJpMERKRXgtS0g3TUMySHVzZEs5YkZjZnp6dmpmeGcwRGVkUmk1cVBhMFpnLVowd2tha3AwT0VMc3l1WHdkOEQxR1RTVWtxR19XdDVlNkpZOS1IeW5OdVExNWkwTDNyal9Gb1NtcGRUbF9nPT0=\"",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765131837.611826,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "_umsid",
+        "value": "\"Z0FBQUFBQnBEamxxVUpCNEJySXZfSURjUTJSZlZYVE5xN0lKd193STFTa0EybFN4SDhybkk5ZTE4X0pPZEU0LXpLQ0JSY3loNlBUN2tPVzNLQzRnSEhlR241aTVuRk9TblgweWxGUmVaMnJla0d0bzFZX1plUjdfbkpLeS1ZVkZKQk9qbUxiM1JQdjlodlViTktPOWJ3cHZSS1BlZFd6RGc2LU5Wd0g0b1pPWUMzN0tSLVE5NUJOS3VkRkRsQWp3eXBRWjdERHFHc2xaeG56ck5KYmJwSFFwYkZXTXFYdGFxNVJheV9hR1BMNW53WFJwSExqdzUtcz0=\"",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765131837.611827,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "cf_clearance",
+        "value": "IZoKt_AYCv808I5dBLbENGivdRohkh4b0DZMY2VbFMM-1762539523-1.2.1.1-Rm17_1H5KH9SZfQJXsZOcPl5JJRMeE8tEHiUsRYPxjj0s4U2dFvh6bnedgVo8D1erVySSz3feGvkfH1cPmQ2CmgKZCIfHP2r08zdnE8yv8OFfw4M5Y.LnyF2pkgXzGXN_kv_z8083dSIZf87ww.5PVHUz1NFpnSbdDVpaN6wFgCh9KxOfF91HQmaY4JB5ZNHNo5_uPUw1W4g..1bST2G1uIEh4kUvoCH9uiFPIAEuTc",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765131662.078385,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "conv_key",
+        "value": "\"VE6vGENUo478Osqwac3-W55Np2AoiunwKguMufWf84Q=\"",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765131837.611826,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "oai-allow-ne",
+        "value": "false",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765131662.078389,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "oai-client-auth-info",
+        "value": "%7B%22user%22%3A%7B%22name%22%3A%22Groupy%20Pro%22%2C%22email%22%3A%22cheetos%40killua.cloud%22%2C%22picture%22%3Anull%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1762539551444%7D%2C%22isOptedOut%22%3Afalse%7D",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765131662.078389,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "oai-did",
+        "value": "2217f975-f20e-401c-a5bc-90097b1eb3d2",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765131662.078383,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "oai-gn",
+        "value": "",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765131662.07839,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "oai-hlib",
+        "value": "true",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765131662.078387,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "oai-hm",
+        "value": "AGENDA_TODAY%20%7C%20ON_YOUR_MIND",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765131662.078391,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "oai-last-model-config",
+        "value": "%7B%22model%22%3A%22gpt-5-thinking%22%2C%22effort%22%3A%22extended%22%7D",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765131662.078393,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "oai-sc",
+        "value": "0gAAAAABpEEZvX15tpC-1hvuJTJqP1f4NLtrlQfeMnBjK0hBNO0saHI89jdX9pY1GRXltzdyc1oT68veZ7kLKCqbWaz8nHFP64QBQspSRNPpWGpcRmrg8GSGNNef7cQkjg_MPuNjVz2nGVdLPqqArL7Jv1QWjgWkN9fAw2GbGRSbIoXJt3GrP1pccfxEcda0kzfx2Mka3Bm8OJbQ8dx-7aPz3fgkShJ4MoylFZg0brNYbOmuWB7TBS1Q",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1794210289.14828,
+        "sameSite": "no_restriction",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "oai_consent_analytics",
+        "value": "false",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765131662.078388,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "oai_consent_marketing",
+        "value": "false",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765131662.078388,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "sign",
+        "value": "4d7a7847506c77555764694e43514338714f374468495132304b7a4a784249726670314c586570444f596f3d",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1765131662.078381,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://sora.chatgpt.com/",
+        "name": "__cf_bm",
+        "value": "wOXETtZjYixPO..DyQngzqcZP...WsLnBuKimqMP7vE-1762674286-1.0.1.1-UyiCn.oqvPpEKoelRIiIfyVOZUg.yY..lkjxpOmB7fl34Yw.oyTNTD.Z.np7GPFjYKCx6tM_yydn_Bxbnlo6IkV2.Hq6S23BT4LJZfAMy1o",
+        "domain": ".sora.chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1762676087.632418,
+        "sameSite": "no_restriction",
+        "storeId": "0"
+      },
+      {
+        "url": "https://sora.chatgpt.com/",
+        "name": "_cfuvid",
+        "value": "t.aqkfzvUd3r_6tTU9jNEHwvcMzkQRnoZNHd11F3JHg-1762674286555-0.0.1.1-604800000",
+        "domain": ".sora.chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "no_restriction",
+        "storeId": "0"
+      },
+      {
+        "url": "https://sora.chatgpt.com/",
+        "name": "__cflb",
+        "value": "0H28vBjUqcdJN5F5i82iriTLTdVMReMA8GYhchpKLgD",
+        "domain": "sora.chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1762676087.632445,
+        "sameSite": "no_restriction",
+        "storeId": "0"
+      },
+      {
+        "url": "https://sora.chatgpt.com/",
+        "name": "__Host-next-auth.csrf-token",
+        "value": "085feae4067cb48b1a2228455ecb7c25f2dcf508f277c111017e3bdd62828191%7Cf7cc05e7da906ab7677faff8c49b69c9024a493b758fd2d103bf26d55a3b004a",
+        "domain": "sora.chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765131662.078381,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://sora.chatgpt.com/",
+        "name": "__Secure-next-auth.callback-url",
+        "value": "https%3A%2F%2Fsora.com",
+        "domain": "sora.chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "http://sora.chatgpt.com/",
+        "name": "_dd_s",
+        "value": "rum=2&id=39484eae-82cb-4ecb-aacf-981d28ec29b0&created=1762674288479&expire=1762675188479",
+        "domain": "sora.chatgpt.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "expirationDate": 1762675191,
+        "sameSite": "strict",
+        "storeId": "0"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "id": "sora-1301",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -55945,7 +55575,7 @@
   },
   {
     "meta": {
-      "id": "sora-1199",
+      "id": "sora-1637",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -56315,7 +55945,7 @@
   },
   {
     "meta": {
-      "id": "sora-1702",
+      "id": "sora-1766",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -56685,7 +56315,7 @@
   },
   {
     "meta": {
-      "id": "sora-1509",
+      "id": "sora-1345",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -57055,7 +56685,7 @@
   },
   {
     "meta": {
-      "id": "sora-1433",
+      "id": "sora-1251",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -57425,7 +57055,7 @@
   },
   {
     "meta": {
-      "id": "sora-1373",
+      "id": "sora-1144",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -57795,7 +57425,7 @@
   },
   {
     "meta": {
-      "id": "sora-1608",
+      "id": "sora-1798",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -58165,7 +57795,7 @@
   },
   {
     "meta": {
-      "id": "sora-1899",
+      "id": "sora-1378",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -58535,7 +58165,7 @@
   },
   {
     "meta": {
-      "id": "sora-1059",
+      "id": "sora-1881",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -58905,7 +58535,7 @@
   },
   {
     "meta": {
-      "id": "sora-1951",
+      "id": "sora-1653",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -59299,7 +58929,377 @@
   },
   {
     "meta": {
-      "id": "sora-1574",
+      "id": "sora-1274",
+      "name": "Sora.chatgpt.com",
+      "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
+      "url": "https://sora.chatgpt.com/explore",
+      "category": "utilities",
+      "isGroup": false
+    },
+    "cookies": [
+      {
+        "url": "https://chatgpt.com/",
+        "name": "__cf_bm",
+        "value": "hErl2YRsjfVlpIK_wGthUIzQFwBvilewTC4y6LwV_K8-1762674298-1.0.1.1-iiqm__83PTX4KiOSHIIPtecQs2ZISVPkT7hdad6N_EaKSsJwuvP3O4RizKGQulWmo4iYBLeiWmVtBXvD2v7U64f4ni4GOVUE9cEZqEMQfRA",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1762676099.088152,
+        "sameSite": "no_restriction",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "__Secure-next-auth.callback-url",
+        "value": "https%3A%2F%2Fchatgpt.com%2F",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765002160.808434,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "__Secure-next-auth.session-token",
+        "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..h6l5_Zs2sivLfSni.lRMSC5-lIaxIVsZd33VEfAX0zqKi4ilwTjgC5wjSMEAwUP4HMr2p3ujlpe3f2y461shiA-LYT1IQm03idl7TCI7TlzcrhGx4XxXti7IF7iWV6hNLiRVQ5h4fA3W9orTASNC35Empz09wE-YeeSlP6nHEMxtUoAs9MsPqL4i07SEDzzMcnh7_5AQFM-D_Dyp_VwW6Ux3EWhNepCN8RMuVyMdCVjNe5wVlSIujEuKc-qL2ESNtxALeDVsAokjoGd9jcuKJQ4EaKn70qDAuK1WMe8NteotitnN3VEMf4PZzRybwNhFcZk3PemDuUGEZ2pLNz1DX_Xbk-wLEmsfCXLev2keMiu6SOi1Ro0BCXEifGX5SpcCjvND2ciLEGOnuhwaVFHWzPZ9zaR9wsYePW9tYk2SG82HswLDN5uawgw8kMIOJ-07wl6f5uOcpEFNG587YXzJcAJKeYpusoii8_8NSTgEtR_i1sk8FN51mdgi-dq-AfL_eTNdOSxwk87gpEqFL0nd8f2ZKhyxB9cGbQr3okH0Dzo4UIpkbpWDEScbMLg8IM3fKETCqg7NfyGwA3nGdCNjLP6NXnyKv7vSRZDcgqBymG9n781t4v_kmmpcS6YmWzHG1j6VBmr3M5bbAzr5gu9QHi3oF5zXwWxyAWCuWvTLkzEIAViSrXFud3jk7-ohIyIhcJ7AHyzC5f0B7OWfBR5pc2qEda8XSUzJfCLdfjd8RZ9gNbCCtHqhGzrJofcNWKTGzP_BrsKm822NMGkaZTixUnlH4-XPQWdBz_OsPlRHKGehTQMuoFMt3FGibGh-TJRz4y9M_99nTr0-4dmDxMgYLNci5cbMlsWhjyUAr0eMhnzrXKyw-3pzkd1BWmxZaAUCTWRq9vr6KKetHfj0mns1r8QyIEevJf3fYxUw24SmrP-RQGe-2Q0dUCm46RKxFy3WGv2I4nW39AnRJKklageTa459FWQQVNS6rEQp7B9TIyPflXQI6q4bl3SOyHrGprd9bm_Y5bU8IwoBtRrxxxqTQBl-mfd3nNaEvYQbV74laA_ZkE0NrPjjRsgeUktZiWCPt2FKSyr7hMruCrGEcUHlRELRkcwh8FSXc--IWjJoDxMvER0mcOjdZ2sXtHgpa-JW8Qm5YU5aJJNL_9htn9pKLtNWD83nKTwLahakXfiIxEoBVd_7AiOcEALVSbMihfo8eOrzr7aV7HK-rOHlv9bfeEBpwPX9dFBkq4leVcU2xI2tsQgVBxstoHuGs5P4J9dP_5y4g8gdzZOLwhSAcz7Yu3NzPPmNbB8E9JC2EHsNWI-PiRrmc07gPnvYbGVV5K95YfdnLWu5ONtMl_s8atwt-YQMsy4qT3C1IDgeczhlyaLBhK6wFlUn6X7uxx1LjhRlMAnQAcL98Ec0CDaaeFudaynH3eyi7CHFg2VDkVMrJLKRp4769U9VOYdwK9aq1NTnwvOFW494rLtxTQJpGflatOwaBwhaG01zv_FuZnUqfoLjf2tFJ0sOiCvJUs-BOHky6tTyRlSF4MisLyiDVQtDDPWVfFSMDGjwrnVjR7EVF6VVhVJuNhkqA0UQ20VnE-vaH003lbMY4zF1mpTD_MvS0f9aTUlqNvNgOjGodRh9QhIVek84TMNjnOOfqVpkMAPWb66bpKdzE32fLCoeIE6ij-bu3Pu9IPFkbKkfkNb4n8rNhd_Rbnt0ZXWLpjAN00KZ2Jr6EtMcDfTQLUb_4AkPwEhkxRJdei-ydiKso9eEg-JOZWdFK-5FMWxtDKh4SzeVPu2LMZwIVKUZfss8zrd9GpUVF1QwQTV3be3XdEtQKRh2MRDGvw8KRTe7E49bLYx9L2pLDvBjCYHhS9NlVuHXsub8mM4Py983mKw_4MEUKnnGeyXdId09Z054Q3SKKBNyiXbhA1sM7mHaP5A4IOuBri9Wa-9mTT8DYHF0Fs8WIcDIVYCRtMFuZwRrr11QIHqDACG1Tt_ZKKPg7fJ1X_AdvbZzm3fXnZ6OC1E5jNBLs1nsTiVh-X_6W7KtYvxALMBNqjZ00N7qRHteDtmz_I9GM3ZnOjYGh88_S2o9IcVfPr9awke5RKDA3Uv5XWK5vBT0zRl1s5VHIlybwKsbKEEv2lE6c3RCLS4X_o9vUIggDHg2Lad1cxblwfBjcYVB5D4Spyiw61kdQd86glk5bAQkyqmYVb_rhAtStX5gIU4xK6D2veTZ_D4asMMV7sp8uVz77leSGFlFUPuhrPgzf5_7G-4qlTNoMSwIRY8wn37tyiINsWVgGdlU3UPdxQOv_juUM549FH4exCK8-HC0HcA-rNiiZgbZiMueTWoBgehq-DlCnk_HhNmZFquDA-y8G_2Rpos_XI74u_6iMOf8GuIb9kXb52APH0EeHFzQli5U1MRdOXoEFnBHGbVXG7OSog2rNIECMRNneqtky-j-6VI_IV4brYbqbValFBViUBupbGjVbUvXLIIQknOWMF74QggQ6e8pdUVKVok0sbmCwreodrrS4VryZFQxvZak8GnlVM-p8m_BIT_ONVHpeQYl61_6x43fRi018WxP4SiDLePDYZ6K0dx3qyO6chT4HeLtLbROHvDrRmm02M1Fwe7YBN6Y28JcOoDgW-VcBWlJm7METNAoP875vBfFNTxF3iU5NzIlRpmnA9-iQSf0GLBKQb3l43zEzmBPNnB4CUHcoSRetkAirm28GIKfRr0QnKUGN3JJCZEmN8fIYHm3XrKPyCjjlk9lbqulyxHSn3pXgWWy89CbG-MeQYKSW43PRd_c0Dj-hNDGpjOrZI9EN5JfhtOcbChLou0qhSFYgoBe69QgPfJQ9-whT4WvWVeeU1dJWSlJ_4hybES0FkvHV3gSB6L5z6TnyXYXQFFNvlqer6MCZUCSjKBnqYe41KoVB_TeyMB3uNkM-kjzJiZvHLFy4LCY5q6jQ7OAi69Nqx5PVCy6XMudj_vj2x1p2oieY28i9WBNtZmnlQUbRi9gWrNC-cj1sGcKdUEnwWN86gRvwrOpiQo6eqkky1NIXBZ4ileGCa2lmrfquU9IwsokwhWiV1z-IY2Ylkuq9HCUL2N1cubReigZchvg_m-A020K1vhGuurhR74AXYkeSNym5ZTSwogXf7TQtaO4HMlt4WXOjKaDytlQ0kDSkYKnZTCZ6QoBManzIpA.NZ69lrxFMwXdLwh6qxQEIw",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1770450299.287961,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "_account",
+        "value": "personal",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765084826.579486,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "_account_residency_region",
+        "value": "no_constraint",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765025925.928367,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "_dd_s",
+        "value": "aid=5814ee91-a344-4bc8-8dc7-0d87921f3b2a&rum=0&expire=1762411055336&logs=1&id=3b6a6902-4b25-4c26-b36d-ff68a6b05572&created=1762409450897",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765002160.808442,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "_ga",
+        "value": "GA1.1.590247585.1762654352",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765246403.133406,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "_ga_9SHBSK2D9J",
+        "value": "GS2.1.s1762654352$o1$g1$t1762654391$j21$l0$h0",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765246403.133469,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "_puid",
+        "value": "user-AT8TrFeocuJKMetCJCpi2d17:1762409957-PKm0JGc3IB%2BD28oadooNkjGcsXVmJnh7Qu476R2pHXA%3D",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765002160.808436,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "_uasid",
+        "value": "\"Z0FBQUFBQnBEamxxTm9TZm52YmZWNEZWZEFtWEowOS1uN0h4Zzl2WG9TYXlmTEQxTk9PMWRKQXVCMTUzOURZenB6OFB2VVBSQzlONVlWdnFzSFIySW9IdHB1UlJvaF9KMTRQX29nQ29uQUtuMUxPMkRvZEFKQVJra3cxVHRyQlRQem1VVWpWeFZmSUcxczRaQUpFSmZvVU5jbUp3dGRZZnNxalV3cGFTeS1UelgySHJxa2dWaE1qRmxrUm5iQ1p5ZGg2eFcyMjVScXpueGFvM3c3RnJ0MVVJRVU5YWJHdUh4UjdVcUNrNmtyMUdsQW1XVEdEWE1vNTJpMERKRXgtS0g3TUMySHVzZEs5YkZjZnp6dmpmeGcwRGVkUmk1cVBhMFpnLVowd2tha3AwT0VMc3l1WHdkOEQxR1RTVWtxR19XdDVlNkpZOS1IeW5OdVExNWkwTDNyal9Gb1NtcGRUbF9nPT0=\"",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765131837.611826,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "_umsid",
+        "value": "\"Z0FBQUFBQnBEamxxVUpCNEJySXZfSURjUTJSZlZYVE5xN0lKd193STFTa0EybFN4SDhybkk5ZTE4X0pPZEU0LXpLQ0JSY3loNlBUN2tPVzNLQzRnSEhlR241aTVuRk9TblgweWxGUmVaMnJla0d0bzFZX1plUjdfbkpLeS1ZVkZKQk9qbUxiM1JQdjlodlViTktPOWJ3cHZSS1BlZFd6RGc2LU5Wd0g0b1pPWUMzN0tSLVE5NUJOS3VkRkRsQWp3eXBRWjdERHFHc2xaeG56ck5KYmJwSFFwYkZXTXFYdGFxNVJheV9hR1BMNW53WFJwSExqdzUtcz0=\"",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765131837.611827,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "cf_clearance",
+        "value": "ntzbpJ4DO2tGL5irB4rIduKl7FxIIAGqCFPzGzDS9yg-1762409509-1.2.1.1-nvSTBDOboVPxMy9EC.jLbewzPPGT8RQs.Qy5zUxMhJActMe9fXih6SVj_67nYm7h0a7pk.tSvWcJyPME36poOjv_3TM4JRxFx8vOGotLnxtA5m4gV3fTyEmbhOzYKNaON4adPqvBNS2gwYvyCfnSenVtoOpIJRnSvYk0gclwhtqwBNCRdvwggkMctJfVwGeYBZfakh8DNh2HLtKd6DAzJeu1jFdLAgvptJ.9E5UJtcg",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765002160.808433,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "conv_key",
+        "value": "\"VE6vGENUo478Osqwac3-W55Np2AoiunwKguMufWf84Q=\"",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765131837.611826,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "oai-allow-ne",
+        "value": "false",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765002160.808437,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "oai-client-auth-info",
+        "value": "%7B%22user%22%3A%7B%22name%22%3A%22champbell%22%2C%22email%22%3A%22giajwc%40rifkiidr.id%22%2C%22picture%22%3A%22https%3A%2F%2Fs.gravatar.com%2Favatar%2F7c835eae4a091372dd127a73c611ef08%3Fs%3D480%26r%3Dpg%26d%3Dhttps%253A%252F%252Fcdn.auth0.com%252Favatars%252Fgi.png%22%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1762409899360%7D%2C%22isOptedOut%22%3Afalse%7D",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765002160.808437,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "oai-did",
+        "value": "7abfedef-db5a-45ff-bc82-b23afd7aedfa",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765002160.808431,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "oai-gn",
+        "value": "devan",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765002160.808439,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "oai-hlib",
+        "value": "true",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765002160.808435,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "oai-hm",
+        "value": "READY_WHEN_YOU_ARE%20%7C%20READY_WHEN_YOU_ARE",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765002160.808439,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "oai-last-model-config",
+        "value": "%7B%22model%22%3A%22gpt-5%22%7D",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765002160.808442,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "oai-sc",
+        "value": "0gAAAAABpEEZ6JolNNjnhSfla6P_mT1GTPSPp1ioyetwt-nZSRm5vogWgzkEGPyBy-ePd4oThsoFUybc17Le4bCIjUzmgJIpAlYHGW-ePC51ugeYjPGZwEHxWenIxOnXZnt3lawzhy_wCFWYDLJQfJJX0waiVl_WEtoszbqPC1sKvxF1ZJupNTo5XYGh5u71G90CRd_zeU-kWilfa78mChIOnJzy1muV1UVCGKv9QvwTZJtWNib3wH_Q",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1794210299.969306,
+        "sameSite": "no_restriction",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "oai_consent_analytics",
+        "value": "false",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765002160.808436,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "oai_consent_marketing",
+        "value": "false",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765002160.808437,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://chatgpt.com/",
+        "name": "sign",
+        "value": "4d7a7847506c77555764694e43514338714f3744684c43756c72587770314a72426f5441514c386d3147343d",
+        "domain": ".chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "expirationDate": 1765002160.808429,
+        "sameSite": "unspecified",
+        "storeId": "0"
+      },
+      {
+        "url": "https://sora.chatgpt.com/",
+        "name": "__cf_bm",
+        "value": "f_S3WhXyurKHSHu6nCyRe9MByyEseSorvrjy.ttsVJU-1762674297-1.0.1.1-JVq2VCGF5FdEzA6e7buiLiWub4rMx9WytNNNpWVuUB84prVDMllO0iTKQIyN9lAkCijytBzH7NacrMpWHRlWeDwMrgmoPTi9bCrawdsvpH0",
+        "domain": ".sora.chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1762676098.454872,
+        "sameSite": "no_restriction",
+        "storeId": "0"
+      },
+      {
+        "url": "https://sora.chatgpt.com/",
+        "name": "_cfuvid",
+        "value": "Gpm1d8oLFy3eqiviszOsR0boi_4cIhW.hqL181QIZeg-1762674297375-0.0.1.1-604800000",
+        "domain": ".sora.chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "no_restriction",
+        "storeId": "0"
+      },
+      {
+        "url": "https://sora.chatgpt.com/",
+        "name": "__cflb",
+        "value": "0H28vBjUqcdJN5F5i82iriTLTdVMReM9nhYCU8VS7Xb",
+        "domain": "sora.chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1762676098.454895,
+        "sameSite": "no_restriction",
+        "storeId": "0"
+      },
+      {
+        "url": "https://sora.chatgpt.com/",
+        "name": "__Host-next-auth.csrf-token",
+        "value": "bf38cb804b67a9f39a4d317f8e34cd1eb15eea6a431c5024542c5cd036889f29%7C3022266e3aa4192b52346d78101aa3800af018daae6a45d6acd87e79b018a05e",
+        "domain": "sora.chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "expirationDate": 1765002160.808429,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "https://sora.chatgpt.com/",
+        "name": "__Secure-next-auth.callback-url",
+        "value": "https%3A%2F%2Fsora.com",
+        "domain": "sora.chatgpt.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "lax",
+        "storeId": "0"
+      },
+      {
+        "url": "http://sora.chatgpt.com/",
+        "name": "_dd_s",
+        "value": "rum=2&id=36471164-d67b-4b7e-a808-eb43ef49b728&created=1762674299293&expire=1762675199293",
+        "domain": "sora.chatgpt.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "expirationDate": 1762675201,
+        "sameSite": "strict",
+        "storeId": "0"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "id": "sora-1038",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -59669,7 +59669,7 @@
   },
   {
     "meta": {
-      "id": "sora-1573",
+      "id": "sora-1954",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -60039,7 +60039,7 @@
   },
   {
     "meta": {
-      "id": "sora-1673",
+      "id": "sora-1309",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -60409,7 +60409,7 @@
   },
   {
     "meta": {
-      "id": "sora-1715",
+      "id": "sora-1754",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -60779,7 +60779,7 @@
   },
   {
     "meta": {
-      "id": "sora-1869",
+      "id": "sora-1107",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -61149,7 +61149,7 @@
   },
   {
     "meta": {
-      "id": "sora-1695",
+      "id": "sora-1381",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -61519,7 +61519,7 @@
   },
   {
     "meta": {
-      "id": "sora-1826",
+      "id": "sora-1227",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -61889,7 +61889,7 @@
   },
   {
     "meta": {
-      "id": "sora-1118",
+      "id": "sora-1126",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -62259,7 +62259,7 @@
   },
   {
     "meta": {
-      "id": "sora-1388",
+      "id": "sora-1021",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -62629,7 +62629,7 @@
   },
   {
     "meta": {
-      "id": "sora-1436",
+      "id": "sora-1099",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -62999,7 +62999,7 @@
   },
   {
     "meta": {
-      "id": "sora-1685",
+      "id": "sora-1155",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -63369,7 +63369,7 @@
   },
   {
     "meta": {
-      "id": "sora-1054",
+      "id": "sora-1330",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -63739,7 +63739,7 @@
   },
   {
     "meta": {
-      "id": "sora-1811",
+      "id": "sora-1513",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -64109,7 +64109,7 @@
   },
   {
     "meta": {
-      "id": "sora-1058",
+      "id": "sora-1458",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -64479,7 +64479,7 @@
   },
   {
     "meta": {
-      "id": "sora-1238",
+      "id": "sora-1160",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -64849,7 +64849,7 @@
   },
   {
     "meta": {
-      "id": "sora-1684",
+      "id": "sora-1120",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -65219,7 +65219,7 @@
   },
   {
     "meta": {
-      "id": "sora-1054",
+      "id": "sora-1339",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -65589,7 +65589,7 @@
   },
   {
     "meta": {
-      "id": "sora-1613",
+      "id": "sora-1092",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -65959,7 +65959,7 @@
   },
   {
     "meta": {
-      "id": "sora-1735",
+      "id": "sora-1697",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -66329,7 +66329,7 @@
   },
   {
     "meta": {
-      "id": "sora-1447",
+      "id": "sora-1964",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -66699,7 +66699,7 @@
   },
   {
     "meta": {
-      "id": "sora-1070",
+      "id": "sora-1606",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -67069,7 +67069,7 @@
   },
   {
     "meta": {
-      "id": "sora-1391",
+      "id": "sora-1902",
       "name": "Sora.chatgpt.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://sora.chatgpt.com/explore",
@@ -67439,7 +67439,7 @@
   },
   {
     "meta": {
-      "id": "gracely011-1169",
+      "id": "gracely011-1347",
       "name": "Storytribe.app",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://gracely011.github.io/hai/manual.html?name=StoryTribe&login=beapp@prem1um.xyz&password=MilikGroupy2025!&url=https://storytribeapp.com/login-signup",
@@ -67448,7 +67448,7 @@
     },
     "accounts": [
       {
-        "id": "gracely011-1169-StoryTribe",
+        "id": "gracely011-1347-StoryTribe",
         "name": "StoryTribe",
         "cookies": []
       }
@@ -67456,7 +67456,7 @@
   },
   {
     "meta": {
-      "id": "studocu-1638",
+      "id": "studocu-1542",
       "name": "Studocu.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://www.studocu.com/en-us/home",
@@ -67928,7 +67928,7 @@
   },
   {
     "meta": {
-      "id": "symbolab-1820",
+      "id": "symbolab-1437",
       "name": "Symbolab.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://www.symbolab.com/",
@@ -68161,7 +68161,7 @@
   },
   {
     "meta": {
-      "id": "turbo-1101",
+      "id": "turbo-1563",
       "name": "Turbo.ai",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://www.turbo.ai/dashboard",
@@ -68257,7 +68257,7 @@
   },
   {
     "meta": {
-      "id": "turbo-1444",
+      "id": "turbo-1606",
       "name": "Turbo.ai",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://www.turbo.ai/dashboard",
@@ -68353,7 +68353,7 @@
   },
   {
     "meta": {
-      "id": "gracely011-1310",
+      "id": "gracely011-1201",
       "name": "Turnitin.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://gracely011.github.io/hai/manual.html?name=Turnitin&login=halo@belajaar.id&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us",
@@ -68362,22 +68362,22 @@
     },
     "accounts": [
       {
-        "id": "gracely011-1310-Turnitin-1",
+        "id": "gracely011-1201-Turnitin-1",
         "name": "Turnitin 1",
         "cookies": []
       },
       {
-        "id": "gracely011-1310-Turnitin-2",
+        "id": "gracely011-1201-Turnitin-2",
         "name": "Turnitin 2",
         "cookies": []
       },
       {
-        "id": "gracely011-1310-Turnitin-3",
+        "id": "gracely011-1201-Turnitin-3",
         "name": "Turnitin 3",
         "cookies": []
       },
       {
-        "id": "gracely011-1310-Turnitin-4",
+        "id": "gracely011-1201-Turnitin-4",
         "name": "Turnitin 4",
         "cookies": []
       }
@@ -68385,7 +68385,7 @@
   },
   {
     "meta": {
-      "id": "tv-1590",
+      "id": "tv-1923",
       "name": "Tv.apple.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://tv.apple.com/ca",
@@ -68537,7 +68537,7 @@
   },
   {
     "meta": {
-      "id": "tv-1394",
+      "id": "tv-1907",
       "name": "Tv.apple.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://tv.apple.com/ca",
@@ -68689,7 +68689,7 @@
   },
   {
     "meta": {
-      "id": "tv-1072",
+      "id": "tv-1696",
       "name": "Tv.apple.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://tv.apple.com/ca",
@@ -68841,7 +68841,7 @@
   },
   {
     "meta": {
-      "id": "tv-1204",
+      "id": "tv-1610",
       "name": "Tv.apple.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://tv.apple.com/ca",
@@ -68993,7 +68993,7 @@
   },
   {
     "meta": {
-      "id": "tv-1528",
+      "id": "tv-1626",
       "name": "Tv.apple.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://tv.apple.com/ca",
@@ -69145,7 +69145,7 @@
   },
   {
     "meta": {
-      "id": "udemy-1477",
+      "id": "udemy-1002",
       "name": "Udemy.com",
       "icon": "https://www.udemy.com/favicon.ico",
       "url": "https://www.udemy.com/personal/home/",
@@ -69872,7 +69872,7 @@
   },
   {
     "meta": {
-      "id": "udemy-1401",
+      "id": "udemy-1573",
       "name": "Udemy.com",
       "icon": "https://www.udemy.com/favicon.ico",
       "url": "https://www.udemy.com/personal/home/",
@@ -70623,7 +70623,7 @@
   },
   {
     "meta": {
-      "id": "gracely011-1567",
+      "id": "gracely011-1935",
       "name": "Virtual-threads.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://gracely011.github.io/hai/manual.html?name=Virtual%20Threads&login=step1@belajaar.id&password=WeAreGroupy2025!&url=https://www.virtualthreads.io/login",
@@ -70632,7 +70632,7 @@
     },
     "accounts": [
       {
-        "id": "gracely011-1567-Virtual-Threads",
+        "id": "gracely011-1935-Virtual-Threads",
         "name": "Virtual Threads",
         "cookies": []
       }
@@ -70640,7 +70640,7 @@
   },
   {
     "meta": {
-      "id": "gracely011-1157",
+      "id": "gracely011-1081",
       "name": "Viu.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://gracely011.github.io/hai/manual.html?name=Viu&login=jessidrti1872@moviesisme.com&password=viuku123&url=https://viu.com",
@@ -70649,52 +70649,52 @@
     },
     "accounts": [
       {
-        "id": "gracely011-1157-Viu-1",
+        "id": "gracely011-1081-Viu-1",
         "name": "Viu 1",
         "cookies": []
       },
       {
-        "id": "gracely011-1157-Viu-2",
+        "id": "gracely011-1081-Viu-2",
         "name": "Viu 2",
         "cookies": []
       },
       {
-        "id": "gracely011-1157-Viu-3",
+        "id": "gracely011-1081-Viu-3",
         "name": "Viu 3",
         "cookies": []
       },
       {
-        "id": "gracely011-1157-Viu-4",
+        "id": "gracely011-1081-Viu-4",
         "name": "Viu 4",
         "cookies": []
       },
       {
-        "id": "gracely011-1157-Viu-5",
+        "id": "gracely011-1081-Viu-5",
         "name": "Viu 5",
         "cookies": []
       },
       {
-        "id": "gracely011-1157-Viu-6",
+        "id": "gracely011-1081-Viu-6",
         "name": "Viu 6",
         "cookies": []
       },
       {
-        "id": "gracely011-1157-Viu-7",
+        "id": "gracely011-1081-Viu-7",
         "name": "Viu 7",
         "cookies": []
       },
       {
-        "id": "gracely011-1157-Viu-8",
+        "id": "gracely011-1081-Viu-8",
         "name": "Viu 8",
         "cookies": []
       },
       {
-        "id": "gracely011-1157-Viu-9",
+        "id": "gracely011-1081-Viu-9",
         "name": "Viu 9",
         "cookies": []
       },
       {
-        "id": "gracely011-1157-Viu-10",
+        "id": "gracely011-1081-Viu-10",
         "name": "Viu 10",
         "cookies": []
       }
@@ -70702,7 +70702,7 @@
   },
   {
     "meta": {
-      "id": "wetv-1962",
+      "id": "wetv-1466",
       "name": "Wetv.vip",
       "icon": "https://wetv.vip/favicon.ico",
       "url": "https://wetv.vip/id/profile?tab=profile",
@@ -71192,7 +71192,7 @@
   },
   {
     "meta": {
-      "id": "wetv-1713",
+      "id": "wetv-1054",
       "name": "Wetv.vip",
       "icon": "https://wetv.vip/favicon.ico",
       "url": "https://wetv.vip/id/profile?tab=profile",
@@ -71622,7 +71622,7 @@
   },
   {
     "meta": {
-      "id": "wetv-1679",
+      "id": "wetv-1983",
       "name": "Wetv.vip",
       "icon": "https://wetv.vip/favicon.ico",
       "url": "https://wetv.vip/id/profile?tab=profile",
@@ -72064,7 +72064,7 @@
   },
   {
     "meta": {
-      "id": "wetv-1856",
+      "id": "wetv-1105",
       "name": "Wetv.vip",
       "icon": "https://wetv.vip/favicon.ico",
       "url": "https://wetv.vip/id/profile?tab=profile",
@@ -72506,7 +72506,7 @@
   },
   {
     "meta": {
-      "id": "wetv-1910",
+      "id": "wetv-1551",
       "name": "Wetv.vip",
       "icon": "https://wetv.vip/favicon.ico",
       "url": "https://wetv.vip/id/profile?tab=profile",
@@ -72936,7 +72936,7 @@
   },
   {
     "meta": {
-      "id": "wolframalpha-1430",
+      "id": "wolframalpha-1191",
       "name": "Wolframalpha.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://www.wolframalpha.com/",
@@ -73020,7 +73020,7 @@
   },
   {
     "meta": {
-      "id": "writehuman-1281",
+      "id": "writehuman-1308",
       "name": "Writehuman.ai",
       "icon": "https://writehuman.ai/favicon.ico",
       "url": "https://writehuman.ai/ai-detector",
@@ -73343,7 +73343,7 @@
   },
   {
     "meta": {
-      "id": "gracely011-1730",
+      "id": "gracely011-1696",
       "name": "Wsj.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://gracely011.github.io/hai/manual.html?name=The%20Wall%20Street%20Journal&login=wsj@killua.cloud&password=TheWallStreetJournalGroupy2025!!!&url=https://www.wsj.com",
@@ -73352,7 +73352,7 @@
     },
     "accounts": [
       {
-        "id": "gracely011-1730-The-Wall-Street-Journal",
+        "id": "gracely011-1696-The-Wall-Street-Journal",
         "name": "The Wall Street Journal",
         "cookies": []
       }
@@ -73360,7 +73360,7 @@
   },
   {
     "meta": {
-      "id": "gracely011-1919",
+      "id": "gracely011-1779",
       "name": "Youtube.com",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://gracely011.github.io/hai/youtube-noads.html",
@@ -73369,7 +73369,7 @@
     },
     "accounts": [
       {
-        "id": "gracely011-1919-YouTube-NoAds",
+        "id": "gracely011-1779-YouTube-NoAds",
         "name": "YouTube NoAds",
         "cookies": []
       }
