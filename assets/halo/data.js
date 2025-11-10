@@ -171,27 +171,7 @@
   },
   {
     "meta": {
-      "id": "alight-motion-1001",
-      "name": "Alight Motion",
-      "icon": "https://play-lh.googleusercontent.com/OU0BlP8C9-V7ECl2crma7B48nzDbK7liSLjn0j_fpTlyWG6qyEE-mw_KFZ9aOXF0a3w",
-      "url": "https://petrusperdana1.github.io/tpsyunix/al1ghttt.html",
-      "category": "design"
-    },
-    "cookies": [
-      {
-        "name": "dummy",
-        "value": "5",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "domain": "alightmotion.com"
-      }
-    ],
-    "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/al1ghttt.html"
-  },
-  {
-    "meta": {
-      "id": "apple-music-1051",
+      "id": "apple-music-1045",
       "name": "Apple Music",
       "icon": "https://play-lh.googleusercontent.com/mOkjjo5Rzcpk7BsHrsLWnqVadUK1FlLd2-UlQvYkLL4E9A0LpyODNIQinXPfUMjUrbE",
       "url": "https://music.apple.com/ca/home",
@@ -596,7 +576,7 @@
   },
   {
     "meta": {
-      "id": "apple-tv--1077",
+      "id": "apple-tv--1066",
       "name": "Apple TV+",
       "icon": "https://play-lh.googleusercontent.com/1XBAZjSOWaVM7UDFKvzuMR-WRoR5gCnsYrw17_ihHLcJKT9Qc7hXptHwWQ3Bf83mry4",
       "url": "https://tv.apple.com/ca",
@@ -1218,7 +1198,7 @@
   },
   {
     "meta": {
-      "id": "askyourpdf-1007",
+      "id": "askyourpdf-1006",
       "name": "AskYourPDF",
       "icon": "https://play-lh.googleusercontent.com/WRl_6Jv1ljYKf3xiy27h3xx-ST7Kntg3mon8J53OBpjdm35jG2Mw80GZ2Qrhlau-YqI7=w240-h480-rw",
       "url": "https://askyourpdf.com/conversations",
@@ -1241,7 +1221,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762701701,
         "sameSite": "no_restriction",
         "domain": ".askyourpdf.com"
       },
@@ -1370,7 +1349,7 @@
   },
   {
     "meta": {
-      "id": "bein-sports-1015",
+      "id": "bein-sports-1013",
       "name": "Bein Sports",
       "icon": "https://play-lh.googleusercontent.com/jBDZq3aBmCXuvtuJHEasqsdYPRxMBGzYmEha4dMlgoIk19Zlh6BGQC08Zt6Ifrmzhg=w240-h480-rw",
       "url": "https://connect-id.beinsports.com/id",
@@ -2657,7 +2636,7 @@
   },
   {
     "meta": {
-      "id": "brain-fm-1053",
+      "id": "brain-fm-1047",
       "name": "Brain.fm",
       "icon": "https://play-lh.googleusercontent.com/oQnd9u11H7j1g99Pzswt5LTm52g8XyMrgz0GRBX5lmzdPv2Vt7bBrOKgbVbs-gHc504=w240-h480-rw",
       "url": "https://my.brain.fm/",
@@ -2892,7 +2871,7 @@
   },
   {
     "meta": {
-      "id": "brilliant-1009",
+      "id": "brilliant-1008",
       "name": "Brilliant",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT07Aba7sYgSCOIW9P2mAWcAcO9r_tpM_svzw&s",
       "url": "https://brilliant.org/home/",
@@ -3011,7 +2990,7 @@
   },
   {
     "meta": {
-      "id": "bstation-1008",
+      "id": "bstation-1007",
       "name": "Bstation",
       "icon": "https://play-lh.googleusercontent.com/nug7F0n-jWMpAWLaU7Qi1kuTIYjrAtUJmZd5FW4mEyspYR7-zGa-3_fwnYkPgyzHozE3",
       "url": "https://www.bilibili.tv/en/anime",
@@ -3273,7 +3252,7 @@
   },
   {
     "meta": {
-      "id": "busuu-1010",
+      "id": "busuu-1009",
       "name": "Busuu",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdfQ07W8Z1b0olxbugP-i2Hk5BJo6I-B8yKA&s",
       "url": "https://www.busuu.com/dashboard/timeline/a1",
@@ -3560,7 +3539,7 @@
   },
   {
     "meta": {
-      "id": "bypass---hix-ai-1035",
+      "id": "bypass---hix-ai-1030",
       "name": "Bypass | HIX AI",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrXZQ0Wq17Y4CjDKiytXbd1hG39lu6u-rBsw&s",
       "url": "https://hix.ai/app/bypass-ai-detection",
@@ -3807,7 +3786,7 @@
   },
   {
     "meta": {
-      "id": "bypassgpt-1011",
+      "id": "bypassgpt-1010",
       "name": "BypassGPT",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVpNp17p7NogV0-YTH9UnJYGg7IowMwYmj3w&s",
       "url": "https://www.bypassgpt.ai/",
@@ -3840,7 +3819,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762701707,
         "sameSite": "no_restriction",
         "domain": ".bypassgpt.ai"
       },
@@ -3910,7 +3888,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762701705,
         "sameSite": "no_restriction",
         "domain": ".bypassgpt.ai"
       },
@@ -4047,11 +4024,10 @@
         "cookies": [
           {
             "name": "__cf_bm",
-            "value": "po0vNksoOpJb6Akbp_pSXUfmt2609hLbjkDPXYh2TGQ-1762699028-1.0.1.1-fvrVdwSHgxx5JmUdg1NarshQeJ9TUiitBiXhvyvRJmumLTJXrphmOuptJuXV4g99zl1sQcfEYu5hzAxpyXfmhLWMPeI1GADbeo.UbdSOvS2c89h8H1HreRPt_RsNLSrF",
+            "value": "HEkGLdkyxSeSEPi2qpXqNhO_PNzP.76MCbo.cDqBbn8-1762271569-1.0.1.1-w6SbujjrGDYNcYoZnDVZAzf9dCma852GMN41DQbpaeeDZ7Jc23L_hgxeydtaOBLCxTW8KFJlkCyD1cTgl3FpWwSbmap7ipUx2nFADCjGSwRf29CBzdv9McUQEuLr4Yj5",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762700830.322493,
             "sameSite": "no_restriction",
             "domain": ".canva.com"
           },
@@ -4061,13 +4037,13 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1797259027,
+            "expirationDate": 1796831567,
             "sameSite": "lax",
             "domain": ".canva.com"
           },
           {
             "name": "_cfuvid",
-            "value": "QGF_ZbTkwM3U7npuTSd9Z5yYIkmRA5ddmieukuSRG2Q-1762698873371-0.0.1.1-604800000",
+            "value": "JTogmTOPjFm9Qf89diwsaTR5iyd1Q4XxJ.ZxCmNY1nY-1762271553725-0.0.1.1-604800000",
             "path": "/",
             "httpOnly": true,
             "secure": true,
@@ -4076,41 +4052,40 @@
           },
           {
             "name": "_fbp",
-            "value": "fb.1.1762698894733.270578108500739178",
+            "value": "fb.1.1762271590203.218397841823475154",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1770474967,
+            "expirationDate": 1770047590,
             "sameSite": "no_restriction",
             "domain": ".canva.com"
           },
           {
             "name": "_ga",
-            "value": "GA1.1.1804054568.1762698895",
+            "value": "GA1.1.1917191075.1762271590",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1797258911.285886,
+            "expirationDate": 1796831590.086169,
             "sameSite": "no_restriction",
             "domain": ".canva.com"
           },
           {
             "name": "_ga_EPWEMH6717",
-            "value": "GS2.1.s1762698894$o1$g1$t1762698982$j60$l0$h114501890",
+            "value": "GS2.1.s1762271590$o1$g0$t1762271590$j60$l0$h910659236",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1797258982.975096,
+            "expirationDate": 1796831590.09223,
             "sameSite": "no_restriction",
             "domain": ".canva.com"
           },
           {
             "name": "_uetsid",
-            "value": "4253cc20bd7911f09a04c750a4bd3627",
+            "value": "5d062eb0b99611f0bac409390d6a2735",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762785311,
             "sameSite": "no_restriction",
             "domain": ".canva.com"
           },
@@ -4120,7 +4095,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1796394911,
+            "expirationDate": 1795967590,
             "sameSite": "no_restriction",
             "domain": ".canva.com"
           },
@@ -4130,57 +4105,46 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1765291041.202452,
+            "expirationDate": 1764863579.578549,
             "sameSite": "no_restriction",
             "domain": ".canva.com"
           },
           {
             "name": "CTC",
-            "value": "eyJBIjoxNzYyNjk4OTEwNTg5LCJCIjoxNzYyNjk4OTEwNTg5LCJEIjpmYWxzZSwiSSI6Wy01ODM2OSwzOTMxMzAzXSwiSiI6WzBdLCJLIjp0cnVlfQ==",
+            "value": "eyJBIjoxNzYyMjcxNTg5NDMyLCJCIjoxNzYyMjcxNTg5NDMyLCJEIjpmYWxzZSwiSSI6Wy01ODM2OSwzOTMxMzAzXSwiSiI6Wy01ODM3NywzOTMxMzAzXX0=",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1778250912.159218,
+            "expirationDate": 1777823589.700969,
             "sameSite": "no_restriction",
             "domain": ".canva.com"
           },
           {
             "name": "CUI",
-            "value": "NZaztZj3vvmYm5-EVr47Rzaa6dTsUpdfwoIA_D9ieWUVZktxmbb0ZrFrEn7sn5hZH3Emiw",
+            "value": "ISl8UKLHptGzKll3Q9YLVoSIwvveBONMGKrOvu7xVNYOTNWCNDTd4o5tfwddNAe-tvrkEg",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1765291041.202096,
-            "sameSite": "no_restriction",
-            "domain": ".canva.com"
-          },
-          {
-            "name": "FPAU",
-            "value": "1.2.426541491.1762698910",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1770474911.539661,
+            "expirationDate": 1764863579.578207,
             "sameSite": "no_restriction",
             "domain": ".canva.com"
           },
           {
             "name": "FPID",
-            "value": "FPID2.2.W0%2FbBVSMET3Z%2F3zVNcdslzLi%2F3VJxoKetAtQ%2F3kQUZo%3D.1762698895",
+            "value": "FPID2.2.UZiSK0to6J0jfArMhSzH%2FvuZ5mmE751QDmJuRAb8Pgk%3D.1762271590",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1797258983.37904,
+            "expirationDate": 1796831590.475636,
             "sameSite": "no_restriction",
             "domain": ".canva.com"
           },
           {
             "name": "FPLC",
-            "value": "0X0jWRD8k6QaswqUbCq1oojVU10NQcKPA%2F8llOshewdmwDMQTI58aeGrwqsn47sy4paYO0ptoC0P4fSoYPioHiedwArZhXwsSFLYP3oJvSFw1cwZjzQVdFJyvcLvqw%3D%3D",
+            "value": "LIiJ%2F2saEGS85tpnjKPJVYARU%2F8RN9i%2F3B9PDeUL2EW8OVVB7Gfp9wIE1myuVHaAWvQFARgMZ5LIutxldpE%2BTvx%2B%2BAHzrz%2F5VdkScyb1Q2ApJ0Zd7HAi%2F9tMKn3FXA%3D%3D",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762770895.062972,
             "sameSite": "no_restriction",
             "domain": ".canva.com"
           },
@@ -4190,96 +4154,75 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1797259027,
+            "expirationDate": 1796831567,
             "sameSite": "lax",
             "domain": ".www.canva.com"
           },
           {
-            "name": "__Host-LV",
-            "value": "C",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794234911.981206,
-            "sameSite": "no_restriction"
-          },
-          {
             "name": "ASI",
-            "value": "01K9MGMM4RZ6RAXJ4HYV3SNET6",
+            "value": "01K97S3TSZ0J2AZHVMEVYGB321",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762700844.473673,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
           {
             "name": "CAU",
-            "value": "eyJBIjoiVUFHM3lWSlAtUUEiLCJCIjoiQkFHM3lRVEtXb0EifQ==",
+            "value": "eyJBIjoiVUFHMXRYQWstNzQiLCJCIjoiQkFHMXRiZmxFcmcifQ==",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1765291041.201748,
+            "expirationDate": 1764863579.577606,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
           {
             "name": "CAZ",
-            "value": "cnvan2JSZYPvvWaFbj9DzrIWONpi2AhIYsQqrQ5BHyU8adHOY674kc5VIwiqdhrBL7Jl_bzXOg4MrarMP6ytbXaLLar6_efbJnKR1ffjJ6fJVkywxOfbtbL4kn85KWRg-3szsQbsNNvmIS3WavLxxyRuUOhsaoIJQo4fHANudXpmPTtIdg--lURwGpTdNfeEbGVGAHp2iku3F0zw6_iwlHN4xsH9bnLvvEN0Bm7-6dTHxzau38YfS5TyjZGheWhnNSL1Sld7zn01hMeRUAr6YwdUUjXqSDdkb7d83dd7",
+            "value": "cnvanWubxUWGBjCBnNHhHAY_Q_MniQiOm_0YHujh929mnjFecM6hGUYb1yEPgj4XIPvGhETgVShNZhI3BbFQudS7CFT9LEOKCd3EoBQE_kMSscg2hxF5Bk2ZHMCw1KUOIOV5CGdZz9955djfy-J1CF5fUMLjN14s7RUybiPl0gLW56QOX0G5RSxw4LLL7adXA886eUpXSyQT0SVk7MRACUQpeOWM2MKjoJPBgyOLo6DdyDWZ473Excg9_OshfpyA9Tx19PKww7ziGaiPBsa1-Mud3ZwKRJ84191c0eca",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1765291041.201448,
+            "expirationDate": 1764863579.577151,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
           {
             "name": "CB",
-            "value": "BAG3yQTKWoA",
+            "value": "BAG1tbflErg",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1765291041.201638,
+            "expirationDate": 1764863579.577442,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
           {
             "name": "CCK",
-            "value": "YsdLoNn6cwqSElz-dfi2GQ",
+            "value": "MjPsalO3BESESqcpNIcFrQ",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762709696.753383,
-            "sameSite": "no_restriction",
-            "domain": "www.canva.com"
-          },
-          {
-            "name": "CDA",
-            "value": "cnvanHlaTAZbrmBviI84cDpLEo0xPnnAGaXS6NWercdsDg2URxLKD6r7YFCWfjjFsSsm4cF92d_zraxCDRk2-C1Pl3V3e43N8idxyfS8oEXDVy55niu-RoNm-bytkxGU8uhsB8mcz0-iSQtaWi8QC0hILvkwjvjO4pyRdcpR-5jilsbolqa0AlSqe3A6FAdIzM8QYaLPX6wa3a1f893",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1765291041.202333,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
           {
             "name": "CDI",
-            "value": "5fd6b98f-e32c-4c91-bdf7-336c06f700bf",
+            "value": "c0d213cf-9692-415b-ae22-5f67df7c31df",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1794234874.811996,
+            "expirationDate": 1793807554.021794,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
           {
             "name": "CID",
-            "value": "cnvanfUfVA8m9ja6HYRfF7k22E6wQGBromVeCGwDI5rOglaJYptmbQYcDIq7G_Usa83AGWj0IYFgVQp1_BZs2BdDR-6zsX5mHOCo8CzrAwGpPPvtC9PEC751ded54",
+            "value": "cnvanPB9a0h_ZM72KQvbKBVZBn_NCsaTNJhsvYrkCkmvj5d98-8vO0UoFybEbuHQfgC2-vJ0hZ6Dy8RKcVig-NtllRvARCgOJt1-tc6IQikQXk6IY06UGee323e01",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1765291041.201978,
+            "expirationDate": 1764863579.57804,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
@@ -4289,37 +4232,36 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1765291041.201865,
+            "expirationDate": 1764863579.577765,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
           {
             "name": "CUL",
-            "value": "cnvruvWTGcuYJUpkRwP61lzSonZczR567QZf3LM1TdTnfEV2dOPYXFoExNAAf1O5wOfuQTFsO-1QFBCM21uaK4GjNUEYM7iwNJW7WQxcjSeMBcYrud98f8d925948",
+            "value": "cnvruMU0AHI5aNOjm2ICc9hjEu6dJ7VFVQkeOeK8GixlE2__uBo6RyjlbjAkSz-AGrD7dHNtSW4gyU5HFEUfpTDShr_GXaeg4bbc60b8",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1794235043.887836,
+            "expirationDate": 1793807579.578384,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
           {
             "name": "g_state",
-            "value": "{\"i_l\":0,\"i_ll\":1762698891117,\"i_b\":\"WwTB68ArQIbQXgaNq0TT5P26tBQZaoMD4dP1EBRtf/w\"}",
+            "value": "{\"i_l\":0,\"i_ll\":1762271564094,\"i_b\":\"oAPYKO+NvrJnz8OnNuw2QxtqQbXCS8YYqIjw4oyCG0A\"}",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1778250891,
+            "expirationDate": 1777823564,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
           {
             "name": "gtm_custom_user_engagement",
-            "value": "{\"lock\":\"yes\",\"page\":2,\"landingPageURL\":\"https://www.canva.com/templates/\",\"newSession\":\"no\"}",
+            "value": "{\"lock\":\"yes\",\"page\":1,\"landingPageURL\":\"https://www.canva.com/templates\",\"newSession\":\"yes\"}",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762700711,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
@@ -4329,37 +4271,34 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762713311,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
           {
             "name": "gtm_fpc_engagement_event",
-            "value": "{\"url\":\"https://www.canva.com/templates/\",\"ts\":1762698912079,\"utm_s\":-1,\"utm_m\":-1}",
+            "value": "{\"url\":\"https://www.canva.com/templates\",\"ts\":1762271589994,\"utm_s\":-1,\"utm_m\":-1}",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762713312,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
           {
             "name": "Metadata_session_id",
-            "value": "mhrtes3p84ja2td9crq",
+            "value": "mhkr05uzghumzbp1qa5",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762700767,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
           {
             "name": "Metadata_visitor_id",
-            "value": "mhrtes3pc3zaizf95dq",
+            "value": "mhkr05uzt702ounerv",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1794234895,
+            "expirationDate": 1793807590,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           }
@@ -4371,11 +4310,10 @@
         "cookies": [
           {
             "name": "__cf_bm",
-            "value": "gdFz5qV7sLzJ0PY8QAcz1cP.ZijiELsFwrD6wOMzfZo-1762698971-1.0.1.1-iQIKNV6bkgKAE2qR6IdZ_tr0CmEbYukDAOXVQq_iqcbkB.7bDHAj0cVea.iirmf7CJTDqLFOVgmrgkp4BdHU5MKjISdvx6MSKrxb_yn4anQGeWjPhkGGXWo9L7V1j6QS",
+            "value": "LL2c_BQRsomHuOvX6JhmFNTkppHUMoJ12_neAJ9HSwA-1762271348-1.0.1.1-YcPVN0jUXQs9nA8KvnGRTKWtSF5qgQhtDBncrrbd5fpWdBQaVhj5czz44ADHl4WYikLqBtPLrUuW0KHACY7yrP7N_10BWM4C2aVL5eI8S3Wgea6vYsARtZFFvUPtspCz",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762700772.799266,
             "sameSite": "no_restriction",
             "domain": ".canva.com"
           },
@@ -4385,66 +4323,16 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1797258970,
+            "expirationDate": 1796831342,
             "sameSite": "lax",
             "domain": ".canva.com"
           },
           {
             "name": "_cfuvid",
-            "value": "QGF_ZbTkwM3U7npuTSd9Z5yYIkmRA5ddmieukuSRG2Q-1762698873371-0.0.1.1-604800000",
+            "value": "aIEVVB3GHZ9I.NjcIHtLme7EKWY8CZcl9rJGVgRPLWk-1762271078020-0.0.1.1-604800000",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".canva.com"
-          },
-          {
-            "name": "_fbp",
-            "value": "fb.1.1762698894733.270578108500739178",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1770474967,
-            "sameSite": "no_restriction",
-            "domain": ".canva.com"
-          },
-          {
-            "name": "_ga",
-            "value": "GA1.1.1804054568.1762698895",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797258911.285886,
-            "sameSite": "no_restriction",
-            "domain": ".canva.com"
-          },
-          {
-            "name": "_ga_EPWEMH6717",
-            "value": "GS2.1.s1762698894$o1$g1$t1762698982$j60$l0$h114501890",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797258982.975096,
-            "sameSite": "no_restriction",
-            "domain": ".canva.com"
-          },
-          {
-            "name": "_uetsid",
-            "value": "4253cc20bd7911f09a04c750a4bd3627",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1762785311,
-            "sameSite": "no_restriction",
-            "domain": ".canva.com"
-          },
-          {
-            "name": "_uetvid",
-            "value": "5d0680d0b99611f0838df1c5c73183dc",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1796394911,
             "sameSite": "no_restriction",
             "domain": ".canva.com"
           },
@@ -4454,57 +4342,27 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1765290981.350471,
+            "expirationDate": 1764863356.459399,
             "sameSite": "no_restriction",
             "domain": ".canva.com"
           },
           {
             "name": "CTC",
-            "value": "eyJBIjoxNzYyNjk4OTEwNTg5LCJCIjoxNzYyNjk4OTEwNTg5LCJEIjpmYWxzZSwiSSI6Wy01ODM2OSwzOTMxMzAzXSwiSiI6WzBdLCJLIjp0cnVlfQ==",
+            "value": "eyJBIjoxNzYyMjcxMjEwNTAzLCJCIjoxNzYyMjcxMjEwNTAzLCJEIjpmYWxzZSwiSSI6Wy01ODM2OSwzOTMxMzAzXSwiSiI6WzBdLCJLIjp0cnVlfQ==",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1778250912.159218,
+            "expirationDate": 1777823210.790864,
             "sameSite": "no_restriction",
             "domain": ".canva.com"
           },
           {
             "name": "CUI",
-            "value": "rhfacjLQbJ7qP4rr6OGZlaNCUudhU6rJ7M4_bxpSA3jg57WN4mATV-DdgLU6OG2plzyh_g",
+            "value": "BsUOS9i-xo4yFVngNqyg_bcRqeSzWx4TeAeCTJ69NoiNFOH9aVIzah30XvzgdQQGnwdqcg",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1765290981.349916,
-            "sameSite": "no_restriction",
-            "domain": ".canva.com"
-          },
-          {
-            "name": "FPAU",
-            "value": "1.2.426541491.1762698910",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1770474911.539661,
-            "sameSite": "no_restriction",
-            "domain": ".canva.com"
-          },
-          {
-            "name": "FPID",
-            "value": "FPID2.2.W0%2FbBVSMET3Z%2F3zVNcdslzLi%2F3VJxoKetAtQ%2F3kQUZo%3D.1762698895",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1797258983.37904,
-            "sameSite": "no_restriction",
-            "domain": ".canva.com"
-          },
-          {
-            "name": "FPLC",
-            "value": "0X0jWRD8k6QaswqUbCq1oojVU10NQcKPA%2F8llOshewdmwDMQTI58aeGrwqsn47sy4paYO0ptoC0P4fSoYPioHiedwArZhXwsSFLYP3oJvSFw1cwZjzQVdFJyvcLvqw%3D%3D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1762770895.062972,
+            "expirationDate": 1764863356.459301,
             "sameSite": "no_restriction",
             "domain": ".canva.com"
           },
@@ -4514,176 +4372,114 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1797258970,
+            "expirationDate": 1796831342,
             "sameSite": "lax",
             "domain": ".www.canva.com"
           },
           {
-            "name": "__Host-LV",
-            "value": "C",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794234911.981206,
-            "sameSite": "no_restriction"
-          },
-          {
             "name": "ASI",
-            "value": "01K9MGMM4RZ6RAXJ4HYV3SNET6",
+            "value": "01K97RXB24SM1QZPCE542EMBGP",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762700786.934465,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
           {
             "name": "CAU",
-            "value": "eyJBIjoiVUFHM3lRWXRIaG8iLCJCIjoiQkFHM3ljaklIYlEifQ==",
+            "value": "eyJBIjoiVUFHMXRpbGlFemciLCJCIjoiQkFHMXRobWljU28ifQ==",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1765290981.349286,
+            "expirationDate": 1764863356.459178,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
           {
             "name": "CAZ",
-            "value": "cnvanlLHbiCXHIxbsefAq-6ZB8KDdMnu8Vj4MIxTo1GzAcUHOPzxIyME8jUkDxoV5TjXka2p8mNz7bHcHGLbCbB1KdbPI3Va5S9lzDcFK5-irGXvFbFEEykfw1gxzBaWXuDEFxCvOQPXhBn0h6n6LvF54sEQhQabu-DDH66LrCrGVvL2hgJOB2LWZIOT6XhvvDG_aXJyYyFa47eIghwwirr8nhwf50MHZAQeiSvGS6BwOqhZkLCtuYMxYWIbDsNFGskZ_q7Nj3poGAyHH9gV-ooqAT7MsM74ae8179ac",
+            "value": "cnvan08H6E04yrhDN3Ct6Nl7Vpi04ROrbqOJ-I9iOHcafnW97uQo9gJMhUd7sPxr3ONgdqOmYAQgZGd4kcU0Ub66lNWiYIzGg9nZJiJGCQ9qMuLS9mRQn1yeUzA7BJOCTIim9ZxwSMPZE5VR6dKD-kWNNTNknSyi5vxXfx7Av7lCCUHAyV3Z_d2aeSl9hdtFIS8XJjJTz-Qp8yjcO42gHvg5helIcQKdRmF2H2fq9d4zR4vJsfiJmC4_Gv28ey37PWvvlmN3pYA492dc8cb",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1765290981.348778,
+            "expirationDate": 1764863356.45907,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
           {
             "name": "CB",
-            "value": "BAG3ycjIHbQ",
+            "value": "BAG1thmicSo",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1765290981.349087,
+            "expirationDate": 1764863356.459144,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
           {
             "name": "CCK",
-            "value": "YsdLoNn6cwqSElz-dfi2GQ",
+            "value": "dSTCNXZw8Uaos623mDoxvA",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762709696.753383,
-            "sameSite": "no_restriction",
-            "domain": "www.canva.com"
-          },
-          {
-            "name": "CDA",
-            "value": "cnvan8RFW-P3sQ9cpzpD_wSxEc0dIH_m3oLRMWVnSFuHZKsh1oIqaNHNStin_J4laVX9eXFuSXIQ4aBc4l_YKiE53C7ZgFKfj3_jeTd3Dq8hqHhr_fYE-jR7S9v40BzLsMRjv5tnkzQ4889ae8a",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1765290981.350344,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
           {
             "name": "CDI",
-            "value": "5fd6b98f-e32c-4c91-bdf7-336c06f700bf",
+            "value": "98e803c6-2c84-4d81-a831-bfe0e8b656b7",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1794234874.811996,
+            "expirationDate": 1793807078.172439,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
           {
             "name": "CID",
-            "value": "cnvan78oOVY5qU9gtH3vngWvMoo-ry1GoEWg3K_wCPlXHXqy7f5k8MxwifcZqmnvyKVsfu_UiqAMRYfUPbASG8J6qx9qMaivZ_9maVHK1MFdaYK8crkNMe38a575d",
+            "value": "cnvanz6YQVepFbCNlffbKN8HtVOQcKSg6MdzjvAQ7EMFzQTQKPQbd61HmWycRnsXqxJV4mYOAUupEg6Rnu2ztBjDBjat9WIe-uuY6K-ZIY81ETqDPcLCv095aaf9a",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1765290981.349704,
+            "expirationDate": 1764863356.459267,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
           {
             "name": "CL",
-            "value": "id-ID",
+            "value": "en",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1765290981.349498,
+            "expirationDate": 1764863356.45921,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "CPA",
+            "value": "cnvanLEwHrST_JlK8QC-J31Zw1mSHFKEpdgahDYzN9agJj4jUSjE_Z7CWTxKTiW40J2angJJ16q8dDJKdZXI3X9s5_coV7DES77cAbVNp4VkQph8TeuFsk4Zvu0G80n6COzt6m5L2v_TLF0FsgnxnOMdIsd8IwubVBf7pv_tYUsGUHs00LHcp9rDLX5w2drW_wqqIIeHNjUcbD5RQ7tM2C-W1Ts6zm7l2OR2o-3zIBULcjcYigUF3Mjw2ky8ZqkT-qn_2grE_OhKILJbpOAj8-Ogn2-R0P8gBi9HhtE4lDJYxfjTG7ZmX49bc-4A_lHf_BSfsZZqti3_-B-rXiP0-qvX-3CpWfAPzxStcvsH5jenVuGc9h4mPqtoug-VpH8xDKQY_r9VWiZTL5zdinLC5nhxEjB2vMTC44cSIMBGlO-WRqJLkDJmEIiO-JwCr2twBMfrum1qi0F7Vo3oAcf4EcfSxoicowpdY3zHc24oxtDUuDq8HSQ-2KHCsUEui2IN9exkGkK9rVWOylNkc-1ZBgE_acPovnK5uPdGrpgpjLxXg3662elNbBMS7nZR7lfaYfZzwou_rF9RbDib0fhrA4fKsHFT-tOKoAvuIQ05hpKOoSh-6P3aXPbjTC_1_HZvKr9Bd5UwbI0pjchJ80KEvlaBfyvne3g4n7U4kr6d93SB46klKfg_2RV-4GJQXC8V45nlNzjrUSmZt7itSfC1R_bUfUU1BRwcFaZqNVC-3GKPH96L194YQ1zW2zTn_8DXz59GhgmlTegd071406f",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
           {
             "name": "CUL",
-            "value": "cnvruS6BaiMC_ngbcPbubWGMrIeanTupmwORI6CcK9M0_BDShNL1aqZ-6oA7j3Qqb7D3Pbiajh9MqKyVwFFV3JRyToAZREhy_-7cgbqx7bwkcvfbkSDdM8074b393",
+            "value": "cnvruIudWX47-9yuCIx200fGcLou1Va13392w9DI2dFNfHojnURvDxplNX8REd13enbQ7FJeBUQCjfZYg2nuBjVLwPqNAuGs7KzyOVKYZ20ZEuVjQv_fVbB_SVpGlD3b-Lm3uI4tzGQb4fa9bfc",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1794234981.350134,
+            "expirationDate": 1793807356.459338,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
           {
             "name": "g_state",
-            "value": "{\"i_l\":0,\"i_ll\":1762698891117,\"i_b\":\"WwTB68ArQIbQXgaNq0TT5P26tBQZaoMD4dP1EBRtf/w\"}",
+            "value": "{\"i_l\":0,\"i_ll\":1762271342189,\"i_b\":\"hRHJG7P0yhif/QIy6WsvDGVzDkRJrYcXnlswJ+hrahE\",\"i_t\":1762357742189}",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1778250891,
-            "sameSite": "no_restriction",
-            "domain": "www.canva.com"
-          },
-          {
-            "name": "gtm_custom_user_engagement",
-            "value": "{\"lock\":\"yes\",\"page\":2,\"landingPageURL\":\"https://www.canva.com/templates/\",\"newSession\":\"no\"}",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1762700711,
-            "sameSite": "no_restriction",
-            "domain": "www.canva.com"
-          },
-          {
-            "name": "gtm_custom_user_engagement_lock_4",
-            "value": "yes",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1762713311,
-            "sameSite": "no_restriction",
-            "domain": "www.canva.com"
-          },
-          {
-            "name": "gtm_fpc_engagement_event",
-            "value": "{\"url\":\"https://www.canva.com/templates/\",\"ts\":1762698912079,\"utm_s\":-1,\"utm_m\":-1}",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1762713312,
-            "sameSite": "no_restriction",
-            "domain": "www.canva.com"
-          },
-          {
-            "name": "Metadata_session_id",
-            "value": "mhrtes3p84ja2td9crq",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1762700767,
-            "sameSite": "no_restriction",
-            "domain": "www.canva.com"
-          },
-          {
-            "name": "Metadata_visitor_id",
-            "value": "mhrtes3pc3zaizf95dq",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794234895,
+            "expirationDate": 1777823342,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           }
@@ -4695,11 +4491,10 @@
         "cookies": [
           {
             "name": "__cf_bm",
-            "value": "0Tzp1i2Id7hpOZWtPA8tc.td8ot3JjXCxerW8nH28Wc-1762698898-1.0.1.1-RYhR0s5rAMEMJxDRJjgvO0KA4jyVwYq6Y9QkUF7IUOnNx6JqHZ2UINd0cL9zMwT84.uHoo3Hfjkph3T_9mufo02E6ES5iVVP.DybKipbIN153Ue.PnwDHn8vgtvYWk_i",
+            "value": "QAhOnKg6ee_WRCFyVb8V6LUEfyItfo20BihOhyYo9S4-1762271667-1.0.1.1-kl83.ZTAQS4hlmLoB4klKrUJhvh4KjMNVZuALiQHLVUMCvj6F0A2sBKJWcfGW._j7h2JkL2WLZNv1yF8PxsVtUQwU_VWVDRjqigKlOVzmkLyewLxmO3hjBb8f.Gr46JV",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762700700.041521,
             "sameSite": "no_restriction",
             "domain": ".canva.com"
           },
@@ -4709,13 +4504,13 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1797258898,
+            "expirationDate": 1796831664,
             "sameSite": "lax",
             "domain": ".canva.com"
           },
           {
             "name": "_cfuvid",
-            "value": "QGF_ZbTkwM3U7npuTSd9Z5yYIkmRA5ddmieukuSRG2Q-1762698873371-0.0.1.1-604800000",
+            "value": "JTogmTOPjFm9Qf89diwsaTR5iyd1Q4XxJ.ZxCmNY1nY-1762271553725-0.0.1.1-604800000",
             "path": "/",
             "httpOnly": true,
             "secure": true,
@@ -4724,41 +4519,40 @@
           },
           {
             "name": "_fbp",
-            "value": "fb.1.1762698894733.270578108500739178",
+            "value": "fb.1.1762271590203.218397841823475154",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1797258913.523548,
-            "sameSite": "lax",
+            "expirationDate": 1770047693,
+            "sameSite": "no_restriction",
             "domain": ".canva.com"
           },
           {
             "name": "_ga",
-            "value": "GA1.1.1804054568.1762698895",
+            "value": "GA1.1.1917191075.1762271590",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1797258911.285886,
+            "expirationDate": 1796831691.020793,
             "sameSite": "no_restriction",
             "domain": ".canva.com"
           },
           {
             "name": "_ga_EPWEMH6717",
-            "value": "GS2.1.s1762698894$o1$g1$t1762698912$j42$l0$h114501890",
+            "value": "GS2.1.s1762271590$o1$g1$t1762271691$j51$l0$h910659236",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1797258912.984815,
+            "expirationDate": 1796831691.029194,
             "sameSite": "no_restriction",
             "domain": ".canva.com"
           },
           {
             "name": "_uetsid",
-            "value": "4253cc20bd7911f09a04c750a4bd3627",
+            "value": "5d062eb0b99611f0bac409390d6a2735",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762785311,
             "sameSite": "no_restriction",
             "domain": ".canva.com"
           },
@@ -4768,7 +4562,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1796394911,
+            "expirationDate": 1795967692,
             "sameSite": "no_restriction",
             "domain": ".canva.com"
           },
@@ -4778,57 +4572,56 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1765290909.625206,
+            "expirationDate": 1764863689.659901,
             "sameSite": "no_restriction",
             "domain": ".canva.com"
           },
           {
             "name": "CTC",
-            "value": "eyJBIjoxNzYyNjk4OTEwNTg5LCJCIjoxNzYyNjk4OTEwNTg5LCJEIjpmYWxzZSwiSSI6Wy01ODM2OSwzOTMxMzAzXSwiSiI6WzBdLCJLIjp0cnVlfQ==",
+            "value": "eyJBIjoxNzYyMjcxNjkyMDMyLCJCIjoxNzYyMjcxNjkyMDMyLCJEIjpmYWxzZSwiSSI6Wy01ODM2OSwzOTMxMzAzXSwiSiI6WzBdLCJLIjp0cnVlfQ==",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1778250912.159218,
+            "expirationDate": 1777823692.300204,
             "sameSite": "no_restriction",
             "domain": ".canva.com"
           },
           {
             "name": "CUI",
-            "value": "OKlqRPApNMXX3eU8MjTdtEGnFt9L8hkeX9tvkHgRFIhzIzPqLea63w0mjQL3Ka8p58J26w",
+            "value": "jX7d4DGlZoaYJZhHnTSCdy8_MYAMQy1-rBaa9RZ7UyCiiw3rE_lywVzN-_YXqmNss0XKzQ",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1765290909.624834,
+            "expirationDate": 1764863689.659688,
             "sameSite": "no_restriction",
             "domain": ".canva.com"
           },
           {
             "name": "FPAU",
-            "value": "1.2.426541491.1762698910",
+            "value": "1.2.522654598.1762271632",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1770474911.539661,
+            "expirationDate": 1770047632.321118,
             "sameSite": "no_restriction",
             "domain": ".canva.com"
           },
           {
             "name": "FPID",
-            "value": "FPID2.2.W0%2FbBVSMET3Z%2F3zVNcdslzLi%2F3VJxoKetAtQ%2F3kQUZo%3D.1762698895",
+            "value": "FPID2.2.UZiSK0to6J0jfArMhSzH%2FvuZ5mmE751QDmJuRAb8Pgk%3D.1762271590",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1797258913.523432,
+            "expirationDate": 1796831691.321028,
             "sameSite": "no_restriction",
             "domain": ".canva.com"
           },
           {
             "name": "FPLC",
-            "value": "0X0jWRD8k6QaswqUbCq1oojVU10NQcKPA%2F8llOshewdmwDMQTI58aeGrwqsn47sy4paYO0ptoC0P4fSoYPioHiedwArZhXwsSFLYP3oJvSFw1cwZjzQVdFJyvcLvqw%3D%3D",
+            "value": "LIiJ%2F2saEGS85tpnjKPJVYARU%2F8RN9i%2F3B9PDeUL2EW8OVVB7Gfp9wIE1myuVHaAWvQFARgMZ5LIutxldpE%2BTvx%2B%2BAHzrz%2F5VdkScyb1Q2ApJ0Zd7HAi%2F9tMKn3FXA%3D%3D",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762770895.062972,
             "sameSite": "no_restriction",
             "domain": ".canva.com"
           },
@@ -4838,126 +4631,124 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1797258898,
+            "expirationDate": 1796831664,
             "sameSite": "lax",
             "domain": ".www.canva.com"
           },
           {
-            "name": "__Host-LV",
-            "value": "C",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794234911.981206,
-            "sameSite": "no_restriction"
-          },
-          {
             "name": "ASI",
-            "value": "01K9MGMM4RZ6RAXJ4HYV3SNET6",
+            "value": "01K97S3TSZ0J2AZHVMEVYGB321",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762700717.948756,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
           {
             "name": "CAU",
-            "value": "eyJBIjoiVUFHM3lkbFhaWHciLCJCIjoiQkFHM3lSbGlmWEEifQ==",
+            "value": "eyJBIjoiVUFHMXRiUTREckkiLCJCIjoiQkFHMXRlTFpUdG8ifQ==",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1765290909.624175,
+            "expirationDate": 1764863689.659489,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
           {
             "name": "CAZ",
-            "value": "cnvankhZmXsFDCm_M4mo69uVO88ltp6T4xySrkcuRd3_SMNnfIWVO3HG9A7Osig41VQVDpGGy3tH2GcYJvEzUnD9BjjRkKTe2E4ZxLxYIKpIJw0nrXmtmnFRp3mqtc68jkJGw2Xl1h8QptmSIUWeRrmzbZXRxySiPdoZ78NXk1jU2lby_jJEgxvJqEifRTkkMyWoa9HXAEnPab9PSCWhxoRRCR3wFk3juFFO43jn0uLrSKSE1ws6Oqq-iEPAPDZ6etlcRtxQmZQbc2185a5",
+            "value": "cnvanAQlKjR65_bxrVPIFlz_Nys4xZb-RTAcJzLJ_XzfNBUGv_Kr6Nvo37X_uIQt-_Nwv9nHnJUafzP88sZ3V50xgF7koKt6X4L6P41GAOQxUHR_wTD2ShK67cDFZ5iR1pAHFnNnXhEQ01RUxODYqPPxdMxB3EKxu7emlJSTDXbFubNNh7YX9oK9VqcUAskp2_j1xZvBNuLpSXj6-3o00OTZxw5FJmxYG0H75rXvPer1GsRv4od7l0okXLFQu3lOFHH6i1AOJ5g616cc191",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1765290909.623568,
+            "expirationDate": 1764863689.6593,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
           {
             "name": "CB",
-            "value": "BAG3yRlifXA",
+            "value": "BAG1teLZTto",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1765290909.623947,
+            "expirationDate": 1764863689.659423,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
           {
             "name": "CCK",
-            "value": "YsdLoNn6cwqSElz-dfi2GQ",
+            "value": "MjPsalO3BESESqcpNIcFrQ",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762709696.753383,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "CDA",
+            "value": "cnvan6SWYCnjNoWrYlTIP5ySflmHKmzNJuXaFLyJh7Mg-u53PerPKKB8kyzVh0r7_VBse_-QJHNcHK5THcfpcroHoKK_5YXke0eHsbESWWbewJeUB_hdPp4TTxBTUxGWuKNQNhfjn1w2f627cbc",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1764863690.107527,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
           {
             "name": "CDI",
-            "value": "5fd6b98f-e32c-4c91-bdf7-336c06f700bf",
+            "value": "c0d213cf-9692-415b-ae22-5f67df7c31df",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1794234874.811996,
+            "expirationDate": 1793807554.021794,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
           {
             "name": "CID",
-            "value": "cnvanV4UfQr3DIkaHprUE2EIsIQRebOrqUTIOAhIT6QbHG-qxwuGFf1IwYRaX3g8lLu0elenTJmgKZGTynPp922-Xy48L45j3zu1MPm6obqdmD8RXvfvE110c7fe6",
+            "value": "cnvanolkngFnEhuKOX2P8YajO3sOU4k6AxNcCCOjXbls6f36qECd13rQs1OIL9wsfCS34DED7pnrLGITEjjhi51ly70WM0oPzTmuY4mvtWSqDUM9K2dfD5131fe1f",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1765290909.624648,
+            "expirationDate": 1764863689.659621,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
           {
             "name": "CL",
-            "value": "id-ID",
+            "value": "en",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1765290909.624355,
+            "expirationDate": 1764863690.107397,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
           {
             "name": "CUL",
-            "value": "cnvruhwq1hty961wKHvFtEYGaYPoE_i2c8kgptEydRHrqDwQDTgdY_XF7XwKxiZYQLLn7wANVBkRc3DUKf4RXCRGr27R0KOQ5e72ec48",
+            "value": "cnvrubH73-3SqFiksQlAmE5d92SfonmSmsW7gyXBs9RaBSZmbDRonJG7iTsqyaZVfU_-B4KzXg7ay7IKYLf9TTjTZwRL6eGUH5dPqStLKYVsBAAw79_OG9fdf4a85",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1794234909.625022,
+            "expirationDate": 1793807693.110393,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
           {
             "name": "g_state",
-            "value": "{\"i_l\":0,\"i_ll\":1762698891117,\"i_b\":\"WwTB68ArQIbQXgaNq0TT5P26tBQZaoMD4dP1EBRtf/w\"}",
+            "value": "{\"i_l\":0,\"i_ll\":1762271564094,\"i_b\":\"oAPYKO+NvrJnz8OnNuw2QxtqQbXCS8YYqIjw4oyCG0A\"}",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1778250891,
+            "expirationDate": 1777823564,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
           {
             "name": "gtm_custom_user_engagement",
-            "value": "{\"lock\":\"yes\",\"page\":2,\"landingPageURL\":\"https://www.canva.com/templates/\",\"newSession\":\"no\"}",
+            "value": "{\"lock\":\"yes\",\"page\":3,\"landingPageURL\":\"https://www.canva.com/templates\",\"newSession\":\"no\"}",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762700711,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
@@ -4967,37 +4758,34 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762713311,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
           {
             "name": "gtm_fpc_engagement_event",
-            "value": "{\"url\":\"https://www.canva.com/templates/\",\"ts\":1762698912079,\"utm_s\":-1,\"utm_m\":-1}",
+            "value": "{\"url\":\"https://www.canva.com/templates\",\"ts\":1762271690940,\"utm_s\":-1,\"utm_m\":-1}",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762713312,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
           {
             "name": "Metadata_session_id",
-            "value": "mhrtes3p84ja2td9crq",
+            "value": "mhkr05uzghumzbp1qa5",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762700719,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
           {
             "name": "Metadata_visitor_id",
-            "value": "mhrtes3pc3zaizf95dq",
+            "value": "mhkr05uzt702ounerv",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1794234895,
+            "expirationDate": 1793807590,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           }
@@ -5008,7 +4796,7 @@
   },
   {
     "meta": {
-      "id": "capcut-1012",
+      "id": "capcut-1011",
       "name": "CapCut",
       "icon": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxtHdRB6xk71KqOPxE23.XPiUcBp9_h5.Va3lapJy.K9tACxvjL4_WF3lJCLozay.Kx6V1mfBFaOOF4V5Rx4RHLY-&format=source",
       "url": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video",
@@ -5035,7 +4823,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762760555,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -5075,7 +4862,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762760555,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -5362,7 +5148,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762760555.701256,
             "sameSite": "no_restriction",
             "domain": "www.capcut.com"
           },
@@ -5445,7 +5230,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762760609,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -5485,7 +5269,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762760608,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -5772,7 +5555,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762760606.545283,
             "sameSite": "no_restriction",
             "domain": "www.capcut.com"
           },
@@ -5810,7 +5592,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762707599,
             "sameSite": "no_restriction",
             "domain": "www.capcut.com"
           },
@@ -5865,7 +5646,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762760619,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -5905,7 +5685,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762760619,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -6192,7 +5971,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762760617.39209,
             "sameSite": "no_restriction",
             "domain": "www.capcut.com"
           },
@@ -6230,7 +6008,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762707599,
             "sameSite": "no_restriction",
             "domain": "www.capcut.com"
           },
@@ -6285,7 +6062,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762760526,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -6325,7 +6101,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762760527,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -6612,7 +6387,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762760520.277305,
             "sameSite": "no_restriction",
             "domain": "www.capcut.com"
           },
@@ -6680,7 +6454,7 @@
   },
   {
     "meta": {
-      "id": "chat---hix-ai-1036",
+      "id": "chat---hix-ai-1031",
       "name": "Chat | HIX AI",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrXZQ0Wq17Y4CjDKiytXbd1hG39lu6u-rBsw&s",
       "url": "https://hix.ai/id/home",
@@ -16488,7 +16262,7 @@
   },
   {
     "meta": {
-      "id": "chutes-1013",
+      "id": "chutes-1012",
       "name": "Chutes",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuJ8v1EICNl78zLPEfHkAimzusUBWT7z2nTw&s",
       "url": "https://chutes.ai/app",
@@ -16670,47 +16444,7 @@
   },
   {
     "meta": {
-      "id": "codedex-1014",
-      "name": "Codedex",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2sH_6-EH9eaPT8YfscbEcq3-i1KLzvZ50JQ&s",
-      "url": "https://gracely011.github.io/hai/manual.html?name=Codedex&login=codedex@belajaar.id&password=CodedexMilikGroupy2025!&url=https://www.codedex.io/login",
-      "category": "productivity"
-    },
-    "cookies": [
-      {
-        "name": "dummy",
-        "value": "5",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "domain": "codedex.io"
-      }
-    ],
-    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Codedex&login=codedex@belajaar.id&password=CodedexMilikGroupy2025!&url=https://www.codedex.io/login"
-  },
-  {
-    "meta": {
-      "id": "consensus-1016",
-      "name": "Consensus",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRweoQJzl9iPGJqBYN-uOcjxdcH72RA9W1PKiCmAisHjg&s",
-      "url": "https://gracely011.github.io/hai/manual.html?name=Consensus&login=gd@belajaar.id&password=WeAreGroupy2025!&url=https://consensus.app/account",
-      "category": "education"
-    },
-    "cookies": [
-      {
-        "name": "dummy",
-        "value": "5",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "domain": "consensus.app"
-      }
-    ],
-    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Consensus&login=gd@belajaar.id&password=WeAreGroupy2025!&url=https://consensus.app/account"
-  },
-  {
-    "meta": {
-      "id": "coohom-1017",
+      "id": "coohom-1014",
       "name": "Coohom",
       "icon": "https://play-lh.googleusercontent.com/HWA5QTohakrzdjQnJWyPih_CDFubc9PZi0gW1v-eoopRUAGWpHspB-NeFBH3FQnQc6kz=w240-h480-rw",
       "url": "https://www.coohom.com/pub/saas/apps/project/list",
@@ -17026,7 +16760,7 @@
   },
   {
     "meta": {
-      "id": "course-hero-1018",
+      "id": "course-hero-1015",
       "name": "Course Hero",
       "icon": "https://play-lh.googleusercontent.com/FGtdclS6wXoOO9lA-9DkK9Skis0T-tY2SCFAl7wLX4ZDFSNO3RBADCEcnCMInsZCKlc",
       "url": "https://www.coursehero.com/dashboard/",
@@ -17329,7 +17063,7 @@
   },
   {
     "meta": {
-      "id": "coursera-1019",
+      "id": "coursera-1016",
       "name": "Coursera",
       "icon": "https://play-lh.googleusercontent.com/H8crzfriK6t5b0N5wXykhxMjPopyWGDZPaMJlvWlAKb7EG-26KGu15P_RnFDinBw1Jc",
       "url": "https://www.coursera.org/",
@@ -17684,7 +17418,7 @@
   },
   {
     "meta": {
-      "id": "crunchyroll-1020",
+      "id": "crunchyroll-1017",
       "name": "Crunchyroll",
       "icon": "https://groupy.id/assets/images/services/crunchyroll.png",
       "url": "https://www.crunchyroll.com/discover",
@@ -18068,7 +17802,7 @@
   },
   {
     "meta": {
-      "id": "cryptoquant-1021",
+      "id": "cryptoquant-1018",
       "name": "CryptoQuant",
       "icon": "https://cdn.prod.website-files.com/653c8107e2b70a34921d24fd/67a672f11fe6c47be600f037_cryptoquant.png",
       "url": "https://cryptoquant.com/asset/btc/summary",
@@ -18245,7 +17979,7 @@
   },
   {
     "meta": {
-      "id": "curiosity-stream-1022",
+      "id": "curiosity-stream-1019",
       "name": "Curiosity Stream",
       "icon": "https://play-lh.googleusercontent.com/YXqChSEFUdn1A9Jxu9sIZPwlyLYaA_sU_U_h-uW_RyXhEx1WzBNqNWcdNwC3WOGzjg",
       "url": "https://curiositystream.com/home",
@@ -19563,7 +19297,7 @@
   },
   {
     "meta": {
-      "id": "cursor-1023",
+      "id": "cursor-1020",
       "name": "Cursor",
       "icon": "https://miro.medium.com/v2/resize:fit:800/0*zWCTHFNFdGAgSw2d",
       "url": "https://cursor.com/dashboard",
@@ -19770,7 +19504,7 @@
   },
   {
     "meta": {
-      "id": "datacamp-1002",
+      "id": "datacamp-1001",
       "name": "DataCamp",
       "icon": "https://yt3.googleusercontent.com/ytc/AIdro_m6psai1Pd5oG3nGbw_hVfG-qmJ8R1ntco83MTXDf5cdoo=s900-c-k-c0x00ffffff-no-rj",
       "url": "https://app.datacamp.com/",
@@ -20088,7 +19822,7 @@
   },
   {
     "meta": {
-      "id": "deepseek-1024",
+      "id": "deepseek-1021",
       "name": "DeepSeek",
       "icon": "https://pbs.twimg.com/ext_tw_video_thumb/1875845724925206528/pu/img/4T7PkBumsEAjZeO9.jpg",
       "url": "https://notegpt.io/workspace/chat",
@@ -20235,7 +19969,7 @@
   },
   {
     "meta": {
-      "id": "duolingo-1025",
+      "id": "duolingo-1022",
       "name": "Duolingo",
       "icon": "https://www.langoly.com/wp-content/uploads/2020/03/Duolingo-app-icon.png",
       "url": "https://www.duolingo.com/learn",
@@ -20462,7 +20196,7 @@
   },
   {
     "meta": {
-      "id": "educative-1026",
+      "id": "educative-1023",
       "name": "Educative",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiHav_EAmaStXwVlYg4pL5sFbdOyKcRKefbg&s",
       "url": "https://www.educative.io/explore",
@@ -20962,7 +20696,7 @@
   },
   {
     "meta": {
-      "id": "elicit-1027",
+      "id": "elicit-1024",
       "name": "Elicit",
       "icon": "https://yt3.googleusercontent.com/ksfLLIjvy8Y5vvtAmnSzIeF-svAUzrZyJBs-YwCVZUZGct8XNDb6-KJSepMwCrcuFkb6b8oCczo=s900-c-k-c0x00ffffff-no-rj",
       "url": "https://elicit.com/library",
@@ -21073,7 +20807,7 @@
   },
   {
     "meta": {
-      "id": "epidemic-sound-1028",
+      "id": "epidemic-sound-1025",
       "name": "Epidemic Sound",
       "icon": "https://groupy.id/assets/images/services/epidemicsound.jpg",
       "url": "https://www.epidemicsound.com/music/featured/",
@@ -23489,7 +23223,7 @@
   },
   {
     "meta": {
-      "id": "everand-1029",
+      "id": "everand-1026",
       "name": "Everand",
       "icon": "https://play-lh.googleusercontent.com/i6RqZKwmmgvCq8FGoGewoEDWYq8Q2ghi8gUnWLBlPHmYCyRM4bl39YZTAoHu7mzU8vN7",
       "url": "https://www.everand.com/home",
@@ -23794,7 +23528,7 @@
   },
   {
     "meta": {
-      "id": "figma-1030",
+      "id": "figma-1027",
       "name": "Figma",
       "icon": "https://play-lh.googleusercontent.com/hoVBnPBRehmXsCqESLXRH2E3OTxklkwKZlb1psn7imm0VUSobn2nevS9RRFWb9GM4-o",
       "url": "https://www.figma.com/files/team/1560676200091399701/recents-and-sharing?fuid=1561637155941475997",
@@ -23803,62 +23537,42 @@
     "cookies": [
       {
         "name": "_clck",
-        "value": "mv135z%5E2%5Eg0u%5E0%5E2138",
+        "value": "1yq1cs6%5E2%5Eg0q%5E0%5E2134",
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1794149688,
-        "sameSite": "no_restriction",
-        "domain": ".figma.com"
-      },
-      {
-        "name": "_clsk",
-        "value": "gnroax%5E1762613690650%5E1%5E0%5Ea.clarity.ms%2Fcollect",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1762700090,
+        "expirationDate": 1793812643,
         "sameSite": "no_restriction",
         "domain": ".figma.com"
       },
       {
         "name": "_fbp",
-        "value": "fb.1.1762613688020.997022858346849348",
+        "value": "fb.1.1762276629516.125576006270207553",
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1770389688,
+        "expirationDate": 1770052642,
         "sameSite": "lax",
         "domain": ".figma.com"
       },
       {
         "name": "_gcl_au",
-        "value": "1.1.409022390.1762613688",
+        "value": "1.1.281520244.1762276642",
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1770389688,
+        "expirationDate": 1770052642,
         "sameSite": "no_restriction",
         "domain": ".figma.com"
       },
       {
         "name": "_rdt_uuid",
-        "value": "1762613687953.8123f274-6e86-4fa6-973f-d9549fcbe8e0",
+        "value": "1762276642140.0bae0678-4448-432c-bca0-3acecd3d875e",
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1770389687,
+        "expirationDate": 1770052642,
         "sameSite": "strict",
-        "domain": ".figma.com"
-      },
-      {
-        "name": "_uetsid",
-        "value": "d5b0bc70bcb211f0a869172a89e455e1",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1762700088,
-        "sameSite": "no_restriction",
         "domain": ".figma.com"
       },
       {
@@ -23867,73 +23581,73 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1796309688,
+        "expirationDate": 1795972642,
         "sameSite": "no_restriction",
         "domain": ".figma.com"
       },
       {
         "name": "ajs_anonymous_id",
-        "value": "%2213d8aaf7-021c-4465-bf06-b6566c516866%22",
+        "value": "%22545e4e85-bfce-44f4-aaf3-2f661ec371fd%22",
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1765205676,
+        "expirationDate": 1764868630,
         "sameSite": "no_restriction",
         "domain": ".figma.com"
       },
       {
         "name": "tatari-session-cookie",
-        "value": "8d0df92d-aa8b-da74-d316-6eb36fbf704a",
+        "value": "6a9f7379-07f1-d9f7-07df-f1b3b3eb9f71",
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1797173688.038417,
+        "expirationDate": 1796836642.224354,
         "sameSite": "no_restriction",
         "domain": ".figma.com"
       },
       {
         "name": "AWSALB",
-        "value": "PJRDxGbCdyFqXgT7O7EUPqL6RxhH5HsGPl6p9HTkn/9t4Z+Nc1v7x2mFAXx0xoCpWKNVMBeoH3jaFlwGCHGgFv9bHUCH3/YunLFdjN0JcmpCWb2wgDVzfPoUI6+k",
+        "value": "rwyVCAcsLS+3p+FT8M36lj62gSJ09B9zwYiZy2Cd3wqIzjnyfZT8HFDoJm2bTlCGD2Ku39c9kqzYQwiYRpX360nl3ooEoSRQXgsVYgGAEnW078CkBlVikYRVsUwr",
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1763218499.906413,
+        "expirationDate": 1762881448.785764,
         "sameSite": "no_restriction",
         "domain": ".www.figma.com"
       },
       {
         "name": "AWSALBCORS",
-        "value": "PJRDxGbCdyFqXgT7O7EUPqL6RxhH5HsGPl6p9HTkn/9t4Z+Nc1v7x2mFAXx0xoCpWKNVMBeoH3jaFlwGCHGgFv9bHUCH3/YunLFdjN0JcmpCWb2wgDVzfPoUI6+k",
+        "value": "rwyVCAcsLS+3p+FT8M36lj62gSJ09B9zwYiZy2Cd3wqIzjnyfZT8HFDoJm2bTlCGD2Ku39c9kqzYQwiYRpX360nl3ooEoSRQXgsVYgGAEnW078CkBlVikYRVsUwr",
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1763218499.906587,
+        "expirationDate": 1762881448.785852,
         "sameSite": "no_restriction",
         "domain": ".www.figma.com"
       },
       {
         "name": "AWSALBTG",
-        "value": "sTqhn9B/vRGhrZk1nJuUO0EJtwqs5sVozWvpAJjakEK028HDKOzayi8SBiBdwDivq/MrSJRBo2GLxsIt0YE8Zfsr415/rGy2mtowPhJAaD3r06nzJw3mgSohH2ashb7gxCIUGjUgXgp9aY4ilIqXNSvoTJbiEbWPmBDaozNbwGsY",
+        "value": "ou1I5bR4zd0B7T6Yfvcf0PXLg0qD562FaYUQambvf2ifM7xXtjJn93vKVGYi91FIdp+Q++RLcmOdkDvBbeSdE7AKxjPmepIOzRjmUMHE2x1vuqwvjcpRhZKTnQjbOE2g0F4fYjpnzLoISLuTn2+TOrLKbmYpKLiKv8ocAizkqFTy",
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1763218499.905521,
+        "expirationDate": 1762881448.785492,
         "sameSite": "no_restriction",
         "domain": ".www.figma.com"
       },
       {
         "name": "AWSALBTGCORS",
-        "value": "sTqhn9B/vRGhrZk1nJuUO0EJtwqs5sVozWvpAJjakEK028HDKOzayi8SBiBdwDivq/MrSJRBo2GLxsIt0YE8Zfsr415/rGy2mtowPhJAaD3r06nzJw3mgSohH2ashb7gxCIUGjUgXgp9aY4ilIqXNSvoTJbiEbWPmBDaozNbwGsY",
+        "value": "ou1I5bR4zd0B7T6Yfvcf0PXLg0qD562FaYUQambvf2ifM7xXtjJn93vKVGYi91FIdp+Q++RLcmOdkDvBbeSdE7AKxjPmepIOzRjmUMHE2x1vuqwvjcpRhZKTnQjbOE2g0F4fYjpnzLoISLuTn2+TOrLKbmYpKLiKv8ocAizkqFTy",
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1763218499.906171,
+        "expirationDate": 1762881448.785666,
         "sameSite": "no_restriction",
         "domain": ".www.figma.com"
       },
       {
         "name": "figma.auth_id",
-        "value": "ffpa_MThkMTRhNTktMGQ0YS00MTNlLWEzMTQtNWIyOTI1N2FjMTI2OmU0NThjNWRhNDJiYTg2MjZiMzI1ZmM1MDJhMTA4NzI0ODFhZGJlZjRiNDE4MjFlMGFmN2JkYWNkMjdiZWIxZTI",
+        "value": "ffpa_YzdkYTQ5YTMtODE2MC00MzMyLWFmNDYtN2YyOWQ3OGZmZmM3OmZmYmM0NzIxYWRhNWYwZjQwNzVjOWI1OTVkNDlmYWE3YjMxYjYwOGU2MjM3ZmM3OTY2ZGVhMDcwYmJhNjE1YmU",
         "path": "/",
         "httpOnly": true,
         "secure": true,
@@ -23946,27 +23660,27 @@
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1766069695.221575,
+        "expirationDate": 1765732643.836954,
         "sameSite": "lax",
         "domain": ".www.figma.com"
       },
       {
         "name": "figma.session",
-        "value": "BAh7CEkiD3Nlc3Npb25faWQGOgZFVG86HVJhY2s6OlNlc3Npb246OlNlc3Npb25JZAY6D0BwdWJsaWNfaWRJIkVhMTYyYzZhMWJiNzg0YTQxMGQ2YzYxNjEzMDczZTRkMTFmOWRhYjUxNDBmMmU3NWIyOTVhY2NiMzRkY2U0ZWUzBjsARkkiCmZsYXNoBjsARnsASSINdXNlcm5hbWUGOwBGSSIVdXNlckBwcmVtMXVtLnh5egY7AFQ%3D--d51f916e4c9667da947bea53815f801fbb868e2f",
+        "value": "BAh7CEkiD3Nlc3Npb25faWQGOgZFVG86HVJhY2s6OlNlc3Npb246OlNlc3Npb25JZAY6D0BwdWJsaWNfaWRJIkViZjExZjEwMDcwZjM2MzVlMzFjODFhNGExYjFlOGZhMGMwYzJlNTkzNDRlOTBlYmE4OTliZGEwMWM3NjQ1NTZlBjsARkkiCmZsYXNoBjsARnsASSINdXNlcm5hbWUGOwBGSSIVdXNlckBwcmVtMXVtLnh5egY7AFQ%3D--42411d25b8d0eb9eb0cb2924909e52e5fe3a732a",
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1766143923.584432,
+        "expirationDate": 1765886240.127786,
         "sameSite": "lax",
         "domain": ".www.figma.com"
       },
       {
         "name": "IP_ADDRESS_CONTROLS",
-        "value": "Px-Fwn39uCCc5RnCWSQypOyu5nfX6IHX.pRGb1efiskBzXWLCO-1KRKUSUFcZy_TxHfVy9yr2zEF7cuX41-fvX-F3t2PlvhDaND3JBMrgVPhNIDitnGbuYq6OVN7D_IWJgVOVt7T-C2G1Fx5qkYictECP-A%3D%3D",
+        "value": "peCdnOvVsHUZ0eZqgHmTUUO6ZcV3O6ZZ.l55YLB4mTJZCbjtDKGa7YdUhV06vxhc59gvlsvRbdC0TFWZTth-fUNLSI5qa4uHRYzCGsxg_8LIdnihk4M_lPafmVwG6r7XI2dfnqbN3wJAqaNrbgeDKJOPP",
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1766143911.798928,
+        "expirationDate": 1765886225.991783,
         "sameSite": "lax",
         "domain": ".www.figma.com"
       },
@@ -23976,7 +23690,7 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1794149694.39659,
+        "expirationDate": 1793812642.002155,
         "sameSite": "lax",
         "domain": ".www.figma.com"
       },
@@ -23986,7 +23700,7 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1765205707,
+        "expirationDate": 1764868652,
         "sameSite": "lax",
         "domain": ".www.figma.com"
       },
@@ -23996,17 +23710,17 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1763218499.905521,
+        "expirationDate": 1762881448.785492,
         "sameSite": "no_restriction",
         "domain": ".www.figma.com"
       },
       {
         "name": "__Host-figma.authn",
-        "value": "%7B%221561637155941475997%22%3A%22figtkn.4368645419.authn.7yC612CTvpjnPP3mF5UDES%22%7D",
+        "value": "%7B%221561637155941475997%22%3A%22figtkn.4349127330.authn.heneL6yj41NcB1hdTAFjmQ%22%7D",
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1766069695.221422,
+        "expirationDate": 1765732642.836789,
         "sameSite": "lax"
       },
       {
@@ -24015,82 +23729,82 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1766069695.221458,
+        "expirationDate": 1765732642.836829,
         "sameSite": "lax"
       },
       {
         "name": "__Host-figma.authn.mac",
-        "value": "1.eyJwbGFuIjoicHJvIiwiZXhwaXJlc19hdCI6MTc2Nzc5NzY5NH0.7a054bf6df7b4d25d01cdc55f19d142a971722b723611c1dfdcf9a0649c59590",
+        "value": "1.eyJwbGFuIjoicHJvIiwiZXhwaXJlc19hdCI6MTc2NzQ2MDY0M30.6a471b537feaf8a9e51e701e21a88057df25d23dbeb9820325f770a64d5d42e6",
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1766069695.221488,
+        "expirationDate": 1765732642.836863,
         "sameSite": "lax"
       },
       {
         "name": "__Host-figma.did",
-        "value": "MTc2MjYxMzY3NQ.UOQ11YWm8jNOgIcT5oLcoqVcdPrqAuh90JOQudMljX4.2hVLOkYUiQ5pSbuJnodh%2FnIk8X84h3QL8kELTAf2jrE",
+        "value": "MTc2MjI3NjYzMA.qbu2QGBJn3yHsMMUZrTUipwmWRCARNCg3UQqfTfx4Fs.bsV1%2BUJs7PB%2Frtbfa0C9%2Bl3SQrQX%2FPJuBnr55%2FTA4AE",
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1794149676.134489,
+        "expirationDate": 1793812630.457794,
         "sameSite": "lax"
       },
       {
         "name": "__Host-figma.embed",
-        "value": "%7B%221561637155941475997%22%3A%22figtkn.4368645420.embed.bP6JMidUUhLMxWMV6EVrrP%22%7D",
+        "value": "%7B%221561637155941475997%22%3A%22figtkn.4349127333.embed.DsvAUjQ8IVx3QXqGewPJq0%22%7D",
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1766069695.221518,
+        "expirationDate": 1765732642.836894,
         "sameSite": "no_restriction"
       },
       {
         "name": "__Host-figma.embed.mac",
-        "value": "1.eyJwbGFuIjoicHJvIiwiZXhwaXJlc19hdCI6MTc2Nzc5NzY5NH0.012c18e37c78b3f8b9a2271389e204efd948b98b50ee7084fa397ccb05d3f471",
+        "value": "1.eyJwbGFuIjoicHJvIiwiZXhwaXJlc19hdCI6MTc2NzQ2MDY0NH0.4ab5764a0796e46ac761848e6184559a8623f4f82393e9129708dbcaba817061",
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1766069695.221546,
+        "expirationDate": 1765732643.836924,
         "sameSite": "no_restriction"
       },
       {
         "name": "AWSALB",
-        "value": "btVzA2Z53BsPEpi9t5G9mX9/IecT9L2MGNeghQTtSJRmvKfQWrfbVmYySSkUMTYYErdSjaKEbm6Ers/3laFd7+4g7N0aISDQd6SzezAUxMdYhfJOTh7t/mC5Piev",
+        "value": "OWutqE2v4hw6pbE7WNFAUhabpj9G85YFPnCtzI0Amz24F/MU9wq2oBdnM74NOBc7SKFbQJbjXI/RNUvjhAbNFex8el2N4OVz42uzN4cWSApxSa+Yi77rJV397CBH",
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1763292716.066337,
+        "expirationDate": 1763035029.41301,
         "sameSite": "no_restriction",
         "domain": "www.figma.com"
       },
       {
         "name": "AWSALBCORS",
-        "value": "btVzA2Z53BsPEpi9t5G9mX9/IecT9L2MGNeghQTtSJRmvKfQWrfbVmYySSkUMTYYErdSjaKEbm6Ers/3laFd7+4g7N0aISDQd6SzezAUxMdYhfJOTh7t/mC5Piev",
+        "value": "OWutqE2v4hw6pbE7WNFAUhabpj9G85YFPnCtzI0Amz24F/MU9wq2oBdnM74NOBc7SKFbQJbjXI/RNUvjhAbNFex8el2N4OVz42uzN4cWSApxSa+Yi77rJV397CBH",
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1763292716.066357,
+        "expirationDate": 1763035029.413029,
         "sameSite": "no_restriction",
         "domain": "www.figma.com"
       },
       {
         "name": "AWSALBTG",
-        "value": "Dfp6D1DIeHClT1mvQ9ErCWksCWDarNRhbISuhFOAvHxwL+56rdn/dC56b4Resf8J5KRdV+DRFLejPJYENjsXC30WE6YmwELg6Z0TEEZ4foWMeRZ+wrX9B/v0K0wHF1aDqcd2iW18cLNwoo4q56iAT629rkm+zCYYkCrk7hWKsqXC",
+        "value": "TAdm6gfPg+rlbeByvrSEdARcavZUCFctmToTXg3LELvFmVauEfeFkQG7Nkjdi8ngtTgIJaGXsn6ElecxsfWnEqjRIjfNfPXCZ+P7m4QA/JznyIksQxNo9wbNGr1pFREfcLm5GbEP6mc7RKlZNzH1vpgvNxajbQzbyU2Cc67xtw80",
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1763292716.066261,
+        "expirationDate": 1763035029.412933,
         "sameSite": "no_restriction",
         "domain": "www.figma.com"
       },
       {
         "name": "AWSALBTGCORS",
-        "value": "Dfp6D1DIeHClT1mvQ9ErCWksCWDarNRhbISuhFOAvHxwL+56rdn/dC56b4Resf8J5KRdV+DRFLejPJYENjsXC30WE6YmwELg6Z0TEEZ4foWMeRZ+wrX9B/v0K0wHF1aDqcd2iW18cLNwoo4q56iAT629rkm+zCYYkCrk7hWKsqXC",
+        "value": "TAdm6gfPg+rlbeByvrSEdARcavZUCFctmToTXg3LELvFmVauEfeFkQG7Nkjdi8ngtTgIJaGXsn6ElecxsfWnEqjRIjfNfPXCZ+P7m4QA/JznyIksQxNo9wbNGr1pFREfcLm5GbEP6mc7RKlZNzH1vpgvNxajbQzbyU2Cc67xtw80",
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1763292716.066313,
+        "expirationDate": 1763035029.412984,
         "sameSite": "no_restriction",
         "domain": "www.figma.com"
       }
@@ -24099,7 +23813,7 @@
   },
   {
     "meta": {
-      "id": "flaticon-1031",
+      "id": "flaticon-1028",
       "name": "Flaticon",
       "icon": "https://groupy.id/assets/images/services/flaticon.png",
       "url": "https://www.flaticon.com/profile/me",
@@ -25071,7 +24785,7 @@
   },
   {
     "meta": {
-      "id": "grammarly-1003",
+      "id": "grammarly-1002",
       "name": "Grammarly",
       "icon": "https://groupy.id/assets/images/services/grammarly.png",
       "url": "https://app.grammarly.com/",
@@ -25745,27 +25459,7 @@
   },
   {
     "meta": {
-      "id": "ground-news-1032",
-      "name": "Ground News",
-      "icon": "https://play-lh.googleusercontent.com/61Y1REKFBgC1C6YxQwZA56516gR1zCw-HIaNyP_WV_MnR6Fuofzd8-uWBHzKxZP7mwM",
-      "url": "https://gracely011.github.io/hai/manual.html?name=Ground%20News&login=news@belajaar.id&password=NewsGroupy2025!&url=https://ground.news/login",
-      "category": "productivity"
-    },
-    "cookies": [
-      {
-        "name": "dummy",
-        "value": "5",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "domain": "ground.news"
-      }
-    ],
-    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Ground%20News&login=news@belajaar.id&password=NewsGroupy2025!&url=https://ground.news/login"
-  },
-  {
-    "meta": {
-      "id": "guitartricks-1033",
+      "id": "guitartricks-1029",
       "name": "GuitarTricks",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlrIfBbD7fof4ZwKxkeWgU0t2u1lK7x_nPrA&s",
       "url": "https://www.guitartricks.com/home",
@@ -26110,47 +25804,7 @@
   },
   {
     "meta": {
-      "id": "hbo-max-1034",
-      "name": "HBO Max",
-      "icon": "https://play-lh.googleusercontent.com/bvyVXgpxu65YO3PNeVhNM9Y7ao7g7FnnKdoNXcwqO48aOlVvnH_b2O9rcZzgEFHzHtI",
-      "url": "https://gracely011.github.io/hai/manual.html?name=HBO%20Max%202&login=hbo01@belajaar.id&password=HBOgroupy2025!&url=https://play.max.com",
-      "category": "streaming",
-      "isGroup": true
-    },
-    "accounts": [
-      {
-        "name": "HBO Max 1",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "hbo.com"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=HBO%20Max%202&login=hbo01@belajaar.id&password=HBOgroupy2025!&url=https://play.max.com"
-      },
-      {
-        "name": "HBO Max 2",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "hbo.com"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=HBO%20Max%202&login=hbo01@belajaar.id&password=HBOgroupy2025!&url=https://play.max.com"
-      }
-    ]
-  },
-  {
-    "meta": {
-      "id": "iflix-1038",
+      "id": "iflix-1033",
       "name": "iflix",
       "icon": "https://play-lh.googleusercontent.com/_j_9jVM50j43oII8sejBsK4DkHXxFw_MYUQOcHNjgX7SgJMQiLUsa8BuKWGK_84H_OE",
       "url": "https://www.iflix.com/en",
@@ -26173,7 +25827,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762701847,
         "sameSite": "no_restriction",
         "domain": ".iflix.com"
       },
@@ -26303,7 +25956,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762701847.855225,
         "sameSite": "no_restriction",
         "domain": ".iflix.com"
       },
@@ -26528,7 +26180,7 @@
   },
   {
     "meta": {
-      "id": "iloveimg-1039",
+      "id": "iloveimg-1034",
       "name": "iLoveIMG",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVjyJOS7PN-2Xh37-pXo0aOghZLt45Fa2UBw&s",
       "url": "https://www.iloveimg.com/",
@@ -26690,7 +26342,7 @@
   },
   {
     "meta": {
-      "id": "ilovepdf-1040",
+      "id": "ilovepdf-1035",
       "name": "iLovePDF",
       "icon": "https://play-lh.googleusercontent.com/I5yxs1Pspu1rB3NPfqnoX2NscvfzAW7e3Zq5GGhXcr2g207X9-npiuP48Ys7107M1VvA",
       "url": "https://www.ilovepdf.com/",
@@ -26843,7 +26495,7 @@
   },
   {
     "meta": {
-      "id": "iqiyi-1041",
+      "id": "iqiyi-1036",
       "name": "iQIYI",
       "icon": "https://groupy.id/assets/images/services/iqiyi.png",
       "url": "https://www.iq.com/",
@@ -27497,7 +27149,7 @@
   },
   {
     "meta": {
-      "id": "linkedin-learning-1043",
+      "id": "linkedin-learning-1038",
       "name": "LinkedIn Learning",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4fcdsIUPUgmbvGaP-RC4RbHYdVtoN_fM8aya_8gOXI2BRtClESO-0_jgWTtKtIVmOQKs&usqp=CAU",
       "url": "https://www.linkedin.com/learning/?u=73723940",
@@ -27768,7 +27420,7 @@
   },
   {
     "meta": {
-      "id": "marvel-unlimited-1044",
+      "id": "marvel-unlimited-1039",
       "name": "Marvel Unlimited",
       "icon": "https://play-lh.googleusercontent.com/ikcy-XJG8_oFwVztH9vK3y--_mUcRu5zyco7d4FqugxzSkX9wMo63oBDPLWZnUsYDg",
       "url": "https://www.marvel.com/comics/unlimited/home",
@@ -28044,7 +27696,7 @@
   },
   {
     "meta": {
-      "id": "masterclass-1045",
+      "id": "masterclass-1040",
       "name": "MasterClass",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeoBuunz4xK_-2t35N6astSudIfb7Bnr0R6HDcwoqbzmzOcuNpiZdiRFRv&s=10",
       "url": "https://www.masterclass.com/profiles",
@@ -28453,7 +28105,7 @@
   },
   {
     "meta": {
-      "id": "medium-1046",
+      "id": "medium-1041",
       "name": "Medium",
       "icon": "https://miro.medium.com/v2/resize:fill:128:128/1*sHhtYhaCe2Uc3IU0IgKwIQ.png",
       "url": "https://medium.com/",
@@ -28532,27 +28184,7 @@
   },
   {
     "meta": {
-      "id": "mentimeter-1047",
-      "name": "Mentimeter",
-      "icon": "https://images.saasworthy.com/mentimeter_870_logo_1600681783_e5oqu.png",
-      "url": "https://gracely011.github.io/hai/manual.html?name=Mentimeter&login=mentimeter@prem1um.xyz&password=MentimeterGroupy2025!&url=https://www.mentimeter.com/app/home",
-      "category": "productivity"
-    },
-    "cookies": [
-      {
-        "name": "dummy",
-        "value": "1",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "domain": "mentimeter.com"
-      }
-    ],
-    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Mentimeter&login=mentimeter@prem1um.xyz&password=MentimeterGroupy2025!&url=https://www.mentimeter.com/app/home"
-  },
-  {
-    "meta": {
-      "id": "mermaidchart-1048",
+      "id": "mermaidchart-1042",
       "name": "Mermaidchart",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPMgbHVXJCw0zQzk3DtR607-823YIxR1Zi_Q&s",
       "url": "https://www.mermaidchart.com/app/dashboard",
@@ -28728,7 +28360,7 @@
   },
   {
     "meta": {
-      "id": "motion-array-1049",
+      "id": "motion-array-1043",
       "name": "Motion Array",
       "icon": "https://s3-eu-west-1.amazonaws.com/tpd/logos/5b1e60b2b50df6000112eb83/0x0.png",
       "url": "https://motionarray.com/account/downloads/",
@@ -29069,7 +28701,7 @@
   },
   {
     "meta": {
-      "id": "mubi-1050",
+      "id": "mubi-1044",
       "name": "Mubi",
       "icon": "https://images.mubicdn.net/images/avatars/169655/cache-169655-1620041787/images-large.png?size=800x",
       "url": "https://mubi.com/en/id/showing",
@@ -29421,7 +29053,7 @@
   },
   {
     "meta": {
-      "id": "musicbed-1052",
+      "id": "musicbed-1046",
       "name": "Musicbed",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMRzHPEXnSURkOyU9StcI8BZPOTeqzvcJP_A&s",
       "url": "https://www.musicbed.com/songs",
@@ -29664,7 +29296,7 @@
   },
   {
     "meta": {
-      "id": "netflix-1054",
+      "id": "netflix-1048",
       "name": "Netflix",
       "icon": "https://groupy.id/assets/images/services/netflix.png",
       "url": "https://www.netflix.com/browse",
@@ -29691,7 +29323,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762759745.069451,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -29787,7 +29418,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762759757.1543,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -29883,7 +29513,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762759780.225523,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -29979,7 +29608,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762759789.58959,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -30045,7 +29673,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762759803.780879,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -30141,7 +29768,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762759812.690966,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -30237,7 +29863,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762759822.623816,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -30333,7 +29958,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762759833.921178,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -30429,7 +30053,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762759842.554967,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -30525,7 +30148,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762759857.922516,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -30621,7 +30243,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762759867.623305,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -30717,7 +30338,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762759887.417302,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -30813,7 +30433,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762759902.213727,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -30909,7 +30528,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762759913.145671,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -31005,7 +30623,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762759923.205815,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -31101,7 +30718,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762759932.871652,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -31197,7 +30813,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762759941.30152,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -31293,7 +30908,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762759949.491024,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -31389,7 +31003,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762759959.808245,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -31485,7 +31098,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762759974.395878,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -31581,7 +31193,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762759994.855941,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -31677,7 +31288,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762760004.588562,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -31773,7 +31383,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762760013.581676,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -31869,7 +31478,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762760021.91821,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -31965,7 +31573,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762760030.067821,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -32061,7 +31668,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762760038.615201,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -32157,7 +31763,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762760048.583835,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -32253,7 +31858,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762760057.727941,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -32349,7 +31953,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762760066.95499,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -32445,7 +32048,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762760074.704439,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -32541,7 +32143,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762760082.792203,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -32637,7 +32238,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1762759732.162192,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -32718,7 +32318,7 @@
   },
   {
     "meta": {
-      "id": "notegpt-1055",
+      "id": "notegpt-1049",
       "name": "NoteGPT",
       "icon": "https://10web.io/wp-content/uploads/2024/08/NoteGPT_logo.jpg",
       "url": "https://notegpt.io/workspace/home",
@@ -32760,7 +32360,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762760449,
         "sameSite": "no_restriction",
         "domain": ".notegpt.io"
       },
@@ -32857,7 +32456,7 @@
   },
   {
     "meta": {
-      "id": "notion-1056",
+      "id": "notion-1050",
       "name": "Notion",
       "icon": "https://play-lh.googleusercontent.com/vy-9s86d-81wk1acsXvAxN1xV5Y-doJdgbskG3GonOerbUwUtvNXk_XSRHoraaXZcX4",
       "url": "https://www.notion.so/Groupy-d01df0db902a828989ae01f13a61d8f1",
@@ -33085,7 +32684,7 @@
   },
   {
     "meta": {
-      "id": "pacdora-1057",
+      "id": "pacdora-1051",
       "name": "Pacdora",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9l1bvE2alHZrnR4bmSsbK2KjHemNk_p4Dsf-GVh6-5hFtZgugYYNfQfo0L3CQxZqdLC4&usqp=CAU",
       "url": "https://www.pacdora.com/my-design",
@@ -33233,7 +32832,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762739778.546036,
         "sameSite": "no_restriction",
         "domain": ".pacdora.com"
       },
@@ -33243,7 +32841,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762739778.546086,
         "sameSite": "no_restriction",
         "domain": ".pacdora.com"
       },
@@ -34121,61 +33718,7 @@
   },
   {
     "meta": {
-      "id": "picsart-1058",
-      "name": "Picsart",
-      "icon": "https://play-lh.googleusercontent.com/1JMJ518jogwPeaD0pYn2mBu1cRLD0xRi45wNbtTIRvam1_xx-y3KJOjRAx-W9P4Lf0U=s256-rw",
-      "url": "https://gracely011.github.io/hai/manual.html?name=Picsart&login=turner@wareyk.com&password=Premium@123&url=https://picsart.com",
-      "category": "design",
-      "isGroup": true
-    },
-    "accounts": [
-      {
-        "name": "Picsart 1",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "picsart.com"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Picsart&login=turner@wareyk.com&password=Premium@123&url=https://picsart.com"
-      },
-      {
-        "name": "Picsart 2",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "picsart.com"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Picsart%202&login=mckinn@wareyk.com&password=Premium@123&url=https://picsart.com"
-      },
-      {
-        "name": "Picsart 3",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "picsart.com"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Picsart%203&login=thomps@wareyk.com&password=Premium@123&url=https://picsart.com"
-      }
-    ]
-  },
-  {
-    "meta": {
-      "id": "prezi-ai-1059",
+      "id": "prezi-ai-1052",
       "name": "Prezi AI",
       "icon": "https://play-lh.googleusercontent.com/3rVZ7Lc7-bxsALDo0nWOcuojR9ISxlhO20KnVM3uP00drxIXXt7ATM0V5-YjfM0pPtA",
       "url": "https://prezi.com/dashboard/next/",
@@ -35626,7 +35169,7 @@
   },
   {
     "meta": {
-      "id": "productioncrate-1060",
+      "id": "productioncrate-1053",
       "name": "ProductionCrate",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd_sbW5wMx4hP2Y8wrJkjxjlSbrpy5f1Zgbw&s",
       "url": "https://www.productioncrate.com/",
@@ -35736,7 +35279,7 @@
   },
   {
     "meta": {
-      "id": "quizlet-1061",
+      "id": "quizlet-1054",
       "name": "Quizlet",
       "icon": "https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/szx9duflfycmltpnvcvw",
       "url": "https://quizlet.com/latest",
@@ -36163,7 +35706,7 @@
   },
   {
     "meta": {
-      "id": "rawpixel-1062",
+      "id": "rawpixel-1055",
       "name": "Rawpixel",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq1xJnAZa_h6WueAi4mr73cH3K7_pGeTz6Gw&s",
       "url": "https://www.rawpixel.com/",
@@ -36235,7 +35778,7 @@
   },
   {
     "meta": {
-      "id": "relume-1063",
+      "id": "relume-1056",
       "name": "Relume",
       "icon": "https://yt3.googleusercontent.com/MGRbvVhtCttJ7i2qW3igFxIJSkeoaRln_mIAFAfDgZIFD1yNUQC5mn1a5VqXKzcqRmAuDswu=s900-c-k-c0x00ffffff-no-rj",
       "url": "https://www.relume.io/",
@@ -36375,7 +35918,7 @@
   },
   {
     "meta": {
-      "id": "scholarcy-1042",
+      "id": "scholarcy-1037",
       "name": "Scholarcy",
       "icon": "https://yt3.googleusercontent.com/ytc/AIdro_kqv2zcFC4lZDK0qSXEbuI1Kcs5wYJoLmONwCf9QX3Qoc4=s900-c-k-c0x00ffffff-no-rj",
       "url": "https://library.scholarcy.com/home",
@@ -36496,75 +36039,7 @@
   },
   {
     "meta": {
-      "id": "scite-1064",
-      "name": "Scite",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHo4BcTYbuMiQFR7oUYKZy6zjOgzEORDrzeie96OS1sj3Ur0LpoCPV_ts&s=10",
-      "url": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Scite&login=sct@tokito.xyz&password=Sc1teGroupy%&url=https://scite.ai/assistant",
-      "category": "productivity",
-      "isGroup": true
-    },
-    "accounts": [
-      {
-        "name": "Scite 1",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "scite.ai"
-          }
-        ],
-        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Scite&login=sct@tokito.xyz&password=Sc1teGroupy%&url=https://scite.ai/assistant"
-      },
-      {
-        "name": "Scite 2",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "scite.ai"
-          }
-        ],
-        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Scite%202&login=groupypro@belajaar.id&password=MilikGroupy2025!&url=https://scite.ai/assistant"
-      },
-      {
-        "name": "Scite 3",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "scite.ai"
-          }
-        ],
-        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Scite%203&login=gpyscite@meeow.xyz&password=MilikGroupy2025!&url=https://scite.ai/assistant"
-      },
-      {
-        "name": "Scite 4",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "scite.ai"
-          }
-        ],
-        "sourceUrl": "https://petrusperdana1.github.io/tpsyunix/manual.html?name=Scite%204&login=grou@meeow.xyz&password=MilikGroupy2025!&url=https://scite.ai/assistant"
-      }
-    ]
-  },
-  {
-    "meta": {
-      "id": "scribd-1065",
+      "id": "scribd-1057",
       "name": "Scribd",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRebq-8lrzgXjVWMvUDApp_q1MhiL5eSyO15VAHMuNaE4RbrPi-f7c2NMc&s=10",
       "url": "https://www.scribd.com/home",
@@ -37807,7 +37282,7 @@
   },
   {
     "meta": {
-      "id": "semrush-1066",
+      "id": "semrush-1058",
       "name": "Semrush",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7TPtYsfoyLxuSORs6sqgApBGYHOx1aZ43ra1DqBNb8BRYz4ciWF4Mg9uR&s=10",
       "url": "https://www.semrush.com/home/",
@@ -39629,7 +39104,7 @@
   },
   {
     "meta": {
-      "id": "sider-ai-1067",
+      "id": "sider-ai-1059",
       "name": "Sider AI",
       "icon": "https://play-lh.googleusercontent.com/VghuZRn0-oLvbaGqptsM-9Qr6Ka7Pmw7lfmu6_UQ56mZS6bsXbET9Uf0wF0FECP8lEM",
       "url": "https://sider.ai/chat",
@@ -39913,7 +39388,7 @@
   },
   {
     "meta": {
-      "id": "skillshare-1068",
+      "id": "skillshare-1060",
       "name": "Skillshare",
       "icon": "https://groupy.id/assets/images/services/skillshare.png",
       "url": "https://www.skillshare.com/en/home",
@@ -40237,7 +39712,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1762761898.753722,
         "sameSite": "lax",
         "domain": ".www.skillshare.com"
       },
@@ -40294,7 +39768,7 @@
   },
   {
     "meta": {
-      "id": "slidesgo-1069",
+      "id": "slidesgo-1061",
       "name": "Slidesgo",
       "icon": "https://cdn-icons-png.flaticon.com/512/14649/14649063.png",
       "url": "https://slidesgo.com/profile/downloads",
@@ -41011,7 +40485,7 @@
   },
   {
     "meta": {
-      "id": "slideshare-1070",
+      "id": "slideshare-1062",
       "name": "Slideshare",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFu2smlszvneX1otpsXxgwhKyPha7Boi8VJg&s",
       "url": "https://www.slideshare.net/",
@@ -41209,27 +40683,7 @@
   },
   {
     "meta": {
-      "id": "sololearn-1071",
-      "name": "Sololearn",
-      "icon": "https://play-lh.googleusercontent.com/zxbe_H6JVg6ZnIeA1xorxxXr416kKdShmyonBzi5Qe28-GNdczX-NST_ul0AQJ007OA",
-      "url": "https://gracely011.github.io/hai/manual.html?name=Sololearn&login=sololearn@belajaar.id&password=WeAreGroupy2025!&url=https://www.sololearn.com/en/users/login",
-      "category": "education"
-    },
-    "cookies": [
-      {
-        "name": "dummy",
-        "value": "5",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "domain": "sololearn.com"
-      }
-    ],
-    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Sololearn&login=sololearn@belajaar.id&password=WeAreGroupy2025!&url=https://www.sololearn.com/en/users/login"
-  },
-  {
-    "meta": {
-      "id": "sora-1072",
+      "id": "sora-1063",
       "name": "Sora",
       "icon": "https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/sora-color.png",
       "url": "https://sora.chatgpt.com/explore",
@@ -54716,7 +54170,7 @@
   },
   {
     "meta": {
-      "id": "speechify-1005",
+      "id": "speechify-1004",
       "name": "Speechify",
       "icon": "https://play-lh.googleusercontent.com/W0GcGHbSPEA2VBf8CM-SoRG9yYS2RwxgPM9Q25MmhmU6YzJ2t8lHIAnejL0nL9LvYwMx",
       "url": "https://app.speechify.com/",
@@ -54963,27 +54417,7 @@
   },
   {
     "meta": {
-      "id": "storytribe-1073",
-      "name": "StoryTribe",
-      "icon": "https://media.licdn.com/dms/image/v2/D560BAQGFNn9uuWNKvA/company-logo_200_200/B56ZWE4DUHGUAU-/0/1741691041788/storytribeapp_logo?e=2147483647&v=beta&t=3qm4zJ4TSorw5yxfeP9WtXnDj_DKgiqhVZeGH42wT7g",
-      "url": "https://gracely011.github.io/hai/manual.html?name=StoryTribe&login=beapp@prem1um.xyz&password=MilikGroupy2025!&url=https://storytribeapp.com/login-signup",
-      "category": "productivity"
-    },
-    "cookies": [
-      {
-        "name": "dummy",
-        "value": "5",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "domain": "storytribe.app"
-      }
-    ],
-    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=StoryTribe&login=beapp@prem1um.xyz&password=MilikGroupy2025!&url=https://storytribeapp.com/login-signup"
-  },
-  {
-    "meta": {
-      "id": "studocu-1074",
+      "id": "studocu-1064",
       "name": "Studocu",
       "icon": "https://play-lh.googleusercontent.com/20ssDWF3SWEXIFYy8iFwXjomuIqtuHjGc3OxIWqVojIaeo_9_XxUZEDdmm5YPreLucij",
       "url": "https://www.studocu.com/en-us/home",
@@ -55373,7 +54807,7 @@
   },
   {
     "meta": {
-      "id": "svgator-1006",
+      "id": "svgator-1005",
       "name": "SVGator",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXMLBuRJYssEV7zT3Lh8qRl-h2zuHgyEz2HA&s",
       "url": "https://app.svgator.com/",
@@ -55520,7 +54954,7 @@
   },
   {
     "meta": {
-      "id": "symbolab-1075",
+      "id": "symbolab-1065",
       "name": "Symbolab",
       "icon": "https://play-lh.googleusercontent.com/DKlax_iJQtJOKJlIPDSS7DZpbm9gCkHh3vWgrj8BOMRwDPDVKXdTQf9sV4cRuXSdRA",
       "url": "https://www.symbolab.com/",
@@ -55714,95 +55148,7 @@
   },
   {
     "meta": {
-      "id": "the-wall-street-journal-1083",
-      "name": "The Wall Street Journal",
-      "icon": "https://play-lh.googleusercontent.com/eksxaPfxbTVb6VTl5aj1sXLpKc_N9Z6AZ3_5Oq6JhTXmgEQza-1v58a66p_ID0phE2Zv",
-      "url": "https://gracely011.github.io/hai/manual.html?name=The%20Wall%20Street%20Journal&login=wsj@killua.cloud&password=TheWallStreetJournalGroupy2025!!!&url=https://www.wsj.com",
-      "category": "productivity"
-    },
-    "cookies": [
-      {
-        "name": "dummy",
-        "value": "5",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "domain": "wsj.com"
-      }
-    ],
-    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=The%20Wall%20Street%20Journal&login=wsj@killua.cloud&password=TheWallStreetJournalGroupy2025!!!&url=https://www.wsj.com"
-  },
-  {
-    "meta": {
-      "id": "turnitin-1076",
-      "name": "Turnitin",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIrf73LGu_mACI2Mc_jdghOV02eXRocoXKo0o3qZHFjGgJMUr5M_v8uwap&s=10",
-      "url": "https://gracely011.github.io/hai/manual.html?name=Turnitin&login=halo@belajaar.id&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us",
-      "category": "productivity",
-      "isGroup": true
-    },
-    "accounts": [
-      {
-        "name": "Turnitin 1",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "turnitin.com"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Turnitin&login=halo@belajaar.id&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us"
-      },
-      {
-        "name": "Turnitin 2",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "turnitin.com"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Turnitin%202&login=hola@belajaar.id&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us"
-      },
-      {
-        "name": "Turnitin 3",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "turnitin.com"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Turnitin%203&login=hola@tokito.xyz&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us"
-      },
-      {
-        "name": "Turnitin 4",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "turnitin.com"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Turnitin%204&login=bangor@tokito.xyz&password=AkunTurnitinMilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us"
-      }
-    ]
-  },
-  {
-    "meta": {
-      "id": "ubersuggest-1004",
+      "id": "ubersuggest-1003",
       "name": "Ubersuggest",
       "icon": "https://groupy.id/assets/images/services/ubersuggest.png",
       "url": "https://app.neilpatel.com/en/ubersuggest/overview",
@@ -56144,7 +55490,7 @@
   },
   {
     "meta": {
-      "id": "udemy-1078",
+      "id": "udemy-1067",
       "name": "Udemy",
       "icon": "https://play-lh.googleusercontent.com/dsCkmJE2Fa8IjyXERAcwc5YeQ8_NvbZ4_OI8LgqyjILpXUfS5YhEcnAMajKPrZI-og",
       "url": "https://www.udemy.com/personal/home/",
@@ -56631,7 +55977,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762760248.84498,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -56641,7 +55986,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762760248.254506,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -56651,7 +55995,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762760248.845687,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -56661,7 +56004,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762760248.845593,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -56671,7 +56013,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762760248.845848,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -56681,7 +56022,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762760248.845087,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -56691,7 +56031,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762760248.845199,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -56701,7 +56040,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762760248.845303,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -56711,7 +56049,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762760248.845402,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -56721,7 +56058,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762760248.845497,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -56843,7 +56179,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762760236,
             "sameSite": "no_restriction",
             "domain": ".udemy.com"
           },
@@ -57246,7 +56581,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762760237.833479,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -57256,7 +56590,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762760237.782996,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -57266,7 +56599,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762760237.833624,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -57276,7 +56608,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762760237.833605,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -57286,7 +56617,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762760237.833643,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -57296,7 +56626,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762760237.8335,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -57306,7 +56635,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762760237.833523,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -57316,7 +56644,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762760237.833543,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -57326,7 +56653,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762760237.833565,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -57336,7 +56662,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762760237.833584,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -57366,7 +56691,7 @@
   },
   {
     "meta": {
-      "id": "vectorizer-ai-1037",
+      "id": "vectorizer-ai-1032",
       "name": "Vectorizer AI",
       "icon": "https://cdn.prod.website-files.com/648e04d4bbae7004f1b35f15/65de13535268a099387a6f60_vectorizer-ai-icon.png",
       "url": "https://id.vectorizer.ai/",
@@ -57415,178 +56740,6 @@
       }
     ],
     "sourceUrl": "https://id.vectorizer.ai/"
-  },
-  {
-    "meta": {
-      "id": "virtual-threads-1079",
-      "name": "Virtual Threads",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_zqaiVJeMxFHsHmHsk8ViZdV3v-nd11cpPw&s",
-      "url": "https://gracely011.github.io/hai/manual.html?name=Virtual%20Threads&login=step1@belajaar.id&password=WeAreGroupy2025!&url=https://www.virtualthreads.io/login",
-      "category": "productivity"
-    },
-    "cookies": [
-      {
-        "name": "dummy",
-        "value": "5",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "domain": "virtual-threads.com"
-      }
-    ],
-    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Virtual%20Threads&login=step1@belajaar.id&password=WeAreGroupy2025!&url=https://www.virtualthreads.io/login"
-  },
-  {
-    "meta": {
-      "id": "viu-1080",
-      "name": "Viu",
-      "icon": "https://groupy.id/assets/images/services/viu.png",
-      "url": "https://gracely011.github.io/hai/manual.html?name=Viu&login=jessidrti1872@moviesisme.com&password=viuku123&url=https://viu.com",
-      "category": "streaming",
-      "isGroup": true
-    },
-    "accounts": [
-      {
-        "name": "Viu 1",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "viu.com"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Viu&login=jessidrti1872@moviesisme.com&password=viuku123&url=https://viu.com"
-      },
-      {
-        "name": "Viu 2",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "viu.com"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Viu%202&login=kamalramadan6885@moviesisme.com&password=viuku123&url=https://viu.com"
-      },
-      {
-        "name": "Viu 3",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "viu.com"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Viu%203&login=kamalwinarsih34@moviesisme.com&password=viuku123&url=https://viu.com"
-      },
-      {
-        "name": "Viu 4",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "viu.com"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Viu%204&login=kamajagaw0966@moviesisme.com&password=viuku123&url=https://viu.com"
-      },
-      {
-        "name": "Viu 5",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "viu.com"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Viu%205&login=kalasirait3030@moviesisme.com&password=viuku123&url=https://viu.com"
-      },
-      {
-        "name": "Viu 6",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "viu.com"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Viu%206&login=kamarianapitupulu5971@moviesisme.com&password=viuku123&url=https://viu.com"
-      },
-      {
-        "name": "Viu 7",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "viu.com"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Viu%207&login=kambalisaptono896@moviesisme.com&password=viuku123&url=https://viu.com"
-      },
-      {
-        "name": "Viu 8",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "viu.com"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=kambaliutami98@moviesisme.com&password=viuku123&url=https://viu.com"
-      },
-      {
-        "name": "Viu 9",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "viu.com"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Viu%209&login=jonodrg83@moviesisme.com&password=viuku123&url=https://viu.com"
-      },
-      {
-        "name": "Viu 10",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "viu.com"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Viu%2010&login=kamilalailasarisei731@moviesisme.com&password=viuku123&url=https://viu.com"
-      }
-    ]
   },
   {
     "meta": {
@@ -58111,7 +57264,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762760422.207374,
             "sameSite": "no_restriction",
             "domain": ".wetv.vip"
           },
@@ -58475,7 +57627,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762760430.780751,
             "sameSite": "no_restriction",
             "domain": ".wetv.vip"
           },
@@ -59053,7 +58204,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762760403,
             "sameSite": "no_restriction",
             "domain": ".wetv.vip"
           },
@@ -59213,7 +58363,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1762760404.54371,
             "sameSite": "no_restriction",
             "domain": ".wetv.vip"
           },
@@ -59440,7 +58589,7 @@
   },
   {
     "meta": {
-      "id": "wolframalpha-1081",
+      "id": "wolframalpha-1068",
       "name": "WolframAlpha",
       "icon": "https://play-lh.googleusercontent.com/OceHg5bH7EsTRwl-lD7jjV9WM0mpj0oH4YfA-CSbjvfa7NCLQBu5-4cLwNlDvCUp5Q4",
       "url": "https://www.wolframalpha.com/",
@@ -59511,7 +58660,7 @@
   },
   {
     "meta": {
-      "id": "writehuman-1082",
+      "id": "writehuman-1069",
       "name": "WriteHuman",
       "icon": "https://earlyshark.com/wp-content/uploads/2024/01/writehuman-logo-1024x1024.png",
       "url": "https://writehuman.ai/ai-detector",
@@ -59775,25 +58924,5 @@
       }
     ],
     "sourceUrl": "https://writehuman.ai/ai-detector"
-  },
-  {
-    "meta": {
-      "id": "youtube-noads-1084",
-      "name": "YouTube NoAds",
-      "icon": "https://play-lh.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc",
-      "url": "https://gracely011.github.io/hai/youtube-noads.html",
-      "category": "streaming"
-    },
-    "cookies": [
-      {
-        "name": "dummy",
-        "value": "5",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "domain": "youtube.com"
-      }
-    ],
-    "sourceUrl": "https://gracely011.github.io/hai/youtube-noads.html"
   }
 ]
