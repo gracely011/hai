@@ -1,56 +1,5 @@
 const announcementBarHTML = ``;
 
-async function checkPremiumExpiryWarning() {
-    try {
-        if (typeof isAuthenticated !== 'function' || !isAuthenticated()) {
-            return false;
-        }
-
-        const expiryDateStr = localStorage.getItem('premiumExpiryDate');
-        if (!expiryDateStr) {
-            return false; 
-        }
-
-        const expiryDate = new Date(expiryDateStr);
-        const now = new Date();
-        const timeLeft = expiryDate.getTime() - now.getTime();
-        const daysLeft = Math.ceil(timeLeft / (1000 * 60 * 60 * 24));
-
-        if (daysLeft > 4 || daysLeft <= 0) {
-            return false; 
-        }
-        
-        const modalContainer = document.getElementById('notification-0');
-        const modalContent = modalContainer.querySelector('.notificationModal-content');
-
-        const showExpiryModal = () => {
-            const modalHTML = `
-                <i class="fa fa-times gracely-modal-close-icon" id="notification-close"></i>
-                <h2 style="color: #d93025;">Peringatan Langganan</h2>
-                <p>Masa aktif premium Anda akan segera berakhir.</p>
-                <p>Sisa waktu: <strong>${daysLeft} hari lagi.</strong></p>
-                <p>Silakan lakukan perpanjangan langganan agar tidak terputus.</p>
-                <button class="ud-main-btn" id="notification-ok" style="margin-top: 10px;">OK, Saya Mengerti</button>
-            `;
-            modalContent.innerHTML = modalHTML;
-            modalContainer.style.display = 'flex';
-
-            const closeModal = () => {
-                modalContainer.style.display = 'none';
-            };
-
-            modalContainer.querySelector('#notification-close').addEventListener('click', closeModal);
-            modalContainer.querySelector('#notification-ok').addEventListener('click', closeModal);
-        };
-
-        showExpiryModal();
-        return true;
-    } catch (error) {
-        console.warn("Gagal cek peringatan kadaluarsa:", error);
-        return false;
-    }
-}
-
 async function initializeWebsiteAnnouncement() {
     try {
         const configResponse = await fetch('aturhonma.js');
@@ -81,7 +30,7 @@ async function initializeWebsiteAnnouncement() {
             }
             
             const notificationHTML = `
-                <i class="fa fa-times gracely-modal-close-icon" id="notification-close"></i>
+                <i class="fa fa-times close-icon" id="notification-close" style="font-size: 18px; color: #888; cursor: pointer;"></i>
                 <h2>${notifData.title}</h2>
                 ${contentParagraphs}
                 <button class="ud-main-btn" id="notification-ok" style="margin-top: 10px;">OK</button>
@@ -101,24 +50,12 @@ async function initializeWebsiteAnnouncement() {
         };
 
         if (!lastShownTimestamp || timeDiff > oneDay || newNotifId !== lastShownId) {
-            setTimeout(() => {
-                showModal();
-            }, 10000);
+            showModal();
         }
 
     } catch (error) {
         console.warn("Gagal memuat notifikasi website:", error);
     }
-}
-
-async function runNotificationChecks() {
-    const didShowExpiryWarning = await checkPremiumExpiryWarning();
-    
-    if (didShowExpiryWarning) {
-        return;
-    }
-    
-    await initializeWebsiteAnnouncement();
 }
 
 
@@ -315,12 +252,14 @@ function loadLayout() {
     const footerPlaceholder = document.getElementById("footer-placeholder");
     const backToTopPlaceholder = document.getElementById("back-to-top-placeholder");
     
+    // === SUNTIK HTML MODAL DI SINI ===
     const modalDiv = document.createElement('div');
     modalDiv.className = 'notificationModal';
     modalDiv.id = 'notification-0';
     modalDiv.style.display = 'none';
     modalDiv.innerHTML = '<div class="notificationModal-content"></div>';
     document.body.appendChild(modalDiv);
+    // === AKHIR SUNTIK HTML ===
     
     if (announcementPlaceholder) announcementPlaceholder.innerHTML = announcementBarHTML;
     if (footerPlaceholder) footerPlaceholder.innerHTML = footerHTML;
@@ -350,7 +289,8 @@ function loadLayout() {
     
     modifyIndexPageContent();
     
-    runNotificationChecks();
+    // === PANGGIL FUNGSI NOTIFIKASI DI SINI ===
+    initializeWebsiteAnnouncement();
 }
 
 document.addEventListener("DOMContentLoaded", loadLayout);
