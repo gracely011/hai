@@ -1,63 +1,5 @@
+// Kosongkan sesuai permintaan Anda
 const announcementBarHTML = ``;
-
-async function initializeWebsiteAnnouncement() {
-    try {
-        const configResponse = await fetch('aturhonma.js');
-        if (!configResponse.ok) return;
-
-        const configText = await configResponse.text();
-        const gracelyConfig = JSON.parse(configText.replace('const gracelyConfig =', '').trim().replace(/;$/, ''));
-
-        const notifData = gracelyConfig.notifications?.announcement;
-        if (!notifData || !notifData.enabled || !notifData.id) {
-            return;
-        }
-
-        const newNotifId = notifData.id;
-        const lastShownTimestamp = localStorage.getItem('websiteNotificationLastShown');
-        const lastShownId = localStorage.getItem('websiteNotificationLastShownId');
-        
-        const oneDay = 24 * 60 * 60 * 1000;
-        const timeDiff = Date.now() - parseInt(lastShownTimestamp || '0');
-
-        const modalContainer = document.getElementById('notification-0');
-        const modalContent = modalContainer.querySelector('.notificationModal-content');
-
-        const showModal = () => {
-            let contentParagraphs = '';
-            if (notifData.lines && Array.isArray(notifData.lines)) {
-                contentParagraphs = notifData.lines.map(line => `<p>${line}</p>`).join('');
-            }
-            
-            const notificationHTML = `
-                <i class="fa fa-times close-icon" id="notification-close" style="font-size: 18px; color: #888; cursor: pointer;"></i>
-                <h2>${notifData.title}</h2>
-                ${contentParagraphs}
-                <button class="ud-main-btn" id="notification-ok" style="margin-top: 10px;">OK</button>
-            `;
-            
-            modalContent.innerHTML = notificationHTML;
-            modalContainer.style.display = 'flex';
-            
-            modalContainer.querySelector('#notification-close').addEventListener('click', closeModal);
-            modalContainer.querySelector('#notification-ok').addEventListener('click', closeModal);
-        };
-
-        const closeModal = () => {
-            modalContainer.style.display = 'none';
-            localStorage.setItem('websiteNotificationLastShown', Date.now().toString());
-            localStorage.setItem('websiteNotificationLastShownId', newNotifId);
-        };
-
-        if (!lastShownTimestamp || timeDiff > oneDay || newNotifId !== lastShownId) {
-            showModal();
-        }
-
-    } catch (error) {
-        console.warn("Gagal memuat notifikasi website:", error);
-    }
-}
-
 
 const defaultNavbarHTML = `
 <header class="ud-header">
@@ -123,6 +65,7 @@ const loggedInNavbarHTML = (userName) => `
 </header>
 `;
 
+// [PERBAIKAN] Kode footer lengkap dari Groupy
 const footerHTML = `
 <footer class="ud-footer" data-wow-delay=".15s">
   <div class="shape shape-1">
@@ -229,37 +172,41 @@ const footerHTML = `
 
 const backToTopHTML = `<a href="javascript:void(0)" class="back-to-top"><i class="fa-solid fa-arrow-up"></i></a>`;
 
+/**
+ * [FUNGSI DIPERBARUI]
+ * Fungsi ini menargetkan tombol di index.html Groupy yang asli.
+ */
 function modifyIndexPageContent() {
     const path = window.location.pathname;
+    // Diperbarui agar cocok dengan path GitHub Pages
     const isIndexPage = path.endsWith('/') || path.endsWith('/hai/') || path.endsWith('index.html'); 
+
     if (!isIndexPage) {
         return;
     }
+
     if (typeof isAuthenticated === 'function' && isAuthenticated()) {
+        // Cari tombol "Purchase" dan "Watch Demo" di hero section
         const purchaseButton = document.querySelector('#home .ud-hero-buttons .ud-white-btn');
-        const demoButton = document.querySelector('#home .ud-hero-buttons .ud-link-btn'); 
+        const demoButton = document.querySelector('#home .ud-hero-buttons .ud-link-btn'); // Targetkan tombol demo
+
+        // Ubah tombol "Purchase" menjadi "Go to Dashboard"
         if (purchaseButton) {
             purchaseButton.textContent = 'Go to Dashboard';
-            purchaseButton.href = 'dashboard.html'; 
-            purchaseButton.removeAttribute('target'); 
+            purchaseButton.href = 'dashboard.html'; // Path relatif
+            purchaseButton.removeAttribute('target'); // Hapus target jika ada
+            // (Tidak perlu ganti kelas karena sudah ud-white-btn)
         }
+
     }
 }
+
 
 function loadLayout() {
     const announcementPlaceholder = document.getElementById("announcement-placeholder");
     const navbarPlaceholder = document.getElementById("navbar-placeholder");
     const footerPlaceholder = document.getElementById("footer-placeholder");
     const backToTopPlaceholder = document.getElementById("back-to-top-placeholder");
-    
-    // === SUNTIK HTML MODAL DI SINI ===
-    const modalDiv = document.createElement('div');
-    modalDiv.className = 'notificationModal';
-    modalDiv.id = 'notification-0';
-    modalDiv.style.display = 'none';
-    modalDiv.innerHTML = '<div class="notificationModal-content"></div>';
-    document.body.appendChild(modalDiv);
-    // === AKHIR SUNTIK HTML ===
     
     if (announcementPlaceholder) announcementPlaceholder.innerHTML = announcementBarHTML;
     if (footerPlaceholder) footerPlaceholder.innerHTML = footerHTML;
@@ -268,29 +215,27 @@ function loadLayout() {
     if (navbarPlaceholder) {
         if (typeof isAuthenticated === 'function' && isAuthenticated()) {
             const userName = localStorage.getItem("userName") || "User";
-            navbarPlaceholder.innerHTML = loggedInNavbarHTML( userName );
-            if (typeof eraseCookie === 'function') {
-                eraseCookie('UnangJahaCookieOnLae');
-            }
+            navbarPlaceholder.innerHTML = loggedInNavbarHTML(userName);
         } else {
             navbarPlaceholder.innerHTML = defaultNavbarHTML;
-            if (typeof setCookie === 'function') {
-                setCookie('UnangJahaCookieOnLae', 'true', 1);
-                setCookie('gracely_active_session', 'false', 1);
-                setCookie('is_premium', 'false', 1);
-                setCookie('gracely_config_url', 'Naeng_Marhua_Halak_Lae_Ro_Tuson?_Naeng_Martandang_Do!🤣', 1);
-            }
         }
     }
 
+    // Panggil initializeScripts() dari scripts.js SETELAH layout dimuat
     if (typeof initializeScripts === 'function') {
       initializeScripts();
     }
     
+    // Panggil fungsi untuk memodifikasi index.html
     modifyIndexPageContent();
-    
-    // === PANGGIL FUNGSI NOTIFIKASI DI SINI ===
-    initializeWebsiteAnnouncement();
 }
 
 document.addEventListener("DOMContentLoaded", loadLayout);
+
+
+
+
+
+
+
+
