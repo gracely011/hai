@@ -337,7 +337,6 @@ function loadLayout() {
             navbarPlaceholder.innerHTML = defaultNavbarHTML;
             if (typeof setCookie === 'function') {
                 setCookie('UnangJahaCookieOnLae', 'true', 1);
-                setCookie('gracely_active_session', 'false', 1);
                 setCookie('is_premium', 'false', 1);
                 setCookie('gracely_config_url', 'Naeng_Marhua_Halak_Lae_Ro_Tuson?_Naeng_Martandang_Do!🤣', 1);
             }
