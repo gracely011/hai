@@ -57454,7 +57454,7 @@
             "domain": "viu.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=kambaliutami98@moviesisme.com&password=viuku123&url=https://viu.com"
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Viu%208&login=kambaliutami98@moviesisme.com&password=viuku123&url=https://viu.com"
       },
       {
         "name": "Viu 9",
