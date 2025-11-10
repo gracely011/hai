@@ -1,6 +1,7 @@
-// Kosongkan sesuai permintaan Anda
 const announcementBarHTML = ``;
-
+async function checkPremiumExpiryWarning() { try { if (typeof isAuthenticated !== 'function' || !isAuthenticated()) { return false; } const expiryDateStr = localStorage.getItem('premiumExpiryDate'); if (!expiryDateStr) { return false; } const expiryDate = new Date(expiryDateStr); const now = new Date(); const timeLeft = expiryDate.getTime() - now.getTime(); const daysLeft = Math.ceil(timeLeft / (1000 * 60 * 60 * 24)); if (daysLeft > 4 || daysLeft <= 0) { return false; } const modalContainer = document.getElementById('notification-0'); const modalContent = modalContainer.querySelector('.notificationModal-content'); const showExpiryModal = () => { const modalHTML = ` <i class="fa fa-times gracely-modal-close-icon" id="notification-close"></i> <h2 style="color: #d93025;">Peringatan Langganan</h2> <p>Masa aktif premium Anda akan segera berakhir.</p> <p>Sisa waktu: <strong>${daysLeft} hari lagi.</strong></p> <p>Silakan lakukan perpanjangan langganan agar tidak terputus.</p> <button class="ud-main-btn" id="notification-ok" style="margin-top: 10px;">OK, Saya Mengerti</button> `; modalContent.innerHTML = modalHTML; modalContainer.style.display = 'flex'; const closeModal = () => { modalContainer.style.display = 'none'; }; modalContainer.querySelector('#notification-close').addEventListener('click', closeModal); modalContainer.querySelector('#notification-ok').addEventListener('click', closeModal); }; showExpiryModal(); return true; } catch (error) { console.warn("Gagal cek peringatan kadaluarsa:", error); return false; } }
+async function initializeWebsiteAnnouncement() { try { const configResponse = await fetch('aturhonma.js'); if (!configResponse.ok) return; const configText = await configResponse.text(); const gracelyConfig = JSON.parse(configText.replace('const gracelyConfig =', '').trim().replace(/;$/, '')); const notifData = gracelyConfig.notifications?.announcement; if (!notifData || !notifData.enabled || !notifData.id) { return; } const newNotifId = notifData.id; const lastShownTimestamp = localStorage.getItem('websiteNotificationLastShown'); const lastShownId = localStorage.getItem('websiteNotificationLastShownId'); const oneDay = 24 * 60 * 60 * 1000; const timeDiff = Date.now() - parseInt(lastShownTimestamp || '0'); const modalContainer = document.getElementById('notification-0'); const modalContent = modalContainer.querySelector('.notificationModal-content'); const showModal = () => { let contentParagraphs = ''; if (notifData.lines && Array.isArray(notifData.lines)) { contentParagraphs = notifData.lines.map(line => `<p>${line}</p>`).join(''); } const notificationHTML = ` <i class="fa fa-times gracely-modal-close-icon" id="notification-close"></i> <h2>${notifData.title}</h2> ${contentParagraphs} <button class="ud-main-btn" id="notification-ok" style="margin-top: 10px;">OK</button> `; modalContent.innerHTML = notificationHTML; modalContainer.style.display = 'flex'; modalContainer.querySelector('#notification-close').addEventListener('click', closeModal); modalContainer.querySelector('#notification-ok').addEventListener('click', closeModal); }; const closeModal = () => { modalContainer.style.display = 'none'; localStorage.setItem('websiteNotificationLastShown', Date.now().toString()); localStorage.setItem('websiteNotificationLastShownId', newNotifId); }; if (!lastShownTimestamp || timeDiff > oneDay || newNotifId !== lastShownId) { setTimeout(() => { showModal(); }, 10000); } } catch (error) { console.warn("Gagal memuat notifikasi website:", error); } }
+async function runNotificationChecks() { const didShowExpiryWarning = await checkPremiumExpiryWarning(); if (didShowExpiryWarning) { return; } await initializeWebsiteAnnouncement(); }
 const defaultNavbarHTML = `
 <header class="ud-header">
   <div class="container">
@@ -32,7 +33,6 @@ const defaultNavbarHTML = `
   </div>
 </header>
 `;
-
 const loggedInNavbarHTML = (userName) => `
 <header class="ud-header">
   <div class="container">
@@ -64,8 +64,6 @@ const loggedInNavbarHTML = (userName) => `
   </div>
 </header>
 `;
-
-// [PERBAIKAN] Kode footer lengkap dari Groupy
 const footerHTML = `
 <footer class="ud-footer" data-wow-delay=".15s">
   <div class="shape shape-1">
@@ -133,7 +131,7 @@ const footerHTML = `
         <div class="col-xl-2 col-lg-2 col-md-6 col-sm-10">
           <div class="ud-widget">
             <h5 class="ud-widget-title">Partners</h5>
-            <ul class="ud-widget-brands">
+            <ul class_name="ud-widget-brands">
               <li>
                 <a href="#" rel="nofollow noopener" target="_blank">
                   <img src="https://tripay.co.id/new-template/images/logo-dark.png" alt="TriPay">
@@ -169,73 +167,7 @@ const footerHTML = `
   </div>
 </footer>
 `;
-
 const backToTopHTML = `<a href="javascript:void(0)" class="back-to-top"><i class="fa-solid fa-arrow-up"></i></a>`;
-
-/**
- * [FUNGSI DIPERBARUI]
- * Fungsi ini menargetkan tombol di index.html Groupy yang asli.
- */
-function modifyIndexPageContent() {
-    const path = window.location.pathname;
-    // Diperbarui agar cocok dengan path GitHub Pages
-    const isIndexPage = path.endsWith('/') || path.endsWith('/hai/') || path.endsWith('index.html'); 
-
-    if (!isIndexPage) {
-        return;
-    }
-
-    if (typeof isAuthenticated === 'function' && isAuthenticated()) {
-        // Cari tombol "Purchase" dan "Watch Demo" di hero section
-        const purchaseButton = document.querySelector('#home .ud-hero-buttons .ud-white-btn');
-        const demoButton = document.querySelector('#home .ud-hero-buttons .ud-link-btn'); // Targetkan tombol demo
-
-        // Ubah tombol "Purchase" menjadi "Go to Dashboard"
-        if (purchaseButton) {
-            purchaseButton.textContent = 'Go to Dashboard';
-            purchaseButton.href = 'dashboard.html'; // Path relatif
-            purchaseButton.removeAttribute('target'); // Hapus target jika ada
-            // (Tidak perlu ganti kelas karena sudah ud-white-btn)
-        }
-
-    }
-}
-
-
-function loadLayout() {
-    const announcementPlaceholder = document.getElementById("announcement-placeholder");
-    const navbarPlaceholder = document.getElementById("navbar-placeholder");
-    const footerPlaceholder = document.getElementById("footer-placeholder");
-    const backToTopPlaceholder = document.getElementById("back-to-top-placeholder");
-    
-    if (announcementPlaceholder) announcementPlaceholder.innerHTML = announcementBarHTML;
-    if (footerPlaceholder) footerPlaceholder.innerHTML = footerHTML;
-    if (backToTopPlaceholder) backToTopPlaceholder.innerHTML = backToTopHTML;
-
-    if (navbarPlaceholder) {
-        if (typeof isAuthenticated === 'function' && isAuthenticated()) {
-            const userName = localStorage.getItem("userName") || "User";
-            navbarPlaceholder.innerHTML = loggedInNavbarHTML(userName);
-        } else {
-            navbarPlaceholder.innerHTML = defaultNavbarHTML;
-        }
-    }
-
-    // Panggil initializeScripts() dari scripts.js SETELAH layout dimuat
-    if (typeof initializeScripts === 'function') {
-      initializeScripts();
-    }
-    
-    // Panggil fungsi untuk memodifikasi index.html
-    modifyIndexPageContent();
-}
-
+function modifyIndexPageContent() { const path = window.location.pathname; const isIndexPage = path.endsWith('/') || path.endsWith('/hai/') || path.endsWith('index.html'); if (!isIndexPage) { return; } if (typeof isAuthenticated === 'function' && isAuthenticated()) { const purchaseButton = document.querySelector('#home .ud-hero-buttons .ud-white-btn'); const demoButton = document.querySelector('#home .ud-hero-buttons .ud-link-btn'); if (purchaseButton) { purchaseButton.textContent = 'Go to Dashboard'; purchaseButton.href = 'dashboard.html'; purchaseButton.removeAttribute('target'); } } }
+function loadLayout() { const announcementPlaceholder = document.getElementById("announcement-placeholder"); const navbarPlaceholder = document.getElementById("navbar-placeholder"); const footerPlaceholder = document.getElementById("footer-placeholder"); const backToTopPlaceholder = document.getElementById("back-to-top-placeholder"); const modalDiv = document.createElement('div'); modalDiv.className = 'notificationModal'; modalDiv.id = 'notification-0'; modalDiv.style.display = 'none'; modalDiv.innerHTML = '<div class="notificationModal-content"></div>'; document.body.appendChild(modalDiv); if (announcementPlaceholder) announcementPlaceholder.innerHTML = announcementBarHTML; if (footerPlaceholder) footerPlaceholder.innerHTML = footerHTML; if (backToTopPlaceholder) backToTopPlaceholder.innerHTML = backToTopHTML; if (navbarPlaceholder) { if (typeof isAuthenticated === 'function' && isAuthenticated()) { const userName = localStorage.getItem("userName") || "User"; navbarPlaceholder.innerHTML = loggedInNavbarHTML( userName ); if (typeof eraseCookie === 'function') { eraseCookie('UnangJahaCookieOnLae'); } } else { navbarPlaceholder.innerHTML = defaultNavbarHTML; if (typeof setCookie === 'function') { setCookie('UnangJahaCookieOnLae', 'true', 1); setCookie('is_premium', 'false', 1); setCookie('gracely_config_url', 'Naeng_Marhua_Halak_Lae_Ro_Tuson?_Naeng_Martandang_Do!🤣', 1); } } } if (typeof initializeScripts === 'function') { initializeScripts(); } modifyIndexPageContent(); runNotificationChecks(); }
 document.addEventListener("DOMContentLoaded", loadLayout);
-
-
-
-
-
-
-
-
