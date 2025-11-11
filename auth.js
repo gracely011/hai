@@ -34,11 +34,11 @@ async function getClientIp() {
     }
 }
 
-// ==== FUNGSI BARU (DITAMBAHKAN) - Untuk mencatat log ====
+// ==== FUNGSI BARU (DITAMBAHKAN & DIPERBAIKI) - Untuk mencatat log ====
 async function getClientIpInfo() {
     try {
-        // Kita pakai http://ip-api.com untuk data lengkap
-        const response = await fetch('http://ip-api.com/json?fields=query,country,city,isp');
+        // PERBAIKAN: Menggunakan https://
+        const response = await fetch('https://ip-api.com/json?fields=query,country,city,isp');
         const data = await response.json();
         if (data.query) {
             return data;
