@@ -34,14 +34,21 @@ async function getClientIp() {
     }
 }
 
-// ==== FUNGSI BARU (DITAMBAHKAN & DIPERBAIKI) - Untuk mencatat log ====
+// ==== FUNGSI BARU (DIPERBAIKI) - Untuk mencatat log ====
 async function getClientIpInfo() {
     try {
-        // PERBAIKAN: Menggunakan https://
-        const response = await fetch('https://ip-api.com/json?fields=query,country,city,isp');
+        // PERBAIKAN: Menggunakan https://ipinfo.io
+        // Kita tambahkan token gratis agar lebih stabil
+        const response = await fetch('https://ipinfo.io/json?token=a050f7852c0c7f'); 
         const data = await response.json();
-        if (data.query) {
-            return data;
+        
+        if (data.ip) {
+            return {
+                query: data.ip,
+                country: data.country || 'Unknown',
+                city: data.city || 'Unknown',
+                isp: data.org || 'Unknown' // ipinfo pakai 'org' untuk ISP
+            };
         } else {
             return { query: 'Unknown', country: 'Unknown', city: 'Unknown', isp: 'Unknown' };
         }
@@ -111,7 +118,6 @@ async function signup(name, email, password) {
              throw profileError;
         }
         
-        // ==== KODE LOG BARU (DITAMBAHKAN) ====
         try {
             const ipInfo = await getClientIpInfo();
             const userAgent = navigator.userAgent;
@@ -130,7 +136,6 @@ async function signup(name, email, password) {
         } catch (logError) {
             console.warn("Gagal mencatat log signup:", logError.message);
         }
-        // ==== AKHIR KODE LOG BARU ====
 
         return { success: true }; 
     } catch (error) {
@@ -148,7 +153,7 @@ async function login(email, password) {
             throw authError;
         }
         const now = new Date().toISOString();
-        const clientIp = await getClientIp(); // Ini tetap pakai fungsi lama (string)
+        const clientIp = await getClientIp(); 
         const userAgent = navigator.userAgent; 
         const sessionId = authData.session.access_token;
         let { data: profileData, error: profileError } = await supabaseClient
@@ -173,7 +178,7 @@ async function login(email, password) {
             .from('profiles')
             .update({ 
                 last_sign_in: now,
-                last_ip: clientIp, // Ini tetap string, jadi aman
+                last_ip: clientIp, 
                 last_browser: userAgent,
                 session_id: sessionId,
                 config_hash: configHash 
@@ -183,9 +188,8 @@ async function login(email, password) {
              console.warn(updateSignInError.message);
         }
 
-        // ==== KODE LOG BARU (DITAMBAHKAN) ====
         try {
-            const ipInfo = await getClientIpInfo(); // Panggil fungsi baru untuk data lengkap
+            const ipInfo = await getClientIpInfo(); 
             await supabaseClient
                 .from('activity_logs')
                 .insert({ 
@@ -201,7 +205,6 @@ async function login(email, password) {
         } catch (logError) {
             console.warn("Gagal mencatat log login:", logError.message);
         }
-        // ==== AKHIR KODE LOG BARU ====
 
         localStorage.setItem('isAuthenticated', 'true');
         localStorage.setItem('userEmail', authData.user.email);
