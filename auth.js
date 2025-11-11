@@ -237,7 +237,7 @@ async function login(email, password) {
 async function sendPasswordResetEmail(email) {
     try {
         await supabaseClient.auth.resetPasswordForEmail(email, {
-            redirectTo: 'https://gracely011.github.io/hai/update-password.html', 
+            redirectTo: 'https://gracely011.github.io/hai/password.html', 
         });
         return { success: true, message: 'Jika email terdaftar, tautan reset kata sandi telah dikirim ke kotak masuk Anda. Harap cek folder spam/sampah.' };
     } catch (error) {
