@@ -36,8 +36,6 @@ async function getClientIp() {
 async function getActiveSessionToken(userId) {
     if (!userId) return null;
     try {
-        // ==== PERUBAHAN DI SINI ====
-        // Kita ambil juga last_ip dan last_browser
         const { data } = await supabaseClient
             .from('profiles')
             .select('session_id, allow_multilogin, last_ip, last_browser')
@@ -206,6 +204,42 @@ async function updateUserPassword(newPassword) {
         return { success: false, message: userMessage };
     }
 }
+
+// ==== FUNGSI BARU UNTUK GANTI NAMA ====
+async function updateUserName(newName) {
+    try {
+        const { data: { user } } = await supabaseClient.auth.getUser();
+        if (!user) {
+            throw new Error("Pengguna tidak ditemukan. Sesi mungkin telah berakhir.");
+        }
+
+        if (!newName || newName.length < 3) {
+            return { success: false, message: 'Nama harus diisi (minimal 3 karakter).' };
+        }
+
+        const { error } = await supabaseClient
+            .from('profiles')
+            .update({ name: newName })
+            .eq('id', user.id);
+
+        if (error) {
+            throw error;
+        }
+        
+        await supabaseClient.auth.updateUser({
+            data: { full_name: newName }
+        });
+
+        localStorage.setItem('userName', newName);
+
+        return { success: true, message: 'Nama berhasil diperbarui!' };
+
+    } catch (error) {
+        console.error("Error updating name:", error.message);
+        return { success: false, message: 'Gagal memperbarui nama: ' + error.message };
+    }
+}
+// ==== AKHIR FUNGSI BARU ====
 
 async function logout() {
     const userId = await getUserId();
