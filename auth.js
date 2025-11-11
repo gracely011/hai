@@ -23,6 +23,7 @@ async function getUserId() {
     return user ? user.id : null;
 }
 
+// FUNGSI LAMA (TETAP ADA) - Untuk keamanan 'HBO Style' di script.js
 async function getClientIp() {
     try {
         const response = await fetch('https://api.ipify.org?format=json');
@@ -32,6 +33,24 @@ async function getClientIp() {
         return 'Unknown';
     }
 }
+
+// ==== FUNGSI BARU (DITAMBAHKAN) - Untuk mencatat log ====
+async function getClientIpInfo() {
+    try {
+        // Kita pakai http://ip-api.com untuk data lengkap
+        const response = await fetch('http://ip-api.com/json?fields=query,country,city,isp');
+        const data = await response.json();
+        if (data.query) {
+            return data;
+        } else {
+            return { query: 'Unknown', country: 'Unknown', city: 'Unknown', isp: 'Unknown' };
+        }
+    } catch (e) {
+        return { query: 'Unknown', country: 'Unknown', city: 'Unknown', isp: 'Unknown' };
+    }
+}
+// ==== AKHIR FUNGSI BARU ====
+
 
 async function getActiveSessionToken(userId) {
     if (!userId) return null;
@@ -91,6 +110,28 @@ async function signup(name, email, password) {
         if (profileError) {
              throw profileError;
         }
+        
+        // ==== KODE LOG BARU (DITAMBAHKAN) ====
+        try {
+            const ipInfo = await getClientIpInfo();
+            const userAgent = navigator.userAgent;
+            await supabaseClient
+                .from('activity_logs')
+                .insert({ 
+                    user_id: data.user.id, 
+                    activity: 'Account Registered',
+                    ip_address: ipInfo.query,
+                    device: userAgent,
+                    isp_info: { 
+                        location: `${ipInfo.city}, ${ipInfo.country}`,
+                        isp: ipInfo.isp
+                    }
+                });
+        } catch (logError) {
+            console.warn("Gagal mencatat log signup:", logError.message);
+        }
+        // ==== AKHIR KODE LOG BARU ====
+
         return { success: true }; 
     } catch (error) {
         return { success: false, message: error.message };
@@ -107,7 +148,7 @@ async function login(email, password) {
             throw authError;
         }
         const now = new Date().toISOString();
-        const clientIp = await getClientIp();
+        const clientIp = await getClientIp(); // Ini tetap pakai fungsi lama (string)
         const userAgent = navigator.userAgent; 
         const sessionId = authData.session.access_token;
         let { data: profileData, error: profileError } = await supabaseClient
@@ -132,7 +173,7 @@ async function login(email, password) {
             .from('profiles')
             .update({ 
                 last_sign_in: now,
-                last_ip: clientIp,
+                last_ip: clientIp, // Ini tetap string, jadi aman
                 last_browser: userAgent,
                 session_id: sessionId,
                 config_hash: configHash 
@@ -141,6 +182,27 @@ async function login(email, password) {
         if (updateSignInError) {
              console.warn(updateSignInError.message);
         }
+
+        // ==== KODE LOG BARU (DITAMBAHKAN) ====
+        try {
+            const ipInfo = await getClientIpInfo(); // Panggil fungsi baru untuk data lengkap
+            await supabaseClient
+                .from('activity_logs')
+                .insert({ 
+                    user_id: authData.user.id, 
+                    activity: 'Logged In',
+                    ip_address: ipInfo.query,
+                    device: userAgent,
+                    isp_info: { 
+                        location: `${ipInfo.city}, ${ipInfo.country}`,
+                        isp: ipInfo.isp
+                    }
+                });
+        } catch (logError) {
+            console.warn("Gagal mencatat log login:", logError.message);
+        }
+        // ==== AKHIR KODE LOG BARU ====
+
         localStorage.setItem('isAuthenticated', 'true');
         localStorage.setItem('userEmail', authData.user.email);
         localStorage.setItem('userName', userName); 
@@ -205,7 +267,6 @@ async function updateUserPassword(newPassword) {
     }
 }
 
-// ==== FUNGSI BARU UNTUK GANTI NAMA ====
 async function updateUserName(newName) {
     try {
         const { data: { user } } = await supabaseClient.auth.getUser();
@@ -239,7 +300,6 @@ async function updateUserName(newName) {
         return { success: false, message: 'Gagal memperbarui nama: ' + error.message };
     }
 }
-// ==== AKHIR FUNGSI BARU ====
 
 async function logout() {
     const userId = await getUserId();
