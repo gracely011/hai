@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="assets/css/animate.css" />
     <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/ud-styles.css" />
-    <link rel="stylesheet" href="assetsCSS/styles.css" />
+    <link rel="stylesheet" href="assets/styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
@@ -27,31 +27,31 @@
     </script>
     
     <style>
-      .ud-login-wrapper {
-        max-width: 900px;
+      /* Wrapper dari desain baru Abang, disesuaikan agar rapi */
+      .logs-wrapper {
+        background: var(--white);
+        text-align: center;
+        padding: 40px;
+        box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.05);
+        max-width: 900px; /* Samakan dengan wrapper lama agar responsif */
+        margin: auto;
       }
-      .logs-table {
-        width: 100%;
-        border-collapse: collapse;
-        margin-top: 20px;
-        font-size: 14px;
-      }
-      .logs-table th, .logs-table td {
-        border: 1px solid #ddd;
-        padding: 12px;
+      
+      .logs-subtitle {
+        font-size: 16px;
+        color: #555;
+        margin-bottom: 20px;
         text-align: left;
+        font-weight: 500;
+      }
+
+      /* Menggunakan style Bootstrap untuk table, tapi pastikan warna teks */
+      .table th, .table td {
         color: #000;
+        vertical-align: middle;
       }
-      .logs-table th {
-        background-color: #f2f2f2;
-        font-weight: 600;
-      }
-      .logs-table tr:nth-child(even) {
-        background-color: #f9f9f9;
-      }
-      .logs-table tr:hover {
-        background-color: #f1f1f1;
-      }
+
+      /* CSS untuk Modal IP (dari file lama) */
       .ip-hover {
         cursor: pointer;
         text-decoration: underline dotted;
@@ -122,26 +122,24 @@
       </div>
     </section>
     
-    <section class="ud-login" style="padding-top: 50px;">
+    <section class="groupy-logs" style="padding: 50px 0;">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <div class="ud-login-wrapper" style="padding: 40px;">
-              <h3 class="ud-contact-form-title" style="font-size: 20px; text-align: left; margin-bottom: 10px;">
-                Your recent activity
-              </h3>
-              <p class="logs-subtitle" style="text-align: left; font-size: 14px; color: #555; margin-bottom: 20px;">
-                This is a list of devices that have logged into your account.
-              </p>
+            <div class="logs-wrapper">
+              
+              <h5 class="logs-subtitle">
+                  Your last 10 recent activites
+              </h5>
               
               <div style="overflow-x: auto;">
-                <table class="logs-table">
+                <table class="table table-striped">
                   <thead>
                     <tr>
-                      <th>Date & Time</th>
-                      <th>Activity</th>
-                      <th>IP Address</th>
-                      <th>Device</th>
+                      <th scope="col">Date & Time</th>
+                      <th scope="col">Activity</th>
+                      <th scope="col">IP Address</th>
+                      <th scope="col">Device</th>
                     </tr>
                   </thead>
                   <tbody id="logs-table-body">
@@ -153,9 +151,9 @@
               </div>
               
               <ul class="back-to-the-dashboard" style="list-style: none; padding-left: 0; margin-top: 30px; text-align: center;">
-                  <li>
-                    <a href="dashboard.html">Back to the dashboard</a>
-                  </li>
+                <li>
+                  <a href="dashboard.html">Back to the dashboard</a>
+                </li>
               </ul>
             </div>
           </div>
@@ -183,6 +181,7 @@
     <script src="assets/script.js"></script>
     
     <script>
+      // Skrip ini sama persis seperti sebelumnya, tidak perlu diubah
       document.addEventListener('DOMContentLoaded', async () => {
         const tableBody = document.getElementById('logs-table-body');
         const loader = document.getElementById('table-loader');
@@ -212,7 +211,7 @@
             .select('*')
             .eq('user_id', userId)
             .order('created_at', { ascending: false })
-            .limit(20); // Ambil 20 log terbaru
+            .limit(10); // Diubah ke 10 sesuai permintaan Abang
 
           if (error) {
             throw error;
@@ -223,15 +222,16 @@
             return;
           }
 
-          tableBody.innerHTML = ''; // Hapus loader
+          tableBody.innerHTML = ''; 
 
           data.forEach(log => {
             const row = document.createElement('tr');
             
-            const formattedDate = new Date(log.created_at).toLocaleString('id-ID', {
-              dateStyle: 'medium',
-              timeStyle: 'short'
-            });
+            const formattedDate = new Date(log.created_at).toLocaleString('en-CA', {
+              year: 'numeric', month: '2-digit', day: '2-digit',
+              hour: '2-digit', minute: '2-digit', second: '2-digit',
+              hour12: false
+            }).replace(',', '');
             
             // 1. Date & Time
             const cellDate = document.createElement('td');
@@ -249,7 +249,6 @@
             ipSpan.textContent = log.ip_address;
             ipSpan.className = 'ip-hover';
             
-            // Tambahkan event klik untuk modal
             ipSpan.onclick = () => {
               document.getElementById('modal-ip').textContent = log.ip_address;
               document.getElementById('modal-location').textContent = log.isp_info?.location || 'N/A';
@@ -261,7 +260,7 @@
             
             // 4. Device (Browser/OS)
             const cellDevice = document.createElement('td');
-            cellDevice.textContent = log.device.substring(0, 100) + '...'; // Pangkas User Agent
+            cellDevice.textContent = log.device.substring(0, 100) + '...'; 
             row.appendChild(cellDevice);
             
             tableBody.appendChild(row);
