@@ -116,7 +116,7 @@ const footerHTML = `
             <h5 class="ud-widget-title">Dashboard</h5>
             <ul class="ud-widget-links">
               <li><a href="dashboard.html" rel="nofollow noopener">View dashboard <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
-              <li><a href="signup.html" rel="nofollow noopener">Purchase premium <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+              <li><a href="premium.html" rel="nofollow noopener">Purchase premium <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
             </ul>
           </div>
         </div>
@@ -128,20 +128,7 @@ const footerHTML = `
             </ul>
           </div>
         </div>
-        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-10">
-          <div class="ud-widget">
-            <h5 class="ud-widget-title">Partners</h5>
-            <ul class_name="ud-widget-brands">
-              <li>
-                <a href="#" rel="nofollow noopener" target="_blank">
-                  <img src="https://tripay.co.id/new-template/images/logo-dark.png" alt="TriPay">
-                </a>
-                <a href="#" rel="nofollow noopener" target="_blank">
-                  <img src="https://companieslogo.com/img/orig/NET_BIG.D-52893f5e.png" alt="Cloudflare">
-                </a>
-              </li>
-            </ul> </div>
-        </div>
+        
       </div>
     </div>
   </div>
@@ -171,3 +158,4 @@ const backToTopHTML = `<a href="javascript:void(0)" class="back-to-top"><i class
 function modifyIndexPageContent() { const path = window.location.pathname; const isIndexPage = path.endsWith('/') || path.endsWith('/hai/') || path.endsWith('index.html'); if (!isIndexPage) { return; } if (typeof isAuthenticated === 'function' && isAuthenticated()) { const purchaseButton = document.querySelector('#home .ud-hero-buttons .ud-white-btn'); const demoButton = document.querySelector('#home .ud-hero-buttons .ud-link-btn'); if (purchaseButton) { purchaseButton.textContent = 'Go to Dashboard'; purchaseButton.href = 'dashboard.html'; purchaseButton.removeAttribute('target'); } } }
 function loadLayout() { const announcementPlaceholder = document.getElementById("announcement-placeholder"); const navbarPlaceholder = document.getElementById("navbar-placeholder"); const footerPlaceholder = document.getElementById("footer-placeholder"); const backToTopPlaceholder = document.getElementById("back-to-top-placeholder"); const modalDiv = document.createElement('div'); modalDiv.className = 'notificationModal'; modalDiv.id = 'notification-0'; modalDiv.style.display = 'none'; modalDiv.innerHTML = '<div class="notificationModal-content"></div>'; document.body.appendChild(modalDiv); if (announcementPlaceholder) announcementPlaceholder.innerHTML = announcementBarHTML; if (footerPlaceholder) footerPlaceholder.innerHTML = footerHTML; if (backToTopPlaceholder) backToTopPlaceholder.innerHTML = backToTopHTML; if (navbarPlaceholder) { if (typeof isAuthenticated === 'function' && isAuthenticated()) { const userName = localStorage.getItem("userName") || "User"; navbarPlaceholder.innerHTML = loggedInNavbarHTML( userName ); if (typeof eraseCookie === 'function') { eraseCookie('UnangJahaCookieOnLae'); } } else { navbarPlaceholder.innerHTML = defaultNavbarHTML; if (typeof setCookie === 'function') { setCookie('UnangJahaCookieOnLae', 'true', 1); setCookie('is_premium', 'false', 1); setCookie('gracely_config_url', 'Naeng_Marhua_Halak_Lae_Ro_Tuson?_Naeng_Martandang_Do!🤣', 1); } } } if (typeof initializeScripts === 'function') { initializeScripts(); } modifyIndexPageContent(); runNotificationChecks(); }
 document.addEventListener("DOMContentLoaded", loadLayout);
+
