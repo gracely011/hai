@@ -39,7 +39,7 @@ async function getClientIpInfo() {
     try {
         // PERBAIKAN: Menggunakan https://ipinfo.io
         // Kita tambahkan token gratis agar lebih stabil
-        const response = await fetch('https://ipinfo.io/json?token=a050f7852c0c7f'); 
+        const response = await fetch('https://ipinfo.io/json?token=331facddfc11cf'); 
         const data = await response.json();
         
         if (data.ip) {
