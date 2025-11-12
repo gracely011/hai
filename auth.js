@@ -212,11 +212,10 @@ async function login(email, password) {
         localStorage.setItem('gracely_active_session_token', secureSessionToken);
         if (isCurrentlyPremium && profileData.configUrl) {
             localStorage.setItem('premiumExpiryDate', profileData.premiumExpiryDate);
-            localStorage.setItem('gracelyPremiumConfig', profileData.configUrl);
         } else {
             localStorage.removeItem('premiumExpiryDate');
-            localStorage.removeItem('gracelyPremiumConfig');
         }
+        localStorage.removeItem('gracelyPremiumConfig');
         eraseCookie('gracely_active_session');
         eraseCookie('is_premium');
         eraseCookie('gracely_config_url');
@@ -322,7 +321,7 @@ async function updateUserName(newName) {
         localStorage.setItem('userName', newName);
         return {
             success: true,
-            message: 'Nama berhasil diperbarui!'
+            message: 'Nama berhasilG diperbarui!'
         };
     } catch (error) {
         console.error("Error updating name:", error.message);
@@ -351,6 +350,7 @@ async function logout() {
     eraseCookie('gracely_config_url');
     eraseCookie('gracely_session_token');
     localStorage.removeItem('gracely_active_session_token');
+    localStorage.removeItem('gracelyPremiumConfig');
     setCookie('UnangJahaCookieOnLae', 'true', 1);
     window.location.href = 'login.html';
 }
