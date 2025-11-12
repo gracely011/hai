@@ -345,13 +345,17 @@ async function logout() {
             console.warn(updateSignOutError.message);
         }
     }
-    localStorage.clear();
+    localStorage.removeItem('isAuthenticated');
+    localStorage.removeItem('userEmail');
+    localStorage.removeItem('userName');
+    localStorage.removeItem('isPremium');
+    localStorage.removeItem('gracely_active_session_token');
+    localStorage.removeItem('premiumExpiryDate');
+    localStorage.removeItem('gracelyPremiumConfig');
     eraseCookie('gracely_active_session');
     eraseCookie('is_premium');
     eraseCookie('gracely_config_url');
     eraseCookie('gracely_session_token');
-    localStorage.removeItem('gracely_active_session_token');
-    localStorage.removeItem('gracelyPremiumConfig');
     setCookie('UnangJahaCookieOnLae', 'true', 1);
     window.location.href = 'login.html';
 }
