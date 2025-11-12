@@ -26,80 +26,226 @@ function initializeScripts() {
 
     const backToTop = document.querySelector(".back-to-top");
     if (backToTop) {
-      if (
-        document.body.scrollTop > 50 ||
-        document.documentElement.scrollTop > 50
-      ) {
-        backToTop.style.display = "flex";
-      } else {
-        backToTop.style.display = "none";
-      }
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+            backToTop.style.display = "flex";
+        } else {
+            backToTop.style.display = "none";
+        }
     }
-  };
-
-  function scrollTo(element, to = 0, duration = 500) {
-    const start = element.scrollTop;
-    const change = to - start;
-    const increment = 20;
-    let currentTime = 0;
-
-    const animateScroll = () => {
-      currentTime += increment;
-      const val = Math.easeInOutQuad(currentTime, start, change, duration);
-      element.scrollTop = val;
-      if (currentTime < duration) {
-        setTimeout(animateScroll, increment);
-      }
-    };
-    animateScroll();
-  }
-
-  Math.easeInOutQuad = function (t, b, c, d) {
-    t /= d / 2;
-    if (t < 1) return (c / 2) * t * t + b;
-    t--;
-    return (-c / 2) * (t * (t - 2) - 1) + b;
   };
 
   document.body.addEventListener('click', function(event) {
     if (event.target.closest('.back-to-top')) {
-      event.preventDefault();
-      scrollTo(document.documentElement);
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
     }
   });
 
-  const navbarToggler = document.querySelector("#navbar-toggler");
-  const navbarCollapse = document.querySelector("#navbar-collapse");
-
-  if (navbarToggler && navbarCollapse) {
-    navbarToggler.addEventListener("click", () => {
-      navbarToggler.classList.toggle("navbar-toggler-active");
-      navbarCollapse.classList.toggle("show");
+  const navbarToggler = document.querySelector(".navbar-toggler");
+  if (navbarToggler) {
+    navbarToggler.addEventListener("click", function () {
+      navbarToggler.classList.toggle("active");
+      const navbarCollapse = document.querySelector(".navbar-collapse");
+      if (navbarCollapse) {
+        navbarCollapse.classList.toggle("show");
+      }
     });
   }
 
-  const submenuButton = document.querySelectorAll(".nav-item-has-children");
-  submenuButton.forEach((elem) => {
-    const link = elem.querySelector("a");
-    const submenu = elem.querySelector(".ud-submenu");
-    
-    if (link && submenu) {
-      link.addEventListener("click", (event) => {
-         if (link.getAttribute('href') === '#' || link.classList.contains('ud-menu-scroll')) {
-             event.preventDefault();
-         }
-         submenu.classList.toggle("show");
-      });
+  const loginForm = document.getElementById('login-form');
+  if (loginForm) {
+    loginForm.addEventListener('submit', async (event) => {
+      event.preventDefault();
+
+      let errorMessage = document.getElementById('login-error-message');
+      if (!errorMessage) {
+          errorMessage = document.createElement('p');
+          errorMessage.id = 'login-error-message';
+          errorMessage.style.color = 'red';
+          errorMessage.style.marginTop = '15px';
+          const buttonContainer = loginForm.querySelector('.ud-form-group');
+          if (buttonContainer) {
+             loginForm.insertBefore(errorMessage, buttonContainer);
+          } else {
+             loginForm.appendChild(errorMessage);
+          }
+      }
+      errorMessage.textContent = '';
+
+      const emailInput = document.getElementById('email');
+      const passwordInput = document.getElementById('password');
+      const email = emailInput ? emailInput.value.trim() : '';
+      const password = passwordInput ? passwordInput.value.trim() : '';
+
+      if (!email || !password) {
+        errorMessage.textContent = "Email dan password tidak boleh kosong.";
+        return;
+      }
+
+      const submitButton = loginForm.querySelector('button[type="submit"]');
+      submitButton.disabled = true;
+      submitButton.innerHTML = 'Memuat...';
+
+      const result = await login(email, password);
+
+      if (result.success) {
+        window.location.href = "https://gracely011.github.io/hai/dashboard.html"; 
+      } else {
+        errorMessage.textContent = result.message;
+        submitButton.disabled = false;
+        submitButton.innerHTML = 'Log in';
+      }
+    });
+  }
+
+  document.body.addEventListener('click', function(event) {
+    if (event.target.closest('#logout-button')) { 
+        logout();
     }
   });
+  
+  const videoModals = [
+      { btnId: "openModalBtn", modalId: "videoModal", videoId: "videoElement" },
+      { btnId: "openModalBtnKiwi", modalId: "videoModalKiwi", videoId: "videoElementKiwi" },
+      { btnId: "openModalBtnOrion", modalId: "videoModalOrion", videoId: "videoElementOrion" },
+      { btnId: "openModalBtnDemo", modalId: "videoModalDemo", videoId: "videoElementDemo" }
+  ];
 
-  if (typeof WOW !== 'undefined') {
-    new WOW().init();
+  videoModals.forEach(({ btnId, modalId, videoId }) => {
+      const openBtn = document.getElementById(btnId);
+      const modal = document.getElementById(modalId);
+      const video = document.getElementById(videoId);
+
+      if (openBtn && modal && video) {
+          openBtn.addEventListener("click", () => {
+              modal.style.display = "flex";
+              video.currentTime = 0;
+              video.play();
+          });
+
+          window.addEventListener("click", (event) => {
+              if (event.target === modal) {
+                  modal.style.display = "none";
+                  video.pause();
+              }
+          });
+          
+          document.addEventListener('keydown', (event) => {
+              if (event.key === 'Escape' && modal.style.display === 'flex') {
+                  modal.style.display = "none";
+                  video.pause();
+              }
+          });
+      }
+  });
+  
+  function handleMultiLoginKick(message) {
+      localStorage.clear();
+      localStorage.removeItem('gracely_active_session_token');
+      
+      // Hapus semua cookies sesi (PERBAIKAN KEAMANAN)
+      if (typeof eraseCookie === 'function') {
+          eraseCookie('gracely_active_session');
+          eraseCookie('gracely_config_url');
+          eraseCookie('is_premium');
+      }
+
+      alert(message + " Anda akan diarahkan ke halaman Login.");
+      window.location.href = 'login.html';
   }
-}
 
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', initializeScripts);
-} else {
-  initializeScripts();
+  function handleStatusUpdate(dbStatus) {
+      
+      if (typeof eraseCookie === 'function') {
+          eraseCookie('is_premium');
+          eraseCookie('gracely_config_url');
+      }
+      localStorage.removeItem('isPremium');
+      localStorage.removeItem('premiumExpiryDate');
+      localStorage.removeItem('gracelyPremiumConfig');
+
+      const isPremium = dbStatus.isPremium;
+      
+      if (isPremium) {
+          if (typeof setCookie === 'function') {
+               setCookie('is_premium', 'true', 30);
+               setCookie('gracely_config_url', dbStatus.configUrl, 30);
+          }
+          localStorage.setItem('isPremium', 'true');
+          localStorage.setItem('premiumExpiryDate', dbStatus.premiumExpiryDate);
+          localStorage.setItem('gracelyPremiumConfig', dbStatus.configUrl);
+      } else {
+          if (typeof setCookie === 'function') {
+               setCookie('is_premium', 'false', 30);
+          }
+          localStorage.setItem('isPremium', 'false');
+      }
+
+      window.location.reload(); 
+  }
+
+  function startSessionCheckLoop() {
+      if (localStorage.getItem('isAuthenticated') !== 'true') {
+          return;
+      }
+
+      const localSessionToken = localStorage.getItem('gracely_active_session_token'); 
+      const localIsPremium = localStorage.getItem('isPremium');
+      const localExpiryDate = localStorage.getItem('premiumExpiryDate');
+      const localConfigUrl = localStorage.getItem('gracelyPremiumConfig');
+      
+      const checkInterval = 5000;
+
+      if (!localSessionToken) {
+          handleMultiLoginKick("Token sesi lokal hilang.");
+          return;
+      }
+      
+      setInterval(async () => {
+          if (typeof getUserId !== 'function' || typeof getActiveSessionToken !== 'function' || typeof getPremiumStatus !== 'function') {
+              return;
+          }
+          
+          const userId = await getUserId();
+          if (!userId) {
+              handleMultiLoginKick("Sesi Anda telah berakhir.");
+              return;
+          }
+
+          const profileSessionData = await getActiveSessionToken(userId);
+          
+          if (profileSessionData) {
+              const dbSessionToken = profileSessionData.session_id;
+              const canMultiLogin = profileSessionData.allow_multilogin === true;
+
+              if (!canMultiLogin && dbSessionToken && dbSessionToken !== localSessionToken) {
+                  handleMultiLoginKick("Akun Anda terdeteksi melakukan Login di perangkat atau browser lain.");
+                  return;
+              }
+          }
+          
+          const dbStatus = await getPremiumStatus(userId);
+          
+          if (dbStatus) {
+              const dbIsPremium = dbStatus.isPremium ? 'true' : 'false';
+              
+              const isStatusChanged = (dbIsPremium !== localIsPremium);
+              
+              let isDataChanged = false;
+              if (dbIsPremium === 'true') {
+                  const dbExpiryDate = dbStatus.premiumExpiryDate;
+                  const dbConfigUrl = dbStatus.configUrl;
+                  
+                  isDataChanged = (dbExpiryDate != localExpiryDate) || (dbConfigUrl != localConfigUrl);
+              }
+
+              if (isStatusChanged || isDataChanged) {
+                   handleStatusUpdate(dbStatus);
+              }
+          }
+
+      }, checkInterval);
+  }
+
+  startSessionCheckLoop();
 }
