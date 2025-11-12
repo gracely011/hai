@@ -53,34 +53,6 @@ async function getClientIpInfo() {
     }
 }
 
-async function getActiveSessionToken(userId) {
-    if (!userId) return null;
-    try {
-        const { data } = await supabaseClient
-            .from('profiles')
-            .select('session_id, allow_multilogin, last_ip, last_browser')
-            .eq('id', userId)
-            .single();
-        return data;
-    } catch (error) {
-        return null;
-    }
-}
-
-async function getPremiumStatus(userId) {
-    if (!userId) return null;
-    try {
-        const { data } = await supabaseClient
-            .from('profiles')
-            .select('isPremium, premiumExpiryDate, configUrl')
-            .eq('id', userId)
-            .single();
-        return data; 
-    } catch (error) {
-        return null;
-    }
-}
-
 async function signup(name, email, password) {
     try {
         const { data, error } = await supabaseClient.auth.signUp({
@@ -171,7 +143,7 @@ async function login(email, password) {
       }
     }
 
-    const configHash = isCurrentlyPremium ? profileData.configUrl : 'NULL';
+    let configHash = 'NULL';
     if(isCurrentlyPremium && profileData.configUrl) {
         configHash = profileData.configUrl.substring(0, 8);
     }
