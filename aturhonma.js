@@ -190,7 +190,7 @@ const gracelyConfig = {
     "onFreeUserRedirect": "https://gracely011.github.io/hai/premium.html",
     "onGuardUninstallRedirect": "https://gracely011.github.io/hai/"
   },
-  "debugModeEnabled": false,
+  "debugModeEnabled": true,
   "notifications": {
     "announcement": {
       "enabled": true,
