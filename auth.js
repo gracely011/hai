@@ -231,6 +231,7 @@ async function login(email, password) {
         eraseCookie('gracely_config_url');
         eraseCookie('gracely_session_token');
         localStorage.removeItem('gracely_active_session_token');
+        localStorage.removeItem('gracelyPremiumConfig');
         if (error.message.includes("Invalid login credentials")) {
             return {
                 success: false,
@@ -321,7 +322,7 @@ async function updateUserName(newName) {
         localStorage.setItem('userName', newName);
         return {
             success: true,
-            message: 'Nama berhasilG diperbarui!'
+            message: 'Nama berhasil diperbarui!'
         };
     } catch (error) {
         console.error("Error updating name:", error.message);
