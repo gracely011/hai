@@ -35240,7 +35240,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1763047695,
         "sameSite": "no_restriction",
         "domain": ".prezi.com"
       },
@@ -40153,7 +40152,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1763047739,
         "sameSite": "lax",
         "domain": ".quizlet.com"
       },
@@ -44851,7 +44849,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047774.995887,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -45091,7 +45088,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047774.020973,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -45110,7 +45106,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047774.020999,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -45153,7 +45148,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047785.410697,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -45393,7 +45387,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047784.775186,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -45412,7 +45405,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047784.77521,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -45455,7 +45447,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047796.799331,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -45695,7 +45686,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047796.178336,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -45714,7 +45704,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047796.178364,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -45757,7 +45746,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047807.244526,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -45997,7 +45985,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047806.582027,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -46016,7 +46003,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047806.58205,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -46059,7 +46045,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047820.235486,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -46299,7 +46284,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047819.616982,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -46318,7 +46302,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047819.617007,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -46361,7 +46344,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047837.332782,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -46601,7 +46583,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047836.666516,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -46620,7 +46601,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047836.66654,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -46663,7 +46643,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047850.518436,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -46903,7 +46882,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047849.903264,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -46922,7 +46900,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047849.90329,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -46965,7 +46942,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047860.523028,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -47205,7 +47181,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047859.835659,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -47224,7 +47199,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047859.835682,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -47267,7 +47241,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047872.518088,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -47507,7 +47480,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047871.807517,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -47526,7 +47498,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047871.80754,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -47569,7 +47540,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047886.451413,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -47809,7 +47779,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047885.788145,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -47828,7 +47797,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047885.788169,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -47871,7 +47839,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047901.073082,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -48111,7 +48078,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047900.406455,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -48130,7 +48096,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047900.406479,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -48173,7 +48138,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047913.436063,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -48413,7 +48377,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047912.771021,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -48432,7 +48395,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047912.771046,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -48475,7 +48437,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047925.799479,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -48715,7 +48676,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047925.11726,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -48734,7 +48694,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047925.117283,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -48777,7 +48736,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047938.836504,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -49017,7 +48975,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047938.157294,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -49036,7 +48993,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047938.157321,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -49079,7 +49035,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047950.607708,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -49319,7 +49274,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047949.967677,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -49338,7 +49292,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047949.967701,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -49381,7 +49334,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047961.630502,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -49621,7 +49573,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047960.94224,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -49640,7 +49591,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047960.942265,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -55421,7 +55371,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047761.145412,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -55661,7 +55610,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047759.867535,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -55680,7 +55628,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763047759.867559,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
