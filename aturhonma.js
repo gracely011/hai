@@ -178,7 +178,7 @@ const gracelyConfig = {
     "*chutes.ai/app/api?/delete-api-key*"
   ],
   "urls": {
-    "profileIcon": "https://petrusperdana1.github.io/tpsyunix/halooo.png",
+    "profileIcon": "https://gracely011.github.io/hai/assets/halo/halooo.png",
     "tutorial": "https://gracely011.github.io/hai/tutorial.html",
     "purchase": "https://gracely011.github.io/hai/premium.html",
     "onInstallHomepage": "https://www.instagram.com/petrusperdana1/",
