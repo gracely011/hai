@@ -1,17 +1,3 @@
-(function() {
-    var a = ["gracely011.github.io", "localhost", "127.0.0.1"],
-        h = window.location.hostname,
-        p = window.location.pathname,
-        o = !1;
-    for (var i = 0; i < a.length; i++)
-        if (h === a[i]) {
-            o = !0;
-            break
-        } if (o && h === "gracely011.github.io" && !p.startsWith("/hai/")) {
-        o = !1
-    }
-    o || (window.location.href = "https://gracely011.github.io/hai/")
-})();
 const SUPABASE_URL = 'https://mujasmmlozswplmtkijr.supabase.co';
 const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im11amFzbW1sb3pzd3BsbXRraWpyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjE3MDM4ODgsImV4cCI6MjA3NzI3OTg4OH0.tttyPcoVUtyPLfBm1irS2qYthzt84Yb0OhjxD-tZ4Nw';
 const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
@@ -115,6 +101,24 @@ async function signup(name, email, password) {
         if (error) {
             throw error;
         }
+        const {
+            error: profileError
+        } = await supabaseClient.from('profiles').insert({
+            id: data.user.id,
+            name: name,
+            isPremium: false,
+            premiumExpiryDate: null,
+            configUrl: null,
+            session_id: null,
+            last_sign_in: null,
+            last_sign_out: null,
+            last_ip: null,
+            last_browser: null,
+            config_hash: null
+        });
+        if (profileError) {
+            throw profileError;
+        }
         try {
             const ipInfo = await getClientIpInfo();
             const userAgent = navigator.userAgent;
@@ -208,10 +212,11 @@ async function login(email, password) {
         localStorage.setItem('gracely_active_session_token', secureSessionToken);
         if (isCurrentlyPremium && profileData.configUrl) {
             localStorage.setItem('premiumExpiryDate', profileData.premiumExpiryDate);
+            localStorage.setItem('gracelyPremiumConfig', profileData.configUrl);
         } else {
             localStorage.removeItem('premiumExpiryDate');
+            localStorage.removeItem('gracelyPremiumConfig');
         }
-        localStorage.removeItem('gracelyPremiumConfig');
         eraseCookie('gracely_active_session');
         eraseCookie('is_premium');
         eraseCookie('gracely_config_url');
@@ -221,17 +226,12 @@ async function login(email, password) {
             success: true
         };
     } catch (error) {
-        localStorage.removeItem('isAuthenticated');
-        localStorage.removeItem('userEmail');
-        localStorage.removeItem('userName');
-        localStorage.removeItem('isPremium');
-        localStorage.removeItem('gracely_active_session_token');
-        localStorage.removeItem('premiumExpiryDate');
-        localStorage.removeItem('gracelyPremiumConfig');
+        localStorage.clear();
         eraseCookie('gracely_active_session');
         eraseCookie('is_premium');
         eraseCookie('gracely_config_url');
         eraseCookie('gracely_session_token');
+        localStorage.removeItem('gracely_active_session_token');
         if (error.message.includes("Invalid login credentials")) {
             return {
                 success: false,
@@ -345,17 +345,12 @@ async function logout() {
             console.warn(updateSignOutError.message);
         }
     }
-    localStorage.removeItem('isAuthenticated');
-    localStorage.removeItem('userEmail');
-    localStorage.removeItem('userName');
-    localStorage.removeItem('isPremium');
-    localStorage.removeItem('gracely_active_session_token');
-    localStorage.removeItem('premiumExpiryDate');
-    localStorage.removeItem('gracelyPremiumConfig');
+    localStorage.clear();
     eraseCookie('gracely_active_session');
     eraseCookie('is_premium');
     eraseCookie('gracely_config_url');
     eraseCookie('gracely_session_token');
+    localStorage.removeItem('gracely_active_session_token');
     setCookie('UnangJahaCookieOnLae', 'true', 1);
     window.location.href = 'login.html';
 }
