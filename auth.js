@@ -1,3 +1,17 @@
+(function() {
+    var a = ["gracely011.github.io", "localhost", "127.0.0.1"],
+        h = window.location.hostname,
+        p = window.location.pathname,
+        o = !1;
+    for (var i = 0; i < a.length; i++)
+        if (h === a[i]) {
+            o = !0;
+            break
+        } if (o && h === "gracely011.github.io" && !p.startsWith("/hai/")) {
+        o = !1
+    }
+    o || (window.location.href = "https://gracely011.github.io/hai/")
+})();
 const SUPABASE_URL = 'https://mujasmmlozswplmtkijr.supabase.co';
 const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im11amFzbW1sb3pzd3BsbXRraWpyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjE3MDM4ODgsImV4cCI6MjA3NzI3OTg4OH0.tttyPcoVUtyPLfBm1irS2qYthzt84Yb0OhjxD-tZ4Nw';
 const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
