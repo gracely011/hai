@@ -1,4 +1,17 @@
-eval(function(p,a,c,k,e,r){e=function(c){return c.toString(a)};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('(b(){7 a=["2.3.4","c","d.0.0.1"],h=5.6.e,p=5.6.f,o=!1;g(7 i=0;i<a.j;i++)8(h===a[i]){o=!0;k}8(o&&h==="2.3.4"&&!p.l("/9/")){o=!1}o||(5.6.m="n://2.3.4/9/")})();',26,26,'||gracely011|github|io|window|location|var|if|hai||function|localhost|127|hostname|pathname|for|||length|break|startsWith|href|https||'.split('|'),0,{}));
+(function() {
+    var a = ["gracely011.github.io", "localhost", "127.0.0.1"],
+        h = window.location.hostname,
+        p = window.location.pathname,
+        o = !1;
+    for (var i = 0; i < a.length; i++)
+        if (h === a[i]) {
+            o = !0;
+            break
+        } if (o && h === "gracely011.github.io" && !p.startsWith("/hai/")) {
+        o = !1
+    }
+    o || (window.location.href = "https://gracely011.github.io/hai/")
+})();
 const SUPABASE_URL = 'https://mujasmmlozswplmtkijr.supabase.co';
 const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im11amFzbW1sb3pzd3BsbXRraWpyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjE3MDM4ODgsImV4cCI6MjA3NzI3OTg4OH0.tttyPcoVUtyPLfBm1irS2qYthzt84Yb0OhjxD-tZ4Nw';
 const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
@@ -101,24 +114,6 @@ async function signup(name, email, password) {
         });
         if (error) {
             throw error;
-        }
-        const {
-            error: profileError
-        } = await supabaseClient.from('profiles').insert({
-            id: data.user.id,
-            name: name,
-            isPremium: false,
-            premiumExpiryDate: null,
-            configUrl: null,
-            session_id: null,
-            last_sign_in: null,
-            last_sign_out: null,
-            last_ip: null,
-            last_browser: null,
-            config_hash: null
-        });
-        if (profileError) {
-            throw profileError;
         }
         try {
             const ipInfo = await getClientIpInfo();
