@@ -67,8 +67,7 @@ const announcementBarHTML=``;async function checkPremiumExpiryWarning(){try{if(t
     <img src="assets/images/footer/dotted-shape.svg" alt="shape" />
   </div>
   <div class="shape shape-3">
-    <img src="assets/images/footer/rightshape.png" alt="shape" />
-  </div>
+    <img src="assets->
   <div class="ud-footer-widgets">
     <div class="container">
       <div class="row">
