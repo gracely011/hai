@@ -194,12 +194,8 @@ const gracelyConfig = {
   "notifications": {
     "announcement": {
       "enabled": true,
-      "id": "info2-update-oktober-2025",
-      "title": "Informasi",
-      "lines": [
-        "Jika bukan TUHAN yang menolong aku, nyaris aku diam di tempat sunyi. <b>Mazmur 94 : 17</b> 😊🙏",
-        "<b>petrussiahaan.blogspot.com</b>"
-      ]
+      "id": "info-html-nov-2025",
+      "html": "<div class='notificationModal-content'><i class='fa fa-times close-icon' id='notification-close'></i><h2 style='margin: 0 0 16px 0; text-align: center; color: #2c3e50; font-size: 22px; border-bottom: 3px solid #333333; padding-bottom: 8px;'>Informasi</h2><div style='background: #f8f9fa; padding: 12px; border-radius: 8px; margin-bottom: 10px;'><p style='margin: 6px 0; font-size: 14px;'><b>Discord Channel</b>: groupy.id/groupydiscord</p><p style='margin: 6px 0; font-size: 14px;'><b>Telegram Channel</b>: groupy.id/groupytelegram</p></div><div style='border: 2px dashed #666666; padding: 8px 10px; border-radius: 8px; background: #f5f5f5; margin-bottom: 12px;'><p style='margin: 0; text-align: center; color: #333333; font-size: 13px;'><img src='https://em-content.zobj.net/source/animated-noto-color-emoji/356/party-popper_1f389.gif' width='20' height='20' style='vertical-align: middle;'> <b>NOVEMBEAR10</b>: DISKON 10% <img src='https://em-content.zobj.net/source/animated-noto-color-emoji/356/fire_1f525.gif' width='20' height='20' style='vertical-align: middle;'></p><p style='margin: 0; text-align: center; color: #333333; font-size: 13px;'><img src='https://em-content.zobj.net/source/animated-noto-color-emoji/356/ghost_1f47b.gif' width='20' height='20' style='vertical-align: middle;'> <b>NEWPHANTOM15</b>: DISKON 15% UNTUK PLAN PHANTOM 150 DAYS! <img src='https://em-content.zobj.net/source/animated-noto-color-emoji/356/high-voltage_26a1.gif' width='20' height='20' style='vertical-align: middle;'></p></div><button class='ud-main-btn' id='notification-ok'>OK</button></div>"
     },
     "folderInfo": {
       "chatgpt-group-id": {
