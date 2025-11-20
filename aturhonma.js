@@ -242,9 +242,9 @@ const gracelyConfig = {
   },
   "versionControl": {
     "extensionName": "Gracely Extension",
-    "requiredExtensionVersion": "2.2",
+    "requiredExtensionVersion": "2.3",
     "guardName": "Gracely Guard",
-    "requiredGuardVersion": "1.0.3",
+    "requiredGuardVersion": "1.0.4",
     "onVersionMismatchUrl": "https://gracely011.github.io/hai/update.html",
     "sharedVerificationCode": "Mazmur_94_:_17"
   }
