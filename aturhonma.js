@@ -246,6 +246,6 @@ const gracelyConfig = {
     "guardName": "Gracely Guard",
     "requiredGuardVersion": "1.0.3",
     "onVersionMismatchUrl": "https://gracely011.github.io/hai/update.html",
-    "sharedVerificationCode": "11Mazmur_94_:_17"
+    "sharedVerificationCode": "Mazmur_94_:_17"
   }
 };
