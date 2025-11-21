@@ -140,23 +140,50 @@
     <script src="assets/script.js"></script> 
     
     <script>
-        // Fungsi pintar untuk format tanggal menyesuaikan zona waktu internet user
-        function formatDateWithTimezone(dateString) {
+        // Fungsi untuk membuat format persis: "December 01, 2025 20:17:57 (UTC +7)"
+        function formatExactUTC(dateString) {
             if (!dateString) return '';
             const date = new Date(dateString);
             
-            // Opsi format agar mirip contoh Groupy: "December 01, 2025 20:17:57"
-            // timeZoneName: 'short' akan menampilkan (WIB) atau (GMT+7) sesuai lokasi user
-            return date.toLocaleString('en-US', { 
+            // 1. Ambil bagian tanggal & waktu (Bahasa Inggris)
+            // Menghasilkan: "December 01, 2025, 20:17:57" (atau format serupa tergantung browser)
+            const options = { 
                 year: 'numeric', 
                 month: 'long', 
                 day: '2-digit',
                 hour: '2-digit', 
                 minute: '2-digit', 
                 second: '2-digit',
-                hour12: false, 
-                timeZoneName: 'short' 
-            });
+                hour12: false
+            };
+            // Kita bersihkan string hasilnya agar rapi (hilangkan koma atau 'at' jika ada)
+            let datePart = date.toLocaleString('en-US', options).replace(' at', '').replace(',', '');
+            
+            // Pastikan formatnya konsisten "Month DD YYYY HH:MM:SS"
+            // Karena toLocaleString bisa beda-beda dikit antar browser, kita rakit manual biar PERFEK
+            const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+            const monthName = months[date.getMonth()];
+            const day = String(date.getDate()).padStart(2, '0');
+            const year = date.getFullYear();
+            const hours = String(date.getHours()).padStart(2, '0');
+            const minutes = String(date.getMinutes()).padStart(2, '0');
+            const seconds = String(date.getSeconds()).padStart(2, '0');
+            
+            const cleanDate = `${monthName} ${day}, ${year} ${hours}:${minutes}:${seconds}`;
+
+            // 2. Hitung Offset Timezone Otomatis (Manual Calc biar jadi UTC +X)
+            // getTimezoneOffset returns menit (positif jika dibelakang UTC, negatif jika didepan)
+            // Contoh WIB (UTC+7) -> return -420
+            const offsetMinutes = date.getTimezoneOffset(); 
+            const offsetHours = -(offsetMinutes / 60);
+            const sign = offsetHours >= 0 ? '+' : '-';
+            const absOffset = Math.abs(offsetHours);
+            
+            // Hasil: (UTC +7) atau (UTC -5) atau (UTC +9.5)
+            const timezoneString = `(UTC ${sign}${absOffset})`;
+
+            // Gabungkan
+            return `${cleanDate} ${timezoneString}`;
         }
 
         document.addEventListener('DOMContentLoaded', () => {
@@ -167,7 +194,7 @@
             let planHTML = '';
             
             if (isPremium && expiryDateStr) {
-                const formattedDate = formatDateWithTimezone(expiryDateStr);
+                const formattedDate = formatExactUTC(expiryDateStr);
                 
                 planHTML = `
                 <div class="menu-section">
