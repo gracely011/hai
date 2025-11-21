@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="assets/styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     
     <script src="auth.js"></script>
     <script>requireAuth();</script>
@@ -138,17 +138,36 @@
     <script src="auth.js"></script>
     <script src="layout.js"></script> 
     <script src="assets/script.js"></script> 
+    
     <script>
+        // Fungsi pintar untuk format tanggal menyesuaikan zona waktu internet user
+        function formatDateWithTimezone(dateString) {
+            if (!dateString) return '';
+            const date = new Date(dateString);
+            
+            // Opsi format agar mirip contoh Groupy: "December 01, 2025 20:17:57"
+            // timeZoneName: 'short' akan menampilkan (WIB) atau (GMT+7) sesuai lokasi user
+            return date.toLocaleString('en-US', { 
+                year: 'numeric', 
+                month: 'long', 
+                day: '2-digit',
+                hour: '2-digit', 
+                minute: '2-digit', 
+                second: '2-digit',
+                hour12: false, 
+                timeZoneName: 'short' 
+            });
+        }
+
         document.addEventListener('DOMContentLoaded', () => {
             const planSection = document.getElementById('plan-status-section');
             const isPremium = localStorage.getItem('isPremium') === 'true';
             const expiryDateStr = localStorage.getItem('premiumExpiryDate');
+            
             let planHTML = '';
+            
             if (isPremium && expiryDateStr) {
-                const expiryDate = new Date(expiryDateStr);
-                const today = new Date(); today.setHours(0, 0, 0, 0);
-                const timeLeft = expiryDate.getTime() - today.getTime();
-                const daysLeft = Math.ceil(timeLeft / (1000 * 60 * 60 * 24));
+                const formattedDate = formatDateWithTimezone(expiryDateStr);
                 
                 planHTML = `
                 <div class="menu-section">
@@ -156,12 +175,13 @@
                     Your plan
                   </div>
                   <img src="assets/images/logo/gracely_mobile_white.png" alt="Logo" id="logo" class="top-right-image">
+                  
                   <div class="menu-section-plan-premium"> 
                     Premium
                   </div>
+                  
                   <div class="menu-section-plan-description">
-                    You have access to Gracely Extension. <br>
-                    <strong>Expires on: ${expiryDate.toLocaleDateString()} (${daysLeft} days left)</strong>
+                    Your premium is valid until ${formattedDate}.
                   </div>
                 </div>`;
             } else {
@@ -171,6 +191,7 @@
                     Your plan
                   </div>
                   <img src="assets/images/logo/gracely_mobile_white.png" alt="Logo" id="logo" class="top-right-image">
+                  
                   <div class="menu-section-plan-free">
                     No Premium
                   </div>
