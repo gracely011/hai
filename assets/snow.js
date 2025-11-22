@@ -1,4 +1,4 @@
-/* coded by the groupy team */
+
 document.addEventListener('DOMContentLoaded', function () {
   const snowContainer = document.createElement('div');
   snowContainer.id = 'snow-container';
@@ -54,3 +54,4 @@ document.addEventListener('DOMContentLoaded', function () {
   `;
   document.head.appendChild(style);
 });
+
