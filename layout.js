@@ -264,7 +264,6 @@ const footerHTML = `
   </div>
 </footer>
 
-<script src="assets/snow.js"></script>
 `;
 
 const backToTopHTML = `<a href="javascript:void(0)" class="back-to-top"><i class="fa-solid fa-arrow-up"></i></a>`;
@@ -318,4 +317,5 @@ function loadLayout() {
     runNotificationChecks();
 }
 document.addEventListener("DOMContentLoaded", loadLayout);
+
 
