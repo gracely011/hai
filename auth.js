@@ -133,30 +133,23 @@ async function signup(name, email, password) {
         if (error) {
             throw error;
         }
-        
-        // LOGGING SIGNUP
         try {
             const ipInfo = await getClientIpInfo();
             const userAgent = navigator.userAgent;
-            
-            // Pastikan user_id tersedia
-            if (data && data.user && data.user.id) {
-                await supabaseClient.from('activity_logs').insert({
-                    user_id: data.user.id,
-                    name: name, // Mengambil dari parameter fungsi
-                    activity: 'Account Registered',
-                    ip_address: ipInfo.query,
-                    device: userAgent,
-                    isp_info: {
-                        location: `${ipInfo.city}, ${ipInfo.country}`,
-                        isp: ipInfo.isp
-                    }
-                });
-            }
+            await supabaseClient.from('activity_logs').insert({
+                user_id: data.user.id,
+                name: name, // TAMBAHAN: Menyimpan nama saat daftar
+                activity: 'Account Registered',
+                ip_address: ipInfo.query,
+                device: userAgent,
+                isp_info: {
+                    location: `${ipInfo.city}, ${ipInfo.country}`,
+                    isp: ipInfo.isp
+                }
+            });
         } catch (logError) {
             console.warn("Gagal mencatat log signup:", logError.message);
         }
-        
         return {
             success: true
         };
@@ -184,19 +177,14 @@ async function login(email, password) {
         const clientIp = await getClientIp();
         const userAgent = navigator.userAgent;
         const secureSessionToken = authData.session.access_token;
-        
-        // Ambil profil untuk mendapatkan NAMA
         let {
             data: profileData,
             error: profileError
         } = await supabaseClient.from('profiles').select('*').eq('id', authData.user.id).single();
-        
         if (profileError) {
             throw profileError;
         }
-        
         const userName = profileData.name || 'User';
-        
         let isCurrentlyPremium = false;
         if (profileData.isPremium && profileData.premiumExpiryDate) {
             const expiryDate = new Date(profileData.premiumExpiryDate);
@@ -215,17 +203,14 @@ async function login(email, password) {
             session_id: secureSessionToken,
             config_hash: configHash
         }).eq('id', authData.user.id);
-        
         if (updateSignInError) {
             console.warn(updateSignInError.message);
         }
-        
-        // LOGGING LOGIN (Diperbaiki urutannya)
         try {
             const ipInfo = await getClientIpInfo();
             await supabaseClient.from('activity_logs').insert({
                 user_id: authData.user.id,
-                name: userName, // Menggunakan nama dari database profiles
+                name: userName, // TAMBAHAN: Menyimpan nama saat login
                 activity: 'Logged In',
                 ip_address: ipInfo.query,
                 device: userAgent,
@@ -237,7 +222,6 @@ async function login(email, password) {
         } catch (logError) {
             console.warn("Gagal mencatat log login:", logError.message);
         }
-        
         localStorage.setItem('isAuthenticated', 'true');
         localStorage.setItem('userEmail', authData.user.email);
         localStorage.setItem('userName', userName);
@@ -374,43 +358,18 @@ async function updateUserName(newName) {
 }
 
 async function logout() {
-    // 1. Ambil data SEBELUM logout
     const userId = await getUserId();
-    const currentName = localStorage.getItem('userName') || 'Unknown'; // Ambil nama dari local storage sebelum dihapus
-    
     if (userId) {
-        // 2. Update status sign out di profiles
         const now = new Date().toISOString();
-        const { error: updateSignOutError } = await supabaseClient.from('profiles').update({
+        const {
+            error: updateSignOutError
+        } = await supabaseClient.from('profiles').update({
             last_sign_out: now
         }).eq('id', userId);
-        
-        if (updateSignOutError) console.warn(updateSignOutError.message);
-
-        // 3. CATAT LOG LOGOUT (WAJIB AWAIT AGAR SELESAI SEBELUM REDIRECT)
-        try {
-            const ipInfo = await getClientIpInfo();
-            const userAgent = navigator.userAgent;
-            
-            // Perintah ini sekarang ditunggu (await) sampai selesai
-            await supabaseClient.from('logoutactivity_logs').insert({
-                user_id: userId,
-                name: currentName, // Memasukkan nama
-                activity: 'Logged Out',
-                ip_address: ipInfo.query,
-                device: userAgent,
-                isp_info: {
-                    location: `${ipInfo.city}, ${ipInfo.country}`,
-                    isp: ipInfo.isp
-                }
-            });
-            
-        } catch (logError) {
-            console.warn("Gagal mencatat log logout:", logError.message);
+        if (updateSignOutError) {
+            console.warn(updateSignOutError.message);
         }
     }
-
-    // 4. SETELAH LOG TERCATAT, BARU BERSIHKAN SESI
     localStorage.removeItem('isAuthenticated');
     localStorage.removeItem('userEmail');
     localStorage.removeItem('userName');
@@ -418,15 +377,11 @@ async function logout() {
     localStorage.removeItem('gracely_active_session_token');
     localStorage.removeItem('premiumExpiryDate');
     localStorage.removeItem('gracelyPremiumConfig');
-    
     eraseCookie('gracely_active_session');
     eraseCookie('is_premium');
     eraseCookie('gracely_config_url');
     eraseCookie('gracely_session_token');
-    
     setCookie('UnangJahaCookieOnLae', 'true', 1);
-    
-    // 5. TERAKHIR, BARU PINDAH HALAMAN
     window.location.href = 'login.html';
 }
 
