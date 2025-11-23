@@ -138,6 +138,7 @@ async function signup(name, email, password) {
             const userAgent = navigator.userAgent;
             await supabaseClient.from('activity_logs').insert({
                 user_id: data.user.id,
+                name: name, // TAMBAHAN: Menyimpan nama saat daftar
                 activity: 'Account Registered',
                 ip_address: ipInfo.query,
                 device: userAgent,
@@ -209,6 +210,7 @@ async function login(email, password) {
             const ipInfo = await getClientIpInfo();
             await supabaseClient.from('activity_logs').insert({
                 user_id: authData.user.id,
+                name: userName, // TAMBAHAN: Menyimpan nama saat login
                 activity: 'Logged In',
                 ip_address: ipInfo.query,
                 device: userAgent,
