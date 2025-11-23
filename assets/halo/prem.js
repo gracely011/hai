@@ -16216,692 +16216,356 @@
       "name": "Coursera",
       "icon": "https://play-lh.googleusercontent.com/H8crzfriK6t5b0N5wXykhxMjPopyWGDZPaMJlvWlAKb7EG-26KGu15P_RnFDinBw1Jc",
       "url": "https://www.coursera.org/",
-      "category": "education",
-      "isGroup": true
+      "category": "education"
     },
-    "accounts": [
+    "cookies": [
       {
-        "name": "Coursera 1",
-        "cookies": [
-          {
-            "name": "__204u",
-            "value": "3181206087-1759897276249",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791433279.116982,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "__400v",
-            "value": "8f2535a5-bd99-463a-8f3c-1da42b857b88",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "__400vt",
-            "value": "1763478900168",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "_fbp",
-            "value": "fb.1.1759897326303.71872777411757460",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1771254834,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "_ga",
-            "value": "GA1.1.1644162863.1759897323",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798038833.243863,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "_ga_7GZ59JSFWQ",
-            "value": "GS2.1.s1763478833$o4$g0$t1763478833$j60$l0$h483700586",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798038833.243359,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "_ga_ZCE2Q9YZ3F",
-            "value": "GS2.1.s1763478830$o4$g0$t1763478830$j60$l0$h0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798038830.467872,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "_gcl_au",
-            "value": "1.1.1478403563.1759897323.1859960614.1763357766.1763357766",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1767673323,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "_gcl_aw",
-            "value": "GCL.1759897336.EAIaIQobChMIm4Wnn-CTkAMVqiODAx0U9RWtEAAYASAAEgKsSvD_BwE",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1767673336,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "_gcl_gs",
-            "value": "2.1.k1$i1759897319$u226886927",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1767673324,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "_rdt_uuid",
-            "value": "1759897323680.d6ede4d2-5a2c-4f92-99a3-483acb8e5725",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1771254834,
-            "sameSite": "strict",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "_tt_enable_cookie",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797174835,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "_ttp",
-            "value": "01K710W4ZK1EYQHS1XZK40SC6Z_.tt.1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797174835,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "_uetsid",
-            "value": "32e8f1d0c49111f09690433beac0ffd1|j0p5s0|2|g14|0|2148",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "_uetvid",
-            "value": "59492cc0a3fe11f081abc155bb1e2e6b|lrgkw6|1763478836535|1|1|bat.bing.com/p/conversions/c/s",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797174836,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "ab.storage.deviceId.6b512fd4-04b5-4fd4-8b44-3f482bc8dcf9",
-            "value": "g%3A1d893263-a1ef-b38b-2571-37320c2b9711%7Ce%3Aundefined%7Cc%3A1763357766983%7Cl%3A1763478833570",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798038833,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "ab.storage.sessionId.6b512fd4-04b5-4fd4-8b44-3f482bc8dcf9",
-            "value": "g%3A97bf1a8f-caff-4c21-12f5-729f3c53a7c8%7Ce%3A1763480633569%7Cc%3A1763478833569%7Cl%3A1763478833569",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798038833,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "ab.storage.userId.6b512fd4-04b5-4fd4-8b44-3f482bc8dcf9",
-            "value": "g%3A184002934%7Ce%3Aundefined%7Cc%3A1763357775647%7Cl%3A1763478833571",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798038833,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "CAUTH",
-            "value": "3fhzMMCk-LFSb9UW9h404jvzNl74w5Atn1Z4BsoK-FHOCBiwpufbHEkAnmrPCO1YbXCxmg50gCDBoz3ozSA1Vw.HRX3UOz8sEJxl6W3FiK2wg.1mo_ZMsWOPaLzM6ZGCM-IVXy5ZjOErv5uu8JBkq1HGJoX4lyEWSLgYz5DMe0omvYPQsDJh0_PsaCUfgZ2bl3jgRHjK5G7Z7pHceuV6kIeaD0kqz1kRS7kgv6nc2Rd2DMfCHLpBl1AmU3ooLT4un_-lT3AgyetdfuCcHqiYmtGiBrA_Q6chSVSwUVZ91r8tvIjfWJ-0JzNx7afLUs4pt6Z7bng6JgBHQ8DWP4-wYvlkp5nrR88DUQlqu6QKSSYGB1KhprFfX-KLP7-F7HrPXe1fNQ3uORFHC9rPoLnkgA6kJZO8E4qcaBbgm1C-kd-rYrBH-UfwEa5w66Buydvt-z2OPl-TwaCjYo2QF0ge_rI751TqLpoAsmaxcBzqc54pGR4SUZQA4bPTPA28mCD850L09PVsmWPCVyAC6Tvtm_FnewMaHXWuuebn6wlEFZ9QHO1CG2cwCqdzfvx9DbouUnElXaZ6f8MBiPQzlvEzq2pR0",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1767677767.054915,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "CSRF3-Token",
-            "value": "1764221766.k1AkxznYSIZIp1sE",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1764221753.923383,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "FPID",
-            "value": "FPID2.2.9L7KU5v9Z%2FOjiCQmQWW6lIyWQ%2F3Th0Kbrte4OdAO59A%3D.1759897323",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1797917776.335053,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "IR_14726",
-            "value": "1763478833317%7C0%7C1763478833317%7C%7C",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "IR_gbd",
-            "value": "coursera.org",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "OptanonAlertBoxClosed",
-            "value": "2025-11-18T15:13:52.100Z",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795014832,
-            "sameSite": "lax",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "OptanonConsent",
-            "value": "isGpcEnabled=0&datestamp=Tue+Nov+18+2025+22%3A13%3A52+GMT%2B0700+(Indochina+Time)&version=202508.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=9173323a-bf2a-4566-9a9f-d6a0c4d15dbc&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0004%3A1%2CC0002%3A1%2CC0003%3A1&AwaitingReconsent=false&geolocation=ID%3BJI",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795014832,
-            "sameSite": "lax",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "profileconsent",
-            "value": "eyIxODQwMDI5MzQiOnsiY2NwYVJlcXVpcmVkIjpmYWxzZSwiZ2RwclJlcXVpcmVkIjpmYWxzZX19",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "sign",
-            "value": "4d7a7847506c77555764694e43514338714f374468482f35597a49336176365534554669754647556663684f346578642f534f5369354f727a36644a385a5970",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797053775,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "ttcsid",
-            "value": "1763478835267::kLVkMo8kBpSu263SUOYG.4.1763478836186.0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797174836,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "ttcsid_CTIORPRC77UDE4D3R2FG",
-            "value": "1763478835267::cNX_L40c-YL_Wcakrb_C.4.1763478836186.0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797174836,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "__stripe_mid",
-            "value": "e46b0f47-0253-47f5-9752-22558e0bb0ef327316",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791433339,
-            "sameSite": "strict",
-            "domain": ".www.coursera.org"
-          },
-          {
-            "name": "OneTrustWPCCPAGoogleOptOut",
-            "value": "false",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791433385,
-            "sameSite": "lax",
-            "domain": ".www.coursera.org"
-          },
-          {
-            "name": "usprivacy",
-            "value": "1---",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794893774,
-            "sameSite": "lax",
-            "domain": ".www.coursera.org"
-          },
-          {
-            "name": "usprivacy",
-            "value": "1---",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795014832,
-            "sameSite": "lax",
-            "domain": "www.coursera.org"
-          }
-        ],
-        "sourceUrl": "https://www.coursera.org/"
+        "name": "__204u",
+        "value": "3181206087-1759897276249",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1791433279.116982,
+        "sameSite": "no_restriction",
+        "domain": ".coursera.org"
       },
       {
-        "name": "Coursera 2",
-        "cookies": [
-          {
-            "name": "__204u",
-            "value": "3181206087-1759897276249",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791433279.116982,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "__400v",
-            "value": "1fcbfae9-691a-416e-be95-10f7a4db04b6",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "__400vt",
-            "value": "1763901984177",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "_fbp",
-            "value": "fb.1.1759897326303.71872777411757460",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1771677981,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "_ga",
-            "value": "GA1.1.1644162863.1759897323",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798461980.233781,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "_ga_7GZ59JSFWQ",
-            "value": "GS2.1.s1763901980$o4$g0$t1763901980$j60$l0$h1974243364",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798461980.232993,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "_ga_ZCE2Q9YZ3F",
-            "value": "GS2.1.s1763901977$o4$g0$t1763901982$j55$l0$h0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798461982.227358,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "_gcl_au",
-            "value": "1.1.1478403563.1759897323.1859960614.1763357766.1763357766",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1767673323,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "_gcl_aw",
-            "value": "GCL.1759897336.EAIaIQobChMIm4Wnn-CTkAMVqiODAx0U9RWtEAAYASAAEgKsSvD_BwE",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1767673336,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "_gcl_gs",
-            "value": "2.1.k1$i1759897319$u226886927",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1767673324,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "_rdt_uuid",
-            "value": "1759897323680.d6ede4d2-5a2c-4f92-99a3-483acb8e5725",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1771677981,
-            "sameSite": "strict",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "_tt_enable_cookie",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797597982,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "_ttp",
-            "value": "01K710W4ZK1EYQHS1XZK40SC6Z_.tt.1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797597982,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "_uetsid",
-            "value": "69ef5110c86a11f083dc55eed6fd078f|39troc|2|g19|0|2153",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1763988382,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "_uetvid",
-            "value": "59492cc0a3fe11f081abc155bb1e2e6b|1ctpahs|1763901983521|1|1|bat.bing.com/p/conversions/c/l",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797597983,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "ab.storage.deviceId.6b512fd4-04b5-4fd4-8b44-3f482bc8dcf9",
-            "value": "g%3A1d893263-a1ef-b38b-2571-37320c2b9711%7Ce%3Aundefined%7Cc%3A1763357766983%7Cl%3A1763901980498",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798461980,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "ab.storage.sessionId.6b512fd4-04b5-4fd4-8b44-3f482bc8dcf9",
-            "value": "g%3A3f164200-b722-81d3-8600-0a1c418a04e1%7Ce%3A1763903782202%7Cc%3A1763901980498%7Cl%3A1763901982202",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798461982,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "ab.storage.userId.6b512fd4-04b5-4fd4-8b44-3f482bc8dcf9",
-            "value": "g%3A184002934%7Ce%3Aundefined%7Cc%3A1763357775647%7Cl%3A1763901980498",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798461980,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "CAUTH",
-            "value": "3fhzMMCk-LFSb9UW9h404jvzNl74w5Atn1Z4BsoK-FHOCBiwpufbHEkAnmrPCO1YbXCxmg50gCDBoz3ozSA1Vw.HRX3UOz8sEJxl6W3FiK2wg.1mo_ZMsWOPaLzM6ZGCM-IVXy5ZjOErv5uu8JBkq1HGJoX4lyEWSLgYz5DMe0omvYPQsDJh0_PsaCUfgZ2bl3jgRHjK5G7Z7pHceuV6kIeaD0kqz1kRS7kgv6nc2Rd2DMfCHLpBl1AmU3ooLT4un_-lT3AgyetdfuCcHqiYmtGiBrA_Q6chSVSwUVZ91r8tvIjfWJ-0JzNx7afLUs4pt6Z7bng6JgBHQ8DWP4-wYvlkp5nrR88DUQlqu6QKSSYGB1KhprFfX-KLP7-F7HrPXe1fNQ3uORFHC9rPoLnkgA6kJZO8E4qcaBbgm1C-kd-rYrBH-UfwEa5w66Buydvt-z2OPl-TwaCjYo2QF0ge_rI751TqLpoAsmaxcBzqc54pGR4SUZQA4bPTPA28mCD850L09PVsmWPCVyAC6Tvtm_FnewMaHXWuuebn6wlEFZ9QHO1CG2cwCqdzfvx9DbouUnElXaZ6f8MBiPQzlvEzq2pR0",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1767677767.054915,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "CSRF3-Token",
-            "value": "1764221766.k1AkxznYSIZIp1sE",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1764221753.923383,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "FPID",
-            "value": "FPID2.2.9L7KU5v9Z%2FOjiCQmQWW6lIyWQ%2F3Th0Kbrte4OdAO59A%3D.1759897323",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1798461981.495351,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "FPLC",
-            "value": "zonDdIjN0lYpBjgrW7ybiJTFGtttv20qOGeXjKqOmT5HBU%2FkoD410enDdz7re1BIuo6%2FXBLgl1Et%2Fw%2FrUeXhTGGlBv1Z80Q82Qy0GgsGxnrq5HO%2BgS5qFh%2BLLZXt3w%3D%3D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1763973981.495427,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "IR_14726",
-            "value": "1763901980681%7C0%7C1763901980681%7C%7C",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "IR_gbd",
-            "value": "coursera.org",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "OptanonAlertBoxClosed",
-            "value": "2025-11-23T12:46:19.405Z",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795437979,
-            "sameSite": "lax",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "OptanonConsent",
-            "value": "isGpcEnabled=0&datestamp=Sun+Nov+23+2025+19%3A46%3A19+GMT%2B0700+(Indochina+Time)&version=202508.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=9173323a-bf2a-4566-9a9f-d6a0c4d15dbc&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0004%3A1%2CC0002%3A1%2CC0003%3A1&AwaitingReconsent=false&geolocation=ID%3BJI",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795437979,
-            "sameSite": "lax",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "profileconsent",
-            "value": "eyIxODQwMDI5MzQiOnsiY2NwYVJlcXVpcmVkIjpmYWxzZSwiZ2RwclJlcXVpcmVkIjpmYWxzZX19",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "sign",
-            "value": "4d7a7847506c77555764694e43514338714f374468482f35597a49336176365534554669754647556663684f346578642f534f5369354f727a36644a385a5970",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797053775,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "ttcsid",
-            "value": "1763901982081::RybXHIAOimUMu0DKYesQ.4.1763901983186.0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797597983,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "ttcsid_CTIORPRC77UDE4D3R2FG",
-            "value": "1763901982081::ynltAqn0qaxJ2CZ1g613.4.1763901983187.0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797597983,
-            "sameSite": "no_restriction",
-            "domain": ".coursera.org"
-          },
-          {
-            "name": "__stripe_mid",
-            "value": "e46b0f47-0253-47f5-9752-22558e0bb0ef327316",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791433339,
-            "sameSite": "strict",
-            "domain": ".www.coursera.org"
-          },
-          {
-            "name": "OneTrustWPCCPAGoogleOptOut",
-            "value": "false",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791433385,
-            "sameSite": "lax",
-            "domain": ".www.coursera.org"
-          },
-          {
-            "name": "usprivacy",
-            "value": "1---",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794893774,
-            "sameSite": "lax",
-            "domain": ".www.coursera.org"
-          },
-          {
-            "name": "OneTrustWPCCPAGoogleOptOut",
-            "value": "false",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795437979,
-            "sameSite": "lax",
-            "domain": "www.coursera.org"
-          },
-          {
-            "name": "usprivacy",
-            "value": "1---",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794893774,
-            "sameSite": "lax",
-            "domain": "www.coursera.org"
-          }
-        ],
-        "sourceUrl": "https://www.coursera.org/"
+        "name": "__400v",
+        "value": "1fcbfae9-691a-416e-be95-10f7a4db04b6",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".coursera.org"
+      },
+      {
+        "name": "__400vt",
+        "value": "1763901984177",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".coursera.org"
+      },
+      {
+        "name": "_fbp",
+        "value": "fb.1.1759897326303.71872777411757460",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1771677981,
+        "sameSite": "no_restriction",
+        "domain": ".coursera.org"
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.1644162863.1759897323",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1798461980.233781,
+        "sameSite": "no_restriction",
+        "domain": ".coursera.org"
+      },
+      {
+        "name": "_ga_7GZ59JSFWQ",
+        "value": "GS2.1.s1763901980$o4$g0$t1763901980$j60$l0$h1974243364",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1798461980.232993,
+        "sameSite": "no_restriction",
+        "domain": ".coursera.org"
+      },
+      {
+        "name": "_ga_ZCE2Q9YZ3F",
+        "value": "GS2.1.s1763901977$o4$g0$t1763901982$j55$l0$h0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1798461982.227358,
+        "sameSite": "no_restriction",
+        "domain": ".coursera.org"
+      },
+      {
+        "name": "_gcl_au",
+        "value": "1.1.1478403563.1759897323.1859960614.1763357766.1763357766",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1767673323,
+        "sameSite": "no_restriction",
+        "domain": ".coursera.org"
+      },
+      {
+        "name": "_gcl_aw",
+        "value": "GCL.1759897336.EAIaIQobChMIm4Wnn-CTkAMVqiODAx0U9RWtEAAYASAAEgKsSvD_BwE",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1767673336,
+        "sameSite": "no_restriction",
+        "domain": ".coursera.org"
+      },
+      {
+        "name": "_gcl_gs",
+        "value": "2.1.k1$i1759897319$u226886927",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1767673324,
+        "sameSite": "no_restriction",
+        "domain": ".coursera.org"
+      },
+      {
+        "name": "_rdt_uuid",
+        "value": "1759897323680.d6ede4d2-5a2c-4f92-99a3-483acb8e5725",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1771677981,
+        "sameSite": "strict",
+        "domain": ".coursera.org"
+      },
+      {
+        "name": "_tt_enable_cookie",
+        "value": "1",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1797597982,
+        "sameSite": "no_restriction",
+        "domain": ".coursera.org"
+      },
+      {
+        "name": "_ttp",
+        "value": "01K710W4ZK1EYQHS1XZK40SC6Z_.tt.1",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1797597982,
+        "sameSite": "no_restriction",
+        "domain": ".coursera.org"
+      },
+      {
+        "name": "_uetsid",
+        "value": "69ef5110c86a11f083dc55eed6fd078f|39troc|2|g19|0|2153",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1763988382,
+        "sameSite": "no_restriction",
+        "domain": ".coursera.org"
+      },
+      {
+        "name": "_uetvid",
+        "value": "59492cc0a3fe11f081abc155bb1e2e6b|1ctpahs|1763901983521|1|1|bat.bing.com/p/conversions/c/l",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1797597983,
+        "sameSite": "no_restriction",
+        "domain": ".coursera.org"
+      },
+      {
+        "name": "ab.storage.deviceId.6b512fd4-04b5-4fd4-8b44-3f482bc8dcf9",
+        "value": "g%3A1d893263-a1ef-b38b-2571-37320c2b9711%7Ce%3Aundefined%7Cc%3A1763357766983%7Cl%3A1763901980498",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1798461980,
+        "sameSite": "no_restriction",
+        "domain": ".coursera.org"
+      },
+      {
+        "name": "ab.storage.sessionId.6b512fd4-04b5-4fd4-8b44-3f482bc8dcf9",
+        "value": "g%3A3f164200-b722-81d3-8600-0a1c418a04e1%7Ce%3A1763903782202%7Cc%3A1763901980498%7Cl%3A1763901982202",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1798461982,
+        "sameSite": "no_restriction",
+        "domain": ".coursera.org"
+      },
+      {
+        "name": "ab.storage.userId.6b512fd4-04b5-4fd4-8b44-3f482bc8dcf9",
+        "value": "g%3A184002934%7Ce%3Aundefined%7Cc%3A1763357775647%7Cl%3A1763901980498",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1798461980,
+        "sameSite": "no_restriction",
+        "domain": ".coursera.org"
+      },
+      {
+        "name": "CAUTH",
+        "value": "3fhzMMCk-LFSb9UW9h404jvzNl74w5Atn1Z4BsoK-FHOCBiwpufbHEkAnmrPCO1YbXCxmg50gCDBoz3ozSA1Vw.HRX3UOz8sEJxl6W3FiK2wg.1mo_ZMsWOPaLzM6ZGCM-IVXy5ZjOErv5uu8JBkq1HGJoX4lyEWSLgYz5DMe0omvYPQsDJh0_PsaCUfgZ2bl3jgRHjK5G7Z7pHceuV6kIeaD0kqz1kRS7kgv6nc2Rd2DMfCHLpBl1AmU3ooLT4un_-lT3AgyetdfuCcHqiYmtGiBrA_Q6chSVSwUVZ91r8tvIjfWJ-0JzNx7afLUs4pt6Z7bng6JgBHQ8DWP4-wYvlkp5nrR88DUQlqu6QKSSYGB1KhprFfX-KLP7-F7HrPXe1fNQ3uORFHC9rPoLnkgA6kJZO8E4qcaBbgm1C-kd-rYrBH-UfwEa5w66Buydvt-z2OPl-TwaCjYo2QF0ge_rI751TqLpoAsmaxcBzqc54pGR4SUZQA4bPTPA28mCD850L09PVsmWPCVyAC6Tvtm_FnewMaHXWuuebn6wlEFZ9QHO1CG2cwCqdzfvx9DbouUnElXaZ6f8MBiPQzlvEzq2pR0",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1767677767.054915,
+        "sameSite": "no_restriction",
+        "domain": ".coursera.org"
+      },
+      {
+        "name": "CSRF3-Token",
+        "value": "1764221766.k1AkxznYSIZIp1sE",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1764221753.923383,
+        "sameSite": "no_restriction",
+        "domain": ".coursera.org"
+      },
+      {
+        "name": "FPID",
+        "value": "FPID2.2.9L7KU5v9Z%2FOjiCQmQWW6lIyWQ%2F3Th0Kbrte4OdAO59A%3D.1759897323",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1798461981.495351,
+        "sameSite": "no_restriction",
+        "domain": ".coursera.org"
+      },
+      {
+        "name": "FPLC",
+        "value": "zonDdIjN0lYpBjgrW7ybiJTFGtttv20qOGeXjKqOmT5HBU%2FkoD410enDdz7re1BIuo6%2FXBLgl1Et%2Fw%2FrUeXhTGGlBv1Z80Q82Qy0GgsGxnrq5HO%2BgS5qFh%2BLLZXt3w%3D%3D",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1763973981.495427,
+        "sameSite": "no_restriction",
+        "domain": ".coursera.org"
+      },
+      {
+        "name": "IR_14726",
+        "value": "1763901980681%7C0%7C1763901980681%7C%7C",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".coursera.org"
+      },
+      {
+        "name": "IR_gbd",
+        "value": "coursera.org",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".coursera.org"
+      },
+      {
+        "name": "OptanonAlertBoxClosed",
+        "value": "2025-11-23T12:46:19.405Z",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1795437979,
+        "sameSite": "lax",
+        "domain": ".coursera.org"
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Sun+Nov+23+2025+19%3A46%3A19+GMT%2B0700+(Indochina+Time)&version=202508.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=9173323a-bf2a-4566-9a9f-d6a0c4d15dbc&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0004%3A1%2CC0002%3A1%2CC0003%3A1&AwaitingReconsent=false&geolocation=ID%3BJI",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1795437979,
+        "sameSite": "lax",
+        "domain": ".coursera.org"
+      },
+      {
+        "name": "profileconsent",
+        "value": "eyIxODQwMDI5MzQiOnsiY2NwYVJlcXVpcmVkIjpmYWxzZSwiZ2RwclJlcXVpcmVkIjpmYWxzZX19",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".coursera.org"
+      },
+      {
+        "name": "sign",
+        "value": "4d7a7847506c77555764694e43514338714f374468482f35597a49336176365534554669754647556663684f346578642f534f5369354f727a36644a385a5970",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1797053775,
+        "sameSite": "no_restriction",
+        "domain": ".coursera.org"
+      },
+      {
+        "name": "ttcsid",
+        "value": "1763901982081::RybXHIAOimUMu0DKYesQ.4.1763901983186.0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1797597983,
+        "sameSite": "no_restriction",
+        "domain": ".coursera.org"
+      },
+      {
+        "name": "ttcsid_CTIORPRC77UDE4D3R2FG",
+        "value": "1763901982081::ynltAqn0qaxJ2CZ1g613.4.1763901983187.0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1797597983,
+        "sameSite": "no_restriction",
+        "domain": ".coursera.org"
+      },
+      {
+        "name": "__stripe_mid",
+        "value": "e46b0f47-0253-47f5-9752-22558e0bb0ef327316",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1791433339,
+        "sameSite": "strict",
+        "domain": ".www.coursera.org"
+      },
+      {
+        "name": "OneTrustWPCCPAGoogleOptOut",
+        "value": "false",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1791433385,
+        "sameSite": "lax",
+        "domain": ".www.coursera.org"
+      },
+      {
+        "name": "usprivacy",
+        "value": "1---",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1794893774,
+        "sameSite": "lax",
+        "domain": ".www.coursera.org"
+      },
+      {
+        "name": "OneTrustWPCCPAGoogleOptOut",
+        "value": "false",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1795437979,
+        "sameSite": "lax",
+        "domain": "www.coursera.org"
+      },
+      {
+        "name": "usprivacy",
+        "value": "1---",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1794893774,
+        "sameSite": "lax",
+        "domain": "www.coursera.org"
       }
-    ]
+    ],
+    "sourceUrl": "https://www.coursera.org/"
   },
   {
     "meta": {
@@ -17418,7 +17082,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763904243.189981,
             "sameSite": "no_restriction",
             "domain": ".crunchyroll.com"
           },
@@ -17543,7 +17206,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763904253.275722,
             "sameSite": "no_restriction",
             "domain": ".crunchyroll.com"
           },
@@ -17668,7 +17330,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763904262.694738,
             "sameSite": "no_restriction",
             "domain": ".crunchyroll.com"
           },
@@ -17793,7 +17454,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763904231.475817,
             "sameSite": "no_restriction",
             "domain": ".crunchyroll.com"
           },
@@ -17917,404 +17577,197 @@
       "name": "CryptoQuant",
       "icon": "https://cdn.prod.website-files.com/653c8107e2b70a34921d24fd/67a672f11fe6c47be600f037_cryptoquant.png",
       "url": "https://cryptoquant.com/asset/btc/summary",
-      "category": "productivity",
-      "isGroup": true
+      "category": "productivity"
     },
-    "accounts": [
+    "cookies": [
       {
-        "name": "CryptoQuant 1",
-        "cookies": [
-          {
-            "name": "__cf_bm",
-            "value": "cbuzQBDDRihXM2gXQaQoTsfjmxxI1AovgekdpsnXohE-1763478825-1.0.1.1-vAUsfiObzOUh3IHcGnzxWv6yrMbk2U3o4IS2ULmN.6rPkvWCmqwQPDYTIKtsLZcXW31q6g_AYNlbzH7O1iu7s7JYo1yiSpS0y.Sgr53XHXY",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".cryptoquant.com"
-          },
-          {
-            "name": "__Secure-next-auth.callback-url",
-            "value": "https%3A%2F%2Fcryptoquant.com",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "lax",
-            "domain": ".cryptoquant.com"
-          },
-          {
-            "name": "_ga",
-            "value": "GA1.2.100984956.1763455486",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798015486.799002,
-            "sameSite": "no_restriction",
-            "domain": ".cryptoquant.com"
-          },
-          {
-            "name": "_ga_RJZ1ML2X9E",
-            "value": "GS2.1.s1763455486$o1$g0$t1763455495$j51$l0$h0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798015495.31205,
-            "sameSite": "no_restriction",
-            "domain": ".cryptoquant.com"
-          },
-          {
-            "name": "_gid",
-            "value": "GA1.2.1742710499.1763455487",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".cryptoquant.com"
-          },
-          {
-            "name": "AMP_6eb20c95b2",
-            "value": "JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjNTgzM2U2Ni0zMTAyLTRiOGItODlmYy1hNWVkZDhiZTI3M2IlMjIlMkMlMjJ1c2VySWQlMjIlM0ElMjI3NTkzNDQlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYzNDc4ODY2MzE1JTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MzQ3ODg2NjUyOCUyQyUyMmxhc3RFdmVudElkJTIyJTNBMjklMkMlMjJwYWdlQ291bnRlciUyMiUzQTElN0Q=",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795014866,
-            "sameSite": "lax",
-            "domain": ".cryptoquant.com"
-          },
-          {
-            "name": "AMP_MKTG_6eb20c95b2",
-            "value": "JTdCJTdE",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794991486,
-            "sameSite": "lax",
-            "domain": ".cryptoquant.com"
-          },
-          {
-            "name": "cookie_accept",
-            "value": "accept",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798015499.812568,
-            "sameSite": "lax",
-            "domain": ".cryptoquant.com"
-          },
-          {
-            "name": "cq-theme",
-            "value": "dark",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798015495.455372,
-            "sameSite": "lax",
-            "domain": ".cryptoquant.com"
-          },
-          {
-            "name": "intercom-device-id-s9hiuqay",
-            "value": "fcab51d3-b19c-4e65-a3e0-b2b0e39d38ac",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1786808876,
-            "sameSite": "lax",
-            "domain": ".cryptoquant.com"
-          },
-          {
-            "name": "intercom-id-s9hiuqay",
-            "value": "7c0176f5-c95a-4b9c-aebb-97929fc4cec3",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1786785503,
-            "sameSite": "lax",
-            "domain": ".cryptoquant.com"
-          },
-          {
-            "name": "intercom-session-s9hiuqay",
-            "value": "RjVQWUtXTEVYRFZVK09IZmNQRWFCZTgwSm5UTEp5ZHllNzluY3c5Y0V2ZFhuUjE2RFZ1VG4vUWE2djA0WElHNnFPUXliTmZTN0dVR2xLaXVCRjEvU0hCM2FjK1g4ak5DSUJ1QkFUME8xYVE9LS1oZERvdm8wZjE0VVBEUnpyTHZ0clBRPT0=--c9f03307d9c94c7ab85f45435ae845b164765bea",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1764083675,
-            "sameSite": "lax",
-            "domain": ".cryptoquant.com"
-          },
-          {
-            "name": "refreshToken",
-            "value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiI3NTkzNDQiLCJpc3MiOiJDcnlwdG9RdWFudCIsImlhdCI6MTc2MzQ1NTQ5NCwiZXhwIjoxNzY0MzE5NDk0fQ.OglDaclldb676KYAzINanpM0j2TO7bzB1z2lrY_HXjw",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1764751494.974185,
-            "sameSite": "strict",
-            "domain": ".cryptoquant.com"
-          },
-          {
-            "name": "sign",
-            "value": "4d7a7847506c77555764694e43514338714f3744685051477839446a454546444631714a72634457554b352b5056527043535a4b446961376865772f2b2b3261",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798015486.799002,
-            "sameSite": "no_restriction",
-            "domain": ".cryptoquant.com"
-          },
-          {
-            "name": "token",
-            "value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiI3NTkzNDQiLCJpc3MiOiJDcnlwdG9RdWFudCIsImlhdCI6MTc2MzQ1NTQ5NCwiZXhwIjoxNzYzNDU5MDk0fQ.yxUIZhjOwAq6tDT2SOWfxYGZPt_pkzPJwjomE2POIks",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1764146694.974051,
-            "sameSite": "strict",
-            "domain": ".cryptoquant.com"
-          },
-          {
-            "name": "__Host-next-auth.csrf-token",
-            "value": "9701e003ed16a62a08afb10c05a37e8b1b2f90bb672093ad18ecf8396dfe03ed%7C52828ddf6eae4173b74ea96fa5c64c693ca8967369dab22a91b0f020680485e9",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "lax"
-          },
-          {
-            "name": "cookie_accept",
-            "value": "accept",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798038865.734692,
-            "sameSite": "lax",
-            "domain": "cryptoquant.com"
-          },
-          {
-            "name": "cq-theme",
-            "value": "dark",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798038865.745387,
-            "sameSite": "lax",
-            "domain": "cryptoquant.com"
-          },
-          {
-            "name": "refreshToken",
-            "value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiI3NTkzNDQiLCJpc3MiOiJDcnlwdG9RdWFudCIsImlhdCI6MTc2MzQ1NTQ5NCwiZXhwIjoxNzY0MzE5NDk0fQ.OglDaclldb676KYAzINanpM0j2TO7bzB1z2lrY_HXjw",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1764774867.511111,
-            "sameSite": "strict",
-            "domain": "cryptoquant.com"
-          },
-          {
-            "name": "token",
-            "value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiI3NTkzNDQiLCJpc3MiOiJDcnlwdG9RdWFudCIsImlhdCI6MTc2MzQ3ODgyNCwiZXhwIjoxNzYzNDgyNDI0fQ.yGMrsCxvgu-RPImXeWF2AZRhRaTu54C3wKxtF4wWm-E",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1764170067.510998,
-            "sameSite": "strict",
-            "domain": "cryptoquant.com"
-          }
-        ],
-        "sourceUrl": "https://cryptoquant.com/asset/btc/summary"
+        "name": "__cf_bm",
+        "value": "X6p6DuFTafyJtJgpBQY6sAtkGOWrF0corZpre189x7A-1763901969-1.0.1.1-qFmLkL4XMtqSg5kpCEJVNRP4t9cKOLHz6G67T.ig34fpYo.hddd9PJTOjEUBp3y2xAnU4x8q5IsxLcKXWK8TNUW4ixP35AHrzxYWMdqWCOo",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".cryptoquant.com"
       },
       {
-        "name": "CryptoQuant 2",
-        "cookies": [
-          {
-            "name": "__cf_bm",
-            "value": "X6p6DuFTafyJtJgpBQY6sAtkGOWrF0corZpre189x7A-1763901969-1.0.1.1-qFmLkL4XMtqSg5kpCEJVNRP4t9cKOLHz6G67T.ig34fpYo.hddd9PJTOjEUBp3y2xAnU4x8q5IsxLcKXWK8TNUW4ixP35AHrzxYWMdqWCOo",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".cryptoquant.com"
-          },
-          {
-            "name": "__Secure-next-auth.callback-url",
-            "value": "https%3A%2F%2Fcryptoquant.com",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "lax",
-            "domain": ".cryptoquant.com"
-          },
-          {
-            "name": "_ga",
-            "value": "GA1.2.100984956.1763455486",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798015486.799002,
-            "sameSite": "no_restriction",
-            "domain": ".cryptoquant.com"
-          },
-          {
-            "name": "_ga_RJZ1ML2X9E",
-            "value": "GS2.1.s1763455486$o1$g0$t1763455495$j51$l0$h0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798015495.31205,
-            "sameSite": "no_restriction",
-            "domain": ".cryptoquant.com"
-          },
-          {
-            "name": "AMP_6eb20c95b2",
-            "value": "JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjNTgzM2U2Ni0zMTAyLTRiOGItODlmYy1hNWVkZDhiZTI3M2IlMjIlMkMlMjJ1c2VySWQlMjIlM0ElMjI3NTkzNDQlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYzOTAxOTczMTE3JTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MzkwMTk3NDQyMCUyQyUyMmxhc3RFdmVudElkJTIyJTNBMjklMkMlMjJwYWdlQ291bnRlciUyMiUzQTElN0Q=",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795437974,
-            "sameSite": "lax",
-            "domain": ".cryptoquant.com"
-          },
-          {
-            "name": "AMP_MKTG_6eb20c95b2",
-            "value": "JTdCJTdE",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794991486,
-            "sameSite": "lax",
-            "domain": ".cryptoquant.com"
-          },
-          {
-            "name": "cookie_accept",
-            "value": "accept",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798015499.812568,
-            "sameSite": "lax",
-            "domain": ".cryptoquant.com"
-          },
-          {
-            "name": "cq-theme",
-            "value": "dark",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798015495.455372,
-            "sameSite": "lax",
-            "domain": ".cryptoquant.com"
-          },
-          {
-            "name": "intercom-device-id-s9hiuqay",
-            "value": "fcab51d3-b19c-4e65-a3e0-b2b0e39d38ac",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1787231983,
-            "sameSite": "lax",
-            "domain": ".cryptoquant.com"
-          },
-          {
-            "name": "intercom-id-s9hiuqay",
-            "value": "7c0176f5-c95a-4b9c-aebb-97929fc4cec3",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1786785503,
-            "sameSite": "lax",
-            "domain": ".cryptoquant.com"
-          },
-          {
-            "name": "intercom-session-s9hiuqay",
-            "value": "dDJWMWJEcC96VE9GQi9jT3dFMVZJMm90WDVKRnpHdkNNU2VacHhiSHM1UTl6OTN3d3VlYXUrekJFMDhaaktsNzAxVHJBUmpBUVJlQUdvZlVSazhYSEllTjRBUWUvZlJSYUh3VE9WbmROeEk9LS1PWDlRc1V5TWV4RjZZWFFmQkJyMnJnPT0=--bb56b0ff6f47210797fc8ed1a8ccf71af6823c21",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1764506782,
-            "sameSite": "lax",
-            "domain": ".cryptoquant.com"
-          },
-          {
-            "name": "refreshToken",
-            "value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiI3NTkzNDQiLCJpc3MiOiJDcnlwdG9RdWFudCIsImlhdCI6MTc2MzQ1NTQ5NCwiZXhwIjoxNzY0MzE5NDk0fQ.OglDaclldb676KYAzINanpM0j2TO7bzB1z2lrY_HXjw",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1764751494.974185,
-            "sameSite": "strict",
-            "domain": ".cryptoquant.com"
-          },
-          {
-            "name": "sign",
-            "value": "4d7a7847506c77555764694e43514338714f3744685051477839446a454546444631714a72634457554b352b5056527043535a4b446961376865772f2b2b3261",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798015486.799002,
-            "sameSite": "no_restriction",
-            "domain": ".cryptoquant.com"
-          },
-          {
-            "name": "token",
-            "value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiI3NTkzNDQiLCJpc3MiOiJDcnlwdG9RdWFudCIsImlhdCI6MTc2MzQ1NTQ5NCwiZXhwIjoxNzYzNDU5MDk0fQ.yxUIZhjOwAq6tDT2SOWfxYGZPt_pkzPJwjomE2POIks",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1764146694.974051,
-            "sameSite": "strict",
-            "domain": ".cryptoquant.com"
-          },
-          {
-            "name": "__Host-next-auth.csrf-token",
-            "value": "9701e003ed16a62a08afb10c05a37e8b1b2f90bb672093ad18ecf8396dfe03ed%7C52828ddf6eae4173b74ea96fa5c64c693ca8967369dab22a91b0f020680485e9",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "lax"
-          },
-          {
-            "name": "cookie_accept",
-            "value": "accept",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798461972.732067,
-            "sameSite": "lax",
-            "domain": "cryptoquant.com"
-          },
-          {
-            "name": "cq-theme",
-            "value": "dark",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798461972.736811,
-            "sameSite": "lax",
-            "domain": "cryptoquant.com"
-          },
-          {
-            "name": "refreshToken",
-            "value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiI3NTkzNDQiLCJpc3MiOiJDcnlwdG9RdWFudCIsImlhdCI6MTc2MzQ1NTQ5NCwiZXhwIjoxNzY0MzE5NDk0fQ.OglDaclldb676KYAzINanpM0j2TO7bzB1z2lrY_HXjw",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1765197974.536664,
-            "sameSite": "strict",
-            "domain": "cryptoquant.com"
-          },
-          {
-            "name": "token",
-            "value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiI3NTkzNDQiLCJpc3MiOiJDcnlwdG9RdWFudCIsImlhdCI6MTc2MzkwMTk2OSwiZXhwIjoxNzYzOTA1NTY5fQ.s79m060TsXjLMOKoc9P3xrV2xgrgCBUcJrGX8TOlHM8",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1764593174.536566,
-            "sameSite": "strict",
-            "domain": "cryptoquant.com"
-          }
-        ],
-        "sourceUrl": "https://cryptoquant.com/asset/btc/summary"
+        "name": "__Secure-next-auth.callback-url",
+        "value": "https%3A%2F%2Fcryptoquant.com",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "lax",
+        "domain": ".cryptoquant.com"
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.2.100984956.1763455486",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1798015486.799002,
+        "sameSite": "no_restriction",
+        "domain": ".cryptoquant.com"
+      },
+      {
+        "name": "_ga_RJZ1ML2X9E",
+        "value": "GS2.1.s1763455486$o1$g0$t1763455495$j51$l0$h0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1798015495.31205,
+        "sameSite": "no_restriction",
+        "domain": ".cryptoquant.com"
+      },
+      {
+        "name": "AMP_6eb20c95b2",
+        "value": "JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjNTgzM2U2Ni0zMTAyLTRiOGItODlmYy1hNWVkZDhiZTI3M2IlMjIlMkMlMjJ1c2VySWQlMjIlM0ElMjI3NTkzNDQlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYzOTAxOTczMTE3JTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MzkwMTk3NDQyMCUyQyUyMmxhc3RFdmVudElkJTIyJTNBMjklMkMlMjJwYWdlQ291bnRlciUyMiUzQTElN0Q=",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1795437974,
+        "sameSite": "lax",
+        "domain": ".cryptoquant.com"
+      },
+      {
+        "name": "AMP_MKTG_6eb20c95b2",
+        "value": "JTdCJTdE",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1794991486,
+        "sameSite": "lax",
+        "domain": ".cryptoquant.com"
+      },
+      {
+        "name": "cookie_accept",
+        "value": "accept",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1798015499.812568,
+        "sameSite": "lax",
+        "domain": ".cryptoquant.com"
+      },
+      {
+        "name": "cq-theme",
+        "value": "dark",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1798015495.455372,
+        "sameSite": "lax",
+        "domain": ".cryptoquant.com"
+      },
+      {
+        "name": "intercom-device-id-s9hiuqay",
+        "value": "fcab51d3-b19c-4e65-a3e0-b2b0e39d38ac",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1787231983,
+        "sameSite": "lax",
+        "domain": ".cryptoquant.com"
+      },
+      {
+        "name": "intercom-id-s9hiuqay",
+        "value": "7c0176f5-c95a-4b9c-aebb-97929fc4cec3",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1786785503,
+        "sameSite": "lax",
+        "domain": ".cryptoquant.com"
+      },
+      {
+        "name": "intercom-session-s9hiuqay",
+        "value": "dDJWMWJEcC96VE9GQi9jT3dFMVZJMm90WDVKRnpHdkNNU2VacHhiSHM1UTl6OTN3d3VlYXUrekJFMDhaaktsNzAxVHJBUmpBUVJlQUdvZlVSazhYSEllTjRBUWUvZlJSYUh3VE9WbmROeEk9LS1PWDlRc1V5TWV4RjZZWFFmQkJyMnJnPT0=--bb56b0ff6f47210797fc8ed1a8ccf71af6823c21",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1764506782,
+        "sameSite": "lax",
+        "domain": ".cryptoquant.com"
+      },
+      {
+        "name": "refreshToken",
+        "value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiI3NTkzNDQiLCJpc3MiOiJDcnlwdG9RdWFudCIsImlhdCI6MTc2MzQ1NTQ5NCwiZXhwIjoxNzY0MzE5NDk0fQ.OglDaclldb676KYAzINanpM0j2TO7bzB1z2lrY_HXjw",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1764751494.974185,
+        "sameSite": "strict",
+        "domain": ".cryptoquant.com"
+      },
+      {
+        "name": "sign",
+        "value": "4d7a7847506c77555764694e43514338714f3744685051477839446a454546444631714a72634457554b352b5056527043535a4b446961376865772f2b2b3261",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1798015486.799002,
+        "sameSite": "no_restriction",
+        "domain": ".cryptoquant.com"
+      },
+      {
+        "name": "token",
+        "value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiI3NTkzNDQiLCJpc3MiOiJDcnlwdG9RdWFudCIsImlhdCI6MTc2MzQ1NTQ5NCwiZXhwIjoxNzYzNDU5MDk0fQ.yxUIZhjOwAq6tDT2SOWfxYGZPt_pkzPJwjomE2POIks",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1764146694.974051,
+        "sameSite": "strict",
+        "domain": ".cryptoquant.com"
+      },
+      {
+        "name": "__Host-next-auth.csrf-token",
+        "value": "9701e003ed16a62a08afb10c05a37e8b1b2f90bb672093ad18ecf8396dfe03ed%7C52828ddf6eae4173b74ea96fa5c64c693ca8967369dab22a91b0f020680485e9",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "lax"
+      },
+      {
+        "name": "cookie_accept",
+        "value": "accept",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1798461972.732067,
+        "sameSite": "lax",
+        "domain": "cryptoquant.com"
+      },
+      {
+        "name": "cq-theme",
+        "value": "dark",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1798461972.736811,
+        "sameSite": "lax",
+        "domain": "cryptoquant.com"
+      },
+      {
+        "name": "refreshToken",
+        "value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiI3NTkzNDQiLCJpc3MiOiJDcnlwdG9RdWFudCIsImlhdCI6MTc2MzQ1NTQ5NCwiZXhwIjoxNzY0MzE5NDk0fQ.OglDaclldb676KYAzINanpM0j2TO7bzB1z2lrY_HXjw",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1765197974.536664,
+        "sameSite": "strict",
+        "domain": "cryptoquant.com"
+      },
+      {
+        "name": "token",
+        "value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiI3NTkzNDQiLCJpc3MiOiJDcnlwdG9RdWFudCIsImlhdCI6MTc2MzkwMTk2OSwiZXhwIjoxNzYzOTA1NTY5fQ.s79m060TsXjLMOKoc9P3xrV2xgrgCBUcJrGX8TOlHM8",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1764593174.536566,
+        "sameSite": "strict",
+        "domain": "cryptoquant.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://cryptoquant.com/asset/btc/summary"
   },
   {
     "meta": {
@@ -18328,1310 +17781,6 @@
     "accounts": [
       {
         "name": "Curiosity Stream 1",
-        "cookies": [
-          {
-            "name": "__zlcmid",
-            "value": "1TSnt3cdrCYpWoR",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1788400483,
-            "sameSite": "lax",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_ALGOLIA",
-            "value": "anonymous-6e965a4c-b2d5-4b98-ac8c-efe00f86ea30",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1772416463,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_clck",
-            "value": "1t59ofo%5E2%5Eg0z%5E0%5E2072",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794570436,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_clsk",
-            "value": "im7e1h%5E1763034437619%5E2%5E1%5Eq.clarity.ms%2Fcollect",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_dc_gtm_UA-58402650-1",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_fbp",
-            "value": "fb.1.1756864411428.743364404922351309",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1770810441,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_ga",
-            "value": "GA1.2.895800402.1756864464",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797594441.048763,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_ga_GH3462EJ5M",
-            "value": "GS2.1.s1763034435$o2$g1$t1763034441$j54$l0$h0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797594441.069573,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_gcl_au",
-            "value": "1.1.2056265889.1756864464.1764032317.1756864473.1756864487",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1764640464,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_gid",
-            "value": "GA1.2.1286663495.1763034436",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_hjSession_271876",
-            "value": "eyJpZCI6ImVlOWI3YTI1LWMwODctNDhiOS1iY2FmLThlMWE0ZDJjNTE4NSIsImMiOjE3NjMwMzQ0MzYwNjMsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjowLCJzcCI6MX0=",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_hjSessionUser_271876",
-            "value": "eyJpZCI6IjU5ZTYwY2JlLTcwM2EtNTBiYy04ODU5LWViMDFiMGY4ZDcwNiIsImNyZWF0ZWQiOjE3NTY4NjQ0NjQwNzYsImV4aXN0aW5nIjp0cnVlfQ==",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794570436,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_lc2_fpi",
-            "value": "77ceb2b4b436--01k46mexerrdamgz3gpcgkgd8w",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791424463.993122,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_lc2_fpi_js",
-            "value": "77ceb2b4b436--01k46mexerrdamgz3gpcgkgd8w",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_li_dcdm_c",
-            "value": ".curiositystream.com",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "lax",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_pin_unauth",
-            "value": "dWlkPU9EY3dNalExTkRjdE9XWTROaTAwWm1Vd0xUaGtOekV0WXpVMFlqZ3haak0zTWpZeg",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794570436,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_rdt_uuid",
-            "value": "1756864410580.f0f380a6-a631-4f06-9dc5-3b0d49008ab9",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1770810441,
-            "sameSite": "strict",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_ScCbts",
-            "value": "%5B%5D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "lax",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_scid",
-            "value": "ntSZVARwY4Kso-CCCSV4b8tpVdUe9S8wxB2Frg",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791051164,
-            "sameSite": "lax",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_scid_r",
-            "value": "k9SZVARwY4Kso-CCCSV4b8tpVdUe9S8wxB2Fow",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797162436,
-            "sameSite": "lax",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_sctr",
-            "value": "1%7C1762966800000",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797162437,
-            "sameSite": "lax",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_sp_id.7e45",
-            "value": "b86eac97-70c3-454c-b040-d303375c7ff0.1756864464.2.1763034441.1756864505.a218f926-df0f-45f0-bbf4-7907df8013f2",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797594441.061463,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_sp_id.f88e",
-            "value": "8e49d822-67f6-4886-9de7-431ef1391a59.1756864462.1.1756864505..419dba84-f995-44c9-9967-325abcb011b8..fcd03871-0634-429c-a24e-b55e1d4f7a46.1756864461912.246",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791424504.964502,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_sp_ses.7e45",
-            "value": "*",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_tt_enable_cookie",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1796730436,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_ttp",
-            "value": "01K46MEXDGJ1ESJE09QK8TV1M9_.tt.1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1796730436,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_uetsid",
-            "value": "75e57350c08611f0881701b4bea2e9aa",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_uetvid",
-            "value": "cab5e350886811f0805a7bcf23369368",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1796730436,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "ab.storage.deviceId.b3ca1422-b578-46aa-8ba3-c579c32f2525",
-            "value": "%7B%22g%22%3A%22a1e1999e-37d2-38c1-2d80-83773f3d9a4a%22%2C%22c%22%3A1756864437585%2C%22l%22%3A1763034436719%7D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797594436,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "ab.storage.sessionId.b3ca1422-b578-46aa-8ba3-c579c32f2525",
-            "value": "%7B%22g%22%3A%227fc0fd53-dc2f-3973-b442-6a2f83bf39d7%22%2C%22e%22%3A1763036236718%2C%22c%22%3A1763034436719%2C%22l%22%3A1763034436719%7D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797594436,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "ab.storage.userId.b3ca1422-b578-46aa-8ba3-c579c32f2525",
-            "value": "%7B%22g%22%3A%226d320661-f218-44b4-ade1-af294905a829%22%2C%22c%22%3A1756864476865%2C%22l%22%3A1763034436720%7D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797594436,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "auth_token",
-            "value": "Account%20eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2FwaS5jdXJpb3NpdHlzdHJlYW0uY29tL3YxL2xvZ2luIiwiaWF0IjoxNzU2ODY0NDc0LCJleHAiOjE3ODg0MjIwNzQsIm5iZiI6MTc1Njg2NDQ3NCwianRpIjoiTjI1YmxNbkFLQlU1aUk0dSIsInN1YiI6IjcyZDk5OTU5LTk2ZDQtNGE1Ni05OWVlLTU3NjhkNjQ1NjNmNyIsInBydiI6IjBmMzBmZGVkMjk3NDVhZmVkMDZiYTEyMmY0MTBiZDVjYTkwMmQwMjEiLCJ1aWQiOiI2ZDMyMDY2MS1mMjE4LTQ0YjQtYWRlMS1hZjI5NDkwNWE4MjkifQ.JPCpuQyUbUFC5xXfPrLYBB7CEs6P6DGMOs4Napev4AQ",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1788400476,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "blueID",
-            "value": "55f2d8b0-361c-4956-870d-0a0452fe384b",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1788400464,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "country",
-            "value": "ID",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "cs_app_lang",
-            "value": "en-US",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "cs_evnts",
-            "value": "{%22events%22:[{%22event_name%22:%22session_initialized%22%2C%22data%22:{}%2C%22metadata%22:{}%2C%22event_datetime%22:%222025-09-03T01:54:23.803Z%22}]}",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1788400463,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "csUserId",
-            "value": "6d320661-f218-44b4-ade1-af294905a829",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "datadome",
-            "value": "r2ywpdcSa8BXNmcU32ImFSN5ErwPS9lJiQ4lc61jsZjSuevM~xhfAQ~MoEfq9eTsnZl3scMGPMa9OqP_JPIdJB7B6~jvVLWsDBOkUyMrgMI~nsq61W2OkU5m9BpORWrn",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794570436.398665,
-            "sameSite": "lax",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "eu_user",
-            "value": "0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "first_name",
-            "value": "EDWIN",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "hashed_email",
-            "value": "047e7788667e9abc85fc0744066fd2a7",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "ndp_session_id",
-            "value": "caca2ead-0eb7-4e15-875c-a92d6d7d8dec",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1765626419,
-            "sameSite": "lax",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "referral_source",
-            "value": "[{%22contact_date%22:%222025-09-02%2018:54:27%22%2C%22count%22:1%2C%22referrer%22:%22https://www.google.com/%22%2C%22tags%22:[{%22tag%22:%22clientId%22%2C%22value%22:%22895800402.1756864464%22}%2C{%22tag%22:%22page%22%2C%22value%22:%22/login%22}%2C{%22tag%22:%22redirect%22%2C%22value%22:%22/video/11516%22}]}]",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1788400467,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "sign",
-            "value": "4d7a7847506c77555764694e43514338714f3744684c516d44774c432f5035697933676377596c394f7a347a434249544e6b4f6a53504751425562496c364c39",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1790560464,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "smc_not",
-            "value": "default",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791424466.883521,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "smc_sesn",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791424466.881992,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "smc_session_id",
-            "value": "vXAssksHkNz15gdPwIv8ONEM6V94MpRy",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "smc_spv",
-            "value": "8",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "smc_tag",
-            "value": "eyJpZCI6NjY3OCwibmFtZSI6ImN1cmlvc2l0eXN0cmVhbS5jb20ifQ%3D%3D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1788400466,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "smc_tpv",
-            "value": "8",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797594437.77655,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "smc_uid",
-            "value": "1756864414227247",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791424467.525163,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "smct_last_ov",
-            "value": "%5B%7B%22id%22%3A137043%2C%22loaded%22%3A1763034436897%2C%22open%22%3Anull%2C%22eng%22%3Anull%2C%22closed%22%3Anull%7D%5D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1765626436,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "smct_session",
-            "value": "%7B%22s%22%3A1756864462242%2C%22l%22%3A1763034440264%2C%22lt%22%3A1763034440264%2C%22t%22%3A43%2C%22p%22%3A38%7D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "ttcsid",
-            "value": "1763034418744::lE7cos8mAnjQ024x4buD.2.1763034437310.0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1796730437,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "ttcsid_BSDF75DBA6LC1K03O4AG",
-            "value": "1763034418746::c_OBbW4J5SUgaauwDCJ6.2.1763034437311.0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1796730437,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "ttcsid_CHNQ3IJC77UCDSLJ3ND0",
-            "value": "1763034418744::WzSLqqiI52xwAsWmfG37.2.1763034437310.0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1796730437,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "ttcsid_CJSBIIBC77UEOD73PTDG",
-            "value": "1763034418745::efEdr1HtBFMxC1plcVEI.2.1763034437310.0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1796730437,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "ttcsid_CJVJJKJC77UEOD73TEOG",
-            "value": "1763034418745::HmDittBLNKJdZKv2HldH.2.1763034437311.0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1796730437,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_sp_id.f88e",
-            "value": "8e49d822-67f6-4886-9de7-431ef1391a59.1756864462.1.1763034441..419dba84-f995-44c9-9967-325abcb011b8..fcd03871-0634-429c-a24e-b55e1d4f7a46.1756864461912.247",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797594441.148811,
-            "sameSite": "no_restriction",
-            "domain": "curiositystream.com"
-          },
-          {
-            "name": "_sp_ses.f88e",
-            "value": "*",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": "curiositystream.com"
-          },
-          {
-            "name": "auth_token",
-            "value": "Account%20eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2FwaS5jdXJpb3NpdHlzdHJlYW0uY29tL3YxL2xvZ2luIiwiaWF0IjoxNzU2ODY0NDc0LCJleHAiOjE3ODg0MjIwNzQsIm5iZiI6MTc1Njg2NDQ3NCwianRpIjoiTjI1YmxNbkFLQlU1aUk0dSIsInN1YiI6IjcyZDk5OTU5LTk2ZDQtNGE1Ni05OWVlLTU3NjhkNjQ1NjNmNyIsInBydiI6IjBmMzBmZGVkMjk3NDVhZmVkMDZiYTEyMmY0MTBiZDVjYTkwMmQwMjEiLCJ1aWQiOiI2ZDMyMDY2MS1mMjE4LTQ0YjQtYWRlMS1hZjI5NDkwNWE4MjkifQ.JPCpuQyUbUFC5xXfPrLYBB7CEs6P6DGMOs4Napev4AQ",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794570436,
-            "sameSite": "no_restriction",
-            "domain": "curiositystream.com"
-          },
-          {
-            "name": "cs_app_lang",
-            "value": "en-US",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": "curiositystream.com"
-          },
-          {
-            "name": "cs_evnts",
-            "value": "{%22events%22:[{%22event_name%22:%22session_initialized%22%2C%22data%22:{}%2C%22metadata%22:{}%2C%22event_datetime%22:%222025-09-03T01:54:23.803Z%22}%2C{%22event_name%22:%22session_initialized%22%2C%22data%22:{}%2C%22metadata%22:{%22locale%22:%22en-US%22}%2C%22event_datetime%22:%222025-11-13T11:47:15.754Z%22}]}",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794570435,
-            "sameSite": "no_restriction",
-            "domain": "curiositystream.com"
-          },
-          {
-            "name": "csUserId",
-            "value": "6d320661-f218-44b4-ade1-af294905a829",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": "curiositystream.com"
-          },
-          {
-            "name": "eu_user",
-            "value": "0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": "curiositystream.com"
-          },
-          {
-            "name": "first_name",
-            "value": "Groupy",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": "curiositystream.com"
-          },
-          {
-            "name": "hashed_email",
-            "value": "047e7788667e9abc85fc0744066fd2a7",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": "curiositystream.com"
-          }
-        ],
-        "sourceUrl": "https://curiositystream.com/home"
-      },
-      {
-        "name": "Curiosity Stream 2",
-        "cookies": [
-          {
-            "name": "__zlcmid",
-            "value": "1TSnt3cB7HdosFB",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1788400414,
-            "sameSite": "lax",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_ALGOLIA",
-            "value": "anonymous-00486ba4-780f-486d-a584-b5ed1088cc7c",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1772416410,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_clck",
-            "value": "19g74su%5E2%5Eg0z%5E0%5E2072",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794570419,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_clsk",
-            "value": "xl7yz9%5E1763034422933%5E2%5E1%5Eq.clarity.ms%2Fcollect",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_dc_gtm_UA-58402650-1",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_fbp",
-            "value": "fb.1.1756864411428.743364404922351309",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1770810422,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_ga",
-            "value": "GA1.2.327560088.1756864411",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797594425.522924,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_ga_GH3462EJ5M",
-            "value": "GS2.1.s1763034418$o2$g1$t1763034423$j55$l0$h0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797594423.301618,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_gcl_au",
-            "value": "1.1.249541615.1756864410.587233280.1756864428.1756864435",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1764640410,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_gid",
-            "value": "GA1.2.1197854931.1763034418",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_hjSession_271876",
-            "value": "eyJpZCI6ImZjYmY2MDA0LTdlYjgtNDk5ZS05MjA4LTJkYjA5ZTI1OWY5NSIsImMiOjE3NjMwMzQ0MTg5MDAsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjowLCJzcCI6MX0=",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_hjSessionUser_271876",
-            "value": "eyJpZCI6IjI4NmQ3MjUzLTg5MDUtNWQ5My1iOWE0LTYxZGZkMGE2OTdiMyIsImNyZWF0ZWQiOjE3NTY4NjQ0MTEzMzgsImV4aXN0aW5nIjp0cnVlfQ==",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794570418,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_lc2_fpi",
-            "value": "77ceb2b4b436--01k46mexerrdamgz3gpcgkgd8w",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791424411.097176,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_lc2_fpi_js",
-            "value": "77ceb2b4b436--01k46mexerrdamgz3gpcgkgd8w",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_li_dcdm_c",
-            "value": ".curiositystream.com",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "lax",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_pin_unauth",
-            "value": "dWlkPU9EY3dNalExTkRjdE9XWTROaTAwWm1Vd0xUaGtOekV0WXpVMFlqZ3haak0zTWpZeg",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794570419,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_rdt_uuid",
-            "value": "1756864410580.f0f380a6-a631-4f06-9dc5-3b0d49008ab9",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1770810422,
-            "sameSite": "strict",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_ScCbts",
-            "value": "%5B%5D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "lax",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_scid",
-            "value": "hVSZVARwY4Kso-CCCSV4b8tpVdUe9S8w",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791051109,
-            "sameSite": "lax",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_scid_r",
-            "value": "ktSZVARwY4Kso-CCCSV4b8tpVdUe9S8wxB2Fog",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797162418,
-            "sameSite": "lax",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_sctr",
-            "value": "1%7C1762966800000",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797162422,
-            "sameSite": "lax",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_sp_id.7e45",
-            "value": "a74beffb-a88e-4d3d-a46a-ca95af3446f8.1756864411.2.1763034426.1756864449.20c694f9-5a4a-4d1f-b013-5716021f642b",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797594425.525477,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_sp_id.f88e",
-            "value": "8e49d822-67f6-4886-9de7-431ef1391a59.1756864411.1.1756864450..419dba84-f995-44c9-9967-325abcb011b8..3321a118-c9d0-44d3-b5b1-760981cc7833.1756864410892.160",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791424450.01963,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_sp_ses.7e45",
-            "value": "*",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_tt_enable_cookie",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1796730418,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_ttp",
-            "value": "01K46MEXDGJ1ESJE09QK8TV1M9_.tt.1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1796730418,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_uetsid",
-            "value": "75e57350c08611f0881701b4bea2e9aa",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_uetvid",
-            "value": "cab5e350886811f0805a7bcf23369368",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1796730418,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "ab.storage.deviceId.b3ca1422-b578-46aa-8ba3-c579c32f2525",
-            "value": "%7B%22g%22%3A%22a1e1999e-37d2-38c1-2d80-83773f3d9a4a%22%2C%22c%22%3A1756864437585%2C%22l%22%3A1763034422320%7D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797594422,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "ab.storage.sessionId.b3ca1422-b578-46aa-8ba3-c579c32f2525",
-            "value": "%7B%22g%22%3A%22890270d5-49d6-123c-de12-4a3d12751ebf%22%2C%22e%22%3A1763036222319%2C%22c%22%3A1763034422319%2C%22l%22%3A1763034422319%7D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797594422,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "ab.storage.userId.b3ca1422-b578-46aa-8ba3-c579c32f2525",
-            "value": "%7B%22g%22%3A%22e0dae1bd-3326-46b2-b671-e550fbf5f6d0%22%2C%22c%22%3A1756864437589%2C%22l%22%3A1763034422321%7D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797594422,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "auth_token",
-            "value": "Account%20eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2FwaS5jdXJpb3NpdHlzdHJlYW0uY29tL3YxL2xvZ2luIiwiaWF0IjoxNzU2ODY0NDM0LCJleHAiOjE3ODg0MjIwMzQsIm5iZiI6MTc1Njg2NDQzNCwianRpIjoiM01qMlJyWllkbFVaekdPWSIsInN1YiI6Ijc1NTI2ZTUzLWRmNTUtNGY3Ni05NTI4LTI3YWFmZWQ0ZjhmZiIsInBydiI6IjBmMzBmZGVkMjk3NDVhZmVkMDZiYTEyMmY0MTBiZDVjYTkwMmQwMjEiLCJ1aWQiOiJlMGRhZTFiZC0zMzI2LTQ2YjItYjY3MS1lNTUwZmJmNWY2ZDAifQ.C0JTomELFaxg8uc7Z7JIASpa9CviDgy-JZOnIETJFb4",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1788400437,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "blueID",
-            "value": "9ca8fe83-59ab-486e-81ef-282b25e3cf17",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1788400412,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "country",
-            "value": "ID",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "cs_app_lang",
-            "value": "en-US",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "cs_evnts",
-            "value": "{%22events%22:[{%22event_name%22:%22session_initialized%22%2C%22data%22:{}%2C%22metadata%22:{}%2C%22event_datetime%22:%222025-09-03T01:53:30.860Z%22}]}",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1788400410,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "csUserId",
-            "value": "e0dae1bd-3326-46b2-b671-e550fbf5f6d0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "datadome",
-            "value": "~S9ovAluwo20yv8BOd6S7RuWrUQijPrex9PwSH1KYeuxQagUEmmOs7nzkmLjOVBLCkO0287GwYC5vzJq~9q~iwE86kmaGeFZpjjDQnINE3xeYPMBAwMc4R0AOkCs9Ioa",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794570429.736263,
-            "sameSite": "lax",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "eu_user",
-            "value": "0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "first_name",
-            "value": "Groupy",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "hashed_email",
-            "value": "2bfe24d3f381b975d46b3e075c6e7144",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "ndp_session_id",
-            "value": "caca2ead-0eb7-4e15-875c-a92d6d7d8dec",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1765626419,
-            "sameSite": "lax",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "referral_source",
-            "value": "[{%22contact_date%22:%222025-09-02%2018:53:34%22%2C%22count%22:1%2C%22referrer%22:%22https://www.google.com/%22%2C%22tags%22:[{%22tag%22:%22clientId%22%2C%22value%22:%22327560088.1756864411%22}%2C{%22tag%22:%22page%22%2C%22value%22:%22/%22}]}]",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1788400414,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "sign",
-            "value": "4d7a7847506c77555764694e43514338714f3744684c516d44774c432f5035697933676377596c394f7a3547724e436e6d4a543076665454594b4466532f4c4d",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1790560410,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "smc_not",
-            "value": "default",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791424414.852964,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "smc_sesn",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791424414.851098,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "smc_session_id",
-            "value": "ov0FXDuJzNg1zpcoaxbXdiRNkNnJU5dp",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "smc_spv",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "smc_tag",
-            "value": "eyJpZCI6NjY3OCwibmFtZSI6ImN1cmlvc2l0eXN0cmVhbS5jb20ifQ%3D%3D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1788400414,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "smc_tpv",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797594419.232075,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "smc_uid",
-            "value": "1756864414227247",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791424414.227858,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "smct_last_ov",
-            "value": "%5B%7B%22id%22%3A137043%2C%22loaded%22%3A1763034422119%2C%22open%22%3Anull%2C%22eng%22%3Anull%2C%22closed%22%3Anull%7D%5D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1765626422,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "smct_session",
-            "value": "%7B%22s%22%3A1756864415240%2C%22l%22%3A1763034429604%2C%22lt%22%3A1763034429604%2C%22t%22%3A46%2C%22p%22%3A33%7D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "ttcsid",
-            "value": "1763034418744::lE7cos8mAnjQ024x4buD.2.1763034422678.0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1796730422,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "ttcsid_BSDF75DBA6LC1K03O4AG",
-            "value": "1763034418746::c_OBbW4J5SUgaauwDCJ6.2.1763034422678.0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1796730422,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "ttcsid_CHNQ3IJC77UCDSLJ3ND0",
-            "value": "1763034418744::WzSLqqiI52xwAsWmfG37.2.1763034422678.0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1796730422,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "ttcsid_CJSBIIBC77UEOD73PTDG",
-            "value": "1763034418745::efEdr1HtBFMxC1plcVEI.2.1763034422678.0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1796730422,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "ttcsid_CJVJJKJC77UEOD73TEOG",
-            "value": "1763034418745::HmDittBLNKJdZKv2HldH.2.1763034422678.0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1796730422,
-            "sameSite": "no_restriction",
-            "domain": ".curiositystream.com"
-          },
-          {
-            "name": "_sp_id.f88e",
-            "value": "8e49d822-67f6-4886-9de7-431ef1391a59.1756864411.1.1763034430..419dba84-f995-44c9-9967-325abcb011b8..3321a118-c9d0-44d3-b5b1-760981cc7833.1756864410892.161",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797594429.980523,
-            "sameSite": "no_restriction",
-            "domain": "curiositystream.com"
-          },
-          {
-            "name": "_sp_ses.f88e",
-            "value": "*",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": "curiositystream.com"
-          },
-          {
-            "name": "auth_token",
-            "value": "Account%20eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2FwaS5jdXJpb3NpdHlzdHJlYW0uY29tL3YxL2xvZ2luIiwiaWF0IjoxNzU2ODY0NDM0LCJleHAiOjE3ODg0MjIwMzQsIm5iZiI6MTc1Njg2NDQzNCwianRpIjoiM01qMlJyWllkbFVaekdPWSIsInN1YiI6Ijc1NTI2ZTUzLWRmNTUtNGY3Ni05NTI4LTI3YWFmZWQ0ZjhmZiIsInBydiI6IjBmMzBmZGVkMjk3NDVhZmVkMDZiYTEyMmY0MTBiZDVjYTkwMmQwMjEiLCJ1aWQiOiJlMGRhZTFiZC0zMzI2LTQ2YjItYjY3MS1lNTUwZmJmNWY2ZDAifQ.C0JTomELFaxg8uc7Z7JIASpa9CviDgy-JZOnIETJFb4",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794570419,
-            "sameSite": "no_restriction",
-            "domain": "curiositystream.com"
-          },
-          {
-            "name": "cs_app_lang",
-            "value": "en-US",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": "curiositystream.com"
-          },
-          {
-            "name": "cs_evnts",
-            "value": "{%22events%22:[{%22event_name%22:%22session_initialized%22%2C%22data%22:{}%2C%22metadata%22:{}%2C%22event_datetime%22:%222025-09-03T01:53:30.860Z%22}%2C{%22event_name%22:%22session_initialized%22%2C%22data%22:{}%2C%22metadata%22:{%22locale%22:%22en-US%22}%2C%22event_datetime%22:%222025-11-13T11:46:57.873Z%22}]}",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794570417,
-            "sameSite": "no_restriction",
-            "domain": "curiositystream.com"
-          },
-          {
-            "name": "csUserId",
-            "value": "e0dae1bd-3326-46b2-b671-e550fbf5f6d0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": "curiositystream.com"
-          },
-          {
-            "name": "eu_user",
-            "value": "0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": "curiositystream.com"
-          },
-          {
-            "name": "first_name",
-            "value": "Groupy",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": "curiositystream.com"
-          },
-          {
-            "name": "hashed_email",
-            "value": "2bfe24d3f381b975d46b3e075c6e7144",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": "curiositystream.com"
-          }
-        ],
-        "sourceUrl": "https://curiositystream.com/home"
-      },
-      {
-        "name": "Curiosity Stream 3",
         "cookies": [
           {
             "name": "__zlcmid",
@@ -19738,7 +17887,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763904094,
             "sameSite": "no_restriction",
             "domain": ".curiositystream.com"
           },
@@ -20217,7 +18365,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763904099,
             "sameSite": "no_restriction",
             "domain": "curiositystream.com"
           },
@@ -20290,7 +18437,7 @@
         "sourceUrl": "https://curiositystream.com/home"
       },
       {
-        "name": "Curiosity Stream 4",
+        "name": "Curiosity Stream 2",
         "cookies": [
           {
             "name": "__zlcmid",
@@ -20397,7 +18544,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763904084,
             "sameSite": "no_restriction",
             "domain": ".curiositystream.com"
           },
@@ -20866,7 +19012,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763904087,
             "sameSite": "no_restriction",
             "domain": "curiositystream.com"
           },
@@ -23281,7 +21426,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763904167,
             "sameSite": "lax",
             "domain": ".epidemicsound.com"
           },
@@ -23578,7 +21722,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763904167.953479,
             "sameSite": "no_restriction",
             "domain": "www.epidemicsound.com"
           }
@@ -23694,7 +21837,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763904112,
             "sameSite": "lax",
             "domain": ".epidemicsound.com"
           },
@@ -23981,7 +22123,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763904112.544682,
             "sameSite": "no_restriction",
             "domain": "www.epidemicsound.com"
           }
@@ -25269,7 +23410,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763906493.824101,
             "sameSite": "no_restriction",
             "domain": ".freepik.com"
           },
@@ -25279,7 +23419,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763906494.376086,
             "sameSite": "no_restriction",
             "domain": ".freepik.com"
           },
@@ -25309,7 +23448,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763906494.375982,
             "sameSite": "no_restriction",
             "domain": ".freepik.com"
           },
@@ -25416,7 +23554,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763906493.721721,
             "sameSite": "no_restriction",
             "domain": "www.freepik.com"
           },
@@ -25501,7 +23638,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763906382.980876,
             "sameSite": "no_restriction",
             "domain": ".freepik.com"
           },
@@ -25511,7 +23647,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763906384.890024,
             "sameSite": "no_restriction",
             "domain": ".freepik.com"
           },
@@ -25541,7 +23676,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763906384.889926,
             "sameSite": "no_restriction",
             "domain": ".freepik.com"
           },
@@ -25619,7 +23753,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763906385.041589,
             "sameSite": "no_restriction",
             "domain": "www.freepik.com"
           }
@@ -31941,7 +30074,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763905593.960817,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -32047,7 +30179,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763905602.386815,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -32153,7 +30284,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763905612.944374,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -32259,7 +30389,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763905622.299287,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -32365,7 +30494,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763905631.047741,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -32471,7 +30599,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763905644.117175,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -32577,7 +30704,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763905653.261343,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -32683,7 +30809,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763905663.11601,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -32789,7 +30914,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763905673.188313,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -32895,7 +31019,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763905684.121908,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -33001,7 +31124,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763905692.100051,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -33107,7 +31229,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763905704.284619,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -33213,7 +31334,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763905713.115058,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -33319,7 +31439,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763905722.272714,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -33425,7 +31544,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763905731.583073,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -33531,7 +31649,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763905741.101731,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -33637,7 +31754,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763905751.331623,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -43918,1429 +42034,668 @@
       "name": "Sider AI",
       "icon": "https://play-lh.googleusercontent.com/VghuZRn0-oLvbaGqptsM-9Qr6Ka7Pmw7lfmu6_UQ56mZS6bsXbET9Uf0wF0FECP8lEM",
       "url": "https://sider.ai/chat",
-      "category": "productivity",
-      "isGroup": true
+      "category": "productivity"
     },
-    "accounts": [
+    "cookies": [
       {
-        "name": "Sider AI 1",
-        "cookies": [
-          {
-            "name": "__stripe_mid",
-            "value": "6566ccf7-05c3-498a-9729-4e4180c5a7e6dab92e",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795015131,
-            "sameSite": "strict",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "__stripe_sid",
-            "value": "1387af33-a483-4747-b3d0-ac707c7ffb3fd0edb4",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "strict",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "_clck",
-            "value": "",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "_clsk",
-            "value": "",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "_ga",
-            "value": "GA1.1.717843154.1759722510",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795323797.665624,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "_ga_0PRFKME4HP",
-            "value": "GS2.1.s1760763739$o2$g1$t1760763799$j60$l0$h0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795323799.579801,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "_ga_CX5G9RZJWF",
-            "value": "GS2.1.s1760763739$o2$g1$t1760763799$j60$l0$h0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795323799.576451,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "_gcl_au",
-            "value": "1.1.171276933.1759722510",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1767498510,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "_gcl_aw",
-            "value": "GCL.1759722761.EAIaIQobChMI7J3-k9WOkAMVfqJLBR33oi84EAAYASAAEgLW6PD_BwE",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1767498761,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "_gcl_gs",
-            "value": "2.1.k1$i1759722756$u7016880",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1767498761,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "_uetvid",
-            "value": "7d3865403b9e11f0a0f1e1613c033137",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794459738,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "CloudFront-Key-Pair-Id",
-            "value": "K344F5VVSSM536",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "CloudFront-Policy",
-            "value": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9maWxlLWNkbi5zaWRlci5haS8qL1UwWDdIOEtSSjBLLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3NjM1NjU1Mjd9fX1dfQ__",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "CloudFront-Signature",
-            "value": "okqCYatzVZdxGRtsR0g5eYHuJz9OAB5BLKIckNlgYuBaWVxxKyJOEcmSe~BxWOD9AXO6M~A9-e2diaioZZ5HoMP2CKtZFDgtzotrgn9tPF6I5zqWz92ZFzLupgBJ0LXyRfvd6TpBkMESToMCwHGae~xFfuMtC2W8OqrN3vUC180YJB0~pXYwms9LmkmjRjNp4yCa~f6HpErwXN2mi3uBk53IzHRQl9QxA2srxwCyRJbtpy-7OTk9n5-MSrKBWNXAwAjOxk7rg0w9ekxR-Q8ss9FO9wzCE8cSSdOhh5ZAN3eMi0Vx9H8aPOPjLGew3K8AtjmsjTK5dr~R0Qo6KpajSw__",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "g_state",
-            "value": "{\"i_l\":0,\"i_ll\":1760763797683,\"i_b\":\"87Gf03kZ3SJB01Xj2CAUQ6SL4tv131iDmIrqBQMFwqQ\"}",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1776315797,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "lang",
-            "value": "null",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798039126.834736,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "NEXT_LOCALE",
-            "value": "en",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "p1",
-            "value": "pricing",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1775274505,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "p2",
-            "value": "search",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1775274505,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "refresh_token",
-            "value": "discard",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795323797.977726,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "sign",
-            "value": "4d7a7847506c77555764694e43514338714f37446844364b6b756f614e6b61397764352f73426449414d685773446a4f55505941715045444f4543484b673430",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795323797.665624,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "source",
-            "value": "gg",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1775274505,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "token",
-            "value": "Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxNjAxMTYyNCwicmVnaXN0ZXJfdHlwZSI6Im9hdXRoMiIsImFwcF9uYW1lIjoiQ2hpdENoYXRfV2ViIiwidG9rZW5faWQiOiI5YWRhODhiMS0yYmM3LTRhNWMtYjAzMy1lYzM5MTAyMDc5ZmYiLCJpc3MiOiJzaWRlci5haSIsImF1ZCI6WyIiXSwiZXhwIjoxNzkxODY3ODExLCJuYmYiOjE3NjA3NjM4MTEsImlhdCI6MTc2MDc2MzgxMX0.CKYp8wY5boFYEzK3NVSW2eH4JA7UKiwM96WbcrpjumA",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795323797.977602,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "uid",
-            "value": "mk5d3c2731-ef1a-46a9-82be-0cde0596d929",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791283707,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "userinfo-avatar",
-            "value": "https://chitchat-avatar.s3.amazonaws.com/03e83b38f8b046128b3db59034654afa-1732106475.jpg",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795323797.977811,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "userinfo-name",
-            "value": "Groupy%20|%20Sider",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795323797.977892,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "userinfo-type",
-            "value": "oauth2",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795323797.977963,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "NEXT_LOCALE",
-            "value": "en",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": "sider.ai"
-          }
-        ],
-        "sourceUrl": "https://sider.ai/chat"
+        "name": "__stripe_mid",
+        "value": "6566ccf7-05c3-498a-9729-4e4180c5a7e6dab92e",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1795437480,
+        "sameSite": "strict",
+        "domain": ".sider.ai"
       },
       {
-        "name": "Sider AI 2",
-        "cookies": [
-          {
-            "name": "__stripe_mid",
-            "value": "6566ccf7-05c3-498a-9729-4e4180c5a7e6dab92e",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795437480,
-            "sameSite": "strict",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "__stripe_sid",
-            "value": "c156471a-80a7-4897-a513-677635c8824445bcc1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "strict",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "_clck",
-            "value": "",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "_clsk",
-            "value": "",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "_ga",
-            "value": "GA1.1.717843154.1759722510",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795323797.665624,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "_ga_0PRFKME4HP",
-            "value": "GS2.1.s1760763739$o2$g1$t1760763799$j60$l0$h0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795323799.579801,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "_ga_CX5G9RZJWF",
-            "value": "GS2.1.s1760763739$o2$g1$t1760763799$j60$l0$h0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795323799.576451,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "_gcl_au",
-            "value": "1.1.171276933.1759722510",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1767498510,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "_gcl_aw",
-            "value": "GCL.1759722761.EAIaIQobChMI7J3-k9WOkAMVfqJLBR33oi84EAAYASAAEgLW6PD_BwE",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1767498761,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "_gcl_gs",
-            "value": "2.1.k1$i1759722756$u7016880",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1767498761,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "_uetvid",
-            "value": "7d3865403b9e11f0a0f1e1613c033137",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794459738,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "CloudFront-Key-Pair-Id",
-            "value": "K344F5VVSSM536",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1763987877.651785,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "CloudFront-Policy",
-            "value": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9maWxlLWNkbi5zaWRlci5haS8qL1UwWDdIOEtSSjBLLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3NjM5ODc4NzZ9fX1dfQ__",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1763987877.651661,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "CloudFront-Signature",
-            "value": "d2IFGn~Y-7eQysj167Sb9dhAXrJnu6Z4V1k9R-wP-oZbqmIY7JCIQXoTvOHCB3oiqrfg-ccVtGDoF3MeJ3El9H-L09CaGO1EUT20s9-iGLkvf2K3cqdowYLd9D9BU-i2alvAyGqga-EqODf3EslEeAyoAlnhRRccjc2x3~RYI6-ZZ8da7v6EUVN7fiLKHXhxX7l9yweSCt8D7WTv1XO~zdkpQyz~k3KYuOniJ0P6R1-Slt~nDWXJ7N1Cm57W8fAb4Q2M1qwI0JI3fBn4vueUlIo-HbvMtoznjgE8SY6vs35eVX7mFKTbHDc3O-267xUTwX2Y-GEXpVflEz~GjgirTA__",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1763987877.651745,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "g_state",
-            "value": "{\"i_l\":0,\"i_ll\":1760763797683,\"i_b\":\"87Gf03kZ3SJB01Xj2CAUQ6SL4tv131iDmIrqBQMFwqQ\"}",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1776315797,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "lang",
-            "value": "null",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798461476.770742,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "NEXT_LOCALE",
-            "value": "en",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "p1",
-            "value": "pricing",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1775274505,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "p2",
-            "value": "search",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1775274505,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "refresh_token",
-            "value": "discard",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795323797.977726,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "sign",
-            "value": "4d7a7847506c77555764694e43514338714f37446844364b6b756f614e6b61397764352f73426449414d685773446a4f55505941715045444f4543484b673430",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795323797.665624,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "source",
-            "value": "gg",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1775274505,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "token",
-            "value": "Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxNjAxMTYyNCwicmVnaXN0ZXJfdHlwZSI6Im9hdXRoMiIsImFwcF9uYW1lIjoiQ2hpdENoYXRfV2ViIiwidG9rZW5faWQiOiI5YWRhODhiMS0yYmM3LTRhNWMtYjAzMy1lYzM5MTAyMDc5ZmYiLCJpc3MiOiJzaWRlci5haSIsImF1ZCI6WyIiXSwiZXhwIjoxNzkxODY3ODExLCJuYmYiOjE3NjA3NjM4MTEsImlhdCI6MTc2MDc2MzgxMX0.CKYp8wY5boFYEzK3NVSW2eH4JA7UKiwM96WbcrpjumA",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795323797.977602,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "uid",
-            "value": "mk5d3c2731-ef1a-46a9-82be-0cde0596d929",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791283707,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "userinfo-avatar",
-            "value": "https://chitchat-avatar.s3.amazonaws.com/03e83b38f8b046128b3db59034654afa-1732106475.jpg",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795323797.977811,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "userinfo-name",
-            "value": "Groupy%20|%20Sider",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795323797.977892,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "userinfo-type",
-            "value": "oauth2",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795323797.977963,
-            "sameSite": "no_restriction",
-            "domain": ".sider.ai"
-          },
-          {
-            "name": "NEXT_LOCALE",
-            "value": "en",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": "sider.ai"
-          }
-        ],
-        "sourceUrl": "https://sider.ai/chat"
+        "name": "__stripe_sid",
+        "value": "c156471a-80a7-4897-a513-677635c8824445bcc1",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "strict",
+        "domain": ".sider.ai"
+      },
+      {
+        "name": "_clck",
+        "value": "",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".sider.ai"
+      },
+      {
+        "name": "_clsk",
+        "value": "",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".sider.ai"
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.717843154.1759722510",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1795323797.665624,
+        "sameSite": "no_restriction",
+        "domain": ".sider.ai"
+      },
+      {
+        "name": "_ga_0PRFKME4HP",
+        "value": "GS2.1.s1760763739$o2$g1$t1760763799$j60$l0$h0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1795323799.579801,
+        "sameSite": "no_restriction",
+        "domain": ".sider.ai"
+      },
+      {
+        "name": "_ga_CX5G9RZJWF",
+        "value": "GS2.1.s1760763739$o2$g1$t1760763799$j60$l0$h0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1795323799.576451,
+        "sameSite": "no_restriction",
+        "domain": ".sider.ai"
+      },
+      {
+        "name": "_gcl_au",
+        "value": "1.1.171276933.1759722510",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1767498510,
+        "sameSite": "no_restriction",
+        "domain": ".sider.ai"
+      },
+      {
+        "name": "_gcl_aw",
+        "value": "GCL.1759722761.EAIaIQobChMI7J3-k9WOkAMVfqJLBR33oi84EAAYASAAEgLW6PD_BwE",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1767498761,
+        "sameSite": "no_restriction",
+        "domain": ".sider.ai"
+      },
+      {
+        "name": "_gcl_gs",
+        "value": "2.1.k1$i1759722756$u7016880",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1767498761,
+        "sameSite": "no_restriction",
+        "domain": ".sider.ai"
+      },
+      {
+        "name": "_uetvid",
+        "value": "7d3865403b9e11f0a0f1e1613c033137",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1794459738,
+        "sameSite": "no_restriction",
+        "domain": ".sider.ai"
+      },
+      {
+        "name": "CloudFront-Key-Pair-Id",
+        "value": "K344F5VVSSM536",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1763987877.651785,
+        "sameSite": "no_restriction",
+        "domain": ".sider.ai"
+      },
+      {
+        "name": "CloudFront-Policy",
+        "value": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9maWxlLWNkbi5zaWRlci5haS8qL1UwWDdIOEtSSjBLLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3NjM5ODc4NzZ9fX1dfQ__",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1763987877.651661,
+        "sameSite": "no_restriction",
+        "domain": ".sider.ai"
+      },
+      {
+        "name": "CloudFront-Signature",
+        "value": "d2IFGn~Y-7eQysj167Sb9dhAXrJnu6Z4V1k9R-wP-oZbqmIY7JCIQXoTvOHCB3oiqrfg-ccVtGDoF3MeJ3El9H-L09CaGO1EUT20s9-iGLkvf2K3cqdowYLd9D9BU-i2alvAyGqga-EqODf3EslEeAyoAlnhRRccjc2x3~RYI6-ZZ8da7v6EUVN7fiLKHXhxX7l9yweSCt8D7WTv1XO~zdkpQyz~k3KYuOniJ0P6R1-Slt~nDWXJ7N1Cm57W8fAb4Q2M1qwI0JI3fBn4vueUlIo-HbvMtoznjgE8SY6vs35eVX7mFKTbHDc3O-267xUTwX2Y-GEXpVflEz~GjgirTA__",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1763987877.651745,
+        "sameSite": "no_restriction",
+        "domain": ".sider.ai"
+      },
+      {
+        "name": "g_state",
+        "value": "{\"i_l\":0,\"i_ll\":1760763797683,\"i_b\":\"87Gf03kZ3SJB01Xj2CAUQ6SL4tv131iDmIrqBQMFwqQ\"}",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1776315797,
+        "sameSite": "no_restriction",
+        "domain": ".sider.ai"
+      },
+      {
+        "name": "lang",
+        "value": "null",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1798461476.770742,
+        "sameSite": "no_restriction",
+        "domain": ".sider.ai"
+      },
+      {
+        "name": "NEXT_LOCALE",
+        "value": "en",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".sider.ai"
+      },
+      {
+        "name": "p1",
+        "value": "pricing",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1775274505,
+        "sameSite": "no_restriction",
+        "domain": ".sider.ai"
+      },
+      {
+        "name": "p2",
+        "value": "search",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1775274505,
+        "sameSite": "no_restriction",
+        "domain": ".sider.ai"
+      },
+      {
+        "name": "refresh_token",
+        "value": "discard",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1795323797.977726,
+        "sameSite": "no_restriction",
+        "domain": ".sider.ai"
+      },
+      {
+        "name": "sign",
+        "value": "4d7a7847506c77555764694e43514338714f37446844364b6b756f614e6b61397764352f73426449414d685773446a4f55505941715045444f4543484b673430",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1795323797.665624,
+        "sameSite": "no_restriction",
+        "domain": ".sider.ai"
+      },
+      {
+        "name": "source",
+        "value": "gg",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1775274505,
+        "sameSite": "no_restriction",
+        "domain": ".sider.ai"
+      },
+      {
+        "name": "token",
+        "value": "Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxNjAxMTYyNCwicmVnaXN0ZXJfdHlwZSI6Im9hdXRoMiIsImFwcF9uYW1lIjoiQ2hpdENoYXRfV2ViIiwidG9rZW5faWQiOiI5YWRhODhiMS0yYmM3LTRhNWMtYjAzMy1lYzM5MTAyMDc5ZmYiLCJpc3MiOiJzaWRlci5haSIsImF1ZCI6WyIiXSwiZXhwIjoxNzkxODY3ODExLCJuYmYiOjE3NjA3NjM4MTEsImlhdCI6MTc2MDc2MzgxMX0.CKYp8wY5boFYEzK3NVSW2eH4JA7UKiwM96WbcrpjumA",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1795323797.977602,
+        "sameSite": "no_restriction",
+        "domain": ".sider.ai"
+      },
+      {
+        "name": "uid",
+        "value": "mk5d3c2731-ef1a-46a9-82be-0cde0596d929",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1791283707,
+        "sameSite": "no_restriction",
+        "domain": ".sider.ai"
+      },
+      {
+        "name": "userinfo-avatar",
+        "value": "https://chitchat-avatar.s3.amazonaws.com/03e83b38f8b046128b3db59034654afa-1732106475.jpg",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1795323797.977811,
+        "sameSite": "no_restriction",
+        "domain": ".sider.ai"
+      },
+      {
+        "name": "userinfo-name",
+        "value": "Groupy%20|%20Sider",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1795323797.977892,
+        "sameSite": "no_restriction",
+        "domain": ".sider.ai"
+      },
+      {
+        "name": "userinfo-type",
+        "value": "oauth2",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1795323797.977963,
+        "sameSite": "no_restriction",
+        "domain": ".sider.ai"
+      },
+      {
+        "name": "NEXT_LOCALE",
+        "value": "en",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": "sider.ai"
       }
-    ]
+    ],
+    "sourceUrl": "https://sider.ai/chat"
   },
   {
     "meta": {
       "id": "skillshare-1070",
       "name": "Skillshare",
       "icon": "https://groupy.id/assets/images/services/skillshare.png",
-      "url": "https://www.skillshare.com/en/browse?via=header",
-      "category": "education",
-      "isGroup": true
+      "url": "https://www.skillshare.com/en/home",
+      "category": "education"
     },
-    "accounts": [
+    "cookies": [
       {
-        "name": "Skillshare 1",
-        "cookies": [
-          {
-            "name": "__cf_bm",
-            "value": "3izGa4Fdoy8YTkjD1wj8UAJR7aTOqaSxw2gis7qOUik-1763479125-1.0.1.1-ko0hTbAxEhvAABUBzkdhhI0BuCAkPmG3LyZVZfH5LmCVNL6xf2iyAlTnkGactB5LtducwAoNJsRYZAWSuKdCuygMclTj7wMD0bPGAOU3tqXZhrGcN6vj9qvccTmwGPQq",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "__hssc",
-            "value": "207857485.2.1763479136849",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "lax",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "__hssrc",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "lax",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "__hstc",
-            "value": "207857485.a420a1dca5e833e70ed679bb26d5a5ab.1760169903695.1760169903695.1763479136849.2",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1779031237,
-            "sameSite": "lax",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "_ce.clock_data",
-            "value": "525%2C36.76.155.224%2C1%2Ccfcb07bc3d607fc0d77e405350874832%2COpera%2CID",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "strict",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "_ce.s",
-            "value": "lcw~1763479236579~v11ls~e5db1e50-c491-11f0-99a8-27a7933ccf70~v~ec45549ef28681de5ff16043f876c60f56a96f5a~vir~new~lva~1763479236579~vpv~0~as~false~v11.cs~247798~v11.s~e5db1e50-c491-11f0-99a8-27a7933ccf70~v11.vs~ec45549ef28681de5ff16043f876c60f56a96f5a~v11.fsvd~eyJ1cmwiOiJza2lsbHNoYXJlLmNvbS9lbi9tZW1iZXJzaGlwL2NoZWNrb3V0IiwicmVmIjoiIiwidXRtIjpbXX0%3D~v11.sla~1763479135415~gtrk.la~mi4q07p3~lcw~1763479236855",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795015236,
-            "sameSite": "strict",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "_CEFT",
-            "value": "Q%3D%3D%3D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795015236,
-            "sameSite": "strict",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "_clck",
-            "value": "lra4gl%5E2%5Eg14%5E0%5E2110",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795015135,
-            "sameSite": "no_restriction",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "_clsk",
-            "value": "sh1nuf%5E1763479237496%5E2%5E1%5Es.clarity.ms%2Fcollect",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "_fbp",
-            "value": "fb.1.1763479132848.653451075490204383",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1771255132,
-            "sameSite": "no_restriction",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "_ga",
-            "value": "GA1.1.1156723062.1760169902",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798039236.306981,
-            "sameSite": "no_restriction",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "_ga_0SD3YJM7NH",
-            "value": "GS2.1.s1763479131$o2$g1$t1763479236$j59$l0$h0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798039236.306632,
-            "sameSite": "no_restriction",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "_ga_J5NPJ1XD74",
-            "value": "GS2.1.s1763479131$o2$g1$t1763479237$j58$l0$h0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798039237.763741,
-            "sameSite": "no_restriction",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "_gcl_au",
-            "value": "1.1.830497591.1760169900",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1767945900,
-            "sameSite": "no_restriction",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "_kad",
-            "value": "1760169901926.b498ad98-1444-4c7b-bd0a-773b8eb3b163",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1767945921,
-            "sameSite": "no_restriction",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "_pin_unauth",
-            "value": "dWlkPU5HRTNabU0yWTJRdFlXUTJNaTAwTm1GbExXRTVOV0l0TW1Wak56QXdORE5sTURObQ",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795015237,
-            "sameSite": "no_restriction",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "_tt_enable_cookie",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797175133,
-            "sameSite": "no_restriction",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "_ttp",
-            "value": "01KABRR7B8RKTAR7RC1AGMPRGH_.tt.1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797175133,
-            "sameSite": "no_restriction",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "_uetsid",
-            "value": "e44da010c49111f0a68f2d7a1a865e0a",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "_uetvid",
-            "value": "fd119ce0a67811f0a604f1d5343af127",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797175236,
-            "sameSite": "no_restriction",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "cebs",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "strict",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "cebsp_",
-            "value": "4",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "strict",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "device_session_id",
-            "value": "2c25f3dc-9180-4bc1-bfa2-18847dc0bbed",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798039238.087268,
-            "sameSite": "lax",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "hubspotutk",
-            "value": "a420a1dca5e833e70ed679bb26d5a5ab",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1779031237,
-            "sameSite": "lax",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "IR_4650",
-            "value": "1763479235996%7C0%7C1763479235996%7C%7C",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "IR_gbd",
-            "value": "skillshare.com",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "IR_PI",
-            "value": "06b0d158-a679-11f0-99a1-617a4b1c88a0%7C1763479235996",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798039236.319275,
-            "sameSite": "no_restriction",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "mp_c0ffa2093d02e0d503db07fe142aab98_mixpanel",
-            "value": "%7B%22distinct_id%22%3A%222c25f3dc-9180-4bc1-bfa2-18847dc0bbed%22%2C%22%24device_id%22%3A%2218fe5d47-9338-4779-877c-48ff516cb94b%22%2C%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%2C%22__mps%22%3A%7B%7D%2C%22__mpso%22%3A%7B%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%7D%2C%22__mpus%22%3A%7B%7D%2C%22__mpa%22%3A%7B%7D%2C%22__mpu%22%3A%7B%7D%2C%22__mpr%22%3A%5B%5D%2C%22__mpap%22%3A%5B%5D%2C%22%24user_id%22%3A%222c25f3dc-9180-4bc1-bfa2-18847dc0bbed%22%7D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795015236,
-            "sameSite": "no_restriction",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "mp_none_mixpanel",
-            "value": "%7B%22distinct_id%22%3A%22%24device%3A42343bf7-9ce5-43bb-aab7-7c87487c0e24%22%2C%22%24device_id%22%3A%2242343bf7-9ce5-43bb-aab7-7c87487c0e24%22%2C%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%2C%22__mps%22%3A%7B%7D%2C%22__mpso%22%3A%7B%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%7D%2C%22__mpus%22%3A%7B%7D%2C%22__mpa%22%3A%7B%7D%2C%22__mpu%22%3A%7B%7D%2C%22__mpr%22%3A%5B%5D%2C%22__mpap%22%3A%5B%5D%7D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1793966429,
-            "sameSite": "no_restriction",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "sign",
-            "value": "4d7a7847506c77555764694e43514338714f374468464d36533273465463792b4c3836706c766571617a415a6946796733325a58394a6775727a5a7666797855",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1793865921,
-            "sameSite": "no_restriction",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "skillshare_user_",
-            "value": "f412ffc333987ce52db7b54eee49f82c33887a4ea%3A4%3A%7Bi%3A0%3Bs%3A8%3A%2236037467%22%3Bi%3A1%3Bs%3A23%3A%22gicasgicas9%40outlook.com%22%3Bi%3A2%3Bi%3A7776000%3Bi%3A3%3Ba%3A5%3A%7Bs%3A8%3A%22username%22%3Bs%3A9%3A%22486744668%22%3Bs%3A10%3A%22login_time%22%3Bs%3A19%3A%222025-10-11%2008%3A05%3A13%22%3Bs%3A10%3A%22touch_time%22%3Bs%3A19%3A%222025-11-18%2015%3A20%3A37%22%3Bs%3A5%3A%22roles%22%3Bs%3A0%3A%22%22%3Bs%3A6%3A%22locale%22%3Bs%3A2%3A%22en%22%3B%7D%7D",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1771255238.087217,
-            "sameSite": "lax",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "ttcsid",
-            "value": "1763479133547::drkZUeBZE5Afg-M4Sr-B.1.1763479234412.0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797175234,
-            "sameSite": "no_restriction",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "ttcsid_D2JJQG3C77U9PLHEOS3G",
-            "value": "1763479133546::MnPG7VfvxHLs-pRdTjj2.1.1763479234413.0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797175234,
-            "sameSite": "no_restriction",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "__stripe_mid",
-            "value": "5a4ce041-123e-4a0e-b852-bc348e7a9d18a34c91",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795015138,
-            "sameSite": "strict",
-            "domain": ".www.skillshare.com"
-          },
-          {
-            "name": "__stripe_sid",
-            "value": "eabe94b6-8485-48c0-bd84-27f65a5e6c515ecdf5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "strict",
-            "domain": ".www.skillshare.com"
-          },
-          {
-            "name": "accept_language",
-            "value": "en",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".www.skillshare.com"
-          },
-          {
-            "name": "access_token_expiration_time",
-            "value": "1760170213",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1767945922.137938,
-            "sameSite": "strict",
-            "domain": ".www.skillshare.com"
-          },
-          {
-            "name": "datagrail_consent_id",
-            "value": "9b05a2ca-6635-4dcd-b63b-2264f80eb12c.acea9dc6-5492-4406-a06a-cdf10c1c4dc9",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791705901,
-            "sameSite": "strict",
-            "domain": ".www.skillshare.com"
-          },
-          {
-            "name": "datagrail_consent_version",
-            "value": "24cd473c-71ee-4817-94a3-9189dd4bd40c",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791705901,
-            "sameSite": "strict",
-            "domain": ".www.skillshare.com"
-          },
-          {
-            "name": "first_landing",
-            "value": "utm_campaign%3D%26utm_source%3D%26utm_medium%3D%26utm_term%3D%26referrer%3Dhttps%3A%2F%2Fwww.skillshare.com%2Fen%2Fbrowse%3Fvia%3Dheader%26referring_username%3D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794729898.754011,
-            "sameSite": "lax",
-            "domain": ".www.skillshare.com"
-          },
-          {
-            "name": "g_state",
-            "value": "{\"i_l\":0,\"i_ll\":1760169903698,\"i_b\":\"CISRXo1dTZyARCYK6hXbZ/LHrw+5LQgGKbJOHRPg6C0\"}",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1775721903,
-            "sameSite": "no_restriction",
-            "domain": ".www.skillshare.com"
-          },
-          {
-            "name": "PHPSESSID",
-            "value": "78522811127e17ebe056eda7ab81d7ec",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1767945922.137653,
-            "sameSite": "lax",
-            "domain": ".www.skillshare.com"
-          },
-          {
-            "name": "YII_CSRF_TOKEN",
-            "value": "4YvdxCIMYkK0CB0dT1ytqmBKkvlnGKBk6sjXy61vzpzoGKx7xIgn1QK3p000z4dB0WUNu0wmOSFPpBDRe1IALSAKSlx5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".www.skillshare.com"
-          },
-          {
-            "name": "builderSessionId",
-            "value": "5680ff168fb14e4688d8f29b0c37f71a",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": "www.skillshare.com"
-          },
-          {
-            "name": "PHPSESSID",
-            "value": "c50a68301726b769aeebb8fa292b7f8c",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1771255238.087132,
-            "sameSite": "no_restriction",
-            "domain": "www.skillshare.com"
-          },
-          {
-            "name": "redirectTo",
-            "value": "",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": "www.skillshare.com"
-          },
-          {
-            "name": "show-like-copy",
-            "value": "0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1766071133.574916,
-            "sameSite": "lax",
-            "domain": "www.skillshare.com"
-          },
-          {
-            "name": "visitor_tracking",
-            "value": "",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1766157638,
-            "sameSite": "no_restriction",
-            "domain": "www.skillshare.com"
-          }
-        ],
-        "sourceUrl": "https://www.skillshare.com/en/browse?via=header"
+        "name": "__cf_bm",
+        "value": "fwLw7tSUdISDpHqD86JzKjmJaSZ4Wg8bQe0Kl1De0tY-1763901469-1.0.1.1-dW9nnaavJ2HaPe9dNEBs6kzGIxUfxn6Ws8iPO.sF9iTzgkfDJDu1NaUTjKsIt1ANjyXQhF5.SFriE.Um7bj4dARPrNb8f4V5LX4oK.4bL365PCBfAAFgpP1bEj4sFk86",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".skillshare.com"
       },
       {
-        "name": "Skillshare 2",
-        "cookies": [
-          {
-            "name": "__cf_bm",
-            "value": "fwLw7tSUdISDpHqD86JzKjmJaSZ4Wg8bQe0Kl1De0tY-1763901469-1.0.1.1-dW9nnaavJ2HaPe9dNEBs6kzGIxUfxn6Ws8iPO.sF9iTzgkfDJDu1NaUTjKsIt1ANjyXQhF5.SFriE.Um7bj4dARPrNb8f4V5LX4oK.4bL365PCBfAAFgpP1bEj4sFk86",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "__hssc",
-            "value": "207857485.1.1763901480699",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "lax",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "__hssrc",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "lax",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "__hstc",
-            "value": "207857485.84872aa74107970ec2e8429dfc4a8fae.1763565418270.1763565418270.1763901480699.2",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1779453480,
-            "sameSite": "lax",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "_ce.clock_data",
-            "value": "1083%2C36.76.145.44%2C1%2Ccfcb07bc3d607fc0d77e405350874832%2COpera%2CID",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1763987878,
-            "sameSite": "strict",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "_ce.s",
-            "value": "v~3d2177733146d6ed4b88d715079500c946d4c31a~lcw~1763901590272~vir~returning~lva~1763901478264~vpv~1~as~false~v11ls~3df800f0-c869-11f0-b0f8-6dbec2ab0e58~v11.cs~247798~v11.s~3df800f0-c869-11f0-b0f8-6dbec2ab0e58~v11.vs~3d2177733146d6ed4b88d715079500c946d4c31a~v11.fsvd~eyJ1cmwiOiJza2lsbHNoYXJlLmNvbS9lbi9ob21lIiwicmVmIjoiIiwidXRtIjpbXX0%3D~v11.sla~1763901478529~gtrk.la~mibpgpog~lcw~1763901590275",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795437590,
-            "sameSite": "strict",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "_CEFT",
-            "value": "Q%3D%3D%3D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795437478,
-            "sameSite": "strict",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "_clck",
-            "value": "18ylorc%5E2%5Eg19%5E0%5E2149",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795437478,
-            "sameSite": "no_restriction",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "_clsk",
-            "value": "4ej3z2%5E1763901480631%5E1%5E1%5El.clarity.ms%2Fcollect",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1763987880,
-            "sameSite": "no_restriction",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "_ga",
-            "value": "GA1.1.1786789133.1763565414",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798461474.694689,
-            "sameSite": "no_restriction",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "_ga_0SD3YJM7NH",
-            "value": "GS2.1.s1763901474$o2$g0$t1763901474$j60$l0$h0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798461474.694331,
-            "sameSite": "no_restriction",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "_ga_J5NPJ1XD74",
-            "value": "GS2.1.s1763901474$o2$g0$t1763901474$j60$l0$h0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798461474.526742,
-            "sameSite": "no_restriction",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "_gcl_au",
-            "value": "1.1.1549980016.1763565412.2114345758.1763565417.1763565417",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1771341412,
-            "sameSite": "no_restriction",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "_pin_unauth",
-            "value": "dWlkPU1UQmlZbU0zTnpNdE5USXlOaTAwWWpFMkxXRXdPR0V0WVdSall6UTJPREZoTW1NeA",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795437477,
-            "sameSite": "no_restriction",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "_uetsid",
-            "value": "3d4937d0c86911f081ecb526f8ff16a1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1763987877,
-            "sameSite": "no_restriction",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "_uetvid",
-            "value": "c8329ef0c55a11f0ab588dece3c93710",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797597477,
-            "sameSite": "no_restriction",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "cebs",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "strict",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "cebsp_",
-            "value": "2",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "strict",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "device_session_id",
-            "value": "fd73c1b9-263f-4839-ad09-57a371450497",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798461538.85445,
-            "sameSite": "lax",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "hubspotutk",
-            "value": "84872aa74107970ec2e8429dfc4a8fae",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1779453480,
-            "sameSite": "lax",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "IR_4650",
-            "value": "1763901476548%7C1304466%7C1763901476548%7C%7C",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "IR_gbd",
-            "value": "skillshare.com",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "IR_PI",
-            "value": "c867a7cf-c55a-11f0-9911-b9462dedbd8e%7C1763901476548",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798461476.96687,
-            "sameSite": "no_restriction",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "mp_c0ffa2093d02e0d503db07fe142aab98_mixpanel",
-            "value": "%7B%22distinct_id%22%3A%22fd73c1b9-263f-4839-ad09-57a371450497%22%2C%22%24device_id%22%3A%221df3611e-5331-4f7a-abc4-4b171de74d3b%22%2C%22%24search_engine%22%3A%22google%22%2C%22%24initial_referrer%22%3A%22https%3A%2F%2Fwww.google.com%2F%22%2C%22%24initial_referring_domain%22%3A%22www.google.com%22%2C%22__mps%22%3A%7B%7D%2C%22__mpso%22%3A%7B%7D%2C%22__mpus%22%3A%7B%7D%2C%22__mpa%22%3A%7B%7D%2C%22__mpu%22%3A%7B%7D%2C%22__mpr%22%3A%5B%5D%2C%22__mpap%22%3A%5B%5D%2C%22%24user_id%22%3A%22fd73c1b9-263f-4839-ad09-57a371450497%22%7D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795437474,
-            "sameSite": "no_restriction",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "sign",
-            "value": "4d7a7847506c77555764694e43514338714f374468464d36533273465463792b4c3836706c766571617a415a6946796733325a58394a6775727a5a7666797855",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797262281,
-            "sameSite": "no_restriction",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "skillshare_user_",
-            "value": "3cf4b541b8938196b21e94191ecfed82bfe707e4a%3A4%3A%7Bi%3A0%3Bs%3A8%3A%2236173038%22%3Bi%3A1%3Bs%3A23%3A%22hints-poet02%40icloud.com%22%3Bi%3A2%3Bi%3A7776000%3Bi%3A3%3Ba%3A5%3A%7Bs%3A8%3A%22username%22%3Bs%3A8%3A%2231090058%22%3Bs%3A10%3A%22login_time%22%3Bs%3A19%3A%222025-11-19%2015%3A26%3A32%22%3Bs%3A10%3A%22touch_time%22%3Bs%3A19%3A%222025-11-23%2012%3A38%3A57%22%3Bs%3A5%3A%22roles%22%3Bs%3A0%3A%22%22%3Bs%3A6%3A%22locale%22%3Bs%3A2%3A%22en%22%3B%7D%7D",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1771677538.854392,
-            "sameSite": "lax",
-            "domain": ".skillshare.com"
-          },
-          {
-            "name": "accept_language",
-            "value": "en",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".www.skillshare.com"
-          },
-          {
-            "name": "access_token_expiration_time",
-            "value": "1763566569",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1771342283.073918,
-            "sameSite": "strict",
-            "domain": ".www.skillshare.com"
-          },
-          {
-            "name": "datagrail_consent_id",
-            "value": "9b05a2ca-6635-4dcd-b63b-2264f80eb12c.24218545-13ae-4394-8d55-a994bad12bbb",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795101414,
-            "sameSite": "strict",
-            "domain": ".www.skillshare.com"
-          },
-          {
-            "name": "datagrail_consent_version",
-            "value": "24cd473c-71ee-4817-94a3-9189dd4bd40c",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795101414,
-            "sameSite": "strict",
-            "domain": ".www.skillshare.com"
-          },
-          {
-            "name": "first_landing",
-            "value": "utm_campaign%3D%26utm_source%3D%26utm_medium%3D%26utm_term%3D%26referrer%3Dhttps%3A%2F%2Fwww.skillshare.com%2Fen%2F%3Fsrsltid%3DAfmBOorU06Zuo2D8lmIUBZwI9lQ9kL5aQoLo15hLdVq-2fwEbOPrTIRa%26referring_username%3D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798125413.956434,
-            "sameSite": "lax",
-            "domain": ".www.skillshare.com"
-          },
-          {
-            "name": "PHPSESSID",
-            "value": "d0cd8c0a4c81f5467332c0d02846a895",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1771342283.073594,
-            "sameSite": "lax",
-            "domain": ".www.skillshare.com"
-          },
-          {
-            "name": "show-like-copy",
-            "value": "0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1766157413.956301,
-            "sameSite": "lax",
-            "domain": ".www.skillshare.com"
-          },
-          {
-            "name": "visitor_tracking",
-            "value": "",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1766244685,
-            "sameSite": "no_restriction",
-            "domain": ".www.skillshare.com"
-          },
-          {
-            "name": "YII_CSRF_TOKEN",
-            "value": "Sg5hKA2Ec0BCsOQTI2LrnSvpIHeoNwlWboAexQRX14nxWTBeZrmCf1Pfwwxs682bIBwvQo2AsEBbAegGIK2hUTv1WXzl",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".www.skillshare.com"
-          },
-          {
-            "name": "builderSessionId",
-            "value": "6a36bc05434f47bbb35f3167fcf65b14",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": "www.skillshare.com"
-          },
-          {
-            "name": "PHPSESSID",
-            "value": "33e0c64154ac1118dbb909a2e8eb6c8c",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1771677538.854286,
-            "sameSite": "no_restriction",
-            "domain": "www.skillshare.com"
-          },
-          {
-            "name": "visitor_tracking",
-            "value": "",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1766579873,
-            "sameSite": "no_restriction",
-            "domain": "www.skillshare.com"
-          }
-        ],
-        "sourceUrl": "https://www.skillshare.com/en/home"
+        "name": "__hssc",
+        "value": "207857485.1.1763901480699",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "lax",
+        "domain": ".skillshare.com"
+      },
+      {
+        "name": "__hssrc",
+        "value": "1",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "lax",
+        "domain": ".skillshare.com"
+      },
+      {
+        "name": "__hstc",
+        "value": "207857485.84872aa74107970ec2e8429dfc4a8fae.1763565418270.1763565418270.1763901480699.2",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1779453480,
+        "sameSite": "lax",
+        "domain": ".skillshare.com"
+      },
+      {
+        "name": "_ce.clock_data",
+        "value": "1083%2C36.76.145.44%2C1%2Ccfcb07bc3d607fc0d77e405350874832%2COpera%2CID",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1763987878,
+        "sameSite": "strict",
+        "domain": ".skillshare.com"
+      },
+      {
+        "name": "_ce.s",
+        "value": "v~3d2177733146d6ed4b88d715079500c946d4c31a~lcw~1763901590272~vir~returning~lva~1763901478264~vpv~1~as~false~v11ls~3df800f0-c869-11f0-b0f8-6dbec2ab0e58~v11.cs~247798~v11.s~3df800f0-c869-11f0-b0f8-6dbec2ab0e58~v11.vs~3d2177733146d6ed4b88d715079500c946d4c31a~v11.fsvd~eyJ1cmwiOiJza2lsbHNoYXJlLmNvbS9lbi9ob21lIiwicmVmIjoiIiwidXRtIjpbXX0%3D~v11.sla~1763901478529~gtrk.la~mibpgpog~lcw~1763901590275",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1795437590,
+        "sameSite": "strict",
+        "domain": ".skillshare.com"
+      },
+      {
+        "name": "_CEFT",
+        "value": "Q%3D%3D%3D",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1795437478,
+        "sameSite": "strict",
+        "domain": ".skillshare.com"
+      },
+      {
+        "name": "_clck",
+        "value": "18ylorc%5E2%5Eg19%5E0%5E2149",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1795437478,
+        "sameSite": "no_restriction",
+        "domain": ".skillshare.com"
+      },
+      {
+        "name": "_clsk",
+        "value": "4ej3z2%5E1763901480631%5E1%5E1%5El.clarity.ms%2Fcollect",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1763987880,
+        "sameSite": "no_restriction",
+        "domain": ".skillshare.com"
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.1786789133.1763565414",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1798461474.694689,
+        "sameSite": "no_restriction",
+        "domain": ".skillshare.com"
+      },
+      {
+        "name": "_ga_0SD3YJM7NH",
+        "value": "GS2.1.s1763901474$o2$g0$t1763901474$j60$l0$h0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1798461474.694331,
+        "sameSite": "no_restriction",
+        "domain": ".skillshare.com"
+      },
+      {
+        "name": "_ga_J5NPJ1XD74",
+        "value": "GS2.1.s1763901474$o2$g0$t1763901474$j60$l0$h0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1798461474.526742,
+        "sameSite": "no_restriction",
+        "domain": ".skillshare.com"
+      },
+      {
+        "name": "_gcl_au",
+        "value": "1.1.1549980016.1763565412.2114345758.1763565417.1763565417",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1771341412,
+        "sameSite": "no_restriction",
+        "domain": ".skillshare.com"
+      },
+      {
+        "name": "_pin_unauth",
+        "value": "dWlkPU1UQmlZbU0zTnpNdE5USXlOaTAwWWpFMkxXRXdPR0V0WVdSall6UTJPREZoTW1NeA",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1795437477,
+        "sameSite": "no_restriction",
+        "domain": ".skillshare.com"
+      },
+      {
+        "name": "_uetsid",
+        "value": "3d4937d0c86911f081ecb526f8ff16a1",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1763987877,
+        "sameSite": "no_restriction",
+        "domain": ".skillshare.com"
+      },
+      {
+        "name": "_uetvid",
+        "value": "c8329ef0c55a11f0ab588dece3c93710",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1797597477,
+        "sameSite": "no_restriction",
+        "domain": ".skillshare.com"
+      },
+      {
+        "name": "cebs",
+        "value": "1",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "strict",
+        "domain": ".skillshare.com"
+      },
+      {
+        "name": "cebsp_",
+        "value": "2",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "strict",
+        "domain": ".skillshare.com"
+      },
+      {
+        "name": "device_session_id",
+        "value": "fd73c1b9-263f-4839-ad09-57a371450497",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1798461538.85445,
+        "sameSite": "lax",
+        "domain": ".skillshare.com"
+      },
+      {
+        "name": "hubspotutk",
+        "value": "84872aa74107970ec2e8429dfc4a8fae",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1779453480,
+        "sameSite": "lax",
+        "domain": ".skillshare.com"
+      },
+      {
+        "name": "IR_4650",
+        "value": "1763901476548%7C1304466%7C1763901476548%7C%7C",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".skillshare.com"
+      },
+      {
+        "name": "IR_gbd",
+        "value": "skillshare.com",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".skillshare.com"
+      },
+      {
+        "name": "IR_PI",
+        "value": "c867a7cf-c55a-11f0-9911-b9462dedbd8e%7C1763901476548",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1798461476.96687,
+        "sameSite": "no_restriction",
+        "domain": ".skillshare.com"
+      },
+      {
+        "name": "mp_c0ffa2093d02e0d503db07fe142aab98_mixpanel",
+        "value": "%7B%22distinct_id%22%3A%22fd73c1b9-263f-4839-ad09-57a371450497%22%2C%22%24device_id%22%3A%221df3611e-5331-4f7a-abc4-4b171de74d3b%22%2C%22%24search_engine%22%3A%22google%22%2C%22%24initial_referrer%22%3A%22https%3A%2F%2Fwww.google.com%2F%22%2C%22%24initial_referring_domain%22%3A%22www.google.com%22%2C%22__mps%22%3A%7B%7D%2C%22__mpso%22%3A%7B%7D%2C%22__mpus%22%3A%7B%7D%2C%22__mpa%22%3A%7B%7D%2C%22__mpu%22%3A%7B%7D%2C%22__mpr%22%3A%5B%5D%2C%22__mpap%22%3A%5B%5D%2C%22%24user_id%22%3A%22fd73c1b9-263f-4839-ad09-57a371450497%22%7D",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1795437474,
+        "sameSite": "no_restriction",
+        "domain": ".skillshare.com"
+      },
+      {
+        "name": "sign",
+        "value": "4d7a7847506c77555764694e43514338714f374468464d36533273465463792b4c3836706c766571617a415a6946796733325a58394a6775727a5a7666797855",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1797262281,
+        "sameSite": "no_restriction",
+        "domain": ".skillshare.com"
+      },
+      {
+        "name": "skillshare_user_",
+        "value": "3cf4b541b8938196b21e94191ecfed82bfe707e4a%3A4%3A%7Bi%3A0%3Bs%3A8%3A%2236173038%22%3Bi%3A1%3Bs%3A23%3A%22hints-poet02%40icloud.com%22%3Bi%3A2%3Bi%3A7776000%3Bi%3A3%3Ba%3A5%3A%7Bs%3A8%3A%22username%22%3Bs%3A8%3A%2231090058%22%3Bs%3A10%3A%22login_time%22%3Bs%3A19%3A%222025-11-19%2015%3A26%3A32%22%3Bs%3A10%3A%22touch_time%22%3Bs%3A19%3A%222025-11-23%2012%3A38%3A57%22%3Bs%3A5%3A%22roles%22%3Bs%3A0%3A%22%22%3Bs%3A6%3A%22locale%22%3Bs%3A2%3A%22en%22%3B%7D%7D",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1771677538.854392,
+        "sameSite": "lax",
+        "domain": ".skillshare.com"
+      },
+      {
+        "name": "accept_language",
+        "value": "en",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".www.skillshare.com"
+      },
+      {
+        "name": "access_token_expiration_time",
+        "value": "1763566569",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1771342283.073918,
+        "sameSite": "strict",
+        "domain": ".www.skillshare.com"
+      },
+      {
+        "name": "datagrail_consent_id",
+        "value": "9b05a2ca-6635-4dcd-b63b-2264f80eb12c.24218545-13ae-4394-8d55-a994bad12bbb",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1795101414,
+        "sameSite": "strict",
+        "domain": ".www.skillshare.com"
+      },
+      {
+        "name": "datagrail_consent_version",
+        "value": "24cd473c-71ee-4817-94a3-9189dd4bd40c",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1795101414,
+        "sameSite": "strict",
+        "domain": ".www.skillshare.com"
+      },
+      {
+        "name": "first_landing",
+        "value": "utm_campaign%3D%26utm_source%3D%26utm_medium%3D%26utm_term%3D%26referrer%3Dhttps%3A%2F%2Fwww.skillshare.com%2Fen%2F%3Fsrsltid%3DAfmBOorU06Zuo2D8lmIUBZwI9lQ9kL5aQoLo15hLdVq-2fwEbOPrTIRa%26referring_username%3D",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1798125413.956434,
+        "sameSite": "lax",
+        "domain": ".www.skillshare.com"
+      },
+      {
+        "name": "PHPSESSID",
+        "value": "d0cd8c0a4c81f5467332c0d02846a895",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1771342283.073594,
+        "sameSite": "lax",
+        "domain": ".www.skillshare.com"
+      },
+      {
+        "name": "show-like-copy",
+        "value": "0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1766157413.956301,
+        "sameSite": "lax",
+        "domain": ".www.skillshare.com"
+      },
+      {
+        "name": "visitor_tracking",
+        "value": "",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1766244685,
+        "sameSite": "no_restriction",
+        "domain": ".www.skillshare.com"
+      },
+      {
+        "name": "YII_CSRF_TOKEN",
+        "value": "Sg5hKA2Ec0BCsOQTI2LrnSvpIHeoNwlWboAexQRX14nxWTBeZrmCf1Pfwwxs682bIBwvQo2AsEBbAegGIK2hUTv1WXzl",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".www.skillshare.com"
+      },
+      {
+        "name": "builderSessionId",
+        "value": "6a36bc05434f47bbb35f3167fcf65b14",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": "www.skillshare.com"
+      },
+      {
+        "name": "PHPSESSID",
+        "value": "33e0c64154ac1118dbb909a2e8eb6c8c",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1771677538.854286,
+        "sameSite": "no_restriction",
+        "domain": "www.skillshare.com"
+      },
+      {
+        "name": "visitor_tracking",
+        "value": "",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1766579873,
+        "sameSite": "no_restriction",
+        "domain": "www.skillshare.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://www.skillshare.com/en/home"
   },
   {
     "meta": {
@@ -45589,7 +42944,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905085.788277,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -45759,7 +43113,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905085.108465,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -45778,7 +43131,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905085.10849,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -45806,7 +43158,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763904188,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -45822,7 +43173,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905095.677443,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -45992,7 +43342,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905095.080187,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -46011,7 +43360,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905095.080211,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -46039,7 +43387,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763904197,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -46055,7 +43402,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905104.361025,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -46225,7 +43571,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905103.639606,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -46244,7 +43589,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905103.63963,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -46272,7 +43616,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763904207,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -46288,7 +43631,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905113.711312,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -46508,7 +43850,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905117.181074,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -46527,7 +43868,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905117.181153,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -46555,7 +43895,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763904216,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -46571,7 +43910,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905125.375435,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -46771,7 +44109,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905124.789669,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -46790,7 +44127,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905124.789694,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -46818,7 +44154,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763904229,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -46834,7 +44169,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905136.691267,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -47034,7 +44368,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905136.046508,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -47053,7 +44386,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905136.046533,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -47081,7 +44413,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763904237,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -47097,7 +44428,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905144.376696,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -47307,7 +44637,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905143.783425,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -47326,7 +44655,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905148.828923,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -47354,7 +44682,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763904248,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -47370,7 +44697,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905166.316553,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -47570,7 +44896,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905165.730867,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -47589,7 +44914,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905165.730894,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -47617,7 +44941,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763904272,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -47633,7 +44956,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905180.00747,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -47843,7 +45165,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905179.381316,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -47862,7 +45183,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905183.070226,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -47890,7 +45210,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763904283,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -47906,7 +45225,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905195.785198,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -48116,7 +45434,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905195.195615,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -48135,7 +45452,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905200.916973,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -48163,7 +45479,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763904299,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -48179,7 +45494,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905207.42143,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -48379,7 +45693,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905206.825515,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -48398,7 +45711,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905206.82554,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -48426,7 +45738,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763904310,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -48442,7 +45753,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905224.618566,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -48642,7 +45952,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905223.549117,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -48661,7 +45970,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905223.549143,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -48689,7 +45997,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763904327,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -48705,7 +46012,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905236.474057,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -48905,7 +46211,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905235.396935,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -48924,7 +46229,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905235.396961,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -48952,7 +46256,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763904343,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -48968,7 +46271,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905250.214868,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -49168,7 +46470,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905249.602081,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -49187,7 +46488,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905249.602108,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -49215,7 +46515,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763904355,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -49231,7 +46530,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905262.952155,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -49431,7 +46729,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905262.31968,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -49450,7 +46747,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905262.319705,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -49478,7 +46774,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763904368,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -49494,7 +46789,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905275.63882,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -49694,7 +46988,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905274.996899,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -49713,7 +47006,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905274.996924,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -49741,7 +47033,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763904380,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -49757,7 +47048,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905288.200995,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -49957,7 +47247,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905287.587261,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -49976,7 +47265,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905287.587288,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -50004,7 +47292,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763904394,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -50020,7 +47307,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905303.509842,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -50220,7 +47506,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905302.908433,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -50239,7 +47524,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905302.908458,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -50267,7 +47551,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763904404,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -50283,7 +47566,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905312.384213,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -50483,7 +47765,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905311.781297,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -50502,7 +47783,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905311.781322,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -50530,7 +47810,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763904416,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -50546,7 +47825,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905324.610725,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -50746,7 +48024,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905323.871502,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -50765,7 +48042,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905323.871528,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -50793,7 +48069,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763904429,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -50809,7 +48084,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905336.811887,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -51009,7 +48283,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905336.220487,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -51028,7 +48301,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905336.220511,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -51056,7 +48328,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763904439,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -51072,7 +48343,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905346.949625,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -51282,7 +48552,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905346.288041,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -51301,7 +48570,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905350.939021,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -51329,7 +48597,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763904450,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -51345,7 +48612,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905357.848648,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -51545,7 +48811,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905357.252436,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -51564,7 +48829,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905357.252461,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -51592,7 +48856,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763904460,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -51608,7 +48871,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905368.067117,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -51808,7 +49070,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905367.499578,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -51827,7 +49088,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905367.499605,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -51855,7 +49115,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763904471,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -51871,7 +49130,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905378.927202,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -52081,7 +49339,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905378.326612,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -52100,7 +49357,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905382.987841,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -52128,7 +49384,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763904483,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -52144,7 +49399,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905069.067354,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -52294,7 +49548,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905067.234081,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -52313,7 +49566,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763905067.234105,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -52341,7 +49593,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763904179,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -52666,763 +49917,381 @@
       "name": "Studocu",
       "icon": "https://play-lh.googleusercontent.com/20ssDWF3SWEXIFYy8iFwXjomuIqtuHjGc3OxIWqVojIaeo_9_XxUZEDdmm5YPreLucij",
       "url": "https://www.studocu.com/en-us/home",
-      "category": "education",
-      "isGroup": true
+      "category": "education"
     },
-    "accounts": [
+    "cookies": [
       {
-        "name": "Studocu 1",
-        "cookies": [
-          {
-            "name": "__cf_bm",
-            "value": "p7YgPj4ZCYFu8aMiQOeDJUh42Qx_CUnlr50c7.QmhCk-1763479260-1.0.1.1-G6u67qyqIEH3gibJ6_r63t97x87nU6TF7eR5p7fxWhrDjf0QGkKbnrAiH70wyVC6MXuzi7cvWJP4CWl1uX.khisqkhLWDhxDYjypFoi._hg",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".studocu.com"
-          },
-          {
-            "name": "_cfuvid",
-            "value": "X05yq_G_KOH_Glms3VHQ9wMRdSSrr.FzyBc3ryNZTpc-1763479260439-0.0.1.1-604800000",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".studocu.com"
-          },
-          {
-            "name": "_delighted_web",
-            "value": "{%22vRjf6mEd4ps2NtAE%22:{%22_delighted_fst%22:{%22t%22:%221756479570587%22}}}",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791039570.589184,
-            "sameSite": "lax",
-            "domain": ".studocu.com"
-          },
-          {
-            "name": "_ga",
-            "value": "GA1.1.1223881875.1763479270",
-            "path": "/en-us",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798039270.206969,
-            "sameSite": "no_restriction",
-            "domain": ".studocu.com"
-          },
-          {
-            "name": "_ga_SCG9G524F3",
-            "value": "GS2.1.s1763479270$o1$g0$t1763479270$j60$l0$h0",
-            "path": "/en-us",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798039270.20645,
-            "sameSite": "no_restriction",
-            "domain": ".studocu.com"
-          },
-          {
-            "name": "_gcl_au",
-            "value": "1.1.585925000.1756479570.1365744026.1756479591.1756479594",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1764255570,
-            "sameSite": "no_restriction",
-            "domain": ".studocu.com"
-          },
-          {
-            "name": "_hjSession_131360",
-            "value": "eyJpZCI6ImNiNzgwMmY4LTNlYmItNDRjYy04ZDEyLTQ4ZjIxMTBkMTAxZCIsImMiOjE3NjM0NzkyNzA3NzksInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjowLCJzcCI6MH0=",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".studocu.com"
-          },
-          {
-            "name": "_hjSessionUser_131360",
-            "value": "eyJpZCI6Ijg0MDk0NGEyLTA1ZmMtNWJkMS04OGE2LWFiMWQwMDFiMzgyMCIsImNyZWF0ZWQiOjE3NTY0Nzk1NzAwNzMsImV4aXN0aW5nIjp0cnVlfQ==",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795015270,
-            "sameSite": "no_restriction",
-            "domain": ".studocu.com"
-          },
-          {
-            "name": "_rdt_uuid",
-            "value": "1756479569844.6f362f73-126d-4623-b7c7-cd84cc8fee31",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1771255270,
-            "sameSite": "strict",
-            "domain": ".studocu.com"
-          },
-          {
-            "name": "_tt_enable_cookie",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797175270,
-            "sameSite": "no_restriction",
-            "domain": ".studocu.com"
-          },
-          {
-            "name": "_ttp",
-            "value": "01K3V5EG0MVZRXBB51GFRH3RZD_.tt.1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797175270,
-            "sameSite": "no_restriction",
-            "domain": ".studocu.com"
-          },
-          {
-            "name": "ajs_anonymous_id",
-            "value": "$device:b4a8242b-fb22-4e5b-a1e0-85bd0f813664",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795015270,
-            "sameSite": "lax",
-            "domain": ".studocu.com"
-          },
-          {
-            "name": "ajs_user_id",
-            "value": "44699996",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795015270,
-            "sameSite": "lax",
-            "domain": ".studocu.com"
-          },
-          {
-            "name": "ttcsid",
-            "value": "1763479270343::4Y2ioshRsAIA7EmYDvAD.2.1763479271174.0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797175271,
-            "sameSite": "no_restriction",
-            "domain": ".studocu.com"
-          },
-          {
-            "name": "ttcsid_C60IM7G68TKST8M2TQ70",
-            "value": "1763479270342::NHxicgyslBLi_o3NBPPx.2.1763479271174.0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797175271,
-            "sameSite": "no_restriction",
-            "domain": ".studocu.com"
-          },
-          {
-            "name": "_hjHasCachedUserAttributes",
-            "value": "true",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".www.studocu.com"
-          },
-          {
-            "name": "_url_i",
-            "value": "https%3A%2F%2Fwww.studocu.com%2Fen-us%2Fhome",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1772031566.897883,
-            "sameSite": "lax",
-            "domain": ".www.studocu.com"
-          },
-          {
-            "name": "frt",
-            "value": "eyJpdiI6ImVOc1YwZCtPY3RHejg5T1VtMnRxa1E9PSIsInZhbHVlIjoidjhuOWFCQWQ3RURHSHQzQit3QXVaVUVhV1EwcUwwMmdjaTVMWkFVM1dWMzRuSDVWYzBoZmU4dE9RaEdqR0Z1RGVwQjJwRHNWazlkd0lkVXVDaDZCVHc9PSIsIm1hYyI6IjI2ZjRhNGU3NmNlZTc2Y2IyNzA2MDU2NjFmZDM3OTMzM2I4Y2E5OWVkZmM5MDMzYjU2NjJiYjRhZjZmYmFjZTEiLCJ0YWciOiIifQ%3D%3D",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1769439596.222928,
-            "sameSite": "lax",
-            "domain": ".www.studocu.com"
-          },
-          {
-            "name": "hrt",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1769439596.222978,
-            "sameSite": "lax",
-            "domain": ".www.studocu.com"
-          },
-          {
-            "name": "laravel_session",
-            "value": "eyJpdiI6Im0xanVSeXhlZnYwME93b1podXBHUWc9PSIsInZhbHVlIjoiVGQ1dFFyVUhVVGhvN0N3Q1BSZE1idkRVeE1EWk9YSVVWYzJjcTlPa0tQVlJta01JMTl0MDQvUHh1OTZDV2NwUzQybStRR2lIVDZUa2l1OTZDQ0xvU0l4MURMZ2QzRFVxNFFKUlZYekt5MU9TMUhoMGljNWk0UWxpZUl5VmhxQmwiLCJtYWMiOiJiMzMzNGFlMGNmMDJmZjJjMDExYjUyOGRlMDFmOTljZWI3MGU3ZTZmZjAxZTdhNzUwNmJhOTgzY2E0Y2UxNmNlIiwidGFnIjoiIn0%3D",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".www.studocu.com"
-          },
-          {
-            "name": "locale",
-            "value": "eyJpdiI6IlBmQUlZTWIzTHhFaXRJWmU1NkMrMFE9PSIsIm1hYyI6IjY2NGNiOWEwNDA5YTljNjYxNWI0NGJjNTc1MzA2M2QxYWI0ZWI4ZGY0YzQxYmJmYTM1N2Q4ZmZiN2JhOWNmZmMiLCJ0YWciOiIiLCJ2YWx1ZSI6IlF2NkNobEFkV2wxQ3FvSFNMVG15UFBkcS8veFc0UHQ0eUk0dWt1R2IwZHRCZm1XNzZkYUtvY1VLZnQvU2dEYVcifQ%3D%3D",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "lax",
-            "domain": ".www.studocu.com"
-          },
-          {
-            "name": "OptanonConsent",
-            "value": "isGpcEnabled=0&datestamp=Tue+Nov+18+2025+22%3A21%3A09+GMT%2B0700+(Indochina+Time)&version=202409.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&landingPath=NotLandingPage&groups=C0004%3A0%2CC0002%3A0%2CC0001%3A1&AwaitingReconsent=false",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795015269,
-            "sameSite": "no_restriction",
-            "domain": ".www.studocu.com"
-          },
-          {
-            "name": "remember_web_59ba36addc2b2f9401580f014c7f58ea4e30989d",
-            "value": "eyJpdiI6IktseEkzMURtQ29sckRNTC9GcklwalE9PSIsInZhbHVlIjoielh0WjU2UEovbTBITmJXejBSaDQwMWxZT0FhVHFrRDJJQnA0czhxUVpOallNZDErbWJ4YWhDZjdCVGZjTzR6Q21rbzlsb2pUekJiZElMQnQxVEtQVGgrR3l1S1pEYU9hc3ZkVEp3aUJJNFNya0FKY2dFV2hrcFUrV283TEV4M3hubTlzL3QzSGJ3ajNGaTVpbGw5QThFZElrUmZ4cC80YnhxdFBYekZyRmlPeHkzRVdwbmZsS0Uyb1VwTVp0SmFDcjBaSm1Hcm1yQTIza1FkcklENS9qL3VZaHVrSThGU1A3NHpoZWRLVFp4Yz0iLCJtYWMiOiI0ZmY3NDI3ZjU1MTFhOThjMjM1NjY4NWFhNDU0ODFlOWUzZjY2YzNlNTRhOWJiNDFhZjZkOGQwYzExN2ZmZDAxIiwidGFnIjoiIn0%3D",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1772247595.125441,
-            "sameSite": "no_restriction",
-            "domain": ".www.studocu.com"
-          },
-          {
-            "name": "sd_cid",
-            "value": "eb8d021a-dc58-4637-b096-0a5f43a56e83",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "lax",
-            "domain": ".www.studocu.com"
-          },
-          {
-            "name": "sd_distinct_id",
-            "value": "b20d596d-4283-4afa-9019-3c4fc75fc977",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1791039597.223094,
-            "sameSite": "lax",
-            "domain": ".www.studocu.com"
-          },
-          {
-            "name": "sd_seg_state",
-            "value": "%7B%22distinctId%22%3A%22b20d596d-4283-4afa-9019-3c4fc75fc977%22%2C%22segmentations%22%3A%7B%22%2F%3Alocale%2Fhome%22%3A%7B%22state%22%3A%7B%22rollout%22%3A20%7D%2C%22value%22%3A1%7D%2C%22%2F(%3Alocale)(%2F*)%22%3A%7B%22state%22%3A%7B%22rollout%22%3A0%7D%2C%22value%22%3A0%7D%7D%7D",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1791039597.223147,
-            "sameSite": "lax",
-            "domain": ".www.studocu.com"
-          },
-          {
-            "name": "sdab",
-            "value": "eyJpdiI6IkFyTGNZREY2eDIrMmlwdk0yVW5VWnc9PSIsIm1hYyI6IjZhYWM2NDEyYTE0OTRhNjA1ZDcyMWU2Yzk4ZTMzNjk1NTYxNDkxNzdjOTAwOGNiMjAzY2RkOGUzMmZiNTQ1ODciLCJ0YWciOiIiLCJ2YWx1ZSI6ImJBQUtMSkp6VDdaaGEyenlYOFVQVHVDRjlGTjVRUXM5VWxDM2NUWkl6MW50YUZZL0UrNERUL1hZNmxKbjJWVklmN3lvQ3M5T3BSSGZJZ1JWTkU5MFZ3S01HME5XdEJ6V1dORmw2OW9jNjA5KzZRQkova2R1dmpqQ2EwSklPcVlCcVQra3d5N3lzdUpzTGIwSUpaY2hXYWZJK0E3ZWxpR3ZtbTB1UkVsZC9lT05xbXIrSmQ4SGx2WjhkZ3ErTkJscnZ6NGc3NmNOaitqUFh3azZNRnZHSThUOE5IMkw2Ymx3Sjg2SU5wd29OQjhteEV2cjJ6cHZTOVhqcFQzc1BOeGlON3c2RGs1TEEwUVcyY05lakFUQVExanNYUDRFdkVkbFB3TDhSSDVGSHJGejNxKzBwcnpBcEdBT2pSbGMwaG1oRktFRTBaT0pDWmN0b2VTdFBicUptdnluaHJOTHhGam4xdSswVE5TM2lHM1hROVRRTWw5aDdsd0t2WHVvNHl2dCJ9",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1772031597.223374,
-            "sameSite": "lax",
-            "domain": ".www.studocu.com"
-          },
-          {
-            "name": "sign",
-            "value": "4d7a7847506c77555764694e43514338714f37446846574e6b466934746f49584f4b733350784f397a4465756a3873643834625248305341394e744b73345867",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1769439596.222928,
-            "sameSite": "no_restriction",
-            "domain": ".www.studocu.com"
-          },
-          {
-            "name": "studocu",
-            "value": "eyJpdiI6IktoYUhtSXpQV3ZyN2oySUZNNGJMd2c9PSIsInZhbHVlIjoiL3IvREpKZ2ZnLzJyNGpzeVZNTGNrNXlORHBCbTFoem8wSk1YVkpQQ08ydFcvYTdwRlVJTWZRYnM2NGtGdWhFRnFPWkltYm5vU1UyU21pNkkyR1BDMmJNRGVyT1BrdTlPdHMrZzUzU0JNTWM9IiwibWFjIjoiM2Y1OTQ4NGZiZWU0Y2FjOWI2YWE3YTI0MDI4MjAyN2QwZDZjNmFlNGY2ZGI3NDcxNDUxMjMxOWM1ODQ0Njg1YiIsInRhZyI6IiJ9",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1772247595.125346,
-            "sameSite": "no_restriction",
-            "domain": ".www.studocu.com"
-          },
-          {
-            "name": "fst",
-            "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJodHRwczovL3d3dy5zdHVkb2N1LmNvbS9yZXN0LWFwaS92MS9hdXRoL3JlZnJlc2giLCJpYXQiOjE3NjM0NzkyNTksImV4cCI6MTc2MzQ4Mjg1OSwibmJmIjoxNzYzNDc5MjU5LCJqdGkiOiJFWmM0UkJqWlhZVFZ5cmxRIiwic3ViIjoiNDQ2OTk5OTYiLCJwcnYiOiI5ZjhhMjM4OWEyMGNhMDc1MmFhOWU5NTA5MzUxNTUxN2U5MGUxOTRjIn0.M-4HA6WJoe7db0E9vtf9FMbaf9uxkBZEc3uybJto7kAV_nlc2si7FSZ-Sk1Feymc75F1q-wRhtT6k2JQ7rNL_9kQ8MUW59bQH11QRgMlkAShLe16AmlbUAlX_4_rjMwy9otv0xey0mYphY13gw4t80OCpgyhzWESk3KQPOukHZG6Tn9JQSA7bNoq9g6OFuTBKzltgzuiwIw8aZBULAu-HKK3fuvurhBCRRYOOtEK2ymOYuFboOVlcY4S2Ro7JkOB5ByQfLgggrye_eYWA6HaHX_kBrOqRrSI7WVhBOH2kguPGeErZyJnOwDUzKsaxw8bbwzuvkx7eL0myWt9oRttGQ",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "lax",
-            "domain": "www.studocu.com"
-          },
-          {
-            "name": "laravel_session",
-            "value": "eyJpdiI6IkJyVStkV1lHSnc5ZExFT215TTlJU2c9PSIsInZhbHVlIjoiRzdKOXRrK1RCMXpPNDNYczlOWXRDaitWU2FncXBpWmVxNWJBWXppNzdQYnh6NFdvWWVoYmo3Qlg5MGZCeVhSRWhnd0lLdk9Tb2VZV245MTJnZXRUdW54OUliNFFLbGVDUnRweHlxWGg1OG5ZTmJvRlFQWmdMT1BHWXhKTloxRXoiLCJtYWMiOiI3ZmE1OWU2ZTQyOWNlMDI1ZDYyNzAyMDQyMGIwOWJmOGVkODFhMmI3ODNjZjg4MDExYjlmZDRmOGU2NDkzMDQ4IiwidGFnIjoiIn0%3D",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": "www.studocu.com"
-          },
-          {
-            "name": "locale",
-            "value": "eyJpdiI6ImRkVWIzaHlPTWhiRDN3OFd2QVBrR1E9PSIsIm1hYyI6IjUyZDg2YWM4ZmFkMTMwMDJjZmVjNWU4NWE5YjdhNTU5MDY2YzFlNGYzNzg2MDc0MzVlMjVkMGZkZWNmYzdjZWUiLCJ0YWciOiIiLCJ2YWx1ZSI6IlFEU0dCU2VIU1BXSTM1QU95MTAwZW5DQ0hNdU5mS3BLNGlYaktRWU5RYW9WSkd6T25DaG4yL0NjdU1iSmJOaUQifQ%3D%3D",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1779031270.340352,
-            "sameSite": "lax",
-            "domain": "www.studocu.com"
-          },
-          {
-            "name": "sd_cid",
-            "value": "eb8d021a-dc58-4637-b096-0a5f43a56e83",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "lax",
-            "domain": "www.studocu.com"
-          },
-          {
-            "name": "sd_distinct_id",
-            "value": "b20d596d-4283-4afa-9019-3c4fc75fc977",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1798039261.053121,
-            "sameSite": "lax",
-            "domain": "www.studocu.com"
-          },
-          {
-            "name": "sd_seg_state",
-            "value": "%7B%22distinctId%22%3A%22b20d596d-4283-4afa-9019-3c4fc75fc977%22%2C%22segmentations%22%3A%7B%22%2F%3Alocale%2Fhome%22%3A%7B%22state%22%3A%7B%22rollout%22%3A20%7D%2C%22value%22%3A1%7D%2C%22%2F(%3Alocale)(%2F*)%22%3A%7B%22state%22%3A%7B%22rollout%22%3A0%7D%2C%22value%22%3A0%7D%7D%7D",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1798039261.053135,
-            "sameSite": "lax",
-            "domain": "www.studocu.com"
-          },
-          {
-            "name": "sdab",
-            "value": "eyJpdiI6IkN2ZXhlOWJRbWl5a05pd0V2M1lVM1E9PSIsIm1hYyI6Ijg1MTQ5YmI2NTJhZjA5ZjVlYjNiMTVjMTZiNTBhZjkzMmM4MDFjNjE0YWI5MGU4MjhjMjIyMjliNDc2NDM4OTgiLCJ0YWciOiIiLCJ2YWx1ZSI6Imd4YjM0NTNQdVFpUmI2cWFFZEo4MUhGRkVYaEFSNHA4R090VHRrN3VySkZJc1hzNUxPY2F5Ri9QdjBxNk9xYXI4eDNxSHE3TEx5ZnRva0dvd3QxTWQxUGdFRWVDRnBxNzJTZVIvY0F4aElYTk1qT0xFMkNGMUNpZnNpb1ZjTFg2VDRPVG9aMlVPVVpGM2hCSHExVzFRamtUN3hHR3pLWERKd21rZUNjRGlFV0htY2FUcjVGVjRJeWVDdzQrV2ZTb1dhYXRmWXNqN05mT1BRT0lPVGNKdzU1SFVIc3U5SmVBR3ZERFpyMXFNSGFWUUN1NWQ4N0h6V0ZDc1NzWXM5dXVhelBMVThXeTNYNjgxWEFOVXZ6V250dEhCaTdiU3VFZGNrYWhhR3A1SllzV1BSL0pxTm5KdEMwWmtwaUdKU0NnU0FRbFp3QmVEYVNZN2lPcE52NUwxNjFJemFIc3J3NEZmdDIvNXFyekNXSkppVE9FV3NpZ090NFo4R1MrUEJ6cHpwTG1BNkNpT1Z2Qzl0MWMzTUdwenZkUHNFdVJtZUlPVFdQWm5Rd1NsSTUxRFRKTnZxYndJNHc4NlB3TTNqcFkifQ%3D%3D",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1779031270.340443,
-            "sameSite": "lax",
-            "domain": "www.studocu.com"
-          },
-          {
-            "name": "studocu",
-            "value": "eyJpdiI6Imh5eVM0Uk9YbGZqZW9zYjFXTnFlQWc9PSIsInZhbHVlIjoiS2Q4TzVnL25XcTE3K25hb1dPMlJmY1J4THgxQVFGZ3craHpZWmM3ZGNDZHBZN25YWklpaUxFR3o3a2lSTEp2YjF2UXE3SWhIUEFPdHgyNnEyZFE4dXBFYUx2WXUvVklGNUdFc05RdlE4K2M9IiwibWFjIjoiMmQ1ZjJmMWQ4YzQ5OGIzZjJkMjA3MTA2Y2E0ZjAwMThmY2VlYzM3MGQ4MWMxOWEzYTcyYTVkOTQ3YWZhY2FhOSIsInRhZyI6IiJ9",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1779247277.273453,
-            "sameSite": "no_restriction",
-            "domain": "www.studocu.com"
-          },
-          {
-            "name": "XSRF-TOKEN",
-            "value": "eyJpdiI6IjlsNnBoQ0prRDI5bEtKOXc2MWFDcGc9PSIsInZhbHVlIjoiODhZdlkyQmVqTDZUd0JNeW9GWXhxZUtCd2FzaGVwVytVbVIxQndLU1NZWHZaVWVrNnprRDYxcFZ1Sk01M1VKRko0ZmI3VW92Z09MZFlSWllQWTI0R0hXSmEwQnVUNUU0Nk9JbUVScysvaXlHQ0FTMGxRTitDUmJRZUJ3ajM5TGEiLCJtYWMiOiI0N2Y4Y2U3YjI0ZGVkOGMzOWYzZDhlNDc4YjdmZTcwNWE3ZGY2NTljODg4NDBkZmZkOGFkODIxOGNhOWVkNjVlIiwidGFnIjoiIn0%3D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": "www.studocu.com"
-          }
-        ],
-        "sourceUrl": "https://www.studocu.com/en-us/home"
+        "name": "__cf_bm",
+        "value": "91uw7.a0yc1DUBrYiRzQryYb8U2ZUwSzcOMSk4aLCnE-1763901354-1.0.1.1-iGWuXBjaX67n3bsuLYmyuvVEJ6WStxASPg9yrOjAGATPe_HJVslE0FzAgPzZZ5CkS_syxkTsr7sUCqR5Yk5WAe9qYNRFfoCPfcrg1cWZy2I",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".studocu.com"
       },
       {
-        "name": "Studocu 2",
-        "cookies": [
-          {
-            "name": "__cf_bm",
-            "value": "91uw7.a0yc1DUBrYiRzQryYb8U2ZUwSzcOMSk4aLCnE-1763901354-1.0.1.1-iGWuXBjaX67n3bsuLYmyuvVEJ6WStxASPg9yrOjAGATPe_HJVslE0FzAgPzZZ5CkS_syxkTsr7sUCqR5Yk5WAe9qYNRFfoCPfcrg1cWZy2I",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".studocu.com"
-          },
-          {
-            "name": "_cfuvid",
-            "value": "DVZZN5pr0mMi4CKwuHnB1wWUYfpIp1XOR_f25Rg9tCY-1763901354579-0.0.1.1-604800000",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".studocu.com"
-          },
-          {
-            "name": "_delighted_web",
-            "value": "{%22vRjf6mEd4ps2NtAE%22:{%22_delighted_fst%22:{%22t%22:%221756479570587%22}}}",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1791039570.589184,
-            "sameSite": "lax",
-            "domain": ".studocu.com"
-          },
-          {
-            "name": "_ga",
-            "value": "GA1.1.667702773.1763901365",
-            "path": "/en-us",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798461364.673502,
-            "sameSite": "no_restriction",
-            "domain": ".studocu.com"
-          },
-          {
-            "name": "_ga_SCG9G524F3",
-            "value": "GS2.1.s1763901364$o1$g0$t1763901364$j60$l0$h0",
-            "path": "/en-us",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798461364.673041,
-            "sameSite": "no_restriction",
-            "domain": ".studocu.com"
-          },
-          {
-            "name": "_gcl_au",
-            "value": "1.1.585925000.1756479570.1365744026.1756479591.1756479594",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1764255570,
-            "sameSite": "no_restriction",
-            "domain": ".studocu.com"
-          },
-          {
-            "name": "_hjSession_131360",
-            "value": "eyJpZCI6IjNjNzUxZmE3LTFiN2EtNGVkMS1iMjc0LTBhMzE1NjUzYzdlZiIsImMiOjE3NjM5MDEzNjUyMjksInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjowLCJzcCI6MH0=",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".studocu.com"
-          },
-          {
-            "name": "_hjSessionUser_131360",
-            "value": "eyJpZCI6Ijg0MDk0NGEyLTA1ZmMtNWJkMS04OGE2LWFiMWQwMDFiMzgyMCIsImNyZWF0ZWQiOjE3NTY0Nzk1NzAwNzMsImV4aXN0aW5nIjp0cnVlfQ==",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795437365,
-            "sameSite": "no_restriction",
-            "domain": ".studocu.com"
-          },
-          {
-            "name": "_rdt_uuid",
-            "value": "1756479569844.6f362f73-126d-4623-b7c7-cd84cc8fee31",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1771677364,
-            "sameSite": "strict",
-            "domain": ".studocu.com"
-          },
-          {
-            "name": "_tt_enable_cookie",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797597364,
-            "sameSite": "no_restriction",
-            "domain": ".studocu.com"
-          },
-          {
-            "name": "_ttp",
-            "value": "01K3V5EG0MVZRXBB51GFRH3RZD_.tt.1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797597364,
-            "sameSite": "no_restriction",
-            "domain": ".studocu.com"
-          },
-          {
-            "name": "ajs_anonymous_id",
-            "value": "$device:b4a8242b-fb22-4e5b-a1e0-85bd0f813664",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795437364,
-            "sameSite": "lax",
-            "domain": ".studocu.com"
-          },
-          {
-            "name": "ajs_user_id",
-            "value": "44699996",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795437364,
-            "sameSite": "lax",
-            "domain": ".studocu.com"
-          },
-          {
-            "name": "ttcsid",
-            "value": "1763901364735::v0JRZ5sw5wO1Vr7kZo2t.2.1763901365192.0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797597365,
-            "sameSite": "no_restriction",
-            "domain": ".studocu.com"
-          },
-          {
-            "name": "ttcsid_C60IM7G68TKST8M2TQ70",
-            "value": "1763901364735::pHUweZwEWGzASQNE1wG3.2.1763901365193.0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797597365,
-            "sameSite": "no_restriction",
-            "domain": ".studocu.com"
-          },
-          {
-            "name": "_hjHasCachedUserAttributes",
-            "value": "true",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".www.studocu.com"
-          },
-          {
-            "name": "_url_i",
-            "value": "https%3A%2F%2Fwww.studocu.com%2Fen-us%2Fhome",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1772031566.897883,
-            "sameSite": "lax",
-            "domain": ".www.studocu.com"
-          },
-          {
-            "name": "frt",
-            "value": "eyJpdiI6ImVOc1YwZCtPY3RHejg5T1VtMnRxa1E9PSIsInZhbHVlIjoidjhuOWFCQWQ3RURHSHQzQit3QXVaVUVhV1EwcUwwMmdjaTVMWkFVM1dWMzRuSDVWYzBoZmU4dE9RaEdqR0Z1RGVwQjJwRHNWazlkd0lkVXVDaDZCVHc9PSIsIm1hYyI6IjI2ZjRhNGU3NmNlZTc2Y2IyNzA2MDU2NjFmZDM3OTMzM2I4Y2E5OWVkZmM5MDMzYjU2NjJiYjRhZjZmYmFjZTEiLCJ0YWciOiIifQ%3D%3D",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1769439596.222928,
-            "sameSite": "lax",
-            "domain": ".www.studocu.com"
-          },
-          {
-            "name": "hrt",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1769439596.222978,
-            "sameSite": "lax",
-            "domain": ".www.studocu.com"
-          },
-          {
-            "name": "laravel_session",
-            "value": "eyJpdiI6Im0xanVSeXhlZnYwME93b1podXBHUWc9PSIsInZhbHVlIjoiVGQ1dFFyVUhVVGhvN0N3Q1BSZE1idkRVeE1EWk9YSVVWYzJjcTlPa0tQVlJta01JMTl0MDQvUHh1OTZDV2NwUzQybStRR2lIVDZUa2l1OTZDQ0xvU0l4MURMZ2QzRFVxNFFKUlZYekt5MU9TMUhoMGljNWk0UWxpZUl5VmhxQmwiLCJtYWMiOiJiMzMzNGFlMGNmMDJmZjJjMDExYjUyOGRlMDFmOTljZWI3MGU3ZTZmZjAxZTdhNzUwNmJhOTgzY2E0Y2UxNmNlIiwidGFnIjoiIn0%3D",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".www.studocu.com"
-          },
-          {
-            "name": "locale",
-            "value": "eyJpdiI6IlBmQUlZTWIzTHhFaXRJWmU1NkMrMFE9PSIsIm1hYyI6IjY2NGNiOWEwNDA5YTljNjYxNWI0NGJjNTc1MzA2M2QxYWI0ZWI4ZGY0YzQxYmJmYTM1N2Q4ZmZiN2JhOWNmZmMiLCJ0YWciOiIiLCJ2YWx1ZSI6IlF2NkNobEFkV2wxQ3FvSFNMVG15UFBkcS8veFc0UHQ0eUk0dWt1R2IwZHRCZm1XNzZkYUtvY1VLZnQvU2dEYVcifQ%3D%3D",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "lax",
-            "domain": ".www.studocu.com"
-          },
-          {
-            "name": "OptanonConsent",
-            "value": "isGpcEnabled=0&datestamp=Sun+Nov+23+2025+19%3A35%3A59+GMT%2B0700+(Indochina+Time)&version=202409.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&landingPath=NotLandingPage&groups=C0004%3A0%2CC0002%3A0%2CC0001%3A1&AwaitingReconsent=false",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795437359,
-            "sameSite": "no_restriction",
-            "domain": ".www.studocu.com"
-          },
-          {
-            "name": "remember_web_59ba36addc2b2f9401580f014c7f58ea4e30989d",
-            "value": "eyJpdiI6IktseEkzMURtQ29sckRNTC9GcklwalE9PSIsInZhbHVlIjoielh0WjU2UEovbTBITmJXejBSaDQwMWxZT0FhVHFrRDJJQnA0czhxUVpOallNZDErbWJ4YWhDZjdCVGZjTzR6Q21rbzlsb2pUekJiZElMQnQxVEtQVGgrR3l1S1pEYU9hc3ZkVEp3aUJJNFNya0FKY2dFV2hrcFUrV283TEV4M3hubTlzL3QzSGJ3ajNGaTVpbGw5QThFZElrUmZ4cC80YnhxdFBYekZyRmlPeHkzRVdwbmZsS0Uyb1VwTVp0SmFDcjBaSm1Hcm1yQTIza1FkcklENS9qL3VZaHVrSThGU1A3NHpoZWRLVFp4Yz0iLCJtYWMiOiI0ZmY3NDI3ZjU1MTFhOThjMjM1NjY4NWFhNDU0ODFlOWUzZjY2YzNlNTRhOWJiNDFhZjZkOGQwYzExN2ZmZDAxIiwidGFnIjoiIn0%3D",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1772247595.125441,
-            "sameSite": "no_restriction",
-            "domain": ".www.studocu.com"
-          },
-          {
-            "name": "sd_cid",
-            "value": "eb8d021a-dc58-4637-b096-0a5f43a56e83",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "lax",
-            "domain": ".www.studocu.com"
-          },
-          {
-            "name": "sd_distinct_id",
-            "value": "b20d596d-4283-4afa-9019-3c4fc75fc977",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1791039597.223094,
-            "sameSite": "lax",
-            "domain": ".www.studocu.com"
-          },
-          {
-            "name": "sd_seg_state",
-            "value": "%7B%22distinctId%22%3A%22b20d596d-4283-4afa-9019-3c4fc75fc977%22%2C%22segmentations%22%3A%7B%22%2F%3Alocale%2Fhome%22%3A%7B%22state%22%3A%7B%22rollout%22%3A20%7D%2C%22value%22%3A1%7D%2C%22%2F(%3Alocale)(%2F*)%22%3A%7B%22state%22%3A%7B%22rollout%22%3A0%7D%2C%22value%22%3A0%7D%7D%7D",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1791039597.223147,
-            "sameSite": "lax",
-            "domain": ".www.studocu.com"
-          },
-          {
-            "name": "sdab",
-            "value": "eyJpdiI6IkFyTGNZREY2eDIrMmlwdk0yVW5VWnc9PSIsIm1hYyI6IjZhYWM2NDEyYTE0OTRhNjA1ZDcyMWU2Yzk4ZTMzNjk1NTYxNDkxNzdjOTAwOGNiMjAzY2RkOGUzMmZiNTQ1ODciLCJ0YWciOiIiLCJ2YWx1ZSI6ImJBQUtMSkp6VDdaaGEyenlYOFVQVHVDRjlGTjVRUXM5VWxDM2NUWkl6MW50YUZZL0UrNERUL1hZNmxKbjJWVklmN3lvQ3M5T3BSSGZJZ1JWTkU5MFZ3S01HME5XdEJ6V1dORmw2OW9jNjA5KzZRQkova2R1dmpqQ2EwSklPcVlCcVQra3d5N3lzdUpzTGIwSUpaY2hXYWZJK0E3ZWxpR3ZtbTB1UkVsZC9lT05xbXIrSmQ4SGx2WjhkZ3ErTkJscnZ6NGc3NmNOaitqUFh3azZNRnZHSThUOE5IMkw2Ymx3Sjg2SU5wd29OQjhteEV2cjJ6cHZTOVhqcFQzc1BOeGlON3c2RGs1TEEwUVcyY05lakFUQVExanNYUDRFdkVkbFB3TDhSSDVGSHJGejNxKzBwcnpBcEdBT2pSbGMwaG1oRktFRTBaT0pDWmN0b2VTdFBicUptdnluaHJOTHhGam4xdSswVE5TM2lHM1hROVRRTWw5aDdsd0t2WHVvNHl2dCJ9",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1772031597.223374,
-            "sameSite": "lax",
-            "domain": ".www.studocu.com"
-          },
-          {
-            "name": "sign",
-            "value": "4d7a7847506c77555764694e43514338714f37446846574e6b466934746f49584f4b733350784f397a4465756a3873643834625248305341394e744b73345867",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1769439596.222928,
-            "sameSite": "no_restriction",
-            "domain": ".www.studocu.com"
-          },
-          {
-            "name": "studocu",
-            "value": "eyJpdiI6IktoYUhtSXpQV3ZyN2oySUZNNGJMd2c9PSIsInZhbHVlIjoiL3IvREpKZ2ZnLzJyNGpzeVZNTGNrNXlORHBCbTFoem8wSk1YVkpQQ08ydFcvYTdwRlVJTWZRYnM2NGtGdWhFRnFPWkltYm5vU1UyU21pNkkyR1BDMmJNRGVyT1BrdTlPdHMrZzUzU0JNTWM9IiwibWFjIjoiM2Y1OTQ4NGZiZWU0Y2FjOWI2YWE3YTI0MDI4MjAyN2QwZDZjNmFlNGY2ZGI3NDcxNDUxMjMxOWM1ODQ0Njg1YiIsInRhZyI6IiJ9",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1772247595.125346,
-            "sameSite": "no_restriction",
-            "domain": ".www.studocu.com"
-          },
-          {
-            "name": "fst",
-            "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJodHRwczovL3d3dy5zdHVkb2N1LmNvbS9yZXN0LWFwaS92MS9hdXRoL3JlZnJlc2giLCJpYXQiOjE3NjM5MDEzNTQsImV4cCI6MTc2MzkwNDk1NCwibmJmIjoxNzYzOTAxMzU0LCJqdGkiOiJtdUV3azFMMkJBYTk5dFFsIiwic3ViIjoiNDQ2OTk5OTYiLCJwcnYiOiI5ZjhhMjM4OWEyMGNhMDc1MmFhOWU5NTA5MzUxNTUxN2U5MGUxOTRjIn0.HRNjp9CQtFAJV8s3LXCdhyZ-JvRVVt_CSmW76RL6qbxvJlbhtPRav9iOC8hz73ef7z7zGWWjC2urqT-PttxH8IzbYAaUyrnsNQU2paT9btgEp8_cK6SzUBa8MYRdXUDfpgibDIVqnsJkve2uiyvMHHajmjrVNn_14pYcG-Ow7wLh3oA_IslDGoctmyrBG86AUB85zW686_tNHKizqEAZ_Nenpvg8PZdCNgeXNmvmd2Uu-68J4T9pjYLzdyFGW5Q6bDiXmymqn-Szo5ByJKcPH3pDNcPko5Y2TwyXESbGm92jogso7AGLtUQpCU60k3QycNeAfO9djsATareAljEpQw",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1763904955.754168,
-            "sameSite": "lax",
-            "domain": "www.studocu.com"
-          },
-          {
-            "name": "laravel_session",
-            "value": "eyJpdiI6IldZOE42dWNkYW1tR3R3c2dJRHB0WkE9PSIsInZhbHVlIjoiMUNtajVrd1FIanA1N20xR1dsUE02T3V3VWRiejNGVUxwWExkdG1wSkNoQzRoMldIcGZkYWNXdlo1Szd2NFZGbEJ1MFovUytXM1BOWnhFSWdDK25EMGcxZ013VHEvZ1JYUm1uMUlKWm9MeHBXV1pNbUtHM0VvWmNEb1ZvZkU3V2wiLCJtYWMiOiJiYmJhZTU4YzJjOGM0ZThlMmJmZjk5MGRkY2ZlOTU3YTg5MWRhYjNiMmFjMTcyZDhiMTJhMmUyNDE3NDA2MzMyIiwidGFnIjoiIn0%3D",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": "www.studocu.com"
-          },
-          {
-            "name": "locale",
-            "value": "eyJpdiI6IjZhbko1cFA3dmdNZ3ZoZndKczZrMVE9PSIsIm1hYyI6IjE3YWQ2NjY0YWFmYmRlNDVlZWNiN2ZiMmIyY2NiOTk3Y2RmMmNiMmFhN2E0MGFmOTI3ZmFhNjI0OTRkOGQ2ZGIiLCJ0YWciOiIiLCJ2YWx1ZSI6InYvNWxRVitpaVhJa2Qxd1A3dmFUc3VUTkxYbFdteDhFNFdGdkxldTNkQkRVTGszUnpWSllWY1NPR2tyZFFBU1oifQ%3D%3D",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1779453359.881213,
-            "sameSite": "lax",
-            "domain": "www.studocu.com"
-          },
-          {
-            "name": "sd_cid",
-            "value": "eb8d021a-dc58-4637-b096-0a5f43a56e83",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "lax",
-            "domain": "www.studocu.com"
-          },
-          {
-            "name": "sd_distinct_id",
-            "value": "b20d596d-4283-4afa-9019-3c4fc75fc977",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1798461355.754228,
-            "sameSite": "lax",
-            "domain": "www.studocu.com"
-          },
-          {
-            "name": "sd_seg_state",
-            "value": "%7B%22distinctId%22%3A%22b20d596d-4283-4afa-9019-3c4fc75fc977%22%2C%22segmentations%22%3A%7B%22%2F%3Alocale%2Fhome%22%3A%7B%22state%22%3A%7B%22rollout%22%3A20%7D%2C%22value%22%3A1%7D%2C%22%2F(%3Alocale)(%2F*)%22%3A%7B%22state%22%3A%7B%22rollout%22%3A0%7D%2C%22value%22%3A0%7D%7D%7D",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1798461355.754244,
-            "sameSite": "lax",
-            "domain": "www.studocu.com"
-          },
-          {
-            "name": "sdab",
-            "value": "eyJpdiI6IkpMSlNGeGdJdEd2UGpFUXdXT1JkYnc9PSIsIm1hYyI6IjhlN2NkMjk5MDNiZTk5ZDdkMzM5MmYzNjFkOGVhODIwNTk2YTk1YjI1NzNmZjExMjllZDA2Nzg4MWUyNzQ3M2UiLCJ0YWciOiIiLCJ2YWx1ZSI6ImNjdXFkcG5WaXJHMDNZcG9vdEhuelpxS2xKQUZ4RmoxcEtiM29CVkNNVkpBZUp3OE1BSWg2bmo3dGhYQnI4LzNwMjRCZ1ZTUElxd3B5dDJpNWpaWFdlRTJQaWV6b1lDSlRqLzZSamJia0E4dDY0RUZqV2JNTDB1MktiUXQyN0NoYktXaDRvZDBvNDZNNi9PWlZWc1NmOUJhYytoTW1PTmxXVjlKays4QVJ2Z2pRZGFXWnlNZUdET2FjSHdJa0VVaTNMaklyeWxZSjdkM0Q4eEd5ZW5hd2dkcjVWRzgzZlRYd2RDaDBWZzZGUExpbENIL2VJY1RJZVNXL0UvN1lyRkorSnhYNWdQUzRuWjZXZEhhd0s3dkdIaHk3N1NuU0hweWFrOFNOWWVGRWl4OWZwWGJWWlJwRVVxb3dySHZZam82VFhqWjBYVDhLTk1FcmY5Y1ZKMUtnZThESHM3aEluTlo4Z1ExRFFFbDhMMHRlNUdVZERnYVNTbmRkUXYwbmcrdVFLbGwybWdJanNVUmtCZmdlWXp5eGFFNG1Zc21tZzBSbyt6R0txN1d5U2ZzaHRoWmR5K3FuUG1jNDlkc2NzYlMifQ%3D%3D",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1779453359.881366,
-            "sameSite": "lax",
-            "domain": "www.studocu.com"
-          },
-          {
-            "name": "studocu",
-            "value": "eyJpdiI6IkN3V0lpUEpFdmpUVHFWQ09kRVo3V2c9PSIsInZhbHVlIjoic2NpTDg1dHErYWVuUjFiQVRmWUJkNTVKUFU1SEV4T21ua2NrRWpMeDhyOEs2Y0ZpSnlaS1pGQ3RkOHRIdUswT3VOdmxPdWxQbWJDbXQxc0pKWWFGa3ZqMkhQM0JJUjVJOW5rYUtKdkVZdHM9IiwibWFjIjoiNjc4ZjhlZjc0OTkyZDk3MzRhN2IzNzFhZWVkMDM1NjIzNmE0MGZjM2JjZTA4ZWVmMzRjNWU3MDhhMjk4ZDNjNCIsInRhZyI6IiJ9",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1779669362.417389,
-            "sameSite": "no_restriction",
-            "domain": "www.studocu.com"
-          },
-          {
-            "name": "XSRF-TOKEN",
-            "value": "eyJpdiI6Im5yUVZ0d2hWRjZjM0lRWTJObjRiUlE9PSIsInZhbHVlIjoiU09kNFIvazJ6WjNVWVc2ckFERHJXSUtZWTRTakF3MGw5SUF4Q1N4ckUySTdkcEc2RVRWWnp4NzFFWnh0Z3ZRUTVSWXkyOFNEUG5UWjJQM0Z0NjhGdDA4bUM1MHNzdW1qZkFRdDJyV1JwVlJwZWl4RnhBOUZ6VEY3cUVXNnVoKzciLCJtYWMiOiI1NGFkYzdjYzRjZmRlZTNiNDc1MWM0OGQ4ODA2NDI1OWM5YjBkZThjYWQ4MTNmYTgzOGY3ZTdiODAyZTIxNjJkIiwidGFnIjoiIn0%3D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1763944559.881245,
-            "sameSite": "no_restriction",
-            "domain": "www.studocu.com"
-          }
-        ],
-        "sourceUrl": "https://www.studocu.com/en-us/home"
+        "name": "_cfuvid",
+        "value": "DVZZN5pr0mMi4CKwuHnB1wWUYfpIp1XOR_f25Rg9tCY-1763901354579-0.0.1.1-604800000",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".studocu.com"
+      },
+      {
+        "name": "_delighted_web",
+        "value": "{%22vRjf6mEd4ps2NtAE%22:{%22_delighted_fst%22:{%22t%22:%221756479570587%22}}}",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1791039570.589184,
+        "sameSite": "lax",
+        "domain": ".studocu.com"
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.667702773.1763901365",
+        "path": "/en-us",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1798461364.673502,
+        "sameSite": "no_restriction",
+        "domain": ".studocu.com"
+      },
+      {
+        "name": "_ga_SCG9G524F3",
+        "value": "GS2.1.s1763901364$o1$g0$t1763901364$j60$l0$h0",
+        "path": "/en-us",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1798461364.673041,
+        "sameSite": "no_restriction",
+        "domain": ".studocu.com"
+      },
+      {
+        "name": "_gcl_au",
+        "value": "1.1.585925000.1756479570.1365744026.1756479591.1756479594",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1764255570,
+        "sameSite": "no_restriction",
+        "domain": ".studocu.com"
+      },
+      {
+        "name": "_hjSession_131360",
+        "value": "eyJpZCI6IjNjNzUxZmE3LTFiN2EtNGVkMS1iMjc0LTBhMzE1NjUzYzdlZiIsImMiOjE3NjM5MDEzNjUyMjksInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjowLCJzcCI6MH0=",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".studocu.com"
+      },
+      {
+        "name": "_hjSessionUser_131360",
+        "value": "eyJpZCI6Ijg0MDk0NGEyLTA1ZmMtNWJkMS04OGE2LWFiMWQwMDFiMzgyMCIsImNyZWF0ZWQiOjE3NTY0Nzk1NzAwNzMsImV4aXN0aW5nIjp0cnVlfQ==",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1795437365,
+        "sameSite": "no_restriction",
+        "domain": ".studocu.com"
+      },
+      {
+        "name": "_rdt_uuid",
+        "value": "1756479569844.6f362f73-126d-4623-b7c7-cd84cc8fee31",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1771677364,
+        "sameSite": "strict",
+        "domain": ".studocu.com"
+      },
+      {
+        "name": "_tt_enable_cookie",
+        "value": "1",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1797597364,
+        "sameSite": "no_restriction",
+        "domain": ".studocu.com"
+      },
+      {
+        "name": "_ttp",
+        "value": "01K3V5EG0MVZRXBB51GFRH3RZD_.tt.1",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1797597364,
+        "sameSite": "no_restriction",
+        "domain": ".studocu.com"
+      },
+      {
+        "name": "ajs_anonymous_id",
+        "value": "$device:b4a8242b-fb22-4e5b-a1e0-85bd0f813664",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1795437364,
+        "sameSite": "lax",
+        "domain": ".studocu.com"
+      },
+      {
+        "name": "ajs_user_id",
+        "value": "44699996",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1795437364,
+        "sameSite": "lax",
+        "domain": ".studocu.com"
+      },
+      {
+        "name": "ttcsid",
+        "value": "1763901364735::v0JRZ5sw5wO1Vr7kZo2t.2.1763901365192.0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1797597365,
+        "sameSite": "no_restriction",
+        "domain": ".studocu.com"
+      },
+      {
+        "name": "ttcsid_C60IM7G68TKST8M2TQ70",
+        "value": "1763901364735::pHUweZwEWGzASQNE1wG3.2.1763901365193.0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1797597365,
+        "sameSite": "no_restriction",
+        "domain": ".studocu.com"
+      },
+      {
+        "name": "_hjHasCachedUserAttributes",
+        "value": "true",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".www.studocu.com"
+      },
+      {
+        "name": "_url_i",
+        "value": "https%3A%2F%2Fwww.studocu.com%2Fen-us%2Fhome",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1772031566.897883,
+        "sameSite": "lax",
+        "domain": ".www.studocu.com"
+      },
+      {
+        "name": "frt",
+        "value": "eyJpdiI6ImVOc1YwZCtPY3RHejg5T1VtMnRxa1E9PSIsInZhbHVlIjoidjhuOWFCQWQ3RURHSHQzQit3QXVaVUVhV1EwcUwwMmdjaTVMWkFVM1dWMzRuSDVWYzBoZmU4dE9RaEdqR0Z1RGVwQjJwRHNWazlkd0lkVXVDaDZCVHc9PSIsIm1hYyI6IjI2ZjRhNGU3NmNlZTc2Y2IyNzA2MDU2NjFmZDM3OTMzM2I4Y2E5OWVkZmM5MDMzYjU2NjJiYjRhZjZmYmFjZTEiLCJ0YWciOiIifQ%3D%3D",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1769439596.222928,
+        "sameSite": "lax",
+        "domain": ".www.studocu.com"
+      },
+      {
+        "name": "hrt",
+        "value": "1",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1769439596.222978,
+        "sameSite": "lax",
+        "domain": ".www.studocu.com"
+      },
+      {
+        "name": "laravel_session",
+        "value": "eyJpdiI6Im0xanVSeXhlZnYwME93b1podXBHUWc9PSIsInZhbHVlIjoiVGQ1dFFyVUhVVGhvN0N3Q1BSZE1idkRVeE1EWk9YSVVWYzJjcTlPa0tQVlJta01JMTl0MDQvUHh1OTZDV2NwUzQybStRR2lIVDZUa2l1OTZDQ0xvU0l4MURMZ2QzRFVxNFFKUlZYekt5MU9TMUhoMGljNWk0UWxpZUl5VmhxQmwiLCJtYWMiOiJiMzMzNGFlMGNmMDJmZjJjMDExYjUyOGRlMDFmOTljZWI3MGU3ZTZmZjAxZTdhNzUwNmJhOTgzY2E0Y2UxNmNlIiwidGFnIjoiIn0%3D",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".www.studocu.com"
+      },
+      {
+        "name": "locale",
+        "value": "eyJpdiI6IlBmQUlZTWIzTHhFaXRJWmU1NkMrMFE9PSIsIm1hYyI6IjY2NGNiOWEwNDA5YTljNjYxNWI0NGJjNTc1MzA2M2QxYWI0ZWI4ZGY0YzQxYmJmYTM1N2Q4ZmZiN2JhOWNmZmMiLCJ0YWciOiIiLCJ2YWx1ZSI6IlF2NkNobEFkV2wxQ3FvSFNMVG15UFBkcS8veFc0UHQ0eUk0dWt1R2IwZHRCZm1XNzZkYUtvY1VLZnQvU2dEYVcifQ%3D%3D",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "lax",
+        "domain": ".www.studocu.com"
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Sun+Nov+23+2025+19%3A35%3A59+GMT%2B0700+(Indochina+Time)&version=202409.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&landingPath=NotLandingPage&groups=C0004%3A0%2CC0002%3A0%2CC0001%3A1&AwaitingReconsent=false",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1795437359,
+        "sameSite": "no_restriction",
+        "domain": ".www.studocu.com"
+      },
+      {
+        "name": "remember_web_59ba36addc2b2f9401580f014c7f58ea4e30989d",
+        "value": "eyJpdiI6IktseEkzMURtQ29sckRNTC9GcklwalE9PSIsInZhbHVlIjoielh0WjU2UEovbTBITmJXejBSaDQwMWxZT0FhVHFrRDJJQnA0czhxUVpOallNZDErbWJ4YWhDZjdCVGZjTzR6Q21rbzlsb2pUekJiZElMQnQxVEtQVGgrR3l1S1pEYU9hc3ZkVEp3aUJJNFNya0FKY2dFV2hrcFUrV283TEV4M3hubTlzL3QzSGJ3ajNGaTVpbGw5QThFZElrUmZ4cC80YnhxdFBYekZyRmlPeHkzRVdwbmZsS0Uyb1VwTVp0SmFDcjBaSm1Hcm1yQTIza1FkcklENS9qL3VZaHVrSThGU1A3NHpoZWRLVFp4Yz0iLCJtYWMiOiI0ZmY3NDI3ZjU1MTFhOThjMjM1NjY4NWFhNDU0ODFlOWUzZjY2YzNlNTRhOWJiNDFhZjZkOGQwYzExN2ZmZDAxIiwidGFnIjoiIn0%3D",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1772247595.125441,
+        "sameSite": "no_restriction",
+        "domain": ".www.studocu.com"
+      },
+      {
+        "name": "sd_cid",
+        "value": "eb8d021a-dc58-4637-b096-0a5f43a56e83",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "lax",
+        "domain": ".www.studocu.com"
+      },
+      {
+        "name": "sd_distinct_id",
+        "value": "b20d596d-4283-4afa-9019-3c4fc75fc977",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1791039597.223094,
+        "sameSite": "lax",
+        "domain": ".www.studocu.com"
+      },
+      {
+        "name": "sd_seg_state",
+        "value": "%7B%22distinctId%22%3A%22b20d596d-4283-4afa-9019-3c4fc75fc977%22%2C%22segmentations%22%3A%7B%22%2F%3Alocale%2Fhome%22%3A%7B%22state%22%3A%7B%22rollout%22%3A20%7D%2C%22value%22%3A1%7D%2C%22%2F(%3Alocale)(%2F*)%22%3A%7B%22state%22%3A%7B%22rollout%22%3A0%7D%2C%22value%22%3A0%7D%7D%7D",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1791039597.223147,
+        "sameSite": "lax",
+        "domain": ".www.studocu.com"
+      },
+      {
+        "name": "sdab",
+        "value": "eyJpdiI6IkFyTGNZREY2eDIrMmlwdk0yVW5VWnc9PSIsIm1hYyI6IjZhYWM2NDEyYTE0OTRhNjA1ZDcyMWU2Yzk4ZTMzNjk1NTYxNDkxNzdjOTAwOGNiMjAzY2RkOGUzMmZiNTQ1ODciLCJ0YWciOiIiLCJ2YWx1ZSI6ImJBQUtMSkp6VDdaaGEyenlYOFVQVHVDRjlGTjVRUXM5VWxDM2NUWkl6MW50YUZZL0UrNERUL1hZNmxKbjJWVklmN3lvQ3M5T3BSSGZJZ1JWTkU5MFZ3S01HME5XdEJ6V1dORmw2OW9jNjA5KzZRQkova2R1dmpqQ2EwSklPcVlCcVQra3d5N3lzdUpzTGIwSUpaY2hXYWZJK0E3ZWxpR3ZtbTB1UkVsZC9lT05xbXIrSmQ4SGx2WjhkZ3ErTkJscnZ6NGc3NmNOaitqUFh3azZNRnZHSThUOE5IMkw2Ymx3Sjg2SU5wd29OQjhteEV2cjJ6cHZTOVhqcFQzc1BOeGlON3c2RGs1TEEwUVcyY05lakFUQVExanNYUDRFdkVkbFB3TDhSSDVGSHJGejNxKzBwcnpBcEdBT2pSbGMwaG1oRktFRTBaT0pDWmN0b2VTdFBicUptdnluaHJOTHhGam4xdSswVE5TM2lHM1hROVRRTWw5aDdsd0t2WHVvNHl2dCJ9",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1772031597.223374,
+        "sameSite": "lax",
+        "domain": ".www.studocu.com"
+      },
+      {
+        "name": "sign",
+        "value": "4d7a7847506c77555764694e43514338714f37446846574e6b466934746f49584f4b733350784f397a4465756a3873643834625248305341394e744b73345867",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1769439596.222928,
+        "sameSite": "no_restriction",
+        "domain": ".www.studocu.com"
+      },
+      {
+        "name": "studocu",
+        "value": "eyJpdiI6IktoYUhtSXpQV3ZyN2oySUZNNGJMd2c9PSIsInZhbHVlIjoiL3IvREpKZ2ZnLzJyNGpzeVZNTGNrNXlORHBCbTFoem8wSk1YVkpQQ08ydFcvYTdwRlVJTWZRYnM2NGtGdWhFRnFPWkltYm5vU1UyU21pNkkyR1BDMmJNRGVyT1BrdTlPdHMrZzUzU0JNTWM9IiwibWFjIjoiM2Y1OTQ4NGZiZWU0Y2FjOWI2YWE3YTI0MDI4MjAyN2QwZDZjNmFlNGY2ZGI3NDcxNDUxMjMxOWM1ODQ0Njg1YiIsInRhZyI6IiJ9",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1772247595.125346,
+        "sameSite": "no_restriction",
+        "domain": ".www.studocu.com"
+      },
+      {
+        "name": "fst",
+        "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJodHRwczovL3d3dy5zdHVkb2N1LmNvbS9yZXN0LWFwaS92MS9hdXRoL3JlZnJlc2giLCJpYXQiOjE3NjM5MDEzNTQsImV4cCI6MTc2MzkwNDk1NCwibmJmIjoxNzYzOTAxMzU0LCJqdGkiOiJtdUV3azFMMkJBYTk5dFFsIiwic3ViIjoiNDQ2OTk5OTYiLCJwcnYiOiI5ZjhhMjM4OWEyMGNhMDc1MmFhOWU5NTA5MzUxNTUxN2U5MGUxOTRjIn0.HRNjp9CQtFAJV8s3LXCdhyZ-JvRVVt_CSmW76RL6qbxvJlbhtPRav9iOC8hz73ef7z7zGWWjC2urqT-PttxH8IzbYAaUyrnsNQU2paT9btgEp8_cK6SzUBa8MYRdXUDfpgibDIVqnsJkve2uiyvMHHajmjrVNn_14pYcG-Ow7wLh3oA_IslDGoctmyrBG86AUB85zW686_tNHKizqEAZ_Nenpvg8PZdCNgeXNmvmd2Uu-68J4T9pjYLzdyFGW5Q6bDiXmymqn-Szo5ByJKcPH3pDNcPko5Y2TwyXESbGm92jogso7AGLtUQpCU60k3QycNeAfO9djsATareAljEpQw",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "lax",
+        "domain": "www.studocu.com"
+      },
+      {
+        "name": "laravel_session",
+        "value": "eyJpdiI6IldZOE42dWNkYW1tR3R3c2dJRHB0WkE9PSIsInZhbHVlIjoiMUNtajVrd1FIanA1N20xR1dsUE02T3V3VWRiejNGVUxwWExkdG1wSkNoQzRoMldIcGZkYWNXdlo1Szd2NFZGbEJ1MFovUytXM1BOWnhFSWdDK25EMGcxZ013VHEvZ1JYUm1uMUlKWm9MeHBXV1pNbUtHM0VvWmNEb1ZvZkU3V2wiLCJtYWMiOiJiYmJhZTU4YzJjOGM0ZThlMmJmZjk5MGRkY2ZlOTU3YTg5MWRhYjNiMmFjMTcyZDhiMTJhMmUyNDE3NDA2MzMyIiwidGFnIjoiIn0%3D",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": "www.studocu.com"
+      },
+      {
+        "name": "locale",
+        "value": "eyJpdiI6IjZhbko1cFA3dmdNZ3ZoZndKczZrMVE9PSIsIm1hYyI6IjE3YWQ2NjY0YWFmYmRlNDVlZWNiN2ZiMmIyY2NiOTk3Y2RmMmNiMmFhN2E0MGFmOTI3ZmFhNjI0OTRkOGQ2ZGIiLCJ0YWciOiIiLCJ2YWx1ZSI6InYvNWxRVitpaVhJa2Qxd1A3dmFUc3VUTkxYbFdteDhFNFdGdkxldTNkQkRVTGszUnpWSllWY1NPR2tyZFFBU1oifQ%3D%3D",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1779453359.881213,
+        "sameSite": "lax",
+        "domain": "www.studocu.com"
+      },
+      {
+        "name": "sd_cid",
+        "value": "eb8d021a-dc58-4637-b096-0a5f43a56e83",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "lax",
+        "domain": "www.studocu.com"
+      },
+      {
+        "name": "sd_distinct_id",
+        "value": "b20d596d-4283-4afa-9019-3c4fc75fc977",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1798461355.754228,
+        "sameSite": "lax",
+        "domain": "www.studocu.com"
+      },
+      {
+        "name": "sd_seg_state",
+        "value": "%7B%22distinctId%22%3A%22b20d596d-4283-4afa-9019-3c4fc75fc977%22%2C%22segmentations%22%3A%7B%22%2F%3Alocale%2Fhome%22%3A%7B%22state%22%3A%7B%22rollout%22%3A20%7D%2C%22value%22%3A1%7D%2C%22%2F(%3Alocale)(%2F*)%22%3A%7B%22state%22%3A%7B%22rollout%22%3A0%7D%2C%22value%22%3A0%7D%7D%7D",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1798461355.754244,
+        "sameSite": "lax",
+        "domain": "www.studocu.com"
+      },
+      {
+        "name": "sdab",
+        "value": "eyJpdiI6IkpMSlNGeGdJdEd2UGpFUXdXT1JkYnc9PSIsIm1hYyI6IjhlN2NkMjk5MDNiZTk5ZDdkMzM5MmYzNjFkOGVhODIwNTk2YTk1YjI1NzNmZjExMjllZDA2Nzg4MWUyNzQ3M2UiLCJ0YWciOiIiLCJ2YWx1ZSI6ImNjdXFkcG5WaXJHMDNZcG9vdEhuelpxS2xKQUZ4RmoxcEtiM29CVkNNVkpBZUp3OE1BSWg2bmo3dGhYQnI4LzNwMjRCZ1ZTUElxd3B5dDJpNWpaWFdlRTJQaWV6b1lDSlRqLzZSamJia0E4dDY0RUZqV2JNTDB1MktiUXQyN0NoYktXaDRvZDBvNDZNNi9PWlZWc1NmOUJhYytoTW1PTmxXVjlKays4QVJ2Z2pRZGFXWnlNZUdET2FjSHdJa0VVaTNMaklyeWxZSjdkM0Q4eEd5ZW5hd2dkcjVWRzgzZlRYd2RDaDBWZzZGUExpbENIL2VJY1RJZVNXL0UvN1lyRkorSnhYNWdQUzRuWjZXZEhhd0s3dkdIaHk3N1NuU0hweWFrOFNOWWVGRWl4OWZwWGJWWlJwRVVxb3dySHZZam82VFhqWjBYVDhLTk1FcmY5Y1ZKMUtnZThESHM3aEluTlo4Z1ExRFFFbDhMMHRlNUdVZERnYVNTbmRkUXYwbmcrdVFLbGwybWdJanNVUmtCZmdlWXp5eGFFNG1Zc21tZzBSbyt6R0txN1d5U2ZzaHRoWmR5K3FuUG1jNDlkc2NzYlMifQ%3D%3D",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1779453359.881366,
+        "sameSite": "lax",
+        "domain": "www.studocu.com"
+      },
+      {
+        "name": "studocu",
+        "value": "eyJpdiI6IkN3V0lpUEpFdmpUVHFWQ09kRVo3V2c9PSIsInZhbHVlIjoic2NpTDg1dHErYWVuUjFiQVRmWUJkNTVKUFU1SEV4T21ua2NrRWpMeDhyOEs2Y0ZpSnlaS1pGQ3RkOHRIdUswT3VOdmxPdWxQbWJDbXQxc0pKWWFGa3ZqMkhQM0JJUjVJOW5rYUtKdkVZdHM9IiwibWFjIjoiNjc4ZjhlZjc0OTkyZDk3MzRhN2IzNzFhZWVkMDM1NjIzNmE0MGZjM2JjZTA4ZWVmMzRjNWU3MDhhMjk4ZDNjNCIsInRhZyI6IiJ9",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1779669362.417389,
+        "sameSite": "no_restriction",
+        "domain": "www.studocu.com"
+      },
+      {
+        "name": "XSRF-TOKEN",
+        "value": "eyJpdiI6Im5yUVZ0d2hWRjZjM0lRWTJObjRiUlE9PSIsInZhbHVlIjoiU09kNFIvazJ6WjNVWVc2ckFERHJXSUtZWTRTakF3MGw5SUF4Q1N4ckUySTdkcEc2RVRWWnp4NzFFWnh0Z3ZRUTVSWXkyOFNEUG5UWjJQM0Z0NjhGdDA4bUM1MHNzdW1qZkFRdDJyV1JwVlJwZWl4RnhBOUZ6VEY3cUVXNnVoKzciLCJtYWMiOiI1NGFkYzdjYzRjZmRlZTNiNDc1MWM0OGQ4ODA2NDI1OWM5YjBkZThjYWQ4MTNmYTgzOGY3ZTdiODAyZTIxNjJkIiwidGFnIjoiIn0%3D",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1763944559.881245,
+        "sameSite": "no_restriction",
+        "domain": "www.studocu.com"
       }
-    ]
+    ],
+    "sourceUrl": "https://www.studocu.com/en-us/home"
   },
   {
     "meta": {
@@ -54188,741 +51057,10 @@
         "cookies": [
           {
             "name": "__cf_bm",
-            "value": "DGucGRuiRqMkTMTHxgJb5s4fzYVqhBdShzftEJuk5GQ-1763478567-1.0.1.1-vJ31ZgPHiURVCSOSXdl3xqIOohMRGRsY3ZW.zVp7plR4V8YhkB4RBREoIgp4MxBCMIFJv0ge9zUetaYtWKCRIm1AmoJQlZdPOI4BebPTZPg",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".udemy.com"
-          },
-          {
-            "name": "__cfruid",
-            "value": "44dff6d8d49834fe054044fe748400db04235df3-1763478567",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".udemy.com"
-          },
-          {
-            "name": "__ssid",
-            "value": "687e9cad4d346020c9c0e58bb95bf44",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797766468.914384,
-            "sameSite": "no_restriction",
-            "domain": ".udemy.com"
-          },
-          {
-            "name": "__udmy_2_v57r",
-            "value": "36217f3d120e49b894d9107498a5a3de",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795014572.579013,
-            "sameSite": "no_restriction",
-            "domain": ".udemy.com"
-          },
-          {
-            "name": "_fbp",
-            "value": "fb.1.1763206468991.967470400208814352",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1771210583,
-            "sameSite": "lax",
-            "domain": ".udemy.com"
-          },
-          {
-            "name": "_ga",
-            "value": "GA1.2.1365386460.1763206469",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798038570.359677,
-            "sameSite": "no_restriction",
-            "domain": ".udemy.com"
-          },
-          {
-            "name": "_ga_7YMFEFLR6Q",
-            "value": "GS2.1.s1763434560$o2$g1$t1763434583$j37$l0$h0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797994584.00196,
-            "sameSite": "no_restriction",
-            "domain": ".udemy.com"
-          },
-          {
-            "name": "_gat",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".udemy.com"
-          },
-          {
-            "name": "_gcl_au",
-            "value": "1.1.530897652.1763206462.2039678065.1763434576.1763434576",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1770982462,
-            "sameSite": "no_restriction",
-            "domain": ".udemy.com"
-          },
-          {
-            "name": "_gid",
-            "value": "GA1.2.563566496.1763434558",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".udemy.com"
-          },
-          {
-            "name": "_uetsid",
-            "value": "1da73870c42a11f08ac5cddcc175e4f6|1j7ugoa|2|g14|0|2148",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".udemy.com"
-          },
-          {
-            "name": "_uetvid",
-            "value": "c7c82180b49711f0984f137387f9da45|rmfudm|1763434584624|3|1|bat.bing.com/p/insights/c/i",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797130584,
-            "sameSite": "no_restriction",
-            "domain": ".udemy.com"
-          },
-          {
-            "name": "_yjsu_yjad",
-            "value": "1763206463.4c601262-ff2a-454d-b484-8224e28dce14",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794742463,
-            "sameSite": "no_restriction",
-            "domain": ".udemy.com"
-          },
-          {
-            "name": "ab.storage.deviceId.5cefca91-d218-4b04-8bdd-c8876ec1908d",
-            "value": "%7B%22g%22%3A%22822300c9-288b-19b7-81be-fe569edca46f%22%2C%22c%22%3A1739130296893%2C%22l%22%3A1763206463478%7D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794763403,
-            "sameSite": "no_restriction",
-            "domain": ".udemy.com"
-          },
-          {
-            "name": "ab.storage.sessionId.5cefca91-d218-4b04-8bdd-c8876ec1908d",
-            "value": "%7B%22g%22%3A%220f021b0e-8a04-7b3c-c279-cc8e0eef148d%22%2C%22e%22%3A1763208263477%2C%22c%22%3A1763206463477%2C%22l%22%3A1763206463477%7D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794763403,
-            "sameSite": "no_restriction",
-            "domain": ".udemy.com"
-          },
-          {
-            "name": "ab.storage.userId.5cefca91-d218-4b04-8bdd-c8876ec1908d",
-            "value": "%7B%22g%22%3A%22296757321%22%2C%22c%22%3A1743071433042%2C%22l%22%3A1763206463478%7D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794763403,
-            "sameSite": "no_restriction",
-            "domain": ".udemy.com"
-          },
-          {
-            "name": "AMP_5a3d2e29ec",
-            "value": "JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjIyZWMyM2Y4My0wYTg4LTRkMmMtOGExZS0xMjc1MDg2YzZhZDMlMjIlMkMlMjJ1c2VySWQlMjIlM0ElMjIzNjIxN2YzZDEyMGU0OWI4OTRkOTEwNzQ5OGE1YTNkZSUyMiUyQyUyMnNlc3Npb25JZCUyMiUzQTE3NjM0MzQ1NTY0MjclMkMlMjJvcHRPdXQlMjIlM0FmYWxzZSUyQyUyMmxhc3RFdmVudFRpbWUlMjIlM0ExNzYzNDM0NTc2NjQzJTJDJTIybGFzdEV2ZW50SWQlMjIlM0ExMCUyQyUyMnBhZ2VDb3VudGVyJTIyJTNBMiU3RA==",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794970576,
-            "sameSite": "lax",
-            "domain": ".udemy.com"
-          },
-          {
-            "name": "AMP_f353e4295f",
-            "value": "JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJmNjIxNmZiYy1kMDU3LTRiN2YtYThkMS01ZjQ2ZTJjOTJjMWUlMjIlMkMlMjJ1c2VySWQlMjIlM0EzMTY3NjY3NzMlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzYzMjA2NDg4MjIxJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2MzQzNDU4MDgyNyUyQyUyMmxhc3RFdmVudElkJTIyJTNBMCUyQyUyMnBhZ2VDb3VudGVyJTIyJTNBMSU3RA==",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795014570,
-            "sameSite": "lax",
-            "domain": ".udemy.com"
-          },
-          {
-            "name": "AMP_MKTG_5a3d2e29ec",
-            "value": "JTdCJTdE",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794970556,
-            "sameSite": "lax",
-            "domain": ".udemy.com"
-          },
-          {
-            "name": "AMP_MKTG_f353e4295f",
-            "value": "JTdCJTdE",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1793952600,
-            "sameSite": "lax",
-            "domain": ".udemy.com"
-          },
-          {
-            "name": "brwsr",
-            "value": "0860e72b-c217-11f0-9033-8fe63a4ea4f7",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1797994584.158848,
-            "sameSite": "no_restriction",
-            "domain": ".udemy.com"
-          },
-          {
-            "name": "cto_bundle",
-            "value": "GxtoK19KJTJCNWxjYyUyRnJObTRaakQxQ3l4NGhweDBJT05SY1olMkJsNUhvdnJiVXFuZzBPd1N3QWNtM3JESCUyQloyQmVxVU9PZ0hmS0k4VSUyRmNNOHdtQWYxeGUzYUQzJTJCRFpPWlAlMkJoaUZzdzZMQmRuM0lTQUN5QkpiZFpYeEwxNFMlMkY4NFZCMlI2a1dIVHBFZm1UZFNBM3gyYjNjZkExZGdRJTNEJTNE",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1796563398,
-            "sameSite": "no_restriction",
-            "domain": ".udemy.com"
-          },
-          {
-            "name": "eventing_session_id",
-            "value": "YjNhZjQ5ZGUtYjUwZC00Nz-1763480370599",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "strict",
-            "domain": ".udemy.com"
-          },
-          {
-            "name": "FPAU",
-            "value": "1.1.530897652.1763206462",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1770982463.427347,
-            "sameSite": "no_restriction",
-            "domain": ".udemy.com"
-          },
-          {
-            "name": "IR_39854",
-            "value": "1763434584013%7C0%7C1763434584013%7C%7C",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".udemy.com"
-          },
-          {
-            "name": "IR_gbd",
-            "value": "udemy.com",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".udemy.com"
-          },
-          {
-            "name": "IR_PI",
-            "value": "0860e72b-c217-11f0-9033-8fe63a4ea4f7%7C1763520984013",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797994584.031635,
-            "sameSite": "no_restriction",
-            "domain": ".udemy.com"
-          },
-          {
-            "name": "irtps",
-            "value": "1",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".udemy.com"
-          },
-          {
-            "name": "sign",
-            "value": "4d7a7847506c77555764694e43514338714f374468446a4c6e546d594c6a5647544466494f6a51327a343848702f346b65686172456a74427644795a4f637343",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794763403,
-            "sameSite": "no_restriction",
-            "domain": ".udemy.com"
-          },
-          {
-            "name": "ud_country_code",
-            "value": "ID",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".udemy.com"
-          },
-          {
-            "name": "__stripe_mid",
-            "value": "2be69ba1-d154-4313-8372-9b710d69e7344357a5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795014571,
-            "sameSite": "strict",
-            "domain": ".www.udemy.com"
-          },
-          {
-            "name": "__stripe_sid",
-            "value": "2828e4e1-c3c0-4d87-aa48-550915f1a8582819a8",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "strict",
-            "domain": ".www.udemy.com"
-          },
-          {
-            "name": "access_token",
-            "value": "\"BWC73RdaONNXm/nlCvYVpSUS20ZN7H83MoqTIQFFjQo:zorjAP93JP5J6uqgWw46JAcb+WJ2z5WElDW0VzyMHCs\"",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1771210576.427176,
-            "sameSite": "lax",
-            "domain": ".www.udemy.com"
-          },
-          {
-            "name": "blisspoint_fpc",
-            "value": "2cb7b3e9-182d-41ab-8b38-4f0c4e18c29e",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1764039383,
-            "sameSite": "no_restriction",
-            "domain": ".www.udemy.com"
-          },
-          {
-            "name": "client_id",
-            "value": "bd2565cb7b0c313f5e9bae44961e8db2",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1771210576.427052,
-            "sameSite": "lax",
-            "domain": ".www.udemy.com"
-          },
-          {
-            "name": "csrftoken",
-            "value": "aIFZwDv8xe6d0fMUF5IuwqUIgElBMfsE",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794656087.733701,
-            "sameSite": "lax",
-            "domain": ".www.udemy.com"
-          },
-          {
-            "name": "dj_session_id",
-            "value": "rd6qsriobvgk2ixvbnljroyk0d1sfemc",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1766026578.690673,
-            "sameSite": "lax",
-            "domain": ".www.udemy.com"
-          },
-          {
-            "name": "dwndvc",
-            "value": "71377aa2eb7b8aa24a6060989e7fe586db1792aeea4a137c17a5ec87cced199c",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1789486464.717211,
-            "sameSite": "no_restriction",
-            "domain": ".www.udemy.com"
-          },
-          {
-            "name": "dwnjrn",
-            "value": "9b33c42b5a616eefd8ef6ad2fad4cac5084a7d02d5d2ee2a624904139003db63",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".www.udemy.com"
-          },
-          {
-            "name": "evi",
-            "value": "\"3@yEiH5_yzgB8-KsFt9So0x-M8Pl_lNcEreR2t7nZ8bJO82zKqTNqZYIJY\"",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1766026584.162342,
-            "sameSite": "no_restriction",
-            "domain": ".www.udemy.com"
-          },
-          {
-            "name": "g_state",
-            "value": "{\"i_l\":0,\"i_ll\":1763206466891,\"i_b\":\"PMlCy/cW94IBpERxl+26LCn0ZwArzACLmQXADTMWPzo\"}",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1778758466,
-            "sameSite": "no_restriction",
-            "domain": ".www.udemy.com"
-          },
-          {
-            "name": "ki_r",
-            "value": "",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797994584.0083,
-            "sameSite": "no_restriction",
-            "domain": ".www.udemy.com"
-          },
-          {
-            "name": "ki_t",
-            "value": "1763206469841%3B1763206469841%3B1763206491389%3B1%3B2",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797766491.389114,
-            "sameSite": "no_restriction",
-            "domain": ".www.udemy.com"
-          },
-          {
-            "name": "OptanonConsent",
-            "value": "isGpcEnabled=0&datestamp=Tue+Nov+18+2025+22%3A09%3A29+GMT%2B0700+(Indochina+Time)&version=202510.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=8bfda1c8-73b0-4acf-acf1-72091286dc78&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0003%3A1%2CC0004%3A1%2CC0005%3A1%2CC0002%3A1%2CC0001%3A1&AwaitingReconsent=false",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1795014569,
-            "sameSite": "lax",
-            "domain": ".www.udemy.com"
-          },
-          {
-            "name": "ud_cache_brand",
-            "value": "IDen_US",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".www.udemy.com"
-          },
-          {
-            "name": "ud_cache_campaign_code",
-            "value": "UPGRADE02223",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".www.udemy.com"
-          },
-          {
-            "name": "ud_cache_device",
-            "value": "None",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".www.udemy.com"
-          },
-          {
-            "name": "ud_cache_language",
-            "value": "en",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".www.udemy.com"
-          },
-          {
-            "name": "ud_cache_logged_in",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".www.udemy.com"
-          },
-          {
-            "name": "ud_cache_marketplace_country",
-            "value": "ID",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".www.udemy.com"
-          },
-          {
-            "name": "ud_cache_price_country",
-            "value": "ID",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".www.udemy.com"
-          },
-          {
-            "name": "ud_cache_release",
-            "value": "b09886cf8cd126a0dfef",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".www.udemy.com"
-          },
-          {
-            "name": "ud_cache_user",
-            "value": "316766773",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".www.udemy.com"
-          },
-          {
-            "name": "ud_cache_version",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".www.udemy.com"
-          },
-          {
-            "name": "ud_credit_last_seen",
-            "value": "\"2025-11-14 07:53:51.748285+00:00\"",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794742485.818274,
-            "sameSite": "no_restriction",
-            "domain": ".www.udemy.com"
-          },
-          {
-            "name": "ud_firstvisit",
-            "value": "2025-11-15T11:34:24.464785+00:00:1vKEXx:gPCMlueFlMTEzIE2QDsf42FgNgJ5r_kzZOE8AQwYWxg",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794742465.473503,
-            "sameSite": "no_restriction",
-            "domain": ".www.udemy.com"
-          },
-          {
-            "name": "ud_locale",
-            "value": "en_US",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794742484.387774,
-            "sameSite": "no_restriction",
-            "domain": ".www.udemy.com"
-          },
-          {
-            "name": "ud_rule_vars",
-            "value": "\"eJxtjUEKwjAQRa9SstVKZpLUJmcphGky1aAYTNNuxLtbUMGF289_7z1EpXLiytGvaU41F6c6hOOkIqBkbcfe6mhBHrXtyZCK7ELOl8TCNeIxiCmVub5ZH6nysO2DQImmBWjBNABOaYdw0MpohJ2UTspB7LfXlTa05iWcfS00TSn4OS8lsF-pJBqvH1suJ7ql8AMVvi88_y32jURnOod4MF2n0H6LT_F8AVkPR3U=:1vLBtG:VwcwIoHRB2V9bBAbh362l1HFSOQbkuNzchdceTTJN9Q\"",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1797994584.162603,
-            "sameSite": "no_restriction",
-            "domain": ".www.udemy.com"
-          },
-          {
-            "name": "ud_user_jwt",
-            "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MzE2NzY2NzczLCJlbWFpbCI6InNhcmFAYmVsYWphYXIuaWQiLCJpc19zdXBlcnVzZXIiOmZhbHNlLCJncm91cF9pZHMiOltdfQ.ZaX0bRh3zRMmGOMWdpDJnpMonKgg_HksECWtLvPxoqM",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1765798484.387455,
-            "sameSite": "no_restriction",
-            "domain": ".www.udemy.com"
-          },
-          {
-            "name": "viewedOuibounceModal",
-            "value": "true",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".www.udemy.com"
-          },
-          {
-            "name": "_dd_s",
-            "value": "rum=0&expire=1763479469363",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "strict",
-            "domain": "www.udemy.com"
-          },
-          {
-            "name": "csrftoken",
-            "value": "aIFZwDv8xe6d0fMUF5IuwqUIgElBMfsE",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1794928169.169831,
-            "sameSite": "lax",
-            "domain": "www.udemy.com"
-          },
-          {
-            "name": "evi",
-            "value": "\"3@c56jNd-wTteaXgRBtrjzZtFC09cd4Zz8--FGS4Uvu8FvgYUmW3jfyWl6\"",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1766070572.578901,
-            "sameSite": "no_restriction",
-            "domain": "www.udemy.com"
-          },
-          {
-            "name": "ud_cache_brand",
-            "value": "IDen_US",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": "www.udemy.com"
-          },
-          {
-            "name": "ud_cache_campaign_code",
-            "value": "UPGRADE02223",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": "www.udemy.com"
-          },
-          {
-            "name": "ud_cache_device",
-            "value": "None",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": "www.udemy.com"
-          },
-          {
-            "name": "ud_cache_language",
-            "value": "en",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": "www.udemy.com"
-          },
-          {
-            "name": "ud_cache_logged_in",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": "www.udemy.com"
-          },
-          {
-            "name": "ud_cache_marketplace_country",
-            "value": "ID",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": "www.udemy.com"
-          },
-          {
-            "name": "ud_cache_price_country",
-            "value": "ID",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": "www.udemy.com"
-          },
-          {
-            "name": "ud_cache_release",
-            "value": "efcd3a8145ed134f79f5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": "www.udemy.com"
-          },
-          {
-            "name": "ud_cache_user",
-            "value": "316766773",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": "www.udemy.com"
-          },
-          {
-            "name": "ud_cache_version",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": "www.udemy.com"
-          },
-          {
-            "name": "ud_credit_unseen",
-            "value": "0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": "www.udemy.com"
-          },
-          {
-            "name": "ud_rule_vars",
-            "value": "\"eJxtjcsOgjAQRX-FdKuQTh9C-y0kzdAO2GhsLIUN4d8lURMXbm_uOWdjBfNEhYJb4xxLylZeBLSjDCA4KTN0RgUDvFWmQ40ykPUp3SIxW7GtZ2PMc3mzLmCh_th7JrjQNUANugKwUlkBjZJaCThxbjnv2fl43fFAS1r81ZWM4xi9m9OSPbkVc8Th_rGlPOEj-h8o03Oh-W-xq0BbbqyEpjNCtOZb3Nn-AlmeR30=:1vLNKl:APclAE6sR4FVVr5M6tVdAIJLD6IXL6uAAXiu7Ju-yb4\"",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798038572.579042,
-            "sameSite": "no_restriction",
-            "domain": "www.udemy.com"
-          },
-          {
-            "name": "viewedOuibounceModal",
-            "value": "true",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": "www.udemy.com"
-          }
-        ],
-        "sourceUrl": "https://www.udemy.com/personal/home/"
-      },
-      {
-        "name": "Udemy 2",
-        "cookies": [
-          {
-            "name": "__cf_bm",
             "value": "NQbT7PR417o0uxYSKWaGoF1p9zKaQvaGCbLoaKel5no-1763902956-1.0.1.1-Y2h4G0rMeO.beXF_Ag51q6e.jcJ8QFxpvpUaxVT8QXifRXPyBjUKyhU4gsxAHyVnTvVne4cnfpqCeCXoFo9Ll4wRiu9f2bNlRIkgumKr3aw",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763904758.027659,
             "sameSite": "no_restriction",
             "domain": ".udemy.com"
           },
@@ -55199,7 +51337,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763904761,
             "sameSite": "strict",
             "domain": ".udemy.com"
           },
@@ -55711,7 +51848,7 @@
         "sourceUrl": "https://www.udemy.com/personal/home/"
       },
       {
-        "name": "Udemy 3",
+        "name": "Udemy 2",
         "cookies": [
           {
             "name": "__cf_bm",
@@ -55719,7 +51856,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763904747.330047,
             "sameSite": "no_restriction",
             "domain": ".udemy.com"
           },
@@ -56466,113 +52602,51 @@
       "name": "Vectorizer AI",
       "icon": "https://cdn.prod.website-files.com/648e04d4bbae7004f1b35f15/65de13535268a099387a6f60_vectorizer-ai-icon.png",
       "url": "https://id.vectorizer.ai/",
-      "category": "design",
-      "isGroup": true
+      "category": "design"
     },
-    "accounts": [
+    "cookies": [
       {
-        "name": "Vectorizer AI 1",
-        "cookies": [
-          {
-            "name": "_ga",
-            "value": "GA1.1.2078466773.1743819386",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798461341.100474,
-            "sameSite": "no_restriction",
-            "domain": ".vectorizer.ai"
-          },
-          {
-            "name": "_ga_Q7FTXH91VS",
-            "value": "GS2.1.s1763901341$o2$g0$t1763901341$j60$l0$h0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798461341.100183,
-            "sameSite": "no_restriction",
-            "domain": ".vectorizer.ai"
-          },
-          {
-            "name": "sign",
-            "value": "4d7a7847506c77555764694e43514338714f37446841466e73437a4b676b737072524e3931682b6e2f524e494a3753466f2b7a705a46315636396c574d6b6a4a",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1775355395.921734,
-            "sameSite": "no_restriction",
-            "domain": ".vectorizer.ai"
-          },
-          {
-            "name": "VK",
-            "value": "eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7ImlkIjoidTc2NDFmYmRiYjM2OTkzMzg1YmUyOTFlYzljNTJiOTQ5IiwicHIiOiIwIiwiYWwiOiIxNzQzODE5Mzk2NTAzIiwibHIiOiIyIn0sImV4cCI6MTc3NTM1NTM5NiwibmJmIjoxNzQzODE5Mzk2LCJpYXQiOjE3NDM4MTkzOTZ9.EBQdvevsJ2csG2r0Y5u8d14EdMXa1642hX-xeDHOJCQ",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1775355395.921734,
-            "sameSite": "lax",
-            "domain": ".vectorizer.ai"
-          }
-        ],
-        "sourceUrl": "https://id.vectorizer.ai/"
+        "name": "_ga",
+        "value": "GA1.1.2078466773.1743819386",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1798461341.100474,
+        "sameSite": "no_restriction",
+        "domain": ".vectorizer.ai"
       },
       {
-        "name": "Vectorizer AI 2",
-        "cookies": [
-          {
-            "name": "_ga",
-            "value": "GA1.1.2078466773.1743819386",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798039275.30781,
-            "sameSite": "no_restriction",
-            "domain": ".vectorizer.ai"
-          },
-          {
-            "name": "_ga_Q7FTXH91VS",
-            "value": "GS2.1.s1763479275$o2$g0$t1763479275$j60$l0$h0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1798039275.307348,
-            "sameSite": "no_restriction",
-            "domain": ".vectorizer.ai"
-          },
-          {
-            "name": "lc",
-            "value": "id-ID",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1797513714.324774,
-            "sameSite": "no_restriction",
-            "domain": ".vectorizer.ai"
-          },
-          {
-            "name": "sign",
-            "value": "4d7a7847506c77555764694e43514338714f37446841466e73437a4b676b737072524e3931682b6e2f524e494a3753466f2b7a705a46315636396c574d6b6a4a",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1775355395.921734,
-            "sameSite": "no_restriction",
-            "domain": ".vectorizer.ai"
-          },
-          {
-            "name": "VK",
-            "value": "eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7ImlkIjoidTc2NDFmYmRiYjM2OTkzMzg1YmUyOTFlYzljNTJiOTQ5IiwicHIiOiIwIiwiYWwiOiIxNzQzODE5Mzk2NTAzIiwibHIiOiIyIn0sImV4cCI6MTc3NTM1NTM5NiwibmJmIjoxNzQzODE5Mzk2LCJpYXQiOjE3NDM4MTkzOTZ9.EBQdvevsJ2csG2r0Y5u8d14EdMXa1642hX-xeDHOJCQ",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1775355395.921734,
-            "sameSite": "lax",
-            "domain": ".vectorizer.ai"
-          }
-        ],
-        "sourceUrl": "https://vectorizer.ai/"
+        "name": "_ga_Q7FTXH91VS",
+        "value": "GS2.1.s1763901341$o2$g0$t1763901341$j60$l0$h0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1798461341.100183,
+        "sameSite": "no_restriction",
+        "domain": ".vectorizer.ai"
+      },
+      {
+        "name": "sign",
+        "value": "4d7a7847506c77555764694e43514338714f37446841466e73437a4b676b737072524e3931682b6e2f524e494a3753466f2b7a705a46315636396c574d6b6a4a",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1775355395.921734,
+        "sameSite": "no_restriction",
+        "domain": ".vectorizer.ai"
+      },
+      {
+        "name": "VK",
+        "value": "eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7ImlkIjoidTc2NDFmYmRiYjM2OTkzMzg1YmUyOTFlYzljNTJiOTQ5IiwicHIiOiIwIiwiYWwiOiIxNzQzODE5Mzk2NTAzIiwibHIiOiIyIn0sImV4cCI6MTc3NTM1NTM5NiwibmJmIjoxNzQzODE5Mzk2LCJpYXQiOjE3NDM4MTkzOTZ9.EBQdvevsJ2csG2r0Y5u8d14EdMXa1642hX-xeDHOJCQ",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1775355395.921734,
+        "sameSite": "lax",
+        "domain": ".vectorizer.ai"
       }
-    ]
+    ],
+    "sourceUrl": "https://id.vectorizer.ai/"
   },
   {
     "meta": {
@@ -58831,7 +54905,6 @@
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1763904931.758788,
         "sameSite": "lax",
         "domain": ".wolframalpha.com"
       },
