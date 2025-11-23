@@ -138,7 +138,7 @@ async function signup(name, email, password) {
             const userAgent = navigator.userAgent;
             await supabaseClient.from('activity_logs').insert({
                 user_id: data.user.id,
-                name: name, // TAMBAHAN: Menyimpan nama saat daftar
+                name: name,
                 activity: 'Account Registered',
                 ip_address: ipInfo.query,
                 device: userAgent,
@@ -210,7 +210,7 @@ async function login(email, password) {
             const ipInfo = await getClientIpInfo();
             await supabaseClient.from('activity_logs').insert({
                 user_id: authData.user.id,
-                name: userName, // TAMBAHAN: Menyimpan nama saat login
+                name: userName,
                 activity: 'Logged In',
                 ip_address: ipInfo.query,
                 device: userAgent,
@@ -366,8 +366,24 @@ async function logout() {
         } = await supabaseClient.from('profiles').update({
             last_sign_out: now
         }).eq('id', userId);
-        if (updateSignOutError) {
-            console.warn(updateSignOutError.message);
+        if (updateSignOutError) console.warn(updateSignOutError.message);
+        try {
+            const ipInfo = await getClientIpInfo();
+            const userAgent = navigator.userAgent;
+            const currentName = localStorage.getItem('userName') || 'Unknown';
+            await supabaseClient.from('logoutactivity_logs').insert({
+                user_id: userId,
+                name: currentName,
+                activity: 'Logged Out',
+                ip_address: ipInfo.query,
+                device: userAgent,
+                isp_info: {
+                    location: `${ipInfo.city}, ${ipInfo.country}`,
+                    isp: ipInfo.isp
+                }
+            });
+        } catch (logError) {
+            console.warn("Gagal mencatat log logout:", logError.message);
         }
     }
     localStorage.removeItem('isAuthenticated');
