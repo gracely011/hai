@@ -5758,7 +5758,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763997659.224076,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -6049,7 +6048,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763997675.185045,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -6340,7 +6338,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763997689.80729,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           }
@@ -6554,7 +6551,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763997696.563584,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -6866,7 +6862,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763997724.333831,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -13182,7 +13177,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763997647.304165,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -20216,7 +20210,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763997312.339718,
             "sameSite": "no_restriction",
             "domain": ".flaticon.com"
           },
@@ -20286,7 +20279,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763997375,
             "sameSite": "no_restriction",
             "domain": "www.flaticon.com"
           },
@@ -20485,7 +20477,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1763997292.619879,
             "sameSite": "no_restriction",
             "domain": ".flaticon.com"
           },
@@ -20554,7 +20545,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1763997357,
             "sameSite": "no_restriction",
             "domain": "www.flaticon.com"
           },
