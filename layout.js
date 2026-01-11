@@ -59,12 +59,9 @@ async function initializeWebsiteAnnouncement() {
         const modalContent = modalContainer.querySelector('.notificationModal-content');
         
         const showModal = () => {
-            // LOGIKA BARU: Cek apakah ada HTML custom?
             if (notifData.html) {
-                // Jika ada HTML custom, inject langsung ke container utama (timpa wrapper lama)
                 modalContainer.innerHTML = notifData.html;
             } else {
-                // Fallback ke logika lama (Title + Lines)
                 let contentParagraphs = '';
                 if (notifData.lines && Array.isArray(notifData.lines)) {
                     contentParagraphs = notifData.lines.map(line => `<p>${line}</p>`).join('');
@@ -77,7 +74,6 @@ async function initializeWebsiteAnnouncement() {
             modalContainer.style.visibility = 'visible';
             modalContainer.style.opacity = '1';
 
-            // Pasang Event Listener (Perlu pencarian ulang karena DOM baru saja dirender)
             const closeBtn = modalContainer.querySelector('#notification-close');
             const okBtn = modalContainer.querySelector('#notification-ok');
             
@@ -91,11 +87,10 @@ async function initializeWebsiteAnnouncement() {
             localStorage.setItem('websiteNotificationLastShownId', newNotifId);
         };
 
-        // Tampilkan jika: Belum pernah, Sudah lewat 1 hari, atau ID notif baru
         if (!lastShownTimestamp || timeDiff > oneDay || newNotifId !== lastShownId) {
             setTimeout(() => {
                 showModal();
-            }, 2000); // Delay dikit biar smooth
+            }, 2000);
         }
     } catch (error) {
         console.warn("Gagal memuat notifikasi website:", error);
@@ -110,13 +105,27 @@ async function runNotificationChecks() {
     await initializeWebsiteAnnouncement();
 }
 
+const languageDropdownHTML = `
+  <li class="nav-item nav-item-has-children">
+    <a href="javascript:void(0)"> <i class="fa fa-globe"></i> <span id="currentLangDisplay">EN</span></a>
+    <ul class="ud-submenu">
+      <li class="ud-submenu-link">
+        <a href="?lang=en" class="ud-submenu-link">English</a>
+      </li>
+      <li class="ud-submenu-link">
+        <a href="?lang=id" class="ud-submenu-link">Indonesia</a>
+      </li>
+    </ul>
+  </li>
+`;
+
 const defaultNavbarHTML = `
 <header class="ud-header">
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
         <nav class="navbar navbar-expand-lg">
-          <a class="navbar-brand" href="https://gracely011.github.io/hai/">
+          <a class="navbar-brand" href="index.html">
             <img src="assets/images/logo/gracely_mobile_white.png" alt="Logo" id="logo" />
           </a>
           <button class="navbar-toggler">
@@ -124,16 +133,17 @@ const defaultNavbarHTML = `
           </button>
           <div class="navbar-collapse">
             <ul id="nav" class="navbar-nav mx-auto">
-              <li class="nav-item"><a class="ud-menu-scroll" href="https://gracely011.github.io/hai">Home</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="https://gracely011.github.io/hai/#features">Features</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="https://gracely011.github.io/hai/#about">About</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="https://gracely011.github.io/hai/#pricing">Pricing</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="https://gracely011.github.io/hai/#services">Services</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="#home" data-i18n="nav_home">Home</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="#features" data-i18n="nav_features">Features</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="#about" data-i18n="nav_about">About</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="#pricing" data-i18n="nav_pricing">Pricing</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="#services" data-i18n="nav_services">Services</a></li>
+              ${languageDropdownHTML}
             </ul>
           </div>
           <div class="navbar-btn">
-            <a href="login.html" class="ud-main-btn ud-login-btn">Log In</a>
-            <a href="signup.html" class="ud-main-btn ud-white-btn">Sign Up</a>
+            <a href="login.html" class="ud-main-btn ud-login-btn" data-i18n="btn_login">Log In</a>
+            <a href="signup.html" class="ud-main-btn ud-white-btn" data-i18n="btn_signup">Sign Up</a>
           </div>
         </nav>
       </div>
@@ -148,7 +158,7 @@ const loggedInNavbarHTML = (userName) => `
     <div class="row">
       <div class="col-lg-12">
         <nav class="navbar navbar-expand-lg">
-          <a class="navbar-brand" href="https://gracely011.github.io/hai/">
+          <a class="navbar-brand" href="index.html">
              <img src="assets/images/logo/gracely_mobile_white.png" alt="Logo" id="logo" />
           </a>
           <button class="navbar-toggler">
@@ -156,11 +166,12 @@ const loggedInNavbarHTML = (userName) => `
           </button>
           <div class="navbar-collapse">
              <ul id="nav" class="navbar-nav mx-auto">
-              <li class="nav-item"><a class="ud-menu-scroll" href="https://gracely011.github.io/hai">Home</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="https://gracely011.github.io/hai/#features">Features</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="https://gracely011.github.io/hai/#about">About</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="https://gracely011.github.io/hai/#pricing">Pricing</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="https://gracely011.github.io/hai/#services">Services</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="#home" data-i18n="nav_home">Home</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="#features" data-i18n="nav_features">Features</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="#about" data-i18n="nav_about">About</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="#pricing" data-i18n="nav_pricing">Pricing</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="#services" data-i18n="nav_services">Services</a></li>
+              ${languageDropdownHTML}
             </ul>
           </div>
           <div class="navbar-btn">
@@ -193,7 +204,7 @@ const footerHTML = `
             <a href="./" class="ud-footer-logo">
               <img src="assets/images/logo/gracely_white.png" alt="logo" />
             </a>
-            <p class="ud-widget-desc">
+            <p class="ud-widget-desc" data-i18n="hero_title">
             Unlock Premium Together
             </p>
             <ul class="ud-widget-socials">
@@ -212,12 +223,12 @@ const footerHTML = `
         </div>
         <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
           <div class="ud-widget">
-            <h5 class="ud-widget-title">About</h5>
+            <h5 class="ud-widget-title" data-i18n="nav_about">About</h5>
             <ul class="ud-widget-links">
-              <li><a href="https://gracely011.github.io/hai/#features">Features</a></li>
-              <li><a href="https://gracely011.github.io/hai/#about">About</a></li>
-              <li><a href="https://gracely011.github.io/hai/#pricing">Pricing</a></li>
-              <li><a href="https://gracely011.github.io/hai/#services">Services</a></li>
+              <li><a href="#features" data-i18n="nav_features">Features</a></li>
+              <li><a href="#about" data-i18n="nav_about">About</a></li>
+              <li><a href="#pricing" data-i18n="nav_pricing">Pricing</a></li>
+              <li><a href="#services" data-i18n="nav_services">Services</a></li>
             </ul>
           </div>
         </div>
@@ -263,7 +274,6 @@ const footerHTML = `
       <div class="bg-white" style="margin-top:0px;height:23px"></div><div class="bg-white" style="margin-top:1px;height:22px"></div><div class="bg-white" style="margin-top:2px;height:21px"></div><div class="bg-white" style="margin-top:3px;height:20px"></div><div class="bg-white" style="margin-top:4px;height:19px"></div><div class="bg-white" style="margin-top:5px;height:18px"></div><div class="bg-white" style="margin-top:6px;height:17px"></div><div class="bg-white" style="margin-top:7px;height:16px"></div><div class="bg-white" style="margin-top:8px;height:15px"></div><div class="bg-white" style="margin-top:9px;height:14px"></div><div class="bg-white" style="margin-top:10px;height:13px"></div><div class="bg-white" style="margin-top:11px;height:12px"></div><div class="bg-white" style="margin-top:12px;height:11px"></div><div class="bg-white" style="margin-top:13px;height:10px"></div><div class="bg-white" style="margin-top:14px;height:9px"></div><div class="bg-white" style="margin-top:15px;height:8px"></div><div class="bg-white" style="margin-top:16px;height:7px"></div><div class="bg-white" style="margin-top:17px;height:6px"></div><div class="bg-white" style="margin-top:18px;height:5px"></div><div class="bg-white" style="margin-top:19px;height:4px"></div><div class="bg-white" style="margin-top:20px;height:3px"></div><div class="bg-white" style="margin-top:21px;height:2px"></div><div class="bg-white" style="margin-top:22px;height:1px"></div><div class="bg-white" style="margin-top:23px;height:0px"></div>
   </div>
 </footer>
-
 `;
 
 const backToTopHTML = `<a href="javascript:void(0)" class="back-to-top"><i class="fa-solid fa-arrow-up"></i></a>`;
@@ -276,7 +286,6 @@ function modifyIndexPageContent() {
     }
     if (typeof isAuthenticated === 'function' && isAuthenticated()) {
         const purchaseButton = document.querySelector('#home .ud-hero-buttons .ud-white-btn');
-        const demoButton = document.querySelector('#home .ud-hero-buttons .ud-link-btn');
         if (purchaseButton) {
             purchaseButton.textContent = 'Go to Dashboard';
             purchaseButton.href = 'dashboard.html';
@@ -317,5 +326,3 @@ function loadLayout() {
     runNotificationChecks();
 }
 document.addEventListener("DOMContentLoaded", loadLayout);
-
-
