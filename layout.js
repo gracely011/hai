@@ -308,9 +308,8 @@ const loggedInNavbarHTML = (userName) => `
           </div>
           <div class="navbar-btn d-flex align-items-center">
              ${getLanguageDropdownHTML()}
-             <a href="dashboard.html" class="ud-main-btn ud-login-btn d-flex align-items-center" style="gap: 8px; padding-left:15px; padding-right:15px;">
+             <a href="dashboard.html" class="ud-main-btn ud-login-btn">
                <i class="fa-solid fa-user"></i> 
-               <span style="font-weight: 600;">${userName}</span>
              </a>
              <button id="logout-button" class="ud-main-btn ud-white-btn ms-2" title="${t('logout')}" style="padding: 10px 15px;"><i class="fa fa-sign-out" aria-hidden="true"></i></button>
           </div>
@@ -450,6 +449,7 @@ function loadLayout() {
     
     if (navbarPlaceholder) {
         if (typeof isAuthenticated === 'function' && isAuthenticated()) {
+            // userName hanya diambil untuk konsistensi, tapi tidak ditampilkan
             const userName = localStorage.getItem("userName") || "Member";
             navbarPlaceholder.innerHTML = loggedInNavbarHTML(userName);
             
