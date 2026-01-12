@@ -14,68 +14,32 @@ const announcementBarHTML = `
 
 const translations = {
     en: {
-        home: "Home",
-        features: "Features",
-        about: "About",
-        pricing: "Pricing",
-        services: "Services",
-        login: "Log In",
-        signup: "Sign Up",
-        dashboard: "Dashboard",
-        logout: "Log Out",
-        view_dashboard: "View dashboard",
-        purchase_premium: "Purchase premium",
-        privacy: "Privacy Policy",
-        terms: "Terms of Service",
-        contact: "Contact Us",
+        home: "Home", features: "Features", about: "About", pricing: "Pricing", services: "Services",
+        login: "Log In", signup: "Sign Up", dashboard: "Dashboard", logout: "Log Out",
+        view_dashboard: "View dashboard", purchase_premium: "Purchase premium",
+        privacy: "Privacy Policy", terms: "Terms of Service", contact: "Contact Us",
         unlock_premium: "Unlock Premium Together",
         hero_title: "Gracely <br> Unlock Premium Together",
-        hero_desc: "Unlock premium experiences together with our one-click access extension. Join us and start enjoying premium content without the premium price tag.",
-        hero_btn_purchase: "Get started",
-        hero_btn_dashboard: "Dashboard",
-        hero_btn_watch: " Watch Demo",
-        feat_title: "Explore Our Features",
-        feat_desc: "Uncover the power of Gracely.",
-        price_title: "Explore Our Pricing Plans",
-        price_desc: "Find the Perfect Fit for Your Needs.",
-        price_popular: "POPULAR",
-        price_start: "STARTING FROM",
-        price_unit: "/ 30 DAYS",
-        serv_title: "Discover Premium Account Services",
-        serv_desc: "Real-time updates, number of services can increase or decrease at any time.",
-        serv_check_dash: "Check full list on Dashboard after login."
+        hero_desc: "Unlock premium experiences together with our one-click access extension.",
+        hero_btn_purchase: "Get Started", hero_btn_dashboard: "Dashboard", hero_btn_watch: " Watch Demo",
+        feat_title: "Explore Our Features", feat_desc: "Uncover the power of Gracely.",
+        price_title: "Explore Our Pricing Plans", price_desc: "Find the Perfect Fit for Your Needs.",
+        price_popular: "POPULAR", price_start: "STARTING FROM", price_unit: "/ 30 DAYS",
+        serv_title: "Discover Premium Account Services", serv_desc: "Real-time updates.", serv_check_dash: "Check full list on Dashboard."
     },
     id: {
-        home: "Beranda",
-        features: "Fitur",
-        about: "Tentang",
-        pricing: "Harga",
-        services: "Layanan",
-        login: "Masuk",
-        signup: "Daftar",
-        dashboard: "Dasbor",
-        logout: "Keluar",
-        view_dashboard: "Lihat Dasbor",
-        purchase_premium: "Beli Premium",
-        privacy: "Kebijakan Privasi",
-        terms: "Syarat Layanan",
-        contact: "Hubungi Kami",
+        home: "Beranda", features: "Fitur", about: "Tentang", pricing: "Harga", services: "Layanan",
+        login: "Masuk", signup: "Daftar", dashboard: "Dasbor", logout: "Keluar",
+        view_dashboard: "Lihat Dasbor", purchase_premium: "Beli Premium",
+        privacy: "Kebijakan Privasi", terms: "Syarat Layanan", contact: "Hubungi Kami",
         unlock_premium: "Buka Premium Bersama",
         hero_title: "Gracely <br> Buka Premium Bersama",
-        hero_desc: "Nikmati pengalaman premium bersama dengan ekstensi akses satu klik kami. Bergabunglah dan nikmati konten premium tanpa harga mahal.",
-        hero_btn_purchase: "Mulai Sekarang",
-        hero_btn_dashboard: "Buka Dasbor",
-        hero_btn_watch: " Tonton Demo",
-        feat_title: "Jelajahi Fitur Kami",
-        feat_desc: "Temukan kekuatan Gracely.",
-        price_title: "Pilihan Paket Harga",
-        price_desc: "Temukan yang paling pas untuk kebutuhan Anda.",
-        price_popular: "POPULER",
-        price_start: "MULAI DARI",
-        price_unit: "/ 30 HARI",
-        serv_title: "Layanan Akun Premium",
-        serv_desc: "Pembaruan waktu nyata, jumlah layanan dapat bertambah atau berkurang kapan saja.",
-        serv_check_dash: "Lihat daftar lengkap di Dasbor setelah masuk."
+        hero_desc: "Nikmati pengalaman premium bersama dengan ekstensi akses satu klik kami.",
+        hero_btn_purchase: "Mulai Sekarang", hero_btn_dashboard: "Buka Dasbor", hero_btn_watch: " Tonton Demo",
+        feat_title: "Jelajahi Fitur Kami", feat_desc: "Temukan kekuatan Gracely.",
+        price_title: "Pilihan Paket Harga", price_desc: "Temukan yang paling pas untuk Anda.",
+        price_popular: "POPULER", price_start: "MULAI DARI", price_unit: "/ 30 HARI",
+        serv_title: "Layanan Akun Premium", serv_desc: "Pembaruan waktu nyata.", serv_check_dash: "Lihat daftar lengkap di Dasbor."
     },
     my: { 
         home: "Utama", features: "Ciri", about: "Tentang", pricing: "Harga", services: "Perkhidmatan", 
@@ -180,12 +144,8 @@ const translations = {
 function getCurrentLang() {
     const urlParams = new URLSearchParams(window.location.search);
     let lang = urlParams.get('lang');
-    if (lang) {
-        localStorage.setItem('gracely_lang', lang);
-    } else {
-        lang = localStorage.getItem('gracely_lang') || 'en';
-    }
-    
+    if (lang) { localStorage.setItem('gracely_lang', lang); } 
+    else { lang = localStorage.getItem('gracely_lang') || 'en'; }
     const langMap = {
         'en': { flag: 'us', name: 'English' },
         'id': { flag: 'id', name: 'Indonesia' },
@@ -210,10 +170,8 @@ function t(key) {
 function translatePageContent() {
     const heroTitle = document.querySelector('.ud-hero-title');
     if (heroTitle) heroTitle.innerHTML = t('hero_title');
-
     const heroDesc = document.querySelector('.ud-hero-desc');
     if (heroDesc) heroDesc.textContent = t('hero_desc');
-
     const heroBtnWhite = document.querySelector('.ud-hero-buttons .ud-white-btn');
     if (heroBtnWhite) {
         if(heroBtnWhite.getAttribute('href') && heroBtnWhite.getAttribute('href').includes('dashboard')) {
@@ -224,42 +182,30 @@ function translatePageContent() {
              if(icon) heroBtnWhite.appendChild(icon);
         }
     }
-
     const heroBtnLink = document.querySelector('.ud-hero-buttons .ud-link-btn');
     if (heroBtnLink) heroBtnLink.innerHTML = `<i class="fa fa-play-circle" aria-hidden="true"></i> ${t('hero_btn_watch')}`;
-
     const featTitle = document.querySelector('.ud-features .ud-section-title h2');
     if (featTitle) featTitle.textContent = t('feat_title');
-    
     const featDesc = document.querySelector('.ud-features .ud-section-title p');
     if (featDesc) featDesc.textContent = t('feat_desc');
-
     const priceTitle = document.querySelector('.ud-pricing .ud-section-title h2');
     if (priceTitle) priceTitle.textContent = t('price_title');
-
     const priceDesc = document.querySelector('.ud-pricing .ud-section-title p');
     if (priceDesc) priceDesc.textContent = t('price_desc');
-
     const popularTag = document.querySelector('.ud-popular-tag');
     if (popularTag) popularTag.innerHTML = `<i class="fa fa-star"></i> ${t('price_popular')} <i class="fa fa-star"></i>`;
-
     const priceStart = document.querySelector('.ud-pricing-header h3');
     if (priceStart) priceStart.textContent = t('price_start');
-
     const priceUnit = document.querySelector('.ud-pricing-header h4 span');
     if (priceUnit) priceUnit.textContent = t('price_unit');
-    
     const priceBtns = document.querySelectorAll('.ud-pricing-footer .ud-main-btn');
     priceBtns.forEach(btn => {
         btn.textContent = t('purchase_premium');
     });
-
     const servTitle = document.querySelector('.ud-team .ud-section-title h2');
     if (servTitle) servTitle.textContent = t('serv_title');
-
     const servDesc = document.querySelector('.ud-team .ud-section-title p');
     if (servDesc) servDesc.textContent = t('serv_desc');
-    
     const servChecks = document.querySelectorAll('.ud-team .text-center a.ud-main-btn');
     servChecks.forEach(btn => {
         btn.textContent = t('serv_check_dash');
@@ -270,22 +216,19 @@ function getLanguageDropdownHTML() {
     const current = getCurrentLang();
     return `
     <div class="nav-item dropdown d-inline-block me-2">
-        <a class="ud-main-btn ud-login-btn text-center dropdown-toggle" 
-           href="#" role="button" data-bs-toggle="dropdown" 
-           aria-expanded="false" style="padding: 10px 15px; display: inline-flex; align-items: center; gap: 5px;"> 
-            <span class="flag-icon flag-icon-${current.flag}"></span> 
-            <span class="d-none d-md-inline">${current.name}</span>
+        <a class="ud-main-btn ud-login-btn text-center dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding: 10px 15px; display: inline-flex; align-items: center; gap: 5px;"> 
+            <span class="flag-icon flag-icon-${current.flag}"></span> <span class="d-none d-md-inline">${current.name}</span>
         </a>
         <ul class="dropdown-menu dropdown-menu-end">
-            <li><a class="dropdown-item ${current.flag === 'us' ? 'active' : ''}" href="?lang=en"><span class="flag-icon flag-icon-us me-2"></span> English</a></li>
-            <li><a class="dropdown-item ${current.flag === 'id' ? 'active' : ''}" href="?lang=id"><span class="flag-icon flag-icon-id me-2"></span> Indonesia</a></li>
-            <li><a class="dropdown-item ${current.flag === 'my' ? 'active' : ''}" href="?lang=my"><span class="flag-icon flag-icon-my me-2"></span> Melayu</a></li>
-            <li><a class="dropdown-item ${current.flag === 'ph' ? 'active' : ''}" href="?lang=ph"><span class="flag-icon flag-icon-ph me-2"></span> Filipino</a></li>
-            <li><a class="dropdown-item ${current.flag === 'vn' ? 'active' : ''}" href="?lang=vn"><span class="flag-icon flag-icon-vn me-2"></span> Tiếng Việt</a></li>
-            <li><a class="dropdown-item ${current.flag === 'th' ? 'active' : ''}" href="?lang=th"><span class="flag-icon flag-icon-th me-2"></span> ไทย</a></li>
-            <li><a class="dropdown-item ${current.flag === 'cn' ? 'active' : ''}" href="?lang=cn"><span class="flag-icon flag-icon-cn me-2"></span> 中文</a></li>
-            <li><a class="dropdown-item ${current.flag === 'jp' ? 'active' : ''}" href="?lang=jp"><span class="flag-icon flag-icon-jp me-2"></span> 日本語</a></li>
-            <li><a class="dropdown-item ${current.flag === 'kr' ? 'active' : ''}" href="?lang=kr"><span class="flag-icon flag-icon-kr me-2"></span> 한국어</a></li>
+            <li><a class="dropdown-item" href="?lang=en"><span class="flag-icon flag-icon-us me-2"></span> English</a></li>
+            <li><a class="dropdown-item" href="?lang=id"><span class="flag-icon flag-icon-id me-2"></span> Indonesia</a></li>
+            <li><a class="dropdown-item" href="?lang=my"><span class="flag-icon flag-icon-my me-2"></span> Melayu</a></li>
+            <li><a class="dropdown-item" href="?lang=ph"><span class="flag-icon flag-icon-ph me-2"></span> Filipino</a></li>
+            <li><a class="dropdown-item" href="?lang=vn"><span class="flag-icon flag-icon-vn me-2"></span> Tiếng Việt</a></li>
+            <li><a class="dropdown-item" href="?lang=th"><span class="flag-icon flag-icon-th me-2"></span> ไทย</a></li>
+            <li><a class="dropdown-item" href="?lang=cn"><span class="flag-icon flag-icon-cn me-2"></span> 中文</a></li>
+            <li><a class="dropdown-item" href="?lang=jp"><span class="flag-icon flag-icon-jp me-2"></span> 日本語</a></li>
+            <li><a class="dropdown-item" href="?lang=kr"><span class="flag-icon flag-icon-kr me-2"></span> 한국어</a></li>
         </ul>
     </div>`;
 }
@@ -300,11 +243,9 @@ async function checkPremiumExpiryWarning() {
         const timeLeft = expiryDate.getTime() - now.getTime();
         const daysLeft = Math.ceil(timeLeft / (1000 * 60 * 60 * 24));
         if (daysLeft > 4 || daysLeft <= 0) return false;
-
         const modalContainer = document.getElementById('notification-0');
         if(!modalContainer) return false; 
         const modalContent = modalContainer.querySelector('.notificationModal-content');
-        
         const showExpiryModal = () => {
             const modalHTML = ` 
                 <i class="fa fa-times gracely-modal-close-icon" id="notification-close"></i> 
@@ -318,7 +259,6 @@ async function checkPremiumExpiryWarning() {
             modalContainer.style.display = 'flex';
             modalContainer.style.visibility = 'visible';
             modalContainer.style.opacity = '1';
-
             const closeModal = () => { modalContainer.style.display = 'none'; };
             const closeBtn = modalContainer.querySelector('#notification-close');
             const okBtn = modalContainer.querySelector('#notification-ok');
@@ -337,24 +277,19 @@ async function initializeWebsiteAnnouncement() {
         const configResponse = await fetch('aturhonma.js');
         if (!configResponse.ok) return;
         const configText = await configResponse.text();
-        
         const gracelyConfig = JSON.parse(configText.replace('const gracelyConfig =', '').trim().replace(/;$/, ''));
         const notifData = gracelyConfig.notifications?.announcement;
-        
         if (!notifData || !notifData.enabled || !notifData.id) {
             return;
         }
-
         const newNotifId = notifData.id;
         const lastShownTimestamp = localStorage.getItem('websiteNotificationLastShown');
         const lastShownId = localStorage.getItem('websiteNotificationLastShownId');
         const oneDay = 24 * 60 * 60 * 1000;
         const timeDiff = Date.now() - parseInt(lastShownTimestamp || '0');
-        
         const modalContainer = document.getElementById('notification-0');
         if(!modalContainer) return;
         const modalContent = modalContainer.querySelector('.notificationModal-content');
-        
         const showModal = () => {
             if (notifData.html) {
                 modalContainer.innerHTML = notifData.html;
@@ -371,11 +306,9 @@ async function initializeWebsiteAnnouncement() {
                 `;
                 modalContent.innerHTML = notificationHTML;
             }
-
             modalContainer.style.display = 'flex';
             modalContainer.style.visibility = 'visible';
             modalContainer.style.opacity = '1';
-
             const closeBtn = modalContainer.querySelector('#notification-close');
             const okBtn = modalContainer.querySelector('#notification-ok');
             const closeModal = () => {
@@ -383,11 +316,9 @@ async function initializeWebsiteAnnouncement() {
                 localStorage.setItem('websiteNotificationLastShown', Date.now().toString());
                 localStorage.setItem('websiteNotificationLastShownId', newNotifId);
             };
-            
             if (closeBtn) closeBtn.addEventListener('click', closeModal);
             if (okBtn) okBtn.addEventListener('click', closeModal);
         };
-
         if (!lastShownTimestamp || timeDiff > oneDay || newNotifId !== lastShownId) {
             setTimeout(() => {
                 showModal();
@@ -420,16 +351,16 @@ const defaultNavbarHTML = () => `
           </button>
           <div class="navbar-collapse">
             <ul id="nav" class="navbar-nav mx-auto">
-              <li class="nav-item"><a class="ud-menu-scroll" href="index.html">${t('home')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#home">${t('home')}</a></li>
               <li class="nav-item"><a class="ud-menu-scroll" href="index.html#features">${t('features')}</a></li>
               <li class="nav-item"><a class="ud-menu-scroll" href="index.html#about">${t('about')}</a></li>
               <li class="nav-item"><a class="ud-menu-scroll" href="index.html#pricing">${t('pricing')}</a></li>
               <li class="nav-item"><a class="ud-menu-scroll" href="index.html#services">${t('services')}</a></li>
             </ul>
           </div>
-          <div class="navbar-btn">
+          <div class="navbar-btn d-flex align-items-center">
             ${getLanguageDropdownHTML()}
-            <a href="login.html" class="ud-main-btn ud-login-btn">${t('login')}</a>
+            <a href="login.html" class="ud-main-btn ud-white-btn" style="padding: 10px 25px;">${t('login')}</a>
           </div>
         </nav>
       </div>
@@ -452,7 +383,7 @@ const loggedInNavbarHTML = (userName) => `
           </button>
           <div class="navbar-collapse">
              <ul id="nav" class="navbar-nav mx-auto">
-              <li class="nav-item"><a class="ud-menu-scroll" href="index.html">${t('home')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#home">${t('home')}</a></li>
               <li class="nav-item"><a class="ud-menu-scroll" href="index.html#features">${t('features')}</a></li>
               <li class="nav-item"><a class="ud-menu-scroll" href="index.html#about">${t('about')}</a></li>
               <li class="nav-item"><a class="ud-menu-scroll" href="index.html#pricing">${t('pricing')}</a></li>
@@ -464,7 +395,9 @@ const loggedInNavbarHTML = (userName) => `
              <a href="dashboard.html" class="ud-main-btn ud-login-btn" title="${t('dashboard')}">
                <i class="fa-solid fa-user"></i> 
              </a>
-             <button id="logout-button" class="ud-main-btn ud-white-btn ms-2" title="${t('logout')}" style="padding: 10px 15px;"><i class="fa fa-sign-out" aria-hidden="true"></i></button>
+             <button id="logout-button" class="ud-main-btn ud-white-btn ms-2" title="${t('logout')}" style="padding: 10px 15px;">
+                <i class="fa fa-sign-out" aria-hidden="true"></i>
+             </button>
           </div>
         </nav>
       </div>
@@ -475,23 +408,15 @@ const loggedInNavbarHTML = (userName) => `
 
 const footerHTML = `
 <footer class="ud-footer" data-wow-delay=".15s">
-  <div class="shape shape-1">
-    <img src="assets/images/footer/leftshape.png" alt="shape" />
-  </div>
-  <div class="shape shape-2">
-    <img src="assets/images/footer/dotted-shape.svg" alt="shape" />
-  </div>
-  <div class="shape shape-3">
-    <img src="assets/images/footer/rightshape.png" alt="shape" />
-  </div>
+  <div class="shape shape-1"><img src="assets/images/footer/leftshape.png" alt="shape" /></div>
+  <div class="shape shape-2"><img src="assets/images/footer/dotted-shape.svg" alt="shape" /></div>
+  <div class="shape shape-3"><img src="assets/images/footer/rightshape.png" alt="shape" /></div>
   <div class="ud-footer-widgets">
     <div class="container">
       <div class="row">
         <div class="col-xl-3 col-lg-4 col-md-6">
           <div class="ud-widget">
-            <a href="./" class="ud-footer-logo">
-              <img src="assets/images/logo/gracely_white.png" alt="logo" />
-            </a>
+            <a href="./" class="ud-footer-logo"><img src="assets/images/logo/gracely_white.png" alt="logo" /></a>
             <p class="ud-widget-desc">${t('unlock_premium')}</p>
             <ul class="ud-widget-socials">
               <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
@@ -513,8 +438,8 @@ const footerHTML = `
           <div class="ud-widget">
             <h5 class="ud-widget-title">${t('dashboard')}</h5>
             <ul class="ud-widget-links">
-              <li><a href="dashboard.html">${t('view_dashboard')} <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
-              <li><a href="premium.html">${t('purchase_premium')} <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+              <li><a href="dashboard.html">${t('view_dashboard')}</a></li>
+              <li><a href="premium.html">${t('purchase_premium')}</a></li>
             </ul>
           </div>
         </div>
@@ -531,9 +456,7 @@ const footerHTML = `
             <li><a href="#contact">${t('contact')}</a></li>
           </ul>
         </div>
-        <div class="col-md-4">
-          <p class="ud-footer-bottom-right">Gracely &copy; 2025</p>
-        </div>
+        <div class="col-md-4"><p class="ud-footer-bottom-right">Gracely &copy; 2025</p></div>
       </div>
     </div>
   </div>
@@ -606,26 +529,19 @@ function loadLayout() {
         if (typeof isAuthenticated === 'function' && isAuthenticated()) {
             const userName = localStorage.getItem("userName") || "Member";
             navbarPlaceholder.innerHTML = loggedInNavbarHTML(userName);
-            
             setTimeout(() => {
                 const logoutBtn = document.getElementById('logout-button');
                 if(logoutBtn && typeof logout === 'function') {
-                    logoutBtn.addEventListener('click', (e) => {
-                        e.preventDefault();
-                        logout();
-                    });
+                    logoutBtn.addEventListener('click', (e) => { e.preventDefault(); logout(); });
                 }
             }, 500);
-
             if (typeof eraseCookie === 'function') eraseCookie('UnangJahaCookieOnLae');
         } else {
             navbarPlaceholder.innerHTML = defaultNavbarHTML();
         }
     }
 
-    if (typeof initializeScripts === 'function') {
-        initializeScripts();
-    }
+    if (typeof initializeScripts === 'function') { initializeScripts(); }
     
     translatePageContent();
     modifyIndexPageContent();
