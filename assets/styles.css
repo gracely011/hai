@@ -522,3 +522,145 @@
     font-size: 12px;
     color: #a0a0a0;
 }
+
+/* --- Custom Styles for Black Language Switcher Dropdown --- */
+/* Target the dropdown menu itself to make it black */
+.navbar-btn .dropdown-menu {
+    background-color: #000000; /* Black background */
+    border: 1px solid #333333; /* Dark border */
+    border-radius: 8px; /* Slightly rounded corners */
+    min-width: 110px; /* Increased slightly to fit flags */
+}
+
+/* Style the links (dropdown items) */
+.navbar-btn .dropdown-item {
+    color: #ffffff; /* White text color for non-active links */
+    padding: 8px 15px;
+    transition: background-color 0.2s, color 0.2s;
+    display: flex;
+    align-items: center;
+}
+
+/* Style on hover for non-active links */
+.navbar-btn .dropdown-item:hover, 
+.navbar-btn .dropdown-item:focus {
+    background-color: #333333; /* Darker gray background on hover */
+    color: #ffffff; /* Keep text white on hover */
+}
+
+/* Style for the active link (current selected language) */
+.navbar-btn .dropdown-item.active {
+    background-color: #333333; /* Active item background (e.g., dark gray) */
+    color: #ffffff; /* Active item text color (white) */
+    font-weight: bold;
+}
+/* --- End Custom Styles --- */
+
+.pagination {
+  display: flex;
+  justify-content: center; /* This centers the pagination */
+  padding-left: 0;
+  list-style: none;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.page-link:focus{
+    box-shadow: 0 0 0 0px;
+    color: #000;
+}
+
+.page-item .page-link {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #dee2e6;
+  text-decoration: none; /* No underline */
+  margin: 0 2px;
+  font-weight: normal;
+}
+
+/* Remove hover effects */
+.page-item .page-link:hover {
+    text-decoration: none; /* Ensure no underline on hover */
+    color: #000;
+}
+
+/* Style for the active page */
+.page-item.active .page-link {
+  z-index: 3;
+  color: #fff;
+  background-color: #000000; /* Black background for active */
+  border-color: #000000; /* Black border for active */
+  font-weight: bold;
+}
+
+.page-item.active .page-link:hover {
+    color: #fff; /* Keep white text color on hover for active link */
+    background-color: #1c1c1c;
+}
+
+.page-item.disabled .page-link {
+  color: #6c757d;
+  pointer-events: none;
+  background-color: #fff;
+  border-color: #dee2e6;
+}
+
+.logs-subtitle{
+    text-align: center;
+}
+
+/* Testimonial Carousel Styles */
+#testimonialCarousel {
+  padding-bottom: 60px; /* Add space for indicators */
+}
+
+#testimonialCarousel .carousel-indicators {
+  bottom: 0; /* Position indicators at the bottom */
+}
+
+#testimonialCarousel .carousel-indicators button {
+  background-color: #ccc; /* Inactive indicator color */
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  margin: 0 5px;
+  opacity: 0.7;
+}
+
+#testimonialCarousel .carousel-indicators .active {
+  background-color: #000; /* Active indicator color */
+  opacity: 1;
+}
+
+#testimonialCarousel .ud-single-testimonial {
+  margin-bottom: 0; /* Remove default bottom margin */
+}
+
+/* Style for the flag SVG size and spacing */
+.flag-icon {
+    /* Flag Icon CSS library defines its own size, often 1em or 16px */
+    width: 20px; /* Adjust size of flag container */
+    height: 15px;
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    margin-right: 8px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5); /* Optional: small shadow for better visibility */
+    display: inline-block;
+}
+
+/* Ensure the flag in the button is centered and sized correctly */
+.navbar-btn .dropdown-toggle .flag-icon {
+    margin-right: 5px;
+}
+
+.ud-single-pricing .ud-alt-tag {
+  display: inline-block;
+  padding: 10px 25px;
+  background: #000;
+  border-radius: 30px;
+  color: #fff;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
