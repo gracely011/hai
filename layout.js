@@ -12,6 +12,83 @@ const announcementBarHTML = `
   The only official Gracely website is https://gracely011.github.io/hai/. Please be aware of fake websites.
 </div>`;
 
+const translations = {
+    en: {
+        home: "Home",
+        features: "Features",
+        about: "About",
+        pricing: "Pricing",
+        services: "Services",
+        login: "Log In",
+        signup: "Sign Up",
+        dashboard: "Dashboard",
+        logout: "Log Out",
+        view_dashboard: "View dashboard",
+        purchase_premium: "Purchase premium",
+        privacy: "Privacy Policy",
+        terms: "Terms of Service",
+        contact: "Contact Us"
+    },
+    id: {
+        home: "Beranda",
+        features: "Fitur",
+        about: "Tentang",
+        pricing: "Harga",
+        services: "Layanan",
+        login: "Masuk",
+        signup: "Daftar",
+        dashboard: "Dasbor",
+        logout: "Keluar",
+        view_dashboard: "Lihat Dasbor",
+        purchase_premium: "Beli Premium",
+        privacy: "Kebijakan Privasi",
+        terms: "Syarat Layanan",
+        contact: "Hubungi Kami"
+    },
+    my: { 
+        home: "Utama", features: "Ciri", about: "Tentang", pricing: "Harga", services: "Perkhidmatan", 
+        login: "Log Masuk", signup: "Daftar", dashboard: "Papan Pemuka", logout: "Log Keluar",
+        view_dashboard: "Lihat Papan Pemuka", purchase_premium: "Beli Premium", 
+        privacy: "Dasar Privasi", terms: "Syarat Perkhidmatan", contact: "Hubungi Kami"
+    },
+    ph: { 
+        home: "Bahay", features: "Tampok", about: "Tungkol", pricing: "Presyo", services: "Serbisyo", 
+        login: "Mag-login", signup: "Mag-sign up", dashboard: "Dashboard", logout: "Mag-log out",
+        view_dashboard: "Tingnan ang Dashboard", purchase_premium: "Bumili ng Premium", 
+        privacy: "Patakaran sa Privacy", terms: "Mga Tuntunin ng Serbisyo", contact: "Makipag-ugnayan"
+    },
+    vn: { 
+        home: "Trang chủ", features: "Tính năng", about: "Giới thiệu", pricing: "Giá cả", services: "Dịch vụ", 
+        login: "Đăng nhập", signup: "Đăng ký", dashboard: "Bảng điều khiển", logout: "Đăng xuất",
+        view_dashboard: "Xem Bảng điều khiển", purchase_premium: "Mua Premium", 
+        privacy: "Chính sách bảo mật", terms: "Điều khoản dịch vụ", contact: "Liên hệ"
+    },
+    th: { 
+        home: "หน้าแรก", features: "คุณสมบัติ", about: "เกี่ยวกับ", pricing: "ราคา", services: "บริการ", 
+        login: "เข้าสู่ระบบ", signup: "ลงชื่อใช้", dashboard: "แผงควบคุม", logout: "ออกจากระบบ",
+        view_dashboard: "ดูแผงควบคุม", purchase_premium: "ซื้อพรีเมียม", 
+        privacy: "นโยบายความเป็นส่วนตัว", terms: "เงื่อนไขการให้บริการ", contact: "ติดต่อเรา"
+    },
+    cn: { 
+        home: "首页", features: "特征", about: "关于", pricing: "价格", services: "服务", 
+        login: "登录", signup: "注册", dashboard: "仪表板", logout: "登出",
+        view_dashboard: "查看仪表板", purchase_premium: "购买高级版", 
+        privacy: "隐私政策", terms: "服务条款", contact: "联系我们"
+    },
+    jp: { 
+        home: "ホーム", features: "特徴", about: "約", pricing: "価格", services: "サービス", 
+        login: "ログイン", signup: "サインアップ", dashboard: "ダッシュボード", logout: "ログアウト",
+        view_dashboard: "ダッシュボードを表示", purchase_premium: "プレミアムを購入", 
+        privacy: "プライバシーポリシー", terms: "利用規約", contact: "お問い合わせ"
+    },
+    kr: { 
+        home: "홈", features: "특징", about: "약", pricing: "가격", services: "서비스", 
+        login: "로그인", signup: "가입하기", dashboard: "대시보드", logout: "로그아웃",
+        view_dashboard: "대시보드 보기", purchase_premium: "프리미엄 구매", 
+        privacy: "개인정보 처리방침", terms: "서비스 약관", contact: "문의하기"
+    }
+};
+
 function getCurrentLang() {
     const urlParams = new URLSearchParams(window.location.search);
     const lang = urlParams.get('lang') || 'en';
@@ -27,7 +104,13 @@ function getCurrentLang() {
         'jp': { flag: 'jp', name: '日本語' },
         'kr': { flag: 'kr', name: '한국어' }
     };
-    return langMap[lang] ? langMap[lang] : langMap['en'];
+    return langMap[lang] ? { ...langMap[lang], code: lang } : { ...langMap['en'], code: 'en' };
+}
+
+function t(key) {
+    const current = getCurrentLang().code;
+    const langData = translations[current] || translations['en'];
+    return langData[key] || key;
 }
 
 function getLanguageDropdownHTML() {
@@ -36,8 +119,8 @@ function getLanguageDropdownHTML() {
     <div class="nav-item dropdown d-inline-block me-2">
         <a class="ud-main-btn ud-login-btn text-center dropdown-toggle" 
            href="#" role="button" data-bs-toggle="dropdown" 
-           aria-expanded="false" style="padding: 10px 15px;"> 
-            <span class="flag-icon flag-icon-${current.flag} me-1"></span> 
+           aria-expanded="false" style="padding: 10px 15px; display: inline-flex; align-items: center; gap: 5px;"> 
+            <span class="flag-icon flag-icon-${current.flag}"></span> 
             <span class="d-none d-md-inline">${current.name}</span>
         </a>
         <ul class="dropdown-menu dropdown-menu-end">
@@ -185,17 +268,17 @@ const defaultNavbarHTML = () => `
           </button>
           <div class="navbar-collapse">
             <ul id="nav" class="navbar-nav mx-auto">
-              <li class="nav-item"><a class="ud-menu-scroll" href="index.html">Home</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#features">Features</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#about">About</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#pricing">Pricing</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#services">Services</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="index.html">${t('home')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#features">${t('features')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#about">${t('about')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#pricing">${t('pricing')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#services">${t('services')}</a></li>
             </ul>
           </div>
           <div class="navbar-btn">
             ${getLanguageDropdownHTML()}
-            <a href="dashboard.html" class="ud-main-btn ud-login-btn"><i class="fa-solid fa-user"></i></a>
-            <a href="login.html" class="ud-main-btn ud-white-btn"><i class="fa fa-sign-in" aria-hidden="true"></i></a>
+            <a href="login.html" class="ud-main-btn ud-login-btn">${t('login')}</a>
+            <a href="signup.html" class="ud-main-btn ud-white-btn">${t('signup')}</a>
           </div>
         </nav>
       </div>
@@ -218,15 +301,18 @@ const loggedInNavbarHTML = (userName) => `
           </button>
           <div class="navbar-collapse">
              <ul id="nav" class="navbar-nav mx-auto">
-              <li class="nav-item"><a class="ud-menu-scroll" href="index.html">Home</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="dashboard.html">Dashboard</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#services">Services</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="index.html">${t('home')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="dashboard.html">${t('dashboard')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#services">${t('services')}</a></li>
             </ul>
           </div>
-          <div class="navbar-btn">
+          <div class="navbar-btn d-flex align-items-center">
              ${getLanguageDropdownHTML()}
-             <a href="dashboard.html" class="ud-main-btn ud-login-btn"><i class="fa-solid fa-user"></i> ${userName}</a>
-             <button id="logout-button" class="ud-main-btn ud-white-btn"><i class="fa fa-sign-out" aria-hidden="true"></i></button>
+             <a href="dashboard.html" class="ud-main-btn ud-login-btn d-flex align-items-center" style="gap: 8px; padding-left:15px; padding-right:15px;">
+               <i class="fa-solid fa-user"></i> 
+               <span style="font-weight: 600;">${userName}</span>
+             </a>
+             <button id="logout-button" class="ud-main-btn ud-white-btn ms-2" title="${t('logout')}" style="padding: 10px 15px;"><i class="fa fa-sign-out" aria-hidden="true"></i></button>
           </div>
         </nav>
       </div>
@@ -263,20 +349,20 @@ const footerHTML = `
         </div>
         <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
           <div class="ud-widget">
-            <h5 class="ud-widget-title">About</h5>
+            <h5 class="ud-widget-title">${t('about')}</h5>
             <ul class="ud-widget-links">
-              <li><a href="index.html#features">Features</a></li>
-              <li><a href="index.html#about">About</a></li>
-              <li><a href="index.html#pricing">Pricing</a></li>
+              <li><a href="index.html#features">${t('features')}</a></li>
+              <li><a href="index.html#about">${t('about')}</a></li>
+              <li><a href="index.html#pricing">${t('pricing')}</a></li>
             </ul>
           </div>
         </div>
         <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
           <div class="ud-widget">
-            <h5 class="ud-widget-title">Dashboard</h5>
+            <h5 class="ud-widget-title">${t('dashboard')}</h5>
             <ul class="ud-widget-links">
-              <li><a href="dashboard.html">View dashboard <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
-              <li><a href="premium.html">Purchase premium <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+              <li><a href="dashboard.html">${t('view_dashboard')} <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+              <li><a href="premium.html">${t('purchase_premium')} <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
             </ul>
           </div>
         </div>
@@ -288,9 +374,9 @@ const footerHTML = `
       <div class="row">
         <div class="col-md-8">
           <ul class="ud-footer-bottom-left">
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms of Service</a></li>
-            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#">${t('privacy')}</a></li>
+            <li><a href="#">${t('terms')}</a></li>
+            <li><a href="#contact">${t('contact')}</a></li>
           </ul>
         </div>
         <div class="col-md-4">
@@ -338,7 +424,7 @@ function modifyIndexPageContent() {
     if (typeof isAuthenticated === 'function' && isAuthenticated()) {
         const purchaseButton = document.querySelector('.ud-hero-buttons .ud-white-btn'); 
         if (purchaseButton) {
-            purchaseButton.textContent = 'Go to Dashboard';
+            purchaseButton.textContent = t('dashboard'); 
             purchaseButton.href = 'dashboard.html';
             purchaseButton.removeAttribute('target');
         }
@@ -364,7 +450,7 @@ function loadLayout() {
     
     if (navbarPlaceholder) {
         if (typeof isAuthenticated === 'function' && isAuthenticated()) {
-            const userName = localStorage.getItem("userName") || "User";
+            const userName = localStorage.getItem("userName") || "Member";
             navbarPlaceholder.innerHTML = loggedInNavbarHTML(userName);
             
             setTimeout(() => {
