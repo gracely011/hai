@@ -1,32 +1,41 @@
-const announcementBarHTML = ``;
+/* layout.js - Updated with Groupy Theme */
 
+const announcementBarHTML = `
+<div class="announcement-bar">
+  The only official Gracely website is https://gracely011.github.io/hai/. Please be aware of fake websites.
+</div>`;
+
+// --- Logika Notifikasi Premium (TIDAK DIUBAH) ---
 async function checkPremiumExpiryWarning() {
     try {
-        if (typeof isAuthenticated !== 'function' || !isAuthenticated()) {
-            return false;
-        }
+        if (typeof isAuthenticated !== 'function' || !isAuthenticated()) return false;
         const expiryDateStr = localStorage.getItem('premiumExpiryDate');
-        if (!expiryDateStr) {
-            return false;
-        }
+        if (!expiryDateStr) return false;
         const expiryDate = new Date(expiryDateStr);
         const now = new Date();
         const timeLeft = expiryDate.getTime() - now.getTime();
         const daysLeft = Math.ceil(timeLeft / (1000 * 60 * 60 * 24));
-        if (daysLeft > 4 || daysLeft <= 0) {
-            return false;
-        }
+        if (daysLeft > 4 || daysLeft <= 0) return false;
+
         const modalContainer = document.getElementById('notification-0');
+        if(!modalContainer) return false; 
         const modalContent = modalContainer.querySelector('.notificationModal-content');
+        
         const showExpiryModal = () => {
-            const modalHTML = ` <i class="fa fa-times gracely-modal-close-icon" id="notification-close"></i> <h2 style="color: #d93025;">Peringatan Langganan</h2> <p>Masa aktif premium Anda akan segera berakhir.</p> <p>Sisa waktu: <strong>${daysLeft} hari lagi.</strong></p> <p>Silakan lakukan perpanjangan langganan agar tidak terputus.</p> <button class="ud-main-btn" id="notification-ok" style="margin-top: 10px;">OK, Saya Mengerti</button> `;
+            const modalHTML = ` 
+                <i class="fa fa-times close-icon" id="notification-close"></i> 
+                <h2 style="color: #d93025;">Peringatan Langganan</h2> 
+                <p>Masa aktif premium Anda akan segera berakhir.</p> 
+                <p>Sisa waktu: <strong>${daysLeft} hari lagi.</strong></p> 
+                <p>Silakan lakukan perpanjangan langganan agar tidak terputus.</p> 
+                <button class="ud-main-btn" id="notification-ok" style="margin-top: 10px;">OK, Saya Mengerti</button> 
+            `;
             modalContent.innerHTML = modalHTML;
             modalContainer.style.display = 'flex';
             modalContainer.style.visibility = 'visible';
             modalContainer.style.opacity = '1';
-            const closeModal = () => {
-                modalContainer.style.display = 'none';
-            };
+
+            const closeModal = () => { modalContainer.style.display = 'none'; };
             const closeBtn = modalContainer.querySelector('#notification-close');
             const okBtn = modalContainer.querySelector('#notification-ok');
             if (closeBtn) closeBtn.addEventListener('click', closeModal);
@@ -40,85 +49,12 @@ async function checkPremiumExpiryWarning() {
     }
 }
 
-async function initializeWebsiteAnnouncement() {
-    try {
-        const configResponse = await fetch('aturhonma.js');
-        if (!configResponse.ok) return;
-        const configText = await configResponse.text();
-        const gracelyConfig = JSON.parse(configText.replace('const gracelyConfig =', '').trim().replace(/;$/, ''));
-        const notifData = gracelyConfig.notifications?.announcement;
-        if (!notifData || !notifData.enabled || !notifData.id) {
-            return;
-        }
-        const newNotifId = notifData.id;
-        const lastShownTimestamp = localStorage.getItem('websiteNotificationLastShown');
-        const lastShownId = localStorage.getItem('websiteNotificationLastShownId');
-        const oneDay = 24 * 60 * 60 * 1000;
-        const timeDiff = Date.now() - parseInt(lastShownTimestamp || '0');
-        const modalContainer = document.getElementById('notification-0');
-        const modalContent = modalContainer.querySelector('.notificationModal-content');
-        
-        const showModal = () => {
-            if (notifData.html) {
-                modalContainer.innerHTML = notifData.html;
-            } else {
-                let contentParagraphs = '';
-                if (notifData.lines && Array.isArray(notifData.lines)) {
-                    contentParagraphs = notifData.lines.map(line => `<p>${line}</p>`).join('');
-                }
-                const notificationHTML = ` <i class="fa fa-times gracely-modal-close-icon" id="notification-close"></i> <h2>${notifData.title}</h2> ${contentParagraphs} <button class="ud-main-btn" id="notification-ok" style="margin-top: 10px;">OK</button> `;
-                modalContent.innerHTML = notificationHTML;
-            }
-
-            modalContainer.style.display = 'flex';
-            modalContainer.style.visibility = 'visible';
-            modalContainer.style.opacity = '1';
-
-            const closeBtn = modalContainer.querySelector('#notification-close');
-            const okBtn = modalContainer.querySelector('#notification-ok');
-            
-            if (closeBtn) closeBtn.addEventListener('click', closeModal);
-            if (okBtn) okBtn.addEventListener('click', closeModal);
-        };
-
-        const closeModal = () => {
-            modalContainer.style.display = 'none';
-            localStorage.setItem('websiteNotificationLastShown', Date.now().toString());
-            localStorage.setItem('websiteNotificationLastShownId', newNotifId);
-        };
-
-        if (!lastShownTimestamp || timeDiff > oneDay || newNotifId !== lastShownId) {
-            setTimeout(() => {
-                showModal();
-            }, 2000);
-        }
-    } catch (error) {
-        console.warn("Gagal memuat notifikasi website:", error);
-    }
-}
-
 async function runNotificationChecks() {
-    const didShowExpiryWarning = await checkPremiumExpiryWarning();
-    if (didShowExpiryWarning) {
-        return;
-    }
-    await initializeWebsiteAnnouncement();
+    await checkPremiumExpiryWarning();
+    // Anda bisa menambahkan initializeWebsiteAnnouncement() di sini jika script-nya ada
 }
 
-const languageDropdownHTML = `
-  <li class="nav-item nav-item-has-children">
-    <a href="javascript:void(0)"> <i class="fa fa-globe"></i> <span id="currentLangDisplay">EN</span></a>
-    <ul class="ud-submenu">
-      <li class="ud-submenu-link">
-        <a href="?lang=en" class="ud-submenu-link">English</a>
-      </li>
-      <li class="ud-submenu-link">
-        <a href="?lang=id" class="ud-submenu-link">Indonesia</a>
-      </li>
-    </ul>
-  </li>
-`;
-
+// --- HTML Navbar Baru (Desain Groupy) ---
 const defaultNavbarHTML = `
 <header class="ud-header">
   <div class="container">
@@ -133,17 +69,16 @@ const defaultNavbarHTML = `
           </button>
           <div class="navbar-collapse">
             <ul id="nav" class="navbar-nav mx-auto">
-              <li class="nav-item"><a class="ud-menu-scroll" href="#home" data-i18n="nav_home">Home</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="#features" data-i18n="nav_features">Features</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="#about" data-i18n="nav_about">About</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="#pricing" data-i18n="nav_pricing">Pricing</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="#services" data-i18n="nav_services">Services</a></li>
-              ${languageDropdownHTML}
+              <li class="nav-item"><a class="ud-menu-scroll" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#features">Features</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#about">About</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#pricing">Pricing</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#services">Services</a></li>
             </ul>
           </div>
           <div class="navbar-btn">
-            <a href="login.html" class="ud-main-btn ud-login-btn" data-i18n="btn_login">Log In</a>
-            <a href="signup.html" class="ud-main-btn ud-white-btn" data-i18n="btn_signup">Sign Up</a>
+            <a href="login.html" class="ud-main-btn ud-login-btn">Log In</a>
+            <a href="signup.html" class="ud-main-btn ud-white-btn">Sign Up</a>
           </div>
         </nav>
       </div>
@@ -166,16 +101,13 @@ const loggedInNavbarHTML = (userName) => `
           </button>
           <div class="navbar-collapse">
              <ul id="nav" class="navbar-nav mx-auto">
-              <li class="nav-item"><a class="ud-menu-scroll" href="#home" data-i18n="nav_home">Home</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="#features" data-i18n="nav_features">Features</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="#about" data-i18n="nav_about">About</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="#pricing" data-i18n="nav_pricing">Pricing</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="#services" data-i18n="nav_services">Services</a></li>
-              ${languageDropdownHTML}
+              <li class="nav-item"><a class="ud-menu-scroll" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="dashboard.html">Dashboard</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#services">Services</a></li>
             </ul>
           </div>
           <div class="navbar-btn">
-             <a href="dashboard.html" class="ud-main-btn ud-login-btn">${userName}</a>
+             <a href="dashboard.html" class="ud-main-btn ud-login-btn"><i class="fa-solid fa-user"></i> ${userName}</a>
              <button id="logout-button" class="ud-main-btn ud-white-btn"><i class="fa fa-sign-out" aria-hidden="true"></i></button>
           </div>
         </nav>
@@ -185,6 +117,7 @@ const loggedInNavbarHTML = (userName) => `
 </header>
 `;
 
+// --- HTML Footer Baru (Desain Groupy) ---
 const footerHTML = `
 <footer class="ud-footer" data-wow-delay=".15s">
   <div class="shape shape-1">
@@ -194,7 +127,7 @@ const footerHTML = `
     <img src="assets/images/footer/dotted-shape.svg" alt="shape" />
   </div>
   <div class="shape shape-3">
-    <img src="assets/images/footer/dotted-shape.svg" alt="shape" />
+    <img src="assets/images/footer/rightshape.png" alt="shape" />
   </div>
   <div class="ud-footer-widgets">
     <div class="container">
@@ -204,31 +137,20 @@ const footerHTML = `
             <a href="./" class="ud-footer-logo">
               <img src="assets/images/logo/gracely_white.png" alt="logo" />
             </a>
-            <p class="ud-widget-desc" data-i18n="hero_title">
-            Unlock Premium Together
-            </p>
+            <p class="ud-widget-desc">Unlock Premium Together</p>
             <ul class="ud-widget-socials">
-              <li>
-                <a href="#">
-                  <i class="fa-brands fa-instagram"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fa-brands fa-discord"></i>
-                </a>
-              </li>
+              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-discord"></i></a></li>
             </ul>
           </div>
         </div>
         <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
           <div class="ud-widget">
-            <h5 class="ud-widget-title" data-i18n="nav_about">About</h5>
+            <h5 class="ud-widget-title">About</h5>
             <ul class="ud-widget-links">
-              <li><a href="#features" data-i18n="nav_features">Features</a></li>
-              <li><a href="#about" data-i18n="nav_about">About</a></li>
-              <li><a href="#pricing" data-i18n="nav_pricing">Pricing</a></li>
-              <li><a href="#services" data-i18n="nav_services">Services</a></li>
+              <li><a href="index.html#features">Features</a></li>
+              <li><a href="index.html#about">About</a></li>
+              <li><a href="index.html#pricing">Pricing</a></li>
             </ul>
           </div>
         </div>
@@ -236,20 +158,11 @@ const footerHTML = `
           <div class="ud-widget">
             <h5 class="ud-widget-title">Dashboard</h5>
             <ul class="ud-widget-links">
-              <li><a href="dashboard.html" rel="nofollow noopener">View dashboard <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
-              <li><a href="premium.html" rel="nofollow noopener">Purchase premium <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+              <li><a href="dashboard.html">View dashboard <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+              <li><a href="premium.html">Purchase premium <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
             </ul>
           </div>
         </div>
-        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
-          <div class="ud-widget">
-            <h5 class="ud-widget-title">Extension</h5>
-            <ul class="ud-widget-links">
-              <li><a href="dashboard.html" rel="nofollow noopener">Download extension <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
-            </ul>
-          </div>
-        </div>
-        
       </div>
     </div>
   </div>
@@ -258,20 +171,42 @@ const footerHTML = `
       <div class="row">
         <div class="col-md-8">
           <ul class="ud-footer-bottom-left">
-            <li><a href="#">Privacy Policy</a></li> <li><a href="#">Terms of Service</a></li> <li><a href="index.html#contact">Contact Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#contact">Contact Us</a></li>
           </ul>
         </div>
         <div class="col-md-4">
-          <p class="ud-footer-bottom-right">Gracely &copy; 2023-2025</p>
-          <p class="ud-footer-bottom-right">
-          This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a> and <a href="https://policies.google.com/terms" target="_blank">Terms of Service</a> apply.
-          </p>
+          <p class="ud-footer-bottom-right">Gracely &copy; 2025</p>
         </div>
       </div>
     </div>
   </div>
   <div class="groupy-wave" style="margin-top:-23px">
-      <div class="bg-white" style="margin-top:0px;height:23px"></div><div class="bg-white" style="margin-top:1px;height:22px"></div><div class="bg-white" style="margin-top:2px;height:21px"></div><div class="bg-white" style="margin-top:3px;height:20px"></div><div class="bg-white" style="margin-top:4px;height:19px"></div><div class="bg-white" style="margin-top:5px;height:18px"></div><div class="bg-white" style="margin-top:6px;height:17px"></div><div class="bg-white" style="margin-top:7px;height:16px"></div><div class="bg-white" style="margin-top:8px;height:15px"></div><div class="bg-white" style="margin-top:9px;height:14px"></div><div class="bg-white" style="margin-top:10px;height:13px"></div><div class="bg-white" style="margin-top:11px;height:12px"></div><div class="bg-white" style="margin-top:12px;height:11px"></div><div class="bg-white" style="margin-top:13px;height:10px"></div><div class="bg-white" style="margin-top:14px;height:9px"></div><div class="bg-white" style="margin-top:15px;height:8px"></div><div class="bg-white" style="margin-top:16px;height:7px"></div><div class="bg-white" style="margin-top:17px;height:6px"></div><div class="bg-white" style="margin-top:18px;height:5px"></div><div class="bg-white" style="margin-top:19px;height:4px"></div><div class="bg-white" style="margin-top:20px;height:3px"></div><div class="bg-white" style="margin-top:21px;height:2px"></div><div class="bg-white" style="margin-top:22px;height:1px"></div><div class="bg-white" style="margin-top:23px;height:0px"></div>
+      <div class="bg-white" style="margin-top:0px;height:23px"></div>
+      <div class="bg-white" style="margin-top:1px;height:22px"></div>
+      <div class="bg-white" style="margin-top:2px;height:21px"></div>
+      <div class="bg-white" style="margin-top:3px;height:20px"></div>
+      <div class="bg-white" style="margin-top:4px;height:19px"></div>
+      <div class="bg-white" style="margin-top:5px;height:18px"></div>
+      <div class="bg-white" style="margin-top:6px;height:17px"></div>
+      <div class="bg-white" style="margin-top:7px;height:16px"></div>
+      <div class="bg-white" style="margin-top:8px;height:15px"></div>
+      <div class="bg-white" style="margin-top:9px;height:14px"></div>
+      <div class="bg-white" style="margin-top:10px;height:13px"></div>
+      <div class="bg-white" style="margin-top:11px;height:12px"></div>
+      <div class="bg-white" style="margin-top:12px;height:11px"></div>
+      <div class="bg-white" style="margin-top:13px;height:10px"></div>
+      <div class="bg-white" style="margin-top:14px;height:9px"></div>
+      <div class="bg-white" style="margin-top:15px;height:8px"></div>
+      <div class="bg-white" style="margin-top:16px;height:7px"></div>
+      <div class="bg-white" style="margin-top:17px;height:6px"></div>
+      <div class="bg-white" style="margin-top:18px;height:5px"></div>
+      <div class="bg-white" style="margin-top:19px;height:4px"></div>
+      <div class="bg-white" style="margin-top:20px;height:3px"></div>
+      <div class="bg-white" style="margin-top:21px;height:2px"></div>
+      <div class="bg-white" style="margin-top:22px;height:1px"></div>
+      <div class="bg-white" style="margin-top:23px;height:0px"></div>
   </div>
 </footer>
 `;
@@ -279,17 +214,17 @@ const footerHTML = `
 const backToTopHTML = `<a href="javascript:void(0)" class="back-to-top"><i class="fa-solid fa-arrow-up"></i></a>`;
 
 function modifyIndexPageContent() {
+    // Logika untuk mengubah tombol di halaman index jika user sudah login
     const path = window.location.pathname;
     const isIndexPage = path.endsWith('/') || path.endsWith('/hai/') || path.endsWith('index.html');
-    if (!isIndexPage) {
-        return;
-    }
+    if (!isIndexPage) return;
+
     if (typeof isAuthenticated === 'function' && isAuthenticated()) {
-        const purchaseButton = document.querySelector('#home .ud-hero-buttons .ud-white-btn');
+        // Cari tombol Purchase/Sign Up di Hero Section
+        const purchaseButton = document.querySelector('.ud-hero-buttons .ud-white-btn'); 
         if (purchaseButton) {
             purchaseButton.textContent = 'Go to Dashboard';
             purchaseButton.href = 'dashboard.html';
-            purchaseButton.removeAttribute('target');
         }
     }
 }
@@ -299,30 +234,43 @@ function loadLayout() {
     const navbarPlaceholder = document.getElementById("navbar-placeholder");
     const footerPlaceholder = document.getElementById("footer-placeholder");
     const backToTopPlaceholder = document.getElementById("back-to-top-placeholder");
+
+    // Inject Modal Notifikasi
     const modalDiv = document.createElement('div');
     modalDiv.className = 'notificationModal';
     modalDiv.id = 'notification-0';
     modalDiv.style.display = 'none';
     modalDiv.innerHTML = '<div class="notificationModal-content"></div>';
     document.body.appendChild(modalDiv);
+
     if (announcementPlaceholder) announcementPlaceholder.innerHTML = announcementBarHTML;
     if (footerPlaceholder) footerPlaceholder.innerHTML = footerHTML;
     if (backToTopPlaceholder) backToTopPlaceholder.innerHTML = backToTopHTML;
+    
     if (navbarPlaceholder) {
         if (typeof isAuthenticated === 'function' && isAuthenticated()) {
             const userName = localStorage.getItem("userName") || "User";
             navbarPlaceholder.innerHTML = loggedInNavbarHTML(userName);
-            if (typeof eraseCookie === 'function') {
-                eraseCookie('UnangJahaCookieOnLae');
-            }
+            
+            // Pasang event listener logout
+            setTimeout(() => {
+                const logoutBtn = document.getElementById('logout-button');
+                if(logoutBtn && typeof logout === 'function') {
+                    logoutBtn.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        logout();
+                    });
+                }
+            }, 500);
+
+            if (typeof eraseCookie === 'function') eraseCookie('UnangJahaCookieOnLae');
         } else {
             navbarPlaceholder.innerHTML = defaultNavbarHTML;
         }
     }
-    if (typeof initializeScripts === 'function') {
-        initializeScripts();
-    }
+
     modifyIndexPageContent();
     runNotificationChecks();
 }
+
 document.addEventListener("DOMContentLoaded", loadLayout);
