@@ -5,47 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Unlock Premium Together | Gracely</title>
-
     <meta name="title" content="Unlock Premium Together | Gracely">
-    <meta name="description" content="Unlock premium experiences together with our one-click access extension. Join us and start enjoying premium content without the premium price tag.">
+    <meta name="description" content="Unlock premium experiences together with our one-click access extension.">
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png"/>
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/animate.css" />
     <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/ud-styles.css" />
     <link rel="stylesheet" href="assets/styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="auth.js"></script>
   </head>
   <body>
     <div id="announcement-placeholder"></div>
     <div id="navbar-placeholder"></div>
-
     <section class="ud-hero" id="home">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
             <div class="ud-hero-content wow fadeInUp" data-wow-delay=".2s">
-              <h1 class="ud-hero-title">
-                Gracely <br> Unlock Premium Together
-              </h1>
-              <p class="ud-hero-desc">
-                Unlock premium experiences together with our one-click access extension. Join us and start enjoying premium content without the premium price tag.
-              </p>
+              <h1 class="ud-hero-title">Gracely <br> Unlock Premium Together</h1>
+              <p class="ud-hero-desc">Unlock premium experiences together with our one-click access extension. Join us and start enjoying premium content without the premium price tag.</p>
               <ul class="ud-hero-buttons">
-                <li>
-                  <a href="signup.html" class="ud-main-btn ud-white-btn">
-                    Get started <i class="fa-solid fa-arrow-right"></i>
-                  </a>
-                </li>
-                <li>
-                  <button class="ud-main-btn ud-link-btn" id="openModalBtn">
-                    <i class="fa fa-play-circle" aria-hidden="true"></i> Watch Demo
-                  </button>
-                </li>
+                <li><a href="login.html" class="ud-main-btn ud-white-btn">Get started <i class="fa-solid fa-arrow-right"></i></a></li>
+                <li><button class="ud-main-btn ud-link-btn" id="openModalBtn"><i class="fa fa-play-circle" aria-hidden="true"></i> Watch Demo</button></li>
               </ul>
             </div>
             <div class="ud-hero-image wow fadeIn" data-wow-delay=".25s">
@@ -56,12 +40,10 @@
           </div>
         </div>
       </div>
-      
       <div id="videoModal" class="modal">
         <div class="modal-content">
             <video id="videoElement" controls loop width="100%" height="100%">
             <source src="assets/videos/gracely_demo.mp4" type="video/mp4">
-            Your browser does not support the video tag.
             </video>
         </div>
       </div>
@@ -73,52 +55,44 @@
             <div class="ud-section-title">
               <span>Features</span>
               <h2>Explore Our Features</h2>
-              <p>Uncover the power of Gracely with a detailed look at the tools and capabilities.</p>
+              <p>Uncover the power of Gracely.</p>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col-xl-3 col-lg-3 col-sm-6">
             <div class="ud-single-feature wow fadeInUp" data-wow-delay=".1s">
-              <div class="ud-feature-icon">
-                <i class="fa-solid fa-hand-holding-heart"></i>
-              </div>
+              <div class="ud-feature-icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
               <div class="ud-feature-content">
                 <h3 class="ud-feature-title">24/7 Support</h3>
-                <p class="ud-feature-desc">Dedicated support team available around the clock to assist you.</p>
+                <p class="ud-feature-desc">Dedicated support team.</p>
               </div>
             </div>
           </div>
           <div class="col-xl-3 col-lg-3 col-sm-6">
             <div class="ud-single-feature wow fadeInUp" data-wow-delay=".15s">
-              <div class="ud-feature-icon">
-                <i class="fa-solid fa-clock"></i>
-              </div>
+              <div class="ud-feature-icon"><i class="fa-solid fa-clock"></i></div>
               <div class="ud-feature-content">
                 <h3 class="ud-feature-title">99% Uptime</h3>
-                <p class="ud-feature-desc">Gracely maintains an impressive 99% uptime rate for seamless access.</p>
+                <p class="ud-feature-desc">Impressive uptime rate.</p>
               </div>
             </div>
           </div>
           <div class="col-xl-3 col-lg-3 col-sm-6">
             <div class="ud-single-feature wow fadeInUp" data-wow-delay=".2s">
-              <div class="ud-feature-icon">
-                <i class="fa-solid fa-bolt"></i>
-              </div>
+              <div class="ud-feature-icon"><i class="fa-solid fa-bolt"></i></div>
               <div class="ud-feature-content">
-                <h3 class="ud-feature-title">One-Click Access</h3>
-                <p class="ud-feature-desc">Simple click with Gracely Extension to access premium accounts.</p>
+                <h3 class="ud-feature-title">One-Click</h3>
+                <p class="ud-feature-desc">Simple click access.</p>
               </div>
             </div>
           </div>
           <div class="col-xl-3 col-lg-3 col-sm-6">
             <div class="ud-single-feature wow fadeInUp" data-wow-delay=".25s">
-              <div class="ud-feature-icon">
-                <i class="fa-solid fa-wallet"></i>
-              </div>
+              <div class="ud-feature-icon"><i class="fa-solid fa-wallet"></i></div>
               <div class="ud-feature-content">
                 <h3 class="ud-feature-title">Affordable</h3>
-                <p class="ud-feature-desc">Unlock premium access affordably without breaking the bank.</p>
+                <p class="ud-feature-desc">Save money seamlessly.</p>
               </div>
             </div>
           </div>
@@ -130,19 +104,14 @@
         <div class="ud-about-wrapper wow fadeInUp" data-wow-delay=".2s">
           <div class="ud-about-content-wrapper">
             <div class="ud-about-content">
-              <span class="tag">About Gracely</span>
-              <h2>A smart and affordable way to access premium accounts.</h2>
-              <p>
-                At Gracely, we believe that premium experiences should be accessible to everyone. Our one-click access extension is your key to unlocking premium accounts across a range of platforms like Netflix, Canva, and ChatGPT.
-              </p>
-              <p>
-                Say goodbye to subscription barriers. Our user-friendly extension seamlessly integrates with your favorite platforms.
-              </p>
+              <span class="tag">About Us</span>
+              <h2>Unlock Premium Freedom with Gracely</h2>
+              <p>Gracely is your gateway to a world of premium digital experiences without the premium price tag.</p>
               <a href="signup.html" class="ud-main-btn">Start Saving Now</a>
             </div>
           </div>
           <div class="ud-about-image">
-            <img src="assets/images/about/about-image.png" alt="about-image" />
+            <img src="assets/images/about/about-image.svg" alt="about-image" />
           </div>
         </div>
       </div>
@@ -153,12 +122,11 @@
           <div class="col-lg-12">
             <div class="ud-section-title mx-auto text-center">
               <span>Pricing</span>
-              <h2>Explore Our Pricing Plans</h2>
+              <h2>Our Pricing Plans</h2>
               <p>Find the Perfect Fit for Your Needs.</p>
             </div>
           </div>
         </div>
-
         <div class="row g-0 align-items-center justify-content-center">
           <div class="col-lg-4 col-md-6 col-sm-10">
             <div class="ud-single-pricing active wow fadeInUp" data-wow-delay=".1s">
@@ -172,11 +140,9 @@
               <div class="ud-pricing-body text-center">
                 <ul>
                   <li>1 user</li>
-                  <li>One-click access extension</li>
+                  <li>One-click access</li>
                   <li>24/7 support</li>
-                  <li>Access to all shared <b>Premium</b> accounts</li>
-                  <li>&nbsp;</li>
-                  <li>&nbsp;</li>
+                  <li>Access <b>Premium</b> accounts</li>
                 </ul>
               </div>
               <div class="ud-pricing-footer">
@@ -184,11 +150,9 @@
               </div>
             </div>
           </div>
-
           <div class="col-lg-4 col-md-6 col-sm-10">
             <div class="ud-single-pricing first-item wow fadeInUp" data-wow-delay=".15s">
               <div class="ud-pricing-header text-center">
-                <span class="ud-alt-tag"><i class="fa fa-thumbs-up"></i> FAVORITE <i class="fa fa-thumbs-up"></i></span>
                 <h4>Premium + Pro</h4>
                 <h3>STARTING FROM</h3>
                 <h5>Rp 150.000</h5>
@@ -197,11 +161,9 @@
               <div class="ud-pricing-body text-center">
                 <ul>
                   <li>1 user</li>
-                  <li>One-click access extension</li>
+                  <li>One-click access</li>
                   <li>24/7 support</li>
-                  <li>Access to all shared <b>Premium</b> accounts</li>
-                  <li>Access to all shared <b>Pro</b> accounts</li>
-                  <li>&nbsp;</li>
+                  <li>Access <b>Premium + Pro</b></li>
                 </ul>
               </div>
               <div class="ud-pricing-footer">
@@ -209,24 +171,20 @@
               </div>
             </div>
           </div>
-
           <div class="col-lg-4 col-md-6 col-sm-10">
             <div class="ud-single-pricing last-item wow fadeInUp" data-wow-delay=".2s">
-              <span class="ud-alt-tag"><i class="fa fa-bolt"></i> ALL ACCESS <i class="fa fa-bolt"></i></span>
               <div class="ud-pricing-header text-center">
                 <h4>The Phantom</h4>
                 <h3>STARTING FROM</h3>
-                <h5>Rp 450.000</h5>
+                <h5>Rp 500.000</h5>
                 <h4>Rp 299.999 <span class="fs-6">/ 30 DAYS</span></h4>
               </div>
               <div class="ud-pricing-body text-center">
                 <ul>
                   <li>1 user</li>
-                  <li>One-click access extension</li>
+                  <li>One-click access</li>
                   <li>24/7 support</li>
-                  <li>Access to all shared <b>Premium</b> accounts</li>
-                  <li>Access to all shared <b>Pro</b> accounts</li>
-                  <li>Access to all shared <b>Phantom</b> accounts</li>
+                  <li>Access <b>All Services</b></li>
                 </ul>
               </div>
               <div class="ud-pricing-footer">
@@ -243,246 +201,57 @@
           <div class="col-lg-12">
             <div class="ud-section-title mx-auto text-center">
               <span>Services</span>
-              <h2>Discover Premium Account Services</h2>
-              <p>Real-time updates, number of services and accounts can increase or decrease at any time.</p>
+              <h2>Supported Services</h2>
+              <p>We support a wide range of premium services.</p>
             </div>
           </div>
         </div>
-
-        <ul class="nav nav-tabs justify-content-center" id="serviceTabs">
-          <li class="nav-item"><a class="nav-link active text-dark" data-bs-toggle="tab" href="#premium">💎 Premium</a></li>
-          <li class="nav-item"><a class="nav-link text-dark" data-bs-toggle="tab" href="#pro">👑 Pro Exclusive</a></li>
-          <li class="nav-item"><a class="nav-link text-dark" data-bs-toggle="tab" href="#phantom">👻 The Phantom Exclusive</a></li>
+        <ul class="nav nav-pills mb-5 justify-content-center" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation"><button class="nav-link active" id="pills-premium-tab" data-bs-toggle="pill" data-bs-target="#pills-premium" type="button" role="tab">Premium</button></li>
+          <li class="nav-item" role="presentation"><button class="nav-link" id="pills-ai-tab" data-bs-toggle="pill" data-bs-target="#pills-ai" type="button" role="tab">AI Tools</button></li>
+          <li class="nav-item" role="presentation"><button class="nav-link" id="pills-dev-tab" data-bs-toggle="pill" data-bs-target="#pills-dev" type="button" role="tab">Developer</button></li>
         </ul>
-
-        <div class="tab-content">
-          <div id="premium" class="tab-pane fade show active">
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="ud-brands fadeInUp" data-wow-delay=".2s">
-                  <div class="ud-brands-logo">
-                     <div class="text-center py-5">
-                        <p class="fs-5">Access services like Netflix, Spotify, Canva, and more.</p>
-                        <a href="signup.html" class="ud-main-btn mt-3">View Full List in Dashboard</a>
-                     </div>
-                  </div>
-                </div>
-              </div>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-premium" role="tabpanel">
+            <div class="row justify-content-center align-items-center text-center">
+               <div class="col-lg-2 col-md-3 col-4 mb-4"><div class="service-box"><img src="assets/images/services/netflix.png" alt="Netflix" class="img-fluid service-icon" style="max-height: 60px; filter: grayscale(100%); opacity: 0.7;"><p class="mt-2 fw-bold small">Netflix</p></div></div>
+               <div class="col-lg-2 col-md-3 col-4 mb-4"><div class="service-box"><img src="assets/images/services/spotify.png" alt="Spotify" class="img-fluid service-icon" style="max-height: 60px; filter: grayscale(100%); opacity: 0.7;"><p class="mt-2 fw-bold small">Spotify</p></div></div>
+               <div class="col-lg-2 col-md-3 col-4 mb-4"><div class="service-box"><img src="assets/images/services/applemusic.png" alt="Apple Music" class="img-fluid service-icon" style="max-height: 60px; filter: grayscale(100%); opacity: 0.7;"><p class="mt-2 fw-bold small">Apple Music</p></div></div>
+               <div class="col-lg-2 col-md-3 col-4 mb-4"><div class="service-box"><img src="assets/images/services/academia.png" alt="Academia" class="img-fluid service-icon" style="max-height: 60px; filter: grayscale(100%); opacity: 0.7;"><p class="mt-2 fw-bold small">Academia</p></div></div>
+               <div class="col-lg-2 col-md-3 col-4 mb-4"><div class="service-box"><img src="assets/images/services/canva.png" alt="Canva" class="img-fluid service-icon" style="max-height: 60px; filter: grayscale(100%); opacity: 0.7;"><p class="mt-2 fw-bold small">Canva</p></div></div>
+               <div class="col-lg-2 col-md-3 col-4 mb-4"><div class="service-box"><img src="assets/images/services/scribd.png" alt="Scribd" class="img-fluid service-icon" style="max-height: 60px; filter: grayscale(100%); opacity: 0.7;"><p class="mt-2 fw-bold small">Scribd</p></div></div>
             </div>
+            <div class="text-center mt-4"><a href="signup.html" class="ud-main-btn">View All 100+ Services</a></div>
           </div>
-
-          <div id="pro" class="tab-pane fade">
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="ud-brands fadeInUp" data-wow-delay=".2s">
-                   <div class="ud-brands-logo">
-                     <div class="text-center py-5">
-                        <p class="fs-5">Unlock ChatGPT Plus, Claude, Midjourney, and more.</p>
-                        <a href="signup.html" class="ud-main-btn mt-3">View Full List in Dashboard</a>
-                     </div>
-                   </div>
-                </div>
-              </div>
-            </div>
+          <div class="tab-pane fade" id="pills-ai" role="tabpanel">
+             <div class="row justify-content-center align-items-center text-center">
+               <div class="col-lg-2 col-md-3 col-4 mb-4"><img src="assets/images/services/chatgpt.png" alt="ChatGPT" class="img-fluid" style="max-height: 60px; filter: grayscale(100%); opacity: 0.7;"><p class="mt-2 fw-bold small">ChatGPT Plus</p></div>
+               <div class="col-lg-2 col-md-3 col-4 mb-4"><img src="assets/images/services/midjourney.png" alt="Midjourney" class="img-fluid" style="max-height: 60px; filter: grayscale(100%); opacity: 0.7;"><p class="mt-2 fw-bold small">Midjourney</p></div>
+               <div class="col-lg-2 col-md-3 col-4 mb-4"><img src="assets/images/services/jasper.png" alt="Jasper" class="img-fluid" style="max-height: 60px; filter: grayscale(100%); opacity: 0.7;"><p class="mt-2 fw-bold small">Jasper AI</p></div>
+             </div>
+             <div class="text-center mt-4"><a href="signup.html" class="ud-main-btn">View All AI Tools</a></div>
           </div>
-
-          <div id="phantom" class="tab-pane fade">
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="ud-brands fadeInUp" data-wow-delay=".2s">
-                   <div class="ud-brands-logo">
-                     <div class="text-center py-5">
-                        <p class="fs-5">Exclusive access to high-value private accounts.</p>
-                        <a href="signup.html" class="ud-main-btn mt-3">View Full List in Dashboard</a>
-                     </div>
-                   </div>
-                </div>
-              </div>
-            </div>
+          <div class="tab-pane fade" id="pills-dev" role="tabpanel">
+             <div class="row justify-content-center align-items-center text-center">
+               <div class="col-lg-2 col-md-3 col-4 mb-4"><img src="assets/images/services/github.png" alt="GitHub" class="img-fluid" style="max-height: 60px; filter: grayscale(100%); opacity: 0.7;"><p class="mt-2 fw-bold small">Copilot</p></div>
+               <div class="col-lg-2 col-md-3 col-4 mb-4"><img src="assets/images/services/jetbrains.png" alt="JetBrains" class="img-fluid" style="max-height: 60px; filter: grayscale(100%); opacity: 0.7;"><p class="mt-2 fw-bold small">JetBrains</p></div>
+             </div>
+             <div class="text-center mt-4"><a href="signup.html" class="ud-main-btn">View All Dev Tools</a></div>
           </div>
         </div>
       </div>
     </section>
     <section id="faq" class="ud-faq">
-      <div class="shape">
-        <img src="assets/images/faq/shape.png" alt="shape" />
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="ud-section-title text-center mx-auto">
-              <span>FAQ</span>
-              <h2>Answers to Your Questions</h2>
-              <p>Explore our FAQ page to find quick and comprehensive solutions.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="ud-single-faq wow fadeInUp" data-wow-delay=".1s">
-              <div class="accordion">
-                <button class="ud-faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">
-                  <span class="icon flex-shrink-0"><i class="fa-solid fa-chevron-down"></i></span>
-                  <span>How to use Gracely?</span>
-                </button>
-                <div id="collapseOne" class="accordion-collapse collapse">
-                  <div class="ud-faq-body">
-                    Simply install our extension, log in to your Gracely account, and click to access!
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="ud-single-faq wow fadeInUp" data-wow-delay=".15s">
-              <div class="accordion">
-                <button class="ud-faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
-                  <span class="icon flex-shrink-0"><i class="fa-solid fa-chevron-down"></i></span>
-                  <span>Can I report an issue?</span>
-                </button>
-                <div id="collapseTwo" class="accordion-collapse collapse">
-                  <div class="ud-faq-body">
-                    Yes, you can submit a report via the Dashboard if any service is down.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="ud-single-faq wow fadeInUp" data-wow-delay=".1s">
-              <div class="accordion">
-                <button class="ud-faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree">
-                  <span class="icon flex-shrink-0"><i class="fa-solid fa-chevron-down"></i></span>
-                  <span>Is it refundable?</span>
-                </button>
-                <div id="collapseThree" class="accordion-collapse collapse">
-                  <div class="ud-faq-body">
-                    No, we don't offer refunds. Please check the plan carefully before purchasing.
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="ud-single-faq wow fadeInUp" data-wow-delay=".15s">
-              <div class="accordion">
-                <button class="ud-faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFour">
-                  <span class="icon flex-shrink-0"><i class="fa-solid fa-chevron-down"></i></span>
-                  <span>Can I share my account?</span>
-                </button>
-                <div id="collapseFour" class="accordion-collapse collapse">
-                  <div class="ud-faq-body">
-                    No, sharing accounts is prohibited and may lead to suspension.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <div class="container"><div class="ud-section-title text-center mx-auto"><span>FAQ</span><h2>Questions & Answers</h2></div></div>
     </section>
     <section id="testimonials" class="ud-testimonials">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="ud-section-title mx-auto text-center">
-              <span>Testimonials</span>
-              <h2>Discover What Our Users Say</h2>
-              <p>Hear from our happy community.</p>
-            </div>
-          </div>
-        </div>
-        
-        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"></button>
-                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="row justify-content-center">
-                         <div class="col-lg-8">
-                            <div class="ud-single-testimonial text-center">
-                                <div class="ud-testimonial-content">
-                                    <p>"Gracely has saved me so much money on subscriptions. The extension is super easy to use!"</p>
-                                </div>
-                                <div class="ud-testimonial-info">
-                                    <div class="ud-testimonial-meta">
-                                        <h4>Sarah J.</h4>
-                                        <p>Student</p>
-                                    </div>
-                                </div>
-                            </div>
-                         </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="ud-single-testimonial text-center">
-                                <div class="ud-testimonial-content">
-                                    <p>"Access to developer tools like this is a game changer for my freelance work."</p>
-                                </div>
-                                <div class="ud-testimonial-info">
-                                    <div class="ud-testimonial-meta">
-                                        <h4>David K.</h4>
-                                        <p>Freelancer</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-      </div>
+        <div class="container"><div class="ud-section-title text-center mx-auto"><span>Testimonials</span><h2>User Reviews</h2></div></div>
     </section>
     <section id="contact" class="ud-contact">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-xl-8 col-lg-7">
-            <div class="ud-contact-content-wrapper">
-              <div class="ud-section-title mx-auto text-center">
-                <span>Contact Us</span>
-                <h2>Get In Touch</h2>
-                <p>Reach out anytime – we're here to help!</p>
-              </div>
-              <div class="ud-contact-info-wrapper">
-                <div class="ud-single-info">
-                  <div class="ud-info-icon"><i class="fa-solid fa-envelope"></i></div>
-                  <div class="ud-info-meta">
-                    <h5>Email</h5>
-                    <p>contact@gracely.id</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-4 col-lg-5">
-            <div class="ud-contact-form-wrapper wow fadeInUp" data-wow-delay=".2s">
-              <h3 class="ud-contact-form-title">Send a Message</h3>
-              <form class="ud-contact-form">
-                <div class="ud-form-group">
-                  <label for="name">Full Name</label>
-                  <input type="text" name="name" placeholder="John Doe" />
-                </div>
-                <div class="ud-form-group">
-                  <label for="email">Email</label>
-                  <input type="email" name="email" placeholder="email@example.com" />
-                </div>
-                <div class="ud-form-group">
-                  <label for="message">Message</label>
-                  <textarea name="message" rows="1" placeholder="Type your message"></textarea>
-                </div>
-                <div class="ud-form-group mb-0">
-                  <button type="submit" class="ud-main-btn">Send Message</button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
+       <div class="container"><div class="ud-section-title text-center mx-auto"><span>Contact</span><h2>Get In Touch</h2></div></div>
     </section>
     <div id="footer-placeholder"></div>
     <div id="back-to-top-placeholder"></div>
-
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/main.js"></script> 
