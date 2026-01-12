@@ -369,7 +369,7 @@ const footerHTML = `
             <li><a href="#contact" data-i18n="contact">${t('contact')}</a></li>
           </ul>
         </div>
-        <div class="col-md-4"><p class="ud-footer-bottom-right">Gracely &copy; 2025</p></div>
+        <div class="col-md-4"><p class="ud-footer-bottom-right">Gracely &copy; <script>document.write(new Date().getFullYear())</script></p></div>
       </div>
     </div>
   </div>
@@ -468,3 +468,4 @@ function loadLayout() {
 }
 
 document.addEventListener("DOMContentLoaded", loadLayout);
+
