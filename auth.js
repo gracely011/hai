@@ -151,19 +151,37 @@ async function login(email, password) {
         if (authError) {
             throw authError;
         }
+        
+        let { data: profileData, error: profileError } = await supabaseClient
+            .from('profiles')
+            .select(`
+                *,
+                plan_gracely (
+                    number_plan,
+                    name_plan,
+                    configurl
+                )
+            `)
+            .eq('id', authData.user.id)
+            .single();
+
+        if (profileError) {
+            throw profileError;
+        }
+
+        const userPlan = profileData.plan_gracely || { 
+            number_plan: '001', 
+            name_plan: 'No Premium', 
+            configurl: null 
+        };
+
         const now = new Date().toISOString();
         const clientIp = await getClientIp();
         const userAgent = navigator.userAgent;
         const secureSessionToken = authData.session.access_token;
-        let {
-            data: profileData,
-            error: profileError
-        } = await supabaseClient.from('profiles').select('*').eq('id', authData.user.id).single();
-        if (profileError) {
-            throw profileError;
-        }
         const userName = profileData.name || 'User';
         const uniqueSessionID = crypto.randomUUID();
+
         const {
             error: sessionError
         } = await supabaseClient.from('user_sessions').insert({
@@ -171,27 +189,25 @@ async function login(email, password) {
             session_token: uniqueSessionID,
             device_name: userAgent
         });
-        if (sessionError) console.warn("Session insert failed:", sessionError);
+
         let isCurrentlyPremium = false;
-        if (profileData.isPremium && profileData.premiumExpiryDate) {
+        if (profileData.premiumExpiryDate) {
             const expiryDate = new Date(profileData.premiumExpiryDate);
             const today = new Date();
-            if (today <= expiryDate) {
+            if (today <= expiryDate && userPlan.number_plan !== '001') {
                 isCurrentlyPremium = true;
             }
         }
-        const configHash = isCurrentlyPremium ? profileData.configUrl.substring(0, 8) : 'NULL';
-        const {
-            error: updateSignInError
-        } = await supabaseClient.from('profiles').update({
+
+        const configHash = (isCurrentlyPremium && userPlan.configurl) ? userPlan.configurl.substring(0, 8) : 'NULL';
+
+        await supabaseClient.from('profiles').update({
             last_sign_in: now,
             last_ip: clientIp,
             last_browser: userAgent,
             config_hash: configHash
         }).eq('id', authData.user.id);
-        if (updateSignInError) {
-            console.warn(updateSignInError.message);
-        }
+
         try {
             const ipInfo = await getClientIpInfo();
             await supabaseClient.from('activity_logs').insert({
@@ -208,23 +224,30 @@ async function login(email, password) {
         } catch (logError) {
             console.warn("Log login failed:", logError);
         }
+
         localStorage.setItem('isAuthenticated', 'true');
         localStorage.setItem('userEmail', authData.user.email);
         localStorage.setItem('userName', userName);
         localStorage.setItem('isPremium', isCurrentlyPremium);
         localStorage.setItem('gracely_db_session_id', uniqueSessionID);
         localStorage.setItem('gracely_active_session_token', secureSessionToken);
-        if (isCurrentlyPremium && profileData.configUrl) {
+        localStorage.setItem('userPlanName', userPlan.name_plan); 
+        localStorage.setItem('userPlanNumber', userPlan.number_plan);
+
+        if (isCurrentlyPremium && userPlan.configurl) {
+            localStorage.setItem('gracely_config_url', userPlan.configurl);
             localStorage.setItem('premiumExpiryDate', profileData.premiumExpiryDate);
         } else {
+            localStorage.removeItem('gracely_config_url');
             localStorage.removeItem('premiumExpiryDate');
         }
+        
         localStorage.removeItem('gracelyPremiumConfig');
         eraseCookie('gracely_active_session');
         eraseCookie('is_premium');
-        eraseCookie('gracely_config_url');
         setCookie('gracely_session_token', secureSessionToken, 30);
         if (typeof eraseCookie === 'function') eraseCookie('UnangJahaCookieOnLae');
+        
         return {
             success: true
         };
@@ -325,12 +348,10 @@ async function logout() {
     const currentName = localStorage.getItem('userName') || 'Unknown';
     if (userId) {
         const now = new Date().toISOString();
-        const {
-            error: updateSignOutError
-        } = await supabaseClient.from('profiles').update({
+        await supabaseClient.from('profiles').update({
             last_sign_out: now
         }).eq('id', userId);
-        if (updateSignOutError) console.warn(updateSignOutError.message);
+        
         if (currentSessionId) {
             await supabaseClient.from('user_sessions').delete().eq('session_token', currentSessionId);
         }
