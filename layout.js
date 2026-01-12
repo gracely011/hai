@@ -14,130 +14,120 @@ const announcementBarHTML = `
 
 const translations = {
     en: {
+        // --- Navbar ---
         home: "Home", features: "Features", about: "About", pricing: "Pricing", services: "Services",
         login: "Log In", signup: "Sign Up", dashboard: "Dashboard", logout: "Log Out",
+        
+        // --- Footer & Misc ---
         view_dashboard: "View dashboard", purchase_premium: "Purchase premium",
         privacy: "Privacy Policy", terms: "Terms of Service", contact: "Contact Us",
-        unlock_premium: "Unlock Premium Together",
-        hero_title: "Unlock Premium Together",
+        unlock_premium_footer: "Unlock Premium Together",
+        
+        // --- Hero Section ---
+        hero_title: "Gracely <br> Unlock Premium Together",
         hero_desc: "Unlock premium experiences together with our one-click access extension.",
-        hero_btn_purchase: "Get Started", hero_btn_dashboard: "Dashboard", hero_btn_watch: " Watch Demo",
-        feat_title: "Explore Our Features", feat_desc: "Uncover the power of Gracely.",
-        price_title: "Explore Our Pricing Plans", price_desc: "Find the Perfect Fit for Your Needs.",
-        price_popular: "POPULAR", price_start: "STARTING FROM", price_unit: "/ 30 DAYS",
-        serv_title: "Discover Premium Account Services", serv_desc: "Real-time updates.", serv_check_dash: "Check full list on Dashboard."
+        hero_btn_start: "Get Started", 
+        hero_btn_dash: "Dashboard",
+        hero_btn_watch: " Watch Demo",
+        
+        // --- Features Section ---
+        feat_title: "Explore Our Features", 
+        feat_desc: "Uncover the power of Gracely.",
+        feat_1_t: "24/7 Support", feat_1_d: "Dedicated support team available.",
+        feat_2_t: "99% Uptime", feat_2_d: "Impressive uptime rate.",
+        feat_3_t: "One-Click", feat_3_d: "Simple click access.",
+        feat_4_t: "Affordable", feat_4_d: "Unlock premium affordably.",
+
+        // --- About Section ---
+        about_tag: "About Gracely", 
+        about_title: "Unlock Premium Freedom with Gracely", 
+        about_desc: "Gracely is your gateway to a world of premium digital experiences without the premium price tag.", 
+        about_btn: "Start Saving Now",
+
+        // --- Pricing Section ---
+        price_title: "Our Pricing Plans", 
+        price_desc: "Find the Perfect Fit for Your Needs.",
+        price_popular: "POPULAR", 
+        price_start: "STARTING FROM", 
+        price_unit: "/ 30 DAYS",
+        price_btn: "Purchase",
+
+        // --- Services Section (Titles & Tabs) ---
+        serv_title: "Supported Services", 
+        serv_desc: "We support a wide range of premium services.",
+        serv_tab_prem: "Premium", serv_tab_ai: "AI Tools", serv_tab_dev: "Developer",
+        serv_view_all: "View All Services",
+        // Service Names (Opsional, kalau mau diterjemahkan juga)
+        srv_netflix: "Netflix", srv_spotify: "Spotify", srv_applemusic: "Apple Music",
+        srv_academia: "Academia", srv_canva: "Canva", srv_scribd: "Scribd",
+        srv_chatgpt: "ChatGPT Plus", srv_midjourney: "Midjourney", srv_jasper: "Jasper AI",
+        srv_copilot: "Copilot", srv_jetbrains: "JetBrains",
+
+        // --- FAQ, Testimonials, Contact ---
+        faq_title: "Questions & Answers",
+        testi_title: "User Reviews",
+        contact_title: "Get In Touch",
+        
+        // Form Labels
+        form_name: "Full Name", form_email: "Email", form_msg: "Message", form_send: "Send Message"
     },
     id: {
+        // --- Navbar ---
         home: "Beranda", features: "Fitur", about: "Tentang", pricing: "Harga", services: "Layanan",
         login: "Masuk", signup: "Daftar", dashboard: "Dasbor", logout: "Keluar",
+        
+        // --- Footer & Misc ---
         view_dashboard: "Lihat Dasbor", purchase_premium: "Beli Premium",
         privacy: "Kebijakan Privasi", terms: "Syarat Layanan", contact: "Hubungi Kami",
-        unlock_premium: "Buka Premium Bersama",
-        hero_title: "Buka Premium Bersama",
+        unlock_premium_footer: "Buka Premium Bersama",
+        
+        // --- Hero Section ---
+        hero_title: "Gracely <br> Buka Premium Bersama",
         hero_desc: "Nikmati pengalaman premium bersama dengan ekstensi akses satu klik kami.",
-        hero_btn_purchase: "Mulai Sekarang", hero_btn_dashboard: "Buka Dasbor", hero_btn_watch: " Tonton Demo",
-        feat_title: "Jelajahi Fitur Kami", feat_desc: "Temukan kekuatan Gracely.",
-        price_title: "Pilihan Paket Harga", price_desc: "Temukan yang paling pas untuk Anda.",
-        price_popular: "POPULER", price_start: "MULAI DARI", price_unit: "/ 30 HARI",
-        serv_title: "Layanan Akun Premium", serv_desc: "Pembaruan waktu nyata.", serv_check_dash: "Lihat daftar lengkap di Dasbor."
-    },
-    my: { 
-        home: "Utama", features: "Ciri", about: "Tentang", pricing: "Harga", services: "Perkhidmatan", 
-        login: "Log Masuk", signup: "Daftar", dashboard: "Papan Pemuka", logout: "Log Keluar",
-        view_dashboard: "Lihat Papan Pemuka", purchase_premium: "Beli Premium", 
-        privacy: "Dasar Privasi", terms: "Syarat Perkhidmatan", contact: "Hubungi Kami",
-        unlock_premium: "Buka Premium Bersama",
-        hero_title: "Akses Premium Bersama",
-        hero_desc: "Nikmati pengalaman premium bersama dengan sambungan akses satu klik kami.",
-        hero_btn_purchase: "Mula Sekarang", hero_btn_dashboard: "Papan Pemuka", hero_btn_watch: " Tonton Demo",
-        feat_title: "Terokai Ciri Kami", feat_desc: "Temui kehebatan Gracely.",
-        price_title: "Pelan Harga Kami", price_desc: "Cari yang sesuai untuk anda.",
-        price_popular: "POPULAR", price_start: "BERMULA DARI", price_unit: "/ 30 HARI",
-        serv_title: "Perkhidmatan Akaun Premium", serv_desc: "Kemas kini masa nyata.", serv_check_dash: "Lihat senarai penuh di Papan Pemuka."
-    },
-    ph: { 
-        home: "Bahay", features: "Tampok", about: "Tungkol", pricing: "Presyo", services: "Serbisyo", 
-        login: "Mag-login", signup: "Mag-sign up", dashboard: "Dashboard", logout: "Mag-log out",
-        view_dashboard: "Tingnan ang Dashboard", purchase_premium: "Bumili ng Premium", 
-        privacy: "Patakaran sa Privacy", terms: "Mga Tuntunin ng Serbisyo", contact: "Makipag-ugnayan",
-        unlock_premium: "I-unlock ang Premium",
-        hero_title: "I-unlock ang Premium",
-        hero_desc: "I-unlock ang mga premium na karanasan gamit ang aming one-click extension.",
-        hero_btn_purchase: "Magsimula Na", hero_btn_dashboard: "Pumunta sa Dashboard", hero_btn_watch: " Panoorin ang Demo",
-        feat_title: "Tuklasin ang Mga Tampok", feat_desc: "Tuklasin ang lakas ng Gracely.",
-        price_title: "Mga Plano sa Presyo", price_desc: "Hanapin ang perpekto para sa iyo.",
-        price_popular: "SIKAT", price_start: "NAGSISIMULA SA", price_unit: "/ 30 ARAW",
-        serv_title: "Mga Serbisyo ng Premium Account", serv_desc: "Real-time na update.", serv_check_dash: "Tingnan ang buong listahan sa Dashboard."
-    },
-    vn: { 
-        home: "Trang chủ", features: "Tính năng", about: "Giới thiệu", pricing: "Giá cả", services: "Dịch vụ", 
-        login: "Đăng nhập", signup: "Đăng ký", dashboard: "Bảng điều khiển", logout: "Đăng xuất",
-        view_dashboard: "Xem Bảng điều khiển", purchase_premium: "Mua Premium", 
-        privacy: "Chính sách bảo mật", terms: "Điều khoản dịch vụ", contact: "Liên hệ",
-        unlock_premium: "Mở khóa Premium cùng nhau",
-        hero_title: "Mở khóa Premium",
-        hero_desc: "Mở khóa trải nghiệm cao cấp cùng nhau với tiện ích mở rộng truy cập một cú nhấp chuột.",
-        hero_btn_purchase: "Bắt đầu ngay", hero_btn_dashboard: "Bảng điều khiển", hero_btn_watch: " Xem Demo",
-        feat_title: "Khám phá Tính năng", feat_desc: "Khám phá sức mạnh của Gracely.",
-        price_title: "Gói Giá Của Chúng Tôi", price_desc: "Tìm gói phù hợp nhất với nhu cầu của bạn.",
-        price_popular: "PHỔ BIẾN", price_start: "BẮT ĐẦU TỪ", price_unit: "/ 30 NGÀY",
-        serv_title: "Dịch vụ Tài khoản Premium", serv_desc: "Cập nhật thời gian thực.", serv_check_dash: "Xem danh sách đầy đủ trong Bảng điều khiển."
-    },
-    th: { 
-        home: "หน้าแรก", features: "คุณสมบัติ", about: "เกี่ยวกับ", pricing: "ราคา", services: "บริการ", 
-        login: "เข้าสู่ระบบ", signup: "ลงชื่อใช้", dashboard: "แผงควบคุม", logout: "ออกจากระบบ",
-        view_dashboard: "ดูแผงควบคุม", purchase_premium: "ซื้อพรีเมียม", 
-        privacy: "นโยบายความเป็นส่วนตัว", terms: "เงื่อนไขการให้บริการ", contact: "ติดต่อเรา",
-        unlock_premium: "ปลดล็อกพรีเมียม",
-        hero_title: "ปลดล็อกพรีเมียม",
-        hero_desc: "ปลดล็อกประสบการณ์พรีเมียมด้วยส่วนขยายคลิกเดียวของเรา",
-        hero_btn_purchase: "เริ่มเลย", hero_btn_dashboard: "แผงควบคุม", hero_btn_watch: " ดูสาธิต",
-        feat_title: "สำรวจคุณสมบัติ", feat_desc: "ค้นพบพลังของ Gracely",
-        price_title: "แผนราคาของเรา", price_desc: "ค้นหาแผนที่เหมาะกับคุณ",
-        price_popular: "ยอดนิยม", price_start: "เริ่มต้นที่", price_unit: "/ 30 วัน",
-        serv_title: "บริการบัญชีพรีเมียม", serv_desc: "อัปเดตเรียลไทม์", serv_check_dash: "ดูรายการทั้งหมดในแผงควบคุม"
-    },
-    cn: { 
-        home: "首页", features: "特征", about: "关于", pricing: "价格", services: "服务", 
-        login: "登录", signup: "注册", dashboard: "仪表板", logout: "登出",
-        view_dashboard: "查看仪表板", purchase_premium: "购买高级版", 
-        privacy: "隐私政策", terms: "服务条款", contact: "联系我们",
-        unlock_premium: "一起解锁高级版",
-        hero_title: "Gracely <br> 一起解锁高级版",
-        hero_desc: "使用我们的一键访问扩展程序解锁高级体验。",
-        hero_btn_purchase: "立即开始", hero_btn_dashboard: "仪表板", hero_btn_watch: " 观看演示",
-        feat_title: "探索我们的功能", feat_desc: "发掘 Gracely 的力量。",
-        price_title: "探索我们的定价计划", price_desc: "找到最适合您的方案。",
-        price_popular: "流行", price_start: "起价", price_unit: "/ 30 天",
-        serv_title: "高级帐户服务", serv_desc: "实时更新。", serv_check_dash: "登录后在仪表板上查看完整列表。"
-    },
-    jp: { 
-        home: "ホーム", features: "特徴", about: "約", pricing: "価格", services: "サービス", 
-        login: "ログイン", signup: "サインアップ", dashboard: "ダッシュボード", logout: "ログアウト",
-        view_dashboard: "ダッシュボードを表示", purchase_premium: "プレミアムを購入", 
-        privacy: "プライバシーポリシー", terms: "利用規約", contact: "お問い合わせ",
-        unlock_premium: "プレミアムを一緒に",
-        hero_title: " プレミアムを解除",
-        hero_desc: "ワンクリックアクセス拡張機能でプレミアム体験を解除しましょう。",
-        hero_btn_purchase: "今すぐ開始", hero_btn_dashboard: "ダッシュボード", hero_btn_watch: " デモを見る",
-        feat_title: "機能を探る", feat_desc: "Gracelyの力を発見してください。",
-        price_title: "価格プラン", price_desc: "あなたにぴったりのプランを見つけましょう。",
-        price_popular: "人気", price_start: "開始価格", price_unit: "/ 30日",
-        serv_title: "プレミアムアカウントサービス", serv_desc: "リアルタイム更新。", serv_check_dash: "ログイン後のダッシュボードで完全なリストを確認してください。"
-    },
-    kr: { 
-        home: "홈", features: "특징", about: "약", pricing: "가격", services: "서비스", 
-        login: "로그인", signup: "가입하기", dashboard: "대시보드", logout: "로그아웃",
-        view_dashboard: "대시보드 보기", purchase_premium: "프리미엄 구매", 
-        privacy: "개인정보 처리방침", terms: "서비스 약관", contact: "문의하기",
-        unlock_premium: "프리미엄 잠금 해제",
-        hero_title: " 프리미엄 잠금 해제",
-        hero_desc: "원클릭 액세스 확장 프로그램으로 프리미엄 경험을 잠금 해제하세요.",
-        hero_btn_purchase: "지금 시작", hero_btn_dashboard: "대시보드", hero_btn_watch: " 데모 보기",
-        feat_title: "기능 살펴보기", feat_desc: "Gracely의 힘을 발견하세요.",
-        price_title: "가격 플랜 살펴보기", price_desc: "나에게 맞는 플랜을 찾으세요.",
-        price_popular: "인기", price_start: "시작 가격", price_unit: "/ 30일",
-        serv_title: "프리미엄 계정 서비스", serv_desc: "실시간 업데이트.", serv_check_dash: "로그인 후 대시보드에서 전체 목록을 확인하세요."
+        hero_btn_start: "Mulai Sekarang", 
+        hero_btn_dash: "Buka Dasbor",
+        hero_btn_watch: " Tonton Demo",
+        
+        // --- Features Section ---
+        feat_title: "Jelajahi Fitur Kami", 
+        feat_desc: "Temukan kekuatan Gracely.",
+        feat_1_t: "Dukungan 24/7", feat_1_d: "Tim dukungan selalu tersedia.",
+        feat_2_t: "99% Uptime", feat_2_d: "Tingkat uptime yang mengesankan.",
+        feat_3_t: "Satu Klik", feat_3_d: "Akses klik yang mudah.",
+        feat_4_t: "Terjangkau", feat_4_d: "Buka premium dengan hemat.",
+
+        // --- About Section ---
+        about_tag: "Tentang Gracely", 
+        about_title: "Buka Kebebasan Premium dengan Gracely", 
+        about_desc: "Gracely adalah gerbang Anda menuju dunia pengalaman digital premium tanpa harga mahal.", 
+        about_btn: "Mulai Hemat Sekarang",
+
+        // --- Pricing Section ---
+        price_title: "Pilihan Paket Harga", 
+        price_desc: "Temukan yang paling pas untuk Anda.",
+        price_popular: "POPULER", 
+        price_start: "MULAI DARI", 
+        price_unit: "/ 30 HARI",
+        price_btn: "Beli Sekarang",
+
+        // --- Services Section ---
+        serv_title: "Layanan Yang Didukung", 
+        serv_desc: "Kami mendukung berbagai layanan premium.",
+        serv_tab_prem: "Premium", serv_tab_ai: "Alat AI", serv_tab_dev: "Developer",
+        serv_view_all: "Lihat Semua Layanan",
+        // Service Names
+        srv_netflix: "Netflix", srv_spotify: "Spotify", srv_applemusic: "Apple Music",
+        srv_academia: "Academia", srv_canva: "Canva", srv_scribd: "Scribd",
+        srv_chatgpt: "ChatGPT Plus", srv_midjourney: "Midjourney", srv_jasper: "Jasper AI",
+        srv_copilot: "Copilot", srv_jetbrains: "JetBrains",
+
+        // --- FAQ, Testimonials, Contact ---
+        faq_title: "Tanya Jawab",
+        testi_title: "Ulasan Pengguna",
+        contact_title: "Hubungi Kami",
+
+        // Form Labels
+        form_name: "Nama Lengkap", form_email: "Email", form_msg: "Pesan", form_send: "Kirim Pesan"
     }
 };
 
@@ -148,14 +138,7 @@ function getCurrentLang() {
     else { lang = localStorage.getItem('gracely_lang') || 'en'; }
     const langMap = {
         'en': { flag: 'us', name: 'English' },
-        'id': { flag: 'id', name: 'Indonesia' },
-        'my': { flag: 'my', name: 'Melayu' },
-        'ph': { flag: 'ph', name: 'Filipino' },
-        'vn': { flag: 'vn', name: 'Tiếng Việt' },
-        'th': { flag: 'th', name: 'ไทย' },
-        'cn': { flag: 'cn', name: '中文' },
-        'jp': { flag: 'jp', name: '日本語' },
-        'kr': { flag: 'kr', name: '한국어' }
+        'id': { flag: 'id', name: 'Indonesia' }
     };
     return langMap[lang] ? { ...langMap[lang], code: lang } : { ...langMap['en'], code: 'en' };
 }
@@ -167,49 +150,49 @@ function t(key) {
     return langData[key] || fallbackData[key] || key;
 }
 
+// --- FUNGSI TRANSLATE YANG AMAN UNTUK GAMBAR ---
 function translatePageContent() {
-    const heroTitle = document.querySelector('.ud-hero-title');
-    if (heroTitle) heroTitle.innerHTML = t('hero_title');
-    const heroDesc = document.querySelector('.ud-hero-desc');
-    if (heroDesc) heroDesc.textContent = t('hero_desc');
+    // Cari semua elemen yang punya atribut 'data-i18n'
+    const elements = document.querySelectorAll('[data-i18n]');
+    
+    elements.forEach(element => {
+        const key = element.getAttribute('data-i18n');
+        const translation = t(key);
+        
+        // 1. Cek jika elemen adalah Input/Textarea (ganti placeholder)
+        if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
+            element.placeholder = translation;
+        } 
+        // 2. Cek jika elemen punya icon <i> di dalamnya (seperti tombol)
+        else if (element.querySelector('i')) {
+            const icon = element.querySelector('i');
+            // Cek posisi icon (sebelum atau sesudah teks)
+            // Ini penanganan sederhana, kita asumsikan teks + icon
+            // Cara paling aman: simpan icon, hapus isi, isi teks, append icon
+            const iconClone = icon.cloneNode(true);
+            element.innerHTML = translation + ' ';
+            element.appendChild(iconClone);
+        }
+        // 3. Teks biasa
+        else {
+            element.innerHTML = translation;
+        }
+    });
+
+    // Penanganan Khusus Tombol Hero (Dashboard vs Get Started)
+    // Karena tombol ini berubah fungsinya tergantung login, kita handle manual
     const heroBtnWhite = document.querySelector('.ud-hero-buttons .ud-white-btn');
     if (heroBtnWhite) {
-        if(heroBtnWhite.getAttribute('href') && heroBtnWhite.getAttribute('href').includes('dashboard')) {
-             heroBtnWhite.textContent = t('hero_btn_dashboard');
-        } else {
-             const icon = heroBtnWhite.querySelector('i');
-             heroBtnWhite.textContent = t('hero_btn_purchase') + ' ';
-             if(icon) heroBtnWhite.appendChild(icon);
-        }
+        const isDashboard = heroBtnWhite.getAttribute('href') && heroBtnWhite.getAttribute('href').includes('dashboard');
+        const key = isDashboard ? 'hero_btn_dash' : 'hero_btn_start';
+        
+        // Simpan icon panah
+        const icon = heroBtnWhite.querySelector('i');
+        const text = t(key);
+        
+        heroBtnWhite.innerHTML = text + ' ';
+        if(icon) heroBtnWhite.appendChild(icon);
     }
-    const heroBtnLink = document.querySelector('.ud-hero-buttons .ud-link-btn');
-    if (heroBtnLink) heroBtnLink.innerHTML = `<i class="fa fa-play-circle" aria-hidden="true"></i> ${t('hero_btn_watch')}`;
-    const featTitle = document.querySelector('.ud-features .ud-section-title h2');
-    if (featTitle) featTitle.textContent = t('feat_title');
-    const featDesc = document.querySelector('.ud-features .ud-section-title p');
-    if (featDesc) featDesc.textContent = t('feat_desc');
-    const priceTitle = document.querySelector('.ud-pricing .ud-section-title h2');
-    if (priceTitle) priceTitle.textContent = t('price_title');
-    const priceDesc = document.querySelector('.ud-pricing .ud-section-title p');
-    if (priceDesc) priceDesc.textContent = t('price_desc');
-    const popularTag = document.querySelector('.ud-popular-tag');
-    if (popularTag) popularTag.innerHTML = `<i class="fa fa-star"></i> ${t('price_popular')} <i class="fa fa-star"></i>`;
-    const priceStart = document.querySelector('.ud-pricing-header h3');
-    if (priceStart) priceStart.textContent = t('price_start');
-    const priceUnit = document.querySelector('.ud-pricing-header h4 span');
-    if (priceUnit) priceUnit.textContent = t('price_unit');
-    const priceBtns = document.querySelectorAll('.ud-pricing-footer .ud-main-btn');
-    priceBtns.forEach(btn => {
-        btn.textContent = t('purchase_premium');
-    });
-    const servTitle = document.querySelector('.ud-team .ud-section-title h2');
-    if (servTitle) servTitle.textContent = t('serv_title');
-    const servDesc = document.querySelector('.ud-team .ud-section-title p');
-    if (servDesc) servDesc.textContent = t('serv_desc');
-    const servChecks = document.querySelectorAll('.ud-team .text-center a.ud-main-btn');
-    servChecks.forEach(btn => {
-        btn.textContent = t('serv_check_dash');
-    });
 }
 
 function getLanguageDropdownHTML() {
@@ -222,13 +205,6 @@ function getLanguageDropdownHTML() {
         <ul class="dropdown-menu dropdown-menu-end">
             <li><a class="dropdown-item" href="?lang=en"><span class="flag-icon flag-icon-us me-2"></span> English</a></li>
             <li><a class="dropdown-item" href="?lang=id"><span class="flag-icon flag-icon-id me-2"></span> Indonesia</a></li>
-            <li><a class="dropdown-item" href="?lang=my"><span class="flag-icon flag-icon-my me-2"></span> Melayu</a></li>
-            <li><a class="dropdown-item" href="?lang=ph"><span class="flag-icon flag-icon-ph me-2"></span> Filipino</a></li>
-            <li><a class="dropdown-item" href="?lang=vn"><span class="flag-icon flag-icon-vn me-2"></span> Tiếng Việt</a></li>
-            <li><a class="dropdown-item" href="?lang=th"><span class="flag-icon flag-icon-th me-2"></span> ไทย</a></li>
-            <li><a class="dropdown-item" href="?lang=cn"><span class="flag-icon flag-icon-cn me-2"></span> 中文</a></li>
-            <li><a class="dropdown-item" href="?lang=jp"><span class="flag-icon flag-icon-jp me-2"></span> 日本語</a></li>
-            <li><a class="dropdown-item" href="?lang=kr"><span class="flag-icon flag-icon-kr me-2"></span> 한국어</a></li>
         </ul>
     </div>`;
 }
@@ -267,74 +243,11 @@ async function checkPremiumExpiryWarning() {
         };
         showExpiryModal();
         return true;
-    } catch (error) {
-        return false;
-    }
-}
-
-async function initializeWebsiteAnnouncement() {
-    try {
-        const configResponse = await fetch('aturhonma.js');
-        if (!configResponse.ok) return;
-        const configText = await configResponse.text();
-        const gracelyConfig = JSON.parse(configText.replace('const gracelyConfig =', '').trim().replace(/;$/, ''));
-        const notifData = gracelyConfig.notifications?.announcement;
-        if (!notifData || !notifData.enabled || !notifData.id) {
-            return;
-        }
-        const newNotifId = notifData.id;
-        const lastShownTimestamp = localStorage.getItem('websiteNotificationLastShown');
-        const lastShownId = localStorage.getItem('websiteNotificationLastShownId');
-        const oneDay = 24 * 60 * 60 * 1000;
-        const timeDiff = Date.now() - parseInt(lastShownTimestamp || '0');
-        const modalContainer = document.getElementById('notification-0');
-        if(!modalContainer) return;
-        const modalContent = modalContainer.querySelector('.notificationModal-content');
-        const showModal = () => {
-            if (notifData.html) {
-                modalContainer.innerHTML = notifData.html;
-            } else {
-                let contentParagraphs = '';
-                if (notifData.lines && Array.isArray(notifData.lines)) {
-                    contentParagraphs = notifData.lines.map(line => `<p>${line}</p>`).join('');
-                }
-                const notificationHTML = ` 
-                    <i class="fa fa-times gracely-modal-close-icon" id="notification-close"></i> 
-                    <h2>${notifData.title}</h2> 
-                    ${contentParagraphs} 
-                    <button class="ud-main-btn" id="notification-ok" style="margin-top: 10px;">OK</button> 
-                `;
-                modalContent.innerHTML = notificationHTML;
-            }
-            modalContainer.style.display = 'flex';
-            modalContainer.style.visibility = 'visible';
-            modalContainer.style.opacity = '1';
-            const closeBtn = modalContainer.querySelector('#notification-close');
-            const okBtn = modalContainer.querySelector('#notification-ok');
-            const closeModal = () => {
-                modalContainer.style.display = 'none';
-                localStorage.setItem('websiteNotificationLastShown', Date.now().toString());
-                localStorage.setItem('websiteNotificationLastShownId', newNotifId);
-            };
-            if (closeBtn) closeBtn.addEventListener('click', closeModal);
-            if (okBtn) okBtn.addEventListener('click', closeModal);
-        };
-        if (!lastShownTimestamp || timeDiff > oneDay || newNotifId !== lastShownId) {
-            setTimeout(() => {
-                showModal();
-            }, 2000); 
-        }
-    } catch (error) {
-        console.warn(error);
-    }
+    } catch (error) { return false; }
 }
 
 async function runNotificationChecks() {
-    const didShowExpiryWarning = await checkPremiumExpiryWarning();
-    if (didShowExpiryWarning) {
-        return;
-    }
-    await initializeWebsiteAnnouncement();
+    if (typeof checkPremiumExpiryWarning === 'function') await checkPremiumExpiryWarning();
 }
 
 const defaultNavbarHTML = () => `
@@ -351,16 +264,16 @@ const defaultNavbarHTML = () => `
           </button>
           <div class="navbar-collapse">
             <ul id="nav" class="navbar-nav mx-auto">
-              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#home">${t('home')}</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#features">${t('features')}</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#about">${t('about')}</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#pricing">${t('pricing')}</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#services">${t('services')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#home" data-i18n="home">${t('home')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#features" data-i18n="features">${t('features')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#about" data-i18n="about">${t('about')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#pricing" data-i18n="pricing">${t('pricing')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#services" data-i18n="services">${t('services')}</a></li>
             </ul>
           </div>
           <div class="navbar-btn d-flex align-items-center">
             ${getLanguageDropdownHTML()}
-            <a href="login.html" class="ud-main-btn ud-white-btn" style="padding: 10px 25px;">${t('login')}</a>
+            <a href="login.html" class="ud-main-btn ud-white-btn" style="padding: 10px 25px;" data-i18n="login">${t('login')}</a>
           </div>
         </nav>
       </div>
@@ -383,11 +296,11 @@ const loggedInNavbarHTML = (userName) => `
           </button>
           <div class="navbar-collapse">
              <ul id="nav" class="navbar-nav mx-auto">
-              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#home">${t('home')}</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#features">${t('features')}</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#about">${t('about')}</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#pricing">${t('pricing')}</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#services">${t('services')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#home" data-i18n="home">${t('home')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#features" data-i18n="features">${t('features')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#about" data-i18n="about">${t('about')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#pricing" data-i18n="pricing">${t('pricing')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#services" data-i18n="services">${t('services')}</a></li>
             </ul>
           </div>
           <div class="navbar-btn d-flex align-items-center">
@@ -417,7 +330,7 @@ const footerHTML = `
         <div class="col-xl-3 col-lg-4 col-md-6">
           <div class="ud-widget">
             <a href="./" class="ud-footer-logo"><img src="assets/images/logo/gracely_white.png" alt="logo" /></a>
-            <p class="ud-widget-desc">${t('unlock_premium')}</p>
+            <p class="ud-widget-desc" data-i18n="unlock_premium_footer">${t('unlock_premium_footer')}</p>
             <ul class="ud-widget-socials">
               <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
               <li><a href="#"><i class="fa-brands fa-discord"></i></a></li>
@@ -426,20 +339,20 @@ const footerHTML = `
         </div>
         <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
           <div class="ud-widget">
-            <h5 class="ud-widget-title">${t('about')}</h5>
+            <h5 class="ud-widget-title" data-i18n="about">${t('about')}</h5>
             <ul class="ud-widget-links">
-              <li><a href="index.html#features">${t('features')}</a></li>
-              <li><a href="index.html#about">${t('about')}</a></li>
-              <li><a href="index.html#pricing">${t('pricing')}</a></li>
+              <li><a href="index.html#features" data-i18n="features">${t('features')}</a></li>
+              <li><a href="index.html#about" data-i18n="about">${t('about')}</a></li>
+              <li><a href="index.html#pricing" data-i18n="pricing">${t('pricing')}</a></li>
             </ul>
           </div>
         </div>
         <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
           <div class="ud-widget">
-            <h5 class="ud-widget-title">${t('dashboard')}</h5>
+            <h5 class="ud-widget-title" data-i18n="dashboard">${t('dashboard')}</h5>
             <ul class="ud-widget-links">
-              <li><a href="dashboard.html">${t('view_dashboard')}</a></li>
-              <li><a href="premium.html">${t('purchase_premium')}</a></li>
+              <li><a href="dashboard.html" data-i18n="view_dashboard">${t('view_dashboard')}</a></li>
+              <li><a href="premium.html" data-i18n="purchase_premium">${t('purchase_premium')}</a></li>
             </ul>
           </div>
         </div>
@@ -451,9 +364,9 @@ const footerHTML = `
       <div class="row">
         <div class="col-md-8">
           <ul class="ud-footer-bottom-left">
-            <li><a href="#">${t('privacy')}</a></li>
-            <li><a href="#">${t('terms')}</a></li>
-            <li><a href="#contact">${t('contact')}</a></li>
+            <li><a href="#" data-i18n="privacy">${t('privacy')}</a></li>
+            <li><a href="#" data-i18n="terms">${t('terms')}</a></li>
+            <li><a href="#contact" data-i18n="contact">${t('contact')}</a></li>
           </ul>
         </div>
         <div class="col-md-4"><p class="ud-footer-bottom-right">Gracely &copy; 2025</p></div>
@@ -499,7 +412,8 @@ function modifyIndexPageContent() {
     if (typeof isAuthenticated === 'function' && isAuthenticated()) {
         const purchaseButton = document.querySelector('.ud-hero-buttons .ud-white-btn'); 
         if (purchaseButton) {
-            purchaseButton.textContent = t('hero_btn_dashboard'); 
+            // Update teks button sesuai bahasa terpilih
+            purchaseButton.textContent = t('hero_btn_dash'); 
             purchaseButton.href = 'dashboard.html';
             purchaseButton.removeAttribute('target');
         }
@@ -543,10 +457,14 @@ function loadLayout() {
 
     if (typeof initializeScripts === 'function') { initializeScripts(); }
     
+    // Urutan PENTING:
+    // 1. Translate dulu konten dasar
     translatePageContent();
+    // 2. Baru modifikasi konten (tombol Hero) berdasarkan status login
+    //    (Fungsi modifyIndexPageContent akan menimpa teks tombol jika login, 
+    //     tapi tetap menggunakan t() agar bahasanya benar)
     modifyIndexPageContent();
     runNotificationChecks();
 }
 
 document.addEventListener("DOMContentLoaded", loadLayout);
-
