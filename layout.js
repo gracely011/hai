@@ -14,6 +14,7 @@ const announcementBarHTML = `
 
 const translations = {
     en: {
+        // Navbar
         home: "Home",
         features: "Features",
         about: "About",
@@ -23,11 +24,34 @@ const translations = {
         signup: "Sign Up",
         dashboard: "Dashboard",
         logout: "Log Out",
+        
+        // Footer & Misc
         view_dashboard: "View dashboard",
         purchase_premium: "Purchase premium",
         privacy: "Privacy Policy",
         terms: "Terms of Service",
-        contact: "Contact Us"
+        contact: "Contact Us",
+        unlock_premium: "Unlock Premium Together",
+        
+        // Home Page Content
+        hero_title: "Gracely <br> Unlock Premium Together",
+        hero_desc: "Unlock premium experiences together with our one-click access extension. Join us and start enjoying premium content without the premium price tag.",
+        hero_btn_purchase: "Purchase",
+        hero_btn_dashboard: "Go to Dashboard",
+        hero_btn_watch: " Watch Demo",
+        
+        feat_title: "Explore Our Features",
+        feat_desc: "Uncover the power of Gracely.",
+        
+        price_title: "Explore Our Pricing Plans",
+        price_desc: "Find the Perfect Fit for Your Needs.",
+        price_popular: "POPULAR",
+        price_start: "STARTING FROM",
+        price_unit: "/ 30 DAYS",
+        
+        serv_title: "Discover Premium Account Services",
+        serv_desc: "Real-time updates, number of services can increase or decrease at any time.",
+        serv_check_dash: "Check full list on Dashboard after login."
     },
     id: {
         home: "Beranda",
@@ -43,55 +67,74 @@ const translations = {
         purchase_premium: "Beli Premium",
         privacy: "Kebijakan Privasi",
         terms: "Syarat Layanan",
-        contact: "Hubungi Kami"
-    },
-    my: { 
-        home: "Utama", features: "Ciri", about: "Tentang", pricing: "Harga", services: "Perkhidmatan", 
-        login: "Log Masuk", signup: "Daftar", dashboard: "Papan Pemuka", logout: "Log Keluar",
-        view_dashboard: "Lihat Papan Pemuka", purchase_premium: "Beli Premium", 
-        privacy: "Dasar Privasi", terms: "Syarat Perkhidmatan", contact: "Hubungi Kami"
-    },
-    ph: { 
-        home: "Bahay", features: "Tampok", about: "Tungkol", pricing: "Presyo", services: "Serbisyo", 
-        login: "Mag-login", signup: "Mag-sign up", dashboard: "Dashboard", logout: "Mag-log out",
-        view_dashboard: "Tingnan ang Dashboard", purchase_premium: "Bumili ng Premium", 
-        privacy: "Patakaran sa Privacy", terms: "Mga Tuntunin ng Serbisyo", contact: "Makipag-ugnayan"
+        contact: "Hubungi Kami",
+        unlock_premium: "Buka Premium Bersama",
+        
+        hero_title: "Gracely <br> Buka Premium Bersama",
+        hero_desc: "Nikmati pengalaman premium bersama dengan ekstensi akses satu klik kami. Bergabunglah dan nikmati konten premium tanpa harga mahal.",
+        hero_btn_purchase: "Beli Sekarang",
+        hero_btn_dashboard: "Buka Dasbor",
+        hero_btn_watch: " Tonton Demo",
+        
+        feat_title: "Jelajahi Fitur Kami",
+        feat_desc: "Temukan kekuatan Gracely.",
+        
+        price_title: "Pilihan Paket Harga",
+        price_desc: "Temukan yang paling pas untuk kebutuhan Anda.",
+        price_popular: "POPULER",
+        price_start: "MULAI DARI",
+        price_unit: "/ 30 HARI",
+        
+        serv_title: "Layanan Akun Premium",
+        serv_desc: "Pembaruan waktu nyata, jumlah layanan dapat bertambah atau berkurang kapan saja.",
+        serv_check_dash: "Lihat daftar lengkap di Dasbor setelah masuk."
     },
     vn: { 
         home: "Trang chủ", features: "Tính năng", about: "Giới thiệu", pricing: "Giá cả", services: "Dịch vụ", 
         login: "Đăng nhập", signup: "Đăng ký", dashboard: "Bảng điều khiển", logout: "Đăng xuất",
         view_dashboard: "Xem Bảng điều khiển", purchase_premium: "Mua Premium", 
-        privacy: "Chính sách bảo mật", terms: "Điều khoản dịch vụ", contact: "Liên hệ"
+        privacy: "Chính sách bảo mật", terms: "Điều khoản dịch vụ", contact: "Liên hệ",
+        unlock_premium: "Mở khóa Premium cùng nhau",
+
+        hero_title: "Gracely <br> Mở khóa Premium",
+        hero_desc: "Mở khóa trải nghiệm cao cấp cùng nhau với tiện ích mở rộng truy cập một cú nhấp chuột. Tham gia ngay để tận hưởng nội dung cao cấp với giá rẻ.",
+        hero_btn_purchase: "Mua Ngay",
+        hero_btn_dashboard: "Vào Bảng điều khiển",
+        hero_btn_watch: " Xem Demo",
+
+        feat_title: "Khám phá Tính năng",
+        feat_desc: "Khám phá sức mạnh của Gracely.",
+
+        price_title: "Gói Giá Của Chúng Tôi",
+        price_desc: "Tìm gói phù hợp nhất với nhu cầu của bạn.",
+        price_popular: "PHỔ BIẾN",
+        price_start: "BẮT ĐẦU TỪ",
+        price_unit: "/ 30 NGÀY",
+
+        serv_title: "Dịch vụ Tài khoản Premium",
+        serv_desc: "Cập nhật thời gian thực, số lượng dịch vụ có thể tăng hoặc giảm bất cứ lúc nào.",
+        serv_check_dash: "Xem danh sách đầy đủ trong Bảng điều khiển sau khi đăng nhập."
     },
-    th: { 
-        home: "หน้าแรก", features: "คุณสมบัติ", about: "เกี่ยวกับ", pricing: "ราคา", services: "บริการ", 
-        login: "เข้าสู่ระบบ", signup: "ลงชื่อใช้", dashboard: "แผงควบคุม", logout: "ออกจากระบบ",
-        view_dashboard: "ดูแผงควบคุม", purchase_premium: "ซื้อพรีเมียม", 
-        privacy: "นโยบายความเป็นส่วนตัว", terms: "เงื่อนไขการให้บริการ", contact: "ติดต่อเรา"
-    },
-    cn: { 
-        home: "首页", features: "特征", about: "关于", pricing: "价格", services: "服务", 
-        login: "登录", signup: "注册", dashboard: "仪表板", logout: "登出",
-        view_dashboard: "查看仪表板", purchase_premium: "购买高级版", 
-        privacy: "隐私政策", terms: "服务条款", contact: "联系我们"
-    },
-    jp: { 
-        home: "ホーム", features: "特徴", about: "約", pricing: "価格", services: "サービス", 
-        login: "ログイン", signup: "サインアップ", dashboard: "ダッシュボード", logout: "ログアウト",
-        view_dashboard: "ダッシュボードを表示", purchase_premium: "プレミアムを購入", 
-        privacy: "プライバシーポリシー", terms: "利用規約", contact: "お問い合わせ"
-    },
-    kr: { 
-        home: "홈", features: "특징", about: "약", pricing: "가격", services: "서비스", 
-        login: "로그인", signup: "가입하기", dashboard: "대시보드", logout: "로그아웃",
-        view_dashboard: "대시보드 보기", purchase_premium: "프리미엄 구매", 
-        privacy: "개인정보 처리방침", terms: "서비스 약관", contact: "문의하기"
-    }
+    my: { home: "Utama", features: "Ciri", about: "Tentang", pricing: "Harga", services: "Perkhidmatan", login: "Log Masuk", signup: "Daftar", dashboard: "Papan Pemuka", logout: "Log Keluar", view_dashboard: "Lihat Papan Pemuka", purchase_premium: "Beli Premium", privacy: "Dasar Privasi", terms: "Syarat Perkhidmatan", contact: "Hubungi Kami", unlock_premium: "Buka Premium Bersama", hero_title: "Gracely <br> Akses Premium Bersama", hero_desc: "Nikmati pengalaman premium bersama dengan sambungan akses satu klik kami.", hero_btn_purchase: "Beli Sekarang", hero_btn_dashboard: "Pergi ke Papan Pemuka", hero_btn_watch: " Tonton Demo", feat_title: "Terokai Ciri Kami", feat_desc: "Temui kehebatan Gracely.", price_title: "Pelan Harga Kami", price_desc: "Cari yang sesuai untuk anda.", price_popular: "POPULAR", price_start: "BERMULA DARI", price_unit: "/ 30 HARI", serv_title: "Perkhidmatan Akaun Premium", serv_desc: "Kemas kini masa nyata, jumlah perkhidmatan boleh berubah pada bila-bila masa.", serv_check_dash: "Lihat senarai penuh di Papan Pemuka." },
+    ph: { home: "Bahay", features: "Tampok", about: "Tungkol", pricing: "Presyo", services: "Serbisyo", login: "Mag-login", signup: "Mag-sign up", dashboard: "Dashboard", logout: "Mag-log out", view_dashboard: "Tingnan ang Dashboard", purchase_premium: "Bumili ng Premium", privacy: "Patakaran sa Privacy", terms: "Mga Tuntunin ng Serbisyo", contact: "Makipag-ugnayan", unlock_premium: "I-unlock ang Premium", hero_title: "Gracely <br> I-unlock ang Premium", hero_desc: "I-unlock ang mga premium na karanasan gamit ang aming one-click extension.", hero_btn_purchase: "Bumili Ngayon", hero_btn_dashboard: "Pumunta sa Dashboard", hero_btn_watch: " Panoorin ang Demo", feat_title: "Tuklasin ang Mga Tampok", feat_desc: "Tuklasin ang lakas ng Gracely.", price_title: "Mga Plano sa Presyo", price_desc: "Hanapin ang perpekto para sa iyo.", price_popular: "SIKAT", price_start: "NAGSISIMULA SA", price_unit: "/ 30 ARAW", serv_title: "Mga Serbisyo ng Premium Account", serv_desc: "Real-time na update, ang bilang ng mga serbisyo ay maaaring magbago.", serv_check_dash: "Tingnan ang buong listahan sa Dashboard." },
+    th: { home: "หน้าแรก", features: "คุณสมบัติ", about: "เกี่ยวกับ", pricing: "ราคา", services: "บริการ", login: "เข้าสู่ระบบ", signup: "ลงชื่อใช้", dashboard: "แผงควบคุม", logout: "ออกจากระบบ", view_dashboard: "ดูแผงควบคุม", purchase_premium: "ซื้อพรีเมียม", privacy: "นโยบายความเป็นส่วนตัว", terms: "เงื่อนไขการให้บริการ", contact: "ติดต่อเรา", unlock_premium: "ปลดล็อกพรีเมียมด้วยกัน", hero_title: "Gracely <br> ปลดล็อกพรีเมียม", hero_desc: "ปลดล็อกประสบการณ์พรีเมียมด้วยส่วนขยายคลิกเดียวของเรา", hero_btn_purchase: "ซื้อเลย", hero_btn_dashboard: "ไปที่แผงควบคุม", hero_btn_watch: " ดูสาธิต", feat_title: "สำรวจคุณสมบัติของเรา", feat_desc: "ค้นพบพลังของ Gracely", price_title: "แผนราคาของเรา", price_desc: "ค้นหาแผนที่เหมาะกับคุณ", price_popular: "ยอดนิยม", price_start: "เริ่มต้นที่", price_unit: "/ 30 วัน", serv_title: "บริการบัญชีพรีเมียม", serv_desc: "อัปเดตเรียลไทม์ จำนวนบริการอาจเปลี่ยนแปลงได้ตลอดเวลา", serv_check_dash: "ดูรายการทั้งหมดในแผงควบคุม" },
+    cn: { home: "首页", features: "特征", about: "关于", pricing: "价格", services: "服务", login: "登录", signup: "注册", dashboard: "仪表板", logout: "登出", view_dashboard: "查看仪表板", purchase_premium: "购买高级版", privacy: "隐私政策", terms: "服务条款", contact: "联系我们", unlock_premium: "一起解锁高级版", hero_title: "Gracely <br> 一起解锁高级版", hero_desc: "使用我们的一键访问扩展程序解锁高级体验。", hero_btn_purchase: "立即购买", hero_btn_dashboard: "前往仪表板", hero_btn_watch: " 观看演示", feat_title: "探索我们的功能", feat_desc: "发掘 Gracely 的力量。", price_title: "探索我们的定价计划", price_desc: "找到最适合您的方案。", price_popular: "流行", price_start: "起价", price_unit: "/ 30 天", serv_title: "高级帐户服务", serv_desc: "实时更新，服务数量随时可能增减。", serv_check_dash: "登录后在仪表板上查看完整列表。" },
+    jp: { home: "ホーム", features: "特徴", about: "約", pricing: "価格", services: "サービス", login: "ログイン", signup: "サインアップ", dashboard: "ダッシュボード", logout: "ログアウト", view_dashboard: "ダッシュボードを表示", purchase_premium: "プレミアムを購入", privacy: "プライバシーポリシー", terms: "利用規約", contact: "お問い合わせ", unlock_premium: "プレミアムを一緒に", hero_title: "Gracely <br> プレミアムを解除", hero_desc: "ワンクリックアクセス拡張機能でプレミアム体験を解除しましょう。", hero_btn_purchase: "今すぐ購入", hero_btn_dashboard: "ダッシュボードへ", hero_btn_watch: " デモを見る", feat_title: "機能を探る", feat_desc: "Gracelyの力を発見してください。", price_title: "価格プラン", price_desc: "あなたにぴったりのプランを見つけましょう。", price_popular: "人気", price_start: "開始価格", price_unit: "/ 30日", serv_title: "プレミアムアカウントサービス", serv_desc: "リアルタイム更新、サービス数はいつでも増減する可能性があります。", serv_check_dash: "ログイン後のダッシュボードで完全なリストを確認してください。" },
+    kr: { home: "홈", features: "특징", about: "약", pricing: "가격", services: "서비스", login: "로그인", signup: "가입하기", dashboard: "대시보드", logout: "로그아웃", view_dashboard: "대시보드 보기", purchase_premium: "프리미엄 구매", privacy: "개인정보 처리방침", terms: "서비스 약관", contact: "문의하기", unlock_premium: "프리미엄 잠금 해제", hero_title: "Gracely <br> 프리미엄 잠금 해제", hero_desc: "원클릭 액세스 확장 프로그램으로 프리미엄 경험을 잠금 해제하세요.", hero_btn_purchase: "지금 구매", hero_btn_dashboard: "대시보드로 이동", hero_btn_watch: " 데모 보기", feat_title: "기능 살펴보기", feat_desc: "Gracely의 힘을 발견하세요.", price_title: "가격 플랜 살펴보기", price_desc: "나에게 맞는 플랜을 찾으세요.", price_popular: "인기", price_start: "시작 가격", price_unit: "/ 30일", serv_title: "프리미엄 계정 서비스", serv_desc: "실시간 업데이트, 서비스 수는 언제든지 변경될 수 있습니다.", serv_check_dash: "로그인 후 대시보드에서 전체 목록을 확인하세요." }
 };
 
+// --- LOGIKA PERSISTENCE (PENYIMPANAN BAHASA) ---
 function getCurrentLang() {
     const urlParams = new URLSearchParams(window.location.search);
-    const lang = urlParams.get('lang') || 'en';
+    let lang = urlParams.get('lang');
+
+    // Jika ada di URL, simpan ke LocalStorage (Cache)
+    if (lang) {
+        localStorage.setItem('gracely_lang', lang);
+    } else {
+        // Jika tidak ada di URL, ambil dari LocalStorage
+        lang = localStorage.getItem('gracely_lang') || 'en';
+    }
     
     const langMap = {
         'en': { flag: 'us', name: 'English' },
@@ -110,8 +153,72 @@ function getCurrentLang() {
 function t(key) {
     const current = getCurrentLang().code;
     const langData = translations[current] || translations['en'];
-    return langData[key] || key;
+    const fallbackData = translations['en'];
+    return langData[key] || fallbackData[key] || key;
 }
+
+// --- FUNGSI UPDATE KONTEN HALAMAN (AUTO-TRANSLATE) ---
+function translatePageContent() {
+    // Fungsi ini mencari elemen berdasarkan class CSS dan mengubah teksnya
+    // sesuai bahasa yang dipilih/disimpan.
+    
+    // Hero Section
+    const heroTitle = document.querySelector('.ud-hero-title');
+    if (heroTitle) heroTitle.innerHTML = t('hero_title');
+
+    const heroDesc = document.querySelector('.ud-hero-desc');
+    if (heroDesc) heroDesc.textContent = t('hero_desc');
+
+    const heroBtnWhite = document.querySelector('.ud-hero-buttons .ud-white-btn');
+    // Cek apakah tombol ini tombol Dashboard atau Purchase
+    if (heroBtnWhite) {
+        if(heroBtnWhite.href.includes('dashboard')) {
+             heroBtnWhite.textContent = t('hero_btn_dashboard');
+        } else {
+             heroBtnWhite.textContent = t('hero_btn_purchase');
+        }
+    }
+
+    const heroBtnLink = document.querySelector('.ud-hero-buttons .ud-link-btn');
+    if (heroBtnLink) heroBtnLink.innerHTML = `<i class="fa fa-play-circle" aria-hidden="true"></i> ${t('hero_btn_watch')}`;
+
+    // Features Section
+    const featTitle = document.querySelector('.ud-features .ud-section-title h2');
+    if (featTitle) featTitle.textContent = t('feat_title');
+    
+    const featDesc = document.querySelector('.ud-features .ud-section-title p');
+    if (featDesc) featDesc.textContent = t('feat_desc');
+
+    // Pricing Section
+    const priceTitle = document.querySelector('.ud-pricing .ud-section-title h2');
+    if (priceTitle) priceTitle.textContent = t('price_title');
+
+    const priceDesc = document.querySelector('.ud-pricing .ud-section-title p');
+    if (priceDesc) priceDesc.textContent = t('price_desc');
+
+    const popularTag = document.querySelector('.ud-popular-tag');
+    if (popularTag) popularTag.innerHTML = `<i class="fa fa-star"></i> ${t('price_popular')} <i class="fa fa-star"></i>`;
+
+    const priceStart = document.querySelector('.ud-pricing-header h3');
+    if (priceStart) priceStart.textContent = t('price_start');
+
+    const priceUnit = document.querySelector('.ud-pricing-header h4 span');
+    if (priceUnit) priceUnit.textContent = t('price_unit');
+    
+    const priceBtn = document.querySelector('.ud-pricing-footer .ud-main-btn');
+    if (priceBtn) priceBtn.textContent = t('hero_btn_purchase');
+
+    // Services Section
+    const servTitle = document.querySelector('.ud-team .ud-section-title h2');
+    if (servTitle) servTitle.textContent = t('serv_title');
+
+    const servDesc = document.querySelector('.ud-team .ud-section-title p');
+    if (servDesc) servDesc.textContent = t('serv_desc');
+    
+    const servCheck = document.querySelector('.ud-team .text-center');
+    if (servCheck) servCheck.textContent = t('serv_check_dash');
+}
+
 
 function getLanguageDropdownHTML() {
     const current = getCurrentLang();
@@ -339,7 +446,7 @@ const footerHTML = `
             <a href="./" class="ud-footer-logo">
               <img src="assets/images/logo/gracely_white.png" alt="logo" />
             </a>
-            <p class="ud-widget-desc">Unlock Premium Together</p>
+            <p class="ud-widget-desc">${t('unlock_premium')}</p>
             <ul class="ud-widget-socials">
               <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
               <li><a href="#"><i class="fa-brands fa-discord"></i></a></li>
@@ -449,7 +556,6 @@ function loadLayout() {
     
     if (navbarPlaceholder) {
         if (typeof isAuthenticated === 'function' && isAuthenticated()) {
-            // userName hanya diambil untuk konsistensi, tapi tidak ditampilkan
             const userName = localStorage.getItem("userName") || "Member";
             navbarPlaceholder.innerHTML = loggedInNavbarHTML(userName);
             
@@ -472,6 +578,9 @@ function loadLayout() {
     if (typeof initializeScripts === 'function') {
         initializeScripts();
     }
+    
+    // Panggil fungsi terjemahan konten
+    translatePageContent();
 
     modifyIndexPageContent();
     runNotificationChecks();
