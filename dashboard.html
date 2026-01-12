@@ -141,13 +141,10 @@
     <script src="assets/snow.js"></script>
     
     <script>
-        // Fungsi untuk membuat format persis: "December 01, 2025 20:17:57 (UTC +7)"
         function formatExactUTC(dateString) {
             if (!dateString) return '';
             const date = new Date(dateString);
             
-            // 1. Ambil bagian tanggal & waktu (Bahasa Inggris)
-            // Menghasilkan: "December 01, 2025, 20:17:57" (atau format serupa tergantung browser)
             const options = { 
                 year: 'numeric', 
                 month: 'long', 
@@ -157,11 +154,8 @@
                 second: '2-digit',
                 hour12: false
             };
-            // Kita bersihkan string hasilnya agar rapi (hilangkan koma atau 'at' jika ada)
             let datePart = date.toLocaleString('en-US', options).replace(' at', '').replace(',', '');
             
-            // Pastikan formatnya konsisten "Month DD YYYY HH:MM:SS"
-            // Karena toLocaleString bisa beda-beda dikit antar browser, kita rakit manual biar PERFEK
             const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
             const monthName = months[date.getMonth()];
             const day = String(date.getDate()).padStart(2, '0');
@@ -172,18 +166,12 @@
             
             const cleanDate = `${monthName} ${day}, ${year} ${hours}:${minutes}:${seconds}`;
 
-            // 2. Hitung Offset Timezone Otomatis (Manual Calc biar jadi UTC +X)
-            // getTimezoneOffset returns menit (positif jika dibelakang UTC, negatif jika didepan)
-            // Contoh WIB (UTC+7) -> return -420
             const offsetMinutes = date.getTimezoneOffset(); 
             const offsetHours = -(offsetMinutes / 60);
             const sign = offsetHours >= 0 ? '+' : '-';
             const absOffset = Math.abs(offsetHours);
-            
-            // Hasil: (UTC +7) atau (UTC -5) atau (UTC +9.5)
             const timezoneString = `(UTC ${sign}${absOffset})`;
 
-            // Gabungkan
             return `${cleanDate} ${timezoneString}`;
         }
 
@@ -191,12 +179,19 @@
             const planSection = document.getElementById('plan-status-section');
             const isPremium = localStorage.getItem('isPremium') === 'true';
             const expiryDateStr = localStorage.getItem('premiumExpiryDate');
+            const planName = localStorage.getItem('userPlanName') || 'No Premium';
+            const planNumber = localStorage.getItem('userPlanNumber') || '001';
             
             let planHTML = '';
             
             if (isPremium && expiryDateStr) {
                 const formattedDate = formatExactUTC(expiryDateStr);
+                let cssClass = 'menu-section-plan-premium';
                 
+                if (planNumber === '004') {
+                     cssClass = 'menu-section-plan-phantomwitcher'; 
+                }
+
                 planHTML = `
                 <div class="menu-section">
                   <div class="menu-section-mini-header">
@@ -204,8 +199,8 @@
                   </div>
                   <img src="assets/images/logo/gracely_mobile_white.png" alt="Logo" id="logo" class="top-right-image">
                   
-                  <div class="menu-section-plan-premium"> 
-                    Premium
+                  <div class="${cssClass}"> 
+                    ${planName}
                   </div>
                   
                   <div class="menu-section-plan-description">
@@ -221,14 +216,14 @@
                   <img src="assets/images/logo/gracely_mobile_white.png" alt="Logo" id="logo" class="top-right-image">
                   
                   <div class="menu-section-plan-free">
-                    No Premium
+                    ${planName}
                   </div>
                   <div class="menu-section-plan-description">
                     Premium is required to access Gracely Extension.
                   </div>
                 </div>`;
             }
-            planSection.innerHTML = planHTML;
+            if (planSection) planSection.innerHTML = planHTML;
         });
     </script>
   </body>
