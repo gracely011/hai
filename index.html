@@ -4,20 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gracely | Unlock Premium Together</title>
-    <meta name="title" content="Gracely - Premium Account Sharing">
-    <meta name="description" content="Get access to premium accounts at a fraction of the cost.">
+    <title>Unlock Premium Together | Gracely</title>
+    
+    <meta name="title" content="Unlock Premium Together | Gracely">
+    <meta name="description" content="Unlock premium experiences together with our one-click access extension.">
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/animate.css" />
     <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/ud-styles.css" />
-    <link rel="stylesheet" href="assets/styles.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/ud-styles.css" /> <link rel="stylesheet" href="assets/styles.css" />      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script src="auth.js"></script>
   </head>
   <body>
+    <script src="auth.js"></script>
+
     <div id="announcement-placeholder"></div>
     <div id="navbar-placeholder"></div>
 
@@ -26,26 +28,37 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="ud-hero-content wow fadeInUp" data-wow-delay=".2s">
-              <h1 class="ud-hero-title" data-i18n="hero_title">
-                Unlock Premium Together
+              <h1 class="ud-hero-title">
+                Gracely <br> Unlock Premium Together
               </h1>
-              <p class="ud-hero-desc" data-i18n="hero_desc">
-                Get access to premium accounts at a fraction of the cost. Secure, fast, and community-driven sharing.
+              <p class="ud-hero-desc">
+              Unlock premium experiences together with our one-click access extension. Join us and start enjoying premium content without the premium price tag.
               </p>
               <ul class="ud-hero-buttons">
                 <li>
-                  <a href="signup.html" rel="nofollow noopener" class="ud-main-btn ud-white-btn" data-i18n="btn_get_started">
-                    Get Started
-                  </a>
+                  <a href="signup.html" class="ud-main-btn ud-white-btn">Purchase</a>
+                </li>
+                <li>
+                  <button class="ud-main-btn ud-link-btn" id="openModalBtn">
+                  <i class="fa fa-play-circle" aria-hidden="true"></i> Watch Demo
+                  </button>
                 </li>
               </ul>
             </div>
-            <div class="ud-hero-image wow fadeInUp" data-wow-delay=".25s">
-              <img src="assets/images/hero/hero-image.png" alt="hero-image" />
-              <img src="assets/images/hero/dotted-shape.svg" alt="shape" class="shape shape-1" />
-              <img src="assets/images/hero/dotted-shape.svg" alt="shape" class="shape shape-2" />
+            <div class="ud-hero-image wow fadeIn" data-wow-delay=".25s">
+              <img src="assets/images/hero/hero_2025_v3.png" alt="hero-image" />
+              <img src="assets/images/hero/dotted-shape.svg" alt="shape" class="shape shape-1"/>
+              <img src="assets/images/hero/dotted-shape.svg" alt="shape" class="shape shape-2"/>
             </div>
           </div>
+        </div>
+      </div>
+      <div id="videoModal" class="modal">
+        <div class="modal-content">
+            <video id="videoElement" controls loop width="100%" height="100%">
+            <source src="./assets/videos/gracely_demo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
         </div>
       </div>
     </section>
@@ -55,78 +68,48 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="ud-section-title">
-              <span data-i18n="nav_features">Features</span>
-              <h2 data-i18n="features_title">Main Features</h2>
-              <p data-i18n="features_desc">
-                Everything you need to enjoy premium services without the hassle.
-              </p>
+              <span>Features</span>
+              <h2>Explore Our Features</h2>
+              <p>Uncover the power of Gracely.</p>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col-xl-3 col-lg-3 col-sm-6">
             <div class="ud-single-feature wow fadeInUp" data-wow-delay=".1s">
-              <div class="ud-feature-icon">
-                <i class="lni lni-gift"></i>
-              </div>
+              <div class="ud-feature-icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
               <div class="ud-feature-content">
-                <h3 class="ud-feature-title">Affordable</h3>
-                <p class="ud-feature-desc">Save up to 80% on premium subscriptions.</p>
+                <h3 class="ud-feature-title">24/7 Support</h3>
+                <p class="ud-feature-desc">Dedicated support team available around the clock.</p>
               </div>
             </div>
           </div>
           <div class="col-xl-3 col-lg-3 col-sm-6">
             <div class="ud-single-feature wow fadeInUp" data-wow-delay=".15s">
-              <div class="ud-feature-icon">
-                <i class="lni lni-move"></i>
-              </div>
+              <div class="ud-feature-icon"><i class="fa-solid fa-clock"></i></div>
               <div class="ud-feature-content">
-                <h3 class="ud-feature-title">Instant Access</h3>
-                <p class="ud-feature-desc">Get your credentials immediately after purchase.</p>
+                <h3 class="ud-feature-title">99% Uptime</h3>
+                <p class="ud-feature-desc">Gracely maintains an impressive 99% uptime rate.</p>
               </div>
             </div>
           </div>
-          <div class="col-xl-3 col-lg-3 col-sm-6">
+           <div class="col-xl-3 col-lg-3 col-sm-6">
             <div class="ud-single-feature wow fadeInUp" data-wow-delay=".2s">
-              <div class="ud-feature-icon">
-                <i class="lni lni-layout"></i>
-              </div>
+              <div class="ud-feature-icon"><i class="fa-solid fa-bolt"></i></div>
               <div class="ud-feature-content">
-                <h3 class="ud-feature-title">Secure</h3>
-                <p class="ud-feature-desc">We prioritize your privacy and account security.</p>
+                <h3 class="ud-feature-title">One-Click Access</h3>
+                <p class="ud-feature-desc">Simple click with Gracely Extension.</p>
               </div>
             </div>
           </div>
-          <div class="col-xl-3 col-lg-3 col-sm-6">
+           <div class="col-xl-3 col-lg-3 col-sm-6">
             <div class="ud-single-feature wow fadeInUp" data-wow-delay=".25s">
-              <div class="ud-feature-icon">
-                <i class="lni lni-layers"></i>
-              </div>
+              <div class="ud-feature-icon"><i class="fa-solid fa-wallet"></i></div>
               <div class="ud-feature-content">
-                <h3 class="ud-feature-title">Support</h3>
-                <p class="ud-feature-desc">24/7 dedicated support team ready to help.</p>
+                <h3 class="ud-feature-title">Affordable</h3>
+                <p class="ud-feature-desc">Unlock premium access affordably.</p>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="about" class="ud-about">
-      <div class="container">
-        <div class="ud-about-wrapper wow fadeInUp" data-wow-delay=".2s">
-          <div class="ud-about-content-wrapper">
-            <div class="ud-about-content">
-              <span class="tag" data-i18n="nav_about">About Us</span>
-              <h2 data-i18n="about_title">About Gracely</h2>
-              <p data-i18n="about_desc">
-                We provide shared access to premium tools to help you save money. Join our community today and start saving on your favorite services.
-              </p>
-              <a href="signup.html" class="ud-main-btn" data-i18n="btn_get_started">Get Started</a>
-            </div>
-          </div>
-          <div class="ud-about-image">
-            <img src="assets/images/about/about-image.svg" alt="about-image" />
           </div>
         </div>
       </div>
@@ -137,82 +120,62 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="ud-section-title mx-auto text-center">
-              <span data-i18n="nav_pricing">Pricing</span>
-              <h2 data-i18n="pricing_title">Our Pricing Plans</h2>
-              <p data-i18n="pricing_desc">
-                Choose the plan that suits you best.
-              </p>
+              <span>Pricing</span>
+              <h2>Explore Our Pricing Plans</h2>
+              <p>Find the Perfect Fit for Your Needs.</p>
             </div>
           </div>
         </div>
         <div class="row g-0 align-items-center justify-content-center">
             <div class="col-lg-4 col-md-6 col-sm-10">
-                <div class="ud-single-pricing first-item wow fadeInUp" data-wow-delay=".15s">
-                  <div class="ud-pricing-header">
-                    <h3>STARTING FROM</h3>
-                    <h4>$ 5.00/mo</h4>
-                  </div>
-                  <div class="ud-pricing-body">
-                    <ul>
-                      <li>Access to Basic Tools</li>
-                      <li>Standard Support</li>
-                      <li>Single Device</li>
-                    </ul>
-                  </div>
-                  <div class="ud-pricing-footer">
-                    <a href="signup.html" class="ud-main-btn ud-border-btn">Purchase Now</a>
-                  </div>
-                </div>
+            <div class="ud-single-pricing active wow fadeInUp" data-wow-delay=".1s">
+              <span class="ud-popular-tag"><i class="fa fa-star"></i> POPULAR <i class="fa fa-star"></i></span>
+              <div class="ud-pricing-header text-center">
+                <h4>Premium</h4>
+                <h3>STARTING FROM</h3>
+                <h5>Rp 75.000</h5>
+                <h4>Rp 49.999 <span class="fs-6">/ 30 DAYS</span></h4>
+              </div>
+              <div class="ud-pricing-body text-center">
+                <ul>
+                  <li>1 user</li>
+                  <li>One-click access extension</li>
+                  <li>24/7 support</li>
+                  <li>Access to all shared <b>Premium</b> accounts</li>
+                </ul>
+              </div>
+              <div class="ud-pricing-footer">
+                <a href="signup.html" class="ud-main-btn ud-white-btn">Purchase</a>
+              </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-10">
-                <div class="ud-single-pricing active wow fadeInUp" data-wow-delay=".1s">
-                  <span class="ud-popular-tag">POPULAR</span>
-                  <div class="ud-pricing-header">
-                    <h3>STARTING FROM</h3>
-                    <h4>$ 10.00/mo</h4>
-                  </div>
-                  <div class="ud-pricing-body">
-                    <ul>
-                      <li>Access to All Tools</li>
-                      <li>Priority Support</li>
-                      <li>Multi Device</li>
-                    </ul>
-                  </div>
-                  <div class="ud-pricing-footer">
-                    <a href="signup.html" class="ud-main-btn ud-white-btn">Purchase Now</a>
-                  </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-10">
-                <div class="ud-single-pricing last-item wow fadeInUp" data-wow-delay=".15s">
-                  <div class="ud-pricing-header">
-                    <h3>STARTING FROM</h3>
-                    <h4>$ 15.00/mo</h4>
-                  </div>
-                  <div class="ud-pricing-body">
-                    <ul>
-                      <li>All Tools + Exclusive</li>
-                      <li>24/7 Live Support</li>
-                      <li>Unlimited Devices</li>
-                    </ul>
-                  </div>
-                  <div class="ud-pricing-footer">
-                    <a href="signup.html" class="ud-main-btn ud-border-btn">Purchase Now</a>
-                  </div>
-                </div>
-            </div>
+          </div>
         </div>
       </div>
+    </section>
+
+    <section id="services" class="ud-team">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ud-section-title mx-auto text-center">
+                        <span>Services</span>
+                        <h2>Discover Premium Account Services</h2>
+                        <p>Real-time updates, number of services can increase or decrease at any time.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                 <div class="col-lg-12">
+                    <p class="text-center">Lihat daftar lengkap di Dashboard setelah login.</p>
+                 </div>
+            </div>
+        </div>
     </section>
 
     <div id="footer-placeholder"></div>
     <div id="back-to-top-placeholder"></div>
 
     <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="layout.js"></script>
-    <script src="assets/script.js"></script>
-    <script src="script.js"></script>
-  </body>
+    <script src="wow.min.js"></script>
+    <script src="main.js"></script> <script src="layout.js"></script> <script src="script.js"></script> </body>
 </html>
