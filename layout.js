@@ -71,7 +71,7 @@ async function checkPremiumExpiryWarning() {
         
         const showExpiryModal = () => {
             const modalHTML = ` 
-                <i class="fa fa-times close-icon" id="notification-close"></i> 
+                <i class="fa fa-times gracely-modal-close-icon" id="notification-close"></i> 
                 <h2 style="color: #d93025;">Peringatan Langganan</h2> 
                 <p>Masa aktif premium Anda akan segera berakhir.</p> 
                 <p>Sisa waktu: <strong>${daysLeft} hari lagi.</strong></p> 
@@ -97,8 +97,78 @@ async function checkPremiumExpiryWarning() {
     }
 }
 
+async function initializeWebsiteAnnouncement() {
+    try {
+        const configResponse = await fetch('aturhonma.js');
+        if (!configResponse.ok) return;
+        const configText = await configResponse.text();
+        
+        const gracelyConfig = JSON.parse(configText.replace('const gracelyConfig =', '').trim().replace(/;$/, ''));
+        const notifData = gracelyConfig.notifications?.announcement;
+        
+        if (!notifData || !notifData.enabled || !notifData.id) {
+            return;
+        }
+
+        const newNotifId = notifData.id;
+        const lastShownTimestamp = localStorage.getItem('websiteNotificationLastShown');
+        const lastShownId = localStorage.getItem('websiteNotificationLastShownId');
+        const oneDay = 24 * 60 * 60 * 1000;
+        const timeDiff = Date.now() - parseInt(lastShownTimestamp || '0');
+        
+        const modalContainer = document.getElementById('notification-0');
+        if(!modalContainer) return;
+        const modalContent = modalContainer.querySelector('.notificationModal-content');
+        
+        const showModal = () => {
+            if (notifData.html) {
+                modalContainer.innerHTML = notifData.html;
+            } else {
+                let contentParagraphs = '';
+                if (notifData.lines && Array.isArray(notifData.lines)) {
+                    contentParagraphs = notifData.lines.map(line => `<p>${line}</p>`).join('');
+                }
+                const notificationHTML = ` 
+                    <i class="fa fa-times gracely-modal-close-icon" id="notification-close"></i> 
+                    <h2>${notifData.title}</h2> 
+                    ${contentParagraphs} 
+                    <button class="ud-main-btn" id="notification-ok" style="margin-top: 10px;">OK</button> 
+                `;
+                modalContent.innerHTML = notificationHTML;
+            }
+
+            modalContainer.style.display = 'flex';
+            modalContainer.style.visibility = 'visible';
+            modalContainer.style.opacity = '1';
+
+            const closeBtn = modalContainer.querySelector('#notification-close');
+            const okBtn = modalContainer.querySelector('#notification-ok');
+            const closeModal = () => {
+                modalContainer.style.display = 'none';
+                localStorage.setItem('websiteNotificationLastShown', Date.now().toString());
+                localStorage.setItem('websiteNotificationLastShownId', newNotifId);
+            };
+            
+            if (closeBtn) closeBtn.addEventListener('click', closeModal);
+            if (okBtn) okBtn.addEventListener('click', closeModal);
+        };
+
+        if (!lastShownTimestamp || timeDiff > oneDay || newNotifId !== lastShownId) {
+            setTimeout(() => {
+                showModal();
+            }, 2000); 
+        }
+    } catch (error) {
+        console.warn(error);
+    }
+}
+
 async function runNotificationChecks() {
-    await checkPremiumExpiryWarning();
+    const didShowExpiryWarning = await checkPremiumExpiryWarning();
+    if (didShowExpiryWarning) {
+        return;
+    }
+    await initializeWebsiteAnnouncement();
 }
 
 const defaultNavbarHTML = () => `
@@ -270,6 +340,7 @@ function modifyIndexPageContent() {
         if (purchaseButton) {
             purchaseButton.textContent = 'Go to Dashboard';
             purchaseButton.href = 'dashboard.html';
+            purchaseButton.removeAttribute('target');
         }
     }
 }
@@ -310,6 +381,10 @@ function loadLayout() {
         } else {
             navbarPlaceholder.innerHTML = defaultNavbarHTML();
         }
+    }
+
+    if (typeof initializeScripts === 'function') {
+        initializeScripts();
     }
 
     modifyIndexPageContent();
