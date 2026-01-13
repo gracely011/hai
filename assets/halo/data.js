@@ -14,7 +14,7 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1791640101,
+        "expirationDate": 1791649404,
         "sameSite": "lax",
         "domain": ".academi.cx"
       },
@@ -49,11 +49,11 @@
       },
       {
         "name": "intercom-session-gcaopn51",
-        "value": "YWJPMTlnLzBMd2pvZ0JaNFliV1RvSHhhK2UvWTBONzhXMDc4TUV3S054RWczTlhBRjRkcXo1dVZOZ0dZMW0vcVRrVDZDdkllQ3NxRzl1VFluV3RSb3Ztam1nbTRJMmZWbHdKWTRTdTZWdmM9LS00dU9CN3BDWW9hUmdtaUNnOEtDU2F3PT0=--7c0acc9dcb19fd481c5f7dd15c9f61e46c673ee6",
+        "value": "L3Rja2EvcXVOTnlBYmlKK0l4MVdYVEhVRGFKMk5sR1BBd1Vrb09VSU41NkEweHFzbmJBN1NPR1VaakxwdFVGYVFZY283REpoVHJIWUNaNmNWUlgrcktqWXpPMHM3SFBSd1pudTVnWWZscEE9LS1rVjZGY3BRV29rV3d4Y0UrM0swUDhRPT0=--5e8b60e19d78979439b5782c7da2f54158b54525",
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1768914889,
+        "expirationDate": 1768924191,
         "sameSite": "lax",
         "domain": ".academi.cx"
       }
@@ -5971,7 +5971,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318153.530849,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -6241,7 +6240,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318162.976343,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -6502,7 +6500,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318170.961052,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -6765,7 +6762,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318184.713808,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -7036,7 +7032,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318195.304974,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -7307,7 +7302,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318205.578653,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -7578,7 +7572,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318224.239627,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -7849,7 +7842,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318233.786741,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -8110,7 +8102,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318247.999017,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -8391,7 +8382,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318257.212044,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -8672,7 +8662,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318269.423816,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -8943,7 +8932,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318279.267604,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -9214,7 +9202,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318289.2521,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -9475,7 +9462,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318303.583972,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -9746,7 +9732,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318322.478488,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -10027,7 +10012,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318330.840647,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -10298,7 +10282,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318340.555415,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -10569,7 +10552,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318349.075783,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -10840,7 +10822,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318379.22159,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -11168,7 +11149,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318393.618309,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -11392,7 +11372,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318400.448215,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -11663,7 +11642,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318411.648035,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -11934,7 +11912,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318426.48895,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -12195,7 +12172,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318445.594938,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -12466,7 +12442,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318462.208797,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -12729,7 +12704,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318472.550257,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -12982,7 +12956,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318492.192719,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -13273,7 +13246,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318502.710857,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -13554,7 +13526,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318523.409706,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -13825,7 +13796,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318535.262776,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -14116,7 +14086,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318546.873104,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -14397,7 +14366,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318559.585879,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -14735,7 +14703,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318573.43258,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -14969,7 +14936,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318581.223744,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -15230,7 +15196,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318597.683102,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -15588,7 +15553,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318615.249043,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -15802,7 +15766,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318623.372188,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -16093,7 +16056,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318633.740722,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -16374,7 +16336,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318658.597918,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -16655,7 +16616,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318680.069706,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -16936,7 +16896,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318692.863015,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -17247,7 +17206,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318704.539061,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -17538,7 +17496,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318715.394284,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -17829,7 +17786,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318729.653197,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -18120,7 +18076,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318738.011371,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -18411,7 +18366,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318749.234748,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
@@ -18652,7 +18606,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768318125.812558,
             "sameSite": "no_restriction",
             "domain": "chatgpt.com"
           },
