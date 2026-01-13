@@ -1,7 +1,68 @@
 [
   {
     "meta": {
-      "id": "academia-1000",
+      "id": "academi-cx-1000",
+      "name": "Academi.cx",
+      "icon": "https://affiliate.academi.cx/_next/image?url=https%3A%2F%2Fjhuiqmuojlckilnnsquy.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Flogos%2F4836.png%3Fupdate%3D1746415545619&w=640&q=75",
+      "url": "https://academi.cx/dashboard/",
+      "category": "productivity"
+    },
+    "cookies": [
+      {
+        "name": "intercom-device-id-gcaopn51",
+        "value": "24616f7f-5a77-4850-b608-93391c54eebd",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1791640101,
+        "sameSite": "lax",
+        "domain": ".academi.cx"
+      },
+      {
+        "name": "PHPSESSID",
+        "value": "4h9ecrrdr11rhq330clhho59s5",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".academi.cx"
+      },
+      {
+        "name": "rememberme",
+        "value": "f347e5f9f7db21911508798c1ea1b3a617d60138bccee70f",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1769596067.272,
+        "sameSite": "no_restriction",
+        "domain": ".academi.cx"
+      },
+      {
+        "name": "sign",
+        "value": "445275774777774b50534a764f797a5145573462697169414f577a443944754e547a3733626337617363504951676279626c534144494c616252766c34457231",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1790334438,
+        "sameSite": "no_restriction",
+        "domain": ".academi.cx"
+      },
+      {
+        "name": "intercom-session-gcaopn51",
+        "value": "YWJPMTlnLzBMd2pvZ0JaNFliV1RvSHhhK2UvWTBONzhXMDc4TUV3S054RWczTlhBRjRkcXo1dVZOZ0dZMW0vcVRrVDZDdkllQ3NxRzl1VFluV3RSb3Ztam1nbTRJMmZWbHdKWTRTdTZWdmM9LS00dU9CN3BDWW9hUmdtaUNnOEtDU2F3PT0=--7c0acc9dcb19fd481c5f7dd15c9f61e46c673ee6",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1768914889,
+        "sameSite": "lax",
+        "domain": ".academi.cx"
+      }
+    ],
+    "sourceUrl": "https://academi.cx/dashboard/"
+  },
+  {
+    "meta": {
+      "id": "academia-1001",
       "name": "Academia",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://www.academia.edu/",
@@ -171,7 +232,7 @@
   },
   {
     "meta": {
-      "id": "alight-motion-1001",
+      "id": "alight-motion-1002",
       "name": "Alight Motion",
       "icon": "https://play-lh.googleusercontent.com/OU0BlP8C9-V7ECl2crma7B48nzDbK7liSLjn0j_fpTlyWG6qyEE-mw_KFZ9aOXF0a3w",
       "url": "https://gracely011.github.io/hai/motion.html",
@@ -191,7 +252,7 @@
   },
   {
     "meta": {
-      "id": "apple-music-1048",
+      "id": "apple-music-1043",
       "name": "Apple Music",
       "icon": "https://play-lh.googleusercontent.com/mOkjjo5Rzcpk7BsHrsLWnqVadUK1FlLd2-UlQvYkLL4E9A0LpyODNIQinXPfUMjUrbE",
       "url": "https://music.apple.com/ca/home",
@@ -566,7 +627,7 @@
   },
   {
     "meta": {
-      "id": "apple-tv--1072",
+      "id": "apple-tv--1064",
       "name": "Apple TV+",
       "icon": "https://play-lh.googleusercontent.com/1XBAZjSOWaVM7UDFKvzuMR-WRoR5gCnsYrw17_ihHLcJKT9Qc7hXptHwWQ3Bf83mry4",
       "url": "https://tv.apple.com/ca",
@@ -1158,7 +1219,7 @@
   },
   {
     "meta": {
-      "id": "askyourpdf-1007",
+      "id": "askyourpdf-1008",
       "name": "AskYourPDF",
       "icon": "https://play-lh.googleusercontent.com/WRl_6Jv1ljYKf3xiy27h3xx-ST7Kntg3mon8J53OBpjdm35jG2Mw80GZ2Qrhlau-YqI7=w240-h480-rw",
       "url": "https://askyourpdf.com/conversations",
@@ -2542,7 +2603,7 @@
   },
   {
     "meta": {
-      "id": "brain-fm-1050",
+      "id": "brain-fm-1045",
       "name": "Brain.fm",
       "icon": "https://play-lh.googleusercontent.com/oQnd9u11H7j1g99Pzswt5LTm52g8XyMrgz0GRBX5lmzdPv2Vt7bBrOKgbVbs-gHc504=w240-h480-rw",
       "url": "https://my.brain.fm/",
@@ -2778,7 +2839,7 @@
   },
   {
     "meta": {
-      "id": "brilliant-1009",
+      "id": "brilliant-1010",
       "name": "Brilliant",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT07Aba7sYgSCOIW9P2mAWcAcO9r_tpM_svzw&s",
       "url": "https://brilliant.org/home/",
@@ -2896,7 +2957,7 @@
   },
   {
     "meta": {
-      "id": "bstation-1008",
+      "id": "bstation-1009",
       "name": "Bstation",
       "icon": "https://play-lh.googleusercontent.com/nug7F0n-jWMpAWLaU7Qi1kuTIYjrAtUJmZd5FW4mEyspYR7-zGa-3_fwnYkPgyzHozE3",
       "url": "https://www.bilibili.tv/en/anime",
@@ -3190,7 +3251,7 @@
   },
   {
     "meta": {
-      "id": "busuu-1010",
+      "id": "busuu-1011",
       "name": "Busuu",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdfQ07W8Z1b0olxbugP-i2Hk5BJo6I-B8yKA&s",
       "url": "https://www.busuu.com/dashboard/timeline/b1",
@@ -3519,294 +3580,7 @@
   },
   {
     "meta": {
-      "id": "bypass---hix-ai-1035",
-      "name": "Bypass | HIX AI",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrXZQ0Wq17Y4CjDKiytXbd1hG39lu6u-rBsw&s",
-      "url": "https://hix.ai/app/bypass-ai-detection",
-      "category": "productivity"
-    },
-    "cookies": [
-      {
-        "name": "_fbp",
-        "value": "fb.1.1765805508506.612256630117917398",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1776086423,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "__Host-next-auth.csrf-token",
-        "value": "a4fe1be37d5727f79f5d33f8554e729cd393bb18db9c86de0f60ed36f7d39bd9%7C30032c5df0b64ab710c61b28657b6ddeda7dadbc0fb767a011ecce28f5d0753a",
-        "path": "/",
-        "httpOnly": true,
-        "secure": true,
-        "sameSite": "lax"
-      },
-      {
-        "name": "first-visit-url",
-        "value": "https%3A%2F%2Fhix.ai%2Fsign-in%3Fredirect%3D%2Fapp%2Fbypass-ai-detection",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1774445510,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "_gcl_au",
-        "value": "1.1.2056991721.1765805508.2140676440.1765805511.1765805511",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1773581508,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "FPID",
-        "value": "FPID2.2.bN5dckjA8VnoniLNulUUsahLmdYTEszAaFDXfH1xO1A%3D.1765805508",
-        "path": "/",
-        "httpOnly": true,
-        "secure": true,
-        "expirationDate": 1802870422.909102,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "g_state",
-        "value": "{\"i_l\":0,\"i_ll\":1765805512371,\"i_b\":\"ZHzWP/nAD3bt216rRF/65P2Ll10KUXF+GB6xSBON3w4\",\"i_e\":{\"enable_itp_optimization\":0}}",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1781357512,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "_ce.s",
-        "value": "lcw~1765805508610~v11ls~685598f0-d9ba-11f0-8ef4-b3cc9662d4ce~v~a3acfc2d9114b1856290c5a48fcd2b78dde672cc~vir~new~lva~1765805508518~vpv~0~v11.cs~458893~v11.s~685598f0-d9ba-11f0-8ef4-b3cc9662d4ce~v11.vs~a3acfc2d9114b1856290c5a48fcd2b78dde672cc~v11.fsvd~eyJ1cmwiOiJoaXguYWkvYXBwL2J5cGFzcy1haS1kZXRlY3Rpb24iLCJyZWYiOiIiLCJ1dG0iOltdfQ%3D%3D~v11.sla~1765805508609~v11.ss~1765805508610~lcw~1765805508610",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1797341508,
-        "sameSite": "strict",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "user_group",
-        "value": "154",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802870421.056883,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "__Secure-next-auth.callback-url",
-        "value": "https%3A%2F%2Fhix.ai%2Fsign-in%3Fredirect%3D%252Fapp%252Fbypass-ai-detection",
-        "path": "/",
-        "httpOnly": true,
-        "secure": true,
-        "sameSite": "lax",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "_ga",
-        "value": "GA1.1.1119763755.1765805508",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802870422.330674,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "_tt_enable_cookie",
-        "value": "1",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802006421,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "_ttp",
-        "value": "01KCH3BHZKXY8WN5HJJ9Z1N0JZ_.tt.1",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802006421,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "cebs",
-        "value": "1",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "strict",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "cebsp_",
-        "value": "3",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "strict",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "device-id",
-        "value": "118d0ea0eda7ac2d5a3f0eb104ffcfac",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1774445510,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "sign",
-        "value": "445275774777774b50534a764f797a514557346269724b795055582b2b674c597a425633367a6c476b31586366664a5a73784a73352b4f447277613266455046",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1773581515,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "_uetsid",
-        "value": "9c419100f08211f092cb6dd17e4db057",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1768396820,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "_uetvid",
-        "value": "03f741a06b4c11f0a2a78756b89e0a10",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802006420,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "user-info",
-        "value": "%7B%22id%22%3A%22cmiywfczl01ttpmpi18ledg0i%22%2C%22name%22%3A%22KRIM%20CHEIKH%22%2C%22email%22%3A%22mo_patel92%40hotmail.co.uk%22%2C%22firstName%22%3A%22KRIM%22%2C%22lastName%22%3A%22CHEIKH%22%2C%22image%22%3A%22%22%7D",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1776086421.056549,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "_ga_JS0YXNKF22",
-        "value": "GS2.1.s1768310422$o2$g0$t1768310422$j60$l0$h0",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802870422.380304,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "_ga_NSMTS5QKXE",
-        "value": "GS2.1.s1768310422$o6$g0$t1768310422$j60$l0$h0",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802870422.384911,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "FPLC",
-        "value": "Ge61SPdKW9on5xQztU2nmPWXTo8Yqp1RgJ2o9IYI1ljm6d3iQknP8oWMSkPV%2BPswQkY2qX93K5SHOgG6xC8sBug%2Bl9XfShNrO0lQBmp1ehqCIHz2gZxZj6FORfelrw%3D%3D",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1768382422.909216,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "_yjsu_yjad",
-        "value": "1768310422.9e9d8faa-8ba6-458e-8b1a-b06ff0483fdb",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1799846422,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "_clck",
-        "value": "rxk1ep%5E2%5Eg2o%5E0%5E2175",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1799846423,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "_clsk",
-        "value": "1iah2ui%5E1768310425229%5E1%5E1%5Eb.clarity.ms%2Fcollect",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1768396825,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "ttcsid",
-        "value": "1768310421993::FNYbMl3OnBvUUm3GPswI.2.1768310432171.0",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802006432,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "ttcsid_CVDREMRC77U6RTOFKU10",
-        "value": "1768310421992::4MsWLzq-bHmAtwWrtMNm.2.1768310432175.1",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802006432,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      },
-      {
-        "name": "__Secure-next-auth.session-token",
-        "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..YROOroF091qJQ7Er.i-5X24R47jFWTDi1GOFKf6l4_-Sfti-oBQkB7xlZv-xHP20RR5u-6ADNbWzV9TFvGGz7b0Q4hQYzt2QF_-NMRFV94rFcte2mtpHVOyu9oSiyFj2XUy2VgAK-NoqRSeI_m-JUkZGdXTCwnPSFbDMI7sbDVcF87NG5VF4c5uea84-vaWoI6kCWJQfYlBywlxovVABTvnfIc1q2iJZ3-jQ0iqfhISYBW0ZyCyLc3m80a4Y6AJM_jG1SxzbJGFeLsEp5vW69qif1rbTriFxcUHEoBocqqXwdHSaldux-wWjKUJxz1SJxfMGhUJL4sACd0DHAORdmedQLY9P4F-9JDV20xPNxgemEZKOvSyG2F0plmGpQHYJkIy6e6tXj13jXcdmus6M-v6DNnhwMZI_7v3vGp_eyXxbrNxycOH5jpVPzProrFDWw4EHB7-OhIC29Ggq8ooY-Weua0LfIEJLZmg.FiMwaA2dMowB9gkCAxSq0g",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1776086561.251036,
-        "sameSite": "no_restriction",
-        "domain": ".hix.ai"
-      }
-    ],
-    "sourceUrl": "https://hix.ai/app/bypass-ai-detection"
-  },
-  {
-    "meta": {
-      "id": "bypassgpt-1011",
+      "id": "bypassgpt-1012",
       "name": "BypassGPT",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVpNp17p7NogV0-YTH9UnJYGg7IowMwYmj3w&s",
       "url": "https://www.bypassgpt.ai/",
@@ -4004,7 +3778,7 @@
   },
   {
     "meta": {
-      "id": "capcut-1012",
+      "id": "capcut-1013",
       "name": "CapCut",
       "icon": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxtHdRB6xk71KqOPxE23.XPiUcBp9_h5.Va3lapJy.K9tACxvjL4_WF3lJCLozay.Kx6V1mfBFaOOF4V5Rx4RHLY-&format=source",
       "url": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video",
@@ -6216,7 +5990,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316353.543563,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -6459,7 +6232,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316362.976294,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -6721,7 +6493,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316370.960972,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -6985,7 +6756,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316384.713755,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -7257,7 +7027,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316395.304757,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -7529,7 +7298,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316405.578566,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -7801,7 +7569,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316424.239576,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -8073,7 +7840,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316433.786662,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -8335,7 +8101,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316447.998966,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -8617,7 +8382,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316457.211994,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -8899,7 +8663,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316469.423766,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -9171,7 +8934,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316479.267556,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -9443,7 +9205,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316489.252024,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -9705,7 +9466,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316503.583922,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -9977,7 +9737,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316522.47844,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -10259,7 +10018,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316530.840583,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -10531,7 +10289,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316540.555359,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -10803,7 +10560,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316549.075735,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -11075,7 +10831,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316579.221542,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -11357,7 +11112,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316591.027637,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -11629,7 +11383,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316600.448157,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -11901,7 +11654,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316611.647805,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -12173,7 +11925,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316626.488902,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -12435,7 +12186,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316645.594889,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -12707,7 +12457,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316662.208749,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -12971,7 +12720,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316672.550208,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -13225,7 +12973,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316692.192668,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -13517,7 +13264,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316702.710806,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -13799,7 +13545,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316723.409657,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -14071,7 +13816,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316735.262707,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -14363,7 +14107,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316746.873047,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -14645,7 +14388,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316759.58583,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -14937,7 +14679,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316769.89328,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -15219,7 +14960,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316781.223694,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -15481,7 +15221,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316797.68305,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -15783,7 +15522,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316809.630983,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -16055,7 +15793,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316823.372132,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -16347,7 +16084,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316833.740671,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -16629,7 +16365,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316858.597868,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -16911,7 +16646,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316880.069655,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -17193,7 +16927,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316892.862968,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -17505,7 +17238,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316904.53901,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -17797,7 +17529,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316915.394233,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -18089,7 +17820,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316929.653147,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -18381,7 +18111,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316938.011318,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -18673,7 +18402,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316949.234696,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -18915,7 +18643,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768316325.81251,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -19003,7 +18730,7 @@
   },
   {
     "meta": {
-      "id": "chutes-1013",
+      "id": "chutes-1014",
       "name": "Chutes",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuJ8v1EICNl78zLPEfHkAimzusUBWT7z2nTw&s",
       "url": "https://chutes.ai/app",
@@ -19185,10 +18912,10 @@
   },
   {
     "meta": {
-      "id": "codedex-1014",
-      "name": "Codedex",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2sH_6-EH9eaPT8YfscbEcq3-i1KLzvZ50JQ&s",
-      "url": "https://gracely011.github.io/hai/manual.html?name=Codedex&login=codedex@belajaar.id&password=CodedexMilikGroupy2025!!&url=https://www.codedex.io/login",
+      "id": "clickup-1003",
+      "name": "ClickUp",
+      "icon": "https://img.icons8.com/color/1200/clickup.jpg",
+      "url": "https://gracely011.github.io/hai/manual.html?name=ClickUp&login=clickup@prem1um.xyz&password=GroupyClickUp2025!&url=https://app.clickup.com/login",
       "category": "productivity"
     },
     "cookies": [
@@ -19198,235 +18925,14 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "domain": "codedex.io"
+        "domain": "clickup.com"
       }
     ],
-    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Codedex&login=codedex@belajaar.id&password=CodedexMilikGroupy2025!!&url=https://www.codedex.io/login"
+    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=ClickUp&login=clickup@prem1um.xyz&password=GroupyClickUp2025!&url=https://app.clickup.com/login"
   },
   {
     "meta": {
-      "id": "consensus-1016",
-      "name": "Consensus",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRweoQJzl9iPGJqBYN-uOcjxdcH72RA9W1PKiCmAisHjg&s",
-      "url": "https://gracely011.github.io/hai/manual.html?name=Consensus&login=gd@belajaar.id&password=WeAreGroupy2026!123@!&url=https://consensus.app/account/",
-      "category": "education"
-    },
-    "cookies": [
-      {
-        "name": "dummy",
-        "value": "5",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "domain": "consensus.app"
-      }
-    ],
-    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Consensus&login=gd@belajaar.id&password=WeAreGroupy2026!123@!&url=https://consensus.app/account/"
-  },
-  {
-    "meta": {
-      "id": "coohom-1017",
-      "name": "Coohom",
-      "icon": "https://play-lh.googleusercontent.com/HWA5QTohakrzdjQnJWyPih_CDFubc9PZi0gW1v-eoopRUAGWpHspB-NeFBH3FQnQc6kz=w240-h480-rw",
-      "url": "https://www.coohom.com/pub/saas/apps/project/list",
-      "category": "design"
-    },
-    "cookies": [
-      {
-        "name": "_clck",
-        "value": "1umvt2b%5E2%5Eg2g%5E0%5E2166",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1799122648,
-        "sameSite": "no_restriction",
-        "domain": ".coohom.com"
-      },
-      {
-        "name": "_gcl_au",
-        "value": "1.1.114275667.1764991781",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1772767781,
-        "sameSite": "no_restriction",
-        "domain": ".coohom.com"
-      },
-      {
-        "name": "_ga_91RQC9MHHX",
-        "value": "GS2.1.s1767586638$o3$g1$t1767586654$j44$l0$h1002533007",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802146654.924934,
-        "sameSite": "no_restriction",
-        "domain": ".coohom.com"
-      },
-      {
-        "name": "hubspotutk",
-        "value": "3bc07b44101c21b03c5def9bd172af3f",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1783138656,
-        "sameSite": "lax",
-        "domain": ".coohom.com"
-      },
-      {
-        "name": "_uetvid",
-        "value": "697b05a0ba5211f0abe125611ca06381",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1801282654,
-        "sameSite": "no_restriction",
-        "domain": ".coohom.com"
-      },
-      {
-        "name": "__hssrc",
-        "value": "1",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "lax",
-        "domain": ".coohom.com"
-      },
-      {
-        "name": "_ga_Y8XY6F2WNP",
-        "value": "GS2.1.s1767586638$o2$g1$t1767586655$j43$l0$h0",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802146655.963521,
-        "sameSite": "no_restriction",
-        "domain": ".coohom.com"
-      },
-      {
-        "name": "__hstc",
-        "value": "21292004.3bc07b44101c21b03c5def9bd172af3f.1767586656563.1767586656563.1767586656563.1",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1783138656,
-        "sameSite": "lax",
-        "domain": ".coohom.com"
-      },
-      {
-        "name": "_fbp",
-        "value": "fb.1.1764991780589.204884627799915357",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1775362655,
-        "sameSite": "lax",
-        "domain": ".coohom.com"
-      },
-      {
-        "name": "_ga",
-        "value": "GA1.1.1479146778.1764991781",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802146654.954383,
-        "sameSite": "no_restriction",
-        "domain": ".coohom.com"
-      },
-      {
-        "name": "_pin_unauth",
-        "value": "dWlkPU1XRXhOakEwWldJdFpUaGhOUzAwT0RjeExXSmxNV1l0WVRJNVpqbGhOalZsTkRJeQ",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1799122655,
-        "sameSite": "no_restriction",
-        "domain": ".coohom.com"
-      },
-      {
-        "name": "qh-cm-fe-locale",
-        "value": "en_US",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802146654.843356,
-        "sameSite": "no_restriction",
-        "domain": ".www.coohom.com"
-      },
-      {
-        "name": "qh-locale",
-        "value": "en_US",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802146654.843247,
-        "sameSite": "no_restriction",
-        "domain": ".www.coohom.com"
-      },
-      {
-        "name": "qh-site-locale",
-        "value": "en_021",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1799143606.076006,
-        "sameSite": "no_restriction",
-        "domain": ".www.coohom.com"
-      },
-      {
-        "name": "qhdi",
-        "value": "cd157855d25311f094a16974a9fe93b7",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1799551780.456272,
-        "sameSite": "no_restriction",
-        "domain": ".coohom.com"
-      },
-      {
-        "name": "qunhe-jwt",
-        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb3VudHJ5IjoiVEgiLCJ0dSI6ZmFsc2UsInNfaWQiOiIyNjAxMHhsdSIsImMiOjE3Njc1ODY2NTQwMzQsImFfaWQiOm51bGwsInV0YyI6MSwiZXhwIjoxNzcwMTc4NjU0LCJrX2lkIjoiM0ZPNEc1RFhGOVU3Iiwicl9pZCI6bnVsbH0.UnXwksFgFdsy6B2-Sfcoiwwh1HEZBMqjSUnvLuoCQ3o",
-        "path": "/",
-        "httpOnly": true,
-        "secure": true,
-        "expirationDate": 1770178654.076147,
-        "sameSite": "no_restriction",
-        "domain": ".www.coohom.com"
-      },
-      {
-        "name": "sign",
-        "value": "445275774777774b50534a764f797a5145573462696e793450665045437453444a4275764641784874306a696d576831447a774264766b776337322b4158764c",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1799122648,
-        "sameSite": "no_restriction",
-        "domain": ".coohom.com"
-      },
-      {
-        "name": "qh-locale",
-        "value": "en_US",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802870606.565504,
-        "sameSite": "no_restriction",
-        "domain": "www.coohom.com"
-      },
-      {
-        "name": "qh-cm-fe-locale",
-        "value": "en_US",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802870606.565644,
-        "sameSite": "no_restriction",
-        "domain": "www.coohom.com"
-      }
-    ],
-    "sourceUrl": "https://www.coohom.com/pub/saas/apps/project/list"
-  },
-  {
-    "meta": {
-      "id": "coursera-1018",
+      "id": "coursera-1016",
       "name": "Coursera",
       "icon": "https://play-lh.googleusercontent.com/H8crzfriK6t5b0N5wXykhxMjPopyWGDZPaMJlvWlAKb7EG-26KGu15P_RnFDinBw1Jc",
       "url": "https://www.coursera.org/",
@@ -19713,7 +19219,7 @@
   },
   {
     "meta": {
-      "id": "crunchyroll-1019",
+      "id": "crunchyroll-1017",
       "name": "Crunchyroll",
       "icon": "https://groupy.id/assets/images/services/crunchyroll.png",
       "url": "https://www.crunchyroll.com/discover",
@@ -19843,185 +19349,7 @@
   },
   {
     "meta": {
-      "id": "cryptoquant-1020",
-      "name": "CryptoQuant",
-      "icon": "https://cdn.prod.website-files.com/653c8107e2b70a34921d24fd/67a672f11fe6c47be600f037_cryptoquant.png",
-      "url": "https://cryptoquant.com/asset/btc/summary",
-      "category": "productivity"
-    },
-    "cookies": [
-      {
-        "name": "_ga",
-        "value": "GA1.2.1324748587.1767712057",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802272057.006789,
-        "sameSite": "no_restriction",
-        "domain": ".cryptoquant.com"
-      },
-      {
-        "name": "cq-theme",
-        "value": "dark",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802272078.857004,
-        "sameSite": "lax",
-        "domain": ".cryptoquant.com"
-      },
-      {
-        "name": "AMP_MKTG_6eb20c95b2",
-        "value": "JTdCJTdE",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1799248056,
-        "sameSite": "lax",
-        "domain": ".cryptoquant.com"
-      },
-      {
-        "name": "__Host-next-auth.csrf-token",
-        "value": "9ea9013d6096bf7c9a19e1936a49154bd39e1704556e9f311286e554fe559acc%7C76f1ba2a5d26dc354aaf2ea7063e5b8834fbeec880c0a3cbe047a9e9312f33c2",
-        "path": "/",
-        "httpOnly": true,
-        "secure": true,
-        "sameSite": "lax"
-      },
-      {
-        "name": "__Secure-next-auth.callback-url",
-        "value": "https%3A%2F%2Fcryptoquant.com",
-        "path": "/",
-        "httpOnly": true,
-        "secure": true,
-        "sameSite": "lax",
-        "domain": ".cryptoquant.com"
-      },
-      {
-        "name": "_ga_RJZ1ML2X9E",
-        "value": "GS2.1.s1767712056$o1$g1$t1767712078$j38$l0$h0",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802272078.719501,
-        "sameSite": "no_restriction",
-        "domain": ".cryptoquant.com"
-      },
-      {
-        "name": "intercom-device-id-s9hiuqay",
-        "value": "e49747ca-1a60-4da4-8647-0066152623a9",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1791640639,
-        "sameSite": "lax",
-        "domain": ".cryptoquant.com"
-      },
-      {
-        "name": "intercom-id-s9hiuqay",
-        "value": "ebf4eade-f40e-4b5a-aabf-d09bfd35828e",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1791042066,
-        "sameSite": "lax",
-        "domain": ".cryptoquant.com"
-      },
-      {
-        "name": "refreshToken",
-        "value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiI3NTkzNDQiLCJpc3MiOiJDcnlwdG9RdWFudCIsImlhdCI6MTc2NzcxMjA3NywiZXhwIjoxNzY4NTc2MDc3fQ.9Bp3mWFuIi6wdhoDh0rMPTW5qwIxSkiASfVDQE4Cky0",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1769008078.317223,
-        "sameSite": "strict",
-        "domain": ".cryptoquant.com"
-      },
-      {
-        "name": "token",
-        "value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiI3NTkzNDQiLCJpc3MiOiJDcnlwdG9RdWFudCIsImlhdCI6MTc2NzcxMjA3NywiZXhwIjoxNzY3NzE1Njc3fQ.IgVs0U-dPYMG0PervJR-Ovzq64cslVHNRf32sj7dauA",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1768403278.317034,
-        "sameSite": "strict",
-        "domain": ".cryptoquant.com"
-      },
-      {
-        "name": "sign",
-        "value": "445275774777774b50534a764f797a5145573462696a696175547a797a66554332526c4c562f6f4c31525361766771427a394c487a6573376f35457838706e6f",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802272057.006789,
-        "sameSite": "no_restriction",
-        "domain": ".cryptoquant.com"
-      },
-      {
-        "name": "__cf_bm",
-        "value": "BtyzRJkD7eWXjS3hfeLca.nDl6.yartx_u4pNbWRf3U-1768310613-1.0.1.1-AEJU7AKHpo2shJ9SF48TQb5TOzzbw4.6vysbnXPIcAl8_QyqCjzPVJGwp6JbELL4d0eFH8NwXfnOQWVU8_eIVZLZ6szZsJ3bWISy1o0GA0o",
-        "path": "/",
-        "httpOnly": true,
-        "secure": true,
-        "sameSite": "no_restriction",
-        "domain": ".cryptoquant.com"
-      },
-      {
-        "name": "cq-theme",
-        "value": "dark",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802870627.163235,
-        "sameSite": "lax",
-        "domain": "cryptoquant.com"
-      },
-      {
-        "name": "token",
-        "value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiI3NTkzNDQiLCJpc3MiOiJDcnlwdG9RdWFudCIsImlhdCI6MTc2ODMxMDYxMywiZXhwIjoxNzY4MzE0MjEzfQ.T3kIQBcDL8_tlNnfv00hAxPpFiWla230P-Tukxqt8E8",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1769001828.801103,
-        "sameSite": "strict",
-        "domain": "cryptoquant.com"
-      },
-      {
-        "name": "refreshToken",
-        "value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiI3NTkzNDQiLCJpc3MiOiJDcnlwdG9RdWFudCIsImlhdCI6MTc2NzcxMjA3NywiZXhwIjoxNzY4NTc2MDc3fQ.9Bp3mWFuIi6wdhoDh0rMPTW5qwIxSkiASfVDQE4Cky0",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1769606628.801252,
-        "sameSite": "strict",
-        "domain": "cryptoquant.com"
-      },
-      {
-        "name": "AMP_6eb20c95b2",
-        "value": "JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJlYjgwNTU4NC03ZTY1LTQxNDctYmYyZC1kY2Y3YzkwMGRhNjglMjIlMkMlMjJ1c2VySWQlMjIlM0ElMjI3NTkzNDQlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzY4MzEwNjI3MjgzJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc2ODMxMDYyODc0NCUyQyUyMmxhc3RFdmVudElkJTIyJTNBMTUlMkMlMjJwYWdlQ291bnRlciUyMiUzQTElN0Q=",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1799846628,
-        "sameSite": "lax",
-        "domain": ".cryptoquant.com"
-      },
-      {
-        "name": "intercom-session-s9hiuqay",
-        "value": "YkhFNXk5V3NFZ081dU5YUXByV2FhYUNSS3VsTXZxZXdpd2hMcUJiWWhGU0pDYXFacW0xeEVsQ2UwM3diUVBjc0NMd2ZHSEY3NEZKNzNOYWpJNS9OTzNiYzU4Wmh1R3gvMlVTVWtacUExNWM9LS0vZ1FnU0pWeVBiVDFMZFMvNzRnVitnPT0=--bee8aa9cff22fc7f983b9728070b4c004013a9a2",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1768915426,
-        "sameSite": "lax",
-        "domain": ".cryptoquant.com"
-      }
-    ],
-    "sourceUrl": "https://cryptoquant.com/asset/btc/summary"
-  },
-  {
-    "meta": {
-      "id": "curiosity-stream-1021",
+      "id": "curiosity-stream-1018",
       "name": "Curiosity Stream",
       "icon": "https://play-lh.googleusercontent.com/YXqChSEFUdn1A9Jxu9sIZPwlyLYaA_sU_U_h-uW_RyXhEx1WzBNqNWcdNwC3WOGzjg",
       "url": "https://curiositystream.com/home",
@@ -20566,7 +19894,7 @@
   },
   {
     "meta": {
-      "id": "datacamp-1002",
+      "id": "datacamp-1004",
       "name": "DataCamp",
       "icon": "https://yt3.googleusercontent.com/ytc/AIdro_m6psai1Pd5oG3nGbw_hVfG-qmJ8R1ntco83MTXDf5cdoo=s900-c-k-c0x00ffffff-no-rj",
       "url": "https://app.datacamp.com/",
@@ -20907,7 +20235,7 @@
   },
   {
     "meta": {
-      "id": "deepl-1022",
+      "id": "deepl-1019",
       "name": "DeepL",
       "icon": "https://play-lh.googleusercontent.com/0IH4L3pX-jqQXKYCDmxTM5t3Tvak2cb_zUuIs9nKCHPeOqkaRJ_bRTq1qKawsSvunw=w240-h480-rw",
       "url": "https://www.deepl.com/en/translator/files",
@@ -21645,7 +20973,7 @@
   },
   {
     "meta": {
-      "id": "deepseek-1023",
+      "id": "deepseek-1020",
       "name": "DeepSeek",
       "icon": "https://pbs.twimg.com/ext_tw_video_thumb/1875845724925206528/pu/img/4T7PkBumsEAjZeO9.jpg",
       "url": "https://notegpt.io/workspace/chat",
@@ -21775,7 +21103,7 @@
   },
   {
     "meta": {
-      "id": "duolingo-1024",
+      "id": "duolingo-1021",
       "name": "Duolingo",
       "icon": "https://www.langoly.com/wp-content/uploads/2020/03/Duolingo-app-icon.png",
       "url": "https://www.duolingo.com/learn",
@@ -21966,7 +21294,7 @@
   },
   {
     "meta": {
-      "id": "educative-1025",
+      "id": "educative-1023",
       "name": "Educative",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiHav_EAmaStXwVlYg4pL5sFbdOyKcRKefbg&s",
       "url": "https://www.educative.io/explore",
@@ -22424,7 +21752,7 @@
   },
   {
     "meta": {
-      "id": "elicit-1026",
+      "id": "elicit-1024",
       "name": "Elicit",
       "icon": "https://yt3.googleusercontent.com/ksfLLIjvy8Y5vvtAmnSzIeF-svAUzrZyJBs-YwCVZUZGct8XNDb6-KJSepMwCrcuFkb6b8oCczo=s900-c-k-c0x00ffffff-no-rj",
       "url": "https://elicit.com/library",
@@ -22535,7 +21863,7 @@
   },
   {
     "meta": {
-      "id": "epidemic-sound-1027",
+      "id": "epidemic-sound-1025",
       "name": "Epidemic Sound",
       "icon": "https://groupy.id/assets/images/services/epidemicsound.jpg",
       "url": "https://www.epidemicsound.com/music/featured/",
@@ -23477,7 +22805,7 @@
   },
   {
     "meta": {
-      "id": "everand-1028",
+      "id": "everand-1026",
       "name": "Everand",
       "icon": "https://play-lh.googleusercontent.com/i6RqZKwmmgvCq8FGoGewoEDWYq8Q2ghi8gUnWLBlPHmYCyRM4bl39YZTAoHu7mzU8vN7",
       "url": "https://www.everand.com/home",
@@ -23811,7 +23139,7 @@
   },
   {
     "meta": {
-      "id": "figma-1029",
+      "id": "figma-1027",
       "name": "Figma",
       "icon": "https://play-lh.googleusercontent.com/hoVBnPBRehmXsCqESLXRH2E3OTxklkwKZlb1psn7imm0VUSobn2nevS9RRFWb9GM4-o",
       "url": "https://www.figma.com/files/team/1560676200091399701/recents-and-sharing?fuid=1561637155941475997",
@@ -24105,7 +23433,7 @@
   },
   {
     "meta": {
-      "id": "flaticon-1030",
+      "id": "flaticon-1028",
       "name": "Flaticon",
       "icon": "https://groupy.id/assets/images/services/flaticon.png",
       "url": "https://www.flaticon.com/icons",
@@ -24282,7 +23610,6 @@
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1768315956.814,
         "sameSite": "no_restriction",
         "domain": ".flaticon.com"
       },
@@ -24331,7 +23658,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1768316019,
         "sameSite": "no_restriction",
         "domain": "www.flaticon.com"
       },
@@ -24399,7 +23725,7 @@
   },
   {
     "meta": {
-      "id": "freepik-group-id",
+      "id": "freepik-1029",
       "name": "Freepik",
       "icon": "https://groupy.id/assets/images/services/freepik.png",
       "url": "https://www.freepik.com/user/my-subscriptions",
@@ -24558,7 +23884,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1768316066.964592,
         "sameSite": "no_restriction",
         "domain": ".freepik.com"
       },
@@ -24598,7 +23923,6 @@
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1768316067.968958,
         "sameSite": "no_restriction",
         "domain": ".freepik.com"
       },
@@ -24608,7 +23932,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1768316067.969169,
         "sameSite": "no_restriction",
         "domain": ".freepik.com"
       },
@@ -24618,7 +23941,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1768316068.757107,
         "sameSite": "no_restriction",
         "domain": "www.freepik.com"
       },
@@ -24637,9 +23959,9 @@
   },
   {
     "meta": {
-      "id": "gamma-1031",
+      "id": "gamma-1030",
       "name": "Gamma",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRM9dtIK5wd1yJAH0qg6ytSsgMzrNx-cvlK78QZqzzTejsr0qtC9Kgj_i1&s=10",
+      "icon": "https://store-images.s-microsoft.com/image/apps.53673.13800228740496758.b926c1b0-f31a-4a9b-b1b3-88dd15f27137.a0a38389-643f-48ed-9379-92a9fb5a7c94",
       "url": "https://gracely011.github.io/hai/manual.html?name=Gamma&login=owndbygroupyyy@prem1um.xyz&password=Gamma.AppByGroupy2026!&url=https://gamma.app/signin",
       "category": "productivity"
     },
@@ -24657,7 +23979,7 @@
   },
   {
     "meta": {
-      "id": "grammarly-1003",
+      "id": "grammarly-1005",
       "name": "Grammarly",
       "icon": "https://groupy.id/assets/images/services/grammarly.png",
       "url": "https://app.grammarly.com/",
@@ -24975,373 +24297,7 @@
   },
   {
     "meta": {
-      "id": "ground-news-1032",
-      "name": "Ground News",
-      "icon": "https://play-lh.googleusercontent.com/61Y1REKFBgC1C6YxQwZA56516gR1zCw-HIaNyP_WV_MnR6Fuofzd8-uWBHzKxZP7mwM",
-      "url": "https://gracely011.github.io/hai/manual.html?name=Ground%20News&login=news@belajaar.id&password=NewsGroupy2025!&url=https://ground.news/login",
-      "category": "productivity"
-    },
-    "cookies": [
-      {
-        "name": "dummy",
-        "value": "5",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "domain": "ground.news"
-      }
-    ],
-    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Ground%20News&login=news@belajaar.id&password=NewsGroupy2025!&url=https://ground.news/login"
-  },
-  {
-    "meta": {
-      "id": "guitartricks-1033",
-      "name": "GuitarTricks",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlrIfBbD7fof4ZwKxkeWgU0t2u1lK7x_nPrA&s",
-      "url": "https://www.guitartricks.com/home",
-      "category": "productivity"
-    },
-    "cookies": [
-      {
-        "name": "_cioid",
-        "value": "5145744",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1777566606,
-        "sameSite": "no_restriction",
-        "domain": ".guitartricks.com"
-      },
-      {
-        "name": "_hjSessionUser_638704",
-        "value": "eyJpZCI6IjBiZTlmNjM3LWY2MGYtNThmMy05YjI1LTE5OGNkODE2OTE0YSIsImNyZWF0ZWQiOjE3NDYwMzA1OTQ5MjAsImV4aXN0aW5nIjp0cnVlfQ==",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1799847031,
-        "sameSite": "no_restriction",
-        "domain": ".guitartricks.com"
-      },
-      {
-        "name": "__zlcmid",
-        "value": "1RQnZz3Uta8fypp",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1799847037,
-        "sameSite": "lax",
-        "domain": ".guitartricks.com"
-      },
-      {
-        "name": "XSRF-TOKEN",
-        "value": "eyJpdiI6IlJuVS96c3J0bGNDWGlSOUpJK2VGamc9PSIsInZhbHVlIjoicmlnRzZ4bTNOS3dOa1BsSkg4RitocnRyRmtadDZMZ3RjV01vRWJ4YkdacVhZenBqQ01oWGU2b1E1SVlvaEtpdnJtMTJRS1NKblBLc1dtSkFINEcrSkNtNEFPWThZKzBTSWNUSng2WHY4NFBQZ08wdVVPZE1KVzlJbXZ0THh0bmwiLCJtYWMiOiI4MDRjN2I4N2RmMWFiMDUwNWUxZmI5ZGJhYjk4YmMwOWNhYTIxMDhmY2Q3MjE0MGRjMDNlODkyYmMzMDdhNDE2IiwidGFnIjoiIn0%3D",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1777566731.29771,
-        "sameSite": "lax",
-        "domain": ".www.guitartricks.com"
-      },
-      {
-        "name": "PAPVisitorId",
-        "value": "teW0BmmWo1GoiWRo2uFHcImOX7x5TwWy",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1777566595,
-        "sameSite": "no_restriction",
-        "domain": ".guitartricks.com"
-      },
-      {
-        "name": "__utma",
-        "value": "193898555.1259508397.1746030593.1746030656.1746030656.1",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1780590691.927558,
-        "sameSite": "no_restriction",
-        "domain": ".guitartricks.com"
-      },
-      {
-        "name": "__utmc",
-        "value": "193898555",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "no_restriction",
-        "domain": ".guitartricks.com"
-      },
-      {
-        "name": "_pk_id.1.e1cd",
-        "value": "f341fda17e38af2f.1746030594.",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1779985794,
-        "sameSite": "lax",
-        "domain": ".www.guitartricks.com"
-      },
-      {
-        "name": "_tt_enable_cookie",
-        "value": "1",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802007031,
-        "sameSite": "no_restriction",
-        "domain": ".guitartricks.com"
-      },
-      {
-        "name": "_ttp",
-        "value": "01JT3RH3R8XACH71CSGPY9PRZ6_.tt.1",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802007031,
-        "sameSite": "no_restriction",
-        "domain": ".guitartricks.com"
-      },
-      {
-        "name": "_uetvid",
-        "value": "7dbb04d025e011f08c6e338f9cedd166",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1779726692,
-        "sameSite": "no_restriction",
-        "domain": ".guitartricks.com"
-      },
-      {
-        "name": "GlgXpTZ9c8q6rcFt7x2R3kwF56QYRUBmuzwIoH8a",
-        "value": "eyJpdiI6IktleW84WExGcWtPdjRMWWFoNWdiT1E9PSIsInZhbHVlIjoiRkFRV3AvR251cU9PcGlBbmJjdjhXenBPak8zdjFYbWxWVWkzZUx1WEd0RjBkZnNvWjQzNzBwSzY4SldSSlZ6VEhrVFhpRHp3dUZBMDE1Y0ExK1FDNDBIVkdaSzNsQ21TTDRYR1J3SXpNZ0tENExvd3RTOTB6TlJ3OFgzZXZTSk1IWTJmNG16bW43SHZQaTFhUC9Xa3Vpbkg5bHFRTFVkU2VuM0RCZ0wvWW9VSnJtWHNQNmVaNCtOYXRNN05CWjhxMC9IR3lUU1B5OHFiVy90Ulorb0F1SzlTS0xvaVFSNjhwNWZzc01kQ2psSVQ0WUZIV0Z5bU9YS21rYThjdGd1elBCY2RxN1d2U2I3ZFROUUxMaDcxOHRCWDF4TStwK1k1Vk9nQ01lRTBTZFNabk1PY0p2WmdnV25qQVJ1aGtFUXNOaDZ6UTJ0ZFZWVmYvWWI5MTRkTXZTaHd6enFickxtSG8rZDE5WTg0b3F5K3ZnSWxoRXpMb2N2TjJUQXpYUE9xRUwyNXZKRk8zU2NSUzdRRnFsUHJRZGhJSEVKdWQvejNXWTRZOUoyUXdRS0dNRU9JQnlJQ0JGSFdwRmdYM251bUViT3pwdkc0azNDVGI5cVNwcDJPUitGS202M2VCRTdvTlk3WFpLd1A4ejRROURLVDdmREFLS3drRHFvbHdkZWc2RlhqcCsybkt5TmQ4WWJIV1QvOFdyajRobEdrWkpRUUdFTENkSmJ5UHM2MlFPNmdIWEZSVlFFbkNIaGRBOXBkTEcyNTFRckJxa25BSVp5aStRUlNEVDEwWCtORHdsZTB3MTBFdFIzSGcxZ1gxZGtMVkNTYzQ2Y2dzdkw0MWNhcWVVZ1ZLWGtIa1VxOStQMVhiOE03cXZnTVMvL2pxTWhOalpiaUgrRHdyYzZZUDZ5Q04rVjBGcUNwRnVOZ2xMNmYiLCJtYWMiOiJjOTJkYmE2NTVhZWU3YTVhMDdkNTA4OTRhOTNkYjllNjc1YTYwYjU3YTcyNTBlZWVjOTcwMTM5MDJhYmE0YTkxIiwidGFnIjoiIn0%3D",
-        "path": "/",
-        "httpOnly": true,
-        "secure": true,
-        "expirationDate": 1777566731.297854,
-        "sameSite": "lax",
-        "domain": ".www.guitartricks.com"
-      },
-      {
-        "name": "guitartrickscom_session",
-        "value": "eyJpdiI6IlRoSmhhSTY0K1htT0g3dENpYXAwanc9PSIsInZhbHVlIjoiYWJTQ1JNY21wbGZ5NVREeWZacTFOVUk3M3U4L25EYVNTN0I0Q1UrU1JDdDBIVXE2RGdPR09WVGR3L08vRVB6OHk5eUhYbnlkMHg5bEZkWjhhM1drc1JFOXh2VzBhdm9NQWl5L0RhUUhVQ3JuNTAwTlRTeEMrRmJTU1krcXFNelMiLCJtYWMiOiJlZGM0MzZhNjIyMWJiNjJkY2ViYTY2ZGU0NmRkNTVmNzkyMzg2MGRjMTNkOTY4ODM1ZmZlNTcwNTRhYmFjZTRlIiwidGFnIjoiIn0%3D",
-        "path": "/",
-        "httpOnly": true,
-        "secure": true,
-        "expirationDate": 1777566731.297809,
-        "sameSite": "lax",
-        "domain": ".www.guitartricks.com"
-      },
-      {
-        "name": "remember_web_3dc7a913ef5fd4b890ecabe3487085573e16cf82",
-        "value": "eyJpdiI6ImpBSEFnalQwb09RSXUvcDk3all5UEE9PSIsInZhbHVlIjoiMmw5YWxNZVlFUkxLUkNPVHNiTk9md0dIRkxMYU92Unp6OWgzZUQweDU0SmZpSjJIaEhMUFRNQ0NKZW8yaVl0TERMVkk1VGp3TmtxL2pqRXJnWGlHa3pCS3F0UTBDbm80eFZOQ0V1UXZqdTJLenZpYk5TYXIzd0s3a1NIQ3djZFdjbmR3UDM5eS9pT2pWOUhVZUlpNzQwQ0YxWDZTSG5LQjkxeXNlTHFhekVQNWdEdlp2bERCQUpUOVhzSmNrWVZHIiwibWFjIjoiNzhhMTA4NTlhMjZiNjMyOGUwNmQ1NmI3ZTA5ZTBjNjQ0ZDhlZGEzZTQzYTc4ZDNiMjRjMDkwNTk1YTk1ZWVmMiIsInRhZyI6IiJ9",
-        "path": "/",
-        "httpOnly": true,
-        "secure": true,
-        "expirationDate": 1780590602.747979,
-        "sameSite": "lax",
-        "domain": ".www.guitartricks.com"
-      },
-      {
-        "name": "sign",
-        "value": "445275774777774b50534a764f797a5145573462696c4b354d77657a5a785375344d3377666e5a6e704d2f365a34444376396f616e78787a41686856446e6c64",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1777566595,
-        "sameSite": "no_restriction",
-        "domain": ".www.guitartricks.com"
-      },
-      {
-        "name": "__cf_bm",
-        "value": "GmGsHVSAp5NIdGWx5KiIJBJzohA6xWP4MpR2xsbm2R4-1768311014-1.0.1.1-rJlMUb792TLVuYrQU4j0zZA24kBCTSK2Qgzz6F92iqJ9WrEQe65i.NrAKWZ7mafHNT9Z1esonTMR5s77JShpFMYYdSmh7lul0scnzJ42bNqtC74ny3JkxzCnnUaD4b1d",
-        "path": "/",
-        "httpOnly": true,
-        "secure": true,
-        "sameSite": "no_restriction",
-        "domain": ".guitartricks.com"
-      },
-      {
-        "name": "_conv_v",
-        "value": "vi%3A1*sc%3A1*cs%3A1768311029*fs%3A1768311029*pv%3A1",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1784079028,
-        "sameSite": "lax",
-        "domain": ".guitartricks.com"
-      },
-      {
-        "name": "_conv_s",
-        "value": "si%3A1*sh%3A1768311028973-0.5606548132430892*pv%3A1",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "lax",
-        "domain": ".guitartricks.com"
-      },
-      {
-        "name": "_ga_ZTG96J5P1S",
-        "value": "GS2.1.s1768311030$o2$g0$t1768311030$j60$l0$h0",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802871030.505414,
-        "sameSite": "no_restriction",
-        "domain": ".guitartricks.com"
-      },
-      {
-        "name": "_gcl_au",
-        "value": "1.1.1488506507.1768311031",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1776087030,
-        "sameSite": "no_restriction",
-        "domain": ".guitartricks.com"
-      },
-      {
-        "name": "_rdt_uuid",
-        "value": "1768311030828.e7cfc951-b037-496d-a65f-78d603a0a664",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1776087030,
-        "sameSite": "strict",
-        "domain": ".guitartricks.com"
-      },
-      {
-        "name": "_ga",
-        "value": "GA1.2.1259508397.1746030593",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802871030.857335,
-        "sameSite": "no_restriction",
-        "domain": ".guitartricks.com"
-      },
-      {
-        "name": "_gid",
-        "value": "GA1.2.1859297720.1768311031",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1768397430,
-        "sameSite": "no_restriction",
-        "domain": ".guitartricks.com"
-      },
-      {
-        "name": "_pk_id.1.e1cd",
-        "value": "f341fda17e38af2f.1746030594.",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1779985794,
-        "sameSite": "lax",
-        "domain": "www.guitartricks.com"
-      },
-      {
-        "name": "_pk_ses.1.e1cd",
-        "value": "1",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "lax",
-        "domain": "www.guitartricks.com"
-      },
-      {
-        "name": "_hjSession_638704",
-        "value": "eyJpZCI6ImUzY2U2ZjM5LWM1YjUtNDYzZC04ZTc0LWUyZWU5NmE0NmZiYSIsImMiOjE3NjgzMTEwMzExNjEsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjowfQ==",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "no_restriction",
-        "domain": ".guitartricks.com"
-      },
-      {
-        "name": "ndp_session_id",
-        "value": "ef99c327-9710-4d4f-ba33-42c835b8b77a",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1770989431,
-        "sameSite": "lax",
-        "domain": ".guitartricks.com"
-      },
-      {
-        "name": "trueroas_cid",
-        "value": "e24616a5-da10-4356-b88a-b46a98fc4894",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "no_restriction",
-        "domain": "www.guitartricks.com"
-      },
-      {
-        "name": "_fbp",
-        "value": "fb.1.1768311032204.769571122918937403",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1776087032,
-        "sameSite": "no_restriction",
-        "domain": ".guitartricks.com"
-      },
-      {
-        "name": "XSRF-TOKEN",
-        "value": "eyJpdiI6IllzT2hONEZsT2VQbnBmYksraktvMEE9PSIsInZhbHVlIjoiVUduQ3QvS09XM2xwd0E2MUpoaTc2dStuRFMvMW9UMDNGdkZQMFZwWThUbGVFbXB1UHdYOWptcEdCaXJUNzFuVDJMVUJXblYvMlhGU1ZQR1kycnZ0NXBpV0tFMXJRcnMxdXNIN29rbnFONEwwMFZLRnRiYWJ3QmJoU1NiZ2NldWwiLCJtYWMiOiJkODA1OGJiOGRjYjI1NDcxZTAxYTc4ZjFmYWRhOTZmMTRlNWM4OTU5NzViMGE2MGJhM2E4MjU4OTYxY2M5MWUwIiwidGFnIjoiIn0%3D",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1799847037.116754,
-        "sameSite": "lax",
-        "domain": "www.guitartricks.com"
-      },
-      {
-        "name": "guitartrickscom_session",
-        "value": "eyJpdiI6IlpaMitQN3ZRTzZDUExMb0tzRlhESlE9PSIsInZhbHVlIjoiQlZJcHNEcnZQR0w5eW9iVDNTcUJaZ2hXVENIbWpRNkxudVhIQVhLR1hhTXppK2hOREZ4TmZKYnhqakJQM1VuaEhHbitwUHBHVHFnQ2NwcThvL3daWnBZWStDSE53OUVyV0hiR3VheHBIanUwc01FazVkdUNzaTNXTWxZZE01bHgiLCJtYWMiOiI5YjIwNDI5Yjc5YjFjM2ZhZWYxNTc5NWFkMzkyZmY3NTAyZjY0YzUwNzZkMzM3YjNmMDlkODM4ZjhiZTUwMmZhIiwidGFnIjoiIn0%3D",
-        "path": "/",
-        "httpOnly": true,
-        "secure": true,
-        "expirationDate": 1799847037.116889,
-        "sameSite": "lax",
-        "domain": "www.guitartricks.com"
-      },
-      {
-        "name": "GlgXpTZ9c8q6rcFt7x2R3kwF56QYRUBmuzwIoH8a",
-        "value": "eyJpdiI6IktQY052L3QwVmFFVktmN0hpeUlIekE9PSIsInZhbHVlIjoiYTNBdkhFVzh3VjNISUhPYndaWVlqT1QwQk9Uc1FkbWMydk1NdEw3aWN1MnFudkFLZkNYcXdGcVBsRDhpc01mdFd6TWxoVVNHMytHeUd0Tm9IS1pJQndNYlFReU1FWGJyb3U0RHEwMjRrZENja0xVeGQwTmdGSSs3SWtNQzFPdnRLbjlaYXFWaU1teE9yQWp3VDdNaTgxR2NwM2NYVnVpck1xYTJMY0RpWG1xMHVTU2lTK2xBdUZxekx1d0FDcHdBekpadENqc1RuRnVHRm4rZFdWU2VBUktCYXpEQTJsV21GL1pRd0dQaEtJVERWY2lRY0lmYUJNK1JFaEpyZlUzMi92S2RxOFJnSnRYTDkvVmNya290ZnNjQ294VzJIbTFtdVo3MkFnNnMxWHJ6OGRTNXVUaXc5ektrbjYwLzB3Z05SZk0wZFUxNDVwTTRMUUdjTnVRVDRtUnF6b1NKUDl1UlZPQTRha2ppZVFOL21nNHN4Ylg0Uk9sL1dpUFdOdE5oWWxhS0RoaE1Ba0l4QVFJQmt6UGtpcG1BY29HZnNzYmVWdnU1MG1NVytIemw2L09pT0hVdGhsdTVpRlhGVXVVbE9HM3ZJM2FLL2lHMUdFYW1FVC9SSFNNTXlFMmxpeGJQZjJyU3lXRC9EOGVDcmdSTXRLYzBUVG54ZTNRR1dKektXOVZJUWJTaFd4MHJyZVIyazEvUitPb2pKMmU5cjlYYVBreGpSeENYY2R6SEp0L1BQRUdjTU1sMTFGSTBINUVZRlpYcGM1ajlidFB4WUg2aGl0VFZlTjF0ZDRwRHFjSjB6U2pWK2M3ZHM4c2FSSjFIYk8vMnlsSFBadmdkMnVzbWg0OFpINVVwZUxkWlo5aC9PS1VGWEE9PSIsIm1hYyI6IjJmZTdkZDNiNmNlZDliZDE1Nzc5OWZhNmQ1Zjg2ZDliNjlmYzM0MGFkNDBmMDgyMzY4Yzg0MDFhMDM1MTM3OTQiLCJ0YWciOiIifQ%3D%3D",
-        "path": "/",
-        "httpOnly": true,
-        "secure": true,
-        "expirationDate": 1799847037.116968,
-        "sameSite": "lax",
-        "domain": "www.guitartricks.com"
-      },
-      {
-        "name": "ttcsid",
-        "value": "1768311031365::u7e0FSOf8Ob9bVPIfvgy.2.1768311042185.0",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802007042,
-        "sameSite": "no_restriction",
-        "domain": ".guitartricks.com"
-      },
-      {
-        "name": "ttcsid_C0V9PQ3M56Q7UP186R10",
-        "value": "1768311031364::7UN4-gFYsM_cuILelVbS.2.1768311042189.1",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802007042,
-        "sameSite": "no_restriction",
-        "domain": ".guitartricks.com"
-      }
-    ],
-    "sourceUrl": "https://www.guitartricks.com/home"
-  },
-  {
-    "meta": {
-      "id": "hbo-max-1034",
+      "id": "hbo-max-1031",
       "name": "HBO Max",
       "icon": "https://play-lh.googleusercontent.com/bvyVXgpxu65YO3PNeVhNM9Y7ao7g7FnnKdoNXcwqO48aOlVvnH_b2O9rcZzgEFHzHtI",
       "url": "https://gracely011.github.io/hai/manual.html?name=HBO%20Max%202&login=hbo01@belajaar.id&password=HBOgroupy2025!&url=https://play.max.com",
@@ -25381,7 +24337,7 @@
   },
   {
     "meta": {
-      "id": "iflix-1036",
+      "id": "iflix-1032",
       "name": "iflix",
       "icon": "https://play-lh.googleusercontent.com/_j_9jVM50j43oII8sejBsK4DkHXxFw_MYUQOcHNjgX7SgJMQiLUsa8BuKWGK_84H_OE",
       "url": "https://www.iflix.com/en",
@@ -25642,7 +24598,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1768317633.86615,
         "sameSite": "strict",
         "domain": ".iflix.com"
       },
@@ -25652,7 +24607,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1768317633.86623,
         "sameSite": "strict",
         "domain": ".iflix.com"
       },
@@ -25741,7 +24695,7 @@
   },
   {
     "meta": {
-      "id": "iloveimg-1037",
+      "id": "iloveimg-1033",
       "name": "iLoveIMG",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVjyJOS7PN-2Xh37-pXo0aOghZLt45Fa2UBw&s",
       "url": "https://www.iloveimg.com/",
@@ -25903,7 +24857,7 @@
   },
   {
     "meta": {
-      "id": "ilovepdf-1038",
+      "id": "ilovepdf-1034",
       "name": "iLovePDF",
       "icon": "https://play-lh.googleusercontent.com/I5yxs1Pspu1rB3NPfqnoX2NscvfzAW7e3Zq5GGhXcr2g207X9-npiuP48Ys7107M1VvA",
       "url": "https://www.ilovepdf.com/",
@@ -26056,30 +25010,16 @@
   },
   {
     "meta": {
-      "id": "iqiyi-1006",
+      "id": "iqiyi-1035",
       "name": "iQIYI",
       "icon": "https://groupy.id/assets/images/services/iqiyi.png",
-      "url": "https://gracely011.github.io/hai/manual.html?name=vidIQ&login=vidiq@prem1um.xyz&password=vidIQGroupy2026!&url=https://app.vidiq.com/auth/login",
+      "url": "https://www.iq.com/",
       "category": "streaming",
       "isGroup": true
     },
     "accounts": [
       {
         "name": "iQIYI 1",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "iq.com"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=vidIQ&login=vidiq@prem1um.xyz&password=vidIQGroupy2026!&url=https://app.vidiq.com/auth/login"
-      },
-      {
-        "name": "iQIYI 2",
         "cookies": [
           {
             "name": "__uuid",
@@ -26439,7 +25379,7 @@
         "sourceUrl": "https://www.iq.com/"
       },
       {
-        "name": "iQIYI 3",
+        "name": "iQIYI 2",
         "cookies": [
           {
             "name": "mod",
@@ -26772,7 +25712,7 @@
   },
   {
     "meta": {
-      "id": "linkedin-learning-1040",
+      "id": "linkedin-learning-1037",
       "name": "LinkedIn Learning",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4fcdsIUPUgmbvGaP-RC4RbHYdVtoN_fM8aya_8gOXI2BRtClESO-0_jgWTtKtIVmOQKs&usqp=CAU",
       "url": "https://www.linkedin.com/learning/?u=73723940",
@@ -27034,7 +25974,75 @@
   },
   {
     "meta": {
-      "id": "marvel-unlimited-1041",
+      "id": "lovable-1038",
+      "name": "Lovable",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTysfvFgHMVChk-7glLKWvdIJLLoA2aau0m1g&s",
+      "url": "https://gracely011.github.io/hai/manual.html?name=Lovable&login=lovablegroupy@prem1um.xyz&password=LovableGroupy2025!&url=https://lovable.dev/",
+      "category": "productivity",
+      "isGroup": true
+    },
+    "accounts": [
+      {
+        "name": "Lovable 1",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "lovable.dev"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Lovable&login=lovablegroupy@prem1um.xyz&password=LovableGroupy2025!&url=https://lovable.dev/"
+      },
+      {
+        "name": "Lovable 2",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "lovable.dev"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Lovable%202&login=lovablegroupy2@prem1um.xyz&password=LovableGroupy2025!&url=https://lovable.dev/"
+      },
+      {
+        "name": "Lovable 3",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "lovable.dev"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Lovable%203&login=lovablegroupy3@prem1um.xyz&password=LovableGroupy2025!&url=https://lovable.dev/"
+      },
+      {
+        "name": "Lovable 4",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "lovable.dev"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Lovable%204&login=lovablegroupy4@prem1um.xyz&password=LovableGroupy2025!&url=https://lovable.dev/"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "id": "marvel-unlimited-1039",
       "name": "Marvel Unlimited",
       "icon": "https://play-lh.googleusercontent.com/ikcy-XJG8_oFwVztH9vK3y--_mUcRu5zyco7d4FqugxzSkX9wMo63oBDPLWZnUsYDg",
       "url": "https://www.marvel.com/comics/unlimited/home",
@@ -27311,7 +26319,7 @@
   },
   {
     "meta": {
-      "id": "masterclass-1042",
+      "id": "masterclass-1040",
       "name": "MasterClass",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeoBuunz4xK_-2t35N6astSudIfb7Bnr0R6HDcwoqbzmzOcuNpiZdiRFRv&s=10",
       "url": "https://www.masterclass.com/profiles",
@@ -27691,275 +26699,7 @@
   },
   {
     "meta": {
-      "id": "medium-1043",
-      "name": "Medium",
-      "icon": "https://miro.medium.com/v2/resize:fill:128:128/1*sHhtYhaCe2Uc3IU0IgKwIQ.png",
-      "url": "https://medium.com/",
-      "category": "education"
-    },
-    "cookies": [
-      {
-        "name": "_ga_7JY7T788PK",
-        "value": "GS2.1.s1765174220$o6$g1$t1765174283$j57$l0$h0",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1799734283.288519,
-        "sameSite": "no_restriction",
-        "domain": ".medium.com"
-      },
-      {
-        "name": "_ga",
-        "value": "GA1.1.2004922034.1764333605",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1799734283.288795,
-        "sameSite": "no_restriction",
-        "domain": ".medium.com"
-      },
-      {
-        "name": "g_state",
-        "value": "{\"i_l\":0,\"i_ll\":1765174219847,\"i_b\":\"Pb2obBT/Dx5A5meo2hHhXKB7923dwz1dlruQ1DK7mTA\"}",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1780726219,
-        "sameSite": "no_restriction",
-        "domain": ".medium.com"
-      },
-      {
-        "name": "__stripe_mid",
-        "value": "1963bc80-f4d8-492e-90b5-a759084122e6974325",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1795869646,
-        "sameSite": "strict",
-        "domain": ".medium.com"
-      },
-      {
-        "name": "uid",
-        "value": "a9226a292cc8",
-        "path": "/",
-        "httpOnly": true,
-        "secure": true,
-        "expirationDate": 1799734281.229708,
-        "sameSite": "no_restriction",
-        "domain": ".medium.com"
-      },
-      {
-        "name": "sid",
-        "value": "1:DPbaiKV4M7DbDzFTx32NrMcJJmvVBUkFKl4R/sp3WMyGsYWfeRmc1eyFH/y3aSmQ",
-        "path": "/",
-        "httpOnly": true,
-        "secure": true,
-        "expirationDate": 1799734281.229807,
-        "sameSite": "no_restriction",
-        "domain": ".medium.com"
-      },
-      {
-        "name": "xsrf",
-        "value": "ade78895960e",
-        "path": "/",
-        "httpOnly": true,
-        "secure": true,
-        "expirationDate": 1768397470.842417,
-        "sameSite": "no_restriction",
-        "domain": "medium.com"
-      },
-      {
-        "name": "_cfuvid",
-        "value": "xsH1ZCt.uZ94Slo0VhCAv5DP9FpVgn2VV8X7XAD7C24-1768311058937-0.0.1.1-604800000",
-        "path": "/",
-        "httpOnly": true,
-        "secure": true,
-        "sameSite": "no_restriction",
-        "domain": ".medium.com"
-      },
-      {
-        "name": "_dd_s",
-        "value": "rum=0&expire=1768312183814",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "strict",
-        "domain": "medium.com"
-      }
-    ],
-    "sourceUrl": "https://medium.com/"
-  },
-  {
-    "meta": {
-      "id": "mentimeter-1044",
-      "name": "Mentimeter",
-      "icon": "https://images.saasworthy.com/mentimeter_870_logo_1600681783_e5oqu.png",
-      "url": "https://gracely011.github.io/hai/manual.html?name=Mentimeter&login=mentimeter@prem1um.xyz&password=MentimeterGroupy2025!&url=https://www.mentimeter.com/app/home",
-      "category": "productivity"
-    },
-    "cookies": [
-      {
-        "name": "dummy",
-        "value": "1",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "domain": "mentimeter.com"
-      }
-    ],
-    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Mentimeter&login=mentimeter@prem1um.xyz&password=MentimeterGroupy2025!&url=https://www.mentimeter.com/app/home"
-  },
-  {
-    "meta": {
-      "id": "mermaidchart-1045",
-      "name": "Mermaidchart",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPMgbHVXJCw0zQzk3DtR607-823YIxR1Zi_Q&s",
-      "url": "https://www.mermaidchart.com/app/login?redirect=%2Fapp%2Fdashboard",
-      "category": "productivity"
-    },
-    "cookies": [
-      {
-        "name": "MSESSIONID",
-        "value": "9a16422b-188e-4948-aba6-c0825132656a",
-        "path": "/",
-        "httpOnly": true,
-        "secure": true,
-        "sameSite": "lax",
-        "domain": ".www.mermaidchart.com"
-      },
-      {
-        "name": "_uetvid",
-        "value": "1e02ab60eec411f0ae3857316022f94a",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1801814653,
-        "sameSite": "no_restriction",
-        "domain": ".mermaidchart.com"
-      },
-      {
-        "name": "_ga",
-        "value": "GA1.1.269030715.1768118654",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802678654.260635,
-        "sameSite": "no_restriction",
-        "domain": ".mermaidchart.com"
-      },
-      {
-        "name": "_rdt_uuid",
-        "value": "1768118653019.65e0289f-5337-4b52-970f-2574271e9ffc",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1775894653,
-        "sameSite": "strict",
-        "domain": ".mermaidchart.com"
-      },
-      {
-        "name": "_gcl_au",
-        "value": "1.1.1690313868.1768118653.404125422.1768118656.1768118658",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1775894653,
-        "sameSite": "no_restriction",
-        "domain": ".mermaidchart.com"
-      },
-      {
-        "name": "_ga_9BL5V40XZD",
-        "value": "GS2.1.s1768118654$o1$g1$t1768118663$j51$l0$h1872361095",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802678663.034266,
-        "sameSite": "no_restriction",
-        "domain": ".mermaidchart.com"
-      },
-      {
-        "name": "CookieConsent",
-        "value": "{stamp:%27-1%27%2Cnecessary:true%2Cpreferences:true%2Cstatistics:true%2Cmarketing:true%2Cmethod:%27implied%27%2Cver:1%2Cutc:1768118653393%2Cregion:%27ID%27}",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1770797053,
-        "sameSite": "no_restriction",
-        "domain": ".www.mermaidchart.com"
-      },
-      {
-        "name": "sb-supabase-auth-token",
-        "value": "base64-eyJhY2Nlc3NfdG9rZW4iOiJleUpoYkdjaU9pSklVekkxTmlJc0ltdHBaQ0k2SW5GVVJuaDBXazlHVFRKVFpqaEZZbmtpTENKMGVYQWlPaUpLVjFRaWZRLmV5SnBjM01pT2lKb2RIUndjem92TDNWdGJXTnpibVZuYkc5bFpIaGpjbmRzZFdONkxuTjFjR0ZpWVhObExtTnZMMkYxZEdndmRqRWlMQ0p6ZFdJaU9pSmpaakF4TlRjME1pMHlNVEppTFRRME9UVXRZV05tTkMweFlUZ3pZbUl6WkRreFptTWlMQ0poZFdRaU9pSmhkWFJvWlc1MGFXTmhkR1ZrSWl3aVpYaHdJam94TnpZNE1USXlNalU0TENKcFlYUWlPakUzTmpneE1UZzJOVGdzSW1WdFlXbHNJam9pYldWeWJXRnBaRUJ3Y21WdE1YVnRMbmg1ZWlJc0luQm9iMjVsSWpvaUlpd2lZWEJ3WDIxbGRHRmtZWFJoSWpwN0luQnliM1pwWkdWeUlqb2laVzFoYVd3aUxDSndjbTkyYVdSbGNuTWlPbHNpWlcxaGFXd2lYWDBzSW5WelpYSmZiV1YwWVdSaGRHRWlPbnNpWlcxaGFXd2lPaUp0WlhKdFlXbGtRSEJ5WlcweGRXMHVlSGw2SWl3aVpXMWhhV3hmZG1WeWFXWnBaV1FpT25SeWRXVXNJbkJvYjI1bFgzWmxjbWxtYVdWa0lqcG1ZV3h6WlN3aWMzVmlJam9pWTJZd01UVTNOREl0TWpFeVlpMDBORGsxTFdGalpqUXRNV0U0TTJKaU0yUTVNV1pqSW4wc0luSnZiR1VpT2lKaGRYUm9aVzUwYVdOaGRHVmtJaXdpWVdGc0lqb2lZV0ZzTVNJc0ltRnRjaUk2VzNzaWJXVjBhRzlrSWpvaWNHRnpjM2R2Y21RaUxDSjBhVzFsYzNSaGJYQWlPakUzTmpneE1UZzJOVGg5WFN3aWMyVnpjMmx2Ymw5cFpDSTZJbVE1TmpKa1l6SmhMVFV6TkdNdE5ESTJaUzA0TlRRMExURmhNR1k1TldJelkyTmtPU0lzSW1selgyRnViMjU1Ylc5MWN5STZabUZzYzJWOS5ycndsZFhkOEhPVmVmd2pGbmhRLUs4NXNBUVB1a1o4c2xuZ2ZVRlc2X0FNIiwidG9rZW5fdHlwZSI6ImJlYXJlciIsImV4cGlyZXNfaW4iOjM2MDAsImV4cGlyZXNfYXQiOjE3NjgxMjIyNTgsInJlZnJlc2hfdG9rZW4iOiJuYzdjejNvd25lbXYiLCJ1c2VyIjp7ImlkIjoiY2YwMTU3NDItMjEyYi00NDk1LWFjZjQtMWE4M2JiM2Q5MWZjIiwiYXVkIjoiYXV0aGVudGljYXRlZCIsInJvbGUiOiJhdXRoZW50aWNhdGVkIiwiZW1haWwiOiJtZXJtYWlkQHByZW0xdW0ueHl6IiwiZW1haWxfY29uZmlybWVkX2F0IjoiMjAyNS0xMC0xM1QwMzozMToxNS4zNzUxOTNaIiwicGhvbmUiOiIiLCJjb25maXJtYXRpb25fc2VudF9hdCI6IjIwMjUtMTAtMTNUMDM6MzA6MDcuNjE5ODM2WiIsImNvbmZpcm1lZF9hdCI6IjIwMjUtMTAtMTNUMDM6MzE6MTUuMzc1MTkzWiIsImxhc3Rfc2lnbl9pbl9hdCI6IjIwMjYtMDEtMTFUMDg6MDQ6MTguNjc1NjU1NjMzWiIsImFwcF9tZXRhZGF0YSI6eyJwcm92aWRlciI6ImVtYWlsIiwicHJvdmlkZXJzIjpbImVtYWlsIl19LCJ1c2VyX21ldGFkYXRhIjp7ImVtYWlsIjoibWVybWFpZEBwcmVtMXVtLnh5eiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaG9uZV92ZXJpZmllZCI6ZmFsc2UsInN1YiI6ImNmMDE1NzQyLTIxMmItNDQ5NS1hY2Y0LTFhODNiYjNkOTFmYyJ9LCJpZGVudGl0aWVzIjpbeyJpZGVudGl0eV9pZCI6IjNiNDQyZjU5LWI0YjItNGNjNy1hOTI0LWNhOWRkZGI5OWNmNCIsImlkIjoiY2YwMTU3NDItMjEyYi00NDk1LWFjZjQtMWE4M2JiM2Q5MWZjIiwidXNlcl9pZCI6ImNmMDE1NzQyLTIxMmItNDQ5NS1hY2Y0LTFhODNiYjNkOTFmYyIsImlkZW50aXR5X2RhdGEiOnsiZW1haWwiOiJtZXJtYWlkQHByZW0xdW0ueHl6IiwiZW1haWxfdmVyaWZpZWQiOnRydWUsInBob25lX3ZlcmlmaWVkIjpmYWxzZSwic3ViIjoiY2YwMTU3NDItMjEyYi00NDk1LWFjZjQtMWE4M2JiM2Q5MWZjIn0sInByb3ZpZGVyIjoiZW1haWwiLCJsYXN0X3NpZ25faW5fYXQiOiIyMDI1LTEwLTEzVDAzOjMwOjA3LjYxMzYyMloiLCJjcmVhdGVkX2F0IjoiMjAyNS0xMC0xM1QwMzozMDowNy42MTM2NjZaIiwidXBkYXRlZF9hdCI6IjIwMjUtMTAtMTNUMDM6MzA6MDcuNjEzNjY2WiIsImVtYWlsIjoibWVybWFpZEBwcmVtMXVtLnh5eiJ9XSwiY3JlYXRlZF9hdCI6IjIwMjUtMTAtMTNUMDM6MzA6MDcuNjA5MzU5WiIsInVwZGF0ZWRfYXQiOiIyMDI2LTAxLTExVDA4OjA0OjE4LjY4MTI5NloiLCJpc19hbm9ueW1vdXMiOmZhbHNlfSwid2Vha19wYXNzd29yZCI6bnVsbH0",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802678659.028459,
-        "sameSite": "lax",
-        "domain": ".www.mermaidchart.com"
-      },
-      {
-        "name": "ANON_ID",
-        "value": "25588fe6-e192-4595-9cd2-6be24f4b6539",
-        "path": "/",
-        "httpOnly": true,
-        "secure": true,
-        "expirationDate": 1802678663.628772,
-        "sameSite": "lax",
-        "domain": ".www.mermaidchart.com"
-      },
-      {
-        "name": "_hjSessionUser_3821250",
-        "value": "eyJpZCI6ImVhMDRhY2VmLTk2YTItNTdhYy1hMGY4LTEzNzNiYTFjZDY2MiIsImNyZWF0ZWQiOjE3NjgxMTg2NTQzMTEsImV4aXN0aW5nIjpmYWxzZX0=",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1799654654,
-        "sameSite": "no_restriction",
-        "domain": ".mermaidchart.com"
-      },
-      {
-        "name": "mp_295168446303daf7afc247f43897a6a6_mixpanel",
-        "value": "%7B%22distinct_id%22%3A%22%22%2C%22%24device_id%22%3A%229aab0e6b-1854-4af1-b953-4c10acf4e0a8%22%2C%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%2C%22__mps%22%3A%7B%7D%2C%22__mpso%22%3A%7B%7D%2C%22__mpus%22%3A%7B%7D%2C%22__mpa%22%3A%7B%7D%2C%22__mpu%22%3A%7B%7D%2C%22__mpr%22%3A%5B%5D%2C%22__mpap%22%3A%5B%5D%2C%22userID%22%3A%22%22%2C%22planType%22%3A%22basic%22%2C%22billingCycle%22%3A%22%22%2C%22signUpDate%22%3A%222026-01-11T08%3A04%3A11.285Z%22%2C%22country%22%3A%22ID%22%2C%22diagramID%22%3A%22%22%7D",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1799654662,
-        "sameSite": "no_restriction",
-        "domain": ".mermaidchart.com"
-      },
-      {
-        "name": "sign",
-        "value": "445275774777774b50534a764f797a5145573462696a474e41656a7a736c34526a70715958714e41704357412b4a6e317779714b6545304b3751393656513343",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "no_restriction",
-        "domain": ".www.mermaidchart.com"
-      },
-      {
-        "name": "redirect",
-        "value": "%2Fapp%2Fdashboard",
-        "path": "/",
-        "httpOnly": true,
-        "secure": true,
-        "sameSite": "lax",
-        "domain": "www.mermaidchart.com"
-      },
-      {
-        "name": "FEATURE_SET",
-        "value": "%7B%22billingutils%22%3Afalse%2C%22cello-referral%22%3Atrue%2C%22antlr-parser-sequence-diagrams%22%3Atrue%2C%22antlr-parser-flowcharts%22%3Afalse%2C%22antlr-parser-class-diagrams%22%3Afalse%2C%22churnkey%22%3Atrue%2C%22comments%22%3Atrue%2C%22dev-pages%22%3Afalse%2C%22file-folder-drag-and-drop%22%3Atrue%2C%22evaluate-a-b-testing%22%3Afalse%2C%22floatingarrow%22%3Atrue%2C%22hotjar%22%3Atrue%2C%22layoutselector%22%3Atrue%2C%22livecursor%22%3Atrue%2C%22longerdebounce%22%3Atrue%2C%22mermaidai%22%3Atrue%2C%22mermaidai-chat-message-assets%22%3Atrue%2C%22mermaidai-chat-message-assets-pdf%22%3Atrue%2C%22mermaidai-chat-message-assets-text%22%3Atrue%2C%22mermaidai-diagram-chat%22%3Afalse%2C%22mermaidai-diagram-repair-type%22%3Afalse%2C%22mermaidai-diagram-repair-reverse-priority%22%3Afalse%2C%22mermaidai-diagram-title-generation%22%3Afalse%2C%22mermaid-ai-fargate%22%3Atrue%2C%22mermaidai-sdk-enabled%22%3Afalse%2C%22new-onboarding-survey%22%3Atrue%2C%22notifications%22%3Afalse%2C%22org-team-free-user%22%3Atrue%2C%22playground%22%3Atrue%2C%22preload-data%22%3Atrue%2C%22pro-to-premium%22%3Atrue%2C%22userbehavior%22%3Atrue%2C%22veinlineeditor%22%3Atrue%2C%22whiteboard%22%3Atrue%2C%22whiteboard_v2%22%3Afalse%2C%22mermaidai-chat-starter%22%3Afalse%2C%22dynamodb-double-write%22%3Afalse%2C%22dynamodb-reads%22%3Afalse%2C%22suggestion-lines%22%3Atrue%2C%22snap-to-node%22%3Atrue%2C%22testUnderDevelopment%22%3Afalse%2C%22testOnlyInProd%22%3Afalse%7D",
-        "path": "/",
-        "httpOnly": true,
-        "secure": true,
-        "sameSite": "lax",
-        "domain": "www.mermaidchart.com"
-      }
-    ],
-    "sourceUrl": "https://www.mermaidchart.com/app/login?redirect=%2Fapp%2Fdashboard"
-  },
-  {
-    "meta": {
-      "id": "motion-array-1046",
+      "id": "motion-array-1041",
       "name": "Motion Array",
       "icon": "https://s3-eu-west-1.amazonaws.com/tpd/logos/5b1e60b2b50df6000112eb83/0x0.png",
       "url": "https://motionarray.com/",
@@ -28237,7 +26977,7 @@
   },
   {
     "meta": {
-      "id": "mubi-1047",
+      "id": "mubi-1042",
       "name": "Mubi",
       "icon": "https://images.mubicdn.net/images/avatars/169655/cache-169655-1620041787/images-large.png?size=800x",
       "url": "https://mubi.com/en/id/showing",
@@ -28580,7 +27320,7 @@
   },
   {
     "meta": {
-      "id": "musicbed-1049",
+      "id": "musicbed-1044",
       "name": "Musicbed",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMRzHPEXnSURkOyU9StcI8BZPOTeqzvcJP_A&s",
       "url": "https://www.musicbed.com/songs",
@@ -28777,7 +27517,7 @@
   },
   {
     "meta": {
-      "id": "netflix-1051",
+      "id": "netflix-1046",
       "name": "Netflix",
       "icon": "https://groupy.id/assets/images/services/netflix.png",
       "url": "https://www.netflix.com/browse",
@@ -29941,7 +28681,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768315962.765702,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -30016,7 +28755,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768315971.501942,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -30111,7 +28849,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768315979.821541,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -31021,7 +29758,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768316052.054313,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -31076,7 +29812,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768316066.734237,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -31191,7 +29926,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768316084.933849,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -31306,7 +30040,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768316096.62171,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -31421,7 +30154,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768316106.309754,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -31536,7 +30268,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768316116.46989,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -31651,7 +30382,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768316126.957709,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -31747,7 +30477,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768316137.577435,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -31853,7 +30582,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768316150.461817,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -31968,7 +30696,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768316163.487928,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -32074,7 +30801,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768316173.120892,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -32180,7 +30906,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768316179.976393,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -32295,7 +31020,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768316195.693852,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -32430,7 +31154,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768316213.222213,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -32555,7 +31278,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768316222.245774,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -32680,7 +31402,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768316234.254681,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -32805,7 +31526,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768316243.109694,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -32930,7 +31650,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768316251.437966,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -33055,7 +31774,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768316259.342158,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -33180,7 +31898,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768316268.837811,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -33356,137 +32073,27 @@
   },
   {
     "meta": {
-      "id": "notegpt-1052",
-      "name": "NoteGPT",
-      "icon": "https://10web.io/wp-content/uploads/2024/08/NoteGPT_logo.jpg",
-      "url": "https://notegpt.io/workspace/home",
+      "id": "notebooklm-1047",
+      "name": "NotebookLM",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRJ_-m9Y994yfZimh_h8Yzn0sMx2IsfVoDIQ&s",
+      "url": "https://gracely011.github.io/hai/manual.html?name=NotebookLM&login=gpypremium@sharingwithgpy.com&password=SharingWithGroupy2026!&url=https://notebooklm.google.com/",
       "category": "productivity"
     },
     "cookies": [
       {
-        "name": "_identity",
-        "value": "c75a51b6605c99601ce8e9c4ea20000ea76dbd4e667220c8b38dd738fefdb397a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A22%3A%22%5B18611246%2Cnull%2C604800%5D%22%3B%7D",
-        "path": "/",
-        "httpOnly": true,
-        "secure": true,
-        "expirationDate": 1768452522.992987,
-        "sameSite": "no_restriction",
-        "domain": ".notegpt.io"
-      },
-      {
-        "name": "last_login",
-        "value": "c9e53bffd77024de2be9850263340070ec8c86a59077f4229fe724196d3c1995a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22last_login%22%3Bi%3A1%3Bi%3A1%3B%7D",
-        "path": "/",
-        "httpOnly": true,
-        "secure": true,
-        "sameSite": "no_restriction",
-        "domain": ".notegpt.io"
-      },
-      {
-        "name": "anonymous_user_id",
-        "value": "9b58dd34-1680-4b69-a3d1-4f810ac141a4",
+        "name": "dummy",
+        "value": "1",
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "sameSite": "no_restriction",
-        "domain": ".notegpt.io"
-      },
-      {
-        "name": "sbox-guid",
-        "value": "MTc2Nzg0NzY5Nnw4MjB8OTA3NTA1MjU5",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802407696.110974,
-        "sameSite": "no_restriction",
-        "domain": ".notegpt.io"
-      },
-      {
-        "name": "_trackUserId",
-        "value": "G-1767847703000",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1770439703,
-        "sameSite": "no_restriction",
-        "domain": ".notegpt.io"
-      },
-      {
-        "name": "g_state",
-        "value": "{\"i_l\":0,\"i_ll\":1767847704193,\"i_b\":\"HsNoVFTf0MbzfCRqOTE8nqCPo5O/716Zb24mAG+SKBQ\",\"i_e\":{\"enable_itp_optimization\":0}}",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1783399704,
-        "sameSite": "no_restriction",
-        "domain": ".notegpt.io"
-      },
-      {
-        "name": "crisp-client%2Fsession%2F02aa9b53-fc37-4ca7-954d-7a99fb3393de",
-        "value": "session_31701299-9366-48d6-9f74-435a62b6d3dd",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1783615696,
-        "sameSite": "no_restriction",
-        "domain": ".notegpt.io"
-      },
-      {
-        "name": "sign",
-        "value": "445275774777774b50534a764f797a514557346269736556593748732b4a4b6568594d696332393066753442426d53522b4c6264564a786c4135674b62787437",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1768452522.992987,
-        "sameSite": "no_restriction",
-        "domain": ".notegpt.io"
-      },
-      {
-        "name": "_ga_PFX3BRW5RQ",
-        "value": "GS2.1.s1768311182$o2$g0$t1768311182$j60$l0$h1790728606",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802871182.581498,
-        "sameSite": "no_restriction",
-        "domain": ".notegpt.io"
-      },
-      {
-        "name": "_ga",
-        "value": "GA1.2.217129454.1767847696",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802871182.883089,
-        "sameSite": "no_restriction",
-        "domain": ".notegpt.io"
-      },
-      {
-        "name": "_gid",
-        "value": "GA1.2.1351796784.1768311183",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1768397582,
-        "sameSite": "no_restriction",
-        "domain": ".notegpt.io"
-      },
-      {
-        "name": "ZFSESSID",
-        "value": "es4tnerfthqtc7evu1o8qp4m91",
-        "path": "/",
-        "httpOnly": true,
-        "secure": true,
-        "expirationDate": 1770903185.254627,
-        "sameSite": "no_restriction",
-        "domain": ".notegpt.io"
+        "domain": "notebooklm.google.com"
       }
     ],
-    "sourceUrl": "https://notegpt.io/workspace/home"
+    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=NotebookLM&login=gpypremium@sharingwithgpy.com&password=SharingWithGroupy2026!&url=https://notebooklm.google.com/"
   },
   {
     "meta": {
-      "id": "notion-1053",
+      "id": "notion-1048",
       "name": "Notion",
       "icon": "https://play-lh.googleusercontent.com/vy-9s86d-81wk1acsXvAxN1xV5Y-doJdgbskG3GonOerbUwUtvNXk_XSRHoraaXZcX4",
       "url": "https://www.notion.so/Teamspace-Home-2e7f85c3cdd381e5a61df1f2a0b93007",
@@ -33725,7 +32332,7 @@
   },
   {
     "meta": {
-      "id": "pacdora-1054",
+      "id": "pacdora-1049",
       "name": "Pacdora",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9l1bvE2alHZrnR4bmSsbK2KjHemNk_p4Dsf-GVh6-5hFtZgugYYNfQfo0L3CQxZqdLC4&usqp=CAU",
       "url": "https://www.pacdora.com/my-design",
@@ -33915,7 +32522,237 @@
   },
   {
     "meta": {
-      "id": "perplexity-group-id",
+      "id": "paperpal-1022",
+      "name": "Paperpal",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsb2y412xVI5pSI0IiCzqNCF0RA7p-fxjNbg&s",
+      "url": "https://edit.paperpal.com/",
+      "category": "education"
+    },
+    "cookies": [
+      {
+        "name": "_vwo_uuid_v2",
+        "value": "D2FF062EC84FE5380C4DADE54177C5B3F|d18d0281f7353d31d6aaf6e9ca4a17db",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1799933597,
+        "sameSite": "no_restriction",
+        "domain": ".paperpal.com"
+      },
+      {
+        "name": "__auid",
+        "value": "86b889c4c701f57134ed0433130f39e5",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1772633928.874384,
+        "sameSite": "no_restriction",
+        "domain": ".paperpal.com"
+      },
+      {
+        "name": "paperpal-bff-cookie",
+        "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5YzliYzgxNi0zZWQ1LTRiZjctODQ5Ni1mYzNhODEzZTYzNjYiLCJqdGkiOiI0MGUxNTg1Y2MzM2ZkNDJmMGE2YzUxMGZlNmE1MmU3OWFjNjU1YjZmNTk0YTYyYTQyNDAyNzZmYmM5MDhjNTA3MmJkZjkwYWY5M2JhYzNjMiIsImlzcyI6InNzby5lZGl0YWdlLmNvbSIsImlhdCI6MTc2NDg1NzkyNi4xMzM4LCJuYmYiOjE3NjQ4NTc5MjYuMTMzODA0LCJleHAiOjE3NzI2MzQ1MjYuMTI4MDg0LCJzdWIiOiI4Njc3MjExIiwic2NvcGVzIjpbXX0.R5f6TXzcC5zMEKfsvsvFwZZ5gOUPFLRzUlf5p49GcCyrJW5gNFB80rQ0SgEGDAIp2qF9b4Ee0XXrzVUhcJVwaq2PZYZbymY_SjqjOF-adct0cpEd9BvW3OHzHEr3-2dCc_vlBvDOJT5Qp-U8gLMsu3s-WuH-ad84NhkhUSO86C173d2antUcVi5R1GKy9qLh8SZXI_kbEPqghLM6KRu9GUmM75ZXpU6nPzOHjW1SKGXbzSA0SfGhlZYtarpiRmS5mza1bLjN-3By5wkSukAbK6Wx1dRYHFvgM1EUKHX8WiZfHW7V7F1BJ-itdnSJOpettPzMjWyI4uxtXMQTsyhROJxZ0dwGbPnxF6UgAeqO_ZVnzZo7r3c_oAG7F6jIIR9XEHnFYIwsuIJ3G9PVVof_UOLSJIlzQ1CWiHnV77FlckKXFJE-mZdjv-q3OVJen_CGUWz_-g2NP8Lk1Yzuxh3m53aktQkRDrax6JxUIjeQ_InESVAfWaOEqD9TN4mL9CmhCO-D5SPJmf0i7-7ndhO9rhuoybrrTfvJAwOf9W9V_Nid0ALKLsmP1GYBhbu6sXyNczIYHcuZ12PtataX61LkHedkMdBAQQFKqYwGs6YUl5p9PdQII1vDnuBN4tPrraPCQYQl3OzKPRRGk4-fepEdDXbi2KRYIWiD_xWzyFzPf_A",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1796393991.819314,
+        "sameSite": "strict",
+        "domain": ".edit.paperpal.com"
+      },
+      {
+        "name": "_fbp",
+        "value": "fb.1.1764857934651.39872760390109500",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1772634020,
+        "sameSite": "lax",
+        "domain": ".paperpal.com"
+      },
+      {
+        "name": "_uetvid",
+        "value": "2a4bf360d11c11f0a559f7564c7e0204",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1798554020,
+        "sameSite": "no_restriction",
+        "domain": ".paperpal.com"
+      },
+      {
+        "name": "__ivc",
+        "value": "59a767f2-5128-40fe-beb3-d93c39a1cb91",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1799418020.227843,
+        "sameSite": "no_restriction",
+        "domain": ".paperpal.com"
+      },
+      {
+        "name": "__iss",
+        "value": "https%3A%2F%2Fsso.editage.com",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1772633928.874432,
+        "sameSite": "no_restriction",
+        "domain": ".paperpal.com"
+      },
+      {
+        "name": "_ga_ZQ1C0W9WQ7",
+        "value": "GS2.1.s1764857934$o1$g1$t1764858030$j49$l0$h0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1799418030.669298,
+        "sameSite": "no_restriction",
+        "domain": ".paperpal.com"
+      },
+      {
+        "name": "_ga_FX8NVDLJ9Z",
+        "value": "GS2.1.s1764857934$o1$g1$t1764858023$j31$l0$h0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1799418023.667938,
+        "sameSite": "no_restriction",
+        "domain": ".paperpal.com"
+      },
+      {
+        "name": "_vwo_ds",
+        "value": "3%241764857916%3A18.11132192%3A%3A",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1772633917,
+        "sameSite": "no_restriction",
+        "domain": ".paperpal.com"
+      },
+      {
+        "name": "_clck",
+        "value": "128ci47%5E2%5Eg1k%5E0%5E2164",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1796393934,
+        "sameSite": "no_restriction",
+        "domain": ".paperpal.com"
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.432696202.1764857934",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1799418019.930918,
+        "sameSite": "no_restriction",
+        "domain": ".paperpal.com"
+      },
+      {
+        "name": "_gcl_au",
+        "value": "1.1.359333320.1764857934",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1772633934,
+        "sameSite": "no_restriction",
+        "domain": ".paperpal.com"
+      },
+      {
+        "name": "_vis_opt_s",
+        "value": "1%7C",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1773497916,
+        "sameSite": "no_restriction",
+        "domain": ".paperpal.com"
+      },
+      {
+        "name": "_vis_opt_test_cookie",
+        "value": "1",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".paperpal.com"
+      },
+      {
+        "name": "_vwo_uuid",
+        "value": "D2FF062EC84FE5380C4DADE54177C5B3F",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1796414869,
+        "sameSite": "no_restriction",
+        "domain": ".paperpal.com"
+      },
+      {
+        "name": "isUserSignedUp",
+        "value": "true",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1799773200,
+        "sameSite": "no_restriction",
+        "domain": ".paperpal.com"
+      },
+      {
+        "name": "locale",
+        "value": "en",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1772633928.874467,
+        "sameSite": "no_restriction",
+        "domain": ".paperpal.com"
+      },
+      {
+        "name": "WZRK_G",
+        "value": "c46d467a957545b3942b6fcb32e95022",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1796394020,
+        "sameSite": "no_restriction",
+        "domain": ".paperpal.com"
+      },
+      {
+        "name": "sign",
+        "value": "445275774777774b50534a764f797a514557346269692b304e4c466e44485a59465152457630587470413144346a7552462b3472387330626473646366794a30",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1796480419,
+        "sameSite": "no_restriction",
+        "domain": ".paperpal.com"
+      },
+      {
+        "name": "_vwo_sn",
+        "value": "3453269%3A3",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".paperpal.com"
+      },
+      {
+        "name": "__secure-sid",
+        "value": "eyJpdiI6ImFxOHFXNTRkK2hzSHlXVHBBYmwzWFE9PSIsInZhbHVlIjoibmlRbkRpN2xmWGtHRjlLOURsQ3lTUWY5YkRaWnlrRjFGRzg1OTZtWGVKV1RmQnVselNrZlI5cDB3QnJEVm9Kc1o2WFZydlF0aitXVkJta2ZJRitpb1h5K2p0Y2hFZ1l1blE0a1FyU21nRi9BS1FSWnE2VWQwR3RXRXdveElPKysiLCJtYWMiOiJlNjlkYjgxMDU0Zjk4MGM3ODgyZmY3OGUzZjcyMTA4MzNiODExMTA1NjYyZmQ1NzU3YWM0YzUyMGNkNTU0ZmVjIiwidGFnIjoiIn0%3D",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1776087200.843286,
+        "sameSite": "no_restriction",
+        "domain": ".paperpal.com"
+      }
+    ],
+    "sourceUrl": "https://edit.paperpal.com/"
+  },
+  {
+    "meta": {
+      "id": "perplexity-1050",
       "name": "Perplexity",
       "icon": "https://play-lh.googleusercontent.com/6STp0lYx2ctvQ-JZpXA1LeAAZIlq6qN9gpy7swLPlRhmp-hfvZePcBxqwVkqN2BH1g",
       "url": "https://www.perplexity.ai/",
@@ -34159,7 +32996,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768315455.635407,
             "sameSite": "no_restriction",
             "domain": ".perplexity.ai"
           },
@@ -34452,7 +33288,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768315465.340896,
             "sameSite": "no_restriction",
             "domain": ".perplexity.ai"
           },
@@ -34746,7 +33581,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768315440.465671,
             "sameSite": "no_restriction",
             "domain": ".perplexity.ai"
           },
@@ -34826,7 +33660,7 @@
   },
   {
     "meta": {
-      "id": "picsart-1055",
+      "id": "picsart-1051",
       "name": "Picsart",
       "icon": "https://play-lh.googleusercontent.com/1JMJ518jogwPeaD0pYn2mBu1cRLD0xRi45wNbtTIRvam1_xx-y3KJOjRAx-W9P4Lf0U=s256-rw",
       "url": "https://gracely011.github.io/hai/manual.html?name=Picsart&login=sgpgemk@nuyul.id&password=Premium@123&url=https://picsart.com/",
@@ -34880,371 +33714,7 @@
   },
   {
     "meta": {
-      "id": "prezi-ai-1056",
-      "name": "Prezi AI",
-      "icon": "https://play-lh.googleusercontent.com/3rVZ7Lc7-bxsALDo0nWOcuojR9ISxlhO20KnVM3uP00drxIXXt7ATM0V5-YjfM0pPtA",
-      "url": "https://prezi.com/dashboard/next/",
-      "category": "productivity"
-    },
-    "cookies": [
-      {
-        "name": "__stripe_mid",
-        "value": "fbcbcc6c-6ea9-4810-b665-c69e68874dbc57cbe8",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1799847218,
-        "sameSite": "strict",
-        "domain": ".prezi.com"
-      },
-      {
-        "name": "hubspotutk",
-        "value": "b10518306be6cee7fe5d783f8fa292ae",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1783863216,
-        "sameSite": "lax",
-        "domain": ".prezi.com"
-      },
-      {
-        "name": "auth-sessionid",
-        "value": ".eJxVj8tLxDAYxGt9rCuI4MGzx_VS8mj6uIksrqCLICphLyHNo81aUrLZoB4E_3Sj9rKXb2Dmx_DNd_rlkhk9TZKE8bDtWPBqw4x0e3QaPZyXNSlIXrmUnu8yDRdvykq3T69iINfctkMmBrvdmCb7xbKR8NlykKq_GfkDerZb1HHfuUN6HV0oMRagArAukBaYC621rBCACEGJoNZQAQ1qXWIkdIWbvCFAkVIXSCAMQemO6EWs6YfWWK-8N4Nlo8ZJE3oZw8X81t89vyiyXL3K-8d8FT4-zfvaEle36Gnx4I7_HvwfxPp4A2-Vm9I0usq6k5D9AERyW90:1veDmC:aqXSZwB-kGIwR1y3t1vnMGxdR4c",
-        "path": "/",
-        "httpOnly": true,
-        "secure": true,
-        "expirationDate": 1770562064.477199,
-        "sameSite": "lax",
-        "domain": ".prezi.com"
-      },
-      {
-        "name": "_ttp",
-        "value": "01KEHKKH1RH1NBN0YX9T1SVZWM_.tt.1",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802007210,
-        "sameSite": "no_restriction",
-        "domain": ".prezi.com"
-      },
-      {
-        "name": "safehousetoken",
-        "value": "b'94e22c4f56503c65e9a97f102c35f6a7106e179e236da6bf596f099afc1d'",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1770562052.960111,
-        "sameSite": "no_restriction",
-        "domain": ".prezi.com"
-      },
-      {
-        "name": "__hssrc",
-        "value": "1",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "lax",
-        "domain": ".prezi.com"
-      },
-      {
-        "name": "__putma",
-        "value": "11f52e12-ed6a-11f0-a614-8a0e0db9a093",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802871208.437102,
-        "sameSite": "no_restriction",
-        "domain": ".prezi.com"
-      },
-      {
-        "name": "_fbp",
-        "value": "fb.1.1767970028153.806803279827957867",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1776087211,
-        "sameSite": "lax",
-        "domain": ".prezi.com"
-      },
-      {
-        "name": "_gcl_au",
-        "value": "1.1.418079216.1767970027.1143980495.1767970050.1767970052",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1775746027,
-        "sameSite": "no_restriction",
-        "domain": ".prezi.com"
-      },
-      {
-        "name": "_tt_enable_cookie",
-        "value": "1",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802007210,
-        "sameSite": "no_restriction",
-        "domain": ".prezi.com"
-      },
-      {
-        "name": "csrftoken",
-        "value": "anhwGoIc0aUEaeZvCKyidqoBqX3sJchz",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1799760812.325977,
-        "sameSite": "no_restriction",
-        "domain": ".prezi.com"
-      },
-      {
-        "name": "django_language",
-        "value": "en",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "no_restriction",
-        "domain": ".prezi.com"
-      },
-      {
-        "name": "optimizelyEndUserId",
-        "value": "oeu1767970027033r0.9119132288417807",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1783863208,
-        "sameSite": "no_restriction",
-        "domain": ".prezi.com"
-      },
-      {
-        "name": "django_language",
-        "value": "en",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "no_restriction",
-        "domain": "prezi.com"
-      },
-      {
-        "name": "optimizelySession",
-        "value": "0",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1783863208,
-        "sameSite": "no_restriction",
-        "domain": ".prezi.com"
-      },
-      {
-        "name": "_ga_N6JQLWRW1C",
-        "value": "GS2.1.s1768311209$o2$g0$t1768311209$j60$l0$h0",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802871209.885108,
-        "sameSite": "no_restriction",
-        "domain": ".prezi.com"
-      },
-      {
-        "name": "_ga",
-        "value": "GA1.2.350342794.1767970027",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802871209.996339,
-        "sameSite": "no_restriction",
-        "domain": ".prezi.com"
-      },
-      {
-        "name": "_gid",
-        "value": "GA1.2.1801707621.1768311210",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1768397609,
-        "sameSite": "no_restriction",
-        "domain": ".prezi.com"
-      },
-      {
-        "name": "_gat_UA-2156578-3",
-        "value": "1",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "no_restriction",
-        "domain": ".prezi.com"
-      },
-      {
-        "name": "_hjSessionUser_67374",
-        "value": "eyJpZCI6ImI0NTE2NWM4LWU5N2MtNTBiYi04Yzc1LTJhYmI4OTA0NTZhYyIsImNyZWF0ZWQiOjE3Njc5NzAwNjM5NDYsImV4aXN0aW5nIjp0cnVlfQ==",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1799847211,
-        "sameSite": "no_restriction",
-        "domain": ".prezi.com"
-      },
-      {
-        "name": "_hjSession_67374",
-        "value": "eyJpZCI6ImYwMjExMDRhLWM0NzgtNGZkMS05YjhkLWIxM2VjMWI0MGRiZiIsImMiOjE3NjgzMTEyMTE0NDcsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjowfQ==",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "no_restriction",
-        "domain": ".prezi.com"
-      },
-      {
-        "name": "_uetsid",
-        "value": "739e76b0f08411f0b571d3c29a2e93e5",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1768397611,
-        "sameSite": "no_restriction",
-        "domain": ".prezi.com"
-      },
-      {
-        "name": "_uetvid",
-        "value": "1194f8c0ed6a11f0862ba3582057e398",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802007211,
-        "sameSite": "no_restriction",
-        "domain": ".prezi.com"
-      },
-      {
-        "name": "_clck",
-        "value": "v7odm2%5E2%5Eg2o%5E0%5E2200",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1799847211,
-        "sameSite": "no_restriction",
-        "domain": ".prezi.com"
-      },
-      {
-        "name": "glassbox-session-id",
-        "value": "eyJzZXNzaW9uX2lkIjoiMmVjMmZiNmYtMDg3OS00MWM0LTg3YTgtZDExZTk2MTQ0ZmEzIn0=",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "no_restriction",
-        "domain": ".prezi.com"
-      },
-      {
-        "name": "prezi-auth",
-        "value": ".eJyNV9tu3DYQ_Re91htIe_Nmn4peULR9rAMUDQJiRFErRhQpk9Taa8P_3iGpG2UZLZwAq3OGnMO5iXpNeJGcd_v7z4fjYX-6S5R7Tl5uOa8pfS7zPUnuks4wLaFhyNRQq4LLC6KsAS4QajV74T_mTMB3AP0JN7hLSq6NJf2ahgteIyhgwi5ade0NwQIsI98Vl6wg3Ciktun2sEnvN9nxITudd9tzdkQ7boixUJbJuQRhmBdFjBHjMxoUzNRWtcTpHfEKJsJqDoKw55ZrVowWfl-glBmTnGUnBIZBX0jDmtzt8_VbeIai4TI8lgxsp9E_swjsjqddut-eDrvdfptm95-P6f7ua3oX_jL_f_gbsLXn8dc3dGHYpWHSguUKnaLGrsDHjbIVasLgP7dMc2eBItxZkl2eAj1sYXPcHrebLCvTTZ4fi026ze5TdjiUZZq6JHDKJIbuCoIXpJOWiynux0162mT7hzQ9-38zewxvCzeX-bPVHZsIe2tdQmemFGQf46Wty4XPWQy3Gn8k5-yUfkrjjUmox5ZbWplOtKIz2f6Ghl_--mVDN2Lyiql7DXbux-x00clCIcUHeS8XTZY1slAeK_6fSnFbLkMNzqvWt8IIRKX1mvSVO9JtUTptStsJwgfIhQsjNuLI9kLZy9LeWKXhwshjpyyQJk_OqTsQa3jXENO1kbF6kv2-Ql3UdHyHWA1c-kAOSjS_unb2tJnO2Dh3rOB2FnVVlgKbnhi4stESRaiw3ky1H3MU813P2jvHPUnwYBhol_6eoQrDSDXGc3IAxRUkxVHz4QkcDBLEzXJqBrFGAK0xeZZddK-qJ0K4CK3ALrG2UnLyPKDWyZ_S48plFDnHTAV6AVHVuIafxPaoi2xs6RCnSVsTE2M5zUGfNnojbZdjcNe5ihc4fz5YF9Iek3EqY24W3-goQ02sxWPgVje88oIp0rVCQbFYJv2qHAyns3SvmIyl8b4owmmjNlskCwQzpdKUxUUSbdChn4Zb9HDl7Al91mNyfKnClYO-EVaWjFoTl_EkrmINW8ZtPhRmG67XxTKHPpxMe1ELrrXYWfGs8UQuOmYVvoqmbozS2xVcxVCO_ePmnCz6Xl3ppWD5XzRV8mOWPWPyiBtwt1woWi-qn3ZI4YyjfRAjhRpkMa8NPwlCYT2xfDEhAt4AXcWf-JR74HpRzw4J7UR8Qfj5OwPHOpkvCBsLJi8Y9XhZRK0uLvFOQ6oIKnCwu24Jq997kngK1Kwb0PWcHdpQMyyxebwcKfiVLZ8_3GmqPImDArORLZSZLrfcCuaZKIHhVZQOaOyh38Zd3nDMC7ihB7fAT6Sre_W6hW7UmWoYXX7a-sNkc06FajQRPOiLwAba2OqdpoEwjwJHtpTY40qbSAwvNV6Ox5aby3Q94SaG1zgn_MgeC2zmJ-xC8HoNEa7y7-gaRzAeLTTQjASsE8sajJpdnPpd5HvcB5XN-jta5QvgnYS1zI8KpldDHN61sIwvRMR8_5K67wsDjcD7WtDadMLf3UMYw7XerDDj3WfODPexmbA1un8XrpNcXrElSX4bvynQqpbqSbDi4l9OuH9n8eqSveFJOleyy-8yfcGUvfiUeS58p7jrY8fMMKDf3tZvmTgVy9LVSQVYeSJc153H_p5rok-AbJPtHrLDebc7Z58_Zfv9aZuu2JPO0sWafVjzw_DxQI0urardxSEBWT39pn6nKXz5Fdg_15__vPHiUf30-PfO_EGrl-TtXyFSNcI.aWZJnw.sizyAz9dpiQI5RbieVdXq5QbJ0Y",
-        "path": "/",
-        "httpOnly": true,
-        "secure": true,
-        "expirationDate": 1768401212.049837,
-        "sameSite": "no_restriction",
-        "domain": ".prezi.com"
-      },
-      {
-        "name": "auth-sessionid",
-        "value": ".eJxVj8tLxDAYxGt9rCuI4MGzx_VS8mj6uIksrqCLICphLyHNo81aUrLZoB4E_3Sj9rKXb2Dmx_DNd_rlkhk9TZKE8bDtWPBqw4x0e3QaPZyXNSlIXrmUnu8yDRdvykq3T69iINfctkMmBrvdmCb7xbKR8NlykKq_GfkDerZb1HHfuUN6HV0oMRagArAukBaYC621rBCACEGJoNZQAQ1qXWIkdIWbvCFAkVIXSCAMQemO6EWs6YfWWK-8N4Nlo8ZJE3oZw8X81t89vyiyXL3K-8d8FT4-zfvaEle36Gnx4I7_HvwfxPp4A2-Vm9I0usq6k5D9AERyW90:1vfeWN:WaMfj_drgxvVz7JN2D_8p8d98b8",
-        "path": "/",
-        "httpOnly": true,
-        "secure": true,
-        "expirationDate": 1770903212.050041,
-        "sameSite": "lax",
-        "domain": "prezi.com"
-      },
-      {
-        "name": "ab.storage.deviceId.e030e06b-65da-4234-bd49-26743094b195",
-        "value": "%7B%22g%22%3A%22165d10b0-1dc1-773c-c865-b787e381546c%22%2C%22c%22%3A1767970069142%2C%22l%22%3A1768311212097%7D",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802871212,
-        "sameSite": "no_restriction",
-        "domain": ".prezi.com"
-      },
-      {
-        "name": "ab.storage.userId.e030e06b-65da-4234-bd49-26743094b195",
-        "value": "%7B%22g%22%3A%22347956548%22%2C%22c%22%3A1767970069139%2C%22l%22%3A1768311212097%7D",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802871212,
-        "sameSite": "no_restriction",
-        "domain": ".prezi.com"
-      },
-      {
-        "name": "ab.storage.sessionId.e030e06b-65da-4234-bd49-26743094b195",
-        "value": "%7B%22g%22%3A%22e76ff626-047f-ed30-1953-91f40aae9c2f%22%2C%22e%22%3A1768313012100%2C%22c%22%3A1768311212096%2C%22l%22%3A1768311212100%7D",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802871212,
-        "sameSite": "no_restriction",
-        "domain": ".prezi.com"
-      },
-      {
-        "name": "_clsk",
-        "value": "1iohp0q%5E1768311213593%5E1%5E1%5Eb.clarity.ms%2Fcollect",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1768397613,
-        "sameSite": "no_restriction",
-        "domain": ".prezi.com"
-      },
-      {
-        "name": "__hstc",
-        "value": "108475037.b10518306be6cee7fe5d783f8fa292ae.1767970031430.1767970031430.1768311216485.2",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1783863216,
-        "sameSite": "lax",
-        "domain": ".prezi.com"
-      },
-      {
-        "name": "__hssc",
-        "value": "108475037.1.1768311216485",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "lax",
-        "domain": ".prezi.com"
-      },
-      {
-        "name": "__stripe_sid",
-        "value": "488eb7bc-d7b7-48a3-bdc7-e9c77fd51a021510dd",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "strict",
-        "domain": ".prezi.com"
-      },
-      {
-        "name": "ttcsid",
-        "value": "1768311210492::kchDBGlWH6oHkHUfmb6X.2.1768311220512.0",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802007220,
-        "sameSite": "no_restriction",
-        "domain": ".prezi.com"
-      },
-      {
-        "name": "ttcsid_CLB0F4JC77UBB9N4T5R0",
-        "value": "1768311210491::62XcggvMiDq2tUTZSjQW.2.1768311220513.1",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802007220,
-        "sameSite": "no_restriction",
-        "domain": ".prezi.com"
-      }
-    ],
-    "sourceUrl": "https://prezi.com/dashboard/next/"
-  },
-  {
-    "meta": {
-      "id": "prime-video-group-id",
+      "id": "prime-video-1052",
       "name": "Prime Video",
       "icon": "https://groupy.id/assets/images/services/primevideo.png",
       "url": "https://www.primevideo.com/region/eu/",
@@ -39336,7 +37806,7 @@
   },
   {
     "meta": {
-      "id": "quizlet-1057",
+      "id": "quizlet-1053",
       "name": "Quizlet",
       "icon": "https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/szx9duflfycmltpnvcvw",
       "url": "https://quizlet.com/latest",
@@ -39719,7 +38189,7 @@
   },
   {
     "meta": {
-      "id": "rawpixel-1058",
+      "id": "rawpixel-1054",
       "name": "Rawpixel",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq1xJnAZa_h6WueAi4mr73cH3K7_pGeTz6Gw&s",
       "url": "https://www.rawpixel.com/",
@@ -39791,7 +38261,7 @@
   },
   {
     "meta": {
-      "id": "relume-1059",
+      "id": "relume-1055",
       "name": "Relume",
       "icon": "https://yt3.googleusercontent.com/MGRbvVhtCttJ7i2qW3igFxIJSkeoaRln_mIAFAfDgZIFD1yNUQC5mn1a5VqXKzcqRmAuDswu=s900-c-k-c0x00ffffff-no-rj",
       "url": "https://www.relume.io/",
@@ -39943,7 +38413,7 @@
   },
   {
     "meta": {
-      "id": "scholarcy-1039",
+      "id": "scholarcy-1036",
       "name": "Scholarcy",
       "icon": "https://yt3.googleusercontent.com/ytc/AIdro_kqv2zcFC4lZDK0qSXEbuI1Kcs5wYJoLmONwCf9QX3Qoc4=s900-c-k-c0x00ffffff-no-rj",
       "url": "https://library.scholarcy.com/home",
@@ -40055,7 +38525,7 @@
   },
   {
     "meta": {
-      "id": "scite-1060",
+      "id": "scite-1056",
       "name": "Scite",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHo4BcTYbuMiQFR7oUYKZy6zjOgzEORDrzeie96OS1sj3Ur0LpoCPV_ts&s=10",
       "url": "https://gracely011.github.io/hai/manual.html?name=Scite&login=tibpbvgzxw@belajaar.id&password=Groupy2025!ocrtmmtnkn&url=https://scite.ai/assistant",
@@ -40095,7 +38565,7 @@
   },
   {
     "meta": {
-      "id": "scribd-1061",
+      "id": "scribd-1057",
       "name": "Scribd",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRebq-8lrzgXjVWMvUDApp_q1MhiL5eSyO15VAHMuNaE4RbrPi-f7c2NMc&s=10",
       "url": "https://www.scribd.com/home",
@@ -41259,7 +39729,7 @@
   },
   {
     "meta": {
-      "id": "semrush-1062",
+      "id": "semrush-1058",
       "name": "Semrush",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7TPtYsfoyLxuSORs6sqgApBGYHOx1aZ43ra1DqBNb8BRYz4ciWF4Mg9uR&s=10",
       "url": "https://www.semrush.com/home/",
@@ -41676,7 +40146,7 @@
   },
   {
     "meta": {
-      "id": "shots-1063",
+      "id": "shots-1059",
       "name": "Shots",
       "icon": "https://pbs.twimg.com/profile_images/1517996453146378245/RTP0-Jy3_400x400.jpg",
       "url": "https://gracely011.github.io/hai/manual.html?name=Shots&login=shotso@prem1um.xyz&password=Groupy2025!&url=https://shots.so",
@@ -41696,7 +40166,7 @@
   },
   {
     "meta": {
-      "id": "skillshare-1064",
+      "id": "skillshare-1060",
       "name": "Skillshare",
       "icon": "https://groupy.id/assets/images/services/skillshare.png",
       "url": "https://www.skillshare.com/en/home",
@@ -42158,7 +40628,7 @@
   },
   {
     "meta": {
-      "id": "slidesgo-1065",
+      "id": "slidesgo-1061",
       "name": "Slidesgo",
       "icon": "https://cdn-icons-png.flaticon.com/512/14649/14649063.png",
       "url": "https://gracely011.github.io/hai/manual.html?name=Slidesgo&login=gpy&password=NsW3xRmPMv&url=https://slidesgo.com/team/user209226220-team-68879521",
@@ -42212,535 +40682,7 @@
   },
   {
     "meta": {
-      "id": "slideshare-1066",
-      "name": "Slideshare",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFu2smlszvneX1otpsXxgwhKyPha7Boi8VJg&s",
-      "url": "https://www.slideshare.net/",
-      "category": "productivity"
-    },
-    "cookies": [
-      {
-        "name": "_uv_id",
-        "value": "37514474",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1791522493.616227,
-        "sameSite": "lax",
-        "domain": ".slideshare.net"
-      },
-      {
-        "name": "__utma",
-        "value": "186399478.1970691090.1756962454.1756962454.1756972741.2",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1791532748.240692,
-        "sameSite": "lax",
-        "domain": ".slideshare.net"
-      },
-      {
-        "name": "__utmz",
-        "value": "186399478.1756962454.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1772740748,
-        "sameSite": "lax",
-        "domain": ".slideshare.net"
-      },
-      {
-        "name": "_cookie_id",
-        "value": "a855379bf18a16dfb026664e95433580",
-        "path": "/",
-        "httpOnly": true,
-        "secure": true,
-        "sameSite": "no_restriction",
-        "domain": ".slideshare.net"
-      },
-      {
-        "name": "_ga",
-        "value": "GA1.1.1970691090.1756962454",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1791532748.145143,
-        "sameSite": "lax",
-        "domain": ".slideshare.net"
-      },
-      {
-        "name": "_ga_JFMG63W8KJ",
-        "value": "GS2.1.s1756972740$o2$g1$t1756972754$j46$l0$h0",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1791532754.679742,
-        "sameSite": "lax",
-        "domain": ".slideshare.net"
-      },
-      {
-        "name": "_gcl_au",
-        "value": "1.1.407285407.1765879690",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1773655690,
-        "sameSite": "lax",
-        "domain": ".slideshare.net"
-      },
-      {
-        "name": "__utmc",
-        "value": "186399478",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "lax",
-        "domain": ".slideshare.net"
-      },
-      {
-        "name": "__utmv",
-        "value": "186399478.|1=member_type=LOGGEDOUT=1",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1791532748.244498,
-        "sameSite": "lax",
-        "domain": ".slideshare.net"
-      },
-      {
-        "name": "_dd_s",
-        "value": "aid=9d24a74b-c423-412f-bb9e-54c47761b9d8&rum=0&expire=1756973682632&lock=99d1b4b0-d6fb-40d4-b27e-7ae0d3d47fe8--1765879701527",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1797415701,
-        "sameSite": "strict",
-        "domain": ".www.slideshare.net"
-      },
-      {
-        "name": "_fs_sample_user",
-        "value": "false",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1768471689,
-        "sameSite": "lax",
-        "domain": ".www.slideshare.net"
-      },
-      {
-        "name": "browser_id",
-        "value": "9e56fd6e-b3f1-42c7-87b8-5df835a39f55",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1791522456.963395,
-        "sameSite": "no_restriction",
-        "domain": ".slideshare.net"
-      },
-      {
-        "name": "flash",
-        "value": "BAh7BkkiC25vdGljZQY6BkVGMA%3D%3D--b8587ccce3f7c9553ab2422163b5d1964e1909e1",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "no_restriction",
-        "domain": ".www.slideshare.net"
-      },
-      {
-        "name": "logged_in",
-        "value": "Mjg2NDI0NzI0--d5a1fbf00ef911a6c5756b9a23f973e8823beebe",
-        "path": "/",
-        "httpOnly": true,
-        "secure": true,
-        "sameSite": "no_restriction",
-        "domain": ".www.slideshare.net"
-      },
-      {
-        "name": "osano_consentmanager_uuid",
-        "value": "325d44f5-7e87-47b5-b32d-d88a61f7305c",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1799847617.880332,
-        "sameSite": "lax",
-        "domain": ".slideshare.net"
-      },
-      {
-        "name": "sign",
-        "value": "445275774777774b50534a764f797a51455734626975456877526e376e634f664c635133616c6f4c3149374e2f6c2f79587a6b4842315866364f545269623170",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1788508782,
-        "sameSite": "no_restriction",
-        "domain": ".www.slideshare.net"
-      },
-      {
-        "name": "osano_consentmanager",
-        "value": "-B61VtvCVuThcidI2FtPJmWWHSMiWQ5f3SdwrPuVXyojPoPuqeKfc3cN1-ibjJ455sgB7U5ecU7Av5uHNfFJZPK2ry7ojqnE2Y6DZvwYM8OmV9pUeFfmpGpr_Z2IPI-kQzChhxTQhIW52maCsOaGgGsqJ0NDIjElO7tGK4AAsUfPZP07M2HbO3PvrQlN0_LYTAVZInmsTES04RCtg6Ggf2ilA3USIMzaoZ0ry9EOLfWbbUtWf15qtt3x0rBbgvJHNtBJjEgTzHmoSLtR_YTB_UZ0sFwUOQvubzGk7FC_blzpBmUPNrXHZXbfZBduxd6Db0Q-d8nmTtwsEnSckfu-JiNl88dWZbg2Qhheu_7BMcSSXgEIZMnWGCOWFFVWCHAJ5eQjguzCOf91nrH4FkNpiwXdEtbRkSHJFrV__1WkZM_iD4ydgztVNDTeL0itNp7fy9LxM8TMDx6UApC203YoFakitk83eAVz3Kt0juDbRi0hPx9PgVgf2yIgPu0YPvdnuxL3dirFr50u63d84mY-i2CDEjQt5PrOYamz2NjZi36N_quQvHIuUPJJ_jyNsCUiqw76TP7XUG2SRKJzAFhr00AevAD1_UzAzxPpYTgqstuAA79Aud0uKiIZLiMj21cRAAEN0LQmg7IgA-Wyv_5H8Y8eGeVhmIFIFZk9QlU_JxBZe2B6lburvWm384lXCaEkwUMEgbmOsVG5Sb2rsyK6SliVd2WR16Qy7jAPfeiQFlNO16TiA56cWKD2eaie6mvjz0rRaxllx4drcgh9wr9yWgpZ7JySjHDf3WwQa3rP-D8fgtnWFpJR-0nCmdN_KIa9HgQPiSWKhOcc7F-mXy3s9u0-2wZCIiZpUtGsNZjipKyem0YVNtkdVM8en3AVEPxLiScUsAssynQFpT73JliaQyIQBhClg4p-Qohqp_xx1Ytqv8nqjLF1bZ8CiVhVEgCdE1-LPBW9142NVUSYvC3rYzJtNA2WolS7zIprD1RG8cv3_0oUzfXdUBnxKL44bP_j",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1799847617.880588,
-        "sameSite": "lax",
-        "domain": ".slideshare.net"
-      },
-      {
-        "name": "_dd_s",
-        "value": "aid=9d24a74b-c423-412f-bb9e-54c47761b9d8&rum=0&expire=1756973682632&lock=04bcafb5-387a-4c84-b558-ed277b826585--1768311983686",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1799847983,
-        "sameSite": "strict",
-        "domain": "www.slideshare.net"
-      }
-    ],
-    "sourceUrl": "https://www.slideshare.net/"
-  },
-  {
-    "meta": {
-      "id": "sololearn-1067",
-      "name": "Sololearn",
-      "icon": "https://play-lh.googleusercontent.com/zxbe_H6JVg6ZnIeA1xorxxXr416kKdShmyonBzi5Qe28-GNdczX-NST_ul0AQJ007OA",
-      "url": "https://gracely011.github.io/hai/manual.html?name=Sololearn&login=sololearn@belajaar.id&password=WeAreGroupy2025!&url=https://www.sololearn.com/en/users/login",
-      "category": "education"
-    },
-    "cookies": [
-      {
-        "name": "dummy",
-        "value": "5",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "domain": "sololearn.com"
-      }
-    ],
-    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Sololearn&login=sololearn@belajaar.id&password=WeAreGroupy2025!&url=https://www.sololearn.com/en/users/login"
-  },
-  {
-    "meta": {
-      "id": "speechify-1004",
-      "name": "Speechify",
-      "icon": "https://play-lh.googleusercontent.com/W0GcGHbSPEA2VBf8CM-SoRG9yYS2RwxgPM9Q25MmhmU6YzJ2t8lHIAnejL0nL9LvYwMx",
-      "url": "https://app.speechify.com/",
-      "category": "productivity"
-    },
-    "cookies": [
-      {
-        "name": "ttcsid_CBOJNQRC77U1OJP16JHG",
-        "value": "1767511862396::cXsz_Z9wh6Jqm2iEevn1.1.1767511866974.1",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1801207866,
-        "sameSite": "no_restriction",
-        "domain": ".speechify.com"
-      },
-      {
-        "name": "_ttp",
-        "value": "01KE3YNB3V9D3S32RF9NVCJQDC_.tt.1",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1801207862,
-        "sameSite": "no_restriction",
-        "domain": ".speechify.com"
-      },
-      {
-        "name": "ttcsid",
-        "value": "1767511862396::BWe8j1S-4sX-tdKWkUTg.1.1767511866974.0",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1801207866,
-        "sameSite": "no_restriction",
-        "domain": ".speechify.com"
-      },
-      {
-        "name": "FPAU",
-        "value": "1.1.706772991.1767511862",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1775287862.278579,
-        "sameSite": "no_restriction",
-        "domain": ".speechify.com"
-      },
-      {
-        "name": "webapp_i18nextLng",
-        "value": "en",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802871692.68001,
-        "sameSite": "no_restriction",
-        "domain": ".speechify.com"
-      },
-      {
-        "name": "_axidd",
-        "value": "true",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1799047860,
-        "sameSite": "no_restriction",
-        "domain": ".speechify.com"
-      },
-      {
-        "name": "__stripe_mid",
-        "value": "517690cf-e855-41f2-a6af-046eb49302e959e68f",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1799847693,
-        "sameSite": "strict",
-        "domain": ".app.speechify.com"
-      },
-      {
-        "name": "_axwrt",
-        "value": "fc7f287c-57e9-4d89-be0c-5a5f30665990",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1799047860,
-        "sameSite": "no_restriction",
-        "domain": ".speechify.com"
-      },
-      {
-        "name": "_fbp",
-        "value": "fb.1.1767511860756.8297667440420378",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1775287869,
-        "sameSite": "lax",
-        "domain": ".speechify.com"
-      },
-      {
-        "name": "_ga",
-        "value": "GA1.1.1018837232.1767511862",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802071861.93725,
-        "sameSite": "no_restriction",
-        "domain": ".speechify.com"
-      },
-      {
-        "name": "_ga_CLJ25NX3T8",
-        "value": "GS2.1.s1767511861$o1$g1$t1767511861$j60$l0$h630555924",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802071861.962305,
-        "sameSite": "no_restriction",
-        "domain": ".speechify.com"
-      },
-      {
-        "name": "_ga_R78Q712T8R",
-        "value": "GS2.1.s1767511861$o1$g1$t1767511861$j60$l0$h1397252796",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802071861.959551,
-        "sameSite": "no_restriction",
-        "domain": ".speechify.com"
-      },
-      {
-        "name": "_gcl_au",
-        "value": "1.1.706772991.1767511862",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1775287862,
-        "sameSite": "no_restriction",
-        "domain": ".speechify.com"
-      },
-      {
-        "name": "_tt_enable_cookie",
-        "value": "1",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1801207862,
-        "sameSite": "no_restriction",
-        "domain": ".speechify.com"
-      },
-      {
-        "name": "ajs_anonymous_id",
-        "value": "3fb1b02f-d80c-49cb-938c-d4859dad9bdf",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1799847693,
-        "sameSite": "lax",
-        "domain": ".speechify.com"
-      },
-      {
-        "name": "ajs_user_id",
-        "value": "p56kDUCRgCbiyyhcZWmpldeagTE3",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1799847693,
-        "sameSite": "lax",
-        "domain": ".speechify.com"
-      },
-      {
-        "name": "ax_visitor",
-        "value": "%7B%22firstVisitTs%22%3A1767511860629%2C%22lastVisitTs%22%3Anull%2C%22currentVisitStartTs%22%3A1767511860629%2C%22ts%22%3A1767511872038%2C%22visitCount%22%3A1%7D",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1799047872,
-        "sameSite": "no_restriction",
-        "domain": ".speechify.com"
-      },
-      {
-        "name": "intercom-device-id-fix72gk8",
-        "value": "c2c61f6c-0773-4f77-8a2e-1a20c251d9fb",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1791641937,
-        "sameSite": "lax",
-        "domain": ".speechify.com"
-      },
-      {
-        "name": "sign",
-        "value": "445275774777774b50534a764f797a5145573462696e686b65675a706d5767596e4e4856415148764654536a4679377465755469634175626e597750624b3967",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1799047883,
-        "sameSite": "no_restriction",
-        "domain": ".speechify.com"
-      },
-      {
-        "name": "_clck",
-        "value": "8763pl%5E2%5Eg2o%5E0%5E2195",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1799847687,
-        "sameSite": "no_restriction",
-        "domain": ".speechify.com"
-      },
-      {
-        "name": "_hjSessionUser_3321475",
-        "value": "eyJpZCI6ImU5Njc4NDc4LTFiNDEtNTUwMS1iYTJmLTdhNTZhNmJmYTE0OCIsImNyZWF0ZWQiOjE3Njc1MTE4NzI1NDEsImV4aXN0aW5nIjp0cnVlfQ==",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1799847687,
-        "sameSite": "no_restriction",
-        "domain": ".speechify.com"
-      },
-      {
-        "name": "_hjSession_3321475",
-        "value": "eyJpZCI6ImNhYjQ3MmFhLTljZjMtNGQ4MC1hN2EzLTM4NjZmODYxMGNjZSIsImMiOjE3NjgzMTE2ODc0NDgsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjowfQ==",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "no_restriction",
-        "domain": ".speechify.com"
-      },
-      {
-        "name": "_clsk",
-        "value": "1qxa80a%5E1768311688512%5E1%5E0%5Eb.clarity.ms%2Fcollect",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1768398088,
-        "sameSite": "no_restriction",
-        "domain": ".speechify.com"
-      },
-      {
-        "name": "analytics_session_id",
-        "value": "1768311688721",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1799847693,
-        "sameSite": "lax",
-        "domain": ".speechify.com"
-      },
-      {
-        "name": "intercom-id-fix72gk8",
-        "value": "76c5fee0-661a-444d-b10f-4cc03cb6e077",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1791641690,
-        "sameSite": "lax",
-        "domain": ".speechify.com"
-      },
-      {
-        "name": "analytics_session_id.last_access",
-        "value": "1768311693242",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1799847693,
-        "sameSite": "lax",
-        "domain": ".speechify.com"
-      },
-      {
-        "name": "__stripe_sid",
-        "value": "7dc93ac3-1b20-4a26-bfc4-7e584f98f0d68c9149",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "strict",
-        "domain": ".app.speechify.com"
-      },
-      {
-        "name": "intercom-session-fix72gk8",
-        "value": "Q3pCSDFrNHAyMWJrdGdhcWZKSzBMKzM4YStCMzhVUzFCbnFBNFYxMlU2VmxpN3JDc0owdTJMWW5CM1JTcjI3UmNMVXNaZDN3a2dBQnV2a2NpNFF3ZDdwZ0tyU1Bwalc3YVFHTTY2RWRMNkE9LS1WbDdEM2gzZEI0bGJVa3ZzanFaVlZBPT0=--84c145a97219ac603ac8d68b9b737703959f1da9",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1768916724,
-        "sameSite": "lax",
-        "domain": ".speechify.com"
-      },
-      {
-        "name": "session",
-        "value": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjB1a2x0QSJ9.eyJpc3MiOiJodHRwczovL3Nlc3Npb24uZmlyZWJhc2UuZ29vZ2xlLmNvbS9zcGVlY2hpZnltb2JpbGUiLCJuYW1lIjoiR3JvdXB5IFBybyIsInBpY3R1cmUiOiJodHRwczovL3N0b3JhZ2UuZ29vZ2xlYXBpcy5jb20vc3BlZWNoaWZ5bW9iaWxlLmFwcHNwb3QuY29tL3dlYi91c2VySW1hZ2VzL3A1NmtEVUNSZ0NiaXl5aGNaV21wbGRlYWdURTMvYXZhdGFyXzE3NTM1NDIwODkwNDkucG5nIiwiYXVkIjoic3BlZWNoaWZ5bW9iaWxlIiwiYXV0aF90aW1lIjoxNzY4MzExNjc1LCJ1c2VyX2lkIjoicDU2a0RVQ1JnQ2JpeXloY1pXbXBsZGVhZ1RFMyIsInN1YiI6InA1NmtEVUNSZ0NiaXl5aGNaV21wbGRlYWdURTMiLCJpYXQiOjE3NjgzMTE5NjcsImV4cCI6MTc2OTUyMTU2NywiZW1haWwiOiJzcGVlQGJlbGFqYWFyLmlkIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7ImVtYWlsIjpbInNwZWVAYmVsYWphYXIuaWQiXX0sInNpZ25faW5fcHJvdmlkZXIiOiJjdXN0b20ifX0.cRKLn6elRGrKz0To_LXOVdlKXGG1L7T23EHUuPmfA8-jDCfu-1x5ALx4FGR6-Bsq_lXzc6DXtQk3r84EJtIEG9yUOgNmZVKp7mjDlocxxNgcq_m9DCMMzyhKAUGh5y-CMYBDorKqBK9CKvx1mletjiEVdmtJngippGeE8d0CXp624WhMmIoDSO9seCWtKeYcCBGSrW4xbkXqfkz1Yax7dizd43Y8lmoUuC0_VbSVr_FN6Y6sT-_J0UFpKjRvO32Zf01hKw3ecchKFkxCM6VHSC4-5LKyYzHUX_9vlHtC9fvE9IZIQU2V5INv2n6D1sm02_f3Bh4BiIcZyHWwNJzCmA",
-        "path": "/",
-        "httpOnly": true,
-        "secure": true,
-        "expirationDate": 1769521580.768809,
-        "sameSite": "no_restriction",
-        "domain": ".speechify.com"
-      }
-    ],
-    "sourceUrl": "https://app.speechify.com/"
-  },
-  {
-    "meta": {
-      "id": "storytribe-1068",
-      "name": "StoryTribe",
-      "icon": "https://media.licdn.com/dms/image/v2/D560BAQGFNn9uuWNKvA/company-logo_200_200/B56ZWE4DUHGUAU-/0/1741691041788/storytribeapp_logo?e=2147483647&v=beta&t=3qm4zJ4TSorw5yxfeP9WtXnDj_DKgiqhVZeGH42wT7g",
-      "url": "https://gracely011.github.io/hai/manual.html?name=StoryTribe&login=beapp@prem1um.xyz&password=StoryTribeGroupy2025!&url=https://storytribeapp.com/login-signup",
-      "category": "productivity"
-    },
-    "cookies": [
-      {
-        "name": "dummy",
-        "value": "5",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "domain": "storytribe.app"
-      }
-    ],
-    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=StoryTribe&login=beapp@prem1um.xyz&password=StoryTribeGroupy2025!&url=https://storytribeapp.com/login-signup"
-  },
-  {
-    "meta": {
-      "id": "studocu-1069",
+      "id": "studocu-1062",
       "name": "Studocu",
       "icon": "https://play-lh.googleusercontent.com/20ssDWF3SWEXIFYy8iFwXjomuIqtuHjGc3OxIWqVojIaeo_9_XxUZEDdmm5YPreLucij",
       "url": "https://www.studocu.com/en-us/home",
@@ -43073,7 +41015,7 @@
   },
   {
     "meta": {
-      "id": "svgator-1005",
+      "id": "svgator-1006",
       "name": "SVGator",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXMLBuRJYssEV7zT3Lh8qRl-h2zuHgyEz2HA&s",
       "url": "https://app.svgator.com/",
@@ -43222,213 +41164,7 @@
   },
   {
     "meta": {
-      "id": "symbolab-1070",
-      "name": "Symbolab",
-      "icon": "https://play-lh.googleusercontent.com/DKlax_iJQtJOKJlIPDSS7DZpbm9gCkHh3vWgrj8BOMRwDPDVKXdTQf9sV4cRuXSdRA",
-      "url": "https://www.symbolab.com/",
-      "category": "education"
-    },
-    "cookies": [
-      {
-        "name": "sy2.platform",
-        "value": "web",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "no_restriction",
-        "domain": ".symbolab.com"
-      },
-      {
-        "name": "__stripe_mid",
-        "value": "ffc88460-e6b4-4052-834c-abc2b0f523f0ea1a91",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1798859492,
-        "sameSite": "strict",
-        "domain": ".www.symbolab.com"
-      },
-      {
-        "name": "sy2.lang",
-        "value": "en",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "no_restriction",
-        "domain": ".symbolab.com"
-      },
-      {
-        "name": "PLAY_SESSION",
-        "value": "cb94ae8cc093b5a8acf4d4419be57efad1b8ee01-___ID=50962f96-effb-497f-a02f-5c6fa6993c1c",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "no_restriction",
-        "domain": ".symbolab.com"
-      },
-      {
-        "name": "sy2.variation",
-        "value": "9",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1775099471.601964,
-        "sameSite": "no_restriction",
-        "domain": ".symbolab.com"
-      },
-      {
-        "name": "g_state",
-        "value": "{\"i_l\":0,\"i_ll\":1767323493081,\"i_b\":\"+KafXEpaoOCo+3xHB1lrJZIsh0jdrGTwSVoChqbG2S8\",\"i_e\":{\"enable_itp_optimization\":0}}",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1782875493,
-        "sameSite": "no_restriction",
-        "domain": ".www.symbolab.com"
-      },
-      {
-        "name": "sy2.ampId",
-        "value": "8492d9fb-a940-4209-8d1e-b7acce574f71",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1801883471.916542,
-        "sameSite": "no_restriction",
-        "domain": ".symbolab.com"
-      },
-      {
-        "name": "_ga",
-        "value": "GA1.1.1246995747.1767323472",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802871737.606993,
-        "sameSite": "no_restriction",
-        "domain": ".symbolab.com"
-      },
-      {
-        "name": "OptanonAlertBoxClosed",
-        "value": "2026-01-02T03:11:14.367Z",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1782875474,
-        "sameSite": "lax",
-        "domain": ".symbolab.com"
-      },
-      {
-        "name": "PLAY_LANG",
-        "value": "en",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "no_restriction",
-        "domain": ".symbolab.com"
-      },
-      {
-        "name": "sy2.lang_preference",
-        "value": "en",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1799847737.523636,
-        "sameSite": "no_restriction",
-        "domain": ".symbolab.com"
-      },
-      {
-        "name": "sy2.token",
-        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3d3dy5zeW1ib2xhYi5jb20iLCJ1ZGlkIjoiNTQzODFiN2ItMWFmYi00MGJmLWFjZmUtODgwZjE1ZjlkNzNkIiwiZXhwIjoxNzcwMDAxODg4fQ.ZxQfi9y5UPnug_WlPtNZfznjFtM2fxev9-6hNoe2MBY",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1798859490.419359,
-        "sameSite": "no_restriction",
-        "domain": ".symbolab.com"
-      },
-      {
-        "name": "symbolab_terms_state",
-        "value": "accepted",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1770001875,
-        "sameSite": "no_restriction",
-        "domain": ".symbolab.com"
-      },
-      {
-        "name": "sign",
-        "value": "445275774777774b50534a764f797a5145573462696f5076776e6562504959576949596736495730614750596c514d333342496a443732622b70756d3061484c",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "no_restriction",
-        "domain": ".symbolab.com"
-      },
-      {
-        "name": "__cf_bm",
-        "value": "0AP92w.o8dQobNBWqpP9.Sc.CcB6pgq_LRTyqzG1G30-1768311721-1.0.1.1-jbd4TWA13adqhkKUMu.y55_zdHitpS7Q6vEEM6ZU5ZvGfsN2QMm4EWQyXiQk42YOWA.swa1jSxMx6vyTN.UsMD5JZ8hruSMqkyz67kesgA4",
-        "path": "/",
-        "httpOnly": true,
-        "secure": true,
-        "sameSite": "no_restriction",
-        "domain": ".symbolab.com"
-      },
-      {
-        "name": "g_state",
-        "value": "{\"i_l\":0,\"i_ll\":1768311737068,\"i_b\":\"K11VMqsj2hLVNXKvnSr3bsDwOTJQikUFXwzt7TuXGLY\",\"i_e\":{\"enable_itp_optimization\":0}}",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1783863737,
-        "sameSite": "no_restriction",
-        "domain": "www.symbolab.com"
-      },
-      {
-        "name": "OptanonConsent",
-        "value": "isGpcEnabled=0&datestamp=Tue+Jan+13+2026+20%3A42%3A17+GMT%2B0700+(Indochina+Time)&version=202312.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&landingPath=NotLandingPage&groups=C0004%3A1%2CC0001%3A1%2CC0003%3A1%2CC0002%3A1&geolocation=ID%3BJI&AwaitingReconsent=false",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1783863737,
-        "sameSite": "lax",
-        "domain": ".symbolab.com"
-      },
-      {
-        "name": "_ga_X78WH5ZJPD",
-        "value": "GS2.1.s1768311737$o2$g1$t1768311737$j60$l0$h0",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1802871737.613238,
-        "sameSite": "no_restriction",
-        "domain": ".symbolab.com"
-      }
-    ],
-    "sourceUrl": "https://www.symbolab.com/"
-  },
-  {
-    "meta": {
-      "id": "the-wall-street-journal-1079",
-      "name": "The Wall Street Journal",
-      "icon": "https://play-lh.googleusercontent.com/eksxaPfxbTVb6VTl5aj1sXLpKc_N9Z6AZ3_5Oq6JhTXmgEQza-1v58a66p_ID0phE2Zv",
-      "url": "https://gracely011.github.io/hai/manual.html?name=The%20Wall%20Street%20Journal&login=wsj@killua.cloud&password=TheWallStreetJournalGroupy2025!!!&url=https://www.wsj.com/",
-      "category": "productivity"
-    },
-    "cookies": [
-      {
-        "name": "dummy",
-        "value": "5",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "domain": "wsj.com"
-      }
-    ],
-    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=The%20Wall%20Street%20Journal&login=wsj@killua.cloud&password=TheWallStreetJournalGroupy2025!!!&url=https://www.wsj.com/"
-  },
-  {
-    "meta": {
-      "id": "turnitin-1071",
+      "id": "turnitin-1063",
       "name": "Turnitin",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIrf73LGu_mACI2Mc_jdghOV02eXRocoXKo0o3qZHFjGgJMUr5M_v8uwap&s=10",
       "url": "https://gracely011.github.io/hai/manual.html?name=Turnitin&login=halo@belajaar.id&password=TurnitinmilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us",
@@ -43496,7 +41232,7 @@
   },
   {
     "meta": {
-      "id": "udemy-1073",
+      "id": "udemy-1065",
       "name": "Udemy",
       "icon": "https://play-lh.googleusercontent.com/dsCkmJE2Fa8IjyXERAcwc5YeQ8_NvbZ4_OI8LgqyjILpXUfS5YhEcnAMajKPrZI-og",
       "url": "https://www.udemy.com/personal/home/",
@@ -44794,7 +42530,7 @@
   },
   {
     "meta": {
-      "id": "vectorizer-ai-1074",
+      "id": "vectorizer-ai-1066",
       "name": "Vectorizer AI",
       "icon": "https://cdn.prod.website-files.com/648e04d4bbae7004f1b35f15/65de13535268a099387a6f60_vectorizer-ai-icon.png",
       "url": "https://vectorizer.ai/",
@@ -44846,10 +42582,10 @@
   },
   {
     "meta": {
-      "id": "virtual-threads-1075",
-      "name": "Virtual Threads",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_zqaiVJeMxFHsHmHsk8ViZdV3v-nd11cpPw&s",
-      "url": "https://gracely011.github.io/hai/manual.html?name=Virtual%20Threads&login=step1@belajaar.id&password=WeAreGroupy2025!&url=https://www.virtualthreads.io/login",
+      "id": "vidiq-1007",
+      "name": "vidIQ",
+      "icon": "https://cdn.sanity.io/images/7g6d2cj1/production/7c8f9a95d01c8c4043af4f3c39940ba3870bb1a9-512x512.png?w=1200&q=70&auto=format",
+      "url": "https://gracely011.github.io/hai/manual.html?name=vidIQ&login=vidiq@prem1um.xyz&password=vidIQGroupy2026!&url=https://app.vidiq.com/auth/login",
       "category": "productivity"
     },
     "cookies": [
@@ -44859,14 +42595,14 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "domain": "virtual-threads.com"
+        "domain": "vidiq.com"
       }
     ],
-    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Virtual%20Threads&login=step1@belajaar.id&password=WeAreGroupy2025!&url=https://www.virtualthreads.io/login"
+    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=vidIQ&login=vidiq@prem1um.xyz&password=vidIQGroupy2026!&url=https://app.vidiq.com/auth/login"
   },
   {
     "meta": {
-      "id": "viu-1076",
+      "id": "viu-1067",
       "name": "Viu",
       "icon": "https://groupy.id/assets/images/services/viu.png",
       "url": "https://gracely011.github.io/hai/manual.html?name=Viu&login=wardi0381@movieisme.com&password=premiumisme123&url=https://viu.com",
@@ -45018,7 +42754,7 @@
   },
   {
     "meta": {
-      "id": "wetv-group-id",
+      "id": "wetv-1068",
       "name": "WeTV",
       "icon": "https://groupy.id/assets/images/services/wetv.png",
       "url": "https://wetv.vip/id/profile?tab=profile",
@@ -46120,7 +43856,7 @@
   },
   {
     "meta": {
-      "id": "wolframalpha-1077",
+      "id": "wolframalpha-1069",
       "name": "WolframAlpha",
       "icon": "https://play-lh.googleusercontent.com/OceHg5bH7EsTRwl-lD7jjV9WM0mpj0oH4YfA-CSbjvfa7NCLQBu5-4cLwNlDvCUp5Q4",
       "url": "https://www.wolframalpha.com/",
@@ -46153,7 +43889,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1768315528,
         "sameSite": "lax",
         "domain": ".wolframalpha.com"
       },
@@ -46172,547 +43907,7 @@
   },
   {
     "meta": {
-      "id": "writehuman-1078",
-      "name": "WriteHuman",
-      "icon": "https://earlyshark.com/wp-content/uploads/2024/01/writehuman-logo-1024x1024.png",
-      "url": "https://writehuman.ai/ai-detector",
-      "category": "utilities",
-      "isGroup": true
-    },
-    "accounts": [
-      {
-        "name": "WriteHuman 1",
-        "cookies": [
-          {
-            "name": "rephrasegpt_u1main",
-            "value": "1756862182062x788236730823398400",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "_ScCbts",
-            "value": "%5B%5D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1768913801,
-            "sameSite": "no_restriction",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "_gcl_au",
-            "value": "1.1.1594785720.1768309002",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1776085002,
-            "sameSite": "no_restriction",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "_ttp",
-            "value": "01KEVPW26T5J7NNR612P1FSCFH_.tt.1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1802007855,
-            "sameSite": "no_restriction",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "_tt_enable_cookie",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1802007855,
-            "sameSite": "no_restriction",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "rephrasegpt_live_u2main",
-            "value": "bus|1756862182062x788236730823398400|1768309025521x891245853039637000",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1799845026,
-            "sameSite": "no_restriction",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "cookieyes-consent",
-            "value": "consentid:bjk1UzIxVHcyUzlpZGtTNjZndHdpd1NYOUVscUVQWkM,consent:yes,action:no,necessary:yes,functional:yes,analytics:yes,performance:yes,advertisement:yes,other:yes",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1799845001,
-            "sameSite": "no_restriction",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "rephrasegpt_live_u2main.sig",
-            "value": "z6dgQ0lSy9IffC_b4c2uGwsJ02w",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1799845026,
-            "sameSite": "no_restriction",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "_fbp",
-            "value": "fb.1.1768309000238.469912979795915371",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1776087854,
-            "sameSite": "no_restriction",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "_clck",
-            "value": "ob7tz0%5E2%5Eg2o%5E0%5E2204",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1799845004,
-            "sameSite": "no_restriction",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "_sctr",
-            "value": "1%7C1768237200000",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1802523403,
-            "sameSite": "no_restriction",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "_ga",
-            "value": "GA1.1.283315598.1768309002",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1802871855.37461,
-            "sameSite": "no_restriction",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "_scid",
-            "value": "3AaZEOate9VESrRpDxpr3dMbVZOqSca0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1802523400,
-            "sameSite": "no_restriction",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "sign",
-            "value": "445275774777774b50534a764f797a51455734626976783966417547726942366a506934346262704b38626d386f7069314175366667342b6a32703062485366",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1802869001,
-            "sameSite": "no_restriction",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "ph_phc_O57PP1LKNHTMzhyI2jSS29lJh8XdmX0NNPiWQfg6bQ3_posthog",
-            "value": "%7B%22%24device_id%22%3A%22019bb76e-075a-7a62-a8f5-ce005929bc1d%22%2C%22distinct_id%22%3A%220195a0f4-5a7a-7102-a2f5-b869b8c283e0%22%2C%22%24sesid%22%3A%5B1768311854048%2C%22019bb799-93e3-75bd-a89b-70faf790cbcc%22%2C1768311854048%5D%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22%24direct%22%2C%22u%22%3A%22https%3A%2F%2Fwritehuman.ai%2F%22%7D%7D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1799847858,
-            "sameSite": "lax",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "_rdt_uuid",
-            "value": "1768309000071.c5239bc3-e50f-457a-a565-6acb4ecee569",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1776087854,
-            "sameSite": "strict",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "_scid_r",
-            "value": "5YaZEOate9VESrRpDxpr3dMbVZOqSca0ygJ4HA",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1802526255,
-            "sameSite": "lax",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "_ga_ED3YRLQSNQ",
-            "value": "GS2.1.s1768311855$o2$g0$t1768311855$j60$l0$h0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1802871855.374247,
-            "sameSite": "no_restriction",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "_uetsid",
-            "value": "4db0d320f07f11f091e157d0820327e8",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1768398255,
-            "sameSite": "no_restriction",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "_uetvid",
-            "value": "4db0ec50f07f11f0b5b14331b18fb56e",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1802007855,
-            "sameSite": "no_restriction",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "cookieyes-consent",
-            "value": "consentid:bjk1UzIxVHcyUzlpZGtTNjZndHdpd1NYOUVscUVQWkM,consent:yes,action:no,necessary:yes,functional:yes,analytics:yes,performance:yes,advertisement:yes,other:yes",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1799847857,
-            "sameSite": "strict",
-            "domain": "writehuman.ai"
-          },
-          {
-            "name": "_clsk",
-            "value": "14prs4g%5E1768311862604%5E1%5E1%5Eb.clarity.ms%2Fcollect",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1768398262,
-            "sameSite": "no_restriction",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "__stripe_mid",
-            "value": "03a5683e-3fb0-47ee-bb85-d4e05ba2eb0740783f",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1799847862,
-            "sameSite": "strict",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "__stripe_sid",
-            "value": "77101690-167c-4fd9-aa51-b02ce7f10effab5724",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "strict",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "ttcsid",
-            "value": "1768311855462::-CpVlhjkR0TDKf61x-oo.2.1768311960268.0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1802007960,
-            "sameSite": "no_restriction",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "ttcsid_D0ME71BC77UCAFR1F0SG",
-            "value": "1768311855462::2mqJ8ZgJt3glDJo8pFzr.2.1768311960268.1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1802007960,
-            "sameSite": "no_restriction",
-            "domain": ".writehuman.ai"
-          }
-        ],
-        "sourceUrl": "https://writehuman.ai/ai-detector"
-      },
-      {
-        "name": "WriteHuman 2",
-        "cookies": [
-          {
-            "name": "rephrasegpt_u1main",
-            "value": "1756862182062x788236730823398400",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "_ScCbts",
-            "value": "%5B%5D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1768913801,
-            "sameSite": "no_restriction",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "_gcl_au",
-            "value": "1.1.1594785720.1768309002",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1776085002,
-            "sameSite": "no_restriction",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "_ttp",
-            "value": "01KEVPW26T5J7NNR612P1FSCFH_.tt.1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1802007855,
-            "sameSite": "no_restriction",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "_tt_enable_cookie",
-            "value": "1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1802007855,
-            "sameSite": "no_restriction",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "rephrasegpt_live_u2main",
-            "value": "bus|1756862182062x788236730823398400|1768309025521x891245853039637000",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1799845026,
-            "sameSite": "no_restriction",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "cookieyes-consent",
-            "value": "consentid:bjk1UzIxVHcyUzlpZGtTNjZndHdpd1NYOUVscUVQWkM,consent:yes,action:no,necessary:yes,functional:yes,analytics:yes,performance:yes,advertisement:yes,other:yes",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1799845001,
-            "sameSite": "no_restriction",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "rephrasegpt_live_u2main.sig",
-            "value": "z6dgQ0lSy9IffC_b4c2uGwsJ02w",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1799845026,
-            "sameSite": "no_restriction",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "_fbp",
-            "value": "fb.1.1768309000238.469912979795915371",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1776087854,
-            "sameSite": "no_restriction",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "_clck",
-            "value": "ob7tz0%5E2%5Eg2o%5E0%5E2204",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1799845004,
-            "sameSite": "no_restriction",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "_sctr",
-            "value": "1%7C1768237200000",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1802523403,
-            "sameSite": "no_restriction",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "_ga",
-            "value": "GA1.1.283315598.1768309002",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1802871855.37461,
-            "sameSite": "no_restriction",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "_scid",
-            "value": "3AaZEOate9VESrRpDxpr3dMbVZOqSca0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1802523400,
-            "sameSite": "no_restriction",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "sign",
-            "value": "445275774777774b50534a764f797a51455734626976783966417547726942366a506934346262704b38626d386f7069314175366667342b6a32703062485366",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1802869001,
-            "sameSite": "no_restriction",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "ph_phc_O57PP1LKNHTMzhyI2jSS29lJh8XdmX0NNPiWQfg6bQ3_posthog",
-            "value": "%7B%22%24device_id%22%3A%22019bb76e-075a-7a62-a8f5-ce005929bc1d%22%2C%22distinct_id%22%3A%220195a0f4-5a7a-7102-a2f5-b869b8c283e0%22%2C%22%24sesid%22%3A%5B1768311854048%2C%22019bb799-93e3-75bd-a89b-70faf790cbcc%22%2C1768311854048%5D%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22%24direct%22%2C%22u%22%3A%22https%3A%2F%2Fwritehuman.ai%2F%22%7D%7D",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1799847858,
-            "sameSite": "lax",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "_rdt_uuid",
-            "value": "1768309000071.c5239bc3-e50f-457a-a565-6acb4ecee569",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1776087854,
-            "sameSite": "strict",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "_scid_r",
-            "value": "5YaZEOate9VESrRpDxpr3dMbVZOqSca0ygJ4HA",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1802526255,
-            "sameSite": "lax",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "_ga_ED3YRLQSNQ",
-            "value": "GS2.1.s1768311855$o2$g0$t1768311855$j60$l0$h0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1802871855.374247,
-            "sameSite": "no_restriction",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "_uetsid",
-            "value": "4db0d320f07f11f091e157d0820327e8",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1768398255,
-            "sameSite": "no_restriction",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "_uetvid",
-            "value": "4db0ec50f07f11f0b5b14331b18fb56e",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1802007855,
-            "sameSite": "no_restriction",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "cookieyes-consent",
-            "value": "consentid:bjk1UzIxVHcyUzlpZGtTNjZndHdpd1NYOUVscUVQWkM,consent:yes,action:no,necessary:yes,functional:yes,analytics:yes,performance:yes,advertisement:yes,other:yes",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1799847857,
-            "sameSite": "strict",
-            "domain": "writehuman.ai"
-          },
-          {
-            "name": "_clsk",
-            "value": "14prs4g%5E1768311862604%5E1%5E1%5Eb.clarity.ms%2Fcollect",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1768398262,
-            "sameSite": "no_restriction",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "__stripe_mid",
-            "value": "03a5683e-3fb0-47ee-bb85-d4e05ba2eb0740783f",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1799847862,
-            "sameSite": "strict",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "__stripe_sid",
-            "value": "77101690-167c-4fd9-aa51-b02ce7f10effab5724",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "strict",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "ttcsid",
-            "value": "1768311855462::-CpVlhjkR0TDKf61x-oo.2.1768311865477.0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1802007865,
-            "sameSite": "no_restriction",
-            "domain": ".writehuman.ai"
-          },
-          {
-            "name": "ttcsid_D0ME71BC77UCAFR1F0SG",
-            "value": "1768311855462::2mqJ8ZgJt3glDJo8pFzr.2.1768311865481.1",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1802007865,
-            "sameSite": "no_restriction",
-            "domain": ".writehuman.ai"
-          }
-        ],
-        "sourceUrl": "https://writehuman.ai/ai-detector"
-      }
-    ]
-  },
-  {
-    "meta": {
-      "id": "youtube-noads-1080",
+      "id": "youtube-noads-1070",
       "name": "YouTube NoAds",
       "icon": "https://play-lh.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc",
       "url": "https://gracely011.github.io/hai/youtube-noads.html",
