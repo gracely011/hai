@@ -252,7 +252,7 @@
   },
   {
     "meta": {
-      "id": "apple-music-1043",
+      "id": "apple-music-1058",
       "name": "Apple Music",
       "icon": "https://play-lh.googleusercontent.com/mOkjjo5Rzcpk7BsHrsLWnqVadUK1FlLd2-UlQvYkLL4E9A0LpyODNIQinXPfUMjUrbE",
       "url": "https://music.apple.com/ca/home",
@@ -627,7 +627,7 @@
   },
   {
     "meta": {
-      "id": "apple-tv--1064",
+      "id": "apple-tv--1083",
       "name": "Apple TV+",
       "icon": "https://play-lh.googleusercontent.com/1XBAZjSOWaVM7UDFKvzuMR-WRoR5gCnsYrw17_ihHLcJKT9Qc7hXptHwWQ3Bf83mry4",
       "url": "https://tv.apple.com/ca",
@@ -1219,7 +1219,7 @@
   },
   {
     "meta": {
-      "id": "askyourpdf-1008",
+      "id": "askyourpdf-1010",
       "name": "AskYourPDF",
       "icon": "https://play-lh.googleusercontent.com/WRl_6Jv1ljYKf3xiy27h3xx-ST7Kntg3mon8J53OBpjdm35jG2Mw80GZ2Qrhlau-YqI7=w240-h480-rw",
       "url": "https://askyourpdf.com/conversations",
@@ -1371,7 +1371,7 @@
   },
   {
     "meta": {
-      "id": "bein-sports-1015",
+      "id": "bein-sports-1018",
       "name": "Bein Sports",
       "icon": "https://play-lh.googleusercontent.com/jBDZq3aBmCXuvtuJHEasqsdYPRxMBGzYmEha4dMlgoIk19Zlh6BGQC08Zt6Ifrmzhg=w240-h480-rw",
       "url": "https://connect-id.beinsports.com/id",
@@ -2603,7 +2603,7 @@
   },
   {
     "meta": {
-      "id": "brain-fm-1045",
+      "id": "brain-fm-1060",
       "name": "Brain.fm",
       "icon": "https://play-lh.googleusercontent.com/oQnd9u11H7j1g99Pzswt5LTm52g8XyMrgz0GRBX5lmzdPv2Vt7bBrOKgbVbs-gHc504=w240-h480-rw",
       "url": "https://my.brain.fm/",
@@ -2839,7 +2839,7 @@
   },
   {
     "meta": {
-      "id": "brilliant-1010",
+      "id": "brilliant-1012",
       "name": "Brilliant",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT07Aba7sYgSCOIW9P2mAWcAcO9r_tpM_svzw&s",
       "url": "https://brilliant.org/home/",
@@ -2957,7 +2957,7 @@
   },
   {
     "meta": {
-      "id": "bstation-1009",
+      "id": "bstation-1011",
       "name": "Bstation",
       "icon": "https://play-lh.googleusercontent.com/nug7F0n-jWMpAWLaU7Qi1kuTIYjrAtUJmZd5FW4mEyspYR7-zGa-3_fwnYkPgyzHozE3",
       "url": "https://www.bilibili.tv/en/anime",
@@ -3251,7 +3251,7 @@
   },
   {
     "meta": {
-      "id": "busuu-1011",
+      "id": "busuu-1013",
       "name": "Busuu",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdfQ07W8Z1b0olxbugP-i2Hk5BJo6I-B8yKA&s",
       "url": "https://www.busuu.com/dashboard/timeline/b1",
@@ -3580,7 +3580,7 @@
   },
   {
     "meta": {
-      "id": "bypassgpt-1012",
+      "id": "bypassgpt-1014",
       "name": "BypassGPT",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVpNp17p7NogV0-YTH9UnJYGg7IowMwYmj3w&s",
       "url": "https://www.bypassgpt.ai/",
@@ -3778,7 +3778,7 @@
   },
   {
     "meta": {
-      "id": "capcut-1013",
+      "id": "capcut-1015",
       "name": "CapCut",
       "icon": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxtHdRB6xk71KqOPxE23.XPiUcBp9_h5.Va3lapJy.K9tACxvjL4_WF3lJCLozay.Kx6V1mfBFaOOF4V5Rx4RHLY-&format=source",
       "url": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video",
@@ -18683,7 +18683,7 @@
   },
   {
     "meta": {
-      "id": "chutes-1014",
+      "id": "chutes-1016",
       "name": "Chutes",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuJ8v1EICNl78zLPEfHkAimzusUBWT7z2nTw&s",
       "url": "https://chutes.ai/app",
@@ -18885,7 +18885,7 @@
   },
   {
     "meta": {
-      "id": "coursera-1016",
+      "id": "coursera-1019",
       "name": "Coursera",
       "icon": "https://play-lh.googleusercontent.com/H8crzfriK6t5b0N5wXykhxMjPopyWGDZPaMJlvWlAKb7EG-26KGu15P_RnFDinBw1Jc",
       "url": "https://www.coursera.org/",
@@ -19172,7 +19172,7 @@
   },
   {
     "meta": {
-      "id": "crunchyroll-1017",
+      "id": "crunchyroll-1021",
       "name": "Crunchyroll",
       "icon": "https://groupy.id/assets/images/services/crunchyroll.png",
       "url": "https://www.crunchyroll.com/discover",
@@ -19302,7 +19302,7 @@
   },
   {
     "meta": {
-      "id": "curiosity-stream-1018",
+      "id": "curiosity-stream-1022",
       "name": "Curiosity Stream",
       "icon": "https://play-lh.googleusercontent.com/YXqChSEFUdn1A9Jxu9sIZPwlyLYaA_sU_U_h-uW_RyXhEx1WzBNqNWcdNwC3WOGzjg",
       "url": "https://curiositystream.com/home",
@@ -20188,7 +20188,7 @@
   },
   {
     "meta": {
-      "id": "deepl-1019",
+      "id": "deepl-1023",
       "name": "DeepL",
       "icon": "https://play-lh.googleusercontent.com/0IH4L3pX-jqQXKYCDmxTM5t3Tvak2cb_zUuIs9nKCHPeOqkaRJ_bRTq1qKawsSvunw=w240-h480-rw",
       "url": "https://www.deepl.com/en/translator/files",
@@ -20926,7 +20926,7 @@
   },
   {
     "meta": {
-      "id": "deepseek-1020",
+      "id": "deepseek-1024",
       "name": "DeepSeek",
       "icon": "https://pbs.twimg.com/ext_tw_video_thumb/1875845724925206528/pu/img/4T7PkBumsEAjZeO9.jpg",
       "url": "https://notegpt.io/workspace/chat",
@@ -21056,7 +21056,7 @@
   },
   {
     "meta": {
-      "id": "duolingo-1021",
+      "id": "duolingo-1025",
       "name": "Duolingo",
       "icon": "https://www.langoly.com/wp-content/uploads/2020/03/Duolingo-app-icon.png",
       "url": "https://www.duolingo.com/learn",
@@ -21247,7 +21247,7 @@
   },
   {
     "meta": {
-      "id": "educative-1023",
+      "id": "educative-1027",
       "name": "Educative",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiHav_EAmaStXwVlYg4pL5sFbdOyKcRKefbg&s",
       "url": "https://www.educative.io/explore",
@@ -21705,7 +21705,7 @@
   },
   {
     "meta": {
-      "id": "elicit-1024",
+      "id": "elicit-1028",
       "name": "Elicit",
       "icon": "https://yt3.googleusercontent.com/ksfLLIjvy8Y5vvtAmnSzIeF-svAUzrZyJBs-YwCVZUZGct8XNDb6-KJSepMwCrcuFkb6b8oCczo=s900-c-k-c0x00ffffff-no-rj",
       "url": "https://elicit.com/library",
@@ -21816,7 +21816,7 @@
   },
   {
     "meta": {
-      "id": "epidemic-sound-1025",
+      "id": "epidemic-sound-1029",
       "name": "Epidemic Sound",
       "icon": "https://groupy.id/assets/images/services/epidemicsound.jpg",
       "url": "https://www.epidemicsound.com/music/featured/",
@@ -22758,7 +22758,7 @@
   },
   {
     "meta": {
-      "id": "everand-1026",
+      "id": "everand-1031",
       "name": "Everand",
       "icon": "https://play-lh.googleusercontent.com/i6RqZKwmmgvCq8FGoGewoEDWYq8Q2ghi8gUnWLBlPHmYCyRM4bl39YZTAoHu7mzU8vN7",
       "url": "https://www.everand.com/home",
@@ -23092,7 +23092,7 @@
   },
   {
     "meta": {
-      "id": "figma-1027",
+      "id": "figma-1032",
       "name": "Figma",
       "icon": "https://play-lh.googleusercontent.com/hoVBnPBRehmXsCqESLXRH2E3OTxklkwKZlb1psn7imm0VUSobn2nevS9RRFWb9GM4-o",
       "url": "https://www.figma.com/files/team/1560676200091399701/recents-and-sharing?fuid=1561637155941475997",
@@ -23386,7 +23386,7 @@
   },
   {
     "meta": {
-      "id": "flaticon-1028",
+      "id": "flaticon-1033",
       "name": "Flaticon",
       "icon": "https://groupy.id/assets/images/services/flaticon.png",
       "url": "https://www.flaticon.com/icons",
@@ -23553,7 +23553,6 @@
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1768319620.183483,
         "sameSite": "strict",
         "domain": "www.flaticon.com"
       },
@@ -23572,7 +23571,6 @@
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1768319614.814081,
         "sameSite": "no_restriction",
         "domain": ".flaticon.com"
       },
@@ -23678,7 +23676,7 @@
   },
   {
     "meta": {
-      "id": "freepik-1029",
+      "id": "freepik-1034",
       "name": "Freepik",
       "icon": "https://groupy.id/assets/images/services/freepik.png",
       "url": "https://www.freepik.com/user/my-subscriptions",
@@ -23856,7 +23854,6 @@
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1768319665.964886,
         "sameSite": "no_restriction",
         "domain": ".freepik.com"
       },
@@ -23912,7 +23909,7 @@
   },
   {
     "meta": {
-      "id": "gamma-1030",
+      "id": "gamma-1036",
       "name": "Gamma",
       "icon": "https://store-images.s-microsoft.com/image/apps.53673.13800228740496758.b926c1b0-f31a-4a9b-b1b3-88dd15f27137.a0a38389-643f-48ed-9379-92a9fb5a7c94",
       "url": "https://gracely011.github.io/hai/manual.html?name=Gamma&login=owndbygroupyyy@prem1um.xyz&password=Gamma.AppByGroupy2026!&url=https://gamma.app/signin",
@@ -24250,7 +24247,7 @@
   },
   {
     "meta": {
-      "id": "hbo-max-1031",
+      "id": "hbo-max-1039",
       "name": "HBO Max",
       "icon": "https://play-lh.googleusercontent.com/bvyVXgpxu65YO3PNeVhNM9Y7ao7g7FnnKdoNXcwqO48aOlVvnH_b2O9rcZzgEFHzHtI",
       "url": "https://gracely011.github.io/hai/manual.html?name=HBO%20Max%202&login=hbo01@belajaar.id&password=HBOgroupy2025!&url=https://play.max.com",
@@ -24290,7 +24287,7 @@
   },
   {
     "meta": {
-      "id": "iflix-1032",
+      "id": "iflix-1042",
       "name": "iflix",
       "icon": "https://play-lh.googleusercontent.com/_j_9jVM50j43oII8sejBsK4DkHXxFw_MYUQOcHNjgX7SgJMQiLUsa8BuKWGK_84H_OE",
       "url": "https://www.iflix.com/en",
@@ -24648,7 +24645,7 @@
   },
   {
     "meta": {
-      "id": "iloveimg-1033",
+      "id": "iloveimg-1043",
       "name": "iLoveIMG",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVjyJOS7PN-2Xh37-pXo0aOghZLt45Fa2UBw&s",
       "url": "https://www.iloveimg.com/",
@@ -24810,7 +24807,7 @@
   },
   {
     "meta": {
-      "id": "ilovepdf-1034",
+      "id": "ilovepdf-1044",
       "name": "iLovePDF",
       "icon": "https://play-lh.googleusercontent.com/I5yxs1Pspu1rB3NPfqnoX2NscvfzAW7e3Zq5GGhXcr2g207X9-npiuP48Ys7107M1VvA",
       "url": "https://www.ilovepdf.com/",
@@ -24963,7 +24960,7 @@
   },
   {
     "meta": {
-      "id": "iqiyi-1035",
+      "id": "iqiyi-1046",
       "name": "iQIYI",
       "icon": "https://groupy.id/assets/images/services/iqiyi.png",
       "url": "https://www.iq.com/",
@@ -25245,7 +25242,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768319884.256738,
             "sameSite": "no_restriction",
             "domain": ".iq.com"
           },
@@ -25314,7 +25310,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768319885.502489,
             "sameSite": "no_restriction",
             "domain": ".iq.com"
           },
@@ -25535,7 +25530,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768319865.096584,
             "sameSite": "no_restriction",
             "domain": ".iq.com"
           },
@@ -25644,7 +25638,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768319866.469321,
             "sameSite": "no_restriction",
             "domain": ".iq.com"
           },
@@ -25665,7 +25658,7 @@
   },
   {
     "meta": {
-      "id": "linkedin-learning-1037",
+      "id": "linkedin-learning-1050",
       "name": "LinkedIn Learning",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4fcdsIUPUgmbvGaP-RC4RbHYdVtoN_fM8aya_8gOXI2BRtClESO-0_jgWTtKtIVmOQKs&usqp=CAU",
       "url": "https://www.linkedin.com/learning/?u=73723940",
@@ -25927,7 +25920,7 @@
   },
   {
     "meta": {
-      "id": "lovable-1038",
+      "id": "lovable-1051",
       "name": "Lovable",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTysfvFgHMVChk-7glLKWvdIJLLoA2aau0m1g&s",
       "url": "https://gracely011.github.io/hai/manual.html?name=Lovable&login=lovablegroupy@prem1um.xyz&password=LovableGroupy2025!&url=https://lovable.dev/",
@@ -25995,7 +25988,7 @@
   },
   {
     "meta": {
-      "id": "marvel-unlimited-1039",
+      "id": "marvel-unlimited-1052",
       "name": "Marvel Unlimited",
       "icon": "https://play-lh.googleusercontent.com/ikcy-XJG8_oFwVztH9vK3y--_mUcRu5zyco7d4FqugxzSkX9wMo63oBDPLWZnUsYDg",
       "url": "https://www.marvel.com/comics/unlimited/home",
@@ -26272,7 +26265,7 @@
   },
   {
     "meta": {
-      "id": "masterclass-1040",
+      "id": "masterclass-1053",
       "name": "MasterClass",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeoBuunz4xK_-2t35N6astSudIfb7Bnr0R6HDcwoqbzmzOcuNpiZdiRFRv&s=10",
       "url": "https://www.masterclass.com/profiles",
@@ -26652,7 +26645,7 @@
   },
   {
     "meta": {
-      "id": "motion-array-1041",
+      "id": "motion-array-1056",
       "name": "Motion Array",
       "icon": "https://s3-eu-west-1.amazonaws.com/tpd/logos/5b1e60b2b50df6000112eb83/0x0.png",
       "url": "https://motionarray.com/",
@@ -26930,7 +26923,7 @@
   },
   {
     "meta": {
-      "id": "mubi-1042",
+      "id": "mubi-1057",
       "name": "Mubi",
       "icon": "https://images.mubicdn.net/images/avatars/169655/cache-169655-1620041787/images-large.png?size=800x",
       "url": "https://mubi.com/en/id/showing",
@@ -27273,7 +27266,7 @@
   },
   {
     "meta": {
-      "id": "musicbed-1044",
+      "id": "musicbed-1059",
       "name": "Musicbed",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMRzHPEXnSURkOyU9StcI8BZPOTeqzvcJP_A&s",
       "url": "https://www.musicbed.com/songs",
@@ -27470,7 +27463,7 @@
   },
   {
     "meta": {
-      "id": "netflix-1046",
+      "id": "netflix-1061",
       "name": "Netflix",
       "icon": "https://groupy.id/assets/images/services/netflix.png",
       "url": "https://www.netflix.com/browse",
@@ -30793,7 +30786,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768323026.633564,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -30898,7 +30890,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768323026.633564,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -31012,7 +31003,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768323026.633564,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -32026,7 +32016,7 @@
   },
   {
     "meta": {
-      "id": "notebooklm-1047",
+      "id": "notebooklm-1062",
       "name": "NotebookLM",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRJ_-m9Y994yfZimh_h8Yzn0sMx2IsfVoDIQ&s",
       "url": "https://gracely011.github.io/hai/manual.html?name=NotebookLM&login=gpypremium@sharingwithgpy.com&password=SharingWithGroupy2026!&url=https://notebooklm.google.com/",
@@ -32046,7 +32036,7 @@
   },
   {
     "meta": {
-      "id": "notion-1048",
+      "id": "notion-1063",
       "name": "Notion",
       "icon": "https://play-lh.googleusercontent.com/vy-9s86d-81wk1acsXvAxN1xV5Y-doJdgbskG3GonOerbUwUtvNXk_XSRHoraaXZcX4",
       "url": "https://www.notion.so/Teamspace-Home-2e7f85c3cdd381e5a61df1f2a0b93007",
@@ -32285,7 +32275,7 @@
   },
   {
     "meta": {
-      "id": "pacdora-1049",
+      "id": "pacdora-1064",
       "name": "Pacdora",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9l1bvE2alHZrnR4bmSsbK2KjHemNk_p4Dsf-GVh6-5hFtZgugYYNfQfo0L3CQxZqdLC4&usqp=CAU",
       "url": "https://www.pacdora.com/my-design",
@@ -32475,7 +32465,7 @@
   },
   {
     "meta": {
-      "id": "paperpal-1022",
+      "id": "paperpal-1026",
       "name": "Paperpal",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsb2y412xVI5pSI0IiCzqNCF0RA7p-fxjNbg&s",
       "url": "https://edit.paperpal.com/",
@@ -32705,7 +32695,7 @@
   },
   {
     "meta": {
-      "id": "perplexity-1050",
+      "id": "perplexity-1066",
       "name": "Perplexity",
       "icon": "https://play-lh.googleusercontent.com/6STp0lYx2ctvQ-JZpXA1LeAAZIlq6qN9gpy7swLPlRhmp-hfvZePcBxqwVkqN2BH1g",
       "url": "https://www.perplexity.ai/",
@@ -33613,7 +33603,7 @@
   },
   {
     "meta": {
-      "id": "picsart-1051",
+      "id": "picsart-1067",
       "name": "Picsart",
       "icon": "https://play-lh.googleusercontent.com/1JMJ518jogwPeaD0pYn2mBu1cRLD0xRi45wNbtTIRvam1_xx-y3KJOjRAx-W9P4Lf0U=s256-rw",
       "url": "https://gracely011.github.io/hai/manual.html?name=Picsart&login=sgpgemk@nuyul.id&password=Premium@123&url=https://picsart.com/",
@@ -33667,7 +33657,7 @@
   },
   {
     "meta": {
-      "id": "prime-video-1052",
+      "id": "prime-video-1069",
       "name": "Prime Video",
       "icon": "https://groupy.id/assets/images/services/primevideo.png",
       "url": "https://www.primevideo.com/region/eu/",
@@ -37759,7 +37749,2771 @@
   },
   {
     "meta": {
-      "id": "quizlet-1053",
+      "id": "pro--claude-1017",
+      "name": "Pro: Claude",
+      "icon": "https://play-lh.googleusercontent.com/4S1nfdKsH_1tJodkHrBHimqlCTE6qx6z22zpMyPaMc_Rlr1EdSFDI1I6UEVMnokG5zI",
+      "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Claude&login=foolded4@prem1um.xyz&password=EnJoYersGroupy2026!&url=https://www.getmerlin.in/login",
+      "category": [
+        "productivity",
+        "proexclusive"
+      ],
+      "isGroup": true
+    },
+    "accounts": [
+      {
+        "name": "Pro: Claude 1",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "claude.ai"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Claude&login=foolded4@prem1um.xyz&password=EnJoYersGroupy2026!&url=https://www.getmerlin.in/login"
+      },
+      {
+        "name": "Pro: Claude 2",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "claude.ai"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Claude%202&login=foolded5@prem1um.xyz&password=EnJoYersGroupy2026!&url=https://www.getmerlin.in/login"
+      },
+      {
+        "name": "Pro: Claude 3",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "claude.ai"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Claude%203&login=foolded6@prem1um.xyz&password=EnJoYersGroupy2026!&url=https://www.getmerlin.in/login"
+      },
+      {
+        "name": "Pro: Claude 4",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "claude.ai"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Claude%204&login=foolded7@prem1um.xyz&password=EnJoYersGroupy2026!&url=https://www.getmerlin.in/login"
+      },
+      {
+        "name": "Pro: Claude 5",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "claude.ai"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Claude%205&login=foolded8@prem1um.xyz&password=EnJoYersGroupy2026!&url=https://www.getmerlin.in/login"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "id": "pro--eraser-1030",
+      "name": "Pro: Eraser",
+      "icon": "https://mavtools.com/wp-content/uploads/2024/05/Eraser.io-Logo.jpg",
+      "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Eraser&login=eraser@prem1um.xyz&password=EraserGroupy2025!!&url=https://app.eraser.io/auth/sign-in&extra=https://groupy.id/otp",
+      "category": [
+        "productivity",
+        "proexclusive"
+      ]
+    },
+    "cookies": [
+      {
+        "name": "dummy",
+        "value": "5",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "domain": "eraser.io"
+      }
+    ],
+    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Eraser&login=eraser@prem1um.xyz&password=EraserGroupy2025!!&url=https://app.eraser.io/auth/sign-in&extra=https://groupy.id/otp"
+  },
+  {
+    "meta": {
+      "id": "pro--frontend-masters-1035",
+      "name": "Pro: Frontend Masters",
+      "icon": "https://play-lh.googleusercontent.com/8X11A1RYP--qUN-FA3tuEdNG--8QSptibgY6xWQRUDI2YASyAXe726CaE_jEohFYGno",
+      "url": "https://frontendmasters.com/dashboard/",
+      "category": [
+        "education",
+        "proexclusive"
+      ]
+    },
+    "cookies": [
+      {
+        "name": "_ga_KZMH0NYCFR",
+        "value": "GS2.1.s1767326320$o1$g1$t1767326331$j49$l0$h2012029729",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1801886331.612847,
+        "sameSite": "no_restriction",
+        "domain": ".frontendmasters.com"
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.152999452.1767326320",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1801886331.613093,
+        "sameSite": "no_restriction",
+        "domain": ".frontendmasters.com"
+      },
+      {
+        "name": "fem_auth_mod",
+        "value": "63300a61-e1b6-4582-bca7-c5bb1eed6941",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1768535925.399375,
+        "sameSite": "no_restriction",
+        "domain": ".frontendmasters.com"
+      },
+      {
+        "name": "intercom-device-id-w1ukcwje",
+        "value": "534e62ee-30af-42e0-94ce-577a3675f20e",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1791651257,
+        "sameSite": "lax",
+        "domain": ".frontendmasters.com"
+      },
+      {
+        "name": "_fbp",
+        "value": "fb.1.1767326320437.884610617351520029",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1775102331,
+        "sameSite": "lax",
+        "domain": ".frontendmasters.com"
+      },
+      {
+        "name": "sign",
+        "value": "445275774777774b50534a764f797a51455734626972535650696e764a7a75795a727154546f4764377451576a436872377941304461465a3639474c6d6b614964484a584f766942794247304d39477257382f7459513d3d",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1801886331.612847,
+        "sameSite": "no_restriction",
+        "domain": ".frontendmasters.com"
+      },
+      {
+        "name": "intercom-session-w1ukcwje",
+        "value": "cHh2cHlLTUJyQWtjYVJQOGNGNEIwTTE2ekxEUHVyYzJ2UVFTOWg2Ymd0TlBpNkNjVWRwVjFJVmpaN1locVBhck4wRmpMem00Z3k1TndjNno3aU1yNm8rTHNpZEtHeW02NWdoMGwzd3RHQXc9LS1kUWVqWGFlZjV5MlB0cTI4UUlJY0RBPT0=--377dc134e25b9b21ea94949229c4d7a3384bb585",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1768926045,
+        "sameSite": "lax",
+        "domain": ".frontendmasters.com"
+      }
+    ],
+    "sourceUrl": "https://frontendmasters.com/dashboard/"
+  },
+  {
+    "meta": {
+      "id": "pro--humata-ai-1040",
+      "name": "Pro: Humata AI",
+      "icon": "https://www.humata.ai/favicon.ico",
+      "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Humata%20AI&login=userhumata@belajaar.id&password=HumataProGroupy2025!&url=https://app.humata.ai/login",
+      "category": [
+        "productivity",
+        "proexclusive"
+      ]
+    },
+    "cookies": [
+      {
+        "name": "dummy",
+        "value": "5",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "domain": "humata.ai"
+      }
+    ],
+    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Humata%20AI&login=userhumata@belajaar.id&password=HumataProGroupy2025!&url=https://app.humata.ai/login"
+  },
+  {
+    "meta": {
+      "id": "pro--iconscout-1041",
+      "name": "Pro: IconScout",
+      "icon": "https://cdn.iconscout.com/icon/free/png-256/free-iconscout-logo-icon-download-in-svg-png-gif-file-formats--company-pack-logos-icons-4674919.png",
+      "url": "https://iconscout.com/",
+      "category": [
+        "design",
+        "proexclusive"
+      ]
+    },
+    "cookies": [
+      {
+        "name": "__stripe_mid",
+        "value": "582ce975-97c3-4615-9f5f-46b9b4ad33ccf81b1b",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1799856743,
+        "sameSite": "strict",
+        "domain": ".iconscout.com"
+      },
+      {
+        "name": "__stripe_sid",
+        "value": "dfb16950-6a09-44b8-8405-75ac3f200c23feb683",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "strict",
+        "domain": ".iconscout.com"
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.1189408922.1768110885",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1802670884.966472,
+        "sameSite": "no_restriction",
+        "domain": ".iconscout.com"
+      },
+      {
+        "name": "_ga_VPLB2DZRRF",
+        "value": "GS2.1.s1768110884$o1$g1$t1768110884$j60$l0$h0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1802670884.968524,
+        "sameSite": "no_restriction",
+        "domain": ".iconscout.com"
+      },
+      {
+        "name": "ab_homepage_dec_25",
+        "value": "new-variant",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1772344484.594401,
+        "sameSite": "no_restriction",
+        "domain": ".iconscout.com"
+      },
+      {
+        "name": "amp_70fde5",
+        "value": "pDGs9NpYBnLpeUx6pgDaq1.Nzg4OTU4OQ==..1jelprbni.1jelpu23h.1h.s.2d",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1799646884,
+        "sameSite": "lax",
+        "domain": ".iconscout.com"
+      },
+      {
+        "name": "auth_check",
+        "value": "1",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1802670883.098691,
+        "sameSite": "lax",
+        "domain": ".iconscout.com"
+      },
+      {
+        "name": "remember_web_59ba36addc2b2f9401580f014c7f58ea4e30989d",
+        "value": "eyJpdiI6IldFWWQ0Y2c0cWkyaVdwNm5EKzJsVkE9PSIsInZhbHVlIjoiRjM4QzJRNDhEUDh1ZWpBM3lDQXpTVGR0SDM2dWpIZ0xUUVZKUXE0RlY5NFNZcUp1QzVuTSs5U0ZKb1ltZzRLQXpYVTJHMGlmRXBmb1VGN3F5QXRuRGtlQXo3WmJTRTQ5Q1AzSmhWL0R2cjlrUVdsZGMxa01aQTEvRUhvV3ZvZUxBbElvM3QzNVdWQnU0TExVOEVDUjBYOXlZK1lUSWEyOFMzT0tqUVBCblI1ZXhnSytaanJUS0xncktrS3dVc3E2U0tJdzhaSkhLM1hvSXRYODJuRTlOZW5mYS9vdFh0RlBvTnRDb1pnWW13dz0iLCJtYWMiOiIwNGVkNDRiYmJiMWRhNmUwZDBjMWMxOTJhNzNiMjIzYTI4OWM4NjU2ZjMwMzI5MjQyNWRmMjk4NWZhZTIzZDg2IiwidGFnIjoiIn0%3D",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1802670883.098614,
+        "sameSite": "lax",
+        "domain": ".iconscout.com"
+      },
+      {
+        "name": "WZRK_G",
+        "value": "88362b7156b2463fac94f60d691fdddc",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1802670885.234624,
+        "sameSite": "no_restriction",
+        "domain": ".iconscout.com"
+      },
+      {
+        "name": "iconscout_user_device",
+        "value": "eyJpdiI6IitLL0s0MUs2WExJNko0MlkzcDFOVlE9PSIsInZhbHVlIjoiNEZESVZYb0ZaUlI1WFdRUGJuV0k1NmNZSmRXS1A0RzJQbmdJMC9qUEF0alJPMmw4NFlGSlA1czFCUE1ldkhrMGRZZ0dPZ09CeUhvZHRSVEJUU3h6djVhMGdaTDhjbXhBaEhUd2RaTHE3Wk09IiwibWFjIjoiNmI4NzQ4Mjg2ZDJlNGMxY2MwOGUzZTJkMmIwYWJmNTYyNmUxM2JiYzZlY2JjYzM2MTFjM2QxMzY2MTBjZTA2ZCIsInRhZyI6IiJ9",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1768328406.065127,
+        "sameSite": "lax",
+        "domain": ".iconscout.com"
+      },
+      {
+        "name": "ab_homepage_dec_25",
+        "value": "new-variant",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1772554866.712351,
+        "sameSite": "no_restriction",
+        "domain": "iconscout.com"
+      },
+      {
+        "name": "__cf_bm",
+        "value": "fUdmqOukamP4G46wunh5sci.AKYnZaAdoPwBLqLp_PU-1768321253-1.0.1.1-s.JsTLRQwmlqrYdIIJnSXtnwDk3CQx0nmHF1Cjn0ftcJ0fmzrTHg960yzorocQiySN64Jkz0huBexlTcmZKsOGd5J.Vhawt8WWUokiDqcbQ",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".iconscout.com"
+      },
+      {
+        "name": "iconscout_token",
+        "value": "eyJpdiI6IkwwWWpUVHQ0b0dacXliRXMxT0dSYmc9PSIsInZhbHVlIjoiTXdYVkU0OGszLzRWOU1UME9FWnNQdDFibnFaVm5ONTlxTkJPTU55anZaUW9PZWZoeHRyR25NTnkwMVdXUUo1TkFQeVo3d1M4TkxINjFZUE4rakVKb01iNGhObkphOEdTNm5qOGtWMTRhZUw2ZFZwcmhwVFBveE1nb2FxMkNPdUFLamJ4RmRmcXppZWQrVkJrcjZmTmg1V05VZXYvTWdOQXJoSHA4V0FSMHg2WGhuMjhmSmFWRERFUm5ldUppRmdOSWVJOXREZkRIZTUxdzA0L1lYNkRjWU45dTNYazZSeXRCdHc1Sk9meTVGVE1sUll3ZVNQY000UHl4TVpyclVESUQ0U3JWMUI2am01S3VSOGhQaG1BbUtpSlJCK084M1h3T3ExOFdzSk8waHpJaERuamx0eVdRTTVFRzljcllvNlkiLCJtYWMiOiJjOTEzNGZkNWUxZjRlOGE5NTdkNWRhZDNhNGNjMzBmYTk1ZTVlZjQ5NGM4MDdhMWNkNGNjOGFmYjY5YWJmYWJjIiwidGFnIjoiIn0%3D",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1768328470.759346,
+        "sameSite": "lax",
+        "domain": ".iconscout.com"
+      },
+      {
+        "name": "XSRF-TOKEN",
+        "value": "eyJpdiI6InEvQi9SbmVEbFg3d1dtbGpvYjBmQmc9PSIsInZhbHVlIjoibklJdElVQnpwVHRRb0FsODROamtudGtSc2l0clZ5N3dCend3b0VQdnRhVVFwMkpWK1NleEVLYUFNR1hYR05TenJkZUVnL1NRRHdhcmF6dUdaaFl3Z2VaODEycGQrMWg0VlRjZ0dNOGdacVF5bGMvdFE0K2lXYnJGU0pNaUcyMUEiLCJtYWMiOiI1YjYzZmY5Y2EwZmFmMGUxZjgyZDY2MmMxMmU0ODA1NDE5ODgzYjQyOTk2MjcxOWQ5NjNmZjM0ODdlN2IzMjFkIiwidGFnIjoiIn0%3D",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1768328470.759471,
+        "sameSite": "lax",
+        "domain": ".iconscout.com"
+      },
+      {
+        "name": "iconscout_session",
+        "value": "eyJpdiI6Im55KzNwaFAyZ1VxT015VEpsdmw3QlE9PSIsInZhbHVlIjoiaGM5V1F4NGZudXpidUxkZ0hGdUVqNEFkMzdybGxwK25kS0pNSjR6RzdBUVBaeHZxcllObVhKdjc3L1BaYzExRCtYL2haNld2cENyU3dDTkw1MmlNRW5iNysvL0svUFQ3cHdRK01mWHBzbk42aWpUSUxldU0rMUY1ZXRmR2FibUkiLCJtYWMiOiJjOGY0ODQ3ZTM2YzMwYzVhZjBkMDcyZGRiMzQ4NGEwNDM1MjQ5OWQxNjkzMTdmMmQ1N2M5MjFjNTBkNDAzMDdjIiwidGFnIjoiIn0%3D",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1768328470.759539,
+        "sameSite": "lax",
+        "domain": ".iconscout.com"
+      }
+    ],
+    "sourceUrl": "https://iconscout.com/"
+  },
+  {
+    "meta": {
+      "id": "pro--investingpro-1045",
+      "name": "Pro: InvestingPro",
+      "icon": "https://pbs.twimg.com/profile_images/1108338370026053632/JrSrbA-c_400x400.png",
+      "url": "https://www.investing.com/",
+      "category": [
+        "utilities",
+        "proexclusive"
+      ]
+    },
+    "cookies": [
+      {
+        "name": "__eventn_id_usr",
+        "value": "%7B%22adFreeUser%22%3A%221%22%2C%22investingProPremiumUser%22%3A%221%22%7D",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1791687387.658211,
+        "sameSite": "no_restriction",
+        "domain": ".investing.com"
+      },
+      {
+        "name": "_ga_C4NDLGKVMK",
+        "value": "GS2.1.s1757127371$o1$g1$t1757127464$j27$l0$h0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1791687465.988578,
+        "sameSite": "no_restriction",
+        "domain": ".investing.com"
+      },
+      {
+        "name": "__gpi",
+        "value": "UID=0000119048c98dd7:T=1757127370:RT=1757127370:S=ALNI_MZ6I7GGaziGATLm5Th5sSSzsWZMIg",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1790823370,
+        "sameSite": "no_restriction",
+        "domain": ".investing.com"
+      },
+      {
+        "name": "cto_bundle",
+        "value": "NUsjbl9BeEJ1MzIlMkJ1QkFuZ05HRHRmZEpQQWdURldXd0FIbVBsOWM3N3BsRTZncDFFSzBvczRQY3puciUyRk1jNmloM29KWEdlcTVNJTJGWFNKajYzbFczJTJGVWZ5aXFOd2clMkZLWGphdU5XbXN6dW5kcGElMkJIV0E2Z2FpRG9iQUFNOEt4SXJwTmxPVHJacyUyRjRQZFFOUzczZkNZUjhORFYwc2tLTzFRSlZSYUJuJTJCcjhzMVN2TWZRJTNE",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1790823376,
+        "sameSite": "no_restriction",
+        "domain": ".investing.com"
+      },
+      {
+        "name": "ses_num",
+        "value": "1",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1788663370,
+        "sameSite": "no_restriction",
+        "domain": ".investing.com"
+      },
+      {
+        "name": "__gads",
+        "value": "ID=6d5e5c3864f1af24:T=1757127370:RT=1757127370:S=ALNI_MZvBVOzPgBSkssxM-Zupl8Ej4vE_A",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1790823370,
+        "sameSite": "no_restriction",
+        "domain": ".investing.com"
+      },
+      {
+        "name": "invpc",
+        "value": "3",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".investing.com"
+      },
+      {
+        "name": "__eventn_id",
+        "value": "46c9c35385316f3dfafbcf58c9ce3242",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1791687464.905807,
+        "sameSite": "no_restriction",
+        "domain": ".investing.com"
+      },
+      {
+        "name": "_hjSessionUser_174945",
+        "value": "eyJpZCI6IjYyYTY0YjJjLWY5MjAtNWY0Zi1hOWIxLTVjZTRiZjI3MmFhYSIsImNyZWF0ZWQiOjE3NTcxMjczNjk5NDQsImV4aXN0aW5nIjp0cnVlfQ==",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1788663443,
+        "sameSite": "no_restriction",
+        "domain": ".investing.com"
+      },
+      {
+        "name": "__eventn_uid",
+        "value": "268614371",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1791687387.657973,
+        "sameSite": "no_restriction",
+        "domain": ".investing.com"
+      },
+      {
+        "name": "__eoi",
+        "value": "ID=a787abaa007f5fb8:T=1757127370:RT=1757127370:S=AA-AfjYXNoY7TrjuZJw2l8OcoxHh",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1772679370,
+        "sameSite": "no_restriction",
+        "domain": ".investing.com"
+      },
+      {
+        "name": "_dd_s",
+        "value": "aid=7789ad3c-0ee5-40a2-8c36-488ad86bca71&logs=1&id=8a8b1aae-95cd-4189-973f-3b744792a211&created=1757127370208&expire=1757128351288",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1788663451,
+        "sameSite": "strict",
+        "domain": ".www.investing.com"
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.1385852985.1757127372",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1791687465.989173,
+        "sameSite": "no_restriction",
+        "domain": ".investing.com"
+      },
+      {
+        "name": "_hjHasCachedUserAttributes",
+        "value": "true",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".www.investing.com"
+      },
+      {
+        "name": "adBlockerNewUserDomains",
+        "value": "1757127370",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1791687370.527419,
+        "sameSite": "no_restriction",
+        "domain": ".investing.com"
+      },
+      {
+        "name": "finbox-visitor-id",
+        "value": "v-sw57aptn0n8fKRpt-cfPR",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1788663385,
+        "sameSite": "no_restriction",
+        "domain": ".www.investing.com"
+      },
+      {
+        "name": "invabr",
+        "value": "navbarcta%7Chardvidall",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1788663370,
+        "sameSite": "no_restriction",
+        "domain": ".investing.com"
+      },
+      {
+        "name": "last_smd",
+        "value": "46c9c35385316f3dfafbcf58c9ce3242-1757127366",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1788663370,
+        "sameSite": "no_restriction",
+        "domain": ".investing.com"
+      },
+      {
+        "name": "PHPSESSID",
+        "value": "s2v1qhsb46inco1ot244u86tfl",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".www.investing.com"
+      },
+      {
+        "name": "ses_id",
+        "value": "MH5kJWZpY2szdzw6MGE1MT9mMWxjZTM1NTcyNmNlYHYxJTQ6bzgydGFuaCY0N2J%2BNzIwYWZmN2FlYG8xZzBmMTAzZDBmY2M%2FM2U8YjBgNTU%2FZjFuYzEzMzU3MjljYWBuMWI0Ym9pMj5hZGgxNDliZDclMCxmIjcmZTdvP2cmZiEwP2QlZjZjNzM3PGIwMjU0P2wxbGM1MzI1ZjIwYzZgeDF6",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1788663464.937727,
+        "sameSite": "no_restriction",
+        "domain": ".investing.com"
+      },
+      {
+        "name": "accessToken",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NjgzMjQ4NTUsImp0aSI6IjI2ODYxNDM3MSIsImlhdCI6MTc2ODMyMTI1NSwiaXNzIjoiaW52ZXN0aW5nLmNvbSIsInVzZXJfaWQiOjI2ODYxNDM3MSwicHJpbWFyeV9kb21haW5faWQiOiIxIiwiQXV0aG5TeXN0ZW1Ub2tlbiI6IiIsIkF1dGhuU2Vzc2lvblRva2VuIjoiIiwiRGV2aWNlVG9rZW4iOiIiLCJVYXBpVG9rZW4iOiJNSDVrSldacFkyc3pkenc2TUdFMU1UOW1NV3hqWlRNMU5UY3lObU5sWUhZeEpUUTZiemd5ZEdGdWFDWTBOMkolMkJOekl3WVdabU4yRmxZRzh4WnpCbU1UQXpaREJtWTJNJTJGTTJVOFlqQmdOVFUlMkZaakZ1WXpFek16VTNNamxqWVdCdU1XSTBZbTlwTWo1aFpHZ3hORGxpWkRjbE1DeG1JamNtWlRkdlAyY21aaUV3UDJRbFpqWmpOek0zUEdJd01qVTBQMnd4YkdNMU16STFaakl3WXpaZ2VERjYiLCJBdXRobklkIjoiIiwiSXNEb3VibGVFbmNyeXB0ZWQiOmZhbHNlLCJEZXZpY2VJZCI6IiIsIlJlZnJlc2hFeHBpcmVkQXQiOjE3NzA4NDEyNTUsInBlcm1pc3Npb25zIjp7ImFkcy5mcmVlIjoxLCJpbnZlc3RpbmcucHJlbWl1bSI6MSwiaW52ZXN0aW5nLnBybyI6MX19.HOw-Dhf_8nyKKl2eIWQ86SLue3NwqM90hINy-KPdx6M",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1768324868.19756,
+        "sameSite": "no_restriction",
+        "domain": ".investing.com"
+      },
+      {
+        "name": "gcc",
+        "value": "ID",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".investing.com"
+      },
+      {
+        "name": "gsc",
+        "value": "JK",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".investing.com"
+      },
+      {
+        "name": "invab",
+        "value": "navbarctac_1|onboardingb_0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1799857269.19794,
+        "sameSite": "no_restriction",
+        "domain": ".investing.com"
+      },
+      {
+        "name": "__cf_bm",
+        "value": "VgypoFS8J__wEgEXYIqCh6wvvlMez1kAi4KW10sz05s-1768321256-1.0.1.1-yKsg1fkNUqp8bfKwsqq2scErwuH79AejHyabgh..nDk0ZqmOW7k4bM9ZKn7778YUuS2j46n1Ev7YnhJH8L96m2V8g5C8LkFSfGsdCnO2ynej9b3Npn9eez1nbptEpHGI",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".investing.com"
+      },
+      {
+        "name": "__cflb",
+        "value": "02DiuGRugds2TUWHMkimYPAcC3JQrXKkBfiB8iFgKLd3A",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1768404069.198049,
+        "sameSite": "no_restriction",
+        "domain": "www.investing.com"
+      },
+      {
+        "name": "page_view_count",
+        "value": "6",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".investing.com"
+      },
+      {
+        "name": "lifetime_page_view_count",
+        "value": "4",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1799857275,
+        "sameSite": "no_restriction",
+        "domain": ".investing.com"
+      },
+      {
+        "name": "top_strip_variant",
+        "value": "%7B%22user_type%22%3A%22proplus%22%2C%22variant_id%22%3A1%2C%22variant_name%22%3A%22Pro%20users%201%2C%20JP%20Morgan%20earnings%22%7D",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".investing.com"
+      },
+      {
+        "name": "g_state",
+        "value": "{\"i_l\":0,\"i_ll\":1768321276172,\"i_b\":\"jC9Tfah7t9usDGe5epcLN4rY1q0tqwTw2w3cAWMNU80\",\"i_e\":{\"enable_itp_optimization\":0}}",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1783873276,
+        "sameSite": "no_restriction",
+        "domain": "www.investing.com"
+      },
+      {
+        "name": "_dd_s",
+        "value": "aid=7789ad3c-0ee5-40a2-8c36-488ad86bca71&logs=1&id=8a8b1aae-95cd-4189-973f-3b744792a211&created=1757127370208&expire=1757128351288&lock=36688c09-6429-4cd3-8fd0-6b37d482e6fa--1768322347637",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1799858347,
+        "sameSite": "strict",
+        "domain": "www.investing.com"
+      }
+    ],
+    "sourceUrl": "https://www.investing.com/"
+  },
+  {
+    "meta": {
+      "id": "pro--jenni-ai-1047",
+      "name": "Pro: Jenni AI",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjzHV0xQOmnu0xowDdW71mIklQHOJ7RjdzHg&s",
+      "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Jenni%20AI&login=jenni@prem1um.xyz&password=JenniAIGroupy2025!&url=https://app.jenni.ai/",
+      "category": [
+        "education",
+        "proexclusive"
+      ]
+    },
+    "cookies": [
+      {
+        "name": "dummy",
+        "value": "5",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "domain": "jenni.ai"
+      }
+    ],
+    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Jenni%20AI&login=jenni@prem1um.xyz&password=JenniAIGroupy2025!&url=https://app.jenni.ai/"
+  },
+  {
+    "meta": {
+      "id": "pro--julius-ai-1048",
+      "name": "Pro: Julius AI",
+      "icon": "https://play-lh.googleusercontent.com/5TBQ0_UiHHQ3DmZIOd1fQPRXSIUInSGsIGNgWMTb9fjeQtn7LOW15N6w-krdJxbdaw",
+      "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Julius%20AI&login=member@shietoshi.xyz&password=gpyWeAreProGroupy2025!&url=https://auth.julius.ai/",
+      "category": [
+        "productivity",
+        "proexclusive"
+      ]
+    },
+    "cookies": [
+      {
+        "name": "dummy",
+        "value": "5",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "domain": "julius.ai"
+      }
+    ],
+    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Julius%20AI&login=member@shietoshi.xyz&password=gpyWeAreProGroupy2025!&url=https://auth.julius.ai/"
+  },
+  {
+    "meta": {
+      "id": "pro--kahoot--1020",
+      "name": "Pro: Kahoot!",
+      "icon": "https://kahoot.com/files/2020/11/Kahoot-1024-rounded.png",
+      "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Kahoot!&login=kahoot@prem1um.xyz&password=KahootGroupy2025!&url=https://create.kahoot.it/auth/login",
+      "category": [
+        "productivity",
+        "proexclusive"
+      ]
+    },
+    "cookies": [
+      {
+        "name": "dummy",
+        "value": "5",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "domain": "create.kahoot.it"
+      }
+    ],
+    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Kahoot!&login=kahoot@prem1um.xyz&password=KahootGroupy2025!&url=https://create.kahoot.it/auth/login"
+  },
+  {
+    "meta": {
+      "id": "pro--leonardo-ai-1006",
+      "name": "Pro: Leonardo AI",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJztEc1YalQNx74GGv9upR6MXHYGO4H0ejqg&s",
+      "url": "https://app.leonardo.ai/",
+      "category": [
+        "design",
+        "proexclusive"
+      ]
+    },
+    "cookies": [
+      {
+        "name": "_gcl_au",
+        "value": "1.1.1227371448.1765164585",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1772940585,
+        "sameSite": "no_restriction",
+        "domain": ".leonardo.ai"
+      },
+      {
+        "name": "9b3a07f2-f21e-4f95-bec0-4a3f1f2bac38%3Achecklist-state",
+        "value": "{%22status%22:%22closed%22%2C%22startHerePopOverSeen%22:false%2C%22hasChecklistBeenSeen%22:false%2C%22reopenChecklistPopoverSeen%22:false%2C%22isComplete%22:false}",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1799724602,
+        "sameSite": "strict",
+        "domain": ".app.leonardo.ai"
+      },
+      {
+        "name": "ab.storage.sessionId.05d8c73d-1a81-4910-9f94-836c0ba47b65",
+        "value": "%7B%22g%22%3A%225d1613f2-fa5e-777c-9b1a-847859bab271%22%2C%22e%22%3A1765166404159%2C%22c%22%3A1765164603651%2C%22l%22%3A1765164604159%7D",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1799724604,
+        "sameSite": "no_restriction",
+        "domain": ".leonardo.ai"
+      },
+      {
+        "name": "selected-team",
+        "value": "6f98f9c2-73b0-49ee-bf51-6535fe07a089",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1772940604,
+        "sameSite": "lax",
+        "domain": ".app.leonardo.ai"
+      },
+      {
+        "name": "ab.storage.userId.05d8c73d-1a81-4910-9f94-836c0ba47b65",
+        "value": "%7B%22g%22%3A%2281d15d6a-1bad-4b9f-9c25-982e6e58c947%22%2C%22c%22%3A1765164603650%2C%22l%22%3A1765164603651%7D",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1799724603,
+        "sameSite": "no_restriction",
+        "domain": ".leonardo.ai"
+      },
+      {
+        "name": "anonymous-id",
+        "value": "b81ac321-cf7e-4d20-bedc-b5473b2bd4a7",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1796721535.552335,
+        "sameSite": "lax",
+        "domain": ".app.leonardo.ai"
+      },
+      {
+        "name": "intercom-device-id-xc8vmlt4",
+        "value": "59b24c02-9083-464e-985a-86099836b040",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1788494605,
+        "sameSite": "lax",
+        "domain": ".leonardo.ai"
+      },
+      {
+        "name": "81d15d6a-1bad-4b9f-9c25-982e6e58c947%3Achecklist-state",
+        "value": "{%22status%22:%22closed%22%2C%22startHerePopOverSeen%22:false%2C%22hasChecklistBeenSeen%22:false%2C%22reopenChecklistPopoverSeen%22:false%2C%22isComplete%22:false}",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1799724603,
+        "sameSite": "strict",
+        "domain": ".app.leonardo.ai"
+      },
+      {
+        "name": "__Host-next-auth.csrf-token",
+        "value": "a247b84d40438953bb04800c127b407ebfab1360672653a5fdbff3fa494e9b19%7C6357b58f6c6d7a38a7247765fc7ae11b10f64cac5c01d3f312e2715939d0318e",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "lax"
+      },
+      {
+        "name": "__Secure-next-auth.callback-url",
+        "value": "https%3A%2F%2Fapp.leonardo.ai%2F",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "lax",
+        "domain": ".app.leonardo.ai"
+      },
+      {
+        "name": "__Secure-next-auth.session-token.0",
+        "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..Gv964vdk5Wxa-D7Y.GiHfN8ETdd0bNZBM7mTCAU4V34gSp_M5Mj_xCtyBey97Uhz-XtBLjc8rZwjOhrdn0r2cudifBYcpfLoycM-fbZvLSwBeOxs2W-WRBPQ_RMqa9OO8CKtAO_TuSwJwHJdl0xCne8Uxg34wgQfiPAiCDmb-tTDLHe6d8-DFXxvD-BIBRcA51Htn82OhHDLM-1QsMQ7iKMYDTrx_V5nP0eIH6u9wVpsDl1dFTt5v_7kjpRG3ANAjUJgu6acY-PXiejT-OvCwjphrEn6hwyyhHlY8uFteWKwHawRbVgoZz_lSkSJiLtUkvTlQ4P4FnCqPwIamcVzVrSlWJQd790RfOz11gTJ_MPIGnsk18HKuUmhd0ZRlMtIFVGUfs0slowxpDxLWQ5nbX8xSQ1QZU8-65OxSK9pe-O9Qj4Ji1S1Z_kd4BOJAoditML3Y-_KaiQBYhxdlJD7S1O-auB_GCx1SayBW3Fe46JJTHXCdGBkq0GJYfFpFqOfjoc24kyPXoiFu0Rj2L2iqO-f6GUMEPb1htKN7FcVQIRrBtT2O0YrIELP8Z23ZGulOftCkRsgIgaY9BXclWnn_Hy7l0DvCI5ZsB9BeLRFVl-35uiybRpS2FvjkE0mmpZF5QJmChnAGueiC2czzioYDfGwwCeZPI6XJ7MPA6IEkkAfq3DuAtxwjlUuJLw_ZPtpbx4_MsuufyWvRDFBA2kKbyI4In5s6kY5hBULArXKh2wdk_wUbLtWz31KAJ7gy0155Seemb4OIC98VKMzA1ZJhysUosE4K-ZXvO1TWni5wv9ZfoF-3m1eilEVuxDR2C-RT3h2UNrXcSnJDdrHwcQZiFobSH69SI4lOtXvz2-Scg-bijEQsANjq2W_-pf_u_L2liCYfLHomYnixJGhKDW58T3rNtg91K_4Z6AFE39PA_P6M3xTlXQQ7WyqYUDOM7lV8-NCG0hjcwx3sBDVdm1npe3ZoG1QExzk5QRx2JllDkuW-5AXPtdeO2X_01i4li2-HLZ2YSouco59SArmurGeEue3h0IkUWw-1w2RIHjnzjIMIgt8CdyvBTI_FToWe95ClAsgeHIkIz_X1_eFBkeAWIvnNaeCgs018jOHn5zmZv_2wB4wek6lqBkhBsbJYT-TRmUV40eVjpFkN4sNtQ6mJWkbwEBM5lSHzGD5U8uJdKzgxDMnXheBGGLlMYCR7pl1vHRmCfR-GFbkuBsEM6K0JEIum2O-REPR2UkQotykrqDi_ArIAa7N4U7v_a9IZjDsu_wWIEfi_gUdizGDFi5VqBfv1mUdy71LKvVoVgsIg6V5mHuTGopnjZWCJgbXeITnwPbgXAETbDbufdBsKVqMbbZzL_hZg929s5G1PiL3c2n4-rnPhTkf-TYM9FdtBMXDqAfNnDh1zflcdKodGev3Q3I7m-EpNRqSmITMzr4wMOEvZgCDb1oZpGCu36I1CP6NK4SUXN8IIJaDdqRNdAmrfGO_vbWTpa-s63pSwD-s6bskCkBTPPcs6JZe75nE-D_kzGosSZ6B8FCDz95SD5c3lCFaBmmswG9ln46Z3_Ggjxi--Vgwvzs65qYLj_VGs6cAe9ypkV7fk-OikDyxZ1ZpDoiyhfJRn5GpEkqFvtEvxhAAb2nHcH8kmhq_C9JUSiLqGYb426jOa4MtoIcZPQBVFnU0aRspkcrFy9WwHPcKsRkcoKqJqu_kHDn6us72bkaiDzAM8haJ8dk9InY31A5KIA758HkxT2ATc3Ty1mHSzX7h7-kcXqUN1-VhUYu2nHCeq1iPPv-jgEVtGqvf3jeVG1SXxv0p34f5RoYlPEBXzDDpNZoufdTU7vTG2sPWdSRULKEtUTtNDuDc0Lb1GU54amPTjCagSUlWF1-jie0wvPzfY2QlGjoJCn8YTM09I78Op78rSHS6NxO7x6gCifJ4viA1vE7pqATafa54Chvx5qdHX6Sji4BjWMeob9HZrbnoUlvFU_waGOYbbVY--5hsH4YusCcR0KXiJw_BDbyt5W894BxabhptcEsZDXtY_jfb5UsZOC9HHPBssvNhKIprrKuESMidIx7v9Hm_Iy3frTkmkIkgr_siZhKauv2UjN-TNPJHFeR2_Of1i6ssTcnSqFU6akD068yI90SsCyHhXvvgl3UilDIWkd3imsBrWxCEyc0hhUyz61PDtaoM_lueCpRqWj8cx17S7QPDciiCz3V3f4_BrK0PIvAqLnAqBGuzjLVU7wAA0ua9Xj1VPHPyTu--TeiVQMPVDqXhrqJj-2vfouWVqegXi_FWUkZf6I6EFAkWH1PJ06tj3n52Edcb3EkZ8whXeXORCYGOvziK0wDBlcOdIWLdW9JBRPW1NrZHriAy7TshMe7lVkSAt2Zs1RBHD42NzGaXCErw1x2lX6WjV3wNI01VJG_HgJ9qGhkTgajarwEbIpzmK8w0vBStqbh2BQe-IuWNZy2n6xejN_eCwXYq2zT_iqNYFlCVWcPjkko137JMTQypyJMjXr3qR7gQ80Q8dMrXkFb8jEtACjCYgRq-njrXNnGpQ-hkMcn41fc_p10RIwf3ixSSgfW8gFbQ9dZ0779j72in7KFlNRd4SOFzcvj54rMvANMqZv6gECGa_005L5A6EOhsvPY1rQ9C198_fA4zTCmkx0m3OuEGfKv4m_xpLH3xNiWWX4QYFFG4T7P0W_gfyHYOmQZluSQITCJGpPsCfZrszoRRd4ewsMMb4z0H-jitAS43R28Uy6ShY9wg2qVpLiMWZoHbfZ5_byyxBjeUUT1UvjqzMLvUzLiNwj7qsoVmjhZ-AbFxvrqBWSTXnRAY7C9C7hqP4twmCHOX6J6kFxXVg_sXGhUAvGPgOTADedIcOud3FG7ehuVcwhhMqiJ9Sb5bxvM2WDLT3IEwPseyINpaerg44KEs9xu-2BB-KeD2AObrG8KG1obJOQN0RhYxvzJX6Rtx35qC4wE15-uAolc5_h1p7hS01gHy8gX3lUdl0ZKeAptiuF1h7wdWyHFyAfHexdsupUjOX1at6gOAGRnBP-r8HfnvMxL0hGfB8OuPAocIs9g1L_Yzn7l21t4tyjrSk_98O6YYught9cULf3EIVY37e0SgVaA-49Rd1pxzy6e089X-QB2FjDB2Zpxu1_f_go_awwHxZO4_wc2TnspDZekVGvrKO633cY-0ZIrZn08xim6V4xEfAaENpVa_IQ6TqKNEdlyESh0XAGZmV61Yr7y9SdtihPhh1cPLKcymAOU8A02SByscSOVQx_NHOatctXQr7gFmdczw07QvgNGyWCbU7CgWUggr6squDXlflnjpJdTz7rUO33DcvrbYDiTP_XrNwdLkC39Lkk5hz1oFIxp89oLAdIWqvZ7Vx6-spk5cagEiRUVVDMjtYilJO-7ORZ_k6AySL3-mgTmzvx2N9EQzB104f34uboHLQPv_QoUsbYaisr7k2MFXhcMp0vKb9aAn4Z6NPoFERq9M4q4NExsz0zENGDU7L7ALz4WhPu1m4YhK_M4J8_x-teClNwYliB_rIWKBr9yFS-Snhzd1K8nP5Uxa5sxgoZSOF1ToqaIGF5DqzT56dP9nlGShCqCgZRqwgR17Dxi_7b_gjrrhUPkmwf8zNJFGoaxODLNUUiLTYumF5NyZeoBW4ofT4v5ZNtVZ2EU6jOlSOaD6eu9UJ_fB2A8qNaEjys1uCxk6VlelCt6MNMUgogLMHa6bzJ0owwttBmU1i8KPb-ZxZad5fZ6iu8brCd0O2yY24XQZdsOceXZf2trqyGvosu0_0BuLqlz_hTZqnOW5DfT-mrTKt9hEh4DI5he0J30YiMoxUMEzjjGllKhuZlV3lpXKlvEMc-xzWBiwaIf8ktXCgFJwmqeVLreG4vBPwTtW",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1769052603.06074,
+        "sameSite": "lax",
+        "domain": ".app.leonardo.ai"
+      },
+      {
+        "name": "__Secure-next-auth.session-token.1",
+        "value": "46LbVmv_OfjFohaP11BGZTvvp0cuTrzUwzHUS5t8X82Xy6ALTuKyuF9UeEhSzkl6IhszoNwboTgLUfQqdl0b_YYUxSZpH4xj9oX28AgIUGb4jp1JVYJpAwhoT4hjYiotBGB4wFWBNjb4yVkkhD9eTPL2TT5Me75XJB21CGh-GXMhc90N9JVpnBLDo2QNwfSz1OoRh7szj6oXdeKcH5WgrgK7qXE6oPrlIAJrGTy7baj-wnQHO0bMYs2Umhecrw3UHugWWrs3efdY-zX-aYnDV2eK9V8mH3d8f4jb0vgyyNh89yo1tqbY6n_iz1b1zA5t_-AsnFg3ZTYV2B6ErgyMKJo7b2ews8IEr2vJbiQIGUQdKInxX_kinCktEodu06v59sZglZmlyTGYcoHFUyetYJDjAgSAKlZkDJJrazL43Fuejr5RYtoJmRNGhMMxiHhjG5UWM8l522uzSGmBHPLBF06GGzH5rzyId9gUvSw9B4QudjDbUp3B1qkN7BtAHvyUis7_3uC6sFFFmqeQX4AqbeEHKWkKB-T42iWsuf2WuzViIo7nhVeE9Ssy0Czfs6oqv0zCg0mGjBhjOPRDoukv--OyvU9S9_h2Vv5UuewyF7028vwD2XPYn_A8u1N2RPEht3vey0KwF_UIi3x7b9PreLdVkAeFK6f0mEfuy4nL2cOyvoo1atT_0GnqKaCy71qEAiG8ny3VxtVa_Ig2YfGXbuRklY8lNHxGfb9Jp18TVeFiTu7YhBy1hjb4HMv8cKUFrsp5evu1V5uoL_9E.JTtnQj-SiIWh52yRAt2K_A",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1769052603.061062,
+        "sameSite": "lax",
+        "domain": ".app.leonardo.ai"
+      },
+      {
+        "name": "__stripe_mid",
+        "value": "88297f5b-40a5-48e9-8717-6206b319ddb87f9163",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1799857310,
+        "sameSite": "strict",
+        "domain": ".app.leonardo.ai"
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.473636344.1765164585",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1802881303.210015,
+        "sameSite": "no_restriction",
+        "domain": ".leonardo.ai"
+      },
+      {
+        "name": "_hp2_id.2928600800",
+        "value": "%7B%22userId%22%3A%225243890589432310%22%2C%22pageviewId%22%3A%22423910229967440%22%2C%22sessionId%22%3A%227173782138201975%22%2C%22identity%22%3A%2281d15d6a-1bad-4b9f-9c25-982e6e58c947%22%2C%22trackerVersion%22%3A%224.0%22%2C%22identityField%22%3Anull%2C%22isIdentified%22%3A1%7D",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1799242204,
+        "sameSite": "no_restriction",
+        "domain": ".leonardo.ai"
+      },
+      {
+        "name": "_hp2_props.2928600800",
+        "value": "%7B%22platform%22%3A%22Web%22%2C%22pathname%22%3A%22%2F%22%2C%22referrer%22%3A%22https%3A%2F%2Fapp.leonardo.ai%2Fauth%2Flogin%22%2C%22knownUser%22%3Atrue%2C%22plan%22%3A%22FREE%22%2C%22teamId%22%3A22914%2C%22teamName%22%3A%22Groupy%20Team%22%2C%22teamPlan%22%3A%22STARTER%22%2C%22teamPlanSeats%22%3A3%7D",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1799242204,
+        "sameSite": "no_restriction",
+        "domain": ".leonardo.ai"
+      },
+      {
+        "name": "ab.storage.deviceId.05d8c73d-1a81-4910-9f94-836c0ba47b65",
+        "value": "%7B%22g%22%3A%2231ff75a3-2b46-a191-b7df-a15a3cc9cd40%22%2C%22c%22%3A1751011499518%2C%22l%22%3A1765164603651%7D",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1799724603,
+        "sameSite": "no_restriction",
+        "domain": ".leonardo.ai"
+      },
+      {
+        "name": "impact_profileId",
+        "value": "e1355121-44ad-4473-999c-e54f1232dcb1",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "lax",
+        "domain": ".leonardo.ai"
+      },
+      {
+        "name": "intercom-id-xc8vmlt4",
+        "value": "51baf1de-e8e4-4c0b-a6db-2d85c3734cb2",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1788494603,
+        "sameSite": "lax",
+        "domain": ".leonardo.ai"
+      },
+      {
+        "name": "IR_gbd",
+        "value": "leonardo.ai",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".leonardo.ai"
+      },
+      {
+        "name": "sign",
+        "value": "445275774777774b50534a764f797a51455734626972535650696e764a7a75795a727154546f4764377451313556686c6966584a72515059473167307474554f",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1772940585,
+        "sameSite": "no_restriction",
+        "domain": ".leonardo.ai"
+      },
+      {
+        "name": "_ga_9SZY51046C",
+        "value": "GS2.1.s1768321300$o2$g0$t1768321300$j60$l0$h1663498854",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1802881303.193245,
+        "sameSite": "no_restriction",
+        "domain": ".leonardo.ai"
+      },
+      {
+        "name": "_ga_4J9ZXN1KG8",
+        "value": "GS2.1.s1768321301$o2$g0$t1768321301$j60$l0$h1043143585",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1802881303.209545,
+        "sameSite": "no_restriction",
+        "domain": ".leonardo.ai"
+      },
+      {
+        "name": "81d15d6a-1bad-4b9f-9c25-982e6e58c947%3Achecklist-state",
+        "value": "{%22status%22:%22closed%22%2C%22startHerePopOverSeen%22:false%2C%22hasChecklistBeenSeen%22:false%2C%22reopenChecklistPopoverSeen%22:false%2C%22isComplete%22:false}",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1802881303,
+        "sameSite": "strict",
+        "domain": "app.leonardo.ai"
+      },
+      {
+        "name": "IR_36860",
+        "value": "1768321307490%7C0%7C1768321307490%7C%7C",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".leonardo.ai"
+      },
+      {
+        "name": "__stripe_sid",
+        "value": "73fdc7c7-e669-47f0-9ad7-7e168379750500196e",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "strict",
+        "domain": ".app.leonardo.ai"
+      },
+      {
+        "name": "__Secure-next-auth.session-token.0",
+        "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..u9n7dsFEHU8nLc-w.pBXVd0gKnX9KnVObQGgEsP7CvpRj37N_tHTNZbXpTwRPWV3e5jGXs9gPKZMykpeESJ9AiRL1AE6BSe21AFykgwDwNXKwm6VEibJXp0_GPtXF6TwK8_wYHUA9SXSApd9aBGUIP4eJNR1D9LqjwM0yUbfhdrOJoYvNoY4a5gb-KpmUx_qc0tTrhPhlEuKqnfBbVSnslfWjNMFkgVN6P1VVYLvhdB7zM0Mr29wFyRFra58tQT7yCAQPFzOFd98tGrei7zwmQX3g9WM9v64LGMOuVM1W3YInmGxcdnxXaTbVZrhNyOS1tMpN8hzuHKPkuQFQO7vum5r4tbtWZA_0dernQ1kI5eHe4J03u1RE6GEMdl2F3wzLmrPKT7snI5N7LBRg0T5PoK7pYFxCJGcSXrCaLYLOihC20TRkpkkMwaexggaxvYzJPi9ihqGl1dqLzq-C63AlhyXAzj14yvLsX6u-UjzD0u2Zx1OaidqtXGlAE3tVUbY3WF2ywY_liCBtLzJQwClrVzE5OSNtai35upU6DMQu5XhD7j4iV7dPSlNLYeAmh1y9XdBnZc4ZP5SFfeZ2rGH2hESRiiFZxk74aJihQUAbU1yCubZzsdI3ZK3r7gS40f-sR_OX-N83_YrQuFl9MCNLZBzZhgVf2yIwZ_etK9iT3ek8bCB1H90vQAQ5rWnFcDttbX0ST08ebtOmSJ4YVP4h4470PkmENZ_go0gBdjRBARLxSIH5AyXGlJRfnWmiEeLXc7VJHmt92RnYMI5AzvvBN5_Bhk9HItOJ2Y_L_fz1j8sQZ5YiELwrHrhkpm78q2SbON_xw_L23eqqoyuxy7okQByvcRh8Hcj-MH4I5B5o4isr0pZnGLjEz-XjhexQ_GJ2_FnDKK2sBW0Yh87YsF5zji9FvkvWZkgR8XTFXvqaznY-Iw-457TS-LtrniKiOg7QdXOeaHyRu38MBX809M-H8Bqk6Ex1AI_pawF0F_odSiO5G7Hd-kNY_mCmicTywOBSwdsVaXDssm9DYJchwWYz2ZwkRsKH5XWujkCI6skDGfNZPkt3qVj6P76vkatCsn6MHWHRQnecGWJOt2dXs9Lyqk06hflmwiUYqDkrLbToXiKmYf6MzB_D8oxmfZf7bD4BgDQ0-wTBMgsdAQk_df0gMhQPE5YjSd8jz_TU9jnpDnRmLx7c0bNataSvScIR878a9JYkXasb2Blp-aXbD89pmO5Ra1ARDxnfM8xaxJzBISXhetqL0OeRRSQkUY8w-G8vJ9fG9uVqYQAHFLtcEFHgM_wlsAmefFPJ2LnwCoLrlknbAlMg9dv2yN91xoAwcIX6CpwvNYAY2Ix72rDe4CkROa2pc0HSSvRNPwujuCjuRJUl6Z8131--Xu2SE1WlKX2cBDnVlZx3Lxo-eGgk4VLGN7XIvBPb7Sqqu2l6IIGfuAtqszl9BSx4QILQy8_IcSQbFjLEEV_JqkNLE7pGPzrW7KhcCBdHVCbKVddaKhfyLiPGEpvKwYEZMMxNQg0wNk6WmWErxjDKVBOD5FSS2YVZmfVhYWtbhz2QM4nGEOc8S4F9TBQvMWp9VL8yvrgWxq-8XD_w4Eg_vciGI9U5Zo2jeg7rbHf3j22NkQtRvuiou9uYdfDIP-NGS-b0iSr3waBpKrvJFjXxbv1NqQaKbWt2O-y0UIwjr0dddL8kdgUFy6zyV_7NsccZcSzaJEbIBIFhmDhNPixddmSGpbio_fUH6h2n4cViGIoXdCwnwY7vWSmLwIxS8ChxdbIF50JnFtZIpTeRkYZrtrn0jS0Mm3uxZEbeoIOmJ-7wghvZT9LycZveu61C0-st76nqfdCFydoiwZlYTTrSAGg3TSHa5yWZ-hrt8IxTnvr4X6VVCqWs2fzSkyPbYqOXhUHDu7i-TzEKZr-yx_9qJSb3kxQTtvIB6eM6L79SzfcfdYS2vraE3fW8n3LcDxpnW-R59F3_BmtQciO2Fppy8gPqjcOqrl_HB33454e5sEnIZubsMxJR99PF7AD6aC6i0eKaeE0KURTME0dGl5SKC3FohJAJ_TX04U74wXdkVFnZcNWOJmhAZykdCTG25ENxJaVivczKlACg9LitHoBleW4eu2dw1JPkLfxZnYcpm-qSdDT52NHHE8qwWzAQqprWgKp-aMY0cUwN0hZCqGIp9d273SrR2d5bg8CPEQXScP7DqTwXcCuQqaKIvK8Qu8Oi-x_dcMGqiFJ3BPI9yrp5-0gHtJOj4-3gpoi9VeI7L2Zrd5Wu1kQIBRqGeyPBfZW4nb3usPXtejFNxG4nCJPFpa6rLdGN6Y-hwRavK6_prfi1FVgom878SdJoxz9TXgtIsLsHvAWjhkZ6423cowGLFFR5KjVVNaVBUbxN0mXBRSAkMdeVUz2lbVEdrsIJXTtV1EmZ4qfZoke9F09uPj_efaDdLzwIpkkg9Le6_yHtgoSnz7ERYxQ556HB3bQsTn_Csfs1OtzwC-5zyfUoLYrrtcrOWIeiYphaKqi6tW1bnY6CrmASxl181FdE8ZP-x7vBkUO9Q9bRUyRFgnbD3c4Xh-LSgVKORIoBnIbpBLb8v57ALcGJEQSHYGr16Qn0BpW4qQCp7qNSv7gxXxKmLN-ZRzygm9yRaOTqelr0TEWtIta9X9U274x-FWmmHGzZC0Re0CFbrSah8plMFvSXL3qLux1d0aABQveZHoW8GDZj-6CFMh9KgUMonth7n8MXVD-5FryDwGc7kiPEesgpWKyhOQOZHzPfhdjXv0jhBbsvJV2NbZJ8r9Kk0MA4s7c5aHM0Zf2xxfH4reMAK1nyXOrFjjP40kktAA4wtN-xbuVgxHN0sA-3wHN58a8Xb7jKT5umJ36sjlhZJ5YHZ6Kd15CeaCsQVPOHrr2bmSwFF4fKujSoKg2y0Znxk8CkkeWrntMZBpXDyDlNWSNyxx05kkUrACQJIwyh1s12gJtje96qSNzfPyZk75GEPkupuedoNDvDKq_GuBQzB3VWuqIz_5WBryYFs6q4qPaiJGvnwVoaWbamieHXIqPuSLxHIAqN0I2atQ_bDyS8qjCTd-hzqAGRqTzgXIfsIbHJNmV1AQEVzTaxIUOWu2qh-qxYDXRrBWYrk4vkCg9A9-t2Keyp5U2KEU03uCjNd1vIUqLlWRULZId1dUaukK2K3zBeslLDd5p3SHFIcaNr6MKQvnNbOc9WIoq990i_wB_W67czEcL7WnqYmyA1LXFg_RP1ncjG8GDjD6UFPIF-Irl_tTV0jADCH0tEKhcUr8MQXFlta_uD_xIZ_yXXVtVhcvQwxxmFTcD5NRbCTsd2GXJfvRGY92JdrYdrhRlJu8y0KPfljc16UXGioKvK8rkDFlfbaucRWRgQQUGeX8swgrnwROBEvP69RCvUauKn1E7iOhrBGRdb3-YfA0IsJOK6g_cbVlZY0RnGJiJ88fvWvCl7LiTBkfHuKvVyysb_g-Xsu7VT1fp9VkFPGt5WuJBYDxV5fYwHQk7cg_0pQJj8Ho_koZ-uCH7rsJvt0JIQ0DDXXYlHadSie-ZBhDH72TiMs8pvNpGqNh1rvYF3Z1jZSnD032bJsqNuKKohesVSZ_wVTJn4xMxRAEp_O2bwYby14a53aWgOnyhWBlGMxVT9cRDZuUL7-CljqEQ-Oa05xLOnC_oxkU3T-2UYyfqvQMnwxjHL_L-VbvarHrtwzptiA_sDLDueSljwxeObJJln2MJUyfmqigm-Fk9be_d8N-9kJqtqBNAf4NU1VYl2m8Hph2iIDxB5f_2ETWho4KXf678t1PYXhEgrxJ4JLWe8kK2J7ONFOXVXzHt4lE9_tbaWhqp74rLpBmtAXBygCqMjvvpe20qyU1wOCPRzo0RR1U6I1zpJ52gPhSQ",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1772210116.290605,
+        "sameSite": "lax",
+        "domain": "app.leonardo.ai"
+      },
+      {
+        "name": "__Secure-next-auth.session-token.1",
+        "value": "2Cn0L6Eng1yA3SK42g_oxJ5rDJGSxUZALWZvl13MbM2HOrczY8bUNcaQMRO5YcLiPUP0eZ55Gp2qMNtr4mDMCvnMwkLNDPLmAgvl9UylkdnMlKnUSoLBiZ9diRxlw0_CmTkdBtupuqXAub0uMSeYEWgmZA53i1NRh1uKEsupAhhrseDsaNt73EjodN5l0xnK_G34Q0prBnYuWdBKqZEifcvsmwMFQQY1ml9oDq3Nj9LzYv48c3xOXgNnPV-jMvOufSKku6cqj2nVa5kaQZvyAZpde4f-m5Mf5xz1Idl8A8XTzyzkd2xoNy0tpKHBpyZWcrv7GwnY2LSZsL7PBDfXM_KG2zc3s0cjpJIg1Qa2QJPIpOtuTu7xAxBR3DGNk5DXQYqfEYKGjWBw-QJskGNv6y6Xex0lr-5A8vmYjKEBpqa61bI9VQKVybE2OP9r8YkCie-xzOyAlXEDJbOuFpfHnsa2tQMxHi-oYON_eATE-ZZSYbmzilThodUpZ67RC8K-IdtWfg5hl6BlDEzaZDMNbOgjWD6L8BEbYv0rSt1KbaQyUYp88btRh0GUtgn83xqB6ayVorkwasPEMYhx8yTPIpKtpUWBgiBEZTptDRojNj1oLfHsU2zSMKByud-EO5qyRVombLX0h_CQee0pwv8UvHP0Y2Qp1mbArlcx5vAuc-J4W70OLOFgtbAc544adXVUXIzjgk4rM6J7nmxGM9CqxILk9kseYWkuq-4qW2Nj98nqmswLrSR_AG1rRZtLulbTPhO8aOvoVvfTDJes.A4O9sM89iUNO9Rc0Eo7xlQ",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1772210116.290907,
+        "sameSite": "lax",
+        "domain": "app.leonardo.ai"
+      },
+      {
+        "name": "CF_Access_Token",
+        "value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxY2FlZDVhZS1mMGFiLTQzYjQtOTU0MS0zYjk2NmFhNmVkYmYiLCJ0ZWFtSWRzIjpbIjZmOThmOWMyLTczYjAtNDllZS1iZjUxLTY1MzVmZTA3YTA4OSJdLCJpYXQiOjE3NjgzMjIxMDQsImV4cCI6MTc2ODMyNTcwNCwianRpIjoiYTQ5ZGZiM2QtZDA0OS00OWM4LThjMTMtY2U5ODk3MmFkOTc4In0.rWPsR2Y9IbBuFt6V3n7Hy12Vy7jYDdOLQqD8oDzDdWc",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1768325716.801911,
+        "sameSite": "no_restriction",
+        "domain": ".leonardo.ai"
+      }
+    ],
+    "sourceUrl": "https://app.leonardo.ai/"
+  },
+  {
+    "meta": {
+      "id": "pro--livelink-ai-1007",
+      "name": "Pro: LiveLink AI",
+      "icon": "https://cdn.prod.website-files.com/64f605bdfa749671fed117a9/6524730de295b510b8f7d0e2_livelink%20ai.png",
+      "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20LiveLink%20AI&login=livelink@prem1um.xyz&password=LiveLinkGroupy2025!&url=https://app.livelink.ai/login",
+      "category": [
+        "productivity",
+        "proexclusive"
+      ]
+    },
+    "cookies": [
+      {
+        "name": "dummy",
+        "value": "5",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "domain": "livelink.ai"
+      }
+    ],
+    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Pro:%20LiveLink%20AI&login=livelink@prem1um.xyz&password=LiveLinkGroupy2025!&url=https://app.livelink.ai/login"
+  },
+  {
+    "meta": {
+      "id": "pro--mathacademy-1054",
+      "name": "Pro: Mathacademy",
+      "icon": "https://pbs.twimg.com/profile_images/1646549566052003841/Z5yj3RDi_400x400.jpg",
+      "url": "https://www.mathacademy.com/learn",
+      "category": [
+        "productivity",
+        "proexclusive"
+      ]
+    },
+    "cookies": [
+      {
+        "name": "session.sig",
+        "value": "44sjArl0LcGm7T2k_trrAntU1DA",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1770223621.783577,
+        "sameSite": "no_restriction",
+        "domain": ".mathacademy.com"
+      },
+      {
+        "name": "_ga_JCTFDEHXW7",
+        "value": "GS2.1.s1767631609$o1$g1$t1767631619$j50$l0$h0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1802191619.332619,
+        "sameSite": "no_restriction",
+        "domain": ".mathacademy.com"
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.20679899.1767631609",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1802191616.032457,
+        "sameSite": "no_restriction",
+        "domain": ".mathacademy.com"
+      },
+      {
+        "name": "session",
+        "value": "eyJ1c2VyQWdlbnQiOnsib3MiOnsibmFtZSI6Ik1hYyBPUyIsInZlcnNpb24iOiIxMC4xNS43In0sImJyb3dzZXIiOnsibmFtZSI6IkNocm9tZSIsInZlcnNpb24iOiIxNDIuMC4wLjAiLCJtYWpvciI6IjE0MiJ9LCJhZGRyZXNzIjoiMTg0LjIyLjEwLjEzNiIsImNvdW50cnkiOiJUaGFpbGFuZCIsInJlZ2lvbiI6IkJhbmdrb2siLCJjaXR5IjoiQmFuZ2tvayIsImxhdGl0dWRlIjoiMTMuNzU2MzMiLCJsb25naXR1ZGUiOiIxMDAuNTAxNzciLCJpc3AiOiJBSVMgRmlicmUiLCJ0aW1lWm9uZSI6IkFzaWEvQmFuZ2tvayJ9LCJ1c2VyIjp7ImlkIjoyNzY4MiwiY3JlYXRlZCI6IjIwMjUtMTEtMDNUMTU6MjI6MTAuMDAwWiIsIm9yZ2FuaXphdGlvbklkIjpudWxsLCJzY2hvb2xJZCI6bnVsbCwiYWNjZXNzIjoiLmNvbSIsImlzQWRtaW4iOjAsImlzQXV0aG9yIjowLCJpc0VkaXRvciI6MCwiaXNPcmdBZG1pbiI6MCwiaXNTY2hvb2xBZG1pbiI6MCwiaXNJbnN0cnVjdG9yIjowLCJpc0d1YXJkaWFuIjowLCJpc1N0dWRlbnQiOjEsInVzZXJuYW1lIjoiR3JvdXB5UHJvIiwiZmlyc3ROYW1lIjoiR3JvdXB5IiwibGFzdE5hbWUiOiJQcm8iLCJlbWFpbCI6Im1hdGhjYWRlbXlAcHJlbTF1bS54eXoiLCJwYXNzd29yZCI6IiIsInNhbHQiOiIwMDI2ODhhYzBiNDk2ZDYyM2U0MzY0NzVjOTc0YWEwNSIsImhhc2giOiI5OTIzNWM4ZTc0OGMzZWQ3OGE4ODg2NDljNjc5NjQ0YTM4ZDE5ZWIzZTY5MWI4ZjAxMWFiNGI0MTYyNjZhNTk2Iiwic2VjcmV0S2V5IjoiaDFRb1JDWUprUTNOSHRVd3ZRaFRWVXdoTkVWbVpoT0ZtWSIsInZhbGlkYXRlZCI6MSwiZGVhY3RpdmF0ZWQiOjAsInNlcXVlbmNlSWQiOjE2LCJ0aW1lem9uZSI6MCwidGltZVpvbmUyIjoiQXNpYS9CYW5na29rIiwidGltZVNjYWxhciI6MSwiYWxsb3dOZWdhdGl2ZVhQIjoxLCJjdXN0b21lcklkIjoiY3VzX1RNN3BzVndxTUFhdFA4IiwibWFDdXN0b21lcklkIjoxNzQwMSwic2lnblVwSW5Qcm9ncmVzcyI6MCwiYWNjb3VudENvbmZpZ3VyYXRpb24iOm51bGwsInN1YnNjcmlwdGlvbklkIjoic3ViXzFTUFBhN0Q0Z2NURlJ4OTdTWW9NaEVOZCIsIm1hU3Vic2NyaXB0aW9uSWQiOjIxNjIzLCJsaWZldGltZU1lbWJlciI6MCwicmVzdW1lT24iOm51bGwsImNhbmNlbGVkIjpudWxsLCJjYW5jZWxSZWFzb24iOm51bGwsImRlYWN0aXZhdGVPbiI6bnVsbCwiaGVhckFib3V0VXMiOiJ0d2l0dGVyIiwicHJpbWFyeVJlYXNvbiI6bnVsbCwiaW5pdGlhbGl6ZWQiOjEsInByb3ZpZGVkU3VwcG9ydCI6MCwicGFydGljaXBhdGVJbkxlYWd1ZXMiOjEsImNvdXJzZSI6eyJpZCI6MTI5LCJuYW1lIjoiTWF0aGVtYXRpY3MgZm9yIE1hY2hpbmUgTGVhcm5pbmciLCJleGFtUHJlcCI6MCwic3RhcnREYXRlIjoiMjAyNS0xMS0yMVQwMDowMDowMC4wMDBaIiwiZW5kRGF0ZSI6bnVsbCwiaG9saXN0aWMiOjAsInRlc3RQcmVwIjowLCJmb3JDcmVkaXQiOjAsImNvbXByZWhlbnNpdmVSZXF1aXJlZCI6MCwibnVtRXhhbXMiOjAsImZyZXNoU3RhcnQiOjAsImNsZWFuU2xhdGUiOm51bGwsInByb2dyZXNzIjowLCJwb2ludHNSZW1haW5pbmciOjExODI4LCJwb2ludHNSZW1haW5pbmdFeGNsdWRpbmdSZXZpZXciOjExMzI4LCJlbmFibGVkIjoxLCJzdGFydERhdGVTdHIiOiJOb3YgMjFzdCJ9LCJmZWF0dXJlQWNjZXNzIjp7fSwia25vd2xlZGdlIjp7InRvdGFsTVAiOjAsImJlbHQiOnsiaWQiOjEsImNvbG9yIjoiV2hpdGUiLCJkZWdyZWUiOjF9fSwiaW5pdGlhbHMiOiJHUCJ9LCJhY2NvdW50Q29uZmlndXJhdGlvbiI6bnVsbCwiY291cnNlSWQiOjEyOX0=",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1770223621.783496,
+        "sameSite": "no_restriction",
+        "domain": ".mathacademy.com"
+      },
+      {
+        "name": "sign",
+        "value": "445275774777774b50534a764f797a51455734626972535650696e764a7a75795a727154546f47643774534247796351675842787768312f342b725832423976",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1770223621.783577,
+        "sameSite": "no_restriction",
+        "domain": ".mathacademy.com"
+      },
+      {
+        "name": "session",
+        "value": "eyJ1c2VyQWdlbnQiOnsib3MiOnsibmFtZSI6Ik1hYyBPUyIsInZlcnNpb24iOiIxMC4xNS43In0sImJyb3dzZXIiOnsibmFtZSI6IkNocm9tZSIsInZlcnNpb24iOiIxNDIuMC4wLjAiLCJtYWpvciI6IjE0MiJ9LCJhZGRyZXNzIjoiMTg0LjIyLjEwLjEzNiIsImNvdW50cnkiOiJUaGFpbGFuZCIsInJlZ2lvbiI6IkJhbmdrb2siLCJjaXR5IjoiQmFuZ2tvayIsImxhdGl0dWRlIjoiMTMuNzU2MzMiLCJsb25naXR1ZGUiOiIxMDAuNTAxNzciLCJpc3AiOiJBSVMgRmlicmUiLCJ0aW1lWm9uZSI6IkFzaWEvQmFuZ2tvayJ9LCJ1c2VyIjp7ImlkIjoyNzY4MiwiY3JlYXRlZCI6IjIwMjUtMTEtMDNUMTU6MjI6MTAuMDAwWiIsIm9yZ2FuaXphdGlvbklkIjpudWxsLCJzY2hvb2xJZCI6bnVsbCwiYWNjZXNzIjoiLmNvbSIsImlzQWRtaW4iOjAsImlzQXV0aG9yIjowLCJpc0VkaXRvciI6MCwiaXNPcmdBZG1pbiI6MCwiaXNTY2hvb2xBZG1pbiI6MCwiaXNJbnN0cnVjdG9yIjowLCJpc0d1YXJkaWFuIjowLCJpc1N0dWRlbnQiOjEsInVzZXJuYW1lIjoiR3JvdXB5UHJvIiwiZmlyc3ROYW1lIjoiR3JvdXB5IiwibGFzdE5hbWUiOiJQcm8iLCJlbWFpbCI6Im1hdGhjYWRlbXlAcHJlbTF1bS54eXoiLCJwYXNzd29yZCI6IiIsInNhbHQiOiIwMDI2ODhhYzBiNDk2ZDYyM2U0MzY0NzVjOTc0YWEwNSIsImhhc2giOiI5OTIzNWM4ZTc0OGMzZWQ3OGE4ODg2NDljNjc5NjQ0YTM4ZDE5ZWIzZTY5MWI4ZjAxMWFiNGI0MTYyNjZhNTk2Iiwic2VjcmV0S2V5IjoiaDFRb1JDWUprUTNOSHRVd3ZRaFRWVXdoTkVWbVpoT0ZtWSIsInZhbGlkYXRlZCI6MSwiZGVhY3RpdmF0ZWQiOjAsInNlcXVlbmNlSWQiOjE2LCJ0aW1lem9uZSI6MCwidGltZVpvbmUyIjoiQXNpYS9CYW5na29rIiwidGltZVNjYWxhciI6MSwiYWxsb3dOZWdhdGl2ZVhQIjoxLCJjdXN0b21lcklkIjoiY3VzX1RNN3BzVndxTUFhdFA4IiwibWFDdXN0b21lcklkIjoxNzQwMSwic2lnblVwSW5Qcm9ncmVzcyI6MCwiYWNjb3VudENvbmZpZ3VyYXRpb24iOm51bGwsInN1YnNjcmlwdGlvbklkIjoic3ViXzFTUFBhN0Q0Z2NURlJ4OTdTWW9NaEVOZCIsIm1hU3Vic2NyaXB0aW9uSWQiOjIxNjIzLCJsaWZldGltZU1lbWJlciI6MCwicmVzdW1lT24iOm51bGwsImNhbmNlbGVkIjpudWxsLCJjYW5jZWxSZWFzb24iOm51bGwsImRlYWN0aXZhdGVPbiI6bnVsbCwiaGVhckFib3V0VXMiOiJ0d2l0dGVyIiwicHJpbWFyeVJlYXNvbiI6bnVsbCwiaW5pdGlhbGl6ZWQiOjEsInByb3ZpZGVkU3VwcG9ydCI6MCwicGFydGljaXBhdGVJbkxlYWd1ZXMiOjEsInVwd29ya0lkIjpudWxsLCJjb3Vyc2UiOnsiaWQiOjEyOSwibmFtZSI6Ik1hdGhlbWF0aWNzIGZvciBNYWNoaW5lIExlYXJuaW5nIiwiZXhhbVByZXAiOjAsInN0YXJ0RGF0ZSI6IjIwMjUtMTEtMjFUMDA6MDA6MDAuMDAwWiIsImVuZERhdGUiOm51bGwsImhvbGlzdGljIjowLCJ0ZXN0UHJlcCI6MCwiZm9yQ3JlZGl0IjowLCJjb21wcmVoZW5zaXZlUmVxdWlyZWQiOjAsIm51bUV4YW1zIjowLCJmcmVzaFN0YXJ0IjowLCJjbGVhblNsYXRlIjpudWxsLCJwcm9ncmVzcyI6MCwicG9pbnRzUmVtYWluaW5nIjoxMTgyOCwicG9pbnRzUmVtYWluaW5nRXhjbHVkaW5nUmV2aWV3IjoxMTMyOCwiZW5hYmxlZCI6MSwic3RhcnREYXRlU3RyIjoiTm92IDIxc3QifSwiZmVhdHVyZUFjY2VzcyI6e30sImtub3dsZWRnZSI6eyJ0b3RhbE1QIjowLCJiZWx0Ijp7ImlkIjoxLCJjb2xvciI6IldoaXRlIiwiZGVncmVlIjoxfX0sImluaXRpYWxzIjoiR1AifSwiYWNjb3VudENvbmZpZ3VyYXRpb24iOm51bGwsImNvdXJzZUlkIjoxMjl9",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1770913315.249382,
+        "sameSite": "no_restriction",
+        "domain": "www.mathacademy.com"
+      },
+      {
+        "name": "session.sig",
+        "value": "9dRvpBvsvSto2uh02BVuBfJnyQ4",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1770913315.249531,
+        "sameSite": "no_restriction",
+        "domain": "www.mathacademy.com"
+      }
+    ],
+    "sourceUrl": "https://www.mathacademy.com/learn"
+  },
+  {
+    "meta": {
+      "id": "pro--mobbin-1055",
+      "name": "Pro: Mobbin",
+      "icon": "https://asset.brandfetch.io/idIfIyyq5-/id2DzZkAtw.png",
+      "url": "https://mobbin.com/discover/apps/ios/latest",
+      "category": [
+        "design",
+        "proexclusive"
+      ]
+    },
+    "cookies": [
+      {
+        "name": "ajs_anonymous_id",
+        "value": "84b8a92d-1e21-476a-8c25-035bc068d1b6",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1799857333,
+        "sameSite": "lax",
+        "domain": ".mobbin.com"
+      },
+      {
+        "name": "ajs_user_id",
+        "value": "f6c62251-73cb-49d7-8f07-33e8567ff6ce",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1799857333,
+        "sameSite": "lax",
+        "domain": ".mobbin.com"
+      },
+      {
+        "name": "sb-ujasntkfphywizsdaapi-auth-token",
+        "value": "%7B%22access_token%22%3A%22eyJhbGciOiJIUzI1NiIsImtpZCI6ImUxb3dtd2dYV216TkhSVUEiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3VqYXNudGtmcGh5d2l6c2RhYXBpLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJmNmM2MjI1MS03M2NiLTQ5ZDctOGYwNy0zM2U4NTY3ZmY2Y2UiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzY4Mjk4MzIzLCJpYXQiOjE3NjgyOTQ3MjMsImVtYWlsIjoianVyaXN0cy5jb3N0c185NkBpY2xvdWQuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZnVsbF9uYW1lIjoiSnVyaXN0cyBDb3N0c185NiJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzY4Mjk0NzIzfV0sInNlc3Npb25faWQiOiJmMzQwMjc2Yy1hZTQ1LTRjZmEtYmRhMi0zODU2ZTY5ZDg1M2YiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.QqRuqotgS3gBSejrk909uQWLSdgvTUcgrQynmTOZ7J8%22%2C%22refresh_token%22%3A%22cvkrrajje6di%22%2C%22user%22%3A%7B%22id%22%3A%22f6c62251-73cb-49d7-8f07-33e8567ff6ce%22%2C%22aud%22%3A%22authenticated%22%2C%22role%22%3A%22authenticated%22%2C%22email%22%3A%22jurists.costs_96%40icloud.com%22%2C%22email_confirmed_at%22%3A%222025-12-16T01%3A59%3A45.495835Z%22%2C%22phone%22%3A%22%22%2C%22confirmed_at%22%3A%222025-12-16T01%3A59%3A45.495835Z%22%2C%22recovery_sent_at%22%3A%222025-12-17T09%3A24%3A42.047117Z%22%2C%22last_sign_in_at%22%3A%222026-01-13T08%3A58%3A43.063808Z%22%2C%22app_metadata%22%3A%7B%22provider%22%3A%22email%22%2C%22providers%22%3A%5B%22email%22%5D%7D%2C%22user_metadata%22%3A%7B%22email_verified%22%3Atrue%2C%22full_name%22%3A%22Jurists%20Costs_96%22%7D%2C%22identities%22%3A%5B%7B%22identity_id%22%3A%22dbc810cb-096c-4f26-aa5f-cb7584127155%22%2C%22id%22%3A%22f6c62251-73cb-49d7-8f07-33e8567ff6ce%22%2C%22user_id%22%3A%22f6c62251-73cb-49d7-8f07-33e8567ff6ce%22%2C%22identity_data%22%3A%7B%22email%22%3A%22jurists.costs_96%40icloud.com%22%2C%22email_verified%22%3Afalse%2C%22phone_verified%22%3Afalse%2C%22sub%22%3A%22f6c62251-73cb-49d7-8f07-33e8567ff6ce%22%7D%2C%22provider%22%3A%22email%22%2C%22last_sign_in_at%22%3A%222025-12-16T01%3A58%3A58.77503Z%22%2C%22created_at%22%3A%222025-12-16T01%3A58%3A58.775094Z%22%2C%22updated_at%22%3A%222025-12-16T01%3A58%3A58.775094Z%22%2C%22email%22%3A%22jurists.costs_96%40icloud.com%22%7D%5D%2C%22created_at%22%3A%222025-12-16T01%3A58%3A58.771868Z%22%2C%22updated_at%22%3A%222026-01-13T08%3A58%3A43.066076Z%22%2C%22is_anonymous%22%3Afalse%7D%2C%22token_type%22%3A%22bearer%22%2C%22expires_in%22%3A3670.0520000457764%2C%22expires_at%22%3A1768298323%7D",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1802854653.308878,
+        "sameSite": "lax",
+        "domain": ".mobbin.com"
+      },
+      {
+        "name": "mobbin#last_browsed_discover_page_tab",
+        "value": "%22latest%22",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".mobbin.com"
+      },
+      {
+        "name": "_ga_H2L379YHME",
+        "value": "GS2.1.s1768294588$o4$g1$t1768294656$j53$l0$h0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1802854656.569373,
+        "sameSite": "no_restriction",
+        "domain": ".mobbin.com"
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.2.1153794116.1767925634",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1802854648.603946,
+        "sameSite": "no_restriction",
+        "domain": ".mobbin.com"
+      },
+      {
+        "name": "__stripe_mid",
+        "value": "189234f5-3339-4749-bcc5-9f62faabf10245c804",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1799857334,
+        "sameSite": "strict",
+        "domain": ".mobbin.com"
+      },
+      {
+        "name": "_fbp",
+        "value": "fb.1.1768294648878.386720355359199769",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1776070655,
+        "sameSite": "lax",
+        "domain": ".mobbin.com"
+      },
+      {
+        "name": "_gid",
+        "value": "GA1.2.239913718.1768294649",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1768381048,
+        "sameSite": "no_restriction",
+        "domain": ".mobbin.com"
+      },
+      {
+        "name": "mobbin#last_browsed_experience",
+        "value": "%22apps%22",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".mobbin.com"
+      },
+      {
+        "name": "mobbin#last_browsed_platform",
+        "value": "%22ios%22",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".mobbin.com"
+      },
+      {
+        "name": "mobbin#last_browsed_experience",
+        "value": "%22apps%22",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": "mobbin.com"
+      },
+      {
+        "name": "mobbin#last_browsed_platform",
+        "value": "%22ios%22",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": "mobbin.com"
+      },
+      {
+        "name": "mobbin#last_browsed_discover_page_tab",
+        "value": "%22latest%22",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": "mobbin.com"
+      },
+      {
+        "name": "__stripe_sid",
+        "value": "39048170-349a-4e72-a142-889d51280c79b800d6",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "strict",
+        "domain": ".mobbin.com"
+      },
+      {
+        "name": "sb-ujasntkfphywizsdaapi-auth-token",
+        "value": "%7B%22access_token%22%3A%22eyJhbGciOiJIUzI1NiIsImtpZCI6ImUxb3dtd2dYV216TkhSVUEiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3VqYXNudGtmcGh5d2l6c2RhYXBpLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJmNmM2MjI1MS03M2NiLTQ5ZDctOGYwNy0zM2U4NTY3ZmY2Y2UiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzY4MzI1MzkwLCJpYXQiOjE3NjgzMjE3OTAsImVtYWlsIjoianVyaXN0cy5jb3N0c185NkBpY2xvdWQuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZnVsbF9uYW1lIjoiSnVyaXN0cyBDb3N0c185NiJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzY4Mjk0NzIzfV0sInNlc3Npb25faWQiOiJmMzQwMjc2Yy1hZTQ1LTRjZmEtYmRhMi0zODU2ZTY5ZDg1M2YiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.CcHXStYqnTunl693TVQRRHwKf318vDuuxitXcPpKQu8%22%2C%22token_type%22%3A%22bearer%22%2C%22expires_in%22%3A3600%2C%22expires_at%22%3A1768325390%2C%22refresh_token%22%3A%22xjvxc36ff53k%22%2C%22user%22%3A%7B%22id%22%3A%22f6c62251-73cb-49d7-8f07-33e8567ff6ce%22%2C%22aud%22%3A%22authenticated%22%2C%22role%22%3A%22authenticated%22%2C%22email%22%3A%22jurists.costs_96%40icloud.com%22%2C%22email_confirmed_at%22%3A%222025-12-16T01%3A59%3A45.495835Z%22%2C%22phone%22%3A%22%22%2C%22confirmed_at%22%3A%222025-12-16T01%3A59%3A45.495835Z%22%2C%22recovery_sent_at%22%3A%222025-12-17T09%3A24%3A42.047117Z%22%2C%22last_sign_in_at%22%3A%222026-01-13T08%3A58%3A43.063808Z%22%2C%22app_metadata%22%3A%7B%22provider%22%3A%22email%22%2C%22providers%22%3A%5B%22email%22%5D%7D%2C%22user_metadata%22%3A%7B%22email_verified%22%3Atrue%2C%22full_name%22%3A%22Jurists%20Costs_96%22%7D%2C%22identities%22%3A%5B%7B%22identity_id%22%3A%22dbc810cb-096c-4f26-aa5f-cb7584127155%22%2C%22id%22%3A%22f6c62251-73cb-49d7-8f07-33e8567ff6ce%22%2C%22user_id%22%3A%22f6c62251-73cb-49d7-8f07-33e8567ff6ce%22%2C%22identity_data%22%3A%7B%22email%22%3A%22jurists.costs_96%40icloud.com%22%2C%22email_verified%22%3Afalse%2C%22phone_verified%22%3Afalse%2C%22sub%22%3A%22f6c62251-73cb-49d7-8f07-33e8567ff6ce%22%7D%2C%22provider%22%3A%22email%22%2C%22last_sign_in_at%22%3A%222025-12-16T01%3A58%3A58.77503Z%22%2C%22created_at%22%3A%222025-12-16T01%3A58%3A58.775094Z%22%2C%22updated_at%22%3A%222025-12-16T01%3A58%3A58.775094Z%22%2C%22email%22%3A%22jurists.costs_96%40icloud.com%22%7D%5D%2C%22created_at%22%3A%222025-12-16T01%3A58%3A58.771868Z%22%2C%22updated_at%22%3A%222026-01-13T10%3A29%3A24.004972Z%22%2C%22is_anonymous%22%3Afalse%7D%7D",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1802881803.220956,
+        "sameSite": "lax",
+        "domain": "mobbin.com"
+      }
+    ],
+    "sourceUrl": "https://mobbin.com/discover/apps/ios/latest"
+  },
+  {
+    "meta": {
+      "id": "pro--nily-ai-1037",
+      "name": "Pro: Nily AI",
+      "icon": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-email-Nily_AI-800x800-0-2-1_uuid_9beae3ae-02e7-47a9-8213-16a9367c2bee.png",
+      "url": "https://go.nily.ai/multi-chat/new-chat",
+      "category": [
+        "productivity",
+        "proexclusive"
+      ]
+    },
+    "cookies": [
+      {
+        "name": "auth-remail-token",
+        "value": "eyJhbGciOiJIUzI1NiJ9.eyJpZCI6ImNtam82dDRlbjAwMDAxZjEybjF6Ymkxb3kiLCJuYW1lIjpudWxsLCJpbWFnZSI6bnVsbCwiZW1haWwiOiJuaWx5QHByZW0xdW0ueHl6Iiwic3RyaXBlU3Vic2NyaXB0aW9uSWQiOiJzdWJfMVNpdkRySnBkT1o0Znl3T1pIVkt4VkU1Iiwic3RyaXBlUHJpY2VJZCI6InByaWNlXzFRT3k2dUpwZE9aNGZ5d09NNEtqMHl6OSIsInN0cmlwZUN1cnJlbnRQZXJpb2RFbmQiOiIyMDI2LTAxLTAzVDEwOjU5OjQ3LjAwMFoiLCJzdHJpcGVJc0ZyZWVUcmlhbCI6dHJ1ZSwibG9naW5Ub2tlbiI6ImE3MWM0NjY3LWVlM2MtNDFiZC05NzI2LTJlYTJmYjEzZmZjOSIsInByb1F1ZXJpZXNDb3VudCI6MCwiYmFzaWNRdWVyaWVzQ291bnQiOjAsImxhc3RSZXNldFF1ZXJpZXNEYXRlIjoiMjAyNS0xMi0yN1QxMDo1OTo1My43MzJaIiwicmVmZXJyYWxDb2RlIjoiY21qbzZ0NGVvMDAwMTFmMTI4cnRzb3QyeCIsInJlZmVycmFsQ3JlZGl0cyI6MCwiYXBwc3Vtb0xpY2Vuc2VLZXkiOm51bGwsImFwcHN1bW9MaWNlbnNlVGllciI6bnVsbCwiYXBwc3Vtb0FkZGl0aW9uYWxTZWF0cyI6bnVsbCwiYXBwc3Vtb0FkZE9uUGFyZW50S2V5IjpudWxsLCJhcHBzdW1vQWRkT25MaWNlbnNlS2V5IjpudWxsLCJjaHJvbWFDb2xsZWN0aW9uTmFtZSI6bnVsbCwia25vd2xlZGdlQmFzZUNvbGxlY3Rpb25OYW1lIjpudWxsLCJsaW5rZWRJblByb2ZpbGVJZCI6bnVsbCwib3JnYW5pemF0aW9uc0lkcyI6bnVsbCwiY3JlYXRlZEF0IjoiMjAyNS0xMi0yN1QxMDo1ODoxOS4xNTFaIiwic3Vic2NyaXB0aW9uIjp7Im5hbWUiOiJmcmVlLXRyaWFsIiwicHJvTWF4UXVlcmllcyI6MjB9fQ.WKUuUO6UmMlgX8lq809YI3SCmt7WZ1g7soDCWLSqz4g",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1798369195,
+        "sameSite": "no_restriction",
+        "domain": ".nily.ai"
+      },
+      {
+        "name": "_clck",
+        "value": "1vy09dx%5E2%5Eg27%5E0%5E2187",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1798369513,
+        "sameSite": "no_restriction",
+        "domain": ".nily.ai"
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.749787798.1766833069",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1801393068.817,
+        "sameSite": "no_restriction",
+        "domain": ".nily.ai"
+      },
+      {
+        "name": "_ga_HNS0T6VZDW",
+        "value": "GS2.1.s1766833068$o1$g0$t1766833195$j60$l0$h0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1801393195.197,
+        "sameSite": "no_restriction",
+        "domain": ".nily.ai"
+      },
+      {
+        "name": "crisp-client%2Fsession%2Fc33ec35b-c19b-4703-9adc-2a630c274009",
+        "value": "session_f7542700-7c7c-43b5-81b1-449a7b088275",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1784089330,
+        "sameSite": "no_restriction",
+        "domain": ".nily.ai"
+      }
+    ],
+    "sourceUrl": "https://go.nily.ai/multi-chat/new-chat"
+  },
+  {
+    "meta": {
+      "id": "pro--perlego-1065",
+      "name": "Pro: Perlego",
+      "icon": "https://cms-resources.prd.timeshighereducation.com/sites/default/files/styles/large/public/2023-03/Perlego-logo_square_1.jpg?itok=pWI0VoCN",
+      "url": "https://www.perlego.com/home",
+      "category": [
+        "productivity",
+        "proexclusive"
+      ]
+    },
+    "cookies": [
+      {
+        "name": "optimizelyEndUserId",
+        "value": "oeu1766366747806r0.04263338469576172",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1781918934,
+        "sameSite": "no_restriction",
+        "domain": ".perlego.com"
+      },
+      {
+        "name": "_ga_0H5HMZK3BP",
+        "value": "GS2.1.s1766366743$o1$g1$t1766366982$j6$l0$h0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1800926982.151,
+        "sameSite": "no_restriction",
+        "domain": ".perlego.com"
+      },
+      {
+        "name": "_gcl_au",
+        "value": "1.1.1238452085.1766366744",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1774142744,
+        "sameSite": "no_restriction",
+        "domain": ".perlego.com"
+      },
+      {
+        "name": "analyticsCookieConsent",
+        "value": "true",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1800926747.653,
+        "sameSite": "no_restriction",
+        "domain": ".perlego.com"
+      },
+      {
+        "name": "optimizelySession",
+        "value": "1766366936345",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1781918936,
+        "sameSite": "no_restriction",
+        "domain": ".perlego.com"
+      },
+      {
+        "name": "i18next",
+        "value": "en",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".perlego.com"
+      },
+      {
+        "name": "_hjSessionUser_1034980",
+        "value": "eyJpZCI6ImZjYjg0M2FlLTZkZmEtNTZhYS1hMGY1LWU4OWY5MGVhMzQ0ZCIsImNyZWF0ZWQiOjE3NjYzNjY3NDkyNTAsImV4aXN0aW5nIjp0cnVlfQ==",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1797902940,
+        "sameSite": "no_restriction",
+        "domain": ".perlego.com"
+      },
+      {
+        "name": "preferencesCookieConsent",
+        "value": "true",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1800926747.653,
+        "sameSite": "no_restriction",
+        "domain": ".perlego.com"
+      },
+      {
+        "name": "ttcsid",
+        "value": "1766366748198::ILfb7byxy92nAyTwQGpD.1.1766366982519.0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1800062982,
+        "sameSite": "no_restriction",
+        "domain": ".perlego.com"
+      },
+      {
+        "name": "NSU_CO-5-0-v3",
+        "value": "true",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1797902929,
+        "sameSite": "no_restriction",
+        "domain": ".perlego.com"
+      },
+      {
+        "name": "_ttp",
+        "value": "01KD1TK7H5WS47SNAT9YDMKCC2_.tt.1",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1800062940,
+        "sameSite": "no_restriction",
+        "domain": ".perlego.com"
+      },
+      {
+        "name": "_gcl_gs",
+        "value": "2.1.k1$i1766366736$u108254851",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1774142743,
+        "sameSite": "no_restriction",
+        "domain": ".perlego.com"
+      },
+      {
+        "name": "intercom-device-id-dzfy7cc3",
+        "value": "919e0f07-8bce-4470-8b97-4609dc532c4a",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1789696945,
+        "sameSite": "lax",
+        "domain": ".perlego.com"
+      },
+      {
+        "name": "__stripe_mid",
+        "value": "2f317050-793b-467f-8f78-d12454d3e0db364a66",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1797902931,
+        "sameSite": "strict",
+        "domain": ".www.perlego.com"
+      },
+      {
+        "name": "_fbp",
+        "value": "fb.1.1766366749666.57669378097944399",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1774142984,
+        "sameSite": "no_restriction",
+        "domain": ".perlego.com"
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.2.1654829377.1766366744",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1800926936.336,
+        "sameSite": "no_restriction",
+        "domain": ".perlego.com"
+      },
+      {
+        "name": "_gac_UA-86257921-1",
+        "value": "1.1766366745.EAIaIQobChMI7oKO7oTQkQMVUwutBh0w5jhzEAAYASAAEgLqxPD_BwE",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1774142745,
+        "sameSite": "no_restriction",
+        "domain": ".perlego.com"
+      },
+      {
+        "name": "_gcl_aw",
+        "value": "GCL.1766366744.EAIaIQobChMI7oKO7oTQkQMVUwutBh0w5jhzEAAYASAAEgLqxPD_BwE",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1774142744,
+        "sameSite": "no_restriction",
+        "domain": ".perlego.com"
+      },
+      {
+        "name": "_tt_enable_cookie",
+        "value": "1",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1800062940,
+        "sameSite": "no_restriction",
+        "domain": ".perlego.com"
+      },
+      {
+        "name": "_uetvid",
+        "value": "24e0f6a0ded511f0b65ff7080986c990|p3mgkz|1766366982857|12|1|bat.bing.com/p/insights/c/h",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1800062982,
+        "sameSite": "no_restriction",
+        "domain": ".perlego.com"
+      },
+      {
+        "name": "auth-cookie",
+        "value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyNTYzNTQ1OCwidG9rZW4iOiJlYzMwMjc3ZC1kNTAzLTQ5MGMtODdiMS0yMTg3Mzk1Y2EzMmUiLCJwZXJzaXN0ZW50Ijp0cnVlLCJpYXQiOjE3NjYzNjY3ODF9.i11hZz1atlABKJr4mMltsv5QEMSehhsGEbyiPRAmcxQSUYb190ypEZ6ai8Yos-Zcx0b00itrkmWJGiJf6VxuHpFYXFO4SxM8yuhzbhDh8lNsqgVYb9VaTwbxne7X_-JBdPVI048_9UmzKl5ts5iS4QQ29m3TD0JKLIbfgDcT-2M16teDFpJwx90tULxi3COuufvYomrney0h578bixJKmW8I7eoRG_tHCnVf35m0W556DkkJJvuVXit7J4_gQr1m4YhHJwTuofPKZMCCT7AZNuaW3JVdy69yQoLUq6bZKI6XlWKS51N9APZDJQ6Vph66r5Wr69D-7KGNJyXW8IOimxbfXoaKfpEoEMumIevqtHgSDfD7E707sdozxtRkYWH177CPNqmKRQZuh8UaDCjZdLrfrw2L2lbkMeqpRdGCvZGqcB_uKIxE8wCQ3AHUFbOXM81oGwg35n9ujY5RhXw-sTkG4P-guUismI9PQeDbeY_gmzo0QObyEyQNygs_zwShNJ8Ymk3zG7jZS2PgzFPFpZlwUXiNO6Q8n4_oy7ufRMtO-Dx6jk4Ee8252N-rsRrpk2KmRWwK0Lzp0RbDzDr3pQDTavOBNd6XE8GoOz6jyQDNNR70K00s7CuuCL7sXbNfHy4k05mDbTJPWQVro8ElQrlliWTTWCbsq57bubbw-M8",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1774142782,
+        "sameSite": "no_restriction",
+        "domain": ".perlego.com"
+      },
+      {
+        "name": "intercom-id-dzfy7cc3",
+        "value": "c018b684-5ea7-4ddc-886d-3d20f44da76e",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1789696759,
+        "sameSite": "lax",
+        "domain": ".perlego.com"
+      },
+      {
+        "name": "marketingCookieConsent",
+        "value": "true",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1800926747.653,
+        "sameSite": "no_restriction",
+        "domain": ".perlego.com"
+      },
+      {
+        "name": "NSU_CO-2-1",
+        "value": "true",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1797902929,
+        "sameSite": "no_restriction",
+        "domain": ".perlego.com"
+      },
+      {
+        "name": "NSU_CO-2-2-v2",
+        "value": "true",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1797902929,
+        "sameSite": "no_restriction",
+        "domain": ".perlego.com"
+      },
+      {
+        "name": "NSU_CO-3-0",
+        "value": "true",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1797902929,
+        "sameSite": "no_restriction",
+        "domain": ".perlego.com"
+      },
+      {
+        "name": "NSU_CO-3-1",
+        "value": "true",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1797902929,
+        "sameSite": "no_restriction",
+        "domain": ".perlego.com"
+      },
+      {
+        "name": "NSU_CO-3-3",
+        "value": "true",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1797902929,
+        "sameSite": "no_restriction",
+        "domain": ".perlego.com"
+      },
+      {
+        "name": "NSU_CO-3-4",
+        "value": "true",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1797902929,
+        "sameSite": "no_restriction",
+        "domain": ".perlego.com"
+      },
+      {
+        "name": "NSU_CO-4-1-2",
+        "value": "true",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1797902929,
+        "sameSite": "no_restriction",
+        "domain": ".perlego.com"
+      },
+      {
+        "name": "ttcsid_C3ML3AR3G487IS97DSUG",
+        "value": "1766366748198::G4hr8VTCVYI0zgcjzpGL.1.1766366982519.1",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1800062982,
+        "sameSite": "no_restriction",
+        "domain": ".perlego.com"
+      },
+      {
+        "name": "uniqueId",
+        "value": "1aeb85c1-8358-46d0-9216-62946675d2cf",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1797902741,
+        "sameSite": "no_restriction",
+        "domain": ".perlego.com"
+      },
+      {
+        "name": "originating-country",
+        "value": "ID",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "strict",
+        "domain": ".perlego.com"
+      }
+    ],
+    "sourceUrl": "https://www.perlego.com/home"
+  },
+  {
+    "meta": {
+      "id": "pro--planner5d-1068",
+      "name": "Pro: Planner5D",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/1/13/Planner_5D_logo.png",
+      "url": "https://planner5d.com/dashboard",
+      "category": [
+        "design",
+        "proexclusive"
+      ]
+    },
+    "cookies": [
+      {
+        "name": "_hjSessionUser_2173323",
+        "value": "eyJpZCI6ImM0ZTZlMzdjLWY2ZGMtNTdmYy05ZDU2LTVjMmI2NDljNDlkNCIsImNyZWF0ZWQiOjE3NjU2OTAzNTA5MDQsImV4aXN0aW5nIjp0cnVlfQ==",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1797226528,
+        "sameSite": "no_restriction",
+        "domain": ".planner5d.com"
+      },
+      {
+        "name": "g_state",
+        "value": "{\"i_l\":0,\"i_ll\":1765690390055,\"i_b\":\"aJpq7Cuj7QLGzM/LxJVNx1eFwqlVI0Y+avnzeivxoqg\",\"i_e\":{\"enable_itp_optimization\":0}}",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1781242390,
+        "sameSite": "no_restriction",
+        "domain": ".planner5d.com"
+      },
+      {
+        "name": "intercom-id-cgehqyie",
+        "value": "6bbc6784-111c-4fb1-b44d-c416e9334265",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1789020390,
+        "sameSite": "lax",
+        "domain": ".planner5d.com"
+      },
+      {
+        "name": "exitCode",
+        "value": "cb946856fdbe5498e9f3082bac61d11c",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1781242473.447693,
+        "sameSite": "lax",
+        "domain": ".planner5d.com"
+      },
+      {
+        "name": "_ga_61SD1N9JH1",
+        "value": "GS2.1.s1765690349$o1$g1$t1765690527$j59$l0$h400451510",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1800250527.918716,
+        "sameSite": "no_restriction",
+        "domain": ".planner5d.com"
+      },
+      {
+        "name": "_fbp",
+        "value": "fb.1.1765690350718.786485973656948414",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1773466527,
+        "sameSite": "lax",
+        "domain": ".planner5d.com"
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.90356582.1765690350",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1800250526.82359,
+        "sameSite": "no_restriction",
+        "domain": ".planner5d.com"
+      },
+      {
+        "name": "_gcl_au",
+        "value": "1.1.166774327.1765690350.1189396439.1765690447.1765690476",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1773466350,
+        "sameSite": "no_restriction",
+        "domain": ".planner5d.com"
+      },
+      {
+        "name": "_Lang",
+        "value": "en%3A0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1781242337.294667,
+        "sameSite": "lax",
+        "domain": ".planner5d.com"
+      },
+      {
+        "name": "_pin_unauth",
+        "value": "dWlkPU1XWmpaVGRtTWpJdFptRTJNaTAwWTJNeExUZ3lObUV0TXpSalptTTROVGcwTnpRdw",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1797226528,
+        "sameSite": "no_restriction",
+        "domain": ".planner5d.com"
+      },
+      {
+        "name": "_uetvid",
+        "value": "48f44200d8ae11f084a123d08e7706d2",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1799386528,
+        "sameSite": "no_restriction",
+        "domain": ".planner5d.com"
+      },
+      {
+        "name": "ajs_anonymous_id",
+        "value": "e582ea18-520d-4606-803b-d1e617a4aa9c",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1797226530,
+        "sameSite": "lax",
+        "domain": ".planner5d.com"
+      },
+      {
+        "name": "ajs_user_id",
+        "value": "218733012",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1797226530,
+        "sameSite": "lax",
+        "domain": ".planner5d.com"
+      },
+      {
+        "name": "intercom-device-id-cgehqyie",
+        "value": "5535e8a7-2453-4091-9ca0-53d3b7b78289",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1791652666,
+        "sameSite": "lax",
+        "domain": ".planner5d.com"
+      },
+      {
+        "name": "OptanonAlertBoxClosed",
+        "value": "2025-12-14T05:34:09.238Z",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1800250449.238704,
+        "sameSite": "lax",
+        "domain": ".planner5d.com"
+      },
+      {
+        "name": "PHPSESSID",
+        "value": "bc7cdd2a43dea7e726cb9156373417e2",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "lax",
+        "domain": ".planner5d.com"
+      },
+      {
+        "name": "sign",
+        "value": "445275774777774b50534a764f797a514557346269724d4c357a36736453324a78564c49592b4138507049696d4a49314f65336b6e596e333336397861587959",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1797226528,
+        "sameSite": "no_restriction",
+        "domain": ".planner5d.com"
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isIABGlobal=false&datestamp=Tue+Jan+13+2026+23%3A44%3A22+GMT%2B0700+(Indochina+Time)&version=6.36.0&hosts=&consentId=0b9e9eba-59fb-4442-a6d7-552721173cb5&interactionCount=2&landingPath=NotLandingPage&groups=C0001%3A1%2CC0004%3A1%2CC0002%3A1%2CC0003%3A1%2CBG11%3A1&AwaitingReconsent=false&geolocation=ID%3BJI",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1802882662.6479,
+        "sameSite": "lax",
+        "domain": ".planner5d.com"
+      },
+      {
+        "name": "intercom-session-cgehqyie",
+        "value": "WUhqVWZHc09pOXRzS0ZnTys4VUhhdEU4YnZDRkFMSW5nWk11ekdTVGpvSllQdWhYdklFdklCZHpraGtESkx5YWVpd3k0SUVqdzVHRWpMVWdzRDVDOFV1dVZxbVhCcW1yY3JjU2pWREd2Qmc9LS15Vnp4VlAyMHNiZjQ3V2NpVVNNdkZnPT0=--1d19cdbeccd1c88f4bdfbf8669c5076390066062",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1768927454,
+        "sameSite": "lax",
+        "domain": ".planner5d.com"
+      }
+    ],
+    "sourceUrl": "https://planner5d.com/dashboard"
+  },
+  {
+    "meta": {
+      "id": "pro--researchrabbit-1073",
+      "name": "Pro: ResearchRabbit",
+      "icon": "https://pbs.twimg.com/profile_images/1983772825812189184/IXDTOqLX.jpg",
+      "url": "https://gracely011.github.io/hai/manual.html?name=ResearchRabbit&login=rabbit@prem1um.xyz&password=RabbitGroupy2025!&url=https://app.researchrabbit.ai/",
+      "category": [
+        "productivity",
+        "proexclusive"
+      ]
+    },
+    "cookies": [
+      {
+        "name": "dummy",
+        "value": "5",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "domain": "researchrabbit.ai"
+      }
+    ],
+    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=ResearchRabbit&login=rabbit@prem1um.xyz&password=RabbitGroupy2025!&url=https://app.researchrabbit.ai/"
+  },
+  {
+    "meta": {
+      "id": "pro--supergrok-1038",
+      "name": "Pro: SuperGrok",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfDfKMTEJFYyKr-VgVN0z7sdgoINjKnomLLw&s",
+      "url": "https://grok.com/",
+      "category": [
+        "productivity",
+        "proexclusive"
+      ],
+      "isGroup": true
+    },
+    "accounts": [
+      {
+        "name": "Pro: SuperGrok 1",
+        "cookies": [
+          {
+            "name": "stblid",
+            "value": "91efdfeb-5271-4ef5-9e55-0c5cb25289ea",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793703131.338605,
+            "sameSite": "strict",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "sso",
+            "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzZXNzaW9uX2lkIjoiZGZlZDAyZjktYTBmMC00OGM3LTk0YmMtMDRmNGIyYWE0ZWUyIn0.SpXSTEdTJHVaYthzlT4OXTp2qmiL0N-DXZuNAfHVXD8",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1781578437.141672,
+            "sameSite": "lax",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.942624179.1766026409",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800586551.574719,
+            "sameSite": "no_restriction",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "x-signature",
+            "value": "Q%2BxuT4gSSAhp4B1UkicLk%2F3CMFrlp88FLpudIfVjDAN0SaKI%2BaSFMimt6S17mIr7B9mmScvEks8ORy2R6S%2Foqg%3D%3D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "sso-rw",
+            "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzZXNzaW9uX2lkIjoiZGZlZDAyZjktYTBmMC00OGM3LTk0YmMtMDRmNGIyYWE0ZWUyIn0.SpXSTEdTJHVaYthzlT4OXTp2qmiL0N-DXZuNAfHVXD8",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1781578437.141828,
+            "sameSite": "strict",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "x-anonuserid",
+            "value": "991621fa-67fa-448a-8ab1-f2b013ecdf33",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "_ga_8FEWB057YH",
+            "value": "GS2.1.s1766026409$o1$g1$t1766026551$j59$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800586551.594404,
+            "sameSite": "no_restriction",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "i18nextLng",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1797562551,
+            "sameSite": "strict",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "x-challenge",
+            "value": "KlxWoB3NZFhHYWisHLGGx7NvtggysR%2FdpzT3wpWr6KbRzIch70n79UFN5uWf6FM5jKwo4tmgLjMB71M5ye77lJ7zOM4IihV%2BucfSnK%2FeFGssG38gxp9vOgD2SiX5MiEkOSDXD9Pk9OTopSykIAWL9LD8m9XbseDjCFIVXtniqqAAhYqe08M%3D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "x-userid",
+            "value": "b16c5d19-bdee-4038-ac03-2233c96ba26b",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a51455734626972535650696e764a7a75795a727154546f47643774545044546e4f6565375376414f6a6b7a2f4830314d36",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1781578437.141672,
+            "sameSite": "no_restriction",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "i18nextLng",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799857131,
+            "sameSite": "strict",
+            "domain": "grok.com"
+          }
+        ],
+        "sourceUrl": "https://grok.com/"
+      },
+      {
+        "name": "Pro: SuperGrok 2",
+        "cookies": [
+          {
+            "name": "sso",
+            "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzZXNzaW9uX2lkIjoiN2MwOGNmNTAtZjhhMS00MjllLTgxYTAtOTY5ZGMzMDcxZjhmIn0.ACYdRpbAeWOL2xxJW6ryWg8OHiSzy5oeA1YdaCit_7o",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1778430371.35572,
+            "sameSite": "lax",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.164101054.1762878333",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1797438442.040257,
+            "sameSite": "no_restriction",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "x-signature",
+            "value": "lyaDmQ5UdxzdKIWzfoplTWcxyPOMh437pnl4gWxL6%2BVEcVSFCaYmonck9%2BvO54AXiGuthcd1fMPOFwH8%2BMu8Jw%3D%3D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "sso-rw",
+            "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzZXNzaW9uX2lkIjoiN2MwOGNmNTAtZjhhMS00MjllLTgxYTAtOTY5ZGMzMDcxZjhmIn0.ACYdRpbAeWOL2xxJW6ryWg8OHiSzy5oeA1YdaCit_7o",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1778430371.355869,
+            "sameSite": "strict",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "x-anonuserid",
+            "value": "e427e13d-b282-4e86-85c7-bf02d81e7642",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "_ga_8FEWB057YH",
+            "value": "GS2.1.s1762878333$o1$g1$t1762878474$j26$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1797438474.172197,
+            "sameSite": "no_restriction",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "i18nextLng",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1794414442,
+            "sameSite": "strict",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "stblid",
+            "value": "a5984383-7f24-4984-a3f5-dfbe5f7bfca2",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1794414474.925568,
+            "sameSite": "strict",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "x-challenge",
+            "value": "vQtmK44hlv2pAijWcsB0v3i5VEkS7eCHjmxxkb7RiLZ1U%2BEXaBycc9Zg6AdDRFxWqGgJ3m7N2NGPpaOhMHJ2URkHjg1aThuHLcqHUDW9Xxf5q0CcZtBthXRpRsMa0ZnAlCol%2BcEFK8i0UCSH%2F3nzpbadBTjxlcUYvuPFc4xTJELp7fMeeJo%3D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "x-userid",
+            "value": "60fbeaab-2960-4a79-8cc1-7d5c6feac20d",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a51455734626972535650696e764a7a75795a727154546f476437745437436a6647676e537571314a3663596e746e476235",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1778430371.35572,
+            "sameSite": "no_restriction",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "i18nextLng",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799857143,
+            "sameSite": "strict",
+            "domain": "grok.com"
+          }
+        ],
+        "sourceUrl": "https://grok.com/"
+      },
+      {
+        "name": "Pro: SuperGrok 3",
+        "cookies": [
+          {
+            "name": "stblid",
+            "value": "a5984383-7f24-4984-a3f5-dfbe5f7bfca2",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1794414474.925568,
+            "sameSite": "strict",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "sso",
+            "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzZXNzaW9uX2lkIjoiMzljMzBmODAtMThiZi00ODJiLWExOTEtYzNlMTVkZTE1N2IyIn0.cxSq5-rI5XgxXVkT3tCVSqMTBBEOqDMVnZ6IZi3Txiw",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1781578636.87969,
+            "sameSite": "lax",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.110643203.1766026624",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800586717.149483,
+            "sameSite": "no_restriction",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "x-signature",
+            "value": "GjlqHy%2FROapGI3N3LH8V6cnUD4jZhRhg7BD%2Bv0pT8Ud0Cl44xTxpEgyozR2ZWebZzrs9yqPiIKRLtgJ%2FN%2FfXrw%3D%3D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "sso-rw",
+            "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzZXNzaW9uX2lkIjoiMzljMzBmODAtMThiZi00ODJiLWExOTEtYzNlMTVkZTE1N2IyIn0.cxSq5-rI5XgxXVkT3tCVSqMTBBEOqDMVnZ6IZi3Txiw",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1781578636.879776,
+            "sameSite": "strict",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "x-anonuserid",
+            "value": "4d1b8165-1b35-49e3-bdfb-8d2dcae89e63",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "_ga_8FEWB057YH",
+            "value": "GS2.1.s1766026624$o1$g1$t1766026717$j59$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800586717.1705,
+            "sameSite": "no_restriction",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "i18nextLng",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1797562717,
+            "sameSite": "strict",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "x-challenge",
+            "value": "P%2Fx6MIFpqPc5W8Scqe%2BVdrIV%2FNo%2FmUFOAgXgJuMeiXuP7GUEocboUvMNRGsOMwaJQUEh%2BTLkL3w3XfIQFTsAC3XZa%2BjGqZIX1xQIr8UMcvLZxxhdGzVuimF2%2FbT%2BLLiQjwSrZOl4%2BdeWtrrNw5ZI8ZHuFc2Cbkv6%2FRmuJ8tcjdcckwgmaBY%3D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "x-userid",
+            "value": "f40de4a4-0428-438d-83fe-76112286b00b",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a51455734626972535650696e764a7a75795a727154546f476437745363347969536e435758752b357a3159626d79314355",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1781578636.87969,
+            "sameSite": "no_restriction",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "i18nextLng",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799857154,
+            "sameSite": "strict",
+            "domain": "grok.com"
+          }
+        ],
+        "sourceUrl": "https://grok.com/"
+      },
+      {
+        "name": "Pro: SuperGrok 4",
+        "cookies": [
+          {
+            "name": "stblid",
+            "value": "a5984383-7f24-4984-a3f5-dfbe5f7bfca2",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1794414474.925568,
+            "sameSite": "strict",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "sso",
+            "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzZXNzaW9uX2lkIjoiODMzMTkxNDgtNjY1Ny00OTFlLWEyMTQtNTdmOTQ4Y2MwYjQwIn0.KcLxJlnjjyemPDPpPTkXPPhHYP2fnKqUEAaXYKIL_Co",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1781578748.920448,
+            "sameSite": "lax",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.972483526.1766026735",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800586802.418875,
+            "sameSite": "no_restriction",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "x-signature",
+            "value": "mSuyCQj147RncOEA47dgwGX4Pu%2FF8GTbPaO8VBfz%2BvQfRvC1iV4IemsdxmuJjlFz4ccN0uYRqOpAOWTBr5ziFg%3D%3D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "sso-rw",
+            "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzZXNzaW9uX2lkIjoiODMzMTkxNDgtNjY1Ny00OTFlLWEyMTQtNTdmOTQ4Y2MwYjQwIn0.KcLxJlnjjyemPDPpPTkXPPhHYP2fnKqUEAaXYKIL_Co",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1781578748.920554,
+            "sameSite": "strict",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "x-anonuserid",
+            "value": "8a55709a-f8e6-4eec-beb2-1a1b377c173c",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "_ga_8FEWB057YH",
+            "value": "GS2.1.s1766026735$o1$g1$t1766026802$j59$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800586802.440886,
+            "sameSite": "no_restriction",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "i18nextLng",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1797562802,
+            "sameSite": "strict",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "x-challenge",
+            "value": "JR3DQezLbRP8aXW5L%2BVMQm%2B69r0%2FVGWBBq4h157OfLbXouilZUK73xaj%2FZmaqayeGRDufQ4aSosW8oOlftBUL0JK8J0ItRJE2LLgBweH6fqBzbPl6NZJSPqoZHNsIrW57vyuBEq%2BNPf6UNYq3psgYJu4k3oXlDDOXqumoABGK2Fu2tOshdA%3D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "x-userid",
+            "value": "ca368b61-41ed-4548-8cf5-6446a5f9d94a",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a51455734626972535650696e764a7a75795a727154546f47643774517156765151446e77454a457467786c7470355a794f",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1781578748.920448,
+            "sameSite": "no_restriction",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "i18nextLng",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799857167,
+            "sameSite": "strict",
+            "domain": "grok.com"
+          }
+        ],
+        "sourceUrl": "https://grok.com/"
+      },
+      {
+        "name": "Pro: SuperGrok 5",
+        "cookies": [
+          {
+            "name": "sso",
+            "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzZXNzaW9uX2lkIjoiNjE3ZmJhNWItOGJkYy00ZjcxLThmODItMjUzYTc4ZjNlMDk1In0.WKq8QMDhr6IAB6dmEjif8i5j4pehZ2Bm3q4xJavS7Wg",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1777719000.040626,
+            "sameSite": "lax",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.1308358219.1762160457",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1796727129.201379,
+            "sameSite": "no_restriction",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "x-signature",
+            "value": "lGrtXXK9%2FLhlWhEsV6uSI6AHrxbE7YU%2FcACUdaGPyjR0CPl8rOJyO441xriQB9uPcrohf7JAgc7wJB35Spmaog%3D%3D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "sso-rw",
+            "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzZXNzaW9uX2lkIjoiNjE3ZmJhNWItOGJkYy00ZjcxLThmODItMjUzYTc4ZjNlMDk1In0.WKq8QMDhr6IAB6dmEjif8i5j4pehZ2Bm3q4xJavS7Wg",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1777719000.040859,
+            "sameSite": "strict",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "x-anonuserid",
+            "value": "159a6ab4-2805-49a3-9ab0-5a3fb9c2a653",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "_ga_8FEWB057YH",
+            "value": "GS2.1.s1762166969$o2$g1$t1762167129$j57$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1796727129.24599,
+            "sameSite": "no_restriction",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "i18nextLng",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793703129,
+            "sameSite": "strict",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "stblid",
+            "value": "91efdfeb-5271-4ef5-9e55-0c5cb25289ea",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1793703131.338605,
+            "sameSite": "strict",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "x-challenge",
+            "value": "h%2FnIXQOFRMCj6krR78oLZJEdjipVdMhhSoWzaF9SMOHjutlOKJs29mTFtxrNYtuj3LAO5R0iJ%2BVo1auU0ZuNSNTzmwnfOwZ3R7tWonDcxSrABbjJNH2TqfEo%2B3xd%2F9DR0fE5bn0otWUwcL%2B7ZeJykYSUYxGCzh%2F%2BmMsCFFQRIExk43PtaLk%3D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "x-userid",
+            "value": "619f7954-91d1-413a-8b33-423a6b73baa1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a51455734626972535650696e764a7a75795a727154546f476437745279554e44324a676a7171483059764e4b492f4c3565",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1777719000.040626,
+            "sameSite": "no_restriction",
+            "domain": ".grok.com"
+          },
+          {
+            "name": "i18nextLng",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799857107,
+            "sameSite": "strict",
+            "domain": "grok.com"
+          }
+        ],
+        "sourceUrl": "https://grok.com/"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "id": "pro--tradingview-1081",
+      "name": "Pro: TradingView",
+      "icon": "https://groupy.id/assets/images/services/tradingview.png",
+      "url": "https://www.tradingview.com/",
+      "category": [
+        "utilities",
+        "proexclusive"
+      ]
+    },
+    "cookies": [
+      {
+        "name": "cookiesSettings",
+        "value": "{\"analytics\":true,\"advertising\":true}",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1802404979.474,
+        "sameSite": "no_restriction",
+        "domain": ".tradingview.com"
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.1447989585.1767844978",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1802795725.731927,
+        "sameSite": "no_restriction",
+        "domain": ".tradingview.com"
+      },
+      {
+        "name": "tv_ecuid",
+        "value": "ea9effb4-6600-4bc1-90f9-097d8c5da876",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1802530250.351174,
+        "sameSite": "no_restriction",
+        "domain": ".tradingview.com"
+      },
+      {
+        "name": "cookiePrivacyPreferenceBannerProduction",
+        "value": "notApplicable",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1802404979.465,
+        "sameSite": "no_restriction",
+        "domain": ".tradingview.com"
+      },
+      {
+        "name": "__eoi",
+        "value": "ID=fa6ff2a1dff36993:T=1767856000:RT=1768235794:S=AA-AfjbBtnNRf73wm-VqgyaPSCGJ",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1783408000,
+        "sameSite": "no_restriction",
+        "domain": ".tradingview.com"
+      },
+      {
+        "name": "device_t",
+        "value": "OFV5aUJnOjE2.i1aSyhkpvnDe2d5eZ0YZXszSl7w5ipmgaiYKOLWY0vI",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1798955501.629188,
+        "sameSite": "no_restriction",
+        "domain": ".tradingview.com"
+      },
+      {
+        "name": "__gads",
+        "value": "ID=c11bd89435ac4ab7:T=1767856000:RT=1768235794:S=ALNI_MbL_9ldsJyZCnaUJEVjldF8rbcDzg",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1801552000,
+        "sameSite": "no_restriction",
+        "domain": ".tradingview.com"
+      },
+      {
+        "name": "__gpi",
+        "value": "UID=000011df2f24d23e:T=1767856000:RT=1768235794:S=ALNI_Mb0OTal6Ans1w2DmAsmG087aw-K7g",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1801552000,
+        "sameSite": "no_restriction",
+        "domain": ".tradingview.com"
+      },
+      {
+        "name": "_ga_YVVRYGL0E0",
+        "value": "GS2.1.s1768235725$o4$g0$t1768235732$j53$l0$h0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1802795732.58372,
+        "sameSite": "no_restriction",
+        "domain": ".tradingview.com"
+      },
+      {
+        "name": "sessionid",
+        "value": "uw6rcnagc8avfwb9jkxibdv7x4oyiywe",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1776270935.221696,
+        "sameSite": "lax",
+        "domain": ".tradingview.com"
+      },
+      {
+        "name": "sessionid_sign",
+        "value": "v3:lRa3IYV5krj7YCvTVjaoebbdbo4yZ9mb1+NkN1ENA3E=",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1776270935.221832,
+        "sameSite": "lax",
+        "domain": ".tradingview.com"
+      },
+      {
+        "name": "cachec",
+        "value": "ea9effb4-6600-4bc1-90f9-097d8c5da876",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1802795736.581226,
+        "sameSite": "no_restriction",
+        "domain": ".tradingview.com"
+      },
+      {
+        "name": "etg",
+        "value": "ea9effb4-6600-4bc1-90f9-097d8c5da876",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1802795736.581386,
+        "sameSite": "no_restriction",
+        "domain": ".tradingview.com"
+      },
+      {
+        "name": "_sp_ses.cf1a",
+        "value": "*",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1768324540,
+        "sameSite": "no_restriction",
+        "domain": ".tradingview.com"
+      },
+      {
+        "name": "_sp_id.cf1a",
+        "value": "f45218b8-d536-4f17-a60c-6038b975519e.1767844979.5.1768322741.1768235726.d5a8031a-97be-4cac-8db7-2ab7211f02ca.632866ed-5b47-4a15-9038-6ec646266170.10ac4a1f-a6f5-460c-beee-922276c330f9.1768322682791.2",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1802882740.809346,
+        "sameSite": "no_restriction",
+        "domain": ".tradingview.com"
+      }
+    ],
+    "sourceUrl": "https://www.tradingview.com/"
+  },
+  {
+    "meta": {
+      "id": "quizlet-1070",
       "name": "Quizlet",
       "icon": "https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/szx9duflfycmltpnvcvw",
       "url": "https://quizlet.com/latest",
@@ -38142,7 +40896,7 @@
   },
   {
     "meta": {
-      "id": "rawpixel-1054",
+      "id": "rawpixel-1071",
       "name": "Rawpixel",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq1xJnAZa_h6WueAi4mr73cH3K7_pGeTz6Gw&s",
       "url": "https://www.rawpixel.com/",
@@ -38214,7 +40968,7 @@
   },
   {
     "meta": {
-      "id": "relume-1055",
+      "id": "relume-1072",
       "name": "Relume",
       "icon": "https://yt3.googleusercontent.com/MGRbvVhtCttJ7i2qW3igFxIJSkeoaRln_mIAFAfDgZIFD1yNUQC5mn1a5VqXKzcqRmAuDswu=s900-c-k-c0x00ffffff-no-rj",
       "url": "https://www.relume.io/",
@@ -38366,7 +41120,7 @@
   },
   {
     "meta": {
-      "id": "scholarcy-1036",
+      "id": "scholarcy-1049",
       "name": "Scholarcy",
       "icon": "https://yt3.googleusercontent.com/ytc/AIdro_kqv2zcFC4lZDK0qSXEbuI1Kcs5wYJoLmONwCf9QX3Qoc4=s900-c-k-c0x00ffffff-no-rj",
       "url": "https://library.scholarcy.com/home",
@@ -38478,7 +41232,7 @@
   },
   {
     "meta": {
-      "id": "scite-1056",
+      "id": "scite-1074",
       "name": "Scite",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHo4BcTYbuMiQFR7oUYKZy6zjOgzEORDrzeie96OS1sj3Ur0LpoCPV_ts&s=10",
       "url": "https://gracely011.github.io/hai/manual.html?name=Scite&login=tibpbvgzxw@belajaar.id&password=Groupy2025!ocrtmmtnkn&url=https://scite.ai/assistant",
@@ -38518,7 +41272,7 @@
   },
   {
     "meta": {
-      "id": "scribd-1057",
+      "id": "scribd-1075",
       "name": "Scribd",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRebq-8lrzgXjVWMvUDApp_q1MhiL5eSyO15VAHMuNaE4RbrPi-f7c2NMc&s=10",
       "url": "https://www.scribd.com/home",
@@ -39682,7 +42436,7 @@
   },
   {
     "meta": {
-      "id": "semrush-1058",
+      "id": "semrush-1076",
       "name": "Semrush",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7TPtYsfoyLxuSORs6sqgApBGYHOx1aZ43ra1DqBNb8BRYz4ciWF4Mg9uR&s=10",
       "url": "https://www.semrush.com/home/",
@@ -40099,7 +42853,7 @@
   },
   {
     "meta": {
-      "id": "shots-1059",
+      "id": "shots-1077",
       "name": "Shots",
       "icon": "https://pbs.twimg.com/profile_images/1517996453146378245/RTP0-Jy3_400x400.jpg",
       "url": "https://gracely011.github.io/hai/manual.html?name=Shots&login=shotso@prem1um.xyz&password=Groupy2025!&url=https://shots.so",
@@ -40119,7 +42873,7 @@
   },
   {
     "meta": {
-      "id": "skillshare-1060",
+      "id": "skillshare-1078",
       "name": "Skillshare",
       "icon": "https://groupy.id/assets/images/services/skillshare.png",
       "url": "https://www.skillshare.com/en/home",
@@ -40581,7 +43335,7 @@
   },
   {
     "meta": {
-      "id": "slidesgo-1061",
+      "id": "slidesgo-1079",
       "name": "Slidesgo",
       "icon": "https://cdn-icons-png.flaticon.com/512/14649/14649063.png",
       "url": "https://gracely011.github.io/hai/manual.html?name=Slidesgo&login=gpy&password=NsW3xRmPMv&url=https://slidesgo.com/team/user209226220-team-68879521",
@@ -40635,7 +43389,7 @@
   },
   {
     "meta": {
-      "id": "studocu-1062",
+      "id": "studocu-1080",
       "name": "Studocu",
       "icon": "https://play-lh.googleusercontent.com/20ssDWF3SWEXIFYy8iFwXjomuIqtuHjGc3OxIWqVojIaeo_9_XxUZEDdmm5YPreLucij",
       "url": "https://www.studocu.com/en-us/home",
@@ -40968,7 +43722,7 @@
   },
   {
     "meta": {
-      "id": "svgator-1006",
+      "id": "svgator-1008",
       "name": "SVGator",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXMLBuRJYssEV7zT3Lh8qRl-h2zuHgyEz2HA&s",
       "url": "https://app.svgator.com/",
@@ -41117,7 +43871,7 @@
   },
   {
     "meta": {
-      "id": "turnitin-1063",
+      "id": "turnitin-1082",
       "name": "Turnitin",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIrf73LGu_mACI2Mc_jdghOV02eXRocoXKo0o3qZHFjGgJMUr5M_v8uwap&s=10",
       "url": "https://gracely011.github.io/hai/manual.html?name=Turnitin&login=halo@belajaar.id&password=TurnitinmilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us",
@@ -41185,7 +43939,7 @@
   },
   {
     "meta": {
-      "id": "udemy-1065",
+      "id": "udemy-1084",
       "name": "Udemy",
       "icon": "https://play-lh.googleusercontent.com/dsCkmJE2Fa8IjyXERAcwc5YeQ8_NvbZ4_OI8LgqyjILpXUfS5YhEcnAMajKPrZI-og",
       "url": "https://www.udemy.com/personal/home/",
@@ -41726,7 +44480,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768320706.796573,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -42294,7 +45047,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768320690.845453,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -42483,7 +45235,7 @@
   },
   {
     "meta": {
-      "id": "vectorizer-ai-1066",
+      "id": "vectorizer-ai-1085",
       "name": "Vectorizer AI",
       "icon": "https://cdn.prod.website-files.com/648e04d4bbae7004f1b35f15/65de13535268a099387a6f60_vectorizer-ai-icon.png",
       "url": "https://vectorizer.ai/",
@@ -42535,7 +45287,7 @@
   },
   {
     "meta": {
-      "id": "vidiq-1007",
+      "id": "vidiq-1009",
       "name": "vidIQ",
       "icon": "https://cdn.sanity.io/images/7g6d2cj1/production/7c8f9a95d01c8c4043af4f3c39940ba3870bb1a9-512x512.png?w=1200&q=70&auto=format",
       "url": "https://gracely011.github.io/hai/manual.html?name=vidIQ&login=vidiq@prem1um.xyz&password=vidIQGroupy2026!&url=https://app.vidiq.com/auth/login",
@@ -42555,7 +45307,7 @@
   },
   {
     "meta": {
-      "id": "viu-1067",
+      "id": "viu-1086",
       "name": "Viu",
       "icon": "https://groupy.id/assets/images/services/viu.png",
       "url": "https://gracely011.github.io/hai/manual.html?name=Viu&login=wardi0381@movieisme.com&password=premiumisme123&url=https://viu.com",
@@ -42707,7 +45459,7 @@
   },
   {
     "meta": {
-      "id": "wetv-1068",
+      "id": "wetv-1087",
       "name": "WeTV",
       "icon": "https://groupy.id/assets/images/services/wetv.png",
       "url": "https://wetv.vip/id/profile?tab=profile",
@@ -43809,7 +46561,7 @@
   },
   {
     "meta": {
-      "id": "wolframalpha-1069",
+      "id": "wolframalpha-1088",
       "name": "WolframAlpha",
       "icon": "https://play-lh.googleusercontent.com/OceHg5bH7EsTRwl-lD7jjV9WM0mpj0oH4YfA-CSbjvfa7NCLQBu5-4cLwNlDvCUp5Q4",
       "url": "https://www.wolframalpha.com/",
@@ -43860,7 +46612,7 @@
   },
   {
     "meta": {
-      "id": "youtube-noads-1070",
+      "id": "youtube-noads-1089",
       "name": "YouTube NoAds",
       "icon": "https://play-lh.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc",
       "url": "https://gracely011.github.io/hai/youtube-noads.html",
