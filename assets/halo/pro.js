@@ -1,68 +1,7 @@
 [
   {
     "meta": {
-      "id": "academi-cx-1000",
-      "name": "Academi.cx",
-      "icon": "https://affiliate.academi.cx/_next/image?url=https%3A%2F%2Fjhuiqmuojlckilnnsquy.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Flogos%2F4836.png%3Fupdate%3D1746415545619&w=640&q=75",
-      "url": "https://academi.cx/dashboard/",
-      "category": "productivity"
-    },
-    "cookies": [
-      {
-        "name": "intercom-device-id-gcaopn51",
-        "value": "24616f7f-5a77-4850-b608-93391c54eebd",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1791649404,
-        "sameSite": "lax",
-        "domain": ".academi.cx"
-      },
-      {
-        "name": "PHPSESSID",
-        "value": "4h9ecrrdr11rhq330clhho59s5",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "no_restriction",
-        "domain": ".academi.cx"
-      },
-      {
-        "name": "rememberme",
-        "value": "f347e5f9f7db21911508798c1ea1b3a617d60138bccee70f",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1769596067.272,
-        "sameSite": "no_restriction",
-        "domain": ".academi.cx"
-      },
-      {
-        "name": "sign",
-        "value": "445275774777774b50534a764f797a5145573462697169414f577a443944754e547a3733626337617363504951676279626c534144494c616252766c34457231",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1790334438,
-        "sameSite": "no_restriction",
-        "domain": ".academi.cx"
-      },
-      {
-        "name": "intercom-session-gcaopn51",
-        "value": "L3Rja2EvcXVOTnlBYmlKK0l4MVdYVEhVRGFKMk5sR1BBd1Vrb09VSU41NkEweHFzbmJBN1NPR1VaakxwdFVGYVFZY283REpoVHJIWUNaNmNWUlgrcktqWXpPMHM3SFBSd1pudTVnWWZscEE9LS1rVjZGY3BRV29rV3d4Y0UrM0swUDhRPT0=--5e8b60e19d78979439b5782c7da2f54158b54525",
-        "path": "/",
-        "httpOnly": false,
-        "secure": true,
-        "expirationDate": 1768924191,
-        "sameSite": "lax",
-        "domain": ".academi.cx"
-      }
-    ],
-    "sourceUrl": "https://academi.cx/dashboard/"
-  },
-  {
-    "meta": {
-      "id": "academia-1001",
+      "id": "academia-1000",
       "name": "Academia",
       "icon": "https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ",
       "url": "https://www.academia.edu/",
@@ -232,7 +171,7 @@
   },
   {
     "meta": {
-      "id": "alight-motion-1002",
+      "id": "alight-motion-1001",
       "name": "Alight Motion",
       "icon": "https://play-lh.googleusercontent.com/OU0BlP8C9-V7ECl2crma7B48nzDbK7liSLjn0j_fpTlyWG6qyEE-mw_KFZ9aOXF0a3w",
       "url": "https://gracely011.github.io/hai/motion.html",
@@ -252,7 +191,7 @@
   },
   {
     "meta": {
-      "id": "apple-music-1058",
+      "id": "apple-music-1060",
       "name": "Apple Music",
       "icon": "https://play-lh.googleusercontent.com/mOkjjo5Rzcpk7BsHrsLWnqVadUK1FlLd2-UlQvYkLL4E9A0LpyODNIQinXPfUMjUrbE",
       "url": "https://music.apple.com/ca/home",
@@ -627,7 +566,7 @@
   },
   {
     "meta": {
-      "id": "apple-tv--1083",
+      "id": "apple-tv--1098",
       "name": "Apple TV+",
       "icon": "https://play-lh.googleusercontent.com/1XBAZjSOWaVM7UDFKvzuMR-WRoR5gCnsYrw17_ihHLcJKT9Qc7hXptHwWQ3Bf83mry4",
       "url": "https://tv.apple.com/ca",
@@ -1219,7 +1158,7 @@
   },
   {
     "meta": {
-      "id": "askyourpdf-1010",
+      "id": "askyourpdf-1009",
       "name": "AskYourPDF",
       "icon": "https://play-lh.googleusercontent.com/WRl_6Jv1ljYKf3xiy27h3xx-ST7Kntg3mon8J53OBpjdm35jG2Mw80GZ2Qrhlau-YqI7=w240-h480-rw",
       "url": "https://askyourpdf.com/conversations",
@@ -1352,7 +1291,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1768396588,
         "sameSite": "no_restriction",
         "domain": ".askyourpdf.com"
       },
@@ -2603,7 +2541,7 @@
   },
   {
     "meta": {
-      "id": "brain-fm-1060",
+      "id": "brain-fm-1062",
       "name": "Brain.fm",
       "icon": "https://play-lh.googleusercontent.com/oQnd9u11H7j1g99Pzswt5LTm52g8XyMrgz0GRBX5lmzdPv2Vt7bBrOKgbVbs-gHc504=w240-h480-rw",
       "url": "https://my.brain.fm/",
@@ -2712,7 +2650,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1768396738,
         "sameSite": "no_restriction",
         "domain": ".brain.fm"
       },
@@ -2957,7 +2894,7 @@
   },
   {
     "meta": {
-      "id": "bstation-1011",
+      "id": "bstation-1010",
       "name": "Bstation",
       "icon": "https://play-lh.googleusercontent.com/nug7F0n-jWMpAWLaU7Qi1kuTIYjrAtUJmZd5FW4mEyspYR7-zGa-3_fwnYkPgyzHozE3",
       "url": "https://www.bilibili.tv/en/anime",
@@ -3104,7 +3041,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768398575.981698,
             "sameSite": "no_restriction",
             "domain": ".bilibili.tv"
           }
@@ -3230,7 +3166,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768398563.860129,
             "sameSite": "no_restriction",
             "domain": ".bilibili.tv"
           },
@@ -3778,6 +3713,298 @@
   },
   {
     "meta": {
+      "id": "canva-1073",
+      "name": "Canva",
+      "icon": "https://play-lh.googleusercontent.com/JC3HW-ps59VAEU3vuJoi3I5XB_IQ9ISuILLudUY9uLSW7eKfqtXitrB-fF865rV4TQ",
+      "url": "https://gracely011.github.io/hai/manual.html?name=Canva&login=danilkina7@miisedapp.biz.id&password=masuk123&url=https://canva.com/",
+      "category": "design",
+      "isGroup": true
+    },
+    "accounts": [
+      {
+        "name": "Canva 1",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva&login=danilkina7@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 2",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%202&login=58858179@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 3",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%203&login=chanceeddie@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 4",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%204&login=jurry@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 5",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%205&login=yhixoxarydeqo@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 6",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%206&login=knorozova@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 7",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%207&login=bludawn@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 8",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%208&login=kgirl711823@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 9",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%209&login=bloodynora@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 10",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2010&login=danali@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 11",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2011&login=jakobhasse@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 12",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2012&login=arabadyg@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 13",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2013&login=harleyva@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 14",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2014&login=joanrador@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 15",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2015&login=brawling1@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 16",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2016&login=cassialima1245@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 17",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2017&login=restate@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 18",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2018&login=sergei1467@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 19",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2019&login=homejob@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 20",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2020&login=mackh@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      }
+    ]
+  },
+  {
+    "meta": {
       "id": "capcut-1015",
       "name": "CapCut",
       "icon": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxtHdRB6xk71KqOPxE23.XPiUcBp9_h5.Va3lapJy.K9tACxvjL4_WF3lJCLozay.Kx6V1mfBFaOOF4V5Rx4RHLY-&format=source",
@@ -4104,7 +4331,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768398616.68267,
             "sameSite": "no_restriction",
             "domain": "www.capcut.com"
           },
@@ -4497,7 +4723,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768398633.427792,
             "sameSite": "no_restriction",
             "domain": "www.capcut.com"
           },
@@ -4890,7 +5115,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768398653.395895,
             "sameSite": "no_restriction",
             "domain": "www.capcut.com"
           },
@@ -5173,7 +5397,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768392170,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -5183,7 +5406,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768392173,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -5253,7 +5475,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768392160,
             "sameSite": "no_restriction",
             "domain": ".www.capcut.com"
           },
@@ -5322,7 +5543,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768398667.865248,
             "sameSite": "no_restriction",
             "domain": "www.capcut.com"
           },
@@ -5677,7 +5897,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768495294,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -5716,7 +5935,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768398598.622556,
             "sameSite": "no_restriction",
             "domain": "www.capcut.com"
           },
@@ -18865,7 +19083,7 @@
   },
   {
     "meta": {
-      "id": "clickup-1003",
+      "id": "clickup-1002",
       "name": "ClickUp",
       "icon": "https://img.icons8.com/color/1200/clickup.jpg",
       "url": "https://gracely011.github.io/hai/manual.html?name=ClickUp&login=clickup@prem1um.xyz&password=GroupyClickUp2025!&url=https://app.clickup.com/login",
@@ -19847,7 +20065,7 @@
   },
   {
     "meta": {
-      "id": "datacamp-1004",
+      "id": "datacamp-1003",
       "name": "DataCamp",
       "icon": "https://yt3.googleusercontent.com/ytc/AIdro_m6psai1Pd5oG3nGbw_hVfG-qmJ8R1ntco83MTXDf5cdoo=s900-c-k-c0x00ffffff-no-rj",
       "url": "https://app.datacamp.com/",
@@ -20027,7 +20245,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1768383731,
         "sameSite": "no_restriction",
         "domain": ".datacamp.com"
       },
@@ -20132,7 +20349,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1768382644.180874,
         "sameSite": "no_restriction",
         "domain": ".datacamp.com"
       },
@@ -20151,7 +20367,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1768397044,
         "sameSite": "no_restriction",
         "domain": ".datacamp.com"
       },
@@ -20188,7 +20403,7 @@
   },
   {
     "meta": {
-      "id": "deepl-1023",
+      "id": "deepl-1024",
       "name": "DeepL",
       "icon": "https://play-lh.googleusercontent.com/0IH4L3pX-jqQXKYCDmxTM5t3Tvak2cb_zUuIs9nKCHPeOqkaRJ_bRTq1qKawsSvunw=w240-h480-rw",
       "url": "https://www.deepl.com/en/translator/files",
@@ -20926,7 +21141,7 @@
   },
   {
     "meta": {
-      "id": "deepseek-1024",
+      "id": "deepseek-1025",
       "name": "DeepSeek",
       "icon": "https://pbs.twimg.com/ext_tw_video_thumb/1875845724925206528/pu/img/4T7PkBumsEAjZeO9.jpg",
       "url": "https://notegpt.io/workspace/chat",
@@ -20939,7 +21154,6 @@
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1768452522.992987,
         "sameSite": "no_restriction",
         "domain": ".notegpt.io"
       },
@@ -20997,7 +21211,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1768452522.992987,
         "sameSite": "no_restriction",
         "domain": ".notegpt.io"
       },
@@ -21027,7 +21240,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1768397044,
         "sameSite": "no_restriction",
         "domain": ".notegpt.io"
       },
@@ -21056,7 +21268,7 @@
   },
   {
     "meta": {
-      "id": "duolingo-1025",
+      "id": "duolingo-1027",
       "name": "Duolingo",
       "icon": "https://www.langoly.com/wp-content/uploads/2020/03/Duolingo-app-icon.png",
       "url": "https://www.duolingo.com/learn",
@@ -21247,7 +21459,7 @@
   },
   {
     "meta": {
-      "id": "educative-1027",
+      "id": "educative-1029",
       "name": "Educative",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiHav_EAmaStXwVlYg4pL5sFbdOyKcRKefbg&s",
       "url": "https://www.educative.io/explore",
@@ -21280,7 +21492,6 @@
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1768370282.956617,
         "sameSite": "no_restriction",
         "domain": ".educative.io"
       },
@@ -21676,7 +21887,6 @@
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1768397059.96439,
         "sameSite": "no_restriction",
         "domain": ".educative.io"
       },
@@ -21705,7 +21915,7 @@
   },
   {
     "meta": {
-      "id": "elicit-1028",
+      "id": "elicit-1030",
       "name": "Elicit",
       "icon": "https://yt3.googleusercontent.com/ksfLLIjvy8Y5vvtAmnSzIeF-svAUzrZyJBs-YwCVZUZGct8XNDb6-KJSepMwCrcuFkb6b8oCczo=s900-c-k-c0x00ffffff-no-rj",
       "url": "https://elicit.com/library",
@@ -21816,7 +22026,7 @@
   },
   {
     "meta": {
-      "id": "epidemic-sound-1029",
+      "id": "epidemic-sound-1031",
       "name": "Epidemic Sound",
       "icon": "https://groupy.id/assets/images/services/epidemicsound.jpg",
       "url": "https://www.epidemicsound.com/music/featured/",
@@ -22112,7 +22322,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768351623.033956,
             "sameSite": "no_restriction",
             "domain": ".epidemicsound.com"
           },
@@ -22209,7 +22418,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768398799,
             "sameSite": "no_restriction",
             "domain": ".epidemicsound.com"
           },
@@ -22403,7 +22611,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768442132.128224,
             "sameSite": "lax",
             "domain": ".www.epidemicsound.com"
           },
@@ -22542,7 +22749,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768442132.128025,
             "sameSite": "no_restriction",
             "domain": ".www.epidemicsound.com"
           },
@@ -22687,7 +22893,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768398788,
             "sameSite": "no_restriction",
             "domain": ".epidemicsound.com"
           },
@@ -22707,7 +22912,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768384389.323735,
             "sameSite": "no_restriction",
             "domain": ".epidemicsound.com"
           },
@@ -22758,7 +22962,7 @@
   },
   {
     "meta": {
-      "id": "everand-1031",
+      "id": "everand-1033",
       "name": "Everand",
       "icon": "https://play-lh.googleusercontent.com/i6RqZKwmmgvCq8FGoGewoEDWYq8Q2ghi8gUnWLBlPHmYCyRM4bl39YZTAoHu7mzU8vN7",
       "url": "https://www.everand.com/home",
@@ -23035,7 +23239,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1768397085,
         "sameSite": "lax",
         "domain": ".everand.com"
       },
@@ -23092,7 +23295,7 @@
   },
   {
     "meta": {
-      "id": "figma-1032",
+      "id": "figma-1034",
       "name": "Figma",
       "icon": "https://play-lh.googleusercontent.com/hoVBnPBRehmXsCqESLXRH2E3OTxklkwKZlb1psn7imm0VUSobn2nevS9RRFWb9GM4-o",
       "url": "https://www.figma.com/files/team/1560676200091399701/recents-and-sharing?fuid=1561637155941475997",
@@ -23161,7 +23364,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1768403871.211421,
         "sameSite": "no_restriction",
         "domain": ".www.figma.com"
       },
@@ -23267,7 +23469,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1768403871.211086,
         "sameSite": "no_restriction",
         "domain": ".www.figma.com"
       },
@@ -23386,7 +23587,7 @@
   },
   {
     "meta": {
-      "id": "flaticon-1033",
+      "id": "flaticon-1035",
       "name": "Flaticon",
       "icon": "https://groupy.id/assets/images/services/flaticon.png",
       "url": "https://www.flaticon.com/icons",
@@ -23590,7 +23791,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1768398818,
         "sameSite": "no_restriction",
         "domain": ".flaticon.com"
       },
@@ -23676,7 +23876,7 @@
   },
   {
     "meta": {
-      "id": "freepik-1034",
+      "id": "freepik-1036",
       "name": "Freepik",
       "icon": "https://groupy.id/assets/images/services/freepik.png",
       "url": "https://www.freepik.com/user/my-subscriptions",
@@ -23909,7 +24109,7 @@
   },
   {
     "meta": {
-      "id": "gamma-1036",
+      "id": "gamma-1038",
       "name": "Gamma",
       "icon": "https://store-images.s-microsoft.com/image/apps.53673.13800228740496758.b926c1b0-f31a-4a9b-b1b3-88dd15f27137.a0a38389-643f-48ed-9379-92a9fb5a7c94",
       "url": "https://gracely011.github.io/hai/manual.html?name=Gamma&login=owndbygroupyyy@prem1um.xyz&password=Gamma.AppByGroupy2026!&url=https://gamma.app/signin",
@@ -23929,7 +24129,7 @@
   },
   {
     "meta": {
-      "id": "grammarly-1005",
+      "id": "grammarly-1004",
       "name": "Grammarly",
       "icon": "https://groupy.id/assets/images/services/grammarly.png",
       "url": "https://app.grammarly.com/",
@@ -24199,7 +24399,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1768418756.454316,
         "sameSite": "no_restriction",
         "domain": ".grammarly.com"
       },
@@ -24247,7 +24446,7 @@
   },
   {
     "meta": {
-      "id": "hbo-max-1039",
+      "id": "hbo-max-1041",
       "name": "HBO Max",
       "icon": "https://play-lh.googleusercontent.com/bvyVXgpxu65YO3PNeVhNM9Y7ao7g7FnnKdoNXcwqO48aOlVvnH_b2O9rcZzgEFHzHtI",
       "url": "https://gracely011.github.io/hai/manual.html?name=HBO%20Max%202&login=hbo01@belajaar.id&password=HBOgroupy2025!&url=https://play.max.com",
@@ -24287,7 +24486,7 @@
   },
   {
     "meta": {
-      "id": "iflix-1042",
+      "id": "iflix-1044",
       "name": "iflix",
       "icon": "https://play-lh.googleusercontent.com/_j_9jVM50j43oII8sejBsK4DkHXxFw_MYUQOcHNjgX7SgJMQiLUsa8BuKWGK_84H_OE",
       "url": "https://www.iflix.com/en",
@@ -24538,7 +24737,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1768397440.49385,
         "sameSite": "no_restriction",
         "domain": ".iflix.com"
       },
@@ -24616,7 +24814,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1768397437,
         "sameSite": "no_restriction",
         "domain": ".iflix.com"
       },
@@ -24645,7 +24842,7 @@
   },
   {
     "meta": {
-      "id": "iloveimg-1043",
+      "id": "iloveimg-1045",
       "name": "iLoveIMG",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVjyJOS7PN-2Xh37-pXo0aOghZLt45Fa2UBw&s",
       "url": "https://www.iloveimg.com/",
@@ -24807,7 +25004,7 @@
   },
   {
     "meta": {
-      "id": "ilovepdf-1044",
+      "id": "ilovepdf-1046",
       "name": "iLovePDF",
       "icon": "https://play-lh.googleusercontent.com/I5yxs1Pspu1rB3NPfqnoX2NscvfzAW7e3Zq5GGhXcr2g207X9-npiuP48Ys7107M1VvA",
       "url": "https://www.ilovepdf.com/",
@@ -24960,7 +25157,7 @@
   },
   {
     "meta": {
-      "id": "iqiyi-1046",
+      "id": "iqiyi-1048",
       "name": "iQIYI",
       "icon": "https://groupy.id/assets/images/services/iqiyi.png",
       "url": "https://www.iq.com/",
@@ -25232,7 +25429,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768399084.255729,
             "sameSite": "no_restriction",
             "domain": ".iq.com"
           },
@@ -25261,7 +25457,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768399084,
             "sameSite": "no_restriction",
             "domain": ".iq.com"
           },
@@ -25290,7 +25485,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768344220,
             "sameSite": "no_restriction",
             "domain": ".iq.com"
           },
@@ -25300,7 +25494,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768344220,
             "sameSite": "no_restriction",
             "domain": ".iq.com"
           },
@@ -25319,7 +25512,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768399086,
             "sameSite": "no_restriction",
             "domain": ".iq.com"
           }
@@ -25520,7 +25712,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768399072.86603,
             "sameSite": "no_restriction",
             "domain": ".iq.com"
           },
@@ -25579,7 +25770,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768399067,
             "sameSite": "no_restriction",
             "domain": ".iq.com"
           },
@@ -25589,7 +25779,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768344209,
             "sameSite": "no_restriction",
             "domain": ".iq.com"
           },
@@ -25599,7 +25788,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768344209,
             "sameSite": "no_restriction",
             "domain": ".iq.com"
           },
@@ -25609,7 +25797,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768399072.865965,
             "sameSite": "no_restriction",
             "domain": ".iq.com"
           },
@@ -25658,7 +25845,7 @@
   },
   {
     "meta": {
-      "id": "linkedin-learning-1050",
+      "id": "linkedin-learning-1052",
       "name": "LinkedIn Learning",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4fcdsIUPUgmbvGaP-RC4RbHYdVtoN_fM8aya_8gOXI2BRtClESO-0_jgWTtKtIVmOQKs&usqp=CAU",
       "url": "https://www.linkedin.com/learning/?u=73723940",
@@ -25863,7 +26050,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1768397453.385193,
         "sameSite": "no_restriction",
         "domain": ".linkedin.com"
       },
@@ -25920,7 +26106,7 @@
   },
   {
     "meta": {
-      "id": "lovable-1051",
+      "id": "lovable-1053",
       "name": "Lovable",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTysfvFgHMVChk-7glLKWvdIJLLoA2aau0m1g&s",
       "url": "https://gracely011.github.io/hai/manual.html?name=Lovable&login=lovablegroupy@prem1um.xyz&password=LovableGroupy2025!&url=https://lovable.dev/",
@@ -25988,7 +26174,7 @@
   },
   {
     "meta": {
-      "id": "marvel-unlimited-1052",
+      "id": "marvel-unlimited-1054",
       "name": "Marvel Unlimited",
       "icon": "https://play-lh.googleusercontent.com/ikcy-XJG8_oFwVztH9vK3y--_mUcRu5zyco7d4FqugxzSkX9wMo63oBDPLWZnUsYDg",
       "url": "https://www.marvel.com/comics/unlimited/home",
@@ -26188,7 +26374,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1768325463.603999,
         "sameSite": "no_restriction",
         "domain": ".www.marvel.com"
       },
@@ -26265,7 +26450,7 @@
   },
   {
     "meta": {
-      "id": "masterclass-1053",
+      "id": "masterclass-1055",
       "name": "MasterClass",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeoBuunz4xK_-2t35N6astSudIfb7Bnr0R6HDcwoqbzmzOcuNpiZdiRFRv&s=10",
       "url": "https://www.masterclass.com/profiles",
@@ -26645,7 +26830,7 @@
   },
   {
     "meta": {
-      "id": "motion-array-1056",
+      "id": "motion-array-1058",
       "name": "Motion Array",
       "icon": "https://s3-eu-west-1.amazonaws.com/tpd/logos/5b1e60b2b50df6000112eb83/0x0.png",
       "url": "https://motionarray.com/",
@@ -26895,7 +27080,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1768368713.006354,
         "sameSite": "lax",
         "domain": "motionarray.com"
       },
@@ -26905,7 +27089,6 @@
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1768368713.006446,
         "sameSite": "lax",
         "domain": "motionarray.com"
       },
@@ -26923,7 +27106,7 @@
   },
   {
     "meta": {
-      "id": "mubi-1057",
+      "id": "mubi-1059",
       "name": "Mubi",
       "icon": "https://images.mubicdn.net/images/avatars/169655/cache-169655-1620041787/images-large.png?size=800x",
       "url": "https://mubi.com/en/id/showing",
@@ -27266,7 +27449,7 @@
   },
   {
     "meta": {
-      "id": "musicbed-1059",
+      "id": "musicbed-1061",
       "name": "Musicbed",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMRzHPEXnSURkOyU9StcI8BZPOTeqzvcJP_A&s",
       "url": "https://www.musicbed.com/songs",
@@ -27463,7 +27646,7 @@
   },
   {
     "meta": {
-      "id": "netflix-1061",
+      "id": "netflix-1063",
       "name": "Netflix",
       "icon": "https://groupy.id/assets/images/services/netflix.png",
       "url": "https://www.netflix.com/browse",
@@ -27480,7 +27663,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768400418.765287,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -27626,7 +27808,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768400454.7633,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -27712,7 +27893,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768400461.453335,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -27798,7 +27978,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768400469.380695,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -27834,7 +28013,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768381210.391395,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -27970,7 +28148,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768400484.690611,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -28056,7 +28233,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768400493.098026,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -28142,7 +28318,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768400501.134874,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -28188,7 +28363,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768400501.134874,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -28332,7 +28506,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768400524.376329,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -28427,7 +28600,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768400534.603264,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -28522,7 +28694,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768400542.716209,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -28636,7 +28807,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768400560.372148,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -28750,7 +28920,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768400569.591273,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -28864,7 +29033,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768400578.008429,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -28969,7 +29137,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768400586.196891,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -29074,7 +29241,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768400597.015342,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -29179,7 +29345,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768400604.628402,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -29234,7 +29399,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768381394.74585,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -29389,7 +29553,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768400619.854324,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -29494,7 +29657,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768400630.604089,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -29599,7 +29761,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768400639.862836,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -29713,7 +29874,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768400648.990637,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -29807,7 +29967,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768400663.301243,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -29941,7 +30100,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768400681.908702,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -30055,7 +30213,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768400694.816513,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -30169,7 +30326,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768400704.434244,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -30243,7 +30399,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768400704.434244,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -30397,7 +30552,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768400725.126876,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -30442,7 +30596,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768381445.549743,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -30547,7 +30700,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768381445.549743,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -30721,7 +30873,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768400761.735651,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -31106,7 +31257,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768385408.572568,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -31126,7 +31276,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768325205.481935,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -31230,7 +31379,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768385408.572568,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -31250,7 +31398,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768325205.481935,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -31354,7 +31501,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768385408.572568,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -31374,7 +31520,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768325205.481935,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -31478,7 +31623,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768385408.572568,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -31498,7 +31642,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768325205.481935,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -31602,7 +31745,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768385408.572568,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -31622,7 +31764,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768325205.481935,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -31726,7 +31867,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768385408.572568,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -31746,7 +31886,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768325205.481935,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -31850,7 +31989,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768385408.572568,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -31870,7 +32008,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768325205.481935,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -31985,7 +32122,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768400418.765287,
             "sameSite": "no_restriction",
             "domain": ".netflix.com"
           },
@@ -32016,7 +32152,7 @@
   },
   {
     "meta": {
-      "id": "notebooklm-1062",
+      "id": "notebooklm-1064",
       "name": "NotebookLM",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRJ_-m9Y994yfZimh_h8Yzn0sMx2IsfVoDIQ&s",
       "url": "https://gracely011.github.io/hai/manual.html?name=NotebookLM&login=gpypremium@sharingwithgpy.com&password=SharingWithGroupy2026!&url=https://notebooklm.google.com/",
@@ -32036,7 +32172,7 @@
   },
   {
     "meta": {
-      "id": "notion-1063",
+      "id": "notion-1065",
       "name": "Notion",
       "icon": "https://play-lh.googleusercontent.com/vy-9s86d-81wk1acsXvAxN1xV5Y-doJdgbskG3GonOerbUwUtvNXk_XSRHoraaXZcX4",
       "url": "https://www.notion.so/Teamspace-Home-2e7f85c3cdd381e5a61df1f2a0b93007",
@@ -32079,7 +32215,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1768364824.313,
         "sameSite": "no_restriction",
         "domain": ".www.notion.so"
       },
@@ -32159,7 +32294,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1768364340.574,
         "sameSite": "no_restriction",
         "domain": ".www.notion.so"
       },
@@ -32275,7 +32409,7 @@
   },
   {
     "meta": {
-      "id": "pacdora-1064",
+      "id": "pacdora-1066",
       "name": "Pacdora",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9l1bvE2alHZrnR4bmSsbK2KjHemNk_p4Dsf-GVh6-5hFtZgugYYNfQfo0L3CQxZqdLC4&usqp=CAU",
       "url": "https://www.pacdora.com/my-design",
@@ -32465,7 +32599,7 @@
   },
   {
     "meta": {
-      "id": "paperpal-1026",
+      "id": "paperpal-1028",
       "name": "Paperpal",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsb2y412xVI5pSI0IiCzqNCF0RA7p-fxjNbg&s",
       "url": "https://edit.paperpal.com/",
@@ -32695,7 +32829,7 @@
   },
   {
     "meta": {
-      "id": "perplexity-1066",
+      "id": "perplexity-1068",
       "name": "Perplexity",
       "icon": "https://play-lh.googleusercontent.com/6STp0lYx2ctvQ-JZpXA1LeAAZIlq6qN9gpy7swLPlRhmp-hfvZePcBxqwVkqN2BH1g",
       "url": "https://www.perplexity.ai/",
@@ -32881,7 +33015,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768368327.609447,
             "sameSite": "lax",
             "domain": ".www.perplexity.ai"
           },
@@ -32948,7 +33081,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768396456.521513,
             "sameSite": "no_restriction",
             "domain": "www.perplexity.ai"
           },
@@ -33250,7 +33382,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768396466.393219,
             "sameSite": "no_restriction",
             "domain": "www.perplexity.ai"
           },
@@ -33572,7 +33703,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768396443.503278,
             "sameSite": "no_restriction",
             "domain": "www.perplexity.ai"
           },
@@ -33603,7 +33733,7 @@
   },
   {
     "meta": {
-      "id": "picsart-1067",
+      "id": "picsart-1069",
       "name": "Picsart",
       "icon": "https://play-lh.googleusercontent.com/1JMJ518jogwPeaD0pYn2mBu1cRLD0xRi45wNbtTIRvam1_xx-y3KJOjRAx-W9P4Lf0U=s256-rw",
       "url": "https://gracely011.github.io/hai/manual.html?name=Picsart&login=sgpgemk@nuyul.id&password=Premium@123&url=https://picsart.com/",
@@ -33657,7 +33787,7 @@
   },
   {
     "meta": {
-      "id": "prime-video-1069",
+      "id": "prime-video-1072",
       "name": "Prime Video",
       "icon": "https://groupy.id/assets/images/services/primevideo.png",
       "url": "https://www.primevideo.com/region/eu/",
@@ -37749,6 +37879,1113 @@
   },
   {
     "meta": {
+      "id": "pro--apple-music-1077",
+      "name": "Pro: Apple Music",
+      "icon": "https://play-lh.googleusercontent.com/mOkjjo5Rzcpk7BsHrsLWnqVadUK1FlLd2-UlQvYkLL4E9A0LpyODNIQinXPfUMjUrbE",
+      "url": "https://music.apple.com/ca/home",
+      "category": [
+        "music",
+        "proexclusive"
+      ],
+      "isGroup": true
+    },
+    "accounts": [
+      {
+        "name": "Pro: Apple Music 1",
+        "cookies": [
+          {
+            "name": "myacinfo",
+            "value": "DAWTKNV323952cf8084a204fb20ab2508441a07d02d3e08391349e975dc7600b4720f56d12ca1540d4c87236ed657b501262b227d4fc5f1fe72e3385befb8f3ff8f734ed31214af601a743b0c60b05fc2ca925c4d0adcb951da15b52914174f4c870854acf87ccd5ff837e0cd002ef997c0b4e3069a45f325bc48697a03e8e2a6531db3dd274950388ef08457d776aef539b7b39abb1266d6cfae53535604bdcb9e661a29fa243277893f8a45b3f00ac675c5665a038ee264d793b9f7f703e67a17ec3c968eb4e215610051522c44c2b4e112915f62bca74b070376610860e480eed779f1e4abb577ae8286e60f65e84034d4f8cee20a063e27073b2b909cab727f96e1339ae7e0ecf87d50428430ea5ad9e0fa2c8d956b491879879e9c063f3767225b581f2950abc66d8d86d03b9f37a0f474c45f36098e517446884eb5650966e0f7e3179d0332adc044f75776d302d031a76b891b5398432a872153bc59a10aeefd624f284651e7ee11b9967503ed39279eccdcb13fc11c5cb8b8ae72db32d9e955eddccfd0138f444b5a417adff70c5e3fba1906f6dbcbab22f5449f131aadebb99328f6dfbb5dee3ecd437446f3020c0e42c5bcbfdb6da0280d2852040e248542d85aea1d7bcbf6e5001b43b2baf543c1f0dd3fb01ee21f36799fbf72a576a40ad4d0fa9375f95b2ca4080c78c93a8a83951e4585a47V3",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "mut-refresh",
+            "value": "1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1774333613.43,
+            "sameSite": "no_restriction",
+            "domain": ".music.apple.com"
+          },
+          {
+            "name": "dslang",
+            "value": "CA-EN",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "geo",
+            "value": "CA",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "itre",
+            "value": "0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1784047920,
+            "sameSite": "no_restriction",
+            "domain": ".music.apple.com"
+          },
+          {
+            "name": "itspod",
+            "value": "47",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1803055920.093736,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "itua",
+            "value": "CA",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1798093613.43,
+            "sameSite": "no_restriction",
+            "domain": ".music.apple.com"
+          },
+          {
+            "name": "media-user-token",
+            "value": "Ar8Wzr0hMxIhs98yTNI0eLwOf1lwLTHHmM9K5AFCwiqc5zKY+LjuDgZ5/xD8hxWRIgWRizHDmD1xtjDhIdP2DJ7fg4ON96lYMmkT7hjgERIrAnJLjn2ZkVV/aj9fh7LRM8mR8ZFvaHyzZBdmVQrUtSUU7C3b4EZWCpky1jPbgVQFo9YX9xZx174n/Q522L57/kgmtRh7sSGE0C13wpug/ANhB84TgkgtPp9pj2jj0KzjHKI4xw==",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1782109613.126,
+            "sameSite": "no_restriction",
+            "domain": ".music.apple.com"
+          },
+          {
+            "name": "pldfltcid",
+            "value": "9c6d4e68f9714d469f627513b5b83a35047",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1782109879,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "pltvcid",
+            "value": "f3a3bdabc3f9466395ef1b9df7d23e43047",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1782325613.43,
+            "sameSite": "no_restriction",
+            "domain": ".music.apple.com"
+          },
+          {
+            "name": "site",
+            "value": "CAN",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "vrep",
+            "value": "CKLeufVGEgQIEhAAEgQIBRAAEgQIDxAAEgQIERAAEgQIDBAAEgQIARAAEgQIBhAIEgQIBBAAEgQIExAAEgkICxD6qrL4tDMSBAgHEAASBAgDEAASBAgOEAASBAgQEAASBAgIEAASBAgNEAASBAgCEAASBAgJEAASBAgKEAA",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1769149841.358,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          }
+        ],
+        "sourceUrl": "https://music.apple.com/ca/home"
+      },
+      {
+        "name": "Pro: Apple Music 2",
+        "cookies": [
+          {
+            "name": "myacinfo",
+            "value": "DAWTKNV323952cf8084a204fb20ab2508441a07d02d3599b97ade423905cdb7c1e733da2bb0d3a2cb5cf8fe0b21881f243ac474cc2282bb85959bc697057ef91ff68bea7a862811f86664363a6e86340315a75abdbf0efb3f0181cd28154749c6a6cf1f6f030e08e6980a836852b25c913f1acf3351ab22cf2fa0d957db99a157b770a834014cae35f43898bef7b3b90533364a5c4a6f77a7ea771bf588aba34ab37c5969ccd1875537ab0d18a6b98972582224f36e8209d395ad435d386ec3564bdd232aba3161b6538084c47df8f6d4c525f5e0435fcffeb0b84d761beb85d0a8054b0844d4cc43fb4b621cd28472d16d0d5a83b8380fa14fb7771d220baff550681cb2c96035e817b546670622275833757bc6250c640781cfa951ad8984f1a5fac045f3ae4c05317958b8e56af5b7a0385fb4746ffa3ac8cece44cd4ddc8d685503ccc16aadaef9f37d286b6a0dc4be3780f37ce78be00bb5c7f9d1778706770fbc0bf430a24bf1f4740fa621928753bddb100644fd30d3a09d171187ab0f755bd3f8784bd027345abc7dbc0d210b5259a183345a28f2860563f0338a11316e08ae129ad60a61be022e3c7758b63d7bf06dc2bb5e25d91c2b94f53f643cd689de9e9a07e2011ff5b8885be2714afabe64f33c8a42a0033717c00c452fc6512dd9cbbe951b1a3c8d93109f70a0bc95a237f1fee8d585a47V3",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "mut-refresh",
+            "value": "1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1769049578.926555,
+            "sameSite": "no_restriction",
+            "domain": ".music.apple.com"
+          },
+          {
+            "name": "dslang",
+            "value": "US-EN",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "geo",
+            "value": "SG",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "itre",
+            "value": "0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1784047907,
+            "sameSite": "no_restriction",
+            "domain": ".music.apple.com"
+          },
+          {
+            "name": "itspod",
+            "value": "19",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1803055907.766399,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "itua",
+            "value": "CA",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1792809578.926555,
+            "sameSite": "no_restriction",
+            "domain": ".music.apple.com"
+          },
+          {
+            "name": "media-user-token",
+            "value": "Ar+0STA+u2lsnlTVxmj9PZvnw48se6bAWyN4PGGlUVSlkv8xipuUtCSebZrMzreYH0EWwlsql8hn+LUUcp3YusMbZ/WSKU/SQXj3ortW2nADsh0uvlcNSQAH2VDBbEZC7JUhz+WsAl6Aj2AQqZzxTSeM0U6KuXM8vAE5oU/upd8Re3LserNnLxnAUFCL2c4ySHN7dpvcfkrDZpTzvEznzvWxJrSY2DD77UqQxNc9QCpK0ZF5rw==",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776825578.926555,
+            "sameSite": "no_restriction",
+            "domain": ".music.apple.com"
+          },
+          {
+            "name": "pldfltcid",
+            "value": "46848778928c495daffd7b5f1374c200019",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1777041578.926555,
+            "sameSite": "no_restriction",
+            "domain": ".music.apple.com"
+          },
+          {
+            "name": "pltvcid",
+            "value": "579d20bfc2ce491d85058723f58cf405019",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1777041578.926555,
+            "sameSite": "no_restriction",
+            "domain": ".music.apple.com"
+          },
+          {
+            "name": "site",
+            "value": "USA",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a51455734626972535650696e764a7a75795a727154546f4764377453677552447763635a6464724c6f6c59462b6b365a42",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".apple.com"
+          }
+        ],
+        "sourceUrl": "https://music.apple.com/ca/home"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "id": "pro--blackbox-ai-1011",
+      "name": "Pro: BLACKBOX AI",
+      "icon": "https://play-lh.googleusercontent.com/Z_fquqqNzAd8FkpSjlnURnMtmLh8HRf_h_kIwhs0NbXKpO4WZ_fyZfi0f5yQsNmRL_lP",
+      "url": "https://www.blackbox.ai/",
+      "category": [
+        "productivity",
+        "proexclusive"
+      ],
+      "isGroup": true
+    },
+    "accounts": [
+      {
+        "name": "Pro: BLACKBOX AI 1",
+        "cookies": [
+          {
+            "name": "__Host-authjs.csrf-token",
+            "value": "bb95fa1db94fdab15cea22bba7ee65d329cd3bde61d3c5aad416062f1c4986d0%7Cb9be13bb07b57401926dd2a48d8c364889c37e4cae573f6616abd7932d72f625",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax"
+          },
+          {
+            "name": "__stripe_mid",
+            "value": "8f95cf3a-6423-4823-95e7-167ec413ff9154f973",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800031874,
+            "sameSite": "strict",
+            "domain": ".www.blackbox.ai"
+          },
+          {
+            "name": "intercom-device-id-x55eda6t",
+            "value": "b70d52cd-aa6e-4d11-8723-875bd009ed8b",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790241828,
+            "sameSite": "lax",
+            "domain": ".blackbox.ai"
+          },
+          {
+            "name": "_gcl_au",
+            "value": "1.1.2113634138.1766911271",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1774687271,
+            "sameSite": "no_restriction",
+            "domain": ".blackbox.ai"
+          },
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1766911275288,\"i_b\":\"5MECK0Idx9d9pSlim/X7V3Ll3FiBGbOl6eXObY0cZwI\",\"i_e\":{\"enable_itp_optimization\":9}}",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1782463275,
+            "sameSite": "no_restriction",
+            "domain": ".www.blackbox.ai"
+          },
+          {
+            "name": "__Secure-authjs.callback-url",
+            "value": "https%3A%2F%2Fwww.blackbox.ai%2F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": ".www.blackbox.ai"
+          },
+          {
+            "name": "_fbp",
+            "value": "fb.1.1766911283490.336634654326561235",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776271873,
+            "sameSite": "no_restriction",
+            "domain": ".blackbox.ai"
+          },
+          {
+            "name": "blackboxai-christmas-seen",
+            "value": "%7B%22seen%22%3Atrue%2C%22timestamp%22%3A1766911334887%2C%22expires%22%3A1769503334887%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1769503334,
+            "sameSite": "lax",
+            "domain": ".www.blackbox.ai"
+          },
+          {
+            "name": "intercom-id-x55eda6t",
+            "value": "05346e37-1cda-4c60-a2e8-c86519461955",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790241305,
+            "sameSite": "lax",
+            "domain": ".blackbox.ai"
+          },
+          {
+            "name": "sessionId",
+            "value": "c61d440c-f86e-4531-b15a-97c91856723c",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1801471264.039,
+            "sameSite": "lax",
+            "domain": ".www.blackbox.ai"
+          },
+          {
+            "name": "ph_phc_9T0rgpbTO2ItkwbH8HNZuavYKcQ3h3wxzJwELM6JHV4_posthog",
+            "value": "%7B%22distinct_id%22%3A%22019b641e-5b5c-76da-9a1c-0c324e64e10b%22%2C%22%24sesid%22%3A%5B1768495872378%2C%22019bc291-47b5-7f64-9b6f-31eed6815d7f%22%2C1768495859636%5D%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22https%3A%2F%2Fwww.google.com%2F%22%2C%22u%22%3A%22https%3A%2F%2Fwww.blackbox.ai%2F%22%7D%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800031872,
+            "sameSite": "lax",
+            "domain": ".blackbox.ai"
+          },
+          {
+            "name": "userCountry",
+            "value": "%7B%22country%22%3A%22ID%22%2C%22currency%22%3A%22IDR%22%2C%22timestamp%22%3A1768495873252%2C%22expires%22%3A1769100673252%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1769100673,
+            "sameSite": "lax",
+            "domain": "www.blackbox.ai"
+          },
+          {
+            "name": "next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiLWpRZ2lSMW5xQzN1a3A1NWRNeXk4bERUdDJRSGFSclhzR28yXzJxOWNGd0NtaWN0RGtZOEdfYm40WjhZUjRFN0QxRVZvR19DSm5mSEtHeGFkNmdrX2cifQ..RHvF40isKDX3ef9bXO0Osw.qrk6Or8B2tqa53eK7sDqUvJ9psEPC5ro2rzlpYi-7UiI5uybLwPYnNFrtLi2eu32-ZVOvxaE5O6xJssU8z558A7nwdU_SxeyqGjRpBmmx8VNRsBs9xlnH_djHgGv6oE_COYkHFe3qvsokwhrECmR5sF9zxPb8Pa0rOiBfYxP0y9kszVoLcdaGXLZYZL2G_U0FYbpzoQfO7HLj0pJ5uzjJZGVVKpirdtXTTwkMQYMF8KkqL6RnCOJ5KLcO_4ME8d4Il-BQ7MEpLp3gbvOzbTf-s51ORitgZSRlEQGwZAC7Zc.58SyKLq_e7AH8-34j0A1WJCnN_VRzvwEW7cp0iBk26k",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771087873.58606,
+            "sameSite": "no_restriction",
+            "domain": ".blackbox.ai"
+          },
+          {
+            "name": "__stripe_sid",
+            "value": "7918e903-829d-4b59-a6da-13968ac5aa6e6cb97c",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768497674,
+            "sameSite": "strict",
+            "domain": ".www.blackbox.ai"
+          }
+        ],
+        "sourceUrl": "https://www.blackbox.ai/"
+      },
+      {
+        "name": "Pro: BLACKBOX AI 2",
+        "cookies": [
+          {
+            "name": "__Host-authjs.csrf-token",
+            "value": "7f6f7aa2a10aadc8206eefbbdc564668ffbbce04480a0fa0b6b8442c97c8d21d%7C959d397222695104d55fa10bff598ea34d28538216f23276ad4aba2a862fd4cf",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax"
+          },
+          {
+            "name": "__stripe_mid",
+            "value": "fd1cfe7c-be12-4d2e-b876-c38edb9f627863f4fe",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800031862,
+            "sameSite": "strict",
+            "domain": ".www.blackbox.ai"
+          },
+          {
+            "name": "intercom-device-id-x55eda6t",
+            "value": "90b00a83-65e3-4157-b935-a1d0ec06cc2c",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790241843,
+            "sameSite": "lax",
+            "domain": ".blackbox.ai"
+          },
+          {
+            "name": "_gcl_au",
+            "value": "1.1.1563196380.1766911271",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1774687271,
+            "sameSite": "no_restriction",
+            "domain": ".blackbox.ai"
+          },
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":1,\"i_ll\":1766911280214,\"i_b\":\"66tGDn42Hr2DKrwixlgND648jL8bdSIG+F1b5kub1eo\",\"i_e\":{\"enable_itp_optimization\":1},\"i_p\":1766918532411}",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1782463332,
+            "sameSite": "no_restriction",
+            "domain": ".www.blackbox.ai"
+          },
+          {
+            "name": "__Secure-authjs.callback-url",
+            "value": "https%3A%2F%2Fwww.blackbox.ai%2F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": ".www.blackbox.ai"
+          },
+          {
+            "name": "blackboxai-christmas-seen",
+            "value": "%7B%22seen%22%3Atrue%2C%22timestamp%22%3A1766911334003%2C%22expires%22%3A1769503334003%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1769503334,
+            "sameSite": "lax",
+            "domain": ".www.blackbox.ai"
+          },
+          {
+            "name": "intercom-id-x55eda6t",
+            "value": "fd994624-5013-485e-8275-6bb25e18c95c",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1790241307,
+            "sameSite": "lax",
+            "domain": ".blackbox.ai"
+          },
+          {
+            "name": "sessionId",
+            "value": "f203c6e0-0760-4556-bb28-0a6b06d54ca0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1801471262.639,
+            "sameSite": "lax",
+            "domain": ".www.blackbox.ai"
+          },
+          {
+            "name": "_fbp",
+            "value": "fb.1.1768495859417.553682338158691400",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776271859,
+            "sameSite": "no_restriction",
+            "domain": ".blackbox.ai"
+          },
+          {
+            "name": "ph_phc_9T0rgpbTO2ItkwbH8HNZuavYKcQ3h3wxzJwELM6JHV4_posthog",
+            "value": "%7B%22distinct_id%22%3A%22019b641e-5b5c-76da-9a1c-0c324e64e10b%22%2C%22%24sesid%22%3A%5B1768495859636%2C%22019bc291-47b5-7f64-9b6f-31eed6815d7f%22%2C1768495859636%5D%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22https%3A%2F%2Fwww.google.com%2F%22%2C%22u%22%3A%22https%3A%2F%2Fwww.blackbox.ai%2F%22%7D%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800031860,
+            "sameSite": "lax",
+            "domain": ".blackbox.ai"
+          },
+          {
+            "name": "userCountry",
+            "value": "%7B%22country%22%3A%22ID%22%2C%22currency%22%3A%22IDR%22%2C%22timestamp%22%3A1768495860261%2C%22expires%22%3A1769100660261%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1769100660,
+            "sameSite": "lax",
+            "domain": "www.blackbox.ai"
+          },
+          {
+            "name": "next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiLWpRZ2lSMW5xQzN1a3A1NWRNeXk4bERUdDJRSGFSclhzR28yXzJxOWNGd0NtaWN0RGtZOEdfYm40WjhZUjRFN0QxRVZvR19DSm5mSEtHeGFkNmdrX2cifQ..LrLVlzbXAtxzLQQBuqPR4w.J3S6YqIgo4Ni_BjT_j1G4ToBPHVb_TMGNtQ0sctqZJ73ZPLYuoL6OqTdrAugs2beDLUqhthvmv1NY8xwdV7XF8FkPuCaQK1Gxz3sM7gtx493TBX3D3cb4JRzCZBANPXiz_Hrb4EM8PUi4gKVHDViM7wwwew8ns4bOdTsf6gseAmZHTS7l05WCzYUL-1S2ELGpAldaTFD72kdW1PSOkaWeYEZ7qXsSiJjuO5MG9mCbg5ScXwGwlVMpy7P_Ok6957vDXo2qDHZxMq98jNAIjq2SE7Ncf9i0f-JTZyhVNVvw9E.RIn-NW2OtzKHmqTOclWgjQse2cKoJaIqug1G__Dd-Bc",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771087861.396805,
+            "sameSite": "no_restriction",
+            "domain": ".blackbox.ai"
+          },
+          {
+            "name": "__stripe_sid",
+            "value": "29d1dd31-5080-468c-8c6b-87adff7cf0e2f9f7ad",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768497662,
+            "sameSite": "strict",
+            "domain": ".www.blackbox.ai"
+          }
+        ],
+        "sourceUrl": "https://www.blackbox.ai/"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "id": "pro--captions-ai-1026",
+      "name": "Pro: Captions AI",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMRpOM7wu7dsXoaYndVRPI3hBxosICzN6X9w&s",
+      "url": "https://desktop.captions.ai/projects",
+      "category": [
+        "productivity",
+        "proexclusive"
+      ]
+    },
+    "cookies": [
+      {
+        "name": "IR_27648",
+        "value": "1767435108851%7C0%7C1767435108851%7C%7C",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".captions.ai"
+      },
+      {
+        "name": "_clck",
+        "value": "1x4ddt9%5E2%5Eg2e%5E0%5E2194",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1798971068,
+        "sameSite": "no_restriction",
+        "domain": ".captions.ai"
+      },
+      {
+        "name": "_ttp",
+        "value": "01KE1NDN9S4ZCW83N0JY4Q3WJD_.tt.1",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1801131109,
+        "sameSite": "no_restriction",
+        "domain": ".captions.ai"
+      },
+      {
+        "name": "_rdt_uuid",
+        "value": "1767435064001.9a58e953-6450-42b2-b98a-a717cc7d3a51",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1775211108,
+        "sameSite": "strict",
+        "domain": ".captions.ai"
+      },
+      {
+        "name": "__Secure-next-auth.callback-url",
+        "value": "https%3A%2F%2Fdesktop.captions.ai%2Fprojects%3Fprovider%3Demail%26stableId%3Ds2X_tBLkVlbhVKLjrNfoV%26acceptedAt%3D1767435096966",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".desktop.captions.ai"
+      },
+      {
+        "name": "IR_PI",
+        "value": "9a3debf8-e88c-11f0-961a-8f79c001fb53%7C1767435108851",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1801995111.319999,
+        "sameSite": "no_restriction",
+        "domain": ".captions.ai"
+      },
+      {
+        "name": "__stripe_mid",
+        "value": "ce718ea1-2e3a-4bbf-b90c-15fbcfdd5435085e5b",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1800032453,
+        "sameSite": "strict",
+        "domain": ".desktop.captions.ai"
+      },
+      {
+        "name": "_tt_enable_cookie",
+        "value": "1",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1801131109,
+        "sameSite": "no_restriction",
+        "domain": ".captions.ai"
+      },
+      {
+        "name": "GAESA",
+        "value": "Cp4BMDAwN2UyNmQ2OGZhYjJlNGI3MjNhYjM5MmI4YTQ5NzdhYjkwYzBmN2NhODRjYTlhNGU5ODQyNTJiMjQ4MmYzOTA1MzU1ODM2NjVhOTZlYTQ3MzExMmU5NTY3YzgwNGZjZGQ1YWJkZTIzMzVhMDM1M2E2NTU1ZWQwNmNjMDBjYzQyNTVhOTI1MTdhMmQxN2U2NWQ4ODQ2MTMyNGZlM2UQs6zbmrgz",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1770027065.152575,
+        "sameSite": "no_restriction",
+        "domain": ".desktop.captions.ai"
+      },
+      {
+        "name": "_fbp",
+        "value": "fb.1.1767435064412.711802669408458951",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1775211108,
+        "sameSite": "lax",
+        "domain": ".captions.ai"
+      },
+      {
+        "name": "IR_gbd",
+        "value": "captions.ai",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".captions.ai"
+      },
+      {
+        "name": "__Secure-next-auth.session-token",
+        "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..ZpTuG5-ojapJRn7E.78IUI7Q0owe8WmHRLG7FafDoU7g_ODk5dvAF7XmGPLg_i_50P1MXTV7Lao16bVAPJ6ZalVVz7IkHnq9IHivVUFPDE69Qv2QlcyKvI6Y5hAMTI4hsLsj-a7hd9mNx9rpOCkGSVZ0T19WQyH7DaoqKG_7yRLvkV4tgbXvpeOxtEwUCyoxohRnkrHXZ_uMF6Bga0sKY3YYsKwzS2o4RS6O_T-Gu1arH2llO9nTnoPaSBo0QACwUfoqD6US7tMmSqzFkohotCladprUg_Y6t4dEugVX_S0Oq3Ap0Hppz8tB-dPkmOBcBi0nEVGnfwwnibLtLoph9vGir8xMFMxVk7_GmpDusOGW5rVbnHhqC12qf3WLglGkfMtpRI0-ShjaIne3ROUbjJkYzqr9KU-f6gH1Wt6dTn-3zBzMZAqtGmqu_cz5c3TPoCodcBSU1xvfYwZBv1r8kdY7i6gnoI38AtRkL74-w7F-iSEaPNLIAw0i7QAAZuXf3rVVvBkj4EcG4F_t8MHE4tNQVn2ZrV5Lw7kYoHKy1mZiIb2I81W5mGJBEoJZ3DG45kTFG-bPb8NDzjLNVE54dVguqVS1fxt65BamE5tsTNB_pQ7VmtJq6-JTQoc6clzsXL7sYXtd1WWQhs3FCs77plrnuJYRKGGBrI8vhWM9LWGu-C3RGxRHUprH0JRGTVdlkAwSyRU2CoCM514YkwWXNVEkn8ifGrqxdbwmqKBLDjd50gZwmUqRnCvkGBBP3Ji19R1nT3MXVDsDDq1csjHOJhE5lmCkB6Vsk-8qtUYydhukIoYaC6eIIHaxT1gaBrd2TCgqSZ0tIbQNchSkCM3dwUIoAW9u_iH5FSPW0alVkDzDKeNfSEFJ0Hj1r6Hrj-rDYX1dUg_fGIgS-R6BDSRlKHeKN6BqGuZgylt4wrh_sW8Z3bB4WryxWEckau-wErk0bSOFRdZuqAQ65KYtSjVAT516zFLk2CxxRTZCJbD5aBKlYYT7ZSuskmdyjUpmP4M7OMBKuoB9hg1bD_mRBuMM-aIMrLPHdnpXItXodawqjMg83ssRHWvn9YpmvS5kRL7sZLz6qDOwldXHSdWleaDdsQvtmFdNbMGPmRlvGnP3Ok4fTE3gpiD-cICwCakd17X746uPzeZ1NSAr1Q_ELJ2mifsRwTxX_GZZV1zOGzRwSBo1YMx4GdazeW9q3QbiOxqrN9d2PRkGltNzMzjbjU7SDpcNK7EbRwpmlKe5j11XStE--tLU70k9L8ELTfrKRogV6j16DT2FEu2_8r_7euXd8R0HUk1D93REtqG-qZ74dmijaxQ6hGhFkapb2iFMoWh75OXP9PtLmyDkFWR1sYCAkFgiVGyx-sMbcU1g9qN3evia1WqAyPei1pjxcXN45caiKyMRJnTjMcOlRCoAOdeEkoqdRy8co8HI4DTFDaNjslWtBb2ii9O6deKbZth36oHXQKy7POWCmhKM104OmjZi7RAGLNXz_B23Lelp0JiLhcryz-9NY1ccT_AZihQPad4zCHamSPkL8FWBW1uFTaZqoR-g3bzjbQDEmk5EXPkDehsHz2oOBZymgK5MEimts3F-tq5TzV8zro7kAQoeXaibCnr1em9JHnvQUFX1FOsP2rehCaYN6jgP-86XTpL6GxESYbq-EOmbkgXPLYLYXErqwT51iQgFBDIs.KG_f6wR8BdMtiTDMF1ljrw",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1770027109.330681,
+        "sameSite": "lax",
+        "domain": ".desktop.captions.ai"
+      },
+      {
+        "name": "_uetvid",
+        "value": "834c2730e88c11f098d7719ebc8e6a38",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1801131108,
+        "sameSite": "no_restriction",
+        "domain": ".captions.ai"
+      },
+      {
+        "name": "ttcsid_C3CK5GD63S9K1TKTPQL0",
+        "value": "1767435064636::KW_2DuTr6fykJupRs614.1.1767435109469.1",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1801131109,
+        "sameSite": "no_restriction",
+        "domain": ".captions.ai"
+      },
+      {
+        "name": "__Host-next-auth.csrf-token",
+        "value": "1f111a4e064ce63bc5be00f7e34e559de5acb2647b02ed01eaf151e978869bcb%7C90cd6d1d8e0b19a2e9602a2a7ed0d514b23869bad0e4bf0c3c976cf8deb4efb4",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "lax"
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.1167581048.1767435063",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1801995108.903491,
+        "sameSite": "no_restriction",
+        "domain": ".captions.ai"
+      },
+      {
+        "name": "_ga_4SV5H19FZW",
+        "value": "GS2.1.s1767435063$o1$g1$t1767435108$j15$l0$h0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1801995108.925824,
+        "sameSite": "no_restriction",
+        "domain": ".captions.ai"
+      },
+      {
+        "name": "_gcl_au",
+        "value": "1.1.846045889.1767435063.923678655.1767435076.1767435096",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1775211063,
+        "sameSite": "no_restriction",
+        "domain": ".captions.ai"
+      },
+      {
+        "name": "_rdt_em",
+        "value": ":82aeee6e179d80fdf5ab606e0a373f4603e8486dbf18540bc92f6daf1241561a",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1775211108,
+        "sameSite": "strict",
+        "domain": ".captions.ai"
+      },
+      {
+        "name": "intercom-device-id-bzzhyhyn",
+        "value": "a64edf4b-c5e3-40cc-a38d-0765f005d45f",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1791826457,
+        "sameSite": "lax",
+        "domain": ".captions.ai"
+      },
+      {
+        "name": "intercom-id-bzzhyhyn",
+        "value": "d8159d91-0968-41c1-b109-1ab518b82c0a",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1790765069,
+        "sameSite": "lax",
+        "domain": ".captions.ai"
+      },
+      {
+        "name": "ttcsid",
+        "value": "1767435064636::fnzZVES0IJH6onPegZW5.1.1767435109469.0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1801131109,
+        "sameSite": "no_restriction",
+        "domain": ".captions.ai"
+      },
+      {
+        "name": "sign",
+        "value": "445275774777774b50534a764f797a5145573462696c554b776741322f385666593664374657534a77544e6752412b6d495a725a48383664716d7a636a345141",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".captions.ai"
+      },
+      {
+        "name": "GAESA",
+        "value": "CpgBMDA1ZWI2OTc0YzkwMmYzZmVlMzZhZjkwZjA4NmM3YTQ0ZTE3OTMzNzQ5MzJlYTcyZjA2MmFmYzE1ODQ0NGJiMDNkZmQ1ZDdlZjA5NDU2ZTIxMmNkYTJiMjVlZmRiYjY3MzYxNzVjNDRmOWE5YmE0NzUwNTE1NjNmYmI3MDAzYmFmMzk3MGZhNGJhNDE4NDM4YWQ1YmRhODIQ-5nolLwz",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1771088447.525352,
+        "sameSite": "no_restriction",
+        "domain": "desktop.captions.ai"
+      },
+      {
+        "name": "stableId",
+        "value": "NLOxSSFsCN2pcrOvrGufd",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1768582849,
+        "sameSite": "no_restriction",
+        "domain": ".captions.ai"
+      },
+      {
+        "name": "__Secure-next-auth.session-token",
+        "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..aNPgbZIbFEnYCqiI.lEwRY_Vb33rnpqoW4tUR4kKvWEZqOIeA_GoX_avQwnjLKWqpOkcKzqnefKQClJZWw90rRedowuWfs2A2WvBRTZQ4G5UMfFxxVaPQi_3w_N7UtSaUJVZjPREG-qK4PUDw04wPzdTbNk0qkR56VC1N1FvIHqPRnBraLGQD696RNvVOZhbSNjM4dk-Oulwx5NqGWUlR0-hiypqavCkNsT0dK0zreKKMo1wZfjRI0iKiAGkv8l4gRmrtWmyBOjaZRqmElkqzCZppBSdVqOyyYHe08GILWNu6WAdlK1ZBWRhPEqbGb65Urp5szZQotLgLDz42r00bViivntf-NuFjt3Pc-SI0FwfoHH_VAqXDMLltgTlA_tR91k_53A2ahMKelCpLUdBCu5j19nYcvH2SyY-1yqVuwZ1ENgPg5E6mOn3Pe9YeNi6W1vmwiKQllpqDx2Bbq0YKnTPe9-RFloa6v45YiCGprUEGJEJU-peeXGzbhPDz7zfqJPcC7fCGfUcHarR7iZXWsneFGvEmsmUcCuimVpYIb3f5-nUU-GmD27fuJoT3Eev6CYxp6OZ9BjqPJ7whfg1reH51Z4Jr-N4T13X4YKkcIPR-FFAMlii_h8DlVUmVlIdGAxZf9pFaY9NmekCympNAyVc5foKZl3dVpiLgzYM78X0p90riTMfktxVPxnaEVcWvMwuHW8Vi1bAiMqikygNfAMo-_R8HB9IjJb5yRGZB3zL2ci60-C4qcXubX6HDCl-b6AYJMqrZMSW9VZDIDjQfoqFrq3g0zE9kU3sx2homoKWckZ90ALiuywRPYEwaZjwlDxbkvpUFGWVNVEGxNV7gArxv4PzkWoCDhBaM9Xkb3m2m464veJ2oCZSFNAMz7dlGynzbrV9-MlQZLIjlMcJVuLWJJwvb9SIMVDaYT6548t6ZrZ3x6rzIw8bacwxFLhuBbDcfYR4O9wy5lF8bMZ3JQF0ilRyUId-xhZlcqQ43L5tsxGzGnnhZDZkSIi5HBIU0XtibK0lZWPmlxX1ctvA6n1S0IdP2H3zg_f6xKPjkbCxcU0l5cp29US6WXBbEEX_L9rz7HN5AlNkonp8c2nRWMh6S2EFC6WJwYSrMxOPVW064mWFOu_6N7OSYpXLk40KgBLqim_dT6DzmsYZKTY77jIx_rYKMNrSO9PAuE8wK0ZxNttNY7X2puETde_QVvWgS_zMlvU1NIGiIp9_v0haLwbq350cQPYNac9_sy_KGRWUWoG5UCQtZ1VEPzcdd6kVEbmFQVMSn5Om7ULCz1BKC-J8YyP6UWyWQeyl_5gxoFgWX7L2HfcR6k1nsJWKgLBpcl0V4gnmmnk06FG7BI7q-q17Py3plqDDnND5C_61EXU1VTCOo0h9Oc2ntfpuPzB-z1zoBBsBFExKBgoZ2dgyUvpEj5gNjmTucTXSR4xRRHDHP2P1Gy7S7twC1jED89xY6TVaDRBl_pjSrkzAoGLFsZ2LYxti0aspQ4Cs8FpVfzJCCMpLzflDk2Gxhhyjh9qrwbInpk4W0uMdY8fdzsSOYtSPXFCpOio3f0RpNz1Z14KEq1_o0E0VjSrjpgaymupJ8tL2EVBuaw9BQc6Z9Rg_AoUxjTECBUjcOeSvhJeKRhbJTiEg_mVSxA2UxqQ9x7FfDiZg7JPRG3bt4-fhy4SpBFCCHus9OZTk.1RJ46V46g4zISh0DL2lnLg",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1771088449.705471,
+        "sameSite": "lax",
+        "domain": "desktop.captions.ai"
+      },
+      {
+        "name": "__stripe_sid",
+        "value": "fe2d3fdf-b276-45bd-95d9-8f1c06570047fbd542",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1768498253,
+        "sameSite": "strict",
+        "domain": ".desktop.captions.ai"
+      },
+      {
+        "name": "intercom-session-bzzhyhyn",
+        "value": "R1QweEZPVStpdVhxcWVteitOUnZWd3lHcFJRQmRXOUlUU3JQMUU5Q04wOVJndFArTHdqMHQvcDBFTHk2QzJZQnFNd01SYmxYS3BUdjFKend4ejZ5cVNQeTE2c1VOQTFlaVQwRkp3N3V6MDQ9LS03alM3M1Vmb1VlUWxhVExFemZaZDR3PT0=--85303cfa7d6e0c26c4a9742c3cb0ee8a5afcd2ed",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1769101243,
+        "sameSite": "lax",
+        "domain": ".captions.ai"
+      },
+      {
+        "name": "_dd_s",
+        "value": "rum=2&id=b8d0c884-942b-43e9-b363-81f7f98cc5a1&created=1768496449202&expire=1768497362892",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "strict",
+        "domain": "desktop.captions.ai"
+      }
+    ],
+    "sourceUrl": "https://desktop.captions.ai/projects"
+  },
+  {
+    "meta": {
+      "id": "pro--chatgpt-pro-1074",
+      "name": "Pro: ChatGPT Pro",
+      "icon": "https://groupy.id/assets/images/services/chatgptpro.png",
+      "url": "https://chatgpt.com/",
+      "category": [
+        "productivity",
+        "proexclusive"
+      ]
+    },
+    "cookies": [
+      {
+        "name": "__Host-next-auth.csrf-token",
+        "value": "5b67df743b09cb3087170c54c3ffc6fe9226fc122bdf4a72267598ec04e59b75%7Caf9aa6c9c107bb87a172fa02e5db7ffe57f8ba3a7140e984e536ba8737373c29",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1770631558.274084,
+        "sameSite": "lax"
+      },
+      {
+        "name": "oai-did",
+        "value": "f524110d-c4b3-4031-9b2a-d5bf58549de9",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1770631558.274098,
+        "sameSite": "lax",
+        "domain": ".chatgpt.com"
+      },
+      {
+        "name": "cf_clearance",
+        "value": "sYnZhmZKEcbJMVWFBmaSCrADLjJhmkH7lv40xLoRWVY-1768039366-1.2.1.1-aKmfeOnRu6jZ9sgsxKr0D7UMP74VEFBrvhOkyB.uZFNbqqhTZlRyoDffpER_FbSbYMOJFWoXSoIZK8PQ.7UxDO9gAdLoBPOLbybusnEJP1vp3aQZjmrUI7JFSsgAQGWG8u2uY70XoVgeBbXXTEHxhvYXH65fjAX0sIXMe1GZbVf30dVmzo1xSxHnDAVaO3QK0fsMrxTDrvpaWGGQs8PJx5NMwnec.npAUJQKbJKAZSw",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1770631558.274134,
+        "sameSite": "lax",
+        "domain": ".chatgpt.com"
+      },
+      {
+        "name": "__Secure-next-auth.callback-url",
+        "value": "https%3A%2F%2Fchatgpt.com%2F",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1770631558.274144,
+        "sameSite": "lax",
+        "domain": ".chatgpt.com"
+      },
+      {
+        "name": "oai-hlib",
+        "value": "true",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1770631558.274157,
+        "sameSite": "lax",
+        "domain": ".chatgpt.com"
+      },
+      {
+        "name": "oai_consent_analytics",
+        "value": "false",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1770631558.274175,
+        "sameSite": "lax",
+        "domain": ".chatgpt.com"
+      },
+      {
+        "name": "oai_consent_marketing",
+        "value": "false",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1770631558.274183,
+        "sameSite": "lax",
+        "domain": ".chatgpt.com"
+      },
+      {
+        "name": "oai-allow-ne",
+        "value": "false",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1770631558.274191,
+        "sameSite": "lax",
+        "domain": ".chatgpt.com"
+      },
+      {
+        "name": "oai-last-model-config",
+        "value": "%7B%22model%22%3A%22gpt-5-2-pro%22%2C%22effort%22%3A%22standard%22%7D",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1770631558.274208,
+        "sameSite": "lax",
+        "domain": ".chatgpt.com"
+      },
+      {
+        "name": "oai-client-auth-info",
+        "value": "%7B%22user%22%3A%7B%22name%22%3A%22panda%20sipemalas%22%2C%22email%22%3A%22uschatgfa%40rifkiidr.id%22%2C%22picture%22%3A%22https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fri.png%22%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1768039406704%7D%2C%22isOptedOut%22%3Afalse%7D",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1770631558.274217,
+        "sameSite": "lax",
+        "domain": ".chatgpt.com"
+      },
+      {
+        "name": "oai-gn",
+        "value": "panda",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1770631558.274225,
+        "sameSite": "lax",
+        "domain": ".chatgpt.com"
+      },
+      {
+        "name": "oai-hm",
+        "value": "SHOULD_WE_BEGIN%20%7C%20AGENDA_TODAY",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1770631558.274234,
+        "sameSite": "lax",
+        "domain": ".chatgpt.com"
+      },
+      {
+        "name": "_dd_s",
+        "value": "aid=c1132047-6cd4-49f4-9954-db8635c27d6e&rum=0&expire=1768040454408&logs=1&id=c0c73496-a810-4cfc-a3b1-d191faa6e123&created=1768039366105",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1770631558.274268,
+        "sameSite": "lax",
+        "domain": ".chatgpt.com"
+      },
+      {
+        "name": "sign",
+        "value": "445275774777774b50534a764f797a51455734626972535650696e764a7a75795a727154546f4764377452577069734842542f75535745396e314b4157426175",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1770631558.274084,
+        "sameSite": "no_restriction",
+        "domain": ".chatgpt.com"
+      },
+      {
+        "name": "__Secure-next-auth.session-token",
+        "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..n1AhScO6EyLPWbVu.eb0IUMWGNdYKyh2cxpCUSX_j39yES1qvgzQPYHu87ECvq5d8gPd1umUWqqYc0l_QocS7W2zQmDh-IF2k26Za3FxLK0g-0RUd2eiWWvRcKRWwTrLpkka61sLubJt9CbVI2A-7xslsyQ7ZnFn0KPDbd7KnFJUEWq00Rp1kWgMSshQhGx-3B7GFEe5rQi5lk_-QrASR2Lea9CWTR89lfRN0Cfqs8CfEBLBjGjKO6zsNqmfpb5d88prbsD0l2iKfWNX7dWx-IOE7SpFYtPeSboo6nWdD80dEBMCDM2LhXPwm4hnSw97O3wj_fm2xIavyZx2_Rf1DtTzM-Lei_oIqqBEDLH1WEyFVXFT5hc_uHIq9zvj_83Qk7FgEIWa3CiovTv9EazYknD4vjCTRJPI-PvqyABHNRHQm-l8gFAcGEJUuhaQ9QfijQGkM4wBLPqKp5dKSAjU4tFu-qusCxwTiIasl86ohLE4lxZNkgkBdYncVs-pMhIyzdK4sjH75B0J0VZ8jNi763wyDrozsAmT3V3Ogs2fS3-1qTdYu6flNHEL8XVPlh2HA41jAWhvruiC_Qo-oWHFEqIG5X010rmrB46i3cQEp47mNvxnDmhR9paPok7maCTvX_ESllZTQRftIxj92VbXus7eOQOYL8MA_Pi5kTtEzUZQtbSKiyOHrDEOErCm_m95-RAcZ9iL9zNMuSOQeE-isiOUtPctgu8BRglEkgz3wSFV8_XSmrg-3DjPs4ACoPCDUWWIa-y59ooB7UU86Ijlj2JP_u3eLuxwa86OAy8fMoUBG8ErTtQ2ZrKN_kbqIDCKn-j3yv9ZJJndHnuFOLBXvNvm7B_lhcc_jwiRqw2xp_pJzzg7us3rkGbhx64lNVkRcYkX_ThT4ky2-uICn-qs8EWBR83ZWJgEGYNwGkpw_g4dzOXEOQGq5ktxx-2yHW0kr0bcSexd20O4_o1CkKijo9epyVDmVdZ8WNgguAHxUIkeputdOoIZyptUFecWnW1sg0d_SfMjRZ2cvfTBjXxNVWkIuzncuCT-wM6yTRHJMdHsiP9MhANW5DThCNfxMNtiM4AkQ4aQfIoNcOYVA4XMHkgRg1D5cGud7oKnCuAqpBXlM6T1-k364C9tIf24v__crJPvmNKiimo1xzltYjbsarLlf1kb-fgIBfqC-uwgexFwuWA_E9n-z97SPHeY3-b7IGPpEOGvy9SLWqPVKiI3M44TYm2b4gSQBoOwEPurVJEdoKw-br0TSOTWBIx3ZthWIP9wmKPklwewZThdeHfn3_XfNXoW_Df66QC5snv86B_UmFkjAxWg4-PXT70av4lsH041XWrX7VXH5jkpEfEs536Uj3ZbCBFyyYX0GG1u3K2rIRldz0M11HTR838wKFQMZ7o8v5GG8djIRJrVpaC7v72mPYR8yyCr8jwfcK2zm7mJj2z0f5--HzTxkwSgNAeS2rRGBLqBaG-TZUbNq1NGq5IXMomTNsgV2ohzDSMrZGkhQOR58_UqCGGHVoxu9-VgqZuUkmTH4YM9ayeGG1AX5IAlx2nzZYvqg8IqWkP8pT0LmV7SIlIi0TCKMTphPY2X2vs299TYeZtdId_KyzdnvciYMcbX-KXr12AG6hbVN-eBzINvrTGSHM4RufyAqKX9FDITSdTYfFXGeK09Q8ky4pEIYSw_ZHUlQ348ZE0DI1lZIbika496CcBhzBA2LOW3EbcZDMxwNVN-eWtR5x2GFiBWSYPxP616M45pzfe0G9rGaP0BiPa4eVbpq6mEM4B_cP0ZWfMHqQ2ytLAXH8is0mHqDnAUIsswH0U3dTsgvDYVG1XxidlQ2c0h3JeVX4MaHGaJy-6nCw39RHtbO6muV11QtBCIVGDY4d-biokYIdzXm6YxCRPsfx36d52a9cKpKiIS2AsWmqTquSSXA6XJkh1_T-tOMFA2mFvLn9sdeB_YBzDZMTyO_vTqZkIC0UWtIOBJ_6kHbPxcImFwagATZwfg7rBL72GygssZZzsx7twnw1AmG70RNO1ymPykqNqiudZBatJj0-9G6m6TD_hEP8I4QCdWbvYpGYNXfBVDt5Il9RPyjihVTC-fp1g7fSCZfZgzCsUQ91s1LhsBBizMYcRROgiwaWaGL2IDxbww70vwYBLsuoqBHmlhjBvX21SYOYgbS15Dh7JGDpPHSDgWcpQ4GaZTahEWX_oy7gsQL4SxUsvFjMnvwGd6RcWeOFb9NxzMhxQDQR4viVnZlNwLA_Uq5Jnwv_OLKXINYETZSLx9TIT-Vk8xQlHyZg8NpeDbysdOojoZpKKcWNzMv8oqUkyPxL6Ngk1LerPp5NDvGNPRurnjESolDXFrH3R5HvTvxfUeV3ApAiVShIZcTDWtHeKV2-2X5zfOgvt9r76ecKrYylZ4x_jCetZhl38lNXd2OvQSDHdHux2nJ4eQKZqojJC_-MgogaFBYRwhDWYkDnUEupMUZROeB83U2vi5_pFEdRS_1CmKRJ57r2Kv6wlRBt90gx3Qe82x3LiRvi8CcaXjy7K2QVUUUWRBaU4c9g-pPCS5XpyYS9n017sL2jKkpeEuOxjXi6Q1njAvMbGAPXr5Ov5RZXYekr4eW0z80GTZ9a7Hb-U30TXkAj0tGAXy_dfGGs58cmed4QxjGAcjOJ4q4BOvdAbzcomo-uywhs0pRrswwY2Q-UcziyyCQIxruJWuwH-4xa7krcIR355CC0tmVd2h0JgKlnHXXATRaZ456nMirAWvwTcriCP8t4HkODbHqGQdPuvy519yTi4Jfwtk7qkppJ2dd7I-74wdkUiBfID7VYt_sIG7clV4ib7rlLgRhkfMKSMgpnF3bxEBXVIBAM9N6R9glwaZoM8p8q8PPt4vJH8NalP9Hhcl4AjlIW6avSsS5u2ABQHMuCNnl3CVKtgr1DA9NNnSDzQZsMRONVNDj4jaXPDRpGgpFfG-hWb62i2Z5POSw6aTtw-sWrSyL4keLiqV366qrkGQwNVthJi_cCSd5HnGfZ9q2Qk7tSEegAhXCSho76YgO3lZKaIcKEvcrQNLh7d6KsSOABz7hbatkygudkoypWpm-oACLsdQ-Zqe28o_srqWT6zjI4HubnBL3-qCZHH1NPY9ME3YTwaSo2ayhtg.2y-dpXqWoTLR84orXXG6pw",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1776271198.57471,
+        "sameSite": "lax",
+        "domain": ".chatgpt.com"
+      },
+      {
+        "name": "__cflb",
+        "value": "0H28vzvP5FJafnkHxisu1Ey4n6xrzszSRGMa3hiHLBV",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1768498798.574873,
+        "sameSite": "no_restriction",
+        "domain": "chatgpt.com"
+      },
+      {
+        "name": "_cfuvid",
+        "value": "Y9YuruYPt6vynjZPV4Gzto0unGs5HiMUmJiXA8mZzfw-1768495184977-0.0.1.1-604800000",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".chatgpt.com"
+      },
+      {
+        "name": "__cf_bm",
+        "value": "tr1lgDi6932VZ4kAtpiKydIxCXR7Jj0w9QL8R0ya91s-1768495185-1.0.1.1-lhjVq2TRq_Zb4.oLj5AO0gKQS4sRDuFyzjydzY21h5bVPB2t9d0ZAJPRHA8USHLEVDpAzz6E.PaONlt297.E2GimuA.iHXjZjY8H9unWrOs",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".chatgpt.com"
+      },
+      {
+        "name": "oai-client-auth-info",
+        "value": "%7B%22user%22%3A%7B%22name%22%3A%22panda%20sipemalas%22%2C%22email%22%3A%22uschatgfa%40rifkiidr.id%22%2C%22picture%22%3A%22https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fri.png%22%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1768495202476%7D%2C%22isOptedOut%22%3Afalse%7D",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1771087202.476638,
+        "sameSite": "lax",
+        "domain": "chatgpt.com"
+      },
+      {
+        "name": "_account_is_fedramp",
+        "value": "false",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1776271202.479124,
+        "sameSite": "lax",
+        "domain": "chatgpt.com"
+      },
+      {
+        "name": "oai-gn",
+        "value": "panda",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "lax",
+        "domain": "chatgpt.com"
+      },
+      {
+        "name": "oai-hm",
+        "value": "READY_WHEN_YOU_ARE%20%7C%20READY_WHEN_YOU_ARE",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "lax",
+        "domain": "chatgpt.com"
+      },
+      {
+        "name": "oai-sc",
+        "value": "0gAAAAABpaRhWXwVOn8eXo-ou5g1A4w8KaB75jBaFGEGsNd4o08oxZ_L3ZKTK0HhV8HNMwjiKeGepxdAj9S8-gIyEKXnlBKwf07Og4f_HuSdy-H8fMuoanROpr_FME9vhIOj_ISMWcaGdYCU7Z8UL_KYs49ap7fSdefx1_4jJotF8v-PeQ9YpDjZORzYMaYL4b38wAQjxV1LpGt2-0UETOcArP90EUWLSmkIfAW554nmrI42lZ0nQgws",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1800031203.605238,
+        "sameSite": "no_restriction",
+        "domain": ".chatgpt.com"
+      },
+      {
+        "name": "_dd_s",
+        "value": "aid=a0f80933-0f43-47a8-b10a-a127b389db0a&rum=0&expire=1768496156690&logs=1&id=174495e5-732e-4b2f-83a6-04d74711e15e&created=1768495199097",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1800031256,
+        "sameSite": "strict",
+        "domain": "chatgpt.com"
+      }
+    ],
+    "sourceUrl": "https://chatgpt.com/"
+  },
+  {
+    "meta": {
       "id": "pro--claude-1017",
       "name": "Pro: Claude",
       "icon": "https://play-lh.googleusercontent.com/4S1nfdKsH_1tJodkHrBHimqlCTE6qx6z22zpMyPaMc_Rlr1EdSFDI1I6UEVMnokG5zI",
@@ -37834,7 +39071,2800 @@
   },
   {
     "meta": {
-      "id": "pro--eraser-1030",
+      "id": "pro--cursor-1023",
+      "name": "Pro: Cursor",
+      "icon": "https://miro.medium.com/v2/resize:fit:800/0*zWCTHFNFdGAgSw2d",
+      "url": "https://cursor.com/dashboard",
+      "category": [
+        "productivity",
+        "proexclusive"
+      ],
+      "isGroup": true
+    },
+    "accounts": [
+      {
+        "name": "Pro: Cursor 1",
+        "cookies": [
+          {
+            "name": "_ca_device_id",
+            "value": "ca_37c82885-8c38-40ff-be63-370a665c6f7b",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802838562.220252,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_fbp",
+            "value": "fb.1.1768278563307.626472821924087387",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776054568,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "statsig_stable_id",
+            "value": "fb4c8e2f-cf11-449b-9566-275682c8da99",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799814561.138075,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "WorkosCursorSessionToken",
+            "value": "user_01KEDVR3YMFMSM21SBWNWXBCC4%3A%3AeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxS0VEVlIzWU1GTVNNMjFTQldOV1hCQ0M0IiwidGltZSI6IjE3Njc4NDQ0MTEiLCJyYW5kb21uZXNzIjoiNTExMGRhMjEtMmY3Ny00MDRmIiwiZXhwIjoxNzczMDI4NDExLCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20iLCJ0eXBlIjoid2ViIn0.QNPZTZAXIK8sg_aDU_17L-JoXZSxVf0pOfy5KWgumHU",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1773028410.955,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "workos_id",
+            "value": "user_01KEDVR3YMFMSM21SBWNWXBCC4",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1773028410.955,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.referrer-locale",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.1520212212.1767844414",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802404690.469,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "__stripe_mid",
+            "value": "bf1286fd-97f3-47af-a3f0-cf7e8567b29d335979",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800031471,
+            "sameSite": "strict",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_ga_5H6JBHFD7Z",
+            "value": "GS2.1.s1767844413$o1$g1$t1767844690$j56$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802404690.469,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a51455734626972535650696e764a7a75795a727154546f47643774533465666e6359317847412f59637a4643794e4e376f",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1773028410.955,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "generaltranslation.referrer-locale",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "__stripe_sid",
+            "value": "d0e4949f-2fd9-4321-8d82-eddf31b7762f7deeb6",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": ".cursor.com"
+          }
+        ],
+        "sourceUrl": "https://cursor.com/dashboard"
+      },
+      {
+        "name": "Pro: Cursor 2",
+        "cookies": [
+          {
+            "name": "_ca_device_id",
+            "value": "ca_37c82885-8c38-40ff-be63-370a665c6f7b",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802838562.220252,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_fbp",
+            "value": "fb.1.1768278563307.626472821924087387",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776054568,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "statsig_stable_id",
+            "value": "fb4c8e2f-cf11-449b-9566-275682c8da99",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799814561.138075,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "WorkosCursorSessionToken",
+            "value": "user_01KEDVRMBJZ0ZRHQ76NH81HHDV%3A%3AeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxS0VEVlJNQkpaMFpSSFE3Nk5IODFISERWIiwidGltZSI6IjE3Njc4NDQ0MTUiLCJyYW5kb21uZXNzIjoiODZlNmU2ODItZDVlOC00NTcwIiwiZXhwIjoxNzczMDI4NDE1LCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20iLCJ0eXBlIjoid2ViIn0.AvlFpB77Q4-R-Mb2S440gudMfKjruE16N7zGKpDK_GE",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1773028415.388,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "workos_id",
+            "value": "user_01KEDVRMBJZ0ZRHQ76NH81HHDV",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1773028415.387,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.referrer-locale",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.2106535449.1767844419",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802404698.62,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "__stripe_mid",
+            "value": "7d0a8e0c-6430-4e34-8674-90f445baa1c766fcf3",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800031480,
+            "sameSite": "strict",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_ga_5H6JBHFD7Z",
+            "value": "GS2.1.s1767844418$o1$g1$t1767844698$j52$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802404698.62,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a51455734626972535650696e764a7a75795a727154546f47643774545a444d6a396b704d4934584f31754767525143334a",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1773028415.388,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "generaltranslation.referrer-locale",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "__stripe_sid",
+            "value": "9ae3ba4a-1a52-4ebd-a70d-8f35f5c71f9b273593",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": ".cursor.com"
+          }
+        ],
+        "sourceUrl": "https://cursor.com/dashboard"
+      },
+      {
+        "name": "Pro: Cursor 3",
+        "cookies": [
+          {
+            "name": "_ca_device_id",
+            "value": "ca_37c82885-8c38-40ff-be63-370a665c6f7b",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802838562.220252,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_fbp",
+            "value": "fb.1.1768278563307.626472821924087387",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776054568,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "statsig_stable_id",
+            "value": "fb4c8e2f-cf11-449b-9566-275682c8da99",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799814561.138075,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "WorkosCursorSessionToken",
+            "value": "user_01KEDVS1976HN760CC7FVCJH6H%3A%3AeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxS0VEVlMxOTc2SE43NjBDQzdGVkNKSDZIIiwidGltZSI6IjE3Njc4NDQ0MTkiLCJyYW5kb21uZXNzIjoiZmNjYmZlNWYtNzg4YS00ZmEzIiwiZXhwIjoxNzczMDI4NDE5LCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20iLCJ0eXBlIjoid2ViIn0.BH1kJAZJyGbh9JV_aP9l_p0vB8izhOIYY3HI1xYYzHw",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1773028419.069,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "workos_id",
+            "value": "user_01KEDVS1976HN760CC7FVCJH6H",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1773028419.069,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.referrer-locale",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.2084048799.1767844423",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802404711.479,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "__stripe_mid",
+            "value": "3d0aff8f-4ce9-43d3-9813-0d37d81e6f046dd3df",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800031531,
+            "sameSite": "strict",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_ga_5H6JBHFD7Z",
+            "value": "GS2.1.s1767844422$o1$g1$t1767844711$j57$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802404711.479,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a51455734626972535650696e764a7a75795a727154546f47643774532b4533534737647036637756597333675274767172",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1773028419.069,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "generaltranslation.referrer-locale",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "__stripe_sid",
+            "value": "b0fff5c3-15a6-4a75-a85e-daf9405f12dde35474",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": ".cursor.com"
+          }
+        ],
+        "sourceUrl": "https://cursor.com/dashboard"
+      },
+      {
+        "name": "Pro: Cursor 4",
+        "cookies": [
+          {
+            "name": "_ca_device_id",
+            "value": "ca_37c82885-8c38-40ff-be63-370a665c6f7b",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802838562.220252,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_fbp",
+            "value": "fb.1.1768278563307.626472821924087387",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776054568,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "statsig_stable_id",
+            "value": "fb4c8e2f-cf11-449b-9566-275682c8da99",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799814561.138075,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "workos_id",
+            "value": "user_01KEDVS1976HN760CC7FVCJH6H",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1773028419.069,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "WorkosCursorSessionToken",
+            "value": "user_01KE3PEXEKBM81FG95321STN0S%3A%3AeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxS0UzUEVYRUtCTTgxRkc5NTMyMVNUTjBTIiwidGltZSI6IjE3Njc1MDMzMTEiLCJyYW5kb21uZXNzIjoiNTNiYjgwNDItNmYyNi00MjBlIiwiZXhwIjoxNzcyNjg3MzExLCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20iLCJ0eXBlIjoid2ViIn0.XHphpEUZl91giJAmNErewjI3sTE99BYJs9uMTqIuWJw",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1772687311.17,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.referrer-locale",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.1974236237.1767503315",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802063981.835,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "__stripe_mid",
+            "value": "dfc6e0ea-f7c8-47f3-887c-9ec4fd0336e8b161c9",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800031539,
+            "sameSite": "strict",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_ga_5H6JBHFD7Z",
+            "value": "GS2.1.s1767503314$o1$g1$t1767503981$j57$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802063981.846,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a51455734626972535650696e764a7a75795a727154546f4764377453765a7931546b446d316d437a4f47374c4748534d39",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1772687311.17,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "generaltranslation.referrer-locale",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "__stripe_sid",
+            "value": "c265a3cc-acbb-4a63-a65f-2a3b169b753a4f7fdc",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=324f88a1-76ce-4db1-bf9b-1338f3f7f229&rum=2&id=5124ec10-05bb-48c0-b372-aaf5dd769f7f&created=1768495538587&expire=1768496440480",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": "cursor.com"
+          }
+        ],
+        "sourceUrl": "https://cursor.com/dashboard"
+      },
+      {
+        "name": "Pro: Cursor 5",
+        "cookies": [
+          {
+            "name": "_ca_device_id",
+            "value": "ca_37c82885-8c38-40ff-be63-370a665c6f7b",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802838562.220252,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_fbp",
+            "value": "fb.1.1768278563307.626472821924087387",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776054568,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "statsig_stable_id",
+            "value": "fb4c8e2f-cf11-449b-9566-275682c8da99",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799814561.138075,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "WorkosCursorSessionToken",
+            "value": "user_01KEDVSAFVK7NWKYDCP0MKJP6P%3A%3AeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxS0VEVlNBRlZLN05XS1lEQ1AwTUtKUDZQIiwidGltZSI6IjE3Njc4NDQ0MjMiLCJyYW5kb21uZXNzIjoiOTE3ODc5MTctMzI0NC00N2UzIiwiZXhwIjoxNzczMDI4NDIzLCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20iLCJ0eXBlIjoid2ViIn0.NCKaKxpSpa67yUWLdhx6CWb9zDV_DITfp2rxAPruBGc",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1773028422.914,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "workos_id",
+            "value": "user_01KEDVSAFVK7NWKYDCP0MKJP6P",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1773028422.914,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.referrer-locale",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.1756636845.1767844426",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802404703.745,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "__stripe_mid",
+            "value": "2217b11d-4860-4cc6-a2bc-c1954645e6a2e4f421",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800031549,
+            "sameSite": "strict",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_ga_5H6JBHFD7Z",
+            "value": "GS2.1.s1767844426$o1$g1$t1767844703$j55$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802404703.745,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a51455734626972535650696e764a7a75795a727154546f47643774533734362f547058346b32344d5a38462f31704a5462",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1773028422.914,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "generaltranslation.referrer-locale",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "__stripe_sid",
+            "value": "831180a6-b173-49f6-832c-37b2499421dac1a45c",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": ".cursor.com"
+          }
+        ],
+        "sourceUrl": "https://cursor.com/dashboard"
+      },
+      {
+        "name": "Pro: Cursor 6",
+        "cookies": [
+          {
+            "name": "_ca_device_id",
+            "value": "ca_37c82885-8c38-40ff-be63-370a665c6f7b",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802838562.220252,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_fbp",
+            "value": "fb.1.1768278563307.626472821924087387",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776054568,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "statsig_stable_id",
+            "value": "fb4c8e2f-cf11-449b-9566-275682c8da99",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799814561.138075,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "WorkosCursorSessionToken",
+            "value": "user_01KEDW7BRK0ZE4VR9MBC4K6D1A%3A%3AeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxS0VEVzdCUkswWkU0VlI5TUJDNEs2RDFBIiwidGltZSI6IjE3Njc4NDQ5MjIiLCJyYW5kb21uZXNzIjoiMmQ2MmIzOGUtOWM5NS00ODg3IiwiZXhwIjoxNzczMDI4OTIyLCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20iLCJ0eXBlIjoid2ViIn0.OTMsS7jOZ0MGIkAbFkkMWXF45PqGsRhJsHA0D4CN-s0",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1773028922.179,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "workos_id",
+            "value": "user_01KEDW7BRK0ZE4VR9MBC4K6D1A",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1773028922.179,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.referrer-locale",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.195691544.1767844925",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802405391.052,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "__stripe_mid",
+            "value": "4748caf1-c497-4fcf-8bd4-87bab03299df134920",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800031558,
+            "sameSite": "strict",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_ga_5H6JBHFD7Z",
+            "value": "GS2.1.s1767844924$o1$g1$t1767845573$j57$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802405573.881,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a51455734626972535650696e764a7a75795a727154546f47643774523837656d463463436679577a336162683459315975",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1773028922.179,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "generaltranslation.referrer-locale",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "__stripe_sid",
+            "value": "37986af6-000f-4fa2-afc9-46cb699280f29dcdf6",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": ".cursor.com"
+          }
+        ],
+        "sourceUrl": "https://cursor.com/dashboard"
+      },
+      {
+        "name": "Pro: Cursor 7",
+        "cookies": [
+          {
+            "name": "_ca_device_id",
+            "value": "ca_37c82885-8c38-40ff-be63-370a665c6f7b",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802838562.220252,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_fbp",
+            "value": "fb.1.1768278563307.626472821924087387",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776054568,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "statsig_stable_id",
+            "value": "fb4c8e2f-cf11-449b-9566-275682c8da99",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799814561.138075,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "WorkosCursorSessionToken",
+            "value": "user_01KEDW7SFVHWT4MVF1ANKKBE56%3A%3AeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxS0VEVzdTRlZIV1Q0TVZGMUFOS0tCRTU2IiwidGltZSI6IjE3Njc4NDQ5MjYiLCJyYW5kb21uZXNzIjoiNWQ1NGQ5YjMtN2Q0NS00ZGU3IiwiZXhwIjoxNzczMDI4OTI2LCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20iLCJ0eXBlIjoid2ViIn0.F0WIati9bzA5k9eJcMb9ilWKvrw334CYvWXuT0Purlw",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1773028926.033,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "workos_id",
+            "value": "user_01KEDW7SFVHWT4MVF1ANKKBE56",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1773028926.033,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.referrer-locale",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.2146922356.1767844929",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802405583.289,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "__stripe_mid",
+            "value": "4f456a27-35b3-4b3b-8560-5a30bff651d5d323a7",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800031568,
+            "sameSite": "strict",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_ga_5H6JBHFD7Z",
+            "value": "GS2.1.s1767844929$o1$g1$t1767845583$j53$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802405583.289,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a51455734626972535650696e764a7a75795a727154546f47643774546b724c696972657430747177787a53654e6774786e",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1773028926.033,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "generaltranslation.referrer-locale",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "__stripe_sid",
+            "value": "94d572a5-2716-4979-b206-4d55dae7f3e17767c7",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=b3c868b7-730a-48dc-b890-86c9c3b8ba32&rum=2&id=3d1027e0-39c2-4039-bad2-5613cad7bd70&created=1768495567328&expire=1768496468975",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": "cursor.com"
+          }
+        ],
+        "sourceUrl": "https://cursor.com/dashboard"
+      },
+      {
+        "name": "Pro: Cursor 8",
+        "cookies": [
+          {
+            "name": "_ca_device_id",
+            "value": "ca_37c82885-8c38-40ff-be63-370a665c6f7b",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802838562.220252,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_fbp",
+            "value": "fb.1.1768278563307.626472821924087387",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776054568,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "statsig_stable_id",
+            "value": "fb4c8e2f-cf11-449b-9566-275682c8da99",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799814561.138075,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "workos_id",
+            "value": "user_01KEDW7SFVHWT4MVF1ANKKBE56",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1773028926.033,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "WorkosCursorSessionToken",
+            "value": "user_01KE3PDD1C9XXY20N9H6N6SNFQ%3A%3AeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxS0UzUEREMUM5WFhZMjBOOUg2TjZTTkZRIiwidGltZSI6IjE3Njc1MDMzMDMiLCJyYW5kb21uZXNzIjoiMTcwY2NiNGEtMzVmZC00ZDA3IiwiZXhwIjoxNzcyNjg3MzAzLCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20iLCJ0eXBlIjoid2ViIn0.2DkQSt-ssMax---2f4b0OCSrWelQ4Oyf6W62RcmsJOc",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1772687303.611,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.referrer-locale",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.329046414.1767503307",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802064110.406,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "__stripe_mid",
+            "value": "3deee023-3b70-45a3-800f-3f783824a0c47f8058",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800031577,
+            "sameSite": "strict",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_ga_5H6JBHFD7Z",
+            "value": "GS2.1.s1767503306$o1$g1$t1767504110$j54$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802064110.421,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a51455734626972535650696e764a7a75795a727154546f4764377452364c62367733314130396f31372b4c48396f4f345a",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1772687303.611,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "generaltranslation.referrer-locale",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "__stripe_sid",
+            "value": "2d6407a6-42f9-4a4c-afb4-4d468c7296cc595fe1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=9b117cb1-9419-41d7-a0ce-38540a91e4b5&rum=2&id=0e6dff76-b8dd-410b-89a7-ef093f9337a4&created=1768495576071&expire=1768496477375",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": "cursor.com"
+          }
+        ],
+        "sourceUrl": "https://cursor.com/dashboard"
+      },
+      {
+        "name": "Pro: Cursor 9",
+        "cookies": [
+          {
+            "name": "_ca_device_id",
+            "value": "ca_37c82885-8c38-40ff-be63-370a665c6f7b",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802838562.220252,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_fbp",
+            "value": "fb.1.1768278563307.626472821924087387",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776054568,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "statsig_stable_id",
+            "value": "fb4c8e2f-cf11-449b-9566-275682c8da99",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799814561.138075,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.329046414.1767503307",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802064110.406,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "WorkosCursorSessionToken",
+            "value": "user_01KE3PF7HEV6VCAN3JZT8J930M%3A%3AeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxS0UzUEY3SEVWNlZDQU4zSlpUOEo5MzBNIiwidGltZSI6IjE3NjgyNzg4NzYiLCJyYW5kb21uZXNzIjoiMTg5ODViYjktMDA2Yi00MmQ2IiwiZXhwIjoxNzczNDYyODc2LCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20iLCJ0eXBlIjoid2ViIn0.I13HR-ERZfjZ3G-McQWhAxWF1kuDPxnchXa_8WkJCPA",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1773462876.115588,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "workos_id",
+            "value": "user_01KE3PF7HEV6VCAN3JZT8J930M",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1773462876.11553,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.referrer-locale",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "__stripe_mid",
+            "value": "8aeb14c3-0cac-42e1-a1f8-ad3771030416f3cee8",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800031585,
+            "sameSite": "strict",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_ga_5H6JBHFD7Z",
+            "value": "GS2.1.s1768278562$o1$g0$t1768278860$j60$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802838860.729671,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a51455734626972535650696e764a7a75795a727154546f4764377454414b6347552f37502f7932664c514356724f386273",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1773462876.115588,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "generaltranslation.referrer-locale",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "__stripe_sid",
+            "value": "e0843f32-95a6-427b-96a3-5fd15db04ebf9cbb47",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": ".cursor.com"
+          }
+        ],
+        "sourceUrl": "https://cursor.com/dashboard"
+      },
+      {
+        "name": "Pro: Cursor 10",
+        "cookies": [
+          {
+            "name": "_ca_device_id",
+            "value": "ca_37c82885-8c38-40ff-be63-370a665c6f7b",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802838562.220252,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_fbp",
+            "value": "fb.1.1768278563307.626472821924087387",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776054568,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "statsig_stable_id",
+            "value": "fb4c8e2f-cf11-449b-9566-275682c8da99",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799814561.138075,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "workos_id",
+            "value": "user_01KE3PF7HEV6VCAN3JZT8J930M",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1773462876.11553,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "WorkosCursorSessionToken",
+            "value": "user_01KE3QE0YDWFSG6K643GZG7JQG%3A%3AeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxS0UzUUUwWURXRlNHNks2NDNHWkc3SlFHIiwidGltZSI6IjE3Njc1MDQ2NTUiLCJyYW5kb21uZXNzIjoiNWMwNjc5YWQtODRkNy00Yzc4IiwiZXhwIjoxNzcyNjg4NjU1LCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20iLCJ0eXBlIjoid2ViIn0.YKO9CskTUveu2d8LwfOm7Zl3UJy-WVuQpV7cClXVeuQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1772688655.75,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.referrer-locale",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.1865181801.1767504659",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802065777.831,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "__stripe_mid",
+            "value": "1c35138f-cf6a-4e9d-9cbe-589b7dd1256ae32672",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800031602,
+            "sameSite": "strict",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_ga_5H6JBHFD7Z",
+            "value": "GS2.1.s1767504658$o1$g1$t1767505777$j54$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802065777.867,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a51455734626972535650696e764a7a75795a727154546f476437745471724b6e3150614f415859794e7148512f4e547563",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1772688655.75,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "generaltranslation.referrer-locale",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "__stripe_sid",
+            "value": "cc2f2d9c-0824-4103-8939-b9b922736daaeffa01",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": ".cursor.com"
+          }
+        ],
+        "sourceUrl": "https://cursor.com/dashboard"
+      },
+      {
+        "name": "Pro: Cursor 11",
+        "cookies": [
+          {
+            "name": "_ca_device_id",
+            "value": "ca_37c82885-8c38-40ff-be63-370a665c6f7b",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802838562.220252,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_fbp",
+            "value": "fb.1.1768278563307.626472821924087387",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776054568,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "statsig_stable_id",
+            "value": "fb4c8e2f-cf11-449b-9566-275682c8da99",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799814561.138075,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "workos_id",
+            "value": "user_01KE3PF7HEV6VCAN3JZT8J930M",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1773462876.11553,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "WorkosCursorSessionToken",
+            "value": "user_01KE3QE48NK41JSGA42QH8G71K%3A%3AeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxS0UzUUU0OE5LNDFKU0dBNDJRSDhHNzFLIiwidGltZSI6IjE3Njc1MDQ2NTkiLCJyYW5kb21uZXNzIjoiZTZjMDY1N2ItNzM5Ny00ZmIzIiwiZXhwIjoxNzcyNjg4NjU5LCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20iLCJ0eXBlIjoid2ViIn0.Fz6Kn_8woTVQZzSBoDkJl_OjJl9upv1FX66GSi2d8DU",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1772688659.723,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.referrer-locale",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.503325538.1767504663",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802065784.403,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "__stripe_mid",
+            "value": "f021c464-c806-4a7c-aba1-00b143e58c56d2fde6",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800031618,
+            "sameSite": "strict",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_ga_5H6JBHFD7Z",
+            "value": "GS2.1.s1767504663$o1$g1$t1767505787$j50$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802065787.264,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a51455734626972535650696e764a7a75795a727154546f47643774532b742b62674a2f4e7a375a614149385a756e593455",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1772688659.723,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "generaltranslation.referrer-locale",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "__stripe_sid",
+            "value": "e2caf867-1304-4cc5-895a-d3d6ccfba7e796ca8d",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": ".cursor.com"
+          }
+        ],
+        "sourceUrl": "https://cursor.com/dashboard"
+      },
+      {
+        "name": "Pro: Cursor 12",
+        "cookies": [
+          {
+            "name": "_ca_device_id",
+            "value": "ca_37c82885-8c38-40ff-be63-370a665c6f7b",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802838562.220252,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_fbp",
+            "value": "fb.1.1768278563307.626472821924087387",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776054568,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "statsig_stable_id",
+            "value": "fb4c8e2f-cf11-449b-9566-275682c8da99",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799814561.138075,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "workos_id",
+            "value": "user_01KE3PF7HEV6VCAN3JZT8J930M",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1773462876.11553,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "WorkosCursorAuthNonce",
+            "value": "2fe091d7-b490-49a1-bfb0-735c763da9d5",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "WorkosCursorSessionToken",
+            "value": "user_01KE3QJZXQZF42C9YV7069S7CJ%3A%3AeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxS0UzUUpaWFFaRjQyQzlZVjcwNjlTN0NKIiwidGltZSI6IjE3Njc1MDQ2NzAiLCJyYW5kb21uZXNzIjoiYzVkZWM3MjctODJhZC00ZDViIiwiZXhwIjoxNzcyNjg4NjcwLCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20iLCJ0eXBlIjoid2ViIn0.V61Goj7tqXRc5KGIaB4--tgEPCfvR46HoQqKe6rJ1Us",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1772688670.203,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.referrer-locale",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.1169462759.1767504673",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802065795.203,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "__stripe_mid",
+            "value": "91c9d88f-d750-46e1-85b3-674fe9e8bfcf798a12",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800031636,
+            "sameSite": "strict",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_ga_5H6JBHFD7Z",
+            "value": "GS2.1.s1767504673$o1$g1$t1767505795$j25$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802065795.625,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a51455734626972535650696e764a7a75795a727154546f47643774514f685a5a4c713239413648445a653339564769424f",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1772688670.203,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "generaltranslation.referrer-locale",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "__stripe_sid",
+            "value": "68d5082f-4d00-4281-a8ab-a89a63f286be654492",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": ".cursor.com"
+          }
+        ],
+        "sourceUrl": "https://cursor.com/dashboard"
+      },
+      {
+        "name": "Pro: Cursor 13",
+        "cookies": [
+          {
+            "name": "_ca_device_id",
+            "value": "ca_37c82885-8c38-40ff-be63-370a665c6f7b",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802838562.220252,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_fbp",
+            "value": "fb.1.1768278563307.626472821924087387",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776054568,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "statsig_stable_id",
+            "value": "fb4c8e2f-cf11-449b-9566-275682c8da99",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799814561.138075,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "WorkosCursorAuthNonce",
+            "value": "2fe091d7-b490-49a1-bfb0-735c763da9d5",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "WorkosCursorSessionToken",
+            "value": "user_01KEDW8BVG0NFH27V1N9R2CHMH%3A%3AeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxS0VEVzhCVkcwTkZIMjdWMU45UjJDSE1IIiwidGltZSI6IjE3Njc4NDQ5NDMiLCJyYW5kb21uZXNzIjoiNTIxZWI0ZGQtOGRkMS00OWVhIiwiZXhwIjoxNzczMDI4OTQzLCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20iLCJ0eXBlIjoid2ViIn0.kZNOiCkT3BhpFDhJpXN8CpO_CkRIYyeByraePcwMQRU",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1773028943.137,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "workos_id",
+            "value": "user_01KEDW8BVG0NFH27V1N9R2CHMH",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1773028943.137,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.referrer-locale",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.1437638155.1767844947",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802405586.169,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "__stripe_mid",
+            "value": "4c462b72-b622-4a38-904c-f6efd00d51cd6dfce3",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800031643,
+            "sameSite": "strict",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_ga_5H6JBHFD7Z",
+            "value": "GS2.1.s1767844946$o1$g1$t1767845588$j58$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802405588.598,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a51455734626972535650696e764a7a75795a727154546f47643774523278364970524e4f6e34755561696b56794f352f6c",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1773028943.137,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "generaltranslation.referrer-locale",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "__stripe_sid",
+            "value": "99017566-1303-469a-810d-0c15a9d5538e61d180",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": ".cursor.com"
+          }
+        ],
+        "sourceUrl": "https://cursor.com/dashboard"
+      },
+      {
+        "name": "Pro: Cursor 14",
+        "cookies": [
+          {
+            "name": "_ca_device_id",
+            "value": "ca_37c82885-8c38-40ff-be63-370a665c6f7b",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802838562.220252,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_fbp",
+            "value": "fb.1.1768278563307.626472821924087387",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776054568,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "statsig_stable_id",
+            "value": "fb4c8e2f-cf11-449b-9566-275682c8da99",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799814561.138075,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "WorkosCursorAuthNonce",
+            "value": "2fe091d7-b490-49a1-bfb0-735c763da9d5",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "WorkosCursorSessionToken",
+            "value": "user_01KEDW834FT1AH2Y8KPGKN9KEN%3A%3AeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxS0VEVzgzNEZUMUFIMlk4S1BHS045S0VOIiwidGltZSI6IjE3Njc4NDQ5NTUiLCJyYW5kb21uZXNzIjoiODY0ZmE3NGYtZjE0MC00M2YxIiwiZXhwIjoxNzczMDI4OTU1LCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20iLCJ0eXBlIjoid2ViIn0.JwytWrY-CITG74RVZX22iXhlB-ovd5UyhOK0qCFWueQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1773028955.627,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "workos_id",
+            "value": "user_01KEDW834FT1AH2Y8KPGKN9KEN",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1773028955.627,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.referrer-locale",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.165711935.1767844959",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802405595.045,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "__stripe_mid",
+            "value": "da7b1ff6-50dd-42d0-9e43-ca7534f2fab30ae730",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800031651,
+            "sameSite": "strict",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_ga_5H6JBHFD7Z",
+            "value": "GS2.1.s1767844958$o1$g1$t1767845595$j56$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802405595.045,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a51455734626972535650696e764a7a75795a727154546f47643774515077742f4c574d305931434244724f496155614d64",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1773028955.627,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "generaltranslation.referrer-locale",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "__stripe_sid",
+            "value": "220639e4-4387-48fb-9b8d-aedb0dda3477ea9616",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": ".cursor.com"
+          }
+        ],
+        "sourceUrl": "https://cursor.com/dashboard"
+      },
+      {
+        "name": "Pro: Cursor 15",
+        "cookies": [
+          {
+            "name": "_ca_device_id",
+            "value": "ca_37c82885-8c38-40ff-be63-370a665c6f7b",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802838562.220252,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_fbp",
+            "value": "fb.1.1768278563307.626472821924087387",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776054568,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "statsig_stable_id",
+            "value": "fb4c8e2f-cf11-449b-9566-275682c8da99",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799814561.138075,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "WorkosCursorAuthNonce",
+            "value": "2fe091d7-b490-49a1-bfb0-735c763da9d5",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "WorkosCursorSessionToken",
+            "value": "user_01KEDX891TRBNDMDF4ZEWSRM49%3A%3AeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxS0VEWDg5MVRSQk5ETURGNFpFV1NSTTQ5IiwidGltZSI6IjE3Njc4NDU5NzUiLCJyYW5kb21uZXNzIjoiY2IxOWVjM2YtZmQ0OS00MTE0IiwiZXhwIjoxNzczMDI5OTc1LCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20iLCJ0eXBlIjoid2ViIn0.S6Jcmgk8F5KFl1wEA9m0JF4EqZ5ngz37RWlVYoA16-4",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1773029975.71,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "workos_id",
+            "value": "user_01KEDX891TRBNDMDF4ZEWSRM49",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1773029974.71,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.referrer-locale",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.2064881698.1767845772",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802406306.941,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "__stripe_mid",
+            "value": "e1d2f3cc-ca35-4484-acd3-b14e5e9aecfecfda3f",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800031659,
+            "sameSite": "strict",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_ga_5H6JBHFD7Z",
+            "value": "GS2.1.s1767845772$o1$g1$t1767846306$j56$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802406306.941,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a51455734626972535650696e764a7a75795a727154546f476437745338772f356e3341685858764b55484f74652b6f456d",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1773029975.71,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "generaltranslation.referrer-locale",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "__stripe_sid",
+            "value": "420b8200-1bd5-4d39-938f-45d8f9cdff716c25e4",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": ".cursor.com"
+          }
+        ],
+        "sourceUrl": "https://cursor.com/dashboard"
+      },
+      {
+        "name": "Pro: Cursor 16",
+        "cookies": [
+          {
+            "name": "_ca_device_id",
+            "value": "ca_37c82885-8c38-40ff-be63-370a665c6f7b",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802838562.220252,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_fbp",
+            "value": "fb.1.1768278563307.626472821924087387",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776054568,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "statsig_stable_id",
+            "value": "fb4c8e2f-cf11-449b-9566-275682c8da99",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799814561.138075,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "WorkosCursorAuthNonce",
+            "value": "2fe091d7-b490-49a1-bfb0-735c763da9d5",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "WorkosCursorSessionToken",
+            "value": "user_01KEDX7Z4P6ZYZRNWHWFASRSZM%3A%3AeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxS0VEWDdaNFA2WllaUk5XSFdGQVNSU1pNIiwidGltZSI6IjE3Njc4NDU5ODQiLCJyYW5kb21uZXNzIjoiODQzOTQ5NDctN2NmMi00ZDZmIiwiZXhwIjoxNzczMDI5OTg0LCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20iLCJ0eXBlIjoid2ViIn0.24IaxokG5ZHqo5bL56k9YlnHRlaGhun4vVXS3G8Es2s",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1773029983.901,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "workos_id",
+            "value": "user_01KEDX7Z4P6ZYZRNWHWFASRSZM",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1773029983.901,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.referrer-locale",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.1342000296.1767845989",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802406312.851,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "__stripe_mid",
+            "value": "9645de82-9a6c-435c-932e-6d97671948235e79ab",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800031667,
+            "sameSite": "strict",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_ga_5H6JBHFD7Z",
+            "value": "GS2.1.s1767845988$o1$g1$t1767846312$j57$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802406312.851,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a51455734626972535650696e764a7a75795a727154546f476437745174484350494d456b6b6e427263636873346b564a59",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1773029983.901,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "generaltranslation.referrer-locale",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "__stripe_sid",
+            "value": "f61f09c5-71e8-4133-9259-dc2963bdf700d406a6",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": ".cursor.com"
+          }
+        ],
+        "sourceUrl": "https://cursor.com/dashboard"
+      },
+      {
+        "name": "Pro: Cursor 17",
+        "cookies": [
+          {
+            "name": "_ca_device_id",
+            "value": "ca_37c82885-8c38-40ff-be63-370a665c6f7b",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802838562.220252,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_fbp",
+            "value": "fb.1.1768278563307.626472821924087387",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776054568,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "statsig_stable_id",
+            "value": "fb4c8e2f-cf11-449b-9566-275682c8da99",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799814561.138075,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "WorkosCursorAuthNonce",
+            "value": "2fe091d7-b490-49a1-bfb0-735c763da9d5",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "WorkosCursorSessionToken",
+            "value": "user_01KEDX8F1NHFEE6GAWMD8TC94P%3A%3AeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxS0VEWDhGMU5IRkVFNkdBV01EOFRDOTRQIiwidGltZSI6IjE3Njc4NDU5OTEiLCJyYW5kb21uZXNzIjoiZjYzN2Y5YjAtNWU5My00MTg2IiwiZXhwIjoxNzczMDI5OTkxLCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20iLCJ0eXBlIjoid2ViIn0.ZM7q7TLcCpdYH4VEl6Ul8VhqA9q3vJ9BWGOOlqCleYg",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1773029990.775,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "workos_id",
+            "value": "user_01KEDX8F1NHFEE6GAWMD8TC94P",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1773029990.775,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.referrer-locale",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.1811548801.1767845994",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802406327.334,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "__stripe_mid",
+            "value": "55d50599-fe53-4225-b563-6aa3fa85d8540f4105",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800031675,
+            "sameSite": "strict",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_ga_5H6JBHFD7Z",
+            "value": "GS2.1.s1767845994$o1$g1$t1767846327$j56$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802406327.334,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a51455734626972535650696e764a7a75795a727154546f47643774546848415231754c69452b7a304f5a4f324d50366c30",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1773029990.775,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "generaltranslation.referrer-locale",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "__stripe_sid",
+            "value": "534e943b-dc34-4a57-a044-e38958f20289ef272f",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": ".cursor.com"
+          }
+        ],
+        "sourceUrl": "https://cursor.com/dashboard"
+      },
+      {
+        "name": "Pro: Cursor 18",
+        "cookies": [
+          {
+            "name": "_ca_device_id",
+            "value": "ca_37c82885-8c38-40ff-be63-370a665c6f7b",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802838562.220252,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_fbp",
+            "value": "fb.1.1768278563307.626472821924087387",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776054568,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "statsig_stable_id",
+            "value": "fb4c8e2f-cf11-449b-9566-275682c8da99",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799814561.138075,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "WorkosCursorAuthNonce",
+            "value": "2fe091d7-b490-49a1-bfb0-735c763da9d5",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "WorkosCursorSessionToken",
+            "value": "user_01KEDY9122XWEE0TZWVR5WZVBV%3A%3AeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxS0VEWTkxMjJYV0VFMFRaV1ZSNVdaVkJWIiwidGltZSI6IjE3Njc4NDcwMzEiLCJyYW5kb21uZXNzIjoiZmZmZWYyZGQtZjBmMi00YTA5IiwiZXhwIjoxNzczMDMxMDMxLCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20iLCJ0eXBlIjoid2ViIn0.x0uOZKXWm16XkzgZRlJhaQHjfgrDI-euzTF3RiMo9Vo",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1773031031.038,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "workos_id",
+            "value": "user_01KEDY9122XWEE0TZWVR5WZVBV",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1773031031.038,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.referrer-locale",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.910877007.1767847034",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802407468.591,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "__stripe_mid",
+            "value": "68dcd1ee-fc5b-4f58-a5cd-a8c2be83aa7cb0dc8a",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800031683,
+            "sameSite": "strict",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_ga_5H6JBHFD7Z",
+            "value": "GS2.1.s1767847033$o1$g1$t1767847471$j57$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802407471.891,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a51455734626972535650696e764a7a75795a727154546f4764377453357579665a783966777a764a533736632f51473039",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1773031031.038,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "generaltranslation.referrer-locale",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "__stripe_sid",
+            "value": "32d44aca-d41b-4b75-8565-0ec2732af48859770d",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=f24ab9f0-6c40-477e-8180-ee6a6a363fe6&rum=2&id=b96ea616-730f-4405-a996-1beb7abe24ac&created=1768495682205&expire=1768496583615",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": "cursor.com"
+          }
+        ],
+        "sourceUrl": "https://cursor.com/dashboard"
+      },
+      {
+        "name": "Pro: Cursor 19",
+        "cookies": [
+          {
+            "name": "WorkosCursorSessionToken",
+            "value": "user_01KETSYGEJH78K83SFVREJDWKB%3A%3AeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxS0VUU1lHRUpINzhLODNTRlZSRUpEV0tCIiwidGltZSI6IjE3NjgyNzg2ODYiLCJyYW5kb21uZXNzIjoiMWJlMmEyNDQtYzcyZi00ZmY2IiwiZXhwIjoxNzczNDYyNjg2LCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20iLCJ0eXBlIjoid2ViIn0.qwp1wWKbuZ4sH18HRrxmod3Y8hLAVOPukdIXt4953uI",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1773462686.160713,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_ca_device_id",
+            "value": "ca_37c82885-8c38-40ff-be63-370a665c6f7b",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802838562.220252,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "workos_id",
+            "value": "user_01KETSYGEJH78K83SFVREJDWKB",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1773462686.160652,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.referrer-locale",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.427074449.1768278563",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802838562.884338,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "__stripe_mid",
+            "value": "eac7a262-1275-4114-aa60-ecb9d790fe6d4d285d",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800031456,
+            "sameSite": "strict",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_fbp",
+            "value": "fb.1.1768278563307.626472821924087387",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776054568,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "_ga_5H6JBHFD7Z",
+            "value": "GS2.1.s1768278562$o1$g0$t1768278562$j60$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802838562.884039,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "statsig_stable_id",
+            "value": "fb4c8e2f-cf11-449b-9566-275682c8da99",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799814561.138075,
+            "sameSite": "lax",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a51455734626972535650696e764a7a75795a727154546f476437745357764837454d784c5537744f757830617a65336848",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1773462686.160713,
+            "sameSite": "no_restriction",
+            "domain": ".cursor.com"
+          },
+          {
+            "name": "generaltranslation.locale-routing-enabled",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "generaltranslation.referrer-locale",
+            "value": "en-US",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "cursor.com"
+          },
+          {
+            "name": "__stripe_sid",
+            "value": "2d3c5f78-2b06-44ec-a327-8ee050f6d1c5416472",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": ".cursor.com"
+          }
+        ],
+        "sourceUrl": "https://cursor.com/dashboard"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "id": "pro--eraser-1032",
       "name": "Pro: Eraser",
       "icon": "https://mavtools.com/wp-content/uploads/2024/05/Eraser.io-Logo.jpg",
       "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Eraser&login=eraser@prem1um.xyz&password=EraserGroupy2025!!&url=https://app.eraser.io/auth/sign-in&extra=https://groupy.id/otp",
@@ -37857,7 +41887,7 @@
   },
   {
     "meta": {
-      "id": "pro--frontend-masters-1035",
+      "id": "pro--frontend-masters-1037",
       "name": "Pro: Frontend Masters",
       "icon": "https://play-lh.googleusercontent.com/8X11A1RYP--qUN-FA3tuEdNG--8QSptibgY6xWQRUDI2YASyAXe726CaE_jEohFYGno",
       "url": "https://frontendmasters.com/dashboard/",
@@ -37942,7 +41972,106 @@
   },
   {
     "meta": {
-      "id": "pro--humata-ai-1040",
+      "id": "pro--hbo-max-1076",
+      "name": "Pro: HBO Max",
+      "icon": "https://play-lh.googleusercontent.com/bvyVXgpxu65YO3PNeVhNM9Y7ao7g7FnnKdoNXcwqO48aOlVvnH_b2O9rcZzgEFHzHtI",
+      "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20HBO%20Max&login=bekal@prem1um.xyz&password=patuhisnk!&url=https://play.max.com/",
+      "category": [
+        "streaming",
+        "proexclusive"
+      ],
+      "isGroup": true
+    },
+    "accounts": [
+      {
+        "name": "Pro: HBO Max 1",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "hbo.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Pro:%20HBO%20Max&login=bekal@prem1um.xyz&password=patuhisnk!&url=https://play.max.com/"
+      },
+      {
+        "name": "Pro: HBO Max 2",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "hbo.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Pro:%20HBO%20Max%202&login=bangku@prem1um.xyz&password=patuhisnk!&url=https://play.max.com/"
+      },
+      {
+        "name": "Pro: HBO Max 3",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "hbo.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Pro:%20HBO%20Max%203&login=balon@prem1um.xyz&password=patuhisnk!&url=https://play.max.com/"
+      },
+      {
+        "name": "Pro: HBO Max 4",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "hbo.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Pro:%20HBO%20Max%204&login=berkas@prem1um.xyz&password=patuhisnk!&url=https://play.max.com/"
+      },
+      {
+        "name": "Pro: HBO Max 5",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "hbo.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Pro:%20HBO%20Max%205&login=hbo01@belajaar.id&password=HBOgroupy2025!!&url=https://play.max.com/"
+      },
+      {
+        "name": "Pro: HBO Max 6",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "hbo.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Pro:%20HBO%20Max%206&login=bolpen@prem1um.xyz&password=patuhisnk!&url=https://play.max.com/"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "id": "pro--humata-ai-1042",
       "name": "Pro: Humata AI",
       "icon": "https://www.humata.ai/favicon.ico",
       "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Humata%20AI&login=userhumata@belajaar.id&password=HumataProGroupy2025!&url=https://app.humata.ai/login",
@@ -37965,7 +42094,7 @@
   },
   {
     "meta": {
-      "id": "pro--iconscout-1041",
+      "id": "pro--iconscout-1043",
       "name": "Pro: IconScout",
       "icon": "https://cdn.iconscout.com/icon/free/png-256/free-iconscout-logo-icon-download-in-svg-png-gif-file-formats--company-pack-logos-icons-4674919.png",
       "url": "https://iconscout.com/",
@@ -38070,7 +42199,6 @@
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1768328406.065127,
         "sameSite": "lax",
         "domain": ".iconscout.com"
       },
@@ -38099,7 +42227,6 @@
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1768328470.759346,
         "sameSite": "lax",
         "domain": ".iconscout.com"
       },
@@ -38109,7 +42236,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1768328470.759471,
         "sameSite": "lax",
         "domain": ".iconscout.com"
       },
@@ -38119,7 +42245,6 @@
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1768328470.759539,
         "sameSite": "lax",
         "domain": ".iconscout.com"
       }
@@ -38128,7 +42253,7 @@
   },
   {
     "meta": {
-      "id": "pro--investingpro-1045",
+      "id": "pro--investingpro-1047",
       "name": "Pro: InvestingPro",
       "icon": "https://pbs.twimg.com/profile_images/1108338370026053632/JrSrbA-c_400x400.png",
       "url": "https://www.investing.com/",
@@ -38341,7 +42466,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1768324868.19756,
         "sameSite": "no_restriction",
         "domain": ".investing.com"
       },
@@ -38388,7 +42512,6 @@
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1768404069.198049,
         "sameSite": "no_restriction",
         "domain": "www.investing.com"
       },
@@ -38445,7 +42568,7 @@
   },
   {
     "meta": {
-      "id": "pro--jenni-ai-1047",
+      "id": "pro--jenni-ai-1049",
       "name": "Pro: Jenni AI",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjzHV0xQOmnu0xowDdW71mIklQHOJ7RjdzHg&s",
       "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Jenni%20AI&login=jenni@prem1um.xyz&password=JenniAIGroupy2025!&url=https://app.jenni.ai/",
@@ -38468,7 +42591,7 @@
   },
   {
     "meta": {
-      "id": "pro--julius-ai-1048",
+      "id": "pro--julius-ai-1050",
       "name": "Pro: Julius AI",
       "icon": "https://play-lh.googleusercontent.com/5TBQ0_UiHHQ3DmZIOd1fQPRXSIUInSGsIGNgWMTb9fjeQtn7LOW15N6w-krdJxbdaw",
       "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Julius%20AI&login=member@shietoshi.xyz&password=gpyWeAreProGroupy2025!&url=https://auth.julius.ai/",
@@ -38514,7 +42637,7 @@
   },
   {
     "meta": {
-      "id": "pro--leonardo-ai-1006",
+      "id": "pro--leonardo-ai-1005",
       "name": "Pro: Leonardo AI",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJztEc1YalQNx74GGv9upR6MXHYGO4H0ejqg&s",
       "url": "https://app.leonardo.ai/",
@@ -38803,7 +42926,6 @@
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1768325716.801911,
         "sameSite": "no_restriction",
         "domain": ".leonardo.ai"
       }
@@ -38812,7 +42934,7 @@
   },
   {
     "meta": {
-      "id": "pro--livelink-ai-1007",
+      "id": "pro--livelink-ai-1006",
       "name": "Pro: LiveLink AI",
       "icon": "https://cdn.prod.website-files.com/64f605bdfa749671fed117a9/6524730de295b510b8f7d0e2_livelink%20ai.png",
       "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20LiveLink%20AI&login=livelink@prem1um.xyz&password=LiveLinkGroupy2025!&url=https://app.livelink.ai/login",
@@ -38835,7 +42957,7 @@
   },
   {
     "meta": {
-      "id": "pro--mathacademy-1054",
+      "id": "pro--mathacademy-1056",
       "name": "Pro: Mathacademy",
       "icon": "https://pbs.twimg.com/profile_images/1646549566052003841/Z5yj3RDi_400x400.jpg",
       "url": "https://www.mathacademy.com/learn",
@@ -38920,7 +43042,64 @@
   },
   {
     "meta": {
-      "id": "pro--mobbin-1055",
+      "id": "pro--merlin-ai-1075",
+      "name": "Pro: Merlin AI",
+      "icon": "https://play-lh.googleusercontent.com/8XoSS1Jn3qHfm8cB4gq6YMQAWv_PIRCUtH2r5RiDq0s05QM47JtwEjs6V_aFh_SmOZ0",
+      "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Merlin%20AI&login=foolded@prem1um.xyz&password=EnJoYersGroupy2026!&url=https://www.getmerlin.in/login",
+      "category": [
+        "productivity",
+        "proexclusive"
+      ],
+      "isGroup": true
+    },
+    "accounts": [
+      {
+        "name": "Pro: Merlin AI 1",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "getmerlin.in"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Merlin%20AI&login=foolded@prem1um.xyz&password=EnJoYersGroupy2026!&url=https://www.getmerlin.in/login"
+      },
+      {
+        "name": "Pro: Merlin AI 2",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "getmerlin.in"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Merlin%20AI%202&login=foolded2@prem1um.xyz&password=EnJoYersGroupy2026!&url=https://www.getmerlin.in/login"
+      },
+      {
+        "name": "Pro: Merlin AI 3",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "getmerlin.in"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Merlin%20AI%203&login=foolded3@prem1um.xyz&password=EnJoYersGroupy2026!&url=https://www.getmerlin.in/login"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "id": "pro--mobbin-1057",
       "name": "Pro: Mobbin",
       "icon": "https://asset.brandfetch.io/idIfIyyq5-/id2DzZkAtw.png",
       "url": "https://mobbin.com/discover/apps/ios/latest",
@@ -39015,7 +43194,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1768381048,
         "sameSite": "no_restriction",
         "domain": ".mobbin.com"
       },
@@ -39088,7 +43266,2139 @@
   },
   {
     "meta": {
-      "id": "pro--nily-ai-1037",
+      "id": "pro--netflix-1078",
+      "name": "Pro: Netflix",
+      "icon": "https://groupy.id/assets/images/services/netflix.png",
+      "url": "https://www.netflix.com/browse",
+      "category": [
+        "streaming",
+        "proexclusive"
+      ],
+      "isGroup": true
+    },
+    "accounts": [
+      {
+        "name": "Pro: Netflix 1",
+        "cookies": [
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776273091.670973,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "dsca",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1802679502.829978,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776273091.671076,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEBV4AU-5RKJ6G0SSzeXPn-Jg-jSxEldaRBGrYLOZ0ELtWzYynpKoi2VqXSaqDuByRv4KqVc5-D8k_YhbClBi3LOEYatox9fMenrBPZ_iRZFve-5HZ5Jc41h5yD_hr1FHz_atJ5PVdUJB_8T22L98QRjq",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799655501.924936,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a5145573462696a726a2f30332f336a5a376f2f537a7a5574766834393543575079642b7838777a5a63376d724b5a776230",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1775895493.816102,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABRWeDGKmUdwPbGNTXrw07GZG2D8y0fUE8k.%26dt%3D1768497078550",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800033091.671155,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxKEAzXKDcQ03ePXAKbXAQRYHI7yL-EYHVDNzlbi3r2Fh7LG8J_mU5lpKi9b4r-AiqgOdEnIGtAxPqa_1jnKtgC5jOCnckxFdz3JaK8NdCmfcz4sE0Dn1dRrKKxbPZPkom2dN2jcrgLOGZa0n63_ykkwJth8wGlvo5BbRdZzJuat8Shbfa5waM0xvoU7qDPyjH4TfRzBuZJkFFhkxtz_cfNYJBtCEpZP0fKKqRv8h7hG3trHoqbeha2rdJtxr4Mo3-957OOFQW_N6m8REbr6xCZP99cWX3-p0oeyHDn7Bah0SlOSBdE4SSp9eRR_ere1Nmsk4pwugBatqySgjzztv93enwpamqheVexa7w64A-UePH77yCOuTks4p9mayRA-rY_Qg43RLIwmozplb9bakzTRfMNryE_OBmpviav2RdkP_N_Ws4-_q2xZ5fj_mBNZEiAhSj6cuMw--DKmpFRJLr102LhyYBcQxZ_Uy4Pv9N0wK--LaRB7qkzxeoQrXS7o1zh9EBZz74kYBiIOCgx_C_lgG21yZrWZV_M.%26pg%3DY6UD3CKTDNBVBHOGDJEQ3WP3LM%26ch%3DAQEAEAABABTNPjlMGyNEmildZd8Jzgnh1cmQUeBH7DI.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800033091.671215,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "gsid",
+            "value": "2b126c0f-412c-4182-852f-d032f5071f86",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768583491.6713,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Fri+Jan+16+2026+00%3A11%3A32+GMT%2B0700+(Indochina+Time)&version=202512.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=c228ecd7-c4d9-4e26-b638-9ed60dccd031&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&crTime=1768119501928&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800033092,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Pro: Netflix 2",
+        "cookies": [
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776273099.509766,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "dsca",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1802679502.829978,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776273099.509873,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "gsid",
+            "value": "2b126c0f-412c-4182-852f-d032f5071f86",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768583491.6713,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEOAfPknCqfW-Ec-os36xD-1g3E7zw_RfYw8RlekJnX49JPIxIhcJ1mwoTQbBbZGMS94_iF-zYfD6F85rGDtIsgsuYR01nnKVvj_p16oh6-rZ5I5aBea0mtmcKy3-2lUbvD5oh9yB7_UAxVbQyzOPCcXD",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".www.netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a5145573462696a726a2f30332f336a5a376f2f537a7a557476683438703039796632435355716a69617567526e58516542",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1770712452.78761,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "profilesNewSession",
+            "value": "0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768498901.18203,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Fri+Jan+16+2026+00%3A11%3A39+GMT%2B0700+(Indochina+Time)&version=202512.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=c228ecd7-c4d9-4e26-b638-9ed60dccd031&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&crTime=1768119501928&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800033099,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEAs0NWu62C3HbMz42glMxOZg4pt_Whm3WzvAGU5gJHzyDhQPZdY3R8wc0u8e4ZK_HtCnwqspjuf7YqdK7bw1Gy3rA_2EKFG1tImG0FDHGzrbXMKbhBqW9za-yxxhlraSqETq8AhPevIVyeWZfsND1W3g",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800033100.578491,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABSBXh1bDChERw-tUAdUeNkNU__e3emd0sk.%26dt%3D1768497088440",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800033101.522303,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxLyAjEDkLchamHizGYVEV2gFMqTHWWB9JRpsipCE4RuhxHYJ5M3u8m73GM6AeRgPiVY5fKezpBwCe3z-FiW2xI-6E79u0cZEiPPAD_XX9_p0ukHFPYYfmcaBkHyALc_bcLXUsutsUUwshSuErhsNlCuhWEr65Zeyh7X_V4CNqvl8ag7HkrlftLM18YOgyZ8D2C5MNt88Qz2Z13ww42iA1up-Yhc13HHoOasql8QePbGXUBN2p4JgudROqe0sUNn5cz64398zWk2edk_5IyR458UkjuU4QhOew4x84SqtbGEpPIhNEQKVeS1mRTh80pK491kQrspHBFxohDo2LWgZggc23otFlyAhLIyXwCxlnmjyjkGYN7BHL-iIxA17FQhqsko53lEHc2VUt6BXGLA0LhJ5b--_4AnRSMk0YcVWxFAUfAISykty_va6izXTVDB9JyfDBNJusxnDO3NGDXx9L39Zx6FapnM427py6OQwWdTX77s9TgYBiIOCgzkV_OjK_LtjLyeVyg.%26pg%3DXMK3BP5GMBH6JDBNTGOKJYJK4A%26ch%3DAQEAEAABABQUkEOn20XuHrIAPgoQ0wx0HFJMX2qF06M.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800033101.522421,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Pro: Netflix 3",
+        "cookies": [
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776273107.745057,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "dsca",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1802679502.829978,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776273107.745458,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "profilesNewSession",
+            "value": "0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768498909.086165,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBENNDYJhWn9egUQxdH30QSG9ggIUlp_SMxhZCDY4Bx9D4kzI5c__LFIaPoHmJ6vjIN-xrbliu6iY2ccHU564ZTBZRkgZIsnbeM_9f3xZqgGD3F7AWDTz75TSZ4Yg4iROvwC0NQ133E9Uiop3otlXdLnU8",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799772905.917351,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a5145573462696a726a2f30332f336a5a376f2f537a7a55747668343956493236725a6350486a346972632b514a784f5150",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799772903.028474,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "gsid",
+            "value": "685a5ac9-2b33-46ff-a762-e62a73106f55",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768583507.746716,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Fri+Jan+16+2026+00%3A11%3A48+GMT%2B0700+(Indochina+Time)&version=202512.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=44429221-6f18-473d-acda-e9ccbe7d7ca4&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&crTime=1768236906750&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800033108,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABQPIuGUPDDP1HBKvpKmqvNcft18hQWBYlw.%26dt%3D1768497096722",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800033109.807581,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxKIAxwooluVnzGRCvWNhF-tB3eORc7BGLy9zV3qEv1h6JupsMBABQEv2BOVKMlYawxsFwGG4LAkTSJVYnXJgRIAYLM3tpyHr9zHgypjWftq48TUgtTC_-BdI2RVIVmONExDd1PiyMXczl2mO_bTTQaWoJPrBKexIO78rVYJxdR5_sz4VndRHMiYFDyrepsM5GAMzQmQTmNrGOQPfGGVfzIxnmrrWkRDCsf3u6KERhvOsjud_wL_W-bCf_nzTIvqb0NFbVjUG-YlH5cNKCA8CKimjiCJF_Fs0ERKeqExmKuHxVs21YXtQDdQmFsEE98ITDODlK4T5XubCgsZtljc9SRzDHsjrGiXkeD_gXSHxIHq2USPTxhJHGRE6mjhQG3_2t3sOc6P0kunWNgUzVXs28nRjd2kI93FGhHpYZYKapIuqfDrVL_toBPR3og1VIooRYXTToW1wIOJGsEUGtLu9zQEi_-_5aDET8ZaLrFK2vOyZUICYJth8CtukTUT4CpLqPb9unw_1jIyh4UFGAYiDgoMEA9RRzCKYsOPUU7B%26pg%3DN4K5DA2VY5HX3KIQ7C3P7JZLRI%26ch%3DAQEAEAABABRM3YnHFRTPCEvlSs9G61wEDeQ2_1lyhYY.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800033109.807694,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Pro: Netflix 4",
+        "cookies": [
+          {
+            "name": "dsca",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1802679502.829978,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "profilesNewSession",
+            "value": "0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768498917.013967,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776273117.861761,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776273117.861873,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEI6NZ333L_OwV6Ho7KrxA3xgPAWJJCRrssfGaXTKjFmXglIoEcb4t7pUk8HV2mlZ1grIZsvRYrd9cXmVT9E1-pcZdsiQNdWgqQPH5IWh0BFwggMOxLfkKUHFU1EhZc0BKOcF__8UBUUTb7GrDFqhxGdb",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799405436.956603,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a5145573462696a726a2f30332f336a5a376f2f537a7a55747668342b454a553967355277556a434276662f6a6d4569416b",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1775645437.539989,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "gsid",
+            "value": "0d6e14bf-d884-4c37-b0be-18eb8fc7f58d",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768583515.522136,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Fri+Jan+16+2026+00%3A11%3A55+GMT%2B0700+(Indochina+Time)&version=202512.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=83e04d21-92b3-4709-b67f-a7ba78f37b6d&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800033115,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABQoSBM8qPdMWu65rC2tL5lPK6KxncoktdY.%26dt%3D1768497104672",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800033117.774539,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxKBA3kqIxeXP4OSsrPTnNTQxyawo7c1WE42Ns97Mz5gbdabzrj3dVGwELIjoafZGOxFzLm4l6cZZbLvuF2G3luj35-ijqfpOcP1ga5m02IbSz5oTabsY-KpqohThyFHFDSuNXni-baFOjfIOnAMvsoNMW3dAROtRm7Oe_jb-1SD4lVs2ZF4lfwbrv1GyfW79ZX9csFRUSagiTZZIvllQhs6EK1Y_pCP1AAswBsXIu809Nq0aBurOqM28kcKfu1LsHWkNzpuESLLAwAO6uPxzlhz7GpYsHgIJfMCCHSka-weroMbboMD9A1rOLQVYVdtcE3GBIZAKD3xWOIskcdBzVz90y4RiBI__kbMBOimAICmQSQCPbaTTpok664bUCBdPZ2p_xhLJfxH_IEsvzTYpWKbNOMnNhJ6sqOJm1YiopjzbzFi_L-84j0VLf7o47V0kl8RGj2Sop5_UP5ZKGv18sSn5q6_kH6xRXTBa3nYAakhNMTymYo0Rmj7QtcyGdICNdSDYXYYBiIOCgzKBn_e3wULtWbnGLU.%26pg%3D3OHILT6Y4JETTHBPVAHVUF5FMU%26ch%3DAQEAEAABABTD1F0PSq0tnFyeGgPuyTe93cHYJP25fkE.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800033117.774731,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Pro: Netflix 5",
+        "cookies": [
+          {
+            "name": "dsca",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1802679502.829978,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "profilesNewSession",
+            "value": "0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768498925.823442,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776273126.078045,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776273126.078149,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBECYoGnUZmw6po3A49OozG_pgS37qE1_NjpVCfl_VwG4emWpU5r59Wxc1j8I9YJUjGS8oxnHFweGw1u5P0GQ9XYoZPzjjnsmjlp_tZfKL2YNPcEgoOeJBUpB0vNfkeM-oRhb29di8zhfPpCdGrEfMHGVh",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799405469.901289,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a5145573462696a726a2f30332f336a5a376f2f537a7a55747668342f7377584934506a436d49615431455a303552777272",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1775645470.559038,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "gsid",
+            "value": "f8004eb7-fa49-4219-afb0-6ba08b784c88",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768583523.770971,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Fri+Jan+16+2026+00%3A12%3A03+GMT%2B0700+(Indochina+Time)&version=202512.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=d7f4fc9a-10a3-4b96-ad8a-a99f55724ee4&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800033123,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABQmYQbCbMTmQ6VtuQdgTliyNji7H493lsY.%26dt%3D1768497112600",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800033125.675958,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxKBAyjyG2FTxqjOThpp6iPf1xl4yUMmFsfIKSEC6NGxRv_dGBlpwkXVE6Ri7CT6Aa_wRqge74WZTFffuajKUEeCfF0EZ6KM2ClS2hQcTxVxDLv0rE5BsytllThedh4kEoQd5WAIE2ZPKsz-BLwHKZlOCeShJyCLihtpmXIVmcW0TCu_PYrVthPGLmO6j_l63jCZ3eBlhN2yGA6s2mfNVUgobel9ptVWEtYTgJwhlSvkP0mqB9OC6YpQiMEPze6HIZFu8VxUTTcw3j8n0__CBKKOy5jFQeupLW2upBKm7iTGljZYwszCphMzAgz7xmkcl08OGC0P6oQd3SmWCQlfT_ay1QEO1txCsirHW19_u9OWjBHd6w6ejcT9KlTCqFfkUEA94K4e22b2_-NdLoE25jAryl_H06JYRi89sTiQNuCGLzoIZX10IRp6QmggicuE3x_UbN5rGu927_p6X7DhaXvUXJogfdQvYIUpTC4hVFoBFH_GdM-RObWDMXoRjFUMEcDw5RsYBiIOCgyHc_97RO6L95hYjTM.%26pg%3DVS33EZEZHBE2ZHMKIBJMZFUWUQ%26ch%3DAQEAEAABABSnb6qVQqJWB7vRSAepecV3VHvDBrRoshA.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800033125.676075,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Pro: Netflix 6",
+        "cookies": [
+          {
+            "name": "dsca",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1802679502.829978,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "profilesNewSession",
+            "value": "0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768498932.310091,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776273133.127418,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776273133.12753,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEMfyUDlI1iKGcCjXFsHEP05gWpSPvAsIRWACanF_nRROh2z9RWD5Tl83e3RXo2XZxEjgawA9RTHA96erl4evcnCPipvi9RTrMGLfWv3HBhj7CE1oAu3BsjFkysGer4fg24j3YKeaA0IETO79V_JpSGgT",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799659972.44754,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a5145573462696a726a2f30332f336a5a376f2f537a7a5574766834385853732f7a3157476e464669336543705235747771",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799659961.299173,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "gsid",
+            "value": "87a428e0-24f1-485d-8660-eab8061b135f",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768583531.452868,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Fri+Jan+16+2026+00%3A12%3A11+GMT%2B0700+(Indochina+Time)&version=202512.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=feee7434-a05f-4ac2-a093-9d6927f27624&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&crTime=1768123976130&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800033131,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABS7JlhZ3Hy129ks6depekO0Td9nd-9Neiw.%26dt%3D1768497120258",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800033133.333367,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxL1Am66fUArdJsVBcl3b32zbewR4_Kyfh6cFkkxsE87smSQ51KA5wkmPkR0l_H8XahbJJ0z1gJCrpax57yue16OzE_bkpJmr7nl71uGJkQH20Vai5HseU09VZ_hnan-xcv0NvaBn1H0Q6Z1I9wYXsOV8Txa0dBsmSnHy4LSgejQNIsz7CtEe10QwQTDMfMYFtyColkRqFrAIjMSK_QJ_zjJBOn1kamG001lRYXJxQko4MOZKPhgd-HNwajZX_3FQXTwtUrYjIDo4d3AmUz4www3Gxgclt34EDTCGSZ9QPZC_n8-qzopYvwiP-hIPFCs044mUuYTbWOkXpFfyTOXvF5rRDZBYFTO51-ThFPXs1bf_OMpw_PqoFivrnOOu_TSSR9H3oz_Qh-qIHsi_aqUh0aEU-pkeODR4_Ll4dmTEP45aPVKAIXMQv6nYdvA3ZOH5t1--TSCI56a4-X1yz83GHak7ko-FB9xwbTAKkdrkk49z6TwCEfqoroYBiIOCgxN-KKm5PCsuQfQbyM.%26pg%3DTGFPNY2STRHJTN6ABXGSPSMLZE%26ch%3DAQEAEAABABTDztiUI964e_aGeZWuL0JX9LRzRHo3SSE.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800033133.333482,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Pro: Netflix 7",
+        "cookies": [
+          {
+            "name": "dsca",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1802679502.829978,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "profilesNewSession",
+            "value": "0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768498941.534056,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776273140.042978,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776273140.043086,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEGJX5w1DVMggADk5mwiwWjhgEDrWknrpnlgnV-s08alAHLjH2yCXT3rhhxfYFP64gOXpLWZ-G3XAUPtyJevlbvRcgfjjmRKiANv6flE4UYCHFKTVJ4H29coiK5NetzlvTNLVJzLzxcx5q7AjdwGPqk8o",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799861685.461047,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a5145573462696a726a2f30332f336a5a376f2f537a7a5574766834386a484d78526d496c582b767170334769414f457346",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776101686.14758,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABSgFiVSV88EUm3hX3i95CWYI8vgs5D_-rc.%26dt%3D1768497126897",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800033140.043198,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxL8AiMpwXC8ei8o8p6b1MvRfBSFc-16Bh2CWLjKZPE8sDCUCc7Vw2OGvOGGb6XeWD7_VDlv_JB0seqGbAt3171N2Jx6DfKml3v0bWSbsW3HOqcAmYbPY_kb4HAw85Zptavc1CQMWw3sQdH_fr5a0nOozwmldCry848k1pyjmEPnmYcFI42djUXepNc-v7tyvyKSeG8-0feIz8ZNVFs6vIfQwmBXuAKfVHu0Y_hf8bZqSjvafbuIQ_neCJVtfRhmfo1obY-4bLK8P7VZpK9Gn8nbq0sDQcXCW5RPDsLPkyWBQLtMlxEGjLuGBlfcxLxj__osovyyBYEiwav041t80hKtRWHqpR1IfYJ3bqfnmglXUtpQsWE7sn-yFjQlq-xD4eMr0ZRjze5TQ1sT8pXgHIoiB6h6XSXum8hELlxb03OMEM1YBjDi1H-gV7KO3pJ_pXEYJY-djgRDbKZSfW6y8VKjsMAU8xCFx2WxhmQQ0fRZS5jT64dyJH58mXaDlINbGAYiDgoMQl56FMi8bUsraqiR%26pg%3DCKGVDLN3BZADNETUF4IAEUY2HU%26ch%3DAQEAEAABABQZ8c2GcOiz9EIrBEEiTnQyGEu9abQAo7c.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800033140.043264,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "gsid",
+            "value": "3a81621a-ef80-4eaa-a074-7a2ded1cdc65",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768583540.043341,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Fri+Jan+16+2026+00%3A12%3A20+GMT%2B0700+(Indochina+Time)&version=202512.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=09111d85-9022-4f31-b04b-2a9a33077ffe&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&crTime=1768325685464&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800033140,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Pro: Netflix 8",
+        "cookies": [
+          {
+            "name": "dsca",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1802679502.829978,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "profilesNewSession",
+            "value": "0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768498949.990245,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776273150.413621,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776273150.413728,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBELG0kfsrr8PsPBbttCNQffBgmMERDAaZi_cpX_i56yZs0FjsXlTnif2H54oWw7Kfr24P9jyTDUd5rMv4kmCbIMmy64r-8q_KH-V76QkYTRh55G--wA17WYqGjqJktb1Mj7eGbbubpEJWWxNBiyB8ju4J",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799405637.1877,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a5145573462696a726a2f30332f336a5a376f2f537a7a5574766834384573414a6c4f543550764762496665696a35646f79",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1775736566.783112,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "gsid",
+            "value": "27990b82-7118-4d7b-9b44-10dc371fbc3f",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768583547.282398,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Fri+Jan+16+2026+00%3A12%3A27+GMT%2B0700+(Indochina+Time)&version=202512.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=88e3fae3-3f7b-436c-9575-659f21c005eb&interactionCount=0&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800033147,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABRGbLG7RPRCp8CNQ0PdxLKCFTsz6DsXt6M.%26dt%3D1768497136813",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800033149.925246,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxKBA-YmukOTfthLS9SkNamDa9SaxVDBNMDTZHjQT84ptMuN2TZP94R47FrnT-lQTmBnaBTozU8cH5f-MfE8VJt0uUiZImnfz6IoOKOl1k_4v5VQzCYyGb1NI9a8KE9RTobtzGt4JKrAn3fpByWrquBH3-gyNCabgFVgXkEZg7HG2XzOYATqgIBqK7UevzZ3dswDVomfuI-4eTb78Gq-xflOgRSDcwegFYK1aJUBPtzeBlWVt-OIvjTN0nmGg8SjqsME4OUXu-mNJ5pXMi1Rl1QIWSUp7nunTUEiYqaxm13-bc2mYlWsyLisDql0hu37PvLrGGsylDzk41j6InVfzPQL0-Xlbai4uy5si5JxONkkaqRBedHbp2CvjkKWeDTOb9ypbbiLx9kUfuvh4ZCghy0KOmS45AA17yUF0-ezTHPXkaGL8Tl_bqBNDZ2ahiF3SCunzIhxB3pckjm2XW6V7d-jjvqAPecgP9-o-U4MJ4cPBRgQErPL_wkzLLdLW5m9LHwWWg4YBiIOCgxo6i25B1OBsH8W8wg.%26pg%3DZRIW4NLKJZFAZH62IIGP3S67RA%26ch%3DAQEAEAABABRkjqK8bllsececoBfojlb3BfOgjVaMyrk.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800033149.925361,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Pro: Netflix 9",
+        "cookies": [
+          {
+            "name": "dsca",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1802679502.829978,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "profilesNewSession",
+            "value": "0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768498958.73406,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776273159.29899,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776273159.299096,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEI0bptvqR_m4DBGjJydzEcdgEBgtQEkKdIdmQar-gSeryzsbsJSoefMyl9xXHj9AzuGxAOrpNgP5fE7IFuthwO_JKw4xjVX8GqUQ_6Idvmla-IpwE-XSuc45D84AXanbDJMm02Q_xJ8h7vQMQE40B2gA",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799586011.426278,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a5145573462696a726a2f30332f336a5a376f2f537a7a55747668343831496e66784c6e2b547631686a5775567733614436",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1775891106.60204,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "gsid",
+            "value": "33621c7c-6270-4d78-ba4e-3714d0c62f31",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768583556.994324,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Fri+Jan+16+2026+00%3A12%3A37+GMT%2B0700+(Indochina+Time)&version=202512.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=5a4702c5-6b24-4afc-bc10-b7644af9de04&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&crTime=1768050011429&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800033157,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABS-YhcxqhtCVRFKM21UvisxThWEnMweQMI.%26dt%3D1768497145872",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800033158.958762,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxKFA13Fkt4f6qX4VKDuBw2atLggacLgjW70SQdwteZehinfNM_FBdzIdHALQAsG6GRaUFMpXuR2EBnK1UTlp3pDPXx3vDLqd3Y-Gla1OOHAPAasxpxZhfVcjrClhfYYTe7BOIyIirj0AcQiBOncAUYImBI3SzIZ5w8Pw4Et7s-XSqgug6WItvmCzesfn1zHtiwaLZRTOFYxLnof0TW0E26uUlr4CvbozneAHUrWZkXpLI7HES6V64g9dhS7pNQYzP_WiJ0y8IDGCUQcn-lvSw-CS81SK5pECkfonjgj6vo0Bbl30t2tmR5n98mJ9f0x6htDY--HHTOPYrHLSGMuhatSYLCThgU3cWZ2y9j8lwyK6MHk7BGR_SptKyPZo6cICvtZrqu4W23Io6qIpfSzv2CptDZabMUJYD9d3N2Lk0vAIOO1SJDn7h6lLscKhoB0G4OpbxuwQnFqyy0CJyI6VG7NGu0MP9JUvj4Up_ik5KsXrD75Id12JbMHDEju1nGhIU0v4hsKsa1VGAYiDgoMU0JKn_oCJA9l2oYu%26pg%3DVENP4RXY45BXDKZP2UM2QONVYA%26ch%3DAQEAEAABABQKrJbAb_Bw1YfKzvWGDfh0ZbWO03q8EAQ.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800033158.958944,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Pro: Netflix 10",
+        "cookies": [
+          {
+            "name": "dsca",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1802679502.829978,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "profilesNewSession",
+            "value": "0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768498966.237913,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776273164.803099,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776273164.803216,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBELT-_ae3U5ENcilLXZhLqU9guNaOy9t4o_psU5O-HGNMQqKKSGfol29zAsNs0cI3cHH-JpNBrbzXPQeJeTJCDBig7pne-ed1qgKYDbCVg4MMcEkIe700XtC3rCHoLfDiYOZcg5murtQPt-1wJ0CVa7C0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799655648.969994,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a5145573462696a726a2f30332f336a5a376f2f537a7a55747668342f4f6f516773547834796939517432627a5862316846",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1775895712.349084,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "gsid",
+            "value": "983d0c5a-1192-4723-acd4-c9bfdaca8f94",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768583564.803499,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Fri+Jan+16+2026+00%3A12%3A44+GMT%2B0700+(Indochina+Time)&version=202512.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=1a9fc71f-726d-402e-8768-81803d6055d6&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&crTime=1768119648976&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800033164,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABTGipJHT6Phlt1IA6KNCq1omkfeleJ2wcc.%26dt%3D1768497153649",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800033166.738208,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxKFA_6DHL_oUz72gEcQ_iVEqSa77QOsPsYpEBaZAvw89MWcvGpt8jLBZV7uopY6sNf3hFPrt3oo-bVn2AGHxkAz4kIUXtV5dLtx2L_zD-SQFmPyuhT-jTOZKtZfzAogHWHaByrD6BDjAE8GrbBimFOjnhnqGIZMKw7bFUbAYuZajA03465kRykw8jdhkK6B9H1mhmBIZox-3M0lUAA7KflRZx9lFqFgFeaUK-ZOL6wcOgw7JVdWwCbA6XiASKiZu9kT5Xa74zfvFs_NB7H4wNf651mH5i7TlV78O0TXEK6--vT4z7WxnUvB9TVlHnuNEkcadkZ8uCUeCgidS-qwr95NgtszaY3aoqCiiCBNxw9c_omxV49PHYxUILmDvTlwhnLawbxL381Q9S7PAT4UbriEtgX4iw6NdEjQIKmz4ObQrq_HECS-JCgDNHBN_L8jdko597RLNJfUPVXLLvIdt8SqW3mhJ_HQ0nCMXv7WiryA_5JQIzW_6jwbtRQN9-HVGMhBxBG5LSf7GAYiDgoMsmNq45ve888RT-YZ%26pg%3DWU6V6U7UNVEYFCQGL3G5BOT7JQ%26ch%3DAQEAEAABABRgMmIPtlXmIlMGq9WgSNavMrhbs9D0AwY.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800033166.738335,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Pro: Netflix 11",
+        "cookies": [
+          {
+            "name": "dsca",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1802679502.829978,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "profilesNewSession",
+            "value": "0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768498974.847647,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776273174.201832,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776273174.201941,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEMhFBFsaD3t3hB56JMet2BdgqVnPHlkS1ZOPsxvc8Ylv5_R5BmNySIwbnzMY3pGUYRfKHEkvhyPnTLIDRSujrjuVTSopg-borFsrlQptB3gGDNaHIB90AaYXZS_kHb3OOBvnm-bMISSHDcNC_oqMXfP6",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799586024.25057,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a5145573462696a726a2f30332f336a5a376f2f537a7a55747668343975515a5a696a58444944514441642b456a4475794c",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1775826025.761957,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABRYDtX8scxn1lUK8Von0318EW_VIvQDbII.%26dt%3D1768497161069",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800033174.202064,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxKCA0UbWFXVbUGRbLUl_J21xbF_nSg9_QGK3Txq32XLNna5haJfLpKky9305zPr6fcm8SaEPQhLvIAaZJtZaEQcslBEXBzCWYSY4GRHhXCmhqM5OIHULPK4dLsFASVpV6fD6bKIsCl0KTcZTMZy0Qz0fVERjvm1ndiNrpGsC3KNXYaJwc24d2T--K3gWVhFyNkNOOv8FRnBa9v8usUP4hZQBSv8jiYrLwSJvFRmOhJXEF4AUeSD0N27B5rzJ6QJz1E8PLzVlwNyVy3IlztDm5Rfu88g_-4xmm4lBgUNY52z7E6qr6bjce0tvd9IpukoHmKLd6RCx732ER3FXoyZFynn2gSYC_gLPrI62eVL1zs_DUsmJv2eAbv6MVCrIwJFrjefg2nxvZO_RCg-Uhp29Jaj40bkbS-bsv3-u6QhG17f-LKENNeZtm34Ef7yshMpIxdnhpxMyXipHXHpPYs0Y-hHp3A0F4s-SdMW0uI3itSdAaBRjSr99wFebwnBZyG9xKffkserGAYiDgoMbz3GnV2SGvI_pnAR%26pg%3DFHUA3YGK2ZENNE7NMBUYAU2VOA%26ch%3DAQEAEAABABRxxQfAts52g1vPdCtvgJygeRJ2uSS73sU.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800033174.202133,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "gsid",
+            "value": "4a699594-ce9f-4b67-9c4b-62887193ad0c",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768583574.202227,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Fri+Jan+16+2026+00%3A12%3A54+GMT%2B0700+(Indochina+Time)&version=202512.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=f774ab71-e2bb-4588-9bf2-1f3c66ce50f0&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&crTime=1768050024253&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800033174,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Pro: Netflix 12",
+        "cookies": [
+          {
+            "name": "dsca",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1802679502.829978,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "profilesNewSession",
+            "value": "0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768498983.535374,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776273184.334644,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776273184.334783,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEL9Epf05sBH6Byq048AVo4xgpwH-or5yjEI1IZy0A1uk3eSaEzt89JehYCHS3a9g6wVNal3bpyA5VdfdObjsjnyq3qVM8klCsjOAcHC5oj7aiqT4ZgF8fPDCEZTpgTMEkL_5yPvQGs-nV-RJ74fZOwuz",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799491360.872737,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a5145573462696a726a2f30332f336a5a376f2f537a7a55747668342b362b3430667452334b444877555130783152615a65",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1775731361.460147,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "gsid",
+            "value": "f3fcdaff-4697-45ee-a408-67bec3460ca1",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768583582.107459,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Fri+Jan+16+2026+00%3A13%3A02+GMT%2B0700+(Indochina+Time)&version=202512.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=348c87dd-1d81-4e06-864f-357221514c0f&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800033182,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABQYltytHAUXeuQ7cE0JgZgTAkNoKz4kMGo.%26dt%3D1768497170985",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800033184.059848,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxKJA-n3d5c3aMVT9iRgBhEvDrZYdES-vma0fF9JnLxcYUpsJAahZZA0q3hjo7eW6ITNVll47IDzIxPAZVO8oO5kuHQ2K2s18GpvKwanI4GKdEdcNnqkHeevXBqNeZwMASgUIf25LXwJHMCcetuswZqPViB8yYdW-ErvXei3mPxMiTWhLWWVeu9idXUB2YvMPMFplKbY8JD5FStBe9EGxNIFRKnM6V6Kc9B6rxvckwUl4CEYpZkwcK2SLvX91b60LQCjlw8OIJzFVM2lbexhKPna2OF4fLqEa-nfPM4PHO4IkhA3y6rXeUF6YjUltXzA8fcA7R733z1ZMWjchiLcEodpAeMB-gCgfXQsh6FwB_GYa3sF2fS9E9vLi_YvdQaoIMuaB_KgrBdSO3B4aRfnSfxnLxrQxGVhHAMukJpjHnLphtfDn4vLQivRR9JetMZJmD4KwyHEPEz___PSWwPJex27wGMO7azUk8zr3JrRqgPgJcbcCdcTORU8nT4q3gmHo5BWNdSDoJagOIOlaBgGIg4KDD1IVEZNvtZ13YbPFw..%26pg%3D4FGWNF7CJ5ER7F6B7PUWASGYGE%26ch%3DAQEAEAABABS0cwKDBoqx69iTHZtsyxudzFy-h5eGH68.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800033184.059961,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Pro: Netflix 13",
+        "cookies": [
+          {
+            "name": "dsca",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1802679502.829978,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "profilesNewSession",
+            "value": "0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768498991.956925,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776273190.973494,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776273190.973608,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEAq8H1o-inlzbDajaP36UMVgV1kBc9VgBGL1-H1oxjGLRkB3faee90zHHCztevpygnCTcqMg9wPD3T2HIHJVaERQbgJutne9yEn5aJcw4VQ3ISTp4I36WobSJDVKNDHvjSwfmjxExZLvIj8Rpj6V9xoy",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799646521.448077,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a5145573462696a726a2f30332f336a5a376f2f537a7a5574766834393945503251424d6e416b5276756674754956795a31",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1775886522.009496,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABSh9ci6FOzPtlZ27Wjm64TMYIS_t9VXdIU.%26dt%3D1768497177846",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800033190.973738,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxL-Atn3zRWe07-1pixT4UjHhgNV4OGfyWiESYRhyahb4EBN356vCR8wjnz_paTOWBQQnh0wjGqTH_s0RBoCWmmDp548YUPQqNTsSmKGiFOakDbE8I-niSuRZzmb47xZ5Ay-SrTnva0HnPsNQ3vDuERl2_ga4ZWjcSoWB4eOYxlTzVJ3-xuOlk26tlQbwsvBxhwlLbA3yoISVBwXhRs-yTb8O2IfafCwKdtZJTnj6ydoEwZSFuz_BkdotNxXVJp37qMIk5XCN7vhIr6yjANJC1Pzx_I0NNf_UOT-nfsPGz4kIJHyw1yMS5lCzXakal6qHqNwMlar1f2o12AgYeYnl8VnsSEjKTC_jQW1zwIuJzendCF3YtAeXu_tJ1wkLK_a0ccWXfEpQaIXP7iY4hKWWw0UUNo4SBcU3pIDo40dl6T7GYRYSWh-azGB8_bf_nXgQ83fqAnrjwiHB3GUl1QoZAl70Jht4nrZbceFpIpVr8bC19X79ZccguJlVT-nzQdSgjIYBiIOCgw10-t_ljm9wcxPUhM.%26pg%3DTJS7NX4YNVCXJIDI4EWUNTDZ7E%26ch%3DAQEAEAABABT_tNDSBUWZkp9Mhh9iQ-G94sS20T1CbWY.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800033190.973814,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "gsid",
+            "value": "0ff67365-d10f-4027-ae42-2909d74ca1cb",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768583590.973908,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Fri+Jan+16+2026+00%3A13%3A11+GMT%2B0700+(Indochina+Time)&version=202512.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=906d754e-d4d6-4780-9482-3b6f57dad637&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&crTime=1768110521450&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800033191,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Pro: Netflix 14",
+        "cookies": [
+          {
+            "name": "dsca",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1802679502.829978,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "profilesNewSession",
+            "value": "0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768498999.057286,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776273198.496614,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776273198.496714,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEIW4g8CM8HIASZB_7O34s6VgfMDVnbDd37CDnbeRft8hf3PlpiSk7KTU3iweBnChbVUG9z6dgbpJP64gYPe80QAL7mAK--NnMsDdgOOiAuxgwIBzzybgGFuUk720W26FpIFAJ5-HFLObhdjmO5oYKdhf",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799646548.733831,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a5145573462696a726a2f30332f336a5a376f2f537a7a5574766834386f6c5a4c6c356e692f4f33516a38785770782f4a46",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1775886549.245789,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABRABLjcITN3Kg0lODq18PCF6-KzdyVnmAU.%26dt%3D1768497185362",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800033198.496827,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxKAAy7xhgQyYer4MxYOswBOpfVSptISKTZaW42oCjc8rqM9FiuExnrqJ74jufjGMcT6Gnm3VhaPdeKddPBQDLRJyFtzsO-dLAjoYaESEjkE3DoExgeI6eq3u8VAAQ-VYpa_2jMWbyZJCSX--9DIKjJQuk2RXCCwsQNFR5QfMfgvhqNTZzCy6aoalb4K9SLWFHZax65XH07572cSs05Ny5kB0p5tF8SM6aVZBCBC8jnewEtQw4bSIp14WKPm2f5Z-giXA7ump0Yagbw-LQf7byoAq05jdJegU6D1oNxmVpQayLw8C45jpp2eeVfioTrQSCrq8c1vwDk3BBer-Eu0VyH5Ti0vOTXuxExmEjV2mXOuTei-ywCNKCIXYEoLMF-AkPH_Z1wt8CkpcWxtr_8N72k-J9OUm8jJB6gsOuvS0RF6pDCAF40fIfQTTvmV4085PVn35RXwzIx7iCg8y6qaS3uaZKqFC5L9OvrgsRRxX9UJRVEvLdpfuR96RdF7bbHiSvKVXhgGIg4KDDM7VCqFXBbiXuJ-Wg..%26pg%3D2OXQCNYWLVCNPLPY7M4FSUEBBU%26ch%3DAQEAEAABABSydFT7GqIK1NInlOnv6Ao2Q8P2jbYMKAU.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800033198.496893,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "gsid",
+            "value": "77398a54-eb3e-4ffe-befc-4a36a891a5b2",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768583598.496966,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Fri+Jan+16+2026+00%3A13%3A18+GMT%2B0700+(Indochina+Time)&version=202512.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=1e698c23-62b3-4091-8be7-5078e379a428&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&crTime=1768110548740&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800033198,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Pro: Netflix 15",
+        "cookies": [
+          {
+            "name": "dsca",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1802679502.829978,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776273205.278995,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776273205.279111,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBELNvv9GhEXFWhs3MfPRxc3hgIfupqX-tPMPrUscECsnCgXD478QDZ-ZygJSwO80rfH76R25XyX5NGIqfM1H6Vxm4HrlNcurZ_pJU8XgEVTEw0C0YKWsgSu1NtkISVD6M-jIUgt9n-3eqJMDuuchFDEIZ",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799660265.283712,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a5145573462696a726a2f30332f336a5a376f2f537a7a55747668343943457337514b6c49774c5954357977565537443641",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799660264.085868,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "profilesNewSession",
+            "value": "0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768499006.966068,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABSJhDC7B8i9tpCh17VeiXOixQ9eZDdeejw.%26dt%3D1768497192147",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800033205.279217,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxLyAhurLEl8fUe940nvgXJM35Ru0QSYSW0CvNYDaJVcNss5VEv2SI9tb3NUE2iWjLRl4Hjp66x63Mxpr02-SzKdutm_-ui1ozWUunsPyh9Vg5ZXLoS63k7PCDPNZ-PDxm-UyGeRbdKBJZcQrArGAUAS2K__IlUJMcXHNRgR2TqR0w3cFL22-irh3-QyMwVB5ILMlbHm_T6vdIhypv4QxEKNFDnMcyb_58I1kgWbIA8U4gqTfuNxBmh1NBMCJDSTDBV1hN8i3CLkJMMAnYxrf6MVvtDB4vjj8RXVbozCljSxOkvy8u3uBGPlLWqLKykEc0FsRjgCqNkUtWGoYT2E8xtFZXcUnmln9HfQ_r3PTar_WfZAkmTBVplSBAl3m5FI24xH6joHOer0NiWUWatedYZYH9FUTjXDAIzuv0k8vB4EWD1ioDAWc09jHphtWGpugE4TZZejV7OTeBT7lzKlPYj27kyzXMoInLNRoa4tTfgoKgVXlIoYBiIOCgz0opYQKe54pPIeVxo.%26pg%3D5NIUDCPUGRHC5OZVNP2SFOT7YM%26ch%3DAQEAEAABABSouun4BM7W6c38H_J9Z6FbqBsTmnGM47Y.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800033205.279293,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "gsid",
+            "value": "5b2db27a-8148-4104-a5d7-df3d092dcb9f",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768583605.279383,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "consentId=7ccf0120-ffd7-4b7a-8275-9a35ca6bac4f&datestamp=Fri+Jan+16+2026+00%3A13%3A25+GMT%2B0700+(Indochina+Time)&version=202512.1.0&interactionCount=1&isAnonUser=1&crTime=1768124286621&isGpcEnabled=0&browserGpcFlag=0&isIABGlobal=false&hosts=&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800033205,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Pro: Netflix 16",
+        "cookies": [
+          {
+            "name": "dsca",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1802679502.829978,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776273214.116244,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776273214.116347,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "profilesNewSession",
+            "value": "0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768499015.094069,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEJEEaFZk-cLtT5O4eF141EVgR02TrgD7LX2zl2WShL7gpcY_egOoBC6LZhy5Kq9PNOp0K5z3S_VVbug0KFw1O5PacIo37r7OjdxezlkCjZktvqr_tFgQ8kc7abhIlxNXdGel2a66AB_L4Smk-fFGCeDn",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799660379.152747,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a5145573462696a726a2f30332f336a5a376f2f537a7a5574766834384c6c65786845724d39687263563246786232594b33",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799660379.185111,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABT_v62S7jEM464L87MVViJhWobySS9Oc_Q.%26dt%3D1768497200965",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800033214.116462,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxL0Am16qGuXhfzCzlGWx8Q6rmxFUTmzCeoCrt3pxRm3TUCACoizkRKEs2xod1LCpPMuoEjO0sHI24KkX8f4Ev3XLWhdu1taxlEjFULNchPn3MLIybRbptXzZbbE-VOPFpH62rn1Rc43-W8evEN6w3fruBEyKxSI2y-Jm8JT89xgKVjkjH3DEq79opTkiv38-2JG6xVn6qPG0SFHV5-Iz1IyEOo7-hLZYvoFWKNTJ_C60hPJvpah7by89aV7ZJj2RfLKQbbfM1K-mKNk8GSdMSitdn_Fb9xya0myFUaLLnHedMRldrtRmuF16b7dwizqsotSJm1fVGx8KZmSC8cRTn47NffKyHXoE6OsIBkyvgbnFMwcvKZ3oDl3u2jnSQoq7jdryQU_N4j4GL8ehgXPv7MO7WmtB3ip8hADfddTQ5jtFh16s78NnwCpLiHtszZqlZTG3y1u1tjBnVH-ynor6-tOlp4PgzSqflHd0aPxRQ73w46L8bRrHhgGIg4KDIDcJBrEXTl8Jqee8g..%26pg%3DT6Y3KBRNMBHFRF6W5VPJKSQAOQ%26ch%3DAQEAEAABABQ0nWGQLZdbWu5mABzxCfY37sLsYotwjk8.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800033214.116528,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "gsid",
+            "value": "fd3c59e9-c499-4f91-bdf7-ef602a1a5aa7",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768583614.116623,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Fri+Jan+16+2026+00%3A13%3A34+GMT%2B0700+(Indochina+Time)&version=202512.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=f3a7cadc-ee00-428f-9e7e-2b52dd469986&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&crTime=1768124392449&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800033214,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Pro: Netflix 17",
+        "cookies": [
+          {
+            "name": "dsca",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1802679502.829978,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776273224.679595,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776273224.679708,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "profilesNewSession",
+            "value": "0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768499023.264063,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBECY_8yleLkM1Yp6PARQaZ55gto2Orwdx3wf_3wpWGqKrTDGLHDDHjqRewuGRuc4I0Mi8_qX5bIjyay0yZb0rNFlnJkShVAdzLZqWGQauQ0JkmNicdnS5yrTpx1gKpUEPx8rT2s2kE-nltFMLnvNZHnuq",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799660469.14567,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a5145573462696a726a2f30332f336a5a376f2f537a7a55747668343836342f36633243303345794a52646a663553553331",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799660469.148022,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABST1tW-lD9wNbf77oqkHbby52GAqxgB3SI.%26dt%3D1768497209491",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800033222.678373,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxL5Ah1qcCnA8jRfsdGM8fRiSQxC8C4KBVFmOD1rF2CF09nzNvHZacANKt-k4RluKM6ysX2p2bhWR4bPKPF9GaIPIzWjsZ932qTY2SZ-kp5XtZDz32lBO5fxL0B0LiEM3RnZt5SZbUwOVbObXRQuo51vQtFUPfYPbDgsUH3OUIwr0P5Ii9L54BCvdtsq1R2JylueEr6pYvxulaQQFOByO2NH476QUDDIHw_y3umDVZOiPcN1Ysnj1_Ou1GaHnQ82X9riOYsIHJmXGmGS4Hp1_M18Ss9pdkWfELaSbBmdXbvEQOMe570boxnxBsVzvz9wyLOPHHt_xvaho1qkIrGrz-tCuSXADM1skmBEKYkk_f6Fh6-sIAtia3OhT8SEnI3TYcf2yR0UfCZdw0rg7YHEpTj8oQsJFR3LBCE_HU9ES7pVB9TZzjyOxy4z0mxQqr6ZfLzB1VR151H2yG3SYWP7LNtJdEbZCU4TndPsN4GmPFnKH98i3k3Ub3SI_BDuGAYiDgoMb7VYuVvZu9AJXadb%26pg%3DKZZYVOFCHNCHHMFDFXTR3XWXMA%26ch%3DAQEAEAABABQjIbFNDZ0WTvU7bLUWd9cDhgboY3RxR3Y.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800033222.678438,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "gsid",
+            "value": "3b457c16-41dc-4961-bea1-5520ab428316",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768583622.678512,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Fri+Jan+16+2026+00%3A13%3A42+GMT%2B0700+(Indochina+Time)&version=202512.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=cf7247cf-8871-4127-bcc5-2d3868760764&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&crTime=1768124477512&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800033222,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Pro: Netflix 18",
+        "cookies": [
+          {
+            "name": "dsca",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1802679502.829978,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776273229.956313,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776273229.956413,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "profilesNewSession",
+            "value": "0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768499030.549971,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "gsid",
+            "value": "3b457c16-41dc-4961-bea1-5520ab428316",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768583622.678512,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEAQsI1f6tI3vC2TD2mwWHFpgHFdFh0-qG1tP9RDyiJg6d3EZ2m0LEegETg20X37rMyDWZ3TnVCeQKYL_EcJghIHRhMlV0rk-A7-pZH8H-kU3ZB1S3pedtvtQqfmu2k0nr__Jm9H2dPSfG2mt4tb-IfKE",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".www.netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a5145573462696a726a2f30332f336a5a376f2f537a7a55747668342f6b7032594a44575373645835764778367a6a42714f",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1770712553.213059,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABRI33gBxAtAELuIzlyfp2HbsKhBxeENrk8.%26dt%3D1768497216869",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800033229.956529,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxL5Als0pYxvR0QoNuQlUqalM3d1YsIN-m8hnkbxlcG3fDQo8Hq_U9TFi4GIYMC9N43p18TydhfgQPS_RVoqvlMG_YKZFOZsyfffOyJ1t7nXUJWDyBwkJhcpO4fIVBlEQOYagRlq8DUCkALp403kdApw9hhFT0DXQCmCAhqdBx9F_wV-b3O_c24TANkoE3aA2mrLx0nZLs6Sko0W6FHZ-QxNFUpOtpUq0ByrbQZfTosMydyeYjy3fMurkPqjbYyFp1igdKL1p6Ogyh4uRB-C2fmbk4Nn11eVCcWH98W5RmKHiEm8bIkWFGv59Ny5_J2a9EXqaoWgHebISLySM5-qRI8hTsIferHdWSumOmmzZy-7pR6X3nxR1sP7zlC_OlPqf1GW04VVF5Ezy4rSADnA1MmCeaS-1i2XOQTq7JEQXxXwgP8FG_wymbBZBBWJYNzfkTrYJYk1hHG7hLu1satrEIc4hgAph89GD5aifyDheQGhrQw9mhCv6jDCG5bXGAYiDgoMzoiW-PCQFspE34Ib%26pg%3DX6STR6HXDBCRRJFVJ6HKMYYSS4%26ch%3DAQEAEAABABT8HDLkQAxjTPk_GKNyOdd3U2DXfM5okBk.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800033229.956595,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Fri+Jan+16+2026+00%3A13%3A50+GMT%2B0700+(Indochina+Time)&version=202512.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=cf7247cf-8871-4127-bcc5-2d3868760764&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&crTime=1768124477512&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800033230,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEOdRc47J3fC5cISDAEwSsjdgpm3W5_UHOqsuSqDL-eHYExaz2hQPU6ZLjNiLV3JoYDN2cRJgrVhJG62w155XrHuoj0C6dvDX5XePh6TGi0n2MOwjRtXU-3dD-YXrj8rXxo0eVOO6IY0IDjrE4KSYnkgG",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800033230.900636,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Pro: Netflix 19",
+        "cookies": [
+          {
+            "name": "dsca",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1802679502.829978,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776273236.664754,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776273236.664858,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "profilesNewSession",
+            "value": "0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768499037.145711,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "gsid",
+            "value": "3b457c16-41dc-4961-bea1-5520ab428316",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768583622.678512,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBECzZjTD8QaJqL1lPTreYn9xgoO988Wz0YBk6rUT9S4NGCI4lJDTqZC42_oqwsOa_2p_wlHCNUF73YC4j-c8unvcFck7JTmLQNzd42AV2tDv1W9k5eD_bjqAjyuIdp2IHQPHhauEURbfy5281NLIDXg5x",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".www.netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a5145573462696a726a2f30332f336a5a376f2f537a7a557476683439396d3936396868727861734e45316e6b6a2f6b4b4d",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1770712470.323064,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABSu5zdOJgwyxz-FdfZNlX_QNp8B5KMCy6g.%26dt%3D1768497223534",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800033236.664974,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxL1AsIeGfqG51T5iZ9zBMbqPh-sAsOxqAkUi2PR-IRSe7VgpR4BObbEuZKOzQd2UbhhuoDXOQ1QznJNo3Co6WxGQNBe-0Aw-DN0HnIhWoqQaha4ECYrXFu6R-X3M5FiF_N7IqTkCmb-xvdpLNFhisBFtfRkp61fAMUuy57qNFQd78tI2TkRZ6Yr5Bt_pha8e6o3SrBeEKfDUv3AOuKP4noI51nsN72v5NN7JVjDrorq-60px1wwMMGb7S-5uDVzjdaSrs7Jzb9Tlg43xmNEkqceeoWORiU74DaJiVURuUOTMReDtYG-cZU9zFpSWxfQ8Zkffmdn4Onj_J7QODrO9Acx644sz_0yaWl2twPT5I__W0fz2RTcYY9i_KDsy6JCrLVC4nlNotMNB7vL3Kji68nHXahDugic91KU1xoB8T3MqL2PIaOqZGvzPqllostN3pP4AuhPYpjAAMizz-I-sbgi-4_rKrgSyl9iJFdkuqfSc_RIA6HSssQYBiIOCgziTssPi4L3wutDysI.%26pg%3D6444SMVKE5F4LH5YOUR6QDRYBM%26ch%3DAQEAEAABABSi3aAE5ptJAtBeDKV8tF6siMCO99TdNNY.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800033236.66504,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Fri+Jan+16+2026+00%3A13%3A56+GMT%2B0700+(Indochina+Time)&version=202512.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=cf7247cf-8871-4127-bcc5-2d3868760764&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&crTime=1768124477512&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800033236,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEPQMmg2-TS8YU3WEkkzZ8iFgpueukt0zVjQSmvgeoEhYgGw7xPI4BC3PBhwb1_MNoKjKs9NTR5doIdIgDt2Vq_59z4XQmtDP6hKAqQL1wciL4YM3vrdPcHzZY8fplYd8h_Pkw0RXfVErbqRH1XtZGFaH",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800033237.601701,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      },
+      {
+        "name": "Pro: Netflix 20",
+        "cookies": [
+          {
+            "name": "netflix-sans-normal-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776273080.304028,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "netflix-sans-bold-3-loaded",
+            "value": "true",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776273080.304128,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "nfvdid",
+            "value": "BQFmAAEBEMAK_wtDJHPnMU25-mnEm0RgHXDaSJafLKQIRbi6kGT2yiKN79iNGNlxvjTqgTtEUnVS70phRkjsQdeB_cyZKRMG8z3K9VhQdDtxPvksdp56hnZuN2Ntb_oUSTfzqyxPMzxiLR29C9DCROXgmKWgcJSr",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799419779.425056,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a5145573462696a726a2f30332f336a5a376f2f537a7a5574766834386135333857436767646e4934337a58556b77367045",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1775659779.900777,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "gsid",
+            "value": "467cae97-dd47-46ae-b048-6dd68afcd146",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768583480.304345,
+            "sameSite": "no_restriction",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Fri+Jan+16+2026+00%3A11%3A21+GMT%2B0700+(Indochina+Time)&version=202512.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=3fc92e49-a5da-4b26-8a81-fb8df175f8de&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800033081,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "SecureNetflixId",
+            "value": "v%3D3%26mac%3DAQEAEQABABSIR8gwsDcnwDmYYCRx-xqD2V5THsUCfQQ.%26dt%3D1768497070848",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800033083.941179,
+            "sameSite": "strict",
+            "domain": ".netflix.com"
+          },
+          {
+            "name": "NetflixId",
+            "value": "v%3D3%26ct%3DBgjHlOvcAxKDA8KdlB_sVA3leIhi16y02hSuogFg9UEqNK9S9RF9OW3dGiAj-U8oFxhFxPox4vtz5QTdk474NOUkEhmmz-9B0p1SKG4GISgZOdbKBZ5n5FwEYbOKkfOdKLuW3mYenv5Q4nWxhBC3NUn1sHHMiouxro4r3AacFstJLac7UBfMmyflWmcY9r7K7ayDh_gBjNWAFnFHlY9HtT2pxWlyxAZggUZvW2fmUZrbAznadiicHZ_kJoxHb8ttTPlH2biT2vTi4dkxYChIUneFDin_bAMjtMYkmNFnDBXZ4K77pLJiguiS_UdOrrpoADGlaUn6p99aC2eUMukx2zJ3iwhhA1M-ciFVSqied38wdeLjQ-O1055vJhSFsaiNKoGlL-stmOXLou9hMu8x9rKRsKVF4ejPHUX1u3AOHLQ-3cRZqF-0B7B292ZX2WLLmhMCRLng4UVQ7vO_iGkmuZgS4MHeHKHtZl5WHKuCsGd5dCvzDxL9nkO09bh9T1o-m3R-ueVPP5Yk0NTDdxgGIg4KDEs90t1VzpIYWn9O6A..%26pg%3DZ5HK375K5NBYFN4OCDT6KXAHN4%26ch%3DAQEAEAABABR2ulAfEu8KyB-w-azkH_eARgc_NpzuN8Y.",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800033083.94129,
+            "sameSite": "lax",
+            "domain": ".netflix.com"
+          }
+        ],
+        "sourceUrl": "https://www.netflix.com/browse"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "id": "pro--nily-ai-1039",
       "name": "Pro: Nily AI",
       "icon": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-email-Nily_AI-800x800-0-2-1_uuid_9beae3ae-02e7-47a9-8213-16a9367c2bee.png",
       "url": "https://go.nily.ai/multi-chat/new-chat",
@@ -39153,7 +45463,30 @@
   },
   {
     "meta": {
-      "id": "pro--perlego-1065",
+      "id": "pro--notebooklm-1079",
+      "name": "Pro: NotebookLM",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRJ_-m9Y994yfZimh_h8Yzn0sMx2IsfVoDIQ&s",
+      "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20NotebookLM&login=geminipro2@sharingwithgpy.com&password=JanganDigantiPasswordBro..Groupy2026!&url=https://gemini.google.com/",
+      "category": [
+        "productivity",
+        "proexclusive"
+      ]
+    },
+    "cookies": [
+      {
+        "name": "dummy",
+        "value": "1",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "domain": "notebooklm.google.com"
+      }
+    ],
+    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Pro:%20NotebookLM&login=geminipro2@sharingwithgpy.com&password=JanganDigantiPasswordBro..Groupy2026!&url=https://gemini.google.com/"
+  },
+  {
+    "meta": {
+      "id": "pro--perlego-1067",
       "name": "Pro: Perlego",
       "icon": "https://cms-resources.prd.timeshighereducation.com/sites/default/files/styles/large/public/2023-03/Perlego-logo_square_1.jpg?itok=pWI0VoCN",
       "url": "https://www.perlego.com/home",
@@ -39496,7 +45829,751 @@
   },
   {
     "meta": {
-      "id": "pro--planner5d-1068",
+      "id": "pro--perplexity-1080",
+      "name": "Pro: Perplexity",
+      "icon": "https://play-lh.googleusercontent.com/6STp0lYx2ctvQ-JZpXA1LeAAZIlq6qN9gpy7swLPlRhmp-hfvZePcBxqwVkqN2BH1g",
+      "url": "https://www.perplexity.ai/",
+      "category": [
+        "productivity",
+        "proexclusive"
+      ],
+      "isGroup": true
+    },
+    "accounts": [
+      {
+        "name": "Pro: Perplexity 1",
+        "cookies": [
+          {
+            "name": "sidebar-upgrade-badge-30day",
+            "value": "1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771088646,
+            "sameSite": "no_restriction",
+            "domain": "www.perplexity.ai"
+          },
+          {
+            "name": "_gcl_au",
+            "value": "1.1.703146403.1764127394",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771903394,
+            "sameSite": "no_restriction",
+            "domain": ".perplexity.ai"
+          },
+          {
+            "name": "sidebar-upgrade-badge",
+            "value": "2",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1798295878,
+            "sameSite": "no_restriction",
+            "domain": ".www.perplexity.ai"
+          },
+          {
+            "name": "pplx.metadata",
+            "value": "{%22qc%22:0%2C%22qcu%22:0%2C%22qcm%22:0%2C%22qcc%22:0%2C%22qcco%22:0%2C%22qccol%22:0%2C%22qcdr%22:0%2C%22qcs%22:0%2C%22qcd%22:0%2C%22hli%22:true%2C%22hcga%22:false%2C%22hcds%22:false%2C%22hso%22:false%2C%22hfo%22:false%2C%22hsco%22:false%2C%22hfco%22:false%2C%22hsma%22:false%2C%22hdc%22:false}",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1798687414,
+            "sameSite": "no_restriction",
+            "domain": ".www.perplexity.ai"
+          },
+          {
+            "name": "_rdt_uuid",
+            "value": "1764127394053.129e1f2e-71b6-4fc1-8d16-0422dbd41e3d",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1774535932,
+            "sameSite": "strict",
+            "domain": ".perplexity.ai"
+          },
+          {
+            "name": "pplx.visitor-id",
+            "value": "3f30f0c8-8037-4f08-a21b-21eed3f3d8c7",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1795663393,
+            "sameSite": "no_restriction",
+            "domain": ".www.perplexity.ai"
+          },
+          {
+            "name": "__ps_lu",
+            "value": "https://www.perplexity.ai/auth/verify-request?email=pro2%40meeow.xyz&redirectUrl=https%3A%2F%2Fwww.perplexity.ai%2F%3Flogin-source%3DsignupButton",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1795663394,
+            "sameSite": "no_restriction",
+            "domain": ".perplexity.ai"
+          },
+          {
+            "name": "gov-badge",
+            "value": "3",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1795663413,
+            "sameSite": "no_restriction",
+            "domain": ".www.perplexity.ai"
+          },
+          {
+            "name": "segmented-control-study",
+            "value": "1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1796985351,
+            "sameSite": "no_restriction",
+            "domain": ".www.perplexity.ai"
+          },
+          {
+            "name": "__ps_r",
+            "value": "_",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1795663394,
+            "sameSite": "no_restriction",
+            "domain": ".perplexity.ai"
+          },
+          {
+            "name": "__ps_fva",
+            "value": "1764127394051",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1795663394,
+            "sameSite": "no_restriction",
+            "domain": ".perplexity.ai"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..xBWq-KKKb2iNSljS.wq5pLRYvR28w0GYivPtrKDDU9TJE7ME0tSTxE-r8IjmCA3bYTYazsjaQ6VpvSNwjyAykJDoj1oC4XmrHTnoqXBajVtAEFDFhRor_tSo8MgfxoCSq19F5R3lKD8npNpjMonoAzNB1FZC3qUCnmVtoF3taQZLgeC1H8-mYuzV0z6T6M2_sUOCX3iECGETznL3lkVahFKDVJ5b4jtv1X0ngdnDkxmKD7FpwFabzwqDuoLqx6ROEjUx_9-L1vYhaMQEqgibh_s5y9X5mxDd5ADdKmfqc0b0P3QkERz0ae2wmN0cVAULzcr-QV_z6O7cNswHilVS-i9OYcqoMjrIlgebmTMvJSeM5Jia1c-v0zBjIHsQOf94AxmHKg6dOK6e4fPBdExa_ffrxoWz7lV2fHAhJm-4lYuVItQWC4ClQiwHRrEIxMpaGoWtY.xn_5cvhrdNfCUkTzf-7Ujg",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1769351932.783229,
+            "sameSite": "lax",
+            "domain": ".www.perplexity.ai"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=b56b4aa5-c01e-47ab-bc8f-e4da54751fdc&rum=2&id=e8e1d1c8-de3b-4961-9516-415d740fa3f5&created=1764127393652&expire=1764128316339&logs=0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1795663416,
+            "sameSite": "strict",
+            "domain": ".www.perplexity.ai"
+          },
+          {
+            "name": "_fbp",
+            "value": "fb.1.1764127393909.411074378172533151",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1774535932,
+            "sameSite": "lax",
+            "domain": ".perplexity.ai"
+          },
+          {
+            "name": "_rdt_em",
+            "value": ":553d1d68142dc758cc843d6699cd97058241fdcd349e80dd7689d2f6dbb17a7c",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1774535932,
+            "sameSite": "strict",
+            "domain": ".perplexity.ai"
+          },
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1766759918409,\"i_b\":\"YhCAm36IHSkUeNLPi263KDn9PZA/N4OvtyzikdM6HX4\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1782311918,
+            "sameSite": "no_restriction",
+            "domain": ".www.perplexity.ai"
+          },
+          {
+            "name": "next-auth.callback-url",
+            "value": "https%3A%2F%2Fwww.perplexity.ai%2Fapi%2Fauth%2Fsignin-callback%3Fredirect%3Dhttps%253A%252F%252Fwww.perplexity.ai%252F%253Flogin-source%253DfloatingSignup",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".www.perplexity.ai"
+          },
+          {
+            "name": "next-auth.csrf-token",
+            "value": "dfe99f565078cddc0eceafbb9cc4e98d5febbee5abbabaef98a6113afcdab388%7C3a88106d9277959201973c8f7b4d1c876b958cb5acdc3427b45c2956cabc41d9",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".www.perplexity.ai"
+          },
+          {
+            "name": "pplx.personal-search-badge-seen",
+            "value": "{%22sidebar%22:true%2C%22settingsSidebar%22:false%2C%22personalize%22:false}",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1798687415,
+            "sameSite": "no_restriction",
+            "domain": ".www.perplexity.ai"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a51455734626972535650696e764a7a75795a727154546f47643774536e464a73567772646e6e4d4b533779624670464d71",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771903394,
+            "sameSite": "no_restriction",
+            "domain": ".perplexity.ai"
+          },
+          {
+            "name": "pplx.session-id",
+            "value": "952ca334-1af7-4d47-bfe8-a3fff185d85c",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "www.perplexity.ai"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "afc12mffvrDJtdsPUYh.MlCOmQ0HIx9lJzxFTTQF7Ac-1768496650-1.0.1.1-IozIbSyj_UB3lD2xgm.muDR0hdlY5F.YiJ.9T17CLDlI2u0y1RRYvyCl5ZualeuOcEW3gryY2wFzvIvYI3z3q557.ukeLKtrmv3QI4neTtA",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768498463.566373,
+            "sameSite": "no_restriction",
+            "domain": ".perplexity.ai"
+          },
+          {
+            "name": "pplx.metadata",
+            "value": "{%22qc%22:0%2C%22qcu%22:56011%2C%22qcm%22:100%2C%22qcc%22:53239%2C%22qcco%22:0%2C%22qccol%22:0%2C%22qcdr%22:0%2C%22qcs%22:0%2C%22qcd%22:0%2C%22hli%22:true%2C%22hcga%22:false%2C%22hcds%22:false%2C%22hso%22:false%2C%22hfo%22:false%2C%22hsco%22:false%2C%22hfco%22:false%2C%22hsma%22:false%2C%22hdc%22:false}",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1803056664,
+            "sameSite": "no_restriction",
+            "domain": "www.perplexity.ai"
+          },
+          {
+            "name": "__cflb",
+            "value": "02DiuDyvFMmK5p9jVbVnMNSKYZhUL9aGmyAfkiB3FHPde",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768579464.41077,
+            "sameSite": "no_restriction",
+            "domain": "www.perplexity.ai"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..jZ9DE0-TAqqTQS60.cjUEX39IGlEaXNL-x2MePKTze9GtGNBZddMxGK55CyGv50Xx5iNF4ShULXwRk9A5oVXeV3iwsO5YzEwBjKDTtIxTCjpaqgOFweT8iR0MAzsjUwNRC9KAE4NUER61gLyL4vfJ7sEN9JfYlLQN6nCAEmnIq7XenZ7l6d3MBhkTahW6B2NFaf_yPQgiCzim1xxTasA-8xyIWEhHGpxTZX9u8TErIPZMZJHxHCEMr05-8XhDafLtFqXz6pRX5Jo3j8dYNOmktVlSQzUwxJyGQHv8HvOrrcjpcl9o1zCW86XnHFr3J706EiO67QkKPTTCcQDatNokdcTLFqkiJvqcY7KUI8GXqRz5vwo3gBDNkfPVDrarr-_C6ocyBUSN3-nQnx3FQyEe04c05iBzZquuTrNx23oUT-5fIaH5HYxbYclf7jlwvhT0N-oD.Xyam71fkUYxlcd3jpo-OhQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771088664.410659,
+            "sameSite": "lax",
+            "domain": "www.perplexity.ai"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=b56b4aa5-c01e-47ab-bc8f-e4da54751fdc&rum=2&id=e8e1d1c8-de3b-4961-9516-415d740fa3f5&created=1764127393652&expire=1764128316339&logs=0&lock=10e4777e-0050-4515-9980-358ed883a724--1768496666847",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800032666,
+            "sameSite": "strict",
+            "domain": "www.perplexity.ai"
+          }
+        ],
+        "sourceUrl": "https://www.perplexity.ai/"
+      },
+      {
+        "name": "Pro: Perplexity 2",
+        "cookies": [
+          {
+            "name": "sidebar-upgrade-badge-30day",
+            "value": "1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771088646,
+            "sameSite": "no_restriction",
+            "domain": "www.perplexity.ai"
+          },
+          {
+            "name": "_gcl_au",
+            "value": "1.1.1819505593.1764127328",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771903328,
+            "sameSite": "no_restriction",
+            "domain": ".perplexity.ai"
+          },
+          {
+            "name": "sidebar-upgrade-badge",
+            "value": "2",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1798295878,
+            "sameSite": "no_restriction",
+            "domain": ".www.perplexity.ai"
+          },
+          {
+            "name": "pplx.metadata",
+            "value": "{%22qc%22:0%2C%22qcu%22:48207%2C%22qcm%22:0%2C%22qcc%22:45774%2C%22qcco%22:0%2C%22qccol%22:0%2C%22qcdr%22:0%2C%22qcs%22:0%2C%22qcd%22:0%2C%22hli%22:true%2C%22hcga%22:false%2C%22hcds%22:false%2C%22hso%22:false%2C%22hfo%22:false%2C%22hsco%22:false%2C%22hfco%22:false%2C%22hsma%22:false%2C%22hdc%22:false}",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1798687379,
+            "sameSite": "no_restriction",
+            "domain": ".www.perplexity.ai"
+          },
+          {
+            "name": "_rdt_uuid",
+            "value": "1764127328158.5c18ddf6-c83b-4d08-88e4-16ad2f0eec59",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1774535893,
+            "sameSite": "strict",
+            "domain": ".perplexity.ai"
+          },
+          {
+            "name": "pplx.visitor-id",
+            "value": "0142b876-96d3-4a2e-b425-f051be4c251c",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1795663327,
+            "sameSite": "no_restriction",
+            "domain": ".www.perplexity.ai"
+          },
+          {
+            "name": "__ps_lu",
+            "value": "https://www.perplexity.ai/auth/verify-request?email=kohves%40motionisme.com&redirectUrl=https%3A%2F%2Fwww.perplexity.ai%2F%3Flogin-source%3DfloatingSignup",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1795663328,
+            "sameSite": "no_restriction",
+            "domain": ".perplexity.ai"
+          },
+          {
+            "name": "gov-badge",
+            "value": "3",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1795663357,
+            "sameSite": "no_restriction",
+            "domain": ".www.perplexity.ai"
+          },
+          {
+            "name": "segmented-control-study",
+            "value": "1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1796985351,
+            "sameSite": "no_restriction",
+            "domain": ".www.perplexity.ai"
+          },
+          {
+            "name": "__ps_r",
+            "value": "_",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1795663328,
+            "sameSite": "no_restriction",
+            "domain": ".perplexity.ai"
+          },
+          {
+            "name": "__ps_fva",
+            "value": "1764127328146",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1795663328,
+            "sameSite": "no_restriction",
+            "domain": ".perplexity.ai"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..sXXzMSN1NdnljN6G.JvOY6LGw0u8uv5Qr7P9eSJqAwoJiYslL1h1B0bhpdJAvBh0S8Oeh0E1jE6iZD6BN_iKzeLB-Fkur0j3wDcW6cMnfldbGa5VNgvKGygteQm5ZKA9XaVkDCWLVA01m8GV1DZF-XJoM6VUcWZNRr85ZQViyiRxEPgec2a1rZcRRIIDKpTmebm17M_3Dfn2KGhQ6nIbjzhzTSxNvfZXFj5YLwk8UwSKUxMiNV4PGCNBaO8GB1Ny5WwL93VqtMoOtm9zrue1_WzcqjBk_Q7J9a7jdIlIBS4yu38ZX9F9Hv3xU0AFpyfZ07DRWU7N3sSNHNKTAhrppJm9Elsm8k4BUfhIVp_IIXA0Olj50YmwVRjwWMEiFCyPQIXn-O_EiJhOAuDfM-RiV_pparE52P7vSeFg2qOmqg313SnrtfiK0ZCt9wP9nW4e9gRqH.tUE1qgTBp9Xg-o26iSB9mQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1769351893.934377,
+            "sameSite": "lax",
+            "domain": ".www.perplexity.ai"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=f0225da8-bf76-4733-8b36-a4e29b662e76&rum=2&id=fba711da-7be2-4d84-937e-7101cb13e059&created=1764127327754&expire=1764128280242&logs=0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1795663380,
+            "sameSite": "strict",
+            "domain": ".www.perplexity.ai"
+          },
+          {
+            "name": "_fbp",
+            "value": "fb.1.1764127327979.970483691515637746",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1774535893,
+            "sameSite": "lax",
+            "domain": ".perplexity.ai"
+          },
+          {
+            "name": "_rdt_em",
+            "value": ":553d1d68142dc758cc843d6699cd97058241fdcd349e80dd7689d2f6dbb17a7c",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1774535893,
+            "sameSite": "strict",
+            "domain": ".perplexity.ai"
+          },
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1766759885082,\"i_b\":\"aUHKB+CoIITOS8vdVoOPoFW+wJVa2h++7fk6gMpmHXA\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1782311885,
+            "sameSite": "no_restriction",
+            "domain": ".www.perplexity.ai"
+          },
+          {
+            "name": "next-auth.callback-url",
+            "value": "https%3A%2F%2Fwww.perplexity.ai%2Fapi%2Fauth%2Fsignin-callback%3Fredirect%3Dhttps%253A%252F%252Fwww.perplexity.ai%252F%253Flogin-source%253DfloatingSignup",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".www.perplexity.ai"
+          },
+          {
+            "name": "next-auth.csrf-token",
+            "value": "8b145f67eda7b7c88c5b144114ec6962c53d12213bf50e741dcb79825655651c%7C6e9e33de94b5cb407323af85147ebd6f2e954bfd4e2cc5f64e434bd64c2cbb16",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".www.perplexity.ai"
+          },
+          {
+            "name": "pplx.personal-search-badge-seen",
+            "value": "{%22sidebar%22:true%2C%22settingsSidebar%22:false%2C%22personalize%22:false}",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1798687380,
+            "sameSite": "no_restriction",
+            "domain": ".www.perplexity.ai"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a51455734626972535650696e764a7a75795a727154546f47643774516a3153665450737777577951706773694754304742",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771903328,
+            "sameSite": "no_restriction",
+            "domain": ".perplexity.ai"
+          },
+          {
+            "name": "pplx.session-id",
+            "value": "ac0315ce-a527-4866-ba16-84718f6fa503",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "www.perplexity.ai"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "o2VAZgOjp.Gtd78ukDj49dVPqaa9FkHPoLwl0Op2hws-1768496639-1.0.1.1-TyfZnmvjmC3vKaZ4al.US6PJovxDHKOSlGNRUcC41WXleF1DrF0E3glbkWe.cpgl4qcarllO7VqsPCKz9T06.dgtKow4udQfHWhS671Lzkc",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768498452.978057,
+            "sameSite": "no_restriction",
+            "domain": ".perplexity.ai"
+          },
+          {
+            "name": "__cflb",
+            "value": "02DiuDyvFMmK5p9jVbVnMNSKYZhUL9aGmq3f2WyuNK6F6",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768579453.835192,
+            "sameSite": "no_restriction",
+            "domain": "www.perplexity.ai"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..bCVK0ZERYwrZa6wz.AgnOQoHlEPXwgRH3cHjEuMxCCD-_UCxKN-O5XTpaotK8dyNMBFCH_SvJ2vx2X7mT6Ml9f3GfFNrXXgX8DlLlcMgq8Jxq-3c8je5vLpKGtHoQndvM8sGfREgn7qV_2qSvT9epwJVl1AwMPCYOpOq40bWw1cpl32EQEn7XrJR1oG9H7tXUXIHbS7JtYiGIGqbZICR1iGJ4Y3Ea14DmBKKhBkfezxrBeCfmb7ZWYeSTRi0gIp7XwVx-YmXkKkJEGFFavy6MtL4FsuJqb33l8LzBaLrVFs0fTFD_krZohDW9k8A2okNXtyrWpMNk_AOgsTAYF555scraSTrWy3RPs6ASewXgC95Mn8HAD-GEbOBVvUQA3ekJKPlyG9ZclWgQxbEm7T0VsRsAt5m4rjZbi5jcflmyuu50IXeqzOa34qOSraItRTbgtln2.uXRSx1tlbgUMkBXAHrw4yQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771088653.83505,
+            "sameSite": "lax",
+            "domain": "www.perplexity.ai"
+          },
+          {
+            "name": "pplx.metadata",
+            "value": "{%22qc%22:0%2C%22qcu%22:66215%2C%22qcm%22:518%2C%22qcc%22:63056%2C%22qcco%22:0%2C%22qccol%22:0%2C%22qcdr%22:0%2C%22qcs%22:0%2C%22qcd%22:0%2C%22hli%22:true%2C%22hcga%22:false%2C%22hcds%22:false%2C%22hso%22:false%2C%22hfo%22:false%2C%22hsco%22:false%2C%22hfco%22:false%2C%22hsma%22:false%2C%22hdc%22:false}",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1803056654,
+            "sameSite": "no_restriction",
+            "domain": "www.perplexity.ai"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=f0225da8-bf76-4733-8b36-a4e29b662e76&rum=2&id=fba711da-7be2-4d84-937e-7101cb13e059&created=1764127327754&expire=1764128280242&logs=0&lock=8f157d0b-d45d-4a77-bd20-f926c155e720--1768496658013",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800032658,
+            "sameSite": "strict",
+            "domain": "www.perplexity.ai"
+          }
+        ],
+        "sourceUrl": "https://www.perplexity.ai/"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "id": "pro--picsart-1081",
+      "name": "Pro: Picsart",
+      "icon": "https://play-lh.googleusercontent.com/1JMJ518jogwPeaD0pYn2mBu1cRLD0xRi45wNbtTIRvam1_xx-y3KJOjRAx-W9P4Lf0U=s256-rw",
+      "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Picsart&login=nomuzoo@nuyul.id&password=Premium@123&url=https://picsart.com/",
+      "category": [
+        "design",
+        "proexclusive"
+      ]
+    },
+    "cookies": [
+      {
+        "name": "dummy",
+        "value": "5",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "domain": "picsart.com"
+      }
+    ],
+    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Picsart&login=nomuzoo@nuyul.id&password=Premium@123&url=https://picsart.com/"
+  },
+  {
+    "meta": {
+      "id": "pro--placeit-1070",
+      "name": "Pro: Placeit",
+      "icon": "https://play-lh.googleusercontent.com/0654HX7dcGrIxNgjROl2__z2RIW8nkDVZMqm8NiR5p9O0OM-OVNTRG0H8-0fjC8lj-0",
+      "url": "https://placeit.net/",
+      "category": [
+        "productivity",
+        "proexclusive"
+      ]
+    },
+    "cookies": [
+      {
+        "name": "_ga_K4BRQBP74C",
+        "value": "GS2.1.s1758267513$o1$g1$t1758267540$j33$l0$h0",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1792827540.463928,
+        "sameSite": "no_restriction",
+        "domain": ".placeit.net"
+      },
+      {
+        "name": "logged_session",
+        "value": "dGhlcGxhY2VAc2hpZXRvc2hpLnh5eg%3D%3D%0A",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "lax",
+        "domain": ".placeit.net"
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.2090212850.1758267513",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1792827540.464975,
+        "sameSite": "no_restriction",
+        "domain": ".placeit.net"
+      },
+      {
+        "name": "AMP_02ae390297",
+        "value": "JTdCJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJkZXZpY2VJZCUyMiUzQSUyMjJiYWJjMjdjLWJkMzctNGYxNS1hMjE3LTA5M2Y4MTgyMDFmZSUyMiUyQyUyMmxhc3RFdmVudFRpbWUlMjIlM0ExNzU4MjY3NTQwOTQ4JTJDJTIyc2Vzc2lvbklkJTIyJTNBMTc1ODI2NzUxMDc1NyUyQyUyMnVzZXJJZCUyMiUzQTE3MDkwNzY1JTdE",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1789803540,
+        "sameSite": "lax",
+        "domain": ".placeit.net"
+      },
+      {
+        "name": "IR_10168",
+        "value": "1758267540335%7C0%7C1758267540335%7C%7C",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".placeit.net"
+      },
+      {
+        "name": "gtmc_session",
+        "value": "true",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".placeit.net"
+      },
+      {
+        "name": "pl_tracker_id_v2",
+        "value": "cc43bcdcff7e6a3f8492fb4d5a29eae4",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1792827525.307634,
+        "sameSite": "no_restriction",
+        "domain": ".placeit.net"
+      },
+      {
+        "name": "_ALGOLIA",
+        "value": "anonymous-24b73b56-4445-4921-8397-cebd13ed2ee2",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1773819513,
+        "sameSite": "no_restriction",
+        "domain": ".placeit.net"
+      },
+      {
+        "name": "_session_id",
+        "value": "7f9011bbd2273ca3a24bbeaebc8922ff",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "lax",
+        "domain": ".placeit.net"
+      },
+      {
+        "name": "_uetvid",
+        "value": "a5999600952b11f0a39fe5e5024ad177",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1791963540,
+        "sameSite": "no_restriction",
+        "domain": ".placeit.net"
+      },
+      {
+        "name": "AMP_MKTG_02ae390297",
+        "value": "JTdCJTIycmVmZXJyZXIlMjIlM0ElMjJodHRwcyUzQSUyRiUyRnd3dy5nb29nbGUuY29tJTJGJTIyJTJDJTIycmVmZXJyaW5nX2RvbWFpbiUyMiUzQSUyMnd3dy5nb29nbGUuY29tJTIyJTdE",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1789803512,
+        "sameSite": "lax",
+        "domain": ".placeit.net"
+      },
+      {
+        "name": "gtmc_lead",
+        "value": "{\"a\":0,\"b\":0,\"c\":0,\"d\":0,\"e\":0,\"f\":0,\"g\":1,\"h\":1}",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1792827513.787568,
+        "sameSite": "no_restriction",
+        "domain": ".placeit.net"
+      },
+      {
+        "name": "IR_gbd",
+        "value": "placeit.net",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "no_restriction",
+        "domain": ".placeit.net"
+      },
+      {
+        "name": "subscriptionType",
+        "value": "Monthly",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1792827526.128989,
+        "sameSite": "no_restriction",
+        "domain": ".placeit.net"
+      },
+      {
+        "name": "userStatus",
+        "value": "Subscriber",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1792827526.128596,
+        "sameSite": "no_restriction",
+        "domain": ".placeit.net"
+      },
+      {
+        "name": "sign",
+        "value": "445275774777774b50534a764f797a51455734626972535650696e764a7a75795a727154546f47643774534e66336c2f7355396e39617459346552384344497a",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1792827540.463928,
+        "sameSite": "no_restriction",
+        "domain": ".placeit.net"
+      },
+      {
+        "name": "__cf_bm",
+        "value": "yDIIiWKY5meVfydjegl7nZb_k5OjcIhxNAUH_zJYbTs-1768496964.9372168-1.0.1.1-S32yjrCP1P4gGcv767fb5_O7DVfO1TH2eFb_BWLM6fhyyYcYifr1YwjxYWmLInsh6C.oTxP6pl.PTtm_huHoJqJ.WtaxmQ8cHdeVZ2Cklrgzu3EBE7r3zyvGjH7pkXBW",
+        "path": "/",
+        "httpOnly": true,
+        "secure": true,
+        "expirationDate": 1768498778.165911,
+        "sameSite": "no_restriction",
+        "domain": ".placeit.net"
+      }
+    ],
+    "sourceUrl": "https://placeit.net/"
+  },
+  {
+    "meta": {
+      "id": "pro--planner5d-1071",
       "name": "Pro: Planner5D",
       "icon": "https://upload.wikimedia.org/wikipedia/commons/1/13/Planner_5D_logo.png",
       "url": "https://planner5d.com/dashboard",
@@ -39700,7 +46777,50 @@
   },
   {
     "meta": {
-      "id": "pro--researchrabbit-1073",
+      "id": "pro--quillbot-1082",
+      "name": "Pro: QuillBot",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZtqcA6rvxqQHSb14wu157jMKqBtXRNJ5-1lcBbxf4JzQt7vwDhlmbpnnH&s=10",
+      "url": "https://gracely011.github.io/hai/manual.html?name=QuillBot&login=kwilbot@tokito.xyz&password=AkunMilikGroupyDotID2025!!!&url=https://quillbot.com/login?returnUrl=/paraphrasing-tool",
+      "category": [
+        "productivity",
+        "proexclusive"
+      ],
+      "isGroup": true
+    },
+    "accounts": [
+      {
+        "name": "Pro: QuillBot 1",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "quillbot.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=QuillBot&login=kwilbot@tokito.xyz&password=AkunMilikGroupyDotID2025!!!&url=https://quillbot.com/login?returnUrl=/paraphrasing-tool"
+      },
+      {
+        "name": "Pro: QuillBot 2",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "quillbot.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=QuillBot%202&login=gerda@meeow.xyz&password=AkunMilikGroupyDotID2025!!!&url=https://quillbot.com/login?returnUrl=/paraphrasing-tool"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "id": "pro--researchrabbit-1087",
       "name": "Pro: ResearchRabbit",
       "icon": "https://pbs.twimg.com/profile_images/1983772825812189184/IXDTOqLX.jpg",
       "url": "https://gracely011.github.io/hai/manual.html?name=ResearchRabbit&login=rabbit@prem1um.xyz&password=RabbitGroupy2025!&url=https://app.researchrabbit.ai/",
@@ -39723,7 +46843,30 @@
   },
   {
     "meta": {
-      "id": "pro--supergrok-1038",
+      "id": "pro--storytribe-1083",
+      "name": "Pro: StoryTribe",
+      "icon": "https://media.licdn.com/dms/image/v2/D560BAQGFNn9uuWNKvA/company-logo_200_200/B56ZWE4DUHGUAU-/0/1741691041788/storytribeapp_logo?e=2147483647&v=beta&t=3qm4zJ4TSorw5yxfeP9WtXnDj_DKgiqhVZeGH42wT7g",
+      "url": "https://gracely011.github.io/hai/manual.html?name=StoryTribe&login=beapp@prem1um.xyz&password=StoryTribeGroupy2025!&url=https://storytribeapp.com/login-signup",
+      "category": [
+        "productivity",
+        "proexclusive"
+      ]
+    },
+    "cookies": [
+      {
+        "name": "dummy",
+        "value": "5",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "domain": "storytribe.app"
+      }
+    ],
+    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=StoryTribe&login=beapp@prem1um.xyz&password=StoryTribeGroupy2025!&url=https://storytribeapp.com/login-signup"
+  },
+  {
+    "meta": {
+      "id": "pro--supergrok-1040",
       "name": "Pro: SuperGrok",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfDfKMTEJFYyKr-VgVN0z7sdgoINjKnomLLw&s",
       "url": "https://grok.com/",
@@ -40348,7 +47491,7 @@
   },
   {
     "meta": {
-      "id": "pro--tradingview-1081",
+      "id": "pro--tradingview-1095",
       "name": "Pro: TradingView",
       "icon": "https://groupy.id/assets/images/services/tradingview.png",
       "url": "https://www.tradingview.com/",
@@ -40494,7 +47637,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1768324540,
         "sameSite": "no_restriction",
         "domain": ".tradingview.com"
       },
@@ -40513,7 +47655,726 @@
   },
   {
     "meta": {
-      "id": "quizlet-1070",
+      "id": "pro--trae-ai-1096",
+      "name": "Pro: Trae AI",
+      "icon": "https://pbs.twimg.com/profile_images/1946201092687114241/4X_B0XgN_400x400.png",
+      "url": "https://www.trae.ai/",
+      "category": [
+        "productivity",
+        "proexclusive"
+      ],
+      "isGroup": true
+    },
+    "accounts": [
+      {
+        "name": "Pro: Trae AI 1",
+        "cookies": [
+          {
+            "name": "_ga",
+            "value": "GA1.1.347977098.1767528042",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802088042.128997,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "_clck",
+            "value": "6tcsma%5E2%5Eg2f%5E0%5E2195",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799064042,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "_uetvid",
+            "value": "fe318d20e96411f09787b5a9c3de6f61",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1801224042,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "cc_cookie",
+            "value": "%7B%22categories%22%3A%5B%22essential%22%2C%22optional%22%5D%2C%22revision%22%3A0%2C%22data%22%3Anull%2C%22consentTimestamp%22%3A%222026-01-04T12%3A00%3A41.450Z%22%2C%22consentId%22%3A%22d1c5e30a-6801-4ded-ad36-bd2e92625e20%22%2C%22services%22%3A%7B%22essential%22%3A%5B%5D%2C%22optional%22%3A%5B%5D%7D%2C%22languageCode%22%3A%22en%22%2C%22lastConsentTimestamp%22%3A%222026-01-04T12%3A00%3A41.450Z%22%2C%22expirationTime%22%3A1783252841450%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1783252841,
+            "sameSite": "lax",
+            "domain": ".www.trae.ai"
+          },
+          {
+            "name": "_fbp",
+            "value": "fb.1.1767528042169.842089905532874532",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1775304042,
+            "sameSite": "lax",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "_gcl_au",
+            "value": "1.1.208544141.1767528042.946802024.1767528049.1767528049",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1775304042,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "s_v_web_id",
+            "value": "verify_mjzold83_ahpYm6EQ_XrdJ_4x7u_91GQ_eIxYLvRdxgdN",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".www.trae.ai"
+          },
+          {
+            "name": "_ga_GF2YEJBQ7P",
+            "value": "GS2.1.s1767528041$o1$g1$t1767528076$j25$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802088076.369584,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "sessionid_ss",
+            "value": "0b5b99fe46647d95941ffa3c0088fee0",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1772712124.738335,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "X-Cloudide-Session",
+            "value": "InWgDeOqyktP-CewjE7ww1K59m2Gwjf_z8_GL-YuWsU=.1887857726c542f8",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768737725.854804,
+            "sameSite": "lax",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "sid_ucp_v1",
+            "value": "1.0.1-KGE4N2MzNTE0ODBjZmEwYzdiNGY4NGJiNzhkZjIxNTk4ZGRhMjIzODcKGQiHiMSghdWVrWkQvK3pygYY1KspOAFA6wcQAxoDc2cxIiAwYjViOTlmZTQ2NjQ3ZDk1OTQxZmZhM2MwMDg4ZmVlMDJOCiBYKcvJywTwLr3NuvbTEGnEtXlXhdv-j3I_XgS1yxIFWxIgfCOuZR5vWMyAUY91pzkI4ksoBHp4J8bJVHnmg7lt8v8YAyIGdGlrdG9r",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1772712124.738394,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "store-country-code",
+            "value": "id",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1799064124.73851,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "store-country-code-src",
+            "value": "uid",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1799064124.738534,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "store-country-sign",
+            "value": "MEIEDKKlBLRg0XpFLGhlrwQgLUROCRBgQ6lPKk1MHymGaw5x702DQL28tOgKG-z8lLsEEIdcAPe5zNpu3YEBMwYP4h4",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1799064124.738485,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "_ga_JVLR55T34K",
+            "value": "GS2.1.s1767528042$o1$g1$t1767528076$j26$l0$h1402199530",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802088076.376129,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "i18next",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": ".www.trae.ai"
+          },
+          {
+            "name": "msToken",
+            "value": "XiSZci7C3R_nSgA6zxLRsnyVO_523WqlUmoJTPHvVXjJOGvOvb_olRXLkWjGjoAyobmKxXrubMpNTkeAypaCSevFBfUaKViFZfzHvqhHuloP7ekqwq0Lsvmio6bt",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1775304256,
+            "sameSite": "no_restriction",
+            "domain": ".www.trae.ai"
+          },
+          {
+            "name": "odin_tt",
+            "value": "c127b92bb20da59ce7377d3f659752b681ebf26641cce6588fa4c2ba02c7419a277d2bd3f9102c74eb4590a6dc5a14db5cec5f96f5884868a56987a5c3560115",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1799064124.738106,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "passport_csrf_token",
+            "value": "39d7a0c149575b3a69512d23980b5181",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1772712098.818765,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "passport_csrf_token_default",
+            "value": "39d7a0c149575b3a69512d23980b5181",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1772712098.818905,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "sessionid",
+            "value": "0b5b99fe46647d95941ffa3c0088fee0",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1772712124.738311,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "sid_guard",
+            "value": "0b5b99fe46647d95941ffa3c0088fee0%7C1767528124%7C5184000%7CThu%2C+05-Mar-2026+12%3A02%3A04+GMT",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1798632124.738196,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "sid_tt",
+            "value": "0b5b99fe46647d95941ffa3c0088fee0",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1772712124.738285,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "ssid_ucp_v1",
+            "value": "1.0.1-KGE4N2MzNTE0ODBjZmEwYzdiNGY4NGJiNzhkZjIxNTk4ZGRhMjIzODcKGQiHiMSghdWVrWkQvK3pygYY1KspOAFA6wcQAxoDc2cxIiAwYjViOTlmZTQ2NjQ3ZDk1OTQxZmZhM2MwMDg4ZmVlMDJOCiBYKcvJywTwLr3NuvbTEGnEtXlXhdv-j3I_XgS1yxIFWxIgfCOuZR5vWMyAUY91pzkI4ksoBHp4J8bJVHnmg7lt8v8YAyIGdGlrdG9r",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1772712124.738423,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "store-idc",
+            "value": "alisg",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1799064124.73846,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "trae-target-idc",
+            "value": "alisg",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1799064124.738557,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "tt-target-idc-sign",
+            "value": "rtZPVZFJkUdkg1VrhdaNtcqtHrHmTYh5tNjkadj0m5LMBeaJWKZGvvI_tmHAjUk3SyGJTpIhNwJzin5C2ZVCQvpUxzRQt02CRlpFcqCxS5uDdYWDyrFZhntQoJRXbU8ZEd0rs9VGvXxPUKl-jewxGedD1jILzNIlWXv1tjUTf7KiFUZNDCxwuqrM0tgyVm4Nk6m4dTTeTemMtWuYkLYhBq8dBd22udqtDAXt8TC5y9pmALHy1kP1yimS4jgD9KbCHO66McKT2N4VvQjKe1mPjoCQm99C_fgVpQWsA2PGkPlMlPMaGUgLnHLXv1VHoneIT_18AW2pegTw4sh6q7TMRlfvdVW6hG3QuYI6AHvx8e975VLprb2wjnmvYFUZDqAKxNYz8DkBEZ5brZZsJyqs7m9FnqoWLSEgue8QLiIPeaJnTiGGDFBuo-F7z7sLQNs-yqqXDyyRt5nYRDngbMAGlB7WGGJk671j6MGby9ONDGFl77c_CbqRB1vi5fRuLqbZ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1799064124.738579,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "tt_session_tlb_tag",
+            "value": "sttt%7C3%7CC1uZ_kZkfZWUH_o8AIj-4P________-hpswdj6kIjdTUavH_g50JExdyyVjPe9BudaOrMmZWNAo%3D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1772712124.738359,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "uid_tt",
+            "value": "efeddf6e401032a1775356a289e1b3075cff74b53e698c86a7a961197dacd0af",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1772712124.738231,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "uid_tt_ss",
+            "value": "efeddf6e401032a1775356a289e1b3075cff74b53e698c86a7a961197dacd0af",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1772712124.738259,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a51455734626976704459413651484973754a6973756d6e5058797950507537782f5034487171354d435359464a4c497461",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".www.trae.ai"
+          },
+          {
+            "name": "i18next",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": "www.trae.ai"
+          },
+          {
+            "name": "ttwid",
+            "value": "1%7CFqIyA1DocmBHiBsIK0cOAPzWi9NUormQLgGUgWK50GA%7C1768495332%7Cc4a0d7acf85dd8e3ac4cf985aefc09504dbaab2ef68db34f3aee30f86f1b0183",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800031345.62109,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "msToken",
+            "value": "4CvyWgM8sMa2S8vXZ0Yc1yl2f1x6GzlyN1t9xrt0nBZH_t-gKmiGVcfIM8BvCbD1vz4hpb9021ADxHG5vLnmIbeB1Kj-4dHjAHzj36JXdMh96ZMrrDt4zrApG4wf",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1769359353.174858,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "msToken",
+            "value": "4CvyWgM8sMa2S8vXZ0Yc1yl2f1x6GzlyN1t9xrt0nBZH_t-gKmiGVcfIM8BvCbD1vz4hpb9021ADxHG5vLnmIbeB1Kj-4dHjAHzj36JXdMh96ZMrrDt4zrApG4wf",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776271353,
+            "sameSite": "no_restriction",
+            "domain": "www.trae.ai"
+          }
+        ],
+        "sourceUrl": "https://www.trae.ai/"
+      },
+      {
+        "name": "Pro: Trae AI 2",
+        "cookies": [
+          {
+            "name": "s_v_web_id",
+            "value": "verify_mjzoge9b_yfgox0DA_AMC7_4K0a_A3Pz_wj4qZcG8dGpW",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".www.trae.ai"
+          },
+          {
+            "name": "_ga_GF2YEJBQ7P",
+            "value": "GS2.1.s1767528041$o1$g0$t1767528048$j53$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802088048.78685,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "sessionid_ss",
+            "value": "6895054dd585fe458b5fcaec9091c0af",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1772711959.392642,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.347977098.1767528042",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802088042.128997,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "_clck",
+            "value": "6tcsma%5E2%5Eg2f%5E0%5E2195",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799064042,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "X-Cloudide-Session",
+            "value": "F0qGsMSLKgNaIMhm3firV2yadD6kzuDtLbD6tY9m6R4=.18878550e3be0fe3",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768737561.551237,
+            "sameSite": "lax",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "_uetvid",
+            "value": "fe318d20e96411f09787b5a9c3de6f61",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1801224042,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "sid_ucp_v1",
+            "value": "1.0.1-KDNmZWMxZTA3ZWJlMDI4YWZiMzQxZGU2ZmJiY2FhMjhjMjI4Mzg1MmUKGQiIiLri0MCVrWkQmKzpygYY1KspOAFA6wcQAxoDc2cxIiA2ODk1MDU0ZGQ1ODVmZTQ1OGI1ZmNhZWM5MDkxYzBhZjJOCiCqxkXkGbM5Iz5WaBz5CjPTWBLnxjCu-s5N4k-oi2yuvhIgIMb-p6RTT_5dOTj051Fe9PhVDnMLGuEaG2Ct9Al1E0wYAyIGdGlrdG9r",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1772711959.392705,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "cc_cookie",
+            "value": "%7B%22categories%22%3A%5B%22essential%22%2C%22optional%22%5D%2C%22revision%22%3A0%2C%22data%22%3Anull%2C%22consentTimestamp%22%3A%222026-01-04T12%3A00%3A41.450Z%22%2C%22consentId%22%3A%22d1c5e30a-6801-4ded-ad36-bd2e92625e20%22%2C%22services%22%3A%7B%22essential%22%3A%5B%5D%2C%22optional%22%3A%5B%5D%7D%2C%22languageCode%22%3A%22en%22%2C%22lastConsentTimestamp%22%3A%222026-01-04T12%3A00%3A41.450Z%22%2C%22expirationTime%22%3A1783252841450%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1783252841,
+            "sameSite": "lax",
+            "domain": ".www.trae.ai"
+          },
+          {
+            "name": "store-country-code",
+            "value": "id",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1799063960.392853,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "store-country-code-src",
+            "value": "uid",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1799063960.392883,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "store-country-sign",
+            "value": "MEIEDIJlEqd9wJps_YhOFAQgyu6-Wr4noztSpBTA6mcHvWk0BEgIp_W5Dgakwt5w6eIEEM8oA_Z82AptvqHvzrOYIac",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1799063960.392821,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "_fbp",
+            "value": "fb.1.1767528042169.842089905532874532",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1775304042,
+            "sameSite": "lax",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "_ga_JVLR55T34K",
+            "value": "GS2.1.s1767528042$o1$g0$t1767528048$j54$l0$h1402199530",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802088048.799558,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "_gcl_au",
+            "value": "1.1.208544141.1767528042.946802024.1767528049.1767528049",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1775304042,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "i18next",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": ".www.trae.ai"
+          },
+          {
+            "name": "msToken",
+            "value": "XguTBSFQM-Xs17xRNdeu7BH7yAnZOdz1oa4ZuTZSFAnfOR6lFThgNzuqGwav_ALFIdghcYpA_XLZkJYmsQ8NfbJp7k9Ceqo2qGoZaisOspTbzQmHXCUf2wsYeYpw",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1775304035,
+            "sameSite": "no_restriction",
+            "domain": ".www.trae.ai"
+          },
+          {
+            "name": "odin_tt",
+            "value": "990ff3bb7ec2261eceb275c598622de6ca4ea19a4e189f963766cebd50522a705dfa3ff7ecc0449c096e80d8b94c7040b22666560ebd60f6e5f6ce061fa4e92a",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1799063960.392373,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "passport_csrf_token",
+            "value": "98b1ad89a31e6f64ecc2df7b2f09a745",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1772711866.680749,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "passport_csrf_token_default",
+            "value": "98b1ad89a31e6f64ecc2df7b2f09a745",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1772711866.680836,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "sessionid",
+            "value": "6895054dd585fe458b5fcaec9091c0af",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1772711959.392612,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "sid_guard",
+            "value": "6895054dd585fe458b5fcaec9091c0af%7C1767527960%7C5183999%7CThu%2C+05-Mar-2026+11%3A59%3A19+GMT",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1798631960.392473,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "sid_tt",
+            "value": "6895054dd585fe458b5fcaec9091c0af",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1772711959.392579,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "ssid_ucp_v1",
+            "value": "1.0.1-KDNmZWMxZTA3ZWJlMDI4YWZiMzQxZGU2ZmJiY2FhMjhjMjI4Mzg1MmUKGQiIiLri0MCVrWkQmKzpygYY1KspOAFA6wcQAxoDc2cxIiA2ODk1MDU0ZGQ1ODVmZTQ1OGI1ZmNhZWM5MDkxYzBhZjJOCiCqxkXkGbM5Iz5WaBz5CjPTWBLnxjCu-s5N4k-oi2yuvhIgIMb-p6RTT_5dOTj051Fe9PhVDnMLGuEaG2Ct9Al1E0wYAyIGdGlrdG9r",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1772711959.392745,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "store-idc",
+            "value": "alisg",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1799063960.392788,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "trae-target-idc",
+            "value": "alisg",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1799063960.392914,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "tt-target-idc-sign",
+            "value": "e-x7mjqwd-sguovLiE_N1E88VrFXs5c326KFx67cuJGtcv_8BK3ljuA-hyZGGIw0Vgs3fpjfYr_B0RRN-knHdWCkiIUXkaDvdPzUU56UONzE-iUoh_f09RPhrikdSW0yiIWuigmIf0AsuWi9cNlqhx94daB3NC67orkVonUt_LbAmax2BLLql-DMCA3I_idCm51nkEulj9lum8z54wA1EKr4izHRM22Nh1oLMcKF1IL2qkPVm1a-PkYtdkduNOdMJlCoMDgb-p2-2hL8jA3VCGc7piwR8Kr2pnNOuxQEx8jFtM53t4OuTqz_JJ1z19daEFEjSROJqUx361Sba3m0mEI6hI7_7Ql5jvhHYtLkeKgPqTeEUiZtoN8OkQDSxN9lcvWHX-9JmP6pkZcjTkdIdIXo1CCis6Tu53r3q2jgKxHyhtTAO-xPnw6WAAWjnWdDfSxm0A9IkmU5PQhqcchzDIMrUm8iHg0aRXIi1wIUd-yQpwvI2-EoB9_kOyDTL-0b",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1799063960.392942,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "tt_session_tlb_tag",
+            "value": "sttt%7C2%7CaJUFTdWF_kWLX8rskJHAr__________NmcWIsw4icVUj49ZyEXPE2aPR7nEXIcmXltY7W4CjB5M%3D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1772711959.392673,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "uid_tt",
+            "value": "570558a2fcf6a871f8d4ecde060f2f221beb2c8ee0eb2cc6702a395c9a9e8d61",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1772711959.392512,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "uid_tt_ss",
+            "value": "570558a2fcf6a871f8d4ecde060f2f221beb2c8ee0eb2cc6702a395c9a9e8d61",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1772711959.392547,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a51455734626976704459413651484973754a6973756d6e5058797950556d6f6c52354a593377636777573766717333754f",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".www.trae.ai"
+          },
+          {
+            "name": "i18next",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": "www.trae.ai"
+          },
+          {
+            "name": "ttwid",
+            "value": "1%7C3yLHMkyVM0EoHWjf_Sa_z9FiS1M12Qv8c8PYrTLxQKs%7C1768495309%7Cf65a29d93fa6226b3d392016f3dc888db8e1607046f14a875231bebadc74fbbf",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800031322.750545,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "msToken",
+            "value": "DKdpFxBy98EQc1C8a7IfndHhh0Gb_fUv6u3w0iGnjk-vVi1hVGnMOLn5SAgOo4gJEsw2_QDd-3iEUee73VD5H0xQb2BWNVC2QKGbnha7fpObKUEnqlJvxhzew1vK",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1769359331.028018,
+            "sameSite": "no_restriction",
+            "domain": ".trae.ai"
+          },
+          {
+            "name": "msToken",
+            "value": "DKdpFxBy98EQc1C8a7IfndHhh0Gb_fUv6u3w0iGnjk-vVi1hVGnMOLn5SAgOo4gJEsw2_QDd-3iEUee73VD5H0xQb2BWNVC2QKGbnha7fpObKUEnqlJvxhzew1vK",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776271331,
+            "sameSite": "no_restriction",
+            "domain": "www.trae.ai"
+          }
+        ],
+        "sourceUrl": "https://www.trae.ai/"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "id": "quizlet-1084",
       "name": "Quizlet",
       "icon": "https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/szx9duflfycmltpnvcvw",
       "url": "https://quizlet.com/latest",
@@ -40837,7 +48698,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1768397645,
         "sameSite": "no_restriction",
         "domain": "quizlet.com"
       },
@@ -40896,7 +48756,7 @@
   },
   {
     "meta": {
-      "id": "rawpixel-1071",
+      "id": "rawpixel-1085",
       "name": "Rawpixel",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq1xJnAZa_h6WueAi4mr73cH3K7_pGeTz6Gw&s",
       "url": "https://www.rawpixel.com/",
@@ -40968,7 +48828,7 @@
   },
   {
     "meta": {
-      "id": "relume-1072",
+      "id": "relume-1086",
       "name": "Relume",
       "icon": "https://yt3.googleusercontent.com/MGRbvVhtCttJ7i2qW3igFxIJSkeoaRln_mIAFAfDgZIFD1yNUQC5mn1a5VqXKzcqRmAuDswu=s900-c-k-c0x00ffffff-no-rj",
       "url": "https://www.relume.io/",
@@ -41061,7 +48921,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1768397812,
         "sameSite": "no_restriction",
         "domain": ".relume.io"
       },
@@ -41120,7 +48979,7 @@
   },
   {
     "meta": {
-      "id": "scholarcy-1049",
+      "id": "scholarcy-1051",
       "name": "Scholarcy",
       "icon": "https://yt3.googleusercontent.com/ytc/AIdro_kqv2zcFC4lZDK0qSXEbuI1Kcs5wYJoLmONwCf9QX3Qoc4=s900-c-k-c0x00ffffff-no-rj",
       "url": "https://library.scholarcy.com/home",
@@ -41232,7 +49091,7 @@
   },
   {
     "meta": {
-      "id": "scite-1074",
+      "id": "scite-1088",
       "name": "Scite",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHo4BcTYbuMiQFR7oUYKZy6zjOgzEORDrzeie96OS1sj3Ur0LpoCPV_ts&s=10",
       "url": "https://gracely011.github.io/hai/manual.html?name=Scite&login=tibpbvgzxw@belajaar.id&password=Groupy2025!ocrtmmtnkn&url=https://scite.ai/assistant",
@@ -41272,7 +49131,7 @@
   },
   {
     "meta": {
-      "id": "scribd-1075",
+      "id": "scribd-1089",
       "name": "Scribd",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRebq-8lrzgXjVWMvUDApp_q1MhiL5eSyO15VAHMuNaE4RbrPi-f7c2NMc&s=10",
       "url": "https://www.scribd.com/home",
@@ -41506,7 +49365,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768399520,
             "sameSite": "lax",
             "domain": ".scribd.com"
           },
@@ -41593,7 +49451,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768399520,
             "sameSite": "lax",
             "domain": ".scribd.com"
           },
@@ -41893,7 +49750,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768399533,
             "sameSite": "lax",
             "domain": ".scribd.com"
           },
@@ -41980,7 +49836,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768399534,
             "sameSite": "lax",
             "domain": ".scribd.com"
           },
@@ -42261,7 +50116,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768399460,
             "sameSite": "lax",
             "domain": ".scribd.com"
           },
@@ -42387,7 +50241,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768399461,
             "sameSite": "lax",
             "domain": ".scribd.com"
           },
@@ -42436,7 +50289,7 @@
   },
   {
     "meta": {
-      "id": "semrush-1076",
+      "id": "semrush-1090",
       "name": "Semrush",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7TPtYsfoyLxuSORs6sqgApBGYHOx1aZ43ra1DqBNb8BRYz4ciWF4Mg9uR&s=10",
       "url": "https://www.semrush.com/home/",
@@ -42853,7 +50706,7 @@
   },
   {
     "meta": {
-      "id": "shots-1077",
+      "id": "shots-1091",
       "name": "Shots",
       "icon": "https://pbs.twimg.com/profile_images/1517996453146378245/RTP0-Jy3_400x400.jpg",
       "url": "https://gracely011.github.io/hai/manual.html?name=Shots&login=shotso@prem1um.xyz&password=Groupy2025!&url=https://shots.so",
@@ -42873,7 +50726,7 @@
   },
   {
     "meta": {
-      "id": "skillshare-1078",
+      "id": "skillshare-1092",
       "name": "Skillshare",
       "icon": "https://groupy.id/assets/images/services/skillshare.png",
       "url": "https://www.skillshare.com/en/home",
@@ -42925,7 +50778,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1768364077,
         "sameSite": "strict",
         "domain": ".skillshare.com"
       },
@@ -43079,7 +50931,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1768364202,
         "sameSite": "no_restriction",
         "domain": ".skillshare.com"
       },
@@ -43159,7 +51010,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1768364196,
         "sameSite": "no_restriction",
         "domain": ".skillshare.com"
       },
@@ -43228,7 +51078,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1768364167,
         "sameSite": "no_restriction",
         "domain": ".www.skillshare.com"
       },
@@ -43335,7 +51184,7 @@
   },
   {
     "meta": {
-      "id": "slidesgo-1079",
+      "id": "slidesgo-1093",
       "name": "Slidesgo",
       "icon": "https://cdn-icons-png.flaticon.com/512/14649/14649063.png",
       "url": "https://gracely011.github.io/hai/manual.html?name=Slidesgo&login=gpy&password=NsW3xRmPMv&url=https://slidesgo.com/team/user209226220-team-68879521",
@@ -43389,7 +51238,7 @@
   },
   {
     "meta": {
-      "id": "studocu-1080",
+      "id": "studocu-1094",
       "name": "Studocu",
       "icon": "https://play-lh.googleusercontent.com/20ssDWF3SWEXIFYy8iFwXjomuIqtuHjGc3OxIWqVojIaeo_9_XxUZEDdmm5YPreLucij",
       "url": "https://www.studocu.com/en-us/home",
@@ -43684,7 +51533,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1768354904.003504,
         "sameSite": "no_restriction",
         "domain": "www.studocu.com"
       },
@@ -43722,7 +51570,7 @@
   },
   {
     "meta": {
-      "id": "svgator-1008",
+      "id": "svgator-1007",
       "name": "SVGator",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXMLBuRJYssEV7zT3Lh8qRl-h2zuHgyEz2HA&s",
       "url": "https://app.svgator.com/",
@@ -43794,7 +51642,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1768398115,
         "sameSite": "no_restriction",
         "domain": ".svgator.com"
       },
@@ -43862,7 +51709,6 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1768398117,
         "sameSite": "no_restriction",
         "domain": ".svgator.com"
       }
@@ -43871,7 +51717,7 @@
   },
   {
     "meta": {
-      "id": "turnitin-1082",
+      "id": "turnitin-1097",
       "name": "Turnitin",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIrf73LGu_mACI2Mc_jdghOV02eXRocoXKo0o3qZHFjGgJMUr5M_v8uwap&s=10",
       "url": "https://gracely011.github.io/hai/manual.html?name=Turnitin&login=halo@belajaar.id&password=TurnitinmilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us",
@@ -43939,7 +51785,7 @@
   },
   {
     "meta": {
-      "id": "udemy-1084",
+      "id": "udemy-1099",
       "name": "Udemy",
       "icon": "https://play-lh.googleusercontent.com/dsCkmJE2Fa8IjyXERAcwc5YeQ8_NvbZ4_OI8LgqyjILpXUfS5YhEcnAMajKPrZI-og",
       "url": "https://www.udemy.com/personal/home/",
@@ -43976,7 +51822,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768380868.71258,
             "sameSite": "no_restriction",
             "domain": ".www.udemy.com"
           },
@@ -43996,7 +51841,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768380868.71254,
             "sameSite": "no_restriction",
             "domain": ".www.udemy.com"
           },
@@ -44036,7 +51880,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768380866,
             "sameSite": "no_restriction",
             "domain": ".udemy.com"
           },
@@ -44086,7 +51929,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768380868.712375,
             "sameSite": "no_restriction",
             "domain": ".www.udemy.com"
           },
@@ -44135,7 +51977,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768380868.712296,
             "sameSite": "no_restriction",
             "domain": ".www.udemy.com"
           },
@@ -44145,7 +51986,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768380868.712336,
             "sameSite": "no_restriction",
             "domain": ".www.udemy.com"
           },
@@ -44165,7 +52005,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768380868.71249,
             "sameSite": "no_restriction",
             "domain": ".www.udemy.com"
           },
@@ -44235,7 +52074,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768380861,
             "sameSite": "no_restriction",
             "domain": ".udemy.com"
           },
@@ -44343,7 +52181,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768380838.378566,
             "sameSite": "no_restriction",
             "domain": ".udemy.com"
           },
@@ -44363,7 +52200,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768380868.712627,
             "sameSite": "no_restriction",
             "domain": ".www.udemy.com"
           },
@@ -44373,7 +52209,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768380868.712665,
             "sameSite": "no_restriction",
             "domain": ".www.udemy.com"
           },
@@ -44383,7 +52218,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768380868.712414,
             "sameSite": "no_restriction",
             "domain": ".www.udemy.com"
           },
@@ -44393,7 +52227,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768380868.71245,
             "sameSite": "no_restriction",
             "domain": ".www.udemy.com"
           },
@@ -44499,7 +52332,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768399910.746073,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -44509,7 +52341,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768399910.74621,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -44519,7 +52350,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768399910.746285,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -44529,7 +52359,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768399910.746353,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -44539,7 +52368,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768399910.746423,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -44549,7 +52377,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768399910.746492,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -44559,7 +52386,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768399910.74656,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -44569,7 +52395,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768399910.746627,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -44579,7 +52404,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768399910.746695,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -44609,7 +52433,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768399910.746142,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -45066,7 +52889,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768399896.576517,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -45076,7 +52898,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768399896.576631,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -45086,7 +52907,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768399896.576702,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -45096,7 +52916,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768399896.576768,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -45106,7 +52925,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768399896.576834,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -45116,7 +52934,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768399896.576898,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -45126,7 +52943,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768399896.576962,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -45136,7 +52952,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768399896.577025,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -45146,7 +52961,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768399896.57709,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -45186,7 +53000,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768399893.923891,
             "sameSite": "no_restriction",
             "domain": "www.udemy.com"
           },
@@ -45235,7 +53048,7 @@
   },
   {
     "meta": {
-      "id": "vectorizer-ai-1085",
+      "id": "vectorizer-ai-1100",
       "name": "Vectorizer AI",
       "icon": "https://cdn.prod.website-files.com/648e04d4bbae7004f1b35f15/65de13535268a099387a6f60_vectorizer-ai-icon.png",
       "url": "https://vectorizer.ai/",
@@ -45287,7 +53100,7 @@
   },
   {
     "meta": {
-      "id": "vidiq-1009",
+      "id": "vidiq-1008",
       "name": "vidIQ",
       "icon": "https://cdn.sanity.io/images/7g6d2cj1/production/7c8f9a95d01c8c4043af4f3c39940ba3870bb1a9-512x512.png?w=1200&q=70&auto=format",
       "url": "https://gracely011.github.io/hai/manual.html?name=vidIQ&login=vidiq@prem1um.xyz&password=vidIQGroupy2026!&url=https://app.vidiq.com/auth/login",
@@ -45307,7 +53120,7 @@
   },
   {
     "meta": {
-      "id": "viu-1086",
+      "id": "viu-1101",
       "name": "Viu",
       "icon": "https://groupy.id/assets/images/services/viu.png",
       "url": "https://gracely011.github.io/hai/manual.html?name=Viu&login=wardi0381@movieisme.com&password=premiumisme123&url=https://viu.com",
@@ -45459,7 +53272,7 @@
   },
   {
     "meta": {
-      "id": "wetv-1087",
+      "id": "wetv-1102",
       "name": "WeTV",
       "icon": "https://groupy.id/assets/images/services/wetv.png",
       "url": "https://wetv.vip/id/profile?tab=profile",
@@ -45476,7 +53289,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768399696,
             "sameSite": "no_restriction",
             "domain": ".wetv.vip"
           },
@@ -46500,7 +54312,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768399690.54897,
             "sameSite": "no_restriction",
             "domain": ".wetv.vip"
           },
@@ -46561,7 +54372,7 @@
   },
   {
     "meta": {
-      "id": "wolframalpha-1088",
+      "id": "wolframalpha-1103",
       "name": "WolframAlpha",
       "icon": "https://play-lh.googleusercontent.com/OceHg5bH7EsTRwl-lD7jjV9WM0mpj0oH4YfA-CSbjvfa7NCLQBu5-4cLwNlDvCUp5Q4",
       "url": "https://www.wolframalpha.com/",
@@ -46612,7 +54423,7 @@
   },
   {
     "meta": {
-      "id": "youtube-noads-1089",
+      "id": "youtube-noads-1104",
       "name": "YouTube NoAds",
       "icon": "https://play-lh.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc",
       "url": "https://gracely011.github.io/hai/youtube-noads.html",
