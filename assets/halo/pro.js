@@ -566,7 +566,7 @@
   },
   {
     "meta": {
-      "id": "apple-tv--1122",
+      "id": "apple-tv--1123",
       "name": "Apple TV+",
       "icon": "https://play-lh.googleusercontent.com/1XBAZjSOWaVM7UDFKvzuMR-WRoR5gCnsYrw17_ihHLcJKT9Qc7hXptHwWQ3Bf83mry4",
       "url": "https://tv.apple.com/ca",
@@ -40671,7 +40671,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768521721.501427,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -40933,7 +40932,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768521734.020303,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -41205,7 +41203,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768521743.27599,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -41457,7 +41454,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768521751.486783,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -41719,7 +41715,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768521760.903074,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -42001,7 +41996,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768521769.484289,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -42253,7 +42247,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768521777.222657,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -42515,7 +42508,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768521890.231608,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -42779,7 +42771,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768521900.779614,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -43041,7 +43032,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768521908.856988,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -43303,7 +43293,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768521917.468031,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -43565,7 +43554,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768521946.214749,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -43827,7 +43815,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768521956.376554,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -44089,7 +44076,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768521963.845124,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -44361,7 +44347,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768521972.959587,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -44633,7 +44618,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768521980.341714,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -44885,7 +44869,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768521996.903953,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -45147,7 +45130,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768522005.829439,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -45409,7 +45391,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768522014.915982,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -45671,7 +45652,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768522025.140331,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -45933,7 +45913,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768522033.307296,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -46195,7 +46174,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768522041.49233,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -46457,7 +46435,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768522052.824909,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -46691,7 +46668,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768522060.974984,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -46953,7 +46929,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768522070.200079,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -47234,7 +47209,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768522079.792921,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -47477,7 +47451,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768522088.216659,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -47739,7 +47712,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768522098.040747,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -48011,7 +47983,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768522106.311453,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -48272,7 +48243,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768521707.733995,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -51599,7 +51569,7 @@
   },
   {
     "meta": {
-      "id": "pro--gemini-ai-ultra-1102",
+      "id": "pro--gemini-ai-ultra-1103",
       "name": "Pro: Gemini AI Ultra",
       "icon": "https://static.vecteezy.com/system/resources/previews/055/687/055/non_2x/rectangle-gemini-google-icon-symbol-logo-free-png.png",
       "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Gemini%20AI%20Ultra&login=gpyultra@sharingwithgpy.com&password=JanganDiGantiPassword..Groupy2026!&url=https://gemini.google.com/",
@@ -56449,7 +56419,7 @@
   },
   {
     "meta": {
-      "id": "pro--researchrabbit-1106",
+      "id": "pro--researchrabbit-1107",
       "name": "Pro: ResearchRabbit",
       "icon": "https://pbs.twimg.com/profile_images/1983772825812189184/IXDTOqLX.jpg",
       "url": "https://gracely011.github.io/hai/manual.html?name=ResearchRabbit&login=rabbit@prem1um.xyz&password=RabbitGroupy2025!&url=https://app.researchrabbit.ai/",
@@ -56472,7 +56442,7 @@
   },
   {
     "meta": {
-      "id": "pro--sider-ai-1111",
+      "id": "pro--sider-ai-1112",
       "name": "Pro: Sider AI",
       "icon": "https://play-lh.googleusercontent.com/VghuZRn0-oLvbaGqptsM-9Qr6Ka7Pmw7lfmu6_UQ56mZS6bsXbET9Uf0wF0FECP8lEM",
       "url": "https://sider.ai/chat",
@@ -56714,7 +56684,9021 @@
   },
   {
     "meta": {
-      "id": "pro--storytribe-1101",
+      "id": "pro--sora-1101",
+      "name": "Pro: Sora",
+      "icon": "https://groupy.id/assets/images/services/sora_plus.png",
+      "url": "https://sora.chatgpt.com/explore",
+      "category": [
+        "productivity",
+        "proexclusive"
+      ],
+      "isGroup": true
+    },
+    "accounts": [
+      {
+        "name": "Pro: Sora 1",
+        "cookies": [
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1768412170454,\"i_b\":\"PWJqXWd6u66zkK7PeMlhiJuHjRDPmo4fSr5nGDYl5V0\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004266.767889,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-last-model-config",
+            "value": "%7B%22model%22%3A%22gpt-5-2-thinking%22%2C%22effort%22%3A%22standard%22%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771083316.082011,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Host-next-auth.csrf-token",
+            "value": "aae14896c4111f87df7732b023879d6dcdf5e992b38fc96b9615974e8c83f108%7Ca20d22b9e167bd80ad6b910a5b0355497c875333be2cdb6faee553acd2ab01f6",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003930.527429,
+            "sameSite": "lax"
+          },
+          {
+            "name": "oai-did",
+            "value": "530aa9a0-5492-43e3-a249-e408018262af",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003930.527432,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "cf_clearance",
+            "value": "ISXb_I7kReigWM9lkqkspbwPjL9b7OzUGyJD2Jeb_vs-1768411832-1.2.1.1-AF.HgoGS6KNcgnKSVDWmxjEIlCB8FdOcy08qSzMuVGkqQz3hSFpygV7ZGYTaJmXEVGjapgzKIEEqTjN0NY9eCKdxudMqx7nqCqAc1M5_o1VW0rw28LM6OnaqQwF7odxEYSWfqEWoUBzKzydPYrhIxI..bRxTpOGwowsq2VZ0mSbpHQt.xKewg5oXEcdRhpbal1QfszWhZRjvPlF.NyBzsiLE4l1dg_qmk.VRYSLPzW8",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003930.527435,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fchatgpt.com%2F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003930.527435,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hlib",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003930.527437,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_account_is_fedramp",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003930.527437,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_analytics",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003930.527438,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_marketing",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003930.527439,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-allow-ne",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003930.527439,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-client-auth-info",
+            "value": "%7B%22user%22%3A%7B%22name%22%3A%22xGroupy%22%2C%22email%22%3A%22konoha5%40belajaar.id%22%2C%22picture%22%3Anull%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1768411858613%7D%2C%22isOptedOut%22%3Afalse%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003930.527439,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-gn",
+            "value": "",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003930.527439,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hm",
+            "value": "READY_WHEN_YOU_ARE%20%7C%20GOOD_TO_SEE_YOU",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003930.52744,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=815346ca-af25-4ce9-a8f6-2931b56d4a68&rum=0&expire=1768412822135&logs=1&id=e2b79556-4e48-418d-9c85-5ec568c3b16c&created=1768411758406",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003930.527443,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a514557346269695259783739746e2f656c522b7a554e4d50436a75514e4675324e51566b704f4a4242423167576a556951",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771003930.527429,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fsora.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "3r_NTleiWOK.aEoWn55YlKME3Y5usIWXIBSt8K2sZ2c-1768520624-1.0.1.1-9KBLwqkUUyTng4Zj6SGYnO4DGa4q87lCd0yZLkFpgRHH2L7rVMMEUypInjr8AXCTskYDMeMxnkyzNsQLQmy47Zl1poiDbeCEX3Y.wc8g_sY",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cflb",
+            "value": "0H28vBjUqcdJN5F5i8DLknvCQqDro4yRWLgnb7Qd58R",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "X8OOy2xGRBYwqI3HsOAxgPRdzB5S3UtAJ3KuLqo2Y6Y-1768520624018-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": ".777BevHfyNmbucotFXNt4SWGx_g0q.zIwctpv9imzk-1768520624-1.0.1.1-Yms2eH5Q60UnhBb1fpC6i2mrooqPlzCGYZr2MtS8k8zJzpaIbiGR_FexlcSK3zWZIeIaPPudcSxjxsWB_qwKHUOm3sYuZwvQGrShIStHwG0",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-sc",
+            "value": "0gAAAAABpaXuxOPbi4ENgt7QuQxpEYi3YBQr5FMxcU3oahk4hmow08eY9oqI-Sv5Y4zm1nQ2EAfh0KMKisPEJHQQ0taepkfTFwHrBbyWFmYt_eT5jR92DkYsdGgf30p6tK6IvP2RaWv585yp4tMg4-LND-po8XCHrd9DWPgbe_ei27AGsLjfWTIE3A0Uo2XUoyQncOJIVHeJ6VPtKqC8T3lZuhEgCBUgTym6SnegWIFvevOARU39T3JQ",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800056638.372691,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..dTGtR0ZgVMhXZi1J.cPDge4mm8nVKV45Yg65SN2ZGWtcXc0LwZ7U-QRgkVAgCAZfNiCDhYLkx9sgjIQ0Ocgm6R2MwuH2aU-KszhrQAiPQdYouDuKipWXhjE-NmMPIj6kQ6OIndWwbc4e63GR7mDNG6BPmfEB3JSNBL7y2dB3f4t-NIXjs8O6SQEJhaGCt3rp4cXT-4kZE4tzYGdxqygXrbO7Ww3YiKxRXfM8EqdqdCct4TL0Jd-LaFBVZLLHNHFL0lTOJqrl7wzb6wXqbqHYL24_51mGBLnWpFJQm7bWnwjeiVQedCM-HqaJXpmaDIQXspzuB0aY9kGQ0rCB_-KngodJuxOy0Uqk9zlYqxri69Z1jTc8wLftYKzFp4qthEz2A5eXEhj21m7kchI6PzYQB5rRFbkUf84TDSaB7YAJnLp6NRQyPLtQQNFnIP48TY4Wc-tUb_StXFc2rn4dHgSFc0MYfoQhZ8bQVSjon_y4SBdk2sZpLfA3HRL0Z39VRRDiYIVjVdTgjaJaGndKrJ6JuH-a5TIyHDwtOdUnTmxv6jeB85QXmnFaOsz21sNpGLUuHv1Me_UGhsWIUJIjafjSfJinO1DHpGNyLHIU6x_r7N2G5miba3l47C5nnKPgJHcwLicAZG4v9qDVR9iHtZXaMHRAsu10QtkjV9B3Y3lrAqOSaWh-NHtvmTeBa_0UA0-D0t6bnTZE4WllL2l_9coZcDYsR0kTScdACD-RvLjeY1yVzboyd3864uL3c_mvJtQM_HZv2WUNY-Mw5EfNDZAUwlVE71w366PFGrJsQKghan3ehYGFdOuAy7_b8TtPKUDbxleqkmjrHVTmwxIXSPclc7wNrKvVIqOV5RXMI5Yi6U4Kl333Ge45p9xjWG_HryXeL8qC_GVoSx47r9NVrcOXiSatafN1tsR53b9w7ycnhqsoWxitvzKAzkZp6IdT8Jdo3_75x_--Wf2rVzHFkuKOqUsB-kBDGAflbhdUynMHbNL0ws4_mbj4tOWl2auBPqzvxuJuQ035GFR_aw25IHpBs6GFkr95HRnfFmj3lVIsQYGD7Crz0nzWYVO0Z4NyoJzdiCUnhZgvXbzv7laffrEwnpUu2SHLdbR-6H-uxIrCiJV-vK_gXSEd6I-4WkbTMrPy7Fs4afymp23iQ0X26OT6o_w2IJRovdehtFdgWSPwSVTS3x8-PiUPL2qV7y4JfNN1xNTPIN7ng_rXU526s1BymmLONAw_ezHNZzjaaaCpjm0i6IdU0Za-uwYpWgDzJPjYm2S951Tc65BUgkPSnxBFV1cKAbl3Ib-kpBAel7I9NqPoobDETyxy_xhmDjzU7d3mICeJ2SZ446nKDdgSg5EsEqJyiiWsa7OR6oOQco2AnnviwpV-qFawhrP76u53aJraJnDkbALzyeZRpjedvO_12DcSaEZLW_UUPndX7x6ncycuDCNR9-odJ9nt1ixbKXHfgWg3QL-3-Xias0OgkWzyKK7ojDbHKP_txGCjWemHmyodhGLtUyv6F_fuk_ysisF4P_ygi2NhmO2HlqfMWdB3FqdqaouBHwfKTeZ-k3ooozNMxAbOKibyfL5HIB7y_eXgVHTi_kAg3vh3thBksmJgSiO59noRoZVbT7GBedpjR_jkHB_OMHLA8oVMlQIYMohBVOLKKSNMLb13AIebztYszGfQyEKilriy3g2RgtC4-GB0c9jPhGDKKuft7AVEJnIGgDqDzo1zEwl3wL5HcbGIGXRTpZLf7CxjF8SLR1l3sTBEYZTYtJzSrJdgZKlmhxe04i1JUW_mHcl108sf8FaMkFT_aLc6rERZZIcCpeurtuOmqelPuaQpEooZbj6FXtJXWfuJOhX9ecHH-i-TEhxIdv4FpHgZKsMLWSW7QjyEdxPyV-4aAV7JRQexAaCE1nWcEFlW8PoaegfoDU0h8bCV0f-sWOVUd03g_qBeVeYKW-RuF9iSLcS8Xfx7BLk8mU9HIDydIY7Z5Gu4KJ1hpB37aBQ4P2BjKoGslSjSZXJqS8qrPEMGB_23SNj8nFJHLKaz3_l91R3Dm2r294dzLzG3T4EYBser971-_QpnOFsrQeP-0FWSNwKD7Q8SRCOCsGbY9s-bxozz2m3rDQCUCWFb21TUlmXeFbVl0oQyXUoSGk3RiOodpxRaQnr4dSneYGJTh9S8zBI54KAXldttGZv3pgAPVSRbBrikRDjH9TH4QXSvysOzQ5NSDMQ5lm7WnvB_GdDo_KuTL-uo-F1LqXks_D1_H4dSHQEGIEs54MDiurGdIEYW8KG-BRiLqiljWtGD6D8TqrJLMEQcgl4o4TrHgSlLEJQNMihdtN0utX5ZMRqaoPyDRJQrDoBW8_dFFMTfnmwlcKGOA1rWyCgZoFG0ESX59YaI58laKSZzxSkJywF3jKw5NoM3NCpL-fAnyTT_YB7kL5QyX3X0qVrMh5gb05LIoOvIG3W1AO0VRAuqgZ19OKIZ3oHHFJY-IGH-yDtUV7ZQev6zSkuj9jeHjxfTlKoafIl4di7d8qg0QWR2SLjIkIQgaqPHyw8mtMh77LKKawwQOQUTIG7VLNY6FSjOrRjBHW6hFHbY2hPCJdSXM3U0Ouk1CCkQlKSbPeJLpWAqwYbMSW8cQqTeywGKgeTjvrKJqIGe4cco_WG6Sga_LPZjFsOJMJMY0KpjJ50q-HUWEJVqZ9IqtcmlnLD0g6Xwvi8F3i7gZY0OK3mKZ-tjiP2NLQ49QrupBjPCKHdt8a91fcpylz4unxG93lLU05g37uV9fydD9avLrlig29ItUbhX_q7t6-3uMs2ZrU2iddmYavKM-DTih-TtOwTxHkZAeYnx4maf7mYyr03pqjFjaIzVtz8iJuPIbCJtTUWwCV5KaR9R8pjCtDbCjBKgHLkfbfzDAWRf42OeyzEE3hD6U5QBowgDuusoRjmoqEv8oyOq5t71f9ctONLViPjANKgaQC-ykxVNEwGyz7ibXFwBS7QcBuYtE4i0MHkkfsFmY5qR8F0pNMAWFA3b59ON-DRE3awS_Gn2elqliv_KbdH0IKk4_dI9ZdvtdaYPIbnlZhZnDp6UVzaTkiS-Dnze7iOtFpvhU-WrrgmrJ8z4itI8z-JKTtCrZ6f7wrR0wt1YK0Odeh_peUwjcxI9CbXB0EL933wasl23CiP6zd-t90RNsanrwn2WCtyzmMrKk3jxD32fTba7KaxZZzU90-GG9trnY1XsJPSyTQQiHPA.NbaEjy5AvRYoOLE9qyTSjw",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1776296638.496593,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "rum=2&id=da9c1896-53f9-430c-9da2-cdddd9fe8acc&created=1768520638296&expire=1768521541347",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": "sora.chatgpt.com"
+          }
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
+      },
+      {
+        "name": "Pro: Sora 2",
+        "cookies": [
+          {
+            "name": "_account_is_fedramp",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003930.527437,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Host-next-auth.csrf-token",
+            "value": "b4e88fdf3f2d419baed23a0a19e567a47ec78a78259cf0ef379e3ac28f39c337%7C3502137ade1a55e751503d54192edafe6793b6b413e6b9c8d39c9984dcb7c219",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770695760.692057,
+            "sameSite": "lax"
+          },
+          {
+            "name": "oai-did",
+            "value": "9ef55026-3469-44b5-908b-c0a0e36c0e89",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770695760.692061,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1768103717609,\"i_b\":\"dhYlttxNBcQWbQvBM8aBWS1BANdHnLeaFUoAPvSRwgs\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770695760.692063,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "cf_clearance",
+            "value": "F1XI8FpOvgBTU3ZIVmwAEnwnTYlZyRmoz5MAbauvmGg-1768103782-1.2.1.1-XqZf52no91sk0qUPxt9.JeR6_xjQWuVW48xDhTDro35C8SWpIG4a3y_JpiSnZKySTMuuCWvuk36U.acwDWwIWI2aj4KpwDWvfNlHPHwieNa9OR_LmRjgBeWFvkaqkBuaQUHie7vUmMc_XhU9j1mxlKS0fWFNKXk4kdeJjH_YlrxDeiKwc5vUUlYwLDf6JxoTEOEn3cQufdyC9M3uHb.TsXcG0D3Z_C2oicFy6HzUv44",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770695760.692064,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fchatgpt.com%2F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770695760.692064,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hlib",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770695760.692066,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=446ae900-1207-41b7-9c9f-343e30b40f65&rum=0&expire=1768104657180&logs=1&id=1218183b-bbcd-4f11-859a-8dc75f846bdc&created=1768103717174",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770695760.692067,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_analytics",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770695760.692067,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_marketing",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770695760.692068,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-allow-ne",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770695760.692068,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-client-auth-info",
+            "value": "%7B%22user%22%3A%7B%22name%22%3A%22Groupy%22%2C%22email%22%3A%22quywiekjs%40killua.cloud%22%2C%22picture%22%3A%22https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fgr.png%22%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1768103758128%7D%2C%22isOptedOut%22%3Afalse%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770695760.692069,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-last-model-config",
+            "value": "%7B%22model%22%3A%22gpt-5-2-thinking%22%2C%22effort%22%3A%22extended%22%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770695760.692069,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-gn",
+            "value": "",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770695760.69207,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hm",
+            "value": "SHOULD_WE_BEGIN%20%7C%20SHOULD_WE_BEGIN",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770695760.692071,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a514557346269695259783739746e2f656c522b7a554e4d50436a755437392f357958364e54353545694f725747534d7937",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1770695760.692057,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fsora.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "onG2y1Ngu.jeilZMCFv8VbGKNJAsrq0aED5R1s_5emA-1768520633-1.0.1.1-llLH18AMTTs1bj5eXge7HSLzEuV2YQXBcnuGMOTPVxGbc16vCAprnKU6LzQk6omDtUW9ka0q48cOkHG3CMs1iceLqeDd4Mc7jLnSjAAQU78",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cflb",
+            "value": "0H28vBjUqcdJN5F5i8DLknvCQqDro4yRXqzqiNn4YY5",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "UKaQyPprA_jqIE9Q.70x5KSMhcYPDnGfEGNJJMJhTfE-1768520633537-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "fxq8cUR_yGVrLX6jrcEbiKNIo7M_j7F34M_kCwe8Np4-1768520634-1.0.1.1-z_B1emiHyw6q1cqicVAxwnfGZTysmc99kjpDK5mqkXaADkUIQPvLSrGeh..ieOINwTVT8uGXYKk.bpu0VqY6gyefqjmqeS5O.l4sx1qXSxQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-sc",
+            "value": "0gAAAAABpaXu6EeqrLu3jxlpvG9gzUsvVu05KncVTiYYGjQdt_w4Wozcc742X2lhF_RmGV_XdAi3zDnSWCF34nVqHyUwVlM-lExWqmyyHiQ2VG1fKTIbOl9crNbpUHJeZfRjnh-u8C9zAzPorBKTKu2ubQAX2DqXOWTpJfEGYnhrRFojFMn11tTa4zBAF9fqXPO7nmSdH7WL5AUzDF_e0xQWTvXIexVGU74TP60V3J4YdeFdYuJTEUVA",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800056647.891422,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..rW-9iPgGaMyHCBg0.dzXJysAMP10ivQmQK-rkWK0go3BVtRCfvJ7vfiDz7pKfAVfxmiYmex7HyIBCltFSyDApskYz91nLqxtBDseIbBCBpLWcAAj3z6rh0Zo3vNOUcv01IoG5DNoHo1gyB12pFiq2PlHA5DbvCPLoO9M7Ip17Wj0AuoRC8laezv09jvHT9NcOqjpeWQJjr9AVLPbvAeqU0SmWm0eMo_sVEo3R2R6pn0H4Og7gIpGNvsrov1BWhf2HppBtkDCeuFcRC949wWNt2CEUzNare_Sq8FmGLIb43Pk1JSZXSeP_tsous1kZMEZV2PzXwk6rpjUSAgYnokjhlkpEc6W56UGuLdebEa9hPF3flAfuGf388V7g-6L79mkx-j6d6bvbWA2vvqgp1Vpx10g0P8H2TlyD5DpO09Nnjrmq3DZJKIcLpKcJF_vZUoKN3TFcRAOhJ6I6IBu8OmSgr0UHi97LOEV_PuURd4xuFSHJ53JO4UiA3dSI8S0vR5PKsyqiemh2KnwoIYf16a-ex0bquvWMe-AhOzkUq27HoGe-Rnr119MDpqL4A-hzGYPaUFKTV9VgRHyq2y5gPM8ekyH1tNybKX-B5jFjeLcbSiyajPaoLnAIfYnP_2qbFnC8tq-TAEepOEnqqTen790dkZyIcPup-tB3uEddZtT1JKIekFjlLiS9P2ibeltQ_Ac6tJU8smnQCM01wiWu3Fke4NHJxAa7eGFiW1S_GHeipRO0agkMOCbynWaRazbfZGGNvbxrP3wdfYwcCEUftKvRZt1OGijuos6CDlWZBqQFUSJiSS_0Eh7TRgeKIFvvgbhKar9y0WVQ1XTjMnBaH8E6VcH2StiqfaDYWsa9ajpRSXjR-SDnhaCPDTYw1FGXEnnSbsKGF9Sg5Ad3Dp7qL9juU9jcS9EA_0o9uRyquagK4T1Yznt4EgbTFCmjP0xUQKwlXXNAPPv9TzPgMBQsdVDVcFzXu57UZXKne4Fbc5vzrfofxrziCIcdgwvYI_-LO7oKbzqwXdTayUqTfe-JZ3O8pwY5n3eGf4B2961EItOi50sUc7P6zg165RCjW75tOKnXdICL7oFDYnQFVBsI_MesBPewa_H3tWESdgyzCvdpX_eNxzt8GWY6liWankKS-xZ27jDT9oy0qGM7HFUpAXSjhBTRxMptQcdT8ZpjnX7XkRmG_roq5CebPbGmaK7d5kPjfepZUHfClUGAlbLL35mJXYfgD8ITOxywoRKmnUhOx48wJhKrh49e-Xa8Jz2Pq4Mr9Xefx4zcYQ8cpCkF4T7HwAfHxSfQR7Y8LmR6B3rQfUjkKROZmjExEXS1TErkfr-VLQt4qgMTt3A5uqlCX6lm2Mxbj-y2_9P2xDkqCfiRQMQIR3J_u9QS3BVOQae6U0oThLkoI9E1XhO94ItQ8JepyeHVy1NLRx4BLdyAxthOEZQrzW6wjlSlWbe3J4T2_708lN82odLg1z391N1jXQ4Hx6I076mBlqddEeTh0C45bErxaoH490aoxxh09DKQQne66V0ApJq41UFDuEVqLfV9HLBpB4NjQgBcdWUA8yVYzF1cF4WXbHDGF9E-rUeZ_a4sm3Ojbz7BQ28sV6_Ecow1Zb_NF5iL1HSCnZeTwqBtJVs6fLj1i4uTWHCMRSOJsHap6gOlxSXEOliY9PsvyuUH-9hlGELIgSdsm8w-eB6uRPoQ3OIpsq61Nxd64D3tqqAFHNcEBE2UouIziG1D4nmAGgcXUa6pWAEMLOF502bdXnkWnYDfYPClgW6uqDZU7ywwRzY6O4JIF-0mX-m7UtyCoUJSPUICbyIlbsaicqlM3Gm3BcEgmwCrhldLx284IISSWsVCn5aBovuGlO-6iRAg4kOOrgKsRYOL0qcJhuwM5JCGATsxG4rdm3j828QUsGJicExUIhCYEQAdtK8ZrgfxAS9018fY3n2tRNNc1MwP_OLdAURuiwyuaZpMkyUusLX8EWQ0YvE1FvNn6yj8e2otmhhRK8FDf1dkQ4Jzunxf6M4CdsQ4CXbCzsKZvMZkB5RoKOdNFS0jvXgzalBGLiWqiYHzz_j197Udrs4BBXGOB6PReIAyS00Znu8kXv40Oq91Yjo5PJCTvU-ZyhoXLnt45ymoG-Sz-8OO4ESykgp6_E-v2SRQIlWRAPIlJsy_rIwMGr5UxXaGYXxHAbkSF3uAzlyz-DNp6oMmmPxXRoC3LCSPhBKQzegVefDYgr3yNtcjYlQxZ-yXt8RTHjCCzaJneruFoZQnjqvaJ__LL3y1KBtNaB6mwm2IJEqg9WjZDptJ0zdxfaEGB4r2nIRA_ldPO-mD0kdzGsrgIIJbGh5_KbprnB1OOz5whE_OdkVfOgRPgjcUrRnksVNSStV1xAR2ZlGZr0yYyQPn2rtPvcZI2bW80czZgScMut-0KhnoD6POiUS8DbhaD2LXFoWNeduqFwU0NFvdeAPXpJN24YTZtlDFvy0MtUqLBupryCID1u0Oc8XGTVB2X2NJKGBacxr84arDcps9ZqX5SWi32FHiRedfB9vBK3EewaBKrwlHdCyOAfcZGTwd9ejlNUiNjcxhTSy4taJN9A5F_U8HaVwJ3mEYdJ6wWa1jMlhj8-YRWzE21Fe3pPTgdLTHMdnQRwpzHsAaHHeViM6byWfgnNI2rVeChiy3e3UHwGLqXxYjLIUEl6bk2gwqsmQsD145Xqg8UptZXp1HWXrRCw_UQPgRvAJEGi2PDG6RLTPRgvsQ24mblhX9NiXWPe0TdGpm-Ex-dDigbgpC_TX0qo7pVPLpwXxLa2CaGReUyxoXTWfOla-BgOxqqiE66vhbH9D9bZedxg-55J0u3QRpk-Ceru4jYQT9iWHYFUJYXMKPaXrGUIpWOiLqBc8wGokewCJfncRvd7cpM5yi1lB_qGqeObTG6wfAAeKo1UTIkMOvTSmUvflzq-Ja7Up4puSVolWld4LDvVcIkgmp7oTOV0raqI8-POJEDBRe2LxfV-2_Uul4ZMKtoDIzWNL6JN76jFMh2jZ1Pqqn9f9kIxakspf8HkrbL8aSo0-lE0z3HoGcAlLRLj-NoQ3hF72l4-pbe8pF8epoCPbMx9Nz8KiCUKD1cPG93XrRR7PWu9PhI4QriJOCa4APEYKTOY_8jThXeb9sumGa3owjmV-EI9dkH7mJL3ZlCCvHoYWqxP29sIIEr9HQSDs.7xIi1BYXknhWwRBHvidn7A",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1776296648.015272,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "rum=2&id=726aa9f8-b747-4b6f-8dbf-9c31a2ced337&created=1768520647604&expire=1768521551513",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": "sora.chatgpt.com"
+          }
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
+      },
+      {
+        "name": "Pro: Sora 3",
+        "cookies": [
+          {
+            "name": "_account_is_fedramp",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003930.527437,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1768103717609,\"i_b\":\"dhYlttxNBcQWbQvBM8aBWS1BANdHnLeaFUoAPvSRwgs\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770695760.692063,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Host-next-auth.csrf-token",
+            "value": "6f97d81e95690a509c16d1ad6a2d922523c3394603f8fd0cdc31985411f2ebd4%7C8827328e77853ee35f7fa598e5e77bab1395b41c817b6072e389820b2c90f507",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770479982.140627,
+            "sameSite": "lax"
+          },
+          {
+            "name": "oai-did",
+            "value": "7e83432c-f24c-475f-a7ec-36bd265542b3",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770479982.14063,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "cf_clearance",
+            "value": "vC3XFxs.yFRhi6l073fNT9KO4o_f1Wcwk2nU87JQ0sU-1767887998-1.2.1.1-73_rBjJfr5PLz8P1LWnQNm06.wQ_NYVoIapSY4m.Mykuz.qXhF7ir8DPC5XwC6KQD7_bmtXT8vR0YcwbvA7SKqMPpTLXsb7WwaB26pRR.Sm_lJewzALnrLkasJx4HYSJ7euAKv9gry8hDbxCUVcPKEoLR2JbTWA4gvJX7Vwb1Rzb7y5j6rnSOizA0sGAByQde657RXDJQNCiGHikXVUxFjHjNunqonTdJT5A7Zj_.fs",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770479982.140632,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fchatgpt.com%2F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770479982.140633,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hlib",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770479982.140634,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_analytics",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770479982.140636,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_marketing",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770479982.140636,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-allow-ne",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770479982.140637,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-client-auth-info",
+            "value": "%7B%22user%22%3A%7B%22name%22%3A%22Grpy%22%2C%22email%22%3A%22mekbuk5%40prem1um.xyz%22%2C%22picture%22%3A%22https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fna.png%22%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1767887978554%7D%2C%22isOptedOut%22%3Afalse%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770479982.140637,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-last-model-config",
+            "value": "%7B%22model%22%3A%22gpt-5-2-thinking%22%2C%22effort%22%3A%22extended%22%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770479982.140637,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=60657a5d-56f7-4d06-ae30-c845ea665c8a&rum=0&expire=1767888878680&logs=1&id=17491b4d-9804-42c2-b241-41529dc4977d&created=1767887939849",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770479982.140638,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-gn",
+            "value": "",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770479982.140639,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hm",
+            "value": "AGENDA_TODAY%20%7C%20READY_WHEN_YOU_ARE",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770479982.140639,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a514557346269695259783739746e2f656c522b7a554e4d50436a7552396e6a4d4f594172576e5053433053514a7631786a",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1770479982.140627,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fsora.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "3.0gUbFRZsB2_AR5Lw7_raBuLm9wmL9mxkiArcK18kA-1768520644-1.0.1.1-7AWdtziE_i_w1iI6Im_V.uNjKVM6t3.8aw67fA.39aehCVnaoP25vMGjeM_5gip.I77eDi9L.3OPTEOFn6I4ct6Mk96yz7kOfm_2NeG4.qg",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cflb",
+            "value": "0H28vBjUqcdJN5F5i8DLknvCQqDro4yRZgiEsFnVEUm",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "kCcuI9MZdPsoSrL4E7kUR5v8tJFEW6XlBUw8j1WDq2w-1768520644479-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "0i5FVVioSuHccDWoFymme4oL1ldy60KEtcq61Guofg8-1768520645-1.0.1.1-YWzlBnLlxyoUNhMr4pfxpJeNxjqh5Ozw5tyZjWunO1H4UgMvaxMkqsOcuZYb9HBzep5bg0rdyWqMY_vA6T1JPzh41diXq6jv8wiZoJtUL_Q",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-sc",
+            "value": "0gAAAAABpaXvFj0KVVEMg47fTq4rO-jHpo-Ajg2g7JKOqodBq8B8xAHMrSm079RF1ilaI1EHjtp9d2s9vkBoQz92DE1nNkSGzh0PyaoxUpmAx-4t79dr-gSHiUzp4DrRAqOS_DaOZmIatoyLhhCNL3Tb3-1-yocPFPl1flQ2DA6doUl0sVlPZYOeAUrKDLAfpG0X58-e9BOJfE08jAe6MxMyROoinBBwgIFa8Y3r_ZjVl8J62HIUpO7Q",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800056658.77346,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..N8QHbo5Qwad7e2cQ.SpAlbkChFEK70-JbxDBAnyKvp62jFh5gLMYVsO7FEUExKBWa7gQrAA-J1q8o9VKMbodY6ATMlEWe_1a1t4kiS2ij8iVuFt1o1UOrNgszWPN59zh4DkzAPE4PWOo7faCfnbYyqUphQ0XaR1BEUUFGFG8aUFk-oe-tKJXRA0S4j08NHkepo5e7vlzhKx9fxsmadherzA-cgVLtPT30ybqsQk6xTgxZyGos5qDkAgrLV20TS9YKajJFPROOC90vYCSqzMoT_Fw32iby8t2YOeyb5ZTLefyZy3BclbyWsrHpoT06j0a5J0SpbZLVpSGSf5HJ8UR5QkpIpeKCv8znDdb2xHKcdHTXF55LKmrAp2pr7tjDtiGLk2dlODYZ287V4ZMnka5WVHNCnVBqw9XA72mi7EizRdPQtwNJX89ZGmlO0FrfcNe3xKA7QazpZBQP4Bp5KOG9bR0aqlpzrPSgN2X8kZZQ1NM3UZwHD_N3cbqj87-I8QbKAeHaToyRMqTX6on339wtiuLqoEZs4GGVSP1AoWag9NFE3BFbB-HKhOsKNAI2vrQ0WSis4uUd1FrqChMskLWz6m7SdkMvyPTgsCIaoJAwKCA55R2x0PYZLRDhl3D05QAv7yiDgWXNY_HxxzcWWqQigLeqRLxKqgb5WhHlZmv1BWLpPPGaNiUAOPy4syH-g1rbwYKv0L05DB37VB144frN3qVL6galR25Mskgszdka0TOz5H4CRvw3HCCgb7sB0sZhdPbfs5JOJRciVMSLz-2OEg6HQOhix2ZbrFdDHrS7U7UzK_E7BHxIPXXZ9QBk_5iiU_BQKTShEmVo5im3rnsYYJGnLyNvJ_b0VCWOtkMxNb0mcsPnURkoNiqlHm2frNxb4X4z4A1I4fSxRR-DZWHJBNEv0iwRFFKkRSz-HLM55BU5vUWvKs3kZOe9Ge-0DRHwNpciBN686y_GE6lGqYoH0UhFoZL94HQ5E11nwS_4C_oWBoZCDmjobweqKgMM1sqPUO-N2XTyIl8Pm0LXOiTVUrrKiohMqVJBIACCtI8xPPyvZ7FvI5CVrxuUQ-nQt3QlO_dY40KUPy7f_fWCdipbRHuhofx-DlaPdj90P_w35E4N7B6iu0K7geuZ6o7BisZQuDHFzd1WsPS_49DAi0b0VPL4kigBZktSY-Oz3r1lCtCPv3EWEwHIu3du_Q5Af4GHhpLhIZbvK09NInrQlsjKGyOx0m8y0quVZOzYSoRBGypBWDcsjHpn-Qpm3jtFRvNXeukbonmScdNd4YXCgno2uXLWosFdvv2867cBOuW0sUBODorCkiCN-ZDkY430oHRNk4W376IdEWdQ7Uaj-NomeiZgNnTYpiq5fwfyRh8AlkhQHDHjcMR8iGE8r8C3aWmXIE7BNXPRzo3kTyxG0mipMl0U18XJgLkDbZSZpsRV5fT8TszxHBJHWjlfDQ2PyPACEzjKIHWiQUWuPfupEfVmb_EzrtZdJ-C6WXEZaGru2V17yGPfGuYuzjVFpaLTYWA-j2Ejv-6khJfekeqBHk8VgFBqUYR_Y23rMUaoPEV_3zGmNFtNNpL3FnR0ayTA_FhSd2pAcrtHI0GVrQXrmod1xvqL7IilZr-TnIMWiV8igeO_xSWElnQyMZ4SHCp-KxLrywITMZVNEgzVKH6uikl1syVZWwrW5YCmwVDrmJE3RSqJEy8Mm-BCAE98EXOuQHuQ8sBSz6rN3pi7gRqs9WaJ6Sj7GL6WLeToPEhCKRPD1_KJd9HXJzxGvGE_IbMF9n_WN9-1Yt062byyKgvQXzcP0FhgWOr-zia4MAUddcHVqv7dkBZZyccJ3wFNWFqRJVhgHQW0N5U0HQL5lbiOF7aZvTw5ocMIZnsNTnkIBCYGs8r7ZDk4wZbIoFUKdtr39aCg8FmtcDY15DL2N8b3LuQzY9TLZR5p5F3bNV6gP1VYVe-MJ8K1qM_tVn82XaOgOG3jBZpxYTQ0qQj62Ct7ni54kNutx5uYYWYQQdr5v5bfMhICx5avaelMUYGAa0mlqz9cB6yAzXbXNTrm6WwXkThG86pxdzG3ldWvMVau6IMeI0rgDJ8T5i-wQRkU8mLyCqzoP6tM8n39p8vx2QzZ4i1zfjVoRQZxmHO3UhmgM1l4qlJIUrmGX-DVYNVdfaC5HumryxMQvUzTDOBO4cLcJLZyqsWjvAWj3ar5St_qYlgQgOrBmTGfzJo39E0TjMIFaCkg0fS7j0VXygfRlOFY4nzJXj7aZRPhpmK53E29ivLaffvN6pgIl8z3hcmpClGius7i5iSYJdhbhuuds3YUYtMLA9op-6gl6dcPjWXQos9Ky6ilJIUmGn_IDZ5lJ3kbEKrKUFnuzF8zbb1jookFM-9HIW6wbF3SRxJSwIXsa2UTZPJvwAl6j6WXeEcc-MsIrUbRFIujTfSlzgj4fnDY4i1Ihg_FD-wCod4FsuEPUGXYJmBxM1n76H8sDW8HbE15tkPYV0_GOnZmFpLLw-YqOCNo_8bAeEPzaHy_2Jt2WlHcezI9CkmTnSzytW30AMJZdg5M7WWneroItU4faFHdzwzKB33rMuRPZ6l_LKTpnUM7KqzkuBgsOKiqKhNqlfJQw1_2kz_POgParUE9h2Y7E6CPnx6DxBd4EQWnPP4TXdfbZkEorPnKrQmQvUmCkgepAmoxbfJvUQSl8oJNIR_V6hlrrCJMEZ4R3l8iUXjE_BJPKeThIffHFF3e9070WBqt9mLGK6Xs8D8ETOMB2L6GtwA05Xhv9nEtNjsHwBYXYT3hFlAr-n6Q2Hq0zNDv8bITSaQzzIr-ffuWnPzbCI3p1nkumc-4Q40xLh5arSCJtrBQOmK3WmefjhC2dQhTd0ou2l6Dk8ni7ndoLqbiVAL66tiEZS5h5gtuvGuzyd7njIVf18lv9Y--_csojZYuu3LrKIedP9JqhhWot8Vnq5obguhB1cfG1BEXZjjTK2AJ5TwTYqi64fZ0Cu2vH2UvBLcQ1NvEaA9wVrqooOnEn5doT7uY2bB9ooZBTT_zn1bn9odsTWlYIpcbIewmUQRUY_b113OvhKCyjGOxLp214otHuzr3fXa5o3saH_d32i8aKJP4uP7gQcj5EjC5jhMefOdNWsC2TFHOsk3_ZO2FyOarfcV2VvwkFED5lhCeSb23ulQSZuBljDfz5g.4YL0vX5KV39FYbDG5nG1gg",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1776296658.884738,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "rum=2&id=b6945a9d-0f33-44b7-8df6-db030f1aaeb2&created=1768520658700&expire=1768521561891",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": "sora.chatgpt.com"
+          }
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
+      },
+      {
+        "name": "Pro: Sora 4",
+        "cookies": [
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1768103717609,\"i_b\":\"dhYlttxNBcQWbQvBM8aBWS1BANdHnLeaFUoAPvSRwgs\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770695760.692063,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Host-next-auth.csrf-token",
+            "value": "d2d8e0ad178d9125f668801d505157f798a602bed375d41dc8bf330fb85c0596%7C6d45235fb206bfa177e2c14d84839d37fd2f640edbd82b828d14f893c7f1f198",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886053.887716,
+            "sameSite": "lax"
+          },
+          {
+            "name": "oai-did",
+            "value": "6dc0ca51-58b7-4973-99c6-71d94517ae52",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886053.887719,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "cf_clearance",
+            "value": "b4OXMxyyteNGlgn2Ru07.2L157sVjI7I_0ND8PIbizs-1768293788-1.2.1.1-QLHsnf9yRZFW1eS2iINSk_9EhF0_sG2jJ8Ksz9Jni1uwvaRMplB1vKbkQ2hL3psk3zDuvDW6e90v3WYfmJAoSWWzW9U1dl3Kp2j4eb8q5WTUE4XIJX_LCFgrXDQFIxVCDs7PnnaymOB7.MBwXN8benDBB00524xZnjYmUUwU83Eqga6EViT8dd3IiGmt5Cdpmn0P7ki..1sGvR9x.4c9VQUhDMy0UeP0DXtbXZX1Yxk",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886053.887721,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fchatgpt.com%2F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886053.887722,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hlib",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886053.887723,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_account_is_fedramp",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886053.887723,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_analytics",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886053.887724,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_marketing",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886053.887724,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-allow-ne",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886053.887725,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-last-model-config",
+            "value": "%7B%22model%22%3A%22gpt-5-2-thinking%22%2C%22effort%22%3A%22standard%22%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886053.887725,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-client-auth-info",
+            "value": "%7B%22user%22%3A%7B%22name%22%3A%22Groupy%22%2C%22email%22%3A%22ncmhasjkhuw%40killua.cloud%22%2C%22picture%22%3A%22https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fgr.png%22%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1768294022821%7D%2C%22isOptedOut%22%3Afalse%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886053.887725,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-gn",
+            "value": "",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886053.887726,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hm",
+            "value": "READY_WHEN_YOU_ARE%20%7C%20GOOD_TO_SEE_YOU",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886053.887726,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=5c7487db-bc5f-471f-b40f-6a8a568e5913&rum=2&id=7de6e989-0711-4cc8-9221-eeadc149e673&created=1768293717895&expire=1768294947024&logs=1",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886053.887728,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a514557346269695259783739746e2f656c522b7a554e4d50436a75516f54706e457934304e39565351644a534546302b49",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1770886053.887716,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fsora.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "gGdM1AFYN31R2JMoai.94llgCKZGuc2aun7rMgMEdfQ-1768520654-1.0.1.1-Tdp.8vLR9gYerchE_yDYsydUH2m2OQnBDSjMy_zrAGXWoW9OS780CyKDlB74exSTJVkCoKSMnHlHIKDsXc3SPSxI8tV98Z5nr7P.JB0_S74",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cflb",
+            "value": "0H28vBjUqcdJN5F5i8DLknvCQqDro4yRbMiy1KyRK9w",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "N5EB9YvUYOjqm7mHYVMhYvCV4O0YCFiVeM.lT8fPEC0-1768520654743-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "V84YxmFvcIZCt5TQw216IAqwarTcLXGQXdddGthK8fU-1768520655-1.0.1.1-Wd_h5KGWvcpqqubfbYRpeiDgidMcCDHXCarUbT0_pSS_Bih2bT3zQ42AbTrbguonTnEYgKnthGPGwIB5c5Y0Vf69BsqugTqGBwsdVi6b87k",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-sc",
+            "value": "0gAAAAABpaXvP9SnBCBQjOKEBwltbdu5ccRj0_aYk4ZKkf1UIsAIfScpnqBokFGIL2Ix0sYh-2m7CpWZeNg3K7QkNl6M47UumBqCGy_ZekBdP7UH_g2KDrMCJLrgoSYXXHau0YDYz4hRCX-DMI5rVfDGRnvsiaPX2OoHmkxClpSDavQXy3rPmyUo-Dx1mbOatFPWyHs117KnDQsxB1rDa0KYpRIVgvj9ZUu0nPCgfQi_4ex9liJYyAWU",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800056669.126549,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..v0Vcy2V79rYCyLyD.jAcSU_QlPzbG1ensMVExLrNIHa7D0WPEe6DMrNd_EI8HeTy3c-2R4Semdh1oDnyD930y8VMKJlDIN6BuFr85G1tWpFaJzI2w_WtaMVaHF2Emy13VVhM_L6nt8TkMFSZH4GNxmD7H1HaRuZVUzpq2uN_aTwvg4h3wUP5_czZ-AqhBrC5M-DE_Nc4GPEX_HZdvmibTdNlAAU3FNeZwSZBMgIbZhmQO_zjcimm56x0PkefhxmqnIeAk24aI7Rd0R9ywD8JkZFfT6qqQpctP5qqKZNCXStbb0Pr6GP02kQPWG8WvP8cOb-CeiSVeq17pUuvudzdug5lFnPYlZi7HkfYUOv--2dvrWn8sXawYLnrV-2PZpGZRHzhBPK2KYh-a8UuZL1sOTgzXaEzfZyCXNSKPvs9yXSve2zUCE4DxK0l23hkPg0rRIgQDhTAwd7nHO4VbzLu_cUCt6ByzCLp8nSYY7q97Arn0gP8S-xAvvSvK5CbLNi0hIqJFnBonySegu3H5-3TLI0xRGKXd7fpUjZCmL5j2DP2IUBRLmHAsEstl_k8bE7GCAcKQputVGUhaSc7OwggXnwZP0NVdjIMKIXH5m3P9nGXJYyMjGZIGAYPyYDRwWJMqFuV4eNe7qAeMJCdXty3uhAtJFnfU3wO8Dvipf6-IUWzSZzFDhYFjTAA1LEvsSrcWZiUxSj-JTUhGvGupeCe1Taya8YUhdehhMFyA-hPnY5ykyLgSmorTiFt-bEO88G7T2Z6GrJ3Mx8njA-nNYax2qAP7leK-ISgR2OpjpwGwVQS802hOFGfKo2SN1FMFPyKnjfqkJgD5vc6GlpbfAjS7utG4CtvMoZbuRrosFyCGJTFiH-cMqKlvrik4FLJ4Mbo8Nn6MX2obHX1ay5ne9B3y2kh4uj4aAOw9GeRLaaW2IIilLQU0rTUyGZmrfupkkfO4V9igg_-yrcPQ5s1qJ5krRQjBbOk4Z56G1fKThjgXJxoZVZHNayGwtJjwssx2kDgNBnDsK_iYRrUNuySSSMvsBZhYeGlHrXdlIjOJ6uvBr8TdIwwmLtG9rFgQLq1LS9mDnCgdYogzMrhTW0R1goJX-br19G9PL3cl5LEMBCtwtePzXJMV31BrsIbWMS8bjbecvTaw6PQ8H0e03Lr9H7qusU8K5cCYXWCoQ4y8UfnD9k1PRxELL2wlVDnQ-H08kPa_uxe6Ej5sE03qL5VeuszimdVQi91sx8l5cqF2x6MNCQgNfO4m2sEiRe7KLyD7BKqlKVsMeXJ7GFbCObAxKHslQ9q60MEXlN-9CRxuXNKQMKf2z7fsnfxB0hot-mJkhASjiq7712f2psTtwR5F2iM0ZsHYS9GL8HcJ6XNPPb438faZO8sdvPBBvcMj6AF1NySkagxV4xeRQSAeaIIHijlxVMgNsPb_ejxeZt1voxBFNVqQY6NRM_XHiCoQL-QBEtIT5I2r1R5jLEX0OIRfA6jHjfoltIRj4hx4t-zFzGSqtdxjk3vYZdIHMdL3fcOxc3752BWR0M6n93WqwQW-7C8fP_TPAiEgd-h-TCPiYv5eBnV9-k54g9oYGkt-jC8S-MyrBzpa9FI5fPdmlMENkHNfrfmtLGSH_IRAexs9G0uTfJ-Phv4DBW5hnyjsAwzb_O5UwJ1wDOMYSbMCESr2FouGqHrA3Fxhj0BfgSj3hsnvmeChb8dMhs0SwYclpMz16nXxZnebW_Vabg3U77cu2unZ6nIxqA0wALcAjXlrVYJxdSxrksURtjFXeBFmcrKM7pYcrIklHYt0a4_S-Pi6qEWRZ2y0W7FgERLjR8Yrk2ok2G3k2V5qIYx-m9ZlnRAFTPBQ8T5z_F2l-t8iF8uYx5iyN_4FdE5uacgA51HY-YsxGGzABYVqnPL8kmOlHqprGwdGbjqTa-lBfS6WaGNcnIABz18hPVybSwCt2yL9G06U1N8uruOSJ8_eFlVDOeF3VMfCSrp2Y56ChGp_43Ro6s9lHP_XHHuPP_FPkbYVt6D1hFFnd64MwSeEHEXv1KgibaesMS30cw5w7HdF-njcfWH9FxgfwyAGgc4-lasEPUbmbj0tKMlwkvCxEMM8CBs0LLcZHZxFc3oxmI0aL3fMv5tyg_FtwfFGJiKBpdG-LnFnethybJL1L_iNECNI2x7eKZwzPgB4k2g0etAF3pEgwn7gTkJ4r4DKIIXQMe56XUf3guDw6IgoUWMpFQFQdTBT5ZOwqfmu3j5J1EF2krzqqApH8qG-jdSOmNcl2iC5RNmL-5HibMBHmVylqXfaEMHKd6nP0UdG15HJ_0apFAt-n7i7Q1i51m_Jp2f_N891SubG9mNwr3hQqD8S61sNcBozMG7RPDZwh-R72PxKvqhdcstXGS4cqmi_4lsbk4zPR0qZTIf9zXO47KXji44qRHW2s_YfWViNxD_TFWMi65MT1MOdyWYqAvWAi2H2e7357eqh9FXIKfbFJ98KSB-Wpq1rzzIzMpJCwTmtSH6ML9AaKu00g3tq62us8gco_AEdNov9UN2bsqsGkGJgwgBGRlL5sDTtbFhjUay5NM8I3Pi4ZCnUaEjeIHCn4oDGc5ZsBfwOiNW9oiHvo4duI8qy8cNuNAEOd9xK5AeKXkvALM_kd0YB9EHpEIJhkpNx9FrKGm77Q7Ciq-5lAaF1Fzjc-c9U1Mr-cK2X0u2730KmhYp20A9AGJ5rv6qo775Qeva0DV16lj3WgIFfg2_5zNI073C1ygmAARrAXDTIZNSOpNqxuG1MZVmo2lhBeCuIYBjmNDGMLY8GQD_vSoWIyHUX1R3OsRMEQ5O0V5ktu4ojdN_KUuN6D6ZNSGM-eRHGlDptgym7aYG8ya7oISyPz_KdWbZCbSysIV9azwR3Kexc0KO08up518Y1_nP5od1a_axdo8aynWdtFljllym0tyVRXuJtQkmnkf6cOkgAadXCDMdD-EIcaO96sw7eKQkVBosoPLs6pF_90uPPAhs7AQW4gVE5m6_XLPio5DYswaBA0YmBeCb4jWge7RCLfl2oY2U5CVWYrH34Wbmfot-Dta0S0-HPaSrwW24XMFCOf1aMYhEi1cTnSeqS4A-VpE1DY2FdQJjfWLTIbQii_q1n4l-NOGvrrY4gF3ehBlGtXJhmr9zdQB5APV-87FtnJN6eyr1JMJk-d0gH7wRX2x3WDw53xlfrAoMstItn5HGjdJ2iYf4hIXfqFQJUt3IYZDJ-TJy1AbsLh-Buy3pLdz4E5hiN.iWrCU1lGIKzRD9SnbpIjyw",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1776296668.214574,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "rum=2&id=11ba4fb7-1660-401b-9bae-823ad3e13153&created=1768520668795&expire=1768521570986",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": "sora.chatgpt.com"
+          }
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
+      },
+      {
+        "name": "Pro: Sora 5",
+        "cookies": [
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1768412170454,\"i_b\":\"PWJqXWd6u66zkK7PeMlhiJuHjRDPmo4fSr5nGDYl5V0\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004266.767889,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-last-model-config",
+            "value": "%7B%22model%22%3A%22gpt-5-2-thinking%22%2C%22effort%22%3A%22standard%22%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771083316.082011,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Host-next-auth.csrf-token",
+            "value": "42255209ee00242a46d5484cba4dd8a99955751dc619798d4aa0afa7f44acdde%7Cc8af5dba52a65441dc3bf1c32cd4e83f15a49434249925638517b3edc0060d0d",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916776.871422,
+            "sameSite": "lax"
+          },
+          {
+            "name": "oai-did",
+            "value": "29fe62f8-2443-46e2-8e93-2c9863a4409f",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916776.871426,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "cf_clearance",
+            "value": "2SH8rI.HcZTvxoYrOwcGlN_zu_vNju5G_MnEECPo1EY-1768324743-1.2.1.1-rHmmI2livG7dmbW1MgIXHHatOqggw27PSaOwbEWiVHkKyWVvr4BxjwGJHb6wRyH82_wwZgcDT6GnwmRdSUWaZfh9J_yrf2u2do1YNJsjtDQJuB1Fat5rfCUNNLc48PvXEbnAE5winCKWKvUHn0qklNvGLIUR.9H2dklleuX49XT5j6XgDLahegcTHFvQI0JByimFymbCSnV2KUhuLW_FzX5yzgFnb6Gi3WNC71In0mw",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916776.871429,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fchatgpt.com%2F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916776.87143,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hlib",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916776.871431,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_account_is_fedramp",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916776.871431,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_analytics",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916776.871433,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_marketing",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916776.871433,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-allow-ne",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916776.871433,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-client-auth-info",
+            "value": "%7B%22user%22%3A%7B%22name%22%3A%22vGroupy%22%2C%22email%22%3A%22bamboo9%40belajaar.id%22%2C%22picture%22%3Anull%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1768324753322%7D%2C%22isOptedOut%22%3Afalse%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916776.871434,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-gn",
+            "value": "",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916776.871434,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hm",
+            "value": "AGENDA_TODAY%20%7C%20WHAT_ARE_YOU_WORKING_ON",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916776.871435,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=2ac03eec-a584-4208-b8ef-7e70fd7cfc4d&rum=0&expire=1768325673487&logs=1&id=4b3540ab-3620-43a4-806e-f84dfdbcc209&created=1768324671769",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916776.871437,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a514557346269695259783739746e2f656c522b7a554e4d50436a75542b76656855347a46354b486878664463373847576f",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1770916776.871422,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fsora.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "Ptkk_.xLibdElMsISnUjrCXRNrgN3Tsse_90n7RyR1M-1768520598-1.0.1.1-sM6R_PR3AEB1g3D62m.zslGoJJQg0JbUu1P4yEai2TuBMXjYqv3J5qFcIQCZcDmhCpXZrROwgR7nPzbAVUTQM2drk5q_YrlfJA0vnsjviDA",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cflb",
+            "value": "0H28vBjUqcdJN5F5i8DLknvCQqDro4yRRzTJE87oGAy",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "wcRIIKhweVz7xmvKF_Dua5.2mgjOH_neAZGHTZObssM-1768520598254-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "JQqbHJsA2nemhRygajo86wIxCMUT_SvAHmfvFtXmrpc-1768520601-1.0.1.1-OhBfzhORiOCRkGTJRLvUC0Sk7BMrZ6blmX8S3fGrZdjNVCv6PCpNp4KjfBLPBn_WM7RSe.uC9zYJ.Fe7oV8aKHdulEg6SXRUA6EGs4seapg",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..yt_BWBT3FEj9bUxk.PasdQYjTYMigwPY7v1xgP_E3TA29tR-4a2IkHpKHmR6tUSWYQvVEe23cH4o9l8FGlI3kTjAuqw5dRWGFssuEg3K9eXs90lLygr740saYSRycmry1wB8M7nQBlD8OMKq_wcEAZmk8qbFuuo31y2rmNK-_IXieDkma9NursG-sI7AzZi89Cy1OeOcLFgemWeiHPcS34Po-NI4dVVa7hi5AZDW_kFVLq21nGko5ixFnh16yPnB8OQrMUI9QouIQT5bszeA1CAYSMqiDipgxybHeOakrL0grslILa6oBgUken272CqMqBG97_Os9rBv1DHXHmFPZiXgcvTY8_5HDmty6DqWl1x4fbWRvYndYETg9HVwAR9U7kAebaAgdwLQWiMnYgGuXFQEuhlhEqJrEkPwz9tiVQQIZn6mYjK5JTux0EtNPs7b1MC7ynXh4BZbVlCI_oz6fkoiOObO0k1WXn3DqaaSPYvpqU8WopoiaN8GVGYKW0ypuYrHbmerxn1-9NA6TFZxZ9i44v0gcFeAxTDYPQkbqxwr9aal1pq0KPmpUQSOv4MhQu6NRg2pXPfMUMQ0TnLDLUnhtazu1bpWqN6WLXxqsE0auD-XL-ZtNxdQZ40YAnkTjP6CZWHQEKGWNXSldjd0yvdxF3lIp_zAaSkTfjG8Yl2O300o0v5IZOlCii2lX_FDH2yWLYLFPc3PNIfoWpG3rVYlSo6z6RQyyatwgZW-frRMBhu9JzXGsLGtcrdqTuryZHvo5_xuxkBus0vapDrpVAuNX2-aQoPR73fPRnuw_31QmPzOmGkkSvqQGxx6cALHD0KthwXfFWLRX8LoB8-ZRabD0kpOzUifu4kXEYG4uxJ9VuCDwFEfQyyQyWo6uAncyx8ZOS8dLKPFwAfnGGhWqlsntzvPVadrK780UbHQMHjk_HCBN0dK98wvOgg-wa_Im8YWMK8fDLgnTOkGm96LGRAqeyDtRtQMTPoFiI_lFi7ETbez2ee4I1JRySM8QfKGHe9u1ldSdaNB0PXwSdLuB_ebCA_KndUhLjMp7vS0nmDJoOoWXnq121CZ8A1B_xQscp1AoeV_0Gll6gTT44txKcNMTjTNEswKQpGMEy5bhYvmdXTj4KoDFLPTJVcmZFqPJfZNvxie_aUXS_goPwl4euq0ndDtnZ8T2aVhl9TB9rHLWeZe00kbkfOcWi8eJidOec5IyIp09IjI6hy1AJYqSrB1jOON_S6TbUk4gLdN0RERPq7ql8TyPiGmCNx-4C_U8KHkccY_xcX9NI9ssq9mjv5oT0EvM2Mku1tYsaWPsjwtuL_Ajti8SPhyG0jgoJrOhSt1pUWHemsyWOkwDYVJPeKRU7fCeO6v4-mrqIiYIGgSRw_hk9mHueUrsx-U5LZsAeGGO5nCX9SYxJa0C1uVSIoy8f9CDS00IFDrbo-hcxO_IfFzoyJHoAqF1IUCzQeM6fqAuFu4tDS3DDKN15_Y29roUnfTY5eOu43t5IedhSol9A9dTkENVpxBp41accx7akL8Y6T8ltWr9K9SDMaLkJqYLa2q6xXkP_rgXBsJHSpffftDXF7qRhipri7VjjkfADNFWnYoAyITC1j3Wui13ek8crCpQFK_okfzmPbau5R07w0hWCAJYt15irb6T8C0KY1kOiLkdGqWf6n-RZRD56TGW6qmE6KUZvqKz688tlWoGCFgTgh7j_GiFYxKOmyBiMiwN1wgl2l8rYnAeSrbKJV0pQhxH9HL17ZFb4sO5bv9uGHeRq6xFATEG-0-N_g5e5JNeS8W68_YxR3VV6Eg2cgNdX2aIE-ZBjfmuq6MM8b79_QfCghy2SzedzW6eWAu6w0k5rwodym3MRfWQxPtaLUgG-MVpe75vddFmGnglRz-u9E59R4cu-dbUopWFf_QL9ouPOsMHp44OHwWCTeUz5qJqyjGZLuStRdWPkm_Bl7oMrBT6dQUTxpEjIz-ic03lwD1pdoKYlZ0P0xUD-85jquH4WMhpKTt0WUDet3dfgYXZzD_AleTlHx-1oo1jGPuAwsR8Q8a4eMzgzyp7IgXmsSwMi7ZMCCq5UztCas_8LjRkqd9MRE4sjvoZCac7rs-Mq6ymBXU9OpxVn0AO_DOnojyIWyhUtqqwhPSkgJ57ARn83GpH20zXxaVsZ_Yl2EB6RvTCiqPT7ybegyd9Y2t4SRIdBYjsksRWTCczAi1U0lV1X0ebJNmhMveZUU40cGT3I2bvxpF1okJKxTKpBPWose0I7iByoKH6JbffiT1oXz_1W57izI1ZY08L60KCkM7MrJDp8oclHeVLLJJ8x-VHtNAQWyukounGghhk1TsEGCgLHXHtJcVFGqDBVuTyLE3H6qLL5DP64JaRc2erFh1_ctVgwHT92Y9u1Qwg1q_5z98cHxu4nP0PRYWKNOfF_bp0qv2YdeyI6NxDbf4LIRh6wSaruCQ8kHnxkNUa04oEm8_vJb9h3F9M9-oWhlB7Yv1ytnhwQBN16F-Kx3hDEPAqecUTV3QW8LGbaPm7ZXCc4KjrRZYCjmUrXiHqSdEP4XgNL4evtcwedA_dyyfhSwBmjk42z6EYBWDND2UW6AXPOUyB1Iv3ryjfRugnXQIb-bqr3dTO8drT8efy6AfSy3JR_PGiEDt960HPKamSYi7l8NclSQO7m9QBzjJ2u4Nhw4OLkmJPwcc0fpikmd3_EfDKPtaho9tz7UnMe6liE7iKqSfaD0m0gKdfOqZgfCtNB_XRSyaKDZ-jMn9LhisxES7XGlrH8i55Kq2F0EL0P8GpV2yPYZq7NmUFuul8Udt-JxpIoXp2d1Lhc-TeMVSXbBWPEyEeUK89MycyEtFR_ZB1VCicsBSKXGQztKauvV56dcqQjlqESopVwOvFrM4-Quk1bNwDnKCUL12FzHN83MywQJR-MUxgTnAv_FtgWBRul_Aq4u7U3ZvUvEVcHNCfke4T8VBY-8v6T4NjgwNzrrqgLyhhB7--SbV8qRXPDxK0dHfDz8eDj9Df80ra_j2lCll-rojyl_30JOgUGH3xz1EsYTEIV-uHe4qrn-IJ_V9dvysTt6anofX7uCh_l-hmMzRtPQn95WaHujphhz-tmWgUOT0dOsn8Wh5ChqGi864Ccl-7SbWDrcd1HDNwjcZzGgLzHw8JJO-p7A6W3eqUk4RklEVwwmu13c0M8VT-spo1oEWY5CMlxXCn7ohcpelYO6bVVsvVTV2KxiM6xg.jGLt6tjfEkOXo7gMbaH6dg",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1776296621.034504,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "rum=2&id=28d881fa-6538-42b5-81d4-36a85ed1a591&created=1768520615033&expire=1768521515033",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "oai-sc",
+            "value": "0gAAAAABpaXumQjyULk5EquTtIPD8AwLF1qUcqC6cKEYFHrgIKQDo5hBXKk6IRRHJcQFGl_iUUk9lMKZ12mdHT_mJvEP2YKtEZ13Ovn431fxWhTL2QihuXImtTh_58oGRqDisVE3XmaEH9U73mocG9wGdFQdmpJ3BhltWvFSMYsRHcxsAvD0mYgqqm-GAiaCh0jna-d8LpSBU09gcYMnTYPL7fN-DV68cQpdHPBU4Y0SBilH3_7XXIC8",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800056627.2888,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          }
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
+      },
+      {
+        "name": "Pro: Sora 6",
+        "cookies": [
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1768103717609,\"i_b\":\"dhYlttxNBcQWbQvBM8aBWS1BANdHnLeaFUoAPvSRwgs\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770695760.692063,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Host-next-auth.csrf-token",
+            "value": "84c8e6eb796389231c6af29d315447e40ff6fbabde85062e2520b8bc6a1dcb51%7C20789d291642697812250e377ffdcb554e9704919b4634b68d099741d1b18880",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771071138.58879,
+            "sameSite": "lax"
+          },
+          {
+            "name": "oai-did",
+            "value": "1c400520-942e-4ef0-9255-d8637df4b435",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771071138.588792,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "cf_clearance",
+            "value": "U7DG37NTGNpen8DUE8_p4tnW1ImITVV2bAOOhEGwIeg-1768479180-1.2.1.1-eBYRqALZplO413TZ420rl9z6Ow_hNesz2aSQvVGNNq7yd77a0ajHDpgEL.UgOWATr412awaFf0qj0wLJDvvOGrKnRbX3Bmk.bmlDJoBgNxyNs.9UeP9LGJSi6Q7ZOsOKrkCaFLqIOF6G7fxHRZrfZIKP9SM_iBZECJDPeVlQShu3.SJMwmaM5s8oQ08trHMKJEmMWb4Fbbxu6kT_dG5tJsI6l7JnAGWtnMUy1x09l3I",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771071138.588795,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fchatgpt.com%2F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771071138.588795,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hlib",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771071138.588796,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_account_is_fedramp",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771071138.588797,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_analytics",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771071138.588798,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_marketing",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771071138.588798,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-allow-ne",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771071138.588798,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-last-model-config",
+            "value": "%7B%22model%22%3A%22gpt-5-2%22%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771071138.588799,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-client-auth-info",
+            "value": "%7B%22user%22%3A%7B%22name%22%3A%22Johny%22%2C%22email%22%3A%22aasdwqa%40rifkiidr.id%22%2C%22picture%22%3A%22https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fle.png%22%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1768479135700%7D%2C%22isOptedOut%22%3Afalse%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771071138.588799,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-gn",
+            "value": "",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771071138.5888,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hm",
+            "value": "SHOULD_WE_BEGIN%20%7C%20ON_YOUR_MIND",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771071138.5888,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=0b26dca2-9067-4052-af6e-db933430121b&rum=2&id=c83c01e6-c9fa-4b81-b478-0bcfb2784b83&created=1768479104255&expire=1768480037693&logs=1",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771071138.588802,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a514557346269695259783739746e2f656c522b7a554e4d50436a7554726b596f6d702b614345346555547878446d387164",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771071138.58879,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fsora.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "o9WQbQgyhYJmv1ki4vdsAs53vCUM31J6H2RH0YCDmyg-1768522208-1.0.1.1-DPGQPBR0G2dlFhdiMJL4.hh.jFBnuZzsQSYS.fkZCkUMA2OA9I5GdkXnRWQjKDh478nABaHYjkYr5NC0rEwXWk.efj1nSuWQRf1MRRJcO_s",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524022.203981,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cflb",
+            "value": "0H28vBjUqcdJN5F5i8DLknvCQqDro4yReYW837Hhs5X",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524022.204025,
+            "sameSite": "no_restriction",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "Aj54vL2poluC0R42AQEZCykXSevG8H1_DBkbztLqpqw-1768522208917-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "HYLJ52iN83we_bFOQAhex8zbe0Rns4XJHt8hAoNH7pM-1768522210-1.0.1.1-d.QIK2OHfquWixIWbwTZ26HxVcE3Azg.Kni8FBGBzwvLbI2cm5RwzMUHj0mhn1hVZQhotBKS9j9PxI64iitWagYrjs4V3FC1uXqJajZpyN4",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524024.21857,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "rum=2&id=9ad93b61-bc04-487c-a5bb-b52e81ba44d7&created=1768522224041&expire=1768523130210",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768523130,
+            "sameSite": "strict",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..lTju_TOFHeeIw6Mw.dRCS6S_aeixjIdtaIx6gbL1pJrg-eZSPlZ5Gx1WliXlztI30UU1SrnxPyAp6u61TITyUazC72MYJMIdCAVN3bumHBHylG_k_XQcbOIFKylTQm0iw4u2PmojFvjGQHylyhYblyqXf4cFVUqH1GO1kBxxY-_zxWkZEt30a8qeghJfCqOlldz11oKY-8H2tbjRqYB9GXinv57iE_i2YuGBONL4O953SEzaWT6Jn5wU5CB9DE02Pgtf4R36ejA8KZAl3ciG-6KJdpDrV1vNyAOxiYEifH2Rxz60wVDhwHsrTrUIm_Ga3wrzEpww4NeqPzskKr-yDQLFfdHbZrNMEtIrGc_GHMpmp8xBgYUc18wtamKryh6Bf8hkWT2-PILDNrPE7p5ycWMVp6DYrLAyp0PjP2cRATKhLzqmLnlSq6PXv8bRGbljUnFTXs4hXaghVzGcjQuFsVQAe7LZ5ocsWP0yLXqO1twrMOL4vPbEQwHgjqEzPxG0X0rJU_0qcKd8HRN_fNAk86QZHmuojejiPrU6ak_XX7QVDhwIKPFHXrR69GWRvCumJ_slLFw6hw0UtinTx8iIXDwWP3AA1NZ7gGibNvHP4T3kz2p_6MBRCrhdEf9mwMdQCv0fIR6L7O9RpmCPM6ezxLnvPiF0nOI0FHCLunJa9jYBccUZGTAxe8t5em0wDAER-yGBPZK1e42VtyulCGccG7b84bxdp-TcJMFRfaqMFdeB0yfmS6pj2KL5Bcb9VqJIDBu_OZNaWHEnj3f6GlxKNS7K0TmOGB6hpdk_3E52Qm1M-JxOyW5orvg4lmRAZoVL7N5_WRBm0mxMu9ngcsw0VedeImK2xmJC2IpUfZjOcWcumo8dPQfDK_D4__dZYHSn5B7taGzDZAdXcMO_Pl2CphEH8Z5TZekqDtNTu3mEK0ATJsdtDyz4FUxwsv8b5--vZtjs07fKgYL5Vh5aFE5a6G2ErBUjfmcW6vbRCQa1vkYnd8PTwsqipixG1bd0OLEnpG1iAwf7eLaGvQX-xZKWy_YdNaZ5eP9MJ32hDniFAMZy8DR8AbtfH1xw0SP7FYafOe7q0YAlD2cUEVdRYhv9D-XnhXACM1Qg5DT2ZleQfdpJnzXlu7p5WhbgG5JISzs4AXR2y8AP6Mk6srZYlwbkYq1HDPKe05S8OoqDCHSebqJ3YeejoOCbqIgC4k5SX81lxZJbkgiOLIA7HGXb8-C7FoZlo5Ap_uErq-e55KXLWXvEBMw_dDf62h2nkwwyCP8J8cERWIFEZT7qvucmDpm0bsmKUt01ayXOakQDfqn4921O939ywu6L8oVl2lyaO-fj2WYUgk0kXje9ejn_xGhf0g3NRmJUpFq5yUWtCjsfoSA8rh1juPkgKkO4i80aZVH6fYbtBtJhYNPPixgv0JoxOQdE5iBo0oYZLYBiipAU7uyrp_y9_gL7yy7_b0yn1IyAcLBxuLNXncwvAEVlaANcqb-_SMl5c7XBDd31Jt_ovxSjQ2IZmZ3tkaMIyBpY9wyWMpJBRYWXtThDCFlb3NIN7MG8WljAAW9YOCj8T7jKfBiHGMZ22q7dJKAXpkX-wS1hc2b2-Iol7Ndf75y4wJMmuJeTYKe1PIZaH2PmZdLbl8Tztf6LePiz85y83cTIn-8_QpEhFupYK3mAl4UmhV1PR9_2V1XT4ctPHg6jq_0mTFEddBp12kCTzI9oN3bOVKTHozw6ugMQ0ubVCj_WUXUSWaYAwWF5xnWqYMQFYITYLLb_euLMsmqxlUcFqgHM5cnhjgnx1DF5i0LPKUeeLJg7kvtYeyvrl2X0Li5QbCkmyhxdqm4ECJ9_9ecy1okuiuLE7qTVsZos5WYzCwdpc6l3-O0qfElLZPGyC3WNezYqAtTVxNeS_85O5YMD9oKKuuxyb0UIlOyxQ2fhXkvNQahHuH1W7oJ4TxiSvUgnlUwaQX0HzP3qvKTjESzQzS1_XHtdfQC92UqkdfRLHLVe6BZufDP_dcjKy5-zc8BkYFH5xgGZ1Uqr-dT6BIFez2s7wKNomrdOjANHWAYszhby8Av_FS0fdsSGj9YOtHCm2_Ji9CXMU8BD4g7tgmWqljiaC7tyIuOEelQcj_F07zbOTj0DzRq7gpIV-AZvYz8Ee21nLkmJnn8peD0ZKzLSwLzxCjqGwqHsVj_QIapBgontl91yBjTBtZ6Pvz2pEX0FWatH_-vSz4y___7Oe7d09peo0fCwc3iWSeYQCJnyZ8OGtsa_2ciew5bLJ1jiUgq9e0R57W4iK_t8Hf6tgNVSEmd8-frr8Pbtrg3LCi7Pj6nLz_NYWhxUkPlc-UIfBzgxyt5fSubMgO4YUnw54QFQ2QyzuE__HZRsfiXq3x9Fvb6-iYPTpePAGWw5-hUshlAp2aoocIjZ82QWqYscybVmNxXthJhCvzG0UwJLfSmmGH9z71SW8tzQAUwn1JeEaqcWCvjH1m2v8qGVSwbzr_LwzTFaJwQ0QP-NH5t-UBMZY7j_ojcCjQVYc1wTf31e1JOurGJT8_TEAin_yiwsEsV4x2ehH9iHTrsNNa_XVlBXNzj4udloXaRCvAECM1a6KW5S9jKbZcKf8w3qyIdnqxUdk2HzHExSxrX1LlhwJMBUej0nXa27sdQABl-tia135l92K1bIqwLPEpienPgFV_P7onfdKb7DtCGEGxWw_ypSUDshK0FbK786OUrhMfXPUUYqiHALIZZ2lyxfs2owD0c3Nl_nn_8yBJM7NPIg73DMtUfLS78YAWD0w6DDq_QFMLsX0OMALzF7F2NfbH57eptD86melNmwqAForpdZOW4SKfPhZsiANb7rcWfIfobid75RhdIXtT2f15BvpW9QhzbH5_RN_abnlZrMTWsQDL0LnY4ssHk8wInvWs0xappzOek1X3Xm9WNf3ofxaSSgccIsqsJiJxdsDZgvD1PumAARX4TGSE1SQcwevyLXe0ItOdBFeXG4kTVGomSV2SZHzQ2YlSDdJwFn5pK2yj381Ubi73GJ_NYdgAAwMhwVhZAFuG-vkXTzRJcIVxuBzM8zRRztann2iwXim2huti5EYg6e_Viy0LHF6QhFL6QX0iIH3x1Xmq0leQJ7Ieun9t8pdIoVJQOJKVdzPulyoS-iSTVyPHQ0NSTAlVL7wjLd09BEzz8cMWkdz_LqBhV6s0-dNTNQDuNjpgW2UYBxb5-80pEKgXe9Df0DOTHz_93xl0CN1Ug.cWUn8EKiwdkqD__DkVpyqw",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1776298230.860388,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-sc",
+            "value": "0gAAAAABpaYHpRtRPRoJV0L5fmBEbyndHDa3PUPqw_UUe-AcRS3xKWiKZifpDQ-mP-BPZTcFi-807MhGjxpYWS-4rP_RARTNenvwGvb6oJdwtUxfULtrbzU4tcKNoDn0jiNlAoV8jP0Mz2P6KfWosNMU0pwrkYii41HTn3bWEp1Ej5f5h5i9jZD12yOWrutlzEuJUxaSqPjvhSKTMBvptgxpfN6dZyQ6-0Yzb7HwmkSRzIKmt0tMPp5A",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800058230.963972,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          }
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
+      },
+      {
+        "name": "Pro: Sora 7",
+        "cookies": [
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1768103717609,\"i_b\":\"dhYlttxNBcQWbQvBM8aBWS1BANdHnLeaFUoAPvSRwgs\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770695760.692063,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_account_is_fedramp",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771071138.588797,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Host-next-auth.csrf-token",
+            "value": "3670841de91eafdb0b609a960e15b75541103a92442cfc44eab1d85a9a68e727%7C3882024813446f62ecb893795848c7f48cbafdba628fae48c701e4544c28b1a4",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770258548.30301,
+            "sameSite": "lax"
+          },
+          {
+            "name": "oai-did",
+            "value": "12dd4cc4-1a80-46a6-ad3f-f2f5fec1a1ba",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770258548.303024,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "cf_clearance",
+            "value": "18RaqSDfXJi9zFQVgK55ziZutZz1TBKTLtEExhdMDZ0-1767666437-1.2.1.1-r0510i2bjc29rTsUgyF0ctB1ATi7oH933eFOtSfKQCsn2ZSmlXPIeiVbaPL8TVvISi8eQDNsx7LzivHDK63d5oAOq5gBB80THFY4rW0PlSZRpJrM0Mfa37PoIKv2XGMl5LI5KTqbSoutIhDV7VOud9h7OuModw1w7xv4X0C7mTRlCIY06sRZaJ6p9_PYwRnmAbYcKDapsVtUj1rJnqurmwB0O48ijwbRbhpi9bXjK4U",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770258548.303056,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fchatgpt.com%2F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770258548.303068,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hlib",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770258548.303082,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-allow-ne",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770258548.303105,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_marketing",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770258548.303116,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_analytics",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770258548.303127,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-client-auth-info",
+            "value": "%7B%22user%22%3A%7B%22name%22%3A%22Jane%20Mutabuza%22%2C%22email%22%3A%22janempcka%40rifkiidr.id%22%2C%22picture%22%3A%22https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fta.png%22%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1767666528462%7D%2C%22isOptedOut%22%3Afalse%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770258548.303138,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-last-model-config",
+            "value": "%7B%22model%22%3A%22gpt-5-2%22%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770258548.303148,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-gn",
+            "value": "jawir",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770258548.303202,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hm",
+            "value": "READY_WHEN_YOU_ARE%20%7C%20DIVE_IN",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770258548.303213,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__cflb",
+            "value": "0H28vzvP5FJafnkHxihA17ycgbd1czZCd1e4BgKZ1jR",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770258548.303224,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=ad6a27e0-bf8b-4037-83eb-769c5d3768a5&rum=0&expire=1767667446978&logs=1&id=89471085-b31e-4a2b-a49c-78b5affbe5d1&created=1767666437219",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770258548.303235,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a514557346269695259783739746e2f656c522b7a554e4d50436a7551676c736b4c6f696f6b723341443832537877754252",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1770258548.30301,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fsora.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "3AS2wGGg8TD.m.vsRns_KjVcGvapp3cnpD7SrVdvClM-1768522223-1.0.1.1-5Ffs03RwPTcm.oItDkS13J2JVmegnKqGdi5AUlyyKKCOCUf2f02GSvtX8w8a.DFAUHqNFYNFPjaxIxeR_xA5XjzTlbHzPcZbYs0TiVHKeVE",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524036.721593,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cflb",
+            "value": "0H28vBjUqcdJN5F5i8DLknvCQqDro4yRgtKYEQkcNpm",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524039.064551,
+            "sameSite": "no_restriction",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "vm7unE2RXCVu9Yx3Oin6M2CBWDmbdwEP.tpLCAJSntI-1768522223603-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "f369BooZh9bjDNCjg6MMeFU.Wgs.lFS.omNUoqV3UWY-1768522224-1.0.1.1-iBdhpfJ0KlkUFvNXh6bwdjCRJt5oG2dZKkcFbYhoQ96yLZtKBIBqNvTy80yObrfUd6KnqeonA4pRaTGChuQTXEbW3E01FzDd0gcte5hszHU",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524037.315008,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..LlMPMlsb_E-NIa5Y.Nzflj_HblqlNd1ZFLmslp832Lg0BufMJFnzj1yJmG7RTjJ4-7wglTSm4w7D9MGx_zF-MxOlPr9_JBtN2ZtRYl2ITtTLCGzewO2b4R1Cu9t2dFM38HyYBgiCZN59cKrZ2J4vpZdIaviT1kxH1M5NjPTF5_WJbI2wO0baRQA-y5khW8VxYcxRP0Suzvsv6b6fE2SkGtfAjnqwi3Iw0BHrbRkoytRaHKFKtTvIw6eN9N5uRStU6-jWzzISUVEsyCWK-d7XBOV4pxADLlQeEdbZ0g0GHuKqdlaHtLdEYWmRha3UF65pDeNITuLPMP3V0rNcDNdsYEpXnvZrpJYQeUAu6xb-k01VTTiHRZyqX9Zuu4oymKAPpfJ2ptTVGCCdmJap0_1n3Wd74eneMYmypXYWQZL7-Z5YDHNHqyFU6CSaAhRvo0C7wboBxDMbaqe3tdQwZmOqr3RBbC4slvTFGadKRIw2aIM1zOyJaRgwvJuQbSRZvT3-w6eLerNmUgmKvORj669uTXliUUMK1yAWYx_wZ3JXEaACbZrQAnCTH7_jjml6Rnx1Fxu8dH0C2UYGRKU_XFnVLh7gkF3m_9WTUhwGnr-wYMkvQhlKgjqF3QH-NL0PIpza4h8toccsEB6d0HbHg-15t8nV4Doah64zdfzY-RX-Ukis_7fhKKLTUcbURu0UKWymHqnbt82BLdF6GwIPbqtDvp39lSHM14WIj9IvuGO9qrmh3nn-oO-zCCNxzam-4L0JoOLZy4-Bfx9qjU4cuvkJCOtDPx5gQK8Fdei8waU3zUZwpT5UEptjbTDeuneq4OyY3TKnArHzzAn9uLfeIUEbIYuh9TgnOSljjMGckMf3dNfEXDyzqR0cmGsvOmEACEiFpUQCAV8u2-J4KXPTd8kEY-JZRDXNIb3Q67sZpkFnPKTnSbK5yjqtx5quw8A5DCHJGAzTQAZmYeAikbNBSZPf9Ho9Ca2b7MWDvwrmaGX085nH8G-9CA12c5N_1n-1Ztmpc4w2oGRzNrJ5KiN_J7tWsL8hDK8UBbAAqeJllOm57k8q36x4_DiIDiebp8hAQCmLwUsND9hHdi0-IfLKj-VrSUa0PbF9D_srhDkjWjbgxkxk9Qf7gooFl3rrHfTJXWNsfa6JkeNCUl7wN3ZBgmo-VfDy_gM6emMBwGxmmv3GQH8YyvZiPDqzSZeFAJhG6EBb5ZE6K56jyJeS06OOY7vnxcR4Xv2wkCJPA6wBncfKq4iToKOwYqosdKwJ8CeiW44BoXo7cWDi_LLDgjSROPoPvrhJDo5YQkAlNOCXRNN-fB78y5Ia09OmTEITl2Vy1XDrhagqcPDXpFbGKf5wce4mxdmDyW6B4POTT1Y3TBgIzIdLi5kn-tQlJicWJGIfDA10aw4GA3KcPhKfN1j9I0XrfLgQyGWy-ePBOstTcaoPGcPw1XYmLzjBCJ3ttztr8TiC7FJDoRN6H3IWH3en1Il7bPnEKpCgZnv__kVG3HKW7csA6bCJ8jBnECDeZ3fnGbhVhfJDsgMZ75tAH1O-Edpd5MIQsPjBeORZgbRl-jHM13BlIcPqBqzDQ9eq1VtVkl2OiwXa1bR6oc06J51SOXDbB6T3W9bujLeWrX_pM4YkDvRnVGIFxRIbs7m99ijqapitdGmsP0p0OFchXGlf0U-FheU_xbmPVB7UgppjfpU8KDaW9Af7H4IzAq2onlfb5KWIeIKSh-VcvHZkG37UP0xjzXKC0GD9qQwqO-DepQd4E-dXoWjiffnol96D-KKGBHi6IATNZXTqHyXlQSd_di6zuhLi2467yRYTD3QKC0ULxAMYuqPKvSUJmaBLdcn4ZgM9bH6OqAX9GMBLHgCREelzvqp_nTVE6pzLYZwBUs4EqQtVGxNbIaGvPs-dIOk6JkAvLD8wGpYI4JO4PJR9FsOSyl58jpDSV0eeAbi7FDUZVp3QXmxzJ9dlmKmxeF5V9pxQ2P1q7Lkve9cmAE-IiJxp73KWnk117GsCxBlki49vAHjlXQdOgpzS2l182lH5q7Q23ijv98gT25kvh8DzYZyivw0zUgZbQDb7EFZ9kNQSfQOCI_OIo5mW9rMChQ6_mYHtJIssjG0gZYWV7AHrDFi474Z9n1cEBfZienmObfX4C7ZuASmBRzU_640JVDlWO58FHgKt36Ffq6HH96ToSpTX4xE1sfWLk9-qnRma21nf_H0V4EWdQ5KJ8JKgLuNU4QV1F1opKjYyRN43FhAAFIWm14aE85ddjgmtpujc9PVuIbTTGuDbjRraINhZDSGIWmQuCb3_A9pl4S3U9o5ZBeGKSbqJexAAAuedP4waxCLttNh5zSV4emXOKfoNLpp11Gv1qHP7mIXQik_lVu6I8c7Pqcw1zyG2mazvgpdeXlagP7YlduovXrmwwgB9wDXSLKdma3iQAbOAjd6zY225RWh8jBlLWh9BXug-b0dSdggCqUgwyJlBpZrJOuJZfOaMBG6FjTM2IIA4-o4Qc_55wckKLtBasEKIF8_d57hT2IgJh8YVTdENlOtqYyxEPwV_kWKoHCPBnDpWuQiQZRNf82lJPsK89mA5SWIbqaFgZCo5NPMcoWvJG1aUWPOJuxdhpV7Q4Y7pFBIMhMgateo9OtBNohBUiUpKvb3Ie_jK6qGyTervTJYtqkcjNkaMWKKpDu7ZvHfXTTgV3zaUMjfMFtXHREA47jlNQQQooB1deLLh9-Nh5neO5iVKUqeZs-ZG-WWJ0J5-7zQkFI7Vx2D04ccP1sgz451sfNWhyGT7cvQhvTrysRGpZRbOWtulwYIdTvDHN0Ga1Rnl0JYqeuNe9HNz2ILHv1YXqdkd3_sADLTlGHpAfnwINwi8pLnoX8C2Kv-CbASBNW7TWZLo8Ny4a3yr1orxZ42umY0HMwUWdCuzvAxlLh9tbXKC6BSZhtVNgHHQSzd8eukyUbRJFaD2SipGO-lbIUuihRu6WUZtGmSK1Z2-1Kvi7lMd6vDAZqB3JiEcx2_5fGoSPlaOviabEbuNEqby02j0ozIB5iuV3DIqp_0Uk2Yb_8E3xNwYV7NqnN8MD8eIK9gUeID94Y2sgw5XSp9-9mBUprm1BdjWGorMf9XrqmwfncCmUPCJON7H2iOlMMag9lYpXbm160D-aKHxNWGLy58nNFmtQ166YCgq8_hlEyTEGnbP_BpqgG9E.LkHNCqLGRF0mwByfgJdNDg",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1776298237.16072,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-sc",
+            "value": "0gAAAAABpaYHx8GmKPynq1hLHT4JNJu_on_ZJscn8O_9sJyFtRneGFaw7XlngOkNYcgysxo-R1WowDNP05SIVBah3qlnBFJj4TfvQc8CJkjz4sbsevKVoNnqR3DjfRvQeScry46drCYO1U4OL9VRd7yvzXDcqtR47ljduirA7-PKfDDuN-B97ASqSde4cF_sXe0D2PVRNjycR63C7UzUQcPjdU4e4AVYg4Y0qG4JQdNXFlPeUJu1Bd3o",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800058238.190024,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "rum=2&id=f637164e-6639-4395-a8e1-c298c2be6e34&created=1768522237588&expire=1768523138601",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768523138,
+            "sameSite": "strict",
+            "domain": "sora.chatgpt.com"
+          }
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
+      },
+      {
+        "name": "Pro: Sora 8",
+        "cookies": [
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1768103717609,\"i_b\":\"dhYlttxNBcQWbQvBM8aBWS1BANdHnLeaFUoAPvSRwgs\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770695760.692063,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_account_is_fedramp",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771071138.588797,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Host-next-auth.csrf-token",
+            "value": "fa432d2470ecb998349f5b531129c4a3563b7243578fa130d705cf9973f9fe48%7C4dd4e20d9ce04f878705efca6ba63334f5f8acde2bc54a962f994bcdbcc6c0e1",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770728450.896058,
+            "sameSite": "lax"
+          },
+          {
+            "name": "oai-did",
+            "value": "db7c9f6b-a289-45b5-ae97-c0cca1f6d9b5",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770728450.896061,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "cf_clearance",
+            "value": "kfKUGAAR2E96UslqSp9D7gFYdnpBY_zF5hfwlSLRMU4-1768136443-1.2.1.1-o.j3a2v23WBqIrICpX6rL_ioNiCbfkXrA_B7K9t3WAdw_X6H01EHup8dbwD3yOjcfDSECsiXjKPt.n.vwdt5f3DfieC.N46WzCi2z8oAHIkJys6GnpPwdvW1aaHIgDMnjCy7wX3LZ7pC1eKnzaIsLOhZpWvWdOucSSEPAzJPlI4NhApLDBN97xRf6BZu8prf.IcBNlU4PHoT0OT.MOtHXgNxrbxG6Ea26ZjiqFH.2CY",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770728450.896064,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fchatgpt.com%2F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770728450.896064,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hlib",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770728450.896066,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_analytics",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770728450.896067,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_marketing",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770728450.896068,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-allow-ne",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770728450.896068,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-gn",
+            "value": "",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770728450.896069,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hm",
+            "value": "WHAT_ARE_YOU_WORKING_ON%20%7C%20WHAT_ARE_YOU_WORKING_ON",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770728450.89607,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-client-auth-info",
+            "value": "%7B%22user%22%3A%7B%22name%22%3A%22Sintya%22%2C%22email%22%3A%22hendyanwilly92%40cyberjoki.store%22%2C%22picture%22%3A%22https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fsi.png%22%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1768136438242%7D%2C%22isOptedOut%22%3Afalse%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770728450.89607,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-last-model-config",
+            "value": "%7B%22model%22%3A%22gpt-5-2-thinking%22%2C%22effort%22%3A%22standard%22%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770728450.896071,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=a1c07e6e-76bc-4c87-bc89-20b7c05f9349&rum=0&expire=1768137347705&logs=1&id=bbf0e98d-8519-464a-a9cb-9a2c69f986d2&created=1768136377329",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770728450.896073,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a514557346269695259783739746e2f656c522b7a554e4d50436a75534f4d3836302f5050324e4f6f366f464c305931645a",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1770728450.896058,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fsora.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "noYYJG8L2Jy9kRC6ziIiEGgQWp7l4EuE_e0O03MoBXY-1768522232-1.0.1.1-kK.wSuEVTNM3bK6UEUh8tJBKTrevrDWGGMwaobyo5l6Tq6UsFxl60OgdWtwy1tAvCvUaYkSPwDZJtgTUJsMm1_It5Hw.8N8QX85458mHodU",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524045.409249,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cflb",
+            "value": "0H28vBjUqcdJN5F5i8DLknvCQqDro4yRiPdbMg83rER",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524045.409295,
+            "sameSite": "no_restriction",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "YBWbPmXZUDIyLsam1TFRECjoC6n87C1FA_KS3cBRVr0-1768522232268-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "zpz7c1l0QdwL1xLdYY4Ui3j5u0FwQcJo5Af0sVAFysg-1768522233-1.0.1.1-7uWmwJUP_AhKMhbrHJN7f2fHcrwCQVWnzdjsIh0OyIcDewlJrE_hakBbvpFv01oAcwdUuwJRHb_LILI9CNyz4sajOrgOKUV2sa1l22rby6Y",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524046.149907,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..bA8xzUJBTbsQRxjw.CBLk_Qvq77PeiqiLef3Q4iwuKmMqxNwSei39PEIX4xvZnPeyreyCDidujMmR-LcKoiEG4l6pueMwtnM5FveSMNG3vBdKCaBcQnlGWTiE7MFUDfhl3laICdQEb8ob5ujv7ByQqXxgz6cvmn_WVQ_dCTZ7my7yqu5-h5Mr0gVwQf6mOQzmvv1-suqZacurgHN33LGYjBNRyuo_DuY-YmsZnT-2TeR9ASPauAJ1Bfny4KHRAtTgyq9xz027Ys6GktAnLq6d6bRnQMHV05VPUIxmtFcK0M8kEbuh2_HyUklWJYSWxbYLVTjA3o2hzEQm0zsNJZkSuclz3X3-1z2d-aY6-Jaszi-NiE4gx7pdhm_CyKfJvgn5HHDo3O_0PtLfiqVSBHhX7Lo2_S_Q6ZJdqiD7BF4veMm5VUGalOJ64ry_t9YF1dmUJ3lTU53YO7d_iMB6sZieHyuZkDCa1Xsc9S8FNb3ukSpppjqGD84gcCWOumwIyflezpvKKC300-voX7uRR8BcfXcy763jY3qDLsEoL8zG9G4oyMD51Mej4HF0VHqlYhvwCaLzuZxTMHsCK_elGhaDYndDnQee6ep0rGM579L10kkFHj6sVlQAOkixFdVXEiKJSyuI2Z66qYt2oXu_LmlHsRCT4nu_3O4OudYC6ZaAMXVsy-O7No9iq6lL3kcm6-NG0RxdxoYOrzorzqxm2-AySZYF_FB5JaFxAwIPiq2_C2qaE1UYE1cPnzFEb7-HyTiPFKP8_d6F86atlIhZJ0AiSa9l6nM3OCnRvyC2HQm3XCkd7rKpURyVk9oQQ86UEsGQYyIJaVGjqFTP0KNtv7AatSXqj3d7RJY1oDADIpIblIEd8Tc87VxWBVgCT4aFQuJCXQC5lCI1gicOOyO4BU5AqYxYz9BDaLjrWVoDNZ4gijTolX1-Bb66K1y8Q4COXEJAUs7TbRD93pE8w0fJ2am_mbVrONKPuDY_KVh8tfCW3AFHSbiqOM79sGvewr-qLqZRka1sPlGL9BsM0uo4BKgIgQfvNIZvefTPWxyss3Em23zL-NRjygQZYlNcHYBhU9B0fDj5W2Lz0OQuc4GxOjVkMq-pxnlqlYmIVcuQfH9kCi2G7yvU0XynIZ9j9JxxdO0-_-88Mt63XQMR8a7cRI1aEj4-wNmOAw6nZH5QHNqpWh8fLS_5FP-RvaMQ4FzW26vbFCkFM0RYvmmaNFopMDQHobY8F51ucwwURjsde-97CcxtJmGJbts7AvjKEmXVYjpxrmvNub_lpvDVTxL782-dr6KIFANSKKpuK-z-BWqIAXtfvMIBLldYlIEXNFnYf6rC-DhsIMtwEBUhlT39kOWypRZ9C27deVtVE_9f0jZ0A63FyIr7Y1H34icTeeMfF-suA-YBsYVmePBApkg91YSHsWlHtmD4-4D7-yp7FyuN65iwpOPJO_YIIUtC0YtegsC33gVVkYmjO7vI230maTGH9RmhbB6vSxJWJpIKdCz3uQIpC9B38UIODcPIqEMaVbVqeou9pP-EP4gpkyn5SUYQHDC_zvxHWKLE75rjsWGhh09F4m_YOO57QwSu9aOYpWz1e7kXRaat93JGOIDQCJd9vK5be8qJHA8EUVbnrcYjJUkYjeayQRalqmmLoZ4rXeon_2AjL5uqBcyEHqmUkvSWi0O3xnOVi6NflG1AFSOpDz01v_03AEckC9RfJtcL2qvRrmc0b4DjtrHeo2vsEs-4T-nSuHXOjK2znMpwevRDxLdRvKs3UNWfEjbfAxe6jqZqD1XHO1uZUCHgh0y06dtoEmgwIXoV9WSVCLoZI9bjNEOctJwoK2Y5DyHjbETMdNMp6VJ0glTWyOcGIbFGTAAK7HG9B9jRvPAHltCmYNBLkhyT_ZHc9kMmn21BkhJqy0SvBvSO_YiqNPBpmTT61MsxHECOInn4k90fI0KMhkpma_tgOW3GAWpt5h1p3Ay-4gkp50PJ50GTpLp2O6gkcYmcFQdN74PE8T2JF4ckLqh7eFe6hmBNl28daScJ-dc99ByYWrsZQ4FRw4R_jJBLYEd1VP16rZ3SvI5FbUEcukg65MdSEnfqDY98VD9m8Zw1wD7IlvDXLy6v98iRewF9U-mAGOoTMdgTbzY6gqWb6YhjFQlBMi5npx7EROAkSojICwBJ-8XuDPGjBhoSkpd5sQnl-IjW18PzyRqPLjBSoadtnKMGHxzvrcq0zz09dcy8TcCgTLKfeyHNyqS-ev_MJbcDzRimrJ23UOyXQxEQUuqVLQsmU3-Ld0AS-IX0AyFKk6cGNLTIY7t33F8oBH_rMBw9m3T_dpGL25Mv6K1cZXxIXaj5lU-d3YmLMK4Hdj7vWRnTb2dsM7KwZpczMqBoJ5UeMLeuvnolB4IEAMfsKfXqeRPdNE0UgoFGwh1DSW0UNTESwMBRTrmxlxdLrTG78FvjnA89VxboYsL9-RrVby20oBsunadUVrS6kHX2H_6QwSNkKYOwhqpROl_gCwCiFwu-3CPssUhEQzOy2orPgVHfOWIDaPk7CJyCLc46-1uuJ_60xcIAzNnbsMH7GaaWcO1ND_QDcG-98dNmAzEltULWavmtJPuRV2sP6eiK_oJXvKJHS0B6Z582CqeU8IrbjMKTPXf9nKEEQ822oajzA7OFc9a2eCBSq6fQFJSFsvkYoRqOBiocgxXSyqf6vD_ASqzbHA3y1xcZwaDnvV13gXwLjIHGIiROC_3loM6K2k8Rv6Mu1Mnty7LOn3kgiyr2I9ovSscJxiKZjWgM-_JMvy-Cuv2tPS_LALsIKEWOOQZshnbWlUmYMhXsvwJ2NPSH-kIxOUZbHsWlkrsT3oZFaJ2WMLhabnKZZdpYFHw6yRYXMMZrtTF1CgkMq-MDvOBXnVPStt9fO8DFoeEuaodpybq6E3h_5QqjO-c9SMol3L4o3p8kQSIY2th-ng2R4HG9xXVTqrk48G8AkuOW-cYsnIHhUBwjFDJ2NJHao_0IOsBbqom7xrQt2O7qhRfW19zi1DPwSDEomnWCWz-mtrecZlaLrJxqcB5pfN3U0ahy4pCVLFv9VVfHqGe3nJyfly1V8t2ivA4fJjerJgOFALEGFf1wh7npxRj7wTL4W2ntwS6bb7m5Qm_c0k5K0qYgobODMzBw2tDjPRYgrC0c1BB16e7LEe6_-c7kwjshs-ae6M6Di4eQPwfqUHdw-7AWkJM-XRkt3HWbwOCUku700lg.lFEM78iT0dadhu9SlIcieg",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1776298251.473639,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-sc",
+            "value": "0gAAAAABpaYIFJp2XPnM2T4HxsQQTOA04EW24N9Mh_xDgYR8coo4UlJGCs00lPw4ABMf_0AYFcsNberssg5dCLqrMSYpKzIfC5lU3JHw6w3aRU5nNmEeNpnalocYla9LYu9k7ytcpeNzTzumgVOWYj70lZ0vhfxa7gh3As00dmqyXhZi8xdBzT-aZunhJ-bhhtMQwxB3OhQlWmfYSFUllh699MQYgsxdGf0sjXkJBBWTuanS8fDKKIqk",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800058258.601324,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "rum=2&id=347c6e76-a8df-4b6e-9316-e6b2b6944293&created=1768522246706&expire=1768523162714",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768523162,
+            "sameSite": "strict",
+            "domain": "sora.chatgpt.com"
+          }
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
+      },
+      {
+        "name": "Pro: Sora 9",
+        "cookies": [
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1768103717609,\"i_b\":\"dhYlttxNBcQWbQvBM8aBWS1BANdHnLeaFUoAPvSRwgs\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770695760.692063,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_account_is_fedramp",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771071138.588797,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Host-next-auth.csrf-token",
+            "value": "d55ec2ddf87baa822ac22eb8b47f0e3a17afe4ad9dea2ae162f287125bd5694d%7C486c89721718b16e69cac1898fb3dbda4c999d786258c2ec347f7b1ce7665800",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770372134.668652,
+            "sameSite": "lax"
+          },
+          {
+            "name": "oai-did",
+            "value": "f96336be-28d1-4dfd-bed6-9366f6a509e4",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770372134.668656,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "cf_clearance",
+            "value": "gxxhO3EtLak7zbJ.3QUUetPpyhUk23m0hOGuRgN6z3Y-1767779869-1.2.1.1-oFIJdCJDmSbsp7o5tbBbcDRh3amrXtphg.iDU1kfG9PXeFYrAPLP99JrsvMElQ7DJocpw.SWQ_ExTgHKij5T0iMV9U24sLkAb2fRql2oviYOGBVbHrtuL7GkeY76Sb7wBoYZ9TXcfUpllD6DIu83Iikg1OS9vDNbZ6MgCKrHFZwWKCTN2ZW_r9HiZVeXBoZpUWCYgvRWEwOqBuyP.QR2juQ6dXBDv_hVn1b5Wm8GjwI",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770372134.668658,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fchatgpt.com%2F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770372134.668659,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hlib",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770372134.66866,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_analytics",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770372134.668661,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_marketing",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770372134.668661,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-allow-ne",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770372134.668661,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-client-auth-info",
+            "value": "%7B%22user%22%3A%7B%22name%22%3A%22Komar%22%2C%22email%22%3A%22hendyan88%40cyberjoki.store%22%2C%22picture%22%3A%22https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fko.png%22%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1767780036160%7D%2C%22isOptedOut%22%3Afalse%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770372134.668662,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-last-model-config",
+            "value": "%7B%22model%22%3A%22gpt-5-2%22%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770372134.668662,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-gn",
+            "value": "",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770372134.668663,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hm",
+            "value": "ON_YOUR_MIND%20%7C%20READY_WHEN_YOU_ARE",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770372134.668663,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=2e1d5330-e081-4c95-b4d4-de16abf93252&rum=0&expire=1767781009405&logs=1&id=20179f6e-899e-40f8-a1fd-69a9ef0ba5c7&created=1767779812522",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770372134.668665,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a514557346269695259783739746e2f656c522b7a554e4d50436a75537756347835426a49764c5566575035654d74374635",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1770372134.668652,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fsora.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "887sqL288.WXUPUinFBc4NJwA_xbBZKAPX5Yhl6itYs-1768522257-1.0.1.1-qrG9sBROwtJuklXV8kWXs_j.D3qLkyEsXU6Jk6ZnaB.PfGF5rDeN7BV9czOFRZpwe2bPiblBqfm2N4LrdRZSpt20ygnOp3arhPQQKrqSI4A",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524070.842663,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cflb",
+            "value": "0H28vBjUqcdJN5F5i8DLknvCQqDro4yRRASWQQG58q3",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524070.842723,
+            "sameSite": "no_restriction",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "9GD04uxgSzyKqH3LmQ.pZgp48NSF6gII_X1xazo_TAk-1768522257505-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "xifIrcRrkc.XDVlrGJN.rhpYueML7zBTYwR22gpWsy8-1768522258-1.0.1.1-7.AOQDvTZjrWRWV0x9I9jNTHdAq5qxDXcIWh6BiRX4cSRc0nl.ePEF0JBXJIG..f7B_EeQ5pIYUP0dg1zdj2XDR4zqPZvP8FiTQp0PeMUE0",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524072.043115,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..XtzY_EIIxNV3yOno.orRWUrPZkxbOq50h5l5G9OZvQObtDfPyiddWtTtfmqX2aLX5zxJ3tp38zSz1-_tUvGJ8EmYaw0QOS3gN7YVWxBOwnFjvV8rzkX8Pk4vangJxi6gw1DWDqbFFMgPp-9ZUCeQ_WpuLfTW-ZtbhWu5xanou6S0ykjhRu9jvw44M8Pf26PdaSt2ZvGjMA6v0rcdbiQyj1SaIZsJGzCyEDoU9tQZGNpUjlyh464TTJChQNGtQH8P7yzraxfxgjWN0fe9pLtiau_uahQJnQnTvDIo0yIiIGp5I-4-Ccv_DkajOW_ZHCmx3QLgxuV48xi9QjXWuZfEbxrRu6K0b8ODasL3B8u0X3ewJ2cJ7Y_IFPDERF9gjVYcqVy-DwYg7bex9pVa6wQgu5tKsC1DyEEKtrukccPxzwByUJNl4ZACjdR5msD5tWqxOcs-Kc2cn2UWH9Q-U53EaAfsgbiQjLV1RmvyYlYRpYUg5pIM5APG2jsvkMisHrEmElipktye3zA29FSceB_zNsjSEjvDgHLNupmWwn4ZCwOGk1bjGTpLPF0_DKAn9xypqxz12lBs2ixccW5muwOt8pt8Bkv9yf6LmXRCScohxuXx-0PqnGt4c8_SjgejPXRKv-pcTR3TRrDEGjoJ7wj1ffAGDJXiGkty2-57F2t0wVxIO5j_Z6bdOpQfXSLEgBtVr3j8U5LfXmXryoirj6xAPDAEPgpOwfxHBEuxrU-dbK97KdxMkzn4GqiUO0i2ewh3WVyk8lE3oZyJA_whkiLDJIGrUXMz9zWWW4EX3gP4obS0JWyUKzJaETmkZFCeL95h03MIZkiINsylV_IMRPLjDG_DtfZgetoILBCNDjXyvmkU0WtiXZHUyLGjRUq3q9EWLHq1fJZ5LQ4olvJAp9rVBE6bijFzjCH1Q8LUK1LBTeqlUQMTnpjHX_maoGUOW7upPVfYbPcpqnL2Y_O8n1jbnAACilvimL4IVeHmgQCY_FWYNiacTwpbsk2YA5KJPKz_3L4H3jpkAB56E1GmL59tWuL7ZdWups4bB2Fi3a77fNcF8HOSRdqN70Knk4a-8rvZviCxIGxymaJyC-zfZY5wywWR8f6APhhLhZ1HrwHQh5hwvFC8sXy8ls5eC4psOEYof7WwTYDyv8JbN0Ua1m506wSrth42UWR6_Eq7-DU3X-H1CK3p3Tp0qKUE-m-EfvQUz97NrpmrGLhd5XXIJO8I4D-HwbHzUR20_dAnKm-vfQZvCM54y46rtdAoDiJy5GjRkx3cDEiAk70tM_kwtKBi-QvJr45oMfpFZca_J4XIQHkEUXVb7g8Xg_5eKjEZL3F8Tokoobvj49ZaC7YwLt_9wtBnZYFR5YC0o0Bw32xWAKl-dpDgIBciH-IqSN8kBGqNhkw-aJop4nfvrniTDsMbg3O_XudFXUe8vDB30JfNoO6taUowwOhdmi-Ju3BCdtUng3wnCdVJSab1IipqVbqNeOqUhQe7J6k8yHSws3bY9UUumQbk-MZ18wUFjdSXWTMqkZ36UJpk687r32NHMlr9MiyAMx2yj-k1qp9Q3EGQqLRXAVwu1ey4ciGj5ZjNimVsEVB7lwEo9mmnDOm9ADJABoUjQAWbT9NuS4K3OuwTGU1i2IAd6kznltRapyzELrFez-F8nVdDl3D_tqCFyOOhRgTxKzfTYIIxdZ2mXmABtVT9EEoF63ryd7q7EFq9HXh5eFzl1ZvK-E-nMx8d0UfZTcda2rX8wSA3w3dVKj1o9EhIl3cF-whevUwvtUogRy_mFRnr-_k4X0YWnOWM1uZsddBExAbl_4yIh6Z2c-pu-nRzjGKGdKo6gP86CTMszau_q47hA9UlSGJgx38300jdiriQdfZtF7J_pRuHpigo__oKYMftQxaHudK1ipVpWX-fTxiapIgTfzCBDkM679WJOEdVhhb6wwRWeSRTro2xQeczAh3YkmMIilRAuMYRjxdLZh5lgACtO1UYfaPmvoDYvq5k5NvccjVua-iAdUO37tBJMbAJdQIUngZZXrMScMlhQfYrREyWzR1bnZZri2yN1z90022GxFe_aiiVbN3GsddHcraO6TVfzJt8sdK9z-nzSdwoJAnN-VLqtRqka8jqpFd-3ccKXvvKbdXTep3YRzWNWWHgpKoIz59WzkplhfqbidYQQ_kRKc03jnAxqe_qYVm_BWggfWYZNERwTfoxqR8_vgmnk7JO-L2-WnQUakbmDGlRINc9QimpjJistCEAmubaX2XlqhcBhtOhDGQqcwyMyUh73ibRCGM0VX7pqRuv2js9ybYU67zo63PVd06p8hsqc0Cfuz43frBM_jMRqhuuYreW4MqD0IzvlxcnUSaiJMWF5_LLZBmNRQmVR-LseM3755UL1w0mKQNTAhaZcPYlqezukQBflCyKfHSwwDgJzfoFv2K5IDo-LfebxnHJ4Y9Al3LjOBRZJrEpOFCQV9cxYkgKjQBcIHEB82eD8ZKpXFc58xnurXfhCLHHBGTC0U80EmvWnZCtOya3Jh3WH7MJQGfZ457yNJCUGKMZz5yKx5kI3koeA5w74xViI787RrMAWaDj-cZz9Vhj4jn-TOC1sIQKML2xbCeuxaLrrpNSGWpADPZxb5WF2_zNysHctOm-Vh6pBcM6CIkUt0uBKHLFeGXSr9WzXDAud5sctB1PMcaU_2DSW_RzZP5Wdx_h082-r_mkTj7imsK0SR3-gvdJILPFBf1ZFLbM-f_XUeCUqMnC4xjnaU0b6DpQap_EJ2BBgt_qlju6vF_r6OANc94vCvWpLjxv1RUFKJsQ87CBJbrsZRKFR8io-LFV9dt0lv1gNdPCm9OFzUxrKW7-xHuN_ysSBPucajVb50ccWnVlpvMoLStsjq239IiYc7dWTzQX6Gl_7K7ceDZi5DNS-RXUZcc1f-R4C0lC3xhuAhSaqbfGURnIvWgNVGGsgXWp2IUHbmshr13qTvq2zb4dzoNLR8O-zRdosQnvcYg_t3e3evCNvMu2hoYCMc7L6hxEXAD4Dvhtzh9VPJVz1AhSV1GQBQlSz5k890O8-eNgVqyrVXuzXUl4KuY_6YAITHBM-Va1iEfAFct0QBbQ8vQE1JamySc4cuA2pt1PYEQv1NzpWDfiNd0i4VBZ2Oy-PRbmQ7rg6ktgUNDpxNV7YqL_JwlB6Knae2Jr1VsPQ8wz9w2_Q_BnaSHY2A4Jd.BMT7CAmlSxEUPxyz8RiLsA",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1776298273.401824,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "rum=2&id=6cc29c7f-06dd-4c5c-9416-852b6c831296&created=1768522272503&expire=1768523173953",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768523173,
+            "sameSite": "strict",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "oai-sc",
+            "value": "0gAAAAABpaYIUTOsy0ETR7zjkBsyDhI__UuaZDkuOBg2Y2P5KvJ6neZkxmPiU8mOkEgrZOhDfUhlgn2pyzDdFrXelhBgG9pwBHp_m0sC8LC01QzqA7rCcUsTRvdgaQ0mXF4G_8YH9dGcP_281vk7Y8Bs1jTRRBG_xdjF4SeudgzamV8Re-4fSrW0chDsqr0cpFvLI8tzFwvGRsC7w_3ME2f6jnHXOvmtmYgKzzDg1gxA7g0vtkJD2Apw",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800058274.102023,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          }
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
+      },
+      {
+        "name": "Pro: Sora 10",
+        "cookies": [
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1768103717609,\"i_b\":\"dhYlttxNBcQWbQvBM8aBWS1BANdHnLeaFUoAPvSRwgs\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770695760.692063,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_account_is_fedramp",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771071138.588797,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-last-model-config",
+            "value": "%7B%22model%22%3A%22gpt-5-2%22%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770372134.668662,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Host-next-auth.csrf-token",
+            "value": "24aa026daabfaf26b163b23ac133a8a04145283274e04f04bbe36c4e52d34380%7Cd00789eb9075344da0e3d30cf4c5eca34032499ef2d87698a598efc73e9107f6",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651808.788536,
+            "sameSite": "lax"
+          },
+          {
+            "name": "oai-did",
+            "value": "5cc7b97b-a7ee-43f4-a144-f62a82f5e8a0",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651808.78854,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "cf_clearance",
+            "value": ".rBVBjHn5aVUaMN9l8D9TVOF0O0S6nLlQjtJWmLhKZQ-1768059601-1.2.1.1-nYgec0psf2Vi2jf3UDYANYpY9U.1kQaltaOK.DSkP9GLaohpMiVNOHqAbauJ_g1HpS5e6aoaVyW9xsql540rEzNbVe3KtpXio7_fWWYP37pPECLvfK7HAacqmHZprEa30z6S2MTGBfHkKeOd082l_Nfkbou1.pAtRSEtH0iA1y2Xd2OG47uaRLytr8Vz9oc716F5NEAZ60O0NcjP03CGaOqxOmsoMa9MuxlZXRRqXfc",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651808.788543,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fchatgpt.com%2F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651808.788543,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hlib",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651808.788545,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_analytics",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651808.788546,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_marketing",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651808.788546,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-allow-ne",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651808.788547,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-client-auth-info",
+            "value": "%7B%22user%22%3A%7B%22name%22%3A%22Groupy%20Veteran%22%2C%22email%22%3A%22vetvet3%40belajaar.id%22%2C%22picture%22%3Anull%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1768059698699%7D%2C%22isOptedOut%22%3Afalse%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651808.788547,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-gn",
+            "value": "",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651808.788548,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hm",
+            "value": "READY_WHEN_YOU_ARE%20%7C%20HOW_CAN_I_HELP",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651808.788549,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=9e7f7927-864c-4a36-8a9f-1dec2d0f8964&rum=0&expire=1768060657547&logs=1&id=4f1ed9db-4e50-41eb-8235-0bff4c226d96&created=1768059536154",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651808.788551,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a514557346269695259783739746e2f656c522b7a554e4d50436a75525a7575667971437573414d4e37736865666e666879",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1770651808.788536,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fsora.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "nmPfFJoxFAZxLdBPHUZNV2KjN8nnqVudUYfAoXLz4B0-1768522266-1.0.1.1-r0Upwc_orzsJ5UZAOsvpd9wv8XLvO_.LBJS7ffHUNTb4EkXyaNMIyuuqf2536wugEk2NcTT6mK7uQcHsP3fCp_Z8r5dY53MM55Ffw6n7bQ4",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524079.431536,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cflb",
+            "value": "0H28vBjUqcdJN5F5i8DLknvCQqDro4yRSfkZXfdWcEh",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524079.43158,
+            "sameSite": "no_restriction",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "XG1QP5xwBFNAh8Y.qpdNKnJoZz0tIkaOjRhMh8GYl3s-1768522266307-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "cW35Lp_TcQYKmVTqjRC4.unINJgZ4OS._gjI.otDd4c-1768522267-1.0.1.1-lDhhE.b9At5RFx4vqYddgp04jn1QnXf9bFT0f3MgBSO073hEPCi4H4JWhREibWJ7P5AoR1IMkJd8SCugjYWblNdqtiLwVZt7rKprFoAadIU",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524080.125226,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-sc",
+            "value": "0gAAAAABpaYIbzLkTVqM2pVQhmgvYdQ3XILFhFZ9BVDydSD9xX-rFHrDwq8rd8raSKXBDy9tIprY_KAVat8cKmezwduWS9BJ80ECxKXjAkDErj_JEP3eWfy_80u2H2QbTZkQCPvqxPsiIWi0L4FVHgT-vldNn0h5RybMG8ZMI-qFOfrwS0IGg_-lnQA_WzCcoRtD-fDKNI1SsoW7hoKF-9Z8WpIU2MfPmjzfChUhtROBcYus9hhl17XE",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800058281.046515,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..J_rBJoIfCpHmEIar.zwVSgy-eOy6xtur1vJvLUS9N_8zy84p5UbmzbtGzZNO_0e0HsTb8RkNg0OgBMEiuQnjl6x412sbljMWsNPcmi01s9woXGwwb8v9I2alcZIIvw1lbYOSpbwJieFKnswMCa6gJ6m7kY8I5-fsbos-vshxpU2yWpDAoAdm_SbEchqySFNfIpMzewiAX8RF5rWa4E1pZ-NSHyrxJgPObnFmUvleCcQZsFvlZabjGmsi_1QJq0-C0x7T3T3MzgEe-W5ImMrx4dlYnRlwmAQex_gCnDCd9nGtxUFcHnALRW21w8hClJWzzBJIInBWCg4FQ1tzSyhpj-VUu-jVfxU35cTEE3gkQ9iZX_yiG_f-pSyyX7W8sZXMvqfDLXxVdFvZmicRGkAi7sJTOBoAicguzEcvQx2pk-vEj1XOY38XpWiNARWL8iubgqvWEyl0ma7ZoJeJH17y-PsS258V1J1AQPw8-I7x0Dvz7VbeW8DHtGjY2i3pfeKsTNT1DbvnoMdj1DWu0s8Pcd6UP2m1ZS_muhRhz2ODkPnDeRfSHjAFnCwr0tPim6lgQRaJZ18II8pRWJUL-tkD82rVtXtTaTsZwHBYnwue40FV3yYuijnN8IDS-v1eFWDfr5aZhMPiBWe4CMmeQyPzjTNSuif2PuMy69-g_qzRj9FDDOd-rhfmjHvYJSLTH2X6LDAh73PbCNszTsc-NOZeH5bfJTMmoABm8N2n-eO4yjmuH08uvpee8UeIrjAZm2Ap3kN20jT44ISFrp_PrdGORw5sILdq-yQr6LdarnKHA8si4iU1DumCfaA-bVONNX_ggXXItfcet5UA55fkMsLU6Rkc8iL80RC9NcWqzeB766uL7fah3kZbFWUwEMMweOGgUTiCF0o2w6qFs8TrZ_0xcxfc5Lj8IzlcP4tbqy5DSQTp3W36ZskbdiEcVJlH-4AsJKdIGlHPauaD2rmjOjA6I7RHi-UqnbDfrTUWzuO7a5IV1PArwOMIWwlzlkjVfIgL-2rFIp3e_JWRQ6Ylp-obX3_pUYt90oUpU1o-d5LdPzbQj7O_7Lbk9VDAkOhmbul4cKwaugXnu0KGYeGRwRd2Azl9--xMVwfM__WLfp0fDjSXtPRjy5voc6uP7XAgRFHLLTUP-aGSAmum-brYUR2hlGSPK4YrIFne5ma5BED1k2eaGxd77HAL1gBi8tNo-a_7kzqDROm6BI07vNjt5XhKinGOIehrenx1_IYf625D0M3AOXMuObslvIMx5HNM_JiHnKPoPegfFIFAtbnvoSub6PwaE6PvPfV9fvLWR4GnL91vDl2fWGhJB36YS397l0DTiMZTY4K7zcr0E6a5px8gyQ2qpk39Ugnb9EoO8c-6X1sy_WdC3uyQ3rJYloar2LjkJH_Ojr9V8GtObRKy6Rb_gavgwtkiLDqpvyPt8pe_4Y67JK92Txf587PRRyWpX2YGrdZqPtEALu7d17eOiw0rggjBZlSSNt7gwM8BOBLSeD9JU9kDWXbKHhpLnC7NxJ1hNiDwaKby6XUjSso6EkJ7ehSsBrDniytQ_htauaF5RPFx_ljAUUL44EiJIwPPXBvZ1b63XIr97TM34pY8Si4WXhL2pyU5FWOfyQFN3bzIrr4wPmtUIH7OhRBAaFyOYNarrPv93QtJABCFKYIVrorSer_A0ZIqoGHocTSyEL17n6hZlBpyVVsTyzw-wU3sF_Pee8flmDlQ3q9vuF25Wm4vZpPkxOpmKPOeoZ6DzwYbhCTGSogFOMFs6cRR0jlidTAqXUwZDafQSEui9lezCLeEomxSHBrHK50GTgVBN53YqjkrhC-Jk6HYwIyWaUr8RGqMp7fs0IUJe9W54NIVwRD-FnnbYwdsQ2Ne6ZEUFAmEZN6niFVxZH4UpmM1YSp-0qdTuNlR6XXe2EcJNMMNceWl_bVjv_hTei-PbywGR34EZUrlP91vETjAcVLtDN5GrOwY9S77WTB9ym94XoVWeioSJ3acaVAm-zsY5p3cajeAWVYu7GFuhGHv02NuhlG8kmuDtBKdrCNcifONdQ_4Cdote2CxXka7rxfR4CEkp5v--d7quafOx6Q5SmS92ay1TWH7BPpLrczDlA4pyy2gQHUrAm_DckXJgcgh4hG9o77C9NC3pHWmOKoeSiTXLAA5EeUseJybeEcZSXWFhJVQtQnoyAkuqlOK62DPqeBOy7ingjk1I1qKDl5_XZ-yPoH0jX4M76QmXC2ovGAtwUzTy0KJumTXDy9ob9TAjr9MJujmvalHGw_IoyRKtEuQ6jhf6JejgED-xjyj5a6gB1r9pSO0BzLFgtGOtLkpt3RtHmM5-VB5V0IHq0MazNFZSduzeVZI_wNC5MsaBBczTQ9QNJ_o-bz4uqFSHEcg9AtscN_f-fjyI-bUfPzmb7r9MiEXPjRw6K0QAaq24Db9jhODs4wH-LIhelr6f4rnPi3eekfu6O3n1LaRDPlkld90u2arZGteVQdhxbHBeHlIlHFczX7emn9uVk9nCHRtVvmLOaudJNMwn5uD2NJQyg7Z1nLaynXrcgc6CX6MaSTbjpnPzCTMHBHCIxM3cZ9qBlvFhrL1Ni-dbGC_Xo5QwXvxCV16_UYIFaV0XYS2ytwi10eWfZoHxTqXAzz5d58gikWt65kz0HvaL70nJq2S_jSm-2UcKgGWAlQswPVI_n3oLgMvpfznAIH67WeMdkvgga-bVfc9Jvim8dp7tM9ZemVBovISvajRd_iX-QBBkiWnFGocDUuBFCL2fWvSWaIrZ4-a4cSiY83kI6FUNROOiIkSEmfaMGaKV1ByHBXGD1ou5f1ci6HrOQWVNcaHypXt7tevXjp3Vs9hAQGWYC41OnJupnRpBB7g_CVbUDMkGlVB7Z_AP5npHcctDB2FlfViqb-3mET0CKCxYoKyRkxEGuvhcmh5XR6B-guAwdZykTkyR7bNLWAR040t_O69vVmEDjwM3IPMaDACnvdVXN_eLvGhNUfBl4BLFjqdD1nc39iKomqarwh6spMvBrqSS8cnxliItHnPy6s1d4P4I8LAGNuwGYm53jdITNjXG0zHswhVSmB2qyln1aTDvvbJrxI8tAdz2bLvftx1WuHak9i13bfNgZCu7ApX6AaQw1c4T54haBc4Yo-YwStB61WNm94omGrMpm_l4w3hpDztMww.8XJqgLqUzvDtlwVgopgHvA",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1776298281.972992,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "rum=2&id=a10b1b91-710d-4aa6-a2e9-60edd6d52e21&created=1768522280425&expire=1768523182385",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768523182,
+            "sameSite": "strict",
+            "domain": "sora.chatgpt.com"
+          }
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
+      },
+      {
+        "name": "Pro: Sora 11",
+        "cookies": [
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1768103717609,\"i_b\":\"dhYlttxNBcQWbQvBM8aBWS1BANdHnLeaFUoAPvSRwgs\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770695760.692063,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-last-model-config",
+            "value": "%7B%22model%22%3A%22gpt-5-2%22%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770372134.668662,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Host-next-auth.csrf-token",
+            "value": "77fc8a6870ddf440ba7fe89e1587db2897b36df8a05f372d65a58bab500c3e78%7Cc79286e90485d9adc7ac7bf77cbc2c0b314b307bd137f7700e4f8ac9c8e63c69",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004062.34838,
+            "sameSite": "lax"
+          },
+          {
+            "name": "oai-did",
+            "value": "b598da69-04fb-43b5-8520-9504308886ec",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004062.348382,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "cf_clearance",
+            "value": "S8Oxg1851syeIG5bNTZqLJ8f2Pr1VsWc_VIoO_co0tY-1768412062-1.2.1.1-GveNe5fADnIZ_L0eQ5KLbFYgo0yztys5eOBpa.mceKliYPQlZQJK1AuO13KV2b5AmUOwlz61d4Vbz9qFudPDMvpU2aMbjKC.tOgqJ8jXnOjsM5FK2Bft0hnPWDWFZdlU0TUOnolyJ2eYiG_pNWOet.EHKUnmq6R53K9JXNJ8XPJCWJynusdicdsB9v8_OhaNGcoePq91qz5bmfRTk8D7nWnY_C.JjUrGPfLtavhSJHo",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004062.348384,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fchatgpt.com%2F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004062.348385,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hlib",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004062.348387,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_account_is_fedramp",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004062.348387,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_analytics",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004062.348388,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_marketing",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004062.348388,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-allow-ne",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004062.348389,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-client-auth-info",
+            "value": "%7B%22user%22%3A%7B%22name%22%3A%22Groupy%20Pro%22%2C%22email%22%3A%22yqiwikah%40killua.cloud%22%2C%22picture%22%3A%22https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fgp.png%22%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1768412035249%7D%2C%22isOptedOut%22%3Afalse%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004062.348389,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-gn",
+            "value": "Peneliti",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004062.348389,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hm",
+            "value": "ON_YOUR_MIND%20%7C%20DIVE_IN",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004062.34839,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=fd29321e-04ec-453b-8908-58993503b18a&rum=0&expire=1768412947657&logs=1&id=735fa183-f584-4584-bb6f-731aa5fe8105&created=1768411987979",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004062.348392,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a514557346269695259783739746e2f656c522b7a554e4d50436a7553726e3273575054476f586578567846613347576a4a",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771004062.34838,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fsora.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "J08pFuEH.4WV0d44CnXTzrdDAuLn2pBfICK_P42eiVM-1768522274-1.0.1.1-hQhMucTQ1PBEC_yBd5lMKlgyKm1eARX4g7U6dBxcmTnm4WqxL6XnYI__hWuikEOQlO958FcD9AM2BxRSWCtJ4GLP_mvCzQ_0b7LRvVG3Bfg",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524087.894267,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cflb",
+            "value": "0H28vBjUqcdJN5F5i8DLknvCQqDro4yRU1Mwe8BTUNq",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524087.894316,
+            "sameSite": "no_restriction",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "bIIbVA0gWTZx07w31_7.YEyh8IKTIHYdjpPvI8FWW6s-1768522274789-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "qyouIci2mEQwXL5Yp9pF52a_cLrmyFA3HlqQGhjWPL4-1768522275-1.0.1.1-X3.lU1dNi1Ql_uxUYIN4_62Ki9qtjyRRjgmBirBFo6D2rdVFP7r68.pQg0Wi7k9nHqbLOQwUu7wCW6HOQIjRVbUuY_MwshrcWLS5GxF.pyY",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524088.573954,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-sc",
+            "value": "0gAAAAABpaYIk5b_qT0XZfQ6WR2cScFtfVuNMdpSCBZOu3s73UdQyylizkHVN79Ni9Q7iyz4ufODDQHAGN5EQn85VE_SLcUvtjY9w5C4MabfO_xfZCP8WdoSDpJ9AHr3191A5QJc1MsQDVRWSolkxLQS4iIqcsBFOPgVbOWZn1vFTcaAIPnFDGHabnJ3xdC7P05mtneZph289aD3f_WvlHFuUI3SfGUS-eRGM3h0H1BCchF7XHYZoQ5o",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800058289.417734,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..43yMYupEgsVn84Q5.dRRSjSuoLsfoJ_eSb5Zent9EneudZC5t8G3HlXbvvTniw0jV6bvOMjCXFtY4jzeLCDPaYgI_2JKHi5iEMTK_nF6INqkRLebQNuLvJVlZteGmyyhcbVXx2eXwqKl5ZeAruvSqrPe2lH94j_F9EfUPM-71JJGPU3dUaQ9K3I0XSCOOU_gWbd4ga4oFsOrriSzQU45GbZGnVJ1ea6LPqV4kZLjxl3Z7jC7c9S8RG6c08FsoTOwXsO7IdnjcFGJSv8jIQQgaMYKXeHHXUuWfUTpKwDaugNcCEP3NudDgt_i7SXA7nYBwyBUPjnX9tnkpxp_CqfqGoV7-5J1SU53Px7qXjv_NTpOqZXc01ULvirmW9pNX4MYY1uW7PLbVStbAUa-_IQV1GlQBDJ66ppg2A-fi3lb7VNGSKGcVd5pyuqoaWrMLUWGlfM56EArnu16M0pQYXBKL0DqKUuzR7s4LgLRTO-Nvemz58yWQkoaOpXDp3El1t6WCLaP090vWVimoxUd1B-XUN09jyATLPoUTkiexhMu7yvmAiUIZNBoVYlSAaTIpzXOheEEScGi5Qzf_4Dpgv7I48tzJGGe7MpLZBamlWUfyLartEjWT3RELZmO6w5KG_6TdIuLFKLEq94EhzjJcaQO7eJSCD-aAhbDtoSdZSSoEnEvqFh5cAQ28I7jNNFpCx058k68iN1GAxFQ-nLa2DLvC4EYUsQkpr6WWV6yrVs4XKZpKfYc_uUCBOfy59ttl-UYBgExvknQ6Gv_QF68FiLCKd4_Oaobk5273CEaiwUnSVqO0ErNIHryhwKuanep98ZzrJhF-glbjL9PrLA5K-ETSyTvxBztv9EsQN7uaK9P5hA2bDj-JVm3X3cmT9M1-qYAJzbvV40pkGaS5ZQkdbi1IvH-67IIM5QvtcYM8r10F-1g3b3xwWXyW1Wu0Nt2l7OcPBEhYAacyfID8LgGu3didWDrsGr3hqG64betIzFnOD3QjSFv4PUIhezQqRGxb3q-RTO1h7AHRYra9MmUftonZDkG9ILEAtJjCtKGA4fiV4rB_VqpOqq_e_I30zU9xe4mjGRzsqgBeIMvUVL75nPtJlthHgAg1uA37n_Af6enXMvHtofIiONRZsh6mQBdyM1dEBRMihSLncu-EUc57EUnPTzo7sSDE9qkYI5XHqdZ9sCJ0I3gmGlNBYDNCfAPHNn78_AlW-MP4PtaWOzghDT7U_3b7RmJEDVZIeLCj9lnYkV9DSSrvAkAwkMHZa1n_qqUvmTT7ZVlmu2a7eK7v6dtIeZyN_PIdG9KSo63C430mo5GVMgqJ6H_WNz_sEt5m-n9Ag_DSf2qUy6MDeEc8HP8qddY7ACPxoQ-GnWcR_nViF1LD0WnYAXJYltEkxfwTFMTHUdEtmc324AjhH8hnmlaOyddDFuxy-_7qEndd1nXa3lXgTU0--2wqKHbuv3IDbB8hASi5icALSC3t5yOJPf_vAM_N32TJvge-Iaks-DivhdnKn6Xki2wEywPWBLNZKhoB4ssgXqH6i9ykhHY6QFZ6--_5yo_rv7kv6FGMTTRpofKpNFd98JklDt3Ad4sqVUgQEC05DVeg6sxZiuPlyGX296FajCvDlW9JysqypHwuscJgiPa7Ir4FLcbiZai6mvWrr7iLj_09rb07TMwFtk3qDDbdyHM5BUK5a_fcPa6WUcuYNNOeFB_dZznCApDMe5XzRVhmabUjc8KEDcXQLCVEdF5VtsGhhFPvF2dCeu6QeOEAo8UrAzo-xMsExTP-R8zyNNLi6gPmGTxDnW7zKaXKC4Yzwy9vUYa3dnUaIZHnf49WyVorgRkR2XKmyGtwt0DEv6OyoyybysERuPyuhHC0aGP8LBk7T-ayibAASJCXczXAxS6iCM_NWEr2iZfNsb4kFB7PxJwCtwFY6VTZyaBOT5z5Dykn531oyTxaLlEAc84a7p1hPgQHDV7WIh0BdNDlQsz_gWlbP_7eHNuP1ZhnHvRIfdlbqBYdWligvdDvKMcz4Yzbxk6b_BVuVyjEzeLKAZuzkzAOgykqRC-BOsyQmEjRTLDFlC7k-meRyrZqOm1t4U91igcTpoEa-N2Q5ATN63bOzeKddmuA4067bcnk_vFqKrXwXP6oA6DURnGBE6h0anEwmtDeSdqCGJkXNpR6YYBMurUi0Vs3rItcHRzPAGmwWcA1gnlyIZ61Pa8dtgg1n2saFD9JOeU4_48iIh1IohKILWpW7Pgp2tqLrUAPFnjGfGxtbIqBx0mgB6ofQFJxG1s5VeMQnMiTtguflNvb1soliMUbqSFGZUXNIiN4Xh3eT3sSFde9aQk51_pWWBpzZbDXI7FqzgvquDCBr2eGDuZppqt6oNe3M3YhmkoV_SKDxi-K6HX0rFx4_yNKq6KYN9LhAko1Ukb4HuLIQ11G9PsSzEQu8uzdvsBCqrex-_Zzx-nb9wy6--uCuCEm8rbbiEawcX_T_wqwXPEDtJK9HDykgLXfbUtdmp5pvxPAqcki2VAbhHzD5iV0MJ5-ntI2ydIMuBIQKudpXvRgL7keAaLntDPXQYmc8isFYdH3l1sOC5XI6e-OgXrdixucj81XvarDEWP4lXtLoKlkuNWg7Lv42pUavKgkcpcBJ00F9vTt4cSst3NkuKhumK0JvGdVZv0Cuj8tP3im_kPkJNGForz1E0MVaeKVUPGclCyUcGxbzFMxrHZzPSwu2BQDUy00jEiYhQxWE94UjToM8NKAzwYr6Gu8hmTh8ECUgDnDbT1s6tPKCN6Nr-lO9W5e-ngHNjGlTTKTmisWOvpL5EhxW58SZh9TVR9of2GG4sXnU2488VMN5qHo6rIfyb690rQQr4JneNQEzj8cjtKN6I8m2Kevrt9wg31v9hZ-QQWoK0eHqY462bSMhflTRCsufkuRyuY1YhUaEnIwBhmfQ40bjWknCOQYAwuBKNAqxtWIPSRpXowEcvwjJ8iJIwU9E0It77AM1VPV9JK3s6FcNGi_1bVskaOrB6uiSLNwiqU072mKOQjZGvP_4mZSm4RoMC0mbJd4F_gMMYWIRYb9lkDyHRAwPSIlrHqriw1drD9jPFc-QXzUJM3BooIEJvWUhTpl0hHTBIXNRRlBGzGDpn1c1aAIum_4tdBstIWBC8jGrJ-68qlgLvmjLrBNam1BsZAMi1Q0y7tAVUwE0zW0wtGpL_Gcx3RUobPtVfpnETFGYtCqGDO07qiBiDg_lIPe2cA.BB3-Nnu30s4iTOGzfp5Y1g",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1776298290.44704,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "rum=2&id=0f518b76-e985-4fe8-85c4-3be4710467ba&created=1768522288918&expire=1768523190988",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768523190,
+            "sameSite": "strict",
+            "domain": "sora.chatgpt.com"
+          }
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
+      },
+      {
+        "name": "Pro: Sora 12",
+        "cookies": [
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1768103717609,\"i_b\":\"dhYlttxNBcQWbQvBM8aBWS1BANdHnLeaFUoAPvSRwgs\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770695760.692063,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Host-next-auth.csrf-token",
+            "value": "800bb15d13b9a2881e388750049fdf6bb1c07c554a649160c5f5c281fbfb5ffd%7C8a514edc8363b5051f14118fab8b613340bc7057e896a177142f93b0d7ad960a",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004063.950746,
+            "sameSite": "lax"
+          },
+          {
+            "name": "oai-did",
+            "value": "bfa5c177-702e-4510-8c23-3bcf113be46e",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004063.950748,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "cf_clearance",
+            "value": "Dhnc212lXvkw_1zJscuzDX7clEkfYBvqUcWdDZAbId8-1768412064-1.2.1.1-mO3iZkt8zikkHSW9eSMrGuqvyMhFiuhhNF0M3vJnMrqpau0gM5yMjcr42qI43LcUwqSeHhwp2c6bK4iVC59DK.IhmUZ2ClNaXVgluY_2NKCGTLC66eVpCBSIlBQ46wAnP7IrzA2RbZvTedH845GiMCK1n7W71L3lVJp4eVU4bipO5n3VpypBOvHVgDxeRabHfpsl6LGunxKxw9NAfvHoa3dog4pEB5vxUy_n9xFEjbU",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004063.95075,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fchatgpt.com%2F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004063.950751,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hlib",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004063.950752,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_account_is_fedramp",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004063.950752,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_analytics",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004063.950753,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_marketing",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004063.950754,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-allow-ne",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004063.950755,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-last-model-config",
+            "value": "%7B%22model%22%3A%22gpt-5-2-thinking%22%2C%22effort%22%3A%22extended%22%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004063.950755,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-gn",
+            "value": "",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004063.950755,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hm",
+            "value": "READY_WHEN_YOU_ARE%20%7C%20GOOD_TO_SEE_YOU",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004063.950755,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-client-auth-info",
+            "value": "%7B%22user%22%3A%7B%22name%22%3A%22Groupyzxcjioasjiojioasd%22%2C%22email%22%3A%22inikahz1%40prem1um.xyz%22%2C%22picture%22%3A%22https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fgr.png%22%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1768412030702%7D%2C%22isOptedOut%22%3Afalse%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004063.950756,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=9af429a3-cc0f-45fb-b9a4-6319c7d0de87&rum=0&expire=1768412948095&logs=1&id=1b8ba0b0-b708-4862-b119-c612f1154d53&created=1768411990235",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004063.950758,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a514557346269695259783739746e2f656c522b7a554e4d50436a75516334544f6268444e3676307866776d716f696c6d43",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771004063.950746,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fsora.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "Ami6lKcjIJv36ck121BWaJAIl94ycbpTLxC.ZC9_Ges-1768522283-1.0.1.1-HQ8eDvmS0d2nQ3d0FsQBB3aniIMFzOwqpmDBk1fdHK3aaSeXI8nox3DOB_WixlOdEE_KNGstHS7LvagtinAvSqfuTK1hjzMrQUHTEdGQ_7Q",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524096.302071,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cflb",
+            "value": "0H28vBjUqcdJN5F5i8DLknvCQqDro4yRVWfzmPYtwnV",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524096.302121,
+            "sameSite": "no_restriction",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "fDGRjeaNb8VUmwECSfrkCXvWhRrjO2qtX5UVs1VOkVk-1768522283169-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "xpCDafGdkHjB1jM3aRvvkH1IjkuWECpVFVB4X0nurF8-1768522283-1.0.1.1-uOimixiP1oV2pbYcZ0.YEQ3OdkOTc1SqhSnGFe8GNsm3JbjI1R93NQ7vl0PshxXe6hOlFJj_xVB95ogaStaD_Gh15aYzI_XdnN0O9pktHjQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524096.927394,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-sc",
+            "value": "0gAAAAABpaYIs2e2uEnl2-SGXrNi1h7ir4omsSsQQ5Mog_PC4BKAa3gwqiih8L1VDs93fNVsDEOyqvE4HLwculCGlCHMOaUAbEq1cXadm2lZh2jld4M7oemmVUu9PNaLANYTMkmgbbpIAZbKOYjMdsmOqhGQe_HGWYxSIPfz9WJzwaVvJY3NLq-Qo7OubH5lUTWJUKA1zlmrdEjVpj1AlGjybFr3Avab0WqB_OorvslnkJhM6JqWyVLU",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800058297.680841,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..9RC2tmUwPtTGGF4M.Xh9V2K1qYYxluzOi5SWw5fKut9jT5iH-Vj2Fa-ORXXTiars1nIPtwYmOQ_RvuO3SnTzk1XViDlUcXPX0R7M0NT92qRNqrXbjEEaiicV-WfoUTZ78vTdCoRj5fSUlCgka6_Ue51TOAXP-9uskxKHtSIeFUIEK2c2tDqJ5nSGpSuQOr-pEvoL1wjFkNb9rX6y2f8UZXF9mg2IFV21B6InOBdwdoP-Kkj49bIVY6waJxoZPJQw1b0G32yxz8fzPfETw7ClnHwovOKzbF5120QM3YTltXOp3jZymte4eaI6LIQLAK5Y1UeRCE1Pg4spSeTsIQj_wwjLNS2SdRmHdm0Ilxxg3vS1QYxi6LzuNDsiOCjilk4rmzvh8TahCVmDsKMpAtT-ZOdBeAS4WBYbsS9rsys2CayzhIiASuK58OMo4uHn6Hglfogi1Hxrr3Ev2wNL2mxvoPSXP0Y6Y5yveK4ibT3C4-E8TJ7OX20xCG4i7qjki9HdVxSwTb_3XL-pn2i2nI52jBAcU-Wmr4_pKEizncpv3ricy0928j1nZ8aMvgU4MrrsRcpAWwZ2SMxAGLGR1FmfJNZVuacZ3DQJgOqjjYWVxIUROuEqEv705GHvQLNgUqa7-OKkyuXBgm6ixzqABZwsidnIbymCdyWjuJusm9rCVVGFhzCboruHW1-zJv1Fp62WUhBSAFfDaXBZGhOKMaUfgi2DN7o5C1cqwjkmzJr3ysiCAraCr8zJhveYfJXgjOAx-oXUjOmWozyIoG0GBuGVuI55dOo_B4Mizmw6rUVLZC__lARXDafPUD6wxxeaP_gwpiVsRKayP_4yaOKdYilX1-A-ECCHtlRULUSzbrqgn1qELxamUUml87bVLGtH2p5_oPRENiPVN-PKKU0GadWJ5iGyqWn4__FQGH0hUGCZVgwGOc_YadSRZB6TT0HSIx6AknZhrMF2E5d3B6_zoSOYmYGJMgCcrbdJerSPxazaKzBpoWAe3fy-URR2oQKp2Lq4jB7UdZ1DA7w25PtZN-4YayX42Vbml4waXkn6r8Ut2Vc7V2xaT81jGrcJzG41mYKLTJZv1ttZ9yRHcACWMNCS-I4G3ljOQL06wU6MFm45OTRVBoGDscjpGyQvzHUNpW1y8L3CGxZK05gQy5pgD2rViYRGa6AQDnIjj5rbh6qwOaCqyWb7Vv6q5egqXGgE1PYe7rs37qvxE8tD_uuXYCHqqRedbl00jEoLyfeQFExKviNfyOYN-y8FcpoM3_e4fv3mLG7vk4stDSb6aiMsOqNtiLGAIABxMwjoo6zOjv0WfdBDLBn5qfRnfo84YuHB0SyiUjesKUvwb7p-lBGCPA_dYkslHZvIoPrBXVzzz8rBeBbpvZrN4-twB9tD78whu9gqIGYgUQ3H0wu3Kk-bXBS52-n4oYC4HsOOqIY9k2gy4NeIqy2hHVGB36PQbmbkQPlS9p9SIPzMXF-tX0qoBOReyb8ENHSYAv6rK5vJWyx_RcmmSGfYgKoJgtiOYc8VJWsw0rm8CrQHSENyX-pbhSYuI8St4me4uTrl_jKvgbjghPl_gH_t4P_9bSc_2FDAUMmo2x70ppe_dmLPS23UWzUlSUEDXVqMHNII9i33-PcMj8903IvPFq-ij5bTL2uzkvn3aUiNjL-Bk1qhn31Zq0y5MRzMZ-2D3UictkO59SW97ofjJcw8XXsur0PLTaWKvGxnFukkCkSQ9RapLcVQGb0noeoZOoPi-aTJmRcXTs47wlm-eDBCrIjTmNWSJiz_XDXUq8BUn2No6Jrjhf_J5fodN1FarityprRljZBlT3NRJ4gLlWm__U76-SUsgxvBbw96xWmRC4BYXVGXy1fmiCUcUy0SrgT9Sr5wsXv9Au865Rpp2JVg4YDfRWFalcr2YaOsT4YiSYsxzxbB77zlecX7XLUscJNBhEpGLDZFWecYqr1psfIzHsRrPNE11rB0G8h2GHRUDQn2kZ2OQq_zQTPmO93M9XhJLpNSXhaAUdQa0PJrU7RilK09GgxWakS0Kjd-NjxWmDvjFBL0fdB74QqpJIkaRb26xX5RlJOIpHB2JI15sh43bqbADZMKrCAoaYpZg_lurUjBd7ykVNH-HQXXeaCRTGcgAzPZq6QZCfzOa7wCpsiO7yMyR_pDW_WL-Q8kMmbVyI1NeasI9DIgdh98zZ1Lpf3csSv1cUAGsKXOGLYtksMWsohrRv46_ox81T7aQBIKGnlQH8Py5NCaCqmknHo168xtdhUt_BKJQFZE_AB2PWEj50Hrwg_TxZkBw2Tu1BVQRVYQ5T1cAAuCnnWRTfzH63vVsBe4QfhiT5W7wa_lX0mggEPRWXwGTNhirNj2vW6NMw6c98grN_EQOMfJ8Ey2SzJbUJ9JqUVL67mmnWi1a7IDbWd-QpzdSnD_rsl1accveNZY_yZHt3P7-pQmzRK_BmQEiIxyKteB64Xw_g4__lWx4mfk_BmfeMNcMo7yZAWUuAU0NQLazjK0yaGLLShJFGo6v7kWTKCfb6FMBPfccq0BljtCkZnCJMwlj6ISIpg1L_WfSGrCt-62tjtpugwfsdEl_7LOLSrIbS9vxTuyvryQvYSbidrCURK0F7Fgpwhrg9p9OVn6SUTiVsQ6ywLg8PQgqSZDUho2U8jHsmTq6-CIxWG1TXZDKLFWa2QRgmejZJEWTq8WW9WdBwQsOhRWOEePnFBJbU-fDtRChYvRtnpfudbganT-WSAjjOR9SQEComTUokSKPHEXSbAgHxAdHi-MAB_LZhOHBguHZgwzWpWXSY7-OvWiD40VfXztQq13XLU8I523G7jiJkI-DPylhCGgR87c3sfk7MVXcAno-dUFchOooJwV_Eq15DkOPJQ1SaXJVuevA1Wf7XqXTRThWbuwnKZmRH4-ac_DVVYIEBD-_EnwFTjsvGjyvtiMy-1oNsRS9mvEF0sd_7xLvyvgbKgT3TMbuGWbWlsa70e39EsIX-8R7DeSOdVP5seeyRhL23eOK87pUmTD2v_3qxuPjUE1J71_HEqzLbUsLo7MHHp-p6ll_pXsqcf6iR61vKq-xf3Hk8TiSU0v9_jiLxvI4aQsyRCyDnnrFkuZZS5ADxU9RT9phY35YzKSqxqC4-ZjPEfC87g8IjbR7easXZv7KmJI55PnsoryOpm3YY18Wmt6QV0DdjiXlUAGOrRQrWdpOd8CpIt4SxAoZP59QwIwnV2eTNcM3_vug5A.WrvByHAJeofNWS28L-HfMg",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1776298301.842015,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "rum=2&id=c3758695-6eb4-47f1-bc2f-8d1875e55d9f&created=1768522297284&expire=1768523202907",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768523202,
+            "sameSite": "strict",
+            "domain": "sora.chatgpt.com"
+          }
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
+      },
+      {
+        "name": "Pro: Sora 13",
+        "cookies": [
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1767690325942,\"i_b\":\"XiadNIc7p9LnxtqHIPMxd6UMqXTFadqA9Vh+xkw/U20\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770282680.379037,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Host-next-auth.csrf-token",
+            "value": "d93196660fb1ce3ecd4992f398738df147ac83674effb6eee49ed553bd7e3cdc%7C73ba0d00361a2333496561df023a8effbc96d396c115b6b732c784c83bdf70e8",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886054.979862,
+            "sameSite": "lax"
+          },
+          {
+            "name": "oai-did",
+            "value": "f6754387-d20b-434c-89cd-d04b18f0c553",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886054.979865,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "cf_clearance",
+            "value": "hxcLPzYmBJBZffkF3h48o.MSSACD3wlbaghvry4XL8c-1768293799-1.2.1.1-oCvwDLAK88Gx1HTi9ZEH7foTrjZpVyfnwIa0tw8Hj2n9ECnLaWL35bj19avVWtC7wCxjIknOX8yA2KykgA3SYNqFPxAAWnyfj8dlzyUh8RG29O3k871QYdU1DDXSZaD2bE__SToOQrYq74THpg9P6NY0DX_3Oo0efDn2bV7h4CRSNcA3Y8CTXIXnHxqVDBq28_V3OSZhZ30MbkvyVvgjP8JAGo1ID6UbGC40h57oln0",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886054.979867,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fchatgpt.com%2F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886054.979868,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hlib",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886054.979869,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_account_is_fedramp",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886054.979869,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_analytics",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886054.97987,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_marketing",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886054.979871,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-allow-ne",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886054.979871,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-gn",
+            "value": "",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886054.979871,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hm",
+            "value": "SHOULD_WE_BEGIN%20%7C%20READY_WHEN_YOU_ARE",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886054.979872,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-client-auth-info",
+            "value": "%7B%22user%22%3A%7B%22name%22%3A%22Groupydfghuidfhuivdf%22%2C%22email%22%3A%22inikahz4%40prem1um.xyz%22%2C%22picture%22%3A%22https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fya.png%22%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1768294000841%7D%2C%22isOptedOut%22%3Afalse%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886054.979872,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-last-model-config",
+            "value": "%7B%22model%22%3A%22gpt-5-2-instant%22%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886054.979873,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=e089fdfa-eb04-44cd-8996-6654150bcc28&rum=0&expire=1768294947308&logs=1&id=72913727-01e4-448a-8ae7-4c08c161c12c&created=1768293728483",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886054.979875,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a514557346269695259783739746e2f656c522b7a554e4d50436a7553332b7771546647496e6539326a714558454171454b",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1770886054.979862,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fsora.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "6SOJc3gdPGT.KutadoUEhRQeKd9Y_7ub.o7XZPHt82Y-1768522309-1.0.1.1-aJLBT9FG0.ukFFP7GD922TmD73Gjcnd7bBdHFpJwooLz_R8lkdxD6KL6Yd.K.SH5hHEdwEt8NPj3.a_fiNT9wf1mk20GF0TNS42KFGPxMr4",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524122.530169,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cflb",
+            "value": "0H28vBjUqcdJN5F5i8DLknvCQqDro4yRZruV8Nqikjw",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524122.530223,
+            "sameSite": "no_restriction",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "4WpzzxhKKTqxzlyDTzmJ7kzYifBb5OD1hIvZuvPBg6s-1768522309262-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "6sHaJ4EIZJK3kTmpynPneujHL7tYlhQhTgraD7rjhAM-1768522310-1.0.1.1-g1XprTdEnrYpJssQ16p0v3wfrYjnQcz8_CBCBl1wut50N4cvJtqAgGdYzwuldMqOBXqHLayobMxL5hEAhBc_iH0IB8WjC_4AObLKgaXnItU",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524123.754228,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..G6ONspfEyfV1-E72.3yUa6Tt-gy2sL1mcw2_6qP1kUxeZNdGwLFt9TGFY6YBX5agGJR9Q0dHfhIgR1DwOZ07ZTxf3N6bUFLWn1fCwXdgJamfEjbh7JM3fZa_WvgmPkziIShhK03ptfF3FJsUL9w3PJvOkYMW3UeVTl_jgVSBnmuLnY3qvhwPC_ZByRs0GOrzwMGPtKLVmeVN5_17lqSKpJeeaOwFymnKbsK5_EdRXfuef_PvcdYSsm74eHAraQVMOZfD0XlhHQbGJTLnnqD2-UhPX-5ne8s2A6yq90TCEVcgVzFcHNJXXKAKG7vvmVdJfdFkLdjABJfcdu8wtwLK39tXuC62ylsom0vepr-j6u7yTcnJYtc7MglbmvXxLz2uKvt2y6kNrqQ-xOsi7Js6N3NK6oar_4PSF7IurRoHlV9Cbdv05xyLgjzSesI8yFQurDQtOzeOqfU2K9SNfDZZ2uVk1wsI7-axdhLHrkoIYONx_rZcjK2vrcZBvuY3mrFykQS9h3UmxD0lKmoGrx5iurUPsW2TGbr36ZqErPd9LW31imIakvSGZ2xWMrvs6zDOlADxKKEZneDl-3U2Di3arRFHEfvZo5ERvlo28YF5lUDxZYRhp_tWIikkMhKktbq7oTVwsBfPesGScu7_7QBCnB1DV7Ig2P1P793vkvyfSOlZyiVSIk7_wSuEIVMnYI8JZ4ZR8R3CCBZKCAKYjoe7-Wjl7XV_nL6ojtF8fk26mJ9rC4tBJzPY8c2P9-hZ1fIsB8j5npMGBga12aoywohMq5RYmPe-dWJ2ogF83eSNVF3M-BB3vAwioB5Iqav7U_qWf8Wh_wVGlEUNTR4jze5_FvjIPVCzWPV9q-mofEStDe2ghdE2GI3V5fjWe0BAKz6mn8z8p_DtEX_BXuWBe-selzKET7SkzoB_65hgwj-uPeOTc2vIzP54Ll76SxL9WhlBUuCg_ElMxf1BgA_dNOsiSulmY9pIlJKKAG8YjvA9arDpwtXqkEq51t1PhFUFeae2W_Eqtjoqtw4qRTE1_oCNF7p9QKD7iGmTcccBBwC6kzLO9saX0S_ScVf-ZejwaGWEEezEzMurvJV_FMnSH029u5vQ495lFdoQkgkYy4hfj3CUNjzcsUAmFveOTB9xXpUVYhp28RsZr-gP41z2A30_fAdOD5PjOJOj1b6UVsCLTICCK-gTHpC9iRG-nnBZCsseRXYLYYAVUOx-g0m8rk_y5kGpys6DVbUzWGZLpAz4SU9u-OLNWE4EyXqu9eRc4ON0n5m4_1e_7lemvTH-g24UrwUJTw0N9V8yGLuMPnev2OjfbZPqoYFLkwFSafO2qTgKFlMDhge1niRXVyOiS1pT-UCXXHzWB7IQXxQFn9bXCrg502CSp1-QYYozg_4rIWpAQnqVvj7Yt-W70aL8mMGM8kzEQmmYuRfJMLghyZ4grqOm4bHXKmyF9dkuXzYvrCD1C72vUPjOs4cUV6IpBG2Qvk-wQJPOSwVHQt861HUwrZbHFROPY4mm-_QYLpXAa-ZJIxbjBYtFpgJbOjUmvsb-mhNYuHWgDKntWSn88AzQXMKBXrVHrCPTAXser2PmfKo_v8POwUrkqF4AVVc4qWnSq8qacGpxFWadfKHaWFUSrsuaTnuFAN4B7OKGVISzYxgdM5mbUk1vyIMKOems8UmwNqWKxZLfRE4vtXasVRYGaI5D-nfEly_A_BAtuKpmzZ7ntgxVaSiq9ajYvcDCg5T2ksAf8k_VmYtb6zSP8AdihI-CSCrS5TEjjajkK7dMYWA_tk_mBfk_UG48m7qvGDmywC3yOcR3Ee1id5UVtcdPOjz_PwAxQkQGkoq97aXtd2H3fmDz_D2-UStfoquguSIB_kr8bq4Skdy3GZBQzFZhEMioZ3ZXAJ0iNL2JZO0h0njaUonXieoyvW14F3pUjPKY78tf1HEyFVvZGtUq-ymIwo77Rpwcdi3RQtHeur6iZln8lUNlnsYaMQdvEdaDXX-N7HJmvl4O0LZ84pIjGMUuq-tcPJ3a-1xnJmhKMrpRUSTm_ApxEz3lsjn0aFcpmtjmchrNgIden35FUQBBLgkKYxqhWrAIAAJ_8c_m5DnD1xG5TqCUFd6Q_LmNeUorPLt9A3cAR7rRAKQ3NDVRuB8My6LzUh76xB3oIY1P9o08I5q251OVQLq4Ywc6Ain7HiotYSphP49xRUgN4X3NSh6FZyG3wV89E--0Wh7IhXVOVv0z8veMCyAOgWLbJfWIbXKKlyS9KwjE9eldQNvOPxwHg8ydY2WK2Scz3yJiWEbzBXS7K3yRq2DlpiNO8kBbPyoIBTSCsyjRcLthXpm3kEPEyozXXelLk4yVrjb5AR_BBalvnK0h8ZFLcCwHB22tediCuXxbQAWHTBRH7zsN3PjwqLxNRZhaFr6Up1RqfRJJMNKTUozwFzmFbZ8DVpuDOeQ1kJ5S78OGJbP0ia0Yt8DIWZSnhGaBb55ZnVBKysV_e2MzbHDFFcKIXeEcKp06SP2IKxoevq14EQAqiukveBP6BE6g4G1VkYOz-wNsioHRhOWAKhnmJ92sqYB-gxGMZ1uIQ5qMqnhu5gyNPDwAeRqZxzEXhUhYcmznNLJwzyGQS3Rfg-9ovVS3DhgJKunTlA4hfdme3BGkpZg5rVQsFOtQs4OVPtHWqsv65VpeLQD-55m7_VA12Z3jQvADulJKo3PXNnnGEK5Cqz7yL_BRh2MoP8jbmcyMGvwEO_kqiwM2I8nfbKvYomhE79EoNjg5h2AwOCA9-0Qfi8J4-ZvwrN19DR2ifpuW_dx1gHJ3zKWC9OhDEfwBUW1sFRmM-9X1yodSn0bdf43Z6yMYtQ9syDkKu3uG82qoz_HDy0fjRWxqB9pfUM2tzmN10Ixf_cyzGdMBJChE9RDnvZUUbl4ayuaXH381LKAsgs5OCs6vJVfaaKrqJ4kxKwQA8JxVoJYdjY98TLiKzfSAGZDDO3veSd6h45kXBchhr_TwciT9CFCqmYFS1sSMYHf4j28jEzqWhpmzsTT9HKwra8LY8thJQDTLmMsRQqbY6KwjPJVR6DJDllknFYF00yaUTm35JAfU6VjzUVt9ssnUVryZb5wm_byofMbBNnXYzPbsIMI7P7BYi5yOlK4bUVbDzYvrlNsX4uhomAyDjsbbaCg3SPWam3OAYZAbjP5N9RJMzN5eAJTLNBG-nOuPkmWf3-UnfL8-m5zYdttdDLM4u2P9R0-_dmQ.ePgWXp9HyHX8sm13ss1XMQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1776298325.737895,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-sc",
+            "value": "0gAAAAABpaYJImO7hd_DHip5HF1Ssc5qrDdXqBF2Gy4SCfxMl0dyZmAaqCiAWuqqaH-WiVCLcs5knAENCxPPpJ4Ue2MU4c0e67bd8Mctcg95QV6x1TbLZogBkQ5Cbn1Xj2szLFYffw4Ku5x9JkioiPoe1BgB03HE5ciDD0mQF_wpoRD7c3gp0N9BaXmKo5b2n62w_1DKhv_xhWm5msaiZlscYkD8Nxvt3tVoOl0xnQIFNpRudkFZzMWk",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800058325.909976,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "rum=2&id=0993d7eb-6d99-4c6f-9bbe-e63a0857a305&created=1768522324777&expire=1768523227177",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768523227,
+            "sameSite": "strict",
+            "domain": "sora.chatgpt.com"
+          }
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
+      },
+      {
+        "name": "Pro: Sora 14",
+        "cookies": [
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1767690325942,\"i_b\":\"XiadNIc7p9LnxtqHIPMxd6UMqXTFadqA9Vh+xkw/U20\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770282680.379037,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Host-next-auth.csrf-token",
+            "value": "4c2f36b7d16a989a1c0d4ae9e1ce315e811cf140771a14c3579b8f0e1c5f51d8%7C6c977a670eb9691528bf1d068320573a1f0bc549065e2072074153d321a252ed",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770883773.053453,
+            "sameSite": "lax"
+          },
+          {
+            "name": "oai-did",
+            "value": "b368424e-54d8-41e5-be26-f5ca3fdfb518",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770883773.053456,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "cf_clearance",
+            "value": "MF1qKV0Iz4UxpRfH0Ge65ZBJcHM3Hh4mK2D95tcoeNQ-1768291757-1.2.1.1-AV4oWm9tD33fdq9gevC8faCLYSqijL9RowBHIyfYequkuM4S2aQ8bYkl57WxCToRNtONUC2lEiWTCWycyazTGMbhphEj4E.3xPJs5mFb8rEfekSs7FDMfYJDhyjQVeUFJDn.zEXMWPaJi_lr944TBhN4lgPgCmGkF73HKHzbgbAUHHZOS3xau2Iz7PypdLRfq5ted2fGfAusW3lYpoMwehwQnjBB6Z_6WLlHxCn9h34",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770883773.053458,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fchatgpt.com%2F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770883773.053459,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hlib",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770883773.05346,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_account_is_fedramp",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770883773.05346,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_analytics",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770883773.053461,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_marketing",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770883773.053461,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-allow-ne",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770883773.053462,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-client-auth-info",
+            "value": "%7B%22user%22%3A%7B%22name%22%3A%22Connor%20Hackwood%22%2C%22email%22%3A%22hoashda%40pusatnetflix.id%22%2C%22picture%22%3A%22https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fga.png%22%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1768291768708%7D%2C%22isOptedOut%22%3Afalse%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770883773.053462,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-gn",
+            "value": "",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770883773.053463,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hm",
+            "value": "READY_WHEN_YOU_ARE%20%7C%20HOW_CAN_I_HELP",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770883773.053463,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-last-model-config",
+            "value": "%7B%22model%22%3A%22gpt-5-2%22%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770883773.053465,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=57e61c37-c461-49a5-8cb0-9712391871c4&rum=0&expire=1768292669820&logs=1&id=0e3559fb-c1d4-4cdb-b5a5-16f06b034d30&created=1768291687475",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770883773.053466,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a514557346269695259783739746e2f656c522b7a554e4d50436a7553733661662f69726150527254682b72535a67453878",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1770883773.053453,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fsora.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "o6maEyDKDDEjsgzjIPMv6UR.9XdNu96eGHZiguB0mEE-1768522319-1.0.1.1-1H2XWhkS3qFfw6H4oStpM9qdViDUXByg2GSaf79weinMMLzq1IrMywAJF8a_QHBWJA7_IMeJyBYe7F87jwYnVN7VVWrLcmcq4b.Dqa3i0hk",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524132.85186,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cflb",
+            "value": "0H28vBjUqcdJN5F5i8DLknvCQqDro4yRbXvDGT2eqR7",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524132.851909,
+            "sameSite": "no_restriction",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "FRi7DT_PX6ixVAE4fjMxclrw1ezso.kezRVMR9jRef0-1768522319746-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "ChpzqiwXe68hU26UK0YuPvQ4Kx_SSIYSvvrY0QIM968-1768522320-1.0.1.1-IiIhuJDBds5CYYn6ZjECxE1q8MWn92cD2wrxlk5dQh9wtJgsQ8sJxQmGstP7kuYd0v.T2zZ.dvAs83AHwBNZDnRDb5k.kUHXjRPPtsBZShw",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524133.483237,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-sc",
+            "value": "0gAAAAABpaYJRc0QizM65lD9MnAgkw9qSsCuQb0ZiCbiKvPc4CGBJL5fP_oTxTU9P_Y1oAMnAhoawhuldcOkcmlnEZx6ODx8x_ltS0Htjf5gsFG8BZMtRuZbOOuEDs7jk85be-rpVeLkY00XBSPig8csiV5SH662ZT9wLAJ-mL6-T6s7GQOL5NpNuhy_uzNHd-LPVFnyY9EAXWGUugfVTzjLNAKRvt3EXWTFilKUQSMaCgsNNAiBLn1E",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800058334.285337,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..xZYz2COdezAmO---.vaPVf1vqtgH9PYyq3Ej4i3XMuPxXJTUn-U1mL4w1PGdzzzdJKlvJxrFTOJFojOZdDQp5vHAMkxAvAGHnN6TlI6Z1NVbsvKZSC0zurq57dLOmuL7YPzyFDwBi3eJgxHVGQnzWK4sjl57wzDPFrw3i7ozQmrN0CR3F_7L6mrdtlRPfXGOe0rbDemUmk5iSji3ysL7HxzSbfu_kzh_TikDSgA9qaGB7UHf3_kHo95t50vq7wIQq0VerVThR2Rp4pwfGrUDSqBO0imrbDAV7EmASQJqRhnG9wtIGtukImVwgP047rlZDiqi_T_k0Uuko1qsWttzSdsqAr_th_AugFWtIF55TEdwC8NwJTMICGyxRRu--NTAYcdR-Xfd6oLoyaDwh9_BDBA-byVx1FSMW9S0HY7P4oXmRQ3dMCQYi8pPjvmsSJw2tqjV8m99a3aKFShJWkGY1ViJzw2YCbTsKvqsO5j3jVyD7SmR1CevNgWIru98H2JexDkoLHj7B4bigiSyqki6SaqvpbRrh8da4R4WHYHHjZBd5n3iegIWZZa6C9Fht6E8ysFrhPyCtchu-IAfj2xiP-iK1MBluZ6zWNZfQifvr8lnqim-cMzcO7vJ4MtKDS_-fc2OwZyIcjTI7bUcNKyGCz69kjR8sgpaGxkmowydURhX_R5h7bXJuSwQG86Nylu9Lql8B1_3yOMS8ygeGAGThJnUirDW6fN1d135MNJKkBt_pLTm0bNdzAogw6TDi3a9enH4dbKvhREROFnKCnquVFM5p6tV56gvOeuK99hYdowEWJxC2WElBK3-6dWnd38fqCvO14KXXXlaowu9qaH6uJLQMTXXhTMC_G0YuXBlKPifHqAgdE_s3s-HOkDUUu8pZMPPreQW-8vU6uxJfoXwZ17IFXz_YxykWglncAIAC0vFTczxP0R67_4xctOWHpB0mfXYzUC3zkQMGRAAs9nNEcvJ2VrpzgzyQp8i7zGg39r2l_DWklntcPJL0iCgN07JQbgs8kZ6Z083_fOq2kdOOTu-zimkidF2VmkCA8V4-h6Wj7_HqTzHzuFZbXdoR3BspWJU-vgdsdtP1I150xCvAqwRaR3IOFyXTiRLlYfylSmJDiXtSw6cuSrTQXP2M-fmbGcj3G8PTDFwOgY5UWxzR8WNZJcYMeBSrbVfExG_pEaLe_E5WTQDfjrC38Oxi6TH4JBUuGDtoEqTssxjGsSxolbIdTjtSu9c77IMO250cBM-EbL4Xv8BU4TRdHtXjk7_jWUUuxpF2PBYvnlEBp5RfS4v6poHbbiNHsJXWYuJk5-sLCewNsk5ZZi3as_3e9uYCbETr6oHWMrMME8RUYM66ZkAel3gqGhzno6YxYc2gAY1uDgDFOkecLSNW2DGH6n5cK_5_b2Zj-3OaIFtdcnNQWs1sWpKLmkjQoPkdr4DZn0LMZpDilZMMRp-jQIWf1HVlfiWq_09igAHdGVZH_qjL2rQZkciz02GmqWmBObQfiZAjYhtO4FGRxXP2AwHeTXAAKqvZk79gHbvNaIP7ZJ2KEThaboKXHi3je8JJ3NQAbivfeQB8VEI2HetwC3WSuN_xMkeVxNev2998K7Cq7OlADQHkvtUuyVcS7V3Yjhy8GZpWLfsYRpZn14ywLnOFCGg5lDRjTRaZcw_3sRAw4H6nU7sCgVHqeJ0e2eV5mtp8xxmJhlwxxoSBWOuW3cVbkqUDchZ6fBJDSsrX5_c44l-fsnIVGRn1sqsbS9ZtG66dloN5pZYt3jwB6P7OGLqNgOrxVjAe1EfFBd1y-r5Jvh9jnDdtz13IS0yX9OOBMAE34VjAWYfFcJ_Ib5RJIt3QkBXH7ZLccv8OSdR_dsvkPt-DVayNxskQskO_uMDmOyRxJ6iwVaIqj80h5u14M2O2v4J4B3wZm9TVBMzggT7IihkyuH7sZD6hOOW5CP2V71iFKEQFD6AbFzV1fCTU7bzADGQRg6GRsqhhkqgcUIB0DpQMoEwma3RSRYUHaU3ke3jALettKf87-Gk28NR_-Wa2SCkl9sYdAhw4CGGLJ8lommFiA9Jay-4f6qOC1k7XhuIlCSX2zq3WeSUWPJBEDkXJesTw97caouEDgWDu6iIuqbmEqRC8zkvaHedvvWiCAUovdxqZ46jMKwEuBt0xlzlvG65wSCSJo-q6i__stmYkkbUymESgZWuwxNiUpOZhLwhjY1xziOQEiECvdrXdH3hf1CV5kRQshgPayBWd_ajmknB4P29y2-9UjaIXOo9ahbrqqo6LPQSJOKwgtyVL-4NyLfUplMKi6d7dEPJFXsY-JAT5UXouH51C0fhKSH7gVri0R7b6OF6Eqb8ATfkgwki4jPLrauAaOWks_VyWFL_3XANToHtwXEdaaDszjgGVK_0OolX7ZeL5LxSlv13X2nFw3e8EyHvS1Wp0gvGE4Hzlo2DqGtk_qUv0rn3QGRZqoG834zDLmL7KSJD7vAubNlZ4ToWAH34LZrvpDFgARkADe9dW8M7ZCMHFC-THltiWTwwHpddcJRpSNDSiUgkwMuHRFDMLFAZxQ4x-TB46zDlQkgyi2ZpKXdTgd0D-YyCzACUhd_YJ90GZEBUUADBwXQk7w4jADWfyeK8k8Uj2eDA0XDmMNEGxMm_vkyRtnYtnhfH57CfpeLA7FrsxgMCtHNy5iiRbW_s2HYohQWxAyrMo-Q54pEmWBx129B3uBVTOkDiODOoaUaNhaV58Zi86GF86_THkh1qSTLFJ3wZ15yRTeBIplngSPmmS_i4j2U5y7Gimw3gXa6_BS7E3Sj_P_Lf9bRPKyjbiySrb6jCPR1NTspJbSdXHknGbc9IDrfiBEFPGmtsEonNTY2RPVY0Txyy1uBbgUpm0pviN4DPVEuGHOg3SJtcgSO41ED13nWEGTOBG1e6bcN1sYvtcqjjGRPLtaiv2hxPIH3w3QYly2_D5NL3k_3UrsMcZ_Xm2yisC2WFKGoNI2dATm11pDzhCShD-FnsSej9akEeOIg7gVQ7yCFdMV_QLRT7U646JNO1-UlNe7Em4y8Fvg07mNy4jCDslH3HBsF2PNf5jVXorE0WEgCMf6mxeUeXzbL26ouwNU65A5_F1U4H2Wm7H695eENoWoGTtvSO4siUBsJHobHWLKVx8_FOGjXzPv628wKLDjDAFjjji-MhnaK67PWLTJ-6D5OOuEeWrQENtXLKyw780nmius7rgZKlyNFGygKKPpaOswfIS-0Xd7xs.cCIQCvEeZO7o3V0K8-hEEQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1776298334.42234,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "rum=2&id=405b89d4-5f02-4024-a2aa-1725909d4517&created=1768522333821&expire=1768523235898",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768523235,
+            "sameSite": "strict",
+            "domain": "sora.chatgpt.com"
+          }
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
+      },
+      {
+        "name": "Pro: Sora 15",
+        "cookies": [
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1767690325942,\"i_b\":\"XiadNIc7p9LnxtqHIPMxd6UMqXTFadqA9Vh+xkw/U20\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770282680.379037,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Host-next-auth.csrf-token",
+            "value": "9be1a588417fbaea93c2ec13b3be4883d2fe5aa1b98f7dcb1dd218537a1f66e0%7C63450b6ff5189f72d6ecf473479652779a354c9197771d861a90a6ee29ee6175",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916460.628219,
+            "sameSite": "lax"
+          },
+          {
+            "name": "oai-did",
+            "value": "0b53e50b-d526-4501-9308-255a5bd8bb9f",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916460.628222,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "cf_clearance",
+            "value": "1kbWYh2F4RuWwBviHzeL9KKmsaiDoy1o1lHB_EVu3Vw-1768324400-1.2.1.1-lLbDJvXB8dfT8P2_vx4MN93Ct0pfoUpMuz1CwyA0hGGSP5eGR97TAf972yuyhyEb_SBVp03mkW5wh3iUs5PPqmcBuNk7ppUTiDZPmzfSB6FTZBAPS5o3LxANWJxGWMiDvmObLFWw4GPfeqhrR5GrK2xbkMuzEC67HaEd1DHEeGQU2H2r9rI3KUJHwmS6oEYmdbVKKHKf6WILGwGj9y_OWxxYbz68prdZA.UuEw67QOA",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916460.628225,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fchatgpt.com%2F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916460.628225,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hlib",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916460.628227,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_account_is_fedramp",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916460.628227,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_analytics",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916460.628228,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_marketing",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916460.628229,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-allow-ne",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916460.628229,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-last-model-config",
+            "value": "%7B%22model%22%3A%22gpt-5-2-thinking%22%2C%22effort%22%3A%22extended%22%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916460.628229,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-client-auth-info",
+            "value": "%7B%22user%22%3A%7B%22name%22%3A%22Jonathan%20Paul%20Rainbird%22%2C%22email%22%3A%22paulrainbird90%40rifkiidr.id%22%2C%22picture%22%3A%22https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fva.png%22%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1768324412982%7D%2C%22isOptedOut%22%3Afalse%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916460.62823,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-gn",
+            "value": "Jawir",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916460.62823,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hm",
+            "value": "AGENDA_TODAY%20%7C%20ON_YOUR_MIND",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916460.628231,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=4cb8e372-b43f-412c-9d71-339f83ea9fb1&rum=0&expire=1768325359509&logs=1&id=02173f60-ca67-4901-b35b-35322bc477e4&created=1768324329570",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916460.628233,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a514557346269695259783739746e2f656c522b7a554e4d50436a755465647030446e3775454847784c4565673634717769",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1770916460.628219,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fsora.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "WFnXvdNAft7hxNmB.1ob7.t9nae8kUv20m3GF4_eY6k-1768522329-1.0.1.1-j8LXI.eUoTUQQwWtJY_g5Rtmvhs74mRq4r6uOSY127jATYYUI2xTRlb6dBnCGp28uF7DnJG0epIoQ8aQ3Wi6oL91N8971CGjqSo8Xyc9w5o",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524142.732936,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cflb",
+            "value": "0H28vBjUqcdJN5F5i8DLknvCQqDro4yRdCvwQXDav6H",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524142.732984,
+            "sameSite": "no_restriction",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "jlMqo4oloE6QYm4_ptTiZY4Zi_zlN6oLRGEt3Yilm38-1768522329573-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "hUL_B.c60dd8WPxYC7gjEJ9k8LhlxTtKEH8Ts7y6U_Q-1768522330-1.0.1.1-DFvo8bRjGOR0lWfs6LeFs_BY5_k.cEZFYfjwvMY.tChQFlohM9GcWu6zI3VBBcfjChex3ZHLZPmg6gEOaMIUMtlW7bKNTSdXHjOOVz0d9lY",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524143.59451,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..IeM3uNYkRMaUYp-d.EEn0dOBLBjpU-0jmFhPSSauEVV9GqQakHLwJ5lmbQnaqsfoQnHMyC_yHOpHBKyT66woW30f0UUWRHr8ojhKgBSHqlVGQEd8Y-a5NRstXb_FMI7qMiM78TpMDzPZUNS86odH2Bza0y7SNibLY1AAFDRe3uxvZI1JEAUVX8sSVr8_uqq8hq6dLZgp_Y96IFUcV4HXaK5eIt6NV5q4D0LRaZ8w0O68ZRL6s5ofls-0Ldsuh2qaA6r0ToLQzg9XlljdQhpccuw47x8DpTrCc2R_JSuq6rbBud6gqPn4U4cCbmUhUMz1gIzax7S1B43mU8nrQswZ3PiXz4Oi1oHbcbHyWrGAeEKzhRHam4WccVg4FdJintTWCSU2fI9wBjgBmDJBPwW4TRbyq5Ic8OMd2c1RCui3v-Npr7v1t4QoISMY4dgLQsjb0AQQ_b89N4QPBe59K0kRSRyXXPcq7QoN3Zrwg-RcIrPbUbZUQhsi44lII0dVnMGWHTMlP3QrBCmWuqep5bP4wo3N3oTFDpztBH0OKKDPWZQZcAr3d1bpOU8Y5Y_IJEyGZAGUwqfe1Tbq24eFWM9aCxfbP7cBFOnvBqNQjwTlFSCiBq_HfZhJxxw5nEg5hQThEHS9Xij3HMo-ualfZIAP-7dggCv3IJ1uLCjNINCgB_p3csfVY5x1LTK_BFq3OQu6_8yY06SCKHQNKrD0RNom2GFD73APuRRCeL3LWusTrhIxrpzCegefjxagjmeUC8EBDNYYjML0Nbv622DRZOrJm1FCgz26eWPFbeT1_ejbVzokIOrZFFmNy0cdFr0ew9C2wV-CFaCwnbpzV86IvXDaNfSul2RzZvnQ-rb5LcXlPPLXS51m-0y6mKhDEtyCJBgr7ycZIvmc2Q17wHIzIElDS69FYIlsZABXIZc1iMUfg83moD9sA8U0wNwJWXwIn_nkZPcgNHJ5iEDlsozxH1BDP5q2-3nLRuYX29brdpP9i-f0188RNYye9_J7msXtObNKSk7gWmRh_G6h-2eBUZxin2VAdeSMljbMXFLyEBuCpL1Y0PMSgNWiIdz4C2HnxAWMD6ANFIX4wWFXNyjRkEgIu6QGfQEPXmWlZlTTPgwadq8PonndFESrsLf2xQo7s7IpLuYxz2PRmTKS7LdRVgJeksDWPVngvhCG3SVQX99NodCivWj6RquG8P1im2OhMuv-elJ-NIcM4-tdg5E3VsTD83wxV3rLXs3iP8O6NdeiIwe2Pf4tsoTMgZClX9oGjJ4IW6xhW8wLdjOSNmOsDdTveBKgo82U6i4BXYyjkaI2Vv3kG0Rld4_NIE5oI0Z4v8AkdGXapW1QXGejNed0imY7B-kl95KwXFNBUKc8ZrV5K7ZvBB5UqutU9N_ctg4lDuEmwO2Fw1a7HrqkGr4qTIEFPSwl4l-pyZ2pAFQE2GM3R4SUPPnB3XygbqUHivN84G9dx4S-bbc4r2vb4tHwqiBZZB2RrZ7F4KL5KgXUFu-oPTgINJlMCR1lR8IfA5k-qmSnwiFCNBXAv4PQNMGtVQ6mqoA0RvckD3T2QwTRoPRZJKaiTgiIOu44tg0i92Arauscp7BmAcDjt1RTPK-pHlacdYqMTl3R2DJqeQ_ZvJ3PG5JXG_2h3Q-5DhLiVOmcdQqGtGuvrWXl61hu03TOJz9ie9_2YRcb6CPZOwtwrqSf_v1PTTIgb3_zzovAVPIu1qNqb-xf7CSzMV5Liy-Ub1xmiSPZuLBSkV-q5PlT39yTVnemmefgC3fD14hLkeI6kkLv51QagheVXmyLSbXDlaRfnVreCJFYf6qBKi__vYIGdozBtRcabHKie0hIweyJmsYB2zIX87QJWVQVL2-Hs9X4P3TyjxgO_QVJ5Mb433GAJlnxRB6Ms1KzaUFriTW0DLTDrNXyvqWaPLoqOLKw59avmeVjohbtvLJqU53V-BX4Q0uEu442YPJlze4oNRGFbQRWfXi6N_8j07HxtjhBH5yt0QpZOMyI6AFQGYAOdFZr4Zicdvj1J9H9-DZx7-nJwpSv2RvROaldMTpH4NzAs5ZVDVcLUua_XfMPokqklkTvqCLMeJYSTkTPpg1NbaexbXX3OcLOnpJ1HzgCwpU7pUs2QJQlZ8ALhW9E9Sm9ESyMaNeP8h2nLDLVOSx9QVTqCbGExT5_72exZQhqLBSSFkIgZp_Eh1Th4WqkSkc108nerc7pSF4tLaCr1eehSAJx1pXV1gdNOX3VMxMMcoWo9VxWhlAYmu-oEHdZWmSuQwHd7ssfBgiQNBznMltMIM7wR28O3Aezg0uE0wJsHVZcS2qhi7YPlWFfCQ2AhhkDoJILzX5SaLUF7PZ0siFJ9Xf-Rfya4rgF0U_Z3PIa6UKn917i-dzLDRafo5H9F_3g8xsC4F_yM3OzFgK9ljytj5bvmMa8b_rYnpVBHjM-zlcWEHSPc0ppYqo33EpMGRzwDGbX1dkJ8_9IuT-_B0YPKbYdoX-tgkNcY5OtmtNgqlg8MkiKTTvQzaVJZeg1RLtpMVtVFs6Tabe1fGdBVAFJEGgLrcwKjI1xiG39iyS6XZQnbwKGPfNyswAL3MieLj3wsWboJdZt9EE0pErVmzxqSv2jbZdqpb_3l8asO6EI7Yf4UVlNf1D4YBZLp5e4E2g3B2JMpEgBq3BOCiZhDTsVzuePvIpPWRR1eNRFpb7ACiircrU1DQw_6ImtVqE3o5RMSXuCTW4fVWAkKjdx3KTkGdZ4cN727uLKzKr4iTVnPqVq-A8nRab9O5Te3hA_KXW8Bx7VQZdZ5vMaQPL99BkwD3P5FxgIZf4XirXYCyvlxQrzK31huUDP8maFZGIvm_-rdfd6yyTtC-F2ED416sPKPY4L8cUmhBfTEguouBMzk1FnhtSDHLLsnN0gM9agaE9RDHol4PWNuW9dCLoB_IfzI5H52llfANnIp0biUQMZtmOgoAwplbk_6eN5K98xPsH_es6ffNCfCAoPN_VT7v3bd4WYflGBaUGc78KKU4iIK6hd_g858KJ_-0wbrVFJgy1kxbH_CDFMj6tqYvCYR_VpVTz4lCgsGYRvkhjDwCV6xMjSjsZcZ18DNDGr0VYWRKaqlK5M6TOLkHjwS4wY_UwoPXzKVkpa8qaZ-tDuot1riB2lDL1d3fAcKWOdpgNHMVj-SiYCOn9BVTLcfjY6bBPI27UyDGm_Wty4wSVjcGYA3_qtk4ISKv1j-k7S4eIFHhL3CSdH_-XhPFuF3m4etzmfgUHV7JVnd.0nEMZszG0UWDIFbMYE91GQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1776298344.346367,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-sc",
+            "value": "0gAAAAABpaYJbQj2XdkbuzaNzV1U0eVJuHejTd6oqHfR9Srsrx4obSATVgT7JOLpfhv68ELekG_Xr9-uI0xWu4Lii9gT99v5zTyN2BHdZt_rOVsa0u85Rb4-BB2apShDOEZuP9hQzf3CBjO3R8zBNKbTTnT8C_9ZeMFlSJfFQRBHeHXw-3CfFqc_CmoXe04ukTLRc5ajLnK2NM5yn8LO2Jp3L6fbtTnKn-zEyje_9Xksjr6_rLvWvNws",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800058344.34806,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "rum=2&id=358c5070-8717-4b0f-a8a0-21ba1f2edfba&created=1768522343805&expire=1768523245834",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768523245,
+            "sameSite": "strict",
+            "domain": "sora.chatgpt.com"
+          }
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
+      },
+      {
+        "name": "Pro: Sora 16",
+        "cookies": [
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1767690325942,\"i_b\":\"XiadNIc7p9LnxtqHIPMxd6UMqXTFadqA9Vh+xkw/U20\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770282680.379037,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_account_is_fedramp",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916460.628227,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Host-next-auth.csrf-token",
+            "value": "52542e856810c52eb86f6c1ba98aae2f07a66d67865f6d60ae662e5a6b6654d9%7Cd1051e4269b972a6be654dbba5e16a0d2eb2d6b56dd8a0a3b21de8cd82daeaa9",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770336362.129507,
+            "sameSite": "lax"
+          },
+          {
+            "name": "oai-did",
+            "value": "990081d2-a563-476b-9e49-58f2d0a1dc4e",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770336362.129525,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "cf_clearance",
+            "value": "u3COcuwjkOhFDf8ioWuNO_W4ZyKdXpP7l7UDcYEPJuc-1767743856-1.2.1.1-G2NSY8jrkysIeVvxkwzQSi2rvhtJh_0r0XcoTt5k45wNhIu2bdse212P4gtuiWKr0stKaOcTjV9UaKkEOSDHycbjbH0GOJUKsjbB7KZ36NhuSKnCGF1l6wlZpgudSgvbmJSMLqbuPt5a0_2nlss3UF.7Cq_Cb7oDELlUVHMRfb5.lLiOHiE69PauLgkWU15YAI9yrHZoMBU.590ogVVqWeqwFBNhhmTFRisYfipgBeo",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770336362.129559,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hlib",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770336362.129573,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fchatgpt.com%2F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770336362.129596,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-allow-ne",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770336362.12962,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_marketing",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770336362.129631,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_analytics",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770336362.129642,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-client-auth-info",
+            "value": "%7B%22user%22%3A%7B%22name%22%3A%22Alison%20Lindley%22%2C%22email%22%3A%22allindley00%40rifkiidr.id%22%2C%22picture%22%3A%22https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fco.png%22%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1767744335602%7D%2C%22isOptedOut%22%3Afalse%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770336362.129664,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-last-model-config",
+            "value": "%7B%22model%22%3A%22gpt-5-2-thinking%22%2C%22effort%22%3A%22extended%22%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770336362.129674,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-gn",
+            "value": "",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770336362.129685,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hm",
+            "value": "READY_WHEN_YOU_ARE%20%7C%20AGENDA_TODAY",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770336362.129696,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=d1b3186d-7e26-42fe-8fe7-c0d0d49b346d&rum=0&expire=1767745236089&logs=1&id=cf888e65-6d2e-415b-a46b-a33e6d3e0a65&created=1767743856451",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770336362.129707,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__cflb",
+            "value": "0H28vzvP5FJafnkHxish1mbVtBQRWYGo37gATuNfgq1",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770336362.12974,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a514557346269695259783739746e2f656c522b7a554e4d50436a7553424836302f4f7a772f764530353559706756646538",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1770336362.129507,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fsora.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "jvOJRLICUJIxIPd.mAYRUzABgKk0t45Ec2i13dBQ8qc-1768522339-1.0.1.1-h.H5g4cSm96cxJd_UBMN3fli6sGk.ClUTOfM8L81hT9x_4pyXZhIZwH10zJJFmv1Kskg22gH4A0E..hzW2AQT0YFx16MSE5lTrr5ZpDgvR4",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524152.629363,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cflb",
+            "value": "0H28vBjUqcdJN5F5i8DLknvCQqDro4yReswfYbQWzmT",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524158.733433,
+            "sameSite": "no_restriction",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "PH.hoAisufh7vWyYDpykaNBaicze2qZmbjALSkiPuAI-1768522339516-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "S.zckvMqgJx3ZVPoBu4DHboYRHTSe0_JZ.XcNg2c3o8-1768522340-1.0.1.1-Os8Mv9W2zAYnNxFgUVViNF6LBfbIC5OCgLHRjmWlehthGbTO3AYQfY5a9Gnd7kJNaZ6Qaf1z63IL0AhudUtnode7xoYagsKt_1e4aJvhpNU",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524153.367044,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..JPRnrM31cIpahN2m.G5F-y7fLO-mA80fPHko5qZnlLnItIXc8cB8VzS2NwPlMKwuM-GUbPTysHZRth9bvCzalhMzNRr-gZAo-4qPSgF-ANgU9L4k3MhwcR4Pg9XkO6r7uOfKikzZNtm3wuUdwNZIAZ68tnT1EV57s87bf9CMH7JDgwWX-U8XUBz3GL-udFkE2m9eBleWeQKWGsIny8PveOov1dEvtG8dwNovDWR06ZpzyfUhVx4WvGzXtFGot6QvjTbtfOBLfPxk1CX-EfpKA_fYkVHoMpyxwm3qeOhERVZI9syJmIz5JJ25-G6wdU-yv7NL2QdW-UdlCdmL_1u55JdNrXRdpsS63aaB7kLyPwVt_JO0I-HLepMCLO9Z2ZuOzUOy6Hdo9xeDL-xzMglEVjLl5f8XBMSDnINOhxOMwAC72WWQCmIm5NaBnjyEBX52pc1xh0mns2X2Jfl3UJgtzuOelQUnSQrX5_yAPfel7_WomCmAPggcDN63SZzVz7V87Ad9sniscuMxUWnt3MmfnEOFohB_0nrDZ4fX-A4x1bgdAy3cOgRMSxqgRfOhb1EmB_u8YqscMgQqPmz52YsRNBUIDAnVSnxoNoUXK0VOhYqdLIumywLxum7Fow-pHKJKCCzeaRBi0waQfqbDAsRg63u9xWs3dYlBD_Xv7zpWovf7T4D6-NXOyqI6fvTr_hEWQOUaTyoNPrw57S7qwlLDfu_Ydd8BNdijPx0Bvks9dINDYBqDaOT77UW8-NRI9Y-6zYTBdMYOaMlDD-FYt6XemdOiso6nyB5vmIe73Cp8bUt-kKHpRHKbKHUIMlf2c-07GtrhBHx0XFHdpww_5Pkj_UUWX_3IxVtTzW9sYpf9Ncy436LODkUTP1lAqvnPhKtzlNh9kjNhPq-jL-rVXCJb0fjQkDXvdJHAf72M5Zgl-o0ka7m24mhn9XQ4ptIjtk-KUVyYgpP1rPEo2XkrzSjTHs-BqDzVQQpqeLwg3B2ZS4tI_X6DsJx7SFWZdJWumJu6JDhI9dvJ0rL5Z3HjzKTir3YD9oqiqzWTJL-GD87mKFJz8qllhDOitP90hc6k9hedtYeVhWWAvnw94Bwkyxv7cNM-E6lc5xMKqJRu9AbHkz0IXqZpNBeO4hGCz3BavTg-S8ajF3WQSqyXu3szLQZSviEJhyyG3Q_4fxUYyDYwzPjvyiLBQEWaq7ddC2jr49ymJrAu0Ay1Auovmzg3HWzoFq1kaeNLZxyCR-aDmjolxdxLfV2Bz481f540emcpa_TSVoRGSHl-C0ANGg-kUCpZJxXSkVbLNpgUmnj-Gppfnl_dCvo1292401GkbwvWU8S0NdDtI1dgLb7wsz8ZcHi1eR1kxG2_qnbo5Pbbn5mzz3FA1AoP8nuaUCDxnjVIM49UJWLembtm4kywmva6MTKIj3UsHcFK73OCRmjRkZ71zzrcOTXSvHG_A6ZwB0Ry7uPBDW7dTQO9CCvpquvHUjLd1XmQpx311PDh7K0CvVe8jM3Nv2A2go2Cb5krJogZ6EgLEfoQUOWjJ4mRIuJFkqIH8-IYSov-XJ4Q8ThddAGNqqDbId5ScpxN_aZbZx_x8F4rO-zD_QPBfBqH5JluC1nQ8h-bgDKby7LRXy-PmviP1v3MskapqpCYF1SrQQPASI5638-K5dRHjHgH3zMrsL57G3LbUlYpJCflj1fBjBYZtlmHmUT0Iqq2Fka2kb4nLatzmzc1aGF8Ri_EvJO70Rx9n4M9lAw6AU3Z58SVpa8epjNv7GWoN8RhoHfGaF69KENpIT2g1nZJSY_pAHmSO-0XULYfFciGxk6r9mxVziBUwCng17sCKXpU-3FDJNshCfbiHSsHbQA4QsUL-_KDUc3a0M743175Xks-cwm1rnEIPir8W6A9aT_mQy4ijfFmUsS5TPhgb_dm8uAQfAEHpuAL5IgP78YHLEFIopMBfIVq58OJ1qTn_W3l6OWBIfOuxKHMcE707Fbp7GgQsPkmzIMbNJjqDl4AwRaVgdnp2qr8b2e591cVL8wOOBhYt3nhYxZfCEo5iMhP1gtRR7VZTaUHLnpEXxVfKeN4Y1ivh-bA0GFBZVXDe3iyGlxdNTBK9KlG2s9qqUnUad-amW7DWoMRM37frMzmdGdsN9GfyEdcgPROHAD2ZwbULdL22hl5HWU1NB8YpjJtL47Oyy5_e7Oo29l0HYXYLzBIKcrpF3vQYR3-OPkhlp_pKAVwJr3wvgvCqohZGbPoaSEgyhOeltmSq_4jllojL5M1tR539V2uYWla0F6xVQdh7k7EDPA-b66q2Ufylpsv0TLSPREU2pMW2nB8OsmfGU0zJ1fNA-LwE2q7cFLrOnto91PqYeDONamQiezxWWsyl3hnwHY0gU_RltKgI-66P9_OV-h2nuDnhgyCkcgnBvQhSqcxmDcOsZCxh5-hkKra8TC223c3FMM5gQmNgI_DnWp2_26YifwtFguiWpHgCLfDe9OffPtc74vRcjfVWsF2NRFTly8n_zNDi92OSMueMgIk6Gd40UyyhKz3BnZkg2m_hcO7khCPQ2cSoxVCUzk08cjn1URg_LfyAJz205WmyI1OBTAPbhGDrQiHLVzdX6rg8PCMsS0u9Ausp7EiqN_gDdMgGeV0SCtrzkmoVbP3iDI2CqJiD-vUPi8VLau291DqhTWzSSQDkRKvql8zZt8PIhJD6LGneMnILMjpH7oDosxvxoTD06AdSYwClGDZo1bHcTxGvhdZ9p-2h8KawQT9ZBjfe3R1_19vr2IQRWaH_QzEwJeerXt-ZHKIZ354lF71CBnGK1i38wR4P2Sed6IenFwFvzh-glJSJq8Cz3JyoVuQIKRFc90TH5vlY5ISaVZ7qBC09Z702wu6KcUjLGyAPDotF2C1plFIQJGGd35a6CaKyWXsdJUht3q92PdUjThFC1MsMHbVpLkJBlwvGvwDrl8TplnISy6p5SZIEnO4CSNoMPhOgKdglHcwgm8xkoQp_j1rGJcLbPaE6kFhVWmiOhQNtL5P0Fmwcwx44gEOYJ5LrKw8MiMTRtWuYYb3k2e8Yv4ILflyulYlGk1XH6PWF60_RaPMAmFreNbnw8ms0tN8HLyDLyyx8oF3NbcttGwSIAaWLqirSlfbb81_Ab_b1V273qdobJxEXj6N05nmPTPWGFWwmYQFJMDFdXk_T6HeOlfjt4woFgEwY5gs.lRyMQcN31M2P7-CPTCW4xA",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1776298353.113636,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-sc",
+            "value": "0gAAAAABpaYJlhnt5eQgOb3-_1HJFqSCp8pJoi2rsAFYDkB5umT143iOFTOMhAeJYndRGlIVK7fvzmAFSzbb3SokVmWE0ca49P3rfvhWR7RkQB95YlsicaUE6LeBy8cY0qLkI0LY6VcNTYdpzfWJ5qFLEZqsxqWi8f-4wBgyks8RowsG1F8sXPvdRwc_-_nOB_UW5JMb_XRjtyzE6txeL2uodShtWApX1hRaf1y466OpUyivtzoQVlgI",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800058354.243123,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "rum=2&id=ed994ec8-da28-4fd0-bb9c-8c63928b6c1e&created=1768522353603&expire=1768523258089",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768523258,
+            "sameSite": "strict",
+            "domain": "sora.chatgpt.com"
+          }
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
+      },
+      {
+        "name": "Pro: Sora 17",
+        "cookies": [
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1767690325942,\"i_b\":\"XiadNIc7p9LnxtqHIPMxd6UMqXTFadqA9Vh+xkw/U20\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770282680.379037,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-gn",
+            "value": "",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770336362.129685,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Host-next-auth.csrf-token",
+            "value": "ed78c4e4febfaf47217ecf95e6c1b01b3eaedcab3f409c04f661577e2225b729%7C75e04fb7b9a1d118e343d30dfe1a1195b2dbbba11e873628650dce03cb30b8f8",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770883771.275191,
+            "sameSite": "lax"
+          },
+          {
+            "name": "oai-did",
+            "value": "70da4dfd-7dd2-4886-a6c0-48a35497058a",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770883771.275194,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "cf_clearance",
+            "value": "RrYBOjswOa3vMUbMIGtcVpygndMppGErhwkzqYNVJKQ-1768291758-1.2.1.1-gh8R7iQtzvJNuvvpjvA.S57e_MZmKQAoEd1JaZW5sg36H_MRefDJAqpi.E0sKyyjqTcus9rNVJ_LBmtx74byUYiLtT.BIHIRnqWTtYIjn3KWlFgDlfjg0IkubHnskrLW3oB3DwvclwZV3A5fd5AD_6vd9kJAZG9ZYgWd.CWQW2snUROzZSZsw_kJNNSIieSq5X3I7ld5N2A67ATWE3qi0EqfdXSSc7Kse6f3rRgKu_k",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770883771.275196,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fchatgpt.com%2F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770883771.275197,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hlib",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770883771.275199,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_account_is_fedramp",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770883771.275199,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_analytics",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770883771.2752,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_marketing",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770883771.2752,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-allow-ne",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770883771.2752,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-client-auth-info",
+            "value": "%7B%22user%22%3A%7B%22name%22%3A%22Michael%20Hulland%22%2C%22email%22%3A%22michulland2%40rifkiidr.id%22%2C%22picture%22%3A%22https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fin.png%22%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1768291765293%7D%2C%22isOptedOut%22%3Afalse%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770883771.275201,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hm",
+            "value": "ON_YOUR_MIND%20%7C%20DIVE_IN",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770883771.275202,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-last-model-config",
+            "value": "%7B%22model%22%3A%22gpt-5-2-thinking%22%2C%22effort%22%3A%22extended%22%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770883771.275204,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=01d7d4da-5b18-48a2-8bee-b95477f5b916&rum=0&expire=1768292669415&logs=1&id=c6f6fadf-b452-428a-be34-54c7d933848d&created=1768291687739",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770883771.275204,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a514557346269695259783739746e2f656c522b7a554e4d50436a75534959396a646a2f4a336248507a3165366972392b37",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1770883771.275191,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fsora.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "9pSJeBq.YOff2rm28RcXFGxE.YMNEJdFtNDDXydIdxM-1768522352-1.0.1.1-bSfQ6dIzbg1CoIsgHvl8nxhwBUWKyO8C_KhSp8nyF70FH42QFRFqzEBnjQV3o.cpsj_OijcAFA.K3TCeCbqmt0.ABwId4vIf6PYEMlmETnM",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524166.000941,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cflb",
+            "value": "0H28vBjUqcdJN5F5i8DLknvCQqDro4yRh44Qj63vuFB",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524166.000989,
+            "sameSite": "no_restriction",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "SU1mq.k9zyf4zoLtSCk8UHeXAL6e7ssramg0h5PMPuo-1768522352846-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "s3p5tF2TSwKWvtez5iAwU1miGce6QSsULiq7cpRRon0-1768522353-1.0.1.1-ivfM3vOgU1tbvHIKP2V2FnijkYZ0vNW.PcD4KGD.DE3RrxXnN3LnftNEF8PU4OmA6lDwTIosB16CCUCMVBABOaMvbpYGjiboqF5DlJo5y2Y",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524166.680163,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..nlslCmfgG9ZZIL3n.aYu7cSxoipGEZmvZGdEDdDiODdJDnBgtH6H4Vg6kvwnXh7kJjDzoppxPUJ_fZCgwImwCOGb3APTXU9MTDu3rlGuPS5TDr_1YltnokxWVPGECif77Wb08IlWzoPTgwohNe3YwgftqzZXSINnc2y8QI8gpzlR4pufatcghWQDCQ_7O9ZydgAOiJQpx2ghTxTGBo9yPsnyAQ5uQh_kOtJwGjKFwUPaa2K1LucAHuzXHCxtUr59MTcVW4fRj-Z4bbAV6m-kMXFWYuHi62jPSQnroV0x1O8lCwD5D6CRrNuZGk-cgd7KrOMpu24Cvfjg7HRxJxBsBzVmtdPVn0bw-4dYKTfUAIkVfKTIm67D8nTh-2mZBsHE-1cXIglVhD2er3GPNwgw7OW_W31myuPQo5LjivJzyvUOQvdsEwA5nTKGzAa9M5S5bPbHcHEedCwvVzPndIDnyDDAaX2vWwP-VJ-IyYlLOtykqj9O-iK6x6r8imprCyV5VT7oDRUx4niJwgNfVvr9lTHxy__iIUbzzwYWOuOOz4fEempiH5L97Nxovp1-O1-riGY3-hQXmWl0KqFdVe9zqMLZeN-zNvY4oCDWhShn5i6z9yq_-okDcM7SRLSlHTUicRTC8YmEoEucT4Si74S9x0blPHztVXITT2uPVugA2OaPDiFJ5vQ80VFgUZTWhaojkA2TTVgv-ZlOCOBhf0nnZ5s28nGvesg0CrWuIoQMbh4siqbTLIpf06tex1G0Ku7RKcpE3OotDQkovUD1Fiajw7L3e8o3KCyaZNdRvinCgazlXzKMHR3dvMggLu2XSEfGeI7qSp1xJigSiJs2Fc5ne_Cwgr7H5NJsZkH8L1UaDjFgIqmrpkfoFvWsMkU9lzinO7--ry-MjN3Cx9-ACkGJb6I-McBPCqeLfUAtDWIBk5CEjXZlZeNkV6QvoWa0rek6rpbpgfNwAHGItuiYP53XHhTTTg4yZJVUrQQ50xvraoCf8wXDEo1u6eclBQTa8on6kfY276R3rdTqL6iEnqychwEYe-XFc5quF6p7OLQJKEo5qfpaU5SWOTQ9AsgK_SGCHIVxI7Ns0RmJhbAyR5I1rfqFTczZ5JFx2fqm2kFJjB_f0AXOVeYZrffS24ocFuLko_oLHVJfGwaxFiNgqrKRq5XAfz745dUTKvrbQs_RubWVVikTi0JVikXFDe-sk0AKOX0QhZOQ57b9PkAICwgDWyWJvRA1i3BshJb9zFLVo_zMQdEzjr2q0PgKiJ7MWUYkzSQbFg2f6t4JEG3ggLyCtx5KOiKulsqftF5QC3TN20E69DkBI1wWs8N_IVsdYAuSzjAWFuU9s1hBnUxUsDzi1s1G0F59sdWRwv_thNCf7PbTz1SEolmZRaA5rOR1OymsvPMcRsXEKQtsi5Ni1oJW5yjEhd3bBvJKZdg-eeVEKVYlL5l4etZGgkHNf8Kkk1rUPM2DsvvjXHCjAeu8RuJfDL-Klt__K6AJySKhHMtEavmiL8TQxhIw7BSvdl0P_QSiOgjWK4k00iKZLozAMFSNarAxRHVNjx_mAPJWuSFpZNF5TU8MVIufObMccTS9Bfa8VDP6bi48YCUlrjEmvXfAILI3SPneGnH5-ySbaipN7dCBy6x91lNU0RHFwfHTBNGAcoIwW3FYiMfn-TMIhYUk74rpom3JcUkz7mC_FhqZLWXhKgxDlzC5jdjhiKVSujcr_v_CukfqcjFN_tiFreCJFoRU1WEaqJYeBJii1FbeOqKEvShbrW-usVg8JysyT0zVoNmqDRNxhLxG_S3Fyh7euEbH7vcDBOFWGRqMRFUtkUJvHBsQirqxxtw1CCmYlQHXhtGxX0IX-AwLpAulwdF9eQmy82cJ5EJnRicCKtQcdVOyOfCek-hYc898sDCD06yKbuft94wqhxfQej91r5Dfm_CJDP7pBdetoYkfQXxzs1ZaMXSunICW7upsBTgTlQhr_unKHqdlzcafucAr6ex-AhBC-mQ4YXbZG-rgLoWY2Jwz6EJu0QRmt3U-D8LcCL2TbvpgBf3pvEKGqAVE5KdOLbQG4NeaFPnNT42ApXoCwfDGOTput0lFfk2WiDJJ5FI9OsNrLnsN-E45-JByXlor4Sczn6NtEmaLTc-Lul2hUo29w3k5SoImPAVldX1Q5hA6HtmrPLE7ynndZtNmv14TxObuRjmRoYHFaCTpwhLcNDv4qwGrFyHGlm2-72kHmDDZ623waUCXCfx_DH8wqWLlzmySWXDznR5TERg1Erzwc5A9gtwG2emlEYGDWzerD0bUza94ovTaH3AW4CcGthU9vF9UeNwKxVA3enWTG7I1J9Cn1YJmeaPQI3LxapF1XhiTVK9CDAtBXrglDiUiehT9MeqLmbHbhYdTplgYCJRGPwUSYd5pjHK6-gEtcGzbmngCHdAmRxVVNelBbk9mX49obTnEO2xVGDmIv11FY_ofu0iPtFSr8kzwCtGq7iWPCdcLEBtrbQxJooQ-xKUcxs_F2UKO6_P_Wm2OwvWZUmivLZuJO4u0uQl09LqydH3NHhct4ZHBhBs2bsReiYv7NlpBKEcQt6C_JXpQ5ekxrPRFaS7ebBVjIojAAbWPgbByREkF19ZkZmI1q7V5KyrC7lKsHnXwwt9qcH-AQyZ2qAAuNl_ZABxq-fMkV3mt_adYJfWDN4DCC1DWS3Oske0CDQeBcmLX_dV0ftDOBvAOJCED4MHoRwg2yx_mqH4qaBDW6PcwfoqxyOCTZnwT6cNA5afdSTPFaYJE_mTppOCZU5nbxKaFbE-H_Dsjo2KRxKxYnDv8rJiY_Kbf5bjDbzGHHwEThEs3QpNqpiewht6QU49-xL0A7IqmSokhCgizcVoMccHW8Ts3_rt9CzrIIAGRHit6SLXSmHdYwx4GdBC_1RovHUGpRm9P_RIxa-gohMZHnfgECQeMoDkSEYWnW224UH_olqS5X5Xv8GDiN67l2zOIMgI_ykFIlp-H9M2ButoZwfdW-ZR_oHPKv81wrXt_Wm9XIFNHbdTfoXpl-_94O0jC2F13W0YMs1-hLXSVZ3hRP9exrk7ModjZpbf_GCpXSb0FSNUizYO8XqGjOD6YLHqSUtFskja6p2o0RjtGE4ZU2piyktZEH6-_9CA2ariKnRFfBeh7NgPZN0PUKGZlA43F0BBnqgyk0bJwGjBb-x107HpGAUPVuuWO1JCnPUBTToQg1it5Mbw8NAIABcvut9AF7_lYB-7snnac.G1YWHQZt2IiJ39ilWCCe-A",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1776298371.991248,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-sc",
+            "value": "0gAAAAABpaYJ5xhOSVTxFoR-jRm-Lxlx5ijhuRfYU9iUaV8XmIcwRrKv-ZVeO6ZRPQXPk7LP2Uq8I3NzX6rp3FS7fqQd7EyrbIQHOPGwafnOzRKSJlBn01acCitkR4E2YXf23Y-is6XAChma8mrGY05JplFh9T4NbJMIHUmijVydPB-Bn27Dk_Uo-9NdIEF4xpjLey5hvhLczVsllmvGiQ9LUbSW4CXF84UQcVSljWd5uh0Rtly4vLi4",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800058374.221806,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "rum=2&id=a57460d5-f500-47d7-93f8-5f4ffc68c666&created=1768522366937&expire=1768523275947",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768523275,
+            "sameSite": "strict",
+            "domain": "sora.chatgpt.com"
+          }
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
+      },
+      {
+        "name": "Pro: Sora 18",
+        "cookies": [
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1767690325942,\"i_b\":\"XiadNIc7p9LnxtqHIPMxd6UMqXTFadqA9Vh+xkw/U20\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770282680.379037,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_account_is_fedramp",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770883771.275199,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Host-next-auth.csrf-token",
+            "value": "17e02259eb3aca181de33d00749d84a90438d7e53c8184782f8f517278c2c52e%7C0ff33f2bb57860952fb1624b38f0fc080980d47d8046b3e70f992683fd0b6626",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770476215.004833,
+            "sameSite": "lax"
+          },
+          {
+            "name": "oai-did",
+            "value": "25ad6d00-264e-404f-84e3-5810a45a2bdc",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770476215.004835,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "cf_clearance",
+            "value": "8VJ_nGHZijb7PXEFxg1xJBZWoZCUz2ZJMa.QNcCGseg-1767884005-1.2.1.1-cnudTJXDtSCftYb3Nlgk15Nfa9w0uOyk7zZTxnUrLxc.2T.ynRh1Osi3otg30Xdordo2CqHUZ4n2hgyzhPJV8lvagaRy9hg1sTn.pXg3Dl3uRmdsOHw.tjNzdH78yGFEduF9oJhamdhzzPJdwMLBwwBHMHR5cjS0glGizIZdBbG4I0UXQOYJJQjWk5sZHOcdGIS36MYKqpMoKutQsGuiWvqbQ8ZLJrgk8g6YAh.73dQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770476215.004838,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fchatgpt.com%2F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770476215.004839,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hlib",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770476215.00484,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_analytics",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770476215.004841,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_marketing",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770476215.004842,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-allow-ne",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770476215.004842,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-client-auth-info",
+            "value": "%7B%22user%22%3A%7B%22name%22%3A%22ulii%22%2C%22email%22%3A%22ulii%40pusatnetflix.id%22%2C%22picture%22%3A%22https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fna.png%22%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1767884193026%7D%2C%22isOptedOut%22%3Afalse%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770476215.004843,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-gn",
+            "value": "jawir",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770476215.004843,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hm",
+            "value": "ON_YOUR_MIND%20%7C%20SHOULD_WE_BEGIN",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770476215.004844,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-last-model-config",
+            "value": "%7B%22model%22%3A%22gpt-5-2%22%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770476215.004845,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=9da31aa4-0536-4f0a-8214-12ea786d47d0&rum=0&expire=1767885114706&logs=1&id=5c02fa5d-87f3-4d7e-994e-7a09c7a52751&created=1767883946982",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770476215.004847,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a514557346269695259783739746e2f656c522b7a554e4d50436a755262514d742b77724137543750626d64707042324153",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1770476215.004833,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fsora.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "asz47hRPj7LDn_6eZ5e.6WmuLX3zbyfev_4lhxlfDKA-1768522370-1.0.1.1-0BlSdiurJOHrHtplTsuI8Mzi6j0IVF.0PuN.dS.G72kLjXn..v2V8zWxhFYGwXY.xv8YGzflPLmcewz0_OWuA_.cY33p9fOmo21W6C2TRWQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524183.493598,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cflb",
+            "value": "0H28vBjUqcdJN5F5i8DLknvCQqDro4yRNexcgATVvyB",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524183.493665,
+            "sameSite": "no_restriction",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "rBEZOARcd.szTI0NmD0R45aICswb9bptUKseuISjGUQ-1768522370382-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "zRpePyOfzZAN0hVBVcTfK783gGmAkqdnZthudTPAIms-1768522371-1.0.1.1-w08h6Ii_lMgMRXIgZjY11vsMXKtrHCymIOqQz0fxkt.WYRgZvZ_U.pZcxyVisMvdZykHpWY_s5hi7rPUPeM6YA3NblQu2HqJ4S6asPaZJ2Q",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524184.576108,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-sc",
+            "value": "0gAAAAABpaYKEmqAgL20weSQFg7Wve5KNiecoVbjLg0o1bdXKwEfY14fWpjFx8e8Br2io-Pz0dTYGy1UwJgnVE-ghnYlBkZ5XGCvszczMCl1n84XK46FqzsFQC_VE4pbdC6bo3v81MuAJ61utBn1VcoPdPWSIg6w9PUrIyYjMqlnIgyDAnbZ30OqIeo1Ac-23cLnLFs-11O1PCwrcMoyz_UUjVHcjfAXjh0ba6FAEd2qrpqFzwaxfO-E",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800058385.761694,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..l9LfUoCU7Kl3k-Yx.eMeItFmS0QycslVcRfkfXFtlv3XoYlVhwY53YGfwaxrNXE59mBL8_-oFm88yoCdhvkjHOMo1AduviTqWFOXBeb55n9HctCT13XfpC0dZj0favBsghNt4ocrkctvasWNKHbZJrS3Of786wcPs83sTYiIva1HmuZkQvIJnfLhHOzRau8M8TMq5qYLgp4_N7mDNx0QqCHBkKZKLcj8mH2g8QqkwCNnPdqMLkdfEsORquGs4jpV7DtBIPFZXDXscXLOxDTvloeBVIaMGUpOA1Ahetj8xlLJ_Ub5CRpxqpwaa2V-uoKg0HVFhEg63CzlpPqO1KoxtlzyGHDip3-iaeT6EEi4f4xD7YwlCbPDuLDlcEYimyvS_I0rqRaRfD-klAMOaPdRXsE7q6ptuCac2rEdQfu1KmRFb4w8dlzYcxu51OAO22RcUU6cwoSCFNE-aVDvetBbJZRVder78dY7QGD7hZhWu3sGXdoGUxQaDXAwKiGLmKubF-cthRr-_-rwz-Y0CamgFQ-zPZ-oCfNCDjAjUImyGcyQ8FpLho_IvGJMHnvN8wlYS2a0ukgyfD2-mnoGwDRqSdTt0gTlNG3SU52LmGVWnNww10MlJCbuTbaN5XfCmY53-VKpgj-NOl4CWZuOdTDC-kV--Bip-ZCqxjaWy8IjdxQ2mL7okHcWBRA-Gk7osb0cZ8kxgkCrmouA6E4nvNXNF6YyI6CY1suVGfdx-sgdO3DZBZ_hchbWrmmb-Vz_EG-qrauRTY9ZT11_hkjOB93ReNLegSMgrOeAEghtX8qVm-UT1FmP1E_xGxvNjj7Zpb_IOed5QA2Np5_tLwgmnCKr-o5mx8S0ZcwdKkLZXlLLNMmmpkP1w07Cc4Oh0A7HgpLFp1lip0kilfs1-JrJEwuFHcSXszRM8sP_jzqeJKF3qGWXHEu-XmZCZyN_eCoprN2fRn0k_2upWlJjQCUW7Gh8gdxCutxmjWCdUf50LUokOvr6HEXONYSg94Lo0cQRIlwKqWlNHy9jL8rUnsmMgJBn9p1q9HTUNPvhypr00jtUTSj4bKfPpDiZWsEK9TX6OzQ8FzgHU9dTP9TgRzkNUw4Ox470Z9-hcqqutvXE_B6BwwyIEgQ2AkrbxRo8afwD2GBo9ikJiaIDc6UR0RJDwiNn1r03IRIZGWqiY_BEXJBRjDiFuoHo3ovxtkeKpzP4CV789_0KnBAPBaz48-VKjMr5aF0PohT_9r_wkYzuLwiBKjKJWddi9cgfe9ydTRJc5DSU-_n9mStPgHSoMtZzQTwSXwoh0krf3B93s0T-L68Ld82MTL-aVIq9EbbI4k4efR7J8HPdPIMGHL5TBu9WuaX4oat3l-8edi6ygkWge2kOprQcHtuBow3oQbYuFmrcER_Wfte2pCMyV7bYqSJ4y01TuO2-i6THS_FLxP7HHun-7vjZn1Q7mml9ieYXZVP4zXQOQEmcyAXiQG6HKLqLJWnW3zeMaUK-JrjbMVoSw5eDc-5FRlZTiDVcV_EVotveycjmOcbqq8DKPhk6hUC9mNlE1i6T4AiNadADWuSkUwlSZi_Ikyz8vsP8uix2U5KWHjhAG_Z9KPDjjvrU9PDEFvU4n5o8wduZXR2W0h0UJUTkJ7rRwaVDepE5M7a8HdSTOJwCI6dzmOsNXLd8JtKADh1A8DCBOgkC3bDI1qdrMpjDUj5Mnu2QvdUn-uqnPy6r6wvPtssfvBSn6r1GYYPokxzf35XUGcB8TN_61ydjYYOM82-Vcyh36hPQ0pwhx-prvT-RfhDJH3zXdqKE7lEcAZBKl7Hp8IKEKVpJAvLeGyI5hM0Lzefk7OdsDit46U5rNsztck5361QwmhCviN0srq06YMa8W4s9xP4kPjSR0nv3MhlhIQU-P9jpCpx9WWiTMt5fLptWFCqokHoi_t9Sy-xIK4truvI7WnsJejTqB2gX9QaQubP3Vw-BG93SvFeaPSS1WQaXbibhoTeawM9Wiip_6ATkfgdSF9M91jhyH7-2MtsOKKdpLDEpLD_lytojSws9jltaQherw0_3ARwdsV7SQWyuhtoilPHNcczzEihcoxMwesDnvnuKSXNvdUDLEuQaPhokxgEwR0np5AlPw_t772RR5lLmNmF1l1YiDNwYL3UBuRP7SvSlOIF7u3dnA1BhXdYkMz0aru1CteyL3Fsfv1SY_FlTAMmrv9ZhSG7ePOGfv1j0zAtGgw7u5I9f2dE1T5zh8Dx_z2m_ZOWFlyeXz8npr9_Bi05R4KE92-2rjmJH-3TsihE1kXFKb_OOB1uEa6xE3j8WOoOk4oMLiaRwpd34dpdWYFZL5rQD4rah2WbEiKExUjHJL_wPbuy3RJ04ViWF1OIVMi2M_WT6Dttx8zmVvWVEp7j1pRDiFooy3GfIyY59YgFJq2ULp8q1qjQ5JL1sblIbR4ntEDxQnnKL9iZDnP2TnkgPKIhak-Zj1kRnnwcFk4vphmfuCtcfFdqXaQrbbgbNGLqPZO-fBemJC68oT841OcO-M34hPdloeBi_74ukX2W9crNiWWzu8Z0BofXit7fAZH7H6pkEWwzHArDCTd5ghFQ2f0SZ9uc8B_RfQ9D_i0y98XW4qMlac4bshhnqws143sncYGWyKmSFq0ZI-kD7LZOd2t6THJpw7UFNvUeij205-ADpRHzk5ced5XNEfW7a7mFrbFkS76HZQsQKMwPrlb-0GB7ImeeLUCNnGIFwtQ7WDgGbsddhoyzycWSp6JOleXIPChdMplmMvNEuw2ywOXP6Ch0Nf2m9z1tqjeM8Db61BFc0g1FtMli55BV-vGBp3RCzxxte3itnBTBEFLa7J748fgubUyoZqrQ6tA0A3uykEj-MiKfuUBX2vWyoIcPhqEZ0fhDr50FxbrBmFu1Ga1sX5dtSmE9SMu4kjOR5UxYb7J-3SB6rALD9gTo6buNfQ-ETaIP1RrcW1NVOVrfDRrBiJraUEdTfhAZPYAv9ToMV8Pb_FTM5k19Ofjfrtx4u2t8tI3HgGDNKuOpAPA82LIYt4YcpsPkV-ZufVfqKpW3X-zImELih5z5ALLKXj09I8zmG2F594Bboz60GL_5pIqZhlpJadrJNxa4krQ688v5u-rDnTwzSzNRnMkCXc_RYFApr8cOCtoiLd5DzjAKBT-A-CCxoGMXQ3ufcHwuoYZ6_YHQ.H48C3SgSvKJTxWVUtjfsMw",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1776298385.857716,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "rum=2&id=3860773f-fe0e-4826-8d21-0b9208e89bba&created=1768522385023&expire=1768523286993",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768523287,
+            "sameSite": "strict",
+            "domain": "sora.chatgpt.com"
+          }
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
+      },
+      {
+        "name": "Pro: Sora 19",
+        "cookies": [
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1767690325942,\"i_b\":\"XiadNIc7p9LnxtqHIPMxd6UMqXTFadqA9Vh+xkw/U20\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770282680.379037,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_account_is_fedramp",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770883771.275199,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-last-model-config",
+            "value": "%7B%22model%22%3A%22gpt-5-2%22%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770476215.004845,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Host-next-auth.csrf-token",
+            "value": "63ab9ca0d08f0713f57c9882d157c83fddf46ba2d6a8dc86fd9571db1edd40dc%7C8da67ffc62addf88d2fa7d17876a82802918c70cc855136b7ebe9aa604c3a5d1",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651809.771361,
+            "sameSite": "lax"
+          },
+          {
+            "name": "oai-did",
+            "value": "07206313-9f50-4cd9-9edc-712d980ddee0",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651809.771364,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "cf_clearance",
+            "value": "ghDjN5LNPbB7_4.r2Ao4KnqiEoyVpweV9EnMj_y.MlA-1768059612-1.2.1.1-ucQo6tXzctJSgKEgeNWe2l8A8QQcZUTUFE.B09pTxVaBXK6iPFbEZdlfKFWBNtnWDp_Cu.E6DdyZBfaDM1qBlDx3tJLgIZsgYrH3gMNjfsfYpUXnRBRsPjx2raps55mN6LPkqK3mg5c2CiMJBqd8mvVSNXFWu_rbqCpRQBoJyr2Na3qk2vy_utRYuLYqMJmsuxolQfiDYpgsSxY31RMkuyJfKc1uOctjHo0dPTLJWuw",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651809.771366,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fchatgpt.com%2F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651809.771367,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hlib",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651809.771369,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_analytics",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651809.77137,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_marketing",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651809.77137,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-allow-ne",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651809.771371,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-client-auth-info",
+            "value": "%7B%22user%22%3A%7B%22name%22%3A%22Groupy%20Veteran%22%2C%22email%22%3A%22vetvet4%40belajaar.id%22%2C%22picture%22%3Anull%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1768059704959%7D%2C%22isOptedOut%22%3Afalse%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651809.771371,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-gn",
+            "value": "",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651809.771372,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hm",
+            "value": "SHOULD_WE_BEGIN%20%7C%20WHAT_ARE_YOU_WORKING_ON",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651809.771372,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=2e499707-25ee-424f-b3df-4a73e702000c&rum=0&expire=1768060703604&logs=1&id=a81db1ff-db66-4cde-a872-7dddbaffd652&created=1768059547576",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651809.771375,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a514557346269695259783739746e2f656c522b7a554e4d50436a7554657064584f48676270443053697a5362724c577763",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1770651809.771361,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fsora.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "Do1jHoyEHveU5bYvZYHjn0OQz6VnRZIT6wtCiBEkvlc-1768522381-1.0.1.1-yilVhgIFrSY.g1L9FoY3y0saBSjdz85JPbEM_f6lUoHIikFszPTGVGpMum0hbo8Q5YI13EkqVunc3cbcBQtsorTZh9fjHy.zPezV7WAm.nQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524194.878917,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cflb",
+            "value": "0H28vBjUqcdJN5F5i8DLknvCQqDro4yRQVg1q3Tvcus",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524194.878968,
+            "sameSite": "no_restriction",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "qqRakSqSShtreB312BzWUuoVVET8zVUs3yKY_jmmI30-1768522381648-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "BXvgpSPbkwLvpSJKslR5aq9E6VQpFdqkean2XGvFAQM-1768522382-1.0.1.1-9kXY.Z50Hb.EYFyzXl7heZbGNCukS_MHgxJt38E0K5WIjDTSchRlfLg7lPzcCH0TsKcUzMO3SJ7vyOcTHZbdTHBGlVw8Gxs9eR7KKO38Fd8",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524195.600635,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-sc",
+            "value": "0gAAAAABpaYKPKbgq_RQkgj-lbVJ5AwCEunFbJzkQOFnQp6629nydmaWGdHul09g7mCRp7Ui2ueLnT-u21BPPeKyD5-_8QTpMgRcMjsp_2Rqzw1fFZe9RNH6dAvrD3WBADWU58YLBoaCABy4QiZLmfg36dPWm52q1EzDQs_KYo75JXq-CiHwHvvUa_HcLQE2eIaDwDnXgwCQoQDmokvOUuyjjLxN6GoFpY9YpRa45X7ccnDM3ZeU55n4",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800058396.295074,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..RZfj97YeM-XmEmgO.XaFin-EQfdTuNUsgbKArF8aEd8Q_Nt-1trCswwlVybis7Tqf-p3AgRCX9kWuIxB1a8s59Yt8J1-clOeIvAB0uXUATyrM3092jyQwx5JmKcC76qnOZmXL4PY0ZOpiPTQVUZxvGxa0rg6dby7Xg2HmrCVQH-yGsuTOzWBU5CkoaMoIbLpEki_m4Oq_axIm3mvchg5nmLcbiaYV6eX5IuAVtylcKp97PuFLZsqR26B46j61RYi1RgqNCzYQsXgoXY_6mFl7T13mdwaMMktuqTzvty8EFxEZmwp4KiQ6BDJP5pa7uuk5yEBzOCCZii1ErrEqRkXktsCGBsEW2ANc2wbKdIfZ9I1BI2kKcmOjITKtdcJopwC3RnFM1Wd4pMYxPTB3JcAv4yD0IHmXLou4_aAbeQfae8mk1xaNv2q6EnG4BDdiKrgNTcbgjcKkvMsGk7jwLKuDjtOPnzngcV9bXvBo4Tml5_WknKE6EAIleewwIMMtTfzx_hqWtvJTfiVS2olXI3dy99xFihO2JadBMVFYy0FhPP7xF2JgcsETroMJd_dXKiw-yfp3kfi1qINwfju-Xh78REoQwfNKVsfmcd2RUzk_5pVRQe5mvF_dr19yhtXYpwOxfKO_jgCbpPovvj_1ZvvCpReN6zgP1lYy4PzU_9IGvLkMSL38Ht8IANomqhdnRVxse8iav0N-3ZRfw41NQYnjsPg1pVkWyzd5y2qFdVpN0Vc6ZdOLWOhdP6UdMjHBxyty_slRFqaz3lXHfQnb3U3tGreZ1g6z9pUdncSUwgXgm4LyxCwy9X1fFNFAI_rAMtwzjcOO9j25UH6mpqqC91aIMwHGCVXNb_BCLgS1yYixF8OtSow4R1w_LkttRNYWA8LB0HEcKdCEOURDNS89ZtUjpro-mpwnxX4iwASi3i3KWJXPjJoU-_SUszqq4ugmag-0m2CmY0SjCOvOGYlpt-T80sExSbteFVgsNvbe67pElyqmHEl1oFOoJo9Gw_88W0t6_tNMjsHfWMSM7Iy9gHZnPe7SjWTEUCSU9h0wrecRFpVAaD6hgpbEh7SLd5oNbm-gRN8h-ueNU22Jlpr_zGnMm8qSYIfFm8En4pN42vIcX7Rm2HUnmNxXBO7iygDMzQoBMW_dncOxIhvN4H-5uFkZQjsepObFPwlywduNcaMkFbMPQt5_2k5gxf_ei7spAMi4iOnnz4i3uC456IHNRRb9XesAn44EYtkkYgkJMnsg9nBl9MML8ZaXp_C91R3fZPOUAdDEzHLNzkI2yJSQkAGHvRGEbf2ENemHXXSBhuc5N50lO_D9dxkjMZ2lMyj4JI9rFLXVqyynHvlE91Q88wPwOl1qr3uaxS8yQhNx4b3mEhdJELG42m2WGt_G_4yrzgzwRLLqcDl5K1uepJ0UnmBHb54vH-ve7fbj5RHniFKNj8rtWTCDL2UE6aWuSdrnsb4Oitgy_uDA8DwvqBdgF1Uh3WUdHbJE-q_tzbMEo2LTnzYxLtJki-RHJIg4e3cv4JOHq3xKBUXqf2QWDSCCJRUkUwAziiBk1AJhSWszUpNrc6Uh3clDT22U8ADuZNFWD-DESPwN5PF-BraC4T4FZYadbR8Fmuqv8boU7y3WdYeURMEXoUlw4SwsGE_tXBDwQMKl56IzCsr7UFZx9ggjq7yebsKmYdEwhoUAbqm8tum_0AOtrJX1ra_CmXoFswHWoBnHtwLRLbUnRgvlceeiow2ncLS1DjXyuqogSa9PBpBBXbfxnonoo-yF8qeEMJHfGE6I3ipYMHlYfegBziLywaSVae6EjvCDnwIln31tQahsHFOJfoCUAFYMBtn7N_P_4Hq8SijHD5tRQu6JZEcwFp3TKOwrB3cTfGQcR2Ql2lSlkWF1AeebvCHhm60zKOV7yXvjfUW1OjJUDKNgD2imU-v60301jDRRyYydvc66dWy-OMrbFok9PGBvJ5g1KdHExysX6RXl0yKlXA4UuKLltXIWxFjEMlXkCrA9KPapGMLSoWNa9Okt2tsUJX_TUMuOocWbmPKfoxxWLN9BI3hhrZ9TffTZ8wmtjup417ZX8mJuubWRPaT-JVuRPQ5loiViy6IvA_HxUOsGld5Up2vDw4Qv6KNS5stZQ86CkFISGd7fabN-hsDJ00auTJjf9awlJaNUWCoG7iC9FIhfdAbS0xQmi-smdoRdebOMDQlR_E6UG_utHCNhoVsQkwyIxH81GEJkkZ8zdAMiQtoPDy5P_KiKSyu4GtgwSEFX2rzjQ3YZSOBdVv79R_mttV4fAo93J1HeJQj7ZzAoVE_167rN7RXYFSKIcW6GRg2aEvBT0xljUzCHh_ovfoZW2n0kjVFPhm0Fz_BNmKC-F0yZmrXRqNvkOCFdY8r-krrBDf8sQ2ONatYxFimetnzV6pgXh2TdkEB5t044rxgzKLmK3vIofJjECHJwEbkzNCS33UZ_bc65-_6yf_XPWJCt0NOCDvfimnC9dP9mR6_a_rbR89aLDtE9QnEt0I-PC8aofXqQZ_Nf6fDFoum8TzhJiElggAVNQAnUKtwlaP2hIdoAg5UswQnJXgbJPzmXr84Avdtfi7jjmH5QQjmGJoM3cHnqI3ZMSH1xeZyNQdKoewkVjTxkDReYBEhlm9GMLVn1QxqszhKB6WGDuYr36hEY4oC_U0Xe9Z_KDagYZo8v3Gy8iVg048X6mz-VYjkN5OE0tNsnAcF_0G1RYxudpQzBK7PUZuQT7OuTrCDhJ282p_ke0Tj9-GbzgCmPkP4ml6YayH0mvG6Zrf5rFoee0Uh36c-igl6p07SO8u-UUht9X8j6737T-Y7xQViJBdt6YaclkPH-Z7QBWQgOvHaefUEtPe3_0ub0P145u6M5wqcpbsu0VrMJpO3JoKaVBebvdllHiU2XhphYkHOig1pmEADHmLp44QMDe3fQGWEbLVUdU6Mj667WA3-k5Z0kCQbbjsbPg_P58q1WIrhuItKe6zdY60_KJs9G1RetL4q2SigSOl-HufZAuXgP4WbM9e0i85Y_IzcsWzo2G8SDAJIa629MjZosvBC4FMBKlDiewth7eLLcerzLD7M2Dn0GMIMGNoPNx6YsjF8-cbyGTLWFy_zJRXHueUlJS36GONE92mc_M9U5Hyf6fMGFN30hEfprNvzJPir9n6uzvzBBjG59dw.HqVubPXhJhQJNR2UvuhFnA",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1776298396.412775,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "rum=2&id=03b658a7-1885-4ae8-910c-605cc3fd3882&created=1768522395877&expire=1768523297467",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768523298,
+            "sameSite": "strict",
+            "domain": "sora.chatgpt.com"
+          }
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
+      },
+      {
+        "name": "Pro: Sora 20",
+        "cookies": [
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1767690325942,\"i_b\":\"XiadNIc7p9LnxtqHIPMxd6UMqXTFadqA9Vh+xkw/U20\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770282680.379037,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_account_is_fedramp",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770883771.275199,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-last-model-config",
+            "value": "%7B%22model%22%3A%22gpt-5-2%22%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770476215.004845,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Host-next-auth.csrf-token",
+            "value": "6435618ab7934c20fc05e76a1168ffe67b9f1cb7c7224d96d02458ef65f56ee8%7C66f239e25d2eb6e0592b66c94d7038f8651ec5d247cff50d96a176e427dbc209",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651810.679189,
+            "sameSite": "lax"
+          },
+          {
+            "name": "oai-did",
+            "value": "0b396334-3100-499b-b69c-91137f3617ea",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651810.679193,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "cf_clearance",
+            "value": "g8qSNF05tI7OILowfSPcMvzQr6L_3RvnFRfhreo9u04-1768059618-1.2.1.1-c2Bd1M23QEXOOC0PHRaNQrYLx.37fmlGgbitExWehX6kKJtCs7uox9t6ZWI9fX.YfGjvW2BrFQluHVpjVPfhqsWiRUwvO.fUVkCsT_u34jWNcqsjVy1_839cXa7NpvV792LaJdtQf45MM0KjDFyoErBrneLu3.JoIUf5_P_t5CQrClHDRWrQ5yT0NhKZwRvnAhXqMlLjnnYIkRkqrJnlGyg_mk11E9dMoXSYS1Pa2ZQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651810.679196,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fchatgpt.com%2F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651810.679196,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hlib",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651810.679198,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_analytics",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651810.679199,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_marketing",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651810.6792,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-allow-ne",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651810.6792,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-client-auth-info",
+            "value": "%7B%22user%22%3A%7B%22name%22%3A%22Groupy%20Veteran%22%2C%22email%22%3A%22vetvet5%40belajaar.id%22%2C%22picture%22%3Anull%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1768059709630%7D%2C%22isOptedOut%22%3Afalse%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651810.679201,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-gn",
+            "value": "",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651810.679202,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hm",
+            "value": "WHAT_ARE_YOU_WORKING_ON%20%7C%20GOOD_TO_SEE_YOU",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651810.679202,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=d57badf1-d047-40f8-8885-b016f80ff0aa&rum=0&expire=1768060703965&logs=1&id=aad0e2dd-7400-4cf6-bbbb-b92dab10f966&created=1768059553962",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651810.679205,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a514557346269695259783739746e2f656c522b7a554e4d50436a7553487a494a356641636453587a61653364434b516335",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1770651810.679189,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fsora.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "StmSBxZIc2uld_fag6_QCnp2rDQuZI5tlc5eQIu9y3M-1768522390-1.0.1.1-xrrlbSVh1tVoWCinMm4Il_U2qnTK44InMJWoF_0Y6BoddNkJlq_6p9OtqfWLTpdHMvPK7yTT8dxov6RWG7DHJuviTgHesmVpxSg6P69Mqi4",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524203.800748,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cflb",
+            "value": "0H28vBjUqcdJN5F5i8DLknvCQqDro4yRRzz4xJqN6KX",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524203.800806,
+            "sameSite": "no_restriction",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "tqC0Qw_H3y0ZvVR4YZxyiow2xVCewXfH6IVDwQoEZoM-1768522390698-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "mQz3wiZWnY0RXnoHjxFDzwJico_vj1LT4dSsUaVlXCI-1768522391-1.0.1.1-Wydl2XSKLT8LULVhezY2VlWMpSmT.i9Hz77VVNCFI1gEc1AryuIGZcOSWmMQr3Pxlp9B21x_dZRzHJkCDB8kWIHY_cBVSYDs1t8Hcg7Yryw",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524204.481867,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-sc",
+            "value": "0gAAAAABpaYKYjM1ElNMkQ78xt1cdK-eDXyzC-DZvLmFu8FCmWUrjn10lnfi-P4scOXjdaHi-oix4r6YPvmahgUbdfOkDMo6UN--lB6SQ40J8Z8kO0bglvc2aKo72x3wroukBuvj2qbxQP8rG0NKUBs3sresEu8f_qxIvZDlXLsXJDn1N9VgUSQsY0X-3iZ1h7FsTt3c45FBfE2N1crldKpv__ez2WH4uvX4Lln4K0ZIufV_atIg0aFo",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800058405.23854,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "rum=2&id=60884f9f-0ce9-468a-ae90-c661b2be2682&created=1768522404841&expire=1768523309468",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768523309,
+            "sameSite": "strict",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..D89BdMx1SbylEO_G.71gpZzZPWvxIVMeFlEba-4fQJt4DJGiKfVxAqyEYUHAp7VC2MGRC9G6GMlPG5RMnOcb4ZVohfTKbNKEjICwOi3xVBXGjjY-6DlgiBVtgZYiIaR3kvN3mnNz7odKvhGpawV2hhbFx4VPZAmzqzalhPYDAcWQ_F-TgLYAGXPGeQyaEAefKCEFAQu4z1J0UDdQMq6I5f-J3yeNE8VggpaIn3JM4qssBVbzTGZvZ1JIbXCoEEP1WGbUACxPODtCwjeG7eNRPOP3MifUuCF3hJc6e2aNBGWL8inZsqBYOH0aEryVw77kLVTyx9Dg19OICv68OFbG8L9AjZRmzGyUYXGzaYQuBKvt2_AnrK6yYodq0ewoNKyDoEWzCgy9z62P9aA05zb3HCQ_GEDi-3Q9zUbwvn8bON7yD3QspXmATM0SrPmcWMfrBbxatAPckqFK8Dj4ijp-w04XMH8gcKYLX6tBlrBSWqj57bheHYDybfoiqTs6xcBGMR7Nxr5iZ0hlUkyih-xos3arc4YZY-GZomO7shUCMroOuu8JcTUxxIGD_pTveJru7vtZtgwFGBUjC6ytJ3fwZ3QufRFDDY9jPccqIbRZtrvy1OgIx21hePqtuLmlzBMChj74t2oxHETVderVLj2IzZ_iyIwgLtNzhVOwZw7QpKRbJEzRrtYY6uj09FbXjwKMrBwbloE_fu1mWnKxKKRiXEZbbO-LNksecxdzBD1Lvr5O8U2-h590IoxuNnoC1sp-zOqMGjFVVLLRLuX9pHUJ-fKmX_0k2CuctlLxjXI6ROHR05TnUdezDGXomN6k-t0R8V5dqbGD621q6tR3DXiId5K4mg05BLq4oW3c3rFcx62kLY4ICafScOndxCuy1EHw8sVXLRe_40nb6kUyLHee62IoSgWzAIy17jC7Fz3skNncBVkkAtzwx0MsuXyGAySJiKrK7cLM236ezYxrnGtSXE3jTIefH0S4Ik3E1ODkPvaWA_JafNfrNvywzymWZ7MFXh2rhUuHR2Tg7xo1wtc8voM4qfoeethHzOh38j0TF74cX4jA3vpJnY75djAZvnlKwujWH5jw6_jGprIpaskAG6sPbjnB_X-8STaER4qBm1exuGwkq3bNO9vYfiPuxgzAo8v2DDniQ8RTQ-lT74qhl1_BP4LjGQy69fKjM6fhoVFrgrb1qXTG35EBJuiaSqCAQPgZp3w-twcFESwR0VjybNGUoV3pqlntRv0qRGIlui0XdZQPWPdKnB7wf05BIoLjMJqjOFBMvNEwBtLAbuWXNu5OdP0Oze3R3drHEQxuH_OtkIhDQa030W9cyPGc_gOSILmjVhorHgZ59K2JlHFaJwQOfdNh4cAPgWtWTznlm0CG6MkWKkQ8cu0FYIDdg-JWxLILwxQ4uxHfd7eoEFcvd0kzhvHl_KgxG-Lvt3UCWDzyW_HwmFEJcteQeiffY9ckXg_TP-mEZU-UJWcySV5jEyd2_ODH6ZRXwpN1uROyJh-vVsI4-96t_1p4OA9RQlBZchVvdwrFWy-G8sdQu7ECsw1L33FrtXHd4WBKIr6lGMWrkRqgCASwV4ZgnwBs98lqPgnf_rmsv2Fgyr9nM_9Q_I1GIKn0DpR1zH81ECB51_RAS0Yh6dmM0wsX-YHkfyjfer-EHIVFTYwGki9edlatb5QuakhC1hy5HtkIwQtucrz6lqRncOlL-QhENZ5Z3oa4X0i7r4nb60DiTS3qDK1eDwgO0BIwyinZE_HbNnbxo66M0BjX2C6wmvtpTobUcVYvTUu3Z6enuYfqME4J8Mn-8a8t1hiRPBtfR6mtGog9KNjDgzpcEsqKzv2G96HoXbugiSpemDMzJ2Kk0xTNTDtX7WhDFrzPpdEePMMHAEGzJa4v9SPMeMQ3EVTBfj5eTp57xKg2eZv21A1nRdzIcBFgT60DOJHztLT8Iq3Q0xLbj9DvUib-uH8Cva87_r6NYvEXWoNXPK8Tea-gcojYkSR0yeWLI9uO1Mgj5yPEZnvBIbMmGXgJFd8f_VFDTPwnbHPP2UDjdayKmwsKPDixrQzgGRxVNTvcrnSCB6MJq-o5FeO6W58n5rMxc3rHfz4Z7pgFbtHma5AYvtoYyEK_czWydzKzC-ZErrMuwuw4__T5bcOLnOxt0jVw-Ql4HFEevETm8uBRYYLMgqwvKiqXpbBA032KFik0gnqQvwsHQVLd1-26cIkE7_ci0So_kYMAD62gaLmybSD8TW_V2mlOY4JsnTkojfw9_NMcV1xKMPuEOOmnLhrFTnuPPvpWHi1EmEEr9-wDws3gqJuRWg7lFoc7Sgz8Nv50crzG02bMH5XvtZ9JIt-yMX8GAcsKB8C9xkyIjVdP0-zQ0m1V5hKvuidxLe0qvxvIkNWkhTNCgrO7te9YvTGf-TXdJu5CXaiIfNrx54PZ8KRGp3gERyDzwGbgTb-bXCF-OyQnj4KguldzPX_ka5h5Smy83V1VolsB4BFIXhhbqcX_kauoUadhqJDx1I-CzTzH7oW6Svg3yrZENlR8j7lTsxV6uR0s9AALKkBen1g7b71ahEqVNsUF3n3oIdaBCygsIX_vsmtibv-otI1d5Evk2W07I9UQ0Tz-KlZqFuwfax8ek9FGUQ6qbKo5o3nScwGPpQ95WOw3loBCXjQ3WS17u5ro9SF0W4XiKZSvkOQNlcjOXA7NLVczjdH_XB4J2Q335vg7XTJo0yGgPqbWWyfqZlJ2IJZCDM3K8SnoW2VUkhPeoQg6d2e3cT6PcKWBel0uNeUDFxoK6Vd-KyqYQtIcbhE5c4ZxUaIC4beCwehZn1n84cPNm-j_8IfG-J8eJ1h9k1SxuV2SYtNJM0aZXuheP-JZ6Lh0u_5xmj8RvWAxsJazEtoVrsaPD_u2EfYlcw8n3Xi8ZT-k88D-7UhgSqLty1MIbfwTJAkXDIZx6iu9lUSsdlpgSkj1w1EPxMAOFKUUWN-vp6nomtyZxyzWP2SfjWhjXQAwnyj9TpAs7RZpTVyB-JH4lrxoxNlNrvD8YCwY2LfnyHCz0tV0qWTZX_CakgjPoZiXL4yvCbnpDvVr3-YFl_Y4IHO2r5c-OCYdFr1F6opVM6pTrxAd-xj4F0cnkkEtk9rluLelHLpwjPMp_mYLEsaHjLgDnIHoTP_AqZlwc_7Lv9n70mdnzJhIUB9QZXQ.EWMZSxy8jlRcaNhfpSKDJQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1776298409.132613,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          }
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
+      },
+      {
+        "name": "Pro: Sora 21",
+        "cookies": [
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1767690325942,\"i_b\":\"XiadNIc7p9LnxtqHIPMxd6UMqXTFadqA9Vh+xkw/U20\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770282680.379037,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-last-model-config",
+            "value": "%7B%22model%22%3A%22gpt-5-2%22%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770476215.004845,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Host-next-auth.csrf-token",
+            "value": "02e78df75d27ce4dee469b0b45acc1c8386f614aa57e72c64ac03e73cf572cc0%7C5730d1a564a890a4f29b50a09cd9abb015492dabfa0aa700e5c6ac32dc7b92ec",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004065.465644,
+            "sameSite": "lax"
+          },
+          {
+            "name": "oai-did",
+            "value": "96604d3f-edda-4561-9959-4a5eba9833e2",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004065.465646,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "cf_clearance",
+            "value": "t9LQZad0FVvKnMJHoquPP00a8vDGLE6uUmJGNBtCKEc-1768412067-1.2.1.1-D3UlpAHjQYoZCoPpUvpkuAvKSAanqaT0rr5OzVukMQtaW_DP94qUdfIp5aJ1xX.RsV2NU6kjnoJIBqmBkwZH6_TFfPEcijB49FG704uQFv_5OGrafVgL9juKAvbOcBtLm1QOZB1puC99kL1OCsfbghlrbAiWkx.vRF_vflHUyqgiVj2tsQn_eELpaUNRRVTTgROEJzuKMUVxGG_9097WoMMkvBfKZ1ZwOYJNzdXDooI",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004065.465649,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fchatgpt.com%2F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004065.465649,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hlib",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004065.465651,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_account_is_fedramp",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004065.465652,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_analytics",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004065.465653,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_marketing",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004065.465653,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-allow-ne",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004065.465653,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-client-auth-info",
+            "value": "%7B%22user%22%3A%7B%22name%22%3A%22Ryn%22%2C%22email%22%3A%22willyhendyan7%40cyberjoki.store%22%2C%22picture%22%3A%22https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fry.png%22%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1768412039809%7D%2C%22isOptedOut%22%3Afalse%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004065.465654,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-gn",
+            "value": "",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004065.465654,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hm",
+            "value": "SHOULD_WE_BEGIN%20%7C%20HOW_CAN_I_HELP",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004065.465655,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=7a1f0ac2-324b-449f-8913-917e388eabb4&rum=0&expire=1768412956383&logs=1&id=883ac6b8-b65c-45ae-9907-f95b341806ec&created=1768411993888",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004065.465658,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a514557346269695259783739746e2f656c522b7a554e4d50436a7552436f4a65374a4e5231725879306251534568685831",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771004065.465644,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fsora.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "t5pTRVN4yc3Qv4dZ3oIuJRQtkSiPXHFFGfRvsr_iBpY-1768522402-1.0.1.1-.g.Kq7kMgGCXcHoe62bRtYI4CG.1KRh3RZV8ArBYSXrDO9z7EBh_KuD.ClpaO56_6NqBO0PcgtaZFyflaRBG13yAbQYydF5UknTr.ITwTAQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524215.956837,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cflb",
+            "value": "0H28vBjUqcdJN5F5i8DLknvCQqDro4yRUB6p8oUmzoF",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524215.956888,
+            "sameSite": "no_restriction",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "nIzogtiqmVgaQ52_pN4DG4wnB8Kf._MYgCNek2CmkKw-1768522402843-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "OhesHe6YAa1oN4u3tQ0imLsoXqBdgX7gyNql6GsLbCs-1768522403-1.0.1.1-Q5KHbYcW2AigwFp7lXfnh4j1tpq.IkY4WniPBsPVRyRkKOLjZ.BR3u.U1Y.Ts0eOSKwGR97.Fl9iq4R7CIx9s5DfHNuiVD6AZ6SuekDtvio",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524216.615183,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-sc",
+            "value": "0gAAAAABpaYKkE4_WYqGq5nySax2lsJAQvrAYGdnQpjYIPXY5reSczco1RFtceYCEG9klCFYwkucxpPPhO-mrPPd27lEUQYWAXdDxhhVROuDAzSqP36KwEGxc3HGFjdOi2vdC5l-CB8rTXyVQYIbReaT0b4wCYGL5TUMG_mCEyqRStUAdBf_-WQVaG8kXCzLnXrB0MWifz8vmYmt8RNrf-lt5VkfCBIKU6n10hfWeCNyf_6esFuPLQw4",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800058417.321979,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..waHDeK5Dxn2Gei1x.ontvgm-EIDQSrhpjTsDexLINGp_FDFVog5mvVauhzGTHMY7AsHFYuKBJaTUUY2q3v11-F-2G7nQMNlyZcuFm5reRaVNagYH9ysD3T9iyrLY8L3A9V8SRUwv-kaemG2Dsq68xTW4zRgTIP5R0J3v1ztGLd8dqNCpKtzFdai2M5XafEQiFzg8RbWlejhyBis67UMfsNOj_Xlo0VODa8uS8uo_74BpEOTsCjGwI6S3wzC-xYQhCKtF3Z9rn8cXwB011WB-aqu25QH4Ri6e61AICas57J6RiinCuwusRDRfT_OWQzcy_9x7T2Cpij5_qba_W2n8rMVGxS8xOGDW8Gs-WTDJRTMhBvm3xxdm5YtxyjHhftgJNSlOIJ1Ju8Eu8CopZ7dFmgZooaX6fMYUxvM4Zr5LnV56tCowwNbv7zoNgrlWSytqq5DtCt5ypEAYsZ_N5YMbn5IGuojP2MHK3RrfYSOxXK1gTner4Wyx71-4aE6joYy_ahwM_rT7dtZ3K2ZAszqxi4F7i-AcyfjZD9Vux0uvmu2t5XeoklM6FvadjlR0zPNJDcz7rLPrZreHR-IMG3sV_ab1DKdQxAUNZeUvqTTgde-SHRY4YjtYnshcD1LLEuYVYgKpgp2NZV9Y0Sn3hg2qmukBM-rrn9VnGsZPb8ZohtGoQtsTIO2u_pfVUAkZHQNSI5dUaC8YXQALTfYqMYJR1RoUev2XR2PPm4bgp3yiyHqgBIOB8Kn_oBk6CRKW3JCIW18VgSCWAZBy4EXfee-OYN69qaFWSlVxMWUFLdj-KxCVdg6aVD1xGuayxjQsdc7rbrri3Bce5jZioNgZgRFjyZyVpnjJ_2qj37CiS9iF-uWsvQE8JEyfu1oYeVf4Pt-GOkXAqq6_X8pTCL4qy8qGaRntoAAUEdML5hyrFYVH4C4j4sNjB6CG01E6bI6HK3RDXOBA_ORqPhgdC2cT57ezB16Z7ZZz60P86G1udiPfEGx6W5bZVuHwfvAQzGUe3ldBcFfx24Oa5U3qlvYDeHf1YSKM0ul-6Otq1SoRJhQmP0FcH-hVf1YVYDLlc9mCX56VRefcnO1iAdj88JaDdFtUpVeVVTMJFLuulMTwadihTyV7HJVl6_Am6y3vMM_Phx6pb5rXDKTAVo07ykjhNgJVAL1ix0KuTJUQuiMbMIJg3mnKBicjYg1KjSifS1cRJbppN5SsdDFclaHR3rdFLBh-c-F2QeMrvzQ_xJUWUfMbaMd611hyIX2GSvXRG7RI9E-A_mPgjt1K_yowGSmL6a0aD_IefS-2-FLPs-2Q-XjuEytIEDwnU81WxkIlzxClJroM7bAtcGMFGK5qF1TuHk2vxwiQ1Wah184yUZ6BEsUBS-8GyEcAEXluIamJ1mpdFPzDXY69zkdaCCbqRkQIQy6TppcCdWNsmDavcr4-LPy5-HegfUxckTF4HU2QzeJ51diW_rQWkoeROyarYa_zegtlj_aEALpENnYApHt-cedDa70Hq9H5kDxmgGVxS7u0kWMh_H8v-u3SCBrIwI8QL2I8plWXhkebki5KWt1sSFNgwqxY0ogL8r1XFkEmE0tS3-hMpx2qJ6ApTbwyakLZX95OfFJ0SSdqaUm614yd1H6eaF5u7GZ3MIY9y0LTlE3UPvbcjW0J-ILG4sMwcOoy2efwanU1fXMrLnU5tXArLsymlMilP3Z3Msjbp1UAlgl2HWoXJ3RezZXwj1zBgfqWnEYKQ2e_Ib8xDWybjmlA_tfZ6rMMbfoRk5TOr3m6pbYTOSjeyj8hkDNg95AVfrPSRmlRYuiuUec0UhrBMFIs31rXfBWvbTkaJs4scissZZTUqlS9F1ZL6NkyWRxfWjmKXBjwOtlW1SpReCU6wIsFYg2AeyVTmYHMbD4FN4PNabD-mbIfMzoPbc3JRf7jrTZzXNCiLJQSO1oNgZZJWyvKRjh1a0UmYhpAN89pQcrap5QWAc0JXBjPDIsLcaKBls1Aebm3-m1PDA_683li4VGDxymAif0ysLHHbkw8s90l_zwyoYN3JZ5idYJbmM59WCXiL-cgy7ckWSUIV0BcIrud0FzMz3BZ2zH_A4CxMe4hsID1YjupX_AvpbEEzwo_-Fy2gJF22MPX89_3LWYSZzQiF6EgyGqr1HmP5sp8FlWIXSxPo-4xSdRUZNUfixpjWRnyV7f8on2PYr-DgKegPpncee68BYHo5nl5iMN_ID5xTYjJ-063f3yv8K5-vEu9hbLBicZofgo_zCyGhCh6BEwN4GwGmBpHHWG9yp3KpCgdGKUOuPS0DVekD_wcHGlqfbBn7lnt45A7Zvb_Lfm6ZP9OhNlijQkcAaOUpAA4zu6A9vBkXIMAmVNdl923U92MMgAuUETfCUTzdSwmJTzU5WL29NoJsWfehwTROyMc1Rr8CRWenQX2iriiePERsbi-BzjLCbnk9_Ssezhdr07FUKez511czKxRGaTrDgDmE0mK_vneD3RvRXauJ-euoETQhd-zkWXOgTcTmHilGQJMfVC2nvDJEIX9UP1EdMHG7ynGnuHTqIo1jOFPp0OLBnVF_-snMjkWC9fSxSSkeyTdEUIQFMIzHR4GX6FhNOGIahgjitKUZ_MLXlgjwk5dTOqmYMN6t2PJP17Fz1IKCmBN-d269yNE8A9l6Hp0BDZdsMNAakBOERyNZZHeb3BHf7IAl2YgejuAceBhlxU_pw46h29yOPLp2I0dKwF0WM1khqWpReQ8Sdlh2DilOaK1FQE3Jnk3zZyDc13OBabhc66KO64utq2YRD-3S9DUDophQTNAtj63JYr2QxyMcWHFQ9cSOvWdAURYk0WiquvXgQwdgxlnFZ6sdQM-uWeh4MoR9XmZQyV7TGAXiiKvwRokywsJ3EAkBBlcg2u4psZsH24bF8xgHiFnNT9HG0pMxa4Kk5BBGe-2P4tq6YrgjuUCh8TZQTIKatFLY6wQTRzgk_oVGNmbbZb99hXkZ5hgtAFKlgCdKSWHkN2ykoKFhcJ8bkpE3NJ-q5LED-JcYz3eB_8tBmErcJ7S2auZnFOLgElwwz0tRaTTlHH_U0EHpQAJ7L3F_UujemaEXhQ-EXafp8C0Z7tlHGZcNMv0XSvy9oKS07OtI9CSgbrO2MNV72QiK18-QRkKjoGoFTnznIDQyon1YSQFaE7NwFFomu7d59JcbVkZ01wfO8P9ELkTF7g1dsqLZragiPStj1a_KChQS7e6rswwhrpJkJ8BmPOsL95HB5mxdVsPGQm_Xz44oI5giL9GW.n-18lJecl7-yYwe78KQghg",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1776298417.40284,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "rum=2&id=ddd9a8e9-c54d-467b-8f09-822edd5a0fd6&created=1768522416904&expire=1768523319777",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768523320,
+            "sameSite": "strict",
+            "domain": "sora.chatgpt.com"
+          }
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
+      },
+      {
+        "name": "Pro: Sora 22",
+        "cookies": [
+          {
+            "name": "oai-last-model-config",
+            "value": "%7B%22model%22%3A%22gpt-5-2%22%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770476215.004845,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_account_is_fedramp",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004065.465652,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Host-next-auth.csrf-token",
+            "value": "c330491d3932ca3fc10d650b34e8455174304a77aeed2165b488f22c7dd7c3cc%7C5ad56b18582a60b8d32ce133d2655debb68c9506789aeb3a3497a099867af80f",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651811.655473,
+            "sameSite": "lax"
+          },
+          {
+            "name": "oai-did",
+            "value": "9f9ba746-0e3e-4077-89c6-9749f6ea2c39",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651811.655476,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1768059562497,\"i_b\":\"uYSELckujMckvAGDtboqvPkMPp65b5OvnKAt4QybIDQ\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651811.655479,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "cf_clearance",
+            "value": "Za5fq3JWfpykIWC9NZJw8Up.v50T7CwZKpW4nrzz6Bw-1768059626-1.2.1.1-P54fYw6jRbHst8z4SNgae6BFbHzDg7A75J6vkSWECgiOx.KMgK3hGOm8j4uPo3X5Yb3zORVPBbn8m66JeznI.BWe1crE6w_GNz1PQnefCSvC0PuuGKnSLNhyySQXteimcWSCy6G6YcGLdOEDOXnbowzUla6qLeT8cHiEeB0s1Tao54H6EJuUz314KohYo6q28N_e34q9jlEahLeF79Sw1paj8mzg2KKqMuG_.RyHsxo",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651811.65548,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fchatgpt.com%2F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651811.65548,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hlib",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651811.655481,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_analytics",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651811.655483,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_marketing",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651811.655483,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-allow-ne",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651811.655484,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-client-auth-info",
+            "value": "%7B%22user%22%3A%7B%22name%22%3A%22Groupy%20Veteran%22%2C%22email%22%3A%22vetvet6%40belajaar.id%22%2C%22picture%22%3Anull%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1768059713961%7D%2C%22isOptedOut%22%3Afalse%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651811.655484,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-gn",
+            "value": "",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651811.655485,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hm",
+            "value": "AGENDA_TODAY%20%7C%20READY_WHEN_YOU_ARE",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651811.655485,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=143cb414-dd97-485a-a6f7-453946e9b77d&rum=0&expire=1768060704485&logs=1&id=b0de9bfd-3ebd-4998-bbc8-465a5c28d388&created=1768059562076",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651811.655488,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a514557346269695259783739746e2f656c522b7a554e4d50436a75546f4a79467a7a5a666d4f5a7452523368507271337a",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1770651811.655473,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fsora.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "wiQZwd3jSj2nBniGi5gTkA82U41pPlYaWZRPn94v91c-1768522413-1.0.1.1-_SPVg0X9lUIyC5vW27QZxXVK3EGM3YiWIurESkrKsmH3oFugOjhE7tB2eE1Mt4HoZBie9TVkqG0eaKT6sll6LvAJ_uU1K1P1FRrTq08H_f4",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524226.884779,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cflb",
+            "value": "0H28vBjUqcdJN5F5i8DLknvCQqDro4yRVr7YGsfi5UR",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524226.884835,
+            "sameSite": "no_restriction",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "XjVKmjFO8tVn3TRlp4kDFTeOwYrXTG8klvY6SaOfumk-1768522413782-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "ZA5N3RDcQRX.fnXEAb3FTKmdFjuklR0xa85JEfUnbSo-1768522414-1.0.1.1-jbo0TYl4xIycQ24lVHX13sKcHaVO1XqTnldSDtT6WkTh1fVldZTpLeiRZo88G.2trPfQBH6J9AT3P.X0jeJ7nZXzyf2FPkkgz_0TuppLXI4",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524227.552208,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..lCPRwImhbEt-WRhD.uLfQqBM83yhoGcBlJwrw0slbKfOcQ6NTFNpjC1RUnZ76MvV5YzM3WoezAcWiOe2ubjbCfLHT8HxRKW3nl_EfOAcwvhwPvHou6xBzciGOcibKG-h-MQaDoBaeE1ji-644CwkEnHBDXMXOOQQoI3Qj4uUtTlKRX9Pq_eMPg1p8sFW_OUK3H-K2JgrIFz3pC0rgId8SMijbP7qGZZJDJs7jObnI2eosG23LtuIP2YAyxNTWal8Tti1viroiSMXoO5SLaU-kCa5w419IrfLHj1kE5J457ER6TXeBbeF5MrG41MZoZfFzjWVCCGFUWq3RzCVBMZwlwgcZeaCSraVdDz4VJpADc8xAOXk1SNzENeLfuRDXTUEnte_ijZAYvRzlFafQiqN19p4nb8E-6fFQGP6YUxUBT3w9nKKlsNNukOG2C--h6EMhGSXIv8-qgwhLQRpClfvgqSZ9cpKzToZOAwpWmrmiAg8iu6OAcgBxZlu4HShNc5_qXKxErsEp5slBDCU4N9nEJgBTSZl1NVZMSP30laGU71CUCIVfMVNHLVHyIz8oH4PX8-XnD-H_Y1KipzKX3jyThv0R5hTV2MhMlMiTiGYlJUTE5dI2cvf9O7yL1nzkLcIZTVurk8gbaJh6HknWxV1zh6nw_E7lDgFCbz0lRekIL87xJw-MuLXtFCdaZLrWfLiu-cTXXDK3shDnPrKbIvabvCzvWa7BJPZtw7vNuFhQH9KKcBQ7b3jeXODU1kjq1I5_bbHEZ9ofk8acSRdROfw2_-sLt5oKPGbwbkPYAFbOSuBjT24EoslKdG0hvqtl4ukviSGmxc_PIqr9GWeF-hsI9NF6HXTGFmqZtlqlEjAQtKNZOc_qwXqj8DkJVkxygY5iJfiec-rX0pia-NSEA7GWiq2lC9WCbkIREghHr8Xh9oHSi0IVY1bpWa6hJeYCCGdZ0g8Sxoqa6Y-0rybEG-vdZc3VX4g-6LNLXSLKnn00g9FjLe55DkugwdXP8Zs36XKAoi9iuvplySTi-GoZdrlI06gc1T9KaUSFwYuHvXg8-HuLQATSj8lfdtYto9ElzSFfzOmnOY-vP4zOLVQ433MrPvhzCP-8QdgxLLXz1gTvw7ZFupilF5FsQJzGJEC_0DPpkirDzOoiKPEWMjkkQDuM4IUeYR9r73ZdIGd5drdiFiOUzO20n4giQSa_juzbbnyQH4EGupUmq4tDcd8jDsP9NKvjUZ6_4qxkOE-Amu1Q3e8DRT0rtEFxnue9O4jDmpiZU-zZxu3RRcEjjnJcdRcgapnsI5zddnQ2hz3KocaYJVt3CJiSfZfPyJBPu8qbsGSlK11Cdb9mT5H06z2ckbpAw_N12dQY8WGoqHcwn3y06uwBFGQbi-weqr5dG8KHDaN-3zT2hMsp79KREmNzumyYqi3sujSiiR46rAGqgSxBYpu6nPs5PihqMafxXVCEVs9y5ysExUAfFqyg7hccdl7yEnmutKDvBNtkV6JdmSDXl0R_5mEpEZPOVqGcON3SW_vzDrhIOuhCr1TxbhnrLw7hNhdoBdz11aEXI5ZwOvahxjBQ4A5lMHLKeuawFgwVNwpdcsV7dr5NZOOKeAMyUGixRFg9yxRA66fs_dGOYH-W_PpVqlQ-eYn2Cchn01x_RW5he7muANN1039hNLfG_J11qKzceq7VchpRDnI3dYV0DMZCUxtYUArBqrVoxiFU74GC0DNmG6-eqQAEYvUVaSOtUjtV4Dps-bldRimnynje325s0Ro4mwRrtHae6I9uwPzVJmEg2JMOSqTT__bWA_rqsepOo-uD7PgWsADDyWtqAb11GbiMDPSm8XMBJuHT3_8CJzNS3vWidkXUaubGL7Pt0zbAGUT3bPNqhzs_6yHYaHx-weBPBsVQhcY71QWZBub_B7146HhEdKNzuGDtUcd6rlHz3gzppVm812cIMYZYaiT3U4pNUQmADnwXGP9JZjNvK9nlzo8B7fwYRFRQxNp38vu43pEeCYqYG4Osf_5IeFW6elXVOs9pOVvHY1ap48Bkfb28j4vGvUFqN1V8EIeDhmXMsX4djHovW6KQJVuww9ysbKQCjkMoO-Jo2Nu-dWyIinI3H-r7YlW6OqghcY2O0V0S0MpqkkoMChjpN2Mn_3br6dO47KKWT9a_Oefj6W7fyJfANJDWw_OxHVFVqpekZUQKu5T7pRoYAYFKUFJe2rt0hm8MlSa73T6gIDWDpVxmCif1TS4Cc15SzUJz3EEBVJ6wg9n0yPkG4Ss_NCxRZKh2pe0gp67NAtZNCjWv-iBcIAWcQmcnW2kbEW9xdNtM9X_6OswOPT6IhjoeapWP-DVNWrWJSrIHuGxNEL0Tp2EwAVDhEZiD5WIydj4wLyl_1k_lwIrLBTZ7w-m-CrvhAyJx-uO1mqnICGAeJ60QjtvT-Asboj3u-UgjOpdMZGiS7rRWEonugLxRPOGmzJcV_NqRR8kZrpDNThBIvxMJkcf5ga5fbGs4f_2yzmUXoO9x81niJ3KWsmowWdcL0awdsgClpmBL725m0hSP8MujD90yvOPcINopTbIdpzAUsMGpR_dJ5wyQQfO8vibh4PS3xscqy4hilT5uLl_O2bi61i3hidvYLgZw-GJMKUWfPy8WIEJ9laIKWFXn36xoeO7xrXM1_VBuR05bhKBousPiRdbhkilx4Zf-JOTtGONvtAH7kSPLekwHLUeYmmI1LZYhXxghcy-jJrrXmYNIXv6q69LLw5NDhP1OVrXKaD5xdS5DhkMuD875NM6V4AzDH8YXKYCXoqEDhS3kF4TsuAlf2p8a7OfF6jNtre5JKFqCb2b8ccOtfxQzit8YKvYIsyXz9DlBKpfogfRmKS-DbtMN0PshDa4kd_GVE_3DY4nAHmUOeFFXtnTw4g64hsZHH50HUfpxsnRlX1GrNV3wH65qyeSax9_QJjWpFtuJiAK9Rp9QBPZHOM8zZe-JCRkKve4M1UUG5sUSEI2CAHrO3mRT8VeEnUTXAWrcwJPP0uUIPuekNQFS3fewpO3kcZuVFbNPea6GOEVNGB5HybUNv1xiSsZjujpXqakJ_mqphlbAo8k8Koq8z0ea_rkSLW3o05wS3gNLygE3SxQZRTlIrgzvL783VuH5uJ7i9Ih-T5MLbPhImFMAIsoQkBNkOffYMUjS9AbnhcG01w.R6zsVaSl0_6UUMsb0kF30A",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1776298428.342965,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-sc",
+            "value": "0gAAAAABpaYKvH6obknHeCSSi1fA8I6q-PBFLOUpbxkSIxTYMGCJK8TFF_GkHSof7pHElBbhHzGho9zn603ZazV3G7oCMiyov-grzby57o2xPzW1e0QIwNQgHMR_Jaep0vahaha_AndxNX-zRC0BVYbaDA8YI2yB375bbGQxdC7wOncuWq7CmMDk8wanmsNKLLMH4olbSwpBuYcmT4cXFTu2HpUgeTneyQPt56cEAq_NLVj4F2PtaqVo",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800058428.835295,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "rum=2&id=1cb7929d-9a3c-4240-953d-f36dff1a74e6&created=1768522427829&expire=1768523330825",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768523330,
+            "sameSite": "strict",
+            "domain": "sora.chatgpt.com"
+          }
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
+      },
+      {
+        "name": "Pro: Sora 23",
+        "cookies": [
+          {
+            "name": "oai-last-model-config",
+            "value": "%7B%22model%22%3A%22gpt-5-2%22%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770476215.004845,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_account_is_fedramp",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004065.465652,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1768059562497,\"i_b\":\"uYSELckujMckvAGDtboqvPkMPp65b5OvnKAt4QybIDQ\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651811.655479,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Host-next-auth.csrf-token",
+            "value": "1c210277426def45f66cabf2f1eb6fea6bf17c4735b8f775153bcae88735b8ae%7C1dcf83d47d57634f4325433ede4f84a4be5a76581bfa38ba4069203c307d643b",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770258550.545295,
+            "sameSite": "lax"
+          },
+          {
+            "name": "oai-did",
+            "value": "c7543855-fd33-4083-837b-832870f5032e",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770258550.545307,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "cf_clearance",
+            "value": "T5vow9VSTtVma59lEdy6T_3vf3A.8.VE.Zz9sgk45B8-1767666442-1.2.1.1-PEuFPFoTxG4Grh_4z1fFf2zKLqHZN0Xx2KqIQN5qa6EgV4E_EHeLFdlG53T66yxtZBFNz0AQtLdhDgIS5.5N4bctdBawHZ0jYKFVNZXvYUS1kWo6bciwxUEFjfY7IVlh62QOFYHYlgZvz.BAIpABjdexk1zeXcK3U3qVhQ6DSF0EBbxWh_ZNto5vMztmsxQOTVxdSKGaQCJMzf5SLyg6ex0ffaiYJR..CcN7PVBhpMU",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770258550.545334,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fchatgpt.com%2F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770258550.545343,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hlib",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770258550.545354,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_analytics",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770258550.545372,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-allow-ne",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770258550.545381,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_marketing",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770258550.545389,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-client-auth-info",
+            "value": "%7B%22user%22%3A%7B%22name%22%3A%22Groupy%20Veteran%22%2C%22email%22%3A%22gptvet3%40belajaar.id%22%2C%22picture%22%3A%22https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fgr.png%22%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1767666506914%7D%2C%22isOptedOut%22%3Afalse%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770258550.545397,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-gn",
+            "value": "",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770258550.545406,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hm",
+            "value": "AGENDA_TODAY%20%7C%20GOOD_TO_SEE_YOU",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770258550.545414,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__cflb",
+            "value": "0H28vzvP5FJafnkHxihA17ycgbd1czZCZLDFsvJhdr3",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770258550.545482,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=a8f6c4fa-d44f-4584-a24f-255a90a60a74&rum=0&expire=1767667443127&logs=1&id=5c0361d2-df8f-470b-8b22-68b6e39a5d8c&created=1767666442755",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770258550.545491,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a514557346269695259783739746e2f656c522b7a554e4d50436a75547a324d4749343875777a544273437369463849446e",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1770258550.545295,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fsora.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "6Dn0gHL8o7Ka9DORLFCDZ.MqkCabd8NtvplTy6EeD3c-1768522423-1.0.1.1-s4zXdIFo8l2STfXMLU3j0LcpZUiDImzzz3R01H0ykqcgUi6wALtdpFL6TienThJAXCQIrGRmjOisPiiIZdCMNa3_WvxVy3TsGwA_EAxxZSI",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524236.730982,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cflb",
+            "value": "0H28vBjUqcdJN5F5i8DLknvCQqDro4yRXX8GQwreA9b",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524240.108844,
+            "sameSite": "no_restriction",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "AENMdhUkgLDdppHIWHFkZJQflYRnot2Sjq.kMMqhMaQ-1768522423629-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "_5y0ahys4AnFku4OL6iUvNFSylU741VuB18Y9jEeA2s-1768522424-1.0.1.1-TWey22Eams1bajKeb3Dy52RMjFdBLcJYnSe1Y065B9Wr.4dThEWTXEzJnzxtAkr5Z4I6byC209BcgszoGCjfzA_rqAohSd2RrueSM7Wz42U",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524237.512158,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-sc",
+            "value": "0gAAAAABpaYK516mbafgcfwUAOmdLI1-QqU2oTDpMZp76CZJ3w-DxWiqWrfAYKurEpjP5qPD48ehMATWIhLrqkKHp1MmSLwXoBRpPpyqZ-ERT7q6lvOAvNOVVNlt_GXGIR3_PzWbC6ZvK-yyffCg9E0wNmJ-3Hfm4zACegAzbuwP5EHHI1fTuU_MvQzOpSYXSBJdUuBFtXt1Fz9PQfGQ9kvhX4iOwPCqeRpMm9TLD1npC3JgIh2R6310",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800058438.146162,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..eRhfZa1D-Z6ZwDaM.XRQyBkLKFBwlCi36IHBkkl-LjC128djZOQgfg0YE_MY4daickqGt9Jyo9QxMHxf3F_KdfshvwN15IArJoscNQlHt2WkOcrSyeNo9ZFR2SkHSiNg13sl7qV0rpJVLRMaNGnKi8VkXua8og4Jjrb_mjm62YKpKEqimQ8stSyKC-v7_vfcoJWbSWqNFzKH-LKbAgpCrdUBxh1Tq4S8fUZoN0VytzzkIfnx5rpSfi1tItaaAhbdFFQJGA6fnCScmurkm87AnCmDXHTrkRkwNwaZqrgkEV-co8iQFOvyG-8UBlXLQQKpx0vcWbi1wHEFX6nSKjx1MSMw-tjUjSQu7ELtBKuEZg6Ch_EmSlBvEAj1tWHKpr2mmfSTmDDq3J4Wnm5gkUV_dcBLSoDIMGB4xLEw3d2OlFQ3RJO1qAdDevWBn0ybwISJyCHzfAi6Y6WX36llJiJQQSs-tf2jLgn5ccPfnU081PfhrHIwMXdardWpKiNmN0v9GH48VsiYsJARRKNwghDIEH_sTD5N8QNQMTWiVzso1sBTYbD3NtfAh50dn4fV0Gfkc_rLoTFqEQhdfuIAGExWpkQh0ZquzgrwK9g92Q04C9gprX6MCLWmfvXtjgse-9jgU5aOn87nWVLH8VwwZ-nYbjO-XIGfGr22o5OZeF5nPMsea_C9B7TNCfYSdtZqFFd31F0Zepr16xutXXzUBPvMu23jCWXGju7MfDaQ4tPJE9ma2B-Poxfv-zuIdXNdp2Hg0WLnLIuysX2_8KYuPFVV5GDrRCoavvf5rNL5VBhBe4oVUBjYRcxozLzg9jD6S5VI8SpTYVyBqAoy0c0xhsHawwgyNkYPTf3FSHllJrnHXb0tXzjMky6-P3USVkgHjVVHEcNWVQ0kEQP3MVGtZ7LULElXp3RBw3z4RpQPYRQThIiJ_0-qQtlna4yg-euzPYqlVVD1d8gtdlqUsF-_k4msYF6Py9r1jH-NmTpLIb2vyz6vZzXsncYIu_uzCY5JI5Q9npndw4emzfmPmYiEnWnZmBqJu6kZyckle5t7VHIWlnL1NVRKk0Kt1cZ84FrcWlwNJMF_AkfswT95LVDO1ybvLjBTzvDR4iSLrXUPQfq8aXNjNXv_z4X0ybL-jEspmAAt6L4OR_WC3YIvZZrFha23jEZ7Y7_Z-wrt1_nQ2KHfS1Ek84hiBqKjUj1Ym6x32r2exiAUlIPfeCbZOO-EE1R0IDhXqJQgexRQVux4wC8_fELou8O64Jprl4pING-CW7qy00saZ6A2b6NLnvceAvQOFiy9RqoHvqhBS5mqAl7IIxfBSeHgWBNIhc3Wb1nqzWknTPD0jetaOFuSLb5SELu5S3MlAg-G9aI8PEK1nQ7CylTA6OEPTVTZr0d6Hl342vqjbr5aJBjjdbCVxBRuMUDhX63ke_8Tg89CiYWwYXgPG0dyYOQoth31jnbaNmRQwyre5Go4VyMU9UGI4QkrsW8YV0Cd-3RIZ0qApt-qxUYDnxb4YHYjIJAtxr5_JEM7Fq6MlpsAj9Qra0wmXXGRZP500E_c6zH-ZJePvmoa8zXmymx2EnnrhgcZA_EC2IqG9SknpFS8srnWTAGr__azXxKSx2nFF1AlQOVvmt62-AT7msKxY36PUn-V3zcfY6G2rf_-Xm9_wUyyilGoUK94zYWHqfr1SyFnAm1Re0qkYoArl3tPnI-Q8nhyBxWLsqN2oEhXlL13WFtUgJmMT7s4REQDoosJmGG1ionZTX5Kdov6nugWPwA9NNei5uHaaMCezWY9uifz4hnjPUvjnLhnIP3I5Oeguu1x29X3M-5SsuhXviCh3P6gbZh6PoBttargXbxM2zArF6yZ3ycQ3B_pYbXFLI1htqzYUMzgaarn2g9v_pA_Npsz2xgQihsZZwwQTLIVZNRXrtltwlCiejbaW49WgmF01t9v82qIp_YZqTPU4RPf9TkJmvQokShHWctR1jSfSCWvq9kjD-nvrDfPegTfghVwkmxlied1y_DnIPXcOXD1CvWccki0VU80zB3vfVLuHcHR95s14Qu3oafeyCJEQFe9bzSYVY2fWQL9E4BEr7mbJEOjB8XPjtPOk9FVriJHY3qFQ2SrjHrw8pIKKXdexU8Y6wR2Hq8iPPqCSxWhJ-iBnVg53q6TpI7wZya3l3kz5bQnFhLcva7Blj_gc2iPKbK5wlh8XzTi0IKW_hKwHVqd_PaMOoe6YtSsw8Gp1KCwCyLBy9o0AMCOhAntBU6F_YrM1NeJVZ5KfvfdP_j5c9zaZtwpNoKX0fd9UIPes8lnww3tqNySruuV2cVMBf2SM7XYM9hrW7TPOfhAVXyLZ_mQbmIoGMCX-0S0m0bMis2fFWKzqnzqtNcYfCEjrBl-85Ih9XIY1QdaFJaaHU0fkI2vyPABDUob3vyyiprdlO5n92qIhsj1nBcp2ARK2BNf6xdGBxacP4te4ADYPXRXQ4bJ6iRT4fUPncfpesinx1iNfipzjOWIR1HW0erCAjtLPlDle8QzbKyIZvgU4dbMSb5pF_aW9v71o4n2HrqO3S10kG714p0FS-ghhAmYresX8wjQLcRkFIHtHdgP-NUzS0zCMfDsejaPm-Qhv93FzIApUCaUopr97tcI6aq6y8QU1UwngbzraYHS6v0jl73GQ1uO6upHqU5XSLVuKTW49aspfNKG7wKX08JVfEfUVPszt6EHrqbF-egEOO-vdsibvllL31j5ibBPLx9ePyYXQJW_rvNdyLoETLuQr6HzhubszLTqfceGwnoKpawgHAiLR6KUYqSHQtjEXV2S6RvPRHTsJJscWnVTN0sBgZ-0gW8YVruILOtPEa1NXQ2UqZiV8zeDdZM6H94RJW-317nNvDOPUemQT1vij6GX2hjkyeW5LPRMAjsudHg6n8D-aX3y_RpBRWAipZifd2FxX7exXCAsU_3YfRK1j3ZM_bdNQ87Sbxk1Iujrpbxqj9Ftj8L3bIuih6RuA6vtXlY2y3cFVT3sgfSSWyc6gqj8U_JV_8YqjLjmxsjGRzBNfXCHfsv3fqN_TJjpgpG5XtIUbygUT6qYh7_zZQ1GwAnYJillPSO9wfu1u6TQEd2i40hUk4wH1cgZP4hp6RLPKll-uWpHlyeoNlojmOznatNOCVj3KTdrTUs1mDfCN-I6mYP86Ctn3ChI5m_41uA.0ftsqXuRoYLSWMd7QVunZw",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1776298438.289215,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "rum=2&id=72447659-14e0-43d4-84ee-60c7fa98aed2&created=1768522437786&expire=1768523340011",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768523340,
+            "sameSite": "strict",
+            "domain": "sora.chatgpt.com"
+          }
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
+      },
+      {
+        "name": "Pro: Sora 24",
+        "cookies": [
+          {
+            "name": "oai-last-model-config",
+            "value": "%7B%22model%22%3A%22gpt-5-2%22%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770476215.004845,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1768059562497,\"i_b\":\"uYSELckujMckvAGDtboqvPkMPp65b5OvnKAt4QybIDQ\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651811.655479,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Host-next-auth.csrf-token",
+            "value": "1bd7cdacf0764da6006f0ea5852859d4999268d46809cf92ee4daf8edb581b71%7Caa7bf492c8152f7e4ed69dc9de44c85dd3b14dcb384a6bf9e115b442b17e37ec",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003938.969565,
+            "sameSite": "lax"
+          },
+          {
+            "name": "oai-did",
+            "value": "ce41dc62-3aad-411a-9c8e-a2bdfc08d52b",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003938.969568,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "cf_clearance",
+            "value": "OZWQtZdzE7Q7d0n7Gt5PREP9SiMqhIXsw77gbcQV7fU-1768411895-1.2.1.1-BxynEhFgZqzrO3vGr1OYM0u9MowffS_OnkVP_A6PuhxOgxxqjd34M9qdBcr1vzZO09tpatjjyF6Ellx0AWe3sYvQxUVdn5FaoV4UdLcpMwauhG3QlmRwVpwplmaWm_UaKyswrhZ2Ii3gYOSMxblaZs65zs8xpOqsKrdN1nfinjLlBsFPz1v1NkGEaQ_Da1oB48UYeGk8OwpG326ZIzMN9cZ2fY1uUZ7JnWtSyDgLXW8",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003938.969571,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fchatgpt.com%2F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003938.969572,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hlib",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003938.969574,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_account_is_fedramp",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003938.969575,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_analytics",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003938.969576,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_marketing",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003938.969576,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-allow-ne",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003938.969577,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-client-auth-info",
+            "value": "%7B%22user%22%3A%7B%22name%22%3A%22Groupy%20Plus%22%2C%22email%22%3A%22velvet3%40belajaar.id%22%2C%22picture%22%3Anull%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1768411888602%7D%2C%22isOptedOut%22%3Afalse%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003938.969577,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-gn",
+            "value": "",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003938.969578,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hm",
+            "value": "ON_YOUR_MIND%20%7C%20WHAT_ARE_YOU_WORKING_ON",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003938.969579,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=9b4f2a60-5f3b-4213-aa11-ce1fb5ebd14d&rum=0&expire=1768412825565&logs=1&id=57305ee3-b3b6-4d89-8bd6-dbe8e58f1055&created=1768411821805",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003938.969581,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a514557346269695259783739746e2f656c522b7a554e4d50436a755147715562307a576878566c356b714c5a73416f796d",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771003938.969565,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fsora.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "_7NbqhXaxo7ch2YkuwiSHvkKbmqYwnGRGeGxN50oTOw-1768522438-1.0.1.1-3hyC_7ClIP.nMIj.8xorpUn0L7niLl5BZInIIn_PqpkSJQe0l9XHVK1h3FIKHlXhHErRbuLi8FwForSb0NZKmV23Q1N1euBfLJGgNSseguQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524252.117826,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cflb",
+            "value": "0H28vBjUqcdJN5F5i8DLknvCQqDro4yRaCM2drxXtRs",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524252.117872,
+            "sameSite": "no_restriction",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "w7LrN5LZ5d2eUmLcT_AWDpDDqmgSAzyKQFauesCJePY-1768522438989-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "D1xO2ao98Jx8iRC8OXFRUjOX4pI7XzUtHurIkUax8go-1768522439-1.0.1.1-G3TMM.g2sHMjQ6UgGLv1FEY1trFD8PRDiB_qPmfe8MOcFxkd7bHoGFECLM_qLigWcIjGwOafHyqc4N3z6BMb3obdN14fHpGYGbrIZp7CBi0",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524252.822418,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..iK9Am0Oei4YaXqV7.sG-4wd9n2wy4oBry_iJ6L1_MOoDxwDXWWY_9wYhGxPkDwBv_LAS-3ccZ-bIWB3q76j3GKxvwOmrJTliCnqG1g51stxY_AcTYZcV9TnRFVvQljgQcqQFk_L1ZNPJSG8nb9C7dZM0XsWmyRhqNq2IEwq5ZAyymvYjYoidAqE8QzO77F1qn5428C6d5bDcR_11-hPfRKIXmGeI7nXlAh_iLXJGalktc0K3VOZHvcJTgugJxeH-iWiEicdjRj7317uxk9R6ZlF7Qasr93FH2htr5lav7Kk8rXCxrlmzLZV8xrKRx14R-Lv5ymi-BG6lsNhyqGGvFJa_PewlAoGYH_97fcBdWgJRaXZ8EyKnkXxL-3hNh6Ymp4n8oeeTkTjKi1QVEir4qNLpzN5BzqCQy4o5CvZ0uS_Y-WTyExvVabgz0q64WgUSYt4-sDE2WnPiUizIZM-had1M-cnhQeZSNMjcz6CB2RAnf5NTecNE94GjNt8DpZ-jFt1REFQ6BO4CpFAlbAtdwGK-jr6QLTjYdqTKxJ-lR6WsW85ixa-ADA805sXnE8AWqjWBZ2NcMY85xpH8EOCyfqX41JeVo2c7SwbqYpneGWe3CU7spyGNMo9qI-tPF_Ie85wWhdk5XI73toDu1h8rxHW4ev_Virm6l7AzU3vx_e-Ru2tzeUH24NQexscAAvWp2Oa69yWI8xdpKOXktMundYU7fXFZ16gEJUHI4exKSDGU6RARDjdNQWPELsJvqT-c3kZyRcrAcO1o1-nWucOfi3DwgOqgEfs6nB6NIAWwQM4ygOo3zzZ1cr43x1L54i9kLQFgyqRd7GDytdVnlQ3fAV_iuUmqZ-rQs-_2kEMac38NIy3P8jaIdmxknvO1TM8EhhO7XKK6Ro_QFNIO756D2BUUwWhSS9gXyQ8GxWkpfOlVyngCTkrEwCkvL-OLhBTbnZUnlOfWXpKf8vi8MFG2CCli1sS7bLd_mL_NgYpK1oY2R1chUTX4XArCQ89DktwA7FcOoQeXM3Hg1HlkvF5u5px2ZoGynZ9u5r-BuqPgo2iVkCNh2DCuzbuNDmVRTthwBP5n09fbrfnymjI4nC0mc0_zfjgd1eLNtVj7P8wbe1Zj9OKUtND6cgJgmEOPuRzNTQalcXUUsnSI8ogj8RqJR11NRE4RRwpFbEW8C-1p4OnSTGsMJXYyqA7RTISOJ4A1OQJUivEpbRFmgbLyjqak_rjt4ce8Gg_zr7fXbUxIGKpyBhgXOwtJC496fuG5EUDO37_8K4vw5W1i_eEKiPg62KvladWY77W-f5vfGLX6Jw_KcN6zOTKOfBrPdNlpYndv0tp4p2jBncuNtZixplDRriXkFUPYuarVlNBMePmRk-O21Mlij_qTtOj6l_aWZSBqOjbFOUjKb6BqMOcOfhTWbKEdKhnC3Mxo2_dEuEKhmYxmxTVDadVOFHhIFGfEYCx6e32ewagfCXIDxIcJ8jam5UTNhTId2ExU9J5nQ1pAcxarf-U78CHTlyOT3l8yXyj4TVYgBGiNBEzsQpHG52QTu2dQOrwMjjTVTHj22-uOZTcF4AiF1L_cAL_9XGoRJ72BjUfyGaiCSMv9NCBU5_o8TJ7H5KUDeXvt7t-Fh-qQ5fM6FT-NbjR3J9XohM9UF-N4pN3pDhGE21MuyI4V1OyjOELMi3zdKom6jGoe53XlIW6ufosnFdJHUeGP-sqdE01lkzCRFGab67-9EYVMaOEVYYB0sLL5e0b6oG79ACmByN3hg1pD5ebe725rReH5tgJ1xc0dYxdhyO2cNyqcGZjc7x4YPYO5N_X3Fkgr_PSBmW3QDzOZzXAhVYbNQ-daFye0lT1QENDuQCQl4ByMGJgItnNkG5MdpMgAwbf_zH6WD2elngT6uDRa4BBSo-yiIzr-St5q-GeQVgpHU9FBI-kZY0Ef5LhC_JI7LNpIAGxxE4BTbVrmQ10fvMMlWT2ly8TAFkW0DPpmchc9ayNvDNE-hroRouv2CXcoyonnw72kH3MXEeg0K785gkatGk_eR4DB8I9hwD2KuMp0o6odwjJFMW3m1WJ5LgYAWDng_a-eceC0wUjMfBRihqFnfztMk0IQIL5pE1GRF6xc18tcguw0O91DRNq-H5yqRmc23sTFkzp1b6gCQORvGBSrnZctUCzHuMrBaL1cQ4ddfYGeMAJCr_CRavltxbKhRPRUMgZ1mZ2abWZbxS6nZDKzcJ9etbT4rDpVqsORAyoC1Y73VL2t3XJjpDOtvSKE7zMY7JlnBQCYfW5QTtV7pDvKCQxSucL6qabgiO7reyrUhBNKkk0BXZ2GshoWv6dRdlcAT6dj-qnzQS5ufh90ESAsbwkZZx_gZOwUNNpIQT6v0qKedWFWBmvAHlCXSKS7RmzgrkHKKYhkuVoNUNW0YB8UbNcmN6nVoi7kDnc2dp0dsN6YJEvFt5pOIt2rUfuqnjib1KsolOVEUMP5U-y2RDSONzCQyxK_rzIJxtLG87LcFtmGJEAJSTGNHVkjz80yHOJgAn-s5cBPqLzibJbb5l1e_2slXEYXh3e7JQgS0V7Nm1BLE4-JUPbdHEksHGTHR_s19_J1YniFZ5hyFDIoF37xzvnaiVxypQQ9Cfya7qMotxXle4pWWi9hc6sYisxR14DPs0Bqzejvs2v-9hU5tF4tgMaqZTxuXQjT9gA3zNZ3iLh9mv6d-lY1tlCpipslQfZdCOg8LFWHGU7D12GtA0P4yVfX9IXYW1CHSfqEPp3VA2afx3X4Qivn8kswlfuWYd-sTtP5_lXfdGoS1pGYcdwp7ll0UNLk1kgKdsCr3UVBznLbTQfMwxAnV3PfGJF4v6rh0KUvRPbAI6ILlgrtF61nh4Wkkjg8LbM-9Y1ci2DGuIkv3EKc51fumRPZrMaYruX34miFqIbJfNFvMF1JHaRzY4wfUl5Diw5Qz5VB4UxMgBjPIdxJcyqtLCqRFgmQjakqZXFceOch-dbWpcLndY-1Y4Sbl36jbQ8stl2tlYiquoHajCO2jNeNjB8tohcpIv9lBYlPef3bBflGCX7mhvc9mH7-mZNIKwEUNMyMo4XZnkEATd4XSEbewfUZ_GcCVcig3euT725-SLO1D4RgoCTpVnMFpjXnNWS17o09gzfqaiFv7ChKd2agO6EdPbMbQa4NfZrLD0X9pzWdSxhw-xCYnmFHmIHSJLUKr6p5ig5dfAe1J7i-Qh_qRv7q5LS_K4A.NZc4uboJw0IFrEQRqS_K8A",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1776298453.586464,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-sc",
+            "value": "0gAAAAABpaYLIh62N_aLyuyiF-Bv2shd4HWLZJHCMt5q5bUM3_mGOTtsxc1WNR7ImVt11__mhiYbs9Ljeas-48NCOc0QgOZlK_1IRhwWbzzVcohe4Pv99gw1O957QYH4A4SyQGIfNkti9i6V_hrRS2Sodg95lCZYYbQqNjT8AqovQ9heYHEZ0lMKNo2bIDWnY4u-waxLYq8A2oAEjcHCxaohefkHBNjvUXCrWz6kGMZILOTr66uGsvGs",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800058453.754569,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "rum=2&id=fcc97698-3515-4fc7-8946-24bad75b4c66&created=1768522453095&expire=1768523356673",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768523357,
+            "sameSite": "strict",
+            "domain": "sora.chatgpt.com"
+          }
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
+      },
+      {
+        "name": "Pro: Sora 25",
+        "cookies": [
+          {
+            "name": "oai-last-model-config",
+            "value": "%7B%22model%22%3A%22gpt-5-2%22%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770476215.004845,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1768059562497,\"i_b\":\"uYSELckujMckvAGDtboqvPkMPp65b5OvnKAt4QybIDQ\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651811.655479,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Host-next-auth.csrf-token",
+            "value": "21771f05f13c6634e5a13e3256d183023a396b514cfce207226ace3798aca7c0%7C4824bf1010e408ac387ecfd809d35001b2caa4968cbadc7b0fab447358d33985",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003940.21214,
+            "sameSite": "lax"
+          },
+          {
+            "name": "oai-did",
+            "value": "76947c03-aca1-45af-814b-51a8e82b7345",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003940.212144,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "cf_clearance",
+            "value": "o2lAAGuhchwJjv3Ve3uPkS3bdjTO8hzUkq7eeWalL5A-1768411899-1.2.1.1-a_luR.AYfrdCVxWBOr_xd_AJ1xQVAvEuzEVSRQwgcqj8rzKfZTcsLW9S27ZU8V0CRMS1o36.mD63p7Fwf6WeEXnqHt_JVu_bp8PK5JnOOfFN812fW7OvG5_oDza.0hhdV9Q2choQg9EL0sEQy5tv.hGYHrX_XgwgR3T7LNIQxzFHE4wjdSdSNMxWLvGrdMKuT5Y_.mjNuciORDJTID43zK2v6x5HFpLjMyhqF3fvm3M",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003940.212147,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fchatgpt.com%2F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003940.212147,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hlib",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003940.212149,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_account_is_fedramp",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003940.212149,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_analytics",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003940.21215,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_marketing",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003940.212151,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-allow-ne",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003940.212151,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-client-auth-info",
+            "value": "%7B%22user%22%3A%7B%22name%22%3A%22Groupy%20Plus%22%2C%22email%22%3A%22velvet4%40belajaar.id%22%2C%22picture%22%3A%22https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fgp.png%22%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1768411922469%7D%2C%22isOptedOut%22%3Afalse%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003940.212152,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-gn",
+            "value": "",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003940.212152,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hm",
+            "value": "AGENDA_TODAY%20%7C%20ON_YOUR_MIND",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003940.212153,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=5801afe5-bb8d-4bb4-a0fe-df78ac8cbbe6&rum=2&id=45180f5c-3e36-47e2-910c-ec96a9831261&created=1768411825258&expire=1768412826013&logs=1",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003940.212155,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a514557346269695259783739746e2f656c522b7a554e4d50436a75527271756a30434e3532326e5a346d736261712f3334",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771003940.21214,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fsora.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "MrFWTJKoEC5qtVT3EatQwccPgwY9oEieEwgFmMCtlss-1768522449-1.0.1.1-wjIC0VzANDff1b7eKHiWEDpEE0Z.3p_Dr1.JaHHh93sLS5O4wUZYWMTtqKkHofBN3TWFdPP8tE0xznRaMK2G69nFHUNRY830Yu8BS93pf7M",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524262.774955,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cflb",
+            "value": "0H28vBjUqcdJN5F5i8DLknvCQqDro4yRbsMkmw9Ty73",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524262.774999,
+            "sameSite": "no_restriction",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "6MHqTtFpziCWN_xCS5Ttdahy.tDMJ4btynno5.QJy.o-1768522449547-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "fuVhPZ1B6m3GwO4ol5WOgiz.LyGiaSUaIgt8mEJXlSA-1768522450-1.0.1.1-jE5gQ09BScoucixU1Nv3pedY7YMQ1Qqyn_tJopsngABkbJ3NbnH0mvrACcT90iVX2BTI0LFLBkLaiDBXHEHtl9dYGddnv1nKmAA_ZIawXQk",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524263.520659,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..x5Y3xTfAfL5V4Rcs.mePFE4yy0c43Z5yOStCaw-KDbwln5TpjY-QmHzYxlI6QXY1_I8JUyTy5RKttYVJRBteVB2y5msBDkfr4GbjNCj3swTvmTZ5tj6RH_unZ4p2Jh1Pi3FzPKmIYXIAk7D2pLlDd6u_IDw_ru7epcl_F9zk3sIRipm8u-yV6fU05FBy_n2NXB33_p5OtYYzf3ACP9Uqyg6Aaui3EwrEBsDqBqjbYW7X1P-Dr61-3o0cn5Vo4WXjpPMsB3gM-tnDylCmQN_JVZHZwIU_eDlZ1V8fDAbZ3RtRCmeRJ_MsdJs9t2253_QdH0-n07jmgHkQCy4alOTt34JdB6wUS-xSJKT77VWMD2z9mRXVv8ElBVxWTvdcwIxcx8Bx7NfYL_NihL4KeQbOma7KIuG_LmCmbReWTtdVIq4W2SdKHy0e5DEvWSbPGr6agLjcauRCzUuOWL9hGf-pUZnOmwj9t9QgZpYiI2Y0FOhwDj0cwhY3J244JjUFRsYVmInm4Uc5CJyWVukMjMdskYOm9W8Vsb6A_KKO3T3wLSaejbsveLI5nK5fJMDdDq2BbMvbBxoh6kMhQ0VtAB3zs2uHAhpxy3rhFYKeJJSwRZ8XwtyQM-bLqYWhlHIfapJcqwP5AIGqOH4IRCG0rZMnaEA9pXumDC56Gb5Y4ws7cZPZ0YuEvk6lpiKni5n2Ude4aL9m5mkX2E0NmeZuWbzdN5As-bYwTJNklNWh_gX6Il6E9Oq-9o1pMYl79SiGtPkB-0b04gSnRUvmDpHmKCUbBwRUBO0Axm_58X0oFXlV2KtauhMzLL7tXGXwyb8tOsEhiyN0gLHVkXmuS4vS-Kknw2LVcsXlVY2NZc6hK5t3XiUPCycYj3gnerKdoIiTk-YmiQ0jPtZ45_ljV5Nd_pEOJHJQzon9cCW_JRmbfMj9339KIqhEb93-jpk1NQkJ3RVvxRw3BPeNgOmGUhE8MJwrpOhpknK53vt33ZWMFzurqiLKxDkBjTb9ZB5U7QSx6V3PnR6VQKwtbAL1Q1J-oyCWpJuyWhddfQfVjS3w0bF-Xc-83REivxkN8u7Mi3mbeyFEA4hg51Iey_LIF2dSAUdTd3SNgs42HqLZ6Lq-7e0Sul4sreuOFmAKruiImCYCgjhegDeDNrxSBZW74Ejnx_hMZKv7lJnTtNLa42aWurs5Pj_9_BiS7c04JHwG3YhbRPjiWM7UGw3RUxH9yjy5YAspwJ4XnsNzSza9TR_Q_9m1IxhFg3BPdmB0zRhn6ckAWiKnrBwnKWW9lexpnlYuPHcSBzBv99w03i1qaNPx6bzBOJZh8d6qb6l4VeXmnPh4SLyyS3nGsKJ_WQZUlVn4vde6U6BD1_NxA0Dt7-H3XXruk-SMm1Uurl42HKMN0K3OalRYE19-cuA4uRzXDDTCimXJ2J55e9heVW7cCo4pTXozPJiPwvCrsTwhiF401QQdOJ1r4zrDeMzjZuD90h3oSFPTJkujN9OahqIbB41nPIEfH8Xyl57T-hSJs6YRrocAOq1B0iOei2ZM9_3hbaoktlVLrXmjhE9VIyXtW-b519xNz_pGLzX9XBWvw8sti_V4X4_V2j6s3axD5Q6omws3QXPqBca6PqduesphBXmXujWfMP69rD0t-tuRq2i8AiBCYsfWFJraCP_SYxYrSv9IIfr_s1LQY_YrfVmZcH57dgjxvJQZGRENYAknVsKBEMeh8IDTufQY6kXzDEOVCG25Eo-dVI1H-4K0JmoHAPuBEgdVkUlCtVeYTw_6UMfBbw5htpGj-pF8DX11Ha2yJvdf3kE_F_R0t33ndLFAmdpqtbhclTEFH9dIcBdMZHPpck9hXxTcLBJfSzAEe0OBVW6BpwIEkjdrW48PTo05FUQbQB4lAUx5HBEP1uM0YtmlAd1v5udFdIzisoCAhStJQq17EfMwQpXoGnPDYwiaR4ciDdqx7mC36TSZ7LGxG8pPIU3p0mao_CZRaxQ3Kd7UhTB3iSk962xM7UJ7A7bItXHm0ZqHtPcrYyAbz4hW0xzXSgEbVMmIYC0PgmRAZ4K3obE8uvHe3ADC6FOkUTGIEIZZZAs0e2xNlCy3oW6eSx0TGCIkQ6ie9tSRZLs3ZJi3V5cRzSPXt0wga0gtdSibe3iacQEp9j3TrKde_4pioo08hN4CRUcs2o79qt6xBH4QHMo2E-8zT42Uq4QJZFT06eLAmCQq5KANf7deXxKNhBClx-jMqxOe6y6m8ZDWHrmAFYN8gOHPDqOOdj6LVzFPHkOBaMSI0niABT3UUSNvIL-Qt7Ez5l1fT55-8HxhowZFOnp7VQDnvkry3XB2Da8rg_SJGOGsclLp8ZLDpscrPQXRwXUIetH-q1vWifz2svXc3dt-Euf01byhmjSv-K0ErFqeZMXwk_qOvWOTzbWTn6Xx-VKhhn3m8zb_VRU05KOfJjzdDSPDXy2XLKwxCw_RukhpjzdPeosKihRQl7gcnXrkupp2F_Z-_eTyUfDi6cwjo7wTHQqKlXIwkfggjvTUrO7X6vFERXkRAPA3O5GOb3aGjWao4uaNBibZLM10jnYDdO11OgkAZnv0KrWLiT9YEmeh5f2ztKbeX6Nz5TtMW6n5okfprcmzvmO8O-JjWfV67McmJJHorq40zdqutmNCLVfGGYjbiJs9qXKu30zlDkj4fT1y4OjU5TmRrnYDiePpSnml0yVJkT43YJZxJ9Rx1rJhQUIElarxxvR0hWqbnMnYlslysrK08E8LzSKL3qbjLIZlxKvYiDByTm5jdYs6ThODRwPILzJGIGHIOjORs7zf-tg78EBJ7yeHqed_F_xXJeAiJjpG-onF6Ir_qC2CY6eWfshEbdP5l6kHJt9oERO98NPhIZa9Soe-Oj6A6i_7CgEeQfQ385YifgH_YRZ3Jui4vjmrwhRXatLthl5qlqmAyaO0kw0B2ShX_YrstuGuORZSKAPEs0-4qivX6Xlz5PXkhNbB3rA4nFb7JQhyDTCZTAXgdquvm2VsN1vYjYDBn0Y-ZcZQbqNqKwwsgLZtwV982Fpumtrw4G6nB_jiBYikCYMG6fJQ6vfxUoPBzV96qCpuh8_bVX8hO4spNZKh5Rk4MnmOU_Q1L2hcEAYVnrequtdKHHQGI8oHZdUD3VbkzBCn73tPIgVuM6AQqsWcCUk9GxJZiJyA4Xg8pFYatczqw19aOO9HDIgSDrsG5V5lexkNCY1d9zo61cfA4OSKOzw.snLA3HE4JDi1-dZ6TA2obw",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1776298469.860361,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-sc",
+            "value": "0gAAAAABpaYLZ7mUZGJLqz1KMiURHcoBkneH4vyqBC9CfzhWXhi3oYKGV1ZTmoq94HZDdJ1Z05hJ7YUctMvXuRHRdeR8sUCYdiVeXI_pF_aDqrq94YOsoK9hWzIXov1uHwmT1ETvdtzZ5kMrHERj-JIkLOfj33WYXv-m7uk7VY0hDt7hiWrt6-Qhy3M18wIb_NqcwfQhSYM_weLwb-9HM8eaDnS3bmKRTj1jAzgM9Z8UiqbAuBjYsmVM",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800058470.888456,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "rum=2&id=343655a2-7ebb-41b1-9ad6-8051db618a52&created=1768522463913&expire=1768523371417",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768523371,
+            "sameSite": "strict",
+            "domain": "sora.chatgpt.com"
+          }
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
+      },
+      {
+        "name": "Pro: Sora 26",
+        "cookies": [
+          {
+            "name": "oai-last-model-config",
+            "value": "%7B%22model%22%3A%22gpt-5-2%22%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770476215.004845,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1768059562497,\"i_b\":\"uYSELckujMckvAGDtboqvPkMPp65b5OvnKAt4QybIDQ\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651811.655479,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Host-next-auth.csrf-token",
+            "value": "7e64fab74d95c2d92da4447eb13e83d714f7ca40f73945ac97d5733c0a28e74c%7C0e24e013fe7052e727f389e2bfb7b78aebd5ce64e7bd6ad551f9e546ffd842ca",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003941.861895,
+            "sameSite": "lax"
+          },
+          {
+            "name": "oai-did",
+            "value": "ba3dc4c7-6260-4c25-8308-fc47c285ad7f",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003941.861897,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "cf_clearance",
+            "value": "0PxrQd0OFFe8LvT9_O0eqvuzCHLqfLoEC2LVHedFAyQ-1768411911-1.2.1.1-byq.9kwgWaoa2b83U_Tekktkcxt7jqjoDuCFjgUYdC.AQoi7mLEsWOKUQqKD388vzxZUYLCHtxTI0Y8pOzd5c8RabY9.ydW4vhRQZVujhiTEFeQer9.4W9aPATe8wQUIF.cUl3ZEX4L4770broSSuyNjqyCKNNSybuD6O9HxZ04r9Az4DFbgB8l.htAsqkuMpmmwvmwOcTQFodd29WryYWBnE4QlyztWremARbatn0Q",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003941.8619,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fchatgpt.com%2F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003941.8619,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hlib",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003941.861902,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_account_is_fedramp",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003941.861902,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_analytics",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003941.861903,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_marketing",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003941.861903,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-allow-ne",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003941.861904,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-gn",
+            "value": "",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003941.861904,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hm",
+            "value": "SHOULD_WE_BEGIN%20%7C%20ON_YOUR_MIND",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003941.861905,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-client-auth-info",
+            "value": "%7B%22user%22%3A%7B%22name%22%3A%22Groupy%20Plus%22%2C%22email%22%3A%22velvet5%40belajaar.id%22%2C%22picture%22%3A%22https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fgp.png%22%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1768411927814%7D%2C%22isOptedOut%22%3Afalse%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003941.861905,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=fc20dc5a-e0dc-4542-a915-646d3183e8d3&rum=0&expire=1768412831992&logs=1&id=35a5f12b-4718-48da-8956-fee33f875a38&created=1768411838009",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771003941.861907,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a514557346269695259783739746e2f656c522b7a554e4d50436a7553704534764161394174374c486e573043346a347738",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771003941.861895,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fsora.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "7g1u9DxLOHOQhk5IZlIR4EidAsrqq8FkaMbD_j7m5Wg-1768522478-1.0.1.1-taKLi.8xZ3iJZJG5.AMKZBssJJAsz_OAaYqvKTuQ5YKbGhhi6z3b0wN_XRFaex_dMxGU5LJIOIp.OpOYO3k3DDMO4qUrIBSTJbFYCeq7SKE",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524291.260287,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cflb",
+            "value": "0H28vBjUqcdJN5F5i8DLknvCQqDro4yRgihGBLtmbs3",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524291.260333,
+            "sameSite": "no_restriction",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "NueEDvNa_FGYZuE6x.y3jaC8NthcMsBEtmPWDl6mscI-1768522478162-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "2HJ4G..aIriLRnzK9orhva_QoUkNUSE7FvBEF5DZ0Rc-1768522478-1.0.1.1-7SVk0pW8NUrN15qSUhdhqFipWFCEHSHqZkx4R4sZdCYdQuyNEymvJnsJHZ3OJ9oyrqjbDhhZPxnw5dNmNjd6gQEWs1DOdLbqhS4OxBbCgCU",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524291.945475,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-sc",
+            "value": "0gAAAAABpaYLv3HR5-FNJfpH5OTg7SqDhOJ4BkPvFeYZbBDpVS8rkPfChHKOnPKx8XONCqUgkKi8MU9Y3RR751IxI3Tgskq88hsYS36GaAn8D9JijAhOhJTq31y8GF7pXozspmbd6aDX_WjFq4e9F9JVPdzFngLxT0PPC-3dvI_PUB569stQf8hujo-vt8HEhCJIwWXrQLuXlD8YGVhxUn35ruQRwNRyuqu-ZjzJ10qK4IxnJm6juEk0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800058492.696453,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..Y_cnkM0mFJt7BNHa.QXJ7Gx1KO9eoN0npJ8K1D0gDdcKRJGwQXOPq25iye5EoZWEjyTSq9Ks2uGdtFjKu42V3VmwxGP4z5QgH1bAXFjOEyAkg6QZhdUMh1rudnfxDlmjRKTiQ9-WNuB0Idr5L-aPxypxqgja4BSycCBwN6RKNFD1rLHI1fWGLQhXhW8UoyQmlCf7btyFjNtsN993r8iddvJtNQfaZ5F1wooeW3FdPCzMl7fBb3Vcm6_CHi0yfKGCGjCmXfr70IrMYStIsm2yweBcCvIorrT-SzzWR0U7wykK7XfOf1roS5A2kjQGIE6XyrV51oIongd7sDkuLHfljzI7X4pgcfKV5a4iPbBFs_hQ5M76EFmscOw38zbfX5E4hb-CE6DffKa7ntTQfC6oPFTYha0KVs7bp6ftEc8KZltIQhtj5-HstQOeskZDbuUfNNddmlzmgrKPzsx6NNImfW0RhFOpoiyFksWmcDGtRy3TWNjMqbyCrdyOiQY8sGTEZeu4_aq12W8L-YCwcjjw6bENJp0vEKvRkpbbnqNdzZPKDZfUSSTQaPVWtY9bD_Nqe2ETSXS3TOzruIqZqca_akbtCwYqC9jyzEg1ZqANsAtzTRqtmY_tL-p8gULvnQr3n9knXQoMEnlF8teHzxa_3K-grm3G2YHGE9ANxPd_nYzqP3O0rhUEVC-2B-jJvaecqluaTJcZ6uBmkIUW9vrWknFzstufjeuUPsGZNLZMcvgIoNcuUU3BIwLjsdVSbjdG16rIb_NpJdlseLu0nZoSR1EZ0_r2phKT-ZvZ8drsavjNHtMdcAc96KyFom-WaOZobiwJZKbxnh7a5cgkokZafJ-NXg-f19ElGQJK24oTEI6Ce42MpDN1KxeC-Xv1gUFoo1dQ92ha3Ym6yuin9Ts62gfBwMaHDvH_L8Cm8CNWkr3-8n2f1g6iz4PEGHwbldSilF1C0JDojIQ2RCpJm9LA4kLg1OAnokShTkokM3-izclA-hURPY7gvoJ30pBpUq9d-qCqUwRoGIAoAwaeIUTQEdK2hiVSexmPcmSb4yUKtOYCi7zxa3tXUKtSS08S8Gk6YLd7JN8HAIHgGxDZmVu6a1nGSgqMvxAwaWVZQrbUpprr20hn6Lq_7etvZAE1MypdKwyqd-Nuu2brkwxTKqDG1uNszQH6Th3gYKlo63d7DDuOvIam7q9vFMxu1LHoyE_bIVpuiEh3oDBmjrQDrpkqxqcFmUEgGjTTz3ogMuNO1GuhaC3jym3lgHCV5HKC29Ftq3XuA8eOh2lc7pN6nk40MWJhqD8-lOhBwCsX2py5cZBulwMYIuQWZmdJcyTW09cax2jqK3OD-VRKHgaWu_XXNYsXLv_j9lCABT6EfBWe4ep4ICrQ-19KNucwsPAx56QVkm0U41fxhfMwd1q_sW78kPhqwwqZ0_cfocA2-zApGv7JPpLTdD9W3voDoJpu4mVh9MfUINoDkihAdYgG-tNJyuKzrEShS6oC_mFQimVaVsdlTZVrfCRkGkzsoQVNaAJ_6wTlYKOL9QJyJSqIwEZm_o4AuRVyX9Ot4ujofcPgob7D1O4KYjs9AnqBkZmqR6Kp-rdPYWdQemusQ3qtO21MUEC4N9CJKYqpLYwu_X-VMVUXKZ7YxgmFbfnsAzTvu2XWaLsT_1h2O5HkCgCODK4DwcDO85CqHylxEiVjeWXmQaQ_Xk3Fw_e-1fRvGGfdVX5AjX5KoCu3XQK6LtyYyvxNy9YPkUyyQqMnUVwGErBfuLpT_LCgREACCM4TDLGYtPkfNI_CDAbnFiF8ocHjZrDkgg_a5u1O0YCLUNalRSkvN0te4Zk9z2hTP0QgdZevbT2BU6I9sA55yiyiWBbyTlTi6vlSv0kxrP9PyeNXwVD4k2LRWQJJAXg6OOppmZw63c73vFS2bWuAtSnU0ylVod9lqFRUUxv68jqqy4NjgJM0b_mFmU7_D2IGozr99C_LcRekExqUYKf4ba7hVyvorpNiymAqiPY-IpUT3Kv9bBlNwW0AiyUYhm1oDQMBDRr0qOWk0-xTQDRF4GUzxDG8nJ6rl_f0XRxUxUi_5gBRPmEEQdBbSKbwpRxiZTpfBZPKijkhBu0y8R-WKcIJwPACC05r-fmi_csCWEfAw-eM0iPBCi5LEMvVu_lIky4x1UXelyX8z4ktAnWinoJdzdTWTxRDEE9NHFFNwm4VDaVrWOpLCbh3bOuroFODSUN6ub-Vt8OFnIEujLMB0pUxCQbvIWw2OEMAflodfqL52DiED2O7-0SISbw3XPP_ceitpy-hZj8sCR7HgMdpdvsR8wTao-U0PADyhN7U5-kJIOSBrJhS3SFWlJeJqhVbaX7-uu35Mgh9W9K4pHIulHbQ5VSTmsYNhXc89mAf6PFHTHAmKB2WlKblKUB_0QhFq84t3vHILfMyE51-zsfpFapEx17zc6YD74sfNxOTFNEtuayzC9Klqk5I5pY07auncmjd37jLPSfLnNrffccJ1Ky61J63ZK18999GTZ0yqJc2mbw8t-D2Zyrgnfg02uBLck774tpkjo-OQTLIS981icGDX-zdEoHD0zFMUZFutE9pr2A8tz5aJSJeX-THa8-A8sOKwt24No06lV_FpwtHtOWbzi9n2XMKCBjAoLhsVWBUOw61YT9q8F1-KrAkCkjVeM0aOOJIdBefjjDcbjL3tFHk8H5DwJtY9nRGG4T-5e0F-nnagwgMbhzd5oTl2zuc8A_JMvtwf_iita21i2ulWVMYaiMlgYebWfsDlDqmlFf-BLpFHFP7Gs2zVr03XwAAsVafNsCjzTlNQyVxFZ0tPFJG3aElfuQwE0frCdPfBJpdKFDx-qFDZbVdH7hE9Q1KaIxbHRwJ6bjjcmwt24DpmyVcyTMxGxrvuRwps1Cjimc7i1PhGbomNXlfZ-jzkFMla7YyEaSw_AUHRvLhzB2-jWHmiywzFXF-QNkYrlQq8fmba7QRaJf1CxWh2CYmdSBNxvKJR9I3sled4DQV_Z2YGBWU9jqT8UrLQD7Szla0JVfoTPITbEoZjEsN_ctX1O7yoGpS-bp4wjdo5FIVWzeJuRUtUoCx_7_EBS7yfqdH0RysVDPjZ31rKWCx5lTbckl1e5N24-xs5vXyO12qFBAJS7J3Isf0kDPFpwvs44GZ-hLEcdwu7BNsYrsEgRjMKB6GT6IBYUgYVnxPVM6sZZpHXghfOrZuCFlnO7NY2Y2ppaKOfGA.BpgR57l3fVCttWndQyGjMQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1776298492.72204,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "rum=2&id=f4bd383d-bd36-47ed-acf1-43c1197db0b3&created=1768522492224&expire=1768523394145",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768523394,
+            "sameSite": "strict",
+            "domain": "sora.chatgpt.com"
+          }
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
+      },
+      {
+        "name": "Pro: Sora 27",
+        "cookies": [
+          {
+            "name": "oai-last-model-config",
+            "value": "%7B%22model%22%3A%22gpt-5-2%22%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770476215.004845,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1768059562497,\"i_b\":\"uYSELckujMckvAGDtboqvPkMPp65b5OvnKAt4QybIDQ\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651811.655479,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Host-next-auth.csrf-token",
+            "value": "df6ae04682e08b36142825b82a197ad09a3af7785f8f5f2a1173e5a0ca1e45da%7C712ea5f3b28389ef3bceebe5733ae6b6836eefc07ad762c4e19f2edb45cad2e3",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004262.486773,
+            "sameSite": "lax"
+          },
+          {
+            "name": "oai-did",
+            "value": "19361adc-c675-4f36-b1d3-f001b1e926e0",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004262.486776,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "cf_clearance",
+            "value": "MBOPYAY3a.KDluSR8UTd.boBzFFln5v0GC3RLRyykNM-1768412222-1.2.1.1-yGxXP4O93pkq9uip36vVC0nfKPjsFxkpfSKojCZ0PtlmJPSBYji8mTd8k2qTHBZ5EI_8_MMZ7hTPX0Ks3Mvs.sktkHyuRe5PsSGSlvks0VNXmETxeIHy3amQYGeus6tkjmBCV6ABrKQgRQvL8KU62G7PC8D_YAqSypLKfMrXuGfbdm4pCDUtz5t.Hso.jL2aZ0MgzjGXEkJn0EXg4t7DtzXilBYcE_DIRyHF9tmCKrc",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004262.48678,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fchatgpt.com%2F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004262.48678,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hlib",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004262.486782,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_account_is_fedramp",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004262.486783,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_analytics",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004262.486784,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_marketing",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004262.486785,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-allow-ne",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004262.486786,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-client-auth-info",
+            "value": "%7B%22user%22%3A%7B%22name%22%3A%22Groupy%20Plus%22%2C%22email%22%3A%22velvet6%40belajaar.id%22%2C%22picture%22%3Anull%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1768412251974%7D%2C%22isOptedOut%22%3Afalse%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004262.486786,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-gn",
+            "value": "",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004262.486787,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hm",
+            "value": "AGENDA_TODAY%20%7C%20AGENDA_TODAY",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004262.486787,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=a1fe6ea2-172d-4b7a-81b1-f9c6ff37aa62&rum=0&expire=1768413154312&logs=1&id=74fd5830-bc52-4441-82f3-cb95af4b7884&created=1768412148538",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004262.486791,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a514557346269695259783739746e2f656c522b7a554e4d50436a75527543644b6f3874596e3067656152624e2b62663535",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771004262.486773,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fsora.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "5uoaNljlbebJN9FBHnf7zQgshYHkA5aA5_wbZbBKAK0-1768522487-1.0.1.1-PtqLIy6_bKIF514SEEvQ9KpmTiSLRdZZH6SlKdT4Q9FEp__xvQziKXfGyBLljsPEYeZarhYrtr_Wl0Puhkdj5A_.01lIf7bnCKq65xNsUYI",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524300.388549,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cflb",
+            "value": "0H28vBjUqcdJN5F5i8DLknvCQqDro4yRiE1KJcGD5Gh",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524300.388594,
+            "sameSite": "no_restriction",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "Tg__pCpRTp3mJq9hoVw32VeUuy1akRvUaay6S44SQbI-1768522487058-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "f9njLzY5C52YXgZ8QjIlDecMqvzFPhNTHhQW7NyDAgA-1768522490-1.0.1.1-vgaLRGjPwkwsi6ONX4PPi.FbipDimus3xliSN_Gk.6l9C_0o9iZnZGgUToOrMYABGanblKxraNToADc10BHmoHDABM8ddqbaFp3po2tx8PY",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524303.256217,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-sc",
+            "value": "0gAAAAABpaYL7ANStAmb-b5Ddez8fB21dQeEoRYczj5A0ZECXIjWF-QVxlg9NqGPTgy4AVWXp2QDXZanMjTCwjBfcsRnEHY2MEqLgVNrCWfUIEqCB2yccmORGvJ1UiADquMFqyj52-JEWUL8ARUTJ1Xt9hODgRrTis0OzObey7Nf0W8aDy3sZDv1EDoSy7bcXuKqn4iUx9SuYdQ6T-dkXWbvDVDWWv_s8NK8pd3t9JGkCms83-FNbQJg",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800058504.94912,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "rum=2&id=cbf282bc-d7f9-46cf-bf7a-85f3ebd2f920&created=1768522503312&expire=1768523404993",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768523405,
+            "sameSite": "strict",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..5n1oxZ8piO2xsVWP.yNFS6z430pdV_niHEHit-u2KV4dmbKIIHWvJtLWCJxRfzhFwfoaoSc9dttFnXLyJFKInGfZ9UvpkUeSEjjdAuTllGwWhaaJmlSs3qBulu6xy5tUlQMCLlpuekVaM0TkB05OVzNzpaOZhT43jq8DC5gD4lLaxvV-K97F3NVjd62eJdBpCrHDceAQpZLlERXywHVrK5wMfTNvM-BFiWWJeENPGExVFyvPEGuqsX2Wb9t2BRDzuM3vmAommThE10Mkpj0UqxEGpVkHP8lG3OaVB8JfSIrDAG4nUl4y0hgbHcyNln0FXn0776A8yp3NLwPqki7A8AGQI2DwomjjXKckdFKNyoUH_hNTl9vSVGc05PB4MVuxqlEohG1junMv2rFo3sRZ1INegip3TWKuIYryCDey79vFR8DmvDB5YU37ZvJULAIyZuSLFyKc65zTFotEzLY2W-xm82n8s3SvhV28ct2azZxyaYYyuZ7NJCy2HQfDwjyzL5AjJmKblIx8Xw5_8u95qwsVqVI_-0glYCU6wQUVGg5VeHaqryNGHMw1WsR9hVG6twpf7nichhyZGaDwF3gKQsH6KXaRPADdq-FtYuzKXBhrf7L8xMA6ctfK9PLF8_JzM60eDY_PVcFjhCsy9vkMTnSvc3KOtPaeNemxEpcb9jO4OXkSiCX0jAzjph4vwCbIuiD4LpscCC_14l_Oxv6DqLajlpKmflGVq4VOdpFN5W6wLRPnOqjye0UE4ZGk5qlG0Umba8CmXsE3Xp5op0-sEbU7yPkT3KXtuDl7ExpEgBEeqUJEkJNylRPoflv5xMqpmbGgF60dZ6WTnkAal-83-7eK9poDlchdNMM7dSbTLwlj-jkLnf7w1O16EcNzSt3WQFiuK2EiuB4u5kFssWLz1D3Ni6H2CXMuzbPvCa8glbEh91Q4yxK-rP6EknyYVR16EK0d8uwhW1XAztlLVclank3y214TmEm72cP7LRdH0U5W_TDFix1QBk5rl1NTKmLRM4VyNzJ2EkFDhgx505BV5t5xrgmZ5rQiHe9LnH7L8P3mApbO2Dlo_Va3TYIsU3oQoSgcChcoNsDSei--a5ciSuwrlnfjOFdZfzmJms8LtjDbVGGsdoCKLpsCi_vvH-9l9COj3dn5xuYLte9hNqgPuQeiScjlKFccBoLuvO9GidmThdfbA4Pi6nf6nyo0ywbGDeW80E_Zv6r1EPeK3vZ0nWEs61Lqx91_xsRLo37OJs86TRcTOwuzQfoqR5Ic2nJa5_xtcOYCIOjMK9x_sKazKHV4NS_bDFI7rbl6FdSGJ5qVkhOulFb0csrDjj-xa0C57V9273zrG6mKSD2iYzol9pQ86ETxZWL8cw7B9hcPJG1JayqlLYwjFH3CbT9KR9IOuWKk9XkVLkKIY16LGWte5eV-vaT58if4tiYYPt6JCy4Z1zH2SOtWlYPN87j0AApposBFdcE3QjLpAi4Amil7w-Q5k-OX5Yin42fnYE_yyuWDapgm2uRvwX8_OPbCDBUvlT9RU79P11RaG5yAv5hiYcAcG8sobkTlH7fi0RyeafZVnEWSELgVTyhBLXTSHsaejKV0GleHi7_CuEWtIHxP3Nr1xIU7WBY8ykGguSMMm8A70WIJSuAiF9cFGdCSCNuS6M3fR8lpavtNqklqI2lzmB2T1fVHVYK_4mSgLupV3qqSGbeDzfacc33XZqPz-z3B3dE5QkkrkOpBLWe5veY0B7TBQL1o9g9qQr_PvcPsrR6dKpqWHbS5D9ImSJy5jIJKt4_1NExyHPCTZ6o6qc-a54nxzJw6I-3_ZXEvNmQBSuVgsYe4D-PtledVSxloF7Sr2jcgy_UhNDuozFZ9j8B8Uy9LwCv0gNWf1gl_8Hy4mnN6-8gNAQPrm4XAZJq6G3TY7kuH3TcGVEALthxsxKYKWYIniO6dMlYEg6h7hkaSdlv27_3aYTnIkT6tzvnmlrge1GR3GPtZ7qIizcFkYzqdXpBAYIlJO0vWAEuUi_tl0S7zGpFzPPMdqMD6ICR1O3COnYM8J7kkq0H_C82KaGeoFLkFF0Ugx2MH5O7T7K0HgXbA5hjYryT7kg1NGHFvZlqLXNwPNb_qM9CPuj1JsTtbin0j7pqQ3HmszDj_c-jT2B3oNSjq5D3HyRe4YeE5_yNo1u2tLzgQOfRDBOHeMmdRIgUebA1fsvDtVLuKemi4QAOgdH8Q_wRIZNnRoKyx4o6g896JqgrC5j5nX9qL_t5KoHNTMbpYDIGc_ZwAM_5iEma0CTRPmzzNAw51PQahktcen9mUyN5-mvucIJkWgzxIQVr_CX4gdoy4QDc-fNOE9kSdt3UzHWBrfWIQxfhtEeud33Avh6xLNCak6ZqShx-tKbbnTcwB1wMWghuyd6mF1bk9cmEqrXu-iSIkQElSxi3PXbEqYnTQ9WUK_FfOLPwknMkP4O2Asep8_MdN3G-qXdwdMKS4sONEuBuSFH2iMvRFn7C3qZoV2cliA-fOvhtewsuuYENRIvTinycFt9-bMRtaarsszDuQiO5U4mrAIBDowUqqtgbYxbdE18CwhnQzMdhqutwt_jW4KkQCg58qV5GfSvKS1dQ1mTHRqLuhvcUe1gzOXxwDR5JtUgYQkkhR7pihNc20OO4IVC0G-mT_Q-sjwwnOCYi59OxoMNgBLzKKALItf6UgM1gOT8UxP_36tETEpUFAft44BaNunfW5UGvj3Mt4bf27L4Px9m1TR5sV-A5fK_d4EXaeeGm30iSil086sP8fITw047B8JjhKO0UCv3xvgwITUSu0IfSL8_icfofCAixxOfmx6jIPjPYObl3OrMBa2y00oUtBwnuyiQP7ceE-JD2y90NgHbqSgtqATT258x8NfY4SEnzaQBd90IwngIf5JyR9ovT7RSSmjKgTU5tIbepT-sjldA3SKqXjJlwBZqGLLFw3y8yAxOHzVkIaDTYvQvDcUlYQOK0AnFUU5ZJeTGSNUNwiZhSHT380z-ijbkNFL9T3_Nvh8vsxErcj8kPNv9fkWUA8s92_CGBobahz8HbEdXiYnLNMtOugOQribjlt4noRkPfAxBcopQEjx7wQZIrTZ2luGYFrrNkUJd66IMTKwdfDLHL2b0qng-nnGCAFfuaAW3dRXQewS7P9xUncPtg1nqgMuuYwa1j5vrcH9Wx7qezWjtW5diUYg-VgK8YjPsSIezBceJYGOBWMvYmS6oMz3bg.xnwtAtP2x7fklJNQKzf2SQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1776298505.326947,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          }
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
+      },
+      {
+        "name": "Pro: Sora 28",
+        "cookies": [
+          {
+            "name": "oai-last-model-config",
+            "value": "%7B%22model%22%3A%22gpt-5-2%22%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770476215.004845,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1768059562497,\"i_b\":\"uYSELckujMckvAGDtboqvPkMPp65b5OvnKAt4QybIDQ\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651811.655479,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Host-next-auth.csrf-token",
+            "value": "424368ea1aacdbb14468eb171a7b5ae3692786ad58e9fb517c6a2dc97aeea7af%7Cd7741dc39a283c2d8e04dc6f16e92c583c65ad8db7a3ab37537145e27afbcba1",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004263.511001,
+            "sameSite": "lax"
+          },
+          {
+            "name": "oai-did",
+            "value": "251a7511-4002-4557-a9bf-0e06e165473a",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004263.511004,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "cf_clearance",
+            "value": "utX0xuC32ihsZZhK8w85VdOATSl28WSkCuAq05CFmnY-1768412225-1.2.1.1-Vk0HJWCVgFW8VCPevQVEOs4FwhlWSIIZkG8ndN1RJBasfdO5z54MBbldxIFbO0ek5JkeC6VlwcypjIkg8H5wSdreMH_I6ANgLAf1X5YHsfPwS07lut7heKsyeiPlTyVjZHT8QQltqCNx_nWkpScWESFeRv60cvgkDkXRJp2J8.5oZIyakn1C3rvZjmUacuqwhM6mCTS7zpb_OMbwgzCKeJX9YSNg_hXpuv4IqBWRz5Y",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004263.511007,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fchatgpt.com%2F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004263.511007,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hlib",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004263.511009,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_account_is_fedramp",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004263.511009,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_analytics",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004263.51101,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_marketing",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004263.511011,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-allow-ne",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004263.511011,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-client-auth-info",
+            "value": "%7B%22user%22%3A%7B%22name%22%3A%22Groupy%20Plus%22%2C%22email%22%3A%22velvet7%40belajaar.id%22%2C%22picture%22%3Anull%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1768412248167%7D%2C%22isOptedOut%22%3Afalse%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004263.511012,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-gn",
+            "value": "",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004263.511012,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hm",
+            "value": "ON_YOUR_MIND%20%7C%20SHOULD_WE_BEGIN",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004263.511012,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=3068e98f-236a-431b-a1ab-dfd22908cd07&rum=0&expire=1768413154769&logs=1&id=68add9ed-54c9-4f73-a4fa-9c1ae3752098&created=1768412150510",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004263.511015,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a514557346269695259783739746e2f656c522b7a554e4d50436a7553416d4b51765630445a2b316f664343366d32457759",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771004263.511001,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fsora.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "S.tr2yIMC1zDbDsyTA79_h7aN3q3Y_DobwxQ7.0WuKk-1768522498-1.0.1.1-F_1PwpmhDUVXK55BReDf.J7pcTPdCqJ_5v0y5rAsVr.vPqRe4CkJY83MeQCVMVjgB2N4xiNYtCNKnVH0Jw5vvQgQXYpDc6tmj0fjJxlMYsQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524311.16601,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cflb",
+            "value": "0H28vBjUqcdJN5F5i8DLknvCQqDro4yRNezpA2wKr85",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524311.166055,
+            "sameSite": "no_restriction",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "qiFrLT3AgtPi7y0ZJGhYloO.bV7x2ndsQXrjHRKDbpw-1768522498039-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "TEgAPrB1iDJ3X0XQD3hkHoDEg3XCHhUUz6K9STJQeP0-1768522498-1.0.1.1-K7x.oOpk2jTruBzJIqIEGD1JUFBeikhVdoKocpQ9_umIcRCVGg1HareM2hDgUp1PYTXM44vtC.2cPtaIjIrGyRlkh3xoxo0K5OZzFAUsH1w",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524311.854803,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-sc",
+            "value": "0gAAAAABpaYMDQkXavoQc3d8aGdQRrLBB7Zu8U2PR5DxhV-5wLPvRNYdIQKxqyABbcGYpc_ysscEhtoa1iaLBrXLJwkXYgYWRyFzg3Ehi5tJwnDmkU-LNeuAXILG-OwkAEJRtUuXXS8BdhCCnrGxc47jwLpsq3X3cav6howV9M6pi32gg4PIo7iGG25_q0bNeg92eXfOY2gQvoR09BBD8j7inRJX_hz1fWXWzZ9QnuoPyHNmHFi3E6uU",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800058512.520681,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..9SuNvN15QwJZYuWT.w9VYTCAvf0K_xCf9tTMJW4OejKAFuMHKisMplSn-L_vzDQb2M7lwaZR_yRfZuex1xG9IKv6dybkKeTuKc7bN30a0EtbjN3TH8Q7rIYSJmjRmsqLMHtXnnz0rQdxDZR8SG7fGaGUPHZCeCPHLWsQVnTXtGszO9MZg3GY3NTlBvtA8GJ7TL4lSo3oCJXsfy3Cwyev2OLdqTgbWUoiJN4-2H_8X-cPuD5yMF5Sifm4N411etGS-hAp5feoxhyKHnvgpBapeFCdu3a5lXVfo7VL0TJG2IDX9VuLXiKDyWMbszbkdiM7SybwMgZSOKAlkyCX3iFgFJwBGH3BpKDjcujyhQyzg18EJyETgqvZsmwCi_1NMvbNK3zEV80yce4m4RW9wASd5dqGrni2ZyzjXutF0XBYXmeA26HevQHEsIQy1CGjJ5aFdvwvqF2KRsYVllsBLZVEdyFZdol78cf3jeMttnt3867NJGMok6Gh-4LvFvlS5gs4r0ZfqwY6Fdem5NdtUi_sT4c9MUmSd8I6Yz2dQGObCLPqD9WD0b6cY0e9cyqBhcjGf2XGBq4l8_6lNYNd6SlzbHCMEd26afJTw2Y88NGZi9U9XjkMki-l89ErYywuF-TnlEuWhT5oBnd2v8G75tNGrJaKliAaPUYFjGj8GSIoJqCQjLC6eVVXdLp12VCMWM9cL9UsYKi9du8UcpiGV1IKi98wzxcKe9vOtdptgTKUaGq1geHSL54uXkQdly2Xl_Pd1yFIbm3UaBeaHpBReS53XhKzVLTsIb8oEEb-EuIMD2ro1qxMnSnIbAle88aDz5p9ZOSgYFV86Jy6-n6jNu_rHfRWWhA3a19A2x6Q11pYG3ddyhf0-ASsSu7UkSi24g2lnNjbUlsgFZJfbuW1ys9kAhfa5jgXq2IjAYv_1Ut3p629G9jTkWUzvBM-rrNDSIYmCOX5xEuJ6_QYA8MfM-kBXL9xqAtwGuGWC-3AO5qNiAG1wkpxR9e3jERAZk2YYvqkHiLT8bamVwt9HcZ_r8RAPIZj-bmyS2NheIFlLNCsbOUBU5eQvA7_hscyN2cRROwqXyNHY81ZCUb5PrqBYaM-76S39eWP2GOcx0X5JIX1_gpFXokVFPxIZzyVvJhfRyNzMKLK4CusWPneUsYqMNCDDG0M8_5veZMcC1OHONUWYk3mOklklSQ-6pNRkLr-sBbhUmXH98e1uWKA23rx_aMtgpQCu-eVxSrjzHuN2P8aNiBVl108QOeSoTTSYpJk66xPcFO66kWMvqmhDzUQZG4OcbUtu9DauC7cJGLkXr2TymqiEcul_9Zroqd0hvV3dMa5O96d2kNocSZ9HzlI410ahSXD384KYRJ914ktaH7X49mk1H6AnAaJd-HiRpcvQgG571ueK-IW5CesNci-celkBOc_HpDYWbtzs-MYzWWzqTQXKIWfAd1WtSr3uAxqJzcj2jz7S34SvtT0t3Vqy5Pf7b1umDTaG22WkEexEDRenhzMytQfRnwf24VSvy1hXM90h08UZiM53oV5gV6LG4Y5z2YrLPHNBDY1u86S6mWOEW89jWRHK1Dq4USD8eJ0ft790neIai-ZJDJGWo9-0GKw7Brp8UDaDZjP_DS1pPrTpkoQAt7jLh7fuPKh1wmS19axOfUsJ274QIT_ha7jREjTnxv21zg6VuAA92zhOPzP97Gxda-za64f3oJiHW9SPEl_kgvRy2qhKV7CEsDWcUl5P06RFaUwkteNIlf0JV56P01VD-6eHGMdgiGtgy-G2d0Dnd2dRtVPLeolKMwlGP_UT4eAsasPOu-hndMfKEos53SU2Vf-khumd_-kbToJPvzJWHfY23BfVmpzpYY4oof2jkL1CBHPUIlODEjSV-Mp_M3MHcrq5Ll8-zUTp4zUL-2rXKAw9KiGpzkm3wiQ5ML1fpp1IEwRFMLgKwNFHGiyWiNw9Lpwf4k0bk2N9fhULUd5Zs4bM6kiexj_wMDnukSYRW-eVafw0y29VTmIwrozI3vk4vf94DrglWAYCBYQCad7h0RqDD-tVRSD51VPuav7t3o5bjvnl_q-FcierpXuF-AkMMQrN7T1sYvRUeZP-NbY1t18meHlTGQ5OtpXRsVVJ2SrHMrhXZKiNcx3JOzBG_6tmhxUn576FQUPdPhLVVw-y8xSyfPWIeK1Gc6qCpcs90F3JeRw1MNE0g6zopGs4rJZ-4ILSws_szjvq3-BPxmi4-f9o0QCr2akVPwbgeUlzM-Uzlw_kxDVDOC6cST1EGSTzyxn-Wm-BX9AzU8aUEcoQhQq9l2Zq33SGvZGqIjMtZHIMB82e6B5TjzPcwKXOCsupm5AValbHNY2YM8c1Uou0pJLIYsEu78175NNuxoLuO3cXR-TWbhtuzEv3SEaAXk7ZR9NXe2D-4HFxSRH5y9pupcxboqTmeD82kBvf3KXFwQ7wteUjQ2LriLtNXiRe1nLjkMHYxFRdGzlcPs0eyokaqBC5JIVGhWGiLo5lwVD6uJ7oLSp4-yHwP4ETai_qEQ4D3587bG2NgfxbIfxcJa2E0KOR_iaJpMah6223USi6HEGUcc0wvVhCpGlSKgITZyVWn1c8lPQRd8a2ktilZE5Mssor3hzgSHZUCP-K5qATWF_Gjmmd2H_XeHNZ0vl2F2Pqth174e51BtqHenz5tjv30LG8TJLDhVdScLVCROYhqtftuGY-Qa65r4VyFZZMARR92gQMWoduB__tn3EKlcXtIBhLW0o-3h_YFu4IJ_FsyRZ17nbP1CU1m81hSMunmV29kMxnuBPKejL79vF97-nHfIsuMS56L1d3US0UHru7u4sJG36IlgcUU4L2oZXx5d8hBnNCxJW2c20CKP0jHQugX7ZTvG9XBNpMZdnvNgAu7j_E3W7ujuG3yHRVuXhbZwaPOOA_xT9GNsQ0ysn_8Qacb2OgQlqroMEReDZqUhw5DRlRUNNFjYYV5XHbkYKIdoiYLvL3zY9ZpUa7Pg_0zi9lTVAxX8OlYGNjNIBUAo9rJ0Cm_Iy8052K0Ors_zuPkOuBMU46B8U5XxB65b0mUvtHUnSeaM1cjdqeEay17VvNrID0w8GIxiOD8lBHju1OxQ5xgGIdMpHau5ZdE_8HRQZc2HFeB23vwGKnrukvL1tfs-K1fjTSfpVy63OWgL9Rve5ztJ6ZVBMGNQYlOQb2e8vL1049gRMtG3pUXE1vViWMvUHxRRaaF65EXw.55VYUp-H0sFxdGMdVzo6fg",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1776298512.61353,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "rum=2&id=8abae7d9-721f-465b-906c-52f24e5049ba&created=1768522512131&expire=1768523414673",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768523415,
+            "sameSite": "strict",
+            "domain": "sora.chatgpt.com"
+          }
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
+      },
+      {
+        "name": "Pro: Sora 29",
+        "cookies": [
+          {
+            "name": "oai-last-model-config",
+            "value": "%7B%22model%22%3A%22gpt-5-2%22%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770476215.004845,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1768059562497,\"i_b\":\"uYSELckujMckvAGDtboqvPkMPp65b5OvnKAt4QybIDQ\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651811.655479,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Host-next-auth.csrf-token",
+            "value": "57b2f4c100129dc303820767817ed8e46e8e0e88b559e87d7e584b42aaf4c59b%7C8732b34919bd4f1c21c973e58f2bb1f776f2177ca0bcaa8c08a835205a77663f",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004264.367958,
+            "sameSite": "lax"
+          },
+          {
+            "name": "oai-did",
+            "value": "390c8ab6-1880-4ded-9ca9-74cb56ba638e",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004264.367961,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "cf_clearance",
+            "value": "TmPx0b8bxAMBItHka9TIZFYfzRNZUiHXkDJIUQWKpYU-1768412230-1.2.1.1-ceOGHiQmAvnCoOTCZzToYKlaOsKQQHuSblFh_UEPgaqw7yaSz7R7yRoZdO5Ocs6v3zIwa68eNbFg2mbpn61FtBtt3mvqSVephOkK_51nLspC1x2a4COHwOqgjHroD89i6q8m1qkhI96tApKskgzh1J5pj_LLisnjhWr_MatMeHHO_vZ5WHao5bB1CX61DvHAgswAb_PMClEJVzsU_tPfDYm.I36A31TrvsmN_L9NiNI",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004264.367964,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fchatgpt.com%2F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004264.367965,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hlib",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004264.367966,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_account_is_fedramp",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004264.367967,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=bd770d9d-fa35-469a-b184-dd86e309ce35&rum=0&expire=1768413155377&logs=1&id=83784e88-8784-4cb6-a6d0-c8a47789eb30&created=1768412156414",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004264.367968,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_analytics",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004264.367968,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_marketing",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004264.367969,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-allow-ne",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004264.367969,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-client-auth-info",
+            "value": "%7B%22user%22%3A%7B%22name%22%3A%22Groupy%20Plus%22%2C%22email%22%3A%22velvet8%40belajaar.id%22%2C%22picture%22%3Anull%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1768412256241%7D%2C%22isOptedOut%22%3Afalse%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004264.367969,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-gn",
+            "value": "",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004264.36797,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hm",
+            "value": "SHOULD_WE_BEGIN%20%7C%20AGENDA_TODAY",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004264.36797,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a514557346269695259783739746e2f656c522b7a554e4d50436a7551686d76594f364d546f385748362b436d58327a6834",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771004264.367958,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fsora.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "jRES85Kwfapm.W34O0Abg_REU_lIsMzxUtdsV0w8bUs-1768522507-1.0.1.1-bS21ozhxQhMEn0VVppgQFuL933lBy4mZwD2HgpdqvkOA7HQ_NMvzLtbMQPUpZPdswA1dIKt5kQb8AYIL4u8izqdKA2Gnfn2Xx_CHYBAR6Rw",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524320.395781,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cflb",
+            "value": "0H28vBjUqcdJN5F5i8DLknvCQqDro4yRQAJsHJJmKXj",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524320.395826,
+            "sameSite": "no_restriction",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "1IXk4T.q0uNI5o3ktspavZgxti9in1yjueEbzRpCKOE-1768522507269-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "KPJdKCAVXGrUels_28msQtwYcoJbqLHvbFIzCRCa2go-1768522508-1.0.1.1-clZlhD5Ngo8cfZ05DBvcQxgks86QuL_i3K0EpvsmtroqcyjR1yJVJeQzaHrqTtg_URHVsUlnrBLSxw3I.fq45E0lW0vwXipwCB5D1bSn3.A",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524321.106677,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..3tATcnHv1lPy2opl.e8SZFtc8a3vwWPmfpcgFnukFQIBZRYkOgbb37_t44gZ8npi13YduY2VJREN-XebcuHC0Q5C2Gpb2kBejN83cZBmfgWD1S_l3NH2OFlJaM5yQNWIYqZqyxcc6KS5wE3Q2vdyM_NrW78KJdfgFcgMKzxjPkuZbeEM-eZVl7z4Z3yFTKj4zZ3PG7yNq1s4wa29WiCAbE8igZnYBrOGgRPwovLbnTAhOofoZ1md8yR_rhAPCtPpKiDMM0OBpv1DhoECNUd0UeFEOoC9p93pMnvc66Oi-nI8hPmaLg-jCoDHZ6Gt-YXorQd0CfNOvBO2OEF7EyQRRwzW1kQKQSPlGRCtlaru7HBFWitw893uaqiHd4oTV0OpcMB9fjG0uUoODUxsdjTGzAT0KNzHlCnuXp9aq3-hAazEX1DjF72cy42lkaMLS9v4syXsoUL3mxSEDDxKyP8JpcX2IsiObrdG6WvmccltuNg-NB_cEXy2kjKu1JwvFCkqjB2dxBEENLF2AHMzVJUn_bQaJ5JFJ74Nj0GdGIcY2k7VS2v6Gqe_PahRq6-mSkZLMkVFOROJLzTEJ2XgU7g-0vvvLhOXwFW1mrCXzDcS_6d2MBSfkxKqBVu3sTc2K9OynvSg4drYNu2vQxg6knQxKwW5YclF3w8cK3QCLMAQrwFaLT2iiDABqdKQ2-G0TcXtfuiP6TuCpdlZhKaEBNPdl12uGNfgXY-E8b-gyHyPlnEAkCFAmnAE1f4sZiwdseiyZredPKgj_DiYEfGE_6w2yJVC7sLz6KhIWdUVhryPYPu3gMJtuaw4KbnfeAJroVIogYpyIYyyno16h6t7pL082ttaIAtKqshCbal2ywcOBGoQCZWUP5Op85v1SvodCd620mMOTl92hFOYPODBrfJXUHpU1UMAWWv3Lag4yd2OddQCnYPvE4HkgOnwwvuZkGjeu32xN0utF5cFkqhi5uECrpOoub3nB71_pVHO5XpiNu9sH6br6jO3nzrX_YFF5zTfP4-CkM86CyH7WJi8_tn6YUQJhiR-lxgKTzHGlT-h-xQRAREXtNBNHFBjGFhcMZ9wYbV1pMzW_etxDS-QatEKSqigwpbFLyxdqYpixM_oSXf9aIgR0U5eHYVWffZ4zP8tcIweLZy6k9mArzFLWQefsxXDZr9tBkDwOdUM6uUpaleCWWFtnqMR8gKbOCw_5MrcEzyzlTbdEtcQqpLOQysfAH5ByZc0nQR-P8GAwQbvbUZAN7qa0nRYj0M8GWYZ24a_2Md3Ubz27ZwiridBRlk3AqWm3BhsFGB280b3bpoI57xSUrfuGebagL37JHdREIQMnDCTM_xGO5j3QC5EHT_SGhvK8QuQl5w_q5dj8qervO5yyBfb_BFFqYJfxi-fXkYbamalnpBT9qZj78zripHQrLIqcu3XiYz3kWWlAXyTzfAzN6sSMVFTimYZIXPJQXh3SZVYD3MnSDv2mPM6-U1CmnHyGfIPhVFzdwrfah3AaJZg3662UURT7BooKbqHxNcglE7lDhuAIkiWhmZCvZFb9AYPVJWeOcSbOh9zHKbUpybrFFZ-efAuv6UF4N9OVVUx39mPhRKd9morl1QHXQNAvlsgRLvKfN179GIhAhW6xBAs44eqQ3yY0SBvDGUN23U8EYbe1D3ysxTL3riNUFVzBPLy7tiIzjrXncv8Lni08h3ibtfxtVNcFp9Wln7-FrknMSR3yNWA5x8p5KYjov7v0RLcIPWKADYLNr4VF3fd3vS7H4bQpuPd0fuyAesxWXgXDGCOfg-ge4i700_p1qSQACztSTVE0MrtIhpz0ZKhfAuM9ELAvJC1bMEOUAbYEncIXUtgs54dM3Z7mH4iVq5MZEsSPIWXvkoLtmOWAzfd2sA3p645KKLcVA1Lvpr2tpHTG5e5ycxWzSLYTxKOh5giQvje34rWXr3ks9uoNvjZNybZhkSdEq7NRhf__Uod_shiu7ZreLWRRSOgeKn8mpL5gFtzwolF-mqdBTyKkfkZEcZhAgt-UmafcHI7S570NWu1ZaIDeH0WJewJw8PRn4N2TcZJuJKKsIejCo0c-RaKyU2gH18e6KjresNOPJKdCQ42OYfEYbZXLwAmaRwN2hrBnfsVcIydh-4B25oDxwConDDj3DAVdo-CROFCSiYTSLi9HBd9S_5lXtTVUd69v6jef-K-qhkImQMqj09F6FblQiBsWWyFazXYN2YuVGsVR93sTBUW349DrvARfdEdUlyCSOFSfsNDSSO4FcrzIHDUZJTVU90LDRcZJSpLtLDkedJJ19gAGpmOuBfmk_d0BwKos1my5MKSn1keQS1dTEvci7hMIaXk-d-WpYoHOOGXiLPpi6eKuRRyjHuv7vyFy85Pt57HW5f-p6hBtdiXfcGst0Wg86282f5f2wc68GbUG4sRvmIZkEER2x7wuLpOJK_RpGu8pksuHf9Aq45w_vfMV-I0WZPa69FDnP5r8jcBIftqWX018K0UglsR2sHJcUmBNgYzr63N0foBomQ1LLkeQ0Lt_e4596FUjSoPwavvcXRqRrrwqkUy6qyCCX607o0Janh9S-0mU866N3VJIHQxOxDF17Ogqhwk3ICvvJAiQGHX3lPvd2krDTaKxdD9QMpymj0e8GnNK3j95lTGcNhud1irYB5Ib7xig7AxUrQ5BUHnWz5Dz4t-aXriYQpos2UCuOmmVH_a6F652_a5Z__l42vUCUKQBeKrYImnLiBuFb6Zl8g58wL0IqeFaSpgyzZNk_lreVOlXzpaf-SWHRs7QHHmi2-KNUFd0cdkdRzTH64Bx5yf4y5uv_SH9HlXoVFL3bgewzEF5ApsPh76Uvev7jZc2ywMDIwZUPcdLawWEZojftir-qgcekufdWGh_qA5nhzmL-H9SXkuowNDsTd9ylBFFWHGebMwNZkF29_MXLO5Shwc8QKxLJMpd4h0PG-p_66V_p1638IB1joAOgAnvyHfmB7ZpGshNUx0QT2BDbWBIrBSFGfKTKyNYniQvoNejxUS7Ty4FGmleGLi7o14COF3y3CnmRiGgjkfMhTjCy1EDfb-Xkjqvc5Pn6OWnCxufj64SlMxw2F72DeCcJqb1vogPPpxthGE0B21bdATB8i2Z5pDIvVVtNtxRw5HLxilK3VcxsGd0lNGy4BqR27JAazVPLSFMwsnRu5Z6LWpDQyv5efPRSnrz9fWUDkL-8341HHHOgZNiZIYTaw.qRvOPHwxQUG2QRp0Kv4jmg",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1776298521.865278,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-sc",
+            "value": "0gAAAAABpaYMMujBpMDTKIRO5TB03dEepNtO4XRMEohmExv0RbwzYyB77CUR6mezE3hjBnp9kGuDOuToSEIK_pDfcZ9Crssa21v4Ol_4XkxNFvP1MtNB8wkqeaRmFgsWR7xpd84DorbReLpSK95Zd3A1q1WRjLWynB_JfTt1DV1aS3X82hx1u_DE0ZjMDjeFsKEul696Zk16FhAuNr7joOMMOaRZ3DJvYp2g5wZJm_0MrEDn33T8_Q_c",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800058521.987085,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "rum=2&id=c1044801-b742-4d66-93ff-5e6f91112657&created=1768522521442&expire=1768523423809",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768523423,
+            "sameSite": "strict",
+            "domain": "sora.chatgpt.com"
+          }
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
+      },
+      {
+        "name": "Pro: Sora 30",
+        "cookies": [
+          {
+            "name": "oai-last-model-config",
+            "value": "%7B%22model%22%3A%22gpt-5-2%22%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770476215.004845,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1768059562497,\"i_b\":\"uYSELckujMckvAGDtboqvPkMPp65b5OvnKAt4QybIDQ\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770651811.655479,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Host-next-auth.csrf-token",
+            "value": "a6148f0d504ad52b9e559a4428b2720120b59afcda0d1294ffb749bebfc7c675%7C076d93c47192b929cf2b877c66c1b463da7b4452050c16e9212711d2fc0b0e9c",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004265.509173,
+            "sameSite": "lax"
+          },
+          {
+            "name": "oai-did",
+            "value": "6084fa23-3346-4f1b-9a57-082e7bf86d38",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004265.509176,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "cf_clearance",
+            "value": "MazeLw7Dme8BHZUMFxk83zvb23bYR5rTokSnw59gQW0-1768412237-1.2.1.1-ibRfBsUpbVF0QvUY_wqFJXgd4sgIt4fqjsYrbpBDCe3JE0JmUKR85mdyRHCBSMPGHKBzpmPkNVq9G9hR1bt9UXwxrGveTOwfiuEN7KtTjwrbrcM4G5auKFbkIizfXPJO5saVpqSQlMs0qyV1Hu1uiIkEoFn0ZFwV2CADAxdi02RrInj7NLfi47oMF4nK0ASkZXacqUhD8u_OQT_C3JH4DhZdNf2RRbgP0U4q5EiG9zQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004265.509178,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fchatgpt.com%2F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004265.509178,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hlib",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004265.50918,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_account_is_fedramp",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004265.50918,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_analytics",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004265.509181,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_marketing",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004265.509182,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-allow-ne",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004265.509182,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-client-auth-info",
+            "value": "%7B%22user%22%3A%7B%22name%22%3A%22Groupy%20Plus%22%2C%22email%22%3A%22velvet9%40belajaar.id%22%2C%22picture%22%3Anull%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1768412235454%7D%2C%22isOptedOut%22%3Afalse%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004265.509183,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-gn",
+            "value": "",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004265.509183,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hm",
+            "value": "ON_YOUR_MIND%20%7C%20AGENDA_TODAY",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004265.509184,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=fad2ed78-835a-43c8-9821-3359b75a462c&rum=2&id=007b65cd-c820-4808-aa1f-4e706c29490d&created=1768412163270&expire=1768413156725&logs=1",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004265.509186,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a514557346269695259783739746e2f656c522b7a554e4d50436a755341352f38686464714b757275546a416269744f4674",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771004265.509173,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fsora.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "2P526IJvaeZMXkbZ93fEPw2WfS2wowD9bHZ8PgT7u.s-1768522517-1.0.1.1-zCEHrekVJkYrCEC6Z07U91iRUigEQGgs55OT9xd.d4GW4mHqhuUA24DTp27327Q_UR1QQWwlRp_NB46RSDyDI1hYHLJik1I2m6m9pE1x13s",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524330.317407,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cflb",
+            "value": "0H28vBjUqcdJN5F5i8DLknvCQqDro4yRRqKbRNVhQCu",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524330.317452,
+            "sameSite": "no_restriction",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "LXuz5kwMUnFNihZsFY.hBAuCQdqZHGPNlhnIXoW50JE-1768522517221-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "CEkqFCHseJ_qvEh6fQM8vpikI2qSPKp6GTxzKaipBEk-1768522517-1.0.1.1-1Qog5_GueANliZNxFfHGQNzSICTzUC1Oj1tzJ.5effoIKS82rVQmhpz7vmvrHd1QLgctQ.JL4wvRtNpY_lqZ8Ylul_m3XskHZJeldmH5qAk",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524331.015021,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..STaddXb3w3v7xfKo.sRrOjpzeDh40R--JOYYt_T1esu9IhISauvcccE-tfPz4jS8fzTJNGcEVZdQXdngHroMa8Zsra92PDK0mF_vHtwLuQHpzyKtWwr_HUzBIop4jx6pDAv2b6OjrtP1IjyORv6aIpRJf_qlkPtz241FAOy6k711iUKvAIaoyzzbI4mQaURxs2Xg3lr1AgFxdfXw9-9Hg7cwiqbQQoVI_pSsZ1gzsQgwNxgKE6Du0QekNZ6PUAajlDUbnlBAYJKeDeovm0kZrNm09vJFYoEcwZ9cNJYOL0DIgrs2pQR-wf_vR9zDxkK7mLjSmjBhka9zv9HZu59_XPfgnJHX6-kBdqRqtHUAZpEFXvTl8AMbVDyQzJk3I2OSTEiDjb-cakBgswJ48RmzCHqB0mVrL8acKGYKkabyohwB7tPfZpVy4Snxs6I5cF3cStlEt-AtGoo3uoVZywBU67jY3rtxvQo2i2V1Qd0IIqYdFlBqnJ8BOGVMQ4jDZiJm5RaeN2FUH69KiT--b-3ZzLmIKu7xoxJHXjxdicy_yRsJ73kA7jBETVHGm_-zkUbyUKHBsh3UpMuUW4pi8cuILW5EcCvW_l9Kd15uiVLPfrk9HIKNCsYj-mjoU3daw34-z788YVijSBuxp_vV_x1WApr2RUX0rfsCPwU-S2-QkNtZQgo-hQmlH1rvYfrgHKzSAXcr-JfOoyzYTz0JqNzGrUjf6tHwgyhXCDhBR1-P5_OGqAX2M8Oe6PuKcaSYpDgSsV9S3VrCsQ-jOO_rYpt4vIwLLw1BzT2xvHVc5-zQVBqIi1fTKTnQxryGRGSy7XGKE_BoiXIWQxZ1vsjkjizE6FyJNg31QSeiH9KzrCtJWtkbW9TVD46IcYtXRbKT_ToKO2AhAZheAvj42djHK46nCTuLMfXtaNJx5i50Vg2DfIpJebTSJ9DQVOR53Z6iGszcZ3wI9AUGIkexfsBnN-qkVz3pvEmrxowIM0K-XNKKNB94jrkqh9jp54wSBvaV0pZWCW4w6fxW4Z_gp2cWQz3Q9ud97qV1KYLaxp2T2UoXj-_DIibJj21w-pDQq5ex4fTyn6ID_XsgHzmdTE8Hg1siR7nfEJawr_X2wNtOR9XClQQZiaB_YT5vz3ZW0m0bgStVtX5M5QDItG6mmKnWye70O1PzgSl-0uB9AZeuBECDsUlUW6Cq_GFvIblL_lK8NqcI4xUbsQNbCkWKCU12LL_aQLgd_pRBUbBnrTuOfrVuJDkDHdDI_1mP3DxohZSdraYkhe2c7nQAiHpvPPx-vdIKqRI4hR4XyiMO36CpJi75LFCaDvD0jt5HhPGI2yaXECHzE3kM7RSPl6AhrvX4R6B08UOw_nlQp2yok0M9gIV8QYCHqMFFIwhAKqIeCsW2rEAlvrbcd9zf2t7lGz_d5zJ6mGrduLAsdxmfe8YL_pNdgSjekQUqW_kWigQ8jNzbvjiHNOUJgPUgTWqDWDiQuJv14lMVJDHK0NpdqaXxH3UlvGdyevBmtbxSgR8pIpOi5Cr82HJov-ueqtiynvx9ztbAo3pVBfyjnBnFgiWRLuOeQ0KrgJc7rDoB5JvTwi6DvzYNex3L4_gPXVTTd5zza09VifOotMehd_6ZsWnGYA-tadE1ojbI806iDlCDEAHzdt2GD7rbwafp69YZ5m56jUDAgDoqCYAk-ebXiHwaXsy0GISR6blUOlS0QGFN53OHPrc9LE4diST-be8ma690qO-jUJxY0lc9ILJV88S6ZMXgfqMBWGFEPSwKHnLG0HBzI_ZmtfCxRjdpBz14dgtSEAdsx7B0kOd-PqQvuGiMSa_2cEwNEtlCaJcWdHNOYQKE-QEqWS3rwSJTHLSZuRKvB_Wvhp31Ntfq3Xv7bx-J0Mn6C9SJ-frtsKzcDyp_eRbTQq4mElVTJmVi08pnl2FKX-Wb4M_pZUy17B2qAncikPY3lzHU0V7wgb5JprhD0dDtwLWU5aGhp6EakUa8yQ8onyak9PiIs4GuaauoExEq1mGYiNK5pP1ZVJJ-_QWGOsqkTflFYsSVJ6GrJPvLlFQBsqiktgDn1iYrHDiBDfpm_fzGEkHuGHRWBj8lc68ZLsetmx18z4vQnAbBfCdk5WiEoYrCCAN0aOUaDJMNd0dxCNUcZUzzO75oajsE1NittXAKy2T8v5GhFBVWgVOJL6VmhRKXFty_qAfrIAitPdhkF7qjlKNlQIBLYnpGZYCA0bmIFz9PMxZ0hQwLSFY30jeXuPnYjk3lWK7AB7rFDXdorFtSWuLuCdrD9Wqi4pzjYR6i_H9Tu1QHzVdkrzNpOImfUNjfmk2VNfSlMWSKC5V0q6BrXkcFPC62Fd19G5MilqCmhmC9fhq0ueU_dE6UA6ZZLtmqsiH35v96xVAlszU-ky0jfJ_nUGgHfkbEm4gDStSQaCPIg9NfGQ-tLTVwLedDDJyw2cHlo-jVr1LlGz-rlIUvg6I-YTTO42y6HeJA8bKg4fBQEOcvuhnOZ3KEvrPqj0y1xO1uu78jYLywrSyQMnyU6AtHaBZsISWJf-pDWgHS3fjjjBtVeH2yCghYJuWe4LlCu4P1xUHDOUxf8BHQa3iE44oClu32oY_3602b2wy5m33PExoTqtrzYVKqM1gj2IaQzI-lF-q2MihD5386VNEUq8mqMAhBQnE7AoPLuK-YIQaUaXkxl49Ivi2QJ_kMsjcF_hWCrLMZDNctyaWsQRWj2Zl-KvS5t5VKCpjOJzVc3lJwha900LmOgwLtkHtFctGA0vbiR7o5kpqY4D_dFcvgMcfjlfWwAhioSUPwYrQNbDciXLiemaNxFOGf1A4i4fV3HoP1M4oS-BC0gV_MqTA9KDsRqMbY0RQ4RW9HTEWGZN5Xzc4V5CxVkZFwZkocjpeuQVeNPq4_GVOAREWBYBEVsslE-ise6yr81wBRXeMge3Lgw_LTzhfzZcESbN_tlcDNF-enEsm7HdFJyBrm4XS7GfWZ73erWQxGzYo9xTMYCpNxeTky1A9S-fzrqmZ5oowRZNjr9dPdv3ZE4JuuNHCNhCvNW3wvTM4GrWZfxQv_GRcD4zRWRPZDVp9MpOqPm-sGSMYP_cPFO94hokzTosdEYZjzPQSwz0riWLPrQG9vWBmgmfp1aW70bqjCOCJhejXNBST0ujUAY3eRRReZMG6BbubYAFz9h_tG7vfUFnk_7mQSlN9y-Q69bUQbbru0U9UumB86kjVN7OrgUXQ.QNVa1gLZV8aaInx5ymdasw",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1776298531.764093,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-sc",
+            "value": "0gAAAAABpaYMWGXQ_v-WLT5sBujMWC0MOcdkCN1sKQqJRa0QdvQnvI5jAbdxelhUd-Jsolb8X_THBrqJyQH6zqU3WZsTJ82JFz3tl2RZCOho7glIMETZXbQ8ZsX1DL3vlNM06Wo_H8gzNiGtu6_J7uuLHms7XQgvCbgb8mGGhULAcL--s_2T_6_dhhogMJHbKPysroRniTS5f0vsi-cwOgjDI3L4UL5g2PZuWBbkCmLEl_QwUeZ4HN1w",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800058531.897386,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "rum=2&id=07336277-6a10-4ea8-9860-4ebe7e3abac0&created=1768522531294&expire=1768523432593",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768523433,
+            "sameSite": "strict",
+            "domain": "sora.chatgpt.com"
+          }
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
+      },
+      {
+        "name": "Pro: Sora 31",
+        "cookies": [
+          {
+            "name": "oai-last-model-config",
+            "value": "%7B%22model%22%3A%22gpt-5-2%22%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770476215.004845,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Host-next-auth.csrf-token",
+            "value": "5e30d61657f0539ba8639f4a7683f4dfae46a996756b12ca218596a7b2854086%7C07ec5746b5a593831303bfe2cf1612f01b3cd3b4b2bdf9e55e883a3bd758fee1",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004266.767884,
+            "sameSite": "lax"
+          },
+          {
+            "name": "oai-did",
+            "value": "1987509d-333b-4ac8-9da5-8f88ed639781",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004266.767886,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "cf_clearance",
+            "value": "leqsUGyYuBF5CcpfRMVck_uLccxM3Cof2BkUOzV3ffk-1768412244-1.2.1.1-9ByK5n1Bt_KdpTYwM.LLdQx_oo_oWR6VPqlrwnv3JrF1gcdMd3eqQawuymgaxMVAEPx0aIII6gDtLnZIRtj0j_0b3Mg.LS34bOZq8BzHTFEYcdN8R29bF5ny18OrD4OTBGT6xcTBE6TPETB5d6JZStd9iHqkRx1meRL2h8iu.Tco5BNWIhSy0Xl8RcWtyge.gKjU5QKBl6eFH.siSchvdMxLveqPi03Oxzz9DWZFtuw",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004266.767888,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1768412170454,\"i_b\":\"PWJqXWd6u66zkK7PeMlhiJuHjRDPmo4fSr5nGDYl5V0\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004266.767889,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fchatgpt.com%2F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004266.76789,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hlib",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004266.767892,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_account_is_fedramp",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004266.767892,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_analytics",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004266.767893,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_marketing",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004266.767893,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-allow-ne",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004266.767894,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-client-auth-info",
+            "value": "%7B%22user%22%3A%7B%22name%22%3A%22Groupy%20Plus%22%2C%22email%22%3A%22velvet10%40belajaar.id%22%2C%22picture%22%3Anull%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1768412232944%7D%2C%22isOptedOut%22%3Afalse%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004266.767894,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-gn",
+            "value": "",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004266.767895,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hm",
+            "value": "ON_YOUR_MIND%20%7C%20DIVE_IN",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004266.767895,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=3538073f-1128-4fa9-9b3c-0533c88c7f3d&rum=0&expire=1768413157191&logs=1&id=bc4502fb-fd36-4829-85f8-55efbcdf8f65&created=1768412169991",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004266.767898,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a514557346269695259783739746e2f656c522b7a554e4d50436a7551666a69732f58436b703564644e48622f367131726a",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771004266.767884,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fsora.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "Hfy5zMp1t6iR2Z49UX7MkP6n26QhHrE5NK3o1gtCN30-1768522525-1.0.1.1-LGYcKWgrSdxKbWethtQshdp9eyvfLTQRPYkza2FPYZkVhGlwBrS5VX6KrNBZ8NZSrZIT5uABI2FAmFVGCNt1m9CVW.EfPzjqqrbztA0teoc",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524338.227722,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cflb",
+            "value": "0H28vBjUqcdJN5F5i8DLknvCQqDro4yRTAvyXq3eGM3",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524338.227767,
+            "sameSite": "no_restriction",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "HMmTYeojAAetQPZawWMt2ZdycZsye6GwpJ1Q0IbZass-1768522525122-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "eHUlTBngf0PvE.3l9GZzCAtlmi2GJ4_Y4i9uhyglQc4-1768522525-1.0.1.1-yPu4NZ8sU_3EzR227hp9ODzUzEvSRKcr1LQYsZiAyQwQvvl4j4.lmSiUtnayrIrjJIWiVSa0xy_uQ0HcfzHFCQq0DYIS4vjyOOYO1XpQZDA",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524338.877246,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-sc",
+            "value": "0gAAAAABpaYMeoZGrUrP5hRV-FHDAMsV0eXe4amgcQMEkSbbf3WCFu69DT0189THj5oBg73OiuGZUAx4ZJAvBJNYK7HLykmsMcqhG8LaPoXBEvO6dzM1m6s_cqhUENRdtH-Yg8n7cg0ttI3HpO3DeQcYgAGFG5FCDGJE5ZS06LEQQxNVMdVKep75o5brhdjskjXAw6vLqddw0m0_f_KdieYcPoBGWzeM-WtRtJv7d1Go9Xq-uVzjWORI",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800058539.735347,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..8tckYwxrPVE1WuFu.OxosP20-hFTAX5S9dfrvvtKylEy-xsqTVgdX5yHxhInMjGBGn8RFzZ4LtJtAjSzc1yHytozORSmVpl-ZExzWac7ppaX5Cd_nuheK283yk2VLmWvaqEzY1gNtfWUCQckgqqz-ZH5NuhWGUEOX_sX2B8AefzmQZvr_7XANzwu7niIeSi-ZyzeXeVCIgUQGtRBLbccDsPVXSiXyyhsMcMq4VoID9ZywGcO85qpBWkZEAurNTYbqJIOYd5Obn0H5O9khXqk3Wor4ZD2sKOQnAYCwnHMZkI0qYbNloetJ5j-pehwoG3fkmwpqfsr1C4l2qWtj0rUofP4Fq2GnviuHrsA_IEQ7HTwTIY8giSn_z13cvFbH0ApBSoMPWEPWS0eB1wbUbpWNkvw74ZZ7vOrmFkakeOnBa4vdyLnohEf436eTbdQix0TtLyF78HGpGhmVhTgNofnhOXfVd34Ao-xnb1RISH15Rs0C8TJQjrKlckIf2rDBfNfnOlSGASOQzzq27wcj5QbcJrZcRc1XdjQ4xdxxsHAlQc_i5zvENQJZ-6uFmuRnGLq8upb_JniQ2Y1Kl-BjDCXEEBysZc9j0jhRJv2MDP4m3I_AvCN7SRv_-3UaqD2GwqGwRryQMfd7f73WEzXdKOct8O5-0L2_Uac4rJ9sZU8nB33153_eC5ocWFCYYC0bKnxyNy5ESFsikki4Ml9YIEkh152YLNch-MG3Htr-QqnbD70L25uj6N9ShTVh7-jg_wOGIcNIdzMBvOFb-4516lFzKNC0E1EBEShoenbzlY9y4a6iFe3L1rQ2sfC2O4aDgr_8E21VROoeuuaaTVj026BBADSHhLXIrQ5MbUzqio6YIZgJLs_4Q1_zBrum24H9L3CjLFZuccpJrBmi7aZU_d09zUoKgbArEqUCh2B8INl4QdsQ_2OWE0z39UlAPxGcEjgLsuf-fa1HmsNJeMo1a-dE-5p1auJWyPG7LcdRRWrd54rYYRSwifnONjI-XJB4HTNq26ON1Mv5TUH4GCujJbQVtOpkhc7SwhcN08fE3wxE0pQy8Zz9SH7aUWQOa_ShlI4OSfL_CdxF6UcxCy56RDGinW_7whWb6F2WqleDISfqvwsqIDBQFPLU_NNx6ibHoRpcJH2IXYqIZy5IrCG5SAAQ4-WX0jZY2ES6lEmyG7KjI6lzcqMc4TPUwAfE607LjOTfKV4t2mNRzYl06zvK5gikLe3W_HhePz0xU5MEAlJv-4lSVB82K5udCyO98F-eN3pmnhcoKzLsnWaKBGRUXl5Zlo9nekDpGJV8fpyJa2hhs9DxDBPWDR1Xjw0Ow5FQwBeFCdw7DRXgzOn0iVotABXOumQHot5ds2DdkDi2Che2Dwm4yjzD2VO3pvPhF_F9zy0G2Cs2SSVX7oQ2NmUxHbNLe-5xRoNTM0aAb-6oEHBpZbQ8W_V3YShKKIyeLYiM86fr6Mr7lJOAqWAvJp2igPrOZgZY87LEpgdbAkcKipxw88b1Sf9XyKZHcn3BLeU-tExDkmREe1anL4ExKvdZBi4X374wK5DlGK1FltIqniyTacPco2Na7G2ej0mJWSjsgfYDEFnpmIaBGDnR7SKW92Tb8NVBYavTTZkWGKQZDfQLeaGYhp_ON6JLZm33376ekFNIwuF6mX8UZ-nfQp61a5HiE7eR7lQYCuNz9RYuji-mlp8bvOylCS75OGQDuh5laOzVvsBSeTZ6MwxINIgjSETkAGXno-H20K79Ho2THA57g7uHbTmyNTzDRE-0YrBRieZ20q1hiSk0DV09ZBOlZ_xWHC7L8Gx-Lr5WgNzuX4Co2o4XcoPc10tIM7bhU9vIS9q0AMg-AjAE-Yj-p6v2Oe0S7_vUYct0cNpIcD0aM4g90nxcnDsp3JXzFXHGxGo-773cm9EagJxh-ncWWgRS-7PWBOceMlAVbDrxvy-gbP8OHrzoqnJJCTw4KUzs8XKDvGEaWTWgkk0xXBPFFLpbgaaNLEUqYg7lQSGAyleQu_wNICaoxbIovYbEMZDj2LYRSeFO2n_WuqjE9GkEQg84MRPznhi5EGLYWFP3PSZGjbFgA4IDiQLZyxuqWvsfiurlkPqmDGmtJ9tyzS53d6TqXEjKmk2t7DsMoxQ7k--MP4By7PYqyb1O0Jwu4q45Mo1XGKWzPWRHasXWEeytoPUfOW9LX-Tqb-dCpwIwQtynseLXGnBXycuCX6Cd60GhonguWo1hEGayywgpWABpXjFkhVDCFALWU-bOgFxEg65arJVRPzVo1X3bp6W81__nQgEUza3Wew6_06mdWG-HOxEl8jg8h_Gckv5CGq_BNEO4kg8ejRTKwkyaLPYwxKeKiQF-M9s9iBLbDhwWmuq8684T94lNjph2GFZPJbyQLKl6uyUxzD2ig-IQ70y6gTFpzi7-kZe3tpdJ7Iq5eu2vF9FPmk4CZNKTQ72Wu3UgrTphBeleNoWI4eNR1WFnEgeIBVKllTlewMMgrb6XkL4BglKsb11GJEvjWVi907wolzj6PiLTyUoplDF58iT-MhVvGyspSG0eO8z26XhlRsfPhxxWZddmHpSwbX3JN3i_tTvr377zjoLV89bJhDiXwJaTpxyI-mGCtzB_a5Bad211c-SjznzFdH4m_s36zQoo4Wbadsy0EFuPZKXyxM7gzEALr4fUadQaufGc7pivBmF_m7S_VmwGVqnRIiUjccSQ3axutFVnVxtO5PFvB1A8eOWiahGkpO4kwirc0Au1ksaysQriMZmqcr-MIIGXTt-ggEhWhRBG0w_6yThVGdfOmOL-VOkhpKjFPhMY3WSE6MzyTUy_KV2bFU7B30GbW3d6Luoj7zYhZf7g17WDwG3ju-vG8eSWIiZLwaz4TGfkGZ71zBM6jq0wGymEI0bYke-0RNoIVed8FD4PCmmpbyqfydMdd3wnUHDbC7XQ3T8RjyXP0gI_MGhLY2jJbJJZO-7jOrdeQoFzS7G8KZFEV8BxHq7hDaYDoF_vQcPVoxAmOGuGmBPZSpxWcyFTh8NyxfjvonNLct0wkUtUCL1t22SDkY_8HX9YMWTrozDBfI3RBPU9Z-rVINsoiu114vqSbvmYHgHDGg2Ni3StUZ1-c7Rz4VuN0VbgH8RQbzxLwJ6qTnQYT9W1P8G3MZK27CUh8zKSeSd8X_aDkaAwPCXMR0TTpfM3wQbXcDH6q4ICJu1BqqerSa4QXFQLzrvtpNWqPFIdy7tfEQ.0u5UMz1bsUJjR8OdoqhMQA",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1776298539.794774,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "rum=2&id=69c8ebe7-2ba0-4fd3-b0d9-34f2feb9fdd6&created=1768522539168&expire=1768523440745",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768523441,
+            "sameSite": "strict",
+            "domain": "sora.chatgpt.com"
+          }
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
+      },
+      {
+        "name": "Pro: Sora 32",
+        "cookies": [
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1768412170454,\"i_b\":\"PWJqXWd6u66zkK7PeMlhiJuHjRDPmo4fSr5nGDYl5V0\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004266.767889,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Host-next-auth.csrf-token",
+            "value": "a0bfde9414e7c933c8db0e58708043e68466bafc1f56c7582813ccfa22cd6224%7Cce0b2bbe980d6ac42108da618a513ccd1216d5f783273551f4b91fe58699eb48",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004267.859347,
+            "sameSite": "lax"
+          },
+          {
+            "name": "oai-did",
+            "value": "7be9d576-fa0d-4846-990b-7e0346e1c1bb",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004267.859349,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "cf_clearance",
+            "value": "D_i3rhu1phhIHL.j2sEc7eNzOE8NZ8skWRPPdvOFjPo-1768412246-1.2.1.1-ryV_ZlGZuuga6mPvz618rPfNeW4naT.9Vloe0AysnN50KdqfxaTjCBVxyUSVH0qLpp3aGYIkK81zB2Nd7v4HECNu4fu6yWc1Vhrospzzl_nFVlBzkUl.55DVXl3_GXIQcVSyIFODSYsrRnpWiSa.dTHdvTwRddBquYnzFYi4s_iLwuzGGoG3WdD1BsrYzxHCzO8oeBIJlLHc51QbbIxgv1QlAI.CPUu3sVcDea0._Do",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004267.859351,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fchatgpt.com%2F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004267.859352,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hlib",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004267.859353,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_account_is_fedramp",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004267.859354,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=4dc7c4f5-946b-4751-b917-ab60920ed5fe&rum=0&expire=1768413158359&logs=1&id=bcae9f89-006d-4918-b037-6a4b4fb16127&created=1768412172989",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004267.859355,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_analytics",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004267.859355,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_marketing",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004267.859355,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-allow-ne",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004267.859356,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-last-model-config",
+            "value": "%7B%22model%22%3A%22gpt-5-2-instant%22%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004267.859356,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-client-auth-info",
+            "value": "%7B%22user%22%3A%7B%22name%22%3A%22xLolipop%22%2C%22email%22%3A%22lolipop%40shietoshi.xyz%22%2C%22picture%22%3A%22https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fxl.png%22%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1768412259254%7D%2C%22isOptedOut%22%3Afalse%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004267.859356,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-gn",
+            "value": "",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004267.859357,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hm",
+            "value": "ON_YOUR_MIND%20%7C%20GOOD_TO_SEE_YOU",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004267.859357,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a514557346269695259783739746e2f656c522b7a554e4d50436a7552354855494533794876746c3876664235526d725944",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771004267.859347,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fsora.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "lEC6q_4cQ3pYca3TwTU8y_FiW6t5tH5H5_yvjCYGv9c-1768522533-1.0.1.1-AxJsqwpN3BAyaZka6stLwJt7Eusn_.C8yosiAW53VAMuOUPUm0Ac_v8nJMcY_9jjlwX3R_VBkV1ZHubyzSmoyAizO.I52_D6aQJq9V2H93U",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524346.692953,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cflb",
+            "value": "0H28vBjUqcdJN5F5i8DLknvCQqDro4yRUWYMeHbb8VB",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524346.692997,
+            "sameSite": "no_restriction",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "xG5FXzKNGr470ZtFQy0izt.Y4k9dqbv.1B5T0vSv9V0-1768522533598-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "aGxNrOAqNS8UGexCoawER5X7ynemblXmo30ZXaOan94-1768522534-1.0.1.1-LEixbBLrleaHhR0DqRvTSePJgj2glfkcuT1oCbMAHecyNZTKPMKsQixu4o9uvj6M0sWnzacQG_JlIYQM7WornuZDyWolsu7R_2jpfd4is_c",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524347.383301,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-sc",
+            "value": "0gAAAAABpaYMnVzLrgsmsH0ULmYtkinlx3KTHifbvaBznhGhBlJHkiZctxiR_447DgPADPiDQA1H_5Wp1ZHM98qOgME-yhgevHaJqLkTpPN0O7cp7Kc8yA9uptzqaC5F1es23a7LibRkUpksy6onU1fDGkckRqBIbAY7CVQE1uhMhtNp3QcuXxyzx2XbDs3hNyeCPLXvjwgCOqFJ7IHe4EcE9cbodAo72-0-WOJeN0SR2tisB0hUiGxw",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800058548.131848,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..GNaLNcHGdT2IBTOe.1r50fsdxdE9XVeR-AgYhPkXKV126EG6tbEYfXI00abDh2tuQ-B73elxTpE9jwRiSjzhtXwQOH7s2DbXZ4fp9DCpxmQeTouk4L13_LV-u1P_AgzpMRzlGc_psH8YM7-I2AmaH6FeH8FPFwkNlPqx61yyHgdWImhaTdoL0QVH5qJYMYZ8-6LvDSqf6OdadnWFP0-HZnPeYbkt0nsWSFS2CYsvVmShoZzhqEjxPVG3VW7-wv4Hq5vkrfhMWVlei7cEpwNwhIZgLZME41ntfvuGKqk1xD_cVVgAy7UpBMaoaEY6AXA6cFMrZB9kIoNXRVNRJx5gbnVEXfmS3VSXr7E4d5IM2heW0ejR5aFS6GshP4gcgRNtemgetTPN1YA6Gl1AlvkmFlGsBeoDNl_dK-9zpDb1pCtlsssbFuoYMGvjIS7fU4dvnmkS55A-Q0m6V3e3ZmK8ORXeS1VZmZ--_RZzqch02s_SiQJUbJgT2_PBiiVI_F8nC-fWOs2rFCGNVYOiBtWzM6yfjOHQ5tBAxDRaGIlfPFG-O5rWuhWbZ1OCiHgANtYFsMum60fD7h_HOmgagAlqyErAlGwyTbl7wzBKTBzLmqeNDgd0unwtk_4samoGX-stD44_fTmpUCsvm52b5caZ_D66Qb6MQga2lddktYJr5U5cOugC2tr3zcqEkuUNns5WwkIGa_1cYSfqPJU7FyFLGvxrWdE-0WL04sz856cuT3rjh0twnG3Ka4Wz8w7b9B0ze6b2fW-k5x0KYfqmhVhz-TEsEDYT9cC_WrtT_Oi9wHhfHzndbV4jR1hN7_IqMRh73OjJ-7bo3RnzlCoW7z5D_l-CPPPpmJ8R4D7QoiodLcYGS2seSvt1dcneU_OtoW3PK0c0sQ9WU5sUaGcCnc7q5BsOzoi1O8JzDm1meTk5MhrWIpNi6zNWoWEshoGwp56n1GV12POyKxP5kqX7WLCPkhXmwXCnV095tTLqQRJl_qtC0eNzzY03otscUQaX1gwOqCzU6gR3CzIDX15mMCiafEIai7KZo48-mISU3F26-wyvQrAeCI6i83kpnOgHLo1qFnYmzA7BrLXYXxFNXHW4AS5PJlzXohuxEKJpy5ZasWXEN53j8lU5bVNp1RHGJbZC26z5rPM_qAgR4rVhpmHHYokLs2EUCm4eqgCGzITi7ZTJaqn9IPuQlguFvDc2Aor5EluhcoJRrij61s_MD2PnlibqkvRQKQS79gy1e3onfNUXc7FQHZMd4FwKvHXUEHZ-5T3wfcxGix7Pah37jdSsySI4e6gY2NPf0mIMBOQ66suX-Cndmt4uFf7HL5M-Y732L9GyNVkjruWL8kv4Ie9IGMu1TPypoQ68wNcxIrjkHg4ef9vgsD5oeQHPZLUaX6mcnvmiDpweu0uiIhBXoiGEx_YphZ_L3ddfUL86MnrAJCVmb1LN6G5jl9VXP4Z9wgwAdD_fw-hyE-WGMkxawlH7MaBZ2ERg6Ed4pv7gTUcTC0Tbp1WhjjsO9q455RIRMQdbFM_BygCHtMmY_UGuH6fxX_pgsK15HgwMgkBavDMdiotKs-TgnwCXTUuq7-HaMSU7pMdBMmUfOgy0WkdZZgTlFxyHHJHtmtJDfHbJApHeCfnCGsY0-OkDBSAua4GthQJMn7NWyv1XSmk7N7aG_cDBpucU8ZnwZ7CxPlf68rslg9d15BBeWS8q7QV1xik6ihuMKgm5bTV7rHgc4hG0beI9EtRDa0EpfUarf0-YDE4qa9hhm2razR8kBn4V5cLkuw5co_LrtLAOCDCFnNHSUJ3eDqbdd34EMKpGIzbBty6rfnZ7S_eD5x7CXjfXeD92mO6dnH7VpIGkhyC1eu-QwfZiM5ie53fgpDI22tSLTAWfmLL1gTdNyDmyeeOPzTG0lZx04t-yiimxZvp_rY2-QOjzsQUKTW9KD-TCzCn2_Hz4zXjLww7jfv2NjEk5nhc3bGaQb2jdFS2VMdix1wKVgdRO7-cWt8pIDrpiKRErxnFcskkQlE6OWTAQhVQFgjPrX8jzNM9gpFnfXHNwfHuErZOsw18UVX_OaJqy84soWQH2VoMRpTItwS1KUiPfOI3fiuCyvTTYe_lsmbYdUQMyVVmiAc90vpRamw3YojhYW_vPzdGFOye4eCCUk_PC6ycr6OxH_aPLMg1ZgKnIW025Lec_xjelZ5ypbnlngiTLG5s3RbxIT50e2UK5yPhSWqYJqDQNroiHkIiwKueICHaUvMV3uE5MG2_RpncoI6xwdoP9XdZT4XyBMooALKIyQmEI0bDEhdgO21KY1F-Lcms5tDsgPdKwXntV5WLWq7amkmY1r_-WXNVTAWGMorn4UJkaZJKsjf_Zk8ql5O8IRX0FS52aAxKnS5nhDPVaRg_0WcJEmANq6DUhHZUb6RbSvFkKerSg8ow60hPFjFbqRbC_gUNbGOA4EFpzQzMqhvyQEpOyxygYtDmc39rE6KP-MBBukUhuFJJedNf2q1zSGuXszr5YDZ0iDM45xr1st1y35rxPgHb7KBOCcOoRPrMr9eXRet_MpVJHFVz48pkf-u8f3BLbdqZ9M1LpiruhXVpnUw2tOTA23McvUejJm4jcH0s-gcCNPYqwtcAbpI2xRUpQqkWjDHmwY_68IAaUlh1Q0Cl0YtpMGrsKif-BNQ_PQu-G2rwEGriIVfz1Yc-AQLP3wWIwJ9KYZfnfjOFwd3P6e5i4yB7mSDxKlq-n-lw69YCgnljLoF5h1Y6awVB9PIblHj7662ZABGjYm9kN4Nz3o66331HkvHFcSOhSIQdfnAnEBqL7pjnPtSlcqOTHmdEiuSbVvw8Dmivm7rIkg-p3GqTcwHIHl5TSFpGmV7MmBnaiXYrgm9El3yt3MVWwM0gg88kcqu3wctuLV5Sox1m6w9EaYwmhiVw6G1Y1cvCH2BalEZTD7v4tjsmEe_E5ZMcNW4CBCYzu1xQyOzHe78UxZ360VL0P1KNpiER4tU7fThq_x9bhDxm7Ki4iK5tMzhoPAVUZ8KeCZHi4dCKZSnXdSVak-cUCOJfTYclw3FFU4Md2x7Eg4doAu7SGEhOBINT1srBAX0anMquOb_HAyNrIa7foFNVJOXKhF8OcM5o7q2fFCOZMUoWo8LOd7xFBJ2NbBNtQ9mg0OwaJd-GHwhvY9rPzdxc84iSzKSkn3d_dG8J2W3TjWFXbc_CT-bVYswKFRb-6TKt19TQ61L3yJjYe0R0p7O-s.h8uPV6yz8RtzQF142aHFMg",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1776298547.167381,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "rum=2&id=6a8b2e48-6fef-4123-b126-ac39b6511754&created=1768522547656&expire=1768523449817",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768523449,
+            "sameSite": "strict",
+            "domain": "sora.chatgpt.com"
+          }
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
+      },
+      {
+        "name": "Pro: Sora 33",
+        "cookies": [
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1768412170454,\"i_b\":\"PWJqXWd6u66zkK7PeMlhiJuHjRDPmo4fSr5nGDYl5V0\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004266.767889,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-last-model-config",
+            "value": "%7B%22model%22%3A%22gpt-5-2-instant%22%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004267.859356,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Host-next-auth.csrf-token",
+            "value": "de4d87e9dc33b9ebf94d62aad2e3fbc5ebe9762d15d40dfa5116380f61a853b5%7C001ff50263cb5c527889d4172ac7a2d535093c5cad4a1ca808897d8d59e7464d",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004268.951202,
+            "sameSite": "lax"
+          },
+          {
+            "name": "oai-did",
+            "value": "13a0bd2e-6f93-4348-a68f-2cc4e5649ee0",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004268.951206,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "cf_clearance",
+            "value": "T7jc0PcskAlZ5DFLotWxKtMkghYygdAeRlK9R8tT8FU-1768412256-1.2.1.1-HI_gkcX7Ta7LTFFi9JoNLzKHtkHzcRb5R29d1MISEEi9l7C49wnQ3VQA2tNu5OO6ahkyKhV0i2J9lzew7AY8kdTSeRvzhWCMtfJdm256UxDefMgu4gNISFut6_5X0b7.dx3rBTjbxt7Vaxc.Q4ppcAUljgvS7gLm25hHyKWlCxiRjt8g3o._R8rJ.q0kQejpNlKPQ.PXM27..PMjF5hQ2MfyTOz.TIuITzwUFpJMAUQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004268.951209,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fchatgpt.com%2F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004268.951211,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hlib",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004268.951213,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_account_is_fedramp",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004268.951214,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_analytics",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004268.951215,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_marketing",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004268.951216,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-allow-ne",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004268.951217,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-client-auth-info",
+            "value": "%7B%22user%22%3A%7B%22name%22%3A%22xLolipop%22%2C%22email%22%3A%22lolipop2%40shietoshi.xyz%22%2C%22picture%22%3Anull%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1768412244029%7D%2C%22isOptedOut%22%3Afalse%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004268.951217,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-gn",
+            "value": "",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004268.951218,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hm",
+            "value": "ON_YOUR_MIND%20%7C%20HOW_CAN_I_HELP",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004268.951218,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=80eb5580-1056-455a-96e9-3a7f0d59f48f&rum=0&expire=1768413159900&logs=1&id=d089be50-0763-4fe4-97df-dd883d2e9a1c&created=1768412182665",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004268.951221,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a514557346269695259783739746e2f656c522b7a554e4d50436a7553336f6c504b704e785656414d4337726e6c4b323436",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771004268.951202,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fsora.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "3eZbk4kcG9HAg5Rf0fUfOo9CvWM75kLr..CQSofOGLc-1768522542-1.0.1.1-ay2mtpr3s7RBKMZ26J9OmL_7ViLLJ.HYxZ45rXJs0uphgJBc2Te3kELLFwqKWMSIhQrQ2SQip16y3kgyuWqk74C38dLd5L5oT0YrOQ3vgxc",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524355.684531,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cflb",
+            "value": "0H28vBjUqcdJN5F5i8DLknvCQqDro4yRW1rQmYy2btq",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524355.684646,
+            "sameSite": "no_restriction",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "sYVV6xyixQKJkgaPjm5jaMziHO8uQE_tPfLF24b.jxM-1768522542589-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "3y_UeLHih4NPKa_vRq1iiTtQGaEq4XPLHAez1ou_Eog-1768522543-1.0.1.1-AZuxKe4ukL5pTSzqg4zrDxIuPXDOHzy.nvWiwQHCZznLVhZDuqcZgAvAIKVS4nGDPh.n8.65QtWGMO87RKNHev2MS4.oHaANCZz1N9LgS1I",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524356.378706,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..fjEu9UgI5dIHqoKE.vPLZURUWWqWjiOSFKBTb0QdnpZQqXoWIdqodjjYYjBDN2rczzQUrswbPM2r8VC3mWqf11srjoR4p3l3ptB4w5yQ3HDKoZJtaA7m4DEDQjW9TA8OCyPNEvMUR744YHBspFlePwoKkbDrQY678nSBtN7Yo1cWGNotDi6b8lRSOPNrOdn9gx3CfMxlnYHteG9Wsymc4-RJb6ZpBtKJR9Xuij1ULm4lFJ3tFZargfDjPgT7cFVm92utSu1Y7UoepGNExlwzepp4e8zFoBAy8RIw0ePLcjUg_NTmxM-PrKGIaXsYufZD8_ETVwlpTsoh8n_EjvlL5T7kDVptq-r-b1mOoKOVhrIu7JC9UJqCDPNXOFb0CO26FZUINf2d1MuzBPBEszuObUqGOYKalOV0IYpWZzwyO1WNX87d-uMXzxXmIqNw-Pv5xFzh6wjlWtj_Cicxlz_bofMez9l57bAxFw-KkgdXSiIqLZowsslw2ciZfrfe93x2X4tHvFE3rwZ9PFRUQOu1Bwu5HySgAVLKyEoQmLWBuh9YOC08CYx7-zu8gqS8L6t1NyaIzFwoNRyUpIswfclwNZlX84qhDqUx59o_Wi2rZRi9rfFOGfYoPbhtbjJDYTtyT5u9jKXPAFUuUUISaofw_37EoLdGqBrEdCiVUmuB8c7diqhp81XqWJXFsbvorpMUCAQEH1B3q5QlqUjVXk6UD4vh3w-DtVIYnpEAx0o5R5o6XTkmHVAX_CilugKTQofq3ZMQw1woC72BneWYTqoMN2tKM6AGLjC9418yZkbQRy8LpVIDs8Ixkqb2B8EhMq8a6HIWWnvOYEA8_Uc11nUcnAU5wKI2JxiaIRe-I9XgntFfML1EaM5zda4pVYn1LXupIKtm98pomtf5ZcgzZwlYWSfvIICeKgfFe82bAAOSS9J7EbpFA-SgkHcK_tx90sS7ZJVefPwoin8oFqdqcKSfxQAIWLPLirIY1o0UwjVajL7OMjQdApKiP8OxSNXsirWcwXscJeihIFEf6vRRACi1AVSpe5KiowOSZov8SvQS7mYHnqGYSer5TJbhoNTN9tTXgfI9LWgmdMNHCcoq4hk3-DwFLURpkiBZaIdz5HccXcUSiMqRB9czE1QcBog7i6UzE5akNnhma2BxTpq6HKekaRu2E0HhOSAGi-pGPSOksL2izr5eJHcSI2EAqC3PR1ohk9O4BRjR_7j0hBnjfBXQ6yuCYFsR2UipHtyt3mui409KXX_3qMPdMyucnyd9a6QJcA4zQtHAwGQ9l4coKp_pXVw65kuj6ZCi5loXIsJPrcVCRnLqH5i9xQjU_Y9Ba8gaq49j1vCFoVzfJws5ZeNp8w3hOBewSccPUpa4wjtwY0X7TjsQBsDFDHThVv7h22RVuxygDgsI42VC4hLOJd0QNhWLUn_SFpGNPr77yRJMLOm_3srK3w2dx7KjM_dT31naWQJtw6UylinZJ-Sf8rp-jQySm0BjdETXSSbpXxo8YIt9dbY2AogkbAr2wQBbOCsubv8X8zQ31SA9rUGcx4V7tQ2pu1XCPTWaWOAlErjz5IR0jazcYnGp93iOn0dkn3tbp9nS3U6VSAJBrcRFxvou6pHtijxEfAndDRHhYCXIwWKKc6QLhjtDpIMKsK2cPs8sQGGFlElA-b3BTxd0UfPgMTyrbTYo_A--NNMZ-f47ikln9biD2oadqacyeaTMqvuXDpsO4I3eEVwhiu96pImp_gcA4yEuOc1cFeyShgITC4XAuJfps55C1CNER3yqZYmGspFxrgx2F0mnwZSAMa7JIn228bs4WKqzgQPZ-SzQwOF1u0pnvrGF1hEprD92oGGC1Ciq_VEBXK77nRroj1TUqPL0gWZlaSNYOM1P9DVd7x7GOeWlAxJZM3onGJRHP2Ik6E5JwGt6DU0jrzlq9juV1e5J5ut6xYHjQsZvj5G-yUnliNaAUpIDwT6xKaZfgXpoW5mNqDjh0gLUET4pAJeVuTqVAlKSflmpPmeyeeqFRJ43ejiwta-IegrnWyQNtX8SG2M3WGuPsuKAs0RyKGdjS2prxlnuds78kRbia-1Z4RusxF86dhz70YdPDkPa90B1hutlDyP2T57sVD6b2EfMJH_XK1PBy6Tx01gr7dPBe7SBeWEgoN_XKUboV6P0xqZWZJImXNsKnTPaN6c2uAfdUKB4fVA-c20ybrZ_AfSTl-GWrUutndZrR3s6bpgwhbMmvjwzt684m8mX9p582gA_6spbuXT0RFADrK3JDqmGJosHgKJ1cwozL4q8mlyRDmiYBdnTl75NHLgOo7mV0T2IssZW5sb0Qvfm4CIkO52ALlRn5CsyeDTbFRJ8r4whSc_Qd_WySmStE-gXCVGAR-eg-Cw8zbbN_FQjeFs7c5BPB2xGw9FU6GwoOfWXC_5PSLV8_eFAoUgEQlTCoSyfTzTvqf7UEJXa1If2tBVirNM-nSncA3-uPvgCnyZpeTdjQwhrUJ1iFyaztKNgCXmOYaye-8Kwkps6srv2M_GKEZxLlWTALZPbOJLoIeSLc567xJ2mG7wlyeg-h9UKNps4sIzEOjQ5bwZodxrJtJMOd-SImLdS6AqwVlDotRYysMVQkk5-xtuzcl4o6Mz1CmKHRWCq5-iD_0JbtbrAjNTOwc__kDpQIPm8te3ri4VhQySiOBuX3pd9bqJlUL61no1DHvuMyqJVW2fOnQDgKkk9tP8IgH6kE1Qaw1tMAV_jYC78h_FpGdZNkMNZsLhjv-fWZiq4bk9L4RhN0M2dcw0_QIi0ZfDVvEbTgpAYWPm4jroNnoInqiBM_fpTFwf6PTlLnKbstAhmQI6p5nIoveSSSr7jN6rPzD_ZPKlHRZHb8JK259Rin4yR1df6d3_yJTZ15rrUjQVEkOpghSjGrIbUa8n3ec6EeffO74Z4g-kkaQWqKWVaWoQ3i-Im933BjcuVHmPzG2I8iUx09N2gVErxOMMo0NHGm-jvRGnHZuzwIuBb5xp-wKErpCk3Fp9Vu_54SPZP4xL7ucAGKFtPuAO6-dVR2b4pemCvk7Gq5zY9ofqoBf95Rrjlbr1YIQlqAxcTqcHzBkDxBcb0ZyhUVv2vebq-x4VHsRix6LIrRxofQ8UJRL_to3-3qYZrSn2Hnk1FJlffeOPJllraF9xsoD8qcPlt5QA2qYUIZ2_Jwl65nLQaTS9_6hkAOH2Z3gESbw-xUczAwtt3eJRsF2KoBntL6cH-drlmb1gQ.VjZwL3IPs7-bBgAOJQKDWA",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1776298556.184974,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-sc",
+            "value": "0gAAAAABpaYMwEDAaHqEnvLe15kegF-X7r4-r1fvTPlk80asfaXsHKEHBMuzI5LLon3Jm2fUT54zpsTKZI6cyZ96jdZbGE2chhWHNxFDU-NRy60AeLpmo_696qrsQqGsC-2jvmWMalUjSM1Y5AaTIiVsJhlPGsyIWCTnhiqqArKPopdMpaSZ1MWayGfirq2-d7gL7KR2PPtc-mC6qFnfo8oM0bW9xgjL8wtGJeHX75gGVcaiTs-NQ1os",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800058557.255423,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "rum=2&id=74f85b74-205d-4806-b282-36bfb3935e74&created=1768522556646&expire=1768523458665",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768523458,
+            "sameSite": "strict",
+            "domain": "sora.chatgpt.com"
+          }
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
+      },
+      {
+        "name": "Pro: Sora 34",
+        "cookies": [
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1768412170454,\"i_b\":\"PWJqXWd6u66zkK7PeMlhiJuHjRDPmo4fSr5nGDYl5V0\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004266.767889,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-last-model-config",
+            "value": "%7B%22model%22%3A%22gpt-5-2-instant%22%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004267.859356,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Host-next-auth.csrf-token",
+            "value": "f0c7d501401ac196fe63c27b3e4f7a664f576a8698a6df419f9a7d30dc796f6e%7C191f63fc058384baba54a4bf2fe01ce3e13a8e0ff0aed0f3a7b3a676df7d7763",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004270.285344,
+            "sameSite": "lax"
+          },
+          {
+            "name": "oai-did",
+            "value": "44e74d7c-021a-46d2-a94e-fc2acecc9222",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004270.285347,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "cf_clearance",
+            "value": "jbFgwjmzh6XaSPaEBa1KOFs8GEwVU4WLguznfco6.Z0-1768412258-1.2.1.1-sEIFXMZV9xOJocjNLu9eY9_DvzLPSOPvlktOGCRW.s7Ke71Eer_o.ew7afMTAMfAHy.rXrRwwz0EJBFJndtiNUY_k7QPTZISGKjlsxsHISAO07MrwY70vGSZWvEH0qQvsnrpDY0Y0yoyslWsr0Iez1lpK7HHWkAq4qfvToGL7KtwjXBHVciiSXzffJntphyILmAsbosrA_Lr8VP8f815lkmWdx8Mgycq70hD7blwdTE",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004270.285349,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fchatgpt.com%2F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004270.285349,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hlib",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004270.285351,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_account_is_fedramp",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004270.285351,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_analytics",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004270.285352,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_marketing",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004270.285353,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-allow-ne",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004270.285353,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-client-auth-info",
+            "value": "%7B%22user%22%3A%7B%22name%22%3A%22xLolipop%22%2C%22email%22%3A%22lolipop3%40shietoshi.xyz%22%2C%22picture%22%3Anull%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1768412240313%7D%2C%22isOptedOut%22%3Afalse%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004270.285353,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-gn",
+            "value": "",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004270.285354,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hm",
+            "value": "AGENDA_TODAY%20%7C%20HOW_CAN_I_HELP",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004270.285355,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=af5494e2-21ab-42dd-bd20-ce0ffa2cff36&rum=2&id=c0ece6bb-9a3b-4c56-9cf3-0f12681e30e2&created=1768412184768&expire=1768413160383&logs=1",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004270.285357,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a514557346269695259783739746e2f656c522b7a554e4d50436a7552657a43466953324969366b524f676c496a73474e59",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771004270.285344,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fsora.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "Ggq60YkGHdywiY3z9iZ0OQHdFaKWh9c8njVJ.h1eRF4-1768522551-1.0.1.1-YONrtpRHbKTOcaTJkO0emLgI2SyOkt0ryeJ_0F5BxZ3QZjLBtjAz.SuTitd9DRqO4MPnKrCGQqOsMfRnfDceijAKhtF.uxSzXgc0TgVqkT4",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524365.0958,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cflb",
+            "value": "0H28vBjUqcdJN5F5i8DLknvCQqDro4yRXgs8ud9xga1",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524365.095845,
+            "sameSite": "no_restriction",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "E49bCksenc27eCy.IkQUPIMVUS0_qDjaN0OTVJwwSPk-1768522551992-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "jodrAZVk5vJIY3g8GqsUQXlFyCU0R7iD6NSM.s7m1PY-1768522552-1.0.1.1-9B_l6i2LbeHVPEvVtvSR1.lRVjryqFmiX521KIpt.Yq36h1xkr7QIwqpaqf3tzTng8cl7fhkJBhfacHYa3qlIh1XMQaRWwOaJtJhQt4ATek",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524366.018873,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..Tyl6W6LlI80zmsCe.a-qWaBjt9ABWts_W5GrDearqylXXdSfT4y2HYmTofqIi_Gjg3AfCn5F8d5vvfdQh9i9EvICNCGpk56Zl3v2IY6QABfQZhV9OhBe4VTLxA_X9ea5Mx72s_ICl9z0tlJnqCGKbsTWUtQ8LnyqE-UJgxTOZvGdXgYrUfRUMohzRdzIckePn6aNCfpkFV03phbvO-ouKhr8kxqPeodEFpbfJjAPERrX1gjXGIZA2ohnUozYd649c5SJuseP12WNg-Wj1N7JNWl7M4joR0Uc0-HSEsasFg99M52fYhG5ZZUntLHM8OZ6rkkQrw3USMhwp50sDfSdxakggkiZ2juLjzVwnTuo4D9FIQT56yaV6RkWzYq1GjYMYFuGdwAq0q20VhgEqxJnvmNvV134ngj9lUR83VaVuC5kvBBOKe4G3ohDIFKJOCPau5fiqT_EzcRcbDTE7sRLXZjLfS_9GjUGHq82Br1F7ec511gi5hi9WHW8jxrmEapgIr-GmvRxUYrmGeezES6ezZuB9ana0mSQHP0fiMz3bhP08N_3RVy72RhV6mD581LUiRTuu9Qn2xx-UIQkxUU-5XLnXDhxoSXbPS8HszofBtQW0Q49H0tCzArjeQjxqXugROmKNBPMjckjsoxAVmiV3tuPjWv30YF0VijRYxpMEggsZxdws1K5bE0b1gZ3F-GM0hA2lhCO4grB6Wli3rphJ37dEohWOpIsvHaaWJ9FfnlR6rz6koLvTgt1DToEuSAcItjX4-8qvUy2SuDfgFMol403LNWUvhHSfxEqYk6CXF647m7e7BGvuEHr8uu4G82BwVqUSXO32kXXxxAgHF8-TtRYvL-llve1XfVCMNMVSEgomxnu4c6WIgHsTjDazwIa4nmv2S1sEKikTAY0Ep2sPTQLLhmpH6sTCcuCBwFSutFCBP8c6hHvIoIxy1aZTGF7HlRg5JRCRQVk06LYP6BqjsybErsExs63bt8bZXJRNGPLMrQ5O4aZt3v-CtTeQ6HjIY6VwSBtHf80PUILpi55HoJa8U5Ye8nLxKQajAFOuOA9hbGq-gP9fHh9ZJWHwdvJPw_S_uLw45o20K-vmSLOWUYLtWzV4ZB66Digs4d0kQEHD9qV9S9rao-4rPAhMHH543gubFj7msBAvMbJ8gjfDoUc7b-1Ebf0ysskXCfU7JfidARxqjBgZu--F6cbGdzeJbQDY8n_7Yo8CCwrnRMWpnri1awdCJq9-wDHPuAlCxbR6x5lhYSXtTqb8oqOrtXXbuDqf-vDZqSyDG7RmbXstyD9yrc9zingH6BiwiJ2LmKKplAe2zIhgY_pBh4zDK89ZLpr514-mz8xz9f34Mt0ofkVlSOg9SbrRMNTvK7N9g3aDZCbDUCwxVLrr762icFVzTUb4QM1gPi9l5TQqrALy4ZA-qhqLnHTZZ0BJaoVcwoW8M5K1mfTbMIlz4TPmxos294y5ecMU7Kgid4He6615ZDYParrtAeqMQzU1zXtAvrxm8L91wtukdB5ilObC3cR_IabZNwgvViUa2YzSYMnoXm6N9pWXmDdnCIkA85a9EnGpfUHtkN6964mbRikWl9qUlL3th5FDTDjiWXLLOhAZXHWAdhalqlMlqeZGyfBwPsnT9SodomY7MOh8WRLla7itGXyl7LxqoybPNNtSpdNLxhuqkzrJnX5zIrQQvXBMFfH_s7QMzvkruOyZ5uv4niuA026dZDe3-VKUhN0LkhCYCdJ0Jynjo6dKhMQfVErzGA3SWS6lgiciwUt55isMNWC1O79AgCyUQuRHnNzBIxY6BItucHWTmsU0IA_232RbooSi7uH1_MYmlWJ5Q_1SuhVC5P7J_NHJLKc5EJZCLgorRykWJImzCOm51FVABLKqPCWrWm3DqTWHQziJOpuZH5sKvPM8hBhWCiwmrS_LaSYz8L4TEcpTX6DLS001aCne0JrtugKA5mUNFBsr62IH2-JOqopmx-fzzwvZWCoDQq6gIl0P3zWFi6l1yOv8OoRzDB30x6YaSPhzy1t8W9_o980YH2_VcV_s-yfqxa_Vel7H6k5l2HdMy1ZJM5MMFHY4Mv7t64UNilJ-Ud2r6JHXraZM0YZwLWUAWEuL5wZz6nTiC_Cx6FK-k1mjiIxKnLbYrPpsgNXtyFMQ6caUxdwr3lIGDtYdRj9tyLvMKAcQUlntAEynleyEdYE6tBafyEaPfF6a9AzuO5SctudCu_yd3JiP4Dulh5cvZfKtwWQF9GvFrFziRN9bOg0Y4aCKBK3ZTOumCTggw_bxDDgzr56UzX1Fx-R9hUIMrvSgDAfELGWdvXHZKy8ztLHma_oo-8-ikwlsKPT_w0F4Ugfo-dpH_bU8_C4WOC-uBtTfz4-YSdMggzetJ8gwNZVqVBdfP7VZmVmGWNZreIGbe-SKSEIQljFVnakpT9JRI4HXPAzZze3keShn6I7Hdggj_k2zgcPCwxERkouc7P9-HNoviiX7ERB0YGudIUjhrOXP8kgxQDjSY80hoRAy7bJReooKvQ6zaZG5XJVYqUef-P-Xklf9QQpaE6L2qft4aWRxq7fJF5MORp4vD95Ei3q3pgU8evgS_A1_yG9cOQYXjZQAm0t_4kPZbZgTjYwWdMeHtHn7Mz_tOYsV1-HaAOPN7HeiDLcAYZ0ZoVwCMzOo7M7hy8UV6wxGq4X3hU-Dk3JLh0xpkVKT-eA46E7Ostvz7VAIfFJeLyQNq82nv_B8L7NCDKv4EBNqdOYb-T3lvx7iVPDVmoY4whihnhI_NIC_U1odWlVHSRgSGYfW0Ih6ZZshaf6srK3ixyWc0MOV1Tlc25CRAN003gM2ncgsqeLs4CJj2C_4SzKNcdak1USZsGALrDA-HcKrj2wk8qpdIuyNr7bH5Wt2ksauQvDgqsYOy7jN6C2i1RHZ0H0g_DQSAsNf7Wjfj1TlczwZzTjVmq5L7hwYDVPdOMbYvODbDvVfNA_RBkRqie54bndhicCUfm8U0heF3q8YMq4IUiCeD46Lpam8GoMB-Dl2PaSQKnu5zKFPN1nw3HdTg1c6xe61h6ymKDzT2ntGbKtcuVN5Bg72RnJSjxy47rpnodyDhUzCPwip9jF17VVXO4hAqeOsiZRnR65P_3M6_xBldtJdV9bW3HRyRLmYLWsM3t42uQYWww1Ig2_0zFmA76NUEH1xQ-bv-tANzXZIy4UBUsarQdIlMdqELfbiiCC7G5w0K9BYVrq62_GW6UMKrPI.jJEPQF9qdDkjgsny-D6vxA",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1776298566.83352,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-sc",
+            "value": "0gAAAAABpaYM55gtNMOYMJrPpZrgs8PE5OnskeN_RTFb3UX2SEdNchfM8k2RCqsAxHABucXYlHXk719AxQ2YWhLOll_dU7CdiC5CAW-yD8xXZUZMJ-lrEOjkx06xhwZqIZJUXaH_2m3Lu3fxjhKAJBzhgU2rWk_62T2zLhY21izp7cXzKd3vOfKa08h0nRzpUB-i2oDUUvvR98kFhWRz8GhPaelNB0RupHvnzs09uZgLoo9KNrpAfig4",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800058566.995722,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "rum=2&id=acf5a13c-551e-4dae-86ea-7dbfde2fe8c7&created=1768522566306&expire=1768523468538",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768523468,
+            "sameSite": "strict",
+            "domain": "sora.chatgpt.com"
+          }
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
+      },
+      {
+        "name": "Pro: Sora 35",
+        "cookies": [
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1768412170454,\"i_b\":\"PWJqXWd6u66zkK7PeMlhiJuHjRDPmo4fSr5nGDYl5V0\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004266.767889,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-last-model-config",
+            "value": "%7B%22model%22%3A%22gpt-5-2-instant%22%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004267.859356,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Host-next-auth.csrf-token",
+            "value": "baf57e6364db3e088fc787a8564c775e221bf3665f26a77671ecb333b9a55e7c%7Cbda852c9ad4c0fbc7063714fd904ff56e3386f6cfa341eecbc9177eaf18e28d7",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916780.544829,
+            "sameSite": "lax"
+          },
+          {
+            "name": "oai-did",
+            "value": "771ac957-6103-490e-bd1e-c5ccd23bc5bc",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916780.544832,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "cf_clearance",
+            "value": "UZiWbZkO2Z6L10lpShliFP4lFnxernZN3Q0hm.o3hwE-1768324752-1.2.1.1-nuK6aDe9xwpaveBQPnmW3.z75QbasIaCLas_A8dAN4CVdFQTczo6pCBQXtAdFy9X.R6NrOHPI9ypFQ6JChHoDHRNWIpZdRhTMLAFisuvR_KljDO0ZDquz3Hca1azVThXJsDbxSajGQFSD447SOCaBax1Mpv1NEVQasXH3RyZYM5bfWS4dv1TSCk7oHDcW.sRpfIMIDkxoKcITtHEo9qHHV4YwHOOjDKww0davciSTg8",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916780.544834,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fchatgpt.com%2F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916780.544834,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hlib",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916780.544835,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_account_is_fedramp",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916780.544836,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_analytics",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916780.544837,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_marketing",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916780.544838,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-allow-ne",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916780.544838,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-client-auth-info",
+            "value": "%7B%22user%22%3A%7B%22name%22%3A%22xGroupy%22%2C%22email%22%3A%22konoha3%40belajaar.id%22%2C%22picture%22%3Anull%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1768324764342%7D%2C%22isOptedOut%22%3Afalse%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916780.544838,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-gn",
+            "value": "",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916780.544839,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hm",
+            "value": "SHOULD_WE_BEGIN%20%7C%20GOOD_TO_SEE_YOU",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916780.544839,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=11cf44fe-49e4-4e37-bb43-7a43724b797a&rum=2&id=d79625d3-2697-4024-a736-0071d49c8df0&created=1768324681233&expire=1768325674734&logs=1",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916780.544842,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a514557346269695259783739746e2f656c522b7a554e4d50436a7553305054747351564738755334714544535566346e43",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1770916780.544829,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fsora.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "P0CvDlPIdcD1n8E3l1LMlcpRmLQ9.ImdiIrYV6FFzsI-1768522561-1.0.1.1-IzwdA.AmUeasB1UC1iUEpY3BDetFTb5.ucMpRzLLRtrZmjhCyotDBnlF3dWa7m_5dvx6aLTeHoRzj1kIlpYUVnLfpEbAc4XFQ43AHEQKqTA",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524374.907078,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cflb",
+            "value": "0H28vBjUqcdJN5F5i8DLknvCQqDro4yRZCBC2tXQ9yf",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524374.907123,
+            "sameSite": "no_restriction",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "G9dANfs70WRweG39l4dTw8V3HkU4agqSNx92zgIzBIA-1768522561656-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "vvonmisgo6tZ2F2mXnAZPXxQl1GZiwb8cXd_iFseFAA-1768522562-1.0.1.1-k3T1s9PQI.HCxjEyhxg1GtIDDvPYZselWAiJCDdQH37feKumGz7tETHhNSkNt95relz7uJ6R6GOFG5tgyUwe1sZf2CWqV1ZUTm0FsT0e1ac",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524375.661664,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-sc",
+            "value": "0gAAAAABpaYNDoHC7tuLM3H45Donm3R3XyBwY86TZzjMyDBg9J_vaTRy21vTbbX28aFUcXum5sj3dkpxIqOXqcyQEA2X4EqzjaHKnSVYvT6wBSFlPKQYn7oYfcv6220uMtLX1h8jnxi7pTZBFkeDKNXbwJDCA2Xo_RbXltAHFuUjBj6Uxml9PMTFOQWh_IPf9cMpY-MiZrSf5SNrWPRpYibwXJUH_YGwBT2Cu_bGgJdUUYPUWM8SU2GQ",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800058576.484298,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..gjWBmX3JbRNMAxbR.v60jXXgUd1akATntLKLLbsHVTq840zQyR_iLjQjJ8TVhycbQBm_2bdk0NPzpLOJuQw_yVmDs2btn1CX8SxcqpFZwhcKCCSNty0zGR4Nr7_4HvKd-E_DHoBgisjXZdQpl9b-Kzswiyubw2-csWucihrtGNHRjUAcwrJJWq-5qmv6oEKcOTS-ffhnbI09BK2s9SqZ-tZUFBS7e0kBi7m0NwZfCqKgAu_jO5YoY4q5qPdSDtIgItaSa-3m10xgQt_tfHAyDDekQ1kj9uKhRLakydZr3UgDdXzaf3MeZNHVmX_XPv1e8hlAGTYVSHVqXsuIxA3rZCh1pKbdrPX5Cys6PmwnUEIYPdj165Y7AeS-yBv5vLU1-X0lPF_aANvSG4j3GaeQqrCefAooX7B46HZqcYlAiPbXJHa_SpmIoPSB4YOKhHAjbP3baNJP0wCPaIuQRc7kP58-mmmp_rDUlUBB2U5zm8ChiD78uHBuPu-oLIwtOvYQdE5lm-DCnXJek7N3wXxmcrVpD5-7gULOSsswOYDbpvLIxslCfRU29cog8zxeKBLTIKhJNF2weCgZFdcGhbfXwJ2ymK9kKEwgV-ALK-eiIV_n87DUJQn1ZbP_0SWN7XiDXU5tdRoWYTycrdgQeaUZLQlUE6S99awHmMunzEV1vNs4Qej6R91HGOdiE2vgkKclWWjLWmV8q-lK8L6oW8emTwWqw9AyhqcSPpOvXWfMDX6C6Os3SmiHt9GqOmtyrmwrwpNkXFV8PACcRFvcRSoFuS30QBLYVn3GzCYu7lPqkCUh-XuMY6C9YhGYgPS0ZzCFfZDgNQJF30Z0IgZDQTMmXgCArhdKauCiW-PstRloP2h1HvegXlVWX2e0rwx9dwioWU0LJahyfckBBqB4GvxGCgfdQ0ljPNlK6g4KgKMNUNIon0yuSKSo6ulrILojATqbNSULCCQqUKYO1-rMPS7LVTQAPxbKHAEaaTsNrVK3VjqktFmUuJQTvP-4vJMALJWrYsYV7PaHZcOnR9kzbC2-4KMNQlYsJzMchShJw0CtuHFLIGkdzQVn5PEC4id-90anjuB8Bou6UDvCGrtg1jVf_yxBZv_AtDqEeJtEVklpuf0dOMuMLtdSiLss3YPTN7YjQXuQUJnXCCxK-ZZJlbiR5ud8tkRUZX0bpbeMqKrnjnfECZ3B1ueExIzrWxFFrrkeJ30n2gqiz-HCdHC191tarfzxZc6MKdAYbtGUa3YWU05XNmX7QNfF1A5baIQy_VIaKFk8jX6bPS5aU0empdNQx_VOBw_fgjCbKKmLrVUAXeXR8jroL53wgsJg2biUSmSM2vS5Ufk-_F3vK-WN-_5E-qYoz9xpF2GYbfsV43szWSnIWvKyTLqk3oOjFRSXs55f15qD0TvnSL5IYPm7KIq3-JiJoCv4a3U5PO74SH33iI7ExKs3N8kxjzQT0U3ZeQYkGq_-_CAbBo4Dz4LaQQcRf2JeFwJcttCr6x72nZy0VNpSx2D3n6XQjptTDRehRR28XHSpm29ngcPX2FGAqJhk4ewRl9g2ksPvpZCYy4eNgc_I4C31mG4LkAJb9OP8Yek9gLeNQ4PFb6Qg6AjuxPLZljSrI1xn3wTblfIyv4teXdkZAP4--9n58tRmogRnWOMtqbsSNe-j89ot_mhlVIAoyoNToLoiUCnRoKvR_hAkcd9-P27ggX01jvi6-2p-lzmeMjhQC1HVeXY-giLLyFCHE28eBuXJdd7AWl3hR_Trqs6UbeaVbAGKO05yN3jgNxJPOR9BnxzZVV93lzdbn2u66EzPL9-3yY3A0cfAhygy76SwiofDabtCyikBzWeQTp9l7BEnhziplDLjCoMm6KLQ-NVKsacxUIA0cNp3BzS9gm_xw7II_C4wGUa02NYk6GoSntCqQ5npqIyNt-KpIsigJ5lqKoQTlhPGEJCFbQ-nzcPJwi9GdcexrgoHVnz0V5Sm7vALW3y6lH2msTvxXm3wwsvId_HBWsf38cuLiWEzjpcBzElfc67nKJIDgk7nqwZn9xdJ1R6rT6TdjKZCw_kEgnAHlfl5NV_stfdqTX1GLA_GKQu7QY-CajADasn4Pl-6wQBmzmbGVcwfKorC16dZwny29-tJ5qeW9fjsjeNxpQdW9260K8aRHRPzmpddeGJ1MQWuz4U7L4paULSkPLai69BzPRwmGnxdyPpBC7fgymKJQpAGXViV-FJKIKQKT0t0joc6nt-tFKGQ5gIB_qlkakWLg0gS0MC7IMOIGOzKA4qctAC0y25-od4S4Y4SMFq5uCh1n7ce4_ed_-A2uOVfCliyB9FiJRDpaW5GIaBNbF1lvTVkmKjo6RqFDcjv45ODdNef-KL2LCSGgNV1QJYoVh2dj1GUnQZLPNRUUwy9jueDmnE8azlDSg3G3XLfl7WkHwnA8U-trH1rqFAwazjm6cRc5PYUjZxaQo-8IaBEC0ZojSV783PYxmEYB-aMbyVe1RljKR0y0WViBuKdtuvEFWSSd7asIQ8PGVwVo8lRu9e2gWhftHsTqgodJ5oIFhboKMP_FdqgKOX_HxIrW10F5FN-wJtrT8jQ389OoANNUBEsBEpraPs8UmaXd0xjZgiCnogcQwpGZwvt7e6J_qDlMM15L_KNC4szzVnQa47G52KpyMAz3Yhz5uVb8pGzPgz7mXWTtBp68n732mZrbVnx83tIBglvSLSn45M06nrUTBV6OR-g4k7dAm5jTP4pWbPEPviNa5jArMh9UDaofegOnIAuUKabhy8O40HmDdmw4EeIvX9SXNc3qTVsJnR2BOPM6-IIc6XhcfO0OdxQK-X6UHqubTwDK7TJ96XHD7Ww1SjmAPzJkL81H6iB_PMSe4vc0hqk9YlryJcD2PtUM-QhhBBsfzGudizRPsnuc7VVnDJRQGOzSrYcYnm87nvE1XIOL06b3PK0stYVH8fGUFJQPllMNuEW-4cXLKsG4d3qHLTH9Yy0waL9I9qkqJFYGELRnGEbR-Wmq7-rmZM-eX-RjRkplI-i7dyMQVKV4DOWDkPaeZdVS4HbWm_hUemT1yA-Z_KBA4naxDmwws1Mmzf8B4FsqoNGyVaxDSoxKfjn8sE5Mr4UP_Jjn5zaU_SovykZkQnZfXpXr1Gi1k0JfjoNIfjIdeTYID8EQlrShBXM8rrOKF0JeTtJRrmqYvFmHDD0XV96ZL1vjM6V1N31FQ8M3LFVHUgZGaG2T8Q.s7Qu87aLjChOjQL2YJa-SA",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1776298576.55066,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "rum=2&id=840b703c-8640-4c0d-9de1-b88c6cdb827d&created=1768522575931&expire=1768523478025",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768523478,
+            "sameSite": "strict",
+            "domain": "sora.chatgpt.com"
+          }
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
+      },
+      {
+        "name": "Pro: Sora 36",
+        "cookies": [
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1768412170454,\"i_b\":\"PWJqXWd6u66zkK7PeMlhiJuHjRDPmo4fSr5nGDYl5V0\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004266.767889,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-last-model-config",
+            "value": "%7B%22model%22%3A%22gpt-5-2-instant%22%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771004267.859356,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_account_is_fedramp",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770916780.544836,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Host-next-auth.csrf-token",
+            "value": "7d84f14ceb6790f4d3fa5ba6f6164732a42f5336e1a36c70dc27b59b1d6fa56f%7C761b9eee94528c2a4f1ceb3d437b022fef012b7b0fab84bbec71052c393d4b81",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770818963.41673,
+            "sameSite": "lax"
+          },
+          {
+            "name": "oai-did",
+            "value": "011a5015-faae-4dfd-8027-787941bdf75f",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770818963.416733,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "cf_clearance",
+            "value": "84JMLW7Yoax2DdmEcrXICEcVtQT_Pqz4_ZB7ofwZyfg-1768226975-1.2.1.1-Fd4INH2vq8_QfXvlZdta6nGKSwdYXZbB4JbjsTjGfHWOJMTcg4az7MmOxuzcRbeitWCGEKq0vyGLdKSTsB28cOcdGdKLiqYFq59LMdZLhot64prKNJ_qYrjsh3aTMADEVNZ8QRbxHtPL6M44tNzdVvQhNb55WTPmAwjPd0IyQlbjWvpLn1fVpsTwwtG3l2ysQdZyvmxjm9jJwLoEGye_NkK4_N1QYwNlUmMToVEK6QM",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770818963.416735,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fchatgpt.com%2F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770818963.416735,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hlib",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770818963.416737,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_analytics",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770818963.416738,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_marketing",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770818963.416738,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-allow-ne",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770818963.416739,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-client-auth-info",
+            "value": "%7B%22user%22%3A%7B%22name%22%3A%22vGroupy%22%2C%22email%22%3A%22bamboo7%40belajaar.id%22%2C%22picture%22%3Anull%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1768226942763%7D%2C%22isOptedOut%22%3Afalse%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770818963.416739,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-gn",
+            "value": "",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770818963.41674,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hm",
+            "value": "SHOULD_WE_BEGIN%20%7C%20GOOD_TO_SEE_YOU",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770818963.41674,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=d15c3bc6-e77e-4cea-b4c2-993c8760705b&rum=0&expire=1768227862488&logs=1&id=01b5581d-9f37-4e4b-9d7b-0fc108b7549b&created=1768226907051",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770818963.416742,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a514557346269695259783739746e2f656c522b7a554e4d50436a75537272496c6478544c424541363976584e787a715950",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1770818963.41673,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fsora.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "lkmpXod3nbnmV9S93tzE9FAg4yuY6neadCoLDyx1d_g-1768522571-1.0.1.1-g2mX2VqvT3pIqgcibbiJUR2YbBvoH2le_5VXgr7.NaPUZkC2LVZTgPeJo2T83ew5iOVyTA680JHfj2B2upjCSdhTCgsS2zUKkLITrpxrfJA",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524385.040131,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cflb",
+            "value": "0H28vBjUqcdJN5F5i8DLknvCQqDro4yRasBvAxiLEeq",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524385.040175,
+            "sameSite": "no_restriction",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "zh2BcjP2Gu2SXu6XwgUQ7LPCIoiuAkyBont3PYkhmBs-1768522571896-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "Ba5MO81lQC2idEeDzLibzTLZ27X1gX_d_giZNM0sejY-1768522572-1.0.1.1-OKRLcOaYZ3Jg.cBwVN4td0GAUyiFH8ossZOLI_wKZxXh3rX.7CoA3CypWxT3cSNAuu.CpsPxfSrjTD6nDaDWi8KislG.NUEQsEQylpeyj.4",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768524385.746093,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-sc",
+            "value": "0gAAAAABpaYNNnMN8TyQNwP0xB7Wm405-DuD1WSBIziZg_ycb_X3O2K6QY4TDqXtKrB0zd0L1r0CJhy2l1U3NlH8hvCTRvLYkqfYUsGK9fpaA7uAeHOr--vDrbrFJUBTu3DRsz-PAS0WZCr2KcW5qv24F7VsImLA_fpjaddkhTvfLCQMzBrc6baQp9WmnXAXUU3G9Y6lPZCG3h9qECq_wGW2OWitckcL2mKp_s_jVkvJXSs8XDQ7ofAU",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800058586.379248,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..hU3A2fh4XoAiyRr0.M6-JlVbysMy6YKFYqzvvOL-iiicJWG_laCYaB2AnWRuKmLWkjPpuh2cIGqlnuaxFaCLx0iZNq8yIpAq02gWRENLZaVqSCpKQGlgB65ZlK-LqbpKNFdU92Pc8oVykT9ZdBoJZbrhhT91G__0Sm16PfHRa42jdE5iZe91sFoXXGLjJX1LjeMDrK5QVYjt0uLGXI0qQtSI9XfQ0MGb8Dnkx5Ci4wrHi6DfWSYbqZKfmTOJNaBoOyGWl5FuvbrvymrXdEZtwPtEUwFPxpg63skQqnvwrYmJj-kzVKhtsu7HrgwBrofujqO7KgoAAF8txa19yP4b9hNt4DqD1z_PwzJHoNpxLNqiIWvd4e4xVLKRUS5Gn1RT9ZEbxzDWbfduK0df509X8vb7uLeio1Mp1N1A-FRJgmrId-gw09CsqotMnn4ogD-TmZz9aHruP8VeRp3MUhJ96-RfrXXXOhwuhgv_fnPcjfjIQGxg2rvbH-DHzniSGHJCIvXcRoPnRrskEq7WYGrurmKFxQNN8KvBTO4zyQhGpEk6izjld9on-xTCPaCRm6OzKueCLBDBOrn34x3AiZ6xMmQdIPjRfFPoanGuGpmZDLT7iowC53KxYagfN-w18HmiXLwQm2XA8tlEAwvOoo98Z5HP3zO-LxdDa4Xr9MBVZyDV90Ry2qW9aG6Zd6ScNhc7v1mdhN8gNcetrzFhAhEaV9yCBhUeOUw2ikFuf4rIw9mcuoN614kFVlPLH0qb6ku9V4h8EtGFoKqNjNRQdXORh51zxM72Uuw6tBRUsRosnlIS3ITTg6PhsP5a-zcYdp9oopQx_krnrbSSodxyfLgYh__TukzSdx_pivFN3uV-ZW5oIuY1XiKrmJTbLHZTa4tGXu75OA_XLu8jmRB7Dh3pNNF9o5RhLmfS5Ra04WKJW7S3xpC5cCcB1h_Br1-hPzTJ6qY23jFwM3431CR8Y17NmogOtBPsmQSV5eoOaC6hPRqS-3NNbFsZcPBPT79rHuF-b_vcknxW-8wVhvqej25W8PMxca6aEx1iBX4kbJNN94W0SvmQqRVxJES9yIo0C9qZjkFZ7XtDm9p3oQXF2YQHWX9f1ozMA4oMXiARh7Nc_FBuk9AW_ShJcIH8nTeFNhJt93-svRsuMn0pS8r3Lan1VdEVLsQ2-IaIOWtC0_1zScwmjnJRyqwaHTQhIelrIV8j8sNYVU_RHqRToBfvhEwx7dlH_OI9-m0bn8ZRhYkLn6LEXcZXye9igQWg3GABxJSdaqN7zqPZP7ANWs8uoiAnOQPQsSx35ncOoTrvvipmhWbSy8lgyL3i1O20vqkhsOhzg6UTJ3OyTNJlsrQWhX-BQLk8yaCoShe_pvbXr9wHzYoPbY7jVIqR7DXdUcUBxd61b6NvlDuQBg9KPDG9_8JMawLUKfYyPv5IpzgtPvQI7M77Pm2r4CxwU4Bhc3Iw06zvQWEqG4X-P7bThPMCFGRV4pyqI0ltGWdtBVJAUNvId_59BWcb3y-MpmMOJ5JbtxZN0xJYIKEhAgGvLRpL0StiSMyIckB2N7rNtO-JfgeZ8NwQaTFO2MRy_bTl2OldTynpCJPuS2UWRzd0h5UzN3FT12u8BwCx1hU3w7QsjnzDGEqbW0fe4gj7HLnePu6dvFnRSLsMd6H0mUdoSv63vtYxBlVp6uMiV-ZLUFq9DqfmZrYpqs2LDlEETFzO39IbUTBB9JZ5Ga6iojAg8zBoJtADVsYoAyOjBmy9KxnofGci3yX3b1cloKZUV0hEQwBQyKFx613xVcM001hltWwRBDaoV5ca6KmBO1_BEq5G5SdEvc9wQVeIfjXfsIS5wn7F-zBECCy2sYkpBfsLna9vpQPjtpKRJKugrVdIClcckLXIH2JML0Cepe6Eu3bgnrzmN7C20MDJnbFqBnkuorS407XnXOfm7k_vb1W7kVOXbyU49U4feUK6yjhNMv6VWv7hN_zs1L47SEM7pDfguRIzl7VqFb4eiin7rsR35Kj7af3pFPahPxFCGICOwo1PWU1ZQRg21-gM9dkt-c2Qwpe2K1odSfEspUsOxGf-qIHKg4d2-aNCXM7ctlv0ycE2i5HGRTVgiRwFCU9oGxHAbxFZTkGMT3BUtDqeCcCRJQUQ30IXQUWXiq0TS7zudLM0dOXDnaiBpDmBqCaZ1NEgAMUbjbs0E7ReK0hFaeQugHkP-b3wujNDzT6w9T0pUZtAym5xJzv1uoT9Aamm2Q_o7fHZCCKE3brtQmBTYijRD8n-z6vnOR69gVaVcmYJb0liA-F0ndV0cLVGirtBVITCXu-a7rjyjxt74zSbFtofoBTnbDXWTxkLcPHZCyttex0XSZoSazUoL3mU4VbVceIeyYirzf86LIbWpP7MGKT_TcMZMedy0yEcxPPsTG8-QggVDDSEgELkAtzbJltqMlMU-jebYDAnKk1G9E1ENg9Ifq_CRQxWAHHmuY2P6XNGCuyaMhBsK9qzODheQQL5yOIox7rCaZj2OKWlTSK9gJPQ26ANXmXaOi09QXvMDfieWCFIcqnmXgL08RWiYZKkIbDIec9RvJsL08n9yhY77mvrcF6c-WArQHxaMqjjxa-AkgIYuEJRihHgdjXJUiHIw3zCU-39MoHekh-A3qLi7t2oHFr2my6UkXDsWNn36J_eBYMGqie7CfcGRd-tqu-KC5SUvETz3aREiZ9hqX1I_0MnexcYmkOvnjA3AnCB18w5Dp1XPUUv3qwISd7_UX_xNimJhy7LJfoaZauaBIRNRTtH3wDa9ZkA4vFv7_VzI7ckZuBddeP4y4uto9QELYLMAIQ-nDxT9_PMp8fm5NikjPaHWqH_rvVVk1gEdCc5J4pKRqCL1EJwRH3bwrM1Dm1-f_xXLjaJDx8i0WQmdEuLpFV9cvf3yapzv6IbHIVSI8bjIvAHQsn3jBDaJgC0a6QO5ZsR4l4wBJAtdAJweswWrtM3vRKjtn2UWg8XMfST9t8LLOVaDZja6WWG5KK9Hthgft3IeLEkm9eCFQioUVWeiA8JyS1CejyP-Gv-dW0g_Drv0DDBUX_zL8LOqi2-yllsNG507e8Bdoq3NLx4q-dvh5Zo8vcERX0q4TzwUlUxWxgIZKl0EsERQ1flf95u2KlaDgAo6FUvAuz8SEXiWmEzqsbZJG7S2DwG5XVWXWDuXdw.6B0EVMj3BSi3R9MYNzJUSQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1776298586.493711,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "rum=2&id=4f9c0d5b-6c7d-4754-92e6-f81f18dd75d8&created=1768522586028&expire=1768523487039",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768523487,
+            "sameSite": "strict",
+            "domain": "sora.chatgpt.com"
+          }
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
+      },
+      {
+        "name": "Pro: Sora 37",
+        "cookies": [
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1768103717609,\"i_b\":\"dhYlttxNBcQWbQvBM8aBWS1BANdHnLeaFUoAPvSRwgs\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770695760.692063,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Host-next-auth.csrf-token",
+            "value": "d2d8e0ad178d9125f668801d505157f798a602bed375d41dc8bf330fb85c0596%7C6d45235fb206bfa177e2c14d84839d37fd2f640edbd82b828d14f893c7f1f198",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886053.887716,
+            "sameSite": "lax"
+          },
+          {
+            "name": "oai-did",
+            "value": "6dc0ca51-58b7-4973-99c6-71d94517ae52",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886053.887719,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "cf_clearance",
+            "value": "b4OXMxyyteNGlgn2Ru07.2L157sVjI7I_0ND8PIbizs-1768293788-1.2.1.1-QLHsnf9yRZFW1eS2iINSk_9EhF0_sG2jJ8Ksz9Jni1uwvaRMplB1vKbkQ2hL3psk3zDuvDW6e90v3WYfmJAoSWWzW9U1dl3Kp2j4eb8q5WTUE4XIJX_LCFgrXDQFIxVCDs7PnnaymOB7.MBwXN8benDBB00524xZnjYmUUwU83Eqga6EViT8dd3IiGmt5Cdpmn0P7ki..1sGvR9x.4c9VQUhDMy0UeP0DXtbXZX1Yxk",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886053.887721,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fchatgpt.com%2F",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886053.887722,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hlib",
+            "value": "true",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886053.887723,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_account_is_fedramp",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886053.887723,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_analytics",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886053.887724,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai_consent_marketing",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886053.887724,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-allow-ne",
+            "value": "false",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886053.887725,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-last-model-config",
+            "value": "%7B%22model%22%3A%22gpt-5-2-thinking%22%2C%22effort%22%3A%22standard%22%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886053.887725,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-client-auth-info",
+            "value": "%7B%22user%22%3A%7B%22name%22%3A%22Groupy%22%2C%22email%22%3A%22ncmhasjkhuw%40killua.cloud%22%2C%22picture%22%3A%22https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fgr.png%22%2C%22connectionType%22%3A1%2C%22timestamp%22%3A1768294022821%7D%2C%22isOptedOut%22%3Afalse%7D",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886053.887725,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-gn",
+            "value": "",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886053.887726,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-hm",
+            "value": "READY_WHEN_YOU_ARE%20%7C%20GOOD_TO_SEE_YOU",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886053.887726,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "aid=5c7487db-bc5f-471f-b40f-6a8a568e5913&rum=2&id=7de6e989-0711-4cc8-9221-eeadc149e673&created=1768293717895&expire=1768294947024&logs=1",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1770886053.887728,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a514557346269695259783739746e2f656c522b7a554e4d50436a75516f54706e457934304e39565351644a534546302b49",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1770886053.887716,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fsora.com",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "__cflb",
+            "value": "0H28vBjUqcdJN5F5i8DLknvCQqDro4yRbMiy1KyRK9w",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": "sora.chatgpt.com"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "N5EB9YvUYOjqm7mHYVMhYvCV4O0YCFiVeM.lT8fPEC0-1768520654743-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "V84YxmFvcIZCt5TQw216IAqwarTcLXGQXdddGthK8fU-1768520655-1.0.1.1-Wd_h5KGWvcpqqubfbYRpeiDgidMcCDHXCarUbT0_pSS_Bih2bT3zQ42AbTrbguonTnEYgKnthGPGwIB5c5Y0Vf69BsqugTqGBwsdVi6b87k",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "oai-sc",
+            "value": "0gAAAAABpaXvcfAvHCoqNREZY7AKu_xgp-ox8fORMqs8K6gOocMIqQRnMeWvD8xN3iJFMpdL39eZiM-GDnMm76Cs8RHgWMPucC4YZpg-T9ss1r5ttrrtFpNCRI1NqKasAczEB24OxxbRML3waqSA8K198auN1zCfDPfkMHSuZVWu8cdK5OxKpPRyZ1gRYL3y0OQclCLJeqzk-3-plSwlUyMR5KRp8SDflDGNe_RIxLFWSy0Jysb9yQNY",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800056681.393017,
+            "sameSite": "no_restriction",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..j-35-ZN7_9UTpXG6.T4S3xwQXkAZvnYVAaJ7t74nA5RNqZcgqRVWi2TD6vWOaGGPPYQ-jes2rWG_4_qe8sueChnCl8w1a0byJ4BX_KZEO9ePAM68jxvbKazBjWaDl3YJjTg-J8WLMH10ytcOILcTTd75PC-Xeqnk3FOPf5tvcTZC_WZr3hW9THCZVOEB4v7ICNfdbTVaQ2QljMHuWt-vQ8X-pBpmcj6So7PLzU8cDzVi4qdLTXsVspT_YvbpuJhtaSHyTmMfjKBIrwKosrJLxoFd5eRqhAWApNp8y6U9yPP-jh2RMQ3nqPEHrDU7g1FB0Lr0ut7XDBo4XD4PyG0sI4GSmTFw_ejjD64VN6LpVSfYyX2BhATzstr25CnVukrC2DV30SS2PT9W4-9iYc-PzXEOkVQHC6ogTSu8UIRCE2S-p67h7OeVKm2rGJXHPMN-s5Ng_riXqY0DthuF_HxVf0sxq1WNw8GqpMPcv8cVT2tU_ybFSjrrL7Kix_2vUUf7wj5ljDMcF1tl-Gtv4mq2UeLRPRQ5bvT_15aaQY2XmYKr7UtbIpx5dGj59tKsA45qH9JdVl6dSdYAYVLfTNgnjE-0vnZ2BmHbk891BoIyCFUzjXUB53HA8UhSxHh1arX4no22PWdubeuWYGAu0A2_BeN_PtRiihNGRTK0Nll7gpYAOJBperVGLMnfrpicosFBM9O2B3F9vpZ1Ot_d0mi38jZHQFYW3kDc8iF8lqd4HsSsOBGHjN1BtqH4elMwFcOPik7fYFt3jkCm5YOvCVO2u0t-MkdYzx6LOeHkmLsazcO-JT0hksR7cs_Y1jh29NPs0oG5Gm7FL6joSn9eLTSoo2Bpk6TQVGxDVD0fY7XNG8ousxO6VzdYixwFA46QPISdGP6aqtU-CTtsnTiwGLbpqwEt7u13dC16JRbfx4g5u18elenKk-tdsnJZmcvICOz6cTLfcAecWqMreLC9SDCi5N8LlPkk1DPfWWS0J-ytDAY5h6BoDpf6paC7aYxPBX5g_UPJNFeMkDuCQeYF7Ova5ySIzmC_croJS5y0evN56_yACJeSrOhTSgrecIBdo-wHSdoX7L-ssUAR4Yoe2Xe2zhNVrnWgusLpp7SEmBQTzYwLj2Kq78lbwngz9A70Xjs54zRZ89_YQ4kLyZwqelQ2qbuGZVRM_FnxSgpqMEj3UL5zUkt79SKvyaZmXsvGthkj3yAohH_2NXky8Pvee1mFDshTt8DelTpc2r4n3QgYLjaj2CkRoNIq74VtY3MIkqYrB7g5KtctSVCW1H02LdW0UHRguVj7_EEWG-7eoCYvkKK536tNfNjXKY0PSp5QNqMjrNsdFRXmjtP_-NwaZH4rPCibvni-29mYikk7g-WLoUWtZg1u5J7fDEcJqOmaYqc5Vs0_2JJv8CNUrMKlJrilhcNWHT7Hp0Ry2ndabdA7x9T8xNf5UzpYEvhy0dYPaO-IRgBQ_WBcHByghaoomovZqAicOZMSBx-gDrc78J0Sb19XxchW9GCHmIDlsRaqGy9CbhnlEvxkprIpO-yVyN40BAQvKnol5h6PcOn_cSPu-5K3T9i6AYGJ65gItVDbOQFuEAqYlNqz-JS2N649t1kbpcicdW6usvfzADuSP8ksbvrNAA8wEwQm9MzEnGq1jiAeoAev1V_v2YJa34C_eSPtub6NdGmMa3QnH_TrEGdbnY5lSUoA77wr_zF2dWzeATGsHZk4O4nTDgK91PbWF6_K-E2bMu0bDtTAFoNiO5Xn7bu1P5nHH44i681b4NJ9RTpcsOT4-G01lnkgTfkR3yIrqNsgGV6m2_iOLemHk0b1tv5EgFtr9EfNPsX-wMXpAyCmul_ROtSxw3TOoGvSYgl6LVpc97OeYUzBtNbmDhGgo6HzTFp87ziMAeSIlQ_tm-6ZukbovqDjEKYwDHk_38ZBnfMr-X-sgxrSnCfWvciywj2yBQcLz5X9bwS_2_86-tPGgZCZX2yFbvwl15gAZ5myKbUmJpEomDQ38akcnuebrZNusmkxgq3IO90lFNrArZ2C4Ce80gbsaff26Fq8SvggR8IiHkse6azvjr21KprsxFfZCjaEY2y-i1Xhp53HLVNSoS2qIaPQxh2snJa7AGasoNohyRvunsQ7_k0AIuqSpTlNwV8q8LSRVCHkbDXZu0-9dKIEqzb9xsOC387rse7wrajz3ANe-KRlJfEzHQ46TkrYwLRyjTZRri8F3nwvPfOGLlVmStgjW76c8PA-zW-M3YvaXjAR-sjlmMzhTzFxAJdL8s6cm8CuSQNqTrCtBA29JgYR-FBzycueolKYWz9woN6-RZL86kLB2vkzHobtERGX18iv4gJd2pg0FUdkp3E8aIxQnx3QGsVCswiXaqOzrGvy7l58lEpmQEKr9pk5Oq4bD_Phfx_4MH8QYpLdGPqDowuXQBmFFZz_GoIY5LnCfZHQw4J1mnH42hU6SQNuvB-DuYpwP6mdAxSk2sMuluzul0aaWuQiiGublAEOs6xzwjHw_RyTxGur8o5-yHQ2-k6aY6CP2_HZ63YYmIf6t01D-sU-pCakeuDR0dmBV4kKHvrSh0FyY4MOt71AccHPWvkEmi6LDGTMBPgegVmOpFHgwRqb8XP_uNYVsE6oYGrrhiqR_B2gqn6MrHbmDKUXu6x3oPMB-9fDzPRGXyXZt9Tnlhijfao90muBAOySbdlLmc-QXTfbciH2awDCkSuXyXQYBVuGPvvahLyqSdfpVVFyZqoXSEQMbWo3opfJ7yEbUyq2tHiYB1I_xccegOS7wNe2u5VeLBVVb7BDJGYJhn1YrMYtnFXoGtjhpnlqvuoxqNVoQsn7czKCaO2hfl-TXaGEjK9uH7Br6-MnwGBSi5n1K01q7_6zgleBNQspUxR6dW1Y4GhbUnI4UBziqzAsBmokTYDNvMO1JlCNUD2aaRsH7qQQykOtPXJRfh0gHA-qpxlww_t0xGBcj-jcckCvcEVUoHuqMHCjV7gn31HU7r1AZMjxNSNSqi2gxeSjuW1M38YDMCf0UA7uZzmfOPGx7JWOkMxFGVzEJm9bIxzqXacp_Jb9A4QKiqJkn2ayOkPOSehc8-lD7tIFNbXhrmFd6GNGZ6FigX0kzg547Im6H4uRA1y8E9sqa4Z3_UtsLSKJvfocq3F9F1D9kukXjpXU1sPZIleWKl7xIVlJ9PJlqMlt_Y-dyuZHba4GG99tW6LHcjlEVn19ag7ndE0_TOv0I0_VPKjseXN0oSlhI.ojiTndbvCowmU4B5IBIbHQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1776298178.741136,
+            "sameSite": "lax",
+            "domain": ".chatgpt.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "1WWddL2ZDHN2CoupDvxFjqBqK3cglye8Qy60oY7fJrY-1768522165-1.0.1.1-GlB1K2r_HR_uZZKBTLEPzqHDqo7kiJdQCoeWSZm5.SkxvKuKPam6Bgbg4rU6.IcweSCvyMv7I5._.Liw5VwCHL4aDKgTNYBhshqNiJMsOHU",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768523978.741294,
+            "sameSite": "no_restriction",
+            "domain": ".sora.chatgpt.com"
+          },
+          {
+            "name": "_dd_s",
+            "value": "rum=2&id=3635a2ec-d2be-45ab-99e2-64b55345b659&created=1768522179755&expire=1768523079755",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768523079,
+            "sameSite": "strict",
+            "domain": "sora.chatgpt.com"
+          }
+        ],
+        "sourceUrl": "https://sora.chatgpt.com/explore"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "id": "pro--storytribe-1102",
       "name": "Pro: StoryTribe",
       "icon": "https://media.licdn.com/dms/image/v2/D560BAQGFNn9uuWNKvA/company-logo_200_200/B56ZWE4DUHGUAU-/0/1741691041788/storytribeapp_logo?e=2147483647&v=beta&t=3qm4zJ4TSorw5yxfeP9WtXnDj_DKgiqhVZeGH42wT7g",
       "url": "https://gracely011.github.io/hai/manual.html?name=StoryTribe&login=beapp@prem1um.xyz&password=StoryTribeGroupy2025!&url=https://storytribeapp.com/login-signup",
@@ -57362,7 +66346,7 @@
   },
   {
     "meta": {
-      "id": "pro--tradingview-1118",
+      "id": "pro--tradingview-1119",
       "name": "Pro: TradingView",
       "icon": "https://groupy.id/assets/images/services/tradingview.png",
       "url": "https://www.tradingview.com/",
@@ -57526,7 +66510,7 @@
   },
   {
     "meta": {
-      "id": "pro--trae-ai-1119",
+      "id": "pro--trae-ai-1120",
       "name": "Pro: Trae AI",
       "icon": "https://pbs.twimg.com/profile_images/1946201092687114241/4X_B0XgN_400x400.png",
       "url": "https://www.trae.ai/",
@@ -58245,7 +67229,7 @@
   },
   {
     "meta": {
-      "id": "quizlet-1103",
+      "id": "quizlet-1104",
       "name": "Quizlet",
       "icon": "https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/szx9duflfycmltpnvcvw",
       "url": "https://quizlet.com/latest",
@@ -58627,7 +67611,7 @@
   },
   {
     "meta": {
-      "id": "rawpixel-1104",
+      "id": "rawpixel-1105",
       "name": "Rawpixel",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq1xJnAZa_h6WueAi4mr73cH3K7_pGeTz6Gw&s",
       "url": "https://www.rawpixel.com/",
@@ -58699,7 +67683,7 @@
   },
   {
     "meta": {
-      "id": "relume-1105",
+      "id": "relume-1106",
       "name": "Relume",
       "icon": "https://yt3.googleusercontent.com/MGRbvVhtCttJ7i2qW3igFxIJSkeoaRln_mIAFAfDgZIFD1yNUQC5mn1a5VqXKzcqRmAuDswu=s900-c-k-c0x00ffffff-no-rj",
       "url": "https://www.relume.io/",
@@ -58962,7 +67946,7 @@
   },
   {
     "meta": {
-      "id": "scite-1107",
+      "id": "scite-1108",
       "name": "Scite",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHo4BcTYbuMiQFR7oUYKZy6zjOgzEORDrzeie96OS1sj3Ur0LpoCPV_ts&s=10",
       "url": "https://gracely011.github.io/hai/manual.html?name=Scite&login=tibpbvgzxw@belajaar.id&password=Groupy2025!ocrtmmtnkn&url=https://scite.ai/assistant",
@@ -59002,7 +67986,7 @@
   },
   {
     "meta": {
-      "id": "scribd-1108",
+      "id": "scribd-1109",
       "name": "Scribd",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRebq-8lrzgXjVWMvUDApp_q1MhiL5eSyO15VAHMuNaE4RbrPi-f7c2NMc&s=10",
       "url": "https://www.scribd.com/home",
@@ -60160,7 +69144,7 @@
   },
   {
     "meta": {
-      "id": "semrush-1109",
+      "id": "semrush-1110",
       "name": "Semrush",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7TPtYsfoyLxuSORs6sqgApBGYHOx1aZ43ra1DqBNb8BRYz4ciWF4Mg9uR&s=10",
       "url": "https://www.semrush.com/home/",
@@ -60577,7 +69561,7 @@
   },
   {
     "meta": {
-      "id": "shots-1110",
+      "id": "shots-1111",
       "name": "Shots",
       "icon": "https://pbs.twimg.com/profile_images/1517996453146378245/RTP0-Jy3_400x400.jpg",
       "url": "https://gracely011.github.io/hai/manual.html?name=Shots&login=shotso@prem1um.xyz&password=Groupy2025!&url=https://shots.so",
@@ -60597,7 +69581,7 @@
   },
   {
     "meta": {
-      "id": "skillshare-1112",
+      "id": "skillshare-1113",
       "name": "Skillshare",
       "icon": "https://groupy.id/assets/images/services/skillshare.png",
       "url": "https://www.skillshare.com/en/home",
@@ -61055,7 +70039,7 @@
   },
   {
     "meta": {
-      "id": "slidesgo-1113",
+      "id": "slidesgo-1114",
       "name": "Slidesgo",
       "icon": "https://cdn-icons-png.flaticon.com/512/14649/14649063.png",
       "url": "https://gracely011.github.io/hai/manual.html?name=Slidesgo&login=gpy&password=NsW3xRmPMv&url=https://slidesgo.com/team/user209226220-team-68879521",
@@ -61109,7 +70093,7 @@
   },
   {
     "meta": {
-      "id": "slideshare-1114",
+      "id": "slideshare-1115",
       "name": "Slideshare",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFu2smlszvneX1otpsXxgwhKyPha7Boi8VJg&s",
       "url": "https://www.slideshare.net/",
@@ -61296,7 +70280,7 @@
   },
   {
     "meta": {
-      "id": "sololearn-1115",
+      "id": "sololearn-1116",
       "name": "Sololearn",
       "icon": "https://play-lh.googleusercontent.com/zxbe_H6JVg6ZnIeA1xorxxXr416kKdShmyonBzi5Qe28-GNdczX-NST_ul0AQJ007OA",
       "url": "https://gracely011.github.io/hai/manual.html?name=Sololearn&login=sololearn@belajaar.id&password=WeAreGroupy2025!&url=https://www.sololearn.com/en/users/login",
@@ -61615,7 +70599,7 @@
   },
   {
     "meta": {
-      "id": "studocu-1116",
+      "id": "studocu-1117",
       "name": "Studocu",
       "icon": "https://play-lh.googleusercontent.com/20ssDWF3SWEXIFYy8iFwXjomuIqtuHjGc3OxIWqVojIaeo_9_XxUZEDdmm5YPreLucij",
       "url": "https://www.studocu.com/en-us/home",
@@ -62094,7 +71078,7 @@
   },
   {
     "meta": {
-      "id": "symbolab-1117",
+      "id": "symbolab-1118",
       "name": "Symbolab",
       "icon": "https://play-lh.googleusercontent.com/DKlax_iJQtJOKJlIPDSS7DZpbm9gCkHh3vWgrj8BOMRwDPDVKXdTQf9sV4cRuXSdRA",
       "url": "https://www.symbolab.com/",
@@ -62280,7 +71264,7 @@
   },
   {
     "meta": {
-      "id": "the-wall-street-journal-1129",
+      "id": "the-wall-street-journal-1130",
       "name": "The Wall Street Journal",
       "icon": "https://play-lh.googleusercontent.com/eksxaPfxbTVb6VTl5aj1sXLpKc_N9Z6AZ3_5Oq6JhTXmgEQza-1v58a66p_ID0phE2Zv",
       "url": "https://gracely011.github.io/hai/manual.html?name=The%20Wall%20Street%20Journal&login=wsj@killua.cloud&password=TheWallStreetJournalGroupy2025!!!&url=https://www.wsj.com/",
@@ -62300,7 +71284,7 @@
   },
   {
     "meta": {
-      "id": "turbo-ai-1120",
+      "id": "turbo-ai-1121",
       "name": "Turbo AI",
       "icon": "https://play-lh.googleusercontent.com/c678Vjj3oQ8UmrDCYzczS6JDcFor4XxHLnc2gAW9Wk_pbE3KEMw1WZk-rTPucPoV7Sg",
       "url": "https://www.turbo.ai/dashboard",
@@ -62371,7 +71355,7 @@
   },
   {
     "meta": {
-      "id": "turnitin-1121",
+      "id": "turnitin-1122",
       "name": "Turnitin",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIrf73LGu_mACI2Mc_jdghOV02eXRocoXKo0o3qZHFjGgJMUr5M_v8uwap&s=10",
       "url": "https://gracely011.github.io/hai/manual.html?name=Turnitin&login=halo@belajaar.id&password=TurnitinmilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us",
@@ -62439,7 +71423,7 @@
   },
   {
     "meta": {
-      "id": "udemy-1123",
+      "id": "udemy-1124",
       "name": "Udemy",
       "icon": "https://play-lh.googleusercontent.com/dsCkmJE2Fa8IjyXERAcwc5YeQ8_NvbZ4_OI8LgqyjILpXUfS5YhEcnAMajKPrZI-og",
       "url": "https://www.udemy.com/personal/home/",
@@ -63702,7 +72686,7 @@
   },
   {
     "meta": {
-      "id": "vectorizer-ai-1124",
+      "id": "vectorizer-ai-1125",
       "name": "Vectorizer AI",
       "icon": "https://cdn.prod.website-files.com/648e04d4bbae7004f1b35f15/65de13535268a099387a6f60_vectorizer-ai-icon.png",
       "url": "https://vectorizer.ai/",
@@ -63774,7 +72758,7 @@
   },
   {
     "meta": {
-      "id": "viu-1125",
+      "id": "viu-1126",
       "name": "Viu",
       "icon": "https://groupy.id/assets/images/services/viu.png",
       "url": "https://gracely011.github.io/hai/manual.html?name=Viu&login=wardi0381@movieisme.com&password=premiumisme123&url=https://viu.com",
@@ -63926,7 +72910,7 @@
   },
   {
     "meta": {
-      "id": "wetv-1126",
+      "id": "wetv-1127",
       "name": "WeTV",
       "icon": "https://groupy.id/assets/images/services/wetv.png",
       "url": "https://wetv.vip/id/profile?tab=profile",
@@ -65026,7 +74010,7 @@
   },
   {
     "meta": {
-      "id": "wolframalpha-1127",
+      "id": "wolframalpha-1128",
       "name": "WolframAlpha",
       "icon": "https://play-lh.googleusercontent.com/OceHg5bH7EsTRwl-lD7jjV9WM0mpj0oH4YfA-CSbjvfa7NCLQBu5-4cLwNlDvCUp5Q4",
       "url": "https://www.wolframalpha.com/",
@@ -65077,7 +74061,7 @@
   },
   {
     "meta": {
-      "id": "writehuman-1128",
+      "id": "writehuman-1129",
       "name": "WriteHuman",
       "icon": "https://earlyshark.com/wp-content/uploads/2024/01/writehuman-logo-1024x1024.png",
       "url": "https://writehuman.ai/ai-detector",
@@ -65328,7 +74312,7 @@
   },
   {
     "meta": {
-      "id": "youtube-noads-1130",
+      "id": "youtube-noads-1131",
       "name": "YouTube NoAds",
       "icon": "https://play-lh.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc",
       "url": "https://gracely011.github.io/hai/youtube-noads.html",
