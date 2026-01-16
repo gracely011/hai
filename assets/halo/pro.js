@@ -191,7 +191,7 @@
   },
   {
     "meta": {
-      "id": "apple-music-1073",
+      "id": "apple-music-1075",
       "name": "Apple Music",
       "icon": "https://play-lh.googleusercontent.com/mOkjjo5Rzcpk7BsHrsLWnqVadUK1FlLd2-UlQvYkLL4E9A0LpyODNIQinXPfUMjUrbE",
       "url": "https://music.apple.com/ca/home",
@@ -566,7 +566,7 @@
   },
   {
     "meta": {
-      "id": "apple-tv--1123",
+      "id": "apple-tv--1125",
       "name": "Apple TV+",
       "icon": "https://play-lh.googleusercontent.com/1XBAZjSOWaVM7UDFKvzuMR-WRoR5gCnsYrw17_ihHLcJKT9Qc7hXptHwWQ3Bf83mry4",
       "url": "https://tv.apple.com/ca",
@@ -2541,7 +2541,7 @@
   },
   {
     "meta": {
-      "id": "brain-fm-1075",
+      "id": "brain-fm-1077",
       "name": "Brain.fm",
       "icon": "https://play-lh.googleusercontent.com/oQnd9u11H7j1g99Pzswt5LTm52g8XyMrgz0GRBX5lmzdPv2Vt7bBrOKgbVbs-gHc504=w240-h480-rw",
       "url": "https://my.brain.fm/",
@@ -3515,6 +3515,557 @@
   },
   {
     "meta": {
+      "id": "bypass---hix-ai-1052",
+      "name": "Bypass | HIX AI",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrXZQ0Wq17Y4CjDKiytXbd1hG39lu6u-rBsw&s",
+      "url": "https://hix.ai/app/bypass-ai-detection",
+      "category": "productivity",
+      "isGroup": true
+    },
+    "accounts": [
+      {
+        "name": "Bypass | HIX AI 1",
+        "cookies": [
+          {
+            "name": "_fbp",
+            "value": "fb.1.1765805508506.612256630117917398",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776086423,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "__Host-next-auth.csrf-token",
+            "value": "a4fe1be37d5727f79f5d33f8554e729cd393bb18db9c86de0f60ed36f7d39bd9%7C30032c5df0b64ab710c61b28657b6ddeda7dadbc0fb767a011ecce28f5d0753a",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax"
+          },
+          {
+            "name": "first-visit-url",
+            "value": "https%3A%2F%2Fhix.ai%2Fsign-in%3Fredirect%3D%2Fapp%2Fbypass-ai-detection",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1774445510,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "_gcl_au",
+            "value": "1.1.2056991721.1765805508.2140676440.1765805511.1765805511",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1773581508,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "FPID",
+            "value": "FPID2.2.bN5dckjA8VnoniLNulUUsahLmdYTEszAaFDXfH1xO1A%3D.1765805508",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1802870422.909102,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1765805512371,\"i_b\":\"ZHzWP/nAD3bt216rRF/65P2Ll10KUXF+GB6xSBON3w4\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1781357512,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "_ce.s",
+            "value": "lcw~1765805508610~v11ls~685598f0-d9ba-11f0-8ef4-b3cc9662d4ce~v~a3acfc2d9114b1856290c5a48fcd2b78dde672cc~vir~new~lva~1765805508518~vpv~0~v11.cs~458893~v11.s~685598f0-d9ba-11f0-8ef4-b3cc9662d4ce~v11.vs~a3acfc2d9114b1856290c5a48fcd2b78dde672cc~v11.fsvd~eyJ1cmwiOiJoaXguYWkvYXBwL2J5cGFzcy1haS1kZXRlY3Rpb24iLCJyZWYiOiIiLCJ1dG0iOltdfQ%3D%3D~v11.sla~1765805508609~v11.ss~1765805508610~lcw~1765805508610",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1797341508,
+            "sameSite": "strict",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "user_group",
+            "value": "154",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802870421.056883,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fhix.ai%2Fsign-in%3Fredirect%3D%252Fapp%252Fbypass-ai-detection",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.1119763755.1765805508",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802870422.330674,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "_tt_enable_cookie",
+            "value": "1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802006421,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "_ttp",
+            "value": "01KCH3BHZKXY8WN5HJJ9Z1N0JZ_.tt.1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802006421,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "cebs",
+            "value": "1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "cebsp_",
+            "value": "3",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "device-id",
+            "value": "118d0ea0eda7ac2d5a3f0eb104ffcfac",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1774445510,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a514557346269724b795055582b2b674c597a425633367a6c476b31586366664a5a73784a73352b4f447277613266455046",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1773581515,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "_uetsid",
+            "value": "9c419100f08211f092cb6dd17e4db057",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "_uetvid",
+            "value": "03f741a06b4c11f0a2a78756b89e0a10",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802006420,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "user-info",
+            "value": "%7B%22id%22%3A%22cmiywfczl01ttpmpi18ledg0i%22%2C%22name%22%3A%22KRIM%20CHEIKH%22%2C%22email%22%3A%22mo_patel92%40hotmail.co.uk%22%2C%22firstName%22%3A%22KRIM%22%2C%22lastName%22%3A%22CHEIKH%22%2C%22image%22%3A%22%22%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776086421.056549,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "_ga_JS0YXNKF22",
+            "value": "GS2.1.s1768310422$o2$g0$t1768310422$j60$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802870422.380304,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "_ga_NSMTS5QKXE",
+            "value": "GS2.1.s1768310422$o6$g0$t1768310422$j60$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802870422.384911,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "FPLC",
+            "value": "Ge61SPdKW9on5xQztU2nmPWXTo8Yqp1RgJ2o9IYI1ljm6d3iQknP8oWMSkPV%2BPswQkY2qX93K5SHOgG6xC8sBug%2Bl9XfShNrO0lQBmp1ehqCIHz2gZxZj6FORfelrw%3D%3D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "_yjsu_yjad",
+            "value": "1768310422.9e9d8faa-8ba6-458e-8b1a-b06ff0483fdb",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799846422,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "_clck",
+            "value": "rxk1ep%5E2%5Eg2o%5E0%5E2175",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799846423,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "_clsk",
+            "value": "1iah2ui%5E1768310425229%5E1%5E1%5Eb.clarity.ms%2Fcollect",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "ttcsid",
+            "value": "1768310421993::FNYbMl3OnBvUUm3GPswI.2.1768310432171.0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802006432,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "ttcsid_CVDREMRC77U6RTOFKU10",
+            "value": "1768310421992::4MsWLzq-bHmAtwWrtMNm.2.1768310432175.1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802006432,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..YROOroF091qJQ7Er.i-5X24R47jFWTDi1GOFKf6l4_-Sfti-oBQkB7xlZv-xHP20RR5u-6ADNbWzV9TFvGGz7b0Q4hQYzt2QF_-NMRFV94rFcte2mtpHVOyu9oSiyFj2XUy2VgAK-NoqRSeI_m-JUkZGdXTCwnPSFbDMI7sbDVcF87NG5VF4c5uea84-vaWoI6kCWJQfYlBywlxovVABTvnfIc1q2iJZ3-jQ0iqfhISYBW0ZyCyLc3m80a4Y6AJM_jG1SxzbJGFeLsEp5vW69qif1rbTriFxcUHEoBocqqXwdHSaldux-wWjKUJxz1SJxfMGhUJL4sACd0DHAORdmedQLY9P4F-9JDV20xPNxgemEZKOvSyG2F0plmGpQHYJkIy6e6tXj13jXcdmus6M-v6DNnhwMZI_7v3vGp_eyXxbrNxycOH5jpVPzProrFDWw4EHB7-OhIC29Ggq8ooY-Weua0LfIEJLZmg.FiMwaA2dMowB9gkCAxSq0g",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776086561.251036,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          }
+        ],
+        "sourceUrl": "https://hix.ai/app/bypass-ai-detection"
+      },
+      {
+        "name": "Bypass | HIX AI 2",
+        "cookies": [
+          {
+            "name": "_fbp",
+            "value": "fb.1.1765805508506.612256630117917398",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776271694.709795,
+            "sameSite": "lax",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "__Host-next-auth.csrf-token",
+            "value": "a4fe1be37d5727f79f5d33f8554e729cd393bb18db9c86de0f60ed36f7d39bd9%7C30032c5df0b64ab710c61b28657b6ddeda7dadbc0fb767a011ecce28f5d0753a",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax"
+          },
+          {
+            "name": "first-visit-url",
+            "value": "https%3A%2F%2Fhix.ai%2Fsign-in%3Fredirect%3D%2Fapp%2Fbypass-ai-detection",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1774445510,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "_gcl_au",
+            "value": "1.1.2056991721.1765805508.2140676440.1765805511.1765805511",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1773581508,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "FPID",
+            "value": "FPID2.2.bN5dckjA8VnoniLNulUUsahLmdYTEszAaFDXfH1xO1A%3D.1765805508",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1803055694.709649,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1765805512371,\"i_b\":\"ZHzWP/nAD3bt216rRF/65P2Ll10KUXF+GB6xSBON3w4\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1781357512,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "_ce.s",
+            "value": "lcw~1765805508610~v11ls~685598f0-d9ba-11f0-8ef4-b3cc9662d4ce~v~a3acfc2d9114b1856290c5a48fcd2b78dde672cc~vir~new~lva~1765805508518~vpv~0~v11.cs~458893~v11.s~685598f0-d9ba-11f0-8ef4-b3cc9662d4ce~v11.vs~a3acfc2d9114b1856290c5a48fcd2b78dde672cc~v11.fsvd~eyJ1cmwiOiJoaXguYWkvYXBwL2J5cGFzcy1haS1kZXRlY3Rpb24iLCJyZWYiOiIiLCJ1dG0iOltdfQ%3D%3D~v11.sla~1765805508609~v11.ss~1765805508610~lcw~1765805508610",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1797341508,
+            "sameSite": "strict",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "user_group",
+            "value": "154",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1803055693.641438,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "__Secure-next-auth.callback-url",
+            "value": "https%3A%2F%2Fhix.ai%2Fsign-in%3Fredirect%3D%252Fapp%252Fbypass-ai-detection",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.1119763755.1765805508",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1803055694.03125,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "_tt_enable_cookie",
+            "value": "1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802191693,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "_ttp",
+            "value": "01KCH3BHZKXY8WN5HJJ9Z1N0JZ_.tt.1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802191693,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "cebs",
+            "value": "1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "cebsp_",
+            "value": "3",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "strict",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "device-id",
+            "value": "118d0ea0eda7ac2d5a3f0eb104ffcfac",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1774445510,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a514557346269724b795055582b2b674c597a425633367a6c476b31586366664a5a73784a73352b4f447277613266455046",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1773581515,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "_uetsid",
+            "value": "fb778f80f23111f0b48d9b29c59c1de0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768582093,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "_uetvid",
+            "value": "03f741a06b4c11f0a2a78756b89e0a10",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802191693,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "user-info",
+            "value": "%7B%22id%22%3A%22cmiywfczl01ttpmpi18ledg0i%22%2C%22name%22%3A%22-%20-%22%2C%22email%22%3A%22mo_patel92%40hotmail.co.uk%22%2C%22firstName%22%3A%22-%22%2C%22lastName%22%3A%22-%22%2C%22image%22%3A%22%22%7D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776271693.641124,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "ttcsid",
+            "value": "1768495693695::2rVti3ye3xvggY0XT2lS.2.1768495693980.0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802191693,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "ttcsid_CVDREMRC77U6RTOFKU10",
+            "value": "1768495693695::ij8Hoz-35_4WG0xWUrhL.2.1768495693980.0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802191693,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "_ga_NSMTS5QKXE",
+            "value": "GS2.1.s1768495693$o6$g0$t1768495694$j59$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1803055694.089474,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "_ga_JS0YXNKF22",
+            "value": "GS2.1.s1768495694$o2$g0$t1768495694$j60$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1803055694.092894,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "_clck",
+            "value": "rxk1ep%5E2%5Eg2q%5E0%5E2175",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800031694,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..L2i6xknwDyQ13YOZ.30iJXpiJi_o5F-zq93TfzINPsM_iME4TKrCYMlFCtz4UeSWZeuHYMHmB7GDRRqUuqkvc4n2C90b1oS3Srx3jOVdXrh3AiOcJWpkEcgLceJM8xaKAYhDsJjv4m6FrBamWXzVsVNVHf1V5JtfV7QSDW8mU__ZiLhRKKBMBwHIou0nFSkWpf6UcufVbngvDVy651fLELY0WDkmaK4x8pCvAyAXRRT2PZ61ffE3EZpPW9F2IaWNjzM-iF9JtKFBaN7IDEzIgBrAMFTPVFJLbTlf-qO9DCpCpsyeOxLBl8Junukkwl3eoI-0TjX7-VXzLwyY0K-Yk7jO_jpVbV9DHbGfxt0McOheUlfyN7RO8Vsu5ZjtqPqdSKlKvK8Uuek6gBeiTNw8vnSnVQQyguv_BM9uSptPP1F9oV8CuSQhR8Cb9ZnNZXdeCB9xyHpSrG87fFSgRkvMl3qieHheWX-ysyA.ei6AcRiFSRC1W0Ha-gvGqA",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776271694.406597,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          },
+          {
+            "name": "FPLC",
+            "value": "URFNbq38QiN6EFIiZIe57KJwjbJxAOOdeFGd%2FpnFoemYG6l0Ep5DnXwvRfUcwmgOJWMGPtvnnJbWyrvfVrc8SU0mf7RQ41JcDmc%2BzCTQG7hOVgDbblmcD02vScCqgg%3D%3D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768567694.709755,
+            "sameSite": "no_restriction",
+            "domain": ".hix.ai"
+          }
+        ],
+        "sourceUrl": "https://hix.ai/app/bypass-ai-detection"
+      }
+    ]
+  },
+  {
+    "meta": {
       "id": "bypassgpt-1016",
       "name": "BypassGPT",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVpNp17p7NogV0-YTH9UnJYGg7IowMwYmj3w&s",
@@ -3713,7 +4264,7 @@
   },
   {
     "meta": {
-      "id": "canva-1089",
+      "id": "canva-1091",
       "name": "Canva",
       "icon": "https://play-lh.googleusercontent.com/JC3HW-ps59VAEU3vuJoi3I5XB_IQ9ISuILLudUY9uLSW7eKfqtXitrB-fF865rV4TQ",
       "url": "https://gracely011.github.io/hai/manual.html?name=Canva&login=danilkina7@miisedapp.biz.id&password=masuk123&url=https://canva.com/",
@@ -24329,7 +24880,39 @@
   },
   {
     "meta": {
-      "id": "freepik-1043",
+      "id": "flickreels-1043",
+      "name": "FlickReels",
+      "icon": "https://yt3.googleusercontent.com/Nr6kUD1b72g6tdrtijUtuIFVFQK4UU_JRXT5_fv748Fj96fs6OWIYweCGSvE-G0azgWiFtSo=s900-c-k-c0x00ffffff-no-rj",
+      "url": "https://dracinfy.com/",
+      "category": "streaming"
+    },
+    "cookies": [
+      {
+        "name": "auth_token",
+        "value": "f46eeced2bcf4d67ed8355fab5a5527c0a47fca58eb28523f245aa7f0ff07fd3",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1799959142.665025,
+        "sameSite": "no_restriction",
+        "domain": ".dracinfy.com"
+      },
+      {
+        "name": "sign",
+        "value": "445275774777774b50534a764f797a5145573462696d6f6d6d4c38494f724e684961304e386f41554b4a57324f613855575057656b6e5454664668506f37494f",
+        "path": "/",
+        "httpOnly": false,
+        "secure": true,
+        "expirationDate": 1799959142.665025,
+        "sameSite": "no_restriction",
+        "domain": ".dracinfy.com"
+      }
+    ],
+    "sourceUrl": "https://dracinfy.com/"
+  },
+  {
+    "meta": {
+      "id": "freepik-1044",
       "name": "Freepik",
       "icon": "https://groupy.id/assets/images/services/freepik.png",
       "url": "https://www.freepik.com/user/my-subscriptions",
@@ -24562,7 +25145,7 @@
   },
   {
     "meta": {
-      "id": "gamma-1045",
+      "id": "gamma-1046",
       "name": "Gamma",
       "icon": "https://store-images.s-microsoft.com/image/apps.53673.13800228740496758.b926c1b0-f31a-4a9b-b1b3-88dd15f27137.a0a38389-643f-48ed-9379-92a9fb5a7c94",
       "url": "https://gracely011.github.io/hai/manual.html?name=Gamma&login=owndbygroupyyy@prem1um.xyz&password=Gamma.AppByGroupy2026!&url=https://gamma.app/signin",
@@ -24899,7 +25482,7 @@
   },
   {
     "meta": {
-      "id": "ground-news-1048",
+      "id": "ground-news-1049",
       "name": "Ground News",
       "icon": "https://play-lh.googleusercontent.com/61Y1REKFBgC1C6YxQwZA56516gR1zCw-HIaNyP_WV_MnR6Fuofzd8-uWBHzKxZP7mwM",
       "url": "https://gracely011.github.io/hai/manual.html?name=Ground%20News&login=news@belajaar.id&password=NewsGroupy2025!&url=https://ground.news/login",
@@ -24919,7 +25502,7 @@
   },
   {
     "meta": {
-      "id": "guitartricks-1049",
+      "id": "guitartricks-1050",
       "name": "GuitarTricks",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlrIfBbD7fof4ZwKxkeWgU0t2u1lK7x_nPrA&s",
       "url": "https://www.guitartricks.com/home",
@@ -25264,7 +25847,7 @@
   },
   {
     "meta": {
-      "id": "hbo-max-1050",
+      "id": "hbo-max-1051",
       "name": "HBO Max",
       "icon": "https://play-lh.googleusercontent.com/bvyVXgpxu65YO3PNeVhNM9Y7ao7g7FnnKdoNXcwqO48aOlVvnH_b2O9rcZzgEFHzHtI",
       "url": "https://gracely011.github.io/hai/manual.html?name=HBO%20Max%202&login=hbo01@belajaar.id&password=HBOgroupy2025!&url=https://play.max.com",
@@ -25304,7 +25887,7 @@
   },
   {
     "meta": {
-      "id": "iflix-1053",
+      "id": "iflix-1055",
       "name": "iflix",
       "icon": "https://play-lh.googleusercontent.com/_j_9jVM50j43oII8sejBsK4DkHXxFw_MYUQOcHNjgX7SgJMQiLUsa8BuKWGK_84H_OE",
       "url": "https://www.iflix.com/en",
@@ -25660,7 +26243,7 @@
   },
   {
     "meta": {
-      "id": "iloveimg-1054",
+      "id": "iloveimg-1056",
       "name": "iLoveIMG",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVjyJOS7PN-2Xh37-pXo0aOghZLt45Fa2UBw&s",
       "url": "https://www.iloveimg.com/",
@@ -25822,7 +26405,7 @@
   },
   {
     "meta": {
-      "id": "ilovepdf-1055",
+      "id": "ilovepdf-1057",
       "name": "iLovePDF",
       "icon": "https://play-lh.googleusercontent.com/I5yxs1Pspu1rB3NPfqnoX2NscvfzAW7e3Zq5GGhXcr2g207X9-npiuP48Ys7107M1VvA",
       "url": "https://www.ilovepdf.com/",
@@ -25975,7 +26558,7 @@
   },
   {
     "meta": {
-      "id": "iqiyi-1057",
+      "id": "iqiyi-1059",
       "name": "iQIYI",
       "icon": "https://groupy.id/assets/images/services/iqiyi.png",
       "url": "https://www.iq.com/",
@@ -26663,7 +27246,7 @@
   },
   {
     "meta": {
-      "id": "linkedin-learning-1061",
+      "id": "linkedin-learning-1063",
       "name": "LinkedIn Learning",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4fcdsIUPUgmbvGaP-RC4RbHYdVtoN_fM8aya_8gOXI2BRtClESO-0_jgWTtKtIVmOQKs&usqp=CAU",
       "url": "https://www.linkedin.com/learning/?u=73723940",
@@ -26924,7 +27507,7 @@
   },
   {
     "meta": {
-      "id": "lovable-1062",
+      "id": "lovable-1064",
       "name": "Lovable",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTysfvFgHMVChk-7glLKWvdIJLLoA2aau0m1g&s",
       "url": "https://gracely011.github.io/hai/manual.html?name=Lovable&login=lovablegroupy@prem1um.xyz&password=LovableGroupy2025!&url=https://lovable.dev/",
@@ -26992,7 +27575,7 @@
   },
   {
     "meta": {
-      "id": "marvel-unlimited-1063",
+      "id": "marvel-unlimited-1065",
       "name": "Marvel Unlimited",
       "icon": "https://play-lh.googleusercontent.com/ikcy-XJG8_oFwVztH9vK3y--_mUcRu5zyco7d4FqugxzSkX9wMo63oBDPLWZnUsYDg",
       "url": "https://www.marvel.com/comics/unlimited/home",
@@ -27268,7 +27851,7 @@
   },
   {
     "meta": {
-      "id": "masterclass-1064",
+      "id": "masterclass-1066",
       "name": "MasterClass",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeoBuunz4xK_-2t35N6astSudIfb7Bnr0R6HDcwoqbzmzOcuNpiZdiRFRv&s=10",
       "url": "https://www.masterclass.com/profiles",
@@ -27648,7 +28231,7 @@
   },
   {
     "meta": {
-      "id": "medium-1066",
+      "id": "medium-1068",
       "name": "Medium",
       "icon": "https://miro.medium.com/v2/resize:fill:128:128/1*sHhtYhaCe2Uc3IU0IgKwIQ.png",
       "url": "https://medium.com/",
@@ -27747,7 +28330,7 @@
   },
   {
     "meta": {
-      "id": "melolo-1067",
+      "id": "melolo-1069",
       "name": "Melolo",
       "icon": "https://play-lh.googleusercontent.com/zLxJyyx3aGLSR63NvdVv6ERGaLwIujdCRwsEi_-G-6FhCzdrIGMKXUExLQWo29OcZ4A2",
       "url": "https://dracinfy.com/",
@@ -27779,7 +28362,7 @@
   },
   {
     "meta": {
-      "id": "mentimeter-1068",
+      "id": "mentimeter-1070",
       "name": "Mentimeter",
       "icon": "https://images.saasworthy.com/mentimeter_870_logo_1600681783_e5oqu.png",
       "url": "https://gracely011.github.io/hai/manual.html?name=Mentimeter&login=mentimeter@prem1um.xyz&password=MentimeterGroupy2025!&url=https://www.mentimeter.com/app/home",
@@ -27799,7 +28382,7 @@
   },
   {
     "meta": {
-      "id": "mermaidchart-1069",
+      "id": "mermaidchart-1071",
       "name": "Mermaidchart",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPMgbHVXJCw0zQzk3DtR607-823YIxR1Zi_Q&s",
       "url": "https://www.mermaidchart.com/app/login?redirect=%2Fapp%2Fdashboard",
@@ -27947,7 +28530,7 @@
   },
   {
     "meta": {
-      "id": "motion-array-1071",
+      "id": "motion-array-1073",
       "name": "Motion Array",
       "icon": "https://s3-eu-west-1.amazonaws.com/tpd/logos/5b1e60b2b50df6000112eb83/0x0.png",
       "url": "https://motionarray.com/",
@@ -28223,7 +28806,7 @@
   },
   {
     "meta": {
-      "id": "mubi-1072",
+      "id": "mubi-1074",
       "name": "Mubi",
       "icon": "https://images.mubicdn.net/images/avatars/169655/cache-169655-1620041787/images-large.png?size=800x",
       "url": "https://mubi.com/en/id/showing",
@@ -28566,7 +29149,7 @@
   },
   {
     "meta": {
-      "id": "musicbed-1074",
+      "id": "musicbed-1076",
       "name": "Musicbed",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMRzHPEXnSURkOyU9StcI8BZPOTeqzvcJP_A&s",
       "url": "https://www.musicbed.com/songs",
@@ -28763,7 +29346,7 @@
   },
   {
     "meta": {
-      "id": "netflix-1076",
+      "id": "netflix-1078",
       "name": "Netflix",
       "icon": "https://groupy.id/assets/images/services/netflix.png",
       "url": "https://www.netflix.com/browse",
@@ -33269,7 +33852,7 @@
   },
   {
     "meta": {
-      "id": "netshort-1077",
+      "id": "netshort-1079",
       "name": "NetShort",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTElpPW66yYibnlWlVKtVFgwfLnHXgZwYsy2Q&s",
       "url": "https://dracinfy.com/",
@@ -33301,7 +33884,7 @@
   },
   {
     "meta": {
-      "id": "notebooklm-1078",
+      "id": "notebooklm-1080",
       "name": "NotebookLM",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRJ_-m9Y994yfZimh_h8Yzn0sMx2IsfVoDIQ&s",
       "url": "https://gracely011.github.io/hai/manual.html?name=NotebookLM&login=gpypremium@sharingwithgpy.com&password=SharingWithGroupy2026!&url=https://notebooklm.google.com/",
@@ -33321,7 +33904,7 @@
   },
   {
     "meta": {
-      "id": "notegpt-1079",
+      "id": "notegpt-1081",
       "name": "NoteGPT",
       "icon": "https://10web.io/wp-content/uploads/2024/08/NoteGPT_logo.jpg",
       "url": "https://notegpt.io/workspace/home",
@@ -33448,7 +34031,7 @@
   },
   {
     "meta": {
-      "id": "notion-1080",
+      "id": "notion-1082",
       "name": "Notion",
       "icon": "https://play-lh.googleusercontent.com/vy-9s86d-81wk1acsXvAxN1xV5Y-doJdgbskG3GonOerbUwUtvNXk_XSRHoraaXZcX4",
       "url": "https://www.notion.so/Teamspace-Home-2e7f85c3cdd381e5a61df1f2a0b93007",
@@ -33685,7 +34268,7 @@
   },
   {
     "meta": {
-      "id": "pacdora-1081",
+      "id": "pacdora-1083",
       "name": "Pacdora",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9l1bvE2alHZrnR4bmSsbK2KjHemNk_p4Dsf-GVh6-5hFtZgugYYNfQfo0L3CQxZqdLC4&usqp=CAU",
       "url": "https://www.pacdora.com/my-design",
@@ -34105,7 +34688,7 @@
   },
   {
     "meta": {
-      "id": "perplexity-1083",
+      "id": "perplexity-1085",
       "name": "Perplexity",
       "icon": "https://play-lh.googleusercontent.com/6STp0lYx2ctvQ-JZpXA1LeAAZIlq6qN9gpy7swLPlRhmp-hfvZePcBxqwVkqN2BH1g",
       "url": "https://www.perplexity.ai/",
@@ -35009,7 +35592,7 @@
   },
   {
     "meta": {
-      "id": "picsart-1084",
+      "id": "picsart-1086",
       "name": "Picsart",
       "icon": "https://play-lh.googleusercontent.com/1JMJ518jogwPeaD0pYn2mBu1cRLD0xRi45wNbtTIRvam1_xx-y3KJOjRAx-W9P4Lf0U=s256-rw",
       "url": "https://gracely011.github.io/hai/manual.html?name=Picsart&login=sgpgemk@nuyul.id&password=Premium@123&url=https://picsart.com/",
@@ -35063,7 +35646,7 @@
   },
   {
     "meta": {
-      "id": "prezi-ai-1087",
+      "id": "prezi-ai-1089",
       "name": "Prezi AI",
       "icon": "https://play-lh.googleusercontent.com/3rVZ7Lc7-bxsALDo0nWOcuojR9ISxlhO20KnVM3uP00drxIXXt7ATM0V5-YjfM0pPtA",
       "url": "https://prezi.com/dashboard/next/",
@@ -35423,7 +36006,7 @@
   },
   {
     "meta": {
-      "id": "prime-video-1088",
+      "id": "prime-video-1090",
       "name": "Prime Video",
       "icon": "https://groupy.id/assets/images/services/primevideo.png",
       "url": "https://www.primevideo.com/region/eu/",
@@ -39638,7 +40221,7 @@
   },
   {
     "meta": {
-      "id": "pro--apple-music-1095",
+      "id": "pro--apple-music-1097",
       "name": "Pro: Apple Music",
       "icon": "https://play-lh.googleusercontent.com/mOkjjo5Rzcpk7BsHrsLWnqVadUK1FlLd2-UlQvYkLL4E9A0LpyODNIQinXPfUMjUrbE",
       "url": "https://music.apple.com/ca/home",
@@ -40492,7 +41075,7 @@
   },
   {
     "meta": {
-      "id": "pro--chatgpt-1090",
+      "id": "pro--chatgpt-1092",
       "name": "Pro: ChatGPT",
       "icon": "https://groupy.id/assets/images/services/chatgptplus.png",
       "url": "https://chatgpt.com/",
@@ -48311,7 +48894,7 @@
   },
   {
     "meta": {
-      "id": "pro--chatgpt-pro-1091",
+      "id": "pro--chatgpt-pro-1093",
       "name": "Pro: ChatGPT Pro",
       "icon": "https://groupy.id/assets/images/services/chatgptpro.png",
       "url": "https://chatgpt.com/",
@@ -51461,7 +52044,7 @@
   },
   {
     "meta": {
-      "id": "pro--frontend-masters-1044",
+      "id": "pro--frontend-masters-1045",
       "name": "Pro: Frontend Masters",
       "icon": "https://play-lh.googleusercontent.com/8X11A1RYP--qUN-FA3tuEdNG--8QSptibgY6xWQRUDI2YASyAXe726CaE_jEohFYGno",
       "url": "https://frontendmasters.com/dashboard/",
@@ -51546,7 +52129,7 @@
   },
   {
     "meta": {
-      "id": "pro--gemini-ai-1092",
+      "id": "pro--gemini-ai-1094",
       "name": "Pro: Gemini AI",
       "icon": "https://static.vecteezy.com/system/resources/previews/055/687/055/non_2x/rectangle-gemini-google-icon-symbol-logo-free-png.png",
       "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Gemini%20AI&login=geminipro2@sharingwithgpy.com&password=JanganDigantiPasswordBro..Groupy2026!&url=https://gemini.google.com/",
@@ -51569,7 +52152,7 @@
   },
   {
     "meta": {
-      "id": "pro--gemini-ai-ultra-1103",
+      "id": "pro--gemini-ai-ultra-1105",
       "name": "Pro: Gemini AI Ultra",
       "icon": "https://static.vecteezy.com/system/resources/previews/055/687/055/non_2x/rectangle-gemini-google-icon-symbol-logo-free-png.png",
       "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Gemini%20AI%20Ultra&login=gpyultra@sharingwithgpy.com&password=JanganDiGantiPassword..Groupy2026!&url=https://gemini.google.com/",
@@ -51592,7 +52175,7 @@
   },
   {
     "meta": {
-      "id": "pro--hbo-max-1094",
+      "id": "pro--hbo-max-1096",
       "name": "Pro: HBO Max",
       "icon": "https://play-lh.googleusercontent.com/bvyVXgpxu65YO3PNeVhNM9Y7ao7g7FnnKdoNXcwqO48aOlVvnH_b2O9rcZzgEFHzHtI",
       "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20HBO%20Max&login=bekal@prem1um.xyz&password=patuhisnk!&url=https://play.max.com/",
@@ -51691,7 +52274,7 @@
   },
   {
     "meta": {
-      "id": "pro--humata-ai-1051",
+      "id": "pro--humata-ai-1053",
       "name": "Pro: Humata AI",
       "icon": "https://www.humata.ai/favicon.ico",
       "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Humata%20AI&login=userhumata@belajaar.id&password=HumataProGroupy2025!&url=https://app.humata.ai/login",
@@ -51714,7 +52297,7 @@
   },
   {
     "meta": {
-      "id": "pro--iconscout-1052",
+      "id": "pro--iconscout-1054",
       "name": "Pro: IconScout",
       "icon": "https://cdn.iconscout.com/icon/free/png-256/free-iconscout-logo-icon-download-in-svg-png-gif-file-formats--company-pack-logos-icons-4674919.png",
       "url": "https://iconscout.com/",
@@ -51873,7 +52456,7 @@
   },
   {
     "meta": {
-      "id": "pro--investingpro-1056",
+      "id": "pro--investingpro-1058",
       "name": "Pro: InvestingPro",
       "icon": "https://pbs.twimg.com/profile_images/1108338370026053632/JrSrbA-c_400x400.png",
       "url": "https://www.investing.com/",
@@ -52188,7 +52771,7 @@
   },
   {
     "meta": {
-      "id": "pro--jenni-ai-1058",
+      "id": "pro--jenni-ai-1060",
       "name": "Pro: Jenni AI",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjzHV0xQOmnu0xowDdW71mIklQHOJ7RjdzHg&s",
       "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Jenni%20AI&login=jenni@prem1um.xyz&password=JenniAIGroupy2025!&url=https://app.jenni.ai/",
@@ -52211,7 +52794,7 @@
   },
   {
     "meta": {
-      "id": "pro--julius-ai-1059",
+      "id": "pro--julius-ai-1061",
       "name": "Pro: Julius AI",
       "icon": "https://play-lh.googleusercontent.com/5TBQ0_UiHHQ3DmZIOd1fQPRXSIUInSGsIGNgWMTb9fjeQtn7LOW15N6w-krdJxbdaw",
       "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Julius%20AI&login=member@shietoshi.xyz&password=gpyWeAreProGroupy2025!&url=https://auth.julius.ai/",
@@ -52577,7 +53160,7 @@
   },
   {
     "meta": {
-      "id": "pro--mathacademy-1065",
+      "id": "pro--mathacademy-1067",
       "name": "Pro: Mathacademy",
       "icon": "https://pbs.twimg.com/profile_images/1646549566052003841/Z5yj3RDi_400x400.jpg",
       "url": "https://www.mathacademy.com/learn",
@@ -52662,7 +53245,7 @@
   },
   {
     "meta": {
-      "id": "pro--merlin-ai-1093",
+      "id": "pro--merlin-ai-1095",
       "name": "Pro: Merlin AI",
       "icon": "https://play-lh.googleusercontent.com/8XoSS1Jn3qHfm8cB4gq6YMQAWv_PIRCUtH2r5RiDq0s05QM47JtwEjs6V_aFh_SmOZ0",
       "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Merlin%20AI&login=foolded@prem1um.xyz&password=EnJoYersGroupy2026!&url=https://www.getmerlin.in/login",
@@ -52719,7 +53302,7 @@
   },
   {
     "meta": {
-      "id": "pro--mobbin-1070",
+      "id": "pro--mobbin-1072",
       "name": "Pro: Mobbin",
       "icon": "https://asset.brandfetch.io/idIfIyyq5-/id2DzZkAtw.png",
       "url": "https://mobbin.com/discover/apps/ios/latest",
@@ -52886,7 +53469,7 @@
   },
   {
     "meta": {
-      "id": "pro--netflix-1096",
+      "id": "pro--netflix-1098",
       "name": "Pro: Netflix",
       "icon": "https://groupy.id/assets/images/services/netflix.png",
       "url": "https://www.netflix.com/browse",
@@ -55000,7 +55583,7 @@
   },
   {
     "meta": {
-      "id": "pro--nily-ai-1046",
+      "id": "pro--nily-ai-1047",
       "name": "Pro: Nily AI",
       "icon": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-email-Nily_AI-800x800-0-2-1_uuid_9beae3ae-02e7-47a9-8213-16a9367c2bee.png",
       "url": "https://go.nily.ai/multi-chat/new-chat",
@@ -55065,7 +55648,7 @@
   },
   {
     "meta": {
-      "id": "pro--notebooklm-1097",
+      "id": "pro--notebooklm-1099",
       "name": "Pro: NotebookLM",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRJ_-m9Y994yfZimh_h8Yzn0sMx2IsfVoDIQ&s",
       "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20NotebookLM&login=geminipro2@sharingwithgpy.com&password=JanganDigantiPasswordBro..Groupy2026!&url=https://gemini.google.com/",
@@ -55088,7 +55671,7 @@
   },
   {
     "meta": {
-      "id": "pro--perlego-1082",
+      "id": "pro--perlego-1084",
       "name": "Pro: Perlego",
       "icon": "https://cms-resources.prd.timeshighereducation.com/sites/default/files/styles/large/public/2023-03/Perlego-logo_square_1.jpg?itok=pWI0VoCN",
       "url": "https://www.perlego.com/home",
@@ -55431,7 +56014,7 @@
   },
   {
     "meta": {
-      "id": "pro--perplexity-1098",
+      "id": "pro--perplexity-1100",
       "name": "Pro: Perplexity",
       "icon": "https://play-lh.googleusercontent.com/6STp0lYx2ctvQ-JZpXA1LeAAZIlq6qN9gpy7swLPlRhmp-hfvZePcBxqwVkqN2BH1g",
       "url": "https://www.perplexity.ai/",
@@ -55970,7 +56553,7 @@
   },
   {
     "meta": {
-      "id": "pro--picsart-1099",
+      "id": "pro--picsart-1101",
       "name": "Pro: Picsart",
       "icon": "https://play-lh.googleusercontent.com/1JMJ518jogwPeaD0pYn2mBu1cRLD0xRi45wNbtTIRvam1_xx-y3KJOjRAx-W9P4Lf0U=s256-rw",
       "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Picsart&login=nomuzoo@nuyul.id&password=Premium@123&url=https://picsart.com/",
@@ -55993,7 +56576,7 @@
   },
   {
     "meta": {
-      "id": "pro--placeit-1085",
+      "id": "pro--placeit-1087",
       "name": "Pro: Placeit",
       "icon": "https://play-lh.googleusercontent.com/0654HX7dcGrIxNgjROl2__z2RIW8nkDVZMqm8NiR5p9O0OM-OVNTRG0H8-0fjC8lj-0",
       "url": "https://placeit.net/",
@@ -56172,7 +56755,7 @@
   },
   {
     "meta": {
-      "id": "pro--planner5d-1086",
+      "id": "pro--planner5d-1088",
       "name": "Pro: Planner5D",
       "icon": "https://upload.wikimedia.org/wikipedia/commons/1/13/Planner_5D_logo.png",
       "url": "https://planner5d.com/dashboard",
@@ -56376,7 +56959,7 @@
   },
   {
     "meta": {
-      "id": "pro--quillbot-1100",
+      "id": "pro--quillbot-1102",
       "name": "Pro: QuillBot",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZtqcA6rvxqQHSb14wu157jMKqBtXRNJ5-1lcBbxf4JzQt7vwDhlmbpnnH&s=10",
       "url": "https://gracely011.github.io/hai/manual.html?name=QuillBot&login=kwilbot@tokito.xyz&password=AkunMilikGroupyDotID2025!!!&url=https://quillbot.com/login?returnUrl=/paraphrasing-tool",
@@ -56419,7 +57002,7 @@
   },
   {
     "meta": {
-      "id": "pro--researchrabbit-1107",
+      "id": "pro--researchrabbit-1109",
       "name": "Pro: ResearchRabbit",
       "icon": "https://pbs.twimg.com/profile_images/1983772825812189184/IXDTOqLX.jpg",
       "url": "https://gracely011.github.io/hai/manual.html?name=ResearchRabbit&login=rabbit@prem1um.xyz&password=RabbitGroupy2025!&url=https://app.researchrabbit.ai/",
@@ -56442,7 +57025,7 @@
   },
   {
     "meta": {
-      "id": "pro--sider-ai-1112",
+      "id": "pro--sider-ai-1114",
       "name": "Pro: Sider AI",
       "icon": "https://play-lh.googleusercontent.com/VghuZRn0-oLvbaGqptsM-9Qr6Ka7Pmw7lfmu6_UQ56mZS6bsXbET9Uf0wF0FECP8lEM",
       "url": "https://sider.ai/chat",
@@ -56684,7 +57267,7 @@
   },
   {
     "meta": {
-      "id": "pro--sora-1101",
+      "id": "pro--sora-1103",
       "name": "Pro: Sora",
       "icon": "https://groupy.id/assets/images/services/sora_plus.png",
       "url": "https://sora.chatgpt.com/explore",
@@ -58106,7 +58689,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768523130,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           },
@@ -58379,7 +58961,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768523138,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -58622,7 +59203,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768523162,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -58855,7 +59435,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768523173,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           },
@@ -59108,7 +59687,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768523182,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -59351,7 +59929,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768523190,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -59594,7 +60171,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768523202,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -59837,7 +60413,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768523227,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -60080,7 +60655,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768523235,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -60323,7 +60897,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768523245,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -60576,7 +61149,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768523258,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -60819,7 +61391,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768523275,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -61062,7 +61633,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768523287,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -61305,7 +61875,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768523298,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -61538,7 +62107,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768523309,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           },
@@ -61791,7 +62359,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768523320,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -62034,7 +62601,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768523330,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -62287,7 +62853,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768523340,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -62530,7 +63095,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768523357,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -62773,7 +63337,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768523371,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -63016,7 +63579,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768523394,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -63249,7 +63811,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768523405,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           },
@@ -63502,7 +64063,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768523415,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -65687,7 +66247,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768523079,
             "sameSite": "strict",
             "domain": "sora.chatgpt.com"
           }
@@ -65698,7 +66257,7 @@
   },
   {
     "meta": {
-      "id": "pro--storytribe-1102",
+      "id": "pro--storytribe-1104",
       "name": "Pro: StoryTribe",
       "icon": "https://media.licdn.com/dms/image/v2/D560BAQGFNn9uuWNKvA/company-logo_200_200/B56ZWE4DUHGUAU-/0/1741691041788/storytribeapp_logo?e=2147483647&v=beta&t=3qm4zJ4TSorw5yxfeP9WtXnDj_DKgiqhVZeGH42wT7g",
       "url": "https://gracely011.github.io/hai/manual.html?name=StoryTribe&login=beapp@prem1um.xyz&password=StoryTribeGroupy2025!&url=https://storytribeapp.com/login-signup",
@@ -65721,7 +66280,7 @@
   },
   {
     "meta": {
-      "id": "pro--supergrok-1047",
+      "id": "pro--supergrok-1048",
       "name": "Pro: SuperGrok",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfDfKMTEJFYyKr-VgVN0z7sdgoINjKnomLLw&s",
       "url": "https://grok.com/",
@@ -66346,7 +66905,7 @@
   },
   {
     "meta": {
-      "id": "pro--tradingview-1119",
+      "id": "pro--tradingview-1121",
       "name": "Pro: TradingView",
       "icon": "https://groupy.id/assets/images/services/tradingview.png",
       "url": "https://www.tradingview.com/",
@@ -66510,7 +67069,7 @@
   },
   {
     "meta": {
-      "id": "pro--trae-ai-1120",
+      "id": "pro--trae-ai-1122",
       "name": "Pro: Trae AI",
       "icon": "https://pbs.twimg.com/profile_images/1946201092687114241/4X_B0XgN_400x400.png",
       "url": "https://www.trae.ai/",
@@ -67229,7 +67788,7 @@
   },
   {
     "meta": {
-      "id": "quizlet-1104",
+      "id": "quizlet-1106",
       "name": "Quizlet",
       "icon": "https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/szx9duflfycmltpnvcvw",
       "url": "https://quizlet.com/latest",
@@ -67611,7 +68170,7 @@
   },
   {
     "meta": {
-      "id": "rawpixel-1105",
+      "id": "rawpixel-1107",
       "name": "Rawpixel",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq1xJnAZa_h6WueAi4mr73cH3K7_pGeTz6Gw&s",
       "url": "https://www.rawpixel.com/",
@@ -67683,7 +68242,7 @@
   },
   {
     "meta": {
-      "id": "relume-1106",
+      "id": "relume-1108",
       "name": "Relume",
       "icon": "https://yt3.googleusercontent.com/MGRbvVhtCttJ7i2qW3igFxIJSkeoaRln_mIAFAfDgZIFD1yNUQC5mn1a5VqXKzcqRmAuDswu=s900-c-k-c0x00ffffff-no-rj",
       "url": "https://www.relume.io/",
@@ -67834,7 +68393,7 @@
   },
   {
     "meta": {
-      "id": "scholarcy-1060",
+      "id": "scholarcy-1062",
       "name": "Scholarcy",
       "icon": "https://yt3.googleusercontent.com/ytc/AIdro_kqv2zcFC4lZDK0qSXEbuI1Kcs5wYJoLmONwCf9QX3Qoc4=s900-c-k-c0x00ffffff-no-rj",
       "url": "https://library.scholarcy.com/home",
@@ -67946,7 +68505,7 @@
   },
   {
     "meta": {
-      "id": "scite-1108",
+      "id": "scite-1110",
       "name": "Scite",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHo4BcTYbuMiQFR7oUYKZy6zjOgzEORDrzeie96OS1sj3Ur0LpoCPV_ts&s=10",
       "url": "https://gracely011.github.io/hai/manual.html?name=Scite&login=tibpbvgzxw@belajaar.id&password=Groupy2025!ocrtmmtnkn&url=https://scite.ai/assistant",
@@ -67986,7 +68545,7 @@
   },
   {
     "meta": {
-      "id": "scribd-1109",
+      "id": "scribd-1111",
       "name": "Scribd",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRebq-8lrzgXjVWMvUDApp_q1MhiL5eSyO15VAHMuNaE4RbrPi-f7c2NMc&s=10",
       "url": "https://www.scribd.com/home",
@@ -69144,7 +69703,7 @@
   },
   {
     "meta": {
-      "id": "semrush-1110",
+      "id": "semrush-1112",
       "name": "Semrush",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7TPtYsfoyLxuSORs6sqgApBGYHOx1aZ43ra1DqBNb8BRYz4ciWF4Mg9uR&s=10",
       "url": "https://www.semrush.com/home/",
@@ -69561,7 +70120,7 @@
   },
   {
     "meta": {
-      "id": "shots-1111",
+      "id": "shots-1113",
       "name": "Shots",
       "icon": "https://pbs.twimg.com/profile_images/1517996453146378245/RTP0-Jy3_400x400.jpg",
       "url": "https://gracely011.github.io/hai/manual.html?name=Shots&login=shotso@prem1um.xyz&password=Groupy2025!&url=https://shots.so",
@@ -69581,7 +70140,7 @@
   },
   {
     "meta": {
-      "id": "skillshare-1113",
+      "id": "skillshare-1115",
       "name": "Skillshare",
       "icon": "https://groupy.id/assets/images/services/skillshare.png",
       "url": "https://www.skillshare.com/en/home",
@@ -70039,7 +70598,7 @@
   },
   {
     "meta": {
-      "id": "slidesgo-1114",
+      "id": "slidesgo-1116",
       "name": "Slidesgo",
       "icon": "https://cdn-icons-png.flaticon.com/512/14649/14649063.png",
       "url": "https://gracely011.github.io/hai/manual.html?name=Slidesgo&login=gpy&password=NsW3xRmPMv&url=https://slidesgo.com/team/user209226220-team-68879521",
@@ -70093,7 +70652,7 @@
   },
   {
     "meta": {
-      "id": "slideshare-1115",
+      "id": "slideshare-1117",
       "name": "Slideshare",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFu2smlszvneX1otpsXxgwhKyPha7Boi8VJg&s",
       "url": "https://www.slideshare.net/",
@@ -70280,7 +70839,7 @@
   },
   {
     "meta": {
-      "id": "sololearn-1116",
+      "id": "sololearn-1118",
       "name": "Sololearn",
       "icon": "https://play-lh.googleusercontent.com/zxbe_H6JVg6ZnIeA1xorxxXr416kKdShmyonBzi5Qe28-GNdczX-NST_ul0AQJ007OA",
       "url": "https://gracely011.github.io/hai/manual.html?name=Sololearn&login=sololearn@belajaar.id&password=WeAreGroupy2025!&url=https://www.sololearn.com/en/users/login",
@@ -70599,7 +71158,7 @@
   },
   {
     "meta": {
-      "id": "studocu-1117",
+      "id": "studocu-1119",
       "name": "Studocu",
       "icon": "https://play-lh.googleusercontent.com/20ssDWF3SWEXIFYy8iFwXjomuIqtuHjGc3OxIWqVojIaeo_9_XxUZEDdmm5YPreLucij",
       "url": "https://www.studocu.com/en-us/home",
@@ -71078,7 +71637,7 @@
   },
   {
     "meta": {
-      "id": "symbolab-1118",
+      "id": "symbolab-1120",
       "name": "Symbolab",
       "icon": "https://play-lh.googleusercontent.com/DKlax_iJQtJOKJlIPDSS7DZpbm9gCkHh3vWgrj8BOMRwDPDVKXdTQf9sV4cRuXSdRA",
       "url": "https://www.symbolab.com/",
@@ -71264,7 +71823,7 @@
   },
   {
     "meta": {
-      "id": "the-wall-street-journal-1130",
+      "id": "the-wall-street-journal-1132",
       "name": "The Wall Street Journal",
       "icon": "https://play-lh.googleusercontent.com/eksxaPfxbTVb6VTl5aj1sXLpKc_N9Z6AZ3_5Oq6JhTXmgEQza-1v58a66p_ID0phE2Zv",
       "url": "https://gracely011.github.io/hai/manual.html?name=The%20Wall%20Street%20Journal&login=wsj@killua.cloud&password=TheWallStreetJournalGroupy2025!!!&url=https://www.wsj.com/",
@@ -71284,7 +71843,7 @@
   },
   {
     "meta": {
-      "id": "turbo-ai-1121",
+      "id": "turbo-ai-1123",
       "name": "Turbo AI",
       "icon": "https://play-lh.googleusercontent.com/c678Vjj3oQ8UmrDCYzczS6JDcFor4XxHLnc2gAW9Wk_pbE3KEMw1WZk-rTPucPoV7Sg",
       "url": "https://www.turbo.ai/dashboard",
@@ -71355,7 +71914,7 @@
   },
   {
     "meta": {
-      "id": "turnitin-1122",
+      "id": "turnitin-1124",
       "name": "Turnitin",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIrf73LGu_mACI2Mc_jdghOV02eXRocoXKo0o3qZHFjGgJMUr5M_v8uwap&s=10",
       "url": "https://gracely011.github.io/hai/manual.html?name=Turnitin&login=halo@belajaar.id&password=TurnitinmilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us",
@@ -71423,7 +71982,7 @@
   },
   {
     "meta": {
-      "id": "udemy-1124",
+      "id": "udemy-1126",
       "name": "Udemy",
       "icon": "https://play-lh.googleusercontent.com/dsCkmJE2Fa8IjyXERAcwc5YeQ8_NvbZ4_OI8LgqyjILpXUfS5YhEcnAMajKPrZI-og",
       "url": "https://www.udemy.com/personal/home/",
@@ -72686,7 +73245,7 @@
   },
   {
     "meta": {
-      "id": "vectorizer-ai-1125",
+      "id": "vectorizer-ai-1127",
       "name": "Vectorizer AI",
       "icon": "https://cdn.prod.website-files.com/648e04d4bbae7004f1b35f15/65de13535268a099387a6f60_vectorizer-ai-icon.png",
       "url": "https://vectorizer.ai/",
@@ -72758,7 +73317,7 @@
   },
   {
     "meta": {
-      "id": "viu-1126",
+      "id": "viu-1128",
       "name": "Viu",
       "icon": "https://groupy.id/assets/images/services/viu.png",
       "url": "https://gracely011.github.io/hai/manual.html?name=Viu&login=wardi0381@movieisme.com&password=premiumisme123&url=https://viu.com",
@@ -72910,7 +73469,7 @@
   },
   {
     "meta": {
-      "id": "wetv-1127",
+      "id": "wetv-1129",
       "name": "WeTV",
       "icon": "https://groupy.id/assets/images/services/wetv.png",
       "url": "https://wetv.vip/id/profile?tab=profile",
@@ -74010,7 +74569,7 @@
   },
   {
     "meta": {
-      "id": "wolframalpha-1128",
+      "id": "wolframalpha-1130",
       "name": "WolframAlpha",
       "icon": "https://play-lh.googleusercontent.com/OceHg5bH7EsTRwl-lD7jjV9WM0mpj0oH4YfA-CSbjvfa7NCLQBu5-4cLwNlDvCUp5Q4",
       "url": "https://www.wolframalpha.com/",
@@ -74061,7 +74620,7 @@
   },
   {
     "meta": {
-      "id": "writehuman-1129",
+      "id": "writehuman-1131",
       "name": "WriteHuman",
       "icon": "https://earlyshark.com/wp-content/uploads/2024/01/writehuman-logo-1024x1024.png",
       "url": "https://writehuman.ai/ai-detector",
@@ -74312,7 +74871,7 @@
   },
   {
     "meta": {
-      "id": "youtube-noads-1131",
+      "id": "youtube-noads-1133",
       "name": "YouTube NoAds",
       "icon": "https://play-lh.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc",
       "url": "https://gracely011.github.io/hai/youtube-noads.html",
