@@ -191,7 +191,7 @@
   },
   {
     "meta": {
-      "id": "apple-music-1076",
+      "id": "apple-music-1077",
       "name": "Apple Music",
       "icon": "https://play-lh.googleusercontent.com/mOkjjo5Rzcpk7BsHrsLWnqVadUK1FlLd2-UlQvYkLL4E9A0LpyODNIQinXPfUMjUrbE",
       "url": "https://music.apple.com/ca/home",
@@ -1309,7 +1309,7 @@
   },
   {
     "meta": {
-      "id": "bein-sports-1021",
+      "id": "bein-sports-1022",
       "name": "Bein Sports",
       "icon": "https://play-lh.googleusercontent.com/jBDZq3aBmCXuvtuJHEasqsdYPRxMBGzYmEha4dMlgoIk19Zlh6BGQC08Zt6Ifrmzhg=w240-h480-rw",
       "url": "https://connect-id.beinsports.com/id",
@@ -2541,7 +2541,7 @@
   },
   {
     "meta": {
-      "id": "brain-fm-1078",
+      "id": "brain-fm-1079",
       "name": "Brain.fm",
       "icon": "https://play-lh.googleusercontent.com/oQnd9u11H7j1g99Pzswt5LTm52g8XyMrgz0GRBX5lmzdPv2Vt7bBrOKgbVbs-gHc504=w240-h480-rw",
       "url": "https://my.brain.fm/",
@@ -3515,7 +3515,7 @@
   },
   {
     "meta": {
-      "id": "bypass---hix-ai-1053",
+      "id": "bypass---hix-ai-1054",
       "name": "Bypass | HIX AI",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrXZQ0Wq17Y4CjDKiytXbd1hG39lu6u-rBsw&s",
       "url": "https://hix.ai/app/bypass-ai-detection",
@@ -3980,14 +3980,11 @@
   },
   {
     "meta": {
-      "id": "canva-1092",
+      "id": "canva-1017",
       "name": "Canva",
       "icon": "https://play-lh.googleusercontent.com/JC3HW-ps59VAEU3vuJoi3I5XB_IQ9ISuILLudUY9uLSW7eKfqtXitrB-fF865rV4TQ",
-      "url": "https://gracely011.github.io/hai/manual.html?name=Canva&login=danilkina7@miisedapp.biz.id&password=masuk123&url=https://canva.com/",
-      "category": [
-        "design",
-        "proexclusive"
-      ],
+      "url": "https://www.canva.com/templates",
+      "category": "design",
       "isGroup": true
     },
     "accounts": [
@@ -3995,71 +3992,1450 @@
         "name": "Canva 1",
         "cookies": [
           {
-            "name": "dummy",
-            "value": "5",
+            "name": "CDI",
+            "value": "5fd6b98f-e32c-4c91-bdf7-336c06f700bf",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1794234874.811996,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.1804054568.1762698895",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "domain": "canva.com"
+            "expirationDate": 1797258911.285886,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "_fbp",
+            "value": "fb.1.1762698894733.270578108500739178",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1770474967,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "FPID",
+            "value": "FPID2.2.W0%2FbBVSMET3Z%2F3zVNcdslzLi%2F3VJxoKetAtQ%2F3kQUZo%3D.1762698895",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1797258983.37904,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "Metadata_visitor_id",
+            "value": "mhrtes3pc3zaizf95dq",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1794234895,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "__cuid",
+            "value": "b1fe28a672c043ceb658782ed42e2800",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1803092532,
+            "sameSite": "lax",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "__cuid",
+            "value": "b1fe28a672c043ceb658782ed42e2800",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1803092532,
+            "sameSite": "lax",
+            "domain": ".www.canva.com"
+          },
+          {
+            "name": "FPAU",
+            "value": "1.2.426541491.1762698910",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1770474911.539661,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "_uetvid",
+            "value": "5d0680d0b99611f0838df1c5c73183dc",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1796394911,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "__Host-LV",
+            "value": "C",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1794234911.981206,
+            "sameSite": "no_restriction"
+          },
+          {
+            "name": "_ga_EPWEMH6717",
+            "value": "GS2.1.s1762698894$o1$g1$t1762698982$j60$l0$h114501890",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1797258982.975096,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "La0IuxP5pvBZ1UO62qO59F4U4PHLG1cu2OQhjEhiMew-1768527316080-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1768527331049,\"i_b\":\"W1zX30Wyzd7ayOo0/Dc9dMSqCsExmJPyuBS3OlyKmiw\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1784079331,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "CB",
+            "value": "BAG-S65NSfI",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771124608.257077,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "CAU",
+            "value": "eyJBIjoiVUFHLVM1RmgwblEiLCJCIjoiQkFHLVM2NU5TZkkifQ==",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771124608.257137,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "CL",
+            "value": "id-ID",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771124608.257198,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "CUL",
+            "value": "cnvruE5bQmhWQnBmeCeJxuovkia-aXXQ7peQwLmpPW9ONW-BWSlEnnSaVaVxMtl1CRyIREwJRA5DW675c0oxYvumvdxLR7xJigtAi2E2AqQyBVWFkFcfmjSUU0-w6HyDBbiSfdjoZ_Q2a88cb37",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800063347.824303,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "CS",
+            "value": "1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771124608.257381,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "CTC",
+            "value": "eyJBIjoxNzY4NTI3MzUwNDAwLCJCIjoxNzY4NTI3MzUwNDAwLCJEIjpmYWxzZSwiSSI6Wy01ODM2OSwzOTMxMzAzXSwiSiI6Wy01ODM2OSwzOTMxMzAzXSwiSyI6ZmFsc2V9",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1784079363.524279,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "9QwDr9W1nxqjSzTLMDfm.u25xXKog47XcGCtQA24piE-1768532033-1.0.1.1-.lEmmTTBGy4f4o4OO4zRnULCZdWmLz2ZEmflKL1nVrMlByZ.yx_pHO9Uoe2PbqlnSLhgWk0d84hDw8q7PrC66OIzMr6BjYragXcFY0FcU4U",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "ASI",
+            "value": "01KF2BK6B9EPG7TQJ958KDDZCY",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768534483.268686,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "CAZ",
+            "value": "cnvanTN3u34Sh1GEIH97VpCd64MZGczhtVbt2FfpMONvVNiP1IfOBYFf1RXW9Ni83CSuvGXJmgbjZ6M-ukxGQINhwLSw8_wfKk8tabMQXE_U-XifjKHiD2ABc0yEdLcsEAH3xGc_Kr-XzYxzuUJ8Fro25st6QuXL56Pdi-Wt860wT4VkX-Vopyl7fhSe0TDNcUO96oBlvImbCHcUS_nzp59GwtAr84ssQnd6EfZbeU8bcqqgZbDGxCxUJn_FTJ17HppaVpXoB2Qb9daa2fe",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771124608.256965,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "CID",
+            "value": "cnvanSTZiNoWLhM6XMy5alLuIko7zWHXaQxcfiK-kVka_vwyqPNkx2qoY3OBlbZUSwSC4g-eB_mJrWhimvl_J_E7XnRZ29TitsZF9mlx6ZAfPo-XT5iO8aba684e5",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771124608.257256,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "CUI",
+            "value": "leSTHX3lQLM6WYpZdYTpWfDaOqiPSrkL23JHQyaJcc2XTMJrB07C1EaQbqU6Sya22DO9YQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771124608.257319,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva&login=danilkina7@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+        "sourceUrl": "https://www.canva.com/templates"
       },
       {
         "name": "Canva 2",
         "cookies": [
           {
-            "name": "dummy",
-            "value": "5",
+            "name": "__cf_bm",
+            "value": "zXt8SN.WqKEfyrUDxa65c7VwqnN1zlB9b3l5TqkM4Lk-1768532985-1.0.1.1-jHi.0PV5YoZd9Sqo2I5wEpZu115AWcDT6jm3Vf2HzxNsKC48CiBgvGOicsPKy_uwPwUiaHzi9oOnE84cKjOeAJTunDdfSfEjpHI7WGsxo4Wofiph0BPV8fCGaNu4EIvm",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768534798.894171,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "__cuid",
+            "value": "8613e7168248418fb1908638125813e4",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "domain": "canva.com"
+            "expirationDate": 1803093093,
+            "sameSite": "lax",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "lhsgTNO.X_3629gCNGBqjhXVjhILCYjOKllSpVCPf6I-1768532075408-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "_fbp",
+            "value": "fb.1.1768532216110.964740873423876835",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776309094,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.759476376.1768532216",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1803093091.398675,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "_ga_EPWEMH6717",
+            "value": "GS2.1.s1768532216$o1$g1$t1768533091$j57$l0$h173926004$dB--nRQKE5GzdIQjH00GMqoRVuKwS7eZ0Lw",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1803093091.500523,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "_uetsid",
+            "value": "0515f060f28711f0a884b90eb252dd1e",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768619492,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "_uetvid",
+            "value": "0515f520f28711f0a7618b39e2ef2672",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802229092,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "CS",
+            "value": "1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771124961.575015,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "CTC",
+            "value": "eyJBIjoxNzY4NTMyMjAwMTc3LCJCIjoxNzY4NTMyMjAwMTc3LCJEIjpmYWxzZSwiSSI6Wy01ODM2OSwzOTMxMzAzXSwiSiI6Wy01ODM3NywzOTMxMzAzXX0=",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1784084213.799506,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "CUI",
+            "value": "HbREbnLc0vxUtgGli5EpwCBN0teBNYj-nsBUjBDNmWOYMzp4HBs3sBgqCyRh16aToi81Dw",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771124961.574797,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "FPAU",
+            "value": "1.2.1305463101.1768532437",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776308450.880807,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "FPID",
+            "value": "FPID2.2.E5y%2FfJSyrgD7VFjGRC79WgbpbtZlhFWFCueWTw23h1w%3D.1768532216",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1803093091.880684,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "FPLC",
+            "value": "eXrDZnf8feihCmqTGORxsMshHlxtk3bKhB8Bi%2BbycZOqZcIM7NLd88MmoWVW0gTRdSe%2BNPJxssy%2F%2B4u57X1eQ6mvPL5kwK6OPh7dt7VI0SeEt9l8sbyNCtw6uo4kcg%3D%3D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768604216.776929,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "__cuid",
+            "value": "8613e7168248418fb1908638125813e4",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1803093093,
+            "sameSite": "lax",
+            "domain": ".www.canva.com"
+          },
+          {
+            "name": "__Host-CAN",
+            "value": "vjvlV1N7JxspPdxgC3S0yb4VShfR-t7Yu7wtjvJppwBOqiLridG1wyykzPX3Gxgs0WxSSRPGwG6uvz8wF3GBeNrTURsFQfHqdeYKlqWe-hHoSsqM",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768540131.14724,
+            "sameSite": "no_restriction"
+          },
+          {
+            "name": "__pdst",
+            "value": "7758963aaea847ccb4957cf276a2f274",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800068506,
+            "sameSite": "strict",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "ASI",
+            "value": "01KF2BM6XM3GS6KWESR289P168",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768534908.95276,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "CAU",
+            "value": "eyJBIjoiVUFHLWk4TGJOZjQiLCJCIjoiQkFHLVMwR1dHa0EifQ==",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771125089.464417,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "CAZ",
+            "value": "cnvanCgAxmsSU7iAtYkzAz7Aoox64b3zWoeOowQPlc03cvdulC7tN5ZhDxH5aftJ3PYuPPv58BKTG2m_Z0P067ckGu2qVf06sOOF-2klmVBw0TxaF_UmDeIh6lRTLd-BNejNwUYE8QXSDSSubZHLMDIi0gPQa-1p_26Ui3vf2cUPZ9kCAuNIvZEAuMa_U56XKl4PITFmdHoh7I94ZqQNQWMJIw_dq_OSAB9ib7mb9t707NYeX3bJ35g7DgLIrAnByC2bK_she2A035dd2cf",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771125089.46423,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "CB",
+            "value": "BAG-S0GWGkA",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771125089.464351,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "CDA",
+            "value": "cnvanl7I0DD7XUHKo72K_3hGuPXc6D29a5X74eM8f7boc_BYsjYIMz8cD8e3mfU0Bvm28Y9JvBkWQUEPzS9A6tnJrJKqFYy6Rdp10_m2DijB4HFAlJN5hSykwv0GmwEdZoq71mJrZkXgMBCd8xLRFe1ymIIjjwhLuZ6a48w_4U7l6XOf_33RSf436WT-ZXJqSE29_DtDbfQ0ffad5c8",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771124961.574941,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "CDI",
+            "value": "5c21cfc3-873b-4896-9541-2b0946c28ba2",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800068088.832843,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "CID",
+            "value": "cnvanBaAaInURWaY42sZycgstvsfkU_7yxIRSUSLwamoD4c7Q8wpOlh4RwnuE9fpMAjofEo4znIhSgoXDNVZl2CJy8YYtwNdf1bo5M_Mbnxt5_9IBFzA299034347",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771124961.574725,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "CL",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771125089.464486,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "CUL",
+            "value": "cnvruiN3Bw0AH1nd2jmdqz0g68o8AqxlQX4R9L0fm_FhCUIkFglUkZZprdNlklxiDE3ZtqGV3j-YJL6PAmshrEzjmCNK8kWMiXzDlhIi77PKTdeKIa8VE6d45fc39",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800068971.564606,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1768532449948,\"i_b\":\"hfJ5h6oixPVylFBr5k/bWMEXnFVrrj7PiXLLlY6JEfs\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1784084449,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "gtm_custom_user_engagement",
+            "value": "{\"lock\":\"yes\",\"page\":11,\"landingPageURL\":\"https://www.canva.com/\",\"newSession\":\"no\"}",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768534891,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "gtm_custom_user_engagement_lock_4",
+            "value": "yes",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768547491,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "gtm_fpc_engagement_event",
+            "value": "{\"url\":\"https://www.canva.com/\",\"ts\":1768533091497,\"utm_s\":-1,\"utm_m\":-1}",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768547491,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%202&login=58858179@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+        "sourceUrl": "https://www.canva.com/templates"
       },
       {
         "name": "Canva 3",
         "cookies": [
           {
-            "name": "dummy",
-            "value": "5",
+            "name": "CDI",
+            "value": "5fd6b98f-e32c-4c91-bdf7-336c06f700bf",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1794234874.811996,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.1804054568.1762698895",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "domain": "canva.com"
+            "expirationDate": 1803093229.297667,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "_fbp",
+            "value": "fb.1.1762698894733.270578108500739178",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776309257,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "FPID",
+            "value": "FPID2.2.W0%2FbBVSMET3Z%2F3zVNcdslzLi%2F3VJxoKetAtQ%2F3kQUZo%3D.1762698895",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1803093233.244044,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "Metadata_visitor_id",
+            "value": "mhrtes3pc3zaizf95dq",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1794234895,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "__cuid",
+            "value": "b1fe28a672c043ceb658782ed42e2800",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1803093247,
+            "sameSite": "lax",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "__cuid",
+            "value": "b1fe28a672c043ceb658782ed42e2800",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1803093247,
+            "sameSite": "lax",
+            "domain": ".www.canva.com"
+          },
+          {
+            "name": "FPAU",
+            "value": "1.2.426541491.1762698910",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1770474923.743542,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "__Host-LV",
+            "value": "C",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1794234911.981206,
+            "sameSite": "no_restriction"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "La0IuxP5pvBZ1UO62qO59F4U4PHLG1cu2OQhjEhiMew-1768527316080-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1768527331049,\"i_b\":\"W1zX30Wyzd7ayOo0/Dc9dMSqCsExmJPyuBS3OlyKmiw\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1784079331,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "CL",
+            "value": "id-ID",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771125228.029254,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "CS",
+            "value": "1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771125228.029655,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "CTC",
+            "value": "eyJBIjoxNzY4NTI3MzUwNDAwLCJCIjoxNzY4NTI3MzUwNDAwLCJEIjpmYWxzZSwiSSI6Wy01ODM2OSwzOTMxMzAzXSwiSiI6Wy01ODM2OSwzOTMxMzAzXSwiSyI6ZmFsc2V9",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1784079363.524279,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "ASI",
+            "value": "01KF2BK6B9EPG7TQJ958KDDZCY",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768535059.183518,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "gtm_custom_user_engagement_lock_4",
+            "value": "yes",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768547629,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "FPLC",
+            "value": "7DKpF3oTj3X0kdlhwSVIRSQVVQltsKS4LDUeCYje3slxqA6sPiIk2XU%2FclnoNhuGUPk72I5pDtOJwkP4jtw3vrXn6e2KwDYfREcUEv0FX4ixNNVgL3gjU4b2wvIaxA%3D%3D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768604778.169736,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "Dq7UVmMZaMUutX4wt6m6nHfqrqzo5khoL0So4pRsEJY-1768533211-1.0.1.1-S9KeH7Cri5eZp8WXARXSarW_ukrrfVV54zw3exb8jxvHsMDl1LyIvs6tLmXDaeWwz5VKI6ZiiKO5EWNSD2J9eeGxY.EMioNREuyyMuLtyNzaDCBrafux3CtIMyTgC2tm",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768535024.530796,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "CAZ",
+            "value": "cnvan81Vb5xf01AHvces-lU-j_qh2BcCzoqlf_E5FQ9RFILYl6v4rHk4XuSFdOcFWggZgwEkdwlJkI8eNhzQtMW8HEQyahZnf2_-uHEvGw4kGsNBGm4xmpLcfDL9JG2aFztOpkUxNDSoRNpx4PduH5i02d6hhqY_qLW9IA9JUZcz9mWJhGsix_6MZyljQV_pI1zYNjN_7TmHoCS-WIM5CEbo_fagXY9Z8isJwky3alPzwXlSVydVIxOj6C3A9pKKVe51T1TPr7g1f619ae9",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771125228.028952,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "CB",
+            "value": "BAG-S00xhaQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771125228.029092,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "CAU",
+            "value": "eyJBIjoiVUFHLVMtcm9qRFkiLCJCIjoiQkFHLVMwMHhoYVEifQ==",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771125228.029172,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "CID",
+            "value": "cnvanGk2K_i8w_oeUma_o1zkpP0IPvrvWM27O4LfaI7VTCo5-5xnFgDeXQEvNGCq-9LanmAZoFLIndC3fnap_LFrr-y8eT1-GzgleqYbs-SCLgh5zc7tTdf0c4b52",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771125228.029329,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "CUI",
+            "value": "y8V0cR5OhViZHLeZgQK8bN0rfBlritzcyQIr1-RqG4GkdOEkQYWxrxtOQ0bCAlemAQTc5w",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771125228.029411,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "CDA",
+            "value": "cnvanEo2M4ZLEEq9hbhUSbYi4fh26fv3LGZUvsFp-iziML7W4MfXwTnPwAdpoUZ3MSimjWy4xTN8P9XBp-jQLLW8tmNh52jKzydMDxBr9kLr6wNAuqr23DY1H3v-bii5CidBXoQrr-DV4CjcBkyrBqtKZ5NBz3fcasSBOJ8IND6dJvmtbV_z1-YdIaXHYH8HaaZ43E8hgaQ552cdc7f",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771125228.029574,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "gtm_custom_user_engagement",
+            "value": "{\"lock\":\"yes\",\"page\":4,\"landingPageURL\":\"https://www.canva.com/login/switch-user/\",\"newSession\":\"no\"}",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768535029,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "_uetsid",
+            "value": "53fe7350f28811f096e7f7e21439fd5f",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768619629,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "_uetvid",
+            "value": "5d0680d0b99611f0838df1c5c73183dc",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802229229,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "CUL",
+            "value": "cnvru1XmOaMeiQdtMj07U3QK_0XI8pwBXKcuEJidZyzPx4rvR3ssFnyfaUDnDRzR35wmAJCu_RjY5RysQbHungazcnVDThyWzy-MUyEqnmAz12HxjtTwFHlM1IlqrDx4nmRgYxUQmQA59c5c716",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800069230.758756,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "gtm_fpc_engagement_event",
+            "value": "{\"url\":\"https://www.canva.com/login/switch-user/\",\"ts\":1768533254872,\"utm_s\":-1,\"utm_m\":-1}",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768547654,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "_ga_EPWEMH6717",
+            "value": "GS2.1.s1768532777$o2$g1$t1768533254$j15$l0$h1995794111$dLZguY5v7hzncCeO0kOCrBF23LO1nggj2WA",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1803093254.875434,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%203&login=chanceeddie@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+        "sourceUrl": "https://www.canva.com/templates"
       },
       {
         "name": "Canva 4",
         "cookies": [
           {
-            "name": "dummy",
-            "value": "5",
+            "name": "CDI",
+            "value": "5fd6b98f-e32c-4c91-bdf7-336c06f700bf",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1794234874.811996,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.1804054568.1762698895",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "domain": "canva.com"
+            "expirationDate": 1803093229.297667,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "_fbp",
+            "value": "fb.1.1762698894733.270578108500739178",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776309362,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "FPID",
+            "value": "FPID2.2.W0%2FbBVSMET3Z%2F3zVNcdslzLi%2F3VJxoKetAtQ%2F3kQUZo%3D.1762698895",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1803093233.244044,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "Metadata_visitor_id",
+            "value": "mhrtes3pc3zaizf95dq",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1794234895,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "__cuid",
+            "value": "b1fe28a672c043ceb658782ed42e2800",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1803093247,
+            "sameSite": "lax",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "__cuid",
+            "value": "b1fe28a672c043ceb658782ed42e2800",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1803093247,
+            "sameSite": "lax",
+            "domain": ".www.canva.com"
+          },
+          {
+            "name": "FPAU",
+            "value": "1.2.426541491.1762698910",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1770474923.743542,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "__Host-LV",
+            "value": "C",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1794234911.981206,
+            "sameSite": "no_restriction"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "La0IuxP5pvBZ1UO62qO59F4U4PHLG1cu2OQhjEhiMew-1768527316080-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1768527331049,\"i_b\":\"W1zX30Wyzd7ayOo0/Dc9dMSqCsExmJPyuBS3OlyKmiw\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1784079331,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "CL",
+            "value": "id-ID",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771125228.029254,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "CS",
+            "value": "1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771125228.029655,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "CTC",
+            "value": "eyJBIjoxNzY4NTI3MzUwNDAwLCJCIjoxNzY4NTI3MzUwNDAwLCJEIjpmYWxzZSwiSSI6Wy01ODM2OSwzOTMxMzAzXSwiSiI6Wy01ODM2OSwzOTMxMzAzXSwiSyI6ZmFsc2V9",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1784079363.524279,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "ASI",
+            "value": "01KF2BK6B9EPG7TQJ958KDDZCY",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768535163.595508,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "gtm_custom_user_engagement_lock_4",
+            "value": "yes",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768547629,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "FPLC",
+            "value": "7DKpF3oTj3X0kdlhwSVIRSQVVQltsKS4LDUeCYje3slxqA6sPiIk2XU%2FclnoNhuGUPk72I5pDtOJwkP4jtw3vrXn6e2KwDYfREcUEv0FX4ixNNVgL3gjU4b2wvIaxA%3D%3D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768604778.169736,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "__cf_bm",
+            "value": "Dq7UVmMZaMUutX4wt6m6nHfqrqzo5khoL0So4pRsEJY-1768533211-1.0.1.1-S9KeH7Cri5eZp8WXARXSarW_ukrrfVV54zw3exb8jxvHsMDl1LyIvs6tLmXDaeWwz5VKI6ZiiKO5EWNSD2J9eeGxY.EMioNREuyyMuLtyNzaDCBrafux3CtIMyTgC2tm",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768535024.530796,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "CAZ",
+            "value": "cnvan81Vb5xf01AHvces-lU-j_qh2BcCzoqlf_E5FQ9RFILYl6v4rHk4XuSFdOcFWggZgwEkdwlJkI8eNhzQtMW8HEQyahZnf2_-uHEvGw4kGsNBGm4xmpLcfDL9JG2aFztOpkUxNDSoRNpx4PduH5i02d6hhqY_qLW9IA9JUZcz9mWJhGsix_6MZyljQV_pI1zYNjN_7TmHoCS-WIM5CEbo_fagXY9Z8isJwky3alPzwXlSVydVIxOj6C3A9pKKVe51T1TPr7g1f619ae9",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771125228.028952,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "CB",
+            "value": "BAG-S00xhaQ",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771125228.029092,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "CAU",
+            "value": "eyJBIjoiVUFHLVMtcm9qRFkiLCJCIjoiQkFHLVMwMHhoYVEifQ==",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771125228.029172,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "CID",
+            "value": "cnvanGk2K_i8w_oeUma_o1zkpP0IPvrvWM27O4LfaI7VTCo5-5xnFgDeXQEvNGCq-9LanmAZoFLIndC3fnap_LFrr-y8eT1-GzgleqYbs-SCLgh5zc7tTdf0c4b52",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771125228.029329,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "CUI",
+            "value": "y8V0cR5OhViZHLeZgQK8bN0rfBlritzcyQIr1-RqG4GkdOEkQYWxrxtOQ0bCAlemAQTc5w",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771125228.029411,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "CDA",
+            "value": "cnvanEo2M4ZLEEq9hbhUSbYi4fh26fv3LGZUvsFp-iziML7W4MfXwTnPwAdpoUZ3MSimjWy4xTN8P9XBp-jQLLW8tmNh52jKzydMDxBr9kLr6wNAuqr23DY1H3v-bii5CidBXoQrr-DV4CjcBkyrBqtKZ5NBz3fcasSBOJ8IND6dJvmtbV_z1-YdIaXHYH8HaaZ43E8hgaQ552cdc7f",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771125228.029574,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "gtm_custom_user_engagement",
+            "value": "{\"lock\":\"yes\",\"page\":4,\"landingPageURL\":\"https://www.canva.com/login/switch-user/\",\"newSession\":\"no\"}",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768535029,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "_uetsid",
+            "value": "53fe7350f28811f096e7f7e21439fd5f",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768619629,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "_uetvid",
+            "value": "5d0680d0b99611f0838df1c5c73183dc",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802229229,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "CUL",
+            "value": "cnvru1XmOaMeiQdtMj07U3QK_0XI8pwBXKcuEJidZyzPx4rvR3ssFnyfaUDnDRzR35wmAJCu_RjY5RysQbHungazcnVDThyWzy-MUyEqnmAz12HxjtTwFHlM1IlqrDx4nmRgYxUQmQA59c5c716",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800069230.758756,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "gtm_fpc_engagement_event",
+            "value": "{\"url\":\"https://www.canva.com/login/switch-user/\",\"ts\":1768533360998,\"utm_s\":-1,\"utm_m\":-1}",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768547760,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "_ga_EPWEMH6717",
+            "value": "GS2.1.s1768532777$o2$g1$t1768533361$j60$l0$h1995794111$dLZguY5v7hzncCeO0kOCrBF23LO1nggj2WA",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1803093361.005968,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%204&login=jurry@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+        "sourceUrl": "https://www.canva.com/templates"
       },
       {
         "name": "Canva 5",
         "cookies": [
           {
-            "name": "dummy",
-            "value": "5",
+            "name": "__cf_bm",
+            "value": "XpsnvcxgLhpd7HDL3sEy0omwD6rDwPYUiNVWaG3ZD2k-1768532492-1.0.1.1-U1QR8XHX5kgh3l_FtXEc5fQgY9dNbLLkIIoTZcghONhwXOTCu.LuuzqatJbaBtvlPr6dbw_AWYlgp8x3X9SohB6bc1.kYYsYwXs8.7.MjFWOjN.aFZGQuaVtn1sJ9utN",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768534305.614573,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "__cuid",
+            "value": "8613e7168248418fb1908638125813e4",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "domain": "canva.com"
+            "expirationDate": 1803092482,
+            "sameSite": "lax",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "_cfuvid",
+            "value": "lhsgTNO.X_3629gCNGBqjhXVjhILCYjOKllSpVCPf6I-1768532075408-0.0.1.1-604800000",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "_fbp",
+            "value": "fb.1.1768532216110.964740873423876835",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776308591,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "_ga",
+            "value": "GA1.1.759476376.1768532216",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1803092577.586721,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "_ga_EPWEMH6717",
+            "value": "GS2.1.s1768532216$o1$g1$t1768532586$j48$l0$h173926004$dB--nRQKE5GzdIQjH00GMqoRVuKwS7eZ0Lw",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1803092586.225043,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "_uetsid",
+            "value": "0515f060f28711f0a884b90eb252dd1e",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768618979,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "_uetvid",
+            "value": "0515f520f28711f0a7618b39e2ef2672",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802228579,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "CS",
+            "value": "1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771124505.614316,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "CTC",
+            "value": "eyJBIjoxNzY4NTMyMjAwMTc3LCJCIjoxNzY4NTMyMjAwMTc3LCJEIjpmYWxzZSwiSSI6Wy01ODM2OSwzOTMxMzAzXSwiSiI6Wy01ODM3NywzOTMxMzAzXX0=",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1784084213.799506,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "CUI",
+            "value": "QSU49K65vGZTZ2a4iLrHYvQNdOxjqbQcnoRaS5dAqulayxsOXEM5LxKGvgSOUe3OJEV1PA",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771124505.614091,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "FPAU",
+            "value": "1.2.1305463101.1768532437",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776308450.190739,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "FPID",
+            "value": "FPID2.2.E5y%2FfJSyrgD7VFjGRC79WgbpbtZlhFWFCueWTw23h1w%3D.1768532216",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1803092586.832313,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "FPLC",
+            "value": "eXrDZnf8feihCmqTGORxsMshHlxtk3bKhB8Bi%2BbycZOqZcIM7NLd88MmoWVW0gTRdSe%2BNPJxssy%2F%2B4u57X1eQ6mvPL5kwK6OPh7dt7VI0SeEt9l8sbyNCtw6uo4kcg%3D%3D",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768604216.776929,
+            "sameSite": "no_restriction",
+            "domain": ".canva.com"
+          },
+          {
+            "name": "__cuid",
+            "value": "8613e7168248418fb1908638125813e4",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1803092482,
+            "sameSite": "lax",
+            "domain": ".www.canva.com"
+          },
+          {
+            "name": "__Host-CAN",
+            "value": "vjvlV1N7JxspPdxgC3S0yb4VShfR-t7Yu7wtjvJppwBOqiLridG1wyykzPX3Gxgs0WxSSRPGwG6uvz8wF3GBeNrTURsFQfHqdeYKlqWe-hHoSsqM",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1768539689.581934,
+            "sameSite": "no_restriction"
+          },
+          {
+            "name": "__pdst",
+            "value": "7758963aaea847ccb4957cf276a2f274",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800068506,
+            "sameSite": "strict",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "ASI",
+            "value": "01KF2BM6XM3GS6KWESR289P168",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768534391.940788,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "CAU",
+            "value": "eyJBIjoiVUFHLWl3Mlk3VEEiLCJCIjoiQkFHLVM2NU5TZkkifQ==",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771124576.125764,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "CAZ",
+            "value": "cnvanovU7r1iGmaBHexO7A8ffdX1EGraMYz5dQ00KDJqZ04bCrNxFYoc7zE8zHzmACKnzPu2dehdffiiSys_En8EQD08i37GfEzRsF175Cgw0rCoizycOzw2rCpjS65Lat6z2pulmxpJigSAJ8Ka4blKQeQQHS9K0M51xPQg18vXuaNoD9ZpSSu8z_Ktoagb6jyTqCgb4U4ugkflOWd1QU94tkG80asLs0qPL9-A415pmWxnWUXjvDTOK4mt4Cfz5HZdX3ycjzS_pLDF-OMSro8xEdwJMsGEe79b2ed4",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771124576.124956,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "CB",
+            "value": "BAG-S65NSfI",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771124576.125448,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "CDI",
+            "value": "5c21cfc3-873b-4896-9541-2b0946c28ba2",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800068088.832843,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "CID",
+            "value": "cnvanQe69UzopvNiwYlsr_AyJ_iXwbjcmYBRn0-nbGjPVCkyIzEX7NeSTntq0KtKHSv_u4vKheiCzGLiJofP5Ymz1ctFZ3rcxgUT1MTXrdb3211OsjXB7e0c1ba0b",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1771124505.613979,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "CL",
+            "value": "en",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1771124576.126104,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "CUL",
+            "value": "cnvruasrRjOYYgAJg_by9Uf-upymdc6FvGR2du366KD9e8WmN9YTAtUmF8YvDrvzjMWJqr_eYwDOY0hkGSQUmL1OJKOcLvhA5ceff03d",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800068505.614205,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "g_state",
+            "value": "{\"i_l\":0,\"i_ll\":1768532449948,\"i_b\":\"hfJ5h6oixPVylFBr5k/bWMEXnFVrrj7PiXLLlY6JEfs\",\"i_e\":{\"enable_itp_optimization\":0}}",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1784084449,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "gtm_custom_user_engagement",
+            "value": "{\"lock\":\"yes\",\"page\":4,\"landingPageURL\":\"https://www.canva.com/\",\"newSession\":\"no\"}",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768534377,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "gtm_custom_user_engagement_lock_4",
+            "value": "yes",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768546977,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
+          },
+          {
+            "name": "gtm_fpc_engagement_event",
+            "value": "{\"url\":\"https://www.canva.com/\",\"ts\":1768532586222,\"utm_s\":-1,\"utm_m\":-1}",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768546986,
+            "sameSite": "no_restriction",
+            "domain": "www.canva.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%205&login=yhixoxarydeqo@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+        "sourceUrl": "https://www.canva.com/templates"
       },
       {
         "name": "Canva 6",
@@ -4073,7 +5449,7 @@
             "domain": "canva.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%206&login=knorozova@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva&login=danilkina7@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
       },
       {
         "name": "Canva 7",
@@ -4087,7 +5463,7 @@
             "domain": "canva.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%207&login=bludawn@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%202&login=58858179@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
       },
       {
         "name": "Canva 8",
@@ -4101,7 +5477,7 @@
             "domain": "canva.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%208&login=kgirl711823@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%203&login=chanceeddie@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
       },
       {
         "name": "Canva 9",
@@ -4115,7 +5491,7 @@
             "domain": "canva.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%209&login=bloodynora@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%204&login=jurry@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
       },
       {
         "name": "Canva 10",
@@ -4129,7 +5505,7 @@
             "domain": "canva.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2010&login=danali@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%205&login=yhixoxarydeqo@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
       },
       {
         "name": "Canva 11",
@@ -4143,7 +5519,7 @@
             "domain": "canva.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2011&login=jakobhasse@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%206&login=knorozova@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
       },
       {
         "name": "Canva 12",
@@ -4157,7 +5533,7 @@
             "domain": "canva.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2012&login=arabadyg@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%207&login=bludawn@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
       },
       {
         "name": "Canva 13",
@@ -4171,7 +5547,7 @@
             "domain": "canva.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2013&login=harleyva@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%208&login=kgirl711823@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
       },
       {
         "name": "Canva 14",
@@ -4185,7 +5561,7 @@
             "domain": "canva.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2014&login=joanrador@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%209&login=bloodynora@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
       },
       {
         "name": "Canva 15",
@@ -4199,7 +5575,7 @@
             "domain": "canva.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2015&login=brawling1@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2010&login=danali@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
       },
       {
         "name": "Canva 16",
@@ -4213,7 +5589,7 @@
             "domain": "canva.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2016&login=cassialima1245@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2011&login=jakobhasse@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
       },
       {
         "name": "Canva 17",
@@ -4227,7 +5603,7 @@
             "domain": "canva.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2017&login=restate@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2012&login=arabadyg@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
       },
       {
         "name": "Canva 18",
@@ -4241,7 +5617,7 @@
             "domain": "canva.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2018&login=sergei1467@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2013&login=harleyva@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
       },
       {
         "name": "Canva 19",
@@ -4255,10 +5631,80 @@
             "domain": "canva.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2019&login=homejob@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2014&login=joanrador@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
       },
       {
         "name": "Canva 20",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2015&login=brawling1@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 21",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2016&login=cassialima1245@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 22",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2017&login=restate@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 23",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2018&login=sergei1467@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 24",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2019&login=homejob@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 25",
         "cookies": [
           {
             "name": "dummy",
@@ -4275,7 +5721,7 @@
   },
   {
     "meta": {
-      "id": "capcut-1017",
+      "id": "capcut-1018",
       "name": "CapCut",
       "icon": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxtHdRB6xk71KqOPxE23.XPiUcBp9_h5.Va3lapJy.K9tACxvjL4_WF3lJCLozay.Kx6V1mfBFaOOF4V5Rx4RHLY-&format=source",
       "url": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video",
@@ -4287,22 +5733,32 @@
         "name": "CapCut 1",
         "cookies": [
           {
-            "name": "_v2_spipe_web_id",
-            "value": "7591918440416346128",
+            "name": "msToken",
+            "value": "m02o_egszc_q0N3npMfPjEKsm7M6K0BUAb0ALC2NfiH_xWM6szAWnpJjOK4ThHUSo8mTkSIXtHGVVLTqIAmYD3fHUBWTmaxkD-Snmt9PCLs25AjeUbqV-p2UBIrZoWgZM7fVpEc=",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1799167259,
+            "expirationDate": 1776191469,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "_v2_spipe_web_id",
+            "value": "7595286870951493633",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799951460,
             "sameSite": "no_restriction",
             "domain": ".www.capcut.com"
           },
           {
             "name": "odin_tt",
-            "value": "6d6c79368046832cfdf60e99e10ced224eee6cde8f85dd5f99f95417cef262b15941cdb99b7df46259d540ee3088d2de",
+            "value": "b6e51a68a8f909fbfe062c2785e01b419222b60b8d899e707891acbdf6dcc2392abd05c1febf4f47e61c8974ec72da6c",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1799316479,
+            "expirationDate": 1799951459,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -4312,7 +5768,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1799316477,
+            "expirationDate": 1799951456,
             "sameSite": "no_restriction",
             "domain": ".www.capcut.com"
           },
@@ -4322,17 +5778,17 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1772964544.451879,
+            "expirationDate": 1773599542.871169,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "_ga",
-            "value": "GA1.1.962873492.1767780473",
+            "value": "GA1.1.1798496536.1768415453",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1799848222,
+            "expirationDate": 1799951453,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -4342,67 +5798,67 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1772964544.451665,
+            "expirationDate": 1773599542.870973,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "tt-target-idc-sign",
-            "value": "TJrYOgAo1NA2jXgUUvKx6w1T6bTGKnQHWF68-bR_Y-zAJZbw0qbaalOO_ZyLpavGVqiWvw4oWStEa1lR382oYpEzerAw6pIQf7nAMh6Nf_ojk4-tvBJF6DsO1qBS6aBszOqcl51N1R1LRV5QunLy1QkB-IrvfjAIE0s1vt9qXscuKTQlOZZxDVkMAZ7idnXIjKtyGax8Xx6P0pdvW7GHB9TwlaERGGAw2Yz9pcDoaLGqow46DzNBQujfYk4axremTQpIuaOPsOOErkNDpsXGJkYzGbdiT6JhMp8a6C-b3C7vUykqePFddGhbrFS6TgSuNIM1-WR5xzdBKqfgbZ3S9ZjIS-95sxqzz8EkhVoC18dKrllh_30w9o2Up6aBDD5gI28IjWR1TDICaD1QdvWtDsCDnSVnlWxaY7-p2OCI-jdG4ytdOM7mmEcx7z6Za5nwvIwPeo2Cg0sLqOOJoYQpUjLHakaNWKbbchtKlKlrvHM4Hg1V_0J_odB-YSj237gg",
+            "value": "EuHuf0MvNaGauTkzwIdTgRyU_EvI9AeSNwdgdFUQfnEwT16DiTtdQmmEqKZK73VRWVR2up_Ehg7iaIwRx_zhn2Cqfz0X24rQnSc6G43LSuLr4K6h5NY5dmJF_9b8cg47My2qcp0ZaIWyGD15TE0BMnkCyMXeK7hIwQ6LiSbTvbt7A4rtPkMyq6aAiGTUf-8Ri_NpWonZ8UWT6uZxp6Tkiy1HQ7hIZi1yFi3pxF7yfCDjskJb8yK0NoTwsPNSHR1RqL7zud5zTv0YiXEgQwZM7qK1NTYZhzbxd3tvE4Iaj0lSSqHi1FfXZ4tCjQLK-UDmyIKZ_qI4fhGPRknahyyucNF9x_Cc27Jj432OOXGX0Q8oMLCzU-UEBFhv9Id3MxsH8mBHKGtmjdy3oqW5FROWoZbD_knymvxJXRz34y2A-hMgNfTWE072Jo0Tt--doYob3Z83hjDOBGFof7sqCskFC_5STMd5mURG9go3TwuEnO3yxXVXDSHu0Ram7eq3CM7s",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1799316476,
+            "expirationDate": 1799951455,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "ssid_ucp_v1",
-            "value": "1.0.1-KDZkMDg2YmY4OWIwZmY0ZGI5NDY2NWU4ZmY0ZWEyZDhjMDUxYTFiN2UKGQiHiMPQkOz5rWkQs-H4ygYYnKAVOAFA6wcQAxoCbXkiIDJmMzRjZDIxMDU0YzZhNDYyM2I3OTI5ZDg3YTEzNjIxMk4KIDlWHA2lL6erF0BUuGglVURt5yzWhSCy-rgluQB_MSgVEiCWKvERQIDm84OTo_1ohoQ9Si9Xv_AG3li_T9Oe59RvzhgBIgZ0aWt0b2s",
+            "value": "1.0.1-KGU0Zjk5MTBmZDFkYjFmNmMzY2Y3Y2RlZTA5NTgwNDVmMGRlMGNjMWYKGQiUiIyg-83Ds2kQqcKfywYYnKAVOAFA6wcQAxoCbXkiIGNiNWI1N2RiNjE5MDA3NWFlNmI4Njk4YzYyMzhhYTZiMk4KILXsUX_ifPWBWKTmL1rXHHISyLt6d8JlzT3uBmk3j3frEiBHm1DYXceA3bhwjV-93WdwFj3Yu8XB1Tbw1Ko-nF8A5hgEIgZ0aWt0b2s",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1772964475,
+            "expirationDate": 1773599455,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "tt_session_tlb_tag",
-            "value": "sttt%7C4%7CLzTNIQVMakYjt5Kdh6E2If________-nCXPLx397WWXVqmEQyYpR3B6CEKMOg-TpNe3hLffXsT8%3D",
+            "value": "sttt%7C1%7Cy1tX22GQB1rmuGmMYjiqa__________b0smnnfNgfV0CCY4wTQrckEQymBbNmFd4ui54TzxzNfM%3D",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1772964475,
+            "expirationDate": 1773599455,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "sessionid_ss",
-            "value": "2f34cd21054c6a4623b7929d87a13621",
+            "value": "cb5b57db6190075ae6b8698c6238aa6b",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1772964475,
+            "expirationDate": 1773599455,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "sid_tt",
-            "value": "2f34cd21054c6a4623b7929d87a13621",
+            "value": "cb5b57db6190075ae6b8698c6238aa6b",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1772964475,
+            "expirationDate": 1773599455,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "uid_tt_ss",
-            "value": "48c3d927464d674c173abb792edd349d77f94dcaf5e5a65ffd3326479a2385c5",
+            "value": "f7150537e6ee64d94905d02602801d489b5990064c32917853e69855f64ec3c6",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1772964475,
+            "expirationDate": 1773599455,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -4412,17 +5868,27 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1770372484.449546,
+            "expirationDate": 1771007479.524598,
             "sameSite": "no_restriction",
             "domain": ".www.capcut.com"
           },
           {
             "name": "uid_tt",
-            "value": "48c3d927464d674c173abb792edd349d77f94dcaf5e5a65ffd3326479a2385c5",
+            "value": "f7150537e6ee64d94905d02602801d489b5990064c32917853e69855f64ec3c6",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1772964475,
+            "expirationDate": 1773599455,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_ga_F9J0QP63RB",
+            "value": "GS2.1.s1768415453$o1$g0$t1768415456$j57$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799951456,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -4432,57 +5898,57 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1772964544.452005,
+            "expirationDate": 1773599542.871291,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "sid_guard",
-            "value": "2f34cd21054c6a4623b7929d87a13621%7C1767780531%7C5184000%7CSun%2C+08-Mar-2026+10%3A08%3A51+GMT",
+            "value": "cb5b57db6190075ae6b8698c6238aa6b%7C1768415529%7C5184000%7CSun%2C+15-Mar-2026+18%3A32%3A09+GMT",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1798884475,
+            "expirationDate": 1799519455,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "sessionid",
-            "value": "2f34cd21054c6a4623b7929d87a13621",
+            "value": "cb5b57db6190075ae6b8698c6238aa6b",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1772964475,
+            "expirationDate": 1773599455,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "_uetvid",
-            "value": "baeffa70ebb011f08a7fdd6da0856a79",
+            "value": "288518b0f17711f0b86493fb70809caf",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1801476473,
+            "expirationDate": 1802111453,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "passport_csrf_token_default",
-            "value": "e615d6a7b72c7eba211acda1a1d165e5",
+            "value": "a684f6af8d5e45f017e484e17ce9d766",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1772964473,
+            "expirationDate": 1773599453,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "passport_csrf_token",
-            "value": "e615d6a7b72c7eba211acda1a1d165e5",
+            "value": "a684f6af8d5e45f017e484e17ce9d766",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1772964473,
+            "expirationDate": 1773599453,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -4492,7 +5958,7 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1770372484.449555,
+            "expirationDate": 1771007479.52461,
             "sameSite": "no_restriction",
             "domain": ".www.capcut.com"
           },
@@ -4502,47 +5968,47 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1772964544.451943,
+            "expirationDate": 1773599542.871231,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "_clck",
-            "value": "xtacxh%5E2%5Eg2i%5E0%5E2198",
+            "value": "1175doy%5E2%5Eg2p%5E0%5E2205",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1799316473,
+            "expirationDate": 1799951453,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "sid_ucp_v1",
-            "value": "1.0.1-KDZkMDg2YmY4OWIwZmY0ZGI5NDY2NWU4ZmY0ZWEyZDhjMDUxYTFiN2UKGQiHiMPQkOz5rWkQs-H4ygYYnKAVOAFA6wcQAxoCbXkiIDJmMzRjZDIxMDU0YzZhNDYyM2I3OTI5ZDg3YTEzNjIxMk4KIDlWHA2lL6erF0BUuGglVURt5yzWhSCy-rgluQB_MSgVEiCWKvERQIDm84OTo_1ohoQ9Si9Xv_AG3li_T9Oe59RvzhgBIgZ0aWt0b2s",
+            "value": "1.0.1-KGU0Zjk5MTBmZDFkYjFmNmMzY2Y3Y2RlZTA5NTgwNDVmMGRlMGNjMWYKGQiUiIyg-83Ds2kQqcKfywYYnKAVOAFA6wcQAxoCbXkiIGNiNWI1N2RiNjE5MDA3NWFlNmI4Njk4YzYyMzhhYTZiMk4KILXsUX_ifPWBWKTmL1rXHHISyLt6d8JlzT3uBmk3j3frEiBHm1DYXceA3bhwjV-93WdwFj3Yu8XB1Tbw1Ko-nF8A5hgEIgZ0aWt0b2s",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1772964475,
+            "expirationDate": 1773599455,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "s_v_web_id",
-            "value": "verify_mk3uummm_C4Qre6uO_Hwh5_4qLa_8Lpt_5HW9wdbb7O1P",
+            "value": "verify_mkecwgdr_5wcmmpWV_KlwH_42rZ_8FJm_dWwwfMks9P5h",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1770372484.44956,
+            "expirationDate": 1771007479.524615,
             "sameSite": "no_restriction",
             "domain": ".www.capcut.com"
           },
           {
             "name": "_gcl_au",
-            "value": "1.1.829142186.1767780473",
+            "value": "1.1.1129630138.1768415453",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1775556473,
+            "expirationDate": 1776191453,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -4552,17 +6018,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1799316477,
-            "sameSite": "no_restriction",
-            "domain": ".www.capcut.com"
-          },
-          {
-            "name": "sign",
-            "value": "445275774777774b50534a764f797a51455734626973796742684c2b55456d4c615845343667696877494649346d4b79456539347154686466496b4454456234",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1775556484,
+            "expirationDate": 1799951456,
             "sameSite": "no_restriction",
             "domain": ".www.capcut.com"
           },
@@ -4572,7 +6028,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1799848214.296609,
+            "expirationDate": 1800069480.958293,
             "sameSite": "no_restriction",
             "domain": "www.capcut.com"
           },
@@ -4582,7 +6038,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1799848214.296706,
+            "expirationDate": 1800069480.958385,
             "sameSite": "no_restriction",
             "domain": "www.capcut.com"
           },
@@ -4597,10 +6053,11 @@
           },
           {
             "name": "_tea_web_id",
-            "value": "7592559531704944135",
+            "value": "7595286814708139536",
             "path": "/",
             "httpOnly": false,
             "secure": true,
+            "expirationDate": 1768619884.795602,
             "sameSite": "no_restriction",
             "domain": "www.capcut.com"
           },
@@ -4614,28 +6071,38 @@
             "domain": "www.capcut.com"
           },
           {
-            "name": "ttwid",
-            "value": "1|DmSExbIA9K1duhOjDNkxWZaqrd9MuqhBWQmwWQDWZsU|1768312203|480ce5c50e31945135cc85a46c846c9b18224b5720e6a2a3db5df97ac116d7c8",
+            "name": "store-country-sign",
+            "value": "MEIEDBG7UTbbcBNnQcZz0AQgaMtiQa4vwLTmXr_qzc5odnD8-ucifrPS6sv_9weRonsEEPlbWYQDjiz3TdjTFyXvgTc",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1799848216.682545,
+            "expirationDate": 1773599542.871097,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
-            "name": "store-country-sign",
-            "value": "MEIEDMEm1IZ4Iidys8e4nQQgKJ8w0TF_pMrY5xPH2yn1PETZYQJDnw-l_4dy0OwjYLQEEKRtHb_Bi4fB1cdnD51CjaI",
+            "name": "_v2_spipe_web_id",
+            "value": "7595286870951493633",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800069484.795382,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "ttwid",
+            "value": "1|9QO1dpEtX7nzvOApkEXRfZ27zVMzCY6Ks21oksFqlQo|1768533471|4066b84c3967a507fdb336e1cbd6578b7297ad66d825b134578a8c77d54664c5",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1772964544.451806,
+            "expirationDate": 1800069484.795497,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "x_logid",
-            "value": "202601132150079C76178CB40BC2542188",
+            "value": "2026011611175113531EEA1300397534BA",
             "path": "/",
             "httpOnly": false,
             "secure": true,
@@ -4644,33 +6111,23 @@
           },
           {
             "name": "msToken",
-            "value": "fPkR0QOXkOmedp88Jkns7RuIgGgUCY4s1cF2OaLG-RW8-40hlrHnmhlA0kthV6bbF0OEe0sSYG1VpklNoFXzAkSgqpo9eHdEnQyLBrYOsvJMVNjgT-RcHt9q5Ivy6xkhA4vKdsw=",
+            "value": "qxquB2GBfj486jiqHbY-TRRssEZXoMLGxqPjkNnAdEdcDqvQzURKCLyTFHOgKjjRnEa50wzU5w2BOD7zQ00LKymx_KUdsLb5zUEDM6SLu1pw",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1769176220.619701,
+            "expirationDate": 1769397485.858912,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "msToken",
-            "value": "VFPvnTSAcMisw1c-xnzSxDimUCeZqBFhFQfaJNpvIjVye8u0HRkgfOf1H7g6fEKF1Ai3VACOwZK4KOF9NgiFjMBXg50lstRWZTXqLVPw5TyiK0ucs4hFyVVHFH_A",
+            "value": "0-Xu2IhPZxvqRkxCl5NaXmsDplYpeCZiDkAXGo9uo8ltDja9uyHRZo0HbyEtxHLipjqdtQPMjoG6UXhgAfT_JMA6c6WBD54fB0auwv2gQ7s-Jv4ZR6UODeunGmqH",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1776088222,
+            "expirationDate": 1776309487,
             "sameSite": "no_restriction",
             "domain": "www.capcut.com"
-          },
-          {
-            "name": "_ga_F9J0QP63RB",
-            "value": "GS2.1.s1768312222$o2$g0$t1768312222$j60$l0$h0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1799848222,
-            "sameSite": "no_restriction",
-            "domain": ".capcut.com"
           }
         ],
         "sourceUrl": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video"
@@ -4680,43 +6137,23 @@
         "cookies": [
           {
             "name": "_v2_spipe_web_id",
-            "value": "7591918440416346128",
+            "value": "7595286896067018753",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1799167259,
+            "expirationDate": 1799951465,
             "sameSite": "no_restriction",
             "domain": ".www.capcut.com"
-          },
-          {
-            "name": "_uetvid",
-            "value": "bc861650ebb011f0870747e12781a0aa",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1801476486,
-            "sameSite": "no_restriction",
-            "domain": ".capcut.com"
           },
           {
             "name": "odin_tt",
-            "value": "70ca4c15c90ff810589d7ae8e9d851dbb37b0e955675c70b24d1549ad5b65df6dcc11203d6dc3758b6df9732b4b1bf87",
+            "value": "8574804037f5c85656b03f9addeea20041fc2a78559499518bee03e1449fc852c3c304542047f52df4a06c4d833c9d6b",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1799316483,
+            "expirationDate": 1799951465,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
-          },
-          {
-            "name": "msToken",
-            "value": "NIIDijARi-DlattZZx2nFxXrYJlbvqn2fmYz09jIHNd0LKXdM2Jd4kSYUyKo_JSQeTZzk0Rk6p9e0r42T81RIlcTj83FzI0UCiCcBHoYheDyadnGtTFDSMaTVflFPS877pQzXqY=",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1775556482,
-            "sameSite": "no_restriction",
-            "domain": ".www.capcut.com"
           },
           {
             "name": "ug_capcut_locale",
@@ -4724,7 +6161,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1799316480,
+            "expirationDate": 1799951462,
             "sameSite": "no_restriction",
             "domain": ".www.capcut.com"
           },
@@ -4734,17 +6171,17 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1772964548.853169,
+            "expirationDate": 1773599548.192991,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "_ga",
-            "value": "GA1.1.160668527.1767780476",
+            "value": "GA1.1.1622700903.1768415456",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1799848236,
+            "expirationDate": 1800069497,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -4754,67 +6191,67 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1772964548.852976,
-            "sameSite": "no_restriction",
-            "domain": ".capcut.com"
-          },
-          {
-            "name": "ssid_ucp_v1",
-            "value": "1.0.1-KDU3Mjg5ZTk3OWMzZDFiMjNlNzBlODc0NmUxMjRlMjhkYjRhNmVkNjcKGQiIiNPkjf35rWkQt-H4ygYYnKAVOAFA6wcQAxoDbXkyIiAwMmVjNzVmMjBlZDFkMDBmNjA2YjUzZDY5OWZiNjYzZDJOCiDwjELUf4iUGvFIXIAoKo7acGncgGTMo9Ic2HHYGxR_YhIgqdSjfYz5bPjqgYqJEjdMxzsjkH7RpP_Wm13Tam_jSYUYAyIGdGlrdG9r",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1772964478,
+            "expirationDate": 1773599548.192669,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "tt-target-idc-sign",
-            "value": "AWy6V80S3tIVtKfokEcXaDU94kWxEnKwIh3ifRmIXsIaUmMYZ9rT16TcICsyysg3cVv78lzlI5HLH02oFURgw4ESX4augDF1DfKNqCc2W5YqJS7LpGoNTCd4aYsJSSrZZd7Ir9LkfkVpL7e5pB_UpHw5C2ejs3keTbvwkJ9VAnEiwe6CqetxVqQ7T8afsqo-RGxod0NpX9toig7ybisg_4owb2BxmyMMUbFjpWcNG3mxuCHWzG2On0BMyD9akq46xo7guebtU3z8veEWw11a_WRsv5SQSw9AqwBdOQw-Uk5AinpHgRZLc8-wrIWHPaOceS7BNXg7bIKcQEELdjFoBv1bRVHcrjGZiKqyl9bzrHzfw9ktlNxSvg4ma-K8orCdVW2iWDMbPzdKi_N1CoXFHoTVx_sz47xQe5itJbSKImGWWK9mAuHDETeYmgu2I_LrTnKRRd_HnJKkCU_x3BNGhPFFsNc8Y8BFqDn-h0e3eJe2iAdXHpkS1KMrt4DDLWyw",
+            "value": "Q9TVF_itsAP0JUOP4emfX1DFkJOQfZa1Q3iJ3_S7C-DAfz_A1HpafixQZO81PlkEugmM9k_Nl9WaFoI7116dkZ6prZ3Zb2p_NUWvTtqGbFNTwQ3iLq3LCjfDdDLffEwj5kYY_1hcizoo5xze4hsbCYs9RZnR7iQfVTKubRQL1PbAnZp6pI0GnYR57tzqEIegIyORRpxVxCjn7AtEFv0ViJrrIE01zGI6kXm4S9ao5Qdf28bqR3GTdiQ7HvUUaE56mtknVx9NVjGVE0g-cF7xTpwR_hfA8DyPzO5RaZRN8vFc6k4wSPPFEHIpm6U9sotVzrZpYi9gvhfhltmI_eA4cE8wO_wYyxVh2TgEqUPHu3SWPJeTmFEqWLTrmuBYecoeDyvmSCE6bp40tb7rynxpR4vCuL-4O0rwLLV9rJzS9dLlR_czbXAYlqCkw4iR8ebFDJhxT_5WuduPsWGrZfZ2g0f76iIbsLtgFOnjubi80I9hmcqExWvHNK1bNDRTkPu2",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1799316479,
+            "expirationDate": 1799951461,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "ssid_ucp_v1",
+            "value": "1.0.1-KGYwZTI4ZWM4ZTQ1N2I3ZGU3YjI2YWE5NGE2ZGQ0YTZhNWQ4YTYyZmYKGQiViMqSl_3Ds2kQrsKfywYYnKAVOAFA6wcQAxoDbXkyIiBjNGRhM2Q5ZGJjMGEzZTM2NGU4ZTNjYWJhZWVkMzg3MTJOCiC5ULST6Q2HcdxK6p1Ox_Os094wsRL4b9wJOEjjrnxNMxIgxZw4ydIdNwueUWYcaO2H3420cXAIw-GRxSWYgdE1WewYBSIGdGlrdG9r",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1773599460,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "tt_session_tlb_tag",
-            "value": "sttt%7C2%7CAux18g7R0A9ga1PWmftmPf_________86R0LvB19IyI4z8rpaZoRMuX4wnvrXe1qDPs9pxmQD70%3D",
+            "value": "sttt%7C5%7CxNo9nbwKPjZOjjyrru04cf_________7jafzy7lUahT2HI5MXIKtIXY05SzmJH9HY01tWLJgCjg%3D",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1772964478,
+            "expirationDate": 1773599460,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "sessionid_ss",
-            "value": "02ec75f20ed1d00f606b53d699fb663d",
+            "value": "c4da3d9dbc0a3e364e8e3cabaeed3871",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1772964478,
+            "expirationDate": 1773599460,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "sid_tt",
-            "value": "02ec75f20ed1d00f606b53d699fb663d",
+            "value": "c4da3d9dbc0a3e364e8e3cabaeed3871",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1772964478,
+            "expirationDate": 1773599460,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "uid_tt_ss",
-            "value": "4f82687413de7e04662dc8a949c3abebedd4291f51d29edbeb8fe7daa7f25f5f",
+            "value": "14b59e3eb27943dcea64b4f1ef8f4cd3bd0683fa42dbe9f4bb2e0727ec46f6e7",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1772964478,
+            "expirationDate": 1773599460,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -4824,17 +6261,17 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1770372486.633955,
+            "expirationDate": 1771007480.483582,
             "sameSite": "no_restriction",
             "domain": ".www.capcut.com"
           },
           {
             "name": "uid_tt",
-            "value": "4f82687413de7e04662dc8a949c3abebedd4291f51d29edbeb8fe7daa7f25f5f",
+            "value": "14b59e3eb27943dcea64b4f1ef8f4cd3bd0683fa42dbe9f4bb2e0727ec46f6e7",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1772964478,
+            "expirationDate": 1773599460,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -4844,47 +6281,57 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1772964548.853292,
+            "expirationDate": 1773599548.193201,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "sid_guard",
-            "value": "02ec75f20ed1d00f606b53d699fb663d%7C1767780535%7C5184000%7CSun%2C+08-Mar-2026+10%3A08%3A55+GMT",
+            "value": "c4da3d9dbc0a3e364e8e3cabaeed3871%7C1768415534%7C5184000%7CSun%2C+15-Mar-2026+18%3A32%3A14+GMT",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1798884478,
+            "expirationDate": 1799519460,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "passport_csrf_token_default",
-            "value": "e5595622eb042779f578d5efbf84c547",
+            "value": "3ff935052dccbe59144d7ed311043249",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1772964477,
+            "expirationDate": 1773599459,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "passport_csrf_token",
-            "value": "e5595622eb042779f578d5efbf84c547",
+            "value": "3ff935052dccbe59144d7ed311043249",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1772964477,
+            "expirationDate": 1773599459,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "sessionid",
-            "value": "02ec75f20ed1d00f606b53d699fb663d",
+            "value": "c4da3d9dbc0a3e364e8e3cabaeed3871",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1772964478,
+            "expirationDate": 1773599460,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_uetvid",
+            "value": "2a46bbb0f17711f09f7d9d905437400d",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802111456,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -4894,7 +6341,7 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1770372486.633965,
+            "expirationDate": 1771007480.483593,
             "sameSite": "no_restriction",
             "domain": ".www.capcut.com"
           },
@@ -4904,47 +6351,47 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1772964548.853232,
+            "expirationDate": 1773599548.193098,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "_clck",
-            "value": "taywae%5E2%5Eg2i%5E0%5E2198",
+            "value": "zfd3hf%5E2%5Eg2p%5E0%5E2205",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1799316475,
+            "expirationDate": 1799951456,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "sid_ucp_v1",
-            "value": "1.0.1-KDU3Mjg5ZTk3OWMzZDFiMjNlNzBlODc0NmUxMjRlMjhkYjRhNmVkNjcKGQiIiNPkjf35rWkQt-H4ygYYnKAVOAFA6wcQAxoDbXkyIiAwMmVjNzVmMjBlZDFkMDBmNjA2YjUzZDY5OWZiNjYzZDJOCiDwjELUf4iUGvFIXIAoKo7acGncgGTMo9Ic2HHYGxR_YhIgqdSjfYz5bPjqgYqJEjdMxzsjkH7RpP_Wm13Tam_jSYUYAyIGdGlrdG9r",
+            "value": "1.0.1-KGYwZTI4ZWM4ZTQ1N2I3ZGU3YjI2YWE5NGE2ZGQ0YTZhNWQ4YTYyZmYKGQiViMqSl_3Ds2kQrsKfywYYnKAVOAFA6wcQAxoDbXkyIiBjNGRhM2Q5ZGJjMGEzZTM2NGU4ZTNjYWJhZWVkMzg3MTJOCiC5ULST6Q2HcdxK6p1Ox_Os094wsRL4b9wJOEjjrnxNMxIgxZw4ydIdNwueUWYcaO2H3420cXAIw-GRxSWYgdE1WewYBSIGdGlrdG9r",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1772964478,
+            "expirationDate": 1773599460,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "s_v_web_id",
-            "value": "verify_mk3uuoov_az2Dpsxg_YWsw_4MYy_9iwA_m4xxzNRaFAx4",
+            "value": "verify_mkecwinj_dW3Qab4m_rose_495R_B6Nl_rliaKYiYVpCZ",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1770372486.633968,
+            "expirationDate": 1771007480.483598,
             "sameSite": "no_restriction",
             "domain": ".www.capcut.com"
           },
           {
             "name": "_gcl_au",
-            "value": "1.1.1441165938.1767780476",
+            "value": "1.1.1840635141.1768415456",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1775556476,
+            "expirationDate": 1776191456,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -4954,7 +6401,17 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1799316480,
+            "expirationDate": 1799951462,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a51455734626973796742684c2b55456d4c61584534366769687749482f46566459633773612b652f4b637666436c383150",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776191476,
             "sameSite": "no_restriction",
             "domain": ".www.capcut.com"
           },
@@ -4964,7 +6421,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1799848231.476156,
+            "expirationDate": 1800069494.13293,
             "sameSite": "no_restriction",
             "domain": "www.capcut.com"
           },
@@ -4974,7 +6431,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1799848231.476253,
+            "expirationDate": 1800069494.133263,
             "sameSite": "no_restriction",
             "domain": "www.capcut.com"
           },
@@ -4989,10 +6446,11 @@
           },
           {
             "name": "_tea_web_id",
-            "value": "7592559544493426183",
+            "value": "7595286828992775681",
             "path": "/",
             "httpOnly": false,
             "secure": true,
+            "expirationDate": 1768619897.060551,
             "sameSite": "no_restriction",
             "domain": "www.capcut.com"
           },
@@ -5006,63 +6464,73 @@
             "domain": "www.capcut.com"
           },
           {
-            "name": "ttwid",
-            "value": "1|r9rhz1EUlhmTln55pTlJtTKkIdw5Py2xk-XIxPh5Xkk|1768312220|1c7cad1c7ae38dde0052b9ef5f196da4d40ff0abe598eecd5849070891d07c42",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1799848233.42766,
-            "sameSite": "no_restriction",
-            "domain": ".capcut.com"
-          },
-          {
-            "name": "_ga_F9J0QP63RB",
-            "value": "GS2.1.s1768312236$o2$g0$t1768312236$j60$l0$h0",
+            "name": "_v2_spipe_web_id",
+            "value": "7595286896067018753",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1799848236,
-            "sameSite": "no_restriction",
-            "domain": ".capcut.com"
-          },
-          {
-            "name": "msToken",
-            "value": "z_YW-BxwCONosxdSSAkYV1hs3y01tCsiIdWT8-W-j8NgffuVqsl-cto6oPWKwhdddjV-WRG-AgXNNbx68BaWvd4ZmzTZY7bhaQbdrL3d0LAg",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1769176238.219541,
-            "sameSite": "no_restriction",
-            "domain": ".capcut.com"
-          },
-          {
-            "name": "msToken",
-            "value": "_RYKkPDPF_xoRfay-3xO7XL6e7FTc-OZHxFZgGhJhDTa5OahMkLwrAyI9CmWTQLLPrrbv8lvvlI3RgE-YHZyPO69iRV5r1AEgVtQtdA1RNHFqK09bMJnP6t6D7nZ",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1776088242,
+            "expirationDate": 1800069497.060374,
             "sameSite": "no_restriction",
             "domain": "www.capcut.com"
           },
           {
-            "name": "store-country-sign",
-            "value": "MEIEDKUVsNI8hgwYJ6ZnGAQgtcx0edDAhmayuzWP9H49aof4J5aJGoKUwfmINJWiMbYEEP8lVDYTNMSMG7w13hXJ4UA",
+            "name": "ttwid",
+            "value": "1|1Yt9b55Nfj2wuuNTMA5l2rzzKLWqxQ4x4xfA0qLVpD8|1768533483|ad7696b1b595bef04f7096e04c738c4a862307143cdedf875149d65125bde21e",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1772964548.853095,
+            "expirationDate": 1800069497.060473,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "msToken",
+            "value": "msxb9dI0KJu_7tyfU29aCX_g1W6R5H7bmfaAHRBRmsEruPPoKEqSLD698qVkgKdh0sLWYb3sd_yqn9WOooDmXGbnafXfM55MHUOn61BGwBHa9Hnn3JPUkp5mjC2R",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776309497,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "_ga_F9J0QP63RB",
+            "value": "GS2.1.s1768533497$o2$g0$t1768533498$j59$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800069498,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "store-country-sign",
+            "value": "MEIEDL10GIIpgBPwVO_CjgQg3DfV-dL0ZyRAL-wtAvIzfm8tPSsIXov8qPpnSxzW7ngEEAnTt42vPd-mzRPxR1b5jf4",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1773599548.192865,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "x_logid",
-            "value": "202601132150319C76178CB40BC254330B",
+            "value": "20260116111804EEE532F7A719D46FF2FD",
             "path": "/",
             "httpOnly": false,
             "secure": true,
             "sameSite": "no_restriction",
             "domain": "www.capcut.com"
+          },
+          {
+            "name": "msToken",
+            "value": "vC4ECBSi6w10Hcm5fs8Dz4eh5XHe2gFPG8jiUgBddUyl54E9sDXPtPH7D5FcYodvgZ1yUMxp5XZvQy0JEWcoJmk0aLzybcqJwndzExhArpsOh27PmOEB-Vhr-w_S",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1769397498.035438,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
           }
         ],
         "sourceUrl": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video"
@@ -5072,31 +6540,21 @@
         "cookies": [
           {
             "name": "_v2_spipe_web_id",
-            "value": "7591918440416346128",
+            "value": "7595286912332578817",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1799167259,
-            "sameSite": "no_restriction",
-            "domain": ".www.capcut.com"
-          },
-          {
-            "name": "msToken",
-            "value": "0A1yGzZiOE9vFg1P6k2vVCJbI37UT-VwonFHZ8PKeft-ynxKVDmXqp4Afo6CMb20vnFBd9ltOhPksNjaOPL-LkmwzQzCRi9F7Pw3iRUg7SisvfLoqhHuPl_bCsD55VcOwhV64tk=",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1775987234,
+            "expirationDate": 1799951470,
             "sameSite": "no_restriction",
             "domain": ".www.capcut.com"
           },
           {
             "name": "odin_tt",
-            "value": "21a60e73d88f19063c8761d420330b8a5a5635ba55f9db15bb4a290f1f4432a1f5d96fe2af03f3f74ef10bf31d6b8fb8",
+            "value": "5d9edce6a9c31f02021c6cd3c69d1867212aaab34f7d8079d9e3a9bb28518b5ef6f3556070daeb3e7e5955145e35057f",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1799747230,
+            "expirationDate": 1799951470,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -5106,7 +6564,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1799747228,
+            "expirationDate": 1799951467,
             "sameSite": "no_restriction",
             "domain": ".www.capcut.com"
           },
@@ -5116,17 +6574,17 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1773395307.641731,
+            "expirationDate": 1773599553.356686,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "_ga",
-            "value": "GA1.1.1504535131.1768211222",
+            "value": "GA1.1.1881830927.1768415462",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1799848254,
+            "expirationDate": 1800069508,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -5136,67 +6594,67 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1773395307.641536,
+            "expirationDate": 1773599553.356432,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "tt-target-idc-sign",
-            "value": "c6Kfgrmqk_BUfUh9IFedbOXgFhibfiYo4TMeBMR0EkHroHcrwqKULZ5t097pGDdi5C5NdpMbpNWqUz7bpGGn58rguycZzb9xDKTl6PfEaBEPYHxJUC2LG7fiUWPjcoJUzCQi5nzkPt03g-plkIlE2VBM6-yi23xPoK-LK7pkBOvV0JP_oPV01nwZxTLUm3pXwrUCLZLs6sJMTKWXes8rWIlaMyVOteBcNz8-Mw01S6pTmkMxtUREWnvTmxIFNecdmzao-5z62olJ4D8BvL-0FhBcNuEOV9Seqlx2H-SMAgBZKhfx3KOM2aH4ZezUUr94wlHX7IdClKxCB96YG5H3IVN_4Z7Wssu5nHNQv0ZTBWgO2RGn3tmxqHYyCsQ4tP0_iAGttLACfvbRq60UyLAZqGSs_QuC7dCYuaLH6WfAvM2L9uDEr-ToFT9QWcD3Zdi_m4D6fjgTa4lvYwHUQgXG5ujYK9DSY9TElZgaZNhDmzqIvgc4nCizf--S6NXpq9Eh",
+            "value": "akGqh1YGHGY_5SZqVd-HUwrt-6kRq-ADPsCQKym_ZLEvauBrkAxTPxyGIq_F0xn5dK_XbQrfBLxg1Blbh12APfPIlNJKhI3Cb19rcPhP5n13vcgZUX5_CmE6g1KpzADntGWqBGzsAlqIWPmh7w9YC9drwHjZjvrqDMRjHz_c6WOWOG_MThazG5bGXFo97UgAZhUnaJKIPfLhqwiAnWkx_5xdt0sZqC0D2qzIiZLJC90cd4Yba7vBE7aIKumWAJCIcWn5r8ePEk95K61CosPe1UC7trcF5-1bsnmiYLnpKyxf7arsKGjmVqd2AdRiNaDDgtOONfhu5AOd0-Zq5WRDcg8JXUO6s6iDDsVjkDyWWHt_FX9bO9H6rg8aOFhFgjo7UDKRN13xm-zlOEeM9YSldRKF_7bOWRTkCasR9LQYJB5n7pWpRlojzUoeZVast0wlHBzRuQC58QRCflDKwfMrZnaopCoMW3Aa1KVYAjLTBYK9ZGld-1pOYno8gyAuHR2a",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1799747227,
+            "expirationDate": 1799951466,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "ssid_ucp_v1",
-            "value": "1.0.1-KGNlNGNkYTJjMDNkZmVhM2MxOGFmNTgxN2FkY2U3MGVjZjcxODgyODAKGQiIiKrKwY36rWkQ3oaTywYYnKAVOAFA6wcQAxoDbXkyIiAyYjQ0NjcyOTJkNzZjMjBhNzUzNDY0YzViM2Q4NWYzODJOCiCSPbagRIt7YV4xFDviqYX4udWMi-84elVBzNYSEfe19BIgR4xhsUOcrfBpE-ZNLfxaS0FfRZzLuTBJ2wQRdWrNC04YASIGdGlrdG9r",
+            "value": "1.0.1-KDgzMGIwZjQwODRlNTQ3YjEwYTZlZjdhNmMzOGU2MDQxZmVhNmVjZjUKGQiViKKCgs_Ds2kQs8KfywYYnKAVOAFA6wcQAxoCbXkiIDIwZjkyNjNiZGQ1YmE2ZmRkOWIxYzU3YmQwNjNmNzhjMk4KIPIafL4bIguhAz9eFhm6P0Pw65qjXebMcLNqFUkd9xDBEiDIkNVDRyRl7dVreGToqbeNME7e9kcgw88pI6vvqyt76RgCIgZ0aWt0b2s",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1773395226,
+            "expirationDate": 1773599465,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "tt_session_tlb_tag",
-            "value": "sttt%7C3%7CK0RnKS12wgp1NGTFs9hfOP________-5-81JF0KaHxCBOtdpPq44TkPXnwTmR5lqYIqw0JDDy9c%3D",
+            "value": "sttt%7C5%7CIPkmO91bpv3ZscV70GP3jP_________PvWRq52ZTAJSJX4CWjhUqrnIs0lI-qEsNUxfLnKByZow%3D",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1773395226,
+            "expirationDate": 1773599465,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "sessionid_ss",
-            "value": "2b4467292d76c20a753464c5b3d85f38",
+            "value": "20f9263bdd5ba6fdd9b1c57bd063f78c",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1773395226,
+            "expirationDate": 1773599465,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "sid_tt",
-            "value": "2b4467292d76c20a753464c5b3d85f38",
+            "value": "20f9263bdd5ba6fdd9b1c57bd063f78c",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1773395226,
+            "expirationDate": 1773599465,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "uid_tt_ss",
-            "value": "ad80e0b72a55caab938cab27099c51075b50385fef78c0241cc201212d14e035",
+            "value": "4bce7f860691c64fe7d45b34d843da26607fe32da513ad179d8cb0e0f39868e5",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1773395226,
+            "expirationDate": 1773599465,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -5206,17 +6664,17 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1770803236.033996,
+            "expirationDate": 1771007481.43688,
             "sameSite": "no_restriction",
             "domain": ".www.capcut.com"
           },
           {
             "name": "uid_tt",
-            "value": "ad80e0b72a55caab938cab27099c51075b50385fef78c0241cc201212d14e035",
+            "value": "4bce7f860691c64fe7d45b34d843da26607fe32da513ad179d8cb0e0f39868e5",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1773395226,
+            "expirationDate": 1773599465,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -5226,57 +6684,57 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1773395307.641922,
+            "expirationDate": 1773599553.356887,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "sid_guard",
-            "value": "2b4467292d76c20a753464c5b3d85f38%7C1768211294%7C5184000%7CFri%2C+13-Mar-2026+09%3A48%3A14+GMT",
+            "value": "20f9263bdd5ba6fdd9b1c57bd063f78c%7C1768415539%7C5184000%7CSun%2C+15-Mar-2026+18%3A32%3A19+GMT",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1799315226,
-            "sameSite": "no_restriction",
-            "domain": ".capcut.com"
-          },
-          {
-            "name": "sessionid",
-            "value": "2b4467292d76c20a753464c5b3d85f38",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1773395226,
-            "sameSite": "no_restriction",
-            "domain": ".capcut.com"
-          },
-          {
-            "name": "_uetvid",
-            "value": "a533ced0ef9b11f0b3b6e157a4b721f7",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1801907221,
+            "expirationDate": 1799519465,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "passport_csrf_token_default",
-            "value": "b07d3ce88a62e1b11a3fe2475e643427",
+            "value": "1e421cbb9eada95f7118ec90bad40507",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1773395224,
+            "expirationDate": 1773599463,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "passport_csrf_token",
-            "value": "b07d3ce88a62e1b11a3fe2475e643427",
+            "value": "1e421cbb9eada95f7118ec90bad40507",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1773395224,
+            "expirationDate": 1773599463,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "sessionid",
+            "value": "20f9263bdd5ba6fdd9b1c57bd063f78c",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1773599465,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_uetvid",
+            "value": "2db02880f17711f09f9dd9a5e74eb593",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1802111461,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -5286,7 +6744,7 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1770803236.034006,
+            "expirationDate": 1771007481.43689,
             "sameSite": "no_restriction",
             "domain": ".www.capcut.com"
           },
@@ -5296,47 +6754,47 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1773395307.641802,
+            "expirationDate": 1773599553.356785,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "_clck",
-            "value": "160jqsp%5E2%5Eg2n%5E0%5E2203",
+            "value": "tv9hpx%5E2%5Eg2p%5E0%5E2205",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1799747223,
+            "expirationDate": 1799951462,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "sid_ucp_v1",
-            "value": "1.0.1-KGNlNGNkYTJjMDNkZmVhM2MxOGFmNTgxN2FkY2U3MGVjZjcxODgyODAKGQiIiKrKwY36rWkQ3oaTywYYnKAVOAFA6wcQAxoDbXkyIiAyYjQ0NjcyOTJkNzZjMjBhNzUzNDY0YzViM2Q4NWYzODJOCiCSPbagRIt7YV4xFDviqYX4udWMi-84elVBzNYSEfe19BIgR4xhsUOcrfBpE-ZNLfxaS0FfRZzLuTBJ2wQRdWrNC04YASIGdGlrdG9r",
+            "value": "1.0.1-KDgzMGIwZjQwODRlNTQ3YjEwYTZlZjdhNmMzOGU2MDQxZmVhNmVjZjUKGQiViKKCgs_Ds2kQs8KfywYYnKAVOAFA6wcQAxoCbXkiIDIwZjkyNjNiZGQ1YmE2ZmRkOWIxYzU3YmQwNjNmNzhjMk4KIPIafL4bIguhAz9eFhm6P0Pw65qjXebMcLNqFUkd9xDBEiDIkNVDRyRl7dVreGToqbeNME7e9kcgw88pI6vvqyt76RgCIgZ0aWt0b2s",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1773395226,
+            "expirationDate": 1773599465,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "s_v_web_id",
-            "value": "verify_mkazb1ht_ivJ6Rknj_hww6_4J9L_Agzr_mdHUeeY35YDP",
+            "value": "verify_mkecwlt4_Oodo1n2Y_ODGQ_4qQF_9uQc_pxali5YX789Q",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1770803236.034011,
+            "expirationDate": 1771007481.436893,
             "sameSite": "no_restriction",
             "domain": ".www.capcut.com"
           },
           {
             "name": "_gcl_au",
-            "value": "1.1.1244698077.1768211222",
+            "value": "1.1.40752667.1768415462",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1775987222,
+            "expirationDate": 1776191462,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -5346,7 +6804,17 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1799747228,
+            "expirationDate": 1799951467,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
+            "name": "sign",
+            "value": "445275774777774b50534a764f797a51455734626973796742684c2b55456d4c61584534366769687749477637764556527a6d30386151475366364635696d74",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776191480,
             "sameSite": "no_restriction",
             "domain": ".www.capcut.com"
           },
@@ -5356,7 +6824,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1799848251.368329,
+            "expirationDate": 1800069504.270823,
             "sameSite": "no_restriction",
             "domain": "www.capcut.com"
           },
@@ -5366,7 +6834,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1799848251.368426,
+            "expirationDate": 1800069504.270918,
             "sameSite": "no_restriction",
             "domain": "www.capcut.com"
           },
@@ -5381,10 +6849,11 @@
           },
           {
             "name": "_tea_web_id",
-            "value": "7594409619746588176",
+            "value": "7595286843961378305",
             "path": "/",
             "httpOnly": false,
             "secure": true,
+            "expirationDate": 1768619907.172949,
             "sameSite": "no_restriction",
             "domain": "www.capcut.com"
           },
@@ -5398,48 +6867,58 @@
             "domain": "www.capcut.com"
           },
           {
+            "name": "msToken",
+            "value": "DM2ib4hh_-VmQF1GDe-ZzpvzfIDpPgD-L0MLopyvjo7xD9GBfLsaQEQbOBm2bqbGtGQwOpY2-7PHd-pN-yyvWSp77o3J-E1qcRQPGB80CGs7xqly9NMBmL3A2ISc",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776309507,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "_v2_spipe_web_id",
+            "value": "7595286912332578817",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800069507.172777,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
             "name": "ttwid",
-            "value": "1|rXix8LiNECTbOImnOPI9aFHvcYkZ5kSNOhut25gXrgo|1768312240|9fbfeccdd247ea752a3ab27d0a7e6e8c7e626fad241253ae394a1cbcb30e2aa3",
+            "value": "1|TEmEOYM7B9mWMZMPKvQ9pnAtKPOfjJl5C-COlv7u5Ww|1768533493|754b45776376a440fe15085b0fa2014c35d8ac6c5a75c288465f22d718878f8b",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1799848253.395759,
+            "expirationDate": 1800069507.172869,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "_ga_F9J0QP63RB",
-            "value": "GS2.1.s1768312254$o2$g0$t1768312254$j60$l0$h0",
+            "value": "GS2.1.s1768533508$o2$g0$t1768533508$j60$l0$h0",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1799848254,
+            "expirationDate": 1800069508,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "store-country-sign",
-            "value": "MEIEDEBXJ-mfyVj7MK2PZAQgM-XS7YJnX5_tJM3FlIopkPwpcpUaK6jocTbPC8lYkfQEEJwBH1dWFYXF0PfD70iXYn4",
+            "value": "MEIEDJfGgHIMLXBta-XQ4QQgmgwkxM6kYfB-kd7aXtqBOAkcMIrDY3LsKf8-i1rJOBsEEDxdWNG0VCWzQnMpB-3NN-Q",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1773395307.641656,
+            "expirationDate": 1773599553.356578,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
-            "name": "msToken",
-            "value": "l6xfHRS3H93kcAgFI0B-_02uFUfO_mQF1estAcbOwU4en4jA62dYmB1Qb0INgDKELs_3KXnlqC0l0kr0BOqrqxzJ6KEP3uFtK55k08PHv6MP2tmVkdBNOS92UDJ2",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1776088254,
-            "sameSite": "no_restriction",
-            "domain": "www.capcut.com"
-          },
-          {
             "name": "x_logid",
-            "value": "202601132150445ABC1911675FA554AE26",
+            "value": "20260116111815A0DE1D571B5CF477FBEF",
             "path": "/",
             "httpOnly": false,
             "secure": true,
@@ -5448,11 +6927,11 @@
           },
           {
             "name": "msToken",
-            "value": "8N21oyhlYf5jbgTBLPVR1xTCnXmZyn-zv2781K0nObdS8hPpJDu7ehgO0U3j6RL8wv41GcDRUmOvnB9iXZN6ekrwAY3ty8C4zYsMbFGCd-C9",
+            "value": "JzvXWqM3yWvzZBYgaPPMJmjqMse44cKm6EbmxvqtE8rdGdsfbdeqnD90vcLTzY58h3sYRL_qkTNOZnsWOkmNK7e93yLAi7OAkKNGml2Hvxa4sx92fst9AEviv-Rk",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1769176258.12378,
+            "expirationDate": 1769397508.764567,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           }
@@ -5464,21 +6943,21 @@
         "cookies": [
           {
             "name": "_v2_spipe_web_id",
-            "value": "7591918440416346128",
+            "value": "7595286912332578817",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1799167259,
+            "expirationDate": 1799951470,
             "sameSite": "no_restriction",
             "domain": ".www.capcut.com"
           },
           {
             "name": "odin_tt",
-            "value": "21a60e73d88f19063c8761d420330b8a5a5635ba55f9db15bb4a290f1f4432a1f5d96fe2af03f3f74ef10bf31d6b8fb8",
+            "value": "5d9edce6a9c31f02021c6cd3c69d1867212aaab34f7d8079d9e3a9bb28518b5ef6f3556070daeb3e7e5955145e35057f",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1799747230,
+            "expirationDate": 1799951470,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -5488,7 +6967,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1799747228,
+            "expirationDate": 1799951467,
             "sameSite": "no_restriction",
             "domain": ".www.capcut.com"
           },
@@ -5498,7 +6977,7 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1773395307.763336,
+            "expirationDate": 1773599553.487636,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -5508,67 +6987,67 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1773395307.763133,
+            "expirationDate": 1773599553.487464,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "tt-target-idc-sign",
-            "value": "c6Kfgrmqk_BUfUh9IFedbOXgFhibfiYo4TMeBMR0EkHroHcrwqKULZ5t097pGDdi5C5NdpMbpNWqUz7bpGGn58rguycZzb9xDKTl6PfEaBEPYHxJUC2LG7fiUWPjcoJUzCQi5nzkPt03g-plkIlE2VBM6-yi23xPoK-LK7pkBOvV0JP_oPV01nwZxTLUm3pXwrUCLZLs6sJMTKWXes8rWIlaMyVOteBcNz8-Mw01S6pTmkMxtUREWnvTmxIFNecdmzao-5z62olJ4D8BvL-0FhBcNuEOV9Seqlx2H-SMAgBZKhfx3KOM2aH4ZezUUr94wlHX7IdClKxCB96YG5H3IVN_4Z7Wssu5nHNQv0ZTBWgO2RGn3tmxqHYyCsQ4tP0_iAGttLACfvbRq60UyLAZqGSs_QuC7dCYuaLH6WfAvM2L9uDEr-ToFT9QWcD3Zdi_m4D6fjgTa4lvYwHUQgXG5ujYK9DSY9TElZgaZNhDmzqIvgc4nCizf--S6NXpq9Eh",
+            "value": "akGqh1YGHGY_5SZqVd-HUwrt-6kRq-ADPsCQKym_ZLEvauBrkAxTPxyGIq_F0xn5dK_XbQrfBLxg1Blbh12APfPIlNJKhI3Cb19rcPhP5n13vcgZUX5_CmE6g1KpzADntGWqBGzsAlqIWPmh7w9YC9drwHjZjvrqDMRjHz_c6WOWOG_MThazG5bGXFo97UgAZhUnaJKIPfLhqwiAnWkx_5xdt0sZqC0D2qzIiZLJC90cd4Yba7vBE7aIKumWAJCIcWn5r8ePEk95K61CosPe1UC7trcF5-1bsnmiYLnpKyxf7arsKGjmVqd2AdRiNaDDgtOONfhu5AOd0-Zq5WRDcg8JXUO6s6iDDsVjkDyWWHt_FX9bO9H6rg8aOFhFgjo7UDKRN13xm-zlOEeM9YSldRKF_7bOWRTkCasR9LQYJB5n7pWpRlojzUoeZVast0wlHBzRuQC58QRCflDKwfMrZnaopCoMW3Aa1KVYAjLTBYK9ZGld-1pOYno8gyAuHR2a",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1799747227,
+            "expirationDate": 1799951466,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "ssid_ucp_v1",
-            "value": "1.0.1-KGNlNGNkYTJjMDNkZmVhM2MxOGFmNTgxN2FkY2U3MGVjZjcxODgyODAKGQiIiKrKwY36rWkQ3oaTywYYnKAVOAFA6wcQAxoDbXkyIiAyYjQ0NjcyOTJkNzZjMjBhNzUzNDY0YzViM2Q4NWYzODJOCiCSPbagRIt7YV4xFDviqYX4udWMi-84elVBzNYSEfe19BIgR4xhsUOcrfBpE-ZNLfxaS0FfRZzLuTBJ2wQRdWrNC04YASIGdGlrdG9r",
+            "value": "1.0.1-KDgzMGIwZjQwODRlNTQ3YjEwYTZlZjdhNmMzOGU2MDQxZmVhNmVjZjUKGQiViKKCgs_Ds2kQs8KfywYYnKAVOAFA6wcQAxoCbXkiIDIwZjkyNjNiZGQ1YmE2ZmRkOWIxYzU3YmQwNjNmNzhjMk4KIPIafL4bIguhAz9eFhm6P0Pw65qjXebMcLNqFUkd9xDBEiDIkNVDRyRl7dVreGToqbeNME7e9kcgw88pI6vvqyt76RgCIgZ0aWt0b2s",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1773395226,
+            "expirationDate": 1773599465,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "tt_session_tlb_tag",
-            "value": "sttt%7C3%7CK0RnKS12wgp1NGTFs9hfOP________-5-81JF0KaHxCBOtdpPq44TkPXnwTmR5lqYIqw0JDDy9c%3D",
+            "value": "sttt%7C5%7CIPkmO91bpv3ZscV70GP3jP_________PvWRq52ZTAJSJX4CWjhUqrnIs0lI-qEsNUxfLnKByZow%3D",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1773395226,
+            "expirationDate": 1773599465,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "sessionid_ss",
-            "value": "2b4467292d76c20a753464c5b3d85f38",
+            "value": "20f9263bdd5ba6fdd9b1c57bd063f78c",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1773395226,
+            "expirationDate": 1773599465,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "sid_tt",
-            "value": "2b4467292d76c20a753464c5b3d85f38",
+            "value": "20f9263bdd5ba6fdd9b1c57bd063f78c",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1773395226,
+            "expirationDate": 1773599465,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "uid_tt_ss",
-            "value": "ad80e0b72a55caab938cab27099c51075b50385fef78c0241cc201212d14e035",
+            "value": "4bce7f860691c64fe7d45b34d843da26607fe32da513ad179d8cb0e0f39868e5",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1773395226,
+            "expirationDate": 1773599465,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -5578,17 +7057,17 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1770803236.033996,
+            "expirationDate": 1771007481.43688,
             "sameSite": "no_restriction",
             "domain": ".www.capcut.com"
           },
           {
             "name": "uid_tt",
-            "value": "ad80e0b72a55caab938cab27099c51075b50385fef78c0241cc201212d14e035",
+            "value": "4bce7f860691c64fe7d45b34d843da26607fe32da513ad179d8cb0e0f39868e5",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1773395226,
+            "expirationDate": 1773599465,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -5598,27 +7077,27 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1773395307.763475,
+            "expirationDate": 1773599553.48776,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "sid_guard",
-            "value": "2b4467292d76c20a753464c5b3d85f38%7C1768211294%7C5184000%7CFri%2C+13-Mar-2026+09%3A48%3A14+GMT",
+            "value": "20f9263bdd5ba6fdd9b1c57bd063f78c%7C1768415539%7C5184000%7CSun%2C+15-Mar-2026+18%3A32%3A19+GMT",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1799315226,
+            "expirationDate": 1799519465,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "sessionid",
-            "value": "2b4467292d76c20a753464c5b3d85f38",
+            "value": "20f9263bdd5ba6fdd9b1c57bd063f78c",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1773395226,
+            "expirationDate": 1773599465,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -5628,17 +7107,17 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1773395307.763411,
+            "expirationDate": 1773599553.487699,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "sid_ucp_v1",
-            "value": "1.0.1-KGNlNGNkYTJjMDNkZmVhM2MxOGFmNTgxN2FkY2U3MGVjZjcxODgyODAKGQiIiKrKwY36rWkQ3oaTywYYnKAVOAFA6wcQAxoDbXkyIiAyYjQ0NjcyOTJkNzZjMjBhNzUzNDY0YzViM2Q4NWYzODJOCiCSPbagRIt7YV4xFDviqYX4udWMi-84elVBzNYSEfe19BIgR4xhsUOcrfBpE-ZNLfxaS0FfRZzLuTBJ2wQRdWrNC04YASIGdGlrdG9r",
+            "value": "1.0.1-KDgzMGIwZjQwODRlNTQ3YjEwYTZlZjdhNmMzOGU2MDQxZmVhNmVjZjUKGQiViKKCgs_Ds2kQs8KfywYYnKAVOAFA6wcQAxoCbXkiIDIwZjkyNjNiZGQ1YmE2ZmRkOWIxYzU3YmQwNjNmNzhjMk4KIPIafL4bIguhAz9eFhm6P0Pw65qjXebMcLNqFUkd9xDBEiDIkNVDRyRl7dVreGToqbeNME7e9kcgw88pI6vvqyt76RgCIgZ0aWt0b2s",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1773395226,
+            "expirationDate": 1773599465,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -5648,7 +7127,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1799848265.852592,
+            "expirationDate": 1800069514.243375,
             "sameSite": "no_restriction",
             "domain": "www.capcut.com"
           },
@@ -5662,50 +7141,52 @@
             "domain": "www.capcut.com"
           },
           {
-            "name": "_uetsid",
-            "value": "c8a96a00f07711f0aa198d72a8da6268",
+            "name": "_v2_spipe_web_id",
+            "value": "7595286912332578817",
             "path": "/",
             "httpOnly": false,
             "secure": true,
+            "expirationDate": 1800069507.172777,
             "sameSite": "no_restriction",
-            "domain": ".capcut.com"
-          },
-          {
-            "name": "_clsk",
-            "value": "1rmk38s%5E1768305773904%5E1%5E0%5Ea.clarity.ms%2Fcollect",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".capcut.com"
+            "domain": "www.capcut.com"
           },
           {
             "name": "passport_csrf_token_default",
-            "value": "053e172d6120889be20245d7f6e9cd1c",
+            "value": "9405a4fa6cb7d19d13c81980237e5b3c",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1773489773,
+            "expirationDate": 1773599473,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "_uetvid",
-            "value": "c8a98e40f07711f0b09c2d801cfeb281",
+            "value": "32c48a20f17711f089bd999c825a3466",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1802001770,
+            "expirationDate": 1802111470,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_ga_F9J0QP63RB",
+            "value": "GS2.1.s1768415470$o1$g0$t1768415475$j55$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1799951475,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "_gcl_au",
-            "value": "1.1.1237934941.1768305761",
+            "value": "1.1.641824021.1768415470",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1776081761,
+            "expirationDate": 1776191470,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -5715,7 +7196,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1802865760,
+            "expirationDate": 1802975466,
             "sameSite": "no_restriction",
             "domain": ".www.capcut.com"
           },
@@ -5725,56 +7206,47 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1770897797.478865,
+            "expirationDate": 1771007482.987231,
             "sameSite": "no_restriction",
             "domain": ".www.capcut.com"
           },
           {
             "name": "_ga",
-            "value": "GA1.1.1162085314.1768305761",
+            "value": "GA1.1.1286255113.1768415470",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1799848268,
+            "expirationDate": 1799951470,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
-            "name": "_tea_web_id",
-            "value": "7594815683998778881",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".www.capcut.com"
-          },
-          {
             "name": "s_v_web_id",
-            "value": "verify_mkcjldm5_hkrfSGrK_d0Zp_405O_9Nps_M20fAZrFVGLV",
+            "value": "verify_mkecwsbx_qPFYMAZ6_M0I6_4w3G_BaB2_iJtdyUEgcaiQ",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1770897797.478869,
+            "expirationDate": 1771007482.987235,
             "sameSite": "no_restriction",
             "domain": ".www.capcut.com"
           },
           {
             "name": "_clck",
-            "value": "102t1c8%5E2%5Eg2o%5E0%5E2204",
+            "value": "mgfino%5E2%5Eg2p%5E0%5E2205",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1799841772,
+            "expirationDate": 1799951472,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "passport_csrf_token",
-            "value": "053e172d6120889be20245d7f6e9cd1c",
+            "value": "9405a4fa6cb7d19d13c81980237e5b3c",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1773489773,
+            "expirationDate": 1773599473,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -5784,7 +7256,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1776081774,
+            "expirationDate": 1776191480,
             "sameSite": "no_restriction",
             "domain": ".www.capcut.com"
           },
@@ -5794,7 +7266,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1799848265.852494,
+            "expirationDate": 1800069514.243271,
             "sameSite": "no_restriction",
             "domain": "www.capcut.com"
           },
@@ -5809,46 +7281,37 @@
           },
           {
             "name": "_tea_web_id",
-            "value": "7594815683998778881",
+            "value": "7595286875373700625",
             "path": "/",
             "httpOnly": false,
             "secure": true,
+            "expirationDate": 1768619914.845394,
             "sameSite": "no_restriction",
             "domain": "www.capcut.com"
           },
           {
             "name": "ttwid",
-            "value": "1|D2xTExlOb6yIQr7cOKsg7__veRplG-9QT8uE6pcA0gk|1768312255|6947069c14dec46d103552db6de74234a2b88b3bf5c7770aa8ceaa9373609b4a",
+            "value": "1|WW-PJRC4YJpyp-AtB7DupNiFdr3Rk6c6_kMiQy8auNo|1768533501|616a39e385a42642ef06100646724793bfe05d901e51d738c246d1ee080cdbf7",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1799848267.865116,
+            "expirationDate": 1800069514.845264,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "store-country-sign",
-            "value": "MEIEDAUYxVR6lTBuUHOYKAQgYFJ9FunuvDwdUprHW7eEZfMgrntic1MIEuQ20yRaKfIEEE2eXINWtfe0WINOvd07waE",
+            "value": "MEIEDF3SVfeKWSFylsyoWAQgupjGYsbBCLO-GXw65ziKbCRTqnTldDiyM_QseNv7IkcEEKM1kVSCA8e8-_8trZDsoO8",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1773395307.763258,
-            "sameSite": "no_restriction",
-            "domain": ".capcut.com"
-          },
-          {
-            "name": "_ga_F9J0QP63RB",
-            "value": "GS2.1.s1768312268$o2$g0$t1768312268$j60$l0$h0",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1799848268,
+            "expirationDate": 1773599553.487568,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "x_logid",
-            "value": "202601132150569C76178CB40BC25443D9",
+            "value": "202601161118220C95AAED5C538A72E884",
             "path": "/",
             "httpOnly": false,
             "secure": true,
@@ -5857,23 +7320,13 @@
           },
           {
             "name": "msToken",
-            "value": "zotKrFWmK9UTZGbAn-TlT1xq8475XZw0B5tqx4cIs_oPx9TVwI-xmiGOHuBVXBbz2WdW6DsI5Lbqf792I5x4aVw6oh9Jshei14Aqx-vvwtNnuJHheJ4mlLb96nxw",
+            "value": "7AasPsnt6GfVqIn05iI_H2Kaae4UsoTr02d3lBC6dPQno47RiiHUjQPTeyVtQE489So1pcWpD1zST5gpIOyi_c6ID5SLOLRFCZoaWiJlCDZI",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1769176270.686596,
+            "expirationDate": 1769397517.31723,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
-          },
-          {
-            "name": "msToken",
-            "value": "gNCSo6jq8jp48HJIuW2R_PwOs5mVntXiFllXFN6V76uqb1RucSpKzhd3DG-m8YQWZdQZWFkfkPIqRMuJ_GXRPLtA6_QJJGzLExp9p_waw83ludvHCbz8OG3Sm-pf",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1776088272,
-            "sameSite": "no_restriction",
-            "domain": "www.capcut.com"
           }
         ],
         "sourceUrl": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video"
@@ -5882,34 +7335,54 @@
         "name": "CapCut 5",
         "cookies": [
           {
-            "name": "msToken",
-            "value": "sjzGriagINyXv_-F64oTq70bDPHAvCKFZ-m0WuBTel7fFCEcnvvnLb9Pcf2yvc1SWB77X-cmKwijQJP5tmmkZpaxRVyRfuYE11lbVFc5EffVPzqqiJ2BpLOjU-QtqRlPblxQyN0B",
+            "name": "_uetvid",
+            "value": "70da76c0f1fa11f0a23e97242994429a",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1775407270,
+            "expirationDate": 1802167852,
             "sameSite": "no_restriction",
-            "domain": ".www.capcut.com"
+            "domain": ".capcut.com"
           },
           {
-            "name": "_v2_spipe_web_id",
-            "value": "7591918440416346128",
+            "name": "_uetsid",
+            "value": "70da6810f1fa11f08c53ffd911d32bc0",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1799167259,
+            "expirationDate": 1768558252,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "msToken",
+            "value": "Ccvc31FFApbQuH05WM7ZUbTw5GBLcxiRZudI_RrnB0CwuzVfTjLhcD_Kw2gLKzLI44rjZLOHrVqQ8_sb97QBDKVZ9zVYQVtY_G8cKwzemjyBWeuId3QyOzqVfGEps_Vbn5Blnds=",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776247851,
             "sameSite": "no_restriction",
             "domain": ".www.capcut.com"
           },
           {
             "name": "odin_tt",
-            "value": "b8d9bb471c711d45d3d10578e015e94f72160fa801ad5e6f93e774d78cb265309ee58dd5cb489c3594b9d436726e6996",
+            "value": "f1ecf3630e10a93f39c52d82c43c11685e819edf3d4e935862ede2d1318c68b2354e986123fdcff5e262caa709815cff",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1799167253,
+            "expirationDate": 1800007847,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
+          },
+          {
+            "name": "_v2_spipe_web_id",
+            "value": "7595529053952786448",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800007847,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
           },
           {
             "name": "ug_capcut_locale",
@@ -5917,17 +7390,27 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1799167247,
+            "expirationDate": 1800007844,
             "sameSite": "no_restriction",
             "domain": ".www.capcut.com"
           },
           {
+            "name": "store-country-code",
+            "value": "id",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1773655932.539901,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
             "name": "_ga",
-            "value": "GA1.1.1778998351.1767631229",
+            "value": "GA1.1.1125959909.1768471838",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1799848205,
+            "expirationDate": 1800007852,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -5937,77 +7420,67 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1772815258.888027,
-            "sameSite": "no_restriction",
-            "domain": ".capcut.com"
-          },
-          {
-            "name": "store-country-code",
-            "value": "id",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1772815258.88822,
-            "sameSite": "no_restriction",
-            "domain": ".capcut.com"
-          },
-          {
-            "name": "tt-target-idc-sign",
-            "value": "SbePhDgmo90jA79zXt3cTTbmtGR57lSaIvwOS7c_b4suZ8bXiI-Vot0LsJVoscVpONtLSHsxoIKqu5oH3V9XNNf2NVqBglOaTADqegoB8P48gWmHpTr44dtTgxn_3IZElVVUbM5xYuIMje5AFh5Ux_IdG6-8PXmkp7DhoOC1ppZkp0gtArc35WcNzZRar5G8cn26TF-DirDH0NuQI4j4IgyhXSlMeCYTuubYEYZzjcrq1THBMGyLdEYzseoOgh21fGl0Hwwb1xmBIBwqMCNjnHTQC6OpSB91utcl9VooVvL2EjEq6on1ZB5jrWyrl1M2tC4uWTnUG2Wt1T7tAp5JWNC9k95DGUEZ6ONrUsYktTz6b5oSPlRlPv0Aqz1E_XQENu2Ng1ajoG7ZuPRuW8aYv5aeddiU_RRj_35hPOG2pU15b3owGMd6DUwmkdf-_RKBUWlbk5-R2AKGaOJriRmJPuFYwfAXr9mgb_q6AkjLbIYj7ap0tKjcrmdy_PeEKUcd",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1799167247,
+            "expirationDate": 1773655932.539608,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "ssid_ucp_v1",
-            "value": "1.0.1-KDc5YjRkYTUyOWU5ZjRkNWRmOTQ2YTY4YTYzN2JmNzk4NGEzOTM3NmIKGQiHiMjyp9j5rWkQjtPvygYYnKAVOAFA6wcQAxoDbXkyIiA0NDhjZDJkYThiZWE1YmQ5MjM5NGEwNjY4MzcwNjU4OTJOCiDYMCi2qSN4YR84vChL6XhuhrH7qjJTHbeWJont5CdWxxIgLLI5gZGJyJIszzDkgBfxh0NS-8mvrKQr3Cs5eppuQI4YASIGdGlrdG9r",
+            "value": "1.0.1-KGFkMmFjMWRiMWQwYjM2ZDdiYjU0ZTZhMTAwNzkzNjRiZTQxMzA5YzIKGQiViKLayfzDs2kQ7vqiywYYnKAVOAFA6wcQAxoDbXkyIiBkMGMzY2I0YTAwODExYzE0NTlhMDdjOWYzNmI2MDdkNzJOCiD8aN_VANHGaapi21-dKVhmdS00I9g3uT44d5Vp37vAVhIga_O87Qaa2BE8kiJmJUDfJsEWSZqzrbqQTFn6-t8gPs0YAyIGdGlrdG9r",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1772815246,
+            "expirationDate": 1773655842,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "tt-target-idc-sign",
+            "value": "ktyXGH1q7mQooeX_Ptl28ih_iFVuu4HHWslg3x5VZCnj6c6GW5gqWPw0iHSwRbwn4dyXxEVUCn9fB5VaUp4QtqZiOf652jC6-jmfpkbbLSaGs4PIu24zCRf6qWcvu-4sfX7heoIBA8eSTjnwmMdphJq66EDoU30S-GTQgSgYNuzRf_l6YlrkjtuIZpoMkq9fEImQ6tXZopaJ49WEFg4rfuMsscToWMVfPov3LjVLi12Z-PTvNkKJvXIuOgOAPGTu5Myx40DxmAoxM6Qb-oSY8bg0UdkATOC9IhCqcsH-bHkrgcsLm7vsjeC1lPUdx6YS5KeZ0WMuc7fvLSQ_SR9bykvbHmdEt4QBAo1fOSJAsbIZixPk-71oFFqw1qBsyC3HJGpBLBkTRGvCrnD62ps-_OEdqpwMikNUYkSpkzJa07B8liJAMK97f2w3zW9ZFZyUPVFrK5dpAoHUZBcMHybvVbEs3KF5FBN5OsrInNMybO9RrUIsu4p5wDW6pnJ0rA7c",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800007843,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "tt_session_tlb_tag",
-            "value": "sttt%7C5%7CRIzS2ovqW9kjlKBmg3Blif________-0c-oLttVQ6k2KqVd3onr2k_DrOS2xNL_DZ6ijOe4DMek%3D",
+            "value": "sttt%7C5%7C0MPLSgCBHBRZoHyfNrYH1__________fdRcfyVDUuaYYv_6awIzLFbw7zeuNoLLzIO6KYj5Hlso%3D",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1772815246,
+            "expirationDate": 1773655842,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "sessionid_ss",
-            "value": "448cd2da8bea5bd92394a06683706589",
+            "value": "d0c3cb4a00811c1459a07c9f36b607d7",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1772815246,
+            "expirationDate": 1773655842,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "sid_tt",
-            "value": "448cd2da8bea5bd92394a06683706589",
+            "value": "d0c3cb4a00811c1459a07c9f36b607d7",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1772815246,
+            "expirationDate": 1773655842,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "uid_tt_ss",
-            "value": "e08cc403dde83a8b267cf6060289614fa72c24bef6162245a9b59c315e9b3862",
+            "value": "0a82450aa7433eb399115fc8699d02b5edd87622d1079971cce611a489c9720f",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1772815246,
+            "expirationDate": 1773655842,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -6017,17 +7490,27 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1770223295.246774,
+            "expirationDate": 1771063854.295044,
             "sameSite": "no_restriction",
             "domain": ".www.capcut.com"
           },
           {
             "name": "uid_tt",
-            "value": "e08cc403dde83a8b267cf6060289614fa72c24bef6162245a9b59c315e9b3862",
+            "value": "0a82450aa7433eb399115fc8699d02b5edd87622d1079971cce611a489c9720f",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1772815246,
+            "expirationDate": 1773655842,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "_ga_F9J0QP63RB",
+            "value": "GS2.1.s1768471838$o1$g1$t1768471852$j46$l0$h0",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1800007852,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -6037,57 +7520,57 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1772815258.888346,
+            "expirationDate": 1773655932.540097,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "sid_guard",
-            "value": "448cd2da8bea5bd92394a06683706589%7C1767631246%7C5184000%7CFri%2C+06-Mar-2026+16%3A40%3A46+GMT",
+            "value": "d0c3cb4a00811c1459a07c9f36b607d7%7C1768471918%7C5184000%7CMon%2C+16-Mar-2026+10%3A11%3A58+GMT",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1798735246,
+            "expirationDate": 1799575842,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "passport_csrf_token_default",
-            "value": "6712c002d15a2844822aa4fb88a77e3e",
+            "value": "481d939b45e334184adebe6617143801",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1772815229,
+            "expirationDate": 1773655841,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "passport_csrf_token",
-            "value": "6712c002d15a2844822aa4fb88a77e3e",
+            "value": "481d939b45e334184adebe6617143801",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1772815229,
+            "expirationDate": 1773655841,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "sessionid",
-            "value": "448cd2da8bea5bd92394a06683706589",
+            "value": "d0c3cb4a00811c1459a07c9f36b607d7",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1772815246,
+            "expirationDate": 1773655842,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
-            "name": "_uetvid",
-            "value": "3e699130ea5511f0a2fa95f1e4f4afe3",
+            "name": "_clsk",
+            "value": "16p853k%5E1768471840772%5E1%5E0%5Ea.clarity.ms%2Fcollect",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1801327228,
+            "expirationDate": 1768558240,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -6097,7 +7580,7 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1770223295.246848,
+            "expirationDate": 1771063854.295053,
             "sameSite": "no_restriction",
             "domain": ".www.capcut.com"
           },
@@ -6107,47 +7590,57 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1772815258.888283,
+            "expirationDate": 1773655932.54,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "_clck",
-            "value": "3rd28q%5E2%5Eg2g%5E0%5E2196",
+            "value": "8n52tj%5E2%5Eg2q%5E0%5E2206",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1799167228,
+            "expirationDate": 1800007839,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
+            "name": "_tea_web_id",
+            "value": "7595529001789326865",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1768558247,
+            "sameSite": "no_restriction",
+            "domain": ".www.capcut.com"
+          },
+          {
             "name": "sid_ucp_v1",
-            "value": "1.0.1-KDc5YjRkYTUyOWU5ZjRkNWRmOTQ2YTY4YTYzN2JmNzk4NGEzOTM3NmIKGQiHiMjyp9j5rWkQjtPvygYYnKAVOAFA6wcQAxoDbXkyIiA0NDhjZDJkYThiZWE1YmQ5MjM5NGEwNjY4MzcwNjU4OTJOCiDYMCi2qSN4YR84vChL6XhuhrH7qjJTHbeWJont5CdWxxIgLLI5gZGJyJIszzDkgBfxh0NS-8mvrKQr3Cs5eppuQI4YASIGdGlrdG9r",
+            "value": "1.0.1-KGFkMmFjMWRiMWQwYjM2ZDdiYjU0ZTZhMTAwNzkzNjRiZTQxMzA5YzIKGQiViKLayfzDs2kQ7vqiywYYnKAVOAFA6wcQAxoDbXkyIiBkMGMzY2I0YTAwODExYzE0NTlhMDdjOWYzNmI2MDdkNzJOCiD8aN_VANHGaapi21-dKVhmdS00I9g3uT44d5Vp37vAVhIga_O87Qaa2BE8kiJmJUDfJsEWSZqzrbqQTFn6-t8gPs0YAyIGdGlrdG9r",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1772815246,
+            "expirationDate": 1773655842,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
             "name": "s_v_web_id",
-            "value": "verify_mk1dzsi7_nOh9x8sD_l26n_4KcW_9SDA_yQnPmDZlUB2X",
+            "value": "verify_mkfah0v3_4b8t4LFA_How5_4Lmo_APzE_AmzehmJjpMCz",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1770223295.246869,
+            "expirationDate": 1771063854.295057,
             "sameSite": "no_restriction",
             "domain": ".www.capcut.com"
           },
           {
             "name": "_gcl_au",
-            "value": "1.1.1735767765.1767631229",
+            "value": "1.1.1223727516.1768471838",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1775407229,
+            "expirationDate": 1776247838,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
@@ -6157,26 +7650,17 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1799167247,
+            "expirationDate": 1800007844,
             "sameSite": "no_restriction",
             "domain": ".www.capcut.com"
           },
           {
-            "name": "sign",
-            "value": "445275774777774b50534a764f797a51455734626973796742684c2b55456d4c61584534366769687749466c735a66716b38764a5945363054757862496c7366",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "no_restriction",
-            "domain": ".capcut.com"
-          },
-          {
             "name": "capcut_locale",
             "value": "en",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1799848191.886065,
+            "expirationDate": 1800069461.779496,
             "sameSite": "no_restriction",
             "domain": "www.capcut.com"
           },
@@ -6186,7 +7670,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1799848191.886155,
+            "expirationDate": 1800069461.779829,
             "sameSite": "no_restriction",
             "domain": "www.capcut.com"
           },
@@ -6201,10 +7685,11 @@
           },
           {
             "name": "_tea_web_id",
-            "value": "7591918265694848520",
+            "value": "7595529001789326865",
             "path": "/",
             "httpOnly": false,
             "secure": true,
+            "expirationDate": 1768619868.567425,
             "sameSite": "no_restriction",
             "domain": "www.capcut.com"
           },
@@ -6218,58 +7703,58 @@
             "domain": "www.capcut.com"
           },
           {
-            "name": "ttwid",
-            "value": "1|h7G5nqYpcfAQoQWkhuRai7aeOv5WqEBfqRw76u_d0P8|1768312185|2d8471d1949ab28b680164d51e2624cc192182ca92ec9cbdb67256bd61d23222",
-            "path": "/",
-            "httpOnly": true,
-            "secure": true,
-            "expirationDate": 1799848198.622424,
-            "sameSite": "no_restriction",
-            "domain": ".capcut.com"
-          },
-          {
             "name": "store-country-sign",
-            "value": "MEIEDFn-4G7xZVa-N23t6QQgllA7W1VdzWuEXfo4web_BLVo8cZVXzoNkBkuZm2QpZ0EEB13gr9euRCEcYoaLsszw8w",
+            "value": "MEIEDIcnYz59Uc8-0cLmMwQgL7olVLZ2VBgd0BrLp1yH0fhcWklBaGrhouSfCAbl9MMEEB9SLPpcehXtDhpUsMUeNWo",
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1772815258.888146,
+            "expirationDate": 1773655932.539792,
             "sameSite": "no_restriction",
             "domain": ".capcut.com"
           },
           {
-            "name": "_ga_F9J0QP63RB",
-            "value": "GS2.1.s1768312205$o2$g0$t1768312205$j60$l0$h0",
+            "name": "_v2_spipe_web_id",
+            "value": "7595529053952786448",
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1799848205,
-            "sameSite": "no_restriction",
-            "domain": ".capcut.com"
-          },
-          {
-            "name": "msToken",
-            "value": "9DoeuOfLrAxJwh3P7RpFq2P0Ecw39P_xnp1otWAlb3HLgEZFSlwXr_og3LtrQlyQTp010pIkxtVhZHH8nut6bQQdZ9QjbNJkQZTqsTnIIu_r",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1769176207.09827,
-            "sameSite": "no_restriction",
-            "domain": ".capcut.com"
-          },
-          {
-            "name": "msToken",
-            "value": "kB8feL2SgcIFJQOqPjFpHRubfvixrB8HJ0F6PY6rf417eC7inOZKcZiG22850_X1pzyd4m5timQcG3o-l8-O_Apemdhda3q_64FJ7SIX8McU3ErA-QhfLI9NR_u9",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "expirationDate": 1776088207,
+            "expirationDate": 1800069468.567246,
             "sameSite": "no_restriction",
             "domain": "www.capcut.com"
           },
           {
+            "name": "ttwid",
+            "value": "1|fOaK6rk-bLCe37fjxus7JIDznlhl_lB8OhmspURvazY|1768533454|8d3669d67fa6fd8289a5cc7fb24af6c6f9c790bcacef546a6b2cb9d368880a0a",
+            "path": "/",
+            "httpOnly": true,
+            "secure": true,
+            "expirationDate": 1800069468.567345,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
+            "name": "msToken",
+            "value": "rfgG9t4rYrsQI_4bMEab_4oUyLyMPdUsZonEPjSV2laIL8U0p0Z462CVn0Qci55yUx59LuMwU7l8fmBq485C-5aPQjdmjUVOgWHbsbzBtnyrp3xQK7j-joqShSp1",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1776309469,
+            "sameSite": "no_restriction",
+            "domain": "www.capcut.com"
+          },
+          {
+            "name": "msToken",
+            "value": "_IHqmtFR59FGpTDEyQm4af7ospTGsYeugn5fE90EnfXRIcKhCvULUC9dHRoAH21zbDUEY4A_OFih8gldMoCYB7eU6XRCNC51j4_H66xVjuZX",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "expirationDate": 1769397472.959361,
+            "sameSite": "no_restriction",
+            "domain": ".capcut.com"
+          },
+          {
             "name": "x_logid",
-            "value": "202601132149493D07536D294A9B524A94",
+            "value": "20260116111739DBF40AE68558B371567F",
             "path": "/",
             "httpOnly": false,
             "secure": true,
@@ -19344,7 +20829,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525361.955644,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -19354,7 +20838,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525361.955689,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -19373,7 +20856,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525362.597697,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -19586,7 +21068,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525368.365735,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -19596,7 +21077,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525368.365781,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -19615,7 +21095,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525369.04533,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -19828,7 +21307,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525377.323938,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -19838,7 +21316,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525377.323989,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -19857,7 +21334,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525377.957454,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -20080,7 +21556,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525386.382321,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -20099,7 +21574,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525387.086973,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -20128,7 +21602,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525387.773193,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -20332,7 +21805,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525395.592238,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -20342,7 +21814,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525395.592285,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -20361,7 +21832,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525396.319229,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -20584,7 +22054,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525407.293422,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -20594,7 +22063,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525407.293468,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -20613,7 +22081,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525407.944074,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -20836,7 +22303,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525414.665829,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -20846,7 +22312,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525414.665913,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -20865,7 +22330,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525415.310429,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -21088,7 +22552,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525422.640847,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -21098,7 +22561,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525422.640901,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -21117,7 +22579,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525423.290251,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -21340,7 +22801,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525431.003944,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -21350,7 +22810,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525431.003994,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -21369,7 +22828,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525431.688576,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -21592,7 +23050,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525448.169749,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -21602,7 +23059,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525448.169797,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -21621,7 +23077,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525448.959431,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -21844,7 +23299,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525456.341364,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -21854,7 +23308,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525456.341409,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -21873,7 +23326,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525456.980219,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -22096,7 +23548,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525470.284905,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -22106,7 +23557,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525470.284954,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -22125,7 +23575,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525470.930908,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -22348,7 +23797,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525479.914817,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -22367,7 +23815,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525480.611597,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -22406,7 +23853,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525484.260486,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           }
@@ -22600,7 +24046,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525491.147948,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -22610,7 +24055,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525491.147997,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -22629,7 +24073,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525491.833352,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -22852,7 +24295,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525505.486451,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -22862,7 +24304,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525505.486501,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -22881,7 +24322,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525506.276256,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -23104,7 +24544,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525537.429482,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -23114,7 +24553,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525537.429537,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -23133,7 +24571,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525538.055695,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -23356,7 +24793,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525549.310064,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -23366,7 +24802,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525549.31011,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -23385,7 +24820,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525550.006759,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -23608,7 +25042,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525561.292708,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -23618,7 +25051,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525561.292763,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -23637,7 +25069,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525562.069596,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -23860,7 +25291,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525571.53895,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -23870,7 +25300,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525571.538996,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -23889,7 +25318,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525572.232213,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -24112,7 +25540,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525580.24165,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -24122,7 +25549,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525580.241696,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -24141,7 +25567,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525580.904489,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -24364,7 +25789,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525591.241164,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -24374,7 +25798,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525591.241208,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -24393,7 +25816,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525591.902127,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -24616,7 +26038,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525601.941774,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -24626,7 +26047,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525601.941819,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -24645,7 +26065,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525602.620763,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -24868,7 +26287,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525616.106539,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -24878,7 +26296,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525616.10659,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -24897,7 +26314,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525616.917446,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -25120,7 +26536,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525626.008314,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -25130,7 +26545,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525626.008363,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -25149,7 +26563,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525626.721889,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -25372,7 +26785,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525632.606907,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -25382,7 +26794,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525632.606954,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -25401,7 +26812,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525633.256154,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -25624,7 +27034,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525641.371855,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -25643,7 +27052,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525642.413097,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -25682,7 +27090,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525647.315535,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           }
@@ -25886,7 +27293,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525654.863008,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -25896,7 +27302,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525654.863054,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -25915,7 +27320,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525655.563971,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -26148,7 +27552,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525661.531884,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -26158,7 +27561,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525661.532125,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -26177,7 +27579,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525662.357362,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -26410,7 +27811,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525669.580613,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -26420,7 +27820,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525669.580658,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -26439,7 +27838,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525670.222904,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -26672,7 +28070,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525683.118289,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -26682,7 +28079,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525683.118334,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -26701,7 +28097,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525683.856456,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -26934,7 +28329,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525692.38241,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -26944,7 +28338,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525692.382456,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -26963,7 +28356,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525693.063008,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -27196,7 +28588,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525705.284865,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -27206,7 +28597,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525705.28491,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -27225,7 +28615,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525706.561827,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -27458,7 +28847,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525721.267812,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -27468,7 +28856,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525721.267862,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -27487,7 +28874,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525722.057641,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -27720,7 +29106,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525749.477463,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -27730,7 +29115,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525749.477509,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -27749,7 +29133,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525750.382445,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -27982,7 +29365,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525758.41646,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -27992,7 +29374,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525758.416506,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -28011,7 +29392,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525759.174536,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -28244,7 +29624,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525768.207673,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -28254,7 +29633,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525768.207893,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -28273,7 +29651,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525768.988106,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -28506,7 +29883,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525776.838796,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -28516,7 +29892,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525776.838842,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -28535,7 +29910,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525777.633901,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -28768,7 +30142,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525786.845983,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -28778,7 +30151,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525786.84604,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -28797,7 +30169,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525787.618499,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -29030,7 +30401,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525796.237982,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -29040,7 +30410,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525796.238036,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -29059,7 +30428,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525797.017779,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -29292,7 +30660,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525805.870914,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -29302,7 +30669,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525805.87096,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -29321,7 +30687,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525806.661883,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -29554,7 +30919,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525814.316028,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -29564,7 +30928,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525814.316079,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -29583,7 +30946,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525815.067942,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -29826,7 +31188,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525822.506399,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -29836,7 +31197,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525822.506449,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -29855,7 +31215,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525823.654142,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -30098,7 +31457,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525831.91536,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -30108,7 +31466,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525831.915406,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -30127,7 +31484,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525832.678365,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -30370,7 +31726,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525844.214635,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -30380,7 +31735,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525844.214682,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -30399,7 +31753,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525845.033844,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -30642,7 +31995,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525851.542036,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -30652,7 +32004,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525851.542081,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -30671,7 +32022,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525852.302858,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -30914,7 +32264,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525866.564517,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -30924,7 +32273,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525866.564563,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -30943,7 +32291,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525867.36552,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -31156,7 +32503,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525351.969658,
             "sameSite": "no_restriction",
             "domain": ".sora.chatgpt.com"
           },
@@ -31166,7 +32512,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525351.969708,
             "sameSite": "no_restriction",
             "domain": "sora.chatgpt.com"
           },
@@ -31185,7 +32530,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768525352.752167,
             "sameSite": "no_restriction",
             "domain": ".chatgpt.com"
           },
@@ -31225,7 +32569,7 @@
   },
   {
     "meta": {
-      "id": "chutes-1018",
+      "id": "chutes-1019",
       "name": "Chutes",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuJ8v1EICNl78zLPEfHkAimzusUBWT7z2nTw&s",
       "url": "https://chutes.ai/app",
@@ -31427,7 +32771,7 @@
   },
   {
     "meta": {
-      "id": "codedex-1020",
+      "id": "codedex-1021",
       "name": "Codedex",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2sH_6-EH9eaPT8YfscbEcq3-i1KLzvZ50JQ&s",
       "url": "https://gracely011.github.io/hai/manual.html?name=Codedex&login=codedex@belajaar.id&password=CodedexMilikGroupy2025!!&url=https://www.codedex.io/login",
@@ -31447,7 +32791,7 @@
   },
   {
     "meta": {
-      "id": "consensus-1022",
+      "id": "consensus-1023",
       "name": "Consensus",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRweoQJzl9iPGJqBYN-uOcjxdcH72RA9W1PKiCmAisHjg&s",
       "url": "https://gracely011.github.io/hai/manual.html?name=Consensus&login=gd@belajaar.id&password=WeAreGroupy2026!123@!&url=https://consensus.app/account/",
@@ -31467,7 +32811,7 @@
   },
   {
     "meta": {
-      "id": "coohom-1023",
+      "id": "coohom-1024",
       "name": "Coohom",
       "icon": "https://play-lh.googleusercontent.com/HWA5QTohakrzdjQnJWyPih_CDFubc9PZi0gW1v-eoopRUAGWpHspB-NeFBH3FQnQc6kz=w240-h480-rw",
       "url": "https://www.coohom.com/pub/saas/apps/project/list",
@@ -31668,7 +33012,7 @@
   },
   {
     "meta": {
-      "id": "coursera-1024",
+      "id": "coursera-1025",
       "name": "Coursera",
       "icon": "https://play-lh.googleusercontent.com/H8crzfriK6t5b0N5wXykhxMjPopyWGDZPaMJlvWlAKb7EG-26KGu15P_RnFDinBw1Jc",
       "url": "https://www.coursera.org/",
@@ -31955,7 +33299,7 @@
   },
   {
     "meta": {
-      "id": "crunchyroll-1026",
+      "id": "crunchyroll-1027",
       "name": "Crunchyroll",
       "icon": "https://groupy.id/assets/images/services/crunchyroll.png",
       "url": "https://www.crunchyroll.com/discover",
@@ -32085,7 +33429,7 @@
   },
   {
     "meta": {
-      "id": "cryptoquant-1027",
+      "id": "cryptoquant-1028",
       "name": "CryptoQuant",
       "icon": "https://cdn.prod.website-files.com/653c8107e2b70a34921d24fd/67a672f11fe6c47be600f037_cryptoquant.png",
       "url": "https://cryptoquant.com/asset/btc/summary",
@@ -32262,7 +33606,7 @@
   },
   {
     "meta": {
-      "id": "curiosity-stream-1028",
+      "id": "curiosity-stream-1029",
       "name": "Curiosity Stream",
       "icon": "https://play-lh.googleusercontent.com/YXqChSEFUdn1A9Jxu9sIZPwlyLYaA_sU_U_h-uW_RyXhEx1WzBNqNWcdNwC3WOGzjg",
       "url": "https://curiositystream.com/home",
@@ -33145,7 +34489,7 @@
   },
   {
     "meta": {
-      "id": "deepl-1030",
+      "id": "deepl-1031",
       "name": "DeepL",
       "icon": "https://play-lh.googleusercontent.com/0IH4L3pX-jqQXKYCDmxTM5t3Tvak2cb_zUuIs9nKCHPeOqkaRJ_bRTq1qKawsSvunw=w240-h480-rw",
       "url": "https://www.deepl.com/en/translator/files",
@@ -33883,7 +35227,7 @@
   },
   {
     "meta": {
-      "id": "deepseek-1031",
+      "id": "deepseek-1032",
       "name": "DeepSeek",
       "icon": "https://pbs.twimg.com/ext_tw_video_thumb/1875845724925206528/pu/img/4T7PkBumsEAjZeO9.jpg",
       "url": "https://notegpt.io/workspace/chat",
@@ -34010,7 +35354,7 @@
   },
   {
     "meta": {
-      "id": "dramabox-1033",
+      "id": "dramabox-1034",
       "name": "DramaBox",
       "icon": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/86/MTA-182203320/no_brand_drama_box_full01_cpdx3p31.jpg",
       "url": "https://dracinfy.com/",
@@ -34042,7 +35386,7 @@
   },
   {
     "meta": {
-      "id": "duolingo-1034",
+      "id": "duolingo-1035",
       "name": "Duolingo",
       "icon": "https://www.langoly.com/wp-content/uploads/2020/03/Duolingo-app-icon.png",
       "url": "https://www.duolingo.com/learn",
@@ -34233,7 +35577,7 @@
   },
   {
     "meta": {
-      "id": "educative-1036",
+      "id": "educative-1037",
       "name": "Educative",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiHav_EAmaStXwVlYg4pL5sFbdOyKcRKefbg&s",
       "url": "https://www.educative.io/explore",
@@ -34689,7 +36033,7 @@
   },
   {
     "meta": {
-      "id": "elicit-1037",
+      "id": "elicit-1038",
       "name": "Elicit",
       "icon": "https://yt3.googleusercontent.com/ksfLLIjvy8Y5vvtAmnSzIeF-svAUzrZyJBs-YwCVZUZGct8XNDb6-KJSepMwCrcuFkb6b8oCczo=s900-c-k-c0x00ffffff-no-rj",
       "url": "https://elicit.com/library",
@@ -34698,61 +36042,61 @@
     "cookies": [
       {
         "name": "sFrontToken",
-        "value": "eyJ1aWQiOiJmOTJjODk1OS03OTI3LTQ0ZGItOTk2Zi1mNTY2ZGM1OTU0NWIiLCJhdGUiOjE3NjgzMTk4MDcwMDAsInVwIjp7ImlhdCI6MTc2ODMwNTQwNywiZXhwIjoxNzY4MzE5ODA3LCJzdWIiOiJmOTJjODk1OS03OTI3LTQ0ZGItOTk2Zi1mNTY2ZGM1OTU0NWIiLCJ0SWQiOiJwdWJsaWMiLCJyc3ViIjoiZjkyYzg5NTktNzkyNy00NGRiLTk5NmYtZjU2NmRjNTk1NDViIiwic2Vzc2lvbkhhbmRsZSI6ImZhN2EwM2I5LTljODQtNDUzYy04ZmQxLTNjMjRjNTVhM2NhYiIsInJlZnJlc2hUb2tlbkhhc2gxIjoiYTdkM2IwYzE4MmI1MmM1MTZmZjQwODlhN2U1ODE4Y2Y4NGNkYmM0NmQzMjY0Zjk2YmVjYjc0ZGFmOGJiMDA0YSIsInBhcmVudFJlZnJlc2hUb2tlbkhhc2gxIjpudWxsLCJhbnRpQ3NyZlRva2VuIjpudWxsLCJpc3MiOiJodHRwczovL2VsaWNpdC5jb20vYXBpL2F1dGgiLCJzdC1ldiI6eyJ2Ijp0cnVlLCJ0IjoxNzY4MzA1NDA3MDE4fSwic3Qtcm9sZSI6eyJ2IjpbXSwidCI6MTc2ODMwNTQwNzAyOH0sInN0LXBlcm0iOnsidiI6W10sInQiOjE3NjgzMDU0MDcwMjl9LCJvbmJvYXJkZWQiOnRydWV9fQ==",
+        "value": "eyJ1aWQiOiJmOTJjODk1OS03OTI3LTQ0ZGItOTk2Zi1mNTY2ZGM1OTU0NWIiLCJhdGUiOjE3Njg1NDY2OTEwMDAsInVwIjp7ImlhdCI6MTc2ODUzMjI5MiwiZXhwIjoxNzY4NTQ2NjkxLCJzdWIiOiJmOTJjODk1OS03OTI3LTQ0ZGItOTk2Zi1mNTY2ZGM1OTU0NWIiLCJ0SWQiOiJwdWJsaWMiLCJyc3ViIjoiZjkyYzg5NTktNzkyNy00NGRiLTk5NmYtZjU2NmRjNTk1NDViIiwic2Vzc2lvbkhhbmRsZSI6IjkzZWVhNDA4LTQzMGYtNDVmMS1iMDNmLWZmNmM1YzlmODM2ZCIsInJlZnJlc2hUb2tlbkhhc2gxIjoiYzczZmZjYjk4NGVmNWY0YWZhN2Y0OTI4NjNiNTliOTcxNGU0OGZkOTI2ZmY0NWIwNzgxNTA5NGU0Zjc4NWQxYiIsInBhcmVudFJlZnJlc2hUb2tlbkhhc2gxIjpudWxsLCJhbnRpQ3NyZlRva2VuIjpudWxsLCJpc3MiOiJodHRwczovL2VsaWNpdC5jb20vYXBpL2F1dGgiLCJzdC1ldiI6eyJ2Ijp0cnVlLCJ0IjoxNzY4NTMyMjkxOTU0fSwic3Qtcm9sZSI6eyJ2IjpbXSwidCI6MTc2ODUzMjI5MTk2MX0sInN0LXBlcm0iOnsidiI6W10sInQiOjE3Njg1MzIyOTE5NjF9LCJvbmJvYXJkZWQiOnRydWV9fQ==",
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1802865408,
+        "expirationDate": 1803092292,
         "sameSite": "no_restriction",
         "domain": ".elicit.com"
       },
       {
         "name": "st-last-access-token-update",
-        "value": "1768305408273",
+        "value": "1768532292488",
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1802865408,
+        "expirationDate": 1803092292,
         "sameSite": "no_restriction",
         "domain": ".elicit.com"
       },
       {
         "name": "osano_consentmanager_uuid",
-        "value": "483e32a9-60e0-46cb-b640-c770594f8773",
+        "value": "e1360767-4eef-4d7f-a50f-8a4e2fc8409a",
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1799846660.051009,
+        "expirationDate": 1800069687.034131,
         "sameSite": "lax",
         "domain": ".elicit.com"
       },
       {
         "name": "sAccessToken",
-        "value": "eyJraWQiOiJkLTE3Njc5Nzk4NDAwNjkiLCJ0eXAiOiJKV1QiLCJ2ZXJzaW9uIjoiNSIsImFsZyI6IlJTMjU2In0.eyJpYXQiOjE3NjgzMDU0MDcsImV4cCI6MTc2ODMxOTgwNywic3ViIjoiZjkyYzg5NTktNzkyNy00NGRiLTk5NmYtZjU2NmRjNTk1NDViIiwidElkIjoicHVibGljIiwicnN1YiI6ImY5MmM4OTU5LTc5MjctNDRkYi05OTZmLWY1NjZkYzU5NTQ1YiIsInNlc3Npb25IYW5kbGUiOiJmYTdhMDNiOS05Yzg0LTQ1M2MtOGZkMS0zYzI0YzU1YTNjYWIiLCJyZWZyZXNoVG9rZW5IYXNoMSI6ImE3ZDNiMGMxODJiNTJjNTE2ZmY0MDg5YTdlNTgxOGNmODRjZGJjNDZkMzI2NGY5NmJlY2I3NGRhZjhiYjAwNGEiLCJwYXJlbnRSZWZyZXNoVG9rZW5IYXNoMSI6bnVsbCwiYW50aUNzcmZUb2tlbiI6bnVsbCwiaXNzIjoiaHR0cHM6Ly9lbGljaXQuY29tL2FwaS9hdXRoIiwic3QtZXYiOnsidiI6dHJ1ZSwidCI6MTc2ODMwNTQwNzAxOH0sInN0LXJvbGUiOnsidiI6W10sInQiOjE3NjgzMDU0MDcwMjh9LCJzdC1wZXJtIjp7InYiOltdLCJ0IjoxNzY4MzA1NDA3MDI5fSwib25ib2FyZGVkIjp0cnVlfQ.ARy2yi0-mDEVMaTDhv-vEX4i1wiaWI7vvT0ti5VqcN4hJo06W3KrAHKxadVCgKi41FFBLrigxhegWShHeK3aGdpB6fmAuFooxzLRhrqoksPROqGk_XhfW0kTEs1VIeesUS2vQ_lZF_eBvFiUTPG21vVzpNHVvWTU4gO794vRbRsJjyP9JkYyXtSzJxJ86E-Z7WyOzzdZhzUhYzc0P_qZxDudjtxJpH6hFVXRj1L_cz0-KhBeGKJ2vLokWFY4l7N3KznAFxAjtP4CI-hOdyZrCfqlImYVQRG8dUSXDPLHAF8C5AslKoAAmCQltzlAp3uWc13lQX7F02oqHaQ30CAwMw",
+        "value": "eyJraWQiOiJkLTE3Njc5Nzk4NDAwNjkiLCJ0eXAiOiJKV1QiLCJ2ZXJzaW9uIjoiNSIsImFsZyI6IlJTMjU2In0.eyJpYXQiOjE3Njg1MzIyOTIsImV4cCI6MTc2ODU0NjY5MSwic3ViIjoiZjkyYzg5NTktNzkyNy00NGRiLTk5NmYtZjU2NmRjNTk1NDViIiwidElkIjoicHVibGljIiwicnN1YiI6ImY5MmM4OTU5LTc5MjctNDRkYi05OTZmLWY1NjZkYzU5NTQ1YiIsInNlc3Npb25IYW5kbGUiOiI5M2VlYTQwOC00MzBmLTQ1ZjEtYjAzZi1mZjZjNWM5ZjgzNmQiLCJyZWZyZXNoVG9rZW5IYXNoMSI6ImM3M2ZmY2I5ODRlZjVmNGFmYTdmNDkyODYzYjU5Yjk3MTRlNDhmZDkyNmZmNDViMDc4MTUwOTRlNGY3ODVkMWIiLCJwYXJlbnRSZWZyZXNoVG9rZW5IYXNoMSI6bnVsbCwiYW50aUNzcmZUb2tlbiI6bnVsbCwiaXNzIjoiaHR0cHM6Ly9lbGljaXQuY29tL2FwaS9hdXRoIiwic3QtZXYiOnsidiI6dHJ1ZSwidCI6MTc2ODUzMjI5MTk1NH0sInN0LXJvbGUiOnsidiI6W10sInQiOjE3Njg1MzIyOTE5NjF9LCJzdC1wZXJtIjp7InYiOltdLCJ0IjoxNzY4NTMyMjkxOTYxfSwib25ib2FyZGVkIjp0cnVlfQ.JOePUkXiXPq71fd6ASlEEjKZVw4iVQ_klZn1ca75XqMQw_fJss8m_Tcp7uWTSplx_fu29cOjp12DsvBjjS7xn56l1dcb3mdP9IpAf9xMOsoXJW0xamvhXl5sH6q7frShOW4zMaCOiuqa5g7yCijTsltlh-aF4SZPLbGrXtHmojyR3tAPz7TuA2aod990wI4_ez7M31ELMg1vqGBw2qykPUQ_zDhOY29fPWmYMiPP-CayHU4frt8ijiUBlFe9rD8gYqYG7YjkzxFCE7rHTj3HsLQ96Y4hPCx5IlM6Ia4C25STmcTMWEMWdmi9av6zBDQgmtfn73NaqsJcKaN0VcTrgg",
         "path": "/",
         "httpOnly": true,
         "secure": true,
-        "expirationDate": 1799841408,
+        "expirationDate": 1800068292,
         "sameSite": "no_restriction",
         "domain": ".elicit.com"
       },
       {
         "name": "_ga",
-        "value": "GA1.1.2041106694.1768305404",
+        "value": "GA1.1.2120413590.1768532288",
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1802870662.592772,
+        "expirationDate": 1803093691.226683,
         "sameSite": "lax",
         "domain": ".elicit.com"
       },
       {
         "name": "_gcl_au",
-        "value": "1.1.359293769.1768305403",
+        "value": "1.1.315621659.1768532288",
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1776081403,
+        "expirationDate": 1776308288,
         "sameSite": "lax",
         "domain": ".elicit.com"
       },
@@ -34762,36 +36106,37 @@
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1802865410,
+        "expirationDate": 1803092294,
         "sameSite": "no_restriction",
         "domain": ".elicit.com"
       },
       {
         "name": "osano_consentmanager",
-        "value": "tf0A1KtVHB6Adhv8BzDcuPOhD_bTuSBBBJGRnj0jGAT3EaNROxic9EZkTVjr_OItr39w-A8LtwrC7zQd3zT2Gh9WCmVF_Rb13Kde-oakrOyYvge8Hle__BeoyEbJ-PVMg5zFpnTZyV5OdRvl7xaDwFhkX8LvY4wYSR5a4ihxHXFtYkkfiRCgPtmpXZDBzbH-SNddJg_eRSxuEsBRAq7ltoIizfYOD5-OZ2PTb0G64NCQ6GnuOmGEEhvimLGSjD1SJHKxfXjwS4BEy6YTvU0Z96E8gO2fR9_anchcxFCe8ZjMgsJVAgxycMnBRti7DFaIEnGRTe_2LHY=",
+        "value": "aPd_skgL2W5A_sk5kHgaqf8LvQAzuHWuhAmV2Qy6Jwp5X-C8GzvIJDSmr5yA2CUJRcl3ukoF3FaqhqOWly--JzZ2PVLCm8hNhxfjRNOn-MbbMynxcsi7UzDK7nGPBdhOjOHSDV5cM6PlfjW-jfVa_7UfsyPqJZQWt4ldIVz7_hH2JaHIrXz_yTJqGdF5i_mqHFQlLqiOHN54oNF2ulGjVlfOhbmi0it1gdljQymdJJn84AgasllzR-cMAoqRK5f4Nu7eMx-75wTiVTJTqrnEC3xJNfs07ftJNHAdEs2UIe4r9AOIjW8cfBr-Zo2hz8FSaX0VXQB-SkE=",
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1799846660.051189,
+        "expirationDate": 1800069687.034303,
         "sameSite": "lax",
         "domain": ".elicit.com"
       },
       {
         "name": "_ga_JC4XD5L8VM",
-        "value": "GS2.1.s1768310662$o2$g0$t1768310662$j60$l0$h0",
+        "value": "GS2.1.s1768532288$o1$g1$t1768533691$j60$l0$h0",
         "path": "/",
         "httpOnly": false,
         "secure": true,
-        "expirationDate": 1802870662.60037,
+        "expirationDate": 1803093691.240258,
         "sameSite": "lax",
         "domain": ".elicit.com"
       },
       {
         "name": "_dd_s",
-        "value": "rum=1&id=4f3c7c43-85c7-4c08-9f3c-db9f2a1cfbd6&created=1768310661421&expire=1768311698698&logs=1",
+        "value": "rum=1&id=a5a583e1-5873-4576-9758-05a8b497d6c6&created=1768533688881&expire=1768534594116&logs=1",
         "path": "/",
         "httpOnly": false,
         "secure": true,
+        "expirationDate": 1768534594,
         "sameSite": "strict",
         "domain": "elicit.com"
       }
@@ -34800,7 +36145,7 @@
   },
   {
     "meta": {
-      "id": "epidemic-sound-1038",
+      "id": "epidemic-sound-1039",
       "name": "Epidemic Sound",
       "icon": "https://groupy.id/assets/images/services/epidemicsound.jpg",
       "url": "https://www.epidemicsound.com/music/featured/",
@@ -35736,7 +37081,7 @@
   },
   {
     "meta": {
-      "id": "everand-1040",
+      "id": "everand-1041",
       "name": "Everand",
       "icon": "https://play-lh.googleusercontent.com/i6RqZKwmmgvCq8FGoGewoEDWYq8Q2ghi8gUnWLBlPHmYCyRM4bl39YZTAoHu7mzU8vN7",
       "url": "https://www.everand.com/home",
@@ -36069,7 +37414,7 @@
   },
   {
     "meta": {
-      "id": "figma-1041",
+      "id": "figma-1042",
       "name": "Figma",
       "icon": "https://play-lh.googleusercontent.com/hoVBnPBRehmXsCqESLXRH2E3OTxklkwKZlb1psn7imm0VUSobn2nevS9RRFWb9GM4-o",
       "url": "https://www.figma.com/files/team/1560676200091399701/recents-and-sharing?fuid=1561637155941475997",
@@ -36361,7 +37706,7 @@
   },
   {
     "meta": {
-      "id": "flaticon-1042",
+      "id": "flaticon-1043",
       "name": "Flaticon",
       "icon": "https://groupy.id/assets/images/services/flaticon.png",
       "url": "https://www.flaticon.com/icons",
@@ -36650,7 +37995,7 @@
   },
   {
     "meta": {
-      "id": "flickreels-1043",
+      "id": "flickreels-1044",
       "name": "FlickReels",
       "icon": "https://yt3.googleusercontent.com/Nr6kUD1b72g6tdrtijUtuIFVFQK4UU_JRXT5_fv748Fj96fs6OWIYweCGSvE-G0azgWiFtSo=s900-c-k-c0x00ffffff-no-rj",
       "url": "https://dracinfy.com/",
@@ -36682,7 +38027,7 @@
   },
   {
     "meta": {
-      "id": "freepik-1044",
+      "id": "freepik-1045",
       "name": "Freepik",
       "icon": "https://groupy.id/assets/images/services/freepik.png",
       "url": "https://www.freepik.com/user/my-subscriptions",
@@ -36915,7 +38260,7 @@
   },
   {
     "meta": {
-      "id": "gamma-1046",
+      "id": "gamma-1047",
       "name": "Gamma",
       "icon": "https://store-images.s-microsoft.com/image/apps.53673.13800228740496758.b926c1b0-f31a-4a9b-b1b3-88dd15f27137.a0a38389-643f-48ed-9379-92a9fb5a7c94",
       "url": "https://gracely011.github.io/hai/manual.html?name=Gamma&login=owndbygroupyyy@prem1um.xyz&password=Gamma.AppByGroupy2026!&url=https://gamma.app/signin",
@@ -37252,7 +38597,7 @@
   },
   {
     "meta": {
-      "id": "ground-news-1049",
+      "id": "ground-news-1050",
       "name": "Ground News",
       "icon": "https://play-lh.googleusercontent.com/61Y1REKFBgC1C6YxQwZA56516gR1zCw-HIaNyP_WV_MnR6Fuofzd8-uWBHzKxZP7mwM",
       "url": "https://gracely011.github.io/hai/manual.html?name=Ground%20News&login=news@belajaar.id&password=NewsGroupy2025!&url=https://ground.news/login",
@@ -37272,7 +38617,7 @@
   },
   {
     "meta": {
-      "id": "guitartricks-1050",
+      "id": "guitartricks-1051",
       "name": "GuitarTricks",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlrIfBbD7fof4ZwKxkeWgU0t2u1lK7x_nPrA&s",
       "url": "https://www.guitartricks.com/home",
@@ -37617,7 +38962,7 @@
   },
   {
     "meta": {
-      "id": "hbo-max-1051",
+      "id": "hbo-max-1052",
       "name": "HBO Max",
       "icon": "https://play-lh.googleusercontent.com/bvyVXgpxu65YO3PNeVhNM9Y7ao7g7FnnKdoNXcwqO48aOlVvnH_b2O9rcZzgEFHzHtI",
       "url": "https://gracely011.github.io/hai/manual.html?name=HBO%20Max%202&login=hbo01@belajaar.id&password=HBOgroupy2025!&url=https://play.max.com",
@@ -37657,7 +39002,7 @@
   },
   {
     "meta": {
-      "id": "iflix-1056",
+      "id": "iflix-1057",
       "name": "iflix",
       "icon": "https://play-lh.googleusercontent.com/_j_9jVM50j43oII8sejBsK4DkHXxFw_MYUQOcHNjgX7SgJMQiLUsa8BuKWGK_84H_OE",
       "url": "https://www.iflix.com/en",
@@ -38013,7 +39358,7 @@
   },
   {
     "meta": {
-      "id": "iloveimg-1057",
+      "id": "iloveimg-1058",
       "name": "iLoveIMG",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVjyJOS7PN-2Xh37-pXo0aOghZLt45Fa2UBw&s",
       "url": "https://www.iloveimg.com/",
@@ -38175,7 +39520,7 @@
   },
   {
     "meta": {
-      "id": "ilovepdf-1058",
+      "id": "ilovepdf-1059",
       "name": "iLovePDF",
       "icon": "https://play-lh.googleusercontent.com/I5yxs1Pspu1rB3NPfqnoX2NscvfzAW7e3Zq5GGhXcr2g207X9-npiuP48Ys7107M1VvA",
       "url": "https://www.ilovepdf.com/",
@@ -38328,7 +39673,7 @@
   },
   {
     "meta": {
-      "id": "iqiyi-1060",
+      "id": "iqiyi-1061",
       "name": "iQIYI",
       "icon": "https://groupy.id/assets/images/services/iqiyi.png",
       "url": "https://www.iq.com/",
@@ -39016,7 +40361,7 @@
   },
   {
     "meta": {
-      "id": "linkedin-learning-1064",
+      "id": "linkedin-learning-1065",
       "name": "LinkedIn Learning",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4fcdsIUPUgmbvGaP-RC4RbHYdVtoN_fM8aya_8gOXI2BRtClESO-0_jgWTtKtIVmOQKs&usqp=CAU",
       "url": "https://www.linkedin.com/learning/?u=73723940",
@@ -39277,7 +40622,7 @@
   },
   {
     "meta": {
-      "id": "lovable-1065",
+      "id": "lovable-1066",
       "name": "Lovable",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTysfvFgHMVChk-7glLKWvdIJLLoA2aau0m1g&s",
       "url": "https://gracely011.github.io/hai/manual.html?name=Lovable&login=lovablegroupy@prem1um.xyz&password=LovableGroupy2025!&url=https://lovable.dev/",
@@ -39345,7 +40690,7 @@
   },
   {
     "meta": {
-      "id": "marvel-unlimited-1066",
+      "id": "marvel-unlimited-1067",
       "name": "Marvel Unlimited",
       "icon": "https://play-lh.googleusercontent.com/ikcy-XJG8_oFwVztH9vK3y--_mUcRu5zyco7d4FqugxzSkX9wMo63oBDPLWZnUsYDg",
       "url": "https://www.marvel.com/comics/unlimited/home",
@@ -39621,7 +40966,7 @@
   },
   {
     "meta": {
-      "id": "masterclass-1067",
+      "id": "masterclass-1068",
       "name": "MasterClass",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeoBuunz4xK_-2t35N6astSudIfb7Bnr0R6HDcwoqbzmzOcuNpiZdiRFRv&s=10",
       "url": "https://www.masterclass.com/profiles",
@@ -40001,7 +41346,7 @@
   },
   {
     "meta": {
-      "id": "medium-1069",
+      "id": "medium-1070",
       "name": "Medium",
       "icon": "https://miro.medium.com/v2/resize:fill:128:128/1*sHhtYhaCe2Uc3IU0IgKwIQ.png",
       "url": "https://medium.com/",
@@ -40100,7 +41445,7 @@
   },
   {
     "meta": {
-      "id": "melolo-1070",
+      "id": "melolo-1071",
       "name": "Melolo",
       "icon": "https://play-lh.googleusercontent.com/zLxJyyx3aGLSR63NvdVv6ERGaLwIujdCRwsEi_-G-6FhCzdrIGMKXUExLQWo29OcZ4A2",
       "url": "https://dracinfy.com/",
@@ -40132,7 +41477,7 @@
   },
   {
     "meta": {
-      "id": "mentimeter-1071",
+      "id": "mentimeter-1072",
       "name": "Mentimeter",
       "icon": "https://images.saasworthy.com/mentimeter_870_logo_1600681783_e5oqu.png",
       "url": "https://gracely011.github.io/hai/manual.html?name=Mentimeter&login=mentimeter@prem1um.xyz&password=MentimeterGroupy2025!&url=https://www.mentimeter.com/app/home",
@@ -40152,7 +41497,7 @@
   },
   {
     "meta": {
-      "id": "mermaidchart-1072",
+      "id": "mermaidchart-1073",
       "name": "Mermaidchart",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPMgbHVXJCw0zQzk3DtR607-823YIxR1Zi_Q&s",
       "url": "https://www.mermaidchart.com/app/login?redirect=%2Fapp%2Fdashboard",
@@ -40300,7 +41645,7 @@
   },
   {
     "meta": {
-      "id": "motion-array-1074",
+      "id": "motion-array-1075",
       "name": "Motion Array",
       "icon": "https://s3-eu-west-1.amazonaws.com/tpd/logos/5b1e60b2b50df6000112eb83/0x0.png",
       "url": "https://motionarray.com/",
@@ -40576,7 +41921,7 @@
   },
   {
     "meta": {
-      "id": "mubi-1075",
+      "id": "mubi-1076",
       "name": "Mubi",
       "icon": "https://images.mubicdn.net/images/avatars/169655/cache-169655-1620041787/images-large.png?size=800x",
       "url": "https://mubi.com/en/id/showing",
@@ -40919,7 +42264,7 @@
   },
   {
     "meta": {
-      "id": "musicbed-1077",
+      "id": "musicbed-1078",
       "name": "Musicbed",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMRzHPEXnSURkOyU9StcI8BZPOTeqzvcJP_A&s",
       "url": "https://www.musicbed.com/songs",
@@ -41116,7 +42461,7 @@
   },
   {
     "meta": {
-      "id": "netflix-1079",
+      "id": "netflix-1080",
       "name": "Netflix",
       "icon": "https://groupy.id/assets/images/services/netflix.png",
       "url": "https://www.netflix.com/browse",
@@ -45622,7 +46967,7 @@
   },
   {
     "meta": {
-      "id": "netshort-1080",
+      "id": "netshort-1081",
       "name": "NetShort",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTElpPW66yYibnlWlVKtVFgwfLnHXgZwYsy2Q&s",
       "url": "https://dracinfy.com/",
@@ -45654,7 +46999,7 @@
   },
   {
     "meta": {
-      "id": "notebooklm-1081",
+      "id": "notebooklm-1082",
       "name": "NotebookLM",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRJ_-m9Y994yfZimh_h8Yzn0sMx2IsfVoDIQ&s",
       "url": "https://gracely011.github.io/hai/manual.html?name=NotebookLM&login=gpypremium@sharingwithgpy.com&password=SharingWithGroupy2026!&url=https://notebooklm.google.com/",
@@ -45674,7 +47019,7 @@
   },
   {
     "meta": {
-      "id": "notegpt-1082",
+      "id": "notegpt-1083",
       "name": "NoteGPT",
       "icon": "https://10web.io/wp-content/uploads/2024/08/NoteGPT_logo.jpg",
       "url": "https://notegpt.io/workspace/home",
@@ -45801,7 +47146,7 @@
   },
   {
     "meta": {
-      "id": "notion-1083",
+      "id": "notion-1084",
       "name": "Notion",
       "icon": "https://play-lh.googleusercontent.com/vy-9s86d-81wk1acsXvAxN1xV5Y-doJdgbskG3GonOerbUwUtvNXk_XSRHoraaXZcX4",
       "url": "https://www.notion.so/Teamspace-Home-2e7f85c3cdd381e5a61df1f2a0b93007",
@@ -46038,7 +47383,7 @@
   },
   {
     "meta": {
-      "id": "pacdora-1084",
+      "id": "pacdora-1085",
       "name": "Pacdora",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9l1bvE2alHZrnR4bmSsbK2KjHemNk_p4Dsf-GVh6-5hFtZgugYYNfQfo0L3CQxZqdLC4&usqp=CAU",
       "url": "https://www.pacdora.com/my-design",
@@ -46228,7 +47573,7 @@
   },
   {
     "meta": {
-      "id": "paperpal-1035",
+      "id": "paperpal-1036",
       "name": "Paperpal",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsb2y412xVI5pSI0IiCzqNCF0RA7p-fxjNbg&s",
       "url": "https://edit.paperpal.com/",
@@ -46458,7 +47803,7 @@
   },
   {
     "meta": {
-      "id": "perplexity-1086",
+      "id": "perplexity-1087",
       "name": "Perplexity",
       "icon": "https://play-lh.googleusercontent.com/6STp0lYx2ctvQ-JZpXA1LeAAZIlq6qN9gpy7swLPlRhmp-hfvZePcBxqwVkqN2BH1g",
       "url": "https://www.perplexity.ai/",
@@ -47362,7 +48707,7 @@
   },
   {
     "meta": {
-      "id": "picsart-1087",
+      "id": "picsart-1088",
       "name": "Picsart",
       "icon": "https://play-lh.googleusercontent.com/1JMJ518jogwPeaD0pYn2mBu1cRLD0xRi45wNbtTIRvam1_xx-y3KJOjRAx-W9P4Lf0U=s256-rw",
       "url": "https://gracely011.github.io/hai/manual.html?name=Picsart&login=sgpgemk@nuyul.id&password=Premium@123&url=https://picsart.com/",
@@ -47416,7 +48761,7 @@
   },
   {
     "meta": {
-      "id": "prezi-ai-1090",
+      "id": "prezi-ai-1091",
       "name": "Prezi AI",
       "icon": "https://play-lh.googleusercontent.com/3rVZ7Lc7-bxsALDo0nWOcuojR9ISxlhO20KnVM3uP00drxIXXt7ATM0V5-YjfM0pPtA",
       "url": "https://prezi.com/dashboard/next/",
@@ -47776,7 +49121,7 @@
   },
   {
     "meta": {
-      "id": "prime-video-1091",
+      "id": "prime-video-1092",
       "name": "Prime Video",
       "icon": "https://groupy.id/assets/images/services/primevideo.png",
       "url": "https://www.primevideo.com/region/eu/",
@@ -52548,7 +53893,7 @@
   },
   {
     "meta": {
-      "id": "pro--captions-ai-1032",
+      "id": "pro--captions-ai-1033",
       "name": "Pro: Captions AI",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMRpOM7wu7dsXoaYndVRPI3hBxosICzN6X9w&s",
       "url": "https://desktop.captions.ai/projects",
@@ -60883,7 +62228,7 @@
   },
   {
     "meta": {
-      "id": "pro--claude-1019",
+      "id": "pro--claude-1020",
       "name": "Pro: Claude",
       "icon": "https://play-lh.googleusercontent.com/4S1nfdKsH_1tJodkHrBHimqlCTE6qx6z22zpMyPaMc_Rlr1EdSFDI1I6UEVMnokG5zI",
       "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Claude&login=foolded4@prem1um.xyz&password=EnJoYersGroupy2026!&url=https://www.getmerlin.in/login",
@@ -60968,7 +62313,7 @@
   },
   {
     "meta": {
-      "id": "pro--cursor-1029",
+      "id": "pro--cursor-1030",
       "name": "Pro: Cursor",
       "icon": "https://miro.medium.com/v2/resize:fit:800/0*zWCTHFNFdGAgSw2d",
       "url": "https://cursor.com/dashboard",
@@ -63761,7 +65106,7 @@
   },
   {
     "meta": {
-      "id": "pro--eraser-1039",
+      "id": "pro--eraser-1040",
       "name": "Pro: Eraser",
       "icon": "https://mavtools.com/wp-content/uploads/2024/05/Eraser.io-Logo.jpg",
       "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Eraser&login=eraser@prem1um.xyz&password=EraserGroupy2025!!&url=https://app.eraser.io/auth/sign-in&extra=https://groupy.id/otp",
@@ -63784,7 +65129,7 @@
   },
   {
     "meta": {
-      "id": "pro--frontend-masters-1045",
+      "id": "pro--frontend-masters-1046",
       "name": "Pro: Frontend Masters",
       "icon": "https://play-lh.googleusercontent.com/8X11A1RYP--qUN-FA3tuEdNG--8QSptibgY6xWQRUDI2YASyAXe726CaE_jEohFYGno",
       "url": "https://frontendmasters.com/dashboard/",
@@ -64014,7 +65359,7 @@
   },
   {
     "meta": {
-      "id": "pro--hidemyass-vpn-1052",
+      "id": "pro--hidemyass-vpn-1053",
       "name": "Pro: HideMyAss VPN",
       "icon": "https://shopallpremium.com/wp-content/uploads/2022/02/HMA-LOG.png",
       "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20HideMyAss%20VPN&login=piopof@yahookuu.id&password=Premium@123&url=https://www.hidemyass.com/index&extra=VYTHMG-X4A4KJ-5R4HX2",
@@ -64169,7 +65514,7 @@
   },
   {
     "meta": {
-      "id": "pro--humata-ai-1054",
+      "id": "pro--humata-ai-1055",
       "name": "Pro: Humata AI",
       "icon": "https://www.humata.ai/favicon.ico",
       "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Humata%20AI&login=userhumata@belajaar.id&password=HumataProGroupy2025!&url=https://app.humata.ai/login",
@@ -64192,7 +65537,7 @@
   },
   {
     "meta": {
-      "id": "pro--iconscout-1055",
+      "id": "pro--iconscout-1056",
       "name": "Pro: IconScout",
       "icon": "https://cdn.iconscout.com/icon/free/png-256/free-iconscout-logo-icon-download-in-svg-png-gif-file-formats--company-pack-logos-icons-4674919.png",
       "url": "https://iconscout.com/",
@@ -64351,7 +65696,7 @@
   },
   {
     "meta": {
-      "id": "pro--investingpro-1059",
+      "id": "pro--investingpro-1060",
       "name": "Pro: InvestingPro",
       "icon": "https://pbs.twimg.com/profile_images/1108338370026053632/JrSrbA-c_400x400.png",
       "url": "https://www.investing.com/",
@@ -64666,7 +66011,7 @@
   },
   {
     "meta": {
-      "id": "pro--jenni-ai-1061",
+      "id": "pro--jenni-ai-1062",
       "name": "Pro: Jenni AI",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjzHV0xQOmnu0xowDdW71mIklQHOJ7RjdzHg&s",
       "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Jenni%20AI&login=jenni@prem1um.xyz&password=JenniAIGroupy2025!&url=https://app.jenni.ai/",
@@ -64689,7 +66034,7 @@
   },
   {
     "meta": {
-      "id": "pro--julius-ai-1062",
+      "id": "pro--julius-ai-1063",
       "name": "Pro: Julius AI",
       "icon": "https://play-lh.googleusercontent.com/5TBQ0_UiHHQ3DmZIOd1fQPRXSIUInSGsIGNgWMTb9fjeQtn7LOW15N6w-krdJxbdaw",
       "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Julius%20AI&login=member@shietoshi.xyz&password=gpyWeAreProGroupy2025!&url=https://auth.julius.ai/",
@@ -64712,7 +66057,7 @@
   },
   {
     "meta": {
-      "id": "pro--kahoot--1025",
+      "id": "pro--kahoot--1026",
       "name": "Pro: Kahoot!",
       "icon": "https://kahoot.com/files/2020/11/Kahoot-1024-rounded.png",
       "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Kahoot!&login=kahoot@prem1um.xyz&password=KahootGroupy2025!&url=https://create.kahoot.it/auth/login",
@@ -65055,7 +66400,7 @@
   },
   {
     "meta": {
-      "id": "pro--mathacademy-1068",
+      "id": "pro--mathacademy-1069",
       "name": "Pro: Mathacademy",
       "icon": "https://pbs.twimg.com/profile_images/1646549566052003841/Z5yj3RDi_400x400.jpg",
       "url": "https://www.mathacademy.com/learn",
@@ -65197,7 +66542,7 @@
   },
   {
     "meta": {
-      "id": "pro--mobbin-1073",
+      "id": "pro--mobbin-1074",
       "name": "Pro: Mobbin",
       "icon": "https://asset.brandfetch.io/idIfIyyq5-/id2DzZkAtw.png",
       "url": "https://mobbin.com/discover/apps/ios/latest",
@@ -67478,7 +68823,7 @@
   },
   {
     "meta": {
-      "id": "pro--nily-ai-1047",
+      "id": "pro--nily-ai-1048",
       "name": "Pro: Nily AI",
       "icon": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-email-Nily_AI-800x800-0-2-1_uuid_9beae3ae-02e7-47a9-8213-16a9367c2bee.png",
       "url": "https://go.nily.ai/multi-chat/new-chat",
@@ -67566,7 +68911,7 @@
   },
   {
     "meta": {
-      "id": "pro--perlego-1085",
+      "id": "pro--perlego-1086",
       "name": "Pro: Perlego",
       "icon": "https://cms-resources.prd.timeshighereducation.com/sites/default/files/styles/large/public/2023-03/Perlego-logo_square_1.jpg?itok=pWI0VoCN",
       "url": "https://www.perlego.com/home",
@@ -68471,7 +69816,7 @@
   },
   {
     "meta": {
-      "id": "pro--placeit-1088",
+      "id": "pro--placeit-1089",
       "name": "Pro: Placeit",
       "icon": "https://play-lh.googleusercontent.com/0654HX7dcGrIxNgjROl2__z2RIW8nkDVZMqm8NiR5p9O0OM-OVNTRG0H8-0fjC8lj-0",
       "url": "https://placeit.net/",
@@ -68650,7 +69995,7 @@
   },
   {
     "meta": {
-      "id": "pro--planner5d-1089",
+      "id": "pro--planner5d-1090",
       "name": "Pro: Planner5D",
       "icon": "https://upload.wikimedia.org/wikipedia/commons/1/13/Planner_5D_logo.png",
       "url": "https://planner5d.com/dashboard",
@@ -78116,7 +79461,7 @@
   },
   {
     "meta": {
-      "id": "pro--supergrok-1048",
+      "id": "pro--supergrok-1049",
       "name": "Pro: SuperGrok",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfDfKMTEJFYyKr-VgVN0z7sdgoINjKnomLLw&s",
       "url": "https://grok.com/",
@@ -80229,7 +81574,7 @@
   },
   {
     "meta": {
-      "id": "scholarcy-1063",
+      "id": "scholarcy-1064",
       "name": "Scholarcy",
       "icon": "https://yt3.googleusercontent.com/ytc/AIdro_kqv2zcFC4lZDK0qSXEbuI1Kcs5wYJoLmONwCf9QX3Qoc4=s900-c-k-c0x00ffffff-no-rj",
       "url": "https://library.scholarcy.com/home",
