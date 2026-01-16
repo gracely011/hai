@@ -41,6 +41,8 @@ supabaseClient.auth.onAuthStateChange((event, session) => {
         }
     } else if (event === 'SIGNED_OUT') {
         eraseCookie('gracely_session_token');
+        // Trigger Extension Cleanup explicitly when Supabase signs out (Auto-logout)
+        setCookie('UnangJahaCookieOnLae', 'true', 1);
     }
 });
 
