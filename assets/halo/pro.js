@@ -4194,7 +4194,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768534483.268686,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
@@ -5152,7 +5151,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768534305.614573,
             "sameSite": "no_restriction",
             "domain": ".canva.com"
           },
@@ -5320,7 +5318,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768534391.940788,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
@@ -5410,7 +5407,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768534377,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
