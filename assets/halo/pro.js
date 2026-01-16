@@ -566,7 +566,7 @@
   },
   {
     "meta": {
-      "id": "apple-tv--1124",
+      "id": "apple-tv--1123",
       "name": "Apple TV+",
       "icon": "https://play-lh.googleusercontent.com/1XBAZjSOWaVM7UDFKvzuMR-WRoR5gCnsYrw17_ihHLcJKT9Qc7hXptHwWQ3Bf83mry4",
       "url": "https://tv.apple.com/ca",
@@ -53325,7 +53325,7 @@
   },
   {
     "meta": {
-      "id": "pro--gemini-ai-ultra-1103",
+      "id": "pro--gemini-ai-ultra-1102",
       "name": "Pro: Gemini AI Ultra",
       "icon": "https://static.vecteezy.com/system/resources/previews/055/687/055/non_2x/rectangle-gemini-google-icon-symbol-logo-free-png.png",
       "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Gemini%20AI%20Ultra&login=gpyultra@sharingwithgpy.com&password=JanganDiGantiPassword..Groupy2026!&url=https://gemini.google.com/",
@@ -57342,7 +57342,7 @@
   },
   {
     "meta": {
-      "id": "pro--perplexity-1097",
+      "id": "perplexity-group-id",
       "name": "Pro: Perplexity",
       "icon": "https://play-lh.googleusercontent.com/6STp0lYx2ctvQ-JZpXA1LeAAZIlq6qN9gpy7swLPlRhmp-hfvZePcBxqwVkqN2BH1g",
       "url": "https://www.perplexity.ai/",
@@ -57881,7 +57881,7 @@
   },
   {
     "meta": {
-      "id": "pro--picsart-1098",
+      "id": "pro--picsart-1097",
       "name": "Pro: Picsart",
       "icon": "https://play-lh.googleusercontent.com/1JMJ518jogwPeaD0pYn2mBu1cRLD0xRi45wNbtTIRvam1_xx-y3KJOjRAx-W9P4Lf0U=s256-rw",
       "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Picsart&login=nomuzoo@nuyul.id&password=Premium@123&url=https://picsart.com/",
@@ -58287,7 +58287,7 @@
   },
   {
     "meta": {
-      "id": "pro--quillbot-1099",
+      "id": "pro--quillbot-1098",
       "name": "Pro: QuillBot",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZtqcA6rvxqQHSb14wu157jMKqBtXRNJ5-1lcBbxf4JzQt7vwDhlmbpnnH&s=10",
       "url": "https://gracely011.github.io/hai/manual.html?name=QuillBot&login=kwilbot@tokito.xyz&password=AkunMilikGroupyDotID2025!!!&url=https://quillbot.com/login?returnUrl=/paraphrasing-tool",
@@ -58330,7 +58330,7 @@
   },
   {
     "meta": {
-      "id": "pro--researchrabbit-1107",
+      "id": "pro--researchrabbit-1106",
       "name": "Pro: ResearchRabbit",
       "icon": "https://pbs.twimg.com/profile_images/1983772825812189184/IXDTOqLX.jpg",
       "url": "https://gracely011.github.io/hai/manual.html?name=ResearchRabbit&login=rabbit@prem1um.xyz&password=RabbitGroupy2025!&url=https://app.researchrabbit.ai/",
@@ -58353,7 +58353,7 @@
   },
   {
     "meta": {
-      "id": "pro--scite-1100",
+      "id": "pro--scite-1099",
       "name": "Pro: Scite",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHo4BcTYbuMiQFR7oUYKZy6zjOgzEORDrzeie96OS1sj3Ur0LpoCPV_ts&s=10",
       "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Scite&login=groupypro@belajaar.id&password=MilikGroupy2025!&url=https://scite.ai/assistant",
@@ -58396,7 +58396,7 @@
   },
   {
     "meta": {
-      "id": "pro--sider-ai-1112",
+      "id": "pro--sider-ai-1111",
       "name": "Pro: Sider AI",
       "icon": "https://play-lh.googleusercontent.com/VghuZRn0-oLvbaGqptsM-9Qr6Ka7Pmw7lfmu6_UQ56mZS6bsXbET9Uf0wF0FECP8lEM",
       "url": "https://sider.ai/chat",
@@ -58638,7 +58638,7 @@
   },
   {
     "meta": {
-      "id": "pro--sora-1101",
+      "id": "pro--sora-1100",
       "name": "Pro: Sora",
       "icon": "https://groupy.id/assets/images/services/sora_plus.png",
       "url": "https://sora.chatgpt.com/explore",
@@ -67526,7 +67526,7 @@
   },
   {
     "meta": {
-      "id": "pro--storytribe-1102",
+      "id": "pro--storytribe-1101",
       "name": "Pro: StoryTribe",
       "icon": "https://media.licdn.com/dms/image/v2/D560BAQGFNn9uuWNKvA/company-logo_200_200/B56ZWE4DUHGUAU-/0/1741691041788/storytribeapp_logo?e=2147483647&v=beta&t=3qm4zJ4TSorw5yxfeP9WtXnDj_DKgiqhVZeGH42wT7g",
       "url": "https://gracely011.github.io/hai/manual.html?name=StoryTribe&login=beapp@prem1um.xyz&password=StoryTribeGroupy2025!&url=https://storytribeapp.com/login-signup",
@@ -68174,7 +68174,7 @@
   },
   {
     "meta": {
-      "id": "pro--tradingview-1120",
+      "id": "pro--tradingview-1119",
       "name": "Pro: TradingView",
       "icon": "https://groupy.id/assets/images/services/tradingview.png",
       "url": "https://www.tradingview.com/",
@@ -68338,7 +68338,7 @@
   },
   {
     "meta": {
-      "id": "pro--trae-ai-1121",
+      "id": "pro--trae-ai-1120",
       "name": "Pro: Trae AI",
       "icon": "https://pbs.twimg.com/profile_images/1946201092687114241/4X_B0XgN_400x400.png",
       "url": "https://www.trae.ai/",
@@ -69057,7 +69057,7 @@
   },
   {
     "meta": {
-      "id": "quizlet-1104",
+      "id": "quizlet-1103",
       "name": "Quizlet",
       "icon": "https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/szx9duflfycmltpnvcvw",
       "url": "https://quizlet.com/latest",
@@ -69439,7 +69439,7 @@
   },
   {
     "meta": {
-      "id": "rawpixel-1105",
+      "id": "rawpixel-1104",
       "name": "Rawpixel",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq1xJnAZa_h6WueAi4mr73cH3K7_pGeTz6Gw&s",
       "url": "https://www.rawpixel.com/",
@@ -69511,7 +69511,7 @@
   },
   {
     "meta": {
-      "id": "relume-1106",
+      "id": "relume-1105",
       "name": "Relume",
       "icon": "https://yt3.googleusercontent.com/MGRbvVhtCttJ7i2qW3igFxIJSkeoaRln_mIAFAfDgZIFD1yNUQC5mn1a5VqXKzcqRmAuDswu=s900-c-k-c0x00ffffff-no-rj",
       "url": "https://www.relume.io/",
@@ -69774,7 +69774,7 @@
   },
   {
     "meta": {
-      "id": "scite-1108",
+      "id": "scite-1107",
       "name": "Scite",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHo4BcTYbuMiQFR7oUYKZy6zjOgzEORDrzeie96OS1sj3Ur0LpoCPV_ts&s=10",
       "url": "https://gracely011.github.io/hai/manual.html?name=Scite&login=tibpbvgzxw@belajaar.id&password=Groupy2025!ocrtmmtnkn&url=https://scite.ai/assistant",
@@ -69814,7 +69814,7 @@
   },
   {
     "meta": {
-      "id": "scribd-1109",
+      "id": "scribd-1108",
       "name": "Scribd",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRebq-8lrzgXjVWMvUDApp_q1MhiL5eSyO15VAHMuNaE4RbrPi-f7c2NMc&s=10",
       "url": "https://www.scribd.com/home",
@@ -70972,7 +70972,7 @@
   },
   {
     "meta": {
-      "id": "semrush-1110",
+      "id": "semrush-1109",
       "name": "Semrush",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7TPtYsfoyLxuSORs6sqgApBGYHOx1aZ43ra1DqBNb8BRYz4ciWF4Mg9uR&s=10",
       "url": "https://www.semrush.com/home/",
@@ -71389,7 +71389,7 @@
   },
   {
     "meta": {
-      "id": "shots-1111",
+      "id": "shots-1110",
       "name": "Shots",
       "icon": "https://pbs.twimg.com/profile_images/1517996453146378245/RTP0-Jy3_400x400.jpg",
       "url": "https://gracely011.github.io/hai/manual.html?name=Shots&login=shotso@prem1um.xyz&password=Groupy2025!&url=https://shots.so",
@@ -71409,7 +71409,7 @@
   },
   {
     "meta": {
-      "id": "skillshare-1113",
+      "id": "skillshare-1112",
       "name": "Skillshare",
       "icon": "https://groupy.id/assets/images/services/skillshare.png",
       "url": "https://www.skillshare.com/en/home",
@@ -71867,7 +71867,7 @@
   },
   {
     "meta": {
-      "id": "slidesgo-1114",
+      "id": "slidesgo-1113",
       "name": "Slidesgo",
       "icon": "https://cdn-icons-png.flaticon.com/512/14649/14649063.png",
       "url": "https://gracely011.github.io/hai/manual.html?name=Slidesgo&login=gpy&password=NsW3xRmPMv&url=https://slidesgo.com/team/user209226220-team-68879521",
@@ -71921,7 +71921,7 @@
   },
   {
     "meta": {
-      "id": "slideshare-1115",
+      "id": "slideshare-1114",
       "name": "Slideshare",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFu2smlszvneX1otpsXxgwhKyPha7Boi8VJg&s",
       "url": "https://www.slideshare.net/",
@@ -72108,7 +72108,7 @@
   },
   {
     "meta": {
-      "id": "sololearn-1116",
+      "id": "sololearn-1115",
       "name": "Sololearn",
       "icon": "https://play-lh.googleusercontent.com/zxbe_H6JVg6ZnIeA1xorxxXr416kKdShmyonBzi5Qe28-GNdczX-NST_ul0AQJ007OA",
       "url": "https://gracely011.github.io/hai/manual.html?name=Sololearn&login=sololearn@belajaar.id&password=WeAreGroupy2025!&url=https://www.sololearn.com/en/users/login",
@@ -72128,7 +72128,7 @@
   },
   {
     "meta": {
-      "id": "sora-1117",
+      "id": "sora-1116",
       "name": "Sora",
       "icon": "https://groupy.id/assets/images/services/sora_plus.png",
       "url": "https://sora.chatgpt.com/explore",
@@ -84352,7 +84352,7 @@
   },
   {
     "meta": {
-      "id": "studocu-1118",
+      "id": "studocu-1117",
       "name": "Studocu",
       "icon": "https://play-lh.googleusercontent.com/20ssDWF3SWEXIFYy8iFwXjomuIqtuHjGc3OxIWqVojIaeo_9_XxUZEDdmm5YPreLucij",
       "url": "https://www.studocu.com/en-us/home",
@@ -84831,7 +84831,7 @@
   },
   {
     "meta": {
-      "id": "symbolab-1119",
+      "id": "symbolab-1118",
       "name": "Symbolab",
       "icon": "https://play-lh.googleusercontent.com/DKlax_iJQtJOKJlIPDSS7DZpbm9gCkHh3vWgrj8BOMRwDPDVKXdTQf9sV4cRuXSdRA",
       "url": "https://www.symbolab.com/",
@@ -85017,7 +85017,7 @@
   },
   {
     "meta": {
-      "id": "the-wall-street-journal-1130",
+      "id": "the-wall-street-journal-1129",
       "name": "The Wall Street Journal",
       "icon": "https://play-lh.googleusercontent.com/eksxaPfxbTVb6VTl5aj1sXLpKc_N9Z6AZ3_5Oq6JhTXmgEQza-1v58a66p_ID0phE2Zv",
       "url": "https://gracely011.github.io/hai/manual.html?name=The%20Wall%20Street%20Journal&login=wsj@killua.cloud&password=TheWallStreetJournalGroupy2025!!!&url=https://www.wsj.com/",
@@ -85037,7 +85037,7 @@
   },
   {
     "meta": {
-      "id": "turbo-ai-1122",
+      "id": "turbo-ai-1121",
       "name": "Turbo AI",
       "icon": "https://play-lh.googleusercontent.com/c678Vjj3oQ8UmrDCYzczS6JDcFor4XxHLnc2gAW9Wk_pbE3KEMw1WZk-rTPucPoV7Sg",
       "url": "https://www.turbo.ai/dashboard",
@@ -85108,7 +85108,7 @@
   },
   {
     "meta": {
-      "id": "turnitin-1123",
+      "id": "turnitin-1122",
       "name": "Turnitin",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIrf73LGu_mACI2Mc_jdghOV02eXRocoXKo0o3qZHFjGgJMUr5M_v8uwap&s=10",
       "url": "https://gracely011.github.io/hai/manual.html?name=Turnitin&login=halo@belajaar.id&password=TurnitinmilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us",
@@ -85176,7 +85176,7 @@
   },
   {
     "meta": {
-      "id": "udemy-1125",
+      "id": "udemy-1124",
       "name": "Udemy",
       "icon": "https://play-lh.googleusercontent.com/dsCkmJE2Fa8IjyXERAcwc5YeQ8_NvbZ4_OI8LgqyjILpXUfS5YhEcnAMajKPrZI-og",
       "url": "https://www.udemy.com/personal/home/",
@@ -86439,7 +86439,7 @@
   },
   {
     "meta": {
-      "id": "vectorizer-ai-1126",
+      "id": "vectorizer-ai-1125",
       "name": "Vectorizer AI",
       "icon": "https://cdn.prod.website-files.com/648e04d4bbae7004f1b35f15/65de13535268a099387a6f60_vectorizer-ai-icon.png",
       "url": "https://vectorizer.ai/",
@@ -86511,7 +86511,7 @@
   },
   {
     "meta": {
-      "id": "viu-1127",
+      "id": "viu-1126",
       "name": "Viu",
       "icon": "https://groupy.id/assets/images/services/viu.png",
       "url": "https://gracely011.github.io/hai/manual.html?name=Viu&login=wardi0381@movieisme.com&password=premiumisme123&url=https://viu.com",
@@ -87763,7 +87763,7 @@
   },
   {
     "meta": {
-      "id": "wolframalpha-1128",
+      "id": "wolframalpha-1127",
       "name": "WolframAlpha",
       "icon": "https://play-lh.googleusercontent.com/OceHg5bH7EsTRwl-lD7jjV9WM0mpj0oH4YfA-CSbjvfa7NCLQBu5-4cLwNlDvCUp5Q4",
       "url": "https://www.wolframalpha.com/",
@@ -87814,7 +87814,7 @@
   },
   {
     "meta": {
-      "id": "writehuman-1129",
+      "id": "writehuman-1128",
       "name": "WriteHuman",
       "icon": "https://earlyshark.com/wp-content/uploads/2024/01/writehuman-logo-1024x1024.png",
       "url": "https://writehuman.ai/ai-detector",
@@ -88065,7 +88065,7 @@
   },
   {
     "meta": {
-      "id": "youtube-noads-1131",
+      "id": "youtube-noads-1130",
       "name": "YouTube NoAds",
       "icon": "https://play-lh.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc",
       "url": "https://gracely011.github.io/hai/youtube-noads.html",
