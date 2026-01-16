@@ -4239,7 +4239,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768534798.894171,
             "sameSite": "no_restriction",
             "domain": ".canva.com"
           },
@@ -5442,7 +5441,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "domain": "canva.com"
+            "domain": "procanva.com"
           }
         ],
         "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva&login=danilkina7@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
@@ -5456,7 +5455,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "domain": "canva.com"
+            "domain": "procanva.com"
           }
         ],
         "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%202&login=58858179@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
@@ -5470,7 +5469,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "domain": "canva.com"
+            "domain": "procanva.com"
           }
         ],
         "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%203&login=chanceeddie@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
@@ -5484,7 +5483,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "domain": "canva.com"
+            "domain": "procanva.com"
           }
         ],
         "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%204&login=jurry@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
@@ -5498,7 +5497,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "domain": "canva.com"
+            "domain": "procanva.com"
           }
         ],
         "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%205&login=yhixoxarydeqo@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
@@ -5512,7 +5511,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "domain": "canva.com"
+            "domain": "procanva.com"
           }
         ],
         "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%206&login=knorozova@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
@@ -5526,7 +5525,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "domain": "canva.com"
+            "domain": "procanva.com"
           }
         ],
         "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%207&login=bludawn@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
@@ -5540,7 +5539,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "domain": "canva.com"
+            "domain": "procanva.com"
           }
         ],
         "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%208&login=kgirl711823@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
@@ -5554,7 +5553,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "domain": "canva.com"
+            "domain": "procanva.com"
           }
         ],
         "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%209&login=bloodynora@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
@@ -5568,7 +5567,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "domain": "canva.com"
+            "domain": "procanva.com"
           }
         ],
         "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2010&login=danali@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
@@ -5582,7 +5581,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "domain": "canva.com"
+            "domain": "procanva.com"
           }
         ],
         "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2011&login=jakobhasse@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
@@ -5596,7 +5595,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "domain": "canva.com"
+            "domain": "procanva.com"
           }
         ],
         "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2012&login=arabadyg@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
@@ -5610,7 +5609,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "domain": "canva.com"
+            "domain": "procanva.com"
           }
         ],
         "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2013&login=harleyva@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
@@ -5624,7 +5623,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "domain": "canva.com"
+            "domain": "procanva.com"
           }
         ],
         "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2014&login=joanrador@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
@@ -5638,7 +5637,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "domain": "canva.com"
+            "domain": "procanva.com"
           }
         ],
         "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2015&login=brawling1@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
@@ -5652,7 +5651,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "domain": "canva.com"
+            "domain": "procanva.com"
           }
         ],
         "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2016&login=cassialima1245@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
@@ -5666,7 +5665,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "domain": "canva.com"
+            "domain": "procanva.com"
           }
         ],
         "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2017&login=restate@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
@@ -5680,7 +5679,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "domain": "canva.com"
+            "domain": "procanva.com"
           }
         ],
         "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2018&login=sergei1467@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
@@ -5694,7 +5693,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "domain": "canva.com"
+            "domain": "procanva.com"
           }
         ],
         "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2019&login=homejob@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
@@ -5708,7 +5707,7 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "domain": "canva.com"
+            "domain": "procanva.com"
           }
         ],
         "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2020&login=mackh@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
