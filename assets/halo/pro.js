@@ -4678,7 +4678,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768535059.183518,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
@@ -4708,7 +4707,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768535024.530796,
             "sameSite": "no_restriction",
             "domain": ".canva.com"
           },
@@ -4778,7 +4776,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768535029,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
@@ -5012,7 +5009,6 @@
             "path": "/",
             "httpOnly": true,
             "secure": true,
-            "expirationDate": 1768535024.530796,
             "sameSite": "no_restriction",
             "domain": ".canva.com"
           },
@@ -5082,7 +5078,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768535029,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
@@ -5429,6 +5424,286 @@
           }
         ],
         "sourceUrl": "https://www.canva.com/templates"
+      },
+      {
+        "name": "Canva 6",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva&login=danilkina7@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 7",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%202&login=58858179@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 8",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%203&login=chanceeddie@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 9",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%204&login=jurry@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 10",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%205&login=yhixoxarydeqo@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 11",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%206&login=knorozova@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 12",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%207&login=bludawn@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 13",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%208&login=kgirl711823@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 14",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%209&login=bloodynora@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 15",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2010&login=danali@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 16",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2011&login=jakobhasse@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 17",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2012&login=arabadyg@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 18",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2013&login=harleyva@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 19",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2014&login=joanrador@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 20",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2015&login=brawling1@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 21",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2016&login=cassialima1245@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 22",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2017&login=restate@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 23",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2018&login=sergei1467@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 24",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2019&login=homejob@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Canva 25",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canva.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2020&login=mackh@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
       }
     ]
   },
