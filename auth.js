@@ -1,4 +1,4 @@
-(function () {
+(function() {
     var a = ["gracely011.github.io", "localhost", "127.0.0.1"],
         h = window.location.hostname,
         p = window.location.pathname,
@@ -25,7 +25,7 @@ function setCookie(name, value, days) {
         date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
         expires = "; expires=" + date.toUTCString();
     }
-    let cookieString = name + "=" + (value || "") + expires + "; path=/; SameSite=Lax; Secure";
+    let cookieString = name + "=" + (value || "") + expires + "; path=/hai/; SameSite=Lax; Secure";
     document.cookie = cookieString;
 }
 
@@ -41,8 +41,6 @@ supabaseClient.auth.onAuthStateChange((event, session) => {
         }
     } else if (event === 'SIGNED_OUT') {
         eraseCookie('gracely_session_token');
-        // Trigger Extension Cleanup explicitly when Supabase signs out (Auto-logout)
-        setCookie('UnangJahaCookieOnLae', 'true', 1);
     }
 });
 
@@ -153,7 +151,7 @@ async function login(email, password) {
         if (authError) {
             throw authError;
         }
-
+        
         let { data: profileData, error: profileError } = await supabaseClient
             .from('profiles')
             .select(`
@@ -171,10 +169,10 @@ async function login(email, password) {
             throw profileError;
         }
 
-        const userPlan = profileData.plan_gracely || {
-            number_plan: '001',
-            name_plan: 'No Premium',
-            configurl: null
+        const userPlan = profileData.plan_gracely || { 
+            number_plan: '001', 
+            name_plan: 'No Premium', 
+            configurl: null 
         };
 
         const now = new Date().toISOString();
@@ -233,7 +231,7 @@ async function login(email, password) {
         localStorage.setItem('isPremium', isCurrentlyPremium);
         localStorage.setItem('gracely_db_session_id', uniqueSessionID);
         localStorage.setItem('gracely_active_session_token', secureSessionToken);
-        localStorage.setItem('userPlanName', userPlan.name_plan);
+        localStorage.setItem('userPlanName', userPlan.name_plan); 
         localStorage.setItem('userPlanNumber', userPlan.number_plan);
 
         if (isCurrentlyPremium && userPlan.configurl) {
@@ -243,13 +241,13 @@ async function login(email, password) {
             localStorage.removeItem('gracely_config_url');
             localStorage.removeItem('premiumExpiryDate');
         }
-
+        
         localStorage.removeItem('gracelyPremiumConfig');
         eraseCookie('gracely_active_session');
         eraseCookie('is_premium');
         setCookie('gracely_session_token', secureSessionToken, 30);
         if (typeof eraseCookie === 'function') eraseCookie('UnangJahaCookieOnLae');
-
+        
         return {
             success: true
         };
@@ -353,7 +351,7 @@ async function logout() {
         await supabaseClient.from('profiles').update({
             last_sign_out: now
         }).eq('id', userId);
-
+        
         if (currentSessionId) {
             await supabaseClient.from('user_sessions').delete().eq('session_token', currentSessionId);
         }
@@ -381,7 +379,6 @@ async function logout() {
     eraseCookie('gracely_config_url');
     eraseCookie('gracely_session_token');
     setCookie('UnangJahaCookieOnLae', 'true', 1);
-    setCookie('GRACELY_CMD_WIPE', 'EXECUTE_ORDER_66', 1); // Signal to Extension to NUKE everything
     window.location.href = 'login.html';
 }
 
