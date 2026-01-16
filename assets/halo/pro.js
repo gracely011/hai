@@ -191,7 +191,7 @@
   },
   {
     "meta": {
-      "id": "apple-music-1077",
+      "id": "apple-music-1075",
       "name": "Apple Music",
       "icon": "https://play-lh.googleusercontent.com/mOkjjo5Rzcpk7BsHrsLWnqVadUK1FlLd2-UlQvYkLL4E9A0LpyODNIQinXPfUMjUrbE",
       "url": "https://music.apple.com/ca/home",
@@ -566,7 +566,7 @@
   },
   {
     "meta": {
-      "id": "apple-tv--1128",
+      "id": "apple-tv--1124",
       "name": "Apple TV+",
       "icon": "https://play-lh.googleusercontent.com/1XBAZjSOWaVM7UDFKvzuMR-WRoR5gCnsYrw17_ihHLcJKT9Qc7hXptHwWQ3Bf83mry4",
       "url": "https://tv.apple.com/ca",
@@ -1309,7 +1309,7 @@
   },
   {
     "meta": {
-      "id": "bein-sports-1022",
+      "id": "bein-sports-1021",
       "name": "Bein Sports",
       "icon": "https://play-lh.googleusercontent.com/jBDZq3aBmCXuvtuJHEasqsdYPRxMBGzYmEha4dMlgoIk19Zlh6BGQC08Zt6Ifrmzhg=w240-h480-rw",
       "url": "https://connect-id.beinsports.com/id",
@@ -2541,7 +2541,7 @@
   },
   {
     "meta": {
-      "id": "brain-fm-1079",
+      "id": "brain-fm-1077",
       "name": "Brain.fm",
       "icon": "https://play-lh.googleusercontent.com/oQnd9u11H7j1g99Pzswt5LTm52g8XyMrgz0GRBX5lmzdPv2Vt7bBrOKgbVbs-gHc504=w240-h480-rw",
       "url": "https://my.brain.fm/",
@@ -3515,7 +3515,7 @@
   },
   {
     "meta": {
-      "id": "bypass---hix-ai-1054",
+      "id": "bypass---hix-ai-1052",
       "name": "Bypass | HIX AI",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrXZQ0Wq17Y4CjDKiytXbd1hG39lu6u-rBsw&s",
       "url": "https://hix.ai/app/bypass-ai-detection",
@@ -3980,7 +3980,7 @@
   },
   {
     "meta": {
-      "id": "canva-1017",
+      "id": "canva-group-id",
       "name": "Canva",
       "icon": "https://play-lh.googleusercontent.com/JC3HW-ps59VAEU3vuJoi3I5XB_IQ9ISuILLudUY9uLSW7eKfqtXitrB-fF865rV4TQ",
       "url": "https://www.canva.com/templates",
@@ -4979,7 +4979,6 @@
             "path": "/",
             "httpOnly": false,
             "secure": true,
-            "expirationDate": 1768535163.595508,
             "sameSite": "no_restriction",
             "domain": "www.canva.com"
           },
@@ -5424,292 +5423,12 @@
           }
         ],
         "sourceUrl": "https://www.canva.com/templates"
-      },
-      {
-        "name": "Canva 6",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "canva.com"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva&login=danilkina7@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
-      },
-      {
-        "name": "Canva 7",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "canva.com"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%202&login=58858179@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
-      },
-      {
-        "name": "Canva 8",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "canva.com"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%203&login=chanceeddie@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
-      },
-      {
-        "name": "Canva 9",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "canva.com"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%204&login=jurry@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
-      },
-      {
-        "name": "Canva 10",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "canva.com"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%205&login=yhixoxarydeqo@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
-      },
-      {
-        "name": "Canva 11",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "canva.com"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%206&login=knorozova@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
-      },
-      {
-        "name": "Canva 12",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "canva.com"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%207&login=bludawn@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
-      },
-      {
-        "name": "Canva 13",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "canva.com"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%208&login=kgirl711823@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
-      },
-      {
-        "name": "Canva 14",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "canva.com"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%209&login=bloodynora@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
-      },
-      {
-        "name": "Canva 15",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "canva.com"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2010&login=danali@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
-      },
-      {
-        "name": "Canva 16",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "canva.com"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2011&login=jakobhasse@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
-      },
-      {
-        "name": "Canva 17",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "canva.com"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2012&login=arabadyg@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
-      },
-      {
-        "name": "Canva 18",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "canva.com"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2013&login=harleyva@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
-      },
-      {
-        "name": "Canva 19",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "canva.com"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2014&login=joanrador@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
-      },
-      {
-        "name": "Canva 20",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "canva.com"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2015&login=brawling1@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
-      },
-      {
-        "name": "Canva 21",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "canva.com"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2016&login=cassialima1245@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
-      },
-      {
-        "name": "Canva 22",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "canva.com"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2017&login=restate@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
-      },
-      {
-        "name": "Canva 23",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "canva.com"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2018&login=sergei1467@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
-      },
-      {
-        "name": "Canva 24",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "canva.com"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2019&login=homejob@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
-      },
-      {
-        "name": "Canva 25",
-        "cookies": [
-          {
-            "name": "dummy",
-            "value": "5",
-            "path": "/",
-            "httpOnly": false,
-            "secure": true,
-            "domain": "canva.com"
-          }
-        ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2020&login=mackh@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
       }
     ]
   },
   {
     "meta": {
-      "id": "capcut-1018",
+      "id": "capcut-1017",
       "name": "CapCut",
       "icon": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxtHdRB6xk71KqOPxE23.XPiUcBp9_h5.Va3lapJy.K9tACxvjL4_WF3lJCLozay.Kx6V1mfBFaOOF4V5Rx4RHLY-&format=source",
       "url": "https://www.capcut.com/my-edit?from_page=landing_page&start_tab=video",
@@ -20644,7 +20363,7 @@
   },
   {
     "meta": {
-      "id": "chutes-1019",
+      "id": "chutes-1018",
       "name": "Chutes",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuJ8v1EICNl78zLPEfHkAimzusUBWT7z2nTw&s",
       "url": "https://chutes.ai/app",
@@ -20846,7 +20565,7 @@
   },
   {
     "meta": {
-      "id": "codedex-1021",
+      "id": "codedex-1020",
       "name": "Codedex",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2sH_6-EH9eaPT8YfscbEcq3-i1KLzvZ50JQ&s",
       "url": "https://gracely011.github.io/hai/manual.html?name=Codedex&login=codedex@belajaar.id&password=CodedexMilikGroupy2025!!&url=https://www.codedex.io/login",
@@ -20866,7 +20585,7 @@
   },
   {
     "meta": {
-      "id": "consensus-1023",
+      "id": "consensus-1022",
       "name": "Consensus",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRweoQJzl9iPGJqBYN-uOcjxdcH72RA9W1PKiCmAisHjg&s",
       "url": "https://gracely011.github.io/hai/manual.html?name=Consensus&login=gd@belajaar.id&password=WeAreGroupy2026!123@!&url=https://consensus.app/account/",
@@ -20886,7 +20605,7 @@
   },
   {
     "meta": {
-      "id": "coohom-1024",
+      "id": "coohom-1023",
       "name": "Coohom",
       "icon": "https://play-lh.googleusercontent.com/HWA5QTohakrzdjQnJWyPih_CDFubc9PZi0gW1v-eoopRUAGWpHspB-NeFBH3FQnQc6kz=w240-h480-rw",
       "url": "https://www.coohom.com/pub/saas/apps/project/list",
@@ -21087,7 +20806,7 @@
   },
   {
     "meta": {
-      "id": "coursera-1025",
+      "id": "coursera-1024",
       "name": "Coursera",
       "icon": "https://play-lh.googleusercontent.com/H8crzfriK6t5b0N5wXykhxMjPopyWGDZPaMJlvWlAKb7EG-26KGu15P_RnFDinBw1Jc",
       "url": "https://www.coursera.org/",
@@ -21374,7 +21093,7 @@
   },
   {
     "meta": {
-      "id": "crunchyroll-1027",
+      "id": "crunchyroll-1026",
       "name": "Crunchyroll",
       "icon": "https://groupy.id/assets/images/services/crunchyroll.png",
       "url": "https://www.crunchyroll.com/discover",
@@ -21504,7 +21223,7 @@
   },
   {
     "meta": {
-      "id": "cryptoquant-1028",
+      "id": "cryptoquant-1027",
       "name": "CryptoQuant",
       "icon": "https://cdn.prod.website-files.com/653c8107e2b70a34921d24fd/67a672f11fe6c47be600f037_cryptoquant.png",
       "url": "https://cryptoquant.com/asset/btc/summary",
@@ -21681,7 +21400,7 @@
   },
   {
     "meta": {
-      "id": "curiosity-stream-1029",
+      "id": "curiosity-stream-1028",
       "name": "Curiosity Stream",
       "icon": "https://play-lh.googleusercontent.com/YXqChSEFUdn1A9Jxu9sIZPwlyLYaA_sU_U_h-uW_RyXhEx1WzBNqNWcdNwC3WOGzjg",
       "url": "https://curiositystream.com/home",
@@ -22564,7 +22283,7 @@
   },
   {
     "meta": {
-      "id": "deepl-1031",
+      "id": "deepl-1030",
       "name": "DeepL",
       "icon": "https://play-lh.googleusercontent.com/0IH4L3pX-jqQXKYCDmxTM5t3Tvak2cb_zUuIs9nKCHPeOqkaRJ_bRTq1qKawsSvunw=w240-h480-rw",
       "url": "https://www.deepl.com/en/translator/files",
@@ -23302,7 +23021,7 @@
   },
   {
     "meta": {
-      "id": "deepseek-1032",
+      "id": "deepseek-1031",
       "name": "DeepSeek",
       "icon": "https://pbs.twimg.com/ext_tw_video_thumb/1875845724925206528/pu/img/4T7PkBumsEAjZeO9.jpg",
       "url": "https://notegpt.io/workspace/chat",
@@ -23429,7 +23148,7 @@
   },
   {
     "meta": {
-      "id": "dramabox-1034",
+      "id": "dramabox-1033",
       "name": "DramaBox",
       "icon": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/86/MTA-182203320/no_brand_drama_box_full01_cpdx3p31.jpg",
       "url": "https://dracinfy.com/",
@@ -23461,7 +23180,7 @@
   },
   {
     "meta": {
-      "id": "duolingo-1035",
+      "id": "duolingo-1034",
       "name": "Duolingo",
       "icon": "https://www.langoly.com/wp-content/uploads/2020/03/Duolingo-app-icon.png",
       "url": "https://www.duolingo.com/learn",
@@ -23652,7 +23371,7 @@
   },
   {
     "meta": {
-      "id": "educative-1037",
+      "id": "educative-1036",
       "name": "Educative",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiHav_EAmaStXwVlYg4pL5sFbdOyKcRKefbg&s",
       "url": "https://www.educative.io/explore",
@@ -24108,7 +23827,7 @@
   },
   {
     "meta": {
-      "id": "elicit-1038",
+      "id": "elicit-1037",
       "name": "Elicit",
       "icon": "https://yt3.googleusercontent.com/ksfLLIjvy8Y5vvtAmnSzIeF-svAUzrZyJBs-YwCVZUZGct8XNDb6-KJSepMwCrcuFkb6b8oCczo=s900-c-k-c0x00ffffff-no-rj",
       "url": "https://elicit.com/library",
@@ -24219,7 +23938,7 @@
   },
   {
     "meta": {
-      "id": "epidemic-sound-1039",
+      "id": "epidemic-sound-1038",
       "name": "Epidemic Sound",
       "icon": "https://groupy.id/assets/images/services/epidemicsound.jpg",
       "url": "https://www.epidemicsound.com/music/featured/",
@@ -25155,7 +24874,7 @@
   },
   {
     "meta": {
-      "id": "everand-1041",
+      "id": "everand-1040",
       "name": "Everand",
       "icon": "https://play-lh.googleusercontent.com/i6RqZKwmmgvCq8FGoGewoEDWYq8Q2ghi8gUnWLBlPHmYCyRM4bl39YZTAoHu7mzU8vN7",
       "url": "https://www.everand.com/home",
@@ -25488,7 +25207,7 @@
   },
   {
     "meta": {
-      "id": "figma-1042",
+      "id": "figma-1041",
       "name": "Figma",
       "icon": "https://play-lh.googleusercontent.com/hoVBnPBRehmXsCqESLXRH2E3OTxklkwKZlb1psn7imm0VUSobn2nevS9RRFWb9GM4-o",
       "url": "https://www.figma.com/files/team/1560676200091399701/recents-and-sharing?fuid=1561637155941475997",
@@ -25780,7 +25499,7 @@
   },
   {
     "meta": {
-      "id": "flaticon-1043",
+      "id": "flaticon-1042",
       "name": "Flaticon",
       "icon": "https://groupy.id/assets/images/services/flaticon.png",
       "url": "https://www.flaticon.com/icons",
@@ -26069,7 +25788,7 @@
   },
   {
     "meta": {
-      "id": "flickreels-1044",
+      "id": "flickreels-1043",
       "name": "FlickReels",
       "icon": "https://yt3.googleusercontent.com/Nr6kUD1b72g6tdrtijUtuIFVFQK4UU_JRXT5_fv748Fj96fs6OWIYweCGSvE-G0azgWiFtSo=s900-c-k-c0x00ffffff-no-rj",
       "url": "https://dracinfy.com/",
@@ -26101,7 +25820,7 @@
   },
   {
     "meta": {
-      "id": "freepik-1045",
+      "id": "freepik-group-id",
       "name": "Freepik",
       "icon": "https://groupy.id/assets/images/services/freepik.png",
       "url": "https://www.freepik.com/user/my-subscriptions",
@@ -26334,7 +26053,7 @@
   },
   {
     "meta": {
-      "id": "gamma-1047",
+      "id": "gamma-1045",
       "name": "Gamma",
       "icon": "https://store-images.s-microsoft.com/image/apps.53673.13800228740496758.b926c1b0-f31a-4a9b-b1b3-88dd15f27137.a0a38389-643f-48ed-9379-92a9fb5a7c94",
       "url": "https://gracely011.github.io/hai/manual.html?name=Gamma&login=owndbygroupyyy@prem1um.xyz&password=Gamma.AppByGroupy2026!&url=https://gamma.app/signin",
@@ -26671,7 +26390,7 @@
   },
   {
     "meta": {
-      "id": "ground-news-1050",
+      "id": "ground-news-1048",
       "name": "Ground News",
       "icon": "https://play-lh.googleusercontent.com/61Y1REKFBgC1C6YxQwZA56516gR1zCw-HIaNyP_WV_MnR6Fuofzd8-uWBHzKxZP7mwM",
       "url": "https://gracely011.github.io/hai/manual.html?name=Ground%20News&login=news@belajaar.id&password=NewsGroupy2025!&url=https://ground.news/login",
@@ -26691,7 +26410,7 @@
   },
   {
     "meta": {
-      "id": "guitartricks-1051",
+      "id": "guitartricks-1049",
       "name": "GuitarTricks",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlrIfBbD7fof4ZwKxkeWgU0t2u1lK7x_nPrA&s",
       "url": "https://www.guitartricks.com/home",
@@ -27036,7 +26755,7 @@
   },
   {
     "meta": {
-      "id": "hbo-max-1052",
+      "id": "hbo-max-1050",
       "name": "HBO Max",
       "icon": "https://play-lh.googleusercontent.com/bvyVXgpxu65YO3PNeVhNM9Y7ao7g7FnnKdoNXcwqO48aOlVvnH_b2O9rcZzgEFHzHtI",
       "url": "https://gracely011.github.io/hai/manual.html?name=HBO%20Max%202&login=hbo01@belajaar.id&password=HBOgroupy2025!&url=https://play.max.com",
@@ -27076,7 +26795,7 @@
   },
   {
     "meta": {
-      "id": "iflix-1057",
+      "id": "iflix-1055",
       "name": "iflix",
       "icon": "https://play-lh.googleusercontent.com/_j_9jVM50j43oII8sejBsK4DkHXxFw_MYUQOcHNjgX7SgJMQiLUsa8BuKWGK_84H_OE",
       "url": "https://www.iflix.com/en",
@@ -27432,7 +27151,7 @@
   },
   {
     "meta": {
-      "id": "iloveimg-1058",
+      "id": "iloveimg-1056",
       "name": "iLoveIMG",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVjyJOS7PN-2Xh37-pXo0aOghZLt45Fa2UBw&s",
       "url": "https://www.iloveimg.com/",
@@ -27594,7 +27313,7 @@
   },
   {
     "meta": {
-      "id": "ilovepdf-1059",
+      "id": "ilovepdf-1057",
       "name": "iLovePDF",
       "icon": "https://play-lh.googleusercontent.com/I5yxs1Pspu1rB3NPfqnoX2NscvfzAW7e3Zq5GGhXcr2g207X9-npiuP48Ys7107M1VvA",
       "url": "https://www.ilovepdf.com/",
@@ -27747,7 +27466,7 @@
   },
   {
     "meta": {
-      "id": "iqiyi-1061",
+      "id": "iqiyi-1059",
       "name": "iQIYI",
       "icon": "https://groupy.id/assets/images/services/iqiyi.png",
       "url": "https://www.iq.com/",
@@ -28435,7 +28154,7 @@
   },
   {
     "meta": {
-      "id": "linkedin-learning-1065",
+      "id": "linkedin-learning-1063",
       "name": "LinkedIn Learning",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4fcdsIUPUgmbvGaP-RC4RbHYdVtoN_fM8aya_8gOXI2BRtClESO-0_jgWTtKtIVmOQKs&usqp=CAU",
       "url": "https://www.linkedin.com/learning/?u=73723940",
@@ -28696,7 +28415,7 @@
   },
   {
     "meta": {
-      "id": "lovable-1066",
+      "id": "lovable-1064",
       "name": "Lovable",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTysfvFgHMVChk-7glLKWvdIJLLoA2aau0m1g&s",
       "url": "https://gracely011.github.io/hai/manual.html?name=Lovable&login=lovablegroupy@prem1um.xyz&password=LovableGroupy2025!&url=https://lovable.dev/",
@@ -28764,7 +28483,7 @@
   },
   {
     "meta": {
-      "id": "marvel-unlimited-1067",
+      "id": "marvel-unlimited-1065",
       "name": "Marvel Unlimited",
       "icon": "https://play-lh.googleusercontent.com/ikcy-XJG8_oFwVztH9vK3y--_mUcRu5zyco7d4FqugxzSkX9wMo63oBDPLWZnUsYDg",
       "url": "https://www.marvel.com/comics/unlimited/home",
@@ -29040,7 +28759,7 @@
   },
   {
     "meta": {
-      "id": "masterclass-1068",
+      "id": "masterclass-1066",
       "name": "MasterClass",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeoBuunz4xK_-2t35N6astSudIfb7Bnr0R6HDcwoqbzmzOcuNpiZdiRFRv&s=10",
       "url": "https://www.masterclass.com/profiles",
@@ -29420,7 +29139,7 @@
   },
   {
     "meta": {
-      "id": "medium-1070",
+      "id": "medium-1068",
       "name": "Medium",
       "icon": "https://miro.medium.com/v2/resize:fill:128:128/1*sHhtYhaCe2Uc3IU0IgKwIQ.png",
       "url": "https://medium.com/",
@@ -29519,7 +29238,7 @@
   },
   {
     "meta": {
-      "id": "melolo-1071",
+      "id": "melolo-1069",
       "name": "Melolo",
       "icon": "https://play-lh.googleusercontent.com/zLxJyyx3aGLSR63NvdVv6ERGaLwIujdCRwsEi_-G-6FhCzdrIGMKXUExLQWo29OcZ4A2",
       "url": "https://dracinfy.com/",
@@ -29551,7 +29270,7 @@
   },
   {
     "meta": {
-      "id": "mentimeter-1072",
+      "id": "mentimeter-1070",
       "name": "Mentimeter",
       "icon": "https://images.saasworthy.com/mentimeter_870_logo_1600681783_e5oqu.png",
       "url": "https://gracely011.github.io/hai/manual.html?name=Mentimeter&login=mentimeter@prem1um.xyz&password=MentimeterGroupy2025!&url=https://www.mentimeter.com/app/home",
@@ -29571,7 +29290,7 @@
   },
   {
     "meta": {
-      "id": "mermaidchart-1073",
+      "id": "mermaidchart-1071",
       "name": "Mermaidchart",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPMgbHVXJCw0zQzk3DtR607-823YIxR1Zi_Q&s",
       "url": "https://www.mermaidchart.com/app/login?redirect=%2Fapp%2Fdashboard",
@@ -29719,7 +29438,7 @@
   },
   {
     "meta": {
-      "id": "motion-array-1075",
+      "id": "motion-array-1073",
       "name": "Motion Array",
       "icon": "https://s3-eu-west-1.amazonaws.com/tpd/logos/5b1e60b2b50df6000112eb83/0x0.png",
       "url": "https://motionarray.com/",
@@ -29995,7 +29714,7 @@
   },
   {
     "meta": {
-      "id": "mubi-1076",
+      "id": "mubi-1074",
       "name": "Mubi",
       "icon": "https://images.mubicdn.net/images/avatars/169655/cache-169655-1620041787/images-large.png?size=800x",
       "url": "https://mubi.com/en/id/showing",
@@ -30338,7 +30057,7 @@
   },
   {
     "meta": {
-      "id": "musicbed-1078",
+      "id": "musicbed-1076",
       "name": "Musicbed",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMRzHPEXnSURkOyU9StcI8BZPOTeqzvcJP_A&s",
       "url": "https://www.musicbed.com/songs",
@@ -30535,7 +30254,7 @@
   },
   {
     "meta": {
-      "id": "netflix-1080",
+      "id": "netflix-1078",
       "name": "Netflix",
       "icon": "https://groupy.id/assets/images/services/netflix.png",
       "url": "https://www.netflix.com/browse",
@@ -35041,7 +34760,7 @@
   },
   {
     "meta": {
-      "id": "netshort-1081",
+      "id": "netshort-1079",
       "name": "NetShort",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTElpPW66yYibnlWlVKtVFgwfLnHXgZwYsy2Q&s",
       "url": "https://dracinfy.com/",
@@ -35073,7 +34792,7 @@
   },
   {
     "meta": {
-      "id": "notebooklm-1082",
+      "id": "notebooklm-1080",
       "name": "NotebookLM",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRJ_-m9Y994yfZimh_h8Yzn0sMx2IsfVoDIQ&s",
       "url": "https://gracely011.github.io/hai/manual.html?name=NotebookLM&login=gpypremium@sharingwithgpy.com&password=SharingWithGroupy2026!&url=https://notebooklm.google.com/",
@@ -35093,7 +34812,7 @@
   },
   {
     "meta": {
-      "id": "notegpt-1083",
+      "id": "notegpt-1081",
       "name": "NoteGPT",
       "icon": "https://10web.io/wp-content/uploads/2024/08/NoteGPT_logo.jpg",
       "url": "https://notegpt.io/workspace/home",
@@ -35220,7 +34939,7 @@
   },
   {
     "meta": {
-      "id": "notion-1084",
+      "id": "notion-1082",
       "name": "Notion",
       "icon": "https://play-lh.googleusercontent.com/vy-9s86d-81wk1acsXvAxN1xV5Y-doJdgbskG3GonOerbUwUtvNXk_XSRHoraaXZcX4",
       "url": "https://www.notion.so/Teamspace-Home-2e7f85c3cdd381e5a61df1f2a0b93007",
@@ -35457,7 +35176,7 @@
   },
   {
     "meta": {
-      "id": "pacdora-1085",
+      "id": "pacdora-1083",
       "name": "Pacdora",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9l1bvE2alHZrnR4bmSsbK2KjHemNk_p4Dsf-GVh6-5hFtZgugYYNfQfo0L3CQxZqdLC4&usqp=CAU",
       "url": "https://www.pacdora.com/my-design",
@@ -35647,7 +35366,7 @@
   },
   {
     "meta": {
-      "id": "paperpal-1036",
+      "id": "paperpal-1035",
       "name": "Paperpal",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsb2y412xVI5pSI0IiCzqNCF0RA7p-fxjNbg&s",
       "url": "https://edit.paperpal.com/",
@@ -35877,7 +35596,7 @@
   },
   {
     "meta": {
-      "id": "perplexity-1087",
+      "id": "perplexity-group-id",
       "name": "Perplexity",
       "icon": "https://play-lh.googleusercontent.com/6STp0lYx2ctvQ-JZpXA1LeAAZIlq6qN9gpy7swLPlRhmp-hfvZePcBxqwVkqN2BH1g",
       "url": "https://www.perplexity.ai/",
@@ -36781,7 +36500,7 @@
   },
   {
     "meta": {
-      "id": "picsart-1088",
+      "id": "picsart-1085",
       "name": "Picsart",
       "icon": "https://play-lh.googleusercontent.com/1JMJ518jogwPeaD0pYn2mBu1cRLD0xRi45wNbtTIRvam1_xx-y3KJOjRAx-W9P4Lf0U=s256-rw",
       "url": "https://gracely011.github.io/hai/manual.html?name=Picsart&login=sgpgemk@nuyul.id&password=Premium@123&url=https://picsart.com/",
@@ -36835,7 +36554,7 @@
   },
   {
     "meta": {
-      "id": "prezi-ai-1091",
+      "id": "prezi-ai-1088",
       "name": "Prezi AI",
       "icon": "https://play-lh.googleusercontent.com/3rVZ7Lc7-bxsALDo0nWOcuojR9ISxlhO20KnVM3uP00drxIXXt7ATM0V5-YjfM0pPtA",
       "url": "https://prezi.com/dashboard/next/",
@@ -37195,7 +36914,7 @@
   },
   {
     "meta": {
-      "id": "prime-video-1092",
+      "id": "prime-video-group-id",
       "name": "Prime Video",
       "icon": "https://groupy.id/assets/images/services/primevideo.png",
       "url": "https://www.primevideo.com/region/eu/",
@@ -41410,7 +41129,7 @@
   },
   {
     "meta": {
-      "id": "pro--apple-music-1098",
+      "id": "pro--apple-music-1094",
       "name": "Pro: Apple Music",
       "icon": "https://play-lh.googleusercontent.com/mOkjjo5Rzcpk7BsHrsLWnqVadUK1FlLd2-UlQvYkLL4E9A0LpyODNIQinXPfUMjUrbE",
       "url": "https://music.apple.com/ca/home",
@@ -41967,7 +41686,302 @@
   },
   {
     "meta": {
-      "id": "pro--captions-ai-1033",
+      "id": "canva-pro-group-id",
+      "name": "Pro: Canva",
+      "icon": "https://play-lh.googleusercontent.com/JC3HW-ps59VAEU3vuJoi3I5XB_IQ9ISuILLudUY9uLSW7eKfqtXitrB-fF865rV4TQ",
+      "url": "https://gracely011.github.io/hai/manual.html?name=Canva&login=danilkina7@miisedapp.biz.id&password=masuk123&url=https://canva.com/",
+      "category": [
+        "design",
+        "proexclusive"
+      ],
+      "isGroup": true
+    },
+    "accounts": [
+      {
+        "name": "Pro: Canva 1",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canvapro.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva&login=danilkina7@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Pro: Canva 2",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canvapro.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%202&login=58858179@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Pro: Canva 3",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canvapro.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%203&login=chanceeddie@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Pro: Canva 4",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canvapro.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%204&login=jurry@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Pro: Canva 5",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canvapro.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%205&login=yhixoxarydeqo@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Pro: Canva 6",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canvapro.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%206&login=knorozova@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Pro: Canva 7",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canvapro.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%207&login=bludawn@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Pro: Canva 8",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canvapro.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%208&login=kgirl711823@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Pro: Canva 9",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canvapro.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%209&login=bloodynora@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Pro: Canva 10",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canvapro.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2010&login=danali@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Pro: Canva 11",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canvapro.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2011&login=jakobhasse@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Pro: Canva 12",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canvapro.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2012&login=arabadyg@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Pro: Canva 13",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canvapro.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2013&login=harleyva@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Pro: Canva 14",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canvapro.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2014&login=joanrador@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Pro: Canva 15",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canvapro.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2015&login=brawling1@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Pro: Canva 16",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canvapro.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2016&login=cassialima1245@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Pro: Canva 17",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canvapro.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2017&login=restate@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Pro: Canva 18",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canvapro.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2018&login=sergei1467@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Pro: Canva 19",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canvapro.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2019&login=homejob@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      },
+      {
+        "name": "Pro: Canva 20",
+        "cookies": [
+          {
+            "name": "dummy",
+            "value": "5",
+            "path": "/",
+            "httpOnly": false,
+            "secure": true,
+            "domain": "canvapro.com"
+          }
+        ],
+        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2020&login=mackh@miisedapp.biz.id&password=masuk123&url=https://canva.com/"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "id": "pro--captions-ai-1032",
       "name": "Pro: Captions AI",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMRpOM7wu7dsXoaYndVRPI3hBxosICzN6X9w&s",
       "url": "https://desktop.captions.ai/projects",
@@ -42264,7 +42278,7 @@
   },
   {
     "meta": {
-      "id": "pro--chatgpt-1093",
+      "id": "pro--chatgpt-1089",
       "name": "Pro: ChatGPT",
       "icon": "https://groupy.id/assets/images/services/chatgptplus.png",
       "url": "https://chatgpt.com/",
@@ -50053,7 +50067,7 @@
   },
   {
     "meta": {
-      "id": "pro--chatgpt-pro-1094",
+      "id": "pro--chatgpt-pro-1090",
       "name": "Pro: ChatGPT Pro",
       "icon": "https://groupy.id/assets/images/services/chatgptpro.png",
       "url": "https://chatgpt.com/",
@@ -50302,7 +50316,7 @@
   },
   {
     "meta": {
-      "id": "pro--claude-1020",
+      "id": "pro--claude-1019",
       "name": "Pro: Claude",
       "icon": "https://play-lh.googleusercontent.com/4S1nfdKsH_1tJodkHrBHimqlCTE6qx6z22zpMyPaMc_Rlr1EdSFDI1I6UEVMnokG5zI",
       "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Claude&login=foolded4@prem1um.xyz&password=EnJoYersGroupy2026!&url=https://www.getmerlin.in/login",
@@ -50387,7 +50401,7 @@
   },
   {
     "meta": {
-      "id": "pro--cursor-1030",
+      "id": "pro--cursor-1029",
       "name": "Pro: Cursor",
       "icon": "https://miro.medium.com/v2/resize:fit:800/0*zWCTHFNFdGAgSw2d",
       "url": "https://cursor.com/dashboard",
@@ -53180,7 +53194,7 @@
   },
   {
     "meta": {
-      "id": "pro--eraser-1040",
+      "id": "pro--eraser-1039",
       "name": "Pro: Eraser",
       "icon": "https://mavtools.com/wp-content/uploads/2024/05/Eraser.io-Logo.jpg",
       "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Eraser&login=eraser@prem1um.xyz&password=EraserGroupy2025!!&url=https://app.eraser.io/auth/sign-in&extra=https://groupy.id/otp",
@@ -53203,7 +53217,7 @@
   },
   {
     "meta": {
-      "id": "pro--frontend-masters-1046",
+      "id": "pro--frontend-masters-1044",
       "name": "Pro: Frontend Masters",
       "icon": "https://play-lh.googleusercontent.com/8X11A1RYP--qUN-FA3tuEdNG--8QSptibgY6xWQRUDI2YASyAXe726CaE_jEohFYGno",
       "url": "https://frontendmasters.com/dashboard/",
@@ -53288,7 +53302,7 @@
   },
   {
     "meta": {
-      "id": "pro--gemini-ai-1095",
+      "id": "pro--gemini-ai-1091",
       "name": "Pro: Gemini AI",
       "icon": "https://static.vecteezy.com/system/resources/previews/055/687/055/non_2x/rectangle-gemini-google-icon-symbol-logo-free-png.png",
       "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Gemini%20AI&login=geminipro2@sharingwithgpy.com&password=JanganDigantiPasswordBro..Groupy2026!&url=https://gemini.google.com/",
@@ -53311,7 +53325,7 @@
   },
   {
     "meta": {
-      "id": "pro--gemini-ai-ultra-1107",
+      "id": "pro--gemini-ai-ultra-1103",
       "name": "Pro: Gemini AI Ultra",
       "icon": "https://static.vecteezy.com/system/resources/previews/055/687/055/non_2x/rectangle-gemini-google-icon-symbol-logo-free-png.png",
       "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Gemini%20AI%20Ultra&login=gpyultra@sharingwithgpy.com&password=JanganDiGantiPassword..Groupy2026!&url=https://gemini.google.com/",
@@ -53334,7 +53348,7 @@
   },
   {
     "meta": {
-      "id": "pro--hbo-max-1097",
+      "id": "pro--hbo-max-1093",
       "name": "Pro: HBO Max",
       "icon": "https://play-lh.googleusercontent.com/bvyVXgpxu65YO3PNeVhNM9Y7ao7g7FnnKdoNXcwqO48aOlVvnH_b2O9rcZzgEFHzHtI",
       "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20HBO%20Max&login=bekal@prem1um.xyz&password=patuhisnk!&url=https://play.max.com/",
@@ -53433,7 +53447,7 @@
   },
   {
     "meta": {
-      "id": "pro--hidemyass-vpn-1053",
+      "id": "pro--hidemyass-vpn-1051",
       "name": "Pro: HideMyAss VPN",
       "icon": "https://shopallpremium.com/wp-content/uploads/2022/02/HMA-LOG.png",
       "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20HideMyAss%20VPN&login=piopof@yahookuu.id&password=Premium@123&url=https://www.hidemyass.com/index&extra=VYTHMG-X4A4KJ-5R4HX2",
@@ -53588,7 +53602,7 @@
   },
   {
     "meta": {
-      "id": "pro--humata-ai-1055",
+      "id": "pro--humata-ai-1053",
       "name": "Pro: Humata AI",
       "icon": "https://www.humata.ai/favicon.ico",
       "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Humata%20AI&login=userhumata@belajaar.id&password=HumataProGroupy2025!&url=https://app.humata.ai/login",
@@ -53611,7 +53625,7 @@
   },
   {
     "meta": {
-      "id": "pro--iconscout-1056",
+      "id": "pro--iconscout-1054",
       "name": "Pro: IconScout",
       "icon": "https://cdn.iconscout.com/icon/free/png-256/free-iconscout-logo-icon-download-in-svg-png-gif-file-formats--company-pack-logos-icons-4674919.png",
       "url": "https://iconscout.com/",
@@ -53770,7 +53784,7 @@
   },
   {
     "meta": {
-      "id": "pro--investingpro-1060",
+      "id": "pro--investingpro-1058",
       "name": "Pro: InvestingPro",
       "icon": "https://pbs.twimg.com/profile_images/1108338370026053632/JrSrbA-c_400x400.png",
       "url": "https://www.investing.com/",
@@ -54085,7 +54099,7 @@
   },
   {
     "meta": {
-      "id": "pro--jenni-ai-1062",
+      "id": "pro--jenni-ai-1060",
       "name": "Pro: Jenni AI",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjzHV0xQOmnu0xowDdW71mIklQHOJ7RjdzHg&s",
       "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Jenni%20AI&login=jenni@prem1um.xyz&password=JenniAIGroupy2025!&url=https://app.jenni.ai/",
@@ -54108,7 +54122,7 @@
   },
   {
     "meta": {
-      "id": "pro--julius-ai-1063",
+      "id": "pro--julius-ai-1061",
       "name": "Pro: Julius AI",
       "icon": "https://play-lh.googleusercontent.com/5TBQ0_UiHHQ3DmZIOd1fQPRXSIUInSGsIGNgWMTb9fjeQtn7LOW15N6w-krdJxbdaw",
       "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Julius%20AI&login=member@shietoshi.xyz&password=gpyWeAreProGroupy2025!&url=https://auth.julius.ai/",
@@ -54131,7 +54145,7 @@
   },
   {
     "meta": {
-      "id": "pro--kahoot--1026",
+      "id": "pro--kahoot--1025",
       "name": "Pro: Kahoot!",
       "icon": "https://kahoot.com/files/2020/11/Kahoot-1024-rounded.png",
       "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Kahoot!&login=kahoot@prem1um.xyz&password=KahootGroupy2025!&url=https://create.kahoot.it/auth/login",
@@ -54474,7 +54488,7 @@
   },
   {
     "meta": {
-      "id": "pro--mathacademy-1069",
+      "id": "pro--mathacademy-1067",
       "name": "Pro: Mathacademy",
       "icon": "https://pbs.twimg.com/profile_images/1646549566052003841/Z5yj3RDi_400x400.jpg",
       "url": "https://www.mathacademy.com/learn",
@@ -54559,7 +54573,7 @@
   },
   {
     "meta": {
-      "id": "pro--merlin-ai-1096",
+      "id": "pro--merlin-ai-1092",
       "name": "Pro: Merlin AI",
       "icon": "https://play-lh.googleusercontent.com/8XoSS1Jn3qHfm8cB4gq6YMQAWv_PIRCUtH2r5RiDq0s05QM47JtwEjs6V_aFh_SmOZ0",
       "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Merlin%20AI&login=foolded@prem1um.xyz&password=EnJoYersGroupy2026!&url=https://www.getmerlin.in/login",
@@ -54616,7 +54630,7 @@
   },
   {
     "meta": {
-      "id": "pro--mobbin-1074",
+      "id": "pro--mobbin-1072",
       "name": "Pro: Mobbin",
       "icon": "https://asset.brandfetch.io/idIfIyyq5-/id2DzZkAtw.png",
       "url": "https://mobbin.com/discover/apps/ios/latest",
@@ -54783,7 +54797,7 @@
   },
   {
     "meta": {
-      "id": "pro--netflix-1099",
+      "id": "pro--netflix-1095",
       "name": "Pro: Netflix",
       "icon": "https://groupy.id/assets/images/services/netflix.png",
       "url": "https://www.netflix.com/browse",
@@ -56897,7 +56911,7 @@
   },
   {
     "meta": {
-      "id": "pro--nily-ai-1048",
+      "id": "pro--nily-ai-1046",
       "name": "Pro: Nily AI",
       "icon": "https://appsumo2-cdn.appsumo.com/media/deals/images/as-email-Nily_AI-800x800-0-2-1_uuid_9beae3ae-02e7-47a9-8213-16a9367c2bee.png",
       "url": "https://go.nily.ai/multi-chat/new-chat",
@@ -56962,7 +56976,7 @@
   },
   {
     "meta": {
-      "id": "pro--notebooklm-1100",
+      "id": "pro--notebooklm-1096",
       "name": "Pro: NotebookLM",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRJ_-m9Y994yfZimh_h8Yzn0sMx2IsfVoDIQ&s",
       "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20NotebookLM&login=geminipro2@sharingwithgpy.com&password=JanganDigantiPasswordBro..Groupy2026!&url=https://gemini.google.com/",
@@ -56985,7 +56999,7 @@
   },
   {
     "meta": {
-      "id": "pro--perlego-1086",
+      "id": "pro--perlego-1084",
       "name": "Pro: Perlego",
       "icon": "https://cms-resources.prd.timeshighereducation.com/sites/default/files/styles/large/public/2023-03/Perlego-logo_square_1.jpg?itok=pWI0VoCN",
       "url": "https://www.perlego.com/home",
@@ -57328,7 +57342,7 @@
   },
   {
     "meta": {
-      "id": "pro--perplexity-1101",
+      "id": "pro--perplexity-1097",
       "name": "Pro: Perplexity",
       "icon": "https://play-lh.googleusercontent.com/6STp0lYx2ctvQ-JZpXA1LeAAZIlq6qN9gpy7swLPlRhmp-hfvZePcBxqwVkqN2BH1g",
       "url": "https://www.perplexity.ai/",
@@ -57867,7 +57881,7 @@
   },
   {
     "meta": {
-      "id": "pro--picsart-1102",
+      "id": "pro--picsart-1098",
       "name": "Pro: Picsart",
       "icon": "https://play-lh.googleusercontent.com/1JMJ518jogwPeaD0pYn2mBu1cRLD0xRi45wNbtTIRvam1_xx-y3KJOjRAx-W9P4Lf0U=s256-rw",
       "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Picsart&login=nomuzoo@nuyul.id&password=Premium@123&url=https://picsart.com/",
@@ -57890,7 +57904,7 @@
   },
   {
     "meta": {
-      "id": "pro--placeit-1089",
+      "id": "pro--placeit-1086",
       "name": "Pro: Placeit",
       "icon": "https://play-lh.googleusercontent.com/0654HX7dcGrIxNgjROl2__z2RIW8nkDVZMqm8NiR5p9O0OM-OVNTRG0H8-0fjC8lj-0",
       "url": "https://placeit.net/",
@@ -58069,7 +58083,7 @@
   },
   {
     "meta": {
-      "id": "pro--planner5d-1090",
+      "id": "pro--planner5d-1087",
       "name": "Pro: Planner5D",
       "icon": "https://upload.wikimedia.org/wikipedia/commons/1/13/Planner_5D_logo.png",
       "url": "https://planner5d.com/dashboard",
@@ -58273,7 +58287,7 @@
   },
   {
     "meta": {
-      "id": "pro--quillbot-1103",
+      "id": "pro--quillbot-1099",
       "name": "Pro: QuillBot",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZtqcA6rvxqQHSb14wu157jMKqBtXRNJ5-1lcBbxf4JzQt7vwDhlmbpnnH&s=10",
       "url": "https://gracely011.github.io/hai/manual.html?name=QuillBot&login=kwilbot@tokito.xyz&password=AkunMilikGroupyDotID2025!!!&url=https://quillbot.com/login?returnUrl=/paraphrasing-tool",
@@ -58316,7 +58330,7 @@
   },
   {
     "meta": {
-      "id": "pro--researchrabbit-1111",
+      "id": "pro--researchrabbit-1107",
       "name": "Pro: ResearchRabbit",
       "icon": "https://pbs.twimg.com/profile_images/1983772825812189184/IXDTOqLX.jpg",
       "url": "https://gracely011.github.io/hai/manual.html?name=ResearchRabbit&login=rabbit@prem1um.xyz&password=RabbitGroupy2025!&url=https://app.researchrabbit.ai/",
@@ -58339,7 +58353,7 @@
   },
   {
     "meta": {
-      "id": "pro--scite-1104",
+      "id": "pro--scite-1100",
       "name": "Pro: Scite",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHo4BcTYbuMiQFR7oUYKZy6zjOgzEORDrzeie96OS1sj3Ur0LpoCPV_ts&s=10",
       "url": "https://gracely011.github.io/hai/manual.html?name=Pro:%20Scite&login=groupypro@belajaar.id&password=MilikGroupy2025!&url=https://scite.ai/assistant",
@@ -58382,7 +58396,7 @@
   },
   {
     "meta": {
-      "id": "pro--sider-ai-1116",
+      "id": "pro--sider-ai-1112",
       "name": "Pro: Sider AI",
       "icon": "https://play-lh.googleusercontent.com/VghuZRn0-oLvbaGqptsM-9Qr6Ka7Pmw7lfmu6_UQ56mZS6bsXbET9Uf0wF0FECP8lEM",
       "url": "https://sider.ai/chat",
@@ -58624,7 +58638,7 @@
   },
   {
     "meta": {
-      "id": "pro--sora-1105",
+      "id": "pro--sora-1101",
       "name": "Pro: Sora",
       "icon": "https://groupy.id/assets/images/services/sora_plus.png",
       "url": "https://sora.chatgpt.com/explore",
@@ -67512,7 +67526,7 @@
   },
   {
     "meta": {
-      "id": "pro--storytribe-1106",
+      "id": "pro--storytribe-1102",
       "name": "Pro: StoryTribe",
       "icon": "https://media.licdn.com/dms/image/v2/D560BAQGFNn9uuWNKvA/company-logo_200_200/B56ZWE4DUHGUAU-/0/1741691041788/storytribeapp_logo?e=2147483647&v=beta&t=3qm4zJ4TSorw5yxfeP9WtXnDj_DKgiqhVZeGH42wT7g",
       "url": "https://gracely011.github.io/hai/manual.html?name=StoryTribe&login=beapp@prem1um.xyz&password=StoryTribeGroupy2025!&url=https://storytribeapp.com/login-signup",
@@ -67535,7 +67549,7 @@
   },
   {
     "meta": {
-      "id": "pro--supergrok-1049",
+      "id": "pro--supergrok-1047",
       "name": "Pro: SuperGrok",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfDfKMTEJFYyKr-VgVN0z7sdgoINjKnomLLw&s",
       "url": "https://grok.com/",
@@ -68160,7 +68174,7 @@
   },
   {
     "meta": {
-      "id": "pro--tradingview-1124",
+      "id": "pro--tradingview-1120",
       "name": "Pro: TradingView",
       "icon": "https://groupy.id/assets/images/services/tradingview.png",
       "url": "https://www.tradingview.com/",
@@ -68324,7 +68338,7 @@
   },
   {
     "meta": {
-      "id": "pro--trae-ai-1125",
+      "id": "pro--trae-ai-1121",
       "name": "Pro: Trae AI",
       "icon": "https://pbs.twimg.com/profile_images/1946201092687114241/4X_B0XgN_400x400.png",
       "url": "https://www.trae.ai/",
@@ -69043,7 +69057,7 @@
   },
   {
     "meta": {
-      "id": "quizlet-1108",
+      "id": "quizlet-1104",
       "name": "Quizlet",
       "icon": "https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/szx9duflfycmltpnvcvw",
       "url": "https://quizlet.com/latest",
@@ -69425,7 +69439,7 @@
   },
   {
     "meta": {
-      "id": "rawpixel-1109",
+      "id": "rawpixel-1105",
       "name": "Rawpixel",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq1xJnAZa_h6WueAi4mr73cH3K7_pGeTz6Gw&s",
       "url": "https://www.rawpixel.com/",
@@ -69497,7 +69511,7 @@
   },
   {
     "meta": {
-      "id": "relume-1110",
+      "id": "relume-1106",
       "name": "Relume",
       "icon": "https://yt3.googleusercontent.com/MGRbvVhtCttJ7i2qW3igFxIJSkeoaRln_mIAFAfDgZIFD1yNUQC5mn1a5VqXKzcqRmAuDswu=s900-c-k-c0x00ffffff-no-rj",
       "url": "https://www.relume.io/",
@@ -69648,7 +69662,7 @@
   },
   {
     "meta": {
-      "id": "scholarcy-1064",
+      "id": "scholarcy-1062",
       "name": "Scholarcy",
       "icon": "https://yt3.googleusercontent.com/ytc/AIdro_kqv2zcFC4lZDK0qSXEbuI1Kcs5wYJoLmONwCf9QX3Qoc4=s900-c-k-c0x00ffffff-no-rj",
       "url": "https://library.scholarcy.com/home",
@@ -69760,7 +69774,7 @@
   },
   {
     "meta": {
-      "id": "scite-1112",
+      "id": "scite-1108",
       "name": "Scite",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHo4BcTYbuMiQFR7oUYKZy6zjOgzEORDrzeie96OS1sj3Ur0LpoCPV_ts&s=10",
       "url": "https://gracely011.github.io/hai/manual.html?name=Scite&login=tibpbvgzxw@belajaar.id&password=Groupy2025!ocrtmmtnkn&url=https://scite.ai/assistant",
@@ -69800,7 +69814,7 @@
   },
   {
     "meta": {
-      "id": "scribd-1113",
+      "id": "scribd-1109",
       "name": "Scribd",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRebq-8lrzgXjVWMvUDApp_q1MhiL5eSyO15VAHMuNaE4RbrPi-f7c2NMc&s=10",
       "url": "https://www.scribd.com/home",
@@ -70958,7 +70972,7 @@
   },
   {
     "meta": {
-      "id": "semrush-1114",
+      "id": "semrush-1110",
       "name": "Semrush",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7TPtYsfoyLxuSORs6sqgApBGYHOx1aZ43ra1DqBNb8BRYz4ciWF4Mg9uR&s=10",
       "url": "https://www.semrush.com/home/",
@@ -71375,7 +71389,7 @@
   },
   {
     "meta": {
-      "id": "shots-1115",
+      "id": "shots-1111",
       "name": "Shots",
       "icon": "https://pbs.twimg.com/profile_images/1517996453146378245/RTP0-Jy3_400x400.jpg",
       "url": "https://gracely011.github.io/hai/manual.html?name=Shots&login=shotso@prem1um.xyz&password=Groupy2025!&url=https://shots.so",
@@ -71395,7 +71409,7 @@
   },
   {
     "meta": {
-      "id": "skillshare-1117",
+      "id": "skillshare-1113",
       "name": "Skillshare",
       "icon": "https://groupy.id/assets/images/services/skillshare.png",
       "url": "https://www.skillshare.com/en/home",
@@ -71853,7 +71867,7 @@
   },
   {
     "meta": {
-      "id": "slidesgo-1118",
+      "id": "slidesgo-1114",
       "name": "Slidesgo",
       "icon": "https://cdn-icons-png.flaticon.com/512/14649/14649063.png",
       "url": "https://gracely011.github.io/hai/manual.html?name=Slidesgo&login=gpy&password=NsW3xRmPMv&url=https://slidesgo.com/team/user209226220-team-68879521",
@@ -71907,7 +71921,7 @@
   },
   {
     "meta": {
-      "id": "slideshare-1119",
+      "id": "slideshare-1115",
       "name": "Slideshare",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFu2smlszvneX1otpsXxgwhKyPha7Boi8VJg&s",
       "url": "https://www.slideshare.net/",
@@ -72094,7 +72108,7 @@
   },
   {
     "meta": {
-      "id": "sololearn-1120",
+      "id": "sololearn-1116",
       "name": "Sololearn",
       "icon": "https://play-lh.googleusercontent.com/zxbe_H6JVg6ZnIeA1xorxxXr416kKdShmyonBzi5Qe28-GNdczX-NST_ul0AQJ007OA",
       "url": "https://gracely011.github.io/hai/manual.html?name=Sololearn&login=sololearn@belajaar.id&password=WeAreGroupy2025!&url=https://www.sololearn.com/en/users/login",
@@ -72114,7 +72128,7 @@
   },
   {
     "meta": {
-      "id": "sora-1121",
+      "id": "sora-1117",
       "name": "Sora",
       "icon": "https://groupy.id/assets/images/services/sora_plus.png",
       "url": "https://sora.chatgpt.com/explore",
@@ -84338,7 +84352,7 @@
   },
   {
     "meta": {
-      "id": "studocu-1122",
+      "id": "studocu-1118",
       "name": "Studocu",
       "icon": "https://play-lh.googleusercontent.com/20ssDWF3SWEXIFYy8iFwXjomuIqtuHjGc3OxIWqVojIaeo_9_XxUZEDdmm5YPreLucij",
       "url": "https://www.studocu.com/en-us/home",
@@ -84817,7 +84831,7 @@
   },
   {
     "meta": {
-      "id": "symbolab-1123",
+      "id": "symbolab-1119",
       "name": "Symbolab",
       "icon": "https://play-lh.googleusercontent.com/DKlax_iJQtJOKJlIPDSS7DZpbm9gCkHh3vWgrj8BOMRwDPDVKXdTQf9sV4cRuXSdRA",
       "url": "https://www.symbolab.com/",
@@ -85003,7 +85017,7 @@
   },
   {
     "meta": {
-      "id": "the-wall-street-journal-1135",
+      "id": "the-wall-street-journal-1130",
       "name": "The Wall Street Journal",
       "icon": "https://play-lh.googleusercontent.com/eksxaPfxbTVb6VTl5aj1sXLpKc_N9Z6AZ3_5Oq6JhTXmgEQza-1v58a66p_ID0phE2Zv",
       "url": "https://gracely011.github.io/hai/manual.html?name=The%20Wall%20Street%20Journal&login=wsj@killua.cloud&password=TheWallStreetJournalGroupy2025!!!&url=https://www.wsj.com/",
@@ -85023,7 +85037,7 @@
   },
   {
     "meta": {
-      "id": "turbo-ai-1126",
+      "id": "turbo-ai-1122",
       "name": "Turbo AI",
       "icon": "https://play-lh.googleusercontent.com/c678Vjj3oQ8UmrDCYzczS6JDcFor4XxHLnc2gAW9Wk_pbE3KEMw1WZk-rTPucPoV7Sg",
       "url": "https://www.turbo.ai/dashboard",
@@ -85094,7 +85108,7 @@
   },
   {
     "meta": {
-      "id": "turnitin-1127",
+      "id": "turnitin-1123",
       "name": "Turnitin",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIrf73LGu_mACI2Mc_jdghOV02eXRocoXKo0o3qZHFjGgJMUr5M_v8uwap&s=10",
       "url": "https://gracely011.github.io/hai/manual.html?name=Turnitin&login=halo@belajaar.id&password=TurnitinmilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us",
@@ -85162,7 +85176,7 @@
   },
   {
     "meta": {
-      "id": "udemy-1129",
+      "id": "udemy-1125",
       "name": "Udemy",
       "icon": "https://play-lh.googleusercontent.com/dsCkmJE2Fa8IjyXERAcwc5YeQ8_NvbZ4_OI8LgqyjILpXUfS5YhEcnAMajKPrZI-og",
       "url": "https://www.udemy.com/personal/home/",
@@ -86425,7 +86439,7 @@
   },
   {
     "meta": {
-      "id": "vectorizer-ai-1130",
+      "id": "vectorizer-ai-1126",
       "name": "Vectorizer AI",
       "icon": "https://cdn.prod.website-files.com/648e04d4bbae7004f1b35f15/65de13535268a099387a6f60_vectorizer-ai-icon.png",
       "url": "https://vectorizer.ai/",
@@ -86497,7 +86511,7 @@
   },
   {
     "meta": {
-      "id": "viu-1131",
+      "id": "viu-1127",
       "name": "Viu",
       "icon": "https://groupy.id/assets/images/services/viu.png",
       "url": "https://gracely011.github.io/hai/manual.html?name=Viu&login=wardi0381@movieisme.com&password=premiumisme123&url=https://viu.com",
@@ -86649,7 +86663,7 @@
   },
   {
     "meta": {
-      "id": "wetv-1132",
+      "id": "wetv-group-id",
       "name": "WeTV",
       "icon": "https://groupy.id/assets/images/services/wetv.png",
       "url": "https://wetv.vip/id/profile?tab=profile",
@@ -87749,7 +87763,7 @@
   },
   {
     "meta": {
-      "id": "wolframalpha-1133",
+      "id": "wolframalpha-1128",
       "name": "WolframAlpha",
       "icon": "https://play-lh.googleusercontent.com/OceHg5bH7EsTRwl-lD7jjV9WM0mpj0oH4YfA-CSbjvfa7NCLQBu5-4cLwNlDvCUp5Q4",
       "url": "https://www.wolframalpha.com/",
@@ -87800,7 +87814,7 @@
   },
   {
     "meta": {
-      "id": "writehuman-1134",
+      "id": "writehuman-1129",
       "name": "WriteHuman",
       "icon": "https://earlyshark.com/wp-content/uploads/2024/01/writehuman-logo-1024x1024.png",
       "url": "https://writehuman.ai/ai-detector",
@@ -88051,7 +88065,7 @@
   },
   {
     "meta": {
-      "id": "youtube-noads-1136",
+      "id": "youtube-noads-1131",
       "name": "YouTube NoAds",
       "icon": "https://play-lh.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc",
       "url": "https://gracely011.github.io/hai/youtube-noads.html",
