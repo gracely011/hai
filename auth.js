@@ -25,7 +25,7 @@ function setCookie(name, value, days) {
         date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
         expires = "; expires=" + date.toUTCString();
     }
-    let cookieString = name + "=" + (value || "") + expires + "; path=/hai/; SameSite=Lax; Secure";
+    let cookieString = name + "=" + (value || "") + expires + "; path=/; SameSite=Lax; Secure";
     document.cookie = cookieString;
 }
 
