@@ -22,11 +22,11 @@
         console.log("Cleaned up legacy /hai/ cookie.");
 
         // 2. Remove legacy Local Storage
+        // NOTE: DO NOT remove 'gracely_db_session_id', it is needed for script.js session safety check!
         const keysToRemove = [
             'gracely_config_url',
             'gracelyPremiumConfig',
-            'gracely_active_session_token',
-            'gracely_db_session_id'
+            'gracely_active_session_token'
         ];
         keysToRemove.forEach(key => localStorage.removeItem(key));
         console.log("Cleaned up legacy Local Storage configuration.");
