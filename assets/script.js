@@ -26,7 +26,24 @@ function handleMultiLoginKick(message) {
     alert(message);
     window.location.href = 'login.html';
 }
-function handleStatusUpdate(dbStatus) { localStorage.removeItem('isPremium'); localStorage.removeItem('premiumExpiryDate'); localStorage.removeItem('gracelyPremiumConfig'); const isPremium = dbStatus.isPremium; if (isPremium) { localStorage.setItem('isPremium', 'true'); localStorage.setItem('premiumExpiryDate', dbStatus.premiumExpiryDate); } else { localStorage.setItem('isPremium', 'false'); } window.location.reload(); }
+function handleStatusUpdate(dbStatus) {
+    localStorage.removeItem('isPremium');
+    localStorage.removeItem('premiumExpiryDate');
+    localStorage.removeItem('gracelyPremiumConfig');
+
+    // Update Plan Details
+    localStorage.setItem('userPlanName', dbStatus.planName || 'No Premium');
+    localStorage.setItem('userPlanNumber', dbStatus.planNumber || '001');
+
+    const isPremium = dbStatus.isPremium;
+    if (isPremium) {
+        localStorage.setItem('isPremium', 'true');
+        localStorage.setItem('premiumExpiryDate', dbStatus.premiumExpiryDate);
+    } else {
+        localStorage.setItem('isPremium', 'false');
+    }
+    window.location.reload();
+}
 
 // FUNGSI PENJAGA SESI (SATPAM)
 // FUNGSI PENJAGA SESI (SATPAM/SECURITY)
@@ -98,7 +115,7 @@ async function checkSessionValidity(localSessionId) {
         return;
     }
 
-    // B. Cek Status Premium
+    // B. Cek Status Premium & Plan
     if (typeof getUserId === 'function' && typeof getPremiumStatus === 'function') {
         const currentUserId = await getUserId();
         if (currentUserId) {
@@ -106,14 +123,19 @@ async function checkSessionValidity(localSessionId) {
             if (dbStatus) {
                 const localIsPremium = localStorage.getItem('isPremium');
                 const localExpiryDate = localStorage.getItem('premiumExpiryDate');
+                const localPlanName = localStorage.getItem('userPlanName');
+                const localPlanNumber = localStorage.getItem('userPlanNumber');
+
                 const dbIsPremium = dbStatus.isPremium ? 'true' : 'false';
+
+                // Cek perubahan data
                 const isStatusChanged = (dbIsPremium !== localIsPremium);
-                let isDataChanged = false;
-                if (dbIsPremium === 'true') {
-                    const dbExpiryDate = dbStatus.premiumExpiryDate;
-                    isDataChanged = (dbExpiryDate != localExpiryDate);
-                }
-                if (isStatusChanged || isDataChanged) {
+                const isExpiryChanged = (dbIsPremium === 'true' && dbStatus.premiumExpiryDate != localExpiryDate);
+                const isPlanNameChanged = (dbStatus.planName != localPlanName);
+                const isPlanNumberChanged = (dbStatus.planNumber != localPlanNumber);
+
+                if (isStatusChanged || isExpiryChanged || isPlanNameChanged || isPlanNumberChanged) {
+                    console.log("Perubahan data akun terdeteksi, melakukan update...");
                     handleStatusUpdate(dbStatus);
                 }
             }
