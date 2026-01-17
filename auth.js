@@ -69,6 +69,47 @@ async function getUserId() {
     return user ? user.id : null;
 }
 
+async function getPremiumStatus(userId) {
+    try {
+        const { data, error } = await supabaseClient
+            .from('profiles')
+            .select(`
+                premiumExpiryDate,
+                plan_gracely (
+                    name_plan,
+                    number_plan
+                )
+            `)
+            .eq('id', userId)
+            .single();
+
+        if (error || !data) return null;
+
+        const plan = data.plan_gracely || { name_plan: 'No Premium', number_plan: '001' };
+        const expiryDate = data.premiumExpiryDate;
+
+        // Cek validity sederhana
+        let isPremium = false;
+        if (expiryDate) {
+            const today = new Date();
+            const exp = new Date(expiryDate);
+            if (today <= exp && plan.number_plan !== '001') {
+                isPremium = true;
+            }
+        }
+
+        return {
+            isPremium: isPremium,
+            premiumExpiryDate: expiryDate,
+            planName: plan.name_plan,
+            planNumber: plan.number_plan
+        };
+    } catch (e) {
+        console.error("Error fetching premium status:", e);
+        return null;
+    }
+}
+
 async function getClientIp() {
     try {
         const response = await fetch('https://api.ipify.org?format=json');
