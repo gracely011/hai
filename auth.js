@@ -153,6 +153,16 @@ async function login(email, password) {
            Website no longer manages active sessions for the Extension logic.
            We simply insert a log and let the Extension handle its own session checks.
         */
+
+        // 1. DELETE OLD SESSIONS for this user to enforce single session
+        const { error: deleteError } = await supabaseClient
+            .from('user_sessions')
+            .delete()
+            .eq('user_id', authData.user.id);
+
+        if (deleteError) console.warn("Failed to clear old sessions:", deleteError);
+
+        // 2. INSERT NEW SESSION
         const { error: sessionError } = await supabaseClient.from('user_sessions').insert({
             user_id: authData.user.id,
             session_token: uniqueSessionID,
@@ -177,10 +187,13 @@ async function login(email, password) {
         localStorage.setItem('userPlanNumber', userPlan.number_plan);
         localStorage.setItem('premiumExpiryDate', profileData.premiumExpiryDate);
 
+        // IMPORTANT: Store the DB Session ID so script.js can verify it!
+        localStorage.setItem('gracely_db_session_id', uniqueSessionID);
+
         // CLEANUP: Remove legacy items to avoid confusion
         localStorage.removeItem('gracely_config_url');
         localStorage.removeItem('gracelyPremiumConfig');
-        localStorage.removeItem('gracely_db_session_id');
+        // localStorage.removeItem('gracely_db_session_id'); // DO NOT REMOVE THIS!
         localStorage.removeItem('gracely_active_session_token');
 
         eraseCookie('gracely_active_session');
