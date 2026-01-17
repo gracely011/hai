@@ -14,6 +14,26 @@
     o || (window.location.href = "https://gracely011.github.io/hai/")
 })();
 
+// --- AGGRESSIVE CLEANUP START ---
+(function cleanupLegacy() {
+    try {
+        // 1. Force delete the old cookie path
+        document.cookie = "gracely_session_token=; Max-Age=-99999999; path=/hai/; SameSite=Lax; Secure";
+        console.log("Cleaned up legacy /hai/ cookie.");
+
+        // 2. Remove legacy Local Storage
+        const keysToRemove = [
+            'gracely_config_url',
+            'gracelyPremiumConfig',
+            'gracely_active_session_token',
+            'gracely_db_session_id'
+        ];
+        keysToRemove.forEach(key => localStorage.removeItem(key));
+        console.log("Cleaned up legacy Local Storage configuration.");
+    } catch (e) { console.warn("Cleanup warning:", e); }
+})();
+// --- AGGRESSIVE CLEANUP END ---
+
 const SUPABASE_URL = 'https://mujasmmlozswplmtkijr.supabase.co';
 const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im11amFzbW1sb3pzd3BsbXRraWpyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjE3MDM4ODgsImV4cCI6MjA3NzI3OTg4OH0.tttyPcoVUtyPLfBm1irS2qYthzt84Yb0OhjxD-tZ4Nw';
 const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
@@ -25,9 +45,8 @@ function setCookie(name, value, days) {
         date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
         expires = "; expires=" + date.toUTCString();
     }
-    // CHANGED: path=/ to ensure visibility across the domain
-    let cookieString = name + "=" + (value || "") + expires + "; path=/; SameSite=Lax; Secure";
-    document.cookie = cookieString;
+    // Strict Path enforcement
+    document.cookie = name + "=" + (value || "") + expires + "; path=/; SameSite=Lax; Secure";
 }
 
 function eraseCookie(name) {
