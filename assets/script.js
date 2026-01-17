@@ -30,81 +30,101 @@ function handleStatusUpdate(dbStatus) { localStorage.removeItem('isPremium'); lo
 
 // FUNGSI PENJAGA SESI (SATPAM)
 // FUNGSI PENJAGA SESI (SATPAM/SECURITY)
-function startSessionCheckLoop() {
+async function startSessionCheckLoop() {
     // 1. Cek User Login di Local Storage
     if (localStorage.getItem('isAuthenticated') !== 'true') { return; }
 
-    // 2. Ambil ID Sesi dan User ID
+    // 2. Ambil ID Sesi
     const localSessionId = localStorage.getItem('gracely_db_session_id');
-    const userId = JSON.parse(atob(localStorage.getItem('gracely_session_token').split('.')[1])).sub; // Decode JWT (fallback jika getUserId ribet)
 
     if (!localSessionId) {
         console.warn("ID Sesi hilang, melewati pemeriksaan keamanan.");
         return;
     }
 
-    console.log("Mulai pengawasan sesi (Security Guard Active)...");
+    console.log(`[Security] Mulai pengawasan untuk Sesi: ${localSessionId}`);
 
     // --- FITUR 1: REALTIME LISTENER (CCTV-nya) ---
-    // Ini menangkap kejadian "DELETE" di tabel user_sessions secara langsung (instan)
-    const channel = supabaseClient.channel('session_guard_' + localSessionId)
-        .on(
-            'postgres_changes',
-            {
-                event: 'DELETE',
-                schema: 'public',
-                table: 'user_sessions',
-                filter: `session_token=eq.${localSessionId}` // Hanya dengar jika SESI SAYA yang dihapus
-            },
-            (payload) => {
-                console.log("TERDETEKSI: Sesi dihapus dari database (Login di perangkat lain)!", payload);
-                handleMultiLoginKick("Akun Anda telah login di perangkat lain. Sesi ini dihentikan saat itu juga, bos!");
-            }
-        )
-        .subscribe((status) => {
-            if (status === 'SUBSCRIBED') {
-                console.log("Terhubung ke sistem keamanan Realtime.");
-            }
-        });
+    try {
+        const channel = supabaseClient.channel('session_guard_' + localSessionId)
+            .on(
+                'postgres_changes',
+                {
+                    event: 'DELETE',
+                    schema: 'public',
+                    table: 'user_sessions',
+                    filter: `session_token=eq.${localSessionId}`
+                },
+                (payload) => {
+                    console.error("[Security] TERDETEKSI: Sesi dihapus dari database (Login di perangkat lain)!", payload);
+                    handleMultiLoginKick("Akun Anda telah login di perangkat lain. Sesi ini dihentikan saat itu juga, bos!");
+                }
+            )
+            .subscribe((status, err) => {
+                if (status === 'SUBSCRIBED') {
+                    console.log("[Security] Terhubung ke sistem keamanan Realtime.");
+                } else if (status === 'CHANNEL_ERROR') {
+                    console.error("[Security] Gagal terhubung ke Realtime:", err);
+                } else if (status === 'TIMED_OUT') {
+                    console.warn("[Security] Koneksi Realtime timeout, mengandalkan polling.");
+                }
+            });
+    } catch (realtimeErr) {
+        console.error("[Security] Error in Realtime setup:", realtimeErr);
+    }
 
     // --- FITUR 2: POLLING FALLBACK (Patroli Rutin) ---
     // Jaga-jaga kalau koneksi Realtime putus, tetap cek manual setiap 5 detik
     const checkInterval = 5000;
 
-    setInterval(async () => {
-        // A. Cek Eksistensi Sesi di Database
-        const { data, error } = await supabaseClient
-            .from('user_sessions')
-            .select('session_token')
-            .eq('session_token', localSessionId)
-            .single();
+    // Cek awal langsung
+    checkSessionValidity(localSessionId);
 
-        // Jika error atau data kosong, berarti sesi sudah dihapus (ditendang device lain)
-        if (error || !data) {
-            handleMultiLoginKick("Akun Anda login di perangkat lain. Sesi ini berakhir.");
-            return;
-        }
+    setInterval(() => checkSessionValidity(localSessionId), checkInterval);
+}
 
-        // B. Cek Status Premium (Logika Lama)
-        if (typeof getUserId === 'function' && typeof getPremiumStatus === 'function') {
-            const currentUserId = await getUserId();
-            if (currentUserId) {
-                const dbStatus = await getPremiumStatus(currentUserId);
-                if (dbStatus) {
-                    const localIsPremium = localStorage.getItem('isPremium');
-                    const localExpiryDate = localStorage.getItem('premiumExpiryDate');
-                    const dbIsPremium = dbStatus.isPremium ? 'true' : 'false';
-                    const isStatusChanged = (dbIsPremium !== localIsPremium);
-                    let isDataChanged = false;
-                    if (dbIsPremium === 'true') {
-                        const dbExpiryDate = dbStatus.premiumExpiryDate;
-                        isDataChanged = (dbExpiryDate != localExpiryDate);
-                    }
-                    if (isStatusChanged || isDataChanged) {
-                        handleStatusUpdate(dbStatus);
-                    }
+async function checkSessionValidity(localSessionId) {
+    // A. Cek Eksistensi Sesi di Database
+    const { data, error } = await supabaseClient
+        .from('user_sessions')
+        .select('session_token')
+        .eq('session_token', localSessionId)
+        .single();
+
+    // Jika error atau data kosong, berarti sesi sudah dihapus
+    if (error || !data) {
+        console.warn("[Security] Sesi tidak valid (Polling):", error);
+        handleMultiLoginKick("Akun Anda login di perangkat lain. Sesi ini berakhir.");
+        return;
+    }
+
+    // B. Cek Status Premium
+    if (typeof getUserId === 'function' && typeof getPremiumStatus === 'function') {
+        const currentUserId = await getUserId();
+        if (currentUserId) {
+            const dbStatus = await getPremiumStatus(currentUserId);
+            if (dbStatus) {
+                const localIsPremium = localStorage.getItem('isPremium');
+                const localExpiryDate = localStorage.getItem('premiumExpiryDate');
+                const dbIsPremium = dbStatus.isPremium ? 'true' : 'false';
+                const isStatusChanged = (dbIsPremium !== localIsPremium);
+                let isDataChanged = false;
+                if (dbIsPremium === 'true') {
+                    const dbExpiryDate = dbStatus.premiumExpiryDate;
+                    isDataChanged = (dbExpiryDate != localExpiryDate);
+                }
+                if (isStatusChanged || isDataChanged) {
+                    handleStatusUpdate(dbStatus);
                 }
             }
         }
-    }, checkInterval);
+    }
 }
+
+// Ensure it runs independent of other initializers
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', startSessionCheckLoop);
+} else {
+    startSessionCheckLoop();
+}
+
