@@ -29,41 +29,67 @@ function handleMultiLoginKick(message) {
 function handleStatusUpdate(dbStatus) { localStorage.removeItem('isPremium'); localStorage.removeItem('premiumExpiryDate'); localStorage.removeItem('gracelyPremiumConfig'); const isPremium = dbStatus.isPremium; if (isPremium) { localStorage.setItem('isPremium', 'true'); localStorage.setItem('premiumExpiryDate', dbStatus.premiumExpiryDate); } else { localStorage.setItem('isPremium', 'false'); } window.location.reload(); }
 
 // FUNGSI PENJAGA SESI (SATPAM)
+// FUNGSI PENJAGA SESI (SATPAM/SECURITY)
 function startSessionCheckLoop() {
-    // Jika belum login, tidak perlu cek
+    // 1. Cek User Login di Local Storage
     if (localStorage.getItem('isAuthenticated') !== 'true') { return; }
 
-    // Ambil ID Sesi Unik yang dibuat saat login di auth.js
+    // 2. Ambil ID Sesi dan User ID
     const localSessionId = localStorage.getItem('gracely_db_session_id');
-    const checkInterval = 5000; // Cek setiap 5 detik (Bisa dipercepat ke 3000 jika mau lebih galak)
+    const userId = JSON.parse(atob(localStorage.getItem('gracely_session_token').split('.')[1])).sub; // Decode JWT (fallback jika getUserId ribet)
 
-    // Jika user tidak punya ID Sesi (mungkin login sebelum update sistem), tendang biar login ulang
     if (!localSessionId) {
-        // handleMultiLoginKick("Sistem keamanan diperbarui. Silakan login kembali.");
-        console.warn("Session ID missing, skipping security check.");
+        console.warn("ID Sesi hilang, melewati pemeriksaan keamanan.");
         return;
     }
 
+    console.log("Mulai pengawasan sesi (Security Guard Active)...");
+
+    // --- FITUR 1: REALTIME LISTENER (CCTV-nya) ---
+    // Ini menangkap kejadian "DELETE" di tabel user_sessions secara langsung (instan)
+    const channel = supabaseClient.channel('session_guard_' + localSessionId)
+        .on(
+            'postgres_changes',
+            {
+                event: 'DELETE',
+                schema: 'public',
+                table: 'user_sessions',
+                filter: `session_token=eq.${localSessionId}` // Hanya dengar jika SESI SAYA yang dihapus
+            },
+            (payload) => {
+                console.log("TERDETEKSI: Sesi dihapus dari database (Login di perangkat lain)!", payload);
+                handleMultiLoginKick("Akun Anda telah login di perangkat lain. Sesi ini dihentikan saat itu juga, bos!");
+            }
+        )
+        .subscribe((status) => {
+            if (status === 'SUBSCRIBED') {
+                console.log("Terhubung ke sistem keamanan Realtime.");
+            }
+        });
+
+    // --- FITUR 2: POLLING FALLBACK (Patroli Rutin) ---
+    // Jaga-jaga kalau koneksi Realtime putus, tetap cek manual setiap 5 detik
+    const checkInterval = 5000;
+
     setInterval(async () => {
-        // 1. Cek apakah ID Sesi saya masih ada di database?
-        // Jika Trigger DB sudah menghapusnya (karena ada device baru login), query ini akan return null/error
+        // A. Cek Eksistensi Sesi di Database
         const { data, error } = await supabaseClient
             .from('user_sessions')
             .select('session_token')
             .eq('session_token', localSessionId)
-            .single(); // single() akan return error jika data tidak ditemukan
+            .single();
 
-        // JIKA DATA HILANG DARI DB -> TENDANG!
+        // Jika error atau data kosong, berarti sesi sudah dihapus (ditendang device lain)
         if (error || !data) {
             handleMultiLoginKick("Akun Anda login di perangkat lain. Sesi ini berakhir.");
             return;
         }
 
-        // 2. Cek Status Premium (Logika Lama, tetap dipertahankan)
+        // B. Cek Status Premium (Logika Lama)
         if (typeof getUserId === 'function' && typeof getPremiumStatus === 'function') {
-            const userId = await getUserId();
-            if (userId) {
-                const dbStatus = await getPremiumStatus(userId);
+            const currentUserId = await getUserId();
+            if (currentUserId) {
+                const dbStatus = await getPremiumStatus(currentUserId);
                 if (dbStatus) {
                     const localIsPremium = localStorage.getItem('isPremium');
                     const localExpiryDate = localStorage.getItem('premiumExpiryDate');
