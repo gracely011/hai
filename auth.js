@@ -227,6 +227,8 @@ async function login(email, password) {
         localStorage.setItem('userPlanName', userPlan.name_plan);
         localStorage.setItem('userPlanNumber', userPlan.number_plan);
         localStorage.setItem('premiumExpiryDate', profileData.premiumExpiryDate);
+        localStorage.setItem('proExpiryDate', profileData.pro_expiry_date);
+        localStorage.setItem('phantomExpiryDate', profileData.phantom_expiry_date);
 
         // IMPORTANT: Store the DB Session ID so script.js can verify it!
         localStorage.setItem('gracely_db_session_id', uniqueSessionID);
