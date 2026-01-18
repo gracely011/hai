@@ -225,9 +225,9 @@
 
           let hasShownDate = false;
 
-          const fmtPhantom = safeFormat(datePhantom);
-          if (fmtPhantom) {
-            planHTML += `<div>Your <b>Phantom</b> is valid until ${fmtPhantom}.</div>`;
+          const fmtPremium = safeFormat(datePremium);
+          if (fmtPremium) {
+            planHTML += `<div>Your <b>Premium</b> is valid until ${fmtPremium}.</div>`;
             hasShownDate = true;
           }
 
@@ -237,9 +237,9 @@
             hasShownDate = true;
           }
 
-          const fmtPremium = safeFormat(datePremium);
-          if (fmtPremium) {
-            planHTML += `<div>Your <b>Premium</b> is valid until ${fmtPremium}.</div>`;
+          const fmtPhantom = safeFormat(datePhantom);
+          if (fmtPhantom) {
+            planHTML += `<div>Your <b>Phantom</b> is valid until ${fmtPhantom}.</div>`;
             hasShownDate = true;
           }
 
