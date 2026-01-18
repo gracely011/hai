@@ -465,7 +465,26 @@ function loadLayout() {
   //     tapi tetap menggunakan t() agar bahasanya benar)
   modifyIndexPageContent();
   runNotificationChecks();
-  initializeWebsiteAnnouncement();
+  loadExternalConfig(() => {
+    initializeWebsiteAnnouncement();
+  });
+}
+
+function loadExternalConfig(callback) {
+  if (typeof gracelyConfig !== 'undefined') {
+    callback();
+    return;
+  }
+  const script = document.createElement('script');
+  script.src = 'aturhonma.js';
+  script.onload = () => {
+    // console.log("aturhonma.js loaded dynamically");
+    callback();
+  };
+  script.onerror = () => {
+    console.error("Failed to load aturhonma.js");
+  };
+  document.head.appendChild(script);
 }
 
 async function initializeWebsiteAnnouncement() {
