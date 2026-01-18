@@ -189,69 +189,87 @@
 
       let planHTML = '';
 
-      if (isPremium) {
-        const datePremium = localStorage.getItem('premiumExpiryDate');
-        const datePro = localStorage.getItem('proExpiryDate');
-        const datePhantom = localStorage.getItem('phantomExpiryDate');
+      try {
+        if (isPremium) {
+          const datePremium = localStorage.getItem('premiumExpiryDate');
+          const datePro = localStorage.getItem('proExpiryDate');
+          const datePhantom = localStorage.getItem('phantomExpiryDate');
 
-        let planHTML = `
-                <div class="menu-section">
-                  <div class="menu-section-mini-header">
-                    Your plan
-                  </div>
-                  <img src="assets/images/logo/gracely_mobile_white.png" alt="Logo" id="logo" class="top-right-image">
-                  
-                  <div class="${planNumber === '004' ? 'menu-section-plan-phantomwitcher' : 'menu-section-plan-premium'}"> 
-                    ${planName}
-                  </div>
-                  
-                  <div class="menu-section-plan-description">`;
+          // Helper safely format
+          const safeFormat = (dateStr) => {
+            try {
+              // Check for empty/null strings explicitly
+              if (!dateStr || dateStr === 'null' || dateStr === 'undefined') return null;
+              // Check if valid date
+              const d = new Date(dateStr);
+              if (isNaN(d.getTime())) return null;
+              return formatExactUTC(dateStr);
+            } catch (e) {
+              console.error("Date format error for:", dateStr, e);
+              return null;
+            }
+          };
 
-        let hasShownDate = false;
+          planHTML = `
+                  <div class="menu-section">
+                    <div class="menu-section-mini-header">
+                      Your plan
+                    </div>
+                    <img src="assets/images/logo/gracely_mobile_white.png" alt="Logo" id="logo" class="top-right-image">
+                    
+                    <div class="${planNumber === '004' ? 'menu-section-plan-phantomwitcher' : 'menu-section-plan-premium'}"> 
+                      ${planName}
+                    </div>
+                    
+                    <div class="menu-section-plan-description">`;
 
-        // 1. Cek Phantom
-        if (datePhantom && datePhantom !== 'null' && datePhantom !== 'undefined') {
-          planHTML += `<div>Your <b>Phantom</b> is valid until ${formatExactUTC(datePhantom)}.</div>`;
-          hasShownDate = true;
+          let hasShownDate = false;
+
+          const fmtPhantom = safeFormat(datePhantom);
+          if (fmtPhantom) {
+            planHTML += `<div>Your <b>Phantom</b> is valid until ${fmtPhantom}.</div>`;
+            hasShownDate = true;
+          }
+
+          const fmtPro = safeFormat(datePro);
+          if (fmtPro) {
+            planHTML += `<div>Your <b>Pro</b> is valid until ${fmtPro}.</div>`;
+            hasShownDate = true;
+          }
+
+          const fmtPremium = safeFormat(datePremium);
+          if (fmtPremium) {
+            planHTML += `<div>Your <b>Premium</b> is valid until ${fmtPremium}.</div>`;
+            hasShownDate = true;
+          }
+
+          if (!hasShownDate) {
+            planHTML += `<div>Active</div>`;
+          }
+
+          planHTML += `</div>
+                  </div>`;
+        } else {
+          planHTML = `
+                  <div class="menu-section">
+                    <div class="menu-section-mini-header">
+                      Your plan
+                    </div>
+                    <img src="assets/images/logo/gracely_mobile_white.png" alt="Logo" id="logo" class="top-right-image">
+                    
+                    <div class="menu-section-plan-free">
+                      ${planName}
+                    </div>
+                    <div class="menu-section-plan-description">
+                      Premium is required to access Gracely Extension.
+                    </div>
+                  </div>`;
         }
-
-        // 2. Cek Pro
-        if (datePro && datePro !== 'null' && datePro !== 'undefined') {
-          planHTML += `<div>Your <b>Pro</b> is valid until ${formatExactUTC(datePro)}.</div>`;
-          hasShownDate = true;
-        }
-
-        // 3. Cek Premium (Basic)
-        if (datePremium && datePremium !== 'null' && datePremium !== 'undefined') {
-          planHTML += `<div>Your <b>Premium</b> is valid until ${formatExactUTC(datePremium)}.</div>`;
-          hasShownDate = true;
-        }
-
-        // Fallback jika tidak ada tanggal valid tapi status isPremium tick
-        if (!hasShownDate) {
-          planHTML += `<div>Active</div>`;
-        }
-
-        planHTML += `</div>
-                </div>`;
-
-        if (planSection) planSection.innerHTML = planHTML;
-      } else {
-        planHTML = `
-                <div class="menu-section">
-                  <div class="menu-section-mini-header">
-                    Your plan
-                  </div>
-                  <img src="assets/images/logo/gracely_mobile_white.png" alt="Logo" id="logo" class="top-right-image">
-                  
-                  <div class="menu-section-plan-free">
-                    ${planName}
-                  </div>
-                  <div class="menu-section-plan-description">
-                    Premium is required to access Gracely Extension.
-                  </div>
-                </div>`;
+      } catch (err) {
+        console.error("Dashboard Render Critical Error:", err);
+        planHTML = `<div class="menu-section" style="color:red">Error loading plan info. Check console.</div>`;
       }
+
       if (planSection) planSection.innerHTML = planHTML;
     });
   </script>
