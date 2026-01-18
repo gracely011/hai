@@ -489,6 +489,10 @@ function loadExternalConfig(callback) {
 
 async function initializeWebsiteAnnouncement() {
   try {
+    // SECURITY CHECK: Only show for logged-in users
+    const isAuth = localStorage.getItem('isAuthenticated') === 'true';
+    if (!isAuth) return; // Exit if not logged in
+
     if (typeof gracelyConfig === 'undefined') return;
 
     const t = gracelyConfig.notifications?.announcement;
