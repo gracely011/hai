@@ -39,6 +39,8 @@ function handleStatusUpdate(dbStatus) {
     if (isPremium) {
         localStorage.setItem('isPremium', 'true');
         localStorage.setItem('premiumExpiryDate', dbStatus.premiumExpiryDate);
+        localStorage.setItem('proExpiryDate', dbStatus.proExpiryDate);
+        localStorage.setItem('phantomExpiryDate', dbStatus.phantomExpiryDate);
     } else {
         localStorage.setItem('isPremium', 'false');
     }
@@ -69,12 +71,14 @@ async function startSessionCheckLoop() {
                 {
                     event: 'DELETE',
                     schema: 'public',
-                    table: 'user_sessions',
-                    filter: `session_token=eq.${localSessionId}`
+                    table: 'user_sessions'
                 },
                 (payload) => {
-                    console.error("[Security] TERDETEKSI: Sesi dihapus dari database (Login di perangkat lain)!", payload);
-                    handleMultiLoginKick("Akun Anda telah login di perangkat lain. Sesi ini dihentikan saat itu juga, bos!");
+                    // Manual filter client-side to avoid binding mismatches
+                    if (payload.old && payload.old.session_token === localSessionId) {
+                        console.error("[Security] TERDETEKSI: Sesi dihapus dari database (Login di perangkat lain)!", payload);
+                        handleMultiLoginKick("Akun Anda telah login di perangkat lain. Sesi ini dihentikan saat itu juga, bos!");
+                    }
                 }
             )
             .subscribe((status, err) => {
