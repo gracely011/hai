@@ -231,13 +231,36 @@ async function login(email, password) {
             device_name: userAgent
         });
 
+        // ... existing code ...
         let isCurrentlyPremium = false;
-        if (profileData.premiumExpiryDate) {
-            const expiryDate = new Date(profileData.premiumExpiryDate);
-            const today = new Date();
-            if (today <= expiryDate && userPlan.number_plan !== '001') {
-                isCurrentlyPremium = true;
-            }
+
+        const expiryDate = profileData.premiumExpiryDate ? new Date(profileData.premiumExpiryDate) : null;
+        const proDate = profileData.pro_expiry_date ? new Date(profileData.pro_expiry_date) : null;
+        const phantomDate = profileData.phantom_expiry_date ? new Date(profileData.phantom_expiry_date) : null;
+
+        const today = new Date();
+        const isPremiumValid = expiryDate && today <= expiryDate;
+        const isProValid = proDate && today <= proDate;
+        const isPhantomValid = phantomDate && today <= phantomDate;
+
+        // Determine Effective Plan based on Hierarchy: Phantom > Pro > Premium
+        let finalPlanName = 'No Premium';
+        let finalPlanNumber = '001';
+
+        if (isPhantomValid) {
+            finalPlanName = 'The Phantom';
+            finalPlanNumber = '004';
+        } else if (isProValid) {
+            finalPlanName = 'Pro';
+            finalPlanNumber = '003';
+        } else if (isPremiumValid) {
+            finalPlanName = 'Premium';
+            finalPlanNumber = '002';
+        }
+
+        // Global Active Check
+        if (finalPlanNumber !== '001') {
+            isCurrentlyPremium = true;
         }
 
         // Only store purely UI-related data
@@ -245,8 +268,8 @@ async function login(email, password) {
         localStorage.setItem('userEmail', authData.user.email);
         localStorage.setItem('userName', userName);
         localStorage.setItem('isPremium', isCurrentlyPremium); // UI toggle
-        localStorage.setItem('userPlanName', userPlan.name_plan);
-        localStorage.setItem('userPlanNumber', userPlan.number_plan);
+        localStorage.setItem('userPlanName', finalPlanName);
+        localStorage.setItem('userPlanNumber', finalPlanNumber);
         localStorage.setItem('premiumExpiryDate', profileData.premiumExpiryDate);
         localStorage.setItem('proExpiryDate', profileData.pro_expiry_date);
         localStorage.setItem('phantomExpiryDate', profileData.phantom_expiry_date);
