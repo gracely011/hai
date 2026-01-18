@@ -563,7 +563,26 @@ async function initializeWebsiteAnnouncement() {
     }
 
     if (shouldShow) {
-      show();
+      let hasShown = false;
+      const triggerShow = () => {
+        if (hasShown) return;
+        hasShown = true;
+
+        // Cleanup triggers
+        clearTimeout(autoTimer);
+        document.removeEventListener('mousemove', userInteractionTrigger);
+
+        show();
+      };
+
+      // Trigger 1: Auto 5 detik
+      const autoTimer = setTimeout(triggerShow, 5000);
+
+      // Trigger 2: Mouse Move (Langsung muncul jika user aktif)
+      const userInteractionTrigger = () => {
+        triggerShow();
+      };
+      document.addEventListener('mousemove', userInteractionTrigger);
     }
   } catch (err) {
     console.error("Announcement Error:", err);
