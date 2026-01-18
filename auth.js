@@ -99,6 +99,21 @@ async function getPremiumStatus(userId) {
         const isProValid = proDate && today <= proDate;
         const isPhantomValid = phantomDate && today <= phantomDate;
 
+        // Determine Effective Plan based on Hierarchy: Phantom > Pro > Premium
+        let finalPlanName = 'No Premium';
+        let finalPlanNumber = '001';
+
+        if (isPhantomValid) {
+            finalPlanName = 'The Phantom';
+            finalPlanNumber = '004';
+        } else if (isProValid) {
+            finalPlanName = 'Pro';
+            finalPlanNumber = '003';
+        } else if (isPremiumValid) {
+            finalPlanName = 'Premium';
+            finalPlanNumber = '002';
+        }
+
         // isPremium is TRUE if ANY plan is valid
         const isPremium = (isPremiumValid || isProValid || isPhantomValid);
 
@@ -107,8 +122,8 @@ async function getPremiumStatus(userId) {
             premiumExpiryDate: data.premiumExpiryDate,
             proExpiryDate: data.pro_expiry_date,
             phantomExpiryDate: data.phantom_expiry_date,
-            planName: plan.name_plan,
-            planNumber: plan.number_plan
+            planName: finalPlanName,
+            planNumber: finalPlanNumber
         };
     } catch (e) {
         console.error("Error fetching premium status:", e);
