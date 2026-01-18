@@ -75,6 +75,8 @@ async function getPremiumStatus(userId) {
             .from('profiles')
             .select(`
                 premiumExpiryDate,
+                pro_expiry_date,
+                phantom_expiry_date,
                 plan_gracely (
                     name_plan,
                     number_plan
@@ -86,21 +88,25 @@ async function getPremiumStatus(userId) {
         if (error || !data) return null;
 
         const plan = data.plan_gracely || { name_plan: 'No Premium', number_plan: '001' };
-        const expiryDate = data.premiumExpiryDate;
 
-        // Cek validity sederhana
-        let isPremium = false;
-        if (expiryDate) {
-            const today = new Date();
-            const exp = new Date(expiryDate);
-            if (today <= exp && plan.number_plan !== '001') {
-                isPremium = true;
-            }
-        }
+        // Check validity for ALL plans
+        const today = new Date();
+        const premiumDate = data.premiumExpiryDate ? new Date(data.premiumExpiryDate) : null;
+        const proDate = data.pro_expiry_date ? new Date(data.pro_expiry_date) : null;
+        const phantomDate = data.phantom_expiry_date ? new Date(data.phantom_expiry_date) : null;
+
+        const isPremiumValid = premiumDate && today <= premiumDate;
+        const isProValid = proDate && today <= proDate;
+        const isPhantomValid = phantomDate && today <= phantomDate;
+
+        // isPremium is TRUE if ANY plan is valid
+        const isPremium = (isPremiumValid || isProValid || isPhantomValid);
 
         return {
             isPremium: isPremium,
-            premiumExpiryDate: expiryDate,
+            premiumExpiryDate: data.premiumExpiryDate,
+            proExpiryDate: data.pro_expiry_date,
+            phantomExpiryDate: data.phantom_expiry_date,
             planName: plan.name_plan,
             planNumber: plan.number_plan
         };
