@@ -14,6 +14,64 @@
     o || (window.location.href = "https://gracely011.github.io/hai/")
 })();
 
+// --- SECURE STORAGE LAYER (WEB) ---
+// Self-executing singleton pattern to avoid global scope pollution and redeclaration errors
+(function () {
+    if (window.secureStorage) return; // Already defined
+
+    const SECURE_KEY_STORAGE = "Gracely_Secure_Local_2026";
+    const SECURE_MAPPING = {
+        'isAuthenticated': '_w_auth_s1',
+        'userEmail': '_w_usr_e1',
+        'userName': '_w_usr_n1',
+        'isPremium': '_w_sts_p1',
+        'userPlanName': '_w_pln_nm1',
+        'userPlanNumber': '_w_pln_nb1',
+        'premiumExpiryDate': '_w_exp_p1',
+        'proExpiryDate': '_w_exp_p2',
+        'phantomExpiryDate': '_w_exp_p3',
+        'gracely_db_session_id': '_w_ses_db1',
+        'gracely_active_session_token': '_w_ses_tk1', // kept for compat
+        'gracely_config_url': '_w_cfg_url1', // kept for compat
+        'gracelyPremiumConfig': '_w_cfg_prm1' // kept for compat
+    };
+
+    function getKeyMap(key) {
+        if (SECURE_MAPPING[key]) return SECURE_MAPPING[key];
+        if (key.startsWith('sb-') && key.endsWith('-auth-token')) return '_w_sup_tok_1'; // Generic map for Supabase token
+        return key;
+    }
+
+    function obfuscateStorage(e) { try { const t = SECURE_KEY_STORAGE; let r = ""; for (let n = 0; n < e.length; n++)r += String.fromCharCode(e.charCodeAt(n) ^ t.charCodeAt(n % t.length)); return btoa(r) } catch (t) { return e } }
+    function deobfuscateStorage(e) { try { const t = SECURE_KEY_STORAGE, r = atob(e); let n = ""; for (let e = 0; e < r.length; e++)n += String.fromCharCode(r.charCodeAt(e) ^ t.charCodeAt(e % t.length)); return n } catch (t) { return e } }
+
+    window.secureStorage = {
+        getItem: function (key) {
+            const secureKey = getKeyMap(key);
+            const storedValue = localStorage.getItem(secureKey);
+            if (storedValue === null) return null;
+            try {
+                return deobfuscateStorage(storedValue);
+            } catch (e) {
+                return storedValue; // Fallback for transition period
+            }
+        },
+        setItem: function (key, value) {
+            const secureKey = getKeyMap(key);
+            const secureValue = obfuscateStorage(String(value));
+            localStorage.setItem(secureKey, secureValue);
+        },
+        removeItem: function (key) {
+            const secureKey = getKeyMap(key);
+            localStorage.removeItem(secureKey);
+        },
+        clear: function () {
+            localStorage.clear();
+        }
+    };
+})();
+// ----------------------------
+
 // --- AGGRESSIVE CLEANUP START ---
 (function cleanupLegacy() {
     try {
@@ -28,68 +86,11 @@
             'gracelyPremiumConfig',
             'gracely_active_session_token'
         ];
-        keysToRemove.forEach(key => secureStorage.removeItem(key));
+        keysToRemove.forEach(key => window.secureStorage.removeItem(key));
         console.log("Cleaned up legacy Local Storage configuration.");
     } catch (e) { console.warn("Cleanup warning:", e); }
 })();
 // --- AGGRESSIVE CLEANUP END ---
-
-// --- SECURE STORAGE LAYER (WEB) ---
-const SECURE_KEY_STORAGE = "Gracely_Secure_Local_2026";
-const SECURE_MAPPING = {
-    'isAuthenticated': '_w_auth_s1',
-    'userEmail': '_w_usr_e1',
-    'userName': '_w_usr_n1',
-    'isPremium': '_w_sts_p1',
-    'userPlanName': '_w_pln_nm1',
-    'userPlanNumber': '_w_pln_nb1',
-    'premiumExpiryDate': '_w_exp_p1',
-    'proExpiryDate': '_w_exp_p2',
-    'phantomExpiryDate': '_w_exp_p3',
-    'gracely_db_session_id': '_w_ses_db1',
-    'gracely_active_session_token': '_w_ses_tk1', // kept for compat
-    'gracely_config_url': '_w_cfg_url1', // kept for compat
-    'gracelyPremiumConfig': '_w_cfg_prm1' // kept for compat
-};
-
-// Add Supabase keys dynamically to mapping if needed, or handle generically
-function getKeyMap(key) {
-    if (SECURE_MAPPING[key]) return SECURE_MAPPING[key];
-    if (key.startsWith('sb-') && key.endsWith('-auth-token')) return '_w_sup_tok_1'; // Generic map for Supabase token
-    return key;
-}
-
-function obfuscateStorage(e) { try { const t = SECURE_KEY_STORAGE; let r = ""; for (let n = 0; n < e.length; n++)r += String.fromCharCode(e.charCodeAt(n) ^ t.charCodeAt(n % t.length)); return btoa(r) } catch (t) { return e } }
-function deobfuscateStorage(e) { try { const t = SECURE_KEY_STORAGE, r = atob(e); let n = ""; for (let e = 0; e < r.length; e++)n += String.fromCharCode(r.charCodeAt(e) ^ t.charCodeAt(e % t.length)); return n } catch (t) { return e } }
-
-const secureStorage = {
-    getItem: function (key) {
-        const secureKey = getKeyMap(key);
-        const storedValue = localStorage.getItem(secureKey);
-        if (storedValue === null) return null;
-        try {
-            return deobfuscateStorage(storedValue);
-        } catch (e) {
-            return storedValue; // Fallback for transition period
-        }
-    },
-    setItem: function (key, value) {
-        const secureKey = getKeyMap(key);
-        const secureValue = obfuscateStorage(String(value));
-        localStorage.setItem(secureKey, secureValue);
-    },
-    removeItem: function (key) {
-        const secureKey = getKeyMap(key);
-        localStorage.removeItem(secureKey);
-    },
-    clear: function () {
-        // Only clear known keys to avoid killing other apps on localhost? 
-        // No, current logic is "wipe everything". Let's stick to localStorage.clear() but maybe wrapper logic if needed.
-        // For now, pure clear is fine.
-        localStorage.clear();
-    }
-};
-// ----------------------------
 
 const SUPABASE_URL = 'https://mujasmmlozswplmtkijr.supabase.co';
 const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im11amFzbW1sb3pzd3BsbXRraWpyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjE3MDM4ODgsImV4cCI6MjA3NzI3OTg4OH0.tttyPcoVUtyPLfBm1irS2qYthzt84Yb0OhjxD-tZ4Nw';
