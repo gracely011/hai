@@ -16,11 +16,13 @@
 
 // --- SECURE STORAGE LAYER (WEB) ---
 // Self-executing singleton pattern to avoid global scope pollution and redeclaration errors
+// --- SECURE STORAGE LAYER (WEB) ---
+// Self-executing singleton pattern to avoid global scope pollution and redeclaration errors
 (function () {
     if (window.secureStorage) return; // Already defined
 
-    const SECURE_KEY_STORAGE = "Gracely_Secure_Local_2026";
-    const SECURE_MAPPING = {
+    var AUTH_SECURE_KEY = "Gracely_Secure_Local_2026";
+    var AUTH_SECURE_MAPPING = {
         'isAuthenticated': '_w_auth_s1',
         'userEmail': '_w_usr_e1',
         'userName': '_w_usr_n1',
@@ -37,13 +39,13 @@
     };
 
     function getKeyMap(key) {
-        if (SECURE_MAPPING[key]) return SECURE_MAPPING[key];
+        if (AUTH_SECURE_MAPPING[key]) return AUTH_SECURE_MAPPING[key];
         if (key.startsWith('sb-') && key.endsWith('-auth-token')) return '_w_sup_tok_1'; // Generic map for Supabase token
         return key;
     }
 
-    function obfuscateStorage(e) { try { const t = SECURE_KEY_STORAGE; let r = ""; for (let n = 0; n < e.length; n++)r += String.fromCharCode(e.charCodeAt(n) ^ t.charCodeAt(n % t.length)); return btoa(r) } catch (t) { return e } }
-    function deobfuscateStorage(e) { try { const t = SECURE_KEY_STORAGE, r = atob(e); let n = ""; for (let e = 0; e < r.length; e++)n += String.fromCharCode(r.charCodeAt(e) ^ t.charCodeAt(e % t.length)); return n } catch (t) { return e } }
+    function obfuscateStorage(e) { try { const t = AUTH_SECURE_KEY; let r = ""; for (let n = 0; n < e.length; n++)r += String.fromCharCode(e.charCodeAt(n) ^ t.charCodeAt(n % t.length)); return btoa(r) } catch (t) { return e } }
+    function deobfuscateStorage(e) { try { const t = AUTH_SECURE_KEY, r = atob(e); let n = ""; for (let e = 0; e < r.length; e++)n += String.fromCharCode(r.charCodeAt(e) ^ t.charCodeAt(e % t.length)); return n } catch (t) { return e } }
 
     window.secureStorage = {
         getItem: function (key) {
