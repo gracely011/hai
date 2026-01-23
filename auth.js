@@ -14,66 +14,6 @@
     o || (window.location.href = "https://gracely011.github.io/hai/")
 })();
 
-// --- SECURE STORAGE LAYER (WEB) ---
-// Self-executing singleton pattern to avoid global scope pollution and redeclaration errors
-// --- SECURE STORAGE LAYER (WEB) ---
-// Self-executing singleton pattern to avoid global scope pollution and redeclaration errors
-(function () {
-    if (window.secureStorage) return; // Already defined
-
-    var AUTH_SECURE_KEY = "Gracely_Secure_Local_2026";
-    var AUTH_SECURE_MAPPING = {
-        'isAuthenticated': '_w_auth_s1',
-        'userEmail': '_w_usr_e1',
-        'userName': '_w_usr_n1',
-        'isPremium': '_w_sts_p1',
-        'userPlanName': '_w_pln_nm1',
-        'userPlanNumber': '_w_pln_nb1',
-        'premiumExpiryDate': '_w_exp_p1',
-        'proExpiryDate': '_w_exp_p2',
-        'phantomExpiryDate': '_w_exp_p3',
-        'gracely_db_session_id': '_w_ses_db1',
-        'gracely_active_session_token': '_w_ses_tk1', // kept for compat
-        'gracely_config_url': '_w_cfg_url1', // kept for compat
-        'gracelyPremiumConfig': '_w_cfg_prm1' // kept for compat
-    };
-
-    function getKeyMap(key) {
-        if (AUTH_SECURE_MAPPING[key]) return AUTH_SECURE_MAPPING[key];
-        if (key.startsWith('sb-') && key.endsWith('-auth-token')) return '_w_sup_tok_1'; // Generic map for Supabase token
-        return key;
-    }
-
-    function obfuscateStorage(e) { try { const t = AUTH_SECURE_KEY; let r = ""; for (let n = 0; n < e.length; n++)r += String.fromCharCode(e.charCodeAt(n) ^ t.charCodeAt(n % t.length)); return btoa(r) } catch (t) { return e } }
-    function deobfuscateStorage(e) { try { const t = AUTH_SECURE_KEY, r = atob(e); let n = ""; for (let e = 0; e < r.length; e++)n += String.fromCharCode(r.charCodeAt(e) ^ t.charCodeAt(e % t.length)); return n } catch (t) { return e } }
-
-    window.secureStorage = {
-        getItem: function (key) {
-            const secureKey = getKeyMap(key);
-            const storedValue = localStorage.getItem(secureKey);
-            if (storedValue === null) return null;
-            try {
-                return deobfuscateStorage(storedValue);
-            } catch (e) {
-                return storedValue; // Fallback for transition period
-            }
-        },
-        setItem: function (key, value) {
-            const secureKey = getKeyMap(key);
-            const secureValue = obfuscateStorage(String(value));
-            localStorage.setItem(secureKey, secureValue);
-        },
-        removeItem: function (key) {
-            const secureKey = getKeyMap(key);
-            localStorage.removeItem(secureKey);
-        },
-        clear: function () {
-            localStorage.clear();
-        }
-    };
-})();
-// ----------------------------
-
 // --- AGGRESSIVE CLEANUP START ---
 (function cleanupLegacy() {
     try {
@@ -88,7 +28,7 @@
             'gracelyPremiumConfig',
             'gracely_active_session_token'
         ];
-        keysToRemove.forEach(key => window.secureStorage.removeItem(key));
+        keysToRemove.forEach(key => localStorage.removeItem(key));
         console.log("Cleaned up legacy Local Storage configuration.");
     } catch (e) { console.warn("Cleanup warning:", e); }
 })();
@@ -324,24 +264,24 @@ async function login(email, password) {
         }
 
         // Only store purely UI-related data
-        secureStorage.setItem('isAuthenticated', 'true');
-        secureStorage.setItem('userEmail', authData.user.email);
-        secureStorage.setItem('userName', userName);
-        secureStorage.setItem('isPremium', isCurrentlyPremium); // UI toggle
-        secureStorage.setItem('userPlanName', finalPlanName);
-        secureStorage.setItem('userPlanNumber', finalPlanNumber);
-        secureStorage.setItem('premiumExpiryDate', profileData.premiumExpiryDate);
-        secureStorage.setItem('proExpiryDate', profileData.pro_expiry_date);
-        secureStorage.setItem('phantomExpiryDate', profileData.phantom_expiry_date);
+        localStorage.setItem('isAuthenticated', 'true');
+        localStorage.setItem('userEmail', authData.user.email);
+        localStorage.setItem('userName', userName);
+        localStorage.setItem('isPremium', isCurrentlyPremium); // UI toggle
+        localStorage.setItem('userPlanName', finalPlanName);
+        localStorage.setItem('userPlanNumber', finalPlanNumber);
+        localStorage.setItem('premiumExpiryDate', profileData.premiumExpiryDate);
+        localStorage.setItem('proExpiryDate', profileData.pro_expiry_date);
+        localStorage.setItem('phantomExpiryDate', profileData.phantom_expiry_date);
 
         // IMPORTANT: Store the DB Session ID so script.js can verify it!
-        secureStorage.setItem('gracely_db_session_id', uniqueSessionID);
+        localStorage.setItem('gracely_db_session_id', uniqueSessionID);
 
         // CLEANUP: Remove legacy items to avoid confusion
-        secureStorage.removeItem('gracely_config_url');
-        secureStorage.removeItem('gracelyPremiumConfig');
-        // secureStorage.removeItem('gracely_db_session_id'); // DO NOT REMOVE THIS!
-        secureStorage.removeItem('gracely_active_session_token');
+        localStorage.removeItem('gracely_config_url');
+        localStorage.removeItem('gracelyPremiumConfig');
+        // localStorage.removeItem('gracely_db_session_id'); // DO NOT REMOVE THIS!
+        localStorage.removeItem('gracely_active_session_token');
 
         eraseCookie('gracely_active_session');
         eraseCookie('is_premium');
@@ -370,7 +310,7 @@ async function login(email, password) {
 
         return { success: true };
     } catch (error) {
-        secureStorage.clear();
+        localStorage.clear();
         eraseCookie('gracely_active_session');
         eraseCookie('is_premium');
         eraseCookie('gracely_config_url');
@@ -407,14 +347,14 @@ async function updateUserName(newName) {
         const { error } = await supabaseClient.from('profiles').update({ name: newName }).eq('id', user.id);
         if (error) throw error;
         await supabaseClient.auth.updateUser({ data: { full_name: newName } });
-        secureStorage.setItem('userName', newName);
+        localStorage.setItem('userName', newName);
         return { success: true, message: 'Nama berhasil diperbarui!' };
     } catch (error) { return { success: false, message: error.message }; }
 }
 
 async function logout() {
     const userId = await getUserId();
-    const currentName = secureStorage.getItem('userName') || 'Unknown';
+    const currentName = localStorage.getItem('userName') || 'Unknown';
     if (userId) {
         const now = new Date().toISOString();
         await supabaseClient.from('profiles').update({ last_sign_out: now }).eq('id', userId);
@@ -434,7 +374,7 @@ async function logout() {
 
     // Explicitly delete session from DB if we can track it (current implementation creates new UUID on login, so we can't easily delete specifi one unless we tracked it locally, which user asked us to remove from local storage. So we rely on Extension's multi-login detection or just simple logout.)
 
-    secureStorage.clear();
+    localStorage.clear();
     eraseCookie('gracely_active_session');
     eraseCookie('is_premium');
     eraseCookie('gracely_config_url');
@@ -446,6 +386,6 @@ async function logout() {
     window.location.href = 'login.html';
 }
 
-function isAuthenticated() { return secureStorage.getItem('isAuthenticated') === 'true'; }
+function isAuthenticated() { return localStorage.getItem('isAuthenticated') === 'true'; }
 function requireAuth() { if (!isAuthenticated()) { window.location.href = 'login.html'; } }
 function redirectIfAuthenticated() { if (isAuthenticated()) { window.location.href = 'dashboard.html'; } }
