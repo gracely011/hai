@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,13 +15,15 @@
     <script src="auth.js"></script>
     <script>requireAuth();</script>
 </head>
+
 <body>
 
     <div class="app-container">
         <header class="app-header">
             <div class="header-title">
                 <h1>YouTube NoAds</h1>
-                <p>version 2.0 — Gracely © 2024-2026</p>
+                <p>version 2.0 — Gracely © 2024-<span id="year"></span></p>
+                <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
             </div>
             <div class="header-controls">
                 <div class="input-wrapper">
@@ -35,16 +38,19 @@
         </header>
 
         <main>
-            
+
             <section id="video-player-container">
                 <div id="video-placeholder">
                     <i class="fab fa-youtube"></i>
                     <p>Enter a YouTube video/playlist URL to start watching</p>
                 </div>
-                <iframe id="video-player" class="hidden" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe id="video-player" class="hidden"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
             </section>
         </main>
     </div>
     <script src="assets/youtube-noads-2.0-final.js"></script>
 </body>
+
 </html>
