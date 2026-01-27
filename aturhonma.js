@@ -218,6 +218,10 @@ const gracelyConfig = {
         "title": "Merlin AI",
         "content": "<p><b>22/01/2026</b> Merlin sudah diperbarui.</p>"
       },
+      "claude-group-id": {
+        "title": "Claude",
+        "content": "<p><img src="https://i.ibb.co.com/Vptr5NxB/c613db4c-71ff-44f1-8110-797054a43f5e.jpg" width="90%"></p> <p>Kamu tetap dapat melakukan akses ke Claude via Merlin AI [Diperbarui <b>22/01/2026</b>]</p>"
+      },
       "perplexity-group-id": {
         "title": "Perplexity",
         "content": "<p>Jika Perpexity <b>tidak terlogin-login</b>, silahkan lakukan akses ulang sampai terlogin.</p>"
