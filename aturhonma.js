@@ -204,7 +204,7 @@ const gracelyConfig = {
       },
       "freepik-group-id": {
         "title": "Informasi",
-        "content": "<p>Jika kamu ingin mengunduh file <b>.mv</b> atau <b>.mp4</b>, gunakan <b>Freepik 2-3</b></p><p>Freepik 1</b> (Server 1-10 digunakan untuk mengunduh tipe file jpg, png, tidak untuk mengunduh icon / video)</p>"
+        "content": "<p>Jika kamu ingin mengunduh file <b>.mv</b> atau <b>.mp4</b>, gunakan <b>Freepik 2-3</b></p><p><b>Freepik 1</b> (Server 1-10 digunakan untuk mengunduh tipe file jpg, png, tidak untuk mengunduh icon / video)</p>"
       },
       "canva-group-id": {
         "title": "Informasi",
@@ -213,6 +213,14 @@ const gracelyConfig = {
       "canva-pro-group-id": {
         "title": "Informasi",
         "content": "<p>Silakan undang email pribadi kamu untuk bergabung dengan team Canva. Jika sudah penuh, mohon laporkan melalui Telegram.</p>"
+      },
+      "getmerlin.in-group-id": {
+        "title": "Merlin AI",
+        "content": "<p><b>22/01/2026</b> Merlin sudah diperbarui.</p>"
+      },
+      "claude-group-id": {
+        "title": "Claude",
+        "content": "<p><img src=\"https://i.ibb.co.com/Vptr5NxB/c613db4c-71ff-44f1-8110-797054a43f5e.jpg\" width=\"90%\"></p> <p>Kamu tetap dapat melakukan akses ke Claude via Merlin AI [Diperbarui <b>22/01/2026</b>]</p>"
       },
       "perplexity-group-id": {
         "title": "Perplexity",
