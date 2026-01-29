@@ -210,6 +210,10 @@ const gracelyConfig = {
         "title": "Informasi",
         "content": "<p>Silakan undang email pribadi kamu untuk bergabung dengan team Canva. Jika sudah penuh, mohon laporkan melalui Telegram.</p>"
       },
+      "procapcut-group-id": {
+        "title": "Informasi",
+        "content": "<p>CapCut pada Pro menggunakan CapCut Teams. Fitur Pro dapat dinikmati melalui manual login pada mobile &amp; desktop app CapCut.</p>"
+      },
       "canva-pro-group-id": {
         "title": "Informasi",
         "content": "<p>Silakan undang email pribadi kamu untuk bergabung dengan team Canva. Jika sudah penuh, mohon laporkan melalui Telegram.</p>"
