@@ -49,9 +49,9 @@
       // Tambahkan pengecekan null untuk logo
       if (logo) { 
         if (ud_header.classList.contains("sticky")) {
-          logo.src = "assets/images/logo/groupy_mobile_black.png";
+          logo.src = "assets/images/logo/gracely_mobile_black.png";
         } else {
-          logo.src = "assets/images/logo/groupy_mobile_white.png";
+          logo.src = "assets/images/logo/gracely_mobile_white.png";
         }
       }
 
@@ -71,29 +71,26 @@
     }; // Akhir dari window.onscroll
 
     //===== close navbar-collapse when a clicked =====
-    let navbarToggler = document.querySelector(".navbar-toggler");
-    const navbarCollapse = document.querySelector(".navbar-collapse");
-
-    // Tambahkan pengecekan null sebelum menambahkan event listener
-    if (navbarToggler && navbarCollapse) { 
-      document.querySelectorAll(".ud-menu-scroll").forEach((e) =>
-        e.addEventListener("click", () => {
-          // Periksa lagi di dalam event listener jika elemen masih ada
-          const currentToggler = document.querySelector(".navbar-toggler");
-          const currentCollapse = document.querySelector(".navbar-collapse");
-          if (currentToggler) currentToggler.classList.remove("active");
-          if (currentCollapse) currentCollapse.classList.remove("show");
-        })
-      );
+    // Menggunakan Event Delegation untuk hamburger menu
+    // Agar bisa menangkap klik meski navbar di-inject setelah DOMContentLoaded
+    document.body.addEventListener("click", function(e) {
+      // Handle hamburger toggler click
+      if (e.target.closest(".navbar-toggler")) {
+        e.preventDefault();
+        const toggler = document.querySelector(".navbar-toggler");
+        const collapse = document.querySelector(".navbar-collapse");
+        if (toggler) toggler.classList.toggle("active");
+        if (collapse) collapse.classList.toggle("show");
+      }
       
-      navbarToggler.addEventListener("click", function () {
-        // Periksa lagi di dalam event listener
-         const currentToggler = document.querySelector(".navbar-toggler");
-         const currentCollapse = document.querySelector(".navbar-collapse");
-         if (currentToggler) currentToggler.classList.toggle("active");
-         if (currentCollapse) currentCollapse.classList.toggle("show");
-      });
-    } // Akhir dari if (navbarToggler && navbarCollapse)
+      // Handle menu item click (close navbar)
+      if (e.target.closest(".ud-menu-scroll") || e.target.closest(".navbar-collapse a")) {
+        const toggler = document.querySelector(".navbar-toggler");
+        const collapse = document.querySelector(".navbar-collapse");
+        if (toggler) toggler.classList.remove("active");
+        if (collapse) collapse.classList.remove("show");
+      }
+    });
 
     // ===== submenu =====
     const submenuButton = document.querySelectorAll(".nav-item-has-children");

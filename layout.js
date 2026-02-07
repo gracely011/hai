@@ -472,20 +472,6 @@ function loadLayout() {
 
   if (typeof initializeScripts === 'function') { initializeScripts(); }
 
-  // FIX: Mobile navbar toggler - add event listener AFTER navbar is injected
-  setTimeout(() => {
-    const navbarToggler = document.querySelector(".navbar-toggler");
-    const navbarCollapse = document.querySelector(".navbar-collapse");
-
-    if (navbarToggler && navbarCollapse) {
-      navbarToggler.addEventListener("click", function (e) {
-        e.preventDefault();
-        navbarToggler.classList.toggle("active");
-        navbarCollapse.classList.toggle("show");
-      });
-    }
-  }, 100);
-
   // Urutan PENTING:
   // 1. Translate dulu konten dasar
   translatePageContent();
