@@ -462,9 +462,10 @@ p {
   .navbar-btn {
     position: absolute;
     top: 50%;
-    right: 50px;
+    right: 70px;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
+    z-index: 99;
   }
 }
 
