@@ -468,30 +468,6 @@ function loadLayout() {
     } else {
       navbarPlaceholder.innerHTML = defaultNavbarHTML();
     }
-    
-    // ========== HAMBURGER MENU HANDLER ==========
-    // Langsung pasang event listener setelah navbar di-inject
-    const navbarToggler = navbarPlaceholder.querySelector(".navbar-toggler");
-    const navbarCollapse = navbarPlaceholder.querySelector(".navbar-collapse");
-    
-    if (navbarToggler && navbarCollapse) {
-      navbarToggler.addEventListener("click", function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-        this.classList.toggle("active");
-        navbarCollapse.classList.toggle("show");
-      });
-      
-      // Tutup navbar saat klik link menu
-      const navLinks = navbarPlaceholder.querySelectorAll(".navbar-nav a");
-      navLinks.forEach(link => {
-        link.addEventListener("click", function() {
-          navbarToggler.classList.remove("active");
-          navbarCollapse.classList.remove("show");
-        });
-      });
-    }
-    // ========== END HAMBURGER MENU HANDLER ==========
   }
 
   if (typeof initializeScripts === 'function') { initializeScripts(); }
