@@ -285,7 +285,7 @@ async function login(email, password) {
         // Fetch Minimal Profile Data for UI
         let { data: profileData, error: profileError } = await supabaseClient
             .from('profiles')
-            .select(`*, plan_gracely (number_plan, name_plan)`) // configurl removed
+            .select(`*, plan_gracely (number_plan, name_plan), allow_multilogin, max_devices`)
             .eq('id', authData.user.id)
             .single();
 
@@ -309,25 +309,77 @@ async function login(email, password) {
 
 
         /* 
-           Website no longer manages active sessions for the Extension logic.
-           We simply insert a log and let the Extension handle its own session checks.
+           MULTI-LOGIN SUPPORT
+           Cek setting allow_multilogin dan max_devices dari profile user
         */
+        const allowMultilogin = profileData.allow_multilogin || false;
+        const maxDevices = profileData.max_devices || 1;
 
-        // 1. DELETE OLD SESSIONS for this user to enforce single session
-        const { error: deleteError } = await supabaseClient
-            .from('user_sessions')
-            .delete()
-            .eq('user_id', authData.user.id);
-
-        if (deleteError) console.warn("Failed to clear old sessions:", deleteError);
-
-        // 2. INSERT NEW SESSION dengan device fingerprint
-        const { error: sessionError } = await supabaseClient.from('user_sessions').insert({
-            user_id: authData.user.id,
-            session_token: uniqueSessionID,
-            device_name: userAgent,
-            device_fingerprint: deviceFingerprint  // ✅ Security: Bind session to device
-        });
+        if (allowMultilogin) {
+            // === MULTI-LOGIN ENABLED ===
+            // Cek jumlah session yang sudah ada
+            const { data: existingSessions } = await supabaseClient
+                .from('user_sessions')
+                .select('id, device_fingerprint, created_at')
+                .eq('user_id', authData.user.id)
+                .order('created_at', { ascending: true }); // Urutkan dari terlama
+            
+            const sessionCount = existingSessions?.length || 0;
+            
+            // Cek apakah device ini sudah punya session
+            const existingDeviceSession = existingSessions?.find(
+                s => s.device_fingerprint === deviceFingerprint
+            );
+            
+            if (existingDeviceSession) {
+                // Device yang sama login ulang: Update session yang ada
+                console.log('Device sudah terdaftar, update session...');
+                await supabaseClient
+                    .from('user_sessions')
+                    .update({ session_token: uniqueSessionID, device_name: userAgent })
+                    .eq('id', existingDeviceSession.id);
+            } else if (sessionCount >= maxDevices) {
+                // Batas device tercapai: Hapus session paling lama, tambah yang baru
+                console.log(`Batas ${maxDevices} device tercapai, hapus session terlama...`);
+                const oldestSession = existingSessions[0];
+                await supabaseClient
+                    .from('user_sessions')
+                    .delete()
+                    .eq('id', oldestSession.id);
+                
+                await supabaseClient.from('user_sessions').insert({
+                    user_id: authData.user.id,
+                    session_token: uniqueSessionID,
+                    device_name: userAgent,
+                    device_fingerprint: deviceFingerprint
+                });
+            } else {
+                // Belum capai limit: Tambah session baru
+                console.log(`Menambah device baru (${sessionCount + 1}/${maxDevices})...`);
+                await supabaseClient.from('user_sessions').insert({
+                    user_id: authData.user.id,
+                    session_token: uniqueSessionID,
+                    device_name: userAgent,
+                    device_fingerprint: deviceFingerprint
+                });
+            }
+        } else {
+            // === SINGLE-LOGIN (Default) ===
+            // Hapus semua session lama, hanya 1 device yang boleh aktif
+            const { error: deleteError } = await supabaseClient
+                .from('user_sessions')
+                .delete()
+                .eq('user_id', authData.user.id);
+            
+            if (deleteError) console.warn("Gagal menghapus session lama:", deleteError);
+            
+            await supabaseClient.from('user_sessions').insert({
+                user_id: authData.user.id,
+                session_token: uniqueSessionID,
+                device_name: userAgent,
+                device_fingerprint: deviceFingerprint
+            });
+        }
 
         // ... existing code ...
         let isCurrentlyPremium = false;
