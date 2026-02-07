@@ -379,9 +379,9 @@ const footerHTML = `
       <div class="row">
         <div class="col-md-8">
           <ul class="ud-footer-bottom-left">
-            <li><a href="#" data-i18n="privacy">${t('privacy')}</a></li>
-            <li><a href="#" data-i18n="terms">${t('terms')}</a></li>
-            <li><a href="#contact" data-i18n="contact">${t('contact')}</a></li>
+            <li><a href="privacy.html" data-i18n="privacy">${t('privacy')}</a></li>
+            <li><a href="terms.html" data-i18n="terms">${t('terms')}</a></li>
+            <li><a href="index.html#contact" data-i18n="contact">${t('contact')}</a></li>
           </ul>
         </div>
         <div class="col-md-4"><p class="ud-footer-bottom-right">Gracely &copy; 2024-${new Date().getFullYear()}</p></div>
