@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manual Login | Gracely</title>
+  <meta name="title" content="Manual Login | Gracely" />
+  <meta name="description" content="Login manual untuk layanan Gracely." />
+  <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="assets/css/animate.css" />
+  <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/ud-styles.css" />
+  <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="auth.js"></script>
+  <script>(async () => { await requireAuth(); })();</script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const params = new URLSearchParams(window.location.search);
+
+      // Mengambil parameter dari URL
+      const serviceName = params.get("name");
+      const loginEmail = params.get("login");
+      const loginPassword = params.get("password");
+      const loginExtra = params.get("extra"); // Parameter baru untuk Activation Code
+      const loginUrl = params.get("url");
+
+      // Set Judul Halaman
+      if (serviceName) {
+        document.title = serviceName + " | Gracely";
+        const titleElement = document.getElementById("page-title-h1");
+        if (titleElement) {
+          titleElement.textContent = serviceName;
+        }
+      }
+
+      // Set Email
+      if (loginEmail) {
+        const loginElement = document.getElementById("login");
+        if (loginElement) {
+          loginElement.value = loginEmail;
+        }
+      }
+
+      // Set Password
+      if (loginPassword) {
+        const passwordElement = document.getElementById("password");
+        if (passwordElement) {
+          passwordElement.value = loginPassword;
+        }
+      }
+
+      // Set Activation Code (Kolom ke-3)
+      // Logika: Jika ada data 'extra', isi nilainya dan tampilkan kolomnya.
+      if (loginExtra) {
+        const extraContainer = document.getElementById("extra-container");
+        const extraElement = document.getElementById("extra");
+
+        if (extraElement) {
+          extraElement.value = loginExtra;
+        }
+
+        if (extraContainer) {
+          extraContainer.style.display = "block"; // Tampilkan kolom jika ada datanya
+        }
+      }
+
+      // Set Link Tombol Login
+      if (loginUrl) {
+        const linkElement = document.getElementById("manual-login-link");
+        if (linkElement) {
+          linkElement.href = loginUrl;
+        }
+      }
+    });
+  </script>
+</head>
+
+<body>
+  <div id="announcement-placeholder"></div>
+  <div id="navbar-placeholder"></div>
+  <section class="ud-page-banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="ud-banner-content">
+            <h1 id="page-title-h1">Manual Login</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="ud-login">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="ud-login-wrapper">
+            <div class="ud-login-form">
+
+              <div class="groupy-form-group">
+                <div style="display: flex; align-items: center">
+                  <input type="text" id="login" value="" placeholder=" " readonly style="flex-grow: 1" />
+                  <label for="login" class="me-5">Email</label>
+                  <button class="ud-main-btn" onclick="copyToClipboard('login')" style="margin-left: 10px">
+                    <i class="fa fa-copy"></i>
+                  </button>
+                </div>
+              </div>
+
+              <div class="groupy-form-group">
+                <div style="display: flex; align-items: center">
+                  <input type="text" id="password" value="" placeholder=" " readonly style="flex-grow: 1" />
+                  <label for="password" class="me-3">Password</label>
+                  <button class="ud-main-btn" onclick="copyToClipboard('password')" style="margin-left: 10px">
+                    <i class="fa fa-copy"></i>
+                  </button>
+                </div>
+              </div>
+
+              <div class="groupy-form-group" id="extra-container" style="display: none;">
+                <div style="display: flex; align-items: center">
+                  <input type="text" id="extra" value="" placeholder=" " readonly style="flex-grow: 1" />
+                  <label for="extra" class="me-3">Activation code</label>
+                  <button class="ud-main-btn" onclick="copyToClipboard('extra')" style="margin-left: 10px">
+                    <i class="fa fa-copy"></i>
+                  </button>
+                </div>
+              </div>
+
+              <div class="ud-form-group">
+                <a id="manual-login-link" class="ud-main-btn w-100" href="" target="_blank">Login here</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script>
+    function copyToClipboard(elementId) {
+      var copyText = document.getElementById(elementId);
+      copyText.select();
+      copyText.setSelectionRange(0, 99999);
+      try {
+        document.execCommand("copy");
+      } catch (err) {
+        console.error("Gagal menyalin teks: ", err);
+      }
+    }
+  </script>
+  <div id="footer-placeholder"></div>
+  <div id="back-to-top-placeholder"></div>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="layout.js"></script>
+  <script src="assets/script.js"></script>
+
+</body>
+
+</html>
