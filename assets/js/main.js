@@ -70,27 +70,8 @@
       }
     }; // Akhir dari window.onscroll
 
-    //===== close navbar-collapse when a clicked =====
-    // Menggunakan Event Delegation untuk hamburger menu
-    // Agar bisa menangkap klik meski navbar di-inject setelah DOMContentLoaded
-    document.body.addEventListener("click", function(e) {
-      // Handle hamburger toggler click
-      if (e.target.closest(".navbar-toggler")) {
-        e.preventDefault();
-        const toggler = document.querySelector(".navbar-toggler");
-        const collapse = document.querySelector(".navbar-collapse");
-        if (toggler) toggler.classList.toggle("active");
-        if (collapse) collapse.classList.toggle("show");
-      }
-      
-      // Handle menu item click (close navbar)
-      if (e.target.closest(".ud-menu-scroll") || e.target.closest(".navbar-collapse a")) {
-        const toggler = document.querySelector(".navbar-toggler");
-        const collapse = document.querySelector(".navbar-collapse");
-        if (toggler) toggler.classList.remove("active");
-        if (collapse) collapse.classList.remove("show");
-      }
-    });
+    // Hamburger menu handler dipindahkan ke layout.js
+    // untuk menghindari race condition dengan navbar injection
 
     // ===== submenu =====
     const submenuButton = document.querySelectorAll(".nav-item-has-children");
