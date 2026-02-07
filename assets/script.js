@@ -43,7 +43,12 @@
     }
 })();
 
-// NOTE: Branding logs moved to layout.js (centralized for all pages)
+// GRACELY BRANDING - shows on all pages that load script.js
+(function () {
+    console.log('%cgracely', 'color: black; font-size: 60px; font-weight: bold; font-family: "Montserrat", sans-serif;');
+    console.log('%cUnlock Premium Together', 'color: black; font-size: 20px; font-weight: bold; font-family: "Montserrat", sans-serif;');
+    console.log('%ccontact@gracely.id', 'color: black; font-size: 15px; font-weight: bold; font-family: "Montserrat", sans-serif;');
+})();
 
 // 2. Domain Security Check
 (function () {
