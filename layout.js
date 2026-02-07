@@ -1,11 +1,4 @@
-// ═══════════════════════════════════════════════════════════════
-// GRACELY BRANDING - Shows on ALL pages using this layout
-// ═══════════════════════════════════════════════════════════════
-(function gracelyBranding() {
-  console.log('%cgracely', 'color: black; font-size: 60px; font-weight: bold; font-family: "Montserrat", sans-serif;');
-  console.log('%cUnlock Premium Together', 'color: black; font-size: 20px; font-weight: bold; font-family: "Montserrat", sans-serif;');
-  console.log('%ccontact@gracely.id', 'color: black; font-size: 15px; font-weight: bold; font-family: "Montserrat", sans-serif;');
-})();
+// Branding moved to script.js
 
 (function () {
   if (!document.querySelector('link[href*="flag-icon-css"]')) {
