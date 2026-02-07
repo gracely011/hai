@@ -1,0 +1,1379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groupy data.js Generator (v23 - Updated DB)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .drop-zone {
+            border: 2px dashed #475569;
+        }
+
+        .drop-zone.dragover {
+            border-color: #38bdf8;
+            background-color: #1e293b;
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #1e293b;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #475569;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #64748b;
+        }
+    </style>
+</head>
+
+<body class="bg-slate-900 text-white">
+
+    <div class="container mx-auto p-4 md:p-8">
+        <header class="text-center mb-8">
+            <h1 class="text-4xl font-bold text-sky-400 mb-2">Groupy data.js Generator</h1>
+            <p class="text-slate-400">Upload semua file JSON cookie Anda untuk membuat `data.js` yang sempurna.</p>
+        </header>
+
+        <div id="upload-container" class="mb-8">
+            <div id="drop-zone"
+                class="drop-zone bg-slate-800 p-10 rounded-lg text-center cursor-pointer transition-colors duration-300">
+                <input type="file" id="file-input" multiple class="hidden" accept=".json">
+                <div class="flex flex-col items-center">
+                    <i class="fas fa-cloud-upload-alt text-5xl text-slate-500 mb-4"></i>
+                    <p class="text-slate-300">Drag & drop file JSON Anda di sini</p>
+                    <p class="text-slate-500 text-sm mt-1">atau</p>
+                    <button id="browse-btn"
+                        class="mt-4 bg-slate-600 hover:bg-slate-700 text-white font-bold py-2 px-4 rounded-lg transition-colors">Pilih
+                        File</button>
+                </div>
+            </div>
+            <div id="file-list" class="mt-4 text-sm text-slate-400"></div>
+        </div>
+
+        <div class="flex flex-wrap gap-4 justify-center">
+            <button id="generate-btn"
+                class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition-colors duration-200 flex items-center gap-2 text-lg"
+                disabled>
+                <i class="fas fa-cogs"></i> Generate data.js
+            </button>
+        </div>
+
+        <div id="output-container" class="mt-10 hidden">
+            <h2 class="text-2xl font-semibold text-sky-400 mb-4">Generated Code:</h2>
+            <div class="relative">
+                <pre><code id="output-code" class="block w-full bg-slate-800 border border-slate-700 rounded-lg p-4 text-sm overflow-x-auto whitespace-pre-wrap max-h-[50vh]"></code></pre>
+                <button id="copy-btn"
+                    class="absolute top-3 right-3 bg-slate-600 hover:bg-slate-700 text-white font-bold py-1 px-3 rounded-md text-xs transition-colors duration-200">
+                    <i class="fas fa-copy mr-1"></i> Copy
+                </button>
+            </div>
+            <div id="copy-feedback" class="text-green-400 text-sm mt-2 text-center hidden">Copied to clipboard!</div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const dropZone = document.getElementById('drop-zone');
+            const fileInput = document.getElementById('file-input');
+            const browseBtn = document.getElementById('browse-btn');
+            const fileListDiv = document.getElementById('file-list');
+            const generateBtn = document.getElementById('generate-btn');
+            const outputContainer = document.getElementById('output-container');
+            const outputCode = document.getElementById('output-code');
+            const copyBtn = document.getElementById('copy-btn');
+            const copyFeedback = document.getElementById('copy-feedback');
+
+            let uploadedFiles = [];
+
+            const serviceDB = {
+                // --- PRODUCTIVITY & AI ---
+                'chatgpt.com': {
+                    name: 'ChatGPT',
+                    url: 'https://chatgpt.com',
+                    category: 'productivity',
+                    icon: 'https://gracely011.github.io/hai/assets/images/services/chatgptplus.png',
+                    staticId: 'chatgpt-group-id'
+                },
+                'chatlyai.app': {
+                    name: 'Chatly AI',
+                    url: 'https://chatlyai.app',
+                    category: 'productivity',
+                    icon: 'https://play-lh.googleusercontent.com/lHjTF7FOYOlrDe1_cT0ddNSbMFZ4X2JMUC73f03AmflzIiRcZ8FoKQuUbcbVhsy7kdI',
+                },
+                'sider.ai': {
+                    name: 'Sider AI',
+                    url: 'https://sider.ai',
+                    category: 'productivity',
+                    icon: 'https://play-lh.googleusercontent.com/VghuZRn0-oLvbaGqptsM-9Qr6Ka7Pmw7lfmu6_UQ56mZS6bsXbET9Uf0wF0FECP8lEM'
+                },
+                'gemini.google.com': {
+                    name: 'Gemini AI',
+                    url: 'https://gemini.google.com',
+                    category: 'productivity',
+                    icon: 'https://static.vecteezy.com/system/resources/previews/055/687/055/non_2x/rectangle-gemini-google-icon-symbol-logo-free-png.png'
+                },
+                'perplexity.ai': {
+                    name: 'Perplexity',
+                    url: 'https://www.perplexity.ai',
+                    category: 'productivity',
+                    icon: 'https://play-lh.googleusercontent.com/6STp0lYx2ctvQ-JZpXA1LeAAZIlq6qN9gpy7swLPlRhmp-hfvZePcBxqwVkqN2BH1g',
+                    staticId: 'perplexity-group-id'
+                },
+                'lamaquillbot.com': {
+                    name: 'QuillBot',
+                    url: 'https://quillbot.com',
+                    category: 'productivity',
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZtqcA6rvxqQHSb14wu157jMKqBtXRNJ5-1lcBbxf4JzQt7vwDhlmbpnnH&s=10'
+                },
+                'grammarly.com': {
+                    name: 'Grammarly',
+                    url: 'https://www.grammarly.com',
+                    category: 'productivity',
+                    icon: 'https://gracely011.github.io/hai/assets/images/services/grammarly.png'
+                },
+                'turnitin.com': {
+                    name: 'Turnitin',
+                    url: 'https://www.turnitin.com',
+                    category: 'productivity',
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIrf73LGu_mACI2Mc_jdghOV02eXRocoXKo0o3qZHFjGgJMUr5M_v8uwap&s=10'
+                },
+                'hix-bypass': {
+                    name: 'Bypass | HIX AI',
+                    url: 'https://hix.ai/app/bypass-ai-detection',
+                    category: 'productivity',
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrXZQ0Wq17Y4CjDKiytXbd1hG39lu6u-rBsw&s'
+                },
+                'hix-home': {
+                    name: 'Chat | HIX AI',
+                    url: 'https://hix.ai/id/home',
+                    category: 'productivity',
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrXZQ0Wq17Y4CjDKiytXbd1hG39lu6u-rBsw&s'
+                },
+                'bypassgpt.ai': {
+                    name: 'BypassGPT',
+                    url: 'https://bypassgpt.ai',
+                    category: 'productivity',
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVpNp17p7NogV0-YTH9UnJYGg7IowMwYmj3w&s'
+                },
+                'academi.cx': {
+                    name: 'Academi.cx',
+                    url: 'https://academi.cx',
+                    category: 'productivity',
+                    icon: 'https://affiliate.academi.cx/_next/image?url=https%3A%2F%2Fjhuiqmuojlckilnnsquy.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Flogos%2F4836.png%3Fupdate%3D1746415545619&w=640&q=75'
+                },
+                'lovable.dev': {
+                    name: 'Lovable',
+                    url: 'https://lovable.dev',
+                    category: 'productivity',
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTysfvFgHMVChk-7glLKWvdIJLLoA2aau0m1g&s'
+                },
+                'lamacursor.com': {
+                    name: 'Cursor',
+                    url: 'https://cursor.com',
+                    category: 'productivity',
+                    icon: 'https://miro.medium.com/v2/resize:fit:800/0*zWCTHFNFdGAgSw2d'
+                },
+                'deepseek.com': {
+                    name: 'DeepSeek',
+                    url: 'https://www.deepseek.com',
+                    category: 'productivity',
+                    icon: 'https://pbs.twimg.com/ext_tw_video_thumb/1875845724925206528/pu/img/4T7PkBumsEAjZeO9.jpg'
+                },
+                'notebooklm.google.com': {
+                    name: 'NotebookLM',
+                    url: 'https://notebooklm.google.com',
+                    category: 'productivity',
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRJ_-m9Y994yfZimh_h8Yzn0sMx2IsfVoDIQ&s'
+                },
+                'clickup.com': {
+                    name: 'ClickUp',
+                    url: 'https://clickup.com',
+                    category: 'productivity',
+                    icon: 'https://img.icons8.com/color/1200/clickup.jpg'
+                },
+                'notion.so': {
+                    name: 'Notion',
+                    url: 'https://www.notion.so',
+                    category: 'productivity',
+                    icon: 'https://play-lh.googleusercontent.com/vy-9s86d-81wk1acsXvAxN1xV5Y-doJdgbskG3GonOerbUwUtvNXk_XSRHoraaXZcX4'
+                },
+                'gamma.app': {
+                    name: 'Gamma',
+                    url: 'https://gamma.app',
+                    category: 'productivity',
+                    icon: 'https://store-images.s-microsoft.com/image/apps.53673.13800228740496758.b926c1b0-f31a-4a9b-b1b3-88dd15f27137.a0a38389-643f-48ed-9379-92a9fb5a7c94'
+                },
+                'sora.chatgpt.com': {
+                    name: 'Sora',
+                    url: 'https://sora.chatgpt.com',
+                    category: 'productivity',
+                    icon: 'https://gracely011.github.io/hai/assets/images/services/sora_plus.png'
+                },
+                'elicit.com': {
+                    name: 'Elicit',
+                    url: 'https://elicit.com',
+                    category: 'productivity',
+                    icon: 'https://yt3.googleusercontent.com/ksfLLIjvy8Y5vvtAmnSzIeF-svAUzrZyJBs-YwCVZUZGct8XNDb6-KJSepMwCrcuFkb6b8oCczo=s900-c-k-c0x00ffffff-no-rj'
+                },
+                'chutes.ai': {
+                    name: 'Chutes',
+                    url: 'https://chutes.ai',
+                    category: 'productivity',
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuJ8v1EICNl78zLPEfHkAimzusUBWT7z2nTw&s'
+                },
+                'scite.ai': {
+                    name: 'Scite',
+                    url: 'https://scite.ai',
+                    category: 'productivity',
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHo4BcTYbuMiQFR7oUYKZy6zjOgzEORDrzeie96OS1sj3Ur0LpoCPV_ts&s=10'
+                },
+                'humata.ai': {
+                    name: 'Humata AI',
+                    url: 'https://www.humata.ai',
+                    category: 'productivity',
+                    icon: 'https://www.humata.ai/favicon.ico'
+                },
+                'askyourpdf.com': {
+                    name: 'AskYourPDF',
+                    url: 'https://askyourpdf.com',
+                    category: 'productivity',
+                    icon: 'https://play-lh.googleusercontent.com/WRl_6Jv1ljYKf3xiy27h3xx-ST7Kntg3mon8J53OBpjdm35jG2Mw80GZ2Qrhlau-YqI7=w240-h480-rw'
+                },
+                'getmerlin.in': {
+                    name: 'Merlin AI',
+                    url: 'https://www.getmerlin.in',
+                    category: 'productivity',
+                    icon: 'https://play-lh.googleusercontent.com/8XoSS1Jn3qHfm8cB4gq6YMQAWv_PIRCUtH2r5RiDq0s05QM47JtwEjs6V_aFh_SmOZ0'
+                },
+                'superthread.com': {
+                    name: 'Superthread',
+                    url: 'https://superthread.com',
+                    category: 'productivity',
+                    icon: 'https://cdn-1.webcatalog.io/catalog/superthread/superthread-icon-filled-256.png?v=1719302832255'
+                },
+                'wolframalpha.com': {
+                    name: 'WolframAlpha',
+                    url: 'https://www.wolframalpha.com',
+                    category: 'productivity',
+                    icon: 'https://play-lh.googleusercontent.com/OceHg5bH7EsTRwl-lD7jjV9WM0mpj0oH4YfA-CSbjvfa7NCLQBu5-4cLwNlDvCUp5Q4'
+                },
+                'vidiq.com': {
+                    name: 'vidIQ',
+                    url: 'https://vidiq.com',
+                    category: 'productivity',
+                    icon: 'https://cdn.sanity.io/images/7g6d2cj1/production/7c8f9a95d01c8c4043af4f3c39940ba3870bb1a9-512x512.png?w=1200&q=70&auto=format'
+                },
+
+                // --- DESIGN ---
+                'canva.com': {
+                    name: 'Canva',
+                    url: 'https://www.canva.com',
+                    category: 'design',
+                    icon: 'https://play-lh.googleusercontent.com/JC3HW-ps59VAEU3vuJoi3I5XB_IQ9ISuILLudUY9uLSW7eKfqtXitrB-fF865rV4TQ',
+                    staticId: 'canva-group-id'
+                },
+                'freepik.com': {
+                    name: 'Freepik',
+                    url: 'https://www.freepik.com',
+                    category: 'design',
+                    icon: 'https://gracely011.github.io/hai/assets/images/services/freepik.png',
+                    staticId: 'freepik-group-id'
+                },
+                'envato.com': {
+                    name: 'Envato Elements',
+                    url: 'https://elements.envato.com',
+                    category: 'design',
+                    icon: 'https://elements.envato.com/favicon.svg'
+                },
+                'capcut.com': {
+                    name: 'CapCut',
+                    url: 'https://www.capcut.com',
+                    category: 'design',
+                    icon: 'https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxtHdRB6xk71KqOPxE23.XPiUcBp9_h5.Va3lapJy.K9tACxvjL4_WF3lJCLozay.Kx6V1mfBFaOOF4V5Rx4RHLY-&format=source'
+                },
+                'figma.com': {
+                    name: 'Figma',
+                    url: 'https://www.figma.com',
+                    category: 'design',
+                    icon: 'https://play-lh.googleusercontent.com/hoVBnPBRehmXsCqESLXRH2E3OTxklkwKZlb1psn7imm0VUSobn2nevS9RRFWb9GM4-o'
+                },
+                'picsart.com': {
+                    name: 'Picsart',
+                    url: 'https://picsart.com',
+                    category: 'design',
+                    icon: 'https://play-lh.googleusercontent.com/1JMJ518jogwPeaD0pYn2mBu1cRLD0xRi45wNbtTIRvam1_xx-y3KJOjRAx-W9P4Lf0U=s256-rw'
+                },
+                'flaticon.com': {
+                    name: 'Flaticon',
+                    url: 'https://www.flaticon.com',
+                    category: 'design',
+                    icon: 'https://gracely011.github.io/hai/assets/images/services/flaticon.png'
+                },
+                'motionarray.com': {
+                    name: 'Motion Array',
+                    url: 'https://motionarray.com',
+                    category: 'design',
+                    icon: 'https://gracely011.github.io/hai/assets/images/services/motionarray.png'
+                },
+                'openl.io': {
+                    name: 'OpenL',
+                    url: 'https://openl.io',
+                    category: 'productivity',
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu_GVIVvJcBiEuJWWgShDNwYI6Q7qg3zPiNA&s'
+                },
+                'raycast.com': {
+                    name: 'Raycast',
+                    url: 'https://www.raycast.com',
+                    category: 'productivity',
+                    icon: 'https://www.raycast.com/favicon-production.png'
+                },
+                'productioncrate.com': {
+                    name: 'ProductionCrate',
+                    url: 'https://www.productioncrate.com',
+                    category: 'design',
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd_sbW5wMx4hP2Y8wrJkjxjlSbrpy5f1Zgbw&s'
+                },
+                'pacdora.com': {
+                    name: 'Pacdora',
+                    url: 'https://www.pacdora.com',
+                    category: 'design',
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9l1bvE2alHZrnR4bmSsbK2KjHemNk_p4Dsf-GVh6-5hFtZgugYYNfQfo0L3CQxZqdLC4&usqp=CAU'
+                },
+                'rawpixel.com': {
+                    name: 'Rawpixel',
+                    url: 'https://www.rawpixel.com',
+                    category: 'design',
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq1xJnAZa_h6WueAi4mr73cH3K7_pGeTz6Gw&s'
+                },
+                'slidesgo.com': {
+                    name: 'Slidesgo',
+                    url: 'https://slidesgo.com',
+                    category: 'design',
+                    icon: 'https://cdn-icons-png.flaticon.com/512/14649/14649063.png'
+                },
+                'relume.io': {
+                    name: 'Relume',
+                    url: 'https://www.relume.io',
+                    category: 'design',
+                    icon: 'https://yt3.googleusercontent.com/MGRbvVhtCttJ7i2qW3igFxIJSkeoaRln_mIAFAfDgZIFD1yNUQC5mn1a5VqXKzcqRmAuDswu=s900-c-k-c0x00ffffff-no-rj'
+                },
+                'alightmotion.com': {
+                    name: 'Alight Motion',
+                    url: 'https://alightmotion.com',
+                    category: 'design',
+                    icon: 'https://play-lh.googleusercontent.com/OU0BlP8C9-V7ECl2crma7B48nzDbK7liSLjn0j_fpTlyWG6qyEE-mw_KFZ9aOXF0a3w'
+                },
+                'shots.so': {
+                    name: 'Shots',
+                    url: 'https://shots.so',
+                    category: 'design',
+                    icon: 'https://pbs.twimg.com/profile_images/1517996453146378245/RTP0-Jy3_400x400.jpg'
+                },
+                'vectorizer.ai': {
+                    name: 'Vectorizer AI',
+                    url: 'https://vectorizer.ai',
+                    category: 'design',
+                    icon: 'https://gracely011.github.io/hai/assets/images/services/vectorizer-ai-icon.png'
+                },
+                'svgator.com': {
+                    name: 'SVGator',
+                    url: 'https://svgator.com',
+                    category: 'design',
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXMLBuRJYssEV7zT3Lh8qRl-h2zuHgyEz2HA&s'
+                },
+
+                // --- STREAMING ---
+                'netflix.com': {
+                    name: 'Netflix',
+                    url: 'https://www.netflix.com',
+                    category: 'streaming',
+                    icon: 'https://gracely011.github.io/hai/assets/images/services/netflix.png'
+                },
+                'primevideo.com': {
+                    name: 'Prime Video',
+                    url: 'https://www.primevideo.com',
+                    category: 'streaming',
+                    icon: 'https://gracely011.github.io/hai/assets/images/services/primevideo.png',
+                    staticId: 'prime-video-group-id'
+                },
+                'crunchyroll.com': {
+                    name: 'Crunchyroll',
+                    url: 'https://www.crunchyroll.com',
+                    category: 'streaming',
+                    icon: 'https://gracely011.github.io/hai/assets/images/services/crunchyroll.png'
+                },
+                'hbo.com': {
+                    name: 'HBO Max',
+                    url: 'https://www.hbo.com',
+                    category: 'streaming',
+                    icon: 'https://play-lh.googleusercontent.com/bvyVXgpxu65YO3PNeVhNM9Y7ao7g7FnnKdoNXcwqO48aOlVvnH_b2O9rcZzgEFHzHtI'
+                },
+                'tv.apple.com': {
+                    name: 'Apple TV+',
+                    url: 'https://tv.apple.com',
+                    category: 'streaming',
+                    icon: 'https://play-lh.googleusercontent.com/1XBAZjSOWaVM7UDFKvzuMR-WRoR5gCnsYrw17_ihHLcJKT9Qc7hXptHwWQ3Bf83mry4'
+                },
+                'viu.com': {
+                    name: 'Viu',
+                    url: 'https://www.viu.com',
+                    category: 'streaming',
+                    icon: 'https://gracely011.github.io/hai/assets/images/services/viu.png'
+                },
+                'wetv.vip': {
+                    name: 'WeTV',
+                    url: 'https://wetv.vip',
+                    category: 'streaming',
+                    icon: 'https://gracely011.github.io/hai/assets/images/services/wetv.png',
+                    staticId: 'wetv-group-id'
+                },
+                'iq.com': {
+                    name: 'iQIYI',
+                    url: 'https://www.iq.com',
+                    category: 'streaming',
+                    icon: 'https://gracely011.github.io/hai/assets/images/services/iqiyi.png'
+                },
+                'bilibili.tv': {
+                    name: 'Bstation',
+                    url: 'https://www.bilibili.tv',
+                    category: 'streaming',
+                    icon: 'https://play-lh.googleusercontent.com/nug7F0n-jWMpAWLaU7Qi1kuTIYjrAtUJmZd5FW4mEyspYR7-zGa-3_fwnYkPgyzHozE3'
+                },
+                'beinsports.com': {
+                    name: 'Bein Sports',
+                    url: 'https://www.beinsports.com',
+                    category: 'streaming',
+                    icon: 'https://play-lh.googleusercontent.com/jBDZq3aBmCXuvtuJHEasqsdYPRxMBGzYmEha4dMlgoIk19Zlh6BGQC08Zt6Ifrmzhg=w240-h480-rw'
+                },
+                'mubi.com': {
+                    name: 'Mubi',
+                    url: 'https://mubi.com',
+                    category: 'streaming',
+                    icon: 'https://images.mubicdn.net/images/avatars/169655/cache-169655-1620041787/images-large.png?size=800x'
+                },
+                'youtube.com': {
+                    name: 'YouTube NoAds',
+                    url: 'https://www.youtube.com',
+                    category: 'streaming',
+                    icon: 'https://play-lh.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc'
+                },
+                'curiositystream.com': {
+                    name: 'Curiosity Stream',
+                    url: 'https://curiositystream.com',
+                    category: 'streaming',
+                    icon: 'https://play-lh.googleusercontent.com/YXqChSEFUdn1A9Jxu9sIZPwlyLYaA_sU_U_h-uW_RyXhEx1WzBNqNWcdNwC3WOGzjg'
+                },
+                'iflix.com': {
+                    name: 'iflix',
+                    url: 'https://www.iflix.com',
+                    category: 'streaming',
+                    icon: 'https://gracely011.github.io/hai/assets/images/services/iflix.png'
+                },
+
+                // --- MUSIC ---
+                'music.apple.com': {
+                    name: 'Apple Music',
+                    url: 'https://music.apple.com',
+                    category: 'music',
+                    icon: 'https://play-lh.googleusercontent.com/mOkjjo5Rzcpk7BsHrsLWnqVadUK1FlLd2-UlQvYkLL4E9A0LpyODNIQinXPfUMjUrbE'
+                },
+                'epidemicsound.com': {
+                    name: 'Epidemic Sound',
+                    url: 'https://www.epidemicsound.com',
+                    category: 'music',
+                    icon: 'https://gracely011.github.io/hai/assets/images/services/epidemicsound.jpg'
+                },
+                'musicbed.com': {
+                    name: 'Musicbed',
+                    url: 'https://www.musicbed.com',
+                    category: 'music',
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMRzHPEXnSURkOyU9StcI8BZPOTeqzvcJP_A&s'
+                },
+                'brain.fm': {
+                    name: 'Brain.fm',
+                    url: 'https://www.brain.fm',
+                    category: 'music',
+                    icon: 'https://play-lh.googleusercontent.com/oQnd9u11H7j1g99Pzswt5LTm52g8XyMrgz0GRBX5lmzdPv2Vt7bBrOKgbVbs-gHc504=w240-h480-rw'
+                },
+                'everand.com': {
+                    name: 'Everand',
+                    url: 'https://www.everand.com',
+                    category: 'music',
+                    icon: 'https://play-lh.googleusercontent.com/i6RqZKwmmgvCq8FGoGewoEDWYq8Q2ghi8gUnWLBlPHmYCyRM4bl39YZTAoHu7mzU8vN7'
+                },
+
+                // --- EDUCATION ---
+                'coursera.org': {
+                    name: 'Coursera',
+                    url: 'https://www.coursera.org',
+                    category: 'education',
+                    icon: 'https://play-lh.googleusercontent.com/H8crzfriK6t5b0N5wXykhxMjPopyWGDZPaMJlvWlAKb7EG-26KGu15P_RnFDinBw1Jc'
+                },
+                'udemy.com': {
+                    name: 'Udemy',
+                    url: 'https://www.udemy.com',
+                    category: 'education',
+                    icon: 'https://play-lh.googleusercontent.com/dsCkmJE2Fa8IjyXERAcwc5YeQ8_NvbZ4_OI8LgqyjILpXUfS5YhEcnAMajKPrZI-og'
+                },
+                'skillshare.com': {
+                    name: 'Skillshare',
+                    url: 'https://www.skillshare.com',
+                    category: 'education',
+                    icon: 'https://gracely011.github.io/hai/assets/images/services/skillshare.png'
+                },
+                'duolingo.com': {
+                    name: 'Duolingo',
+                    url: 'https://www.duolingo.com',
+                    category: 'education',
+                    icon: 'https://www.langoly.com/wp-content/uploads/2020/03/Duolingo-app-icon.png'
+                },
+                'quizlet.com': {
+                    name: 'Quizlet',
+                    url: 'https://quizlet.com',
+                    category: 'education',
+                    icon: 'https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/szx9duflfycmltpnvcvw'
+                },
+                'academia.edu': {
+                    name: 'Academia',
+                    url: 'https://www.academia.edu',
+                    category: 'education',
+                    icon: 'https://play-lh.googleusercontent.com/EpJMVmU4FP-cAyb_KwiFohiqBL24XVtomMMQPeFKxODrunPVdqr2IYRlARJNVjIiIWQ'
+                },
+                'coursehero.com': {
+                    name: 'Course Hero',
+                    url: 'https://www.coursehero.com',
+                    category: 'education',
+                    icon: 'https://play-lh.googleusercontent.com/FGtdclS6wXoOO9lA-9DkK9Skis0T-tY2SCFAl7wLX4ZDFSNO3RBADCEcnCMInsZCKlc'
+                },
+                'studocu.com': {
+                    name: 'Studocu',
+                    url: 'https://www.studocu.com',
+                    category: 'education',
+                    icon: 'https://play-lh.googleusercontent.com/20ssDWF3SWEXIFYy8iFwXjomuIqtuHjGc3OxIWqVojIaeo_9_XxUZEDdmm5YPreLucij'
+                },
+                'brilliant.org': {
+                    name: 'Brilliant',
+                    url: 'https://brilliant.org',
+                    category: 'education',
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT07Aba7sYgSCOIW9P2mAWcAcO9r_tpM_svzw&s'
+                },
+                'busuu.com': {
+                    name: 'Busuu',
+                    url: 'https://www.busuu.com',
+                    category: 'education',
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdfQ07W8Z1b0olxbugP-i2Hk5BJo6I-B8yKA&s'
+                },
+                'codecademy.com': {
+                    name: 'Codecademy',
+                    url: 'https://www.codecademy.com',
+                    category: 'education',
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh4KW6CVd0xtcKjRF9GM1hzoHsYlLiYrjUTg&s'
+                },
+                'datacamp.com': {
+                    name: 'DataCamp',
+                    url: 'https://www.datacamp.com',
+                    category: 'education',
+                    icon: 'https://yt3.googleusercontent.com/ytc/AIdro_m6psai1Pd5oG3nGbw_hVfG-qmJ8R1ntco83MTXDf5cdoo=s900-c-k-c0x00ffffff-no-rj'
+                },
+                'educative.io': {
+                    name: 'Educative',
+                    url: 'https://www.educative.io',
+                    category: 'education',
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiHav_EAmaStXwVlYg4pL5sFbdOyKcRKefbg&s'
+                },
+                'linkedin.com': {
+                    name: 'LinkedIn Learning',
+                    url: 'https://www.linkedin.com/learning',
+                    category: 'education',
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4fcdsIUPUgmbvGaP-RC4RbHYdVtoN_fM8aya_8gOXI2BRtClESO-0_jgWTtKtIVmOQKs&usqp=CAU'
+                },
+                'masterclass.com': {
+                    name: 'MasterClass',
+                    url: 'https://www.masterclass.com',
+                    category: 'education',
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeoBuunz4xK_-2t35N6astSudIfb7Bnr0R6HDcwoqbzmzOcuNpiZdiRFRv&s=10'
+                },
+                'scholarcy.com': {
+                    name: 'Scholarcy',
+                    url: 'https://www.scholarcy.com',
+                    category: 'education',
+                    icon: 'https://yt3.googleusercontent.com/ytc/AIdro_kqv2zcFC4lZDK0qSXEbuI1Kcs5wYJoLmONwCf9QX3Qoc4=s900-c-k-c0x00ffffff-no-rj'
+                },
+                'typeset.io': {
+                    name: 'SciSpace',
+                    url: 'https://typeset.io',
+                    category: 'education',
+                    icon: 'https://assets-global.website-files.com/648302318a1143aaf5e78dfa/662e79fc151538445a578869_d3JYR823QfSPL1DkKG6V_6b34N9K4AGMJ21jH.png'
+                },
+                'paperpal.com': {
+                    name: 'Paperpal',
+                    url: 'https://paperpal.com',
+                    category: 'education',
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsb2y412xVI5pSI0IiCzqNCF0RA7p-fxjNbg&s'
+                },
+
+                // --- UTILITIES ---
+                'deepl.com': {
+                    name: 'DeepL',
+                    url: 'https://www.deepl.com',
+                    category: 'utilities',
+                    icon: 'https://play-lh.googleusercontent.com/0IH4L3pX-jqQXKYCDmxTM5t3Tvak2cb_zUuIs9nKCHPeOqkaRJ_bRTq1qKawsSvunw=w240-h480-rw'
+                },
+                'ilovepdf.com': {
+                    name: 'iLovePDF',
+                    url: 'https://www.ilovepdf.com',
+                    category: 'utilities',
+                    icon: 'https://play-lh.googleusercontent.com/I5yxs1Pspu1rB3NPfqnoX2NscvfzAW7e3Zq5GGhXcr2g207X9-npiuP48Ys7107M1VvA'
+                },
+                'iloveimg.com': {
+                    name: 'iLoveIMG',
+                    url: 'https://www.iloveimg.com',
+                    category: 'utilities',
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVjyJOS7PN-2Xh37-pXo0aOghZLt45Fa2UBw&s'
+                },
+                'scribd.com': {
+                    name: 'Scribd',
+                    url: 'https://www.scribd.com',
+                    category: 'utilities',
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRebq-8lrzgXjVWMvUDApp_q1MhiL5eSyO15VAHMuNaE4RbrPi-f7c2NMc&s=10'
+                },
+                'semrush.com': {
+                    name: 'Semrush',
+                    url: 'https://www.semrush.com',
+                    category: 'utilities',
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7TPtYsfoyLxuSORs6sqgApBGYHOx1aZ43ra1DqBNb8BRYz4ciWF4Mg9uR&s=10'
+                },
+                'semrush.tokito.xyz': {
+                    name: 'Semrush',
+                    url: 'https://semrush.tokito.xyz',
+                    category: 'utilities',
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7TPtYsfoyLxuSORs6sqgApBGYHOx1aZ43ra1DqBNb8BRYz4ciWF4Mg9uR&s=10'
+                },
+                'pathfinder.w3schools.com': {
+                    name: 'W3Schools',
+                    url: 'https://pathfinder.w3schools.com',
+                    category: 'utilities',
+                    icon: 'https://media.licdn.com/dms/image/v2/D4D0BAQG0bGi7bIhFpg/company-logo_200_200/company-logo_200_200/0/1730289270835/w3schools_academy_logo?e=2147483647&v=beta&t=4szA3r7P52L6vnWSsZI_SbOhT3e8ZYXM0w2-qBZOKuM'
+                },
+                'marvel.com': {
+                    name: 'Marvel Unlimited',
+                    url: 'https://www.marvel.com/unlimited',
+                    category: 'utilities',
+                    icon: 'https://play-lh.googleusercontent.com/ikcy-XJG8_oFwVztH9vK3y--_mUcRu5zyco7d4FqugxzSkX9wMo63oBDPLWZnUsYDg'
+                },
+
+                // --- PRO EXCLUSIVE SERVICES (New) ---
+                'prochatgpt.com': {
+                    name: 'Pro: ChatGPT',
+                    url: 'https://chatgpt.com',
+                    category: ['productivity', 'proexclusive'],
+                    icon: 'https://gracely011.github.io/hai/assets/images/services/chatgptplus.png',
+                    staticId: 'chatgpt-group-id'
+                },
+                'prochatgptpro.com': {
+                    name: 'Pro: ChatGPT Pro',
+                    url: 'https://prochatgptpro.com',
+                    category: ['productivity', 'proexclusive'],
+                    icon: 'https://gracely011.github.io/hai/assets/images/services/ChatGPT Pro.png',
+                    staticId: 'chatgpt-group-id'
+                },
+                'procapcut.com': {
+                    name: 'Pro: CapCut',
+                    url: 'https://www.capcut.com',
+                    category: ['design', 'proexclusive'],
+                    icon: 'https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxtHdRB6xk71KqOPxE23.XPiUcBp9_h5.Va3lapJy.K9tACxvjL4_WF3lJCLozay.Kx6V1mfBFaOOF4V5Rx4RHLY-&format=source',
+                    staticId: 'procapcut-group-id'
+                },
+                'proantigravityultra.com': {
+                    name: 'Pro: Antigravity Ultra',
+                    url: 'https://antigravityultra.com/',
+                    category: ['productivity', 'proexclusive'],
+                    icon: 'https://gracely011.github.io/hai/assets/images/services/antigravity.png'
+                },
+                'progemini.google.com': {
+                    name: 'Pro: Gemini AI',
+                    url: 'https://gemini.google.com',
+                    category: ['productivity', 'proexclusive'],
+                    icon: 'https://static.vecteezy.com/system/resources/previews/055/687/055/non_2x/rectangle-gemini-google-icon-symbol-logo-free-png.png'
+                },
+                'progemini.google.com': {
+                    name: 'Pro: Gemini AI',
+                    url: 'https://gemini.google.com',
+                    category: ['productivity', 'proexclusive'],
+                    icon: 'https://static.vecteezy.com/system/resources/previews/055/687/055/non_2x/rectangle-gemini-google-icon-symbol-logo-free-png.png'
+                },
+                'canvapro.com': {
+                    name: 'Pro: Canva',
+                    url: 'https://www.canvapro.com',
+                    category: ['design', 'proexclusive'],
+                    icon: 'https://play-lh.googleusercontent.com/JC3HW-ps59VAEU3vuJoi3I5XB_IQ9ISuILLudUY9uLSW7eKfqtXitrB-fF865rV4TQ',
+                    staticId: 'canva-pro-group-id'
+                },
+                'progeminiultra.google.com': {
+                    name: 'Pro: Gemini AI Ultra',
+                    url: 'https://gemini.google.com',
+                    category: ['productivity', 'proexclusive'],
+                    icon: 'https://static.vecteezy.com/system/resources/previews/055/687/055/non_2x/rectangle-gemini-google-icon-symbol-logo-free-png.png'
+                },
+                'claude.ai': {
+                    name: 'Pro: Claude',
+                    url: 'https://claude.ai',
+                    category: ['productivity', 'proexclusive'],
+                    icon: 'https://play-lh.googleusercontent.com/4S1nfdKsH_1tJodkHrBHimqlCTE6qx6z22zpMyPaMc_Rlr1EdSFDI1I6UEVMnokG5zI',
+                    staticId: 'claude-group-id'
+                },
+                'properplexity.ai': {
+                    name: 'Pro: Perplexity',
+                    url: 'https://www.perplexity.ai',
+                    category: ['productivity', 'proexclusive'],
+                    icon: 'https://play-lh.googleusercontent.com/6STp0lYx2ctvQ-JZpXA1LeAAZIlq6qN9gpy7swLPlRhmp-hfvZePcBxqwVkqN2BH1g',
+                    staticId: 'perplexity-group-id'
+                },
+                'pronetflix.com': {
+                    name: 'Pro: Netflix',
+                    url: 'https://www.netflix.com',
+                    category: ['streaming', 'proexclusive'],
+                    icon: 'https://gracely011.github.io/hai/assets/images/services/netflix.png'
+                },
+                'prohbo.com': {
+                    name: 'Pro: HBO Max',
+                    url: 'https://www.hbo.com',
+                    category: ['streaming', 'proexclusive'],
+                    icon: 'https://play-lh.googleusercontent.com/bvyVXgpxu65YO3PNeVhNM9Y7ao7g7FnnKdoNXcwqO48aOlVvnH_b2O9rcZzgEFHzHtI'
+                },
+                'prosora.chatgpt.com': {
+                    name: 'Pro: Sora',
+                    url: 'https://sora.chatgpt.com',
+                    category: ['productivity', 'proexclusive'],
+                    icon: 'https://gracely011.github.io/hai/assets/images/services/sora_plus.png'
+                },
+                'grok.com': {
+                    name: 'Pro: SuperGrok',
+                    url: 'https://x.com/i/grok',
+                    category: ['productivity', 'proexclusive'],
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfDfKMTEJFYyKr-VgVN0z7sdgoINjKnomLLw&s'
+                },
+                'cursor.com': {
+                    name: 'Pro: Cursor',
+                    url: 'https://cursor.com',
+                    category: ['productivity', 'proexclusive'],
+                    icon: 'https://miro.medium.com/v2/resize:fit:800/0*zWCTHFNFdGAgSw2d'
+                },
+                'trae.ai': {
+                    name: 'Pro: Trae AI',
+                    url: 'https://www.trae.ai',
+                    category: ['productivity', 'proexclusive'],
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjuef7pIxtLC7Rk_fc8vUdRxySf5I4b78tFQ&s'
+                },
+                'pronotebooklm.google.com': {
+                    name: 'Pro: NotebookLM',
+                    url: 'https://notebooklm.google.com',
+                    category: ['productivity', 'proexclusive'],
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRJ_-m9Y994yfZimh_h8Yzn0sMx2IsfVoDIQ&s'
+                },
+                'progetmerlin.in': {
+                    name: 'Pro: Merlin AI',
+                    url: 'https://getmerlin.in',
+                    category: ['productivity', 'proexclusive'],
+                    icon: 'https://play-lh.googleusercontent.com/8XoSS1Jn3qHfm8cB4gq6YMQAWv_PIRCUtH2r5RiDq0s05QM47JtwEjs6V_aFh_SmOZ0',
+                    staticId: 'getmerlin.in-group-id'
+                },
+                'proquillbot.com': {
+                    name: 'Pro: QuillBot',
+                    url: 'https://quillbot.com',
+                    category: ['productivity', 'proexclusive'],
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZtqcA6rvxqQHSb14wu157jMKqBtXRNJ5-1lcBbxf4JzQt7vwDhlmbpnnH&s=10'
+                },
+                'prosider.ai': {
+                    name: 'Pro: Sider AI',
+                    url: 'https://prosider.ai',
+                    category: ['productivity', 'proexclusive'],
+                    icon: 'https://play-lh.googleusercontent.com/VghuZRn0-oLvbaGqptsM-9Qr6Ka7Pmw7lfmu6_UQ56mZS6bsXbET9Uf0wF0FECP8lEM'
+                },
+                'blackbox.ai': {
+                    name: 'Pro: BLACKBOX AI',
+                    url: 'https://www.blackbox.ai',
+                    category: ['productivity', 'proexclusive'],
+                    icon: 'https://play-lh.googleusercontent.com/Z_fquqqNzAd8FkpSjlnURnMtmLh8HRf_h_kIwhs0NbXKpO4WZ_fyZfi0f5yQsNmRL_lP'
+                },
+                'tradingview.com': {
+                    name: 'Pro: TradingView',
+                    url: 'https://www.tradingview.com',
+                    category: ['utilities', 'proexclusive'],
+                    icon: 'https://gracely011.github.io/hai/assets/images/services/tradingview.png'
+                },
+                'promusic.apple.com': {
+                    name: 'Pro: Apple Music',
+                    url: 'https://music.apple.com',
+                    category: ['music', 'proexclusive'],
+                    icon: 'https://play-lh.googleusercontent.com/mOkjjo5Rzcpk7BsHrsLWnqVadUK1FlLd2-UlQvYkLL4E9A0LpyODNIQinXPfUMjUrbE'
+                },
+                'pro-scispace': {
+                    name: 'Pro: SciSpace',
+                    url: 'https://typeset.io',
+                    category: ['education', 'proexclusive'],
+                    icon: 'https://assets-global.website-files.com/648302318a1143aaf5e78dfa/662e79fc151538445a578869_d3JYR823QfSPL1DkKG6V_6b34N9K4AGMJ21jH.png'
+                },
+                'proscite.ai': {
+                    name: 'Pro: Scite',
+                    url: 'https://scite.ai',
+                    category: ['productivity', 'proexclusive'],
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHo4BcTYbuMiQFR7oUYKZy6zjOgzEORDrzeie96OS1sj3Ur0LpoCPV_ts&s=10'
+                },
+                'julius.ai': {
+                    name: 'Pro: Julius AI',
+                    url: 'https://julius.ai',
+                    category: ['productivity', 'proexclusive'],
+                    icon: 'https://play-lh.googleusercontent.com/5TBQ0_UiHHQ3DmZIOd1fQPRXSIUInSGsIGNgWMTb9fjeQtn7LOW15N6w-krdJxbdaw'
+                },
+                'humata.ai': {
+                    name: 'Pro: Humata AI',
+                    url: 'https://www.humata.ai',
+                    category: ['productivity', 'proexclusive'],
+                    icon: 'https://www.humata.ai/favicon.ico'
+                },
+                'livelink.ai': {
+                    name: 'Pro: LiveLink AI',
+                    url: 'https://livelink.ai',
+                    category: ['productivity', 'proexclusive'],
+                    icon: 'https://cdn.prod.website-files.com/64f605bdfa749671fed117a9/6524730de295b510b8f7d0e2_livelink%20ai.png'
+                },
+                'leonardo.ai': {
+                    name: 'Pro: Leonardo AI',
+                    url: 'https://leonardo.ai',
+                    category: ['design', 'proexclusive'],
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJztEc1YalQNx74GGv9upR6MXHYGO4H0ejqg&s'
+                },
+                'propicsart.com': {
+                    name: 'Pro: Picsart',
+                    url: 'https://picsart.com',
+                    category: ['design', 'proexclusive'],
+                    icon: 'https://play-lh.googleusercontent.com/1JMJ518jogwPeaD0pYn2mBu1cRLD0xRi45wNbtTIRvam1_xx-y3KJOjRAx-W9P4Lf0U=s256-rw'
+                },
+                'placeit.net': {
+                    name: 'Pro: Placeit',
+                    url: 'https://placeit.net',
+                    category: ['productivity', 'proexclusive'],
+                    icon: 'https://play-lh.googleusercontent.com/0654HX7dcGrIxNgjROl2__z2RIW8nkDVZMqm8NiR5p9O0OM-OVNTRG0H8-0fjC8lj-0'
+                },
+                'icons8.com': {
+                    name: 'Pro: Icons8',
+                    url: 'https://icons8.com',
+                    category: ['design', 'proexclusive'],
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi9N3uKaUV5CRCvoZ0qP8eVKwniwK6DKqBBw&s'
+                },
+                'iconscout.com': {
+                    name: 'Pro: IconScout',
+                    url: 'https://iconscout.com',
+                    category: ['design', 'proexclusive'],
+                    icon: 'https://cdn.iconscout.com/icon/free/png-256/free-iconscout-logo-icon-download-in-svg-png-gif-file-formats--company-pack-logos-icons-4674919.png'
+                },
+                'mobbin.com': {
+                    name: 'Pro: Mobbin',
+                    url: 'https://mobbin.com',
+                    category: ['design', 'proexclusive'],
+                    icon: 'https://asset.brandfetch.io/idIfIyyq5-/id2DzZkAtw.png'
+                },
+                'prostorytribe.app': {
+                    name: 'Pro: StoryTribe',
+                    url: 'https://storytribe.app',
+                    category: ['productivity', 'proexclusive'],
+                    icon: 'https://media.licdn.com/dms/image/v2/D560BAQGFNn9uuWNKvA/company-logo_200_200/B56ZWE4DUHGUAU-/0/1741691041788/storytribeapp_logo?e=2147483647&v=beta&t=3qm4zJ4TSorw5yxfeP9WtXnDj_DKgiqhVZeGH42wT7g'
+                },
+                'planner5d.com': {
+                    name: 'Pro: Planner5D',
+                    url: 'https://planner5d.com',
+                    category: ['design', 'proexclusive'],
+                    icon: 'https://upload.wikimedia.org/wikipedia/commons/1/13/Planner_5D_logo.png'
+                },
+                'pngtree.com': {
+                    name: 'Pro: Pngtree',
+                    url: 'https://pngtree.com',
+                    category: ['design', 'proexclusive'],
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShIis3kt_oWq-utGwqWJnKHIbqLEaXS-RTeg&s'
+                },
+                'create.kahoot.it': {
+                    name: 'Pro: Kahoot!',
+                    url: 'https://create.kahoot.it',
+                    category: ['productivity', 'proexclusive'],
+                    icon: 'https://kahoot.com/files/2020/11/Kahoot-1024-rounded.png'
+                },
+                'frontendmasters.com': {
+                    name: 'Pro: Frontend Masters',
+                    url: 'https://frontendmasters.com',
+                    category: ['education', 'proexclusive'],
+                    icon: 'https://play-lh.googleusercontent.com/8X11A1RYP--qUN-FA3tuEdNG--8QSptibgY6xWQRUDI2YASyAXe726CaE_jEohFYGno'
+                },
+                'mathacademy.com': {
+                    name: 'Pro: Mathacademy',
+                    url: 'https://www.mathacademy.com',
+                    category: ['productivity', 'proexclusive'],
+                    icon: 'https://pbs.twimg.com/profile_images/1646549566052003841/Z5yj3RDi_400x400.jpg'
+                },
+                'perlego.com': {
+                    name: 'Pro: Perlego',
+                    url: 'https://www.perlego.com',
+                    category: ['productivity', 'proexclusive'],
+                    icon: 'https://cms-resources.prd.timeshighereducation.com/sites/default/files/styles/large/public/2023-03/Perlego-logo_square_1.jpg?itok=pWI0VoCN'
+                },
+                'researchrabbit.ai': {
+                    name: 'Pro: ResearchRabbit',
+                    url: 'https://www.researchrabbit.ai',
+                    category: ['productivity', 'proexclusive'],
+                    icon: 'https://pbs.twimg.com/profile_images/1983772825812189184/IXDTOqLX.jpg'
+                },
+                'nily.ai': {
+                    name: 'Pro: Nily AI',
+                    url: 'https://nily.ai',
+                    category: ['productivity', 'proexclusive'],
+                    icon: 'https://appsumo2-cdn.appsumo.com/media/deals/images/as-email-Nily_AI-800x800-0-2-1_uuid_9beae3ae-02e7-47a9-8213-16a9367c2bee.png'
+                },
+                'hidemyass.com': {
+                    name: 'Pro: HideMyAss VPN',
+                    url: 'https://www.hidemyass.com',
+                    category: ['productivity', 'proexclusive'],
+                    icon: 'https://shopallpremium.com/wp-content/uploads/2022/02/HMA-LOG.png'
+                },
+                'anara.com': {
+                    name: 'Pro: Anara AI',
+                    url: 'https://anara.com',
+                    category: ['productivity', 'proexclusive'],
+                    icon: 'https://bookface-images.s3.amazonaws.com/logos/62cf2f3df0cbed090432578963a88c5ecff5d8eb.png?1741885621'
+                },
+                'captions.ai': {
+                    name: 'Pro: Captions AI',
+                    url: 'https://www.captions.ai',
+                    category: ['productivity', 'proexclusive'],
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMRpOM7wu7dsXoaYndVRPI3hBxosICzN6X9w&s'
+                },
+                'eraser.io': {
+                    name: 'Pro: Eraser',
+                    url: 'https://eraser.io',
+                    category: ['productivity', 'proexclusive'],
+                    icon: 'https://mavtools.com/wp-content/uploads/2024/05/Eraser.io-Logo.jpg'
+                },
+                'jenni.ai': {
+                    name: 'Pro: Jenni AI',
+                    url: 'https://jenni.ai',
+                    category: ['education', 'proexclusive'],
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjzHV0xQOmnu0xowDdW71mIklQHOJ7RjdzHg&s'
+                },
+                'investing.com': {
+                    name: 'Pro: InvestingPro',
+                    url: 'https://www.investing.com/pro',
+                    category: ['utilities', 'proexclusive'],
+                    icon: 'https://gracely011.github.io/hai/assets/images/services/InvestingPro.png'
+                },
+                'loklok.com': {
+                    name: 'Pro: LokLok',
+                    url: 'https://loklok.com',
+                    category: ['streaming', 'proexclusive'],
+                    icon: 'https://gracely011.github.io/hai/assets/images/services/LokLok.png'
+                },
+
+                // --- NEWLY ADDED SERVICES ---
+                'codedex.io': {
+                    name: 'Codedex',
+                    url: 'https://www.codedex.io',
+                    category: 'productivity',
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2sH_6-EH9eaPT8YfscbEcq3-i1KLzvZ50JQ&s'
+                },
+                'consensus.app': {
+                    name: 'Consensus',
+                    url: 'https://consensus.app',
+                    category: 'education',
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRweoQJzl9iPGJqBYN-uOcjxdcH72RA9W1PKiCmAisHjg&s'
+                },
+                'coohom.com': {
+                    name: 'Coohom',
+                    url: 'https://www.coohom.com',
+                    category: 'design',
+                    icon: 'https://play-lh.googleusercontent.com/HWA5QTohakrzdjQnJWyPih_CDFubc9PZi0gW1v-eoopRUAGWpHspB-NeFBH3FQnQc6kz=w240-h480-rw'
+                },
+                'cryptoquant.com': {
+                    name: 'CryptoQuant',
+                    url: 'https://cryptoquant.com',
+                    category: 'productivity',
+                    icon: 'https://cdn.prod.website-files.com/653c8107e2b70a34921d24fd/67a672f11fe6c47be600f037_cryptoquant.png'
+                },
+                'dramabox.com': {
+                    name: 'DramaBox',
+                    url: 'https://www.dramabox.com',
+                    category: 'streaming',
+                    icon: 'https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/86/MTA-182203320/no_brand_drama_box_full01_cpdx3p31.jpg'
+                },
+                'flickreels.com': {
+                    name: 'FlickReels',
+                    url: 'https://flickreels.com',
+                    category: 'streaming',
+                    icon: 'https://yt3.googleusercontent.com/Nr6kUD1b72g6tdrtijUtuIFVFQK4UU_JRXT5_fv748Fj96fs6OWIYweCGSvE-G0azgWiFtSo=s900-c-k-c0x00ffffff-no-rj'
+                },
+                'ground.news': {
+                    name: 'Ground News',
+                    url: 'https://ground.news',
+                    category: 'productivity',
+                    icon: 'https://play-lh.googleusercontent.com/61Y1REKFBgC1C6YxQwZA56516gR1zCw-HIaNyP_WV_MnR6Fuofzd8-uWBHzKxZP7mwM'
+                },
+                'guitartricks.com': {
+                    name: 'GuitarTricks',
+                    url: 'https://www.guitartricks.com',
+                    category: 'productivity',
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlrIfBbD7fof4ZwKxkeWgU0t2u1lK7x_nPrA&s'
+                },
+                'jitter.video': {
+                    name: 'Jitter',
+                    url: 'https://jitter.video',
+                    category: 'productivity',
+                    icon: 'https://yt3.googleusercontent.com/9CC-I1I2tcXcFJV-OGEfPPrHrKpKx-jR_KQJFMJtDivfJ6eFCleMtXFrIyysIu_2bGLg5sWO=s900-c-k-c0x00ffffff-no-rj'
+                },
+                'medium.com': {
+                    name: 'Medium',
+                    url: 'https://medium.com',
+                    category: 'education',
+                    icon: 'https://miro.medium.com/v2/resize:fill:128:128/1*sHhtYhaCe2Uc3IU0IgKwIQ.png'
+                },
+                'melolo.com': {
+                    name: 'Melolo',
+                    url: 'https://www.melolo.com',
+                    category: 'streaming',
+                    icon: 'https://play-lh.googleusercontent.com/zLxJyyx3aGLSR63NvdVv6ERGaLwIujdCRwsEi_-G-6FhCzdrIGMKXUExLQWo29OcZ4A2'
+                },
+                'mentimeter.com': {
+                    name: 'Mentimeter',
+                    url: 'https://www.mentimeter.com',
+                    category: 'productivity',
+                    icon: 'https://images.saasworthy.com/mentimeter_870_logo_1600681783_e5oqu.png'
+                },
+                'mermaidchart.com': {
+                    name: 'Mermaidchart',
+                    url: 'https://www.mermaidchart.com',
+                    category: 'productivity',
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPMgbHVXJCw0zQzk3DtR607-823YIxR1Zi_Q&s'
+                },
+                'netshort.st': {
+                    name: 'NetShort',
+                    url: 'https://netshort.st',
+                    category: 'streaming',
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTElpPW66yYibnlWlVKtVFgwfLnHXgZwYsy2Q&s'
+                },
+                'notegpt.io': {
+                    name: 'NoteGPT',
+                    url: 'https://notegpt.io',
+                    category: 'productivity',
+                    icon: 'https://10web.io/wp-content/uploads/2024/08/NoteGPT_logo.jpg'
+                },
+                'prezi.com': {
+                    name: 'Prezi AI',
+                    url: 'https://prezi.com',
+                    category: 'productivity',
+                    icon: 'https://play-lh.googleusercontent.com/3rVZ7Lc7-bxsALDo0nWOcuojR9ISxlhO20KnVM3uP00drxIXXt7ATM0V5-YjfM0pPtA'
+                },
+                'slideshare.net': {
+                    name: 'Slideshare',
+                    url: 'https://www.slideshare.net',
+                    category: 'productivity',
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFu2smlszvneX1otpsXxgwhKyPha7Boi8VJg&s'
+                },
+                'sololearn.com': {
+                    name: 'Sololearn',
+                    url: 'https://www.sololearn.com',
+                    category: 'education',
+                    icon: 'https://play-lh.googleusercontent.com/zxbe_H6JVg6ZnIeA1xorxxXr416kKdShmyonBzi5Qe28-GNdczX-NST_ul0AQJ007OA'
+                },
+                'speechify.com': {
+                    name: 'Speechify',
+                    url: 'https://speechify.com',
+                    category: 'productivity',
+                    icon: 'https://play-lh.googleusercontent.com/W0GcGHbSPEA2VBf8CM-SoRG9yYS2RwxgPM9Q25MmhmU6YzJ2t8lHIAnejL0nL9LvYwMx'
+                },
+                'symbolab.com': {
+                    name: 'Symbolab',
+                    url: 'https://www.symbolab.com',
+                    category: 'education',
+                    icon: 'https://play-lh.googleusercontent.com/DKlax_iJQtJOKJlIPDSS7DZpbm9gCkHh3vWgrj8BOMRwDPDVKXdTQf9sV4cRuXSdRA'
+                },
+                'wsj.com': {
+                    name: 'The Wall Street Journal',
+                    url: 'https://www.wsj.com',
+                    category: 'productivity',
+                    icon: 'https://play-lh.googleusercontent.com/eksxaPfxbTVb6VTl5aj1sXLpKc_N9Z6AZ3_5Oq6JhTXmgEQza-1v58a66p_ID0phE2Zv'
+                },
+                'turbo.ai': {
+                    name: 'Turbo AI',
+                    url: 'https://turbo.ai',
+                    category: 'productivity',
+                    icon: 'https://play-lh.googleusercontent.com/c678Vjj3oQ8UmrDCYzczS6JDcFor4XxHLnc2gAW9Wk_pbE3KEMw1WZk-rTPucPoV7Sg'
+                },
+                'virtualthreads.io': {
+                    name: 'Virtual Threads',
+                    url: 'https://virtualthreads.io',
+                    category: 'productivity',
+                    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_zqaiVJeMxFHsHmHsk8ViZdV3v-nd11cpPw&s'
+                },
+                'writehuman.ai': {
+                    name: 'WriteHuman',
+                    url: 'https://writehuman.ai',
+                    category: 'utilities',
+                    icon: 'https://earlyshark.com/wp-content/uploads/2024/01/writehuman-logo-1024x1024.png'
+                },
+                'pro-z.aiapi': {
+                    name: 'Pro: z.ai API',
+                    url: 'https://z.ai',
+                    category: ['productivity', 'proexclusive'],
+                    icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Z.ai_%28company_logo%29.svg/1200px-Z.ai_%28company_logo%29.svg.png'
+                }
+            };
+
+            let sortedServiceKeys = null;
+
+            const handleFiles = (files) => {
+                uploadedFiles = Array.from(files);
+                fileListDiv.innerHTML = `<p>${uploadedFiles.length} file(s) selected. Click Generate.</p>`;
+                fileListDiv.innerHTML += uploadedFiles.map(f => `<span class="text-xs text-slate-500 block">${f.name}</span>`).join('');
+                generateBtn.disabled = false;
+            };
+
+            const cleanCookies = (cookies, serviceKey) => {
+                const serviceUrl = serviceDB[serviceKey] ? new URL(serviceDB[serviceKey].url) : null;
+                const baseDomain = serviceUrl ? serviceUrl.hostname.replace('www.', '') : null;
+
+                return cookies.map(cookie => {
+                    const newCookie = {
+                        name: cookie.name,
+                        value: cookie.value,
+                        path: cookie.path || '/',
+                        httpOnly: cookie.httpOnly === true,
+                        secure: true
+                    };
+
+                    if (cookie.expirationDate && typeof cookie.expirationDate === 'number' && cookie.expirationDate > (Date.now() / 1000)) {
+                        newCookie.expirationDate = cookie.expirationDate;
+                    }
+
+                    if (cookie.sameSite) {
+                        switch (String(cookie.sameSite).toLowerCase()) {
+                            case 'no_restriction':
+                            case 'unspecified':
+                            case 'none':
+                                newCookie.sameSite = 'no_restriction';
+                                break;
+                            case 'lax':
+                                newCookie.sameSite = 'lax';
+                                break;
+                            case 'strict':
+                                newCookie.sameSite = 'strict';
+                                break;
+                        }
+                    }
+
+                    if (cookie.domain) {
+                        newCookie.domain = cookie.domain;
+                    } else if (baseDomain) {
+                        newCookie.domain = baseDomain;
+                    }
+
+                    if (newCookie.name && newCookie.name.startsWith('__Host-')) {
+                        delete newCookie.domain;
+                    }
+                    if (cookie.hostOnly === true) {
+                        delete newCookie.domain;
+                    }
+                    return newCookie;
+                });
+            };
+
+            const getServiceKeyFromFilename = (filename) => {
+                if (!sortedServiceKeys) {
+                    sortedServiceKeys = Object.keys(serviceDB).sort((a, b) => b.length - a.length);
+                }
+                const lowerFilename = filename.toLowerCase();
+                for (const key of sortedServiceKeys) {
+                    if (lowerFilename.includes(key)) {
+                        return key;
+                    }
+                }
+                return null;
+            };
+
+            generateBtn.addEventListener('click', async () => {
+                if (uploadedFiles.length === 0) return alert('Please upload JSON files first.');
+
+                const fileContents = await Promise.all(
+                    uploadedFiles.map(file =>
+                        file.text().then(text => {
+                            try {
+                                const parsedData = JSON.parse(text);
+                                const originalFilename = file.name;
+
+                                if (parsedData && Array.isArray(parsedData.accounts)) {
+                                    const serviceKey = getServiceKeyFromFilename(originalFilename);
+                                    if (!serviceKey) {
+                                        console.warn(`No matching service key for group file: ${originalFilename}`);
+                                        return null;
+                                    }
+                                    return parsedData.accounts.map(account => ({
+                                        name: account.name || `${serviceDB[serviceKey].name} Account`,
+                                        cookies: cleanCookies(account.cookies || [], serviceKey),
+                                        key: serviceKey,
+                                        sourceUrl: account.url
+                                    }));
+                                }
+
+                                let cookies;
+                                let sourceUrl = null;
+                                let serviceKey = null;
+
+                                if (Array.isArray(parsedData)) {
+                                    cookies = parsedData;
+                                } else if (parsedData && Array.isArray(parsedData.cookies)) {
+                                    cookies = parsedData.cookies;
+                                    sourceUrl = parsedData.sourceUrl || null;
+                                } else {
+                                    alert(`Struktur JSON pada file: ${originalFilename} tidak dikenali.`);
+                                    return null;
+                                }
+
+                                if (sourceUrl && sourceUrl.includes('hix.ai')) {
+                                    if (sourceUrl.includes('/app/bypass-ai-detection')) serviceKey = 'hix-bypass';
+                                    else if (sourceUrl.includes('/id/home')) serviceKey = 'hix-home';
+                                }
+
+                                if (!serviceKey) serviceKey = getServiceKeyFromFilename(originalFilename);
+                                if (!serviceKey) {
+                                    console.warn(`Could not determine service key for: ${originalFilename}`);
+                                    return null;
+                                }
+
+                                const cleanedCookies = cleanCookies(cookies, serviceKey);
+                                return {
+                                    name: originalFilename,
+                                    cookies: cleanedCookies,
+                                    key: serviceKey,
+                                    sourceUrl: sourceUrl
+                                };
+
+                            } catch (e) {
+                                alert(`Error parsing JSON from file: ${file.name}\n${e.message}`);
+                                return null;
+                            }
+                        })
+                    )
+                );
+
+                const validFiles = fileContents.flat().filter(f => f !== null);
+                const services = {};
+                let idCounter = 1000;
+
+                validFiles.forEach(file => {
+                    if (!Array.isArray(file.cookies) || file.cookies.length === 0) return;
+
+                    const dbEntry = serviceDB[file.key];
+                    if (!dbEntry) {
+                        console.warn(`No DB entry found for key: ${file.key}`);
+                        return;
+                    }
+
+                    const serviceName = dbEntry.name;
+                    if (!services[serviceName]) {
+                        services[serviceName] = {
+                            meta: {
+                                ...dbEntry
+                            },
+                            files: []
+                        };
+                    }
+                    services[serviceName].files.push({
+                        cookies: file.cookies,
+                        sourceUrl: file.sourceUrl
+                    });
+                });
+
+                let servicesData = Object.values(services).map(service => {
+
+                    const finalId = service.meta.staticId ?
+                        service.meta.staticId :
+                        `${service.meta.name.toLowerCase().replace(/[^a-z0-9]/g, '-')}-${idCounter++}`;
+
+                    const primaryUrl = (service.files.length > 0 && service.files[0].sourceUrl) ?
+                        service.files[0].sourceUrl :
+                        service.meta.url;
+
+                    // Menghapus bagian hash ('#') dari URL jika ada
+                    const cleanedUrl = primaryUrl.split('#')[0];
+
+                    let finalService = {
+                        meta: {
+                            id: finalId,
+                            name: service.meta.name,
+                            icon: service.meta.icon,
+                            url: cleanedUrl,
+                            category: service.meta.category
+                        }
+                    };
+
+                    if (service.files.length > 1) {
+                        finalService.meta.isGroup = true;
+                        finalService.accounts = service.files.map((file, index) => {
+                            const account = {
+                                name: `${service.meta.name} ${index + 1}`,
+                                cookies: file.cookies
+                            };
+                            if (file.sourceUrl) {
+                                // Menghapus hash dari sourceUrl akun
+                                account.sourceUrl = file.sourceUrl.split('#')[0];
+                            }
+                            return account;
+                        });
+                    } else {
+                        finalService.cookies = service.files[0].cookies;
+                        if (service.files[0].sourceUrl) {
+                            // Menghapus hash dari sourceUrl tunggal
+                            finalService.sourceUrl = service.files[0].sourceUrl.split('#')[0];
+                        }
+                    }
+                    return finalService;
+                });
+
+                servicesData.sort((a, b) => a.meta.name.localeCompare(b.meta.name));
+                const outputString = JSON.stringify(servicesData, null, 2);
+                outputCode.textContent = outputString;
+                outputContainer.classList.remove('hidden');
+            });
+
+            dropZone.addEventListener('click', () => fileInput.click());
+            browseBtn.addEventListener('click', () => fileInput.click());
+            fileInput.addEventListener('change', () => handleFiles(fileInput.files));
+            ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => dropZone.addEventListener(eventName, (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+            }, false));
+            ['dragenter', 'dragover'].forEach(eventName => dropZone.addEventListener(eventName, () => dropZone.classList.add('dragover'), false));
+            ['dragleave', 'drop'].forEach(eventName => dropZone.addEventListener(eventName, () => dropZone.classList.remove('dragover'), false));
+            dropZone.addEventListener('drop', (e) => handleFiles(e.dataTransfer.files));
+            copyBtn.addEventListener('click', () => {
+                if (!outputCode.textContent) return;
+                navigator.clipboard.writeText(outputCode.textContent).then(() => {
+                    copyFeedback.classList.remove('hidden');
+                    setTimeout(() => copyFeedback.classList.add('hidden'), 2000);
+                }).catch(err => alert('Failed to copy'));
+            });
+        });
+    </script>
+</body>
+
+</html>

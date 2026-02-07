@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard | Gracely</title>
+
+  <meta name="title" content="Dashboard | Gracely">
+  <meta name="description" content="Manage your Gracely account and download extensions.">
+  <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/animate.css" />
+  <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/ud-styles.css" />
+  <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+  <script src="auth.js?v=20260207-NOVALIDATION"></script>
+  <script>(async () => { await requireAuth(); })();</script>
+</head>
+
+<body>
+  <div id="announcement-placeholder"></div>
+  <div id="navbar-placeholder"></div>
+
+  <section class="ud-page-banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="ud-banner-content">
+            <h1>Dashboard</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="dashboard">
+    <div class="container">
+
+      <div id="plan-status-section"></div>
+
+      <div class="menu-section">
+        <div class="menu-section-header">Account</div>
+        <a href="profile.html" class="menu-item">
+          <span class="icon"><i class="fa fa-pen-to-square" aria-hidden="true"></i></span> Edit profile
+          <span class="chevron">›</span>
+        </a>
+        <a href="logs.html" class="menu-item">
+          <span class="icon"><i class="fa fa-clock" aria-hidden="true"></i></span> Activity logs
+          <span class="chevron">›</span>
+        </a>
+        <a href="#" class="menu-item">
+          <span class="icon"><i class="fa-brands fa-discord" aria-hidden="true"></i></span> Manage Discord connection
+          <span class="chevron">›</span>
+        </a>
+      </div>
+
+      <div class="menu-section">
+        <div class="menu-section-header">Premium</div>
+        <a href="premium.html" class="menu-item">
+          <span class="icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></span> Purchase premium
+          <span class="chevron">›</span>
+        </a>
+        <a href="#" class="menu-item">
+          <span class="icon"><i class="fa fa-paperclip" aria-hidden="true"></i></span> Order history
+          <span class="chevron">›</span>
+        </a>
+        <a href="#" class="menu-item">
+          <span class="icon"><i class="fa fa-right-left"></i></span> Convert Premium plan
+          <span class="chevron">›</span>
+        </a>
+      </div>
+
+      <div class="menu-section">
+        <div class="menu-section-header">Extension</div>
+        <a href="assets/update/gracely-guard-1.0.3.zip" class="menu-item"> <span class="icon"><i
+              class="fa fa-download"></i></span> Download
+          Gracely Guard (v1.0.3)
+          <span class="chevron">›</span>
+        </a>
+        <a href="assets/update/gracely-extension-2.2.zip" class="menu-item"> <span class="icon"><i
+              class="fa fa-download"></i></span> Download
+          Gracely Extension (v2.2)
+          <span class="chevron">›</span>
+        </a>
+        <a id="openModalBtn" class="menu-item">
+          <span class="icon"><i class="fa fa-play"></i></span> Watch video (Windows/macOS/Linux)
+          <span class="chevron">›</span>
+        </a>
+        <a id="openModalBtnKiwi" class="menu-item">
+          <span class="icon"><i class="fa fa-play"></i></span> Watch video (Android with Kiwi Browser)
+          <span class="chevron">›</span>
+        </a>
+        <a id="openModalBtnOrion" class="menu-item">
+          <span class="icon"><i class="fa fa-play"></i></span> Watch video (iOS with Orion Browser)
+          <span class="chevron">›</span>
+        </a>
+      </div>
+
+      <div id="videoModal" class="modal">
+        <div class="modal-content">
+          <video id="videoElement" controls loop width="100%" height="100%">
+            <source src="assets/videos/tutorialinstal.mkv" type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <div id="videoModalKiwi" class="modal">
+        <div class="modal-content">
+          <video id="videoElementKiwi" controls loop width="40%" height="40%">
+            <source src="assets/videos/kiwi_2025.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <div id="videoModalOrion" class="modal">
+        <div class="modal-content">
+          <video id="videoElementOrion" controls loop width="40%" height="40%">
+            <source src="assets/videos/orion_2025.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+
+      <div class="menu-section">
+        <div class="menu-section-header">Service</div>
+        <a href="#" class="menu-item">
+          <span class="icon"><i class="fa fa-flag"></i></span> Report service
+          <span class="chevron">›</span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <div id="footer-placeholder"></div>
+
+  <div id="back-to-top-placeholder"></div>
+
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+
+  <script src="layout.js"></script>
+  <script src="assets/script.js"></script>
+
+
+  <script>
+    function formatExactUTC(dateString) {
+      if (!dateString) return '';
+      const date = new Date(dateString);
+
+      const options = {
+        year: 'numeric',
+        month: 'long',
+        day: '2-digit',
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit',
+        hour12: false
+      };
+      let datePart = date.toLocaleString('en-US', options).replace(' at', '').replace(',', '');
+
+      const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+      const monthName = months[date.getMonth()];
+      const day = String(date.getDate()).padStart(2, '0');
+      const year = date.getFullYear();
+      const hours = String(date.getHours()).padStart(2, '0');
+      const minutes = String(date.getMinutes()).padStart(2, '0');
+      const seconds = String(date.getSeconds()).padStart(2, '0');
+
+      const cleanDate = `${monthName} ${day}, ${year} ${hours}:${minutes}:${seconds}`;
+
+      const offsetMinutes = date.getTimezoneOffset();
+      const offsetHours = -(offsetMinutes / 60);
+      const sign = offsetHours >= 0 ? '+' : '-';
+      const absOffset = Math.abs(offsetHours);
+      const timezoneString = `(UTC ${sign}${absOffset})`;
+
+      return `${cleanDate} ${timezoneString}`;
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const planSection = document.getElementById('plan-status-section');
+      const isPremium = localStorage.getItem('isPremium') === 'true';
+      const expiryDateStr = localStorage.getItem('premiumExpiryDate');
+      const planName = localStorage.getItem('userPlanName') || 'No Premium';
+      const planNumber = localStorage.getItem('userPlanNumber') || '001';
+
+      let planHTML = '';
+
+      try {
+        if (isPremium) {
+          const datePremium = localStorage.getItem('premiumExpiryDate');
+          const datePro = localStorage.getItem('proExpiryDate');
+          const datePhantom = localStorage.getItem('phantomExpiryDate');
+
+          // Helper safely format
+          const safeFormat = (dateStr) => {
+            try {
+              // Check for empty/null strings explicitly
+              if (!dateStr || dateStr === 'null' || dateStr === 'undefined') return null;
+              // Check if valid date
+              const d = new Date(dateStr);
+              if (isNaN(d.getTime())) return null;
+              return formatExactUTC(dateStr);
+            } catch (e) {
+              console.error("Date format error for:", dateStr, e);
+              return null;
+            }
+          };
+
+          planHTML = `
+                  <div class="menu-section">
+                    <div class="menu-section-mini-header">
+                      Your plan
+                    </div>
+                    <img src="assets/images/logo/gracely_mobile_white.png" alt="Logo" id="logo" class="top-right-image">
+                    
+                    <div class="${planNumber === '004' ? 'menu-section-plan-phantomwitcher' : 'menu-section-plan-premium'}"> 
+                      ${planName}
+                    </div>
+                    
+                    <div class="menu-section-plan-description">`;
+
+          let hasShownDate = false;
+
+          const fmtPremium = safeFormat(datePremium);
+          if (fmtPremium) {
+            planHTML += `<div>Your <b>Premium</b> is valid until ${fmtPremium}.</div>`;
+            hasShownDate = true;
+          }
+
+          const fmtPro = safeFormat(datePro);
+          if (fmtPro) {
+            planHTML += `<div>Your <b>Pro</b> is valid until ${fmtPro}.</div>`;
+            hasShownDate = true;
+          }
+
+
+          const fmtPhantom = safeFormat(datePhantom);
+          if (fmtPhantom) {
+            planHTML += `<div>Your <b>The Phantom</b> is valid until ${fmtPhantom}.</div>`;
+            hasShownDate = true;
+          }
+
+          if (!hasShownDate) {
+            planHTML += `<div>Active</div>`;
+          }
+
+          planHTML += `</div>
+                  </div>`;
+        } else {
+          planHTML = `
+                  <div class="menu-section">
+                    <div class="menu-section-mini-header">
+                      Your plan
+                    </div>
+                    <img src="assets/images/logo/gracely_mobile_white.png" alt="Logo" id="logo" class="top-right-image">
+                    
+                    <div class="menu-section-plan-free">
+                      ${planName}
+                    </div>
+                    <div class="menu-section-plan-description">
+                      Premium is required to access Gracely Extension.
+                    </div>
+                  </div>`;
+        }
+      } catch (err) {
+        console.error("Dashboard Render Critical Error:", err);
+        planHTML = `<div class="menu-section" style="color:red">Error loading plan info. Check console.</div>`;
+      }
+
+      if (planSection) planSection.innerHTML = planHTML;
+    });
+  </script>
+</body>
+
+</html>

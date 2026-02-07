@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSA Keypair Generator - Gracely Security</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 800px;
+        }
+
+        h2 {
+            color: #1a73e8;
+            margin-top: 0;
+            text-align: center;
+        }
+
+        .warning-box {
+            background-color: #fff3cd;
+            border: 2px solid #ff9800;
+            color: #856404;
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 0.5rem;
+            color: #333;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            box-sizing: border-box;
+            font-family: monospace;
+            font-size: 11px;
+            height: 200px;
+            resize: vertical;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #1a73e8;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        button:hover {
+            background-color: #1557b0;
+        }
+
+        button.copy-btn {
+            background-color: #34a853;
+        }
+
+        button.copy-btn:hover {
+            background-color: #2d8e47;
+        }
+
+        #status {
+            text-align: center;
+            margin: 15px 0;
+            font-weight: bold;
+        }
+
+        .success {
+            color: green;
+        }
+
+        .error {
+            color: red;
+        }
+
+        .output-section {
+            display: none;
+            margin-top: 20px;
+            border-top: 2px solid #eee;
+            padding-top: 20px;
+        }
+
+        .key-box {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>🔐 RSA Keypair Generator</h2>
+        <p style="text-align: center; color: #666; font-size: 14px;">
+            Generate RSA-2048 keypair untuk Gracely Guard verification
+        </p>
+
+        <div class="warning-box">
+            <strong>⚠️ PENTING:</strong>
+            <ul style="margin: 10px 0;">
+                <li><strong>Private Key</strong> harus di-embed di Gracely Guard dan TIDAK BOLEH di-share ke siapa pun
+                </li>
+                <li><strong>Public Key</strong> akan di-embed di Gracely Extension dan boleh dilihat semua orang</li>
+                <li>Simpan kedua keys di tempat yang aman (jangan hilang!)</li>
+            </ul>
+        </div>
+
+        <button onclick="generateKeypair()">🔑 GENERATE RSA KEYPAIR</button>
+
+        <div id="status"></div>
+
+        <div class="output-section" id="outputSection">
+            <div class="key-box">
+                <label for="privateKeyOutput">PRIVATE KEY (Untuk Gracely Guard)</label>
+                <textarea id="privateKeyOutput" readonly></textarea>
+                <button class="copy-btn" onclick="copyPrivateKey()">📋 Copy Private Key</button>
+            </div>
+
+            <div class="key-box">
+                <label for="publicKeyOutput">PUBLIC KEY (Untuk Gracely Extension)</label>
+                <textarea id="publicKeyOutput" readonly></textarea>
+                <button class="copy-btn" onclick="copyPublicKey()">📋 Copy Public Key</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        async function generateKeypair() {
+            const statusEl = document.getElementById('status');
+            const outputSection = document.getElementById('outputSection');
+
+            try {
+                statusEl.textContent = "⏳ Generating RSA-2048 keypair (this may take a few seconds)...";
+                statusEl.className = '';
+
+                // Generate RSA keypair
+                const keypair = await window.crypto.subtle.generateKey(
+                    {
+                        name: "RSASSA-PKCS1-v1_5",
+                        modulusLength: 2048,
+                        publicExponent: new Uint8Array([1, 0, 1]),
+                        hash: "SHA-256"
+                    },
+                    true,
+                    ["sign", "verify"]
+                );
+
+                // Export keys
+                const privateKeyBuffer = await window.crypto.subtle.exportKey("pkcs8", keypair.privateKey);
+                const publicKeyBuffer = await window.crypto.subtle.exportKey("spki", keypair.publicKey);
+
+                // Convert to PEM format
+                const privateKeyPem = bufferToPem(privateKeyBuffer, "RSA PRIVATE KEY");
+                const publicKeyPem = bufferToPem(publicKeyBuffer, "PUBLIC KEY");
+
+                // Display results
+                document.getElementById('privateKeyOutput').value = privateKeyPem;
+                document.getElementById('publicKeyOutput').value = publicKeyPem;
+                outputSection.style.display = 'block';
+
+                statusEl.textContent = "✅ Keypair generated successfully!";
+                statusEl.className = 'success';
+
+            } catch (e) {
+                console.error(e);
+                statusEl.textContent = "❌ Generation failed: " + e.message;
+                statusEl.className = 'error';
+            }
+        }
+
+        function bufferToPem(buffer, label) {
+            const base64 = btoa(String.fromCharCode(...new Uint8Array(buffer)));
+            let pem = `-----BEGIN ${label}-----\n`;
+
+            // Split into 64-character lines
+            for (let i = 0; i < base64.length; i += 64) {
+                pem += base64.substr(i, 64) + '\n';
+            }
+
+            pem += `-----END ${label}-----`;
+            return pem;
+        }
+
+        function copyPrivateKey() {
+            const el = document.getElementById('privateKeyOutput');
+            el.select();
+            navigator.clipboard.writeText(el.value);
+            alert("✅ Private Key copied! Paste ini ke Gracely Guard background.js");
+        }
+
+        function copyPublicKey() {
+            const el = document.getElementById('publicKeyOutput');
+            el.select();
+            navigator.clipboard.writeText(el.value);
+            alert("✅ Public Key copied! Paste ini ke Gracely Extension background.js");
+        }
+    </script>
+</body>
+
+</html>
