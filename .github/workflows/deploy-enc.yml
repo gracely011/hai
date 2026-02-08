@@ -34,8 +34,18 @@ jobs:
           javascript-obfuscator ./assets/script.js --output ./assets/script.js $OPTIONS
           javascript-obfuscator ./auth.js --output ./auth.js $OPTIONS
           javascript-obfuscator ./layout.js --output ./layout.js $OPTIONS
+          javascript-obfuscator ./aturhonma.js --output ./aturhonma.js $OPTIONS
+          javascript-obfuscator ./assets/snow.js --output ./assets/snow.js $OPTIONS
           javascript-obfuscator ./assets/youtube-noads-2.0-final.js --output ./assets/youtube-noads-2.0-final.js $OPTIONS
           javascript-obfuscator ./assets/js/main.js --output ./assets/js/main.js $OPTIONS
+          
+          # Halo Assets
+          javascript-obfuscator ./assets/halo/data.js --output ./assets/halo/data.js $OPTIONS
+          javascript-obfuscator ./assets/halo/prem.js --output ./assets/halo/prem.js $OPTIONS
+          javascript-obfuscator ./assets/halo/pro.js --output ./assets/halo/pro.js $OPTIONS
+          
+          # Extension Assets
+          javascript-obfuscator ./assets/images/extension/gg.js --output ./assets/images/extension/gg.js $OPTIONS
 
       - name: Setup Git Config
         run: |
