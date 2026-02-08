@@ -36,8 +36,10 @@ jobs:
         run: |
           npm install -g javascript-obfuscator
           javascript-obfuscator ./assets/script.js --output ./assets/script.js --compact true --self-defending true --disable-console-output true --debug-protection true --debug-protection-interval 4000
-          # Add other files here if needed, e.g.:
-          # javascript-obfuscator ./assets/youtube-noads-2.0-final.js --output ./assets/youtube-noads-2.0-final.js
+          javascript-obfuscator ./auth.js --output ./auth.js --compact true --self-defending true --disable-console-output true --debug-protection true --debug-protection-interval 4000
+          javascript-obfuscator ./layout.js --output ./layout.js --compact true --self-defending true --disable-console-output true --debug-protection true --debug-protection-interval 4000
+          javascript-obfuscator ./assets/youtube-noads-2.0-final.js --output ./assets/youtube-noads-2.0-final.js --compact true --self-defending true --disable-console-output true --debug-protection true --debug-protection-interval 4000
+          javascript-obfuscator ./assets/js/main.js --output ./assets/js/main.js --compact true --self-defending true --disable-console-output true --debug-protection true --debug-protection-interval 4000
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
