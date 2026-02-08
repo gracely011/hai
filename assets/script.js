@@ -1,8 +1,6 @@
 // 0. INIT CHECK
-if (!window.gracelyScriptLoaded) {
-    console.log('Extensions Script Loaded');
-    window.gracelyScriptLoaded = true;
-}
+// Debug log removed as per user request
+
 
 // 0. REDIRECT BLOCKER FOR LOCAL DEVELOPMENT
 (function () {
