@@ -26,10 +26,10 @@ jobs:
 
       - name: Obfuscate JavaScript (Keep Console Branding)
         run: |
-          # Note: --disable-console-output false ensures branding remains visible
-          # --debug-protection true prevents DevTools inspection
+          # --domain-lock restricts running to specific domains
+          # --domain-lock-redirect-url redirects if domain doesn't match
           
-          OPTIONS="--compact true --self-defending true --disable-console-output false --debug-protection true --debug-protection-interval 4000"
+          OPTIONS="--compact true --self-defending true --disable-console-output false --debug-protection true --debug-protection-interval 4000 --domain-lock gracely011.github.io --domain-lock-redirect-url https://gracely011.github.io/hai/"
           
           javascript-obfuscator ./assets/script.js --output ./assets/script.js $OPTIONS
           javascript-obfuscator ./auth.js --output ./auth.js $OPTIONS
