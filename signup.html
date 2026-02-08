@@ -18,11 +18,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="auth.js"></script>
-  <script>
-    if (typeof redirectIfAuthenticated === 'function') {
-      redirectIfAuthenticated();
-    }
-  </script>
   <script src="assets/script.js"></script>
 </head>
 
@@ -83,60 +78,7 @@
       </div>
     </div>
   </section>
-  <script>
-    document.addEventListener("DOMContentLoaded", function () { let e = ["gmail.com", "yahoo.com", "hotmail.com", "outlook.com", "aol.com", "icloud.com", "live.com", "msn.com"], t = document.getElementById("email"), n = document.getElementById("email-suggestion"); function l(e, t) { let n = []; for (let l = 0; l <= e.length; l++) { let o = l; for (let i = 0; i <= t.length; i++)if (0 === l) n[i] = i; else if (i > 0) { let r = n[i - 1]; e.charAt(l - 1) !== t.charAt(i - 1) && (r = Math.min(r, o, n[i]) + 1), n[i - 1] = o, o = r } l > 0 && (n[t.length] = o) } return n[t.length] } t.addEventListener("blur", function () { let o = this.value.trim(); if (n.innerHTML = "", !o.includes("@")) return; let [i, r] = o.split("@"); if (r) { let c = function t(n) { let o = 1 / 0, i = null; for (let r of e) { let c = l(n.toLowerCase(), r); c < o && c <= 2 && (o = c, i = r) } return i }(r); if (c && c !== r) { let a = `${i}@${c}`, u = `Did you mean <a href="#" style="text-decoration: underline; font-weight: bold; color: #000000;">${a}</a>?`; n.innerHTML = u, n.querySelector("a").addEventListener("click", function (e) { e.preventDefault(), t.value = a, n.innerHTML = "" }) } } }) });
-    document.addEventListener('DOMContentLoaded', () => {
-      const signupForm = document.getElementById('reCAPTCHA');
-      signupForm.addEventListener('submit', async (event) => {
-        event.preventDefault();
-        const name = signupForm.querySelector('input[name="name"]').value;
-        const email = signupForm.querySelector('input[name="email"]').value;
-        const password = signupForm.querySelector('input[name="password"]').value;
-        const confirmPassword = signupForm.querySelector('input[name="confirm_password"]').value;
-        let errorMessage = document.getElementById("error-message");
-        if (!errorMessage) {
-          errorMessage = document.createElement('p');
-          errorMessage.id = 'error-message';
-          errorMessage.style.color = 'red';
-          errorMessage.style.marginTop = '15px';
-          const formParent = signupForm.parentNode;
-          if (formParent) {
-            formParent.insertBefore(errorMessage, signupForm.nextSibling);
-          }
-        }
-        errorMessage.textContent = '';
-        if (!name || !email || !password) {
-          errorMessage.textContent = 'Semua kolom harus diisi!';
-          return;
-        }
-        if (password !== confirmPassword) {
-          errorMessage.textContent = 'Password tidak cocok!';
-          return;
-        }
-        const submitButton = signupForm.querySelector('button[type="submit"]');
-        submitButton.disabled = true;
-        submitButton.innerHTML = 'Mendaftar...';
-        const result = await signup(name, email, password);
-        if (result.success) {
-          alert('Pendaftaran berhasil! Silakan langsung Login.');
-          window.location.href = 'login.html';
-        } else {
-          let message = result.message;
-          if (message.includes("violates row-level security policy") || message.includes("duplicate key value")) {
-            alert('Pendaftaran berhasil! Silakan langsung Login.');
-            window.location.href = 'login.html';
-            return;
-          }
-          if (message.includes("User already registered")) {
-            message = "Akun dengan email ini sudah terdaftar. Silakan Log in.";
-          }
-          errorMessage.textContent = 'Error: ' + message;
-          submitButton.disabled = false;
-          submitButton.innerHTML = 'Sign up';
-        }
-      });
-    });
-  </script>
+
   <div id="footer-placeholder"></div>
   <div id="back-to-top-placeholder"></div>
   <script src="assets/js/bootstrap.bundle.min.js"></script>

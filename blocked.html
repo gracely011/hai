@@ -121,33 +121,7 @@
 
 
 
-    <script>
-        const textElement = document.getElementById('text-3d');
-        const maxRotation = 90;
-
-        document.addEventListener('mousemove', (e) => {
-            const {
-                clientX,
-                clientY
-            } = e;
-            const {
-                innerWidth,
-                innerHeight
-            } = window;
-
-            const x = (clientX / innerWidth) - 0.5;
-            const y = (clientY / innerHeight) - 0.5;
-
-            const rotateY = x * (maxRotation * 2);
-            const rotateX = -y * (maxRotation * 2);
-
-            textElement.style.transform = `rotateY(${rotateY}deg) rotateX(${rotateX}deg)`;
-        });
-
-        document.addEventListener('mouseleave', () => {
-            textElement.style.transform = 'rotateY(0deg) rotateX(0deg)';
-        });
-    </script>
+    <script src="layout.js"></script>
 
 
 </body>

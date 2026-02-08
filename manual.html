@@ -19,66 +19,7 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="auth.js"></script>
   <script>(async () => { await requireAuth(); })();</script>
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      const params = new URLSearchParams(window.location.search);
 
-      // Mengambil parameter dari URL
-      const serviceName = params.get("name");
-      const loginEmail = params.get("login");
-      const loginPassword = params.get("password");
-      const loginExtra = params.get("extra"); // Parameter baru untuk Activation Code
-      const loginUrl = params.get("url");
-
-      // Set Judul Halaman
-      if (serviceName) {
-        document.title = serviceName + " | Gracely";
-        const titleElement = document.getElementById("page-title-h1");
-        if (titleElement) {
-          titleElement.textContent = serviceName;
-        }
-      }
-
-      // Set Email
-      if (loginEmail) {
-        const loginElement = document.getElementById("login");
-        if (loginElement) {
-          loginElement.value = loginEmail;
-        }
-      }
-
-      // Set Password
-      if (loginPassword) {
-        const passwordElement = document.getElementById("password");
-        if (passwordElement) {
-          passwordElement.value = loginPassword;
-        }
-      }
-
-      // Set Activation Code (Kolom ke-3)
-      // Logika: Jika ada data 'extra', isi nilainya dan tampilkan kolomnya.
-      if (loginExtra) {
-        const extraContainer = document.getElementById("extra-container");
-        const extraElement = document.getElementById("extra");
-
-        if (extraElement) {
-          extraElement.value = loginExtra;
-        }
-
-        if (extraContainer) {
-          extraContainer.style.display = "block"; // Tampilkan kolom jika ada datanya
-        }
-      }
-
-      // Set Link Tombol Login
-      if (loginUrl) {
-        const linkElement = document.getElementById("manual-login-link");
-        if (linkElement) {
-          linkElement.href = loginUrl;
-        }
-      }
-    });
-  </script>
   <script src="assets/script.js"></script>
 </head>
 
@@ -142,18 +83,7 @@
       </div>
     </div>
   </section>
-  <script>
-    function copyToClipboard(elementId) {
-      var copyText = document.getElementById(elementId);
-      copyText.select();
-      copyText.setSelectionRange(0, 99999);
-      try {
-        document.execCommand("copy");
-      } catch (err) {
-        console.error("Gagal menyalin teks: ", err);
-      }
-    }
-  </script>
+
   <div id="footer-placeholder"></div>
   <div id="back-to-top-placeholder"></div>
   <script src="assets/js/bootstrap.bundle.min.js"></script>
