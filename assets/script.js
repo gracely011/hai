@@ -1,45 +1,32 @@
 // 0. REDIRECT BLOCKER FOR LOCAL DEVELOPMENT
 (function () {
-    // Only activate for local testing (file://, localhost, etc.)
-    const isLocal = window.location.protocol === 'file:' ||
-        window.location.hostname === 'localhost' ||
-        window.location.hostname === '127.0.0.1';
+    try {
+        // Only activate for local testing (file://, localhost, etc.)
+        const isLocal = window.location.protocol === 'file:' ||
+            window.location.hostname === 'localhost' ||
+            window.location.hostname === '127.0.0.1';
 
-    if (isLocal) {
-        // Override window.location.href setter to block redirects to live site
-        const originalDescriptor = Object.getOwnPropertyDescriptor(window, 'location') ||
-            Object.getOwnPropertyDescriptor(Window.prototype, 'location');
-
-        // Intercept all assignment to location.href
-        const originalHref = window.location.href;
-        Object.defineProperty(window, '__gracelyBlockRedirect', {
-            value: function (url) {
-                if (url && typeof url === 'string' && url.includes('gracely011.github.io')) {
-                    console.warn('🚫 BLOCKED redirect to:', url);
-                    return true; // blocked
-                }
-                return false; // allow
-            },
-            writable: false
-        });
-
-        // Monkey-patch document.location and window.location setters
-        const blockNavigation = function (target, prop) {
-            const original = target[prop];
+        if (isLocal) {
+            // Override window.location.href setter to block redirects to live site
             try {
-                Object.defineProperty(target, prop, {
-                    set: function (val) {
-                        if (window.__gracelyBlockRedirect && window.__gracelyBlockRedirect(val)) {
-                            return; // Block the redirect
+                Object.defineProperty(window, '__gracelyBlockRedirect', {
+                    value: function (url) {
+                        if (url && typeof url === 'string' && url.includes('gracely011.github.io')) {
+                            console.warn('🚫 BLOCKED redirect to:', url);
+                            return true; // blocked
                         }
-                        original = val;
+                        return false; // allow
                     },
-                    get: function () { return original; }
+                    writable: false
                 });
-            } catch (e) { /* Some properties can't be overridden */ }
-        };
+            } catch (err) {
+                console.warn('Could not define __gracelyBlockRedirect:', err);
+            }
 
-        console.log('🛡️ Local Dev Mode: Redirect blocker ACTIVE');
+            console.log('🛡️ Local Dev Mode: Redirect blocker ACTIVE');
+        }
+    } catch (e) {
+        console.error("Redirect blocker error:", e);
     }
 })();
 
