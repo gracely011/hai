@@ -1,0 +1,50 @@
+name: Deploy Encrypted to Main
+
+on:
+  push:
+    branches: ["dev-clean"]
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout dev-clean
+        uses: actions/checkout@v4
+        with:
+          ref: dev-clean
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Obfuscator
+        run: npm install -g javascript-obfuscator
+
+      - name: Obfuscate JavaScript (Keep Console Branding)
+        run: |
+          # Note: --disable-console-output false ensures branding remains visible
+          # --debug-protection true prevents DevTools inspection
+          
+          OPTIONS="--compact true --self-defending true --disable-console-output false --debug-protection true --debug-protection-interval 4000"
+          
+          javascript-obfuscator ./assets/script.js --output ./assets/script.js $OPTIONS
+          javascript-obfuscator ./auth.js --output ./auth.js $OPTIONS
+          javascript-obfuscator ./layout.js --output ./layout.js $OPTIONS
+          javascript-obfuscator ./assets/youtube-noads-2.0-final.js --output ./assets/youtube-noads-2.0-final.js $OPTIONS
+          javascript-obfuscator ./assets/js/main.js --output ./assets/js/main.js $OPTIONS
+
+      - name: Setup Git Config
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+
+      - name: Force Push to Main
+        run: |
+          # Environment is now encrypted. Push to main.
+          git --work-tree=. add .
+          git commit -m "Deploy: Encrypted build from dev-clean"
+          git push origin HEAD:main --force
