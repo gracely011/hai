@@ -1,3 +1,6 @@
+// 0. INIT CHECK
+console.log('Extensions Script Loaded');
+
 // 0. REDIRECT BLOCKER FOR LOCAL DEVELOPMENT
 (function () {
     try {
