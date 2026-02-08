@@ -27,15 +27,24 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Obfuscate JavaScript
+        run: |
+          npm install -g javascript-obfuscator
+          javascript-obfuscator ./assets/script.js --output ./assets/script.js --compact true --self-defending true --disable-console-output true --debug-protection true --debug-protection-interval 4000
+          # Add other files here if needed, e.g.:
+          # javascript-obfuscator ./assets/youtube-noads-2.0-final.js --output ./assets/youtube-noads-2.0-final.js
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload seluruh isi folder
           path: '.'
-          
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
