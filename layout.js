@@ -613,5 +613,560 @@ async function initializeWebsiteAnnouncement() {
 }
 
 
-document.addEventListener("DOMContentLoaded", loadLayout);
+// =============================================
+// === PAGE-SPECIFIC SCRIPTS (Consolidated) ===
+// =============================================
+
+/**
+ * 1. 3D Text Effect - Used in 404.html, blocked.html, maintenance.html
+ */
+function init3DTextEffect() {
+  const textElement = document.getElementById('text-3d');
+  if (!textElement) return;
+  
+  const maxRotation = 90;
+
+  document.addEventListener('mousemove', (e) => {
+    const { clientX, clientY } = e;
+    const { innerWidth, innerHeight } = window;
+
+    const x = (clientX / innerWidth) - 0.5;
+    const y = (clientY / innerHeight) - 0.5;
+
+    const rotateY = x * (maxRotation * 2);
+    const rotateX = -y * (maxRotation * 2);
+
+    textElement.style.transform = `rotateY(${rotateY}deg) rotateX(${rotateX}deg)`;
+  });
+
+  document.addEventListener('mouseleave', () => {
+    textElement.style.transform = 'rotateY(0deg) rotateX(0deg)';
+  });
+}
+
+/**
+ * 2. Dashboard: Plan Status Display
+ */
+function initDashboardPlanStatus() {
+  const planSection = document.getElementById('plan-status-section');
+  if (!planSection) return;
+
+  function formatExactUTC(dateString) {
+    if (!dateString) return '';
+    const date = new Date(dateString);
+    const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    const monthName = months[date.getMonth()];
+    const day = String(date.getDate()).padStart(2, '0');
+    const year = date.getFullYear();
+    const hours = String(date.getHours()).padStart(2, '0');
+    const minutes = String(date.getMinutes()).padStart(2, '0');
+    const seconds = String(date.getSeconds()).padStart(2, '0');
+    const cleanDate = `${monthName} ${day}, ${year} ${hours}:${minutes}:${seconds}`;
+    const offsetMinutes = date.getTimezoneOffset();
+    const offsetHours = -(offsetMinutes / 60);
+    const sign = offsetHours >= 0 ? '+' : '-';
+    const absOffset = Math.abs(offsetHours);
+    const timezoneString = `(UTC ${sign}${absOffset})`;
+    return `${cleanDate} ${timezoneString}`;
+  }
+
+  const isPremium = localStorage.getItem('isPremium') === 'true';
+  const planName = localStorage.getItem('userPlanName') || 'No Premium';
+  const planNumber = localStorage.getItem('userPlanNumber') || '001';
+
+  let planHTML = '';
+  try {
+    if (isPremium) {
+      const datePremium = localStorage.getItem('premiumExpiryDate');
+      const datePro = localStorage.getItem('proExpiryDate');
+      const datePhantom = localStorage.getItem('phantomExpiryDate');
+
+      const safeFormat = (dateStr) => {
+        try {
+          if (!dateStr || dateStr === 'null' || dateStr === 'undefined') return null;
+          const d = new Date(dateStr);
+          if (isNaN(d.getTime())) return null;
+          return formatExactUTC(dateStr);
+        } catch (e) { return null; }
+      };
+
+      planHTML = `
+        <div class="menu-section">
+          <div class="menu-section-mini-header">Your plan</div>
+          <img src="assets/images/logo/gracely_mobile_white.png" alt="Logo" id="logo" class="top-right-image">
+          <div class="${planNumber === '004' ? 'menu-section-plan-phantomwitcher' : 'menu-section-plan-premium'}">${planName}</div>
+          <div class="menu-section-plan-description">`;
+
+      let hasShownDate = false;
+      const fmtPremium = safeFormat(datePremium);
+      if (fmtPremium) { planHTML += `<div>Your <b>Premium</b> is valid until ${fmtPremium}.</div>`; hasShownDate = true; }
+      const fmtPro = safeFormat(datePro);
+      if (fmtPro) { planHTML += `<div>Your <b>Pro</b> is valid until ${fmtPro}.</div>`; hasShownDate = true; }
+      const fmtPhantom = safeFormat(datePhantom);
+      if (fmtPhantom) { planHTML += `<div>Your <b>The Phantom</b> is valid until ${fmtPhantom}.</div>`; hasShownDate = true; }
+      if (!hasShownDate) { planHTML += `<div>Active</div>`; }
+
+      planHTML += `</div></div>`;
+    } else {
+      planHTML = `
+        <div class="menu-section">
+          <div class="menu-section-mini-header">Your plan</div>
+          <img src="assets/images/logo/gracely_mobile_white.png" alt="Logo" id="logo" class="top-right-image">
+          <div class="menu-section-plan-free">${planName}</div>
+          <div class="menu-section-plan-description">Premium is required to access Gracely Extension.</div>
+        </div>`;
+    }
+  } catch (err) {
+    console.error("Dashboard Render Critical Error:", err);
+    planHTML = `<div class="menu-section" style="color:red">Error loading plan info. Check console.</div>`;
+  }
+  planSection.innerHTML = planHTML;
+}
+
+/**
+ * 3. Dashboard: Video Modals
+ */
+function initVideoModals() {
+  const modals = [
+    { btn: 'openModalBtn', modal: 'videoModal', video: 'videoElement' },
+    { btn: 'openModalBtnKiwi', modal: 'videoModalKiwi', video: 'videoElementKiwi' },
+    { btn: 'openModalBtnOrion', modal: 'videoModalOrion', video: 'videoElementOrion' }
+  ];
+
+  modals.forEach(({ btn, modal, video }) => {
+    const btnEl = document.getElementById(btn);
+    const modalEl = document.getElementById(modal);
+    const videoEl = document.getElementById(video);
+    if (!btnEl || !modalEl) return;
+
+    btnEl.addEventListener('click', () => { modalEl.style.display = 'flex'; });
+    modalEl.addEventListener('click', (e) => {
+      if (e.target === modalEl) {
+        modalEl.style.display = 'none';
+        if (videoEl) videoEl.pause();
+      }
+    });
+  });
+}
+
+/**
+ * 4. Activity Logs Page
+ */
+async function initActivityLogsPage() {
+  const tableBody = document.getElementById('logs-table-body');
+  const loader = document.getElementById('table-loader');
+  const modal = document.getElementById('ipModal');
+  const modalCloseBtn = document.getElementById('modal-close-btn');
+  if (!tableBody || !modal) return;
+
+  if (modalCloseBtn) modalCloseBtn.onclick = () => { modal.style.display = 'none'; };
+  window.onclick = (event) => { if (event.target == modal) modal.style.display = 'none'; };
+
+  try {
+    if (typeof getUserId !== 'function' || typeof supabaseClient === 'undefined') return;
+    const userId = await getUserId();
+    if (!userId) { if (loader) loader.textContent = 'Gagal memuat log: Pengguna tidak ditemukan.'; return; }
+
+    const { data, error } = await supabaseClient
+      .from('activity_logs')
+      .select('*')
+      .eq('user_id', userId)
+      .order('created_at', { ascending: false })
+      .limit(10);
+
+    if (error) throw error;
+    if (data.length === 0) { if (loader) loader.textContent = 'No activity logs found.'; return; }
+
+    tableBody.innerHTML = '';
+    data.forEach(log => {
+      const row = document.createElement('tr');
+      const d = new Date(log.created_at);
+      const formattedDate = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')} ${String(d.getHours()).padStart(2, '0')}:${String(d.getMinutes()).padStart(2, '0')}:${String(d.getSeconds()).padStart(2, '0')}`;
+
+      const cellDate = document.createElement('td'); cellDate.textContent = formattedDate; row.appendChild(cellDate);
+      const cellActivity = document.createElement('td'); cellActivity.textContent = log.activity; row.appendChild(cellActivity);
+
+      const cellIp = document.createElement('td');
+      const ipSpan = document.createElement('span');
+      ipSpan.textContent = log.ip_address;
+      ipSpan.className = 'ip-hover';
+      ipSpan.onclick = () => {
+        document.getElementById('modal-ip').textContent = log.ip_address;
+        document.getElementById('modal-location').textContent = log.isp_info?.location || 'N/A';
+        document.getElementById('modal-isp').textContent = log.isp_info?.isp || 'N/A';
+        modal.style.display = 'flex';
+      };
+      cellIp.appendChild(ipSpan);
+      row.appendChild(cellIp);
+
+      const cellDevice = document.createElement('td');
+      const deviceString = log.device || "Unknown";
+      let simpleDevice = "Unknown";
+      if (deviceString.includes("Windows")) simpleDevice = "windows";
+      else if (deviceString.includes("Macintosh")) simpleDevice = "mac";
+      else if (deviceString.includes("Android")) simpleDevice = "android";
+      else if (deviceString.includes("iPhone") || deviceString.includes("iPad")) simpleDevice = "ios";
+      else if (deviceString.includes("Linux")) simpleDevice = "linux";
+
+      let browser = "unknown";
+      if (deviceString.includes("Chrome/") && !deviceString.includes("Edg/")) browser = "chrome";
+      else if (deviceString.includes("Firefox/")) browser = "firefox";
+      else if (deviceString.includes("Edg/")) browser = "edge";
+      else if (deviceString.includes("Safari/") && !deviceString.includes("Chrome/")) browser = "safari";
+
+      const chromeVersionMatch = deviceString.match(/Chrome\/(\d+)/);
+      let version = "";
+      if (browser === "chrome" && chromeVersionMatch) version = "." + chromeVersionMatch[1] + ".0";
+      cellDevice.textContent = `${simpleDevice}.${browser}${version}`;
+      row.appendChild(cellDevice);
+      tableBody.appendChild(row);
+    });
+  } catch (error) {
+    console.error('Error fetching logs:', error.message);
+    if (loader) { loader.style.color = 'red'; loader.textContent = 'Gagal memuat log: ' + error.message; }
+  }
+}
+
+/**
+ * 5. Manual Page: URL Params + Copy
+ */
+function initManualPage() {
+  const params = new URLSearchParams(window.location.search);
+  const serviceName = params.get("name");
+  const loginEmail = params.get("login");
+  const loginPassword = params.get("password");
+  const loginExtra = params.get("extra");
+  const loginUrl = params.get("url");
+
+  if (serviceName) {
+    document.title = serviceName + " | Gracely";
+    const titleElement = document.getElementById("page-title-h1");
+    if (titleElement) titleElement.textContent = serviceName;
+  }
+  if (loginEmail) { const el = document.getElementById("login"); if (el) el.value = loginEmail; }
+  if (loginPassword) { const el = document.getElementById("password"); if (el) el.value = loginPassword; }
+  if (loginExtra) {
+    const extraContainer = document.getElementById("extra-container");
+    const extraElement = document.getElementById("extra");
+    if (extraElement) extraElement.value = loginExtra;
+    if (extraContainer) extraContainer.style.display = "block";
+  }
+  if (loginUrl) { const el = document.getElementById("manual-login-link"); if (el) el.href = loginUrl; }
+}
+
+/**
+ * 6. Copy to Clipboard Utility
+ */
+function copyToClipboard(elementId) {
+  const copyText = document.getElementById(elementId);
+  if (!copyText) return;
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+  try { document.execCommand("copy"); } catch (err) { console.error("Gagal menyalin teks: ", err); }
+}
+
+/**
+ * 7. Password Page Handler
+ */
+function initPasswordPage() {
+  const form = document.getElementById('update-password-form');
+  const newPasswordInput = document.getElementById('new-password');
+  const confirmPasswordInput = document.getElementById('confirm-password');
+  const updateButton = document.getElementById('update-button');
+  const messageElement = document.getElementById('update-message');
+  if (!form) return;
+
+  form.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const newPassword = newPasswordInput.value;
+    const confirmPassword = confirmPasswordInput.value;
+
+    if (newPassword !== confirmPassword) {
+      messageElement.textContent = 'Kata sandi tidak cocok.';
+      messageElement.style.color = 'red';
+      return;
+    }
+    if (newPassword.length < 6) {
+      messageElement.textContent = 'Kata sandi minimal harus 6 karakter.';
+      messageElement.style.color = 'red';
+      return;
+    }
+
+    messageElement.textContent = '';
+    updateButton.disabled = true;
+    updateButton.innerHTML = 'Memperbarui...';
+
+    if (typeof updateUserPassword === 'function') {
+      const result = await updateUserPassword(newPassword);
+      messageElement.textContent = result.message;
+      if (result.success) {
+        messageElement.style.color = 'green';
+        setTimeout(() => { window.location.href = 'login.html'; }, 3000);
+      } else {
+        messageElement.style.color = 'red';
+        updateButton.disabled = false;
+        updateButton.innerHTML = 'Ubah Kata Sandi';
+      }
+    } else {
+      messageElement.textContent = 'Error: Fungsi auth.js tidak dimuat.';
+      messageElement.style.color = 'red';
+    }
+  });
+
+  async function checkSession() {
+    if (typeof supabaseClient === 'undefined') return;
+    const { data: { session } } = await supabaseClient.auth.getSession();
+    if (!session) {
+      messageElement.textContent = 'Sesi reset kadaluarsa atau tidak valid. Silakan ulangi proses reset password.';
+      messageElement.style.color = 'red';
+      form.style.display = 'none';
+    } else {
+      messageElement.textContent = 'Sesi aktif. Silakan masukkan kata sandi baru Anda.';
+      messageElement.style.color = 'blue';
+    }
+  }
+  checkSession();
+}
+
+/**
+ * 8. Profile Page Handler
+ */
+function initProfilePage() {
+  const form = document.getElementById('update-profile-form');
+  const nameInput = document.getElementById('profile-name');
+  const emailInput = document.getElementById('profile-email');
+  const updateButton = document.getElementById('update-button');
+  const messageElement = document.getElementById('update-message');
+  if (!form) return;
+
+  async function loadUserData() {
+    try {
+      if (typeof supabaseClient === 'undefined') return;
+      const { data: { user }, error } = await supabaseClient.auth.getUser();
+      if (error || !user) {
+        messageElement.textContent = 'Sesi berakhir. Silakan login ulang.';
+        messageElement.style.color = 'red';
+        setTimeout(() => { window.location.href = 'login.html'; }, 2000);
+        return;
+      }
+      const storedName = localStorage.getItem('userName');
+      nameInput.value = storedName || user.user_metadata?.full_name || '';
+      emailInput.value = user.email || '';
+    } catch (e) {
+      console.error('Error loading user data:', e);
+      messageElement.textContent = 'Gagal memuat data profil.';
+      messageElement.style.color = 'red';
+    }
+  }
+  loadUserData();
+
+  form.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const newName = nameInput.value.trim();
+    if (!newName) {
+      messageElement.textContent = 'Nama tidak boleh kosong.';
+      messageElement.style.color = 'red';
+      return;
+    }
+
+    messageElement.textContent = '';
+    updateButton.disabled = true;
+    updateButton.innerHTML = 'Menyimpan...';
+
+    if (typeof updateUserName === 'function') {
+      const result = await updateUserName(newName);
+      messageElement.textContent = result.message;
+      messageElement.style.color = result.success ? 'green' : 'red';
+    } else {
+      messageElement.textContent = 'Error: Fungsi auth.js tidak dimuat.';
+      messageElement.style.color = 'red';
+    }
+    updateButton.disabled = false;
+    updateButton.innerHTML = 'Simpan Profil';
+  });
+}
+
+/**
+ * 9. Reset Password Page Handler
+ */
+function initResetPage() {
+  const resetForm = document.getElementById('reset-form');
+  const emailInput = document.getElementById('email-input');
+  const resetButton = document.getElementById('reset-button');
+  const messageElement = document.getElementById('reset-message');
+  if (!resetForm) return;
+
+  resetForm.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const email = emailInput.value.trim();
+    if (!email) {
+      messageElement.textContent = 'Harap masukkan email Anda.';
+      messageElement.style.color = 'red';
+      return;
+    }
+
+    messageElement.textContent = '';
+    resetButton.disabled = true;
+    resetButton.innerHTML = 'Mengirim...';
+
+    if (typeof sendPasswordResetEmail === 'function') {
+      const result = await sendPasswordResetEmail(email);
+      messageElement.textContent = result.message;
+      messageElement.style.color = result.success ? 'green' : 'red';
+    }
+    resetButton.disabled = false;
+    resetButton.innerHTML = 'Kirim tautan reset';
+  });
+}
+
+/**
+ * 10. Signup Page Handler
+ */
+function initSignupPage() {
+  // Email suggestion logic
+  const emailDomains = ["gmail.com", "yahoo.com", "hotmail.com", "outlook.com", "aol.com", "icloud.com", "live.com", "msn.com"];
+  const emailInput = document.getElementById("email");
+  const suggestionEl = document.getElementById("email-suggestion");
+
+  function levenshtein(a, b) {
+    const matrix = [];
+    for (let i = 0; i <= b.length; i++) matrix[i] = [i];
+    for (let j = 0; j <= a.length; j++) matrix[0][j] = j;
+    for (let i = 1; i <= b.length; i++) {
+      for (let j = 1; j <= a.length; j++) {
+        if (b.charAt(i - 1) === a.charAt(j - 1)) matrix[i][j] = matrix[i - 1][j - 1];
+        else matrix[i][j] = Math.min(matrix[i - 1][j - 1] + 1, matrix[i][j - 1] + 1, matrix[i - 1][j] + 1);
+      }
+    }
+    return matrix[b.length][a.length];
+  }
+
+  if (emailInput && suggestionEl) {
+    emailInput.addEventListener("blur", function() {
+      const value = this.value.trim();
+      suggestionEl.innerHTML = "";
+      if (!value.includes("@")) return;
+      const [user, domain] = value.split("@");
+      if (domain) {
+        let closest = null, minDist = Infinity;
+        for (const d of emailDomains) {
+          const dist = levenshtein(domain.toLowerCase(), d);
+          if (dist < minDist && dist <= 2) { minDist = dist; closest = d; }
+        }
+        if (closest && closest !== domain) {
+          const suggested = `${user}@${closest}`;
+          suggestionEl.innerHTML = `Did you mean <a href="#" style="text-decoration: underline; font-weight: bold; color: #000000;">${suggested}</a>?`;
+          suggestionEl.querySelector("a").addEventListener("click", (e) => {
+            e.preventDefault();
+            emailInput.value = suggested;
+            suggestionEl.innerHTML = "";
+          });
+        }
+      }
+    });
+  }
+
+  // Signup form handler
+  const signupForm = document.getElementById('reCAPTCHA');
+  if (!signupForm || window.location.pathname.includes('premium')) return; // Skip if premium page
+
+  signupForm.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const name = signupForm.querySelector('input[name="name"]')?.value;
+    const email = signupForm.querySelector('input[name="email"]')?.value;
+    const password = signupForm.querySelector('input[name="password"]')?.value;
+    const confirmPassword = signupForm.querySelector('input[name="confirm_password"]')?.value;
+
+    let errorMessage = document.getElementById("error-message");
+    if (!errorMessage) {
+      errorMessage = document.createElement('p');
+      errorMessage.id = 'error-message';
+      errorMessage.style.color = 'red';
+      errorMessage.style.marginTop = '15px';
+      signupForm.parentNode?.insertBefore(errorMessage, signupForm.nextSibling);
+    }
+    errorMessage.textContent = '';
+
+    if (!name || !email || !password) { errorMessage.textContent = 'Semua kolom harus diisi!'; return; }
+    if (password !== confirmPassword) { errorMessage.textContent = 'Password tidak cocok!'; return; }
+
+    const submitButton = signupForm.querySelector('button[type="submit"]');
+    submitButton.disabled = true;
+    submitButton.innerHTML = 'Mendaftar...';
+
+    if (typeof signup === 'function') {
+      const result = await signup(name, email, password);
+      if (result.success) {
+        alert('Pendaftaran berhasil! Silakan langsung Login.');
+        window.location.href = 'login.html';
+      } else {
+        let message = result.message;
+        if (message.includes("violates row-level security policy") || message.includes("duplicate key value")) {
+          alert('Pendaftaran berhasil! Silakan langsung Login.');
+          window.location.href = 'login.html';
+          return;
+        }
+        if (message.includes("User already registered")) message = "Akun dengan email ini sudah terdaftar. Silakan Log in.";
+        errorMessage.textContent = 'Error: ' + message;
+        submitButton.disabled = false;
+        submitButton.innerHTML = 'Sign up';
+      }
+    }
+  });
+}
+
+/**
+ * 11. reCAPTCHA Submit Callback (untuk premium.html)
+ */
+function onSubmit(token) {
+  const form = document.getElementById("reCAPTCHA");
+  if (form && window.location.pathname.includes('premium')) form.submit();
+}
+
+/**
+ * Page Router - Inisialisasi script berdasarkan halaman
+ */
+function initPageScripts() {
+  const path = window.location.pathname;
+  const page = path.split('/').pop() || 'index.html';
+
+  switch(page) {
+    case '404.html':
+    case 'blocked.html':
+    case 'maintenance.html':
+      init3DTextEffect();
+      break;
+    case 'dashboard.html':
+      initDashboardPlanStatus();
+      initVideoModals();
+      break;
+    case 'logs.html':
+      initActivityLogsPage();
+      break;
+    case 'manual.html':
+      initManualPage();
+      break;
+    case 'password.html':
+      initPasswordPage();
+      break;
+    case 'profile.html':
+      initProfilePage();
+      break;
+    case 'reset.html':
+      initResetPage();
+      break;
+    case 'signup.html':
+      initSignupPage();
+      break;
+  }
+}
+
+// =============================================
+// === END PAGE-SPECIFIC SCRIPTS ===
+// =============================================
+
+document.addEventListener("DOMContentLoaded", () => {
+  loadLayout();
+  initPageScripts();
+});
 
