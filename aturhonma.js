@@ -304,6 +304,8 @@ const gracelyConfig = {
     guardName: "Gracely Guard",
     requiredGuardVersion: "1.0.3",
     onVersionMismatchUrl: "https://gracely011.github.io/hai/update.html",
-    sharedVerificationCode: "Mazmur_94_:_17"
+    sharedVerificationCode: "Mazmur_94_:_17",
+    updateUrl: "https://gracely011.github.io/hai/dashboard.html",
+    updateMessageHTML: "<div class='notificationModal-content'><h2 style='margin: 0 0 16px 0; text-align: center; color: #000; font-size: 22px; border-bottom: 3px solid #000; padding-bottom: 8px;'>Update Required</h2><div style='padding: 12px; border-radius: 8px; margin-bottom: 10px;'><p style='margin: 6px 0; font-size: 14px; text-align: center; color: #333;'>Versi ekstensi atau guard Anda sudah usang.</p><p style='margin: 6px 0; font-size: 14px; text-align: center; color: #333;'>Mohon lakukan pembaruan untuk melanjutkan akses layanan.</p></div><div style='display:none;'><span id='update-countdown'>30</span></div><button class='ud-main-btn' id='btn-update-now' style='width: auto; min-width: 120px; border-radius: 8px; background-color: #000; padding: 10px 30px;'>Update Now</button></div>"
   }
 };
