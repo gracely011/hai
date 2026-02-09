@@ -1,4 +1,5 @@
 const gracelyConfig = {
+  // Config Version: 2.2.1 (Pure JS Decrypted)
   blockedUrlPatterns: [
     "*academia.edu/logout*",
     "*beinsports.com/api/logout*",
