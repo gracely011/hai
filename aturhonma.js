@@ -208,45 +208,83 @@ const gracelyConfig = {
                  <p style='margin: 6px 0; font-size: 14px;'>Jika kamu mengalami pesan error: <b>"Detected unusual activity"</b>, silahkan gunakan akun lain atau gunakan alternatif seperti <b>Sider/NoteGPT/You/Merlin</b>.</p>
                  <p style='margin: 6px 0; font-size: 14px;'>Jika model o1 sedang limit, kamu tetap dapat menggunakan model 4o.</p>
                </div>
-               <button class='ud-main-btn' id='notification-ok' style='width: 100%; background: #10a37f; color: white;'>Saya Mengerti (Custom)</button>`
+               <button class='ud-main-btn' id='notification-ok' style='width: 100%; background: #10a37f; color: white;'>Oke Lae</button>`
       },
       "freepik-group-id": {
-        title: "Informasi",
-        content: "<p>Jika kamu ingin mengunduh file <b>.mv</b> atau <b>.mp4</b>, gunakan <b>Freepik 2-3</b></p><p><b>Freepik 1</b> (Server 1-10 digunakan untuk mengunduh tipe file jpg, png, tidak untuk mengunduh icon / video)</p>"
+        html: `<i class='fa fa-times close-icon' id='notification-close'></i>
+               <h2 style='margin: 0 0 16px 0; text-align: center; color: #2c3e50; font-size: 22px; border-bottom: 3px solid #333333; padding-bottom: 8px;'>Informasi</h2>
+               <div style='background: #f8f9fa; padding: 12px; border-radius: 8px; margin-bottom: 10px;'>
+                 <p>Jika kamu ingin mengunduh file <b>.mv</b> atau <b>.mp4</b>, gunakan <b>Freepik 2-3</b></p>
+                 <p><b>Freepik 1</b> (Server 1-10 digunakan untuk mengunduh tipe file jpg, png, tidak untuk mengunduh icon / video)</p>
+               </div>
+               <button class='ud-main-btn' id='notification-ok' style='width: 100%; background: #10a37f; color: white;'>Oke Lae</button>`
       },
       "canva-group-id": {
-        title: "Informasi",
-        content: "<p>Silakan undang email pribadi kamu untuk bergabung dengan team Canva. Jika sudah penuh, mohon laporkan melalui Telegram.</p>"
+        html: `<i class='fa fa-times close-icon' id='notification-close'></i>
+               <h2 style='margin: 0 0 16px 0; text-align: center; color: #2c3e50; font-size: 22px; border-bottom: 3px solid #333333; padding-bottom: 8px;'>Informasi</h2>
+               <div style='background: #f8f9fa; padding: 12px; border-radius: 8px; margin-bottom: 10px;'>
+                 <p>Silakan undang email pribadi kamu untuk bergabung dengan team Canva. Jika sudah penuh, mohon laporkan melalui Telegram.</p>
+               </div>
+               <button class='ud-main-btn' id='notification-ok' style='width: 100%; background: #10a37f; color: white;'>Oke Lae</button>`
       },
       "procapcut-group-id": {
-        title: "Informasi",
-        content: "<p>CapCut pada Pro menggunakan CapCut Teams. Fitur Pro dapat dinikmati melalui manual login pada mobile &amp; desktop app CapCut.</p>"
+        html: `<i class='fa fa-times close-icon' id='notification-close'></i>
+               <h2 style='margin: 0 0 16px 0; text-align: center; color: #2c3e50; font-size: 22px; border-bottom: 3px solid #333333; padding-bottom: 8px;'>Informasi</h2>
+               <div style='background: #f8f9fa; padding: 12px; border-radius: 8px; margin-bottom: 10px;'>
+                 <p>CapCut pada Pro menggunakan CapCut Teams. Fitur Pro dapat dinikmati melalui manual login pada mobile &amp; desktop app CapCut.</p>
+               </div>
+               <button class='ud-main-btn' id='notification-ok' style='width: 100%; background: #10a37f; color: white;'>Oke Lae</button>`
       },
       "canva-pro-group-id": {
-        title: "Informasi",
-        content: "<p>Silakan undang email pribadi kamu untuk bergabung dengan team Canva. Jika sudah penuh, mohon laporkan melalui Telegram.</p>"
+        html: `<i class='fa fa-times close-icon' id='notification-close'></i>
+               <h2 style='margin: 0 0 16px 0; text-align: center; color: #2c3e50; font-size: 22px; border-bottom: 3px solid #333333; padding-bottom: 8px;'>Informasi</h2>
+               <div style='background: #f8f9fa; padding: 12px; border-radius: 8px; margin-bottom: 10px;'>
+                 <p>Silakan undang email pribadi kamu untuk bergabung dengan team Canva. Jika sudah penuh, mohon laporkan melalui Telegram.</p>
+               </div>
+               <button class='ud-main-btn' id='notification-ok' style='width: 100%; background: #10a37f; color: white;'>Oke Lae</button>`
       },
       "getmerlin.in-group-id": {
-        title: "Merlin AI",
-        content: "<p><b>22/01/2026</b> Merlin sudah diperbarui.</p>"
+        html: `<i class='fa fa-times close-icon' id='notification-close'></i>
+               <h2 style='margin: 0 0 16px 0; text-align: center; color: #2c3e50; font-size: 22px; border-bottom: 3px solid #333333; padding-bottom: 8px;'>Merlin AI</h2>
+               <div style='background: #f8f9fa; padding: 12px; border-radius: 8px; margin-bottom: 10px;'>
+                 <p><b>22/01/2026</b> Merlin sudah diperbarui.</p>
+               </div>
+               <button class='ud-main-btn' id='notification-ok' style='width: 100%; background: #10a37f; color: white;'>Oke Lae</button>`
       },
       "claude-group-id": {
-        title: "Claude",
-        content: "<p><img src=\"https://i.ibb.co.com/Vptr5NxB/c613db4c-71ff-44f1-8110-797054a43f5e.jpg\" width=\"90%\"></p> <p>Kamu tetap dapat melakukan akses ke Claude via Merlin AI [Diperbarui <b>22/01/2026</b>]</p>"
+        html: `<i class='fa fa-times close-icon' id='notification-close'></i>
+               <h2 style='margin: 0 0 16px 0; text-align: center; color: #2c3e50; font-size: 22px; border-bottom: 3px solid #333333; padding-bottom: 8px;'>Claude</h2>
+               <div style='background: #f8f9fa; padding: 12px; border-radius: 8px; margin-bottom: 10px;'>
+                 <p><img src="https://i.ibb.co.com/Vptr5NxB/c613db4c-71ff-44f1-8110-797054a43f5e.jpg" width="90%"></p>
+                 <p>Kamu tetap dapat melakukan akses ke Claude via Merlin AI [Diperbarui <b>22/01/2026</b>]</p>
+               </div>
+               <button class='ud-main-btn' id='notification-ok' style='width: 100%; background: #10a37f; color: white;'>Oke Lae</button>`
       },
       "perplexity-group-id": {
-        title: "Perplexity",
-        content: "<p>Jika Perpexity <b>tidak terlogin-login</b>, silahkan lakukan akses ulang sampai terlogin.</p>"
+        html: `<i class='fa fa-times close-icon' id='notification-close'></i>
+               <h2 style='margin: 0 0 16px 0; text-align: center; color: #2c3e50; font-size: 22px; border-bottom: 3px solid #333333; padding-bottom: 8px;'>Perplexity</h2>
+               <div style='background: #f8f9fa; padding: 12px; border-radius: 8px; margin-bottom: 10px;'>
+                 <p>Jika Perpexity <b>tidak terlogin-login</b>, silahkan lakukan akses ulang sampai terlogin.</p>
+               </div>
+               <button class='ud-main-btn' id='notification-ok' style='width: 100%; background: #10a37f; color: white;'>Oke Lae</button>`
       },
       "wetv-group-id": {
-        title: "WeTV",
-        content: "<p>Jika WeTV tidak VIP, silahkan tunggu 5 detik lalu lakukan refresh pada browser yang kamu gunakan.</p>"
+        html: `<i class='fa fa-times close-icon' id='notification-close'></i>
+               <h2 style='margin: 0 0 16px 0; text-align: center; color: #2c3e50; font-size: 22px; border-bottom: 3px solid #333333; padding-bottom: 8px;'>WeTV</h2>
+               <div style='background: #f8f9fa; padding: 12px; border-radius: 8px; margin-bottom: 10px;'>
+                 <p>Jika WeTV tidak VIP, silahkan tunggu 5 detik lalu lakukan refresh pada browser yang kamu gunakan.</p>
+               </div>
+               <button class='ud-main-btn' id='notification-ok' style='width: 100%; background: #10a37f; color: white;'>Oke Lae</button>`
       },
       "prime-video-group-id": {
-        title: "Info Prime Video",
-        content: "<p>Jika Prime Video meminta PIN, masukan <b>'12345'</b></p>"
+        html: `<i class='fa fa-times close-icon' id='notification-close'></i>
+               <h2 style='margin: 0 0 16px 0; text-align: center; color: #2c3e50; font-size: 22px; border-bottom: 3px solid #333333; padding-bottom: 8px;'>Info Prime Video</h2>
+               <div style='background: #f8f9fa; padding: 12px; border-radius: 8px; margin-bottom: 10px;'>
+                 <p>Jika Prime Video meminta PIN, masukan <b>'12345'</b></p>
+               </div>
+               <button class='ud-main-btn' id='notification-ok' style='width: 100%; background: #10a37f; color: white;'>Oke Lae</button>`
       }
-    }
+    },
   },
   maintenanceMode: {
     enabled: true,
