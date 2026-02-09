@@ -65,7 +65,12 @@ async function encryptData(plainDataObj, password) {
         // 1. Process aturhonma.js
         console.log(`Processing: ${PATHS.aturhonma}`);
         if (fs.existsSync(PATHS.aturhonma)) {
-            const fileContent = fs.readFileSync(PATHS.aturhonma, 'utf8');
+            let fileContent = fs.readFileSync(PATHS.aturhonma, 'utf8');
+            
+            // FIX: 'const' variables in VM are not attached to sandbox.
+            // We replace 'const gracelyConfig' with 'gracelyConfig' to make it a global property of sandbox.
+            fileContent = fileContent.replace('const gracelyConfig', 'gracelyConfig');
+
             // Execute JS in sandbox to extract the object
             const sandbox = {};
             vm.createContext(sandbox);
@@ -75,16 +80,15 @@ async function encryptData(plainDataObj, password) {
                 const encrypted = await encryptData(sandbox.gracelyConfig, PASSWORD);
                 
                 // OVERWRITE aturhonma.js with Encrypted JSON
-                // NOTE: This changes it from a JS file to a JSON text file (locally/deployment)
-                // The deployment workflow cleans up, but if run locally it changes the source.
-                // User said "biar jangan ada file baru lagi", implying modification.
                 fs.writeFileSync(PATHS.aturhonma, encrypted, 'utf8');
                 console.log(`✅ Encrypted and overwrote: ${PATHS.aturhonma}`);
             } else {
                 console.error("❌ Could not find 'gracelyConfig' object in aturhonma.js");
+                process.exit(1); // Fail the build
             }
         } else {
             console.warn(`⚠️ File not found: ${PATHS.aturhonma}`);
+            process.exit(1);
         }
 
         // 2. Process whitelist.json
