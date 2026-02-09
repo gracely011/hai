@@ -200,8 +200,15 @@ const gracelyConfig = {
     },
     folderInfo: {
       "chatgpt-group-id": {
-        title: "ChatGPT",
-        content: "<p><img src=\"https://us1.discourse-cdn.com/openai1/original/4X/7/0/1/701493b167007f5ab689eda8f388260e7390abc1.png\" width=\"90%\"></p><p>Jika kamu mengalami pesan error: <b>\"Something went wrong while generating the response\"</b>, cukup hapus cookie dan cache pada browser yang kamu gunakan.</p><p>Jika kamu mengalami pesan error: <b>\"Our system have detected unusual activity from your system\"</b>, silahkan gunakan akun lain atau gunakan alternatif seperti <b>Sider/NoteGPT/You/Merlin</b>.</p><p>Jika model o1 sedang limit, kamu tetap dapat menggunakan model 4o.</p>"
+        html: `<i class='fa fa-times close-icon' id='notification-close'></i>
+               <h2 style='margin: 0 0 16px 0; text-align: center; color: #2c3e50; font-size: 22px; border-bottom: 3px solid #333333; padding-bottom: 8px;'>ChatGPT</h2>
+               <div style='background: #f8f9fa; padding: 12px; border-radius: 8px; margin-bottom: 10px;'>
+                 <p style='text-align: center;'><img src="https://us1.discourse-cdn.com/openai1/original/4X/7/0/1/701493b167007f5ab689eda8f388260e7390abc1.png" width="90%"></p>
+                 <p style='margin: 6px 0; font-size: 14px;'>Jika kamu mengalami pesan error: <b>"Something went wrong while generating the response"</b>, cukup hapus cookie dan cache pada browser yang kamu gunakan.</p>
+                 <p style='margin: 6px 0; font-size: 14px;'>Jika kamu mengalami pesan error: <b>"Detected unusual activity"</b>, silahkan gunakan akun lain atau gunakan alternatif seperti <b>Sider/NoteGPT/You/Merlin</b>.</p>
+                 <p style='margin: 6px 0; font-size: 14px;'>Jika model o1 sedang limit, kamu tetap dapat menggunakan model 4o.</p>
+               </div>
+               <button class='ud-main-btn' id='notification-ok' style='width: 100%; background: #10a37f; color: white;'>Saya Mengerti (Custom)</button>`
       },
       "freepik-group-id": {
         title: "Informasi",
