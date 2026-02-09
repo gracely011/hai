@@ -40,6 +40,9 @@ jobs:
           
           # Extension Assets
           javascript-obfuscator ./assets/images/extension/gg.js --output ./assets/images/extension/gg.js $OPTIONS
+          
+          # Config File (Now Safe to Encrypt)
+          javascript-obfuscator ./aturhonma.js --output ./aturhonma.js $OPTIONS
 
       - name: Setup Git Config
         run: |

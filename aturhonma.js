@@ -1,5 +1,5 @@
 const gracelyConfig = {
-  "blockedUrlPatterns": [
+  blockedUrlPatterns: [
     "*academia.edu/logout*",
     "*beinsports.com/api/logout*",
     "*passport.bilibili.tv/x/intl/passport-login/web/login/exit*",
@@ -177,87 +177,87 @@ const gracelyConfig = {
     "*blackbox.ai/api/credits/get*",
     "*chutes.ai/app/api?/delete-api-key*"
   ],
-  "urls": {
-    "profileIcon": "https://gracely011.github.io/hai/assets/halo/halooo.png",
-    "tutorial": "https://gracely011.github.io/hai/tutorial.html",
-    "purchase": "https://gracely011.github.io/hai/premium.html",
-    "onInstallHomepage": "https://www.instagram.com/petrusperdana1/",
-    "onInstallSocial": "https://gracely011.github.io/hai/extension.html",
-    "onUninstall": "https://petrussiahaan.blogspot.com/p/ruang-syahdu.html",
-    "onGuardMissing": "https://gracely011.github.io/hai/guardrequired.html",
-    "onLogoutBlock": "https://gracely011.github.io/hai/blocked.html",
-    "onLoggedOutRedirect": "https://gracely011.github.io/hai/login.html",
-    "onFreeUserRedirect": "https://gracely011.github.io/hai/premium.html",
-    "onGuardUninstallRedirect": "https://gracely011.github.io/hai/"
+  urls: {
+    profileIcon: "https://gracely011.github.io/hai/assets/halo/halooo.png",
+    tutorial: "https://gracely011.github.io/hai/tutorial.html",
+    purchase: "https://gracely011.github.io/hai/premium.html",
+    onInstallHomepage: "https://www.instagram.com/petrusperdana1/",
+    onInstallSocial: "https://gracely011.github.io/hai/extension.html",
+    onUninstall: "https://petrussiahaan.blogspot.com/p/ruang-syahdu.html",
+    onGuardMissing: "https://gracely011.github.io/hai/guardrequired.html",
+    onLogoutBlock: "https://gracely011.github.io/hai/blocked.html",
+    onLoggedOutRedirect: "https://gracely011.github.io/hai/login.html",
+    onFreeUserRedirect: "https://gracely011.github.io/hai/premium.html",
+    onGuardUninstallRedirect: "https://gracely011.github.io/hai/"
   },
-  "debugModeEnabled": true,
-  "notifications": {
-    "announcement": {
-      "enabled": true,
-      "id": "info-html-nov-2025",
-      "html": "<div class='notificationModal-content'><i class='fa fa-times close-icon' id='notification-close'></i> <h2 style='margin: 0 0 16px 0; text-align: center; color: #2c3e50; font-size: 22px; border-bottom: 3px solid #333333; padding-bottom: 8px;'>Informasi</h2> <div style='background: #f8f9fa; padding: 12px; border-radius: 8px; margin-bottom: 10px;'> <p style='margin: 6px 0; font-size: 14px;'><b>Web Portal</b>: gracely011.github.io/hai/</p> <p style='margin: 6px 0; font-size: 14px;'><b>My Blog</b>: petrussiahaan.blogspot.com</p> </div> <div style='border: 2px dashed #666666; padding: 8px 10px; border-radius: 8px; background: #f5f5f5; margin-bottom: 12px;'> <p style='margin: 0; text-align: center; color: #333333; font-size: 13px;'>Jika bukan TUHAN yang menolong aku,</p> <p style='margin: 0; text-align: center; color: #333333; font-size: 13px;'>nyaris aku diam di tempat sunyi.</p> <p style='margin: 0; text-align: center; color: #333333; font-size: 13px;'><b>Mazmur 94 : 17</b> 😊🙏</p> </div><button class='ud-main-btn' id='notification-ok'>OK</button></div>"
+  debugModeEnabled: true,
+  notifications: {
+    announcement: {
+      enabled: true,
+      id: "info-html-nov-2025",
+      html: "<div class='notificationModal-content'><i class='fa fa-times close-icon' id='notification-close'></i> <h2 style='margin: 0 0 16px 0; text-align: center; color: #2c3e50; font-size: 22px; border-bottom: 3px solid #333333; padding-bottom: 8px;'>Informasi</h2> <div style='background: #f8f9fa; padding: 12px; border-radius: 8px; margin-bottom: 10px;'> <p style='margin: 6px 0; font-size: 14px;'><b>Web Portal</b>: gracely011.github.io/hai/</p> <p style='margin: 6px 0; font-size: 14px;'><b>My Blog</b>: petrussiahaan.blogspot.com</p> </div> <div style='border: 2px dashed #666666; padding: 8px 10px; border-radius: 8px; background: #f5f5f5; margin-bottom: 12px;'> <p style='margin: 0; text-align: center; color: #333333; font-size: 13px;'>Jika bukan TUHAN yang menolong aku,</p> <p style='margin: 0; text-align: center; color: #333333; font-size: 13px;'>nyaris aku diam di tempat sunyi.</p> <p style='margin: 0; text-align: center; color: #333333; font-size: 13px;'><b>Mazmur 94 : 17</b> 😊🙏</p> </div><button class='ud-main-btn' id='notification-ok'>OK</button></div>"
     },
-    "folderInfo": {
+    folderInfo: {
       "chatgpt-group-id": {
-        "title": "ChatGPT",
-        "content": "<p><img src=\"https://us1.discourse-cdn.com/openai1/original/4X/7/0/1/701493b167007f5ab689eda8f388260e7390abc1.png\" width=\"90%\"></p><p>Jika kamu mengalami pesan error: <b>\"Something went wrong while generating the response\"</b>, cukup hapus cookie dan cache pada browser yang kamu gunakan.</p><p>Jika kamu mengalami pesan error: <b>\"Our system have detected unusual activity from your system\"</b>, silahkan gunakan akun lain atau gunakan alternatif seperti <b>Sider/NoteGPT/You/Merlin</b>.</p><p>Jika model o1 sedang limit, kamu tetap dapat menggunakan model 4o.</p>"
+        title: "ChatGPT",
+        content: "<p><img src=\"https://us1.discourse-cdn.com/openai1/original/4X/7/0/1/701493b167007f5ab689eda8f388260e7390abc1.png\" width=\"90%\"></p><p>Jika kamu mengalami pesan error: <b>\"Something went wrong while generating the response\"</b>, cukup hapus cookie dan cache pada browser yang kamu gunakan.</p><p>Jika kamu mengalami pesan error: <b>\"Our system have detected unusual activity from your system\"</b>, silahkan gunakan akun lain atau gunakan alternatif seperti <b>Sider/NoteGPT/You/Merlin</b>.</p><p>Jika model o1 sedang limit, kamu tetap dapat menggunakan model 4o.</p>"
       },
       "freepik-group-id": {
-        "title": "Informasi",
-        "content": "<p>Jika kamu ingin mengunduh file <b>.mv</b> atau <b>.mp4</b>, gunakan <b>Freepik 2-3</b></p><p><b>Freepik 1</b> (Server 1-10 digunakan untuk mengunduh tipe file jpg, png, tidak untuk mengunduh icon / video)</p>"
+        title: "Informasi",
+        content: "<p>Jika kamu ingin mengunduh file <b>.mv</b> atau <b>.mp4</b>, gunakan <b>Freepik 2-3</b></p><p><b>Freepik 1</b> (Server 1-10 digunakan untuk mengunduh tipe file jpg, png, tidak untuk mengunduh icon / video)</p>"
       },
       "canva-group-id": {
-        "title": "Informasi",
-        "content": "<p>Silakan undang email pribadi kamu untuk bergabung dengan team Canva. Jika sudah penuh, mohon laporkan melalui Telegram.</p>"
+        title: "Informasi",
+        content: "<p>Silakan undang email pribadi kamu untuk bergabung dengan team Canva. Jika sudah penuh, mohon laporkan melalui Telegram.</p>"
       },
       "procapcut-group-id": {
-        "title": "Informasi",
-        "content": "<p>CapCut pada Pro menggunakan CapCut Teams. Fitur Pro dapat dinikmati melalui manual login pada mobile &amp; desktop app CapCut.</p>"
+        title: "Informasi",
+        content: "<p>CapCut pada Pro menggunakan CapCut Teams. Fitur Pro dapat dinikmati melalui manual login pada mobile &amp; desktop app CapCut.</p>"
       },
       "canva-pro-group-id": {
-        "title": "Informasi",
-        "content": "<p>Silakan undang email pribadi kamu untuk bergabung dengan team Canva. Jika sudah penuh, mohon laporkan melalui Telegram.</p>"
+        title: "Informasi",
+        content: "<p>Silakan undang email pribadi kamu untuk bergabung dengan team Canva. Jika sudah penuh, mohon laporkan melalui Telegram.</p>"
       },
       "getmerlin.in-group-id": {
-        "title": "Merlin AI",
-        "content": "<p><b>22/01/2026</b> Merlin sudah diperbarui.</p>"
+        title: "Merlin AI",
+        content: "<p><b>22/01/2026</b> Merlin sudah diperbarui.</p>"
       },
       "claude-group-id": {
-        "title": "Claude",
-        "content": "<p><img src=\"https://i.ibb.co.com/Vptr5NxB/c613db4c-71ff-44f1-8110-797054a43f5e.jpg\" width=\"90%\"></p> <p>Kamu tetap dapat melakukan akses ke Claude via Merlin AI [Diperbarui <b>22/01/2026</b>]</p>"
+        title: "Claude",
+        content: "<p><img src=\"https://i.ibb.co.com/Vptr5NxB/c613db4c-71ff-44f1-8110-797054a43f5e.jpg\" width=\"90%\"></p> <p>Kamu tetap dapat melakukan akses ke Claude via Merlin AI [Diperbarui <b>22/01/2026</b>]</p>"
       },
       "perplexity-group-id": {
-        "title": "Perplexity",
-        "content": "<p>Jika Perpexity <b>tidak terlogin-login</b>, silahkan lakukan akses ulang sampai terlogin.</p>"
+        title: "Perplexity",
+        content: "<p>Jika Perpexity <b>tidak terlogin-login</b>, silahkan lakukan akses ulang sampai terlogin.</p>"
       },
       "wetv-group-id": {
-        "title": "WeTV",
-        "content": "<p>Jika WeTV tidak VIP, silahkan tunggu 5 detik lalu lakukan refresh pada browser yang kamu gunakan.</p>"
+        title: "WeTV",
+        content: "<p>Jika WeTV tidak VIP, silahkan tunggu 5 detik lalu lakukan refresh pada browser yang kamu gunakan.</p>"
       },
       "prime-video-group-id": {
-        "title": "Info Prime Video",
-        "content": "<p>Jika Prime Video meminta PIN, masukan <b>'12345'</b></p>"
+        title: "Info Prime Video",
+        content: "<p>Jika Prime Video meminta PIN, masukan <b>'12345'</b></p>"
       }
     }
   },
-  "maintenanceMode": {
-    "enabled": true,
-    "scheduleType": "daily",
-    "dailyTime": "23:54:00",
-    "specificDateTime": "2025-12-31T23:00:00",
-    "durationMinutes": 5,
-    "countdownMinutes": 10,
-    "warningTitle": "Informasi Maintenance",
-    "warningMessage": "Layanan akan memasuki mode perbaikan dalam:",
-    "maintenanceTitle": "Sedang Maintenance",
-    "maintenanceMessage": "Mohon bersabar. Kami sedang melakukan perbaikan."
+  maintenanceMode: {
+    enabled: true,
+    scheduleType: "daily",
+    dailyTime: "23:54:00",
+    specificDateTime: "2025-12-31T23:00:00",
+    durationMinutes: 5,
+    countdownMinutes: 10,
+    warningTitle: "Informasi Maintenance",
+    warningMessage: "Layanan akan memasuki mode perbaikan dalam:",
+    maintenanceTitle: "Sedang Maintenance",
+    maintenanceMessage: "Mohon bersabar. Kami sedang melakukan perbaikan."
   },
-  "versionControl": {
-    "extensionName": "Gracely Extension",
-    "requiredExtensionVersion": "2.2",
-    "guardName": "Gracely Guard",
-    "requiredGuardVersion": "1.0.3",
-    "onVersionMismatchUrl": "https://gracely011.github.io/hai/update.html",
-    "sharedVerificationCode": "Mazmur_94_:_17"
+  versionControl: {
+    extensionName: "Gracely Extension",
+    requiredExtensionVersion: "2.2",
+    guardName: "Gracely Guard",
+    requiredGuardVersion: "1.0.3",
+    onVersionMismatchUrl: "https://gracely011.github.io/hai/update.html",
+    sharedVerificationCode: "Mazmur_94_:_17"
   }
 };
