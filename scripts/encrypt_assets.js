@@ -68,13 +68,25 @@ async function encryptData(plainDataObj, password) {
             let fileContent = fs.readFileSync(PATHS.aturhonma, 'utf8');
             
             // FIX: 'const' variables in VM are not attached to sandbox.
-            // We replace 'const gracelyConfig' with 'gracelyConfig' to make it a global property of sandbox.
-            fileContent = fileContent.replace('const gracelyConfig', 'gracelyConfig');
+            // We use Regex to robustly replace 'const/let/var gracelyConfig =' with 'gracelyConfig ='
+            // to make it a global property of sandbox.
+            const regex = /(?:const|let|var)\s+gracelyConfig\s*=/g;
+            if (regex.test(fileContent)) {
+                 fileContent = fileContent.replace(regex, 'gracelyConfig =');
+                 console.log("✅ Successfully patched variable declaration.");
+            } else {
+                 console.warn("⚠️ Warning: Could not find 'const gracelyConfig =' pattern. VM execution might fail if variable is not global.");
+            }
 
             // Execute JS in sandbox to extract the object
             const sandbox = {};
             vm.createContext(sandbox);
-            vm.runInContext(fileContent, sandbox);
+            try {
+                vm.runInContext(fileContent, sandbox);
+            } catch (vmErr) {
+                console.error("❌ VM Execution Failed:", vmErr);
+                process.exit(1);
+            }
             
             if (sandbox.gracelyConfig) {
                 const encrypted = await encryptData(sandbox.gracelyConfig, PASSWORD);
@@ -83,7 +95,7 @@ async function encryptData(plainDataObj, password) {
                 fs.writeFileSync(PATHS.aturhonma, encrypted, 'utf8');
                 console.log(`✅ Encrypted and overwrote: ${PATHS.aturhonma}`);
             } else {
-                console.error("❌ Could not find 'gracelyConfig' object in aturhonma.js");
+                console.error("❌ Could not find 'gracelyConfig' object in aturhonma.js after VM execution.");
                 process.exit(1); // Fail the build
             }
         } else {
