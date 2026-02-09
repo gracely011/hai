@@ -485,21 +485,49 @@ function loadLayout() {
   });
 }
 
-function loadExternalConfig(callback) {
-  if (typeof gracelyConfig !== 'undefined') {
-    callback();
-    return;
+async function decryptGracelyConfig(encryptedObj) {
+  const password = "kuberserah_selalu_in_GOD";
+  try {
+    const enc = new TextEncoder();
+    const dec = new TextDecoder();
+    const fromBase64 = (str) => Uint8Array.from(atob(str), c => c.charCodeAt(0));
+    const salt = fromBase64(encryptedObj.s);
+    const iv = fromBase64(encryptedObj.i);
+    const data = fromBase64(encryptedObj.d);
+
+    const keyMaterial = await window.crypto.subtle.importKey("raw", enc.encode(password), { name: "PBKDF2" }, false, ["deriveKey"]);
+    const key = await window.crypto.subtle.deriveKey({ name: "PBKDF2", salt: salt, iterations: 100000, hash: "SHA-256" }, keyMaterial, { name: "AES-GCM", length: 256 }, false, ["decrypt"]);
+    const decrypted = await window.crypto.subtle.decrypt({ name: "AES-GCM", iv: iv }, key, data);
+    return JSON.parse(dec.decode(decrypted));
+  } catch (e) {
+    console.error("Decryption Failed:", e);
+    return null;
   }
-  const script = document.createElement('script');
-  script.src = 'aturhonma.js';
-  script.onload = () => {
-    // console.log("aturhonma.js loaded dynamically");
+}
+
+async function loadExternalConfig(callback) {
+  if (typeof gracelyConfig !== 'undefined') { callback(); return; }
+  try {
+    const response = await fetch('aturhonma.js');
+    if (!response.ok) throw new Error("Status " + response.status);
+    const text = await response.text();
+    try {
+      const json = JSON.parse(text);
+      if (json.s && json.i && json.d) {
+        window.gracelyConfig = await decryptGracelyConfig(json);
+        callback();
+        return;
+      }
+    } catch(e) {}
+    
+    // Fallback for Local Dev (Valid JS file)
+    const script = document.createElement('script');
+    script.textContent = text;
+    document.head.appendChild(script);
     callback();
-  };
-  script.onerror = () => {
-    console.error("Failed to load aturhonma.js");
-  };
-  document.head.appendChild(script);
+  } catch (e) {
+    console.error("Failed to load aturhonma.js", e);
+  }
 }
 
 async function initializeWebsiteAnnouncement() {

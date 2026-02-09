@@ -44,6 +44,12 @@ jobs:
           # aturhonma.js MUST be excluded because MV3 cannot execute remote obfuscated code.
           # It must remain parsable text/data.
 
+      - name: Encrypt Assets (aturhonma.js & whitelist.json)
+        run: |
+          node scripts/encrypt_assets.js
+          # Remove scripts folder so the encryption key is not pushed to main
+          rm -rf scripts/
+
 
       - name: Setup Git Config
         run: |
