@@ -266,6 +266,7 @@ async function checkPremiumExpiryWarning() {
       modalContainer.style.opacity = '1';
       const closeModal = () => { 
           modalContainer.style.display = 'none'; 
+          localStorage.setItem('lastExpiryWarningDateDB', new Date().toISOString());
           if(typeof updateLastPopupDate === 'function') updateLastPopupDate('expiry');
       };
       const closeBtn = modalContainer.querySelector('#notification-close');
@@ -595,8 +596,11 @@ async function initializeWebsiteAnnouncement() {
 
       const close = () => {
         modalDiv.style.display = 'none';
-        localStorage.setItem("notificationLastShown", Date.now().toString());
+        const nowStr = Date.now().toString();
+        const isoNowStr = new Date().toISOString();
+        localStorage.setItem("notificationLastShown", nowStr);
         localStorage.setItem("notificationLastShownId", o);
+        localStorage.setItem("lastPopupDateDB", isoNowStr); // Immediate UI sync
         if(typeof updateLastPopupDate === 'function') updateLastPopupDate('info');
       };
 
@@ -609,37 +613,40 @@ async function initializeWebsiteAnnouncement() {
     // --- LOGIKA LIMIT HARIAN POPUP ---
     const lastShownStrDB = localStorage.getItem('lastPopupDateDB');
     const lastShownLocalStr = localStorage.getItem("notificationLastShown");
+    // ID checking
     const lastId = localStorage.getItem("notificationLastShownId");
 
     let shouldShow = false;
+    let lastShownTime = null;
 
-    if (o !== lastId) {
+    if (lastShownStrDB) {
+        lastShownTime = new Date(lastShownStrDB).getTime();
+    } else if (lastShownLocalStr) {
+        lastShownTime = parseInt(lastShownLocalStr);
+    }
+
+    if (!lastShownTime) {
+      // Belum pernah buka sama sekali
       shouldShow = true;
     } else {
-      let lastShownTime = null;
+      const now = new Date();
+      const lastShown = new Date(lastShownTime);
+      let resetThreshold = new Date();
+      resetThreshold.setHours(7, 0, 0, 0); // Riset limit pada pukul 07:00 pagi
 
-      // Ambil waktu paling akhir dari DB vs Local (untuk jaga-jaga)
-      if (lastShownStrDB) {
-          lastShownTime = new Date(lastShownStrDB).getTime();
-      } else if (lastShownLocalStr) {
-          lastShownTime = parseInt(lastShownLocalStr);
+      if (now < resetThreshold) {
+        resetThreshold.setDate(resetThreshold.getDate() - 1);
       }
 
-      if (!lastShownTime) {
+      if (lastShown < resetThreshold) {
+        // Sudah lewat hari (jam 7 pagi)
+        shouldShow = true;
+      } else if (o !== lastId && !lastShownStrDB) {
+        // ID beda dan belum ada data dari DB (fallback ke perilaku lama jika ID ganti)
         shouldShow = true;
       } else {
-        const now = new Date();
-        const lastShown = new Date(lastShownTime);
-        let resetThreshold = new Date();
-        resetThreshold.setHours(7, 0, 0, 0); // Riset limit pada pukul 07:00 pagi
-
-        if (now < resetThreshold) {
-          resetThreshold.setDate(resetThreshold.getDate() - 1);
-        }
-
-        if (lastShown < resetThreshold) {
-          shouldShow = true;
-        }
+        // Masih di rentang hari yang sama, JANGAN TAMPILKAN, ignore perbedaan ID
+        shouldShow = false;
       }
     }
 
