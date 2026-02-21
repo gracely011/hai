@@ -650,3 +650,82 @@ async function requireAuth() {
 
 function redirectIfAuthenticated() { if (isAuthenticated()) { window.location.href = 'dashboard.html'; } }
 
+// --- REALTIME PROFILE LISTENER ---
+let profileListenerChannel = null;
+
+async function initRealtimeProfileListener() {
+    if (!isAuthenticated() || profileListenerChannel) return;
+    
+    const userId = await getUserId();
+    if (!userId) return;
+
+    // Listen only to changes for THIS user's profile
+    profileListenerChannel = supabaseClient.channel(`public:profiles:id=eq.${userId}`)
+        .on(
+            'postgres_changes',
+            { event: 'UPDATE', schema: 'public', table: 'profiles', filter: `id=eq.${userId}` },
+            async (payload) => {
+                console.log('Realtime Profile Update Received:', payload);
+                
+                const newData = payload.new;
+                
+                const today = new Date();
+                const premiumDate = newData.premiumExpiryDate ? new Date(newData.premiumExpiryDate) : null;
+                const proDate = newData.pro_expiry_date ? new Date(newData.pro_expiry_date) : null;
+                const phantomDate = newData.phantom_expiry_date ? new Date(newData.phantom_expiry_date) : null;
+        
+                const isPremiumValid = premiumDate && today <= premiumDate;
+                const isProValid = proDate && today <= proDate;
+                const isPhantomValid = phantomDate && today <= phantomDate;
+        
+                // Determine Effective Plan based on Hierarchy: Phantom > Pro > Premium
+                let finalPlanName = 'No Premium';
+                let finalPlanNumber = '001';
+        
+                if (isPhantomValid) {
+                    finalPlanName = 'The Phantom';
+                    finalPlanNumber = '004';
+                } else if (isProValid) {
+                    finalPlanName = 'Pro';
+                    finalPlanNumber = '003';
+                } else if (isPremiumValid) {
+                    finalPlanName = 'Premium';
+                    finalPlanNumber = '002';
+                }
+
+                let isCurrentlyPremium = (finalPlanNumber !== '001');
+
+                // Update Local Storage purely UI
+                localStorage.setItem('isPremium', isCurrentlyPremium);
+                localStorage.setItem('userPlanName', finalPlanName);
+                localStorage.setItem('userPlanNumber', finalPlanNumber);
+
+                if (newData.premiumExpiryDate) localStorage.setItem('premiumExpiryDate', newData.premiumExpiryDate);
+                else localStorage.removeItem('premiumExpiryDate');
+
+                if (newData.pro_expiry_date) localStorage.setItem('proExpiryDate', newData.pro_expiry_date);
+                else localStorage.removeItem('proExpiryDate');
+
+                if (newData.phantom_expiry_date) localStorage.setItem('phantomExpiryDate', newData.phantom_expiry_date);
+                else localStorage.removeItem('phantomExpiryDate');
+
+                // FORCE EXTENSION TO WAKE UP AND SYNC via Cookie 
+                // Extension usually listens to cookie changes or validates per action
+                // Changing the UnangJahaCookieOnLae temporarily triggers reload in background script if configured.
+                // We'll set a special sync cookie instead:
+                setCookie('gracely_plan_sync', Date.now().toString(), 1); 
+
+                // Dispatch Custom Event so layout.js can re-render dashboard instantly
+                document.dispatchEvent(new Event('gracelyPlanRefresh'));
+            }
+        )
+        .subscribe((status) => {
+            console.log('Realtime Subscription Status:', status);
+        });
+}
+
+// Auto-start listener if authenticated upon load
+if (isAuthenticated()) {
+    setTimeout(initRealtimeProfileListener, 2000); // Delay slightly to ensure getUserId is ready
+}
+// --- END REALTIME PROFILE LISTENER ---

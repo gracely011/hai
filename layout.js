@@ -716,6 +716,16 @@ function initDashboardPlanStatus() {
   const planSection = document.getElementById('plan-status-section');
   if (!planSection) return;
 
+  // REALTIME EXTENSION REFRESH LISTENER
+  // Will be triggered by auth.js on Supabase push update
+  if (!window.hasRegisteredPlanRefreshListener) {
+      document.addEventListener('gracelyPlanRefresh', () => {
+          console.log("Realtime UI Update Triggered: Re-rendering dashboard plan cards...");
+          initDashboardPlanStatus();
+      });
+      window.hasRegisteredPlanRefreshListener = true;
+  }
+
   function formatExactUTC(dateString) {
     if (!dateString) return '';
     const date = new Date(dateString);
