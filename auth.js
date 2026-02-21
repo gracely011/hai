@@ -42,15 +42,9 @@ async function getDeviceFingerprint() {
         // HARUS SAMA PERSIS dengan Extension (background.js environment)
         // Tidak boleh pakai screen.* atau canvas karena Extension tidak bisa akses
         const components = [
-            navigator.userAgent,
-            navigator.language,
-            navigator.languages ? navigator.languages.join(',') : '',
-            new Date().getTimezoneOffset().toString(),
-            navigator.hardwareConcurrency ? navigator.hardwareConcurrency.toString() : 'unknown',
-            navigator.platform,
-            navigator.deviceMemory ? navigator.deviceMemory.toString() : 'unknown',
-            // Get Chrome version as additional entropy (sesuai Extension)
-            /Chrome\/([0-9.]+)/.exec(navigator.userAgent)?.[1] || 'unknown'
+            navigator.userAgent || '',
+            navigator.language || '',
+            new Date().getTimezoneOffset().toString()
         ];
 
         // Combine semua komponen
