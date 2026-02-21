@@ -577,7 +577,7 @@ async function initializeWebsiteAnnouncement() {
       // So we should replace the innerHTML of modalDiv (container) to fully replace the auto-generated empty content div.
       // Priority Check: If a High Priority modal is already open, DO NOT OVERWRITE
       if (modalDiv.style.display === 'flex' && modalDiv.getAttribute('data-priority') === 'high') {
-        console.log("Announcement skipped due to High Priority modal.");
+        // console.log("Announcement skipped due to High Priority modal.");
         return;
       }
 
@@ -720,7 +720,7 @@ function initDashboardPlanStatus() {
   // Will be triggered by auth.js on Supabase push update
   if (!window.hasRegisteredPlanRefreshListener) {
       document.addEventListener('gracelyPlanRefresh', () => {
-          console.log("Realtime UI Update Triggered: Re-rendering dashboard plan cards...");
+          // console.log("Realtime UI Update Triggered: Re-rendering dashboard plan cards...");
           initDashboardPlanStatus();
       });
       window.hasRegisteredPlanRefreshListener = true;

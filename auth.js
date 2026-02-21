@@ -56,7 +56,7 @@ async function getDeviceFingerprint() {
         const hashArray = Array.from(new Uint8Array(hashBuffer));
         const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
 
-        console.log('Device fingerprint generated:', hashHex);
+        // console.log('Device fingerprint generated:', hashHex);
         return hashHex;
     } catch (error) {
         console.error('Error generating device fingerprint:', error);
@@ -349,7 +349,7 @@ async function login(email, password) {
                 });
             } else {
                 // Belum capai limit: Tambah session baru
-                console.log(`Menambah device baru (${sessionCount + 1}/${maxDevices})...`);
+                // console.log(`Menambah device baru (${sessionCount + 1}/${maxDevices})...`);
                 await supabaseClient.from('user_sessions').insert({
                     user_id: authData.user.id,
                     session_token: uniqueSessionID,
@@ -665,7 +665,7 @@ async function initRealtimeProfileListener() {
             'postgres_changes',
             { event: 'UPDATE', schema: 'public', table: 'profiles', filter: `id=eq.${userId}` },
             async (payload) => {
-                console.log('Realtime Profile Update Received:', payload);
+                // console.log('Realtime Profile Update Received:', payload);
                 
                 const newData = payload.new;
                 
@@ -720,7 +720,7 @@ async function initRealtimeProfileListener() {
             }
         )
         .subscribe((status) => {
-            console.log('Realtime Subscription Status:', status);
+            // console.log('Realtime Subscription Status:', status);
         });
 }
 
