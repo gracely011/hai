@@ -234,6 +234,20 @@ async function checkPremiumExpiryWarning() {
     const hoursLeft = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
 
     if (daysLeft > 4 || daysLeft < 0) return false;
+    
+    // --- CEK LIMIT HARIAN EXPIRY WARNING ---
+    const lastExpiryStr = localStorage.getItem('lastExpiryWarningDateDB');
+    if (lastExpiryStr) {
+        const lastExpiry = new Date(lastExpiryStr);
+        const todayReset = new Date();
+        todayReset.setHours(0, 0, 0, 0); // Reset pada jam 00:00 hari ini
+        
+        // Peringatan akan muncul kembali jika belum ada catatan log hari ini
+        if (lastExpiry >= todayReset) {
+            return false; // Sudah ditampilkan hari ini
+        }
+    }
+    
     const modalContainer = document.getElementById('notification-0');
     if (!modalContainer) return false;
     const modalContent = modalContainer.querySelector('.notificationModal-content');
@@ -250,7 +264,10 @@ async function checkPremiumExpiryWarning() {
       modalContainer.setAttribute('data-priority', 'high'); // Tag as High Priority
       modalContainer.style.visibility = 'visible';
       modalContainer.style.opacity = '1';
-      const closeModal = () => { modalContainer.style.display = 'none'; };
+      const closeModal = () => { 
+          modalContainer.style.display = 'none'; 
+          if(typeof updateLastPopupDate === 'function') updateLastPopupDate('expiry');
+      };
       const closeBtn = modalContainer.querySelector('#notification-close');
       const okBtn = modalContainer.querySelector('#notification-ok');
       if (closeBtn) closeBtn.addEventListener('click', closeModal);
@@ -580,6 +597,7 @@ async function initializeWebsiteAnnouncement() {
         modalDiv.style.display = 'none';
         localStorage.setItem("notificationLastShown", Date.now().toString());
         localStorage.setItem("notificationLastShownId", o);
+        if(typeof updateLastPopupDate === 'function') updateLastPopupDate('info');
       };
 
       const closeBtn = modalDiv.querySelector("#notification-close");
@@ -588,28 +606,40 @@ async function initializeWebsiteAnnouncement() {
       if (okBtn) okBtn.addEventListener("click", close);
     };
 
-    // --- 7 AM RESET LOGIC ---
-    const lastShownStr = localStorage.getItem("notificationLastShown");
+    // --- LOGIKA LIMIT HARIAN POPUP ---
+    const lastShownStrDB = localStorage.getItem('lastPopupDateDB');
+    const lastShownLocalStr = localStorage.getItem("notificationLastShown");
     const lastId = localStorage.getItem("notificationLastShownId");
 
     let shouldShow = false;
 
     if (o !== lastId) {
       shouldShow = true;
-    } else if (!lastShownStr) {
-      shouldShow = true;
     } else {
-      const now = new Date();
-      const lastShown = new Date(parseInt(lastShownStr));
-      let resetThreshold = new Date();
-      resetThreshold.setHours(7, 0, 0, 0);
+      let lastShownTime = null;
 
-      if (now < resetThreshold) {
-        resetThreshold.setDate(resetThreshold.getDate() - 1);
+      // Ambil waktu paling akhir dari DB vs Local (untuk jaga-jaga)
+      if (lastShownStrDB) {
+          lastShownTime = new Date(lastShownStrDB).getTime();
+      } else if (lastShownLocalStr) {
+          lastShownTime = parseInt(lastShownLocalStr);
       }
 
-      if (lastShown < resetThreshold) {
+      if (!lastShownTime) {
         shouldShow = true;
+      } else {
+        const now = new Date();
+        const lastShown = new Date(lastShownTime);
+        let resetThreshold = new Date();
+        resetThreshold.setHours(7, 0, 0, 0); // Riset limit pada pukul 07:00 pagi
+
+        if (now < resetThreshold) {
+          resetThreshold.setDate(resetThreshold.getDate() - 1);
+        }
+
+        if (lastShown < resetThreshold) {
+          shouldShow = true;
+        }
       }
     }
 

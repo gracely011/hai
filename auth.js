@@ -279,7 +279,7 @@ async function login(email, password) {
         // Fetch Minimal Profile Data for UI
         let { data: profileData, error: profileError } = await supabaseClient
             .from('profiles')
-            .select(`*, plan_gracely (number_plan, name_plan), allow_multilogin, max_devices`)
+            .select(`*, plan_gracely (number_plan, name_plan), allow_multilogin, max_devices, last_popup_date, last_expiry_warning_date`)
             .eq('id', authData.user.id)
             .single();
 
@@ -417,6 +417,19 @@ async function login(email, password) {
         localStorage.setItem('premiumExpiryDate', profileData.premiumExpiryDate);
         localStorage.setItem('proExpiryDate', profileData.pro_expiry_date);
         localStorage.setItem('phantomExpiryDate', profileData.phantom_expiry_date);
+        
+        // Simpan waktu terakhir popup dari Profil jika ada
+        if (profileData.last_popup_date) {
+            localStorage.setItem('lastPopupDateDB', profileData.last_popup_date);
+        } else {
+            localStorage.removeItem('lastPopupDateDB');
+        }
+
+        if (profileData.last_expiry_warning_date) {
+            localStorage.setItem('lastExpiryWarningDateDB', profileData.last_expiry_warning_date);
+        } else {
+            localStorage.removeItem('lastExpiryWarningDateDB');
+        }
 
         // IMPORTANT: Store the DB Session ID so script.js can verify it!
         localStorage.setItem('gracely_db_session_id', uniqueSessionID);
@@ -499,6 +512,38 @@ async function updateUserName(newName) {
         localStorage.setItem('userName', newName);
         return { success: true, message: 'Nama berhasil diperbarui!' };
     } catch (error) { return { success: false, message: error.message }; }
+}
+
+// Helper untuk mencatat kapan User melihat popup hari ini
+async function updateLastPopupDate(type) {
+    try {
+        const userId = await getUserId();
+        if (!userId) return false;
+        
+        const now = new Date().toISOString();
+        const updateData = {};
+        
+        if (type === 'info') {
+            updateData.last_popup_date = now;
+            localStorage.setItem('lastPopupDateDB', now);
+        } else if (type === 'expiry') {
+            updateData.last_expiry_warning_date = now;
+            localStorage.setItem('lastExpiryWarningDateDB', now);
+        }
+
+        const { error } = await supabaseClient.from('profiles')
+            .update(updateData)
+            .eq('id', userId);
+            
+        if (error) {
+            console.warn(`Gagal mengupdate tanggal popup (${type}):`, error.message);
+            return false;
+        }
+        return true;
+    } catch (e) {
+        console.warn(`Error updating popup date (${type}):`, e);
+        return false;
+    }
 }
 
 async function logout() {
