@@ -21,8 +21,12 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 
-  <script src="auth.js?v=20260207-NOVALIDATION"></script>
-  <script>(async () => { await requireAuth(); })();</script>
+  <script src="auth.js?v=limitPopupFix"></script>
+  <script>
+    (async () => {
+      await requireAuth();
+    })();
+  </script>
   <script src="assets/script.js?v=branding"></script>
 </head>
 
@@ -144,7 +148,7 @@
   <script src="assets/js/main.js"></script>
 
 
-  <script src="layout.js"></script>
+  <script src="layout.js?v=limitPopupFix"></script>
 
 
 
