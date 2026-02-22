@@ -218,7 +218,6 @@ function handleMultiLoginKick(message) {
     // 1. Force Clear Main Session Cookie
     document.cookie = 'gracely_session_token=; Max-Age=-99999999; path=/; SameSite=Lax; Secure';
     document.cookie = 'gracely_session_token=; Max-Age=-99999999; path=/hai/; SameSite=Lax; Secure';
-    document.cookie = 'gracely_db_session_id=; Max-Age=-99999999; path=/; SameSite=Lax; Secure';
 
     // 2. Trigger Extension Logout (Critical)
     document.cookie = 'UnangJahaCookieOnLae=true; path=/; SameSite=Lax; Secure';
@@ -287,8 +286,8 @@ function startSessionCheckLoop() {
     }
 
     // --- FITUR 2: POLLING FALLBACK (Patroli Rutin) ---
-    // Jaga-jaga kalau koneksi Realtime putus, tetap cek manual setiap 1.5 detik
-    const checkInterval = 1500;
+    // Jaga-jaga kalau koneksi Realtime putus, tetap cek manual setiap 5 detik
+    const checkInterval = 5000;
 
     // Cek awal langsung
     checkSessionValidity(localSessionId);
