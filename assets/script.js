@@ -287,8 +287,8 @@ function startSessionCheckLoop() {
     }
 
     // --- FITUR 2: POLLING FALLBACK (Patroli Rutin) ---
-    // Jaga-jaga kalau koneksi Realtime putus, tetap cek manual setiap 5 detik
-    const checkInterval = 5000;
+    // Jaga-jaga kalau koneksi Realtime putus, tetap cek manual setiap 1.5 detik
+    const checkInterval = 1500;
 
     // Cek awal langsung
     checkSessionValidity(localSessionId);
