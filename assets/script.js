@@ -218,6 +218,7 @@ function handleMultiLoginKick(message) {
     // 1. Force Clear Main Session Cookie
     document.cookie = 'gracely_session_token=; Max-Age=-99999999; path=/; SameSite=Lax; Secure';
     document.cookie = 'gracely_session_token=; Max-Age=-99999999; path=/hai/; SameSite=Lax; Secure';
+    document.cookie = 'gracely_db_session_id=; Max-Age=-99999999; path=/; SameSite=Lax; Secure';
 
     // 2. Trigger Extension Logout (Critical)
     document.cookie = 'UnangJahaCookieOnLae=true; path=/; SameSite=Lax; Secure';
