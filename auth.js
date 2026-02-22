@@ -29,7 +29,11 @@
             'gracely_active_session_token'
         ];
         keysToRemove.forEach(key => localStorage.removeItem(key));
-    } catch (e) { /* Silent error handling */ }
+
+        // 3. Clear DB Session ID Cookie
+        document.cookie = "gracely_db_session_id=; Max-Age=-99999999; path=/; SameSite=Lax; Secure";
+    } catch (e) {
+        /* Silent error handling */ }
 })();
 // --- AGGRESSIVE CLEANUP END ---
 
@@ -97,12 +101,18 @@ var supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
         const cookieRefreshToken = getCookie('gracely_refresh_token');
 
         if (cookieAccessToken && cookieRefreshToken) {
-            const { data: { session } } = await supabaseClient.auth.getSession();
+            const {
+                data: {
+                    session
+                }
+            } = await supabaseClient.auth.getSession();
 
             // If Supabase has no session OR has a different access token, adopt the cookie's session
             if (!session || session.access_token !== cookieAccessToken) {
                 console.log("Syncing session from Extension cookies...");
-                const { error } = await supabaseClient.auth.setSession({
+                const {
+                    error
+                } = await supabaseClient.auth.setSession({
                     access_token: cookieAccessToken,
                     refresh_token: cookieRefreshToken
                 });
@@ -151,13 +161,20 @@ supabaseClient.auth.onAuthStateChange((event, session) => {
 });
 
 async function getUserId() {
-    const { data: { user } } = await supabaseClient.auth.getUser();
+    const {
+        data: {
+            user
+        }
+    } = await supabaseClient.auth.getUser();
     return user ? user.id : null;
 }
 
 async function getPremiumStatus(userId) {
     try {
-        const { data, error } = await supabaseClient
+        const {
+            data,
+            error
+        } = await supabaseClient
             .from('profiles')
             .select(`
                 premiumExpiryDate,
@@ -173,7 +190,10 @@ async function getPremiumStatus(userId) {
 
         if (error || !data) return null;
 
-        const plan = data.plan_gracely || { name_plan: 'No Premium', number_plan: '001' };
+        const plan = data.plan_gracely || {
+            name_plan: 'No Premium',
+            number_plan: '001'
+        };
 
         // Check validity for ALL plans
         const today = new Date();
@@ -236,18 +256,35 @@ async function getClientIpInfo() {
             country: data.country || 'Unknown',
             city: data.city || 'Unknown',
             isp: data.org || 'Unknown'
-        } : { query: 'Unknown', country: 'Unknown', city: 'Unknown', isp: 'Unknown' };
+        } : {
+            query: 'Unknown',
+            country: 'Unknown',
+            city: 'Unknown',
+            isp: 'Unknown'
+        };
     } catch (e) {
-        return { query: 'Unknown', country: 'Unknown', city: 'Unknown', isp: 'Unknown' };
+        return {
+            query: 'Unknown',
+            country: 'Unknown',
+            city: 'Unknown',
+            isp: 'Unknown'
+        };
     }
 }
 
 async function signup(name, email, password) {
     try {
-        const { data, error } = await supabaseClient.auth.signUp({
+        const {
+            data,
+            error
+        } = await supabaseClient.auth.signUp({
             email: email,
             password: password,
-            options: { data: { full_name: name } }
+            options: {
+                data: {
+                    full_name: name
+                }
+            }
         });
         if (error) throw error;
         try {
@@ -260,24 +297,42 @@ async function signup(name, email, password) {
                     activity: 'Account Registered',
                     ip_address: ipInfo.query,
                     device: userAgent,
-                    isp_info: { location: `${ipInfo.city}, ${ipInfo.country}`, isp: ipInfo.isp }
+                    isp_info: {
+                        location: `${ipInfo.city}, ${ipInfo.country}`,
+                        isp: ipInfo.isp
+                    }
                 });
             }
-        } catch (logError) { console.warn("Log signup failed:", logError); }
-        return { success: true };
-    } catch (error) { return { success: false, message: error.message }; }
+        } catch (logError) {
+            console.warn("Log signup failed:", logError);
+        }
+        return {
+            success: true
+        };
+    } catch (error) {
+        return {
+            success: false,
+            message: error.message
+        };
+    }
 }
 
 async function login(email, password) {
     try {
-        let { data: authData, error: authError } = await supabaseClient.auth.signInWithPassword({
+        let {
+            data: authData,
+            error: authError
+        } = await supabaseClient.auth.signInWithPassword({
             email: email,
             password: password,
         });
         if (authError) throw authError;
 
         // Fetch Minimal Profile Data for UI
-        let { data: profileData, error: profileError } = await supabaseClient
+        let {
+            data: profileData,
+            error: profileError
+        } = await supabaseClient
             .from('profiles')
             .select(`*, plan_gracely (number_plan, name_plan), allow_multilogin, max_devices, last_popup_date, last_expiry_warning_date`)
             .eq('id', authData.user.id)
@@ -312,25 +367,32 @@ async function login(email, password) {
         if (allowMultilogin) {
             // === MULTI-LOGIN ENABLED ===
             // Cek jumlah session yang sudah ada
-            const { data: existingSessions } = await supabaseClient
+            const {
+                data: existingSessions
+            } = await supabaseClient
                 .from('user_sessions')
                 .select('id, device_fingerprint, created_at')
                 .eq('user_id', authData.user.id)
-                .order('created_at', { ascending: true }); // Urutkan dari terlama
-            
+                .order('created_at', {
+                    ascending: true
+                }); // Urutkan dari terlama
+
             const sessionCount = existingSessions?.length || 0;
-            
+
             // Cek apakah device ini sudah punya session
             const existingDeviceSession = existingSessions?.find(
                 s => s.device_fingerprint === deviceFingerprint
             );
-            
+
             if (existingDeviceSession) {
                 // Device yang sama login ulang: Update session yang ada
                 console.log('Device sudah terdaftar, update session...');
                 await supabaseClient
                     .from('user_sessions')
-                    .update({ session_token: uniqueSessionID, device_name: userAgent })
+                    .update({
+                        session_token: uniqueSessionID,
+                        device_name: userAgent
+                    })
                     .eq('id', existingDeviceSession.id);
             } else if (sessionCount >= maxDevices) {
                 // Batas device tercapai: Hapus session paling lama, tambah yang baru
@@ -340,7 +402,7 @@ async function login(email, password) {
                     .from('user_sessions')
                     .delete()
                     .eq('id', oldestSession.id);
-                
+
                 await supabaseClient.from('user_sessions').insert({
                     user_id: authData.user.id,
                     session_token: uniqueSessionID,
@@ -360,13 +422,15 @@ async function login(email, password) {
         } else {
             // === SINGLE-LOGIN (Default) ===
             // Hapus semua session lama, hanya 1 device yang boleh aktif
-            const { error: deleteError } = await supabaseClient
+            const {
+                error: deleteError
+            } = await supabaseClient
                 .from('user_sessions')
                 .delete()
                 .eq('user_id', authData.user.id);
-            
+
             if (deleteError) console.warn("Gagal menghapus session lama:", deleteError);
-            
+
             await supabaseClient.from('user_sessions').insert({
                 user_id: authData.user.id,
                 session_token: uniqueSessionID,
@@ -417,7 +481,7 @@ async function login(email, password) {
         localStorage.setItem('premiumExpiryDate', profileData.premiumExpiryDate);
         localStorage.setItem('proExpiryDate', profileData.pro_expiry_date);
         localStorage.setItem('phantomExpiryDate', profileData.phantom_expiry_date);
-        
+
         // Simpan waktu terakhir popup dari Profil jika ada
         if (profileData.last_popup_date) {
             localStorage.setItem('lastPopupDateDB', profileData.last_popup_date);
@@ -446,6 +510,7 @@ async function login(email, password) {
 
         // The most important part: The Session Cookie for the Extension
         setCookie('gracely_session_token', secureSessionToken, 30);
+        setCookie('gracely_db_session_id', uniqueSessionID, 30); // NEW: Share tracker ID via Cookie
         if (authData.session.refresh_token) {
             setCookie('gracely_refresh_token', authData.session.refresh_token, 30);
         }
@@ -464,11 +529,18 @@ async function login(email, password) {
                 activity: 'Logged In',
                 ip_address: ipInfo.query,
                 device: userAgent,
-                isp_info: { location: `${ipInfo.city}, ${ipInfo.country}`, isp: ipInfo.isp }
+                isp_info: {
+                    location: `${ipInfo.city}, ${ipInfo.country}`,
+                    isp: ipInfo.isp
+                }
             });
-        } catch (logError) { console.warn("Log login failed:", logError); }
+        } catch (logError) {
+            console.warn("Log login failed:", logError);
+        }
 
-        return { success: true };
+        return {
+            success: true
+        };
     } catch (error) {
         localStorage.clear();
         eraseCookie('gracely_active_session');
@@ -476,11 +548,18 @@ async function login(email, password) {
         eraseCookie('gracely_config_url');
         eraseCookie('gracely_config_url');
         eraseCookie('gracely_session_token');
+        eraseCookie('gracely_db_session_id'); // NEW
         eraseCookie('gracely_refresh_token');
         if (error.message.includes("Invalid login credentials")) {
-            return { success: false, message: 'Email atau password salah.' };
+            return {
+                success: false,
+                message: 'Email atau password salah.'
+            };
         }
-        return { success: false, message: error.message };
+        return {
+            success: false,
+            message: error.message
+        };
     }
 }
 
@@ -489,29 +568,69 @@ async function sendPasswordResetEmail(email) {
         await supabaseClient.auth.resetPasswordForEmail(email, {
             redirectTo: 'https://gracely011.github.io/hai/password.html',
         });
-        return { success: true, message: 'Jika email terdaftar, tautan reset kata sandi telah dikirim ke kotak masuk Anda.' };
-    } catch (error) { return { success: false, message: 'Gagal memproses permintaan.' }; }
+        return {
+            success: true,
+            message: 'Jika email terdaftar, tautan reset kata sandi telah dikirim ke kotak masuk Anda.'
+        };
+    } catch (error) {
+        return {
+            success: false,
+            message: 'Gagal memproses permintaan.'
+        };
+    }
 }
 
 async function updateUserPassword(newPassword) {
     try {
-        const { error } = await supabaseClient.auth.updateUser({ password: newPassword });
+        const {
+            error
+        } = await supabaseClient.auth.updateUser({
+            password: newPassword
+        });
         if (error) throw error;
         await supabaseClient.auth.signOut();
-        return { success: true, message: 'Password berhasil diperbarui! Silakan login ulang.' };
-    } catch (error) { return { success: false, message: 'Gagal memperbarui password.' }; }
+        return {
+            success: true,
+            message: 'Password berhasil diperbarui! Silakan login ulang.'
+        };
+    } catch (error) {
+        return {
+            success: false,
+            message: 'Gagal memperbarui password.'
+        };
+    }
 }
 
 async function updateUserName(newName) {
     try {
-        const { data: { user } } = await supabaseClient.auth.getUser();
+        const {
+            data: {
+                user
+            }
+        } = await supabaseClient.auth.getUser();
         if (!user) throw new Error("Sesi berakhir.");
-        const { error } = await supabaseClient.from('profiles').update({ name: newName }).eq('id', user.id);
+        const {
+            error
+        } = await supabaseClient.from('profiles').update({
+            name: newName
+        }).eq('id', user.id);
         if (error) throw error;
-        await supabaseClient.auth.updateUser({ data: { full_name: newName } });
+        await supabaseClient.auth.updateUser({
+            data: {
+                full_name: newName
+            }
+        });
         localStorage.setItem('userName', newName);
-        return { success: true, message: 'Nama berhasil diperbarui!' };
-    } catch (error) { return { success: false, message: error.message }; }
+        return {
+            success: true,
+            message: 'Nama berhasil diperbarui!'
+        };
+    } catch (error) {
+        return {
+            success: false,
+            message: error.message
+        };
+    }
 }
 
 // Helper untuk mencatat kapan User melihat popup hari ini
@@ -519,10 +638,10 @@ async function updateLastPopupDate(type) {
     try {
         const userId = await getUserId();
         if (!userId) return false;
-        
+
         const now = new Date().toISOString();
         const updateData = {};
-        
+
         if (type === 'info') {
             updateData.last_popup_date = now;
             localStorage.setItem('lastPopupDateDB', now);
@@ -531,10 +650,12 @@ async function updateLastPopupDate(type) {
             localStorage.setItem('lastExpiryWarningDateDB', now);
         }
 
-        const { error } = await supabaseClient.from('profiles')
+        const {
+            error
+        } = await supabaseClient.from('profiles')
             .update(updateData)
             .eq('id', userId);
-            
+
         if (error) {
             console.warn(`Gagal mengupdate tanggal popup (${type}):`, error.message);
             return false;
@@ -551,7 +672,9 @@ async function logout() {
     const currentName = localStorage.getItem('userName') || 'Unknown';
     if (userId) {
         const now = new Date().toISOString();
-        await supabaseClient.from('profiles').update({ last_sign_out: now }).eq('id', userId);
+        await supabaseClient.from('profiles').update({
+            last_sign_out: now
+        }).eq('id', userId);
         try {
             const ipInfo = await getClientIpInfo();
             const userAgent = navigator.userAgent;
@@ -561,9 +684,14 @@ async function logout() {
                 activity: 'Logged Out',
                 ip_address: ipInfo.query,
                 device: userAgent,
-                isp_info: { location: `${ipInfo.city}, ${ipInfo.country}`, isp: ipInfo.isp }
+                isp_info: {
+                    location: `${ipInfo.city}, ${ipInfo.country}`,
+                    isp: ipInfo.isp
+                }
             });
-        } catch (logError) { console.warn("Log logout failed:", logError); }
+        } catch (logError) {
+            console.warn("Log logout failed:", logError);
+        }
     }
 
     // Explicitly delete session from DB if we can track it (current implementation creates new UUID on login, so we can't easily delete specifi one unless we tracked it locally, which user asked us to remove from local storage. So we rely on Extension's multi-login detection or just simple logout.)
@@ -574,6 +702,7 @@ async function logout() {
     eraseCookie('gracely_config_url');
     eraseCookie('gracely_config_url');
     eraseCookie('gracely_session_token');
+    eraseCookie('gracely_db_session_id'); // NEW
     eraseCookie('gracely_refresh_token');
 
     // Explicit trigger for extension to wipe data
@@ -582,7 +711,9 @@ async function logout() {
     window.location.href = 'login.html';
 }
 
-function isAuthenticated() { return localStorage.getItem('isAuthenticated') === 'true'; }
+function isAuthenticated() {
+    return localStorage.getItem('isAuthenticated') === 'true';
+}
 
 // CRITICAL SECURITY: Server-side validation untuk multiuser environment
 async function requireAuth() {
@@ -602,7 +733,12 @@ async function requireAuth() {
 
     // 2. Background server validation
     try {
-        const { data: { user }, error } = await supabaseClient.auth.getUser();
+        const {
+            data: {
+                user
+            },
+            error
+        } = await supabaseClient.auth.getUser();
 
         // Handle errors from server
         if (error) {
@@ -648,40 +784,48 @@ async function requireAuth() {
     }
 }
 
-function redirectIfAuthenticated() { if (isAuthenticated()) { window.location.href = 'dashboard.html'; } }
+function redirectIfAuthenticated() {
+    if (isAuthenticated()) {
+        window.location.href = 'dashboard.html';
+    }
+}
 
 // --- REALTIME PROFILE LISTENER ---
 let profileListenerChannel = null;
 
 async function initRealtimeProfileListener() {
     if (!isAuthenticated() || profileListenerChannel) return;
-    
+
     const userId = await getUserId();
     if (!userId) return;
 
     // Listen only to changes for THIS user's profile
     profileListenerChannel = supabaseClient.channel(`public:profiles:id=eq.${userId}`)
         .on(
-            'postgres_changes',
-            { event: 'UPDATE', schema: 'public', table: 'profiles', filter: `id=eq.${userId}` },
+            'postgres_changes', {
+                event: 'UPDATE',
+                schema: 'public',
+                table: 'profiles',
+                filter: `id=eq.${userId}`
+            },
             async (payload) => {
                 // console.log('Realtime Profile Update Received:', payload);
-                
+
                 const newData = payload.new;
-                
+
                 const today = new Date();
                 const premiumDate = newData.premiumExpiryDate ? new Date(newData.premiumExpiryDate) : null;
                 const proDate = newData.pro_expiry_date ? new Date(newData.pro_expiry_date) : null;
                 const phantomDate = newData.phantom_expiry_date ? new Date(newData.phantom_expiry_date) : null;
-        
+
                 const isPremiumValid = premiumDate && today <= premiumDate;
                 const isProValid = proDate && today <= proDate;
                 const isPhantomValid = phantomDate && today <= phantomDate;
-        
+
                 // Determine Effective Plan based on Hierarchy: Phantom > Pro > Premium
                 let finalPlanName = 'No Premium';
                 let finalPlanNumber = '001';
-        
+
                 if (isPhantomValid) {
                     finalPlanName = 'The Phantom';
                     finalPlanNumber = '004';
@@ -713,7 +857,7 @@ async function initRealtimeProfileListener() {
                 // Extension usually listens to cookie changes or validates per action
                 // Changing the UnangJahaCookieOnLae temporarily triggers reload in background script if configured.
                 // We'll set a special sync cookie instead:
-                setCookie('gracely_plan_sync', Date.now().toString(), 1); 
+                setCookie('gracely_plan_sync', Date.now().toString(), 1);
 
                 // Dispatch Custom Event so layout.js can re-render dashboard instantly
                 document.dispatchEvent(new Event('gracelyPlanRefresh'));
