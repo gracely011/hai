@@ -15,8 +15,11 @@
       (async () => { 
         await requireAuth(); 
         
-        // Proteksi esktra: Hanya membolehkan user Premium
-        if (localStorage.getItem('isPremium') !== 'true') {
+        // Proteksi esktra: Mengecek masa aktif Premium berdasarkan tanggal kedaluwarsa
+        const expiryDateStr = localStorage.getItem('premiumExpiryDate');
+        const isPremiumValid = expiryDateStr && new Date() <= new Date(expiryDateStr);
+
+        if (!isPremiumValid) {
             window.location.href = 'premium.html';
         }
       })();
