@@ -668,12 +668,27 @@
                 </div>
 
                 <!-- Options Block -->
-                <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
-                    <label class="flex items-center gap-2 cursor-pointer w-max">
-                        <input type="checkbox" id="json-obf-minify" class="w-4 h-4 text-indigo-600 rounded focus:ring-indigo-500" checked>
-                        <span class="text-sm font-bold text-gray-700">Minified Output</span>
-                    </label>
-                    <p class="text-xs text-gray-500 mt-1 ml-6">Whether the output code is minified or not</p>
+                <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 flex flex-col gap-4">
+                    <div>
+                        <label class="flex items-center gap-2 cursor-pointer w-max">
+                            <input type="checkbox" id="json-obf-minify" class="w-4 h-4 text-indigo-600 rounded focus:ring-indigo-500" checked>
+                            <span class="text-sm font-bold text-gray-700">Minified Output</span>
+                        </label>
+                        <p class="text-xs text-gray-500 mt-1 ml-6">Whether the output code is minified or not</p>
+                    </div>
+                    
+                    <div class="pt-4 border-t border-gray-100">
+                        <label class="flex items-center gap-2 cursor-pointer w-max">
+                            <input type="checkbox" id="json-obf-aes" class="w-4 h-4 text-amber-500 rounded focus:ring-amber-500" onchange="document.getElementById('aes-input-container').classList.toggle('hidden', !this.checked)">
+                            <span class="text-sm font-bold text-amber-600">🔒 Aktifkan Enkripsi AES (Password)</span>
+                        </label>
+                        
+                        <div id="aes-input-container" class="hidden mt-3 ml-6">
+                            <label class="block text-xs font-bold text-gray-600 mb-1">Password:</label>
+                            <input type="text" id="json-obf-password" class="w-full max-w-sm border border-amber-200 rounded-lg p-2 text-sm focus:ring-2 focus:ring-amber-500 outline-none placeholder-gray-400" placeholder="Contoh: Rahasia_Negara_123">
+                            <p class="text-[10px] text-gray-400 mt-1">Jika opsi ini diaktifkan, data akan dibungkus rapat oleh sandi AES-GCM tingkat tinggi.</p>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- Output Block -->
@@ -1412,58 +1427,91 @@
         }
 
         // --- JSON OBFUSCATOR ---
-        function obfuscateJSON() {
+        // --- JSON OBFUSCATOR ---
+        async function obfuscateJSON() {
             const input = document.getElementById('json-obf-input').value;
             const isMinified = document.getElementById('json-obf-minify').checked;
+            const useAes = document.getElementById('json-obf-aes').checked;
+            const password = document.getElementById('json-obf-password').value;
             const outEl = document.getElementById('json-obf-output');
             
             try {
-                // Parse the original JSON
-                const parsed = JSON.parse(input);
-                
-                // Recursive function to obfuscate string values and keys
-                function obfuscateObject(obj) {
-                    if (Array.isArray(obj)) {
-                        return obj.map(item => obfuscateObject(item));
-                    } else if (obj !== null && typeof obj === 'object') {
-                        const newObj = {};
-                        for (let k in obj) {
-                            if (Object.prototype.hasOwnProperty.call(obj, k)) {
-                                // Obfuscate both key and value if value is string
-                                // Note: Obfuscating keys might break some strict systems, but we'll stick to a simple Unicode hex escaping
-                                newObj[k] = obfuscateObject(obj[k]);
-                            }
-                        }
-                        return newObj;
-                    } else if (typeof obj === 'string') {
-                        // Advanced Obfuscation: Hex Escaping for strings (e.g. "a" -> "\u0061")
-                        return obj.split('').map(char => {
-                            // Don't obfuscate basic printable ascii spaces, only characters
-                            if(char.trim() === '') return char;
-                            const hex = char.charCodeAt(0).toString(16);
-                            return '\\u' + ('0000' + hex).slice(-4);
-                        }).join('');
-                    }
-                    return obj;
-                }
-                
-                // Deep clone and obfuscate
-                const obfuscated = obfuscateObject(JSON.parse(JSON.stringify(parsed)));
-                
-                // Outputting
-                let result = '';
-                if (isMinified) {
-                    result = JSON.stringify(obfuscated);
-                } else {
-                    result = JSON.stringify(obfuscated, null, 4);
-                }
-                
-                // We need to un-escape the double backslashes generated by JSON.stringify for the Unicode escapes
-                result = result.replace(/\\\\u/g, '\\u');
-
-                outEl.value = result;
                 outEl.classList.remove('text-red-500');
                 outEl.classList.add('text-gray-700');
+                
+                // Parse the original JSON to validate
+                const parsed = JSON.parse(input);
+                
+                if (useAes) {
+                    if (!password) {
+                        outEl.value = "Error: Password wajib diisi jika Enkripsi AES aktif!";
+                        outEl.classList.add('text-red-500');
+                        return;
+                    }
+                    
+                    outEl.value = "Memproses Enkripsi AES...";
+                    
+                    const enc = new TextEncoder();
+                    const keyMaterial = await window.crypto.subtle.importKey("raw", enc.encode(password), { name: "PBKDF2" }, false, ["deriveKey"]);
+                    const salt = window.crypto.getRandomValues(new Uint8Array(16));
+                    const key = await window.crypto.subtle.deriveKey(
+                        { name: "PBKDF2", salt: salt, iterations: 100000, hash: "SHA-256" },
+                        keyMaterial, { name: "AES-GCM", length: 256 }, true, ["encrypt", "decrypt"]
+                    );
+                    
+                    const iv = window.crypto.getRandomValues(new Uint8Array(12));
+                    // Encrypt stringified JSON
+                    const encrypted = await window.crypto.subtle.encrypt(
+                        { name: "AES-GCM", iv: iv }, key, enc.encode(JSON.stringify(parsed))
+                    );
+                    
+                    const blobToBase64 = (blob) => new Promise((resolve) => {
+                        const reader = new FileReader();
+                        reader.onloadend = () => resolve(reader.result.split(',')[1]);
+                        reader.readAsDataURL(blob);
+                    });
+                    
+                    const saltBase64 = await blobToBase64(new Blob([salt]));
+                    const ivBase64 = await blobToBase64(new Blob([iv]));
+                    const dataBase64 = await blobToBase64(new Blob([encrypted]));
+                    
+                    const resultObj = { s: saltBase64, i: ivBase64, d: dataBase64 };
+                    
+                    outEl.value = isMinified ? JSON.stringify(resultObj) : JSON.stringify(resultObj, null, 4);
+                    
+                } else {
+                    // Recursive function to obfuscate string values and keys
+                    function obfuscateObject(obj) {
+                        if (Array.isArray(obj)) {
+                            return obj.map(item => obfuscateObject(item));
+                        } else if (obj !== null && typeof obj === 'object') {
+                            const newObj = {};
+                            for (let k in obj) {
+                                if (Object.prototype.hasOwnProperty.call(obj, k)) {
+                                    newObj[k] = obfuscateObject(obj[k]);
+                                }
+                            }
+                            return newObj;
+                        } else if (typeof obj === 'string') {
+                            // Advanced Obfuscation: Hex Escaping for strings
+                            return obj.split('').map(char => {
+                                if(char.trim() === '') return char;
+                                const hex = char.charCodeAt(0).toString(16);
+                                return '\\u' + ('0000' + hex).slice(-4);
+                            }).join('');
+                        }
+                        return obj;
+                    }
+                    
+                    // Deep clone and obfuscate
+                    const obfuscated = obfuscateObject(JSON.parse(JSON.stringify(parsed)));
+                    
+                    let result = isMinified ? JSON.stringify(obfuscated) : JSON.stringify(obfuscated, null, 4);
+                    // Un-escape the double backslashes
+                    result = result.replace(/\\\\u/g, '\\u');
+
+                    outEl.value = result;
+                }
             } catch (error) {
                 outEl.value = "Error: Invalid JSON Input.\n" + error.message;
                 outEl.classList.add('text-red-500');
