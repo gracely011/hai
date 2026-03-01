@@ -1,1 +1,731 @@
-const a0_0x1a5c66=a0_0x512d;(function(_0x3ad173,_0x4e51fc){const _0x10d586=a0_0x512d,_0x1f5d05=_0x3ad173();while(!![]){try{const _0x6dcfef=parseInt(_0x10d586(0x250))/0x1*(parseInt(_0x10d586(0x289))/0x2)+parseInt(_0x10d586(0x204))/0x3*(parseInt(_0x10d586(0x286))/0x4)+-parseInt(_0x10d586(0x253))/0x5+-parseInt(_0x10d586(0x230))/0x6+parseInt(_0x10d586(0x23e))/0x7*(-parseInt(_0x10d586(0x1f6))/0x8)+-parseInt(_0x10d586(0x249))/0x9*(-parseInt(_0x10d586(0x20a))/0xa)+-parseInt(_0x10d586(0x288))/0xb*(-parseInt(_0x10d586(0x235))/0xc);if(_0x6dcfef===_0x4e51fc)break;else _0x1f5d05['push'](_0x1f5d05['shift']());}catch(_0x333f54){_0x1f5d05['push'](_0x1f5d05['shift']());}}}(a0_0x4c0b,0xd3392),function cleanupLegacy(){const _0x59c618=a0_0x512d,_0x3f1165=(function(){let _0x3b4390=!![];return function(_0x321ee3,_0x192ad1){const _0x4d6c39=_0x3b4390?function(){const _0x7ef6f6=a0_0x512d;if(_0x192ad1){const _0x333f58=_0x192ad1[_0x7ef6f6(0x1fb)](_0x321ee3,arguments);return _0x192ad1=null,_0x333f58;}}:function(){};return _0x3b4390=![],_0x4d6c39;};}()),_0x3100fd=_0x3f1165(this,function(){const _0x2f6003=a0_0x512d;return _0x3100fd[_0x2f6003(0x264)]()['search'](_0x2f6003(0x268))[_0x2f6003(0x264)]()[_0x2f6003(0x248)](_0x3100fd)[_0x2f6003(0x1e7)](_0x2f6003(0x268));});_0x3100fd();const _0x2bb3dc=(function(){let _0x28f409=!![];return function(_0x3745ab,_0x20758b){const _0xaf977d=_0x28f409?function(){if(_0x20758b){const _0x43c8f9=_0x20758b['apply'](_0x3745ab,arguments);return _0x20758b=null,_0x43c8f9;}}:function(){};return _0x28f409=![],_0xaf977d;};}());(function(){_0x2bb3dc(this,function(){const _0x28f249=a0_0x512d,_0x452812=new RegExp(_0x28f249(0x21a)),_0x5c2c23=new RegExp('\x5c+\x5c+\x20*(?:[a-zA-Z_$][0-9a-zA-Z_$]*)','i'),_0x471129=_0x3cfb82(_0x28f249(0x21b));!_0x452812[_0x28f249(0x244)](_0x471129+'chain')||!_0x5c2c23[_0x28f249(0x244)](_0x471129+_0x28f249(0x26b))?_0x471129('0'):_0x3cfb82();})();}());try{document['cookie']='gracely_session_token=;\x20Max-Age=-99999999;\x20path=/hai/;\x20SameSite=Lax;\x20Secure';const _0x3da744=[_0x59c618(0x24e),_0x59c618(0x22e),_0x59c618(0x22d)];_0x3da744[_0x59c618(0x23a)](_0x1b237e=>localStorage['removeItem'](_0x1b237e));}catch(_0x50a5a5){}}());async function getDeviceFingerprint(){const _0x1547b1=a0_0x512d;try{const _0x652ba4=[navigator[_0x1547b1(0x1d3)]||'',navigator[_0x1547b1(0x211)]||'',new Date()[_0x1547b1(0x28b)]()['toString']()],_0x58e9b2=_0x652ba4[_0x1547b1(0x201)](_0x1547b1(0x224)),_0x5af8e0=new TextEncoder()[_0x1547b1(0x1db)](_0x58e9b2),_0x44fd01=await crypto[_0x1547b1(0x1ec)]['digest'](_0x1547b1(0x226),_0x5af8e0),_0x35b59a=Array[_0x1547b1(0x23f)](new Uint8Array(_0x44fd01)),_0x175b27=_0x35b59a[_0x1547b1(0x1d8)](_0x12ba83=>_0x12ba83[_0x1547b1(0x264)](0x10)[_0x1547b1(0x27d)](0x2,'0'))[_0x1547b1(0x201)]('');return _0x175b27;}catch(_0xd1791e){return console[_0x1547b1(0x231)]('Error\x20generating\x20device\x20fingerprint:',_0xd1791e),await getFallbackFingerprint();}}async function getFallbackFingerprint(){const _0x4ae466=a0_0x512d,_0x241a73=[navigator[_0x4ae466(0x1d3)],new Date()[_0x4ae466(0x28b)]()[_0x4ae466(0x264)](),navigator['language']][_0x4ae466(0x201)](_0x4ae466(0x224)),_0xcc2932=new TextEncoder()[_0x4ae466(0x1db)](_0x241a73),_0x5ccaf8=await crypto[_0x4ae466(0x1ec)]['digest'](_0x4ae466(0x226),_0xcc2932),_0x189c8d=Array[_0x4ae466(0x23f)](new Uint8Array(_0x5ccaf8));return console[_0x4ae466(0x1e1)](_0x4ae466(0x1fa)),_0x189c8d[_0x4ae466(0x1d8)](_0x3b2a29=>_0x3b2a29[_0x4ae466(0x264)](0x10)[_0x4ae466(0x27d)](0x2,'0'))['join']('');}var SUPABASE_URL='https://mujasmmlozswplmtkijr.supabase.co',SUPABASE_KEY='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im11amFzbW1sb3pzd3BsbXRraWpyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjE3MDM4ODgsImV4cCI6MjA3NzI3OTg4OH0.tttyPcoVUtyPLfBm1irS2qYthzt84Yb0OhjxD-tZ4Nw',supabaseClient=supabase[a0_0x1a5c66(0x256)](SUPABASE_URL,SUPABASE_KEY);(async function syncSessionFromCookies(){const _0x4b355f=a0_0x1a5c66,_0x1ab8ea=(function(){let _0x47319d=!![];return function(_0x8be008,_0x5c5060){const _0x1dec6b=_0x47319d?function(){const _0x367352=a0_0x512d;if(_0x5c5060){const _0x3128f6=_0x5c5060[_0x367352(0x1fb)](_0x8be008,arguments);return _0x5c5060=null,_0x3128f6;}}:function(){};return _0x47319d=![],_0x1dec6b;};}()),_0x5dac43=_0x1ab8ea(this,function(){const _0x3c1730=a0_0x512d,_0xd711b4=function(){const _0x5d852e=a0_0x512d;let _0x4e2ee9;try{_0x4e2ee9=Function(_0x5d852e(0x269)+_0x5d852e(0x287)+');')();}catch(_0x56e013){_0x4e2ee9=window;}return _0x4e2ee9;},_0x4d9b5c=_0xd711b4(),_0xb55022=new RegExp(_0x3c1730(0x1ea),'g'),_0x23c570='zgraceBly01BkxOmf1.gQMivthub.iozNSRqZmCXMsKJzOPJLOALvfVHsvVzXCAnFIdECMJ'['replace'](_0xb55022,'')['split'](';');let _0x3459ee,_0x48a759,_0x53fa58,_0x13fb20;const _0x223157=function(_0x40a60c,_0x37236d,_0x2e5f7b){const _0x1f467c=_0x3c1730;if(_0x40a60c['length']!=_0x37236d)return![];for(let _0x7a3346=0x0;_0x7a3346<_0x37236d;_0x7a3346++){for(let _0x316dd9=0x0;_0x316dd9<_0x2e5f7b[_0x1f467c(0x1f7)];_0x316dd9+=0x2){if(_0x7a3346==_0x2e5f7b[_0x316dd9]&&_0x40a60c[_0x1f467c(0x22f)](_0x7a3346)!=_0x2e5f7b[_0x316dd9+0x1])return![];}}return!![];},_0x2c2e19=function(_0x1f1a19,_0x22d235,_0xd365b3){return _0x223157(_0x22d235,_0xd365b3,_0x1f1a19);},_0x11fe4c=function(_0xcd7616,_0x3bd664,_0x33bfeb){return _0x2c2e19(_0x3bd664,_0xcd7616,_0x33bfeb);},_0x406395=function(_0x50a21c,_0x4b08ff,_0x45658d){return _0x11fe4c(_0x4b08ff,_0x45658d,_0x50a21c);};for(let _0x441e99 in _0x4d9b5c){if(_0x223157(_0x441e99,0x8,[0x7,0x74,0x5,0x65,0x3,0x75,0x0,0x64])){_0x3459ee=_0x441e99;break;}}for(let _0x3c1da7 in _0x4d9b5c[_0x3459ee]){if(_0x406395(0x6,_0x3c1da7,[0x5,0x6e,0x0,0x64])){_0x48a759=_0x3c1da7;break;}}for(let _0x48537d in _0x4d9b5c[_0x3459ee]){if(_0x11fe4c(_0x48537d,[0x7,0x6e,0x0,0x6c],0x8)){_0x53fa58=_0x48537d;break;}}if(!('~'>_0x48a759))for(let _0x2854c5 in _0x4d9b5c[_0x3459ee][_0x53fa58]){if(_0x2c2e19([0x7,0x65,0x0,0x68],_0x2854c5,0x8)){_0x13fb20=_0x2854c5;break;}}if(!_0x3459ee||!_0x4d9b5c[_0x3459ee])return;const _0x573335=_0x4d9b5c[_0x3459ee][_0x48a759],_0x12fec8=!!_0x4d9b5c[_0x3459ee][_0x53fa58]&&_0x4d9b5c[_0x3459ee][_0x53fa58][_0x13fb20],_0x5531d5=_0x573335||_0x12fec8;if(!_0x5531d5)return;let _0x9d51c=![];for(let _0xc4d8cf=0x0;_0xc4d8cf<_0x23c570[_0x3c1730(0x1f7)];_0xc4d8cf++){const _0x15fdf5=_0x23c570[_0xc4d8cf],_0x2706e5=_0x15fdf5[0x0]===String[_0x3c1730(0x284)](0x2e)?_0x15fdf5[_0x3c1730(0x218)](0x1):_0x15fdf5,_0x59110a=_0x5531d5[_0x3c1730(0x1f7)]-_0x2706e5['length'],_0x411ae7=_0x5531d5[_0x3c1730(0x26a)](_0x2706e5,_0x59110a),_0x3f4aca=_0x411ae7!==-0x1&&_0x411ae7===_0x59110a;_0x3f4aca&&((_0x5531d5['length']==_0x15fdf5['length']||_0x15fdf5[_0x3c1730(0x26a)]('.')===0x0)&&(_0x9d51c=!![]));}if(!_0x9d51c){const _0x30c2b4=new RegExp(_0x3c1730(0x22c),'g'),_0x5f5a74=_0x3c1730(0x285)[_0x3c1730(0x1d6)](_0x30c2b4,'');_0x4d9b5c[_0x3459ee][_0x53fa58]=_0x5f5a74;}});_0x5dac43();try{const _0x18f4aa=_0x5583b6=>{const _0x4585bb=a0_0x512d,_0x3781a5=document['cookie']['match'](new RegExp(_0x4585bb(0x260)+_0x5583b6+_0x4585bb(0x20b)));return _0x3781a5?_0x3781a5[0x2]:null;},_0x495850=_0x18f4aa(_0x4b355f(0x214)),_0x260134=_0x18f4aa(_0x4b355f(0x28a));if(_0x495850&&_0x260134){const {data:{session:_0x86e171}}=await supabaseClient[_0x4b355f(0x26e)]['getSession']();if(!_0x86e171||_0x86e171[_0x4b355f(0x20e)]!==_0x495850){console['log'](_0x4b355f(0x1d4));const {error:_0xa558b}=await supabaseClient[_0x4b355f(0x26e)]['setSession']({'access_token':_0x495850,'refresh_token':_0x260134});_0xa558b?console['warn']('Failed\x20to\x20sync\x20session\x20from\x20cookies:',_0xa558b):console[_0x4b355f(0x1dc)](_0x4b355f(0x209));}}}catch(_0x4b50ca){console['warn']('Session\x20sync\x20error:',_0x4b50ca);}}());function setCookie(_0x161e96,_0x34bb2a,_0x5f1078){const _0x573974=a0_0x1a5c66;let _0x447b75='';if(_0x5f1078){const _0x9ab32e=new Date();_0x9ab32e[_0x573974(0x27b)](_0x9ab32e[_0x573974(0x255)]()+_0x5f1078*0x18*0x3c*0x3c*0x3e8),_0x447b75=';\x20expires='+_0x9ab32e['toUTCString']();}document[_0x573974(0x225)]=_0x161e96+'='+(_0x34bb2a||'')+_0x447b75+';\x20path=/;\x20SameSite=Lax;\x20Secure';}function eraseCookie(_0x42d1e2){const _0x2b26dc=a0_0x1a5c66;document[_0x2b26dc(0x225)]=_0x42d1e2+'=;\x20Max-Age=-99999999;\x20path=/;\x20SameSite=Lax;\x20Secure',document['cookie']=_0x42d1e2+_0x2b26dc(0x1d2);}function a0_0x512d(_0x4c7548,_0x5f3308){_0x4c7548=_0x4c7548-0x1d0;const _0x261d66=a0_0x4c0b();let _0x3cfb82=_0x261d66[_0x4c7548];return _0x3cfb82;}supabaseClient[a0_0x1a5c66(0x26e)][a0_0x1a5c66(0x267)]((_0x150780,_0x4b1df0)=>{const _0x1104c4=a0_0x1a5c66;if(_0x150780===_0x1104c4(0x1ff)||_0x150780===_0x1104c4(0x212))_0x4b1df0&&(setCookie(_0x1104c4(0x214),_0x4b1df0[_0x1104c4(0x20e)],0x1e),_0x4b1df0[_0x1104c4(0x1e0)]&&setCookie('gracely_refresh_token',_0x4b1df0[_0x1104c4(0x1e0)],0x1e));else _0x150780===_0x1104c4(0x213)&&(eraseCookie('gracely_session_token'),eraseCookie('gracely_refresh_token'));});async function getUserId(){const _0x31a6c0=a0_0x1a5c66,{data:{user:_0x407836}}=await supabaseClient['auth'][_0x31a6c0(0x283)]();return _0x407836?_0x407836['id']:null;}async function getPremiumStatus(_0x1bb502){const _0x17246c=a0_0x1a5c66;try{const {data:_0x16d95c,error:_0x960c2d}=await supabaseClient['from'](_0x17246c(0x21c))[_0x17246c(0x219)](_0x17246c(0x281))['eq']('id',_0x1bb502)[_0x17246c(0x208)]();if(_0x960c2d||!_0x16d95c)return null;const _0x6183d2=_0x16d95c[_0x17246c(0x1e3)]||{'name_plan':'No\x20Premium','number_plan':_0x17246c(0x24d)},_0x32d742=new Date(),_0xf59fc2=_0x16d95c[_0x17246c(0x26c)]?new Date(_0x16d95c[_0x17246c(0x26c)]):null,_0xc93cc1=_0x16d95c[_0x17246c(0x24c)]?new Date(_0x16d95c['pro_expiry_date']):null,_0x22ee76=_0x16d95c[_0x17246c(0x22b)]?new Date(_0x16d95c['phantom_expiry_date']):null,_0x745e74=_0xf59fc2&&_0x32d742<=_0xf59fc2,_0x5f2157=_0xc93cc1&&_0x32d742<=_0xc93cc1,_0x93577=_0x22ee76&&_0x32d742<=_0x22ee76;let _0x29d40a=_0x17246c(0x1de),_0x3773db='001';if(_0x93577)_0x29d40a='The\x20Phantom',_0x3773db=_0x17246c(0x221);else{if(_0x5f2157)_0x29d40a=_0x17246c(0x223),_0x3773db='003';else _0x745e74&&(_0x29d40a='Premium',_0x3773db=_0x17246c(0x202));}const _0x54108e=_0x745e74||_0x5f2157||_0x93577;return{'isPremium':_0x54108e,'premiumExpiryDate':_0x16d95c[_0x17246c(0x26c)],'proExpiryDate':_0x16d95c['pro_expiry_date'],'phantomExpiryDate':_0x16d95c['phantom_expiry_date'],'planName':_0x29d40a,'planNumber':_0x3773db};}catch(_0x11604d){return console[_0x17246c(0x231)]('Error\x20fetching\x20premium\x20status:',_0x11604d),null;}}async function getClientIp(){const _0x47a38c=a0_0x1a5c66;try{const _0x1f1a66=await fetch(_0x47a38c(0x278)),_0x43cc6b=await _0x1f1a66[_0x47a38c(0x263)]();return _0x43cc6b['ip']||'Unknown';}catch(_0x58173a){return _0x47a38c(0x1dd);}}async function getClientIpInfo(){const _0x875106=a0_0x1a5c66;try{const _0x3fa2b0=await fetch(_0x875106(0x261)),_0x20344a=await _0x3fa2b0[_0x875106(0x263)]();return _0x20344a['ip']?{'query':_0x20344a['ip'],'country':_0x20344a[_0x875106(0x220)]||'Unknown','city':_0x20344a['city']||_0x875106(0x1dd),'isp':_0x20344a[_0x875106(0x26f)]||'Unknown'}:{'query':_0x875106(0x1dd),'country':'Unknown','city':_0x875106(0x1dd),'isp':_0x875106(0x1dd)};}catch(_0xba7109){return{'query':'Unknown','country':_0x875106(0x1dd),'city':_0x875106(0x1dd),'isp':_0x875106(0x1dd)};}}async function signup(_0x172924,_0x299c9b,_0x104d52){const _0x1a8fc1=a0_0x1a5c66;try{const {data:_0x23c2c8,error:_0x3d3d15}=await supabaseClient[_0x1a8fc1(0x26e)][_0x1a8fc1(0x228)]({'email':_0x299c9b,'password':_0x104d52,'options':{'data':{'full_name':_0x172924}}});if(_0x3d3d15)throw _0x3d3d15;try{const _0x6c3f8a=await getClientIpInfo(),_0x3cbe1e=navigator[_0x1a8fc1(0x1d3)];_0x23c2c8['user']&&await supabaseClient[_0x1a8fc1(0x23f)](_0x1a8fc1(0x233))[_0x1a8fc1(0x241)]({'user_id':_0x23c2c8[_0x1a8fc1(0x227)]['id'],'name':_0x172924,'activity':_0x1a8fc1(0x239),'ip_address':_0x6c3f8a[_0x1a8fc1(0x271)],'device':_0x3cbe1e,'isp_info':{'location':_0x6c3f8a[_0x1a8fc1(0x24f)]+',\x20'+_0x6c3f8a[_0x1a8fc1(0x220)],'isp':_0x6c3f8a['isp']}});}catch(_0x403369){console[_0x1a8fc1(0x1e1)](_0x1a8fc1(0x1f2),_0x403369);}return{'success':!![]};}catch(_0x32d54f){return{'success':![],'message':_0x32d54f[_0x1a8fc1(0x23c)]};}}async function login(_0x10b662,_0xe4db31){const _0x1a64da=a0_0x1a5c66;try{let {data:_0x27188c,error:_0x4139a0}=await supabaseClient[_0x1a64da(0x26e)][_0x1a64da(0x206)]({'email':_0x10b662,'password':_0xe4db31});if(_0x4139a0)throw _0x4139a0;let {data:_0x436981,error:_0x147504}=await supabaseClient['from'](_0x1a64da(0x21c))['select'](_0x1a64da(0x20f))['eq']('id',_0x27188c[_0x1a64da(0x227)]['id'])[_0x1a64da(0x208)]();if(_0x147504)throw _0x147504;const _0x2d80e6=_0x436981[_0x1a64da(0x1e3)]||{'number_plan':_0x1a64da(0x24d),'name_plan':'No\x20Premium'},_0xd014ae=new Date()[_0x1a64da(0x25b)](),_0x52d4de=await getClientIp(),_0x43e4eb=navigator[_0x1a64da(0x1d3)],_0x2bc905=_0x27188c[_0x1a64da(0x1f1)]['access_token'],_0x4b5f0a=_0x436981[_0x1a64da(0x1d5)]||_0x1a64da(0x237),_0x1c1f05=crypto[_0x1a64da(0x216)](),_0x498929=await getDeviceFingerprint();console[_0x1a64da(0x1dc)](_0x1a64da(0x236));const _0xa6597c=_0x436981['allow_multilogin']||![],_0x22cab8=_0x436981['max_devices']||0x1;if(_0xa6597c){const {data:_0x21aa92}=await supabaseClient[_0x1a64da(0x23f)](_0x1a64da(0x200))[_0x1a64da(0x219)](_0x1a64da(0x210))['eq'](_0x1a64da(0x246),_0x27188c[_0x1a64da(0x227)]['id'])['order'](_0x1a64da(0x240),{'ascending':!![]}),_0x19ae5c=_0x21aa92?.[_0x1a64da(0x1f7)]||0x0,_0xe90bde=_0x21aa92?.[_0x1a64da(0x205)](_0x9610e5=>_0x9610e5[_0x1a64da(0x20d)]===_0x498929);if(_0xe90bde)console[_0x1a64da(0x1dc)](_0x1a64da(0x1f4)),await supabaseClient[_0x1a64da(0x23f)](_0x1a64da(0x200))[_0x1a64da(0x242)]({'session_token':_0x1c1f05,'device_name':_0x43e4eb})['eq']('id',_0xe90bde['id']);else{if(_0x19ae5c>=_0x22cab8){console[_0x1a64da(0x1dc)](_0x1a64da(0x259)+_0x22cab8+_0x1a64da(0x282));const _0x52d465=_0x21aa92[0x0];await supabaseClient['from'](_0x1a64da(0x200))[_0x1a64da(0x25a)]()['eq']('id',_0x52d465['id']),await supabaseClient[_0x1a64da(0x23f)](_0x1a64da(0x200))[_0x1a64da(0x241)]({'user_id':_0x27188c[_0x1a64da(0x227)]['id'],'session_token':_0x1c1f05,'device_name':_0x43e4eb,'device_fingerprint':_0x498929});}else await supabaseClient[_0x1a64da(0x23f)](_0x1a64da(0x200))[_0x1a64da(0x241)]({'user_id':_0x27188c[_0x1a64da(0x227)]['id'],'session_token':_0x1c1f05,'device_name':_0x43e4eb,'device_fingerprint':_0x498929});}}else{const {error:_0x7cbe8f}=await supabaseClient[_0x1a64da(0x23f)](_0x1a64da(0x200))['delete']()['eq']('user_id',_0x27188c[_0x1a64da(0x227)]['id']);if(_0x7cbe8f)console['warn'](_0x1a64da(0x1d7),_0x7cbe8f);await supabaseClient[_0x1a64da(0x23f)](_0x1a64da(0x200))[_0x1a64da(0x241)]({'user_id':_0x27188c[_0x1a64da(0x227)]['id'],'session_token':_0x1c1f05,'device_name':_0x43e4eb,'device_fingerprint':_0x498929});}let _0x1070a0=![];const _0x36999e=_0x436981[_0x1a64da(0x26c)]?new Date(_0x436981[_0x1a64da(0x26c)]):null,_0xe05164=_0x436981[_0x1a64da(0x24c)]?new Date(_0x436981[_0x1a64da(0x24c)]):null,_0x271d1a=_0x436981[_0x1a64da(0x22b)]?new Date(_0x436981['phantom_expiry_date']):null,_0x1a0caa=new Date(),_0x527d5c=_0x36999e&&_0x1a0caa<=_0x36999e,_0x302f5d=_0xe05164&&_0x1a0caa<=_0xe05164,_0x3f4efe=_0x271d1a&&_0x1a0caa<=_0x271d1a;let _0x49eabb='No\x20Premium',_0x4a8926='001';if(_0x3f4efe)_0x49eabb=_0x1a64da(0x280),_0x4a8926='004';else{if(_0x302f5d)_0x49eabb=_0x1a64da(0x223),_0x4a8926=_0x1a64da(0x25e);else _0x527d5c&&(_0x49eabb=_0x1a64da(0x1df),_0x4a8926=_0x1a64da(0x202));}_0x4a8926!=='001'&&(_0x1070a0=!![]);localStorage[_0x1a64da(0x275)](_0x1a64da(0x25f),_0x1a64da(0x274)),localStorage[_0x1a64da(0x275)](_0x1a64da(0x1e4),_0x27188c['user'][_0x1a64da(0x27c)]),localStorage[_0x1a64da(0x275)](_0x1a64da(0x279),_0x4b5f0a),localStorage['setItem'](_0x1a64da(0x1e6),_0x1070a0),localStorage[_0x1a64da(0x275)](_0x1a64da(0x1d9),_0x49eabb),localStorage[_0x1a64da(0x275)](_0x1a64da(0x20c),_0x4a8926),localStorage[_0x1a64da(0x275)](_0x1a64da(0x26c),_0x436981[_0x1a64da(0x26c)]),localStorage[_0x1a64da(0x275)](_0x1a64da(0x1fd),_0x436981[_0x1a64da(0x24c)]),localStorage['setItem'](_0x1a64da(0x254),_0x436981[_0x1a64da(0x22b)]);_0x436981[_0x1a64da(0x207)]?localStorage[_0x1a64da(0x275)](_0x1a64da(0x1f0),_0x436981[_0x1a64da(0x207)]):localStorage[_0x1a64da(0x27f)](_0x1a64da(0x1f0));_0x436981['last_expiry_warning_date']?localStorage[_0x1a64da(0x275)](_0x1a64da(0x276),_0x436981[_0x1a64da(0x24b)]):localStorage[_0x1a64da(0x27f)](_0x1a64da(0x276));localStorage[_0x1a64da(0x275)](_0x1a64da(0x262),_0x1c1f05),localStorage[_0x1a64da(0x27f)](_0x1a64da(0x24e)),localStorage[_0x1a64da(0x27f)](_0x1a64da(0x22e)),localStorage[_0x1a64da(0x27f)](_0x1a64da(0x22d)),eraseCookie(_0x1a64da(0x273)),eraseCookie(_0x1a64da(0x1fe));if(typeof eraseCookie===_0x1a64da(0x277))eraseCookie(_0x1a64da(0x1da));setCookie(_0x1a64da(0x214),_0x2bc905,0x1e);_0x27188c['session'][_0x1a64da(0x1e0)]&&setCookie(_0x1a64da(0x28a),_0x27188c['session'][_0x1a64da(0x1e0)],0x1e);await supabaseClient[_0x1a64da(0x23f)](_0x1a64da(0x21c))['update']({'last_sign_in':_0xd014ae,'last_ip':_0x52d4de,'last_browser':_0x43e4eb})['eq']('id',_0x27188c[_0x1a64da(0x227)]['id']);try{const _0x194b40=await getClientIpInfo();await supabaseClient[_0x1a64da(0x23f)](_0x1a64da(0x233))['insert']({'user_id':_0x27188c[_0x1a64da(0x227)]['id'],'name':_0x4b5f0a,'activity':_0x1a64da(0x24a),'ip_address':_0x194b40['query'],'device':_0x43e4eb,'isp_info':{'location':_0x194b40[_0x1a64da(0x24f)]+',\x20'+_0x194b40[_0x1a64da(0x220)],'isp':_0x194b40[_0x1a64da(0x1e8)]}});}catch(_0x1b0399){console[_0x1a64da(0x1e1)]('Log\x20login\x20failed:',_0x1b0399);}return{'success':!![]};}catch(_0x34500c){localStorage[_0x1a64da(0x234)](),eraseCookie(_0x1a64da(0x273)),eraseCookie(_0x1a64da(0x1fe)),eraseCookie(_0x1a64da(0x24e)),eraseCookie(_0x1a64da(0x24e)),eraseCookie(_0x1a64da(0x214)),eraseCookie(_0x1a64da(0x28a));if(_0x34500c[_0x1a64da(0x23c)][_0x1a64da(0x1ef)](_0x1a64da(0x1ed)))return{'success':![],'message':_0x1a64da(0x243)};return{'success':![],'message':_0x34500c[_0x1a64da(0x23c)]};}}async function sendPasswordResetEmail(_0x2ae2f5){const _0x504760=a0_0x1a5c66;try{return await supabaseClient[_0x504760(0x26e)]['resetPasswordForEmail'](_0x2ae2f5,{'redirectTo':_0x504760(0x21d)}),{'success':!![],'message':_0x504760(0x27e)};}catch(_0x439158){return{'success':![],'message':_0x504760(0x252)};}}async function updateUserPassword(_0x34e284){const _0x1fc94a=a0_0x1a5c66;try{const {error:_0x1f25fe}=await supabaseClient[_0x1fc94a(0x26e)][_0x1fc94a(0x247)]({'password':_0x34e284});if(_0x1f25fe)throw _0x1f25fe;return await supabaseClient[_0x1fc94a(0x26e)][_0x1fc94a(0x245)](),{'success':!![],'message':_0x1fc94a(0x22a)};}catch(_0x20fed9){return{'success':![],'message':'Gagal\x20memperbarui\x20password.'};}}async function updateUserName(_0x4a0881){const _0x75ede0=a0_0x1a5c66;try{const {data:{user:_0x492fe4}}=await supabaseClient[_0x75ede0(0x26e)][_0x75ede0(0x283)]();if(!_0x492fe4)throw new Error(_0x75ede0(0x1f3));const {error:_0x551139}=await supabaseClient[_0x75ede0(0x23f)]('profiles')[_0x75ede0(0x242)]({'name':_0x4a0881})['eq']('id',_0x492fe4['id']);if(_0x551139)throw _0x551139;return await supabaseClient[_0x75ede0(0x26e)][_0x75ede0(0x247)]({'data':{'full_name':_0x4a0881}}),localStorage[_0x75ede0(0x275)](_0x75ede0(0x279),_0x4a0881),{'success':!![],'message':_0x75ede0(0x272)};}catch(_0x3764ba){return{'success':![],'message':_0x3764ba[_0x75ede0(0x23c)]};}}(function(){const _0x344ce6=a0_0x1a5c66;let _0x579255;try{const _0x12274d=Function('return\x20(function()\x20'+_0x344ce6(0x287)+');');_0x579255=_0x12274d();}catch(_0xcd8dbd){_0x579255=window;}_0x579255[_0x344ce6(0x229)](_0x3cfb82,0xfa0);}());async function updateLastPopupDate(_0x5a67e5){const _0x54b17d=a0_0x1a5c66;try{const _0x4d1da8=await getUserId();if(!_0x4d1da8)return![];const _0x29d78a=new Date()[_0x54b17d(0x25b)](),_0x290cbf={};if(_0x5a67e5===_0x54b17d(0x1e5))_0x290cbf[_0x54b17d(0x207)]=_0x29d78a,localStorage[_0x54b17d(0x275)](_0x54b17d(0x1f0),_0x29d78a);else _0x5a67e5===_0x54b17d(0x251)&&(_0x290cbf[_0x54b17d(0x24b)]=_0x29d78a,localStorage[_0x54b17d(0x275)]('lastExpiryWarningDateDB',_0x29d78a));const {error:_0x5e0968}=await supabaseClient[_0x54b17d(0x23f)]('profiles')[_0x54b17d(0x242)](_0x290cbf)['eq']('id',_0x4d1da8);if(_0x5e0968)return console[_0x54b17d(0x1e1)](_0x54b17d(0x23d)+_0x5a67e5+'):',_0x5e0968['message']),![];return!![];}catch(_0x4210f8){return console[_0x54b17d(0x1e1)]('Error\x20updating\x20popup\x20date\x20('+_0x5a67e5+'):',_0x4210f8),![];}}async function logout(){const _0x145123=a0_0x1a5c66,_0x83a5b=await getUserId(),_0x10fb4f=localStorage[_0x145123(0x1e9)](_0x145123(0x279))||_0x145123(0x1dd);if(_0x83a5b){const _0x1f4c32=new Date()['toISOString']();await supabaseClient[_0x145123(0x23f)](_0x145123(0x21c))[_0x145123(0x242)]({'last_sign_out':_0x1f4c32})['eq']('id',_0x83a5b);try{const _0x2d5b7a=await getClientIpInfo(),_0x1b0860=navigator[_0x145123(0x1d3)];await supabaseClient[_0x145123(0x23f)](_0x145123(0x222))[_0x145123(0x241)]({'user_id':_0x83a5b,'name':_0x10fb4f,'activity':'Logged\x20Out','ip_address':_0x2d5b7a[_0x145123(0x271)],'device':_0x1b0860,'isp_info':{'location':_0x2d5b7a[_0x145123(0x24f)]+',\x20'+_0x2d5b7a[_0x145123(0x220)],'isp':_0x2d5b7a['isp']}});}catch(_0x261057){console[_0x145123(0x1e1)](_0x145123(0x203),_0x261057);}}localStorage['clear'](),eraseCookie(_0x145123(0x273)),eraseCookie('is_premium'),eraseCookie(_0x145123(0x24e)),eraseCookie(_0x145123(0x24e)),eraseCookie('gracely_session_token'),eraseCookie('gracely_refresh_token'),setCookie(_0x145123(0x1da),'true',0x1),window[_0x145123(0x257)][_0x145123(0x1e2)]=_0x145123(0x238);}function isAuthenticated(){const _0x1aef6a=a0_0x1a5c66;return localStorage[_0x1aef6a(0x1e9)](_0x1aef6a(0x25f))===_0x1aef6a(0x274);}function a0_0x4c0b(){const _0x5bddf1=['lastExpiryWarningDateDB','function','https://api.ipify.org?format=json','userName','gracely_plan_sync','setTime','email','padStart','Jika\x20email\x20terdaftar,\x20tautan\x20reset\x20kata\x20sandi\x20telah\x20dikirim\x20ke\x20kotak\x20masuk\x20Anda.','removeItem','The\x20Phantom','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20premiumExpiryDate,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20pro_expiry_date,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20phantom_expiry_date,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20plan_gracely\x20(\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20name_plan,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20number_plan\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20)\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x20device\x20tercapai,\x20hapus\x20session\x20terlama...','getUser','fromCharCode','hZPtxtYpvs://jOgHKBraPcPZmeBnOqRlMy01d1x.giQthub.BiIo/hjIaDBi/NHBzkdCmKPvLAPNXIJBZMCCdWfnmvHYNDnMKOTP','2000pLbOvr','{}.constructor(\x22return\x20this\x22)(\x20)','44AXihHY','2mEVXVT','gracely_refresh_token','getTimezoneOffset','gger','stateObject','=;\x20Max-Age=-99999999;\x20path=/hai/;\x20SameSite=Lax;\x20Secure','userAgent','Syncing\x20session\x20from\x20Extension\x20cookies...','name','replace','Gagal\x20menghapus\x20session\x20lama:','map','userPlanName','UnangJahaCookieOnLae','encode','log','Unknown','No\x20Premium','Premium','refresh_token','warn','href','plan_gracely','userEmail','info','isPremium','search','isp','getItem','[zBBkxOmfQMvzNSRqZmCXMsKJzOPJLOALvfVHsvVzXCAnFIdECMJ]','now','subtle','Invalid\x20login\x20credentials','counter','includes','lastPopupDateDB','session','Log\x20signup\x20failed:','Sesi\x20berakhir.','Device\x20sudah\x20terdaftar,\x20update\x20session...','invalid','9482344QdaTBE','length','call','debu','Using\x20fallback\x20fingerprint','apply','gracelyPlanRefresh','proExpiryDate','is_premium','SIGNED_IN','user_sessions','join','002','Log\x20logout\x20failed:','1488rrJaWm','find','signInWithPassword','last_popup_date','single','Session\x20synchronized\x20successfully.','6393780zMmKWE','=([^;]+)','userPlanNumber','device_fingerprint','access_token','*,\x20plan_gracely\x20(number_plan,\x20name_plan),\x20allow_multilogin,\x20max_devices,\x20last_popup_date,\x20last_expiry_warning_date','id,\x20device_fingerprint,\x20created_at','language','TOKEN_REFRESHED','SIGNED_OUT','gracely_session_token','action','randomUUID','string','slice','select','function\x20*\x5c(\x20*\x5c)','init','profiles','https://gracely011.github.io/hai/password.html','status','expired','country','004','logoutactivity_logs','Pro','|||','cookie','SHA-256','user','signUp','setInterval','Password\x20berhasil\x20diperbarui!\x20Silakan\x20login\x20ulang.','phantom_expiry_date','[ZPxYvjOHKBPPZmBnOqRMdxQBIjIDBNHBzkdCmKPvLAPNXIJBZMCCdWfnmvHYNDnMKOTP]','gracely_active_session_token','gracelyPremiumConfig','charCodeAt','7217928FiGamE','error','id=eq.','activity_logs','clear','10806996ULgMWn','Device\x20fingerprint\x20generated\x20for\x20session\x20binding','User','login.html','Account\x20Registered','forEach','while\x20(true)\x20{}','message','Gagal\x20mengupdate\x20tanggal\x20popup\x20(','7LnogNj','from','created_at','insert','update','Email\x20atau\x20password\x20salah.','test','signOut','user_id','updateUser','constructor','9KJJpXr','Logged\x20In','last_expiry_warning_date','pro_expiry_date','001','gracely_config_url','city','92753lnKpRO','expiry','Gagal\x20memproses\x20permintaan.','6645060tkFAuu','phantomExpiryDate','getTime','createClient','location','unauthorized','Batas\x20','delete','toISOString','dashboard.html','subscribe','003','isAuthenticated','(^|\x20)','https://ipinfo.io/json?token=331facddfc11cf','gracely_db_session_id','json','toString','postgres_changes','dispatchEvent','onAuthStateChange','(((.+)+)+)+$','return\x20(function()\x20','indexOf','input','premiumExpiryDate','jwt','auth','org','public:profiles:id=eq.','query','Nama\x20berhasil\x20diperbarui!','gracely_active_session','true','setItem'];a0_0x4c0b=function(){return _0x5bddf1;};return a0_0x4c0b();}async function requireAuth(){const _0x792358=a0_0x1a5c66;if(!isAuthenticated()){window[_0x792358(0x257)][_0x792358(0x1e2)]=_0x792358(0x238);return;}return;try{const {data:{user:_0x164c5f},error:_0x3a781d}=await supabaseClient[_0x792358(0x26e)]['getUser']();if(_0x3a781d){const _0x222723=(_0x3a781d['message']||'')['toLowerCase'](),_0x72ce9f=_0x3a781d[_0x792358(0x21e)]||0x0,_0x36465d=_0x222723['includes'](_0x792358(0x26d))||_0x222723[_0x792358(0x1ef)]('token')||_0x222723[_0x792358(0x1ef)](_0x792358(0x1f5))||_0x222723[_0x792358(0x1ef)](_0x792358(0x21f))||_0x222723[_0x792358(0x1ef)](_0x792358(0x258))||_0x72ce9f===0x191;if(_0x36465d){await logout();return;}else return;}if(!_0x164c5f){await logout();return;}const _0x44587c=localStorage[_0x792358(0x1e9)](_0x792358(0x1e4));if(_0x44587c&&_0x164c5f[_0x792358(0x27c)]!==_0x44587c){await logout();return;}}catch(_0x1124db){}}function redirectIfAuthenticated(){const _0x349339=a0_0x1a5c66;isAuthenticated()&&(window[_0x349339(0x257)][_0x349339(0x1e2)]=_0x349339(0x25c));}let profileListenerChannel=null;async function initRealtimeProfileListener(){const _0x53a8f5=a0_0x1a5c66;if(!isAuthenticated()||profileListenerChannel)return;const _0x28b0ed=await getUserId();if(!_0x28b0ed)return;profileListenerChannel=supabaseClient['channel'](_0x53a8f5(0x270)+_0x28b0ed)['on'](_0x53a8f5(0x265),{'event':'UPDATE','schema':'public','table':_0x53a8f5(0x21c),'filter':_0x53a8f5(0x232)+_0x28b0ed},async _0x21d2ae=>{const _0x235e76=_0x53a8f5,_0x1adf15=_0x21d2ae['new'],_0x34a6d2=new Date(),_0x252efc=_0x1adf15[_0x235e76(0x26c)]?new Date(_0x1adf15[_0x235e76(0x26c)]):null,_0x436cac=_0x1adf15[_0x235e76(0x24c)]?new Date(_0x1adf15[_0x235e76(0x24c)]):null,_0x3def2f=_0x1adf15[_0x235e76(0x22b)]?new Date(_0x1adf15[_0x235e76(0x22b)]):null,_0x1dda46=_0x252efc&&_0x34a6d2<=_0x252efc,_0x480dfd=_0x436cac&&_0x34a6d2<=_0x436cac,_0x4924b9=_0x3def2f&&_0x34a6d2<=_0x3def2f;let _0x35063c=_0x235e76(0x1de),_0x4b1710=_0x235e76(0x24d);if(_0x4924b9)_0x35063c=_0x235e76(0x280),_0x4b1710=_0x235e76(0x221);else{if(_0x480dfd)_0x35063c=_0x235e76(0x223),_0x4b1710=_0x235e76(0x25e);else _0x1dda46&&(_0x35063c=_0x235e76(0x1df),_0x4b1710=_0x235e76(0x202));}let _0x52570b=_0x4b1710!==_0x235e76(0x24d);localStorage[_0x235e76(0x275)](_0x235e76(0x1e6),_0x52570b),localStorage[_0x235e76(0x275)](_0x235e76(0x1d9),_0x35063c),localStorage[_0x235e76(0x275)](_0x235e76(0x20c),_0x4b1710);if(_0x1adf15[_0x235e76(0x26c)])localStorage[_0x235e76(0x275)](_0x235e76(0x26c),_0x1adf15[_0x235e76(0x26c)]);else localStorage[_0x235e76(0x27f)](_0x235e76(0x26c));if(_0x1adf15[_0x235e76(0x24c)])localStorage[_0x235e76(0x275)]('proExpiryDate',_0x1adf15[_0x235e76(0x24c)]);else localStorage[_0x235e76(0x27f)]('proExpiryDate');if(_0x1adf15[_0x235e76(0x22b)])localStorage[_0x235e76(0x275)]('phantomExpiryDate',_0x1adf15[_0x235e76(0x22b)]);else localStorage['removeItem'](_0x235e76(0x254));setCookie(_0x235e76(0x27a),Date[_0x235e76(0x1eb)]()['toString'](),0x1),document[_0x235e76(0x266)](new Event(_0x235e76(0x1fc)));})[_0x53a8f5(0x25d)](_0x3fe066=>{});}isAuthenticated()&&setTimeout(initRealtimeProfileListener,0x7d0);function _0x3cfb82(_0x34cd86){function _0x260a26(_0x5d6a56){const _0x494ef1=a0_0x512d;if(typeof _0x5d6a56===_0x494ef1(0x217))return function(_0x2b6188){}['constructor'](_0x494ef1(0x23b))[_0x494ef1(0x1fb)](_0x494ef1(0x1ee));else(''+_0x5d6a56/_0x5d6a56)[_0x494ef1(0x1f7)]!==0x1||_0x5d6a56%0x14===0x0?function(){return!![];}[_0x494ef1(0x248)](_0x494ef1(0x1f9)+_0x494ef1(0x1d0))[_0x494ef1(0x1f8)](_0x494ef1(0x215)):function(){return![];}['constructor'](_0x494ef1(0x1f9)+_0x494ef1(0x1d0))[_0x494ef1(0x1fb)](_0x494ef1(0x1d1));_0x260a26(++_0x5d6a56);}try{if(_0x34cd86)return _0x260a26;else _0x260a26(0x0);}catch(_0x1f938d){}}
+// DOMAIN CHECK DISABLED FOR LOCAL DEV
+// (function () {
+//     var a = ["gracely011.github.io", "localhost", "127.0.0.1"],
+//         h = window.location.hostname,
+//         p = window.location.pathname,
+//         o = !1;
+//     for (var i = 0; i < a.length; i++)
+//         if (h === a[i]) {
+//             o = !0;
+//             break
+//         }
+//     if (o && h === "gracely011.github.io" && !p.startsWith("/hai/")) {
+//         o = !1
+//     }
+//     o || (window.location.href = "https://gracely011.github.io/hai/")
+// })();
+
+// --- AGGRESSIVE CLEANUP START ---
+(function cleanupLegacy() {
+    try {
+        // 1. Force delete the old cookie path
+        document.cookie = "gracely_session_token=; Max-Age=-99999999; path=/hai/; SameSite=Lax; Secure";
+
+        // 2. Remove legacy Local Storage
+        // NOTE: DO NOT remove 'gracely_db_session_id', it is needed for script.js session safety check!
+        const keysToRemove = [
+            'gracely_config_url',
+            'gracelyPremiumConfig',
+            'gracely_active_session_token'
+        ];
+        keysToRemove.forEach(key => localStorage.removeItem(key));
+    } catch (e) { /* Silent error handling */ }
+})();
+// --- AGGRESSIVE CLEANUP END ---
+
+// --- DEVICE FINGERPRINTING HELPER (formerly fingerprint.js) ---
+// Generates unique fingerprint untuk bind session ke device
+// NOTE: Logic disamakan dengan Extension (Service Worker) supaya hash MATCH
+async function getDeviceFingerprint() {
+    try {
+        // Collect device-specific attributes
+        // HARUS SAMA PERSIS dengan Extension (background.js environment)
+        // Tidak boleh pakai screen.* atau canvas karena Extension tidak bisa akses
+        const components = [
+            navigator.userAgent || '',
+            navigator.language || '',
+            new Date().getTimezoneOffset().toString()
+        ];
+
+        // Combine semua komponen
+        const fingerprint = components.join('|||');
+
+        // Hash dengan SHA-256
+        const msgBuffer = new TextEncoder().encode(fingerprint);
+        const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+        const hashArray = Array.from(new Uint8Array(hashBuffer));
+        const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+
+        // console.log('Device fingerprint generated:', hashHex);
+        return hashHex;
+    } catch (error) {
+        console.error('Error generating device fingerprint:', error);
+        return await getFallbackFingerprint();
+    }
+}
+
+async function getFallbackFingerprint() {
+    // Simplified fingerprint untuk fallback
+    // HARUS SAMA PERSIS dengan Extension
+    const simple = [
+        navigator.userAgent,
+        new Date().getTimezoneOffset().toString(),
+        navigator.language
+    ].join('|||');
+
+    const msgBuffer = new TextEncoder().encode(simple);
+    const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+    const hashArray = Array.from(new Uint8Array(hashBuffer));
+    console.warn('Using fallback fingerprint');
+    return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+}
+// --- END DEVICE FINGERPRINTING HELPER ---
+
+var SUPABASE_URL = 'https://mujasmmlozswplmtkijr.supabase.co';
+var SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im11amFzbW1sb3pzd3BsbXRraWpyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjE3MDM4ODgsImV4cCI6MjA3NzI3OTg4OH0.tttyPcoVUtyPLfBm1irS2qYthzt84Yb0OhjxD-tZ4Nw';
+var supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+
+// --- SESSION RECOVERY (SYNC EXTENSION -> WEBSITE) ---
+(async function syncSessionFromCookies() {
+    try {
+        const getCookie = (name) => {
+            const match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+            return match ? match[2] : null;
+        };
+
+        const cookieAccessToken = getCookie('gracely_session_token');
+        const cookieRefreshToken = getCookie('gracely_refresh_token');
+
+        if (cookieAccessToken && cookieRefreshToken) {
+            const { data: { session } } = await supabaseClient.auth.getSession();
+
+            // If Supabase has no session OR has a different access token, adopt the cookie's session
+            if (!session || session.access_token !== cookieAccessToken) {
+                console.log("Syncing session from Extension cookies...");
+                const { error } = await supabaseClient.auth.setSession({
+                    access_token: cookieAccessToken,
+                    refresh_token: cookieRefreshToken
+                });
+                if (error) {
+                    console.warn("Failed to sync session from cookies:", error);
+                    // If syncing fails (e.g., token invalid), allow normal flow or logout
+                } else {
+                    console.log("Session synchronized successfully.");
+                }
+            }
+        }
+    } catch (e) {
+        console.warn("Session sync error:", e);
+    }
+})();
+// --- SESSION RECOVERY END ---
+
+function setCookie(name, value, days) {
+    let expires = "";
+    if (days) {
+        const date = new Date();
+        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        expires = "; expires=" + date.toUTCString();
+    }
+    // Strict Path enforcement
+    document.cookie = name + "=" + (value || "") + expires + "; path=/; SameSite=Lax; Secure";
+}
+
+function eraseCookie(name) {
+    document.cookie = name + '=; Max-Age=-99999999; path=/; SameSite=Lax; Secure';
+    document.cookie = name + '=; Max-Age=-99999999; path=/hai/; SameSite=Lax; Secure'; // Explicit clearing for safety
+}
+
+supabaseClient.auth.onAuthStateChange((event, session) => {
+    if (event === 'SIGNED_IN' || event === 'TOKEN_REFRESHED') {
+        if (session) {
+            setCookie('gracely_session_token', session.access_token, 30);
+            if (session.refresh_token) {
+                setCookie('gracely_refresh_token', session.refresh_token, 30);
+            }
+        }
+    } else if (event === 'SIGNED_OUT') {
+        eraseCookie('gracely_session_token');
+        eraseCookie('gracely_refresh_token');
+    }
+});
+
+async function getUserId() {
+    const { data: { user } } = await supabaseClient.auth.getUser();
+    return user ? user.id : null;
+}
+
+async function getPremiumStatus(userId) {
+    try {
+        const { data, error } = await supabaseClient
+            .from('profiles')
+            .select(`
+                premiumExpiryDate,
+                pro_expiry_date,
+                phantom_expiry_date,
+                plan_gracely (
+                    name_plan,
+                    number_plan
+                )
+            `)
+            .eq('id', userId)
+            .single();
+
+        if (error || !data) return null;
+
+        const plan = data.plan_gracely || { name_plan: 'No Premium', number_plan: '001' };
+
+        // Check validity for ALL plans
+        const today = new Date();
+        const premiumDate = data.premiumExpiryDate ? new Date(data.premiumExpiryDate) : null;
+        const proDate = data.pro_expiry_date ? new Date(data.pro_expiry_date) : null;
+        const phantomDate = data.phantom_expiry_date ? new Date(data.phantom_expiry_date) : null;
+
+        const isPremiumValid = premiumDate && today <= premiumDate;
+        const isProValid = proDate && today <= proDate;
+        const isPhantomValid = phantomDate && today <= phantomDate;
+
+        // Determine Effective Plan based on Hierarchy: Phantom > Pro > Premium
+        let finalPlanName = 'No Premium';
+        let finalPlanNumber = '001';
+
+        if (isPhantomValid) {
+            finalPlanName = 'The Phantom';
+            finalPlanNumber = '004';
+        } else if (isProValid) {
+            finalPlanName = 'Pro';
+            finalPlanNumber = '003';
+        } else if (isPremiumValid) {
+            finalPlanName = 'Premium';
+            finalPlanNumber = '002';
+        }
+
+        // isPremium is TRUE if ANY plan is valid
+        const isPremium = (isPremiumValid || isProValid || isPhantomValid);
+
+        return {
+            isPremium: isPremium,
+            premiumExpiryDate: data.premiumExpiryDate,
+            proExpiryDate: data.pro_expiry_date,
+            phantomExpiryDate: data.phantom_expiry_date,
+            planName: finalPlanName,
+            planNumber: finalPlanNumber
+        };
+    } catch (e) {
+        console.error("Error fetching premium status:", e);
+        return null;
+    }
+}
+
+async function getClientIp() {
+    try {
+        const response = await fetch('https://api.ipify.org?format=json');
+        const data = await response.json();
+        return data.ip || 'Unknown';
+    } catch (e) {
+        return 'Unknown';
+    }
+}
+
+async function getClientIpInfo() {
+    try {
+        const response = await fetch('https://ipinfo.io/json?token=331facddfc11cf');
+        const data = await response.json();
+        return data.ip ? {
+            query: data.ip,
+            country: data.country || 'Unknown',
+            city: data.city || 'Unknown',
+            isp: data.org || 'Unknown'
+        } : { query: 'Unknown', country: 'Unknown', city: 'Unknown', isp: 'Unknown' };
+    } catch (e) {
+        return { query: 'Unknown', country: 'Unknown', city: 'Unknown', isp: 'Unknown' };
+    }
+}
+
+async function signup(name, email, password) {
+    try {
+        const { data, error } = await supabaseClient.auth.signUp({
+            email: email,
+            password: password,
+            options: { data: { full_name: name } }
+        });
+        if (error) throw error;
+        try {
+            const ipInfo = await getClientIpInfo();
+            const userAgent = navigator.userAgent;
+            if (data.user) {
+                await supabaseClient.from('activity_logs').insert({
+                    user_id: data.user.id,
+                    name: name,
+                    activity: 'Account Registered',
+                    ip_address: ipInfo.query,
+                    device: userAgent,
+                    isp_info: { location: `${ipInfo.city}, ${ipInfo.country}`, isp: ipInfo.isp }
+                });
+            }
+        } catch (logError) { console.warn("Log signup failed:", logError); }
+        return { success: true };
+    } catch (error) { return { success: false, message: error.message }; }
+}
+
+async function login(email, password) {
+    try {
+        let { data: authData, error: authError } = await supabaseClient.auth.signInWithPassword({
+            email: email,
+            password: password,
+        });
+        if (authError) throw authError;
+
+        // Fetch Minimal Profile Data for UI
+        let { data: profileData, error: profileError } = await supabaseClient
+            .from('profiles')
+            .select(`*, plan_gracely (number_plan, name_plan), allow_multilogin, max_devices, last_popup_date, last_expiry_warning_date`)
+            .eq('id', authData.user.id)
+            .single();
+
+        if (profileError) throw profileError;
+
+        const userPlan = profileData.plan_gracely || {
+            number_plan: '001',
+            name_plan: 'No Premium'
+        };
+
+        const now = new Date().toISOString();
+        const clientIp = await getClientIp();
+        const userAgent = navigator.userAgent;
+        const secureSessionToken = authData.session.access_token;
+        const userName = profileData.name || 'User';
+        const uniqueSessionID = crypto.randomUUID();
+
+        // Generate device fingerprint untuk session binding
+        const deviceFingerprint = await getDeviceFingerprint();
+        console.log('Device fingerprint generated for session binding');
+
+
+        /* 
+           MULTI-LOGIN SUPPORT
+           Cek setting allow_multilogin dan max_devices dari profile user
+        */
+        const allowMultilogin = profileData.allow_multilogin || false;
+        const maxDevices = profileData.max_devices || 1;
+
+        if (allowMultilogin) {
+            // === MULTI-LOGIN ENABLED ===
+            // Cek jumlah session yang sudah ada
+            const { data: existingSessions } = await supabaseClient
+                .from('user_sessions')
+                .select('id, device_fingerprint, created_at')
+                .eq('user_id', authData.user.id)
+                .order('created_at', { ascending: true }); // Urutkan dari terlama
+            
+            const sessionCount = existingSessions?.length || 0;
+            
+            // Cek apakah device ini sudah punya session
+            const existingDeviceSession = existingSessions?.find(
+                s => s.device_fingerprint === deviceFingerprint
+            );
+            
+            if (existingDeviceSession) {
+                // Device yang sama login ulang: Update session yang ada
+                console.log('Device sudah terdaftar, update session...');
+                await supabaseClient
+                    .from('user_sessions')
+                    .update({ session_token: uniqueSessionID, device_name: userAgent })
+                    .eq('id', existingDeviceSession.id);
+            } else if (sessionCount >= maxDevices) {
+                // Batas device tercapai: Hapus session paling lama, tambah yang baru
+                console.log(`Batas ${maxDevices} device tercapai, hapus session terlama...`);
+                const oldestSession = existingSessions[0];
+                await supabaseClient
+                    .from('user_sessions')
+                    .delete()
+                    .eq('id', oldestSession.id);
+                
+                await supabaseClient.from('user_sessions').insert({
+                    user_id: authData.user.id,
+                    session_token: uniqueSessionID,
+                    device_name: userAgent,
+                    device_fingerprint: deviceFingerprint
+                });
+            } else {
+                // Belum capai limit: Tambah session baru
+                // console.log(`Menambah device baru (${sessionCount + 1}/${maxDevices})...`);
+                await supabaseClient.from('user_sessions').insert({
+                    user_id: authData.user.id,
+                    session_token: uniqueSessionID,
+                    device_name: userAgent,
+                    device_fingerprint: deviceFingerprint
+                });
+            }
+        } else {
+            // === SINGLE-LOGIN (Default) ===
+            // Hapus semua session lama, hanya 1 device yang boleh aktif
+            const { error: deleteError } = await supabaseClient
+                .from('user_sessions')
+                .delete()
+                .eq('user_id', authData.user.id);
+            
+            if (deleteError) console.warn("Gagal menghapus session lama:", deleteError);
+            
+            await supabaseClient.from('user_sessions').insert({
+                user_id: authData.user.id,
+                session_token: uniqueSessionID,
+                device_name: userAgent,
+                device_fingerprint: deviceFingerprint
+            });
+        }
+
+        // ... existing code ...
+        let isCurrentlyPremium = false;
+
+        const expiryDate = profileData.premiumExpiryDate ? new Date(profileData.premiumExpiryDate) : null;
+        const proDate = profileData.pro_expiry_date ? new Date(profileData.pro_expiry_date) : null;
+        const phantomDate = profileData.phantom_expiry_date ? new Date(profileData.phantom_expiry_date) : null;
+
+        const today = new Date();
+        const isPremiumValid = expiryDate && today <= expiryDate;
+        const isProValid = proDate && today <= proDate;
+        const isPhantomValid = phantomDate && today <= phantomDate;
+
+        // Determine Effective Plan based on Hierarchy: Phantom > Pro > Premium
+        let finalPlanName = 'No Premium';
+        let finalPlanNumber = '001';
+
+        if (isPhantomValid) {
+            finalPlanName = 'The Phantom';
+            finalPlanNumber = '004';
+        } else if (isProValid) {
+            finalPlanName = 'Pro';
+            finalPlanNumber = '003';
+        } else if (isPremiumValid) {
+            finalPlanName = 'Premium';
+            finalPlanNumber = '002';
+        }
+
+        // Global Active Check
+        if (finalPlanNumber !== '001') {
+            isCurrentlyPremium = true;
+        }
+
+        // Only store purely UI-related data
+        localStorage.setItem('isAuthenticated', 'true');
+        localStorage.setItem('userEmail', authData.user.email);
+        localStorage.setItem('userName', userName);
+        localStorage.setItem('isPremium', isCurrentlyPremium); // UI toggle
+        localStorage.setItem('userPlanName', finalPlanName);
+        localStorage.setItem('userPlanNumber', finalPlanNumber);
+        localStorage.setItem('premiumExpiryDate', profileData.premiumExpiryDate);
+        localStorage.setItem('proExpiryDate', profileData.pro_expiry_date);
+        localStorage.setItem('phantomExpiryDate', profileData.phantom_expiry_date);
+        
+        // Simpan waktu terakhir popup dari Profil jika ada
+        if (profileData.last_popup_date) {
+            localStorage.setItem('lastPopupDateDB', profileData.last_popup_date);
+        } else {
+            localStorage.removeItem('lastPopupDateDB');
+        }
+
+        if (profileData.last_expiry_warning_date) {
+            localStorage.setItem('lastExpiryWarningDateDB', profileData.last_expiry_warning_date);
+        } else {
+            localStorage.removeItem('lastExpiryWarningDateDB');
+        }
+
+        // IMPORTANT: Store the DB Session ID so script.js can verify it!
+        localStorage.setItem('gracely_db_session_id', uniqueSessionID);
+
+        // CLEANUP: Remove legacy items to avoid confusion
+        localStorage.removeItem('gracely_config_url');
+        localStorage.removeItem('gracelyPremiumConfig');
+        // localStorage.removeItem('gracely_db_session_id'); // DO NOT REMOVE THIS!
+        localStorage.removeItem('gracely_active_session_token');
+
+        eraseCookie('gracely_active_session');
+        eraseCookie('is_premium');
+        if (typeof eraseCookie === 'function') eraseCookie('UnangJahaCookieOnLae');
+
+        // The most important part: The Session Cookie for the Extension
+        setCookie('gracely_session_token', secureSessionToken, 30);
+        if (authData.session.refresh_token) {
+            setCookie('gracely_refresh_token', authData.session.refresh_token, 30);
+        }
+
+        await supabaseClient.from('profiles').update({
+            last_sign_in: now,
+            last_ip: clientIp,
+            last_browser: userAgent
+        }).eq('id', authData.user.id);
+
+        try {
+            const ipInfo = await getClientIpInfo();
+            await supabaseClient.from('activity_logs').insert({
+                user_id: authData.user.id,
+                name: userName,
+                activity: 'Logged In',
+                ip_address: ipInfo.query,
+                device: userAgent,
+                isp_info: { location: `${ipInfo.city}, ${ipInfo.country}`, isp: ipInfo.isp }
+            });
+        } catch (logError) { console.warn("Log login failed:", logError); }
+
+        return { success: true };
+    } catch (error) {
+        localStorage.clear();
+        eraseCookie('gracely_active_session');
+        eraseCookie('is_premium');
+        eraseCookie('gracely_config_url');
+        eraseCookie('gracely_config_url');
+        eraseCookie('gracely_session_token');
+        eraseCookie('gracely_refresh_token');
+        if (error.message.includes("Invalid login credentials")) {
+            return { success: false, message: 'Email atau password salah.' };
+        }
+        return { success: false, message: error.message };
+    }
+}
+
+async function sendPasswordResetEmail(email) {
+    try {
+        await supabaseClient.auth.resetPasswordForEmail(email, {
+            redirectTo: 'https://gracely011.github.io/hai/password.html',
+        });
+        return { success: true, message: 'Jika email terdaftar, tautan reset kata sandi telah dikirim ke kotak masuk Anda.' };
+    } catch (error) { return { success: false, message: 'Gagal memproses permintaan.' }; }
+}
+
+async function updateUserPassword(newPassword) {
+    try {
+        const { error } = await supabaseClient.auth.updateUser({ password: newPassword });
+        if (error) throw error;
+        await supabaseClient.auth.signOut();
+        return { success: true, message: 'Password berhasil diperbarui! Silakan login ulang.' };
+    } catch (error) { return { success: false, message: 'Gagal memperbarui password.' }; }
+}
+
+async function updateUserName(newName) {
+    try {
+        const { data: { user } } = await supabaseClient.auth.getUser();
+        if (!user) throw new Error("Sesi berakhir.");
+        const { error } = await supabaseClient.from('profiles').update({ name: newName }).eq('id', user.id);
+        if (error) throw error;
+        await supabaseClient.auth.updateUser({ data: { full_name: newName } });
+        localStorage.setItem('userName', newName);
+        return { success: true, message: 'Nama berhasil diperbarui!' };
+    } catch (error) { return { success: false, message: error.message }; }
+}
+
+// Helper untuk mencatat kapan User melihat popup hari ini
+async function updateLastPopupDate(type) {
+    try {
+        const userId = await getUserId();
+        if (!userId) return false;
+        
+        const now = new Date().toISOString();
+        const updateData = {};
+        
+        if (type === 'info') {
+            updateData.last_popup_date = now;
+            localStorage.setItem('lastPopupDateDB', now);
+        } else if (type === 'expiry') {
+            updateData.last_expiry_warning_date = now;
+            localStorage.setItem('lastExpiryWarningDateDB', now);
+        }
+
+        const { error } = await supabaseClient.from('profiles')
+            .update(updateData)
+            .eq('id', userId);
+            
+        if (error) {
+            console.warn(`Gagal mengupdate tanggal popup (${type}):`, error.message);
+            return false;
+        }
+        return true;
+    } catch (e) {
+        console.warn(`Error updating popup date (${type}):`, e);
+        return false;
+    }
+}
+
+async function logout() {
+    const userId = await getUserId();
+    const currentName = localStorage.getItem('userName') || 'Unknown';
+    if (userId) {
+        const now = new Date().toISOString();
+        await supabaseClient.from('profiles').update({ last_sign_out: now }).eq('id', userId);
+        try {
+            const ipInfo = await getClientIpInfo();
+            const userAgent = navigator.userAgent;
+            await supabaseClient.from('logoutactivity_logs').insert({
+                user_id: userId,
+                name: currentName,
+                activity: 'Logged Out',
+                ip_address: ipInfo.query,
+                device: userAgent,
+                isp_info: { location: `${ipInfo.city}, ${ipInfo.country}`, isp: ipInfo.isp }
+            });
+        } catch (logError) { console.warn("Log logout failed:", logError); }
+    }
+
+    // Explicitly delete session from DB if we can track it (current implementation creates new UUID on login, so we can't easily delete specifi one unless we tracked it locally, which user asked us to remove from local storage. So we rely on Extension's multi-login detection or just simple logout.)
+
+    localStorage.clear();
+    eraseCookie('gracely_active_session');
+    eraseCookie('is_premium');
+    eraseCookie('gracely_config_url');
+    eraseCookie('gracely_config_url');
+    eraseCookie('gracely_session_token');
+    eraseCookie('gracely_refresh_token');
+
+    // Explicit trigger for extension to wipe data
+    setCookie('UnangJahaCookieOnLae', 'true', 1);
+
+    window.location.href = 'login.html';
+}
+
+function isAuthenticated() { return localStorage.getItem('isAuthenticated') === 'true'; }
+
+// CRITICAL SECURITY: Server-side validation untuk multiuser environment
+async function requireAuth() {
+    // 1. Instant UI check (prevent flash of login page)
+    if (!isAuthenticated()) {
+        window.location.href = 'login.html';
+        return;
+    }
+
+    // TEMPORARY FIX: Skip server validation for debugging
+    // console.warn('⚠️ TEMPORARY: Server validation DISABLED for testing');
+    // console.log('💡 Session remains active based on localStorage only');
+    return; // Early exit - skip all server validation below
+
+    // console.log('🔄 About to call supabase.auth.getUser()...');
+
+
+    // 2. Background server validation
+    try {
+        const { data: { user }, error } = await supabaseClient.auth.getUser();
+
+        // Handle errors from server
+        if (error) {
+            // IMPORTANT: Default to KEEP SESSION unless explicitly auth failure
+            const errorMsg = (error.message || '').toLowerCase();
+            const errorStatus = error.status || 0;
+
+            // Only logout if CERTAIN it's authentication issue
+            const isAuthFailure = (
+                errorMsg.includes('jwt') ||
+                errorMsg.includes('token') ||
+                errorMsg.includes('invalid') ||
+                errorMsg.includes('expired') ||
+                errorMsg.includes('unauthorized') ||
+                errorStatus === 401
+            );
+
+            if (isAuthFailure) {
+                await logout();
+                return;
+            } else {
+                // Network error - keep session active
+                return;
+            }
+        }
+
+        if (!user) {
+            await logout();
+            return;
+        }
+
+        // Optional: Additional check - verify user ID matches localStorage
+        const storedEmail = localStorage.getItem('userEmail');
+        if (storedEmail && user.email !== storedEmail) {
+            await logout();
+            return;
+        }
+
+    } catch (e) {
+        // Network error - allow access but log warning
+        // Alternatively, you can force logout on network errors for extra security
+        // await logout();
+    }
+}
+
+function redirectIfAuthenticated() { if (isAuthenticated()) { window.location.href = 'dashboard.html'; } }
+
+// --- REALTIME PROFILE LISTENER ---
+let profileListenerChannel = null;
+
+async function initRealtimeProfileListener() {
+    if (!isAuthenticated() || profileListenerChannel) return;
+    
+    const userId = await getUserId();
+    if (!userId) return;
+
+    // Listen only to changes for THIS user's profile
+    profileListenerChannel = supabaseClient.channel(`public:profiles:id=eq.${userId}`)
+        .on(
+            'postgres_changes',
+            { event: 'UPDATE', schema: 'public', table: 'profiles', filter: `id=eq.${userId}` },
+            async (payload) => {
+                // console.log('Realtime Profile Update Received:', payload);
+                
+                const newData = payload.new;
+                
+                const today = new Date();
+                const premiumDate = newData.premiumExpiryDate ? new Date(newData.premiumExpiryDate) : null;
+                const proDate = newData.pro_expiry_date ? new Date(newData.pro_expiry_date) : null;
+                const phantomDate = newData.phantom_expiry_date ? new Date(newData.phantom_expiry_date) : null;
+        
+                const isPremiumValid = premiumDate && today <= premiumDate;
+                const isProValid = proDate && today <= proDate;
+                const isPhantomValid = phantomDate && today <= phantomDate;
+        
+                // Determine Effective Plan based on Hierarchy: Phantom > Pro > Premium
+                let finalPlanName = 'No Premium';
+                let finalPlanNumber = '001';
+        
+                if (isPhantomValid) {
+                    finalPlanName = 'The Phantom';
+                    finalPlanNumber = '004';
+                } else if (isProValid) {
+                    finalPlanName = 'Pro';
+                    finalPlanNumber = '003';
+                } else if (isPremiumValid) {
+                    finalPlanName = 'Premium';
+                    finalPlanNumber = '002';
+                }
+
+                let isCurrentlyPremium = (finalPlanNumber !== '001');
+
+                // Update Local Storage purely UI
+                localStorage.setItem('isPremium', isCurrentlyPremium);
+                localStorage.setItem('userPlanName', finalPlanName);
+                localStorage.setItem('userPlanNumber', finalPlanNumber);
+
+                if (newData.premiumExpiryDate) localStorage.setItem('premiumExpiryDate', newData.premiumExpiryDate);
+                else localStorage.removeItem('premiumExpiryDate');
+
+                if (newData.pro_expiry_date) localStorage.setItem('proExpiryDate', newData.pro_expiry_date);
+                else localStorage.removeItem('proExpiryDate');
+
+                if (newData.phantom_expiry_date) localStorage.setItem('phantomExpiryDate', newData.phantom_expiry_date);
+                else localStorage.removeItem('phantomExpiryDate');
+
+                // FORCE EXTENSION TO WAKE UP AND SYNC via Cookie 
+                // Extension usually listens to cookie changes or validates per action
+                // Changing the UnangJahaCookieOnLae temporarily triggers reload in background script if configured.
+                // We'll set a special sync cookie instead:
+                setCookie('gracely_plan_sync', Date.now().toString(), 1); 
+
+                // Dispatch Custom Event so layout.js can re-render dashboard instantly
+                document.dispatchEvent(new Event('gracelyPlanRefresh'));
+            }
+        )
+        .subscribe((status) => {
+            // console.log('Realtime Subscription Status:', status);
+        });
+}
+
+// Auto-start listener if authenticated upon load
+if (isAuthenticated()) {
+    setTimeout(initRealtimeProfileListener, 2000); // Delay slightly to ensure getUserId is ready
+}
+// --- END REALTIME PROFILE LISTENER ---

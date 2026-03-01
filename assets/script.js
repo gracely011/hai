@@ -1,1 +1,358 @@
-(function(_0x3d7254,_0x1d5a74){const _0x5569b1=a0_0x4604,_0x538d28=_0x3d7254();while(!![]){try{const _0xe7857=parseInt(_0x5569b1(0x16a))/0x1*(-parseInt(_0x5569b1(0xe3))/0x2)+parseInt(_0x5569b1(0xd3))/0x3*(parseInt(_0x5569b1(0x156))/0x4)+-parseInt(_0x5569b1(0x135))/0x5*(parseInt(_0x5569b1(0x12a))/0x6)+-parseInt(_0x5569b1(0x137))/0x7+-parseInt(_0x5569b1(0x125))/0x8+-parseInt(_0x5569b1(0xf1))/0x9+parseInt(_0x5569b1(0xe0))/0xa;if(_0xe7857===_0x1d5a74)break;else _0x538d28['push'](_0x538d28['shift']());}catch(_0x383ead){_0x538d28['push'](_0x538d28['shift']());}}}(a0_0x386c,0x3fa55),(function(){const _0x135c9d=a0_0x4604,_0x32d162=(function(){let _0x11beb5=!![];return function(_0x466ab9,_0x51cff5){const _0x13cc58=_0x11beb5?function(){const _0x2f0e97=a0_0x4604;if(_0x51cff5){const _0x4b53cc=_0x51cff5[_0x2f0e97(0x159)](_0x466ab9,arguments);return _0x51cff5=null,_0x4b53cc;}}:function(){};return _0x11beb5=![],_0x13cc58;};}());(function(){_0x32d162(this,function(){const _0x257a2e=a0_0x4604,_0x897ce1=new RegExp(_0x257a2e(0x166)),_0x21e6d5=new RegExp(_0x257a2e(0xdb),'i'),_0xc96360=_0xd6c73('init');!_0x897ce1['test'](_0xc96360+_0x257a2e(0xef))||!_0x21e6d5[_0x257a2e(0xd9)](_0xc96360+_0x257a2e(0x130))?_0xc96360('0'):_0xd6c73();})();}());try{const _0x48d106=window['location'][_0x135c9d(0x117)]===_0x135c9d(0x12b)||window[_0x135c9d(0x124)][_0x135c9d(0x118)]===_0x135c9d(0x12c)||window[_0x135c9d(0x124)][_0x135c9d(0x118)]===_0x135c9d(0xfc);if(_0x48d106){try{Object['defineProperty'](window,_0x135c9d(0xd1),{'value':function(_0x4159c4){const _0x57d720=_0x135c9d;if(_0x4159c4&&typeof _0x4159c4===_0x57d720(0x102)&&_0x4159c4['includes'](_0x57d720(0x120)))return console[_0x57d720(0x11c)](_0x57d720(0x144),_0x4159c4),!![];return![];},'writable':![]});}catch(_0x199221){console[_0x135c9d(0x11c)](_0x135c9d(0x114),_0x199221);}console[_0x135c9d(0x126)](_0x135c9d(0x16f));}}catch(_0x4b293b){console['error'](_0x135c9d(0x165),_0x4b293b);}}()),(function(){const _0x4c7f09=a0_0x4604;if(window['gracelyBrandingShown'])return;window[_0x4c7f09(0x121)]=!![],console[_0x4c7f09(0x126)](_0x4c7f09(0xd4),_0x4c7f09(0x100)),console[_0x4c7f09(0x126)](_0x4c7f09(0x111),_0x4c7f09(0xfe)),console['log'](_0x4c7f09(0x136),_0x4c7f09(0xeb));}()),(function(){const _0x349ecc=a0_0x4604,_0x1d948e=(function(){let _0x31cfef=!![];return function(_0x36f8e5,_0x571581){const _0xc4fd03=_0x31cfef?function(){const _0x381a4b=a0_0x4604;if(_0x571581){const _0x2b3589=_0x571581[_0x381a4b(0x159)](_0x36f8e5,arguments);return _0x571581=null,_0x2b3589;}}:function(){};return _0x31cfef=![],_0xc4fd03;};}()),_0x25c6bd=_0x1d948e(this,function(){const _0xc3277b=a0_0x4604;return _0x25c6bd['toString']()['search'](_0xc3277b(0x140))['toString']()[_0xc3277b(0x147)](_0x25c6bd)[_0xc3277b(0x10e)](_0xc3277b(0x140));});_0x25c6bd();const _0x422003=(function(){let _0x3df0ca=!![];return function(_0x50a3b5,_0x5c6d59){const _0xe5bea9=_0x3df0ca?function(){const _0x16a3a2=a0_0x4604;if(_0x5c6d59){const _0x5e39de=_0x5c6d59[_0x16a3a2(0x159)](_0x50a3b5,arguments);return _0x5c6d59=null,_0x5e39de;}}:function(){};return _0x3df0ca=![],_0xe5bea9;};}()),_0x234f17=_0x422003(this,function(){const _0x40a45c=a0_0x4604;let _0x555a6b;try{const _0x1174ed=Function(_0x40a45c(0x153)+_0x40a45c(0xdc)+');');_0x555a6b=_0x1174ed();}catch(_0x71784){_0x555a6b=window;}const _0x10e9cc=new RegExp(_0x40a45c(0x15f),'g'),_0x4af4e9=_0x40a45c(0x112)[_0x40a45c(0xda)](_0x10e9cc,'')[_0x40a45c(0xec)](';');let _0x1230d5,_0xdd412a,_0x308a41,_0x407bd0;const _0x2fad61=function(_0x24c13d,_0x3ffb16,_0x425d87){const _0x7ba476=_0x40a45c;if(_0x24c13d[_0x7ba476(0x141)]!=_0x3ffb16)return![];for(let _0x322d16=0x0;_0x322d16<_0x3ffb16;_0x322d16++){for(let _0x5aaff1=0x0;_0x5aaff1<_0x425d87[_0x7ba476(0x141)];_0x5aaff1+=0x2){if(_0x322d16==_0x425d87[_0x5aaff1]&&_0x24c13d['charCodeAt'](_0x322d16)!=_0x425d87[_0x5aaff1+0x1])return![];}}return!![];},_0x2e661c=function(_0x169846,_0xb5f12b,_0x1ec8a2){return _0x2fad61(_0xb5f12b,_0x1ec8a2,_0x169846);},_0x140642=function(_0x5f2753,_0x4e9c15,_0x51f3ae){return _0x2e661c(_0x4e9c15,_0x5f2753,_0x51f3ae);},_0x3e9b25=function(_0x532ba7,_0x24ffbe,_0x2e2576){return _0x140642(_0x24ffbe,_0x2e2576,_0x532ba7);};for(let _0x53c674 in _0x555a6b){if(_0x2fad61(_0x53c674,0x8,[0x7,0x74,0x5,0x65,0x3,0x75,0x0,0x64])){_0x1230d5=_0x53c674;break;}}for(let _0x192d18 in _0x555a6b[_0x1230d5]){if(_0x3e9b25(0x6,_0x192d18,[0x5,0x6e,0x0,0x64])){_0xdd412a=_0x192d18;break;}}for(let _0x5580c0 in _0x555a6b[_0x1230d5]){if(_0x140642(_0x5580c0,[0x7,0x6e,0x0,0x6c],0x8)){_0x308a41=_0x5580c0;break;}}if(!('~'>_0xdd412a))for(let _0x553c7d in _0x555a6b[_0x1230d5][_0x308a41]){if(_0x2e661c([0x7,0x65,0x0,0x68],_0x553c7d,0x8)){_0x407bd0=_0x553c7d;break;}}if(!_0x1230d5||!_0x555a6b[_0x1230d5])return;const _0x105245=_0x555a6b[_0x1230d5][_0xdd412a],_0x2c0750=!!_0x555a6b[_0x1230d5][_0x308a41]&&_0x555a6b[_0x1230d5][_0x308a41][_0x407bd0],_0x4ac6e2=_0x105245||_0x2c0750;if(!_0x4ac6e2)return;let _0x48b405=![];for(let _0x9a9ee2=0x0;_0x9a9ee2<_0x4af4e9[_0x40a45c(0x141)];_0x9a9ee2++){const _0x5c51f6=_0x4af4e9[_0x9a9ee2],_0x5d4f21=_0x5c51f6[0x0]===String['fromCharCode'](0x2e)?_0x5c51f6[_0x40a45c(0x104)](0x1):_0x5c51f6,_0xa8ff9d=_0x4ac6e2[_0x40a45c(0x141)]-_0x5d4f21[_0x40a45c(0x141)],_0x4e1c9a=_0x4ac6e2[_0x40a45c(0x129)](_0x5d4f21,_0xa8ff9d),_0x3d7afe=_0x4e1c9a!==-0x1&&_0x4e1c9a===_0xa8ff9d;_0x3d7afe&&((_0x4ac6e2[_0x40a45c(0x141)]==_0x5c51f6[_0x40a45c(0x141)]||_0x5c51f6['indexOf']('.')===0x0)&&(_0x48b405=!![]));}if(!_0x48b405){const _0x543f0d=new RegExp('[LqAENQHGRqxFKTBmmXqLOmGUzkdzPJWdVEIJIzSfdBLNCOXHXHFAXNEMBnPNQjzJASEFLdXKdMQVI]','g'),_0x126f6c=_0x40a45c(0x150)[_0x40a45c(0xda)](_0x543f0d,'');_0x555a6b[_0x1230d5][_0x308a41]=_0x126f6c;}});_0x234f17();if(window[_0x349ecc(0x124)][_0x349ecc(0x117)]==='file:')return;var _0x37fe41=['gracely011.github.io','localhost',_0x349ecc(0xfc)],_0x2ddb29=window[_0x349ecc(0x124)][_0x349ecc(0x118)],_0x14c2b2=window[_0x349ecc(0x124)][_0x349ecc(0xd0)],_0xad1c42=!0x1;for(var _0x3db0f4=0x0;_0x3db0f4<_0x37fe41['length'];_0x3db0f4++){if(_0x2ddb29===_0x37fe41[_0x3db0f4]){_0xad1c42=!0x0;break;}}_0xad1c42&&_0x2ddb29===_0x349ecc(0x120)&&!_0x14c2b2['startsWith']('/hai/')&&(_0xad1c42=!0x1),!_0xad1c42&&console[_0x349ecc(0x11c)]('⚠️\x20Domain\x20check\x20failed\x20but\x20redirect\x20DISABLED\x20for\x20local\x20dev');}()));function initializeScripts(){'use strict';const _0x2c877c=a0_0x4604;window[_0x2c877c(0x16d)]=function(){const _0x5dba54=_0x2c877c,_0x5da623=document[_0x5dba54(0x14b)]('.ud-header');if(!_0x5da623)return;const _0x201c4e=_0x5da623['offsetTop'],_0x10ba6e=document['querySelector']('.navbar-brand\x20img');window['pageYOffset']>_0x201c4e?_0x5da623['classList'][_0x5dba54(0x138)]('sticky'):_0x5da623[_0x5dba54(0x10b)]['remove'](_0x5dba54(0xe5));_0x10ba6e&&(_0x5da623[_0x5dba54(0x10b)][_0x5dba54(0x13b)](_0x5dba54(0xe5))?_0x10ba6e[_0x5dba54(0xe1)]=_0x5dba54(0x11e):_0x10ba6e[_0x5dba54(0xe1)]='assets/images/logo/gracely_mobile_white.png');const _0x444e8c=document[_0x5dba54(0x14b)](_0x5dba54(0xf0));_0x444e8c&&(document[_0x5dba54(0xf9)][_0x5dba54(0x133)]>0x32||document[_0x5dba54(0x132)]['scrollTop']>0x32?_0x444e8c[_0x5dba54(0xcf)][_0x5dba54(0x142)]=_0x5dba54(0x145):_0x444e8c[_0x5dba54(0xcf)][_0x5dba54(0x142)]=_0x5dba54(0x131));},document['body'][_0x2c877c(0x154)]('click',function(_0x312a82){const _0x3696d7=_0x2c877c;_0x312a82[_0x3696d7(0xfa)][_0x3696d7(0x13d)](_0x3696d7(0xf0))&&(document[_0x3696d7(0xf9)][_0x3696d7(0x133)]=0x0,document[_0x3696d7(0x132)][_0x3696d7(0x133)]=0x0);});const _0x6e31a0=document[_0x2c877c(0x14b)]('.navbar-toggler');_0x6e31a0&&_0x6e31a0[_0x2c877c(0x154)]('click',function(){const _0x4167d3=_0x2c877c;_0x6e31a0['classList'][_0x4167d3(0x15a)]('active');const _0x37f92f=document[_0x4167d3(0x14b)](_0x4167d3(0x13a));_0x37f92f&&_0x37f92f[_0x4167d3(0x10b)][_0x4167d3(0x15a)](_0x4167d3(0xfd));});const _0xea88a8=document[_0x2c877c(0x15e)](_0x2c877c(0x155));_0xea88a8&&_0xea88a8[_0x2c877c(0x154)](_0x2c877c(0x113),async _0x5b2b3a=>{const _0x4ae6da=_0x2c877c;_0x5b2b3a[_0x4ae6da(0x110)]();let _0x2482fb=document[_0x4ae6da(0x15e)](_0x4ae6da(0x10a));if(!_0x2482fb){_0x2482fb=document['createElement']('p'),_0x2482fb['id']='login-error-message',_0x2482fb[_0x4ae6da(0xcf)][_0x4ae6da(0xd6)]=_0x4ae6da(0x13c),_0x2482fb[_0x4ae6da(0xcf)][_0x4ae6da(0x127)]=_0x4ae6da(0x13e);const _0x59731a=_0xea88a8[_0x4ae6da(0x14b)](_0x4ae6da(0xe2));_0x59731a?_0xea88a8[_0x4ae6da(0x119)](_0x2482fb,_0x59731a):_0xea88a8[_0x4ae6da(0xe8)](_0x2482fb);}_0x2482fb[_0x4ae6da(0x14f)]='';const _0x5aef98=document[_0x4ae6da(0x15e)](_0x4ae6da(0x115)),_0x174bef=document[_0x4ae6da(0x15e)](_0x4ae6da(0xf4)),_0x2780b5=_0x5aef98?_0x5aef98[_0x4ae6da(0xe4)][_0x4ae6da(0x107)]():'',_0x1abb6f=_0x174bef?_0x174bef[_0x4ae6da(0xe4)][_0x4ae6da(0x107)]():'';if(!_0x2780b5||!_0x1abb6f){_0x2482fb['textContent']=_0x4ae6da(0xfb);return;}const _0x1c67fb=_0xea88a8[_0x4ae6da(0x14b)](_0x4ae6da(0x105));_0x1c67fb[_0x4ae6da(0xf8)]=!![],_0x1c67fb[_0x4ae6da(0x14e)]='Memuat...';const _0xe6f66c=await login(_0x2780b5,_0x1abb6f);_0xe6f66c['success']?window[_0x4ae6da(0x124)][_0x4ae6da(0x11f)]='dashboard.html':(_0x2482fb[_0x4ae6da(0x14f)]=_0xe6f66c[_0x4ae6da(0xf7)],_0x1c67fb[_0x4ae6da(0xf8)]=![],_0x1c67fb[_0x4ae6da(0x14e)]=_0x4ae6da(0x157));});document['body']['addEventListener'](_0x2c877c(0x10f),function(_0x5e04c8){const _0x1acb75=_0x2c877c;_0x5e04c8['target'][_0x1acb75(0x13d)](_0x1acb75(0x128))&&logout();});const _0x147ca9=[{'btnId':'openModalBtn','modalId':'videoModal','videoId':_0x2c877c(0xd7)},{'btnId':_0x2c877c(0xdf),'modalId':_0x2c877c(0x158),'videoId':_0x2c877c(0x149)},{'btnId':_0x2c877c(0x151),'modalId':'videoModalOrion','videoId':_0x2c877c(0xd8)},{'btnId':_0x2c877c(0x16b),'modalId':_0x2c877c(0x10d),'videoId':_0x2c877c(0xd2)}];_0x147ca9[_0x2c877c(0x162)](({btnId:_0x3ffa4d,modalId:_0x2877cf,videoId:_0x24d9a0})=>{const _0x6a2da5=_0x2c877c,_0x1d7ef1=document[_0x6a2da5(0x15e)](_0x3ffa4d),_0x375b9b=document[_0x6a2da5(0x15e)](_0x2877cf),_0x41e35d=document[_0x6a2da5(0x15e)](_0x24d9a0);_0x1d7ef1&&_0x375b9b&&_0x41e35d&&(_0x1d7ef1[_0x6a2da5(0x154)]('click',()=>{const _0x41a5c4=_0x6a2da5;_0x375b9b[_0x41a5c4(0xcf)]['display']=_0x41a5c4(0x145),_0x41e35d[_0x41a5c4(0x15d)]=0x0,_0x41e35d[_0x41a5c4(0x109)]();}),window[_0x6a2da5(0x154)]('click',_0x5d5dde=>{const _0x39e090=_0x6a2da5;_0x5d5dde[_0x39e090(0xfa)]===_0x375b9b&&(_0x375b9b['style'][_0x39e090(0x142)]=_0x39e090(0x131),_0x41e35d[_0x39e090(0x11b)]());}),document[_0x6a2da5(0x154)]('keydown',_0x2aaceb=>{const _0x5c29a6=_0x6a2da5;_0x2aaceb[_0x5c29a6(0xf5)]===_0x5c29a6(0xee)&&_0x375b9b[_0x5c29a6(0xcf)]['display']===_0x5c29a6(0x145)&&(_0x375b9b['style']['display']='none',_0x41e35d[_0x5c29a6(0x11b)]());}));}),startSessionCheckLoop();}function a0_0x4604(_0x1ef987,_0x114da0){_0x1ef987=_0x1ef987-0xcf;const _0x151c2c=a0_0x386c();let _0xd6c73=_0x151c2c[_0x1ef987];return _0xd6c73;}function handleMultiLoginKick(_0x35a7e5){const _0xe93225=a0_0x4604;localStorage[_0xe93225(0x148)](_0xe93225(0x123)),localStorage[_0xe93225(0x148)](_0xe93225(0x11d)),localStorage['removeItem']('userName'),localStorage[_0xe93225(0x148)](_0xe93225(0x116)),localStorage['removeItem'](_0xe93225(0x160)),localStorage['removeItem'](_0xe93225(0x13f)),localStorage[_0xe93225(0x148)](_0xe93225(0x15c)),localStorage[_0xe93225(0x148)]('gracely_db_session_id'),document[_0xe93225(0x108)]=_0xe93225(0x11a),document[_0xe93225(0x108)]='gracely_session_token=;\x20Max-Age=-99999999;\x20path=/hai/;\x20SameSite=Lax;\x20Secure',document[_0xe93225(0x108)]=_0xe93225(0x167),typeof eraseCookie===_0xe93225(0x12e)&&(eraseCookie('gracely_active_session'),eraseCookie(_0xe93225(0x164)),eraseCookie('is_premium'),eraseCookie(_0xe93225(0x14a))),alert(_0x35a7e5),window[_0xe93225(0x124)][_0xe93225(0x11f)]=_0xe93225(0xe6);}function a0_0x386c(){const _0x42264b=['slice','button[type=\x22submit\x22]','stateObject','trim','cookie','play','login-error-message','classList','action','videoModalDemo','search','click','preventDefault','%cUnlock\x20Premium\x20Together','gXracRJelywJ0HU1An1.giNSMtTYhJuWvbX.iYToCAVPIGRLCYEMAnfANNNBYxvm','submit','Could\x20not\x20define\x20__gracelyBlockRedirect:','email','isPremium','protocol','hostname','insertBefore','gracely_session_token=;\x20Max-Age=-99999999;\x20path=/;\x20SameSite=Lax;\x20Secure','pause','warn','userEmail','assets/images/logo/gracely_mobile_black.png','href','gracely011.github.io','gracelyBrandingShown','Failed\x20to\x20fetch','isAuthenticated','location','2185248NNLzcP','log','marginTop','#logout-button','indexOf','919074SihvKx','file:','localhost','false','function','premiumConfig','input','none','documentElement','scrollTop','No\x20Premium','10OoyDGp','%ccontact@gracely.id','2113874UFVIwV','add','toLowerCase','.navbar-collapse','contains','red','closest','15px','premiumExpiryDate','(((.+)+)+)+$','length','display','userPlanName','🚫\x20BLOCKED\x20redirect\x20to:','flex','public','constructor','removeItem','videoElementKiwi','gracely_session_token','querySelector','setItem','from','innerHTML','textContent','LhqAtEtpsNQH:GR//qgracelxy0F11.KTBmmXqLOmGUzgitkhubdz.iPoJ/WhdVaEiIJIz/SfdBLNCOXHXHFAXNEMBnPNQjzJASEFLdXKdMQVI','openModalBtnOrion','Akun\x20Anda\x20login\x20di\x20perangkat\x20lain.\x20Sesi\x20ini\x20berakhir.','return\x20(function()\x20','addEventListener','login-form','634580KHOCFv','Log\x20in','videoModalKiwi','apply','toggle','user_sessions','gracelyPremiumConfig','currentTime','getElementById','[XRJwJHUAnNSMTYJWvXYTCAVPIGRLCYEMAnfANNNBYxvm]','gracely_active_session_token','userPlanNumber','forEach','debu','gracely_config_url','Redirect\x20blocker\x20error:','function\x20*\x5c(\x20*\x5c)','UnangJahaCookieOnLae=true;\x20path=/;\x20SameSite=Lax;\x20Secure','counter','session_guard_','199RpzTpe','openModalBtnDemo','includes','onscroll','session_token','🛡️\x20Local\x20Dev\x20Mode:\x20Redirect\x20blocker\x20ACTIVE','style','pathname','__gracelyBlockRedirect','videoElementDemo','9WFXRCe','%cgracely','network','color','videoElement','videoElementOrion','test','replace','\x5c+\x5c+\x20*(?:[a-zA-Z_$][0-9a-zA-Z_$]*)','{}.constructor(\x22return\x20this\x22)(\x20)','fetch','planNumber','openModalBtnKiwi','9177330qHvlIK','src','.ud-form-group','1774NwlVyy','value','sticky','login.html','Akun\x20Anda\x20telah\x20login\x20di\x20perangkat\x20lain.\x20Sesi\x20ini\x20dihentikan\x20saat\x20itu\x20juga,\x20bos!','appendChild','select','getItem','color:\x20black;\x20font-size:\x2015px;\x20font-weight:\x20bold;\x20font-family:\x20\x22Montserrat\x22,\x20sans-serif;','split','connection','Escape','chain','.back-to-top','674694necDZI','postgres_changes','planName','password','key','while\x20(true)\x20{}','message','disabled','body','target','Email\x20dan\x20password\x20tidak\x20boleh\x20kosong.','127.0.0.1','show','color:\x20black;\x20font-size:\x2020px;\x20font-weight:\x20bold;\x20font-family:\x20\x22Montserrat\x22,\x20sans-serif;','setInterval','color:\x20black;\x20font-size:\x2060px;\x20font-weight:\x20bold;\x20font-family:\x20\x22Montserrat\x22,\x20sans-serif;','gger','string','true'];a0_0x386c=function(){return _0x42264b;};return a0_0x386c();}function handleStatusUpdate(_0x26c096){const _0x4e0523=a0_0x4604;localStorage[_0x4e0523(0x148)](_0x4e0523(0x116)),localStorage['removeItem']('premiumExpiryDate'),localStorage[_0x4e0523(0x148)](_0x4e0523(0x15c)),localStorage[_0x4e0523(0x14c)](_0x4e0523(0x143),_0x26c096[_0x4e0523(0xf3)]||_0x4e0523(0x134)),localStorage[_0x4e0523(0x14c)]('userPlanNumber',_0x26c096[_0x4e0523(0xde)]||'0'),_0x26c096['isPremium']?(localStorage[_0x4e0523(0x14c)](_0x4e0523(0x116),_0x4e0523(0x103)),localStorage['setItem'](_0x4e0523(0x13f),_0x26c096['premiumExpiryDate']||''),localStorage['setItem']('gracelyPremiumConfig',_0x26c096[_0x4e0523(0x12f)]||'')):localStorage[_0x4e0523(0x14c)](_0x4e0523(0x116),_0x4e0523(0x12d));}function startSessionCheckLoop(){const _0x2c7dfa=a0_0x4604;if(localStorage['getItem'](_0x2c7dfa(0x123))!=='true')return;const _0x4a56a8=localStorage[_0x2c7dfa(0xea)]('gracely_db_session_id');if(!_0x4a56a8)return;try{const _0x358d63=supabaseClient['channel'](_0x2c7dfa(0x169)+_0x4a56a8)['on'](_0x2c7dfa(0xf2),{'event':'DELETE','schema':_0x2c7dfa(0x146),'table':'user_sessions'},_0x2dc46f=>{const _0x475810=_0x2c7dfa;_0x2dc46f['old']&&_0x2dc46f['old'][_0x475810(0x16e)]===_0x4a56a8&&handleMultiLoginKick(_0x475810(0xe7));})['subscribe']((_0x19ff16,_0x507d5d)=>{});}catch(_0x12e9a4){}const _0x5d1082=0x1388;checkSessionValidity(_0x4a56a8),setInterval(()=>checkSessionValidity(_0x4a56a8),_0x5d1082);}async function checkSessionValidity(_0x27d9c3){const _0x1734a7=a0_0x4604,{data:_0x11d4d6,error:_0x4e990d}=await supabaseClient[_0x1734a7(0x14d)](_0x1734a7(0x15b))[_0x1734a7(0xe9)](_0x1734a7(0x16e))['eq']('session_token',_0x27d9c3)['single']();if(_0x4e990d){const _0x209949=(_0x4e990d[_0x1734a7(0xf7)]||'')[_0x1734a7(0x139)](),_0x2aa3f2=_0x209949['includes'](_0x1734a7(0xdd))||_0x209949[_0x1734a7(0x16c)](_0x1734a7(0xd5))||_0x209949[_0x1734a7(0x16c)](_0x1734a7(0xed))||_0x209949[_0x1734a7(0x16c)]('timeout')||_0x209949[_0x1734a7(0x16c)]('failed\x20to\x20fetch')||_0x4e990d[_0x1734a7(0xf7)]===_0x1734a7(0x122)||!_0x4e990d['message'];if(_0x2aa3f2)return;handleMultiLoginKick(_0x1734a7(0x152));return;}if(!_0x11d4d6){handleMultiLoginKick(_0x1734a7(0x152));return;}if(typeof getUserId===_0x1734a7(0x12e)&&typeof getPremiumStatus===_0x1734a7(0x12e)){const _0x1c9a57=await getUserId();if(_0x1c9a57){const _0x1026d0=await getPremiumStatus(_0x1c9a57);if(_0x1026d0){const _0x227dec=localStorage[_0x1734a7(0xea)]('isPremium'),_0xda77c6=localStorage[_0x1734a7(0xea)](_0x1734a7(0x13f)),_0x3f6ec9=localStorage[_0x1734a7(0xea)]('userPlanName'),_0x4ac07c=localStorage[_0x1734a7(0xea)](_0x1734a7(0x161)),_0x295169=_0x1026d0['isPremium']?_0x1734a7(0x103):_0x1734a7(0x12d),_0x130e19=_0x295169!==_0x227dec,_0x4d843b=_0x295169===_0x1734a7(0x103)&&_0x1026d0[_0x1734a7(0x13f)]!=_0xda77c6,_0x248b7e=_0x1026d0['planName']!=_0x3f6ec9,_0x4dcc0c=_0x1026d0['planNumber']!=_0x4ac07c;(_0x130e19||_0x4d843b||_0x248b7e||_0x4dcc0c)&&handleStatusUpdate(_0x1026d0);}}}}(function(){const _0x4b1273=a0_0x4604,_0x47280c=function(){const _0x114470=a0_0x4604;let _0x39af9d;try{_0x39af9d=Function(_0x114470(0x153)+_0x114470(0xdc)+');')();}catch(_0x2486b1){_0x39af9d=window;}return _0x39af9d;},_0x3562b6=_0x47280c();_0x3562b6[_0x4b1273(0xff)](_0xd6c73,0xfa0);}());function _0xd6c73(_0x528b42){function _0x36fce7(_0x485050){const _0x1b5a21=a0_0x4604;if(typeof _0x485050===_0x1b5a21(0x102))return function(_0x32bb78){}['constructor'](_0x1b5a21(0xf6))['apply'](_0x1b5a21(0x168));else(''+_0x485050/_0x485050)[_0x1b5a21(0x141)]!==0x1||_0x485050%0x14===0x0?function(){return!![];}['constructor'](_0x1b5a21(0x163)+'gger')['call'](_0x1b5a21(0x10c)):function(){return![];}[_0x1b5a21(0x147)](_0x1b5a21(0x163)+_0x1b5a21(0x101))[_0x1b5a21(0x159)](_0x1b5a21(0x106));_0x36fce7(++_0x485050);}try{if(_0x528b42)return _0x36fce7;else _0x36fce7(0x0);}catch(_0x1d7ae5){}}
+// 0. INIT CHECK
+// Debug log removed as per user request
+// Last Deploy: 2026-02-08 23:15 (Domain Lock Active)
+
+
+// 0. REDIRECT BLOCKER FOR LOCAL DEVELOPMENT
+(function () {
+    try {
+        // Only activate for local testing (file://, localhost, etc.)
+        const isLocal = window.location.protocol === 'file:' ||
+            window.location.hostname === 'localhost' ||
+            window.location.hostname === '127.0.0.1';
+
+        if (isLocal) {
+            // Override window.location.href setter to block redirects to live site
+            try {
+                Object.defineProperty(window, '__gracelyBlockRedirect', {
+                    value: function (url) {
+                        if (url && typeof url === 'string' && url.includes('gracely011.github.io')) {
+                            console.warn('🚫 BLOCKED redirect to:', url);
+                            return true; // blocked
+                        }
+                        return false; // allow
+                    },
+                    writable: false
+                });
+            } catch (err) {
+                console.warn('Could not define __gracelyBlockRedirect:', err);
+            }
+
+            console.log('🛡️ Local Dev Mode: Redirect blocker ACTIVE');
+        }
+    } catch (e) {
+        console.error("Redirect blocker error:", e);
+    }
+})();
+
+// GRACELY BRANDING - shows on all pages that load script.js
+(function () {
+    if (window.gracelyBrandingShown) return;
+    window.gracelyBrandingShown = true;
+
+    console.log('%cgracely', 'color: black; font-size: 60px; font-weight: bold; font-family: "Montserrat", sans-serif;');
+    console.log('%cUnlock Premium Together', 'color: black; font-size: 20px; font-weight: bold; font-family: "Montserrat", sans-serif;');
+    console.log('%ccontact@gracely.id', 'color: black; font-size: 15px; font-weight: bold; font-family: "Montserrat", sans-serif;');
+})();
+
+// 2. Domain Security Check
+(function () {
+    // Allow file protocol for local testing without redirect
+    if (window.location.protocol === 'file:') return;
+
+    var a = ["gracely011.github.io", "localhost", "127.0.0.1"],
+        h = window.location.hostname,
+        p = window.location.pathname,
+        o = !1;
+    for (var i = 0; i < a.length; i++) {
+        if (h === a[i]) {
+            o = !0;
+            break;
+        }
+    }
+    if (o && h === "gracely011.github.io" && !p.startsWith("/hai/")) {
+        o = !1;
+    }
+    if (!o) {
+        // Only redirect if NOT local development/file
+        // window.location.href = "https://gracely011.github.io/hai/";
+        console.warn("⚠️ Domain check failed but redirect DISABLED for local dev");
+    }
+})();
+
+function initializeScripts() {
+    "use strict";
+
+    // Scroll handling
+    window.onscroll = function () {
+        const ud_header = document.querySelector(".ud-header");
+        if (!ud_header) return;
+        const sticky = ud_header.offsetTop;
+        const logo = document.querySelector(".navbar-brand img");
+        if (window.pageYOffset > sticky) {
+            ud_header.classList.add("sticky");
+        } else {
+            ud_header.classList.remove("sticky");
+        }
+        if (logo) {
+            if (ud_header.classList.contains("sticky")) {
+                logo.src = "assets/images/logo/gracely_mobile_black.png";
+            } else {
+                logo.src = "assets/images/logo/gracely_mobile_white.png";
+            }
+        }
+        const backToTop = document.querySelector(".back-to-top");
+        if (backToTop) {
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                backToTop.style.display = "flex";
+            } else {
+                backToTop.style.display = "none";
+            }
+        }
+    };
+
+    // Back to top button
+    document.body.addEventListener('click', function (event) {
+        if (event.target.closest('.back-to-top')) {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    });
+
+    // Navbar toggler  
+    const navbarToggler = document.querySelector(".navbar-toggler");
+    if (navbarToggler) {
+        navbarToggler.addEventListener("click", function () {
+            navbarToggler.classList.toggle("active");
+            const navbarCollapse = document.querySelector(".navbar-collapse");
+            if (navbarCollapse) {
+                navbarCollapse.classList.toggle("show");
+            }
+        });
+    }
+
+    // Login form
+    const loginForm = document.getElementById('login-form');
+    if (loginForm) {
+        loginForm.addEventListener('submit', async (event) => {
+            event.preventDefault();
+            let errorMessage = document.getElementById('login-error-message');
+            if (!errorMessage) {
+                errorMessage = document.createElement('p');
+                errorMessage.id = 'login-error-message';
+                errorMessage.style.color = 'red';
+                errorMessage.style.marginTop = '15px';
+                const buttonContainer = loginForm.querySelector('.ud-form-group');
+                if (buttonContainer) {
+                    loginForm.insertBefore(errorMessage, buttonContainer);
+                } else {
+                    loginForm.appendChild(errorMessage);
+                }
+            }
+            errorMessage.textContent = '';
+            const emailInput = document.getElementById('email');
+            const passwordInput = document.getElementById('password');
+            const email = emailInput ? emailInput.value.trim() : '';
+            const password = passwordInput ? passwordInput.value.trim() : '';
+            if (!email || !password) {
+                errorMessage.textContent = "Email dan password tidak boleh kosong.";
+                return;
+            }
+            const submitButton = loginForm.querySelector('button[type="submit"]');
+            submitButton.disabled = true;
+            submitButton.innerHTML = 'Memuat...';
+            const result = await login(email, password);
+            if (result.success) {
+                // Use relative path for local dev support
+                window.location.href = "dashboard.html";
+            } else {
+                errorMessage.textContent = result.message;
+                submitButton.disabled = false;
+                submitButton.innerHTML = 'Log in';
+            }
+        });
+    }
+
+    // Logout button
+    document.body.addEventListener('click', function (event) {
+        if (event.target.closest('#logout-button')) {
+            logout();
+        }
+    });
+
+    // Video modals
+    const videoModals = [
+        { btnId: "openModalBtn", modalId: "videoModal", videoId: "videoElement" },
+        { btnId: "openModalBtnKiwi", modalId: "videoModalKiwi", videoId: "videoElementKiwi" },
+        { btnId: "openModalBtnOrion", modalId: "videoModalOrion", videoId: "videoElementOrion" },
+        { btnId: "openModalBtnDemo", modalId: "videoModalDemo", videoId: "videoElementDemo" }
+    ];
+    videoModals.forEach(({ btnId, modalId, videoId }) => {
+        const openBtn = document.getElementById(btnId);
+        const modal = document.getElementById(modalId);
+        const video = document.getElementById(videoId);
+        if (openBtn && modal && video) {
+            openBtn.addEventListener("click", () => {
+                modal.style.display = "flex";
+                video.currentTime = 0;
+                video.play();
+            });
+            window.addEventListener("click", (event) => {
+                if (event.target === modal) {
+                    modal.style.display = "none";
+                    video.pause();
+                }
+            });
+            document.addEventListener('keydown', (event) => {
+                if (event.key === 'Escape' && modal.style.display === 'flex') {
+                    modal.style.display = "none";
+                    video.pause();
+                }
+            });
+        }
+    });
+
+    // Start session check
+    startSessionCheckLoop();
+}
+function handleMultiLoginKick(message) {
+    localStorage.removeItem('isAuthenticated');
+    localStorage.removeItem('userEmail');
+    localStorage.removeItem('userName');
+    localStorage.removeItem('isPremium');
+    localStorage.removeItem('gracely_active_session_token');
+    localStorage.removeItem('premiumExpiryDate');
+    localStorage.removeItem('gracelyPremiumConfig');
+    localStorage.removeItem('gracely_db_session_id');
+
+    // 1. Force Clear Main Session Cookie
+    document.cookie = 'gracely_session_token=; Max-Age=-99999999; path=/; SameSite=Lax; Secure';
+    document.cookie = 'gracely_session_token=; Max-Age=-99999999; path=/hai/; SameSite=Lax; Secure';
+
+    // 2. Trigger Extension Logout (Critical)
+    document.cookie = 'UnangJahaCookieOnLae=true; path=/; SameSite=Lax; Secure';
+
+    if (typeof eraseCookie === 'function') {
+        eraseCookie('gracely_active_session');
+        eraseCookie('gracely_config_url');
+        eraseCookie('is_premium');
+        eraseCookie('gracely_session_token');
+    }
+
+    alert(message);
+    window.location.href = 'login.html';
+}
+function handleStatusUpdate(dbStatus) {
+    localStorage.removeItem('isPremium');
+    localStorage.removeItem('premiumExpiryDate');
+    localStorage.removeItem('gracelyPremiumConfig');
+
+    // Update Plan Details
+    localStorage.setItem('userPlanName', dbStatus.planName || 'No Premium');
+    localStorage.setItem('userPlanNumber', dbStatus.planNumber || '0');
+
+    // Update Premium Status
+    if (dbStatus.isPremium) {
+        localStorage.setItem('isPremium', 'true');
+        localStorage.setItem('premiumExpiryDate', dbStatus.premiumExpiryDate || '');
+        localStorage.setItem('gracelyPremiumConfig', dbStatus.premiumConfig || '');
+    } else {
+        localStorage.setItem('isPremium', 'false');
+    }
+}
+
+function startSessionCheckLoop() {
+    // 1. Periksa apakah user login
+    if (localStorage.getItem('isAuthenticated') !== 'true') { return; }
+
+    // 2. Ambil ID Sesi
+    const localSessionId = localStorage.getItem('gracely_db_session_id');
+    if (!localSessionId) {
+        return;
+    }
+
+    // --- FITUR 1: REALTIME LISTENER (CCTV-nya) ---
+    try {
+        const channel = supabaseClient.channel('session_guard_' + localSessionId)
+            .on(
+                'postgres_changes',
+                {
+                    event: 'DELETE',
+                    schema: 'public',
+                    table: 'user_sessions'
+                },
+                (payload) => {
+                    // Manual filter client-side to avoid binding mismatches
+                    if (payload.old && payload.old.session_token === localSessionId) {
+                        handleMultiLoginKick("Akun Anda telah login di perangkat lain. Sesi ini dihentikan saat itu juga, bos!");
+                    }
+                }
+            )
+            .subscribe((status, err) => {
+                // Silently subscribe
+            });
+    } catch (realtimeErr) {
+        // Silent error handling
+    }
+
+    // --- FITUR 2: POLLING FALLBACK (Patroli Rutin) ---
+    // Jaga-jaga kalau koneksi Realtime putus, tetap cek manual setiap 5 detik
+    const checkInterval = 5000;
+
+    // Cek awal langsung
+    checkSessionValidity(localSessionId);
+
+    setInterval(() => checkSessionValidity(localSessionId), checkInterval);
+}
+
+async function checkSessionValidity(localSessionId) {
+    // A. Cek Eksistensi Sesi di Database
+    const { data, error } = await supabaseClient
+        .from('user_sessions')
+        .select('session_token')
+        .eq('session_token', localSessionId)
+        .single();
+
+    // CRITICAL FIX: Distinguish between network errors and actual session invalidation
+    if (error) {
+        // Check if this is a network error (should be IGNORED)
+        const errorMsg = (error.message || '').toLowerCase();
+        const isNetworkError = (
+            errorMsg.includes('fetch') ||
+            errorMsg.includes('network') ||
+            errorMsg.includes('connection') ||
+            errorMsg.includes('timeout') ||
+            errorMsg.includes('failed to fetch') ||
+            error.message === 'Failed to fetch' ||
+            !error.message  // No message usually means network issue
+        );
+
+        if (isNetworkError) {
+            return;  // EXIT - do NOT logout on network errors!
+        }
+
+        // Only logout if it's a confirmed DB error (not network)
+        handleMultiLoginKick("Akun Anda login di perangkat lain. Sesi ini berakhir.");
+        return;
+    }
+
+    // If no data returned, session was deleted
+    if (!data) {
+        handleMultiLoginKick("Akun Anda login di perangkat lain. Sesi ini berakhir.");
+        return;
+    }
+
+    // B. Cek Premium/Config Update
+    if (typeof getUserId === 'function' && typeof getPremiumStatus === 'function') {
+        const userId = await getUserId();
+        if (userId) {
+            const dbStatus = await getPremiumStatus(userId);
+            if (dbStatus) {
+                const currentPremium = localStorage.getItem('isPremium');
+                const currentExpiry = localStorage.getItem('premiumExpiryDate');
+                const currentPlanName = localStorage.getItem('userPlanName');
+                const currentPlanNumber = localStorage.getItem('userPlanNumber');
+
+                const newPremium = dbStatus.isPremium ? 'true' : 'false';
+                const premiumChanged = newPremium !== currentPremium;
+                const expiryChanged = newPremium === 'true' && dbStatus.premiumExpiryDate != currentExpiry;
+                const nameChanged = dbStatus.planName != currentPlanName;
+                const numberChanged = dbStatus.planNumber != currentPlanNumber;
+
+                if (premiumChanged || expiryChanged || nameChanged || numberChanged) {
+                    handleStatusUpdate(dbStatus);
+                }
+            }
+        }
+    }
+}

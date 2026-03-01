@@ -1,1 +1,1272 @@
-function a0_0x1d7d(){const _0xe559=['<button\x20class=\x22ud-main-btn\x22\x20id=\x22notification-ok\x22>OK</button></div>','view_dashboard','charAt','extra','length','modal-close-btn','password','logout','STARTING\x20FROM','footer-placeholder','Ubah\x20Kata\x20Sandi','November','back-to-top-placeholder','isPremium','name','\x22></span>\x20<span\x20class=\x22d-none\x20d-md-inline\x22>','</div>','html','safari','</a></li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li><a\x20href=\x22index.html#contact\x22\x20data-i18n=\x22contact\x22>','(((.+)+)+)+$','error-message','Harap\x20masukkan\x20email\x20Anda.','Tanya\x20Jawab','Android','Beli\x20Sekarang','[data-i18n]','input[name=\x22confirm_password\x22]','POPULAR','services','Our\x20Pricing\x20Plans','profile-name','</a></li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li\x20class=\x22nav-item\x22><a\x20class=\x22ud-menu-scroll\x22\x20href=\x22index.html#about\x22\x20data-i18n=\x22about\x22>','getTimezoneOffset','reset-form','mousemove','(UTC\x20','Scribd','1262622IEyxco','Alat\x20AI','page-title-h1','decode','from','value','auth','modal-ip','getFullYear','select','Failed\x20to\x20load\x20aturhonma.js','querySelectorAll','Nikmati\x20pengalaman\x20premium\x20bersama\x20dengan\x20ekstensi\x20akses\x20satu\x20klik\x20kami.','reset.html','Premium','status','email-input','Buka\x20premium\x20dengan\x20hemat.','Privacy\x20Policy','raw','getUser','166544DHUvNe','<div>Your\x20<b>Premium</b>\x20is\x20valid\x20until\x20','Midjourney','isArray','icloud.com','pop','\x20Watch\x20Demo','tagName','#notification-ok','yahoo.com','About','button[type=\x22submit\x22]','2914rsOYvW','lang','violates\x20row-level\x20security\x20policy','\x0a<header\x20class=\x22ud-header\x22>\x0a\x20\x20<div\x20class=\x22container\x22>\x0a\x20\x20\x20\x20<div\x20class=\x22row\x22>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22col-lg-12\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<nav\x20class=\x22navbar\x20navbar-expand-lg\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<a\x20class=\x22navbar-brand\x22\x20href=\x22index.html\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22assets/images/logo/gracely_mobile_white.png\x22\x20alt=\x22Logo\x22\x20id=\x22logo\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22navbar-toggler\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22toggler-icon\x22></span><span\x20class=\x22toggler-icon\x22></span><span\x20class=\x22toggler-icon\x22></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22navbar-collapse\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<ul\x20id=\x22nav\x22\x20class=\x22navbar-nav\x20mx-auto\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li\x20class=\x22nav-item\x22><a\x20class=\x22ud-menu-scroll\x22\x20href=\x22index.html#home\x22\x20data-i18n=\x22home\x22>','fromCharCode','\x20Tonton\x20Demo','July','manual.html','userName','/\x2030\x20DAYS','link[href*=\x22flag-icon-css\x22]','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22menu-section\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22menu-section-mini-header\x22>Your\x20plan</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22assets/images/logo/gracely_mobile_white.png\x22\x20alt=\x22Logo\x22\x20id=\x22logo\x22\x20class=\x22top-right-image\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22menu-section-plan-free\x22>','subtle','JetBrains','action','call','Lihat\x20Dasbor','enabled','February','live.com','insertBefore','Satu\x20Klik','map','January','setDate','Error\x20loading\x20user\x20data:','logout-button','Developer','target','replace','high','full_name','getMinutes','mac','trim','videoElement','\x20hour(s)</b>.</p>\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>Please\x20renew\x20it\x20to\x20extend\x20your\x20Premium\x20access.</p>\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22ud-main-btn\x20w-50\x22\x20id=\x22notification-ok\x22\x20style=\x22margin-top:\x2010px;\x22>OK</button>\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Canva','Academia','init','Error:\x20','opacity','unlock_premium_footer','[ALDSPQWXkzDqUXJmAGkJILBOAvzjvAmfDwJQwxMUvZdDzWNwBJSOOzTMRUvOdBDqjWYn]','disabled','getElementById','notification-0','notificationLastShownId','input[name=\x22email\x22]','getDate','Unlock\x20Premium\x20Together','getHours','Pendaftaran\x20berhasil!\x20Silakan\x20langsung\x20Login.','email','home','indexOf','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<a\x20href=\x22login.html\x22\x20class=\x22ud-main-btn\x20ud-white-btn\x22\x20style=\x22padding:\x2010px\x2025px;\x22\x20data-i18n=\x22login\x22>','debu','appendChild','Linux','getTime','Syarat\x20Layanan','login','Explore\x20Our\x20Features','124aVKrfF','user_metadata','search','input[name=\x22name\x22]','AI\x20Tools','Indonesia','#notification-close','parse','chrome','Uncover\x20the\x20power\x20of\x20Gracely.','Chrome/','View\x20dashboard','preventDefault','getSeconds','Akses\x20klik\x20yang\x20mudah.','Safari/','Unlock\x20Premium\x20Freedom\x20with\x20Gracely','kuberserah_selalu_in_GOD','stylesheet','slice','unknown','15px','isAuthenticated','ios','hotmail.com','Jasper\x20AI','className','Kami\x20mendukung\x20berbagai\x20layanan\x20premium.','Features','abs','profile.html','</div></div>','getMonth','undefined','Gracely\x20<br>\x20Buka\x20Premium\x20Bersama','Unknown','Dasbor','pause','navbar-placeholder','script','pricing','<div\x20class=\x22menu-section\x22\x20style=\x22color:red\x22>Error\x20loading\x20plan\x20info.\x20Check\x20console.</div>','Windows','Questions\x20&\x20Answers','April','floor','Tentang\x20Gracely','update-message','Tentang','https://cdn.jsdelivr.net/gh/lipis/flag-icon-css@1.1.0/css/flag-icon.min.css','setSelectionRange','Unlock\x20premium\x20experiences\x20together\x20with\x20our\x20one-click\x20access\x20extension.','table-loader','User\x20already\x20registered','premiumExpiryDate','title','lines','315zvOSxu','crypto','</p></div>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20</div>\x0a\x20\x20<div\x20class=\x22groupy-wave\x22\x20style=\x22margin-top:-23px\x22>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22bg-white\x22\x20style=\x22margin-top:0px;height:23px\x22></div>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22bg-white\x22\x20style=\x22margin-top:1px;height:22px\x22></div>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22bg-white\x22\x20style=\x22margin-top:2px;height:21px\x22></div>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22bg-white\x22\x20style=\x22margin-top:3px;height:20px\x22></div>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22bg-white\x22\x20style=\x22margin-top:4px;height:19px\x22></div>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22bg-white\x22\x20style=\x22margin-top:5px;height:18px\x22></div>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22bg-white\x22\x20style=\x22margin-top:6px;height:17px\x22></div>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22bg-white\x22\x20style=\x22margin-top:7px;height:16px\x22></div>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22bg-white\x22\x20style=\x22margin-top:8px;height:15px\x22></div>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22bg-white\x22\x20style=\x22margin-top:9px;height:14px\x22></div>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22bg-white\x22\x20style=\x22margin-top:10px;height:13px\x22></div>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22bg-white\x22\x20style=\x22margin-top:11px;height:12px\x22></div>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22bg-white\x22\x20style=\x22margin-top:12px;height:11px\x22></div>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22bg-white\x22\x20style=\x22margin-top:13px;height:10px\x22></div>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22bg-white\x22\x20style=\x22margin-top:14px;height:9px\x22></div>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22bg-white\x22\x20style=\x22margin-top:15px;height:8px\x22></div>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22bg-white\x22\x20style=\x22margin-top:16px;height:7px\x22></div>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22bg-white\x22\x20style=\x22margin-top:17px;height:6px\x22></div>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22bg-white\x22\x20style=\x22margin-top:18px;height:5px\x22></div>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22bg-white\x22\x20style=\x22margin-top:19px;height:4px\x22></div>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22bg-white\x22\x20style=\x22margin-top:20px;height:3px\x22></div>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22bg-white\x22\x20style=\x22margin-top:21px;height:2px\x22></div>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22bg-white\x22\x20style=\x22margin-top:22px;height:1px\x22></div>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22bg-white\x22\x20style=\x22margin-top:23px;height:0px\x22></div>\x0a\x20\x20</div>\x0a</footer>\x0a','setInterval','confirm-password','lastPopupDateDB','Log\x20In','endsWith','Home','</a></li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li><a\x20href=\x22premium.html\x22\x20data-i18n=\x22purchase_premium\x22>','lastExpiryWarningDateDB','Unlock\x20premium\x20affordably.','aol.com','Buka\x20Premium\x20Bersama','16367769EUpXMd','textContent','Jelajahi\x20Fitur\x20Kami','24/7\x20Support','getSession','SHA-256','Gracely\x20<br>\x20Unlock\x20Premium\x20Together','Email','premium','deriveKey','return\x20(function()\x20','Beranda','{}.constructor(\x22return\x20this\x22)(\x20)','flag','nextSibling','importKey','Simpan\x20Profil','setHours','menu-section-plan-phantomwitcher','head','10mLyywU','reset-message','input','password.html','<p>','9337832TFaGDW','Dedicated\x20support\x20team\x20available.','Temukan\x20yang\x20paling\x20pas\x20untuk\x20Anda.','Sign\x20up','Member','\x0a<header\x20class=\x22ud-header\x22>\x0a\x20\x20<div\x20class=\x22container\x22>\x0a\x20\x20\x20\x20<div\x20class=\x22row\x22>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22col-lg-12\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<nav\x20class=\x22navbar\x20navbar-expand-lg\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<a\x20class=\x22navbar-brand\x22\x20href=\x22index.html\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22assets/images/logo/gracely_mobile_white.png\x22\x20alt=\x22Logo\x22\x20id=\x22logo\x22\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22navbar-toggler\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22toggler-icon\x22></span><span\x20class=\x22toggler-icon\x22></span><span\x20class=\x22toggler-icon\x22></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22navbar-collapse\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<ul\x20id=\x22nav\x22\x20class=\x22navbar-nav\x20mx-auto\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li\x20class=\x22nav-item\x22><a\x20class=\x22ud-menu-scroll\x22\x20href=\x22index.html#home\x22\x20data-i18n=\x22home\x22>','body','error','function','Send\x20Message','Terjangkau','Mulai\x20Sekarang','url','display','gger','DOMContentLoaded','Akun\x20dengan\x20email\x20ini\x20sudah\x20terdaftar.\x20Silakan\x20Log\x20in.','addEventListener','Apple\x20Music','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<a\x20href=\x22dashboard.html\x22\x20class=\x22ud-main-btn\x20ud-login-btn\x22\x20title=\x22','pathname','placeholder','Semua\x20kolom\x20harus\x20diisi!','UnangJahaCookieOnLae','getItem','March','.</div>','ipModal','location','57553344nXTPgm','apply','videoModalKiwi','September','</a></li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</ul>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22navbar-btn\x20d-flex\x20align-items-center\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','videoElementKiwi','N/A','Tingkat\x20uptime\x20yang\x20mengesankan.','Password\x20tidak\x20cocok!','Temukan\x20kekuatan\x20Gracely.','Menyimpan...','Sesi\x20berakhir.\x20Silakan\x20login\x20ulang.','</a></li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</ul>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22col-md-4\x22><p\x20class=\x22ud-footer-bottom-right\x22>Gracely\x20&copy;\x202024-','MULAI\x20DARI','</h5>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<ul\x20class=\x22ud-widget-links\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li><a\x20href=\x22dashboard.html\x22\x20data-i18n=\x22view_dashboard\x22>','userPlanNumber','Supported\x20Services','decrypt','August','toString','[FLAMYYFTYnDzCOIHQmFpKmKMJfAwvSmqZOpjUqCQxsm]','Sesi\x20reset\x20kadaluarsa\x20atau\x20tidak\x20valid.\x20Silakan\x20ulangi\x20proses\x20reset\x20password.','Status\x20','<div\x20class=\x22notificationModal-content\x22>','removeAttribute','Gracely\x20is\x20your\x20gateway\x20to\x20a\x20world\x20of\x20premium\x20digital\x20experiences\x20without\x20the\x20premium\x20price\x20tag.','Contact\x20Us','</a></li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li\x20class=\x22nav-item\x22><a\x20class=\x22ud-menu-scroll\x22\x20href=\x22index.html#pricing\x22\x20data-i18n=\x22pricing\x22>','none','privacy','proExpiryDate','Masuk','View\x20All\x20Services','parentNode','device','User\x20Reviews','maintenance.html','Hubungi\x20Kami','\x0a<div\x20class=\x22announcement-bar\x22>\x0a\x20\x20The\x20only\x20official\x20Gracely\x20website\x20is\x20https://gracely011.github.io/hai/.\x20Please\x20be\x20aware\x20of\x20fake\x20websites.\x0a</div>','update-button','index.html','data-priority','\x20|\x20Gracely','\x22\x20style=\x22padding:\x2010px\x2015px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fa\x20fa-sign-out\x22\x20aria-hidden=\x22true\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</nav>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20</div>\x0a</header>\x0a','color','terms','30ZHCrcH','isp','ip_address','href','now','data-i18n','limit','Dukungan\x2024/7','getAttribute','Nama\x20Lengkap','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22menu-section-plan-description\x22>','blocked.html','dashboard','Dashboard','style','004','Get\x20In\x20Touch','text-3d','gracely_lang','querySelector','</h2>','Impressive\x20uptime\x20rate.','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fa-solid\x20fa-user\x22></i>\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22logout-button\x22\x20class=\x22ud-main-btn\x20ud-white-btn\x20ms-2\x22\x20title=\x22','true','hasRegisteredPlanRefreshListener','Gagal\x20memuat\x20data\x20profil.','/hai/','encode','openModalBtnKiwi','innerHTML','update-profile-form','We\x20support\x20a\x20wide\x20range\x20of\x20premium\x20services.','gmail.com','android','iPad','charCodeAt','9fDhENy','click','menu-section-plan-premium','Gracely\x20adalah\x20gerbang\x20Anda\x20menuju\x20dunia\x20pengalaman\x20digital\x20premium\x20tanpa\x20harga\x20mahal.','marginTop','copy','No\x20activity\x20logs\x20found.','toISOString','userPlanName','forEach','<div\x20class=\x22notificationModal-content\x22><i\x20class=\x22fa\x20fa-times\x20close-icon\x22\x20id=\x22notification-close\x22></i><h2>','chain','green','visible','constructor','min','Netflix','ChatGPT\x20Plus','match','English','notificationModal','Kirim\x20Pesan','Gagal\x20menyalin\x20teks:\x20','Terms\x20of\x20Service','notifications','.ud-hero-buttons\x20.ud-white-btn','created_at','login.html','Kata\x20sandi\x20tidak\x20cocok.','setAttribute','Sign\x20Up','May','INPUT','flex','success','rel','duplicate\x20key\x20value','execCommand','get','Decryption\x20Failed:','function\x20*\x5c(\x20*\x5c)','</a></li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</ul>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22navbar-btn\x20d-flex\x20align-items-center\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','edge','Pesan','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22menu-section\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22menu-section-mini-header\x22>Your\x20plan</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22assets/images/logo/gracely_mobile_white.png\x22\x20alt=\x22Logo\x22\x20id=\x22logo\x22\x20class=\x22top-right-image\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22','Affordable','<a\x20href=\x22javascript:void(0)\x22\x20class=\x22back-to-top\x22><i\x20class=\x22fa-solid\x20fa-arrow-up\x22></i></a>','Edg/','dashboard.html','notificationLastShown','manual-login-link','Announcement\x20Error:','Kebijakan\x20Privasi','contact','videoModalOrion','alert','openModalBtn','about','1088740OWAioS','October','code','submit','string','profile-email','PBKDF2','createElement','test','info','blue','</a></li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li\x20class=\x22nav-item\x22><a\x20class=\x22ud-menu-scroll\x22\x20href=\x22index.html#services\x22\x20data-i18n=\x22services\x22>','onclick','<div>Your\x20<b>Pro</b>\x20is\x20valid\x20until\x20','Message','Mengirim...','<div>Your\x20<b>The\x20Phantom</b>\x20is\x20valid\x20until\x20','Buka\x20Dasbor','padStart','Beli\x20Premium','AES-GCM','</a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</nav>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20</div>\x0a</header>\x0a','features','purchase_premium','user_id','message','email-suggestion','msn.com','Tim\x20dukungan\x20selalu\x20tersedia.','Gagal\x20memuat\x20log:\x20','visibility','includes','June','removeEventListener','null','</p>','outlook.com','Gagal\x20memuat\x20log:\x20Pengguna\x20tidak\x20ditemukan.','red','Spotify','setItem','reCAPTCHA','Kirim\x20tautan\x20reset','<div>Active</div>','Error:\x20Fungsi\x20auth.js\x20tidak\x20dimuat.','windows','modal-isp','Firefox/','logs-table-body','001','One-Click','Purchase','\x5c+\x5c+\x20*(?:[a-zA-Z_$][0-9a-zA-Z_$]*)','Keluar','Macintosh','split','isp_info'];a0_0x1d7d=function(){return _0xe559;};return a0_0x1d7d();}const a0_0x25030a=a0_0x105f;(function(_0xfdf38e,_0x149c41){const _0x2c3237=a0_0x105f,_0xef90e9=_0xfdf38e();while(!![]){try{const _0x23c619=-parseInt(_0x2c3237(0x23d))/0x1*(-parseInt(_0x2c3237(0x1fd))/0x2)+parseInt(_0x2c3237(0x143))/0x3*(-parseInt(_0x2c3237(0x17d))/0x4)+-parseInt(_0x2c3237(0x11f))/0x5*(parseInt(_0x2c3237(0x1dc))/0x6)+-parseInt(_0x2c3237(0xd4))/0x7+-parseInt(_0x2c3237(0x1f1))/0x8*(-parseInt(_0x2c3237(0xad))/0x9)+-parseInt(_0x2c3237(0xcf))/0xa*(parseInt(_0x2c3237(0xbb))/0xb)+parseInt(_0x2c3237(0xf1))/0xc;if(_0x23c619===_0x149c41)break;else _0xef90e9['push'](_0xef90e9['shift']());}catch(_0x2d2f45){_0xef90e9['push'](_0xef90e9['shift']());}}}(a0_0x1d7d,0xc45b6),(function(){const _0x57c24d=a0_0x105f;if(!document[_0x57c24d(0x132)](_0x57c24d(0x207))){const _0x1f304e=document[_0x57c24d(0x184)]('link');_0x1f304e[_0x57c24d(0x166)]=_0x57c24d(0x24f),_0x1f304e[_0x57c24d(0x122)]=_0x57c24d(0xa5),document[_0x57c24d(0xce)][_0x57c24d(0x237)](_0x1f304e);}const _0x1fb402=window[_0x57c24d(0x17a)];let _0x7ed008=![];window[_0x57c24d(0x17a)]=function(_0x872519){const _0x1e4110=_0x57c24d;if(_0x872519&&typeof _0x872519===_0x1e4110(0x181)&&_0x872519[_0x1e4110(0x19c)]('Akun\x20Anda\x20login\x20di\x20perangkat\x20lain')){if(_0x7ed008)return;_0x7ed008=!![];}_0x1fb402['apply'](window,arguments);};}()));const announcementBarHTML=a0_0x25030a(0x117),translations={'en':{'home':a0_0x25030a(0xb5),'features':a0_0x25030a(0x259),'about':a0_0x25030a(0x1fb),'pricing':'Pricing','services':'Services','login':a0_0x25030a(0xb3),'signup':a0_0x25030a(0x161),'dashboard':a0_0x25030a(0x12c),'logout':'Log\x20Out','view_dashboard':a0_0x25030a(0x248),'purchase_premium':'Purchase\x20premium','privacy':a0_0x25030a(0x1ee),'terms':a0_0x25030a(0x15a),'contact':a0_0x25030a(0x10b),'unlock_premium_footer':a0_0x25030a(0x22f),'hero_title':a0_0x25030a(0xc1),'hero_desc':a0_0x25030a(0xa7),'hero_btn_start':'Get\x20Started','hero_btn_dash':a0_0x25030a(0x12c),'hero_btn_watch':a0_0x25030a(0x1f7),'feat_title':a0_0x25030a(0x23c),'feat_desc':a0_0x25030a(0x246),'feat_1_t':a0_0x25030a(0xbe),'feat_1_d':a0_0x25030a(0xd5),'feat_2_t':'99%\x20Uptime','feat_2_d':a0_0x25030a(0x134),'feat_3_t':a0_0x25030a(0x1af),'feat_3_d':'Simple\x20click\x20access.','feat_4_t':a0_0x25030a(0x170),'feat_4_d':a0_0x25030a(0xb8),'about_tag':'About\x20Gracely','about_title':a0_0x25030a(0x24d),'about_desc':a0_0x25030a(0x10a),'about_btn':'Start\x20Saving\x20Now','price_title':a0_0x25030a(0x1d4),'price_desc':'Find\x20the\x20Perfect\x20Fit\x20for\x20Your\x20Needs.','price_popular':a0_0x25030a(0x1d2),'price_start':a0_0x25030a(0x1be),'price_unit':a0_0x25030a(0x206),'price_btn':a0_0x25030a(0x1b0),'serv_title':a0_0x25030a(0x101),'serv_desc':a0_0x25030a(0x13e),'serv_tab_prem':a0_0x25030a(0x1ea),'serv_tab_ai':a0_0x25030a(0x241),'serv_tab_dev':a0_0x25030a(0x218),'serv_view_all':a0_0x25030a(0x111),'srv_netflix':a0_0x25030a(0x153),'srv_spotify':a0_0x25030a(0x1a4),'srv_applemusic':'Apple\x20Music','srv_academia':a0_0x25030a(0x223),'srv_canva':a0_0x25030a(0x222),'srv_scribd':a0_0x25030a(0x1db),'srv_chatgpt':a0_0x25030a(0x154),'srv_midjourney':a0_0x25030a(0x1f3),'srv_jasper':'Jasper\x20AI','srv_copilot':'Copilot','srv_jetbrains':a0_0x25030a(0x20a),'faq_title':a0_0x25030a(0x9f),'testi_title':a0_0x25030a(0x114),'contact_title':a0_0x25030a(0x12f),'form_name':'Full\x20Name','form_email':a0_0x25030a(0xc2),'form_msg':a0_0x25030a(0x18b),'form_send':a0_0x25030a(0xdd)},'id':{'home':a0_0x25030a(0xc6),'features':'Fitur','about':a0_0x25030a(0xa4),'pricing':'Harga','services':'Layanan','login':a0_0x25030a(0x110),'signup':'Daftar','dashboard':a0_0x25030a(0x261),'logout':a0_0x25030a(0x1b2),'view_dashboard':a0_0x25030a(0x20d),'purchase_premium':a0_0x25030a(0x190),'privacy':a0_0x25030a(0x177),'terms':a0_0x25030a(0x23a),'contact':a0_0x25030a(0x116),'unlock_premium_footer':a0_0x25030a(0xba),'hero_title':a0_0x25030a(0x25f),'hero_desc':a0_0x25030a(0x1e8),'hero_btn_start':a0_0x25030a(0xdf),'hero_btn_dash':a0_0x25030a(0x18e),'hero_btn_watch':a0_0x25030a(0x202),'feat_title':a0_0x25030a(0xbd),'feat_desc':a0_0x25030a(0xfa),'feat_1_t':a0_0x25030a(0x126),'feat_1_d':a0_0x25030a(0x199),'feat_2_t':'99%\x20Uptime','feat_2_d':a0_0x25030a(0xf8),'feat_3_t':a0_0x25030a(0x212),'feat_3_d':a0_0x25030a(0x24b),'feat_4_t':a0_0x25030a(0xde),'feat_4_d':a0_0x25030a(0x1ed),'about_tag':a0_0x25030a(0xa2),'about_title':'Buka\x20Kebebasan\x20Premium\x20dengan\x20Gracely','about_desc':a0_0x25030a(0x146),'about_btn':'Mulai\x20Hemat\x20Sekarang','price_title':'Pilihan\x20Paket\x20Harga','price_desc':a0_0x25030a(0xd6),'price_popular':'POPULER','price_start':a0_0x25030a(0xfe),'price_unit':'/\x2030\x20HARI','price_btn':a0_0x25030a(0x1cf),'serv_title':'Layanan\x20Yang\x20Didukung','serv_desc':a0_0x25030a(0x258),'serv_tab_prem':a0_0x25030a(0x1ea),'serv_tab_ai':a0_0x25030a(0x1dd),'serv_tab_dev':'Developer','serv_view_all':'Lihat\x20Semua\x20Layanan','srv_netflix':a0_0x25030a(0x153),'srv_spotify':a0_0x25030a(0x1a4),'srv_applemusic':a0_0x25030a(0xe6),'srv_academia':a0_0x25030a(0x223),'srv_canva':a0_0x25030a(0x222),'srv_scribd':a0_0x25030a(0x1db),'srv_chatgpt':'ChatGPT\x20Plus','srv_midjourney':a0_0x25030a(0x1f3),'srv_jasper':a0_0x25030a(0x256),'srv_copilot':'Copilot','srv_jetbrains':a0_0x25030a(0x20a),'faq_title':a0_0x25030a(0x1cd),'testi_title':'Ulasan\x20Pengguna','contact_title':a0_0x25030a(0x116),'form_name':a0_0x25030a(0x128),'form_email':'Email','form_msg':a0_0x25030a(0x16e),'form_send':a0_0x25030a(0x158)}};function getCurrentLang(){const _0x1527f5=a0_0x25030a,_0x7321=new URLSearchParams(window[_0x1527f5(0xf0)][_0x1527f5(0x23f)]);let _0x384490=_0x7321[_0x1527f5(0x169)](_0x1527f5(0x1fe));_0x384490?localStorage[_0x1527f5(0x1a5)](_0x1527f5(0x131),_0x384490):_0x384490=localStorage[_0x1527f5(0xec)]('gracely_lang')||'en';const _0x285c53={'en':{'flag':'us','name':_0x1527f5(0x156)},'id':{'flag':'id','name':_0x1527f5(0x242)}};return _0x285c53[_0x384490]?{..._0x285c53[_0x384490],'code':_0x384490}:{..._0x285c53['en'],'code':'en'};}function t(_0x4b4368){const _0x3bb151=a0_0x25030a,_0x5a2772=(function(){let _0x2b0796=!![];return function(_0x247049,_0xf01108){const _0x357de3=_0x2b0796?function(){const _0x3312d1=a0_0x105f;if(_0xf01108){const _0x57de78=_0xf01108[_0x3312d1(0xf2)](_0x247049,arguments);return _0xf01108=null,_0x57de78;}}:function(){};return _0x2b0796=![],_0x357de3;};}()),_0x56efb8=_0x5a2772(this,function(){const _0x4d438f=a0_0x105f;return _0x56efb8[_0x4d438f(0x104)]()[_0x4d438f(0x23f)](_0x4d438f(0x1ca))[_0x4d438f(0x104)]()[_0x4d438f(0x151)](_0x56efb8)[_0x4d438f(0x23f)]('(((.+)+)+)+$');});_0x56efb8();const _0x1a9312=(function(){let _0x35f1dc=!![];return function(_0x430d3a,_0x31299d){const _0x173d92=_0x35f1dc?function(){const _0x59bece=a0_0x105f;if(_0x31299d){const _0x149ad3=_0x31299d[_0x59bece(0xf2)](_0x430d3a,arguments);return _0x31299d=null,_0x149ad3;}}:function(){};return _0x35f1dc=![],_0x173d92;};}()),_0x119109=_0x1a9312(this,function(){const _0x22497b=a0_0x105f,_0x25b586=function(){const _0x2d4fe2=a0_0x105f;let _0x3d9811;try{_0x3d9811=Function(_0x2d4fe2(0xc5)+_0x2d4fe2(0xc7)+');')();}catch(_0x2e0a54){_0x3d9811=window;}return _0x3d9811;},_0x2dfb59=_0x25b586(),_0x28360a=new RegExp(_0x22497b(0x105),'g'),_0x2330f7='FgLrAMYYaFcTeYlnDzCyO011.gIHiQtmFpKmKMJhufAwb.vioSmqZOpjUqCQxsm'[_0x22497b(0x21a)](_0x28360a,'')[_0x22497b(0x1b4)](';');let _0x44425e,_0x1ed11b,_0x57cec1,_0x228151;const _0xaf289c=function(_0x2f15cf,_0x4c036f,_0x2b8db1){const _0x4fd02f=_0x22497b;if(_0x2f15cf[_0x4fd02f(0x1ba)]!=_0x4c036f)return![];for(let _0x18079c=0x0;_0x18079c<_0x4c036f;_0x18079c++){for(let _0x496472=0x0;_0x496472<_0x2b8db1[_0x4fd02f(0x1ba)];_0x496472+=0x2){if(_0x18079c==_0x2b8db1[_0x496472]&&_0x2f15cf[_0x4fd02f(0x142)](_0x18079c)!=_0x2b8db1[_0x496472+0x1])return![];}}return!![];},_0x1aa180=function(_0x766470,_0x35b7a9,_0x274231){return _0xaf289c(_0x35b7a9,_0x274231,_0x766470);},_0xaef21=function(_0x43c10a,_0x44ec41,_0x3a1de1){return _0x1aa180(_0x44ec41,_0x43c10a,_0x3a1de1);},_0x3e62e4=function(_0x6a8279,_0x200037,_0x903cef){return _0xaef21(_0x200037,_0x903cef,_0x6a8279);};for(let _0x5049ee in _0x2dfb59){if(_0xaf289c(_0x5049ee,0x8,[0x7,0x74,0x5,0x65,0x3,0x75,0x0,0x64])){_0x44425e=_0x5049ee;break;}}for(let _0x29e92c in _0x2dfb59[_0x44425e]){if(_0x3e62e4(0x6,_0x29e92c,[0x5,0x6e,0x0,0x64])){_0x1ed11b=_0x29e92c;break;}}for(let _0x39a0cb in _0x2dfb59[_0x44425e]){if(_0xaef21(_0x39a0cb,[0x7,0x6e,0x0,0x6c],0x8)){_0x57cec1=_0x39a0cb;break;}}if(!('~'>_0x1ed11b))for(let _0xbedcf4 in _0x2dfb59[_0x44425e][_0x57cec1]){if(_0x1aa180([0x7,0x65,0x0,0x68],_0xbedcf4,0x8)){_0x228151=_0xbedcf4;break;}}if(!_0x44425e||!_0x2dfb59[_0x44425e])return;const _0x37bde4=_0x2dfb59[_0x44425e][_0x1ed11b],_0x46e4bd=!!_0x2dfb59[_0x44425e][_0x57cec1]&&_0x2dfb59[_0x44425e][_0x57cec1][_0x228151],_0x988f7d=_0x37bde4||_0x46e4bd;if(!_0x988f7d)return;let _0x169451=![];for(let _0x358e32=0x0;_0x358e32<_0x2330f7['length'];_0x358e32++){const _0x3994dd=_0x2330f7[_0x358e32],_0x38568d=_0x3994dd[0x0]===String[_0x22497b(0x201)](0x2e)?_0x3994dd[_0x22497b(0x250)](0x1):_0x3994dd,_0x4e841d=_0x988f7d[_0x22497b(0x1ba)]-_0x38568d[_0x22497b(0x1ba)],_0x3530db=_0x988f7d[_0x22497b(0x234)](_0x38568d,_0x4e841d),_0x2da86f=_0x3530db!==-0x1&&_0x3530db===_0x4e841d;_0x2da86f&&((_0x988f7d[_0x22497b(0x1ba)]==_0x3994dd[_0x22497b(0x1ba)]||_0x3994dd['indexOf']('.')===0x0)&&(_0x169451=!![]));}if(!_0x169451){const _0x35d761=new RegExp(_0x22497b(0x228),'g'),_0x2ef906='hAttLDpsSP://gQraceWXly0kzD11.qUgXitJmhuAGkJbIL.io/BhaiOAv/zjvAmfDwJQwxMUvZdDzWNwBJSOOzTMRUvOdBDqjWYn'[_0x22497b(0x21a)](_0x35d761,'');_0x2dfb59[_0x44425e][_0x57cec1]=_0x2ef906;}});_0x119109();const _0xf0cd80=(function(){let _0xd200e2=!![];return function(_0x375496,_0x236f4d){const _0x4fc4b4=_0xd200e2?function(){const _0x9c87f5=a0_0x105f;if(_0x236f4d){const _0x2a38f3=_0x236f4d[_0x9c87f5(0xf2)](_0x375496,arguments);return _0x236f4d=null,_0x2a38f3;}}:function(){};return _0xd200e2=![],_0x4fc4b4;};}());(function(){_0xf0cd80(this,function(){const _0x4f5390=a0_0x105f,_0x2ffb5c=new RegExp(_0x4f5390(0x16b)),_0x5733ee=new RegExp(_0x4f5390(0x1b1),'i'),_0x4ae44a=_0x5149db(_0x4f5390(0x224));!_0x2ffb5c['test'](_0x4ae44a+_0x4f5390(0x14e))||!_0x5733ee[_0x4f5390(0x185)](_0x4ae44a+_0x4f5390(0xd1))?_0x4ae44a('0'):_0x5149db();})();}());const _0x3d478e=getCurrentLang()[_0x3bb151(0x17f)],_0x59fb28=translations[_0x3d478e]||translations['en'],_0x2f1a9d=translations['en'];return _0x59fb28[_0x4b4368]||_0x2f1a9d[_0x4b4368]||_0x4b4368;}function translatePageContent(){const _0x1ee0a3=a0_0x25030a,_0x3d9445=document[_0x1ee0a3(0x1e7)](_0x1ee0a3(0x1d0));_0x3d9445['forEach'](_0x55bbfc=>{const _0x58bd6e=_0x1ee0a3,_0x275032=_0x55bbfc[_0x58bd6e(0x127)](_0x58bd6e(0x124)),_0x37f4bd=t(_0x275032);if(_0x55bbfc[_0x58bd6e(0x1f8)]===_0x58bd6e(0x163)||_0x55bbfc['tagName']==='TEXTAREA')_0x55bbfc[_0x58bd6e(0xe9)]=_0x37f4bd;else{if(_0x55bbfc[_0x58bd6e(0x132)]('i')){const _0x350a89=_0x55bbfc[_0x58bd6e(0x132)]('i'),_0x4faa64=_0x350a89['cloneNode'](!![]);_0x55bbfc['innerHTML']=_0x37f4bd+'\x20',_0x55bbfc[_0x58bd6e(0x237)](_0x4faa64);}else _0x55bbfc['innerHTML']=_0x37f4bd;}});const _0x455c54=document[_0x1ee0a3(0x132)](_0x1ee0a3(0x15c));if(_0x455c54){const _0x27349c=_0x455c54[_0x1ee0a3(0x127)](_0x1ee0a3(0x122))&&_0x455c54[_0x1ee0a3(0x127)]('href')[_0x1ee0a3(0x19c)]('dashboard'),_0x53d562=_0x27349c?'hero_btn_dash':'hero_btn_start',_0xff461f=_0x455c54[_0x1ee0a3(0x132)]('i'),_0x43fb5a=t(_0x53d562);_0x455c54[_0x1ee0a3(0x13c)]=_0x43fb5a+'\x20';if(_0xff461f)_0x455c54[_0x1ee0a3(0x237)](_0xff461f);}}function getLanguageDropdownHTML(){const _0x329941=a0_0x25030a,_0x3c9f2b=getCurrentLang();return'\x0a\x20\x20\x20\x20<div\x20class=\x22nav-item\x20dropdown\x20d-inline-block\x20me-2\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<a\x20class=\x22ud-main-btn\x20ud-login-btn\x20text-center\x20dropdown-toggle\x22\x20href=\x22#\x22\x20role=\x22button\x22\x20data-bs-toggle=\x22dropdown\x22\x20aria-expanded=\x22false\x22\x20style=\x22padding:\x2010px\x2015px;\x20display:\x20inline-flex;\x20align-items:\x20center;\x20gap:\x205px;\x22>\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22flag-icon\x20flag-icon-'+_0x3c9f2b[_0x329941(0xc8)]+_0x329941(0x1c5)+_0x3c9f2b[_0x329941(0x1c4)]+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<ul\x20class=\x22dropdown-menu\x20dropdown-menu-end\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li><a\x20class=\x22dropdown-item\x22\x20href=\x22?lang=en\x22><span\x20class=\x22flag-icon\x20flag-icon-us\x20me-2\x22></span>\x20English</a></li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li><a\x20class=\x22dropdown-item\x22\x20href=\x22?lang=id\x22><span\x20class=\x22flag-icon\x20flag-icon-id\x20me-2\x22></span>\x20Indonesia</a></li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</ul>\x0a\x20\x20\x20\x20</div>';}async function checkPremiumExpiryWarning(){const _0x2da209=a0_0x25030a;try{if(typeof isAuthenticated!==_0x2da209(0xdc)||!isAuthenticated())return![];const _0x21026b=localStorage[_0x2da209(0xec)](_0x2da209(0xaa));if(!_0x21026b)return![];const _0x2913b3=new Date(_0x21026b),_0x10779f=new Date(),_0x2565a2=_0x2913b3[_0x2da209(0x239)]()-_0x10779f['getTime'](),_0x450c9c=Math[_0x2da209(0xa1)](_0x2565a2/(0x3e8*0x3c*0x3c*0x18)),_0x53b9f4=Math[_0x2da209(0xa1)](_0x2565a2%(0x3e8*0x3c*0x3c*0x18)/(0x3e8*0x3c*0x3c));if(_0x450c9c>0x4||_0x450c9c<0x0)return![];const _0x12906d=localStorage['getItem'](_0x2da209(0xb7));if(_0x12906d){const _0x11a0a9=new Date(_0x12906d),_0x5cf6f0=new Date();_0x5cf6f0[_0x2da209(0xcc)](0x0,0x0,0x0,0x0);if(_0x11a0a9>=_0x5cf6f0)return![];}const _0x4e3d79=document[_0x2da209(0x22a)](_0x2da209(0x22b));if(!_0x4e3d79)return![];const _0x30a169=_0x4e3d79['querySelector']('.notificationModal-content'),_0x4f6e33=()=>{const _0x26290b=_0x2da209,_0x2ef6f0='\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fa\x20fa-times\x20gracely-modal-close-icon\x22\x20id=\x22notification-close\x22></i>\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h2>🔔</h2>\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>Your\x20Premium\x20will\x20<b>expire\x20in\x20'+_0x450c9c+'\x20day(s)\x20and\x20'+_0x53b9f4+_0x26290b(0x221);_0x30a169['innerHTML']=_0x2ef6f0,_0x4e3d79[_0x26290b(0x12d)][_0x26290b(0xe1)]=_0x26290b(0x164),_0x4e3d79[_0x26290b(0x160)](_0x26290b(0x11a),_0x26290b(0x21b)),_0x4e3d79['style'][_0x26290b(0x19b)]='visible',_0x4e3d79[_0x26290b(0x12d)][_0x26290b(0x226)]='1';const _0x4234d9=()=>{const _0x2408f8=_0x26290b;_0x4e3d79[_0x2408f8(0x12d)][_0x2408f8(0xe1)]=_0x2408f8(0x10d),localStorage[_0x2408f8(0x1a5)](_0x2408f8(0xb7),new Date()['toISOString']());if(typeof updateLastPopupDate===_0x2408f8(0xdc))updateLastPopupDate('expiry');},_0x4f8b69=_0x4e3d79[_0x26290b(0x132)](_0x26290b(0x243)),_0xe5789=_0x4e3d79['querySelector'](_0x26290b(0x1f9));if(_0x4f8b69)_0x4f8b69[_0x26290b(0xe5)](_0x26290b(0x144),_0x4234d9);if(_0xe5789)_0xe5789[_0x26290b(0xe5)](_0x26290b(0x144),_0x4234d9);};return _0x4f6e33(),!![];}catch(_0x19f392){return![];}}async function runNotificationChecks(){const _0x3c95e8=a0_0x25030a;if(typeof checkPremiumExpiryWarning===_0x3c95e8(0xdc))await checkPremiumExpiryWarning();}const defaultNavbarHTML=()=>a0_0x25030a(0x200)+t('home')+'</a></li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li\x20class=\x22nav-item\x22><a\x20class=\x22ud-menu-scroll\x22\x20href=\x22index.html#features\x22\x20data-i18n=\x22features\x22>'+t(a0_0x25030a(0x193))+'</a></li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li\x20class=\x22nav-item\x22><a\x20class=\x22ud-menu-scroll\x22\x20href=\x22index.html#about\x22\x20data-i18n=\x22about\x22>'+t(a0_0x25030a(0x17c))+'</a></li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li\x20class=\x22nav-item\x22><a\x20class=\x22ud-menu-scroll\x22\x20href=\x22index.html#pricing\x22\x20data-i18n=\x22pricing\x22>'+t(a0_0x25030a(0x265))+a0_0x25030a(0x188)+t('services')+a0_0x25030a(0xf5)+getLanguageDropdownHTML()+a0_0x25030a(0x235)+t('login')+a0_0x25030a(0x192),loggedInNavbarHTML=_0x3c75da=>a0_0x25030a(0xd9)+t(a0_0x25030a(0x233))+'</a></li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li\x20class=\x22nav-item\x22><a\x20class=\x22ud-menu-scroll\x22\x20href=\x22index.html#features\x22\x20data-i18n=\x22features\x22>'+t('features')+a0_0x25030a(0x1d6)+t(a0_0x25030a(0x17c))+a0_0x25030a(0x10c)+t(a0_0x25030a(0x265))+'</a></li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li\x20class=\x22nav-item\x22><a\x20class=\x22ud-menu-scroll\x22\x20href=\x22index.html#services\x22\x20data-i18n=\x22services\x22>'+t(a0_0x25030a(0x1d3))+a0_0x25030a(0x16c)+getLanguageDropdownHTML()+a0_0x25030a(0xe7)+t(a0_0x25030a(0x12b))+a0_0x25030a(0x135)+t(a0_0x25030a(0x1bd))+a0_0x25030a(0x11c),footerHTML='\x0a<footer\x20class=\x22ud-footer\x22\x20data-wow-delay=\x22.15s\x22>\x0a\x20\x20<div\x20class=\x22shape\x20shape-1\x22><img\x20src=\x22assets/images/footer/leftshape.png\x22\x20alt=\x22shape\x22\x20/></div>\x0a\x20\x20<div\x20class=\x22shape\x20shape-2\x22><img\x20src=\x22assets/images/footer/dotted-shape.svg\x22\x20alt=\x22shape\x22\x20/></div>\x0a\x20\x20<div\x20class=\x22shape\x20shape-3\x22><img\x20src=\x22assets/images/footer/rightshape.png\x22\x20alt=\x22shape\x22\x20/></div>\x0a\x20\x20<div\x20class=\x22ud-footer-widgets\x22>\x0a\x20\x20\x20\x20<div\x20class=\x22container\x22>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22col-xl-3\x20col-lg-4\x20col-md-6\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22ud-widget\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<a\x20href=\x22./\x22\x20class=\x22ud-footer-logo\x22><img\x20src=\x22assets/images/logo/gracely_white.png\x22\x20alt=\x22logo\x22\x20/></a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22ud-widget-desc\x22\x20data-i18n=\x22unlock_premium_footer\x22>'+t(a0_0x25030a(0x227))+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<ul\x20class=\x22ud-widget-socials\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li><a\x20href=\x22#\x22><i\x20class=\x22fa-brands\x20fa-instagram\x22></i></a></li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li><a\x20href=\x22#\x22><i\x20class=\x22fa-brands\x20fa-discord\x22></i></a></li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</ul>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22col-xl-2\x20col-lg-2\x20col-md-6\x20col-sm-6\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22ud-widget\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h5\x20class=\x22ud-widget-title\x22\x20data-i18n=\x22about\x22>'+t(a0_0x25030a(0x17c))+'</h5>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<ul\x20class=\x22ud-widget-links\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li><a\x20href=\x22index.html#features\x22\x20data-i18n=\x22features\x22>'+t(a0_0x25030a(0x193))+'</a></li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li><a\x20href=\x22index.html#about\x22\x20data-i18n=\x22about\x22>'+t(a0_0x25030a(0x17c))+'</a></li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li><a\x20href=\x22index.html#pricing\x22\x20data-i18n=\x22pricing\x22>'+t(a0_0x25030a(0x265))+'</a></li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</ul>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22col-xl-2\x20col-lg-2\x20col-md-6\x20col-sm-6\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22ud-widget\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h5\x20class=\x22ud-widget-title\x22\x20data-i18n=\x22dashboard\x22>'+t(a0_0x25030a(0x12b))+a0_0x25030a(0xff)+t(a0_0x25030a(0x1b7))+a0_0x25030a(0xb6)+t(a0_0x25030a(0x194))+'</a></li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</ul>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20</div>\x0a\x20\x20<div\x20class=\x22ud-footer-bottom\x22>\x0a\x20\x20\x20\x20<div\x20class=\x22container\x22>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22col-md-8\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<ul\x20class=\x22ud-footer-bottom-left\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li><a\x20href=\x22privacy.html\x22\x20data-i18n=\x22privacy\x22>'+t(a0_0x25030a(0x10e))+'</a></li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li><a\x20href=\x22terms.html\x22\x20data-i18n=\x22terms\x22>'+t(a0_0x25030a(0x11e))+a0_0x25030a(0x1c9)+t(a0_0x25030a(0x178))+a0_0x25030a(0xfd)+new Date()[a0_0x25030a(0x1e4)]()+a0_0x25030a(0xaf),backToTopHTML=a0_0x25030a(0x171);function a0_0x105f(_0x364cd3,_0x4f3aef){_0x364cd3=_0x364cd3-0x9f;const _0x131745=a0_0x1d7d();let _0x5149db=_0x131745[_0x364cd3];return _0x5149db;}function modifyIndexPageContent(){const _0x2a7998=a0_0x25030a,_0x17efcf=window[_0x2a7998(0xf0)][_0x2a7998(0xe8)],_0x3b9b1d=_0x17efcf['endsWith']('/')||_0x17efcf[_0x2a7998(0xb4)](_0x2a7998(0x139))||_0x17efcf['endsWith'](_0x2a7998(0x119));if(!_0x3b9b1d)return;if(typeof isAuthenticated===_0x2a7998(0xdc)&&isAuthenticated()){const _0x1cc344=document[_0x2a7998(0x132)](_0x2a7998(0x15c));_0x1cc344&&(_0x1cc344[_0x2a7998(0xbc)]=t('hero_btn_dash'),_0x1cc344[_0x2a7998(0x122)]='dashboard.html',_0x1cc344[_0x2a7998(0x109)](_0x2a7998(0x219)));}}function loadLayout(){const _0x38cf6e=a0_0x25030a,_0x45b87a=document[_0x38cf6e(0x22a)]('announcement-placeholder'),_0x4a8a45=document['getElementById'](_0x38cf6e(0x263)),_0x4e9658=document[_0x38cf6e(0x22a)](_0x38cf6e(0x1bf)),_0x4ce3bb=document['getElementById'](_0x38cf6e(0x1c2));if(!document[_0x38cf6e(0x22a)](_0x38cf6e(0x22b))){const _0x10bdf6=document['createElement']('div');_0x10bdf6['className']=_0x38cf6e(0x157),_0x10bdf6['id']=_0x38cf6e(0x22b),_0x10bdf6[_0x38cf6e(0x12d)]['display']='none',_0x10bdf6[_0x38cf6e(0x13c)]='<div\x20class=\x22notificationModal-content\x22></div>',document[_0x38cf6e(0xda)][_0x38cf6e(0x237)](_0x10bdf6);}if(_0x45b87a)_0x45b87a[_0x38cf6e(0x13c)]=announcementBarHTML;if(_0x4e9658)_0x4e9658['innerHTML']=footerHTML;if(_0x4ce3bb)_0x4ce3bb[_0x38cf6e(0x13c)]=backToTopHTML;if(_0x4a8a45){if(typeof isAuthenticated===_0x38cf6e(0xdc)&&isAuthenticated()){const _0x3731f5=localStorage[_0x38cf6e(0xec)](_0x38cf6e(0x205))||_0x38cf6e(0xd8);_0x4a8a45[_0x38cf6e(0x13c)]=loggedInNavbarHTML(_0x3731f5),setTimeout(()=>{const _0x18ba9e=_0x38cf6e,_0xe63849=document['getElementById'](_0x18ba9e(0x217));_0xe63849&&typeof logout===_0x18ba9e(0xdc)&&_0xe63849[_0x18ba9e(0xe5)]('click',_0x4b98db=>{const _0xecc5e5=_0x18ba9e;_0x4b98db[_0xecc5e5(0x249)](),logout();});},0x1f4);if(typeof eraseCookie===_0x38cf6e(0xdc))eraseCookie(_0x38cf6e(0xeb));}else _0x4a8a45[_0x38cf6e(0x13c)]=defaultNavbarHTML();}typeof initializeScripts===_0x38cf6e(0xdc)&&initializeScripts(),translatePageContent(),modifyIndexPageContent(),runNotificationChecks(),loadExternalConfig(()=>{initializeWebsiteAnnouncement();});}async function decryptGracelyConfig(_0x58b15a){const _0x14dad8=a0_0x25030a,_0x11a602=_0x14dad8(0x24e);try{const _0x55e2d8=new TextEncoder(),_0x885a94=new TextDecoder(),_0x46ed91=_0x33ffc4=>Uint8Array[_0x14dad8(0x1e0)](atob(_0x33ffc4),_0x74d8af=>_0x74d8af['charCodeAt'](0x0)),_0x3aa589=_0x46ed91(_0x58b15a['s']),_0x1879d3=_0x46ed91(_0x58b15a['i']),_0x469c25=_0x46ed91(_0x58b15a['d']),_0x57bdfc=await window['crypto'][_0x14dad8(0x209)][_0x14dad8(0xca)](_0x14dad8(0x1ef),_0x55e2d8[_0x14dad8(0x13a)](_0x11a602),{'name':_0x14dad8(0x183)},![],[_0x14dad8(0xc4)]),_0x3dbd98=await window[_0x14dad8(0xae)]['subtle'][_0x14dad8(0xc4)]({'name':_0x14dad8(0x183),'salt':_0x3aa589,'iterations':0x186a0,'hash':_0x14dad8(0xc0)},_0x57bdfc,{'name':_0x14dad8(0x191),'length':0x100},![],['decrypt']),_0x571e86=await window['crypto'][_0x14dad8(0x209)][_0x14dad8(0x102)]({'name':_0x14dad8(0x191),'iv':_0x1879d3},_0x3dbd98,_0x469c25);return JSON[_0x14dad8(0x244)](_0x885a94[_0x14dad8(0x1df)](_0x571e86));}catch(_0x2ae0f9){return console['error'](_0x14dad8(0x16a),_0x2ae0f9),null;}}async function loadExternalConfig(_0x1001be){const _0x3e8665=a0_0x25030a;if(typeof gracelyConfig!=='undefined'){_0x1001be();return;}try{const _0x1b3161=await fetch('aturhonma.js');if(!_0x1b3161['ok'])throw new Error(_0x3e8665(0x107)+_0x1b3161[_0x3e8665(0x1eb)]);const _0x56baa8=await _0x1b3161['text']();try{const _0x5997dc=JSON['parse'](_0x56baa8);if(_0x5997dc['s']&&_0x5997dc['i']&&_0x5997dc['d']){window['gracelyConfig']=await decryptGracelyConfig(_0x5997dc),_0x1001be();return;}}catch(_0x2745c2){}const _0x4f5b82=document[_0x3e8665(0x184)](_0x3e8665(0x264));_0x4f5b82['textContent']=_0x56baa8,document[_0x3e8665(0xce)]['appendChild'](_0x4f5b82),_0x1001be();}catch(_0x150fef){console[_0x3e8665(0xdb)](_0x3e8665(0x1e6),_0x150fef);}}async function initializeWebsiteAnnouncement(){const _0x47655d=a0_0x25030a;try{const _0x3be9f=localStorage[_0x47655d(0xec)](_0x47655d(0x253))==='true';if(!_0x3be9f)return;if(typeof gracelyConfig===_0x47655d(0x25e))return;const _0x5d04c3=gracelyConfig[_0x47655d(0x15b)]?.['announcement'];if(!_0x5d04c3||!_0x5d04c3[_0x47655d(0x20e)]||!_0x5d04c3['id'])return;const _0x5cfb06=document[_0x47655d(0x22a)]('notification-0');if(!_0x5cfb06)return;const _0x58c87a=_0x5cfb06[_0x47655d(0x132)]('.notificationModal-content');let _0x21b8ed='';_0x5d04c3[_0x47655d(0xac)]&&Array[_0x47655d(0x1f4)](_0x5d04c3['lines'])&&(_0x21b8ed=_0x5d04c3[_0x47655d(0xac)][_0x47655d(0x213)](_0x496d8f=>_0x47655d(0xd3)+_0x496d8f+_0x47655d(0x1a0))['join'](''));const _0x211a11=_0x5d04c3[_0x47655d(0x1c7)]||_0x47655d(0x14d)+_0x5d04c3[_0x47655d(0xab)]+_0x47655d(0x133)+_0x21b8ed+_0x47655d(0x1b6),_0x8142c9=_0x5d04c3['id'],_0x46ea90=()=>{const _0x3cf3e4=_0x47655d;if(_0x5cfb06['style'][_0x3cf3e4(0xe1)]===_0x3cf3e4(0x164)&&_0x5cfb06[_0x3cf3e4(0x127)](_0x3cf3e4(0x11a))==='high')return;if(_0x5d04c3[_0x3cf3e4(0x1c7)])_0x5cfb06[_0x3cf3e4(0x13c)]=_0x5d04c3[_0x3cf3e4(0x1c7)];else{if(_0x58c87a)_0x58c87a[_0x3cf3e4(0x13c)]=_0x211a11;else _0x5cfb06['innerHTML']=_0x3cf3e4(0x108)+_0x211a11+_0x3cf3e4(0x1c6);}_0x5cfb06['removeAttribute'](_0x3cf3e4(0x11a)),_0x5cfb06[_0x3cf3e4(0x12d)][_0x3cf3e4(0xe1)]=_0x3cf3e4(0x164),_0x5cfb06['style'][_0x3cf3e4(0x19b)]=_0x3cf3e4(0x150),_0x5cfb06['style'][_0x3cf3e4(0x226)]='1';const _0x4fffcf=()=>{const _0x5f26ef=_0x3cf3e4;_0x5cfb06[_0x5f26ef(0x12d)]['display']='none';const _0x3fa2f7=Date[_0x5f26ef(0x123)]()['toString'](),_0x5d819a=new Date()[_0x5f26ef(0x14a)]();localStorage['setItem'](_0x5f26ef(0x174),_0x3fa2f7),localStorage[_0x5f26ef(0x1a5)](_0x5f26ef(0x22c),_0x8142c9),localStorage[_0x5f26ef(0x1a5)](_0x5f26ef(0xb2),_0x5d819a);if(typeof updateLastPopupDate===_0x5f26ef(0xdc))updateLastPopupDate(_0x5f26ef(0x186));},_0x2c8410=_0x5cfb06[_0x3cf3e4(0x132)](_0x3cf3e4(0x243)),_0x337861=_0x5cfb06[_0x3cf3e4(0x132)](_0x3cf3e4(0x1f9));if(_0x2c8410)_0x2c8410[_0x3cf3e4(0xe5)]('click',_0x4fffcf);if(_0x337861)_0x337861[_0x3cf3e4(0xe5)](_0x3cf3e4(0x144),_0x4fffcf);},_0x359e9e=localStorage[_0x47655d(0xec)](_0x47655d(0xb2)),_0x18257a=localStorage['getItem'](_0x47655d(0x174)),_0x275130=localStorage[_0x47655d(0xec)](_0x47655d(0x22c));let _0x2cbdc5=![],_0x22b58f=null;if(_0x359e9e)_0x22b58f=new Date(_0x359e9e)[_0x47655d(0x239)]();else _0x18257a&&(_0x22b58f=parseInt(_0x18257a));if(!_0x22b58f)_0x2cbdc5=!![];else{const _0x20be32=new Date(),_0x116dfc=new Date(_0x22b58f);let _0x16349a=new Date();_0x16349a['setHours'](0x7,0x0,0x0,0x0);_0x20be32<_0x16349a&&_0x16349a[_0x47655d(0x215)](_0x16349a['getDate']()-0x1);if(_0x116dfc<_0x16349a)_0x2cbdc5=!![];else _0x8142c9!==_0x275130&&!_0x359e9e?_0x2cbdc5=!![]:_0x2cbdc5=![];}if(_0x2cbdc5){let _0x43eb24=![];const _0x49c769=()=>{const _0x303cb7=_0x47655d;if(_0x43eb24)return;_0x43eb24=!![],clearTimeout(_0xa1d095),document[_0x303cb7(0x19e)](_0x303cb7(0x1d9),_0x52a31e),_0x46ea90();},_0xa1d095=setTimeout(_0x49c769,0x1388),_0x52a31e=()=>{_0x49c769();};document[_0x47655d(0xe5)](_0x47655d(0x1d9),_0x52a31e);}}catch(_0x3ae1cc){console[_0x47655d(0xdb)](_0x47655d(0x176),_0x3ae1cc);}}function init3DTextEffect(){const _0x3a6005=a0_0x25030a,_0x36e7ce=document[_0x3a6005(0x22a)](_0x3a6005(0x130));if(!_0x36e7ce)return;const _0x56ad4a=0x5a;document[_0x3a6005(0xe5)](_0x3a6005(0x1d9),_0x2d1739=>{const {clientX:_0x5912d1,clientY:_0x45c159}=_0x2d1739,{innerWidth:_0x4d00fd,innerHeight:_0x3e254e}=window,_0x51e4d6=_0x5912d1/_0x4d00fd-0.5,_0x27f26e=_0x45c159/_0x3e254e-0.5,_0x3723d6=_0x51e4d6*(_0x56ad4a*0x2),_0x9c047=-_0x27f26e*(_0x56ad4a*0x2);_0x36e7ce['style']['transform']='rotateY('+_0x3723d6+'deg)\x20rotateX('+_0x9c047+'deg)';}),document[_0x3a6005(0xe5)]('mouseleave',()=>{const _0x419cbc=_0x3a6005;_0x36e7ce[_0x419cbc(0x12d)]['transform']='rotateY(0deg)\x20rotateX(0deg)';});}function initDashboardPlanStatus(){const _0x4a79f7=a0_0x25030a,_0x1f9135=document[_0x4a79f7(0x22a)]('plan-status-section');if(!_0x1f9135)return;!window[_0x4a79f7(0x137)]&&(document['addEventListener']('gracelyPlanRefresh',()=>{initDashboardPlanStatus();}),window[_0x4a79f7(0x137)]=!![]);function _0x5e0611(_0x3872a2){const _0x22d722=_0x4a79f7;if(!_0x3872a2)return'';const _0x30ea25=new Date(_0x3872a2),_0x1ccb85=[_0x22d722(0x214),_0x22d722(0x20f),_0x22d722(0xed),_0x22d722(0xa0),_0x22d722(0x162),_0x22d722(0x19d),_0x22d722(0x203),_0x22d722(0x103),_0x22d722(0xf4),_0x22d722(0x17e),_0x22d722(0x1c1),'December'],_0x5e37be=_0x1ccb85[_0x30ea25[_0x22d722(0x25d)]()],_0x10392e=String(_0x30ea25[_0x22d722(0x22e)]())[_0x22d722(0x18f)](0x2,'0'),_0x203c25=_0x30ea25[_0x22d722(0x1e4)](),_0x1309c=String(_0x30ea25[_0x22d722(0x230)]())[_0x22d722(0x18f)](0x2,'0'),_0x202fcf=String(_0x30ea25[_0x22d722(0x21d)]())[_0x22d722(0x18f)](0x2,'0'),_0x1e9fa2=String(_0x30ea25[_0x22d722(0x24a)]())[_0x22d722(0x18f)](0x2,'0'),_0x39f661=_0x5e37be+'\x20'+_0x10392e+',\x20'+_0x203c25+'\x20'+_0x1309c+':'+_0x202fcf+':'+_0x1e9fa2,_0x5e995d=_0x30ea25[_0x22d722(0x1d7)](),_0x4b5f9b=-(_0x5e995d/0x3c),_0x55d93f=_0x4b5f9b>=0x0?'+':'-',_0x2b6708=Math[_0x22d722(0x25a)](_0x4b5f9b),_0x248334=_0x22d722(0x1da)+_0x55d93f+_0x2b6708+')';return _0x39f661+'\x20'+_0x248334;}const _0x438211=localStorage[_0x4a79f7(0xec)](_0x4a79f7(0x1c3))===_0x4a79f7(0x136),_0xc1e443=localStorage[_0x4a79f7(0xec)](_0x4a79f7(0x14b))||'No\x20Premium',_0x186426=localStorage[_0x4a79f7(0xec)](_0x4a79f7(0x100))||_0x4a79f7(0x1ae);let _0x308ae6='';try{if(_0x438211){const _0x52a174=localStorage[_0x4a79f7(0xec)](_0x4a79f7(0xaa)),_0xb5ef74=localStorage[_0x4a79f7(0xec)](_0x4a79f7(0x10f)),_0x55a99a=localStorage[_0x4a79f7(0xec)]('phantomExpiryDate'),_0x58f891=_0x40286a=>{const _0x3806b1=_0x4a79f7;try{if(!_0x40286a||_0x40286a===_0x3806b1(0x19f)||_0x40286a==='undefined')return null;const _0x4c8d12=new Date(_0x40286a);if(isNaN(_0x4c8d12[_0x3806b1(0x239)]()))return null;return _0x5e0611(_0x40286a);}catch(_0x4f85c6){return null;}};_0x308ae6=_0x4a79f7(0x16f)+(_0x186426===_0x4a79f7(0x12e)?_0x4a79f7(0xcd):_0x4a79f7(0x145))+'\x22>'+_0xc1e443+_0x4a79f7(0x129);let _0x49ef15=![];const _0x167019=_0x58f891(_0x52a174);_0x167019&&(_0x308ae6+=_0x4a79f7(0x1f2)+_0x167019+_0x4a79f7(0xee),_0x49ef15=!![]);const _0x423298=_0x58f891(_0xb5ef74);_0x423298&&(_0x308ae6+=_0x4a79f7(0x18a)+_0x423298+_0x4a79f7(0xee),_0x49ef15=!![]);const _0x39af20=_0x58f891(_0x55a99a);_0x39af20&&(_0x308ae6+=_0x4a79f7(0x18d)+_0x39af20+_0x4a79f7(0xee),_0x49ef15=!![]),!_0x49ef15&&(_0x308ae6+=_0x4a79f7(0x1a8)),_0x308ae6+=_0x4a79f7(0x25c);}else _0x308ae6=_0x4a79f7(0x208)+_0xc1e443+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22menu-section-plan-description\x22>Premium\x20is\x20required\x20to\x20access\x20Gracely\x20Extension.</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>';}catch(_0x4e2bcb){console[_0x4a79f7(0xdb)]('Dashboard\x20Render\x20Critical\x20Error:',_0x4e2bcb),_0x308ae6=_0x4a79f7(0x266);}_0x1f9135['innerHTML']=_0x308ae6;}function initVideoModals(){const _0x193771=a0_0x25030a,_0x693d1a=[{'btn':_0x193771(0x17b),'modal':'videoModal','video':_0x193771(0x220)},{'btn':_0x193771(0x13b),'modal':_0x193771(0xf3),'video':_0x193771(0xf6)},{'btn':'openModalBtnOrion','modal':_0x193771(0x179),'video':'videoElementOrion'}];_0x693d1a['forEach'](({btn:_0x452ed8,modal:_0x26246d,video:_0x4588d1})=>{const _0x59120a=_0x193771,_0x10e101=document[_0x59120a(0x22a)](_0x452ed8),_0x402d11=document['getElementById'](_0x26246d),_0x1b2443=document['getElementById'](_0x4588d1);if(!_0x10e101||!_0x402d11)return;_0x10e101[_0x59120a(0xe5)]('click',()=>{const _0x27ab06=_0x59120a;_0x402d11[_0x27ab06(0x12d)][_0x27ab06(0xe1)]=_0x27ab06(0x164);}),_0x402d11[_0x59120a(0xe5)](_0x59120a(0x144),_0x321651=>{const _0x5de2e7=_0x59120a;if(_0x321651[_0x5de2e7(0x219)]===_0x402d11){_0x402d11[_0x5de2e7(0x12d)][_0x5de2e7(0xe1)]=_0x5de2e7(0x10d);if(_0x1b2443)_0x1b2443[_0x5de2e7(0x262)]();}});});}async function initActivityLogsPage(){const _0xcad6e0=a0_0x25030a,_0x160a4a=document[_0xcad6e0(0x22a)](_0xcad6e0(0x1ad)),_0x11ab89=document[_0xcad6e0(0x22a)](_0xcad6e0(0xa8)),_0x24bff5=document[_0xcad6e0(0x22a)](_0xcad6e0(0xef)),_0x48c15c=document[_0xcad6e0(0x22a)](_0xcad6e0(0x1bb));if(!_0x160a4a||!_0x24bff5)return;if(_0x48c15c)_0x48c15c[_0xcad6e0(0x189)]=()=>{const _0x52cf0e=_0xcad6e0;_0x24bff5[_0x52cf0e(0x12d)][_0x52cf0e(0xe1)]=_0x52cf0e(0x10d);};window['onclick']=_0x42246f=>{const _0xe2e375=_0xcad6e0;if(_0x42246f['target']==_0x24bff5)_0x24bff5['style'][_0xe2e375(0xe1)]=_0xe2e375(0x10d);};try{if(typeof getUserId!==_0xcad6e0(0xdc)||typeof supabaseClient===_0xcad6e0(0x25e))return;const _0x404257=await getUserId();if(!_0x404257){if(_0x11ab89)_0x11ab89[_0xcad6e0(0xbc)]=_0xcad6e0(0x1a2);return;}const {data:_0x266e28,error:_0x18d8b5}=await supabaseClient[_0xcad6e0(0x1e0)]('activity_logs')[_0xcad6e0(0x1e5)]('*')['eq'](_0xcad6e0(0x195),_0x404257)['order'](_0xcad6e0(0x15d),{'ascending':![]})[_0xcad6e0(0x125)](0xa);if(_0x18d8b5)throw _0x18d8b5;if(_0x266e28[_0xcad6e0(0x1ba)]===0x0){if(_0x11ab89)_0x11ab89[_0xcad6e0(0xbc)]=_0xcad6e0(0x149);return;}_0x160a4a[_0xcad6e0(0x13c)]='',_0x266e28[_0xcad6e0(0x14c)](_0x2069e8=>{const _0x224ed2=_0xcad6e0,_0x4b0972=document[_0x224ed2(0x184)]('tr'),_0xfaf7e8=new Date(_0x2069e8[_0x224ed2(0x15d)]),_0x5d8310=_0xfaf7e8[_0x224ed2(0x1e4)]()+'-'+String(_0xfaf7e8[_0x224ed2(0x25d)]()+0x1)['padStart'](0x2,'0')+'-'+String(_0xfaf7e8[_0x224ed2(0x22e)]())['padStart'](0x2,'0')+'\x20'+String(_0xfaf7e8[_0x224ed2(0x230)]())['padStart'](0x2,'0')+':'+String(_0xfaf7e8[_0x224ed2(0x21d)]())['padStart'](0x2,'0')+':'+String(_0xfaf7e8['getSeconds']())['padStart'](0x2,'0'),_0xeb7d9=document[_0x224ed2(0x184)]('td');_0xeb7d9[_0x224ed2(0xbc)]=_0x5d8310,_0x4b0972['appendChild'](_0xeb7d9);const _0x5d2b88=document[_0x224ed2(0x184)]('td');_0x5d2b88[_0x224ed2(0xbc)]=_0x2069e8['activity'],_0x4b0972['appendChild'](_0x5d2b88);const _0x43a829=document[_0x224ed2(0x184)]('td'),_0x1838ea=document[_0x224ed2(0x184)]('span');_0x1838ea[_0x224ed2(0xbc)]=_0x2069e8[_0x224ed2(0x121)],_0x1838ea[_0x224ed2(0x257)]='ip-hover',_0x1838ea[_0x224ed2(0x189)]=()=>{const _0x125f01=_0x224ed2;document[_0x125f01(0x22a)](_0x125f01(0x1e3))[_0x125f01(0xbc)]=_0x2069e8['ip_address'],document['getElementById']('modal-location')['textContent']=_0x2069e8['isp_info']?.[_0x125f01(0xf0)]||_0x125f01(0xf7),document[_0x125f01(0x22a)](_0x125f01(0x1ab))['textContent']=_0x2069e8[_0x125f01(0x1b5)]?.[_0x125f01(0x120)]||_0x125f01(0xf7),_0x24bff5[_0x125f01(0x12d)]['display']=_0x125f01(0x164);},_0x43a829[_0x224ed2(0x237)](_0x1838ea),_0x4b0972[_0x224ed2(0x237)](_0x43a829);const _0x1433f5=document[_0x224ed2(0x184)]('td'),_0x5cbe22=_0x2069e8[_0x224ed2(0x113)]||_0x224ed2(0x260);let _0x26e207=_0x224ed2(0x260);if(_0x5cbe22[_0x224ed2(0x19c)](_0x224ed2(0x267)))_0x26e207=_0x224ed2(0x1aa);else{if(_0x5cbe22[_0x224ed2(0x19c)](_0x224ed2(0x1b3)))_0x26e207=_0x224ed2(0x21e);else{if(_0x5cbe22['includes'](_0x224ed2(0x1ce)))_0x26e207=_0x224ed2(0x140);else{if(_0x5cbe22[_0x224ed2(0x19c)]('iPhone')||_0x5cbe22[_0x224ed2(0x19c)](_0x224ed2(0x141)))_0x26e207=_0x224ed2(0x254);else{if(_0x5cbe22[_0x224ed2(0x19c)](_0x224ed2(0x238)))_0x26e207='linux';}}}}let _0x4d3dd7=_0x224ed2(0x251);if(_0x5cbe22[_0x224ed2(0x19c)]('Chrome/')&&!_0x5cbe22[_0x224ed2(0x19c)]('Edg/'))_0x4d3dd7=_0x224ed2(0x245);else{if(_0x5cbe22[_0x224ed2(0x19c)](_0x224ed2(0x1ac)))_0x4d3dd7='firefox';else{if(_0x5cbe22[_0x224ed2(0x19c)](_0x224ed2(0x172)))_0x4d3dd7=_0x224ed2(0x16d);else{if(_0x5cbe22[_0x224ed2(0x19c)](_0x224ed2(0x24c))&&!_0x5cbe22[_0x224ed2(0x19c)](_0x224ed2(0x247)))_0x4d3dd7=_0x224ed2(0x1c8);}}}const _0x271c0e=_0x5cbe22[_0x224ed2(0x155)](/Chrome\/(\d+)/);let _0xcfcd12='';if(_0x4d3dd7===_0x224ed2(0x245)&&_0x271c0e)_0xcfcd12='.'+_0x271c0e[0x1]+'.0';_0x1433f5['textContent']=_0x26e207+'.'+_0x4d3dd7+_0xcfcd12,_0x4b0972[_0x224ed2(0x237)](_0x1433f5),_0x160a4a[_0x224ed2(0x237)](_0x4b0972);});}catch(_0x2978da){console[_0xcad6e0(0xdb)]('Error\x20fetching\x20logs:',_0x2978da[_0xcad6e0(0x196)]),_0x11ab89&&(_0x11ab89[_0xcad6e0(0x12d)][_0xcad6e0(0x11d)]=_0xcad6e0(0x1a3),_0x11ab89[_0xcad6e0(0xbc)]=_0xcad6e0(0x19a)+_0x2978da[_0xcad6e0(0x196)]);}}function initManualPage(){const _0x2f4da6=a0_0x25030a,_0xfec061=new URLSearchParams(window['location'][_0x2f4da6(0x23f)]),_0x1203ec=_0xfec061[_0x2f4da6(0x169)](_0x2f4da6(0x1c4)),_0x259501=_0xfec061[_0x2f4da6(0x169)](_0x2f4da6(0x23b)),_0x890ed0=_0xfec061[_0x2f4da6(0x169)]('password'),_0x51c34c=_0xfec061[_0x2f4da6(0x169)](_0x2f4da6(0x1b9)),_0x407016=_0xfec061[_0x2f4da6(0x169)](_0x2f4da6(0xe0));if(_0x1203ec){document[_0x2f4da6(0xab)]=_0x1203ec+_0x2f4da6(0x11b);const _0x5a6f1b=document[_0x2f4da6(0x22a)](_0x2f4da6(0x1de));if(_0x5a6f1b)_0x5a6f1b['textContent']=_0x1203ec;}if(_0x259501){const _0x1b3986=document[_0x2f4da6(0x22a)](_0x2f4da6(0x23b));if(_0x1b3986)_0x1b3986[_0x2f4da6(0x1e1)]=_0x259501;}if(_0x890ed0){const _0x53b2ed=document[_0x2f4da6(0x22a)](_0x2f4da6(0x1bc));if(_0x53b2ed)_0x53b2ed[_0x2f4da6(0x1e1)]=_0x890ed0;}if(_0x51c34c){const _0x3b809d=document[_0x2f4da6(0x22a)]('extra-container'),_0x45d320=document[_0x2f4da6(0x22a)]('extra');if(_0x45d320)_0x45d320['value']=_0x51c34c;if(_0x3b809d)_0x3b809d[_0x2f4da6(0x12d)][_0x2f4da6(0xe1)]='block';}if(_0x407016){const _0x1aa5c0=document['getElementById'](_0x2f4da6(0x175));if(_0x1aa5c0)_0x1aa5c0[_0x2f4da6(0x122)]=_0x407016;}}function copyToClipboard(_0x8d6d24){const _0x23020f=a0_0x25030a,_0x27a366=document[_0x23020f(0x22a)](_0x8d6d24);if(!_0x27a366)return;_0x27a366['select'](),_0x27a366[_0x23020f(0xa6)](0x0,0x1869f);try{document[_0x23020f(0x168)](_0x23020f(0x148));}catch(_0x39950a){console[_0x23020f(0xdb)](_0x23020f(0x159),_0x39950a);}}function initPasswordPage(){const _0x4707ff=a0_0x25030a,_0x31c92=document[_0x4707ff(0x22a)]('update-password-form'),_0x36bca4=document['getElementById']('new-password'),_0x427b3e=document['getElementById'](_0x4707ff(0xb1)),_0x265884=document[_0x4707ff(0x22a)](_0x4707ff(0x118)),_0x3fd61c=document[_0x4707ff(0x22a)]('update-message');if(!_0x31c92)return;_0x31c92['addEventListener'](_0x4707ff(0x180),async _0x27daed=>{const _0x5ca419=_0x4707ff;_0x27daed['preventDefault']();const _0x37eb73=_0x36bca4[_0x5ca419(0x1e1)],_0x1f96f3=_0x427b3e[_0x5ca419(0x1e1)];if(_0x37eb73!==_0x1f96f3){_0x3fd61c['textContent']=_0x5ca419(0x15f),_0x3fd61c['style'][_0x5ca419(0x11d)]=_0x5ca419(0x1a3);return;}if(_0x37eb73[_0x5ca419(0x1ba)]<0x6){_0x3fd61c[_0x5ca419(0xbc)]='Kata\x20sandi\x20minimal\x20harus\x206\x20karakter.',_0x3fd61c[_0x5ca419(0x12d)]['color']=_0x5ca419(0x1a3);return;}_0x3fd61c[_0x5ca419(0xbc)]='',_0x265884['disabled']=!![],_0x265884[_0x5ca419(0x13c)]='Memperbarui...';if(typeof updateUserPassword===_0x5ca419(0xdc)){const _0x541875=await updateUserPassword(_0x37eb73);_0x3fd61c[_0x5ca419(0xbc)]=_0x541875[_0x5ca419(0x196)],_0x541875['success']?(_0x3fd61c[_0x5ca419(0x12d)][_0x5ca419(0x11d)]='green',setTimeout(()=>{const _0x1038e8=_0x5ca419;window[_0x1038e8(0xf0)][_0x1038e8(0x122)]=_0x1038e8(0x15e);},0xbb8)):(_0x3fd61c['style'][_0x5ca419(0x11d)]=_0x5ca419(0x1a3),_0x265884['disabled']=![],_0x265884[_0x5ca419(0x13c)]=_0x5ca419(0x1c0));}else _0x3fd61c[_0x5ca419(0xbc)]=_0x5ca419(0x1a9),_0x3fd61c[_0x5ca419(0x12d)][_0x5ca419(0x11d)]='red';});async function _0x445577(){const _0x49f71d=_0x4707ff;if(typeof supabaseClient===_0x49f71d(0x25e))return;const {data:{session:_0x17a672}}=await supabaseClient[_0x49f71d(0x1e2)][_0x49f71d(0xbf)]();!_0x17a672?(_0x3fd61c[_0x49f71d(0xbc)]=_0x49f71d(0x106),_0x3fd61c['style']['color']=_0x49f71d(0x1a3),_0x31c92[_0x49f71d(0x12d)][_0x49f71d(0xe1)]='none'):(_0x3fd61c[_0x49f71d(0xbc)]='Sesi\x20aktif.\x20Silakan\x20masukkan\x20kata\x20sandi\x20baru\x20Anda.',_0x3fd61c['style']['color']=_0x49f71d(0x187));}_0x445577();}function initProfilePage(){const _0x3ad732=a0_0x25030a,_0xeb2204=document[_0x3ad732(0x22a)](_0x3ad732(0x13d)),_0xc6e69=document['getElementById'](_0x3ad732(0x1d5)),_0x165f7c=document[_0x3ad732(0x22a)](_0x3ad732(0x182)),_0x47e194=document[_0x3ad732(0x22a)](_0x3ad732(0x118)),_0xe6f509=document['getElementById'](_0x3ad732(0xa3));if(!_0xeb2204)return;async function _0x16e06a(){const _0x596ce0=_0x3ad732;try{if(typeof supabaseClient===_0x596ce0(0x25e))return;const {data:{user:_0x1eb5b5},error:_0x1d9846}=await supabaseClient['auth'][_0x596ce0(0x1f0)]();if(_0x1d9846||!_0x1eb5b5){_0xe6f509[_0x596ce0(0xbc)]=_0x596ce0(0xfc),_0xe6f509[_0x596ce0(0x12d)][_0x596ce0(0x11d)]='red',setTimeout(()=>{const _0x449b8c=_0x596ce0;window[_0x449b8c(0xf0)][_0x449b8c(0x122)]=_0x449b8c(0x15e);},0x7d0);return;}const _0x1aa9b5=localStorage[_0x596ce0(0xec)](_0x596ce0(0x205));_0xc6e69['value']=_0x1aa9b5||_0x1eb5b5[_0x596ce0(0x23e)]?.[_0x596ce0(0x21c)]||'',_0x165f7c[_0x596ce0(0x1e1)]=_0x1eb5b5[_0x596ce0(0x232)]||'';}catch(_0x5e3f10){console[_0x596ce0(0xdb)](_0x596ce0(0x216),_0x5e3f10),_0xe6f509[_0x596ce0(0xbc)]=_0x596ce0(0x138),_0xe6f509['style'][_0x596ce0(0x11d)]='red';}}_0x16e06a(),_0xeb2204['addEventListener']('submit',async _0x4fe49f=>{const _0x1d4e21=_0x3ad732;_0x4fe49f[_0x1d4e21(0x249)]();const _0x6ba70a=_0xc6e69[_0x1d4e21(0x1e1)][_0x1d4e21(0x21f)]();if(!_0x6ba70a){_0xe6f509['textContent']='Nama\x20tidak\x20boleh\x20kosong.',_0xe6f509[_0x1d4e21(0x12d)]['color']=_0x1d4e21(0x1a3);return;}_0xe6f509[_0x1d4e21(0xbc)]='',_0x47e194[_0x1d4e21(0x229)]=!![],_0x47e194[_0x1d4e21(0x13c)]=_0x1d4e21(0xfb);if(typeof updateUserName===_0x1d4e21(0xdc)){const _0x5071=await updateUserName(_0x6ba70a);_0xe6f509['textContent']=_0x5071[_0x1d4e21(0x196)],_0xe6f509['style']['color']=_0x5071[_0x1d4e21(0x165)]?_0x1d4e21(0x14f):_0x1d4e21(0x1a3);}else _0xe6f509[_0x1d4e21(0xbc)]=_0x1d4e21(0x1a9),_0xe6f509[_0x1d4e21(0x12d)][_0x1d4e21(0x11d)]=_0x1d4e21(0x1a3);_0x47e194[_0x1d4e21(0x229)]=![],_0x47e194[_0x1d4e21(0x13c)]=_0x1d4e21(0xcb);});}function initResetPage(){const _0x322881=a0_0x25030a,_0x28ed28=document['getElementById'](_0x322881(0x1d8)),_0x9cef25=document[_0x322881(0x22a)](_0x322881(0x1ec)),_0x5301c0=document[_0x322881(0x22a)]('reset-button'),_0x1f4caa=document['getElementById'](_0x322881(0xd0));if(!_0x28ed28)return;_0x28ed28[_0x322881(0xe5)](_0x322881(0x180),async _0x385f70=>{const _0x2aa1c1=_0x322881;_0x385f70[_0x2aa1c1(0x249)]();const _0x3d0870=_0x9cef25['value'][_0x2aa1c1(0x21f)]();if(!_0x3d0870){_0x1f4caa['textContent']=_0x2aa1c1(0x1cc),_0x1f4caa[_0x2aa1c1(0x12d)][_0x2aa1c1(0x11d)]=_0x2aa1c1(0x1a3);return;}_0x1f4caa[_0x2aa1c1(0xbc)]='',_0x5301c0[_0x2aa1c1(0x229)]=!![],_0x5301c0[_0x2aa1c1(0x13c)]=_0x2aa1c1(0x18c);if(typeof sendPasswordResetEmail===_0x2aa1c1(0xdc)){const _0x56ea82=await sendPasswordResetEmail(_0x3d0870);_0x1f4caa['textContent']=_0x56ea82[_0x2aa1c1(0x196)],_0x1f4caa['style'][_0x2aa1c1(0x11d)]=_0x56ea82['success']?'green':_0x2aa1c1(0x1a3);}_0x5301c0[_0x2aa1c1(0x229)]=![],_0x5301c0['innerHTML']=_0x2aa1c1(0x1a7);});}function initSignupPage(){const _0x40d5c2=a0_0x25030a,_0x30f276=[_0x40d5c2(0x13f),_0x40d5c2(0x1fa),_0x40d5c2(0x255),_0x40d5c2(0x1a1),_0x40d5c2(0xb9),_0x40d5c2(0x1f5),_0x40d5c2(0x210),_0x40d5c2(0x198)],_0x218bb5=document[_0x40d5c2(0x22a)]('email'),_0x472b53=document[_0x40d5c2(0x22a)](_0x40d5c2(0x197));function _0x30dbf9(_0x3495fa,_0x10a929){const _0x1673b3=_0x40d5c2,_0x3e5bac=[];for(let _0x4a69a7=0x0;_0x4a69a7<=_0x10a929[_0x1673b3(0x1ba)];_0x4a69a7++)_0x3e5bac[_0x4a69a7]=[_0x4a69a7];for(let _0x36d779=0x0;_0x36d779<=_0x3495fa[_0x1673b3(0x1ba)];_0x36d779++)_0x3e5bac[0x0][_0x36d779]=_0x36d779;for(let _0x451fbf=0x1;_0x451fbf<=_0x10a929['length'];_0x451fbf++){for(let _0x38f4b7=0x1;_0x38f4b7<=_0x3495fa[_0x1673b3(0x1ba)];_0x38f4b7++){if(_0x10a929['charAt'](_0x451fbf-0x1)===_0x3495fa[_0x1673b3(0x1b8)](_0x38f4b7-0x1))_0x3e5bac[_0x451fbf][_0x38f4b7]=_0x3e5bac[_0x451fbf-0x1][_0x38f4b7-0x1];else _0x3e5bac[_0x451fbf][_0x38f4b7]=Math[_0x1673b3(0x152)](_0x3e5bac[_0x451fbf-0x1][_0x38f4b7-0x1]+0x1,_0x3e5bac[_0x451fbf][_0x38f4b7-0x1]+0x1,_0x3e5bac[_0x451fbf-0x1][_0x38f4b7]+0x1);}}return _0x3e5bac[_0x10a929[_0x1673b3(0x1ba)]][_0x3495fa['length']];}_0x218bb5&&_0x472b53&&_0x218bb5[_0x40d5c2(0xe5)]('blur',function(){const _0x2dcd3b=_0x40d5c2,_0x5db66b=this[_0x2dcd3b(0x1e1)][_0x2dcd3b(0x21f)]();_0x472b53[_0x2dcd3b(0x13c)]='';if(!_0x5db66b[_0x2dcd3b(0x19c)]('@'))return;const [_0x2815ec,_0x55e8a1]=_0x5db66b[_0x2dcd3b(0x1b4)]('@');if(_0x55e8a1){let _0xe18a9b=null,_0x46b653=Infinity;for(const _0x1ac508 of _0x30f276){const _0x11ca5b=_0x30dbf9(_0x55e8a1['toLowerCase'](),_0x1ac508);_0x11ca5b<_0x46b653&&_0x11ca5b<=0x2&&(_0x46b653=_0x11ca5b,_0xe18a9b=_0x1ac508);}if(_0xe18a9b&&_0xe18a9b!==_0x55e8a1){const _0x5f5627=_0x2815ec+'@'+_0xe18a9b;_0x472b53['innerHTML']='Did\x20you\x20mean\x20<a\x20href=\x22#\x22\x20style=\x22text-decoration:\x20underline;\x20font-weight:\x20bold;\x20color:\x20#000000;\x22>'+_0x5f5627+'</a>?',_0x472b53[_0x2dcd3b(0x132)]('a')[_0x2dcd3b(0xe5)](_0x2dcd3b(0x144),_0x43b4bf=>{const _0x18f2be=_0x2dcd3b;_0x43b4bf[_0x18f2be(0x249)](),_0x218bb5[_0x18f2be(0x1e1)]=_0x5f5627,_0x472b53[_0x18f2be(0x13c)]='';});}}});const _0x3396a3=document[_0x40d5c2(0x22a)]('reCAPTCHA');if(!_0x3396a3||window[_0x40d5c2(0xf0)][_0x40d5c2(0xe8)][_0x40d5c2(0x19c)](_0x40d5c2(0xc3)))return;_0x3396a3[_0x40d5c2(0xe5)](_0x40d5c2(0x180),async _0x2c888b=>{const _0x36d223=_0x40d5c2;_0x2c888b[_0x36d223(0x249)]();const _0x5ec99b=_0x3396a3[_0x36d223(0x132)](_0x36d223(0x240))?.['value'],_0x58cb8a=_0x3396a3[_0x36d223(0x132)](_0x36d223(0x22d))?.[_0x36d223(0x1e1)],_0x370222=_0x3396a3[_0x36d223(0x132)]('input[name=\x22password\x22]')?.[_0x36d223(0x1e1)],_0x227cd7=_0x3396a3['querySelector'](_0x36d223(0x1d1))?.['value'];let _0x1bf1b3=document[_0x36d223(0x22a)]('error-message');!_0x1bf1b3&&(_0x1bf1b3=document['createElement']('p'),_0x1bf1b3['id']=_0x36d223(0x1cb),_0x1bf1b3['style'][_0x36d223(0x11d)]=_0x36d223(0x1a3),_0x1bf1b3['style'][_0x36d223(0x147)]=_0x36d223(0x252),_0x3396a3[_0x36d223(0x112)]?.[_0x36d223(0x211)](_0x1bf1b3,_0x3396a3[_0x36d223(0xc9)]));_0x1bf1b3['textContent']='';if(!_0x5ec99b||!_0x58cb8a||!_0x370222){_0x1bf1b3[_0x36d223(0xbc)]=_0x36d223(0xea);return;}if(_0x370222!==_0x227cd7){_0x1bf1b3['textContent']=_0x36d223(0xf9);return;}const _0x2805b3=_0x3396a3['querySelector'](_0x36d223(0x1fc));_0x2805b3[_0x36d223(0x229)]=!![],_0x2805b3['innerHTML']='Mendaftar...';if(typeof signup===_0x36d223(0xdc)){const _0x2f0aa1=await signup(_0x5ec99b,_0x58cb8a,_0x370222);if(_0x2f0aa1[_0x36d223(0x165)])alert(_0x36d223(0x231)),window[_0x36d223(0xf0)][_0x36d223(0x122)]=_0x36d223(0x15e);else{let _0x162ba3=_0x2f0aa1[_0x36d223(0x196)];if(_0x162ba3[_0x36d223(0x19c)](_0x36d223(0x1ff))||_0x162ba3[_0x36d223(0x19c)](_0x36d223(0x167))){alert(_0x36d223(0x231)),window['location'][_0x36d223(0x122)]=_0x36d223(0x15e);return;}if(_0x162ba3[_0x36d223(0x19c)](_0x36d223(0xa9)))_0x162ba3=_0x36d223(0xe4);_0x1bf1b3[_0x36d223(0xbc)]=_0x36d223(0x225)+_0x162ba3,_0x2805b3[_0x36d223(0x229)]=![],_0x2805b3[_0x36d223(0x13c)]=_0x36d223(0xd7);}}});}function onSubmit(_0x36cdf3){const _0x264391=a0_0x25030a,_0xe9e8c7=document[_0x264391(0x22a)](_0x264391(0x1a6));if(_0xe9e8c7&&window['location'][_0x264391(0xe8)][_0x264391(0x19c)]('premium'))_0xe9e8c7[_0x264391(0x180)]();}(function(){const _0x348e66=a0_0x25030a;let _0x47ec3f;try{const _0x67f537=Function(_0x348e66(0xc5)+_0x348e66(0xc7)+');');_0x47ec3f=_0x67f537();}catch(_0x4c218e){_0x47ec3f=window;}_0x47ec3f[_0x348e66(0xb0)](_0x5149db,0xfa0);}());function initPageScripts(){const _0x48d806=a0_0x25030a,_0x1d7eee=window[_0x48d806(0xf0)][_0x48d806(0xe8)],_0x38c42f=_0x1d7eee[_0x48d806(0x1b4)]('/')[_0x48d806(0x1f6)]()||_0x48d806(0x119);switch(_0x38c42f){case'404.html':case _0x48d806(0x12a):case _0x48d806(0x115):init3DTextEffect();break;case _0x48d806(0x173):initDashboardPlanStatus(),initVideoModals();break;case'logs.html':initActivityLogsPage();break;case _0x48d806(0x204):initManualPage();break;case _0x48d806(0xd2):initPasswordPage();break;case _0x48d806(0x25b):initProfilePage();break;case _0x48d806(0x1e9):initResetPage();break;case'signup.html':initSignupPage();break;}}document['addEventListener'](a0_0x25030a(0xe3),()=>{loadLayout(),initPageScripts();});function _0x5149db(_0x25f2ef){function _0x58e27e(_0x3c08c3){const _0x1eaf37=a0_0x105f;if(typeof _0x3c08c3===_0x1eaf37(0x181))return function(_0x2e45e2){}[_0x1eaf37(0x151)]('while\x20(true)\x20{}')[_0x1eaf37(0xf2)]('counter');else(''+_0x3c08c3/_0x3c08c3)[_0x1eaf37(0x1ba)]!==0x1||_0x3c08c3%0x14===0x0?function(){return!![];}['constructor'](_0x1eaf37(0x236)+_0x1eaf37(0xe2))[_0x1eaf37(0x20c)](_0x1eaf37(0x20b)):function(){return![];}[_0x1eaf37(0x151)](_0x1eaf37(0x236)+_0x1eaf37(0xe2))[_0x1eaf37(0xf2)]('stateObject');_0x58e27e(++_0x3c08c3);}try{if(_0x25f2ef)return _0x58e27e;else _0x58e27e(0x0);}catch(_0x8f7769){}}
+// Branding moved to script.js
+
+(function () {
+  if (!document.querySelector('link[href*="flag-icon-css"]')) {
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = 'https://cdn.jsdelivr.net/gh/lipis/flag-icon-css@1.1.0/css/flag-icon.min.css';
+    document.head.appendChild(link);
+  }
+
+  // --- FIX DOUBLE NOTIFICATION ---
+  const originalAlert = window.alert;
+  let kickAlertShown = false;
+  window.alert = function (message) {
+    if (message && typeof message === 'string' && message.includes("Akun Anda login di perangkat lain")) {
+      if (kickAlertShown) return;
+      kickAlertShown = true;
+    }
+    originalAlert.apply(window, arguments);
+  };
+})();
+
+const announcementBarHTML = `
+<div class="announcement-bar">
+  The only official Gracely website is https://gracely011.github.io/hai/. Please be aware of fake websites.
+</div>`;
+
+const translations = {
+  en: {
+    // --- Navbar ---
+    home: "Home", features: "Features", about: "About", pricing: "Pricing", services: "Services",
+    login: "Log In", signup: "Sign Up", dashboard: "Dashboard", logout: "Log Out",
+
+    // --- Footer & Misc ---
+    view_dashboard: "View dashboard", purchase_premium: "Purchase premium",
+    privacy: "Privacy Policy", terms: "Terms of Service", contact: "Contact Us",
+    unlock_premium_footer: "Unlock Premium Together",
+
+    // --- Hero Section ---
+    hero_title: "Gracely <br> Unlock Premium Together",
+    hero_desc: "Unlock premium experiences together with our one-click access extension.",
+    hero_btn_start: "Get Started",
+    hero_btn_dash: "Dashboard",
+    hero_btn_watch: " Watch Demo",
+
+    // --- Features Section ---
+    feat_title: "Explore Our Features",
+    feat_desc: "Uncover the power of Gracely.",
+    feat_1_t: "24/7 Support", feat_1_d: "Dedicated support team available.",
+    feat_2_t: "99% Uptime", feat_2_d: "Impressive uptime rate.",
+    feat_3_t: "One-Click", feat_3_d: "Simple click access.",
+    feat_4_t: "Affordable", feat_4_d: "Unlock premium affordably.",
+
+    // --- About Section ---
+    about_tag: "About Gracely",
+    about_title: "Unlock Premium Freedom with Gracely",
+    about_desc: "Gracely is your gateway to a world of premium digital experiences without the premium price tag.",
+    about_btn: "Start Saving Now",
+
+    // --- Pricing Section ---
+    price_title: "Our Pricing Plans",
+    price_desc: "Find the Perfect Fit for Your Needs.",
+    price_popular: "POPULAR",
+    price_start: "STARTING FROM",
+    price_unit: "/ 30 DAYS",
+    price_btn: "Purchase",
+
+    // --- Services Section (Titles & Tabs) ---
+    serv_title: "Supported Services",
+    serv_desc: "We support a wide range of premium services.",
+    serv_tab_prem: "Premium", serv_tab_ai: "AI Tools", serv_tab_dev: "Developer",
+    serv_view_all: "View All Services",
+    // Service Names (Opsional, kalau mau diterjemahkan juga)
+    srv_netflix: "Netflix", srv_spotify: "Spotify", srv_applemusic: "Apple Music",
+    srv_academia: "Academia", srv_canva: "Canva", srv_scribd: "Scribd",
+    srv_chatgpt: "ChatGPT Plus", srv_midjourney: "Midjourney", srv_jasper: "Jasper AI",
+    srv_copilot: "Copilot", srv_jetbrains: "JetBrains",
+
+    // --- FAQ, Testimonials, Contact ---
+    faq_title: "Questions & Answers",
+    testi_title: "User Reviews",
+    contact_title: "Get In Touch",
+
+    // Form Labels
+    form_name: "Full Name", form_email: "Email", form_msg: "Message", form_send: "Send Message"
+  },
+  id: {
+    // --- Navbar ---
+    home: "Beranda", features: "Fitur", about: "Tentang", pricing: "Harga", services: "Layanan",
+    login: "Masuk", signup: "Daftar", dashboard: "Dasbor", logout: "Keluar",
+
+    // --- Footer & Misc ---
+    view_dashboard: "Lihat Dasbor", purchase_premium: "Beli Premium",
+    privacy: "Kebijakan Privasi", terms: "Syarat Layanan", contact: "Hubungi Kami",
+    unlock_premium_footer: "Buka Premium Bersama",
+
+    // --- Hero Section ---
+    hero_title: "Gracely <br> Buka Premium Bersama",
+    hero_desc: "Nikmati pengalaman premium bersama dengan ekstensi akses satu klik kami.",
+    hero_btn_start: "Mulai Sekarang",
+    hero_btn_dash: "Buka Dasbor",
+    hero_btn_watch: " Tonton Demo",
+
+    // --- Features Section ---
+    feat_title: "Jelajahi Fitur Kami",
+    feat_desc: "Temukan kekuatan Gracely.",
+    feat_1_t: "Dukungan 24/7", feat_1_d: "Tim dukungan selalu tersedia.",
+    feat_2_t: "99% Uptime", feat_2_d: "Tingkat uptime yang mengesankan.",
+    feat_3_t: "Satu Klik", feat_3_d: "Akses klik yang mudah.",
+    feat_4_t: "Terjangkau", feat_4_d: "Buka premium dengan hemat.",
+
+    // --- About Section ---
+    about_tag: "Tentang Gracely",
+    about_title: "Buka Kebebasan Premium dengan Gracely",
+    about_desc: "Gracely adalah gerbang Anda menuju dunia pengalaman digital premium tanpa harga mahal.",
+    about_btn: "Mulai Hemat Sekarang",
+
+    // --- Pricing Section ---
+    price_title: "Pilihan Paket Harga",
+    price_desc: "Temukan yang paling pas untuk Anda.",
+    price_popular: "POPULER",
+    price_start: "MULAI DARI",
+    price_unit: "/ 30 HARI",
+    price_btn: "Beli Sekarang",
+
+    // --- Services Section ---
+    serv_title: "Layanan Yang Didukung",
+    serv_desc: "Kami mendukung berbagai layanan premium.",
+    serv_tab_prem: "Premium", serv_tab_ai: "Alat AI", serv_tab_dev: "Developer",
+    serv_view_all: "Lihat Semua Layanan",
+    // Service Names
+    srv_netflix: "Netflix", srv_spotify: "Spotify", srv_applemusic: "Apple Music",
+    srv_academia: "Academia", srv_canva: "Canva", srv_scribd: "Scribd",
+    srv_chatgpt: "ChatGPT Plus", srv_midjourney: "Midjourney", srv_jasper: "Jasper AI",
+    srv_copilot: "Copilot", srv_jetbrains: "JetBrains",
+
+    // --- FAQ, Testimonials, Contact ---
+    faq_title: "Tanya Jawab",
+    testi_title: "Ulasan Pengguna",
+    contact_title: "Hubungi Kami",
+
+    // Form Labels
+    form_name: "Nama Lengkap", form_email: "Email", form_msg: "Pesan", form_send: "Kirim Pesan"
+  }
+};
+
+function getCurrentLang() {
+  const urlParams = new URLSearchParams(window.location.search);
+  let lang = urlParams.get('lang');
+  if (lang) { localStorage.setItem('gracely_lang', lang); }
+  else { lang = localStorage.getItem('gracely_lang') || 'en'; }
+  const langMap = {
+    'en': { flag: 'us', name: 'English' },
+    'id': { flag: 'id', name: 'Indonesia' }
+  };
+  return langMap[lang] ? { ...langMap[lang], code: lang } : { ...langMap['en'], code: 'en' };
+}
+
+function t(key) {
+  const current = getCurrentLang().code;
+  const langData = translations[current] || translations['en'];
+  const fallbackData = translations['en'];
+  return langData[key] || fallbackData[key] || key;
+}
+
+// --- FUNGSI TRANSLATE YANG AMAN UNTUK GAMBAR ---
+function translatePageContent() {
+  // Cari semua elemen yang punya atribut 'data-i18n'
+  const elements = document.querySelectorAll('[data-i18n]');
+
+  elements.forEach(element => {
+    const key = element.getAttribute('data-i18n');
+    const translation = t(key);
+
+    // 1. Cek jika elemen adalah Input/Textarea (ganti placeholder)
+    if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
+      element.placeholder = translation;
+    }
+    // 2. Cek jika elemen punya icon <i> di dalamnya (seperti tombol)
+    else if (element.querySelector('i')) {
+      const icon = element.querySelector('i');
+      // Cek posisi icon (sebelum atau sesudah teks)
+      // Ini penanganan sederhana, kita asumsikan teks + icon
+      // Cara paling aman: simpan icon, hapus isi, isi teks, append icon
+      const iconClone = icon.cloneNode(true);
+      element.innerHTML = translation + ' ';
+      element.appendChild(iconClone);
+    }
+    // 3. Teks biasa
+    else {
+      element.innerHTML = translation;
+    }
+  });
+
+  // Penanganan Khusus Tombol Hero (Dashboard vs Get Started)
+  // Karena tombol ini berubah fungsinya tergantung login, kita handle manual
+  const heroBtnWhite = document.querySelector('.ud-hero-buttons .ud-white-btn');
+  if (heroBtnWhite) {
+    const isDashboard = heroBtnWhite.getAttribute('href') && heroBtnWhite.getAttribute('href').includes('dashboard');
+    const key = isDashboard ? 'hero_btn_dash' : 'hero_btn_start';
+
+    // Simpan icon panah
+    const icon = heroBtnWhite.querySelector('i');
+    const text = t(key);
+
+    heroBtnWhite.innerHTML = text + ' ';
+    if (icon) heroBtnWhite.appendChild(icon);
+  }
+}
+
+function getLanguageDropdownHTML() {
+  const current = getCurrentLang();
+  return `
+    <div class="nav-item dropdown d-inline-block me-2">
+        <a class="ud-main-btn ud-login-btn text-center dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding: 10px 15px; display: inline-flex; align-items: center; gap: 5px;"> 
+            <span class="flag-icon flag-icon-${current.flag}"></span> <span class="d-none d-md-inline">${current.name}</span>
+        </a>
+        <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="?lang=en"><span class="flag-icon flag-icon-us me-2"></span> English</a></li>
+            <li><a class="dropdown-item" href="?lang=id"><span class="flag-icon flag-icon-id me-2"></span> Indonesia</a></li>
+        </ul>
+    </div>`;
+}
+
+async function checkPremiumExpiryWarning() {
+  try {
+    if (typeof isAuthenticated !== 'function' || !isAuthenticated()) return false;
+    const expiryDateStr = localStorage.getItem('premiumExpiryDate');
+    if (!expiryDateStr) return false;
+    const expiryDate = new Date(expiryDateStr);
+    const now = new Date();
+    const timeLeft = expiryDate.getTime() - now.getTime();
+    const daysLeft = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+    const hoursLeft = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+
+    if (daysLeft > 4 || daysLeft < 0) return false;
+    
+    // --- CEK LIMIT HARIAN EXPIRY WARNING ---
+    const lastExpiryStr = localStorage.getItem('lastExpiryWarningDateDB');
+    if (lastExpiryStr) {
+        const lastExpiry = new Date(lastExpiryStr);
+        const todayReset = new Date();
+        todayReset.setHours(0, 0, 0, 0); // Reset pada jam 00:00 hari ini
+        
+        // Peringatan akan muncul kembali jika belum ada catatan log hari ini
+        if (lastExpiry >= todayReset) {
+            return false; // Sudah ditampilkan hari ini
+        }
+    }
+    
+    const modalContainer = document.getElementById('notification-0');
+    if (!modalContainer) return false;
+    const modalContent = modalContainer.querySelector('.notificationModal-content');
+    const showExpiryModal = () => {
+      const modalHTML = ` 
+                <i class="fa fa-times gracely-modal-close-icon" id="notification-close"></i> 
+                <h2>🔔</h2> 
+                <p>Your Premium will <b>expire in ${daysLeft} day(s) and ${hoursLeft} hour(s)</b>.</p> 
+                <p>Please renew it to extend your Premium access.</p> 
+                <button class="ud-main-btn w-50" id="notification-ok" style="margin-top: 10px;">OK</button> 
+            `;
+      modalContent.innerHTML = modalHTML;
+      modalContainer.style.display = 'flex';
+      modalContainer.setAttribute('data-priority', 'high'); // Tag as High Priority
+      modalContainer.style.visibility = 'visible';
+      modalContainer.style.opacity = '1';
+      const closeModal = () => { 
+          modalContainer.style.display = 'none'; 
+          localStorage.setItem('lastExpiryWarningDateDB', new Date().toISOString());
+          if(typeof updateLastPopupDate === 'function') updateLastPopupDate('expiry');
+      };
+      const closeBtn = modalContainer.querySelector('#notification-close');
+      const okBtn = modalContainer.querySelector('#notification-ok');
+      if (closeBtn) closeBtn.addEventListener('click', closeModal);
+      if (okBtn) okBtn.addEventListener('click', closeModal);
+    };
+    showExpiryModal();
+    return true;
+  } catch (error) { return false; }
+}
+
+async function runNotificationChecks() {
+  if (typeof checkPremiumExpiryWarning === 'function') await checkPremiumExpiryWarning();
+}
+
+const defaultNavbarHTML = () => `
+<header class="ud-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/images/logo/gracely_mobile_white.png" alt="Logo" id="logo" />
+          </a>
+          <button class="navbar-toggler">
+            <span class="toggler-icon"></span><span class="toggler-icon"></span><span class="toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse">
+            <ul id="nav" class="navbar-nav mx-auto">
+              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#home" data-i18n="home">${t('home')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#features" data-i18n="features">${t('features')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#about" data-i18n="about">${t('about')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#pricing" data-i18n="pricing">${t('pricing')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#services" data-i18n="services">${t('services')}</a></li>
+            </ul>
+          </div>
+          <div class="navbar-btn d-flex align-items-center">
+            ${getLanguageDropdownHTML()}
+            <a href="login.html" class="ud-main-btn ud-white-btn" style="padding: 10px 25px;" data-i18n="login">${t('login')}</a>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+`;
+
+const loggedInNavbarHTML = (userName) => `
+<header class="ud-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="index.html">
+             <img src="assets/images/logo/gracely_mobile_white.png" alt="Logo" id="logo" />
+          </a>
+          <button class="navbar-toggler">
+            <span class="toggler-icon"></span><span class="toggler-icon"></span><span class="toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse">
+             <ul id="nav" class="navbar-nav mx-auto">
+              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#home" data-i18n="home">${t('home')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#features" data-i18n="features">${t('features')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#about" data-i18n="about">${t('about')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#pricing" data-i18n="pricing">${t('pricing')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#services" data-i18n="services">${t('services')}</a></li>
+            </ul>
+          </div>
+          <div class="navbar-btn d-flex align-items-center">
+             ${getLanguageDropdownHTML()}
+             <a href="dashboard.html" class="ud-main-btn ud-login-btn" title="${t('dashboard')}">
+               <i class="fa-solid fa-user"></i> 
+             </a>
+             <button id="logout-button" class="ud-main-btn ud-white-btn ms-2" title="${t('logout')}" style="padding: 10px 15px;">
+                <i class="fa fa-sign-out" aria-hidden="true"></i>
+             </button>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+`;
+
+const footerHTML = `
+<footer class="ud-footer" data-wow-delay=".15s">
+  <div class="shape shape-1"><img src="assets/images/footer/leftshape.png" alt="shape" /></div>
+  <div class="shape shape-2"><img src="assets/images/footer/dotted-shape.svg" alt="shape" /></div>
+  <div class="shape shape-3"><img src="assets/images/footer/rightshape.png" alt="shape" /></div>
+  <div class="ud-footer-widgets">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-3 col-lg-4 col-md-6">
+          <div class="ud-widget">
+            <a href="./" class="ud-footer-logo"><img src="assets/images/logo/gracely_white.png" alt="logo" /></a>
+            <p class="ud-widget-desc" data-i18n="unlock_premium_footer">${t('unlock_premium_footer')}</p>
+            <ul class="ud-widget-socials">
+              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-discord"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
+          <div class="ud-widget">
+            <h5 class="ud-widget-title" data-i18n="about">${t('about')}</h5>
+            <ul class="ud-widget-links">
+              <li><a href="index.html#features" data-i18n="features">${t('features')}</a></li>
+              <li><a href="index.html#about" data-i18n="about">${t('about')}</a></li>
+              <li><a href="index.html#pricing" data-i18n="pricing">${t('pricing')}</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
+          <div class="ud-widget">
+            <h5 class="ud-widget-title" data-i18n="dashboard">${t('dashboard')}</h5>
+            <ul class="ud-widget-links">
+              <li><a href="dashboard.html" data-i18n="view_dashboard">${t('view_dashboard')}</a></li>
+              <li><a href="premium.html" data-i18n="purchase_premium">${t('purchase_premium')}</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ud-footer-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <ul class="ud-footer-bottom-left">
+            <li><a href="privacy.html" data-i18n="privacy">${t('privacy')}</a></li>
+            <li><a href="terms.html" data-i18n="terms">${t('terms')}</a></li>
+            <li><a href="index.html#contact" data-i18n="contact">${t('contact')}</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4"><p class="ud-footer-bottom-right">Gracely &copy; 2024-${new Date().getFullYear()}</p></div>
+      </div>
+    </div>
+  </div>
+  <div class="groupy-wave" style="margin-top:-23px">
+      <div class="bg-white" style="margin-top:0px;height:23px"></div>
+      <div class="bg-white" style="margin-top:1px;height:22px"></div>
+      <div class="bg-white" style="margin-top:2px;height:21px"></div>
+      <div class="bg-white" style="margin-top:3px;height:20px"></div>
+      <div class="bg-white" style="margin-top:4px;height:19px"></div>
+      <div class="bg-white" style="margin-top:5px;height:18px"></div>
+      <div class="bg-white" style="margin-top:6px;height:17px"></div>
+      <div class="bg-white" style="margin-top:7px;height:16px"></div>
+      <div class="bg-white" style="margin-top:8px;height:15px"></div>
+      <div class="bg-white" style="margin-top:9px;height:14px"></div>
+      <div class="bg-white" style="margin-top:10px;height:13px"></div>
+      <div class="bg-white" style="margin-top:11px;height:12px"></div>
+      <div class="bg-white" style="margin-top:12px;height:11px"></div>
+      <div class="bg-white" style="margin-top:13px;height:10px"></div>
+      <div class="bg-white" style="margin-top:14px;height:9px"></div>
+      <div class="bg-white" style="margin-top:15px;height:8px"></div>
+      <div class="bg-white" style="margin-top:16px;height:7px"></div>
+      <div class="bg-white" style="margin-top:17px;height:6px"></div>
+      <div class="bg-white" style="margin-top:18px;height:5px"></div>
+      <div class="bg-white" style="margin-top:19px;height:4px"></div>
+      <div class="bg-white" style="margin-top:20px;height:3px"></div>
+      <div class="bg-white" style="margin-top:21px;height:2px"></div>
+      <div class="bg-white" style="margin-top:22px;height:1px"></div>
+      <div class="bg-white" style="margin-top:23px;height:0px"></div>
+  </div>
+</footer>
+`;
+
+const backToTopHTML = `<a href="javascript:void(0)" class="back-to-top"><i class="fa-solid fa-arrow-up"></i></a>`;
+
+function modifyIndexPageContent() {
+  const path = window.location.pathname;
+  const isIndexPage = path.endsWith('/') || path.endsWith('/hai/') || path.endsWith('index.html');
+  if (!isIndexPage) return;
+
+  if (typeof isAuthenticated === 'function' && isAuthenticated()) {
+    const purchaseButton = document.querySelector('.ud-hero-buttons .ud-white-btn');
+    if (purchaseButton) {
+      // Update teks button sesuai bahasa terpilih
+      purchaseButton.textContent = t('hero_btn_dash');
+      purchaseButton.href = 'dashboard.html';
+      purchaseButton.removeAttribute('target');
+    }
+  }
+}
+
+function loadLayout() {
+  const announcementPlaceholder = document.getElementById("announcement-placeholder");
+  const navbarPlaceholder = document.getElementById("navbar-placeholder");
+  const footerPlaceholder = document.getElementById("footer-placeholder");
+  const backToTopPlaceholder = document.getElementById("back-to-top-placeholder");
+
+  if (!document.getElementById('notification-0')) {
+    const modalDiv = document.createElement('div');
+    modalDiv.className = 'notificationModal';
+    modalDiv.id = 'notification-0';
+    modalDiv.style.display = 'none';
+    modalDiv.innerHTML = '<div class="notificationModal-content"></div>';
+    document.body.appendChild(modalDiv);
+  }
+
+  if (announcementPlaceholder) announcementPlaceholder.innerHTML = announcementBarHTML;
+  if (footerPlaceholder) footerPlaceholder.innerHTML = footerHTML;
+  if (backToTopPlaceholder) backToTopPlaceholder.innerHTML = backToTopHTML;
+
+  if (navbarPlaceholder) {
+    if (typeof isAuthenticated === 'function' && isAuthenticated()) {
+      const userName = localStorage.getItem("userName") || "Member";
+      navbarPlaceholder.innerHTML = loggedInNavbarHTML(userName);
+      setTimeout(() => {
+        const logoutBtn = document.getElementById('logout-button');
+        if (logoutBtn && typeof logout === 'function') {
+          logoutBtn.addEventListener('click', (e) => { e.preventDefault(); logout(); });
+        }
+      }, 500);
+      if (typeof eraseCookie === 'function') eraseCookie('UnangJahaCookieOnLae');
+    } else {
+      navbarPlaceholder.innerHTML = defaultNavbarHTML();
+    }
+  }
+
+  if (typeof initializeScripts === 'function') { initializeScripts(); }
+
+  // Urutan PENTING:
+  // 1. Translate dulu konten dasar
+  translatePageContent();
+  // 2. Baru modifikasi konten (tombol Hero) berdasarkan status login
+  //    (Fungsi modifyIndexPageContent akan menimpa teks tombol jika login, 
+  //     tapi tetap menggunakan t() agar bahasanya benar)
+  modifyIndexPageContent();
+  runNotificationChecks();
+  loadExternalConfig(() => {
+    initializeWebsiteAnnouncement();
+  });
+}
+
+async function decryptGracelyConfig(encryptedObj) {
+  const password = "kuberserah_selalu_in_GOD";
+  try {
+    const enc = new TextEncoder();
+    const dec = new TextDecoder();
+    const fromBase64 = (str) => Uint8Array.from(atob(str), c => c.charCodeAt(0));
+    const salt = fromBase64(encryptedObj.s);
+    const iv = fromBase64(encryptedObj.i);
+    const data = fromBase64(encryptedObj.d);
+
+    const keyMaterial = await window.crypto.subtle.importKey("raw", enc.encode(password), { name: "PBKDF2" }, false, ["deriveKey"]);
+    const key = await window.crypto.subtle.deriveKey({ name: "PBKDF2", salt: salt, iterations: 100000, hash: "SHA-256" }, keyMaterial, { name: "AES-GCM", length: 256 }, false, ["decrypt"]);
+    const decrypted = await window.crypto.subtle.decrypt({ name: "AES-GCM", iv: iv }, key, data);
+    return JSON.parse(dec.decode(decrypted));
+  } catch (e) {
+    console.error("Decryption Failed:", e);
+    return null;
+  }
+}
+
+async function loadExternalConfig(callback) {
+  if (typeof gracelyConfig !== 'undefined') { callback(); return; }
+  try {
+    const response = await fetch('aturhonma.js');
+    if (!response.ok) throw new Error("Status " + response.status);
+    const text = await response.text();
+    try {
+      const json = JSON.parse(text);
+      if (json.s && json.i && json.d) {
+        window.gracelyConfig = await decryptGracelyConfig(json);
+        callback();
+        return;
+      }
+    } catch(e) {}
+    
+    // Fallback for Local Dev (Valid JS file)
+    const script = document.createElement('script');
+    script.textContent = text;
+    document.head.appendChild(script);
+    callback();
+  } catch (e) {
+    console.error("Failed to load aturhonma.js", e);
+  }
+}
+
+async function initializeWebsiteAnnouncement() {
+  try {
+    // SECURITY CHECK: Only show for logged-in users
+    const isAuth = localStorage.getItem('isAuthenticated') === 'true';
+    if (!isAuth) return; // Exit if not logged in
+
+    if (typeof gracelyConfig === 'undefined') return;
+
+    const t = gracelyConfig.notifications?.announcement;
+    if (!t || !t.enabled || !t.id) return;
+
+    const modalDiv = document.getElementById('notification-0');
+    if (!modalDiv) return;
+    const modalContent = modalDiv.querySelector('.notificationModal-content');
+    // Note: modalContent might be null if we use innerHTML on modalDiv directly later, but let's grab it if needed.
+
+    // Default content generator if html is missing
+    let e = "";
+    t.lines && Array.isArray(t.lines) && (e = t.lines.map(l => `<p>${l}</p>`).join(""));
+    const n = t.html || `<div class="notificationModal-content"><i class="fa fa-times close-icon" id="notification-close"></i><h2>${t.title}</h2>${e}<button class="ud-main-btn" id="notification-ok">OK</button></div>`;
+    const o = t.id;
+
+    const show = () => {
+      // Apply content
+      // If t.html is present, it usually contains the "notificationModal-content" div wrapper itself or inner content?
+      // Checking aturhonma.js, "html" includes "<div class='notificationModal-content'>...</div>".
+      // So we should replace the innerHTML of modalDiv (container) to fully replace the auto-generated empty content div.
+      // Priority Check: If a High Priority modal is already open, DO NOT OVERWRITE
+      if (modalDiv.style.display === 'flex' && modalDiv.getAttribute('data-priority') === 'high') {
+        // console.log("Announcement skipped due to High Priority modal.");
+        return;
+      }
+
+      if (t.html) {
+        modalDiv.innerHTML = t.html;
+      } else {
+        if (modalContent) modalContent.innerHTML = n;
+        else modalDiv.innerHTML = `<div class="notificationModal-content">${n}</div>`;
+      }
+
+      modalDiv.removeAttribute('data-priority'); // Reset priority for normal announcements
+
+      modalDiv.style.display = 'flex';
+      modalDiv.style.visibility = 'visible';
+      modalDiv.style.opacity = '1';
+
+      const close = () => {
+        modalDiv.style.display = 'none';
+        const nowStr = Date.now().toString();
+        const isoNowStr = new Date().toISOString();
+        localStorage.setItem("notificationLastShown", nowStr);
+        localStorage.setItem("notificationLastShownId", o);
+        localStorage.setItem("lastPopupDateDB", isoNowStr); // Immediate UI sync
+        if(typeof updateLastPopupDate === 'function') updateLastPopupDate('info');
+      };
+
+      const closeBtn = modalDiv.querySelector("#notification-close");
+      const okBtn = modalDiv.querySelector("#notification-ok");
+      if (closeBtn) closeBtn.addEventListener("click", close);
+      if (okBtn) okBtn.addEventListener("click", close);
+    };
+
+    // --- LOGIKA LIMIT HARIAN POPUP ---
+    const lastShownStrDB = localStorage.getItem('lastPopupDateDB');
+    const lastShownLocalStr = localStorage.getItem("notificationLastShown");
+    // ID checking
+    const lastId = localStorage.getItem("notificationLastShownId");
+
+    let shouldShow = false;
+    let lastShownTime = null;
+
+    if (lastShownStrDB) {
+        lastShownTime = new Date(lastShownStrDB).getTime();
+    } else if (lastShownLocalStr) {
+        lastShownTime = parseInt(lastShownLocalStr);
+    }
+
+    if (!lastShownTime) {
+      // Belum pernah buka sama sekali
+      shouldShow = true;
+    } else {
+      const now = new Date();
+      const lastShown = new Date(lastShownTime);
+      let resetThreshold = new Date();
+      resetThreshold.setHours(7, 0, 0, 0); // Riset limit pada pukul 07:00 pagi
+
+      if (now < resetThreshold) {
+        resetThreshold.setDate(resetThreshold.getDate() - 1);
+      }
+
+      if (lastShown < resetThreshold) {
+        // Sudah lewat hari (jam 7 pagi)
+        shouldShow = true;
+      } else if (o !== lastId && !lastShownStrDB) {
+        // ID beda dan belum ada data dari DB (fallback ke perilaku lama jika ID ganti)
+        shouldShow = true;
+      } else {
+        // Masih di rentang hari yang sama, JANGAN TAMPILKAN, ignore perbedaan ID
+        shouldShow = false;
+      }
+    }
+
+    if (shouldShow) {
+      let hasShown = false;
+      const triggerShow = () => {
+        if (hasShown) return;
+        hasShown = true;
+
+        // Cleanup triggers
+        clearTimeout(autoTimer);
+        document.removeEventListener('mousemove', userInteractionTrigger);
+
+        show();
+      };
+
+      // Trigger 1: Auto 5 detik
+      const autoTimer = setTimeout(triggerShow, 5000);
+
+      // Trigger 2: Mouse Move (Langsung muncul jika user aktif)
+      const userInteractionTrigger = () => {
+        triggerShow();
+      };
+      document.addEventListener('mousemove', userInteractionTrigger);
+    }
+  } catch (err) {
+    console.error("Announcement Error:", err);
+  }
+}
+
+
+// =============================================
+// === PAGE-SPECIFIC SCRIPTS (Consolidated) ===
+// =============================================
+
+/**
+ * 1. 3D Text Effect - Used in 404.html, blocked.html, maintenance.html
+ */
+function init3DTextEffect() {
+  const textElement = document.getElementById('text-3d');
+  if (!textElement) return;
+  
+  const maxRotation = 90;
+
+  document.addEventListener('mousemove', (e) => {
+    const { clientX, clientY } = e;
+    const { innerWidth, innerHeight } = window;
+
+    const x = (clientX / innerWidth) - 0.5;
+    const y = (clientY / innerHeight) - 0.5;
+
+    const rotateY = x * (maxRotation * 2);
+    const rotateX = -y * (maxRotation * 2);
+
+    textElement.style.transform = `rotateY(${rotateY}deg) rotateX(${rotateX}deg)`;
+  });
+
+  document.addEventListener('mouseleave', () => {
+    textElement.style.transform = 'rotateY(0deg) rotateX(0deg)';
+  });
+}
+
+/**
+ * 2. Dashboard: Plan Status Display
+ */
+function initDashboardPlanStatus() {
+  const planSection = document.getElementById('plan-status-section');
+  if (!planSection) return;
+
+  // REALTIME EXTENSION REFRESH LISTENER
+  // Will be triggered by auth.js on Supabase push update
+  if (!window.hasRegisteredPlanRefreshListener) {
+      document.addEventListener('gracelyPlanRefresh', () => {
+          // console.log("Realtime UI Update Triggered: Re-rendering dashboard plan cards...");
+          initDashboardPlanStatus();
+      });
+      window.hasRegisteredPlanRefreshListener = true;
+  }
+
+  function formatExactUTC(dateString) {
+    if (!dateString) return '';
+    const date = new Date(dateString);
+    const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    const monthName = months[date.getMonth()];
+    const day = String(date.getDate()).padStart(2, '0');
+    const year = date.getFullYear();
+    const hours = String(date.getHours()).padStart(2, '0');
+    const minutes = String(date.getMinutes()).padStart(2, '0');
+    const seconds = String(date.getSeconds()).padStart(2, '0');
+    const cleanDate = `${monthName} ${day}, ${year} ${hours}:${minutes}:${seconds}`;
+    const offsetMinutes = date.getTimezoneOffset();
+    const offsetHours = -(offsetMinutes / 60);
+    const sign = offsetHours >= 0 ? '+' : '-';
+    const absOffset = Math.abs(offsetHours);
+    const timezoneString = `(UTC ${sign}${absOffset})`;
+    return `${cleanDate} ${timezoneString}`;
+  }
+
+  const isPremium = localStorage.getItem('isPremium') === 'true';
+  const planName = localStorage.getItem('userPlanName') || 'No Premium';
+  const planNumber = localStorage.getItem('userPlanNumber') || '001';
+
+  let planHTML = '';
+  try {
+    if (isPremium) {
+      const datePremium = localStorage.getItem('premiumExpiryDate');
+      const datePro = localStorage.getItem('proExpiryDate');
+      const datePhantom = localStorage.getItem('phantomExpiryDate');
+
+      const safeFormat = (dateStr) => {
+        try {
+          if (!dateStr || dateStr === 'null' || dateStr === 'undefined') return null;
+          const d = new Date(dateStr);
+          if (isNaN(d.getTime())) return null;
+          return formatExactUTC(dateStr);
+        } catch (e) { return null; }
+      };
+
+      planHTML = `
+        <div class="menu-section">
+          <div class="menu-section-mini-header">Your plan</div>
+          <img src="assets/images/logo/gracely_mobile_white.png" alt="Logo" id="logo" class="top-right-image">
+          <div class="${planNumber === '004' ? 'menu-section-plan-phantomwitcher' : 'menu-section-plan-premium'}">${planName}</div>
+          <div class="menu-section-plan-description">`;
+
+      let hasShownDate = false;
+      const fmtPremium = safeFormat(datePremium);
+      if (fmtPremium) { planHTML += `<div>Your <b>Premium</b> is valid until ${fmtPremium}.</div>`; hasShownDate = true; }
+      const fmtPro = safeFormat(datePro);
+      if (fmtPro) { planHTML += `<div>Your <b>Pro</b> is valid until ${fmtPro}.</div>`; hasShownDate = true; }
+      const fmtPhantom = safeFormat(datePhantom);
+      if (fmtPhantom) { planHTML += `<div>Your <b>The Phantom</b> is valid until ${fmtPhantom}.</div>`; hasShownDate = true; }
+      if (!hasShownDate) { planHTML += `<div>Active</div>`; }
+
+      planHTML += `</div></div>`;
+    } else {
+      planHTML = `
+        <div class="menu-section">
+          <div class="menu-section-mini-header">Your plan</div>
+          <img src="assets/images/logo/gracely_mobile_white.png" alt="Logo" id="logo" class="top-right-image">
+          <div class="menu-section-plan-free">${planName}</div>
+          <div class="menu-section-plan-description">Premium is required to access Gracely Extension.</div>
+        </div>`;
+    }
+  } catch (err) {
+    console.error("Dashboard Render Critical Error:", err);
+    planHTML = `<div class="menu-section" style="color:red">Error loading plan info. Check console.</div>`;
+  }
+  planSection.innerHTML = planHTML;
+}
+
+/**
+ * 3. Dashboard: Video Modals
+ */
+function initVideoModals() {
+  const modals = [
+    { btn: 'openModalBtn', modal: 'videoModal', video: 'videoElement' },
+    { btn: 'openModalBtnKiwi', modal: 'videoModalKiwi', video: 'videoElementKiwi' },
+    { btn: 'openModalBtnOrion', modal: 'videoModalOrion', video: 'videoElementOrion' }
+  ];
+
+  modals.forEach(({ btn, modal, video }) => {
+    const btnEl = document.getElementById(btn);
+    const modalEl = document.getElementById(modal);
+    const videoEl = document.getElementById(video);
+    if (!btnEl || !modalEl) return;
+
+    btnEl.addEventListener('click', () => { modalEl.style.display = 'flex'; });
+    modalEl.addEventListener('click', (e) => {
+      if (e.target === modalEl) {
+        modalEl.style.display = 'none';
+        if (videoEl) videoEl.pause();
+      }
+    });
+  });
+}
+
+/**
+ * 4. Activity Logs Page
+ */
+async function initActivityLogsPage() {
+  const tableBody = document.getElementById('logs-table-body');
+  const loader = document.getElementById('table-loader');
+  const modal = document.getElementById('ipModal');
+  const modalCloseBtn = document.getElementById('modal-close-btn');
+  if (!tableBody || !modal) return;
+
+  if (modalCloseBtn) modalCloseBtn.onclick = () => { modal.style.display = 'none'; };
+  window.onclick = (event) => { if (event.target == modal) modal.style.display = 'none'; };
+
+  try {
+    if (typeof getUserId !== 'function' || typeof supabaseClient === 'undefined') return;
+    const userId = await getUserId();
+    if (!userId) { if (loader) loader.textContent = 'Gagal memuat log: Pengguna tidak ditemukan.'; return; }
+
+    const { data, error } = await supabaseClient
+      .from('activity_logs')
+      .select('*')
+      .eq('user_id', userId)
+      .order('created_at', { ascending: false })
+      .limit(10);
+
+    if (error) throw error;
+    if (data.length === 0) { if (loader) loader.textContent = 'No activity logs found.'; return; }
+
+    tableBody.innerHTML = '';
+    data.forEach(log => {
+      const row = document.createElement('tr');
+      const d = new Date(log.created_at);
+      const formattedDate = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')} ${String(d.getHours()).padStart(2, '0')}:${String(d.getMinutes()).padStart(2, '0')}:${String(d.getSeconds()).padStart(2, '0')}`;
+
+      const cellDate = document.createElement('td'); cellDate.textContent = formattedDate; row.appendChild(cellDate);
+      const cellActivity = document.createElement('td'); cellActivity.textContent = log.activity; row.appendChild(cellActivity);
+
+      const cellIp = document.createElement('td');
+      const ipSpan = document.createElement('span');
+      ipSpan.textContent = log.ip_address;
+      ipSpan.className = 'ip-hover';
+      ipSpan.onclick = () => {
+        document.getElementById('modal-ip').textContent = log.ip_address;
+        document.getElementById('modal-location').textContent = log.isp_info?.location || 'N/A';
+        document.getElementById('modal-isp').textContent = log.isp_info?.isp || 'N/A';
+        modal.style.display = 'flex';
+      };
+      cellIp.appendChild(ipSpan);
+      row.appendChild(cellIp);
+
+      const cellDevice = document.createElement('td');
+      const deviceString = log.device || "Unknown";
+      let simpleDevice = "Unknown";
+      if (deviceString.includes("Windows")) simpleDevice = "windows";
+      else if (deviceString.includes("Macintosh")) simpleDevice = "mac";
+      else if (deviceString.includes("Android")) simpleDevice = "android";
+      else if (deviceString.includes("iPhone") || deviceString.includes("iPad")) simpleDevice = "ios";
+      else if (deviceString.includes("Linux")) simpleDevice = "linux";
+
+      let browser = "unknown";
+      if (deviceString.includes("Chrome/") && !deviceString.includes("Edg/")) browser = "chrome";
+      else if (deviceString.includes("Firefox/")) browser = "firefox";
+      else if (deviceString.includes("Edg/")) browser = "edge";
+      else if (deviceString.includes("Safari/") && !deviceString.includes("Chrome/")) browser = "safari";
+
+      const chromeVersionMatch = deviceString.match(/Chrome\/(\d+)/);
+      let version = "";
+      if (browser === "chrome" && chromeVersionMatch) version = "." + chromeVersionMatch[1] + ".0";
+      cellDevice.textContent = `${simpleDevice}.${browser}${version}`;
+      row.appendChild(cellDevice);
+      tableBody.appendChild(row);
+    });
+  } catch (error) {
+    console.error('Error fetching logs:', error.message);
+    if (loader) { loader.style.color = 'red'; loader.textContent = 'Gagal memuat log: ' + error.message; }
+  }
+}
+
+/**
+ * 5. Manual Page: URL Params + Copy
+ */
+function initManualPage() {
+  const params = new URLSearchParams(window.location.search);
+  const serviceName = params.get("name");
+  const loginEmail = params.get("login");
+  const loginPassword = params.get("password");
+  const loginExtra = params.get("extra");
+  const loginUrl = params.get("url");
+
+  if (serviceName) {
+    document.title = serviceName + " | Gracely";
+    const titleElement = document.getElementById("page-title-h1");
+    if (titleElement) titleElement.textContent = serviceName;
+  }
+  if (loginEmail) { const el = document.getElementById("login"); if (el) el.value = loginEmail; }
+  if (loginPassword) { const el = document.getElementById("password"); if (el) el.value = loginPassword; }
+  if (loginExtra) {
+    const extraContainer = document.getElementById("extra-container");
+    const extraElement = document.getElementById("extra");
+    if (extraElement) extraElement.value = loginExtra;
+    if (extraContainer) extraContainer.style.display = "block";
+  }
+  if (loginUrl) { const el = document.getElementById("manual-login-link"); if (el) el.href = loginUrl; }
+
+  // Custom Service Warnings
+  const wrapper = document.querySelector('.ud-login-wrapper');
+  if (wrapper && serviceName) {
+    let warningHTML = '';
+    
+    if (serviceName.toLowerCase().includes('canva')) {
+      warningHTML = `
+        <div id="dynamic-warning" style="margin-top: 20px; text-align: center;">
+          <p style="font-size: 14px; margin-bottom: 10px;">Please invite your personal email to join the Canva Groupy team.</p>
+          <p style="font-size: 14px; margin-bottom: 15px;">"No need to join multiple times, just join once if your Canva account is not pro yet."</p>
+          <p style="font-size: 14px; color: #000;"><b>Don't forget to keep back up your project.</b></p>
+        </div>
+      `;
+    }
+    // else if (serviceName.toLowerCase().includes('other_service')) { ... }
+    
+    if (warningHTML) {
+       // Remove existing dynamic warning if any to prevent duplicates
+       const existingWarning = document.getElementById('dynamic-warning');
+       if (existingWarning) existingWarning.remove();
+       
+       wrapper.insertAdjacentHTML('beforeend', warningHTML);
+    }
+  }
+}
+
+/**
+ * 6. Copy to Clipboard Utility
+ */
+function copyToClipboard(elementId) {
+  const copyText = document.getElementById(elementId);
+  if (!copyText) return;
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+  try { document.execCommand("copy"); } catch (err) { console.error("Gagal menyalin teks: ", err); }
+}
+
+/**
+ * 7. Password Page Handler
+ */
+function initPasswordPage() {
+  const form = document.getElementById('update-password-form');
+  const newPasswordInput = document.getElementById('new-password');
+  const confirmPasswordInput = document.getElementById('confirm-password');
+  const updateButton = document.getElementById('update-button');
+  const messageElement = document.getElementById('update-message');
+  if (!form) return;
+
+  form.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const newPassword = newPasswordInput.value;
+    const confirmPassword = confirmPasswordInput.value;
+
+    if (newPassword !== confirmPassword) {
+      messageElement.textContent = 'Kata sandi tidak cocok.';
+      messageElement.style.color = 'red';
+      return;
+    }
+    if (newPassword.length < 6) {
+      messageElement.textContent = 'Kata sandi minimal harus 6 karakter.';
+      messageElement.style.color = 'red';
+      return;
+    }
+
+    messageElement.textContent = '';
+    updateButton.disabled = true;
+    updateButton.innerHTML = 'Memperbarui...';
+
+    if (typeof updateUserPassword === 'function') {
+      const result = await updateUserPassword(newPassword);
+      messageElement.textContent = result.message;
+      if (result.success) {
+        messageElement.style.color = 'green';
+        setTimeout(() => { window.location.href = 'login.html'; }, 3000);
+      } else {
+        messageElement.style.color = 'red';
+        updateButton.disabled = false;
+        updateButton.innerHTML = 'Ubah Kata Sandi';
+      }
+    } else {
+      messageElement.textContent = 'Error: Fungsi auth.js tidak dimuat.';
+      messageElement.style.color = 'red';
+    }
+  });
+
+  async function checkSession() {
+    if (typeof supabaseClient === 'undefined') return;
+    const { data: { session } } = await supabaseClient.auth.getSession();
+    if (!session) {
+      messageElement.textContent = 'Sesi reset kadaluarsa atau tidak valid. Silakan ulangi proses reset password.';
+      messageElement.style.color = 'red';
+      form.style.display = 'none';
+    } else {
+      messageElement.textContent = 'Sesi aktif. Silakan masukkan kata sandi baru Anda.';
+      messageElement.style.color = 'blue';
+    }
+  }
+  checkSession();
+}
+
+/**
+ * 8. Profile Page Handler
+ */
+function initProfilePage() {
+  const form = document.getElementById('update-profile-form');
+  const nameInput = document.getElementById('profile-name');
+  const emailInput = document.getElementById('profile-email');
+  const updateButton = document.getElementById('update-button');
+  const messageElement = document.getElementById('update-message');
+  if (!form) return;
+
+  async function loadUserData() {
+    try {
+      if (typeof supabaseClient === 'undefined') return;
+      const { data: { user }, error } = await supabaseClient.auth.getUser();
+      if (error || !user) {
+        messageElement.textContent = 'Sesi berakhir. Silakan login ulang.';
+        messageElement.style.color = 'red';
+        setTimeout(() => { window.location.href = 'login.html'; }, 2000);
+        return;
+      }
+      const storedName = localStorage.getItem('userName');
+      nameInput.value = storedName || user.user_metadata?.full_name || '';
+      emailInput.value = user.email || '';
+    } catch (e) {
+      console.error('Error loading user data:', e);
+      messageElement.textContent = 'Gagal memuat data profil.';
+      messageElement.style.color = 'red';
+    }
+  }
+  loadUserData();
+
+  form.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const newName = nameInput.value.trim();
+    if (!newName) {
+      messageElement.textContent = 'Nama tidak boleh kosong.';
+      messageElement.style.color = 'red';
+      return;
+    }
+
+    messageElement.textContent = '';
+    updateButton.disabled = true;
+    updateButton.innerHTML = 'Menyimpan...';
+
+    if (typeof updateUserName === 'function') {
+      const result = await updateUserName(newName);
+      messageElement.textContent = result.message;
+      messageElement.style.color = result.success ? 'green' : 'red';
+    } else {
+      messageElement.textContent = 'Error: Fungsi auth.js tidak dimuat.';
+      messageElement.style.color = 'red';
+    }
+    updateButton.disabled = false;
+    updateButton.innerHTML = 'Simpan Profil';
+  });
+}
+
+/**
+ * 9. Reset Password Page Handler
+ */
+function initResetPage() {
+  const resetForm = document.getElementById('reset-form');
+  const emailInput = document.getElementById('email-input');
+  const resetButton = document.getElementById('reset-button');
+  const messageElement = document.getElementById('reset-message');
+  if (!resetForm) return;
+
+  resetForm.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const email = emailInput.value.trim();
+    if (!email) {
+      messageElement.textContent = 'Harap masukkan email Anda.';
+      messageElement.style.color = 'red';
+      return;
+    }
+
+    messageElement.textContent = '';
+    resetButton.disabled = true;
+    resetButton.innerHTML = 'Mengirim...';
+
+    if (typeof sendPasswordResetEmail === 'function') {
+      const result = await sendPasswordResetEmail(email);
+      messageElement.textContent = result.message;
+      messageElement.style.color = result.success ? 'green' : 'red';
+    }
+    resetButton.disabled = false;
+    resetButton.innerHTML = 'Kirim tautan reset';
+  });
+}
+
+/**
+ * 10. Signup Page Handler
+ */
+function initSignupPage() {
+  // Email suggestion logic
+  const emailDomains = ["gmail.com", "yahoo.com", "hotmail.com", "outlook.com", "aol.com", "icloud.com", "live.com", "msn.com"];
+  const emailInput = document.getElementById("email");
+  const suggestionEl = document.getElementById("email-suggestion");
+
+  function levenshtein(a, b) {
+    const matrix = [];
+    for (let i = 0; i <= b.length; i++) matrix[i] = [i];
+    for (let j = 0; j <= a.length; j++) matrix[0][j] = j;
+    for (let i = 1; i <= b.length; i++) {
+      for (let j = 1; j <= a.length; j++) {
+        if (b.charAt(i - 1) === a.charAt(j - 1)) matrix[i][j] = matrix[i - 1][j - 1];
+        else matrix[i][j] = Math.min(matrix[i - 1][j - 1] + 1, matrix[i][j - 1] + 1, matrix[i - 1][j] + 1);
+      }
+    }
+    return matrix[b.length][a.length];
+  }
+
+  if (emailInput && suggestionEl) {
+    emailInput.addEventListener("blur", function() {
+      const value = this.value.trim();
+      suggestionEl.innerHTML = "";
+      if (!value.includes("@")) return;
+      const [user, domain] = value.split("@");
+      if (domain) {
+        let closest = null, minDist = Infinity;
+        for (const d of emailDomains) {
+          const dist = levenshtein(domain.toLowerCase(), d);
+          if (dist < minDist && dist <= 2) { minDist = dist; closest = d; }
+        }
+        if (closest && closest !== domain) {
+          const suggested = `${user}@${closest}`;
+          suggestionEl.innerHTML = `Did you mean <a href="#" style="text-decoration: underline; font-weight: bold; color: #000000;">${suggested}</a>?`;
+          suggestionEl.querySelector("a").addEventListener("click", (e) => {
+            e.preventDefault();
+            emailInput.value = suggested;
+            suggestionEl.innerHTML = "";
+          });
+        }
+      }
+    });
+  }
+
+  // Signup form handler
+  const signupForm = document.getElementById('reCAPTCHA');
+  if (!signupForm || window.location.pathname.includes('premium')) return; // Skip if premium page
+
+  signupForm.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const name = signupForm.querySelector('input[name="name"]')?.value;
+    const email = signupForm.querySelector('input[name="email"]')?.value;
+    const password = signupForm.querySelector('input[name="password"]')?.value;
+    const confirmPassword = signupForm.querySelector('input[name="confirm_password"]')?.value;
+
+    let errorMessage = document.getElementById("error-message");
+    if (!errorMessage) {
+      errorMessage = document.createElement('p');
+      errorMessage.id = 'error-message';
+      errorMessage.style.color = 'red';
+      errorMessage.style.marginTop = '15px';
+      signupForm.parentNode?.insertBefore(errorMessage, signupForm.nextSibling);
+    }
+    errorMessage.textContent = '';
+
+    if (!name || !email || !password) { errorMessage.textContent = 'Semua kolom harus diisi!'; return; }
+    if (password !== confirmPassword) { errorMessage.textContent = 'Password tidak cocok!'; return; }
+
+    const submitButton = signupForm.querySelector('button[type="submit"]');
+    submitButton.disabled = true;
+    submitButton.innerHTML = 'Mendaftar...';
+
+    if (typeof signup === 'function') {
+      const result = await signup(name, email, password);
+      if (result.success) {
+        alert('Pendaftaran berhasil! Silakan langsung Login.');
+        window.location.href = 'login.html';
+      } else {
+        let message = result.message;
+        if (message.includes("violates row-level security policy") || message.includes("duplicate key value")) {
+          alert('Pendaftaran berhasil! Silakan langsung Login.');
+          window.location.href = 'login.html';
+          return;
+        }
+        if (message.includes("User already registered")) message = "Akun dengan email ini sudah terdaftar. Silakan Log in.";
+        errorMessage.textContent = 'Error: ' + message;
+        submitButton.disabled = false;
+        submitButton.innerHTML = 'Sign up';
+      }
+    }
+  });
+}
+
+/**
+ * 11. reCAPTCHA Submit Callback (untuk premium.html)
+ */
+function onSubmit(token) {
+  const form = document.getElementById("reCAPTCHA");
+  if (form && window.location.pathname.includes('premium')) form.submit();
+}
+
+/**
+ * Page Router - Inisialisasi script berdasarkan halaman
+ */
+function initPageScripts() {
+  const path = window.location.pathname;
+  const page = path.split('/').pop() || 'index.html';
+
+  switch(page) {
+    case '404.html':
+    case 'blocked.html':
+    case 'maintenance.html':
+      init3DTextEffect();
+      break;
+    case 'dashboard.html':
+      initDashboardPlanStatus();
+      initVideoModals();
+      break;
+    case 'logs.html':
+      initActivityLogsPage();
+      break;
+    case 'manual.html':
+      initManualPage();
+      break;
+    case 'password.html':
+      initPasswordPage();
+      break;
+    case 'profile.html':
+      initProfilePage();
+      break;
+    case 'reset.html':
+      initResetPage();
+      break;
+    case 'signup.html':
+      initSignupPage();
+      break;
+  }
+}
+
+// =============================================
+// === END PAGE-SPECIFIC SCRIPTS ===
+// =============================================
+
+document.addEventListener("DOMContentLoaded", () => {
+  loadLayout();
+  initPageScripts();
+});
+
