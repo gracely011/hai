@@ -933,9 +933,9 @@ function initManualPage() {
   if (warningDiv && serviceName) {
     if (serviceName.toLowerCase().includes('canva')) {
       warningDiv.innerHTML = `
-        <p style="font-size: 14px; margin-bottom: 10px; color: #000;">Please invite your personal email to join the Canva Groupy team.</p>
-        <p style="font-size: 14px; margin-bottom: 15px; color: #000;">"No need to join multiple times, just join once if your Canva account is not pro yet."</p>
-        <p style="font-size: 14px; color: #000;"><b>Don't forget to keep back up your project.</b></p>
+        <p>Please invite your personal email to join the Canva Gracely team.</p>
+        <p>No need to join multiple times, just join once if your Canva account is not pro yet.</p>
+        <p><b>Don't forget to keep back up your project.</b></p>
       `;
       warningDiv.style.display = 'block';
     }
