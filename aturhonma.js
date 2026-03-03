@@ -268,6 +268,15 @@ const gracelyConfig = {
                </div>
                <button class='ud-main-btn' id='notification-ok'>Oke Lae</button>`
       },
+      "gemini-group-id": {
+        html: `<i class='fa fa-times close-icon' id='notification-close'></i>
+               <h2 style='margin: 0 0 16px 0; text-align: center; color: #2c3e50; font-size: 22px; border-bottom: 3px solid #333333; padding-bottom: 8px;'>Gemini</h2>
+               <div style='background: #f8f9fa; padding: 12px; border-radius: 8px; margin-bottom: 10px;'>
+                 <p><b>Please DO NOT attempt to log in using a mobile phone or tablet.</b> For security reasons, this account is only accessible via desktop or laptop web browsers.</p>
+<p><b>Mohon JANGAN mencoba masuk menggunakan ponsel atau tablet.</b> Demi alasan keamanan, akun ini hanya dapat diakses melalui browser web desktop atau laptop.</p>
+               </div>
+               <button class='ud-main-btn' id='notification-ok'>Oke Lae</button>`
+      },
       "wetv-group-id": {
         html: `<i class='fa fa-times close-icon' id='notification-close'></i>
                <h2 style='margin: 0 0 16px 0; text-align: center; color: #2c3e50; font-size: 22px; border-bottom: 3px solid #333333; padding-bottom: 8px;'>WeTV</h2>
