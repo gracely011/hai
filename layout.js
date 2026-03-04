@@ -931,11 +931,18 @@ function initManualPage() {
   // Custom Service Warnings
   const warningDiv = document.getElementById('dynamic-warning');
   if (warningDiv && serviceName) {
-    if (serviceName.toLowerCase().includes('canva')) {
+    const sNameLower = serviceName.toLowerCase();
+    if (sNameLower.includes('canva')) {
       warningDiv.innerHTML = `
         <p>Please invite your personal email to join the Canva Gracely team.</p>
         <p>No need to join multiple times, just join once if your Canva account is not pro yet.</p>
         <p><b>Don't forget to keep back up your project.</b></p>
+      `;
+      warningDiv.style.display = 'block';
+    } else if (sNameLower.includes('gemini') || sNameLower.includes('antigravity') || sNameLower.includes('notebooklm')) {
+      warningDiv.innerHTML = `
+        <p><b>Please DO NOT attempt to log in using a mobile phone or tablet.</b> For security reasons, this account is only accessible via desktop or laptop web browsers.</p>
+        <p><b>Mohon JANGAN mencoba masuk menggunakan ponsel atau tablet.</b> Demi alasan keamanan, akun ini hanya dapat diakses melalui browser web desktop atau laptop.</p>
       `;
       warningDiv.style.display = 'block';
     }
