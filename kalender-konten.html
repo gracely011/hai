@@ -276,11 +276,12 @@
                 assetIdeas: { photo: 'Community celebrations, freedom themes, African American culture.', vector: 'Juneteenth flags, red/black/green colors, emancipation.' },
                 keywords: 'juneteenth, freedom, emancipation, african american history'
             },
-            "Independence Day": {
+            "US Independence Day": {
                 icon: '<i class="fa-solid fa-fire text-primary"></i>',
                 targetMarket: 'United States',
                 assetIdeas: { photo: 'Fireworks, BBQs, American flags, sparklers.', vector: 'Stars and stripes, bald eagles, 4th of July lettering.' },
-                keywords: '4th of july, independence day, usa, fireworks, patriotic'
+                keywords: '4th of july, independence day, usa, fireworks, patriotic',
+                countryCode: 'US' // Add target country for generic names
             },
             "Labor Day": {
                 icon: '<i class="fa-solid fa-hammer text-secondary"></i>',
@@ -317,7 +318,8 @@
                 icon: '<i class="fa-solid fa-flag text-danger"></i>',
                 targetMarket: 'Indonesia',
                 assetIdeas: { photo: 'Flag raising, red and white themes, traditional games (panjat pinang).', vector: 'Dirgahayu RI banners, Garuda illustrations, 17 Agustus typography.' },
-                keywords: 'independence day, indonesia, 17 agustus, merdeka, flag'
+                keywords: 'independence day, indonesia, 17 agustus, merdeka, flag',
+                countryCode: 'ID'
             },
             "Pancasila": {
                 icon: '<i class="fa-solid fa-dove text-warning"></i>',
@@ -750,10 +752,18 @@
                         
                         for (const key in holidayBlueprint) {
                             const normKey = normalizeStr(key);
-                            if (normHolidayName.includes(normKey) || normKey.includes(normHolidayName) || 
-                                (normLocalName && (normLocalName.includes(normKey) || normKey.includes(normLocalName)))) {
-                                match = holidayBlueprint[key];
-                                break;
+                            const blueprintEntry = holidayBlueprint[key];
+                            
+                            // Check if the event matches the string AND belongs to the correct country (if country is specified in blueprint)
+                            const stringMatch = normHolidayName.includes(normKey) || normKey.includes(normHolidayName) || 
+                                                (normLocalName && (normLocalName.includes(normKey) || normKey.includes(normLocalName)));
+                            
+                            if (stringMatch) {
+                                // If the blueprint has a countryCode, strictly enforce it to avoid collisions (e.g., US vs ID Independence Day)
+                                if (!blueprintEntry.countryCode || blueprintEntry.countryCode === holiday.countryCode) {
+                                    match = blueprintEntry;
+                                    break;
+                                }
                             }
                         }
 
