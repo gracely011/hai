@@ -71,14 +71,15 @@
 
         .month-filter:hover {
             background-color: var(--filter-hover-bg-dark);
-            transform: scale(1.05);
+            transform: translateY(-2px);
         }
 
         .month-filter.active {
             background-color: var(--filter-active-bg-dark);
             color: var(--filter-active-color-dark);
             border-color: transparent;
-            transform: scale(1.1);
+            box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
         }
 
         .event-card {
