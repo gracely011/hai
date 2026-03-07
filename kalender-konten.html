@@ -311,6 +311,61 @@
                 targetMarket: 'Global',
                 assetIdeas: { photo: 'Opening gifts, snowy landscapes, ornaments, Santa Claus.', vector: 'Christmas card templates, snow patterns, vector trees.' },
                 keywords: 'christmas, xmas, holiday, winter, gift, tree, santa'
+            },
+            // --- Indonesian Specific Holidays ---
+            "Hari Kemerdekaan": {
+                icon: '<i class="fa-solid fa-flag text-danger"></i>',
+                targetMarket: 'Indonesia',
+                assetIdeas: { photo: 'Flag raising, red and white themes, traditional games (panjat pinang).', vector: 'Dirgahayu RI banners, Garuda illustrations, 17 Agustus typography.' },
+                keywords: 'independence day, indonesia, 17 agustus, merdeka, flag'
+            },
+            "Pancasila": {
+                icon: '<i class="fa-solid fa-dove text-warning"></i>',
+                targetMarket: 'Indonesia',
+                assetIdeas: { photo: 'Garuda symbol, national monuments, diverse indonesian people.', vector: 'Hari Lahir Pancasila greetings, Garuda abstract, red and white.' },
+                keywords: 'pancasila, indonesia, national, ideology, garuda'
+            },
+            "Nyepi": {
+                icon: '<i class="fa-solid fa-moon text-secondary"></i>',
+                targetMarket: 'Indonesia (Bali)',
+                assetIdeas: { photo: 'Ogoh-ogoh parades, silent streets, Balinese temples, stars at night.', vector: 'Selamat Hari Raya Nyepi vectors, Bali silhouttes.' },
+                keywords: 'nyepi, bali, day of silence, hindu, ogoh-ogoh'
+            },
+            "Idul Fitri": {
+                icon: '<i class="fa-solid fa-mosque text-warning"></i>',
+                targetMarket: 'Global (Muslim), Indonesia',
+                assetIdeas: { photo: 'Ketupat, family gatherings, asking for forgiveness, bedug.', vector: 'Selamat Idul Fitri banners, ketupat vectors, mosque patterns.' },
+                keywords: 'idul fitri, lebaran, muslim, indonesia, ketupat, ramadan'
+            },
+            "Idul Adha": {
+                icon: '<i class="fa-solid fa-cow text-success"></i>',
+                targetMarket: 'Global (Muslim), Indonesia',
+                assetIdeas: { photo: 'Cows/goats for qurban, mosque gatherings, cooking meat.', vector: 'Idul Adha greetings, goat/cow icons, kaaba illustrations.' },
+                keywords: 'idul adha, qurban, muslim, sacrifice, mecca'
+            },
+            "Tahun Baru Islam": {
+                icon: '<i class="fa-solid fa-kaaba text-dark"></i>',
+                targetMarket: 'Global (Muslim), Indonesia',
+                assetIdeas: { photo: 'Islamic dates, quran reading, mosque night views.', vector: 'Muharram greetings, islamic calligraphy, hijri new year templates.' },
+                keywords: 'islamic new year, muharram, hijriyah, muslim'
+            },
+            "Waisak": {
+                icon: '<i class="fa-solid fa-dharmachakra text-warning"></i>',
+                targetMarket: 'Indonesia, Asia',
+                assetIdeas: { photo: 'Borobudur temple, monks meditating, releasing paper lanterns.', vector: 'Vesak day greetings, lotus flower, Buddha illustrations.' },
+                keywords: 'waisak, vesak, buddha, borobudur, lotus, lantern'
+            },
+            "Isra Mikraj": {
+                icon: '<i class="fa-solid fa-star-and-crescent text-warning"></i>',
+                targetMarket: 'Indonesia, Muslim',
+                assetIdeas: { photo: 'Night sky, praying hands, mosque silhouettes.', vector: 'Isra Miraj greetings, night journey, islamic geometry.' },
+                keywords: 'isra miraj, mikraj, prophet muhammad, islam, night journey'
+            },
+            "Maulid Nabi": {
+                icon: '<i class="fa-solid fa-book-quran text-success"></i>',
+                targetMarket: 'Indonesia, Muslim',
+                assetIdeas: { photo: 'Quran reading, islamic gatherings, tasbih.', vector: 'Mawlid an-Nabi greetings, muhammad typography.' },
+                keywords: 'maulid nabi, mawlid, prophet muhammad, islam, birth'
             }
         };
 
@@ -668,27 +723,35 @@
 
             // --- API FETCHING LOGIC ---
             try {
-                // Fetch US public holidays as a strong baseline for global microstock
-                const usResponse = await fetch(`https://date.nager.at/api/v3/PublicHolidays/${currentYear}/US`);
+                // Fetch US & ID public holidays
+                const [usResponse, idResponse] = await Promise.all([
+                    fetch(`https://date.nager.at/api/v3/PublicHolidays/${currentYear}/US`),
+                    fetch(`https://date.nager.at/api/v3/PublicHolidays/${currentYear}/ID`)
+                ]);
                 let apiEvents = [];
                 
-                if (usResponse.ok) {
-                    const usData = await usResponse.json();
+                if (usResponse.ok || idResponse.ok) {
+                    const usData = usResponse.ok ? await usResponse.json() : [];
+                    const idData = idResponse.ok ? await idResponse.json() : [];
+                    
+                    const combinedData = [...usData, ...idData];
                     
                     // Normalize function for robust matching
-                    const normalizeStr = (str) => str.toLowerCase().replace(/[^a-z0-9]/g, '');
+                    const normalizeStr = (str) => String(str).toLowerCase().replace(/[^a-z0-9]/g, '');
 
                     // Map API data using our Blueprint
-                    apiEvents = usData.map(holiday => {
+                    apiEvents = combinedData.map(holiday => {
                         const dateObj = new Date(holiday.date);
                         
-                        // Robust matching logic
+                        // Robust matching logic using both official and local names
                         let match = null;
                         const normHolidayName = normalizeStr(holiday.name);
+                        const normLocalName = normalizeStr(holiday.localName);
                         
                         for (const key in holidayBlueprint) {
                             const normKey = normalizeStr(key);
-                            if (normHolidayName.includes(normKey) || normKey.includes(normHolidayName)) {
+                            if (normHolidayName.includes(normKey) || normKey.includes(normHolidayName) || 
+                                (normLocalName && (normLocalName.includes(normKey) || normKey.includes(normLocalName)))) {
                                 match = holidayBlueprint[key];
                                 break;
                             }
@@ -697,7 +760,7 @@
                         return {
                             month: dateObj.getMonth() + 1,
                             icon: match ? match.icon : '<i class="fa-solid fa-calendar-day text-secondary"></i>',
-                            name: holiday.name,
+                            name: holiday.localName || holiday.name, // Prefer local name for display
                             eventTime: formatDt(dateObj),
                             targetMarket: match ? match.targetMarket : 'Global / Regional',
                             assetIdeas: match ? match.assetIdeas : { photo: 'Generic celebration, lifestyle, local culture.', vector: 'Calendar icons, minimalist typography.' },
