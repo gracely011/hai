@@ -592,58 +592,64 @@ async function requireAuth() {
         return;
     }
 
-    // TEMPORARY FIX: Skip server validation for debugging
-    // console.warn('⚠️ TEMPORARY: Server validation DISABLED for testing');
-    // console.log('💡 Session remains active based on localStorage only');
-    return; // Early exit - skip all server validation below
-
-    // console.log('🔄 About to call supabase.auth.getUser()...');
-
-
-    // 2. Background server validation
+    // 2. Background server validation menggunakan SECURITY STANDARD (Seperti Ekstensi)
     try {
-        const { data: { user }, error } = await supabaseClient.auth.getUser();
+        const { data: sessionData } = await supabaseClient.auth.getSession();
+        const token = sessionData?.session?.access_token;
 
-        // Handle errors from server
-        if (error) {
-            // IMPORTANT: Default to KEEP SESSION unless explicitly auth failure
-            const errorMsg = (error.message || '').toLowerCase();
-            const errorStatus = error.status || 0;
-
-            // Only logout if CERTAIN it's authentication issue
-            const isAuthFailure = (
-                errorMsg.includes('jwt') ||
-                errorMsg.includes('token') ||
-                errorMsg.includes('invalid') ||
-                errorMsg.includes('expired') ||
-                errorMsg.includes('unauthorized') ||
-                errorStatus === 401
-            );
-
-            if (isAuthFailure) {
-                await logout();
-                return;
-            } else {
-                // Network error - keep session active
-                return;
-            }
-        }
-
-        if (!user) {
+        if (!token) {
             await logout();
             return;
         }
 
-        // Optional: Additional check - verify user ID matches localStorage
+        // Ambil Fingerprint unik Dasbor ini
+        const myBrowserFingerprint = await getDeviceFingerprint();
+
+        // Panggil RPC Keamanan Gracely (Mencocokkan sidik jari dengan isi user_sessions)
+        const rpcResponse = await fetch(`${supabaseUrl}/rest/v1/rpc/get_gracely_auth_status`, {
+            method: 'POST',
+            headers: {
+                'apikey': supabaseAnonKey,
+                'Authorization': `Bearer ${token}`,
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ 
+                p_fingerprint: myBrowserFingerprint 
+            })
+        });
+
+        if (!rpcResponse.ok) {
+            // Jika error jaringan murni (misal Supabase down/RTO), longgarkan
+            return;
+        }
+
+        const rpcData = await rpcResponse.json();
+
+        // 3. VALIDASI KEPUTUSAN HAKIM
+        if (!rpcData || !rpcData.isValid) {
+            const reason = rpcData ? rpcData.reason : 'unknown_error';
+            
+            // JIKA DIVONIS NO_SESSION KARENA DEVICE LIMIT: CERAiKAN!
+            if (reason === 'unauthorized' || reason === 'no_session' || reason === 'profile_not_found') {
+                console.error("RPC menolak validitas. Alasan:", reason);
+                await logout();
+                return;
+            }
+            
+            // Jika alasan 'expired' (Paket Habis), Dasbor tetap terbuka (berfungsi sebatas Free Tier)
+            // karena session-nya sendiri masih legal.
+        }
+
+        // Optional check: Ensure the correct profile is being viewed
         const storedEmail = localStorage.getItem('userEmail');
-        if (storedEmail && user.email !== storedEmail) {
+        const { data: userData } = await supabaseClient.auth.getUser();
+        if (userData?.user && storedEmail && userData.user.email !== storedEmail) {
             await logout();
             return;
         }
 
     } catch (e) {
-        // Network error - allow access but log warning
-        // Alternatively, you can force logout on network errors for extra security
+        // Abaikan Network Error demi kenyamanan User Experience
         // await logout();
     }
 }
