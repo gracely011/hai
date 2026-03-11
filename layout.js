@@ -721,7 +721,7 @@ function initDashboardPlanStatus() {
   if (!window.hasRegisteredPlanRefreshListener) {
       document.addEventListener('gracelyPlanRefresh', () => {
           // console.log("Realtime UI Update Triggered: Re-rendering dashboard plan cards...");
-          initDashboardPlanStatus();
+          renderPlanStatus();
       });
       window.hasRegisteredPlanRefreshListener = true;
   }
@@ -745,57 +745,101 @@ function initDashboardPlanStatus() {
     return `${cleanDate} ${timezoneString}`;
   }
 
-  const isPremium = localStorage.getItem('isPremium') === 'true';
-  const planName = localStorage.getItem('userPlanName') || 'No Premium';
-  const planNumber = localStorage.getItem('userPlanNumber') || '001';
+  function renderPlanStatus() {
+    const isPremium = localStorage.getItem('isPremium') === 'true';
+    const planName = localStorage.getItem('userPlanName') || 'No Premium';
+    const planNumber = localStorage.getItem('userPlanNumber') || '001';
 
-  let planHTML = '';
-  try {
-    if (isPremium) {
-      const datePremium = localStorage.getItem('premiumExpiryDate');
-      const datePro = localStorage.getItem('proExpiryDate');
-      const datePhantom = localStorage.getItem('phantomExpiryDate');
+    let planHTML = '';
+    try {
+      if (isPremium) {
+        const datePremium = localStorage.getItem('premiumExpiryDate');
+        const datePro = localStorage.getItem('proExpiryDate');
+        const datePhantom = localStorage.getItem('phantomExpiryDate');
 
-      const safeFormat = (dateStr) => {
-        try {
-          if (!dateStr || dateStr === 'null' || dateStr === 'undefined') return null;
-          const d = new Date(dateStr);
-          if (isNaN(d.getTime())) return null;
-          return formatExactUTC(dateStr);
-        } catch (e) { return null; }
-      };
+        const safeFormat = (dateStr) => {
+          try {
+            if (!dateStr || dateStr === 'null' || dateStr === 'undefined') return null;
+            const d = new Date(dateStr);
+            if (isNaN(d.getTime())) return null;
+            return formatExactUTC(dateStr);
+          } catch (e) { return null; }
+        };
 
-      planHTML = `
-        <div class="menu-section">
-          <div class="menu-section-mini-header">Your plan</div>
-          <img src="assets/images/logo/gracely_mobile_white.png" alt="Logo" id="logo" class="top-right-image">
-          <div class="${planNumber === '004' ? 'menu-section-plan-phantomwitcher' : 'menu-section-plan-premium'}">${planName}</div>
-          <div class="menu-section-plan-description">`;
+        planHTML = `
+          <div class="menu-section">
+            <div class="menu-section-mini-header">Your plan</div>
+            <img src="assets/images/logo/gracely_mobile_white.png" alt="Logo" id="logo" class="top-right-image">
+            <div class="${planNumber === '004' ? 'menu-section-plan-phantomwitcher' : 'menu-section-plan-premium'}">${planName}</div>
+            <div class="menu-section-plan-description">`;
 
-      let hasShownDate = false;
-      const fmtPremium = safeFormat(datePremium);
-      if (fmtPremium) { planHTML += `<div>Your <b>Premium</b> is valid until ${fmtPremium}.</div>`; hasShownDate = true; }
-      const fmtPro = safeFormat(datePro);
-      if (fmtPro) { planHTML += `<div>Your <b>Pro</b> is valid until ${fmtPro}.</div>`; hasShownDate = true; }
-      const fmtPhantom = safeFormat(datePhantom);
-      if (fmtPhantom) { planHTML += `<div>Your <b>The Phantom</b> is valid until ${fmtPhantom}.</div>`; hasShownDate = true; }
-      if (!hasShownDate) { planHTML += `<div>Active</div>`; }
+        let hasShownDate = false;
+        
+        // ONLY show the single relevant plan expiration
+        if (planNumber === '004') {
+            const fmtPhantom = safeFormat(datePhantom);
+            if (fmtPhantom) { planHTML += `<div>Your <b>The Phantom</b> is valid until ${fmtPhantom}.</div>`; hasShownDate = true; }
+        } else if (planNumber === '003') {
+            const fmtPro = safeFormat(datePro);
+            if (fmtPro) { planHTML += `<div>Your <b>Pro</b> is valid until ${fmtPro}.</div>`; hasShownDate = true; }
+        } else if (planNumber === '002') {
+            const fmtPremium = safeFormat(datePremium);
+            if (fmtPremium) { planHTML += `<div>Your <b>Premium</b> is valid until ${fmtPremium}.</div>`; hasShownDate = true; }
+        }
 
-      planHTML += `</div></div>`;
-    } else {
-      planHTML = `
-        <div class="menu-section">
-          <div class="menu-section-mini-header">Your plan</div>
-          <img src="assets/images/logo/gracely_mobile_white.png" alt="Logo" id="logo" class="top-right-image">
-          <div class="menu-section-plan-free">${planName}</div>
-          <div class="menu-section-plan-description">Premium is required to access Gracely Extension.</div>
-        </div>`;
+        if (!hasShownDate) { planHTML += `<div>Active</div>`; }
+
+        planHTML += `</div></div>`;
+      } else {
+        planHTML = `
+          <div class="menu-section">
+            <div class="menu-section-mini-header">Your plan</div>
+            <img src="assets/images/logo/gracely_mobile_white.png" alt="Logo" id="logo" class="top-right-image">
+            <div class="menu-section-plan-free">${planName}</div>
+            <div class="menu-section-plan-description">Premium is required to access Gracely Extension.</div>
+          </div>`;
+      }
+    } catch (err) {
+      console.error("Dashboard Render Critical Error:", err);
+      planHTML = `<div class="menu-section" style="color:red">Error loading plan info. Check console.</div>`;
     }
-  } catch (err) {
-    console.error("Dashboard Render Critical Error:", err);
-    planHTML = `<div class="menu-section" style="color:red">Error loading plan info. Check console.</div>`;
+    planSection.innerHTML = planHTML;
   }
-  planSection.innerHTML = planHTML;
+
+  // 1. Render immediate from cached Local Storage
+  renderPlanStatus();
+
+  // 2. Background Fetch for auto-updating plan without logout
+  if (typeof getUserId === 'function' && typeof getPremiumStatus === 'function') {
+      (async function fetchFreshPlan() {
+          try {
+              const userId = await getUserId();
+              if (userId) {
+                  const status = await getPremiumStatus(userId);
+                  if (status) {
+                      const oldPlanName = localStorage.getItem('userPlanName');
+                      const oldPremium = localStorage.getItem('isPremium');
+                      
+                      localStorage.setItem('isPremium', status.isPremium);
+                      localStorage.setItem('userPlanName', status.planName);
+                      localStorage.setItem('userPlanNumber', status.planNumber);
+                      
+                      if (status.premiumExpiryDate) localStorage.setItem('premiumExpiryDate', status.premiumExpiryDate); else localStorage.removeItem('premiumExpiryDate');
+                      if (status.proExpiryDate) localStorage.setItem('proExpiryDate', status.proExpiryDate); else localStorage.removeItem('proExpiryDate');
+                      if (status.phantomExpiryDate) localStorage.setItem('phantomExpiryDate', status.phantomExpiryDate); else localStorage.removeItem('phantomExpiryDate');
+                      
+                      // Trigger extension sync if plan toggled
+                      if (oldPremium !== String(status.isPremium) || oldPlanName !== status.planName) {
+                          if (typeof setCookie === 'function') setCookie('gracely_plan_sync', Date.now().toString(), 1);
+                      }
+                      
+                      // Re-render UI with fresh DB data
+                      renderPlanStatus();
+                  }
+              }
+          } catch (e) { console.error("Auto plan fetch error:", e); }
+      })();
+  }
 }
 
 /**
