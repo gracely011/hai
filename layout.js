@@ -775,16 +775,28 @@ function initDashboardPlanStatus() {
 
         let hasShownDate = false;
         
-        // ONLY show the single relevant plan expiration
-        if (planNumber === '004') {
-            const fmtPhantom = safeFormat(datePhantom);
-            if (fmtPhantom) { planHTML += `<div>Your <b>The Phantom</b> is valid until ${fmtPhantom}.</div>`; hasShownDate = true; }
-        } else if (planNumber === '003') {
-            const fmtPro = safeFormat(datePro);
-            if (fmtPro) { planHTML += `<div>Your <b>Pro</b> is valid until ${fmtPro}.</div>`; hasShownDate = true; }
-        } else if (planNumber === '002') {
-            const fmtPremium = safeFormat(datePremium);
-            if (fmtPremium) { planHTML += `<div>Your <b>Premium</b> is valid until ${fmtPremium}.</div>`; hasShownDate = true; }
+        const fmtPremium = safeFormat(datePremium);
+        const fmtPro = safeFormat(datePro);
+        const fmtPhantom = safeFormat(datePhantom);
+        
+        const currentPlanLevel = parseInt(planNumber, 10) || 1;
+
+        // Tampilkan masa aktif Premium jika user setidaknya Premium (002, 003, 004)
+        if (currentPlanLevel >= 2 && fmtPremium) {
+            planHTML += `<div>Your <b>Premium</b> is valid until ${fmtPremium}.</div>`; 
+            hasShownDate = true;
+        }
+        
+        // Tampilkan masa aktif Pro jika user setidaknya Pro (003, 004)
+        if (currentPlanLevel >= 3 && fmtPro) {
+            planHTML += `<div>Your <b>Pro</b> is valid until ${fmtPro}.</div>`; 
+            hasShownDate = true;
+        }
+
+        // Tampilkan masa aktif Phantom jika user Phantom (004)
+        if (currentPlanLevel >= 4 && fmtPhantom) {
+            planHTML += `<div>Your <b>The Phantom</b> is valid until ${fmtPhantom}.</div>`; 
+            hasShownDate = true;
         }
 
         if (!hasShownDate) { planHTML += `<div>Active</div>`; }
