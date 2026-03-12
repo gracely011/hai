@@ -15,6 +15,29 @@
 //     o || (window.location.href = "https://gracely011.github.io/hai/")
 // })();
 
+// --- DEVICE IDENTIFIER HELPER ---
+function getOrCreateDeviceUUID() {
+    try {
+        let uuid = localStorage.getItem('gracely_device_uuid');
+        if (!uuid) {
+            // Check cookie as secondary (for extension to website migration)
+            const match = document.cookie.match(new RegExp('(^| )gracely_device_uuid=([^;]+)'));
+            if (match) {
+                uuid = match[2];
+            } else {
+                // Generate new UUID style string
+                uuid = 'dev-' + Math.random().toString(36).substring(2, 15) + '-' + Date.now().toString(36);
+            }
+            localStorage.setItem('gracely_device_uuid', uuid);
+        }
+        // Always set/renew cookie for background.js to read
+        setCookie('gracely_device_uuid', uuid, 365);
+        return uuid;
+    } catch (e) {
+        return 'anonymous-device';
+    }
+}
+
 // --- AGGRESSIVE CLEANUP START ---
 (function cleanupLegacy() {
     try {
@@ -41,10 +64,12 @@ async function getDeviceFingerprint() {
         // Collect device-specific attributes
         // HARUS SAMA PERSIS dengan Extension (background.js environment)
         // Tidak boleh pakai screen.* atau canvas karena Extension tidak bisa akses
+        const deviceUUID = getOrCreateDeviceUUID();
         const components = [
             navigator.userAgent || '',
             navigator.language || '',
-            new Date().getTimezoneOffset().toString()
+            new Date().getTimezoneOffset().toString(),
+            deviceUUID
         ];
 
         // Combine semua komponen
@@ -67,10 +92,12 @@ async function getDeviceFingerprint() {
 async function getFallbackFingerprint() {
     // Simplified fingerprint untuk fallback
     // HARUS SAMA PERSIS dengan Extension
+    const deviceUUID = getOrCreateDeviceUUID();
     const simple = [
         navigator.userAgent,
         new Date().getTimezoneOffset().toString(),
-        navigator.language
+        navigator.language,
+        deviceUUID
     ].join('|||');
 
     const msgBuffer = new TextEncoder().encode(simple);
