@@ -374,12 +374,36 @@ async function login(email, password) {
         } else {
             // === SINGLE-LOGIN (Default) ===
             // Hapus semua session lama, hanya 1 device yang boleh aktif
+            
+            // Ambil data device lama sebelum dihapus untuk keperluan logging
+            const { data: oldSessions } = await supabaseClient
+                .from('user_sessions')
+                .select('device_name')
+                .eq('user_id', authData.user.id);
+            
             const { error: deleteError } = await supabaseClient
                 .from('user_sessions')
                 .delete()
                 .eq('user_id', authData.user.id);
             
-            if (deleteError) console.warn("Gagal menghapus session lama:", deleteError);
+            if (deleteError) {
+                console.warn("Gagal menghapus session lama:", deleteError);
+            } else if (oldSessions && oldSessions.length > 0) {
+                // Ada sesi lama yang berhasil dihapus, catat aktivitas
+                try {
+                    const ipInfo = await getClientIpInfo();
+                    const kickedDevice = oldSessions[0].device_name || 'Unknown Device';
+                    const shortDevice = kickedDevice.length > 30 ? kickedDevice.substring(0, 30) + '...' : kickedDevice;
+                    await supabaseClient.from('activity_logs').insert({
+                        user_id: authData.user.id,
+                        name: userName,
+                        activity: `Session Terminated (Single Login Limit) - ${shortDevice}`,
+                        ip_address: ipInfo.query,
+                        device: userAgent,
+                        isp_info: { location: `${ipInfo.city}, ${ipInfo.country}`, isp: ipInfo.isp }
+                    });
+                } catch (logError) { console.warn("Log single-login kick failed:", logError); }
+            }
             
             await supabaseClient.from('user_sessions').insert({
                 user_id: authData.user.id,
