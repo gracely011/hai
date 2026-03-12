@@ -15,29 +15,6 @@
 //     o || (window.location.href = "https://gracely011.github.io/hai/")
 // })();
 
-// --- DEVICE IDENTIFIER HELPER ---
-function getOrCreateDeviceUUID() {
-    try {
-        let uuid = localStorage.getItem('gracely_device_uuid');
-        if (!uuid) {
-            // Check cookie as secondary (for extension to website migration)
-            const match = document.cookie.match(new RegExp('(^| )gracely_device_uuid=([^;]+)'));
-            if (match) {
-                uuid = match[2];
-            } else {
-                // Generate new UUID style string
-                uuid = 'dev-' + Math.random().toString(36).substring(2, 15) + '-' + Date.now().toString(36);
-            }
-            localStorage.setItem('gracely_device_uuid', uuid);
-        }
-        // Always set/renew cookie for background.js to read
-        setCookie('gracely_device_uuid', uuid, 365);
-        return uuid;
-    } catch (e) {
-        return 'anonymous-device';
-    }
-}
-
 // --- AGGRESSIVE CLEANUP START ---
 (function cleanupLegacy() {
     try {
@@ -63,13 +40,11 @@ async function getDeviceFingerprint() {
     try {
         // Collect device-specific attributes
         // HARUS SAMA PERSIS dengan Extension (background.js environment)
-        // Website selalu Normal mode, Extension bisa Normal atau Incognito
-        const incognitoFlag = 'normal'; // Website selalu Normal; Extension pakai chrome.extension.inIncognitoContext
+        // Tidak boleh pakai screen.* atau canvas karena Extension tidak bisa akses
         const components = [
             navigator.userAgent || '',
             navigator.language || '',
-            new Date().getTimezoneOffset().toString(),
-            incognitoFlag
+            new Date().getTimezoneOffset().toString()
         ];
 
         // Combine semua komponen
@@ -81,6 +56,7 @@ async function getDeviceFingerprint() {
         const hashArray = Array.from(new Uint8Array(hashBuffer));
         const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
 
+        // console.log('Device fingerprint generated:', hashHex);
         return hashHex;
     } catch (error) {
         console.error('Error generating device fingerprint:', error);
@@ -91,12 +67,10 @@ async function getDeviceFingerprint() {
 async function getFallbackFingerprint() {
     // Simplified fingerprint untuk fallback
     // HARUS SAMA PERSIS dengan Extension
-    const incognitoFlag = 'normal';
     const simple = [
         navigator.userAgent,
         new Date().getTimezoneOffset().toString(),
-        navigator.language,
-        incognitoFlag
+        navigator.language
     ].join('|||');
 
     const msgBuffer = new TextEncoder().encode(simple);
@@ -302,9 +276,6 @@ async function login(email, password) {
         });
         if (authError) throw authError;
 
-        // Ambil IP klien SATU KALI di awal untuk dipakai di seluruh fungsi login, menghindari pemblokiran batas API
-        const globalIpInfo = await getClientIpInfo();
-
         // Fetch Minimal Profile Data for UI
         let { data: profileData, error: profileError } = await supabaseClient
             .from('profiles')
@@ -343,7 +314,7 @@ async function login(email, password) {
             // Cek jumlah session yang sudah ada
             const { data: existingSessions } = await supabaseClient
                 .from('user_sessions')
-                .select('id, device_fingerprint, created_at, device_name')
+                .select('id, device_fingerprint, created_at')
                 .eq('user_id', authData.user.id)
                 .order('created_at', { ascending: true }); // Urutkan dari terlama
             
@@ -370,19 +341,6 @@ async function login(email, password) {
                     .delete()
                     .eq('id', oldestSession.id);
                 
-                try {
-                    const kickedDevice = oldestSession.device_name || 'Unknown Device';
-                    const shortDevice = kickedDevice.length > 30 ? kickedDevice.substring(0, 30) + '...' : kickedDevice;
-                    await supabaseClient.from('activity_logs').insert({
-                        user_id: authData.user.id,
-                        name: userName,
-                        activity: `Logged Out (Multi Login)`,
-                        ip_address: globalIpInfo.query,
-                        device: kickedDevice, // Gunakan perangkat korban, BUKAN penendang
-                        isp_info: { location: `${globalIpInfo.city}, ${globalIpInfo.country}`, isp: globalIpInfo.isp }
-                    });
-                } catch (logError) { console.warn("Log multi-login kick failed:", logError); }
-                
                 await supabaseClient.from('user_sessions').insert({
                     user_id: authData.user.id,
                     session_token: uniqueSessionID,
@@ -402,35 +360,12 @@ async function login(email, password) {
         } else {
             // === SINGLE-LOGIN (Default) ===
             // Hapus semua session lama, hanya 1 device yang boleh aktif
-            
-            // Ambil data device lama sebelum dihapus untuk keperluan logging
-            const { data: oldSessions } = await supabaseClient
-                .from('user_sessions')
-                .select('device_name')
-                .eq('user_id', authData.user.id);
-            
             const { error: deleteError } = await supabaseClient
                 .from('user_sessions')
                 .delete()
                 .eq('user_id', authData.user.id);
             
-            if (deleteError) {
-                console.warn("Gagal menghapus session lama:", deleteError);
-            } else if (oldSessions && oldSessions.length > 0) {
-                // Ada sesi lama yang berhasil dihapus, catat aktivitas
-                try {
-                    const kickedDevice = oldSessions[0].device_name || 'Unknown Device';
-                    const shortDevice = kickedDevice.length > 30 ? kickedDevice.substring(0, 30) + '...' : kickedDevice;
-                    await supabaseClient.from('activity_logs').insert({
-                        user_id: authData.user.id,
-                        name: userName,
-                        activity: `Logged Out (Multi Login)`,
-                        ip_address: globalIpInfo.query,
-                        device: kickedDevice, // Gunakan perangkat korban, BUKAN penendang
-                        isp_info: { location: `${globalIpInfo.city}, ${globalIpInfo.country}`, isp: globalIpInfo.isp }
-                    });
-                } catch (logError) { console.warn("Log single-login kick failed:", logError); }
-            }
+            if (deleteError) console.warn("Gagal menghapus session lama:", deleteError);
             
             await supabaseClient.from('user_sessions').insert({
                 user_id: authData.user.id,
@@ -522,13 +457,14 @@ async function login(email, password) {
         }).eq('id', authData.user.id);
 
         try {
+            const ipInfo = await getClientIpInfo();
             await supabaseClient.from('activity_logs').insert({
                 user_id: authData.user.id,
                 name: userName,
                 activity: 'Logged In',
-                ip_address: globalIpInfo.query,
+                ip_address: ipInfo.query,
                 device: userAgent,
-                isp_info: { location: `${globalIpInfo.city}, ${globalIpInfo.country}`, isp: globalIpInfo.isp }
+                isp_info: { location: `${ipInfo.city}, ${ipInfo.country}`, isp: ipInfo.isp }
             });
         } catch (logError) { console.warn("Log login failed:", logError); }
 
@@ -619,10 +555,10 @@ async function logout() {
         try {
             const ipInfo = await getClientIpInfo();
             const userAgent = navigator.userAgent;
-            await supabaseClient.from('activity_logs').insert({
+            await supabaseClient.from('logoutactivity_logs').insert({
                 user_id: userId,
                 name: currentName,
-                activity: 'Logged Out (Manual)',
+                activity: 'Logged Out',
                 ip_address: ipInfo.query,
                 device: userAgent,
                 isp_info: { location: `${ipInfo.city}, ${ipInfo.country}`, isp: ipInfo.isp }
