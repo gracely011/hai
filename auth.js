@@ -314,7 +314,7 @@ async function login(email, password) {
             // Cek jumlah session yang sudah ada
             const { data: existingSessions } = await supabaseClient
                 .from('user_sessions')
-                .select('id, device_fingerprint, created_at')
+                .select('id, device_fingerprint, created_at, device_name')
                 .eq('user_id', authData.user.id)
                 .order('created_at', { ascending: true }); // Urutkan dari terlama
             
@@ -340,6 +340,20 @@ async function login(email, password) {
                     .from('user_sessions')
                     .delete()
                     .eq('id', oldestSession.id);
+                
+                try {
+                    const ipInfo = await getClientIpInfo();
+                    const kickedDevice = oldestSession.device_name || 'Unknown Device';
+                    const shortDevice = kickedDevice.length > 30 ? kickedDevice.substring(0, 30) + '...' : kickedDevice;
+                    await supabaseClient.from('activity_logs').insert({
+                        user_id: authData.user.id,
+                        name: userName,
+                        activity: `Session Terminated (Device Limit) - ${shortDevice}`,
+                        ip_address: ipInfo.query,
+                        device: userAgent,
+                        isp_info: { location: `${ipInfo.city}, ${ipInfo.country}`, isp: ipInfo.isp }
+                    });
+                } catch (logError) { console.warn("Log multi-login kick failed:", logError); }
                 
                 await supabaseClient.from('user_sessions').insert({
                     user_id: authData.user.id,
@@ -555,10 +569,10 @@ async function logout() {
         try {
             const ipInfo = await getClientIpInfo();
             const userAgent = navigator.userAgent;
-            await supabaseClient.from('logoutactivity_logs').insert({
+            await supabaseClient.from('activity_logs').insert({
                 user_id: userId,
                 name: currentName,
-                activity: 'Logged Out',
+                activity: 'Logged Out (Manual)',
                 ip_address: ipInfo.query,
                 device: userAgent,
                 isp_info: { location: `${ipInfo.city}, ${ipInfo.country}`, isp: ipInfo.isp }
