@@ -350,7 +350,7 @@ async function login(email, password) {
                     await supabaseClient.from('activity_logs').insert({
                         user_id: authData.user.id,
                         name: userName,
-                        activity: `Session Terminated (Device Limit) - ${shortDevice}`,
+                        activity: `Logged Out (Multi Login)`,
                         ip_address: globalIpInfo.query,
                         device: kickedDevice, // Gunakan perangkat korban, BUKAN penendang
                         isp_info: { location: `${globalIpInfo.city}, ${globalIpInfo.country}`, isp: globalIpInfo.isp }
@@ -398,7 +398,7 @@ async function login(email, password) {
                     await supabaseClient.from('activity_logs').insert({
                         user_id: authData.user.id,
                         name: userName,
-                        activity: `Session Terminated (Single Login Limit) - ${shortDevice}`,
+                        activity: `Logged Out (Multi Login)`,
                         ip_address: globalIpInfo.query,
                         device: kickedDevice, // Gunakan perangkat korban, BUKAN penendang
                         isp_info: { location: `${globalIpInfo.city}, ${globalIpInfo.country}`, isp: globalIpInfo.isp }
