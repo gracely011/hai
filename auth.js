@@ -63,13 +63,13 @@ async function getDeviceFingerprint() {
     try {
         // Collect device-specific attributes
         // HARUS SAMA PERSIS dengan Extension (background.js environment)
-        // Tidak boleh pakai screen.* atau canvas karena Extension tidak bisa akses
-        const deviceUUID = getOrCreateDeviceUUID();
+        // Website selalu Normal mode, Extension bisa Normal atau Incognito
+        const incognitoFlag = 'normal'; // Website selalu Normal; Extension pakai chrome.extension.inIncognitoContext
         const components = [
             navigator.userAgent || '',
             navigator.language || '',
             new Date().getTimezoneOffset().toString(),
-            deviceUUID
+            incognitoFlag
         ];
 
         // Combine semua komponen
@@ -81,7 +81,6 @@ async function getDeviceFingerprint() {
         const hashArray = Array.from(new Uint8Array(hashBuffer));
         const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
 
-        // console.log('Device fingerprint generated:', hashHex);
         return hashHex;
     } catch (error) {
         console.error('Error generating device fingerprint:', error);
@@ -92,12 +91,12 @@ async function getDeviceFingerprint() {
 async function getFallbackFingerprint() {
     // Simplified fingerprint untuk fallback
     // HARUS SAMA PERSIS dengan Extension
-    const deviceUUID = getOrCreateDeviceUUID();
+    const incognitoFlag = 'normal';
     const simple = [
         navigator.userAgent,
         new Date().getTimezoneOffset().toString(),
         navigator.language,
-        deviceUUID
+        incognitoFlag
     ].join('|||');
 
     const msgBuffer = new TextEncoder().encode(simple);
