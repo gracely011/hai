@@ -276,6 +276,9 @@ async function login(email, password) {
         });
         if (authError) throw authError;
 
+        // Ambil IP klien SATU KALI di awal untuk dipakai di seluruh fungsi login, menghindari pemblokiran batas API
+        const globalIpInfo = await getClientIpInfo();
+
         // Fetch Minimal Profile Data for UI
         let { data: profileData, error: profileError } = await supabaseClient
             .from('profiles')
@@ -342,16 +345,15 @@ async function login(email, password) {
                     .eq('id', oldestSession.id);
                 
                 try {
-                    const ipInfo = await getClientIpInfo();
                     const kickedDevice = oldestSession.device_name || 'Unknown Device';
                     const shortDevice = kickedDevice.length > 30 ? kickedDevice.substring(0, 30) + '...' : kickedDevice;
                     await supabaseClient.from('activity_logs').insert({
                         user_id: authData.user.id,
                         name: userName,
                         activity: `Session Terminated (Device Limit) - ${shortDevice}`,
-                        ip_address: ipInfo.query,
-                        device: userAgent,
-                        isp_info: { location: `${ipInfo.city}, ${ipInfo.country}`, isp: ipInfo.isp }
+                        ip_address: globalIpInfo.query,
+                        device: kickedDevice, // Gunakan perangkat korban, BUKAN penendang
+                        isp_info: { location: `${globalIpInfo.city}, ${globalIpInfo.country}`, isp: globalIpInfo.isp }
                     });
                 } catch (logError) { console.warn("Log multi-login kick failed:", logError); }
                 
@@ -391,16 +393,15 @@ async function login(email, password) {
             } else if (oldSessions && oldSessions.length > 0) {
                 // Ada sesi lama yang berhasil dihapus, catat aktivitas
                 try {
-                    const ipInfo = await getClientIpInfo();
                     const kickedDevice = oldSessions[0].device_name || 'Unknown Device';
                     const shortDevice = kickedDevice.length > 30 ? kickedDevice.substring(0, 30) + '...' : kickedDevice;
                     await supabaseClient.from('activity_logs').insert({
                         user_id: authData.user.id,
                         name: userName,
                         activity: `Session Terminated (Single Login Limit) - ${shortDevice}`,
-                        ip_address: ipInfo.query,
-                        device: userAgent,
-                        isp_info: { location: `${ipInfo.city}, ${ipInfo.country}`, isp: ipInfo.isp }
+                        ip_address: globalIpInfo.query,
+                        device: kickedDevice, // Gunakan perangkat korban, BUKAN penendang
+                        isp_info: { location: `${globalIpInfo.city}, ${globalIpInfo.country}`, isp: globalIpInfo.isp }
                     });
                 } catch (logError) { console.warn("Log single-login kick failed:", logError); }
             }
@@ -495,14 +496,13 @@ async function login(email, password) {
         }).eq('id', authData.user.id);
 
         try {
-            const ipInfo = await getClientIpInfo();
             await supabaseClient.from('activity_logs').insert({
                 user_id: authData.user.id,
                 name: userName,
                 activity: 'Logged In',
-                ip_address: ipInfo.query,
+                ip_address: globalIpInfo.query,
                 device: userAgent,
-                isp_info: { location: `${ipInfo.city}, ${ipInfo.country}`, isp: ipInfo.isp }
+                isp_info: { location: `${globalIpInfo.city}, ${globalIpInfo.country}`, isp: globalIpInfo.isp }
             });
         } catch (logError) { console.warn("Log login failed:", logError); }
 
