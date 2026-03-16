@@ -903,7 +903,7 @@ async function initActivityLogsPage() {
       .select('*')
       .eq('user_id', userId)
       .order('created_at', { ascending: false })
-      .limit(100);
+      .limit(25);
 
     if (error) throw error;
     if (data.length === 0) { if (loader) loader.textContent = 'No activity logs found.'; return; }
