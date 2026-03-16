@@ -479,6 +479,7 @@ async function login(email, password) {
 
         // The most important part: The Session Cookie for the Extension
         setCookie('gracely_session_token', secureSessionToken, 30);
+        setCookie('gracely_db_session_id', uniqueSessionID, 30); // 🔒 ID Absolut Sesi
         if (authData.session.refresh_token) {
             setCookie('gracely_refresh_token', authData.session.refresh_token, 30);
         }
@@ -509,6 +510,7 @@ async function login(email, password) {
         eraseCookie('gracely_config_url');
         eraseCookie('gracely_config_url');
         eraseCookie('gracely_session_token');
+        eraseCookie('gracely_db_session_id');
         eraseCookie('gracely_refresh_token');
         if (error.message.includes("Invalid login credentials")) {
             return { success: false, message: 'Email atau password salah.' };
@@ -618,6 +620,7 @@ async function logout() {
     eraseCookie('is_premium');
     eraseCookie('gracely_config_url');
     eraseCookie('gracely_session_token');
+    eraseCookie('gracely_db_session_id');
     eraseCookie('gracely_refresh_token');
 
     // Explicit trigger for extension to wipe data
