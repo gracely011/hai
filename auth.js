@@ -314,7 +314,7 @@ async function login(email, password) {
             // Cek jumlah session yang sudah ada
             const { data: existingSessions } = await supabaseClient
                 .from('user_sessions')
-                .select('id, device_fingerprint, created_at')
+                .select('id, device_fingerprint, created_at, device_name')
                 .eq('user_id', authData.user.id)
                 .order('created_at', { ascending: true }); // Urutkan dari terlama
             
@@ -335,23 +335,30 @@ async function login(email, password) {
             } else if (sessionCount >= maxDevices) {
                 // Batas device tercapai: Hapus session paling lama, tambah yang baru
                 console.log(`Batas ${maxDevices} device tercapai, hapus session terlama...`);
-                const oldestSession = existingSessions[0];
+                
+                // Ambil semua session yang harus dihapus (bisa jadi lebih dari 1 jika maxDevices turun)
+                const sessionsToDeleteCount = sessionCount - maxDevices + 1;
+                const sessionsToDelete = existingSessions.slice(0, sessionsToDeleteCount);
+                const sessionIdsToDelete = sessionsToDelete.map(s => s.id);
+
                 await supabaseClient
                     .from('user_sessions')
                     .delete()
-                    .eq('id', oldestSession.id);
+                    .in('id', sessionIdsToDelete);
 
                 // LOG: Catat kejadian kick sesi lama akibat batas device
                 try {
                     const ipInfoKick = await getClientIpInfo();
-                    await supabaseClient.from('activity_logs').insert({
-                        user_id: authData.user.id,
-                        name: userName,
-                        activity: 'Logout Multi Login',
-                        ip_address: ipInfoKick.query,
-                        device: userAgent,
-                        isp_info: { location: `${ipInfoKick.city}, ${ipInfoKick.country}`, isp: ipInfoKick.isp, reason: `Session terlama ditendang: batas ${maxDevices} device tercapai` }
-                    });
+                    for (const session of sessionsToDelete) {
+                        await supabaseClient.from('activity_logs').insert({
+                            user_id: authData.user.id,
+                            name: userName,
+                            activity: 'Logout Multi Login',
+                            ip_address: ipInfoKick.query,
+                            device: session.device_name || 'Unknown Device', // Gunakan device lama
+                            isp_info: { location: `${ipInfoKick.city}, ${ipInfoKick.country}`, isp: ipInfoKick.isp, reason: `Session terlama ditendang: batas ${maxDevices} device tercapai` }
+                        });
+                    }
                 } catch (logKickErr) { console.warn('Log multi-login kick failed:', logKickErr); }
 
                 await supabaseClient.from('user_sessions').insert({
@@ -375,7 +382,7 @@ async function login(email, password) {
             // Hapus semua session lama, hanya 1 device yang boleh aktif
             const { data: oldSessions } = await supabaseClient
                 .from('user_sessions')
-                .select('id')
+                .select('id, device_name') // Ambil device_name
                 .eq('user_id', authData.user.id);
 
             const { error: deleteError } = await supabaseClient
@@ -389,14 +396,16 @@ async function login(email, password) {
             if (oldSessions && oldSessions.length > 0) {
                 try {
                     const ipInfoSingle = await getClientIpInfo();
-                    await supabaseClient.from('activity_logs').insert({
-                        user_id: authData.user.id,
-                        name: userName,
-                        activity: 'Logout Multi Login',
-                        ip_address: ipInfoSingle.query,
-                        device: userAgent,
-                        isp_info: { location: `${ipInfoSingle.city}, ${ipInfoSingle.country}`, isp: ipInfoSingle.isp, reason: 'Sesi lama ditendang: login perangkat baru (single-device policy)' }
-                    });
+                    for (const session of oldSessions) {
+                        await supabaseClient.from('activity_logs').insert({
+                            user_id: authData.user.id,
+                            name: userName,
+                            activity: 'Logout Multi Login',
+                            ip_address: ipInfoSingle.query,
+                            device: session.device_name || 'Unknown Device', // Gunakan device lama
+                            isp_info: { location: `${ipInfoSingle.city}, ${ipInfoSingle.country}`, isp: ipInfoSingle.isp, reason: 'Sesi lama ditendang: login perangkat baru (single-device policy)' }
+                        });
+                    }
                 } catch (logSingleErr) { console.warn('Log single-login kick failed:', logSingleErr); }
             }
 
