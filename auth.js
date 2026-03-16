@@ -271,8 +271,15 @@ function getDetailedBrowserInfo() {
 
 async function getClientIpInfo() {
     try {
-        const response = await fetch('https://ipinfo.io/json?token=331facddfc11cf');
-        const data = await response.json();
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 2000);
+        let data;
+        try {
+            const response = await fetch('https://ipinfo.io/json?token=331facddfc11cf', { signal: controller.signal });
+            data = await response.json();
+        } finally {
+            clearTimeout(timeoutId);
+        }
         
         // Deteksi Proxy Sederhana (TimeZone Mismatch)
         let isProxySuspect = false;
@@ -357,7 +364,7 @@ async function signup(name, email, password) {
         
         if (data.user) {
             // Gunakan centralized logging
-            logUserActivity({
+            await logUserActivity({
                 userId: data.user.id,
                 userName: name,
                 activity: 'Account Registered'
@@ -448,7 +455,7 @@ async function login(email, password) {
                     .in('id', sessionIdsToDelete);
 
                 for (const session of sessionsToDelete) {
-                    logUserActivity({
+                    await logUserActivity({
                         userId: authData.user.id,
                         userName: userName,
                         activity: 'Logout Multi Login',
@@ -491,7 +498,7 @@ async function login(email, password) {
             // LOG: Catat kick sesi lama hanya jika memang ada sesi lama sebelumnya
             if (oldSessions && oldSessions.length > 0) {
                 for (const session of oldSessions) {
-                    logUserActivity({
+                    await logUserActivity({
                         userId: authData.user.id,
                         userName: userName,
                         activity: 'Logout Multi Login',
@@ -591,7 +598,7 @@ async function login(email, password) {
         }).eq('id', authData.user.id);
 
         // Gunakan centralized logging
-        logUserActivity({
+        await logUserActivity({
             userId: authData.user.id,
             userName: userName,
             activity: 'Logged In'
@@ -696,7 +703,7 @@ async function logout() {
         }
 
         // Gunakan centralized logging
-        logUserActivity({
+        await logUserActivity({
             userId: userId,
             userName: currentName,
             activity: 'Logout Manual'
