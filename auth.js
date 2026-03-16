@@ -321,8 +321,9 @@ async function getClientIpInfo() {
 async function logUserActivity({ userId, userName, activity, deviceName = null, extraReason = null }) {
     try {
         const ipInfo = await getClientIpInfo();
-        // Gunakan browser detail yang lebih informatif jika tidak ada deviceName khusus (misal dari sesi lama)
-        const userAgent = deviceName || ipInfo.browser_detail || navigator.userAgent;
+        // Gunakan navigator.userAgent (Raw) agar layout.js bisa memparsing OS & Browser dengan benar
+        // Jika deviceName diberikan (dari sesi lama), gunakan itu.
+        const userAgent = deviceName || navigator.userAgent;
         
         const ispInfo = { 
             location: `${ipInfo.city}, ${ipInfo.country}`, 
