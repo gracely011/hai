@@ -227,18 +227,86 @@ async function getClientIp() {
     }
 }
 
+// --- ADVANCED DETECTION HELPERS ---
+async function detectIncognito() {
+    try {
+        if ('storage' in navigator && 'estimate' in navigator.storage) {
+            const { quota } = await navigator.storage.estimate();
+            if (quota < 120000000) return true; // Incognito biasanya punya quota storage sangat kecil
+        }
+        return false;
+    } catch (e) { return false; }
+}
+
+function getDetailedBrowserInfo() {
+    const ua = navigator.userAgent;
+    let browser = "Unknown";
+    let version = "Unknown";
+
+    if (ua.indexOf("Firefox") > -1) {
+        browser = "Mozilla Firefox";
+        version = ua.match(/Firefox\/([0-9.]+)/)[1];
+    } else if (ua.indexOf("SamsungBrowser") > -1) {
+        browser = "Samsung Internet";
+        version = ua.match(/SamsungBrowser\/([0-9.]+)/)[1];
+    } else if (ua.indexOf("Opera") > -1 || ua.indexOf("OPR") > -1) {
+        browser = "Opera";
+        version = ua.match(/(Opera|OPR)\/([0-9.]+)/)[2];
+    } else if (ua.indexOf("Trident") > -1) {
+        browser = "Microsoft Internet Explorer";
+    } else if (ua.indexOf("Edge") > -1) {
+        browser = "Microsoft Edge";
+        version = ua.match(/Edge\/([0-9.]+)/)[1];
+    } else if (ua.indexOf("Chrome") > -1) {
+        browser = "Google Chrome";
+        version = ua.match(/Chrome\/([0-9.]+)/)[1];
+    } else if (ua.indexOf("Safari") > -1) {
+        browser = "Apple Safari";
+        version = ua.match(/Version\/([0-9.]+)/)[1];
+    }
+
+    return `${browser} ${version}`;
+}
+// --- END ADVANCED DETECTION HELPERS ---
+
 async function getClientIpInfo() {
     try {
         const response = await fetch('https://ipinfo.io/json?token=331facddfc11cf');
         const data = await response.json();
+        
+        // Deteksi Proxy Sederhana (TimeZone Mismatch)
+        let isProxySuspect = false;
+        try {
+            if (data.timezone) {
+                const ipTimezone = data.timezone;
+                const browserTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+                if (ipTimezone !== browserTimezone) {
+                    isProxySuspect = true;
+                }
+            }
+        } catch (e) {}
+
+        const isIncognito = await detectIncognito();
+        const browserDetail = getDetailedBrowserInfo();
+
         return data.ip ? {
             query: data.ip,
             country: data.country || 'Unknown',
             city: data.city || 'Unknown',
-            isp: data.org || 'Unknown'
-        } : { query: 'Unknown', country: 'Unknown', city: 'Unknown', isp: 'Unknown' };
+            isp: data.org || 'Unknown',
+            timezone: data.timezone || 'Unknown',
+            is_proxy: isProxySuspect,
+            is_incognito: isIncognito,
+            browser_detail: browserDetail
+        } : { 
+            query: 'Unknown', country: 'Unknown', city: 'Unknown', isp: 'Unknown',
+            is_proxy: false, is_incognito: false, browser_detail: navigator.userAgent
+        };
     } catch (e) {
-        return { query: 'Unknown', country: 'Unknown', city: 'Unknown', isp: 'Unknown' };
+        return { 
+            query: 'Unknown', country: 'Unknown', city: 'Unknown', isp: 'Unknown',
+            is_proxy: false, is_incognito: false, browser_detail: navigator.userAgent
+        };
     }
 }
 
@@ -246,11 +314,15 @@ async function getClientIpInfo() {
 async function logUserActivity({ userId, userName, activity, deviceName = null, extraReason = null }) {
     try {
         const ipInfo = await getClientIpInfo();
-        const userAgent = deviceName || navigator.userAgent;
+        // Gunakan browser detail yang lebih informatif jika tidak ada deviceName khusus (misal dari sesi lama)
+        const userAgent = deviceName || ipInfo.browser_detail || navigator.userAgent;
         
         const ispInfo = { 
             location: `${ipInfo.city}, ${ipInfo.country}`, 
-            isp: ipInfo.isp 
+            isp: ipInfo.isp,
+            timezone: ipInfo.timezone,
+            detected_proxy: ipInfo.is_proxy,
+            detected_incognito: ipInfo.is_incognito
         };
 
         if (extraReason) {
