@@ -242,6 +242,38 @@ async function getClientIpInfo() {
     }
 }
 
+// --- CENTRALIZED LOGGING HELPER ---
+async function logUserActivity({ userId, userName, activity, deviceName = null, extraReason = null }) {
+    try {
+        const ipInfo = await getClientIpInfo();
+        const userAgent = deviceName || navigator.userAgent;
+        
+        const ispInfo = { 
+            location: `${ipInfo.city}, ${ipInfo.country}`, 
+            isp: ipInfo.isp 
+        };
+
+        if (extraReason) {
+            ispInfo.reason = extraReason;
+        }
+
+        const { error } = await supabaseClient.from('activity_logs').insert({
+            user_id: userId,
+            name: userName,
+            activity: activity,
+            ip_address: ipInfo.query,
+            device: userAgent,
+            isp_info: ispInfo
+        });
+
+        if (error) console.warn(`Failed to insert activity log (${activity}):`, error.message);
+
+    } catch (err) {
+        console.warn(`Failed to log activity (${activity}):`, err);
+    }
+}
+// --- END LOGGING HELPER ---
+
 async function signup(name, email, password) {
     try {
         const { data, error } = await supabaseClient.auth.signUp({
@@ -250,20 +282,16 @@ async function signup(name, email, password) {
             options: { data: { full_name: name } }
         });
         if (error) throw error;
-        try {
-            const ipInfo = await getClientIpInfo();
-            const userAgent = navigator.userAgent;
-            if (data.user) {
-                await supabaseClient.from('activity_logs').insert({
-                    user_id: data.user.id,
-                    name: name,
-                    activity: 'Account Registered',
-                    ip_address: ipInfo.query,
-                    device: userAgent,
-                    isp_info: { location: `${ipInfo.city}, ${ipInfo.country}`, isp: ipInfo.isp }
-                });
-            }
-        } catch (logError) { console.warn("Log signup failed:", logError); }
+        
+        if (data.user) {
+            // Gunakan centralized logging
+            logUserActivity({
+                userId: data.user.id,
+                userName: name,
+                activity: 'Account Registered'
+            });
+        }
+        
         return { success: true };
     } catch (error) { return { success: false, message: error.message }; }
 }
@@ -336,7 +364,8 @@ async function login(email, password) {
                 // Batas device tercapai: Hapus session paling lama, tambah yang baru
                 console.log(`Batas ${maxDevices} device tercapai, hapus session terlama...`);
                 
-                // Ambil semua session yang harus dihapus (bisa jadi lebih dari 1 jika maxDevices turun)
+                // LOG: Catat kejadian kick sesi lama akibat batas device
+                // Menggunakan centralized logging untuk konsistensi
                 const sessionsToDeleteCount = sessionCount - maxDevices + 1;
                 const sessionsToDelete = existingSessions.slice(0, sessionsToDeleteCount);
                 const sessionIdsToDelete = sessionsToDelete.map(s => s.id);
@@ -346,20 +375,15 @@ async function login(email, password) {
                     .delete()
                     .in('id', sessionIdsToDelete);
 
-                // LOG: Catat kejadian kick sesi lama akibat batas device
-                try {
-                    const ipInfoKick = await getClientIpInfo();
-                    for (const session of sessionsToDelete) {
-                        await supabaseClient.from('activity_logs').insert({
-                            user_id: authData.user.id,
-                            name: userName,
-                            activity: 'Logout Multi Login',
-                            ip_address: ipInfoKick.query,
-                            device: session.device_name || 'Unknown Device', // Gunakan device lama
-                            isp_info: { location: `${ipInfoKick.city}, ${ipInfoKick.country}`, isp: ipInfoKick.isp, reason: `Session terlama ditendang: batas ${maxDevices} device tercapai` }
-                        });
-                    }
-                } catch (logKickErr) { console.warn('Log multi-login kick failed:', logKickErr); }
+                for (const session of sessionsToDelete) {
+                    logUserActivity({
+                        userId: authData.user.id,
+                        userName: userName,
+                        activity: 'Logout Multi Login',
+                        deviceName: session.device_name || 'Unknown Device', // Gunakan device lama yang dihapus
+                        extraReason: `Session terlama ditendang: batas ${maxDevices} device tercapai`
+                    });
+                }
 
                 await supabaseClient.from('user_sessions').insert({
                     user_id: authData.user.id,
@@ -394,19 +418,15 @@ async function login(email, password) {
 
             // LOG: Catat kick sesi lama hanya jika memang ada sesi lama sebelumnya
             if (oldSessions && oldSessions.length > 0) {
-                try {
-                    const ipInfoSingle = await getClientIpInfo();
-                    for (const session of oldSessions) {
-                        await supabaseClient.from('activity_logs').insert({
-                            user_id: authData.user.id,
-                            name: userName,
-                            activity: 'Logout Multi Login',
-                            ip_address: ipInfoSingle.query,
-                            device: session.device_name || 'Unknown Device', // Gunakan device lama
-                            isp_info: { location: `${ipInfoSingle.city}, ${ipInfoSingle.country}`, isp: ipInfoSingle.isp, reason: 'Sesi lama ditendang: login perangkat baru (single-device policy)' }
-                        });
-                    }
-                } catch (logSingleErr) { console.warn('Log single-login kick failed:', logSingleErr); }
+                for (const session of oldSessions) {
+                    logUserActivity({
+                        userId: authData.user.id,
+                        userName: userName,
+                        activity: 'Logout Multi Login',
+                        deviceName: session.device_name || 'Unknown Device', // Gunakan device lama
+                        extraReason: 'Sesi lama ditendang: login perangkat baru (single-device policy)'
+                    });
+                }
             }
 
             await supabaseClient.from('user_sessions').insert({
@@ -498,17 +518,12 @@ async function login(email, password) {
             last_browser: userAgent
         }).eq('id', authData.user.id);
 
-        try {
-            const ipInfo = await getClientIpInfo();
-            await supabaseClient.from('activity_logs').insert({
-                user_id: authData.user.id,
-                name: userName,
-                activity: 'Logged In',
-                ip_address: ipInfo.query,
-                device: userAgent,
-                isp_info: { location: `${ipInfo.city}, ${ipInfo.country}`, isp: ipInfo.isp }
-            });
-        } catch (logError) { console.warn("Log login failed:", logError); }
+        // Gunakan centralized logging
+        logUserActivity({
+            userId: authData.user.id,
+            userName: userName,
+            activity: 'Logged In'
+        });
 
         return { success: true };
     } catch (error) {
@@ -608,18 +623,12 @@ async function logout() {
             } catch (sessErr) { console.warn('Gagal menghapus user_sessions:', sessErr); }
         }
 
-        try {
-            const ipInfo = await getClientIpInfo();
-            const userAgent = navigator.userAgent;
-            await supabaseClient.from('activity_logs').insert({
-                user_id: userId,
-                name: currentName,
-                activity: 'Logout Manual',
-                ip_address: ipInfo.query,
-                device: userAgent,
-                isp_info: { location: `${ipInfo.city}, ${ipInfo.country}`, isp: ipInfo.isp }
-            });
-        } catch (logError) { console.warn("Log logout failed:", logError); }
+        // Gunakan centralized logging
+        logUserActivity({
+            userId: userId,
+            userName: currentName,
+            activity: 'Logout Manual'
+        });
     }
 
     localStorage.clear();
