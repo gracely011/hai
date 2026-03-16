@@ -582,9 +582,23 @@ async function updateLastPopupDate(type) {
 async function logout() {
     const userId = await getUserId();
     const currentName = localStorage.getItem('userName') || 'Unknown';
+    // Ambil session ID SEBELUM localStorage.clear() dipanggil
+    const mySessionId = localStorage.getItem('gracely_db_session_id');
+
     if (userId) {
         const now = new Date().toISOString();
         await supabaseClient.from('profiles').update({ last_sign_out: now }).eq('id', userId);
+
+        // Hapus session ini dari user_sessions agar login ulang tidak trigger "Logout Multi Login" palsu
+        if (mySessionId) {
+            try {
+                await supabaseClient.from('user_sessions')
+                    .delete()
+                    .eq('user_id', userId)
+                    .eq('session_token', mySessionId);
+            } catch (sessErr) { console.warn('Gagal menghapus user_sessions:', sessErr); }
+        }
+
         try {
             const ipInfo = await getClientIpInfo();
             const userAgent = navigator.userAgent;
@@ -599,12 +613,9 @@ async function logout() {
         } catch (logError) { console.warn("Log logout failed:", logError); }
     }
 
-    // Explicitly delete session from DB if we can track it (current implementation creates new UUID on login, so we can't easily delete specifi one unless we tracked it locally, which user asked us to remove from local storage. So we rely on Extension's multi-login detection or just simple logout.)
-
     localStorage.clear();
     eraseCookie('gracely_active_session');
     eraseCookie('is_premium');
-    eraseCookie('gracely_config_url');
     eraseCookie('gracely_config_url');
     eraseCookie('gracely_session_token');
     eraseCookie('gracely_refresh_token');
