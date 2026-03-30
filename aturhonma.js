@@ -193,6 +193,7 @@ const gracelyConfig = {
   },
   debugModeEnabled: true,
   notifications: {
+    useSupabase: true,
     announcement: {
       enabled: true,
       id: "info-html-nov-2025",
