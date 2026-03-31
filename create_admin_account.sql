@@ -29,9 +29,13 @@ BEGIN
     now()
   );
 
-  -- 2. Sinkronkan dengan tabel 'profiles' (Dashboard Gracely membutuhkannya)
+  -- 2. Memperbarui tabel 'profiles' (karena Supabase biasanya memiliki Trigger pendaftaran otomatis)
+  UPDATE public.profiles SET name = 'Admin Petrus' WHERE id = new_admin_id;
+  
+  -- Jika ternyata tidak ada trigger, sisipkan secara manual:
   INSERT INTO public.profiles (id, name, created_at)
-  VALUES (new_admin_id, 'Admin Petrus', now());
+  VALUES (new_admin_id, 'Admin Petrus', now())
+  ON CONFLICT (id) DO UPDATE SET name = EXCLUDED.name;
 
   -- 3. Injeksi ID tersebut langsung ke tabel admin_users (Yang baru saja kita buat) agar mendapat Hak Akses Spesial Dasbor
   INSERT INTO public.admin_users (user_id, role, created_at)
