@@ -748,10 +748,10 @@ async function requireAuth() {
         const myBrowserFingerprint = await getDeviceFingerprint();
 
         // Panggil RPC Keamanan Gracely (Mencocokkan sidik jari dengan isi user_sessions)
-        const rpcResponse = await fetch(`${supabaseUrl}/rest/v1/rpc/get_gracely_auth_status`, {
+        const rpcResponse = await fetch(`${SUPABASE_URL}/rest/v1/rpc/get_gracely_auth_status`, {
             method: 'POST',
             headers: {
-                'apikey': supabaseAnonKey,
+                'apikey': SUPABASE_KEY,
                 'Authorization': `Bearer ${token}`,
                 'Content-Type': 'application/json'
             },
