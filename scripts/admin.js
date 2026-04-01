@@ -26,14 +26,75 @@ document.addEventListener('DOMContentLoaded', async () => {
     lucide.createIcons();
     setupTheme();
     
-    // 1. Wait for Auth Layer
-    if (typeof requireAuth === 'function') {
-        await requireAuth(); 
-    }
-    
-    // 2. Validate Admin Access
-    await verifyAdminAccess();
+    // Panggil logika autentikasi khusus Admin (tanpa requireAuth global)
+    await initAdminAuth();
 });
+
+async function initAdminAuth() {
+    const loginPanel = document.getElementById('adminLoginPanel');
+    const authLoader = document.getElementById('authLoader');
+    
+    try {
+        const adminUid = await getUserId();
+        if (!adminUid) {
+            // Belum login sama sekali -> Tampilkan Form Login
+            authLoader.classList.add('hidden');
+            loginPanel.classList.remove('hidden');
+            return;
+        }
+
+        // Sudah ada sesi, verifikasi apakah dia Admin
+        await verifyAdminAccess();
+        
+    } catch (e) {
+        console.error("Error setting up admin auth:", e);
+        authLoader.classList.add('hidden');
+        loginPanel.classList.remove('hidden');
+    }
+}
+
+async function handleAdminLogin(e) {
+    e.preventDefault();
+    const btn = document.getElementById('btnAdminLogin');
+    const errDiv = document.getElementById('adminLoginError');
+    const originalText = btn.innerHTML;
+    
+    btn.innerHTML = `<div class="loader w-4 h-4 border-2 border-t-white inline-block align-middle mr-2"></div> Memeriksa...`;
+    btn.disabled = true;
+    errDiv.classList.add('hidden');
+    
+    const email = document.getElementById('adminEmail').value;
+    const pass = document.getElementById('adminPassword').value;
+    
+    try {
+        const result = await login(email, pass);
+        if (!result.success) {
+            throw new Error(result.message || 'Login gagal.');
+        }
+        
+        currentAdminUid = await getUserId();
+        const { data: isAdmin, error } = await supabaseClient.rpc('is_admin');
+        
+        if (error || !isAdmin) {
+            // Jika bukan admin, tendang sesi tersebut
+            await supabaseClient.auth.signOut();
+            localStorage.removeItem('isAuthenticated');
+            throw new Error('Akses Ditolak: Anda bukan administrator.');
+        }
+        
+        // Pindah ke tampilan Dashboard Load
+        document.getElementById('adminLoginPanel').classList.add('hidden');
+        document.getElementById('authLoader').classList.remove('hidden'); 
+        
+        await verifyAdminAccess();
+        
+    } catch(err) {
+        errDiv.textContent = err.message;
+        errDiv.classList.remove('hidden');
+        btn.innerHTML = originalText;
+        btn.disabled = false;
+    }
+}
 
 // Setup Dark Mode
 function setupTheme() {
@@ -57,23 +118,40 @@ async function verifyAdminAccess() {
         
         if (error || !isAdmin) {
             console.warn("RESTRICTED: You do not have admin access.");
-            // Lempar kembali ke dashboard pengguna biasa
-            window.location.href = 'dashboard.html';
-            return;
+            throw new Error("Akses Ditolak: Anda bukan administrator.");
         }
 
         // Set nama admin
         document.getElementById('adminNameDisplay').textContent = localStorage.getItem('userName') || 'Admin Utama';
         
-        // Hide Loader
-        authLoader.classList.add('hidden');
+        // Hide Loader, Hide Login Form, Show Main Dashboard
+        document.getElementById('authLoader').classList.add('hidden');
+        document.getElementById('adminLoginPanel').classList.add('hidden');
+        
+        const dbLayout = document.getElementById('adminDashboardLayout');
+        if (dbLayout) {
+            dbLayout.classList.remove('hidden');
+            dbLayout.classList.add('flex');
+        }
 
         // Load Initial Data
         loadDashboardData();
 
     } catch (e) {
         console.error("Admin verification failed:", e);
-        window.location.href = 'dashboard.html';
+        
+        // Jika akses gagal (sesi ditolak/bukan admin), kembalikan ke layar login pannel
+        supabaseClient.auth.signOut(); // Bersihkan dari local state juga
+        
+        document.getElementById('authLoader').classList.add('hidden');
+        const loginPanel = document.getElementById('adminLoginPanel');
+        if (loginPanel) loginPanel.classList.remove('hidden');
+        
+        const errDiv = document.getElementById('adminLoginError');
+        if (errDiv) {
+            errDiv.textContent = e.message || "Akses Ditolak. Silakan coba lagi.";
+            errDiv.classList.remove('hidden');
+        }
     }
 }
 
