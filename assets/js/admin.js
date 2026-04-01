@@ -96,23 +96,73 @@ async function handleAdminLogin(e) {
     }
 }
 
-// Setup Dark Mode
+// Sidebar Togglers
+function toggleAdminSidebar() {
+    const sidebar = document.getElementById('adminSidebar');
+    if (sidebar) sidebar.classList.toggle('collapsed');
+}
+
+function toggleMobileSidebar() {
+    const sidebar = document.getElementById('adminSidebar');
+    const overlay = document.getElementById('mobileSidebarOverlay');
+    if (sidebar && overlay) {
+        const isClosed = sidebar.classList.contains('-translate-x-full');
+        if (isClosed) {
+            sidebar.classList.remove('-translate-x-full');
+            overlay.classList.remove('hidden');
+        } else {
+            sidebar.classList.add('-translate-x-full');
+            overlay.classList.add('hidden');
+        }
+    }
+}
+
+// Setup Tema Tampilan & Sidebar UI
 function setupTheme() {
     try {
         const isDark = localStorage.getItem('theme') === 'dark' || (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches);
-        if (isDark) document.documentElement.classList.add('dark');
-        
-        const toggleBtn = document.getElementById('themeToggle');
-        if (toggleBtn) {
-            toggleBtn.addEventListener('click', () => {
-                document.documentElement.classList.toggle('dark');
-                try {
-                    localStorage.setItem('theme', document.documentElement.classList.contains('dark') ? 'dark' : 'light');
-                } catch (e) {}
-            });
+        if (isDark) {
+            document.documentElement.classList.add('dark');
+        } else {
+            document.documentElement.classList.remove('dark');
         }
+        updateThemeSidebarUI();
     } catch (e) {
         console.warn('Storage disabled or incognito block. Theme fallback to light.');
+    }
+}
+
+function setAdminTheme(theme) {
+    if (theme === 'dark') {
+        document.documentElement.classList.add('dark');
+    } else {
+        document.documentElement.classList.remove('dark');
+    }
+    try { localStorage.setItem('theme', theme); } catch(e) {}
+    updateThemeSidebarUI();
+}
+
+function toggleThemeOnly() {
+    const isDark = document.documentElement.classList.contains('dark');
+    setAdminTheme(isDark ? 'light' : 'dark');
+}
+
+function updateThemeSidebarUI() {
+    const isDark = document.documentElement.classList.contains('dark');
+    const btnLight = document.getElementById('btnThemeLight');
+    const btnDark = document.getElementById('btnThemeDark');
+    
+    const activeClass = "flex-1 py-1.5 text-[11px] font-bold bg-white dark:bg-gray-700 rounded-md shadow text-gray-800 dark:text-white transition-colors flex justify-center items-center gap-1.5";
+    const inactiveClass = "flex-1 py-1.5 text-[11px] font-bold text-gray-500 dark:text-gray-400 hover:text-gray-800 dark:hover:text-white transition-colors flex justify-center items-center gap-1.5";
+    
+    if (btnLight && btnDark) {
+        if (isDark) {
+            btnDark.className = activeClass;
+            btnLight.className = inactiveClass;
+        } else {
+            btnLight.className = activeClass;
+            btnDark.className = inactiveClass;
+        }
     }
 }
 
@@ -169,12 +219,28 @@ function switchTab(tabId) {
     // Hide all
     Object.values(tabs).forEach(el => el.classList.add('hidden'));
     Object.values(tabButons).forEach(el => {
-        el.className = "w-full flex items-center gap-3 px-4 py-3 text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-xl font-medium transition-colors border border-transparent";
+        el.className = "w-full flex items-center px-3 py-2.5 text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg font-semibold transition-colors border border-transparent group";
     });
 
     // Show active
     tabs[tabId].classList.remove('hidden');
-    tabButons[tabId].className = "w-full flex items-center gap-3 px-4 py-3 bg-brand-50 text-brand-700 dark:bg-brand-900/30 dark:text-brand-400 rounded-xl font-medium transition-colors border border-transparent";
+    tabButons[tabId].className = "w-full flex items-center px-3 py-2.5 bg-brand-50 text-brand-700 dark:bg-brand-900/40 dark:text-brand-400 rounded-lg font-bold transition-colors border border-transparent group";
+
+    // Update Mobile Title
+    const mobileTitle = document.getElementById('mobilePageTitle');
+    if (mobileTitle) {
+        if (tabId === 'overview') mobileTitle.textContent = 'Dasbor Admin';
+        if (tabId === 'users') mobileTitle.textContent = 'Kelola Akun';
+        if (tabId === 'activity') mobileTitle.textContent = 'Log Aktivitas';
+    }
+
+    // Auto-close mobile sidebar if open
+    const sidebar = document.getElementById('adminSidebar');
+    const overlay = document.getElementById('mobileSidebarOverlay');
+    if (sidebar && !sidebar.classList.contains('-translate-x-full') && window.innerWidth < 768) {
+        sidebar.classList.add('-translate-x-full');
+        if(overlay) overlay.classList.add('hidden');
+    }
 
     // Lazy Load Data
     if (tabId === 'users') loadUsers();

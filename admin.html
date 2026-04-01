@@ -72,9 +72,34 @@
         .modal.active .modal-content {
             transform: scale(1) translateY(0);
         }
+
+        /* Sidebar Toggle Animations */
+        #adminSidebar { transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1); width: 16rem; }
+        #adminSidebar.collapsed { width: 4.5rem; }
+        .sidebar-text { transition: opacity 0.2s ease, width 0.2s ease, margin 0.2s ease; white-space: nowrap; overflow: hidden; }
+        #adminSidebar.collapsed .sidebar-text { opacity: 0; width: 0; margin: 0; }
+        #sidebarContent { width: 16rem; transition: opacity 0.2s ease; }
+        #adminSidebar.collapsed #sidebarContent { opacity: 0; pointer-events: none; }
+        
+        /* Minimalist Hover-Only Scrollbar */
+        .hover-scroll {
+            scrollbar-width: thin;
+            scrollbar-color: transparent transparent;
+        }
+        .hover-scroll:hover {
+            scrollbar-color: #cbd5e1 transparent;
+        }
+        .dark .hover-scroll:hover {
+            scrollbar-color: #4b5563 transparent;
+        }
+        .hover-scroll::-webkit-scrollbar { width: 5px; height: 5px; }
+        .hover-scroll::-webkit-scrollbar-track { background-color: transparent; }
+        .hover-scroll::-webkit-scrollbar-thumb { background-color: transparent; border-radius: 10px; }
+        .hover-scroll:hover::-webkit-scrollbar-thumb { background-color: #cbd5e1; }
+        .dark .hover-scroll:hover::-webkit-scrollbar-thumb { background-color: #4b5563; }
     </style>
 </head>
-<body class="bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-200 min-h-screen flex flex-col transition-colors duration-200">
+<body class="h-screen flex flex-col overflow-hidden bg-gray-50 dark:bg-gray-950 text-gray-800 dark:text-gray-200 transition-colors duration-200">
 
     <!-- Global Loader -->
     <div id="authLoader" class="fixed inset-0 bg-white/80 dark:bg-gray-900/80 backdrop-blur z-[100] flex flex-col justify-center items-center">
@@ -128,58 +153,103 @@
         </div>
     </div>
 
-    <!-- Admin Dashboard Layout Wrapper -->
-    <div id="adminDashboardLayout" class="hidden flex-col w-full min-h-screen">
-
-    <!-- Top Navbar -->
-    <header class="glass-panel sticky top-0 z-40 w-full shadow-sm">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between items-center h-16">
-                <div class="flex items-center gap-2">
-                    <div class="p-2 bg-brand-500 rounded-lg text-white">
-                        <i data-lucide="shield-check" class="w-5 h-5"></i>
-                    </div>
-                    <span class="font-bold text-xl tracking-tight text-gray-900 dark:text-white">Gracely Admin</span>
-                </div>
-                <div class="flex items-center gap-4">
-                    <button id="themeToggle" class="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-500 transition-colors">
-                        <i data-lucide="moon" class="w-5 h-5 dark:hidden"></i>
-                        <i data-lucide="sun" class="w-5 h-5 hidden dark:block text-yellow-400"></i>
+    <!-- Admin Dashboard Layout Wrapper (Hidden initially) -->
+    <div id="adminDashboardLayout" class="hidden flex-1 flex overflow-hidden">
+        
+        <!-- Sidebar Controls -->
+        <!-- Pada perangkat mobile (-translate-x-full absolute z-50), pada desktop relatif -->
+        <aside id="adminSidebar" class="bg-white dark:bg-gray-900 border-r border-gray-200 dark:border-gray-800 flex flex-col shadow-sm z-40 md:relative absolute inset-y-0 left-0 transform -translate-x-full md:translate-x-0 transition-all duration-300 overflow-hidden flex-shrink-0 w-64 md:w-auto">
+            
+            <!-- Sidebar Header -->
+            <div class="h-16 px-4 border-b border-gray-200 dark:border-gray-800 flex items-center justify-between md:justify-start flex-shrink-0">
+                <div class="flex items-center">
+                    <button onclick="toggleAdminSidebar()" class="p-2 -ml-1 hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-600 dark:text-gray-300 rounded-full transition-colors focus:outline-none hidden md:block" title="Perluas / Perkecil Menu">
+                        <i data-lucide="menu" class="w-5 h-5"></i>
                     </button>
-                    <div class="flex items-center gap-3 pl-4 border-l border-gray-200 dark:border-gray-700">
-                        <div class="text-right hidden sm:block">
-                            <p class="text-sm font-bold text-gray-900 dark:text-white" id="adminNameDisplay">Admin</p>
-                            <p class="text-xs text-brand-600 dark:text-brand-400">Superuser</p>
+                    <div class="sidebar-text flex items-center gap-2 ml-3">
+                        <div class="p-1.5 bg-brand-500 rounded-md text-white">
+                            <i data-lucide="shield-check" class="w-4 h-4"></i>
                         </div>
-                        <button onclick="logout()" class="p-2 text-red-500 hover:bg-red-50 dark:hover:bg-red-900/20 rounded-lg transition-colors" title="Keluar">
-                            <i data-lucide="log-out" class="w-5 h-5"></i>
+                        <h1 class="text-base font-bold tracking-tight text-gray-900 dark:text-white">Gracely Admin</h1>
+                    </div>
+                </div>
+                <!-- Tombol tutup Sidebar Mobile -->
+                <button onclick="toggleMobileSidebar()" class="p-2 text-gray-500 md:hidden rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">
+                    <i data-lucide="x" class="w-5 h-5"></i>
+                </button>
+            </div>
+            
+            <!-- Scrollable Sidebar Content -->
+            <div class="flex-1 overflow-y-auto overflow-x-hidden relative hover-scroll">
+                <div id="sidebarContent" class="p-4 space-y-2">
+                    <p class="sidebar-text text-[10px] font-bold text-gray-400 dark:text-gray-500 uppercase tracking-wider mb-2 px-1">Menu Utama</p>
+                    
+                    <button onclick="switchTab('overview')" id="tab-overview" class="w-full flex items-center px-3 py-2.5 bg-brand-50 text-brand-700 dark:bg-brand-900/40 dark:text-brand-400 rounded-lg font-bold transition-colors border border-transparent group">
+                        <i data-lucide="layout-dashboard" class="w-5 h-5 flex-shrink-0 group-hover:scale-110 transition-transform"></i> 
+                        <span class="sidebar-text ml-3 text-sm">Ringkasan</span>
+                    </button>
+                    <button onclick="switchTab('users')" id="tab-users" class="w-full flex items-center px-3 py-2.5 text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg font-semibold transition-colors border border-transparent group">
+                        <i data-lucide="users" class="w-5 h-5 flex-shrink-0 group-hover:scale-110 transition-transform"></i> 
+                        <span class="sidebar-text ml-3 text-sm">Kelola Akun</span>
+                    </button>
+                    <button onclick="switchTab('activity')" id="tab-activity" class="w-full flex items-center px-3 py-2.5 text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg font-semibold transition-colors border border-transparent group">
+                        <i data-lucide="shield-alert" class="w-5 h-5 flex-shrink-0 group-hover:scale-110 transition-transform"></i> 
+                        <span class="sidebar-text ml-3 text-sm">Log Aktivitas</span>
+                    </button>
+                    
+                    <div class="sidebar-text pt-4 pb-2">
+                        <p class="text-[10px] font-bold text-gray-400 dark:text-gray-500 uppercase tracking-wider px-1">Tampilan</p>
+                    </div>
+                    
+                    <!-- Theme Switcher -->
+                    <div class="sidebar-text flex p-1 bg-gray-100 dark:bg-gray-800 rounded-lg">
+                        <button id="btnThemeLight" onclick="setAdminTheme('light')" class="flex-1 py-1.5 text-[11px] font-bold bg-white dark:bg-gray-700 rounded-md shadow text-gray-800 dark:text-white transition-colors flex justify-center items-center gap-1.5">
+                            <i data-lucide="sun" class="w-3.5 h-3.5"></i> Terang
+                        </button>
+                        <button id="btnThemeDark" onclick="setAdminTheme('dark')" class="flex-1 py-1.5 text-[11px] font-bold text-gray-500 dark:text-gray-400 hover:text-gray-800 dark:hover:text-white transition-colors flex justify-center items-center gap-1.5">
+                            <i data-lucide="moon" class="w-3.5 h-3.5"></i> Gelap
                         </button>
                     </div>
                 </div>
             </div>
-        </div>
-    </header>
-
-    <!-- Main Content -->
-    <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 flex gap-6 flex-col md:flex-row">
-        
-        <!-- Sidebar Navigation -->
-        <aside class="w-full md:w-64 flex-shrink-0">
-            <nav class="space-y-1">
-                <button onclick="switchTab('overview')" id="tab-overview" class="w-full flex items-center gap-3 px-4 py-3 bg-brand-50 text-brand-700 dark:bg-brand-900/30 dark:text-brand-400 rounded-xl font-medium transition-colors border border-transparent">
-                    <i data-lucide="layout-dashboard" class="w-5 h-5"></i> Ringkasan
+            
+            <!-- Sidebar Footer -->
+            <div class="p-3 border-t border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-900 mt-auto flex flex-col gap-2 flex-shrink-0">
+                <div class="flex items-center gap-3 px-2 py-2 mb-2 sidebar-text">
+                    <div class="w-8 h-8 rounded-full bg-indigo-100 dark:bg-indigo-900/50 flex items-center justify-center text-indigo-600 dark:text-indigo-400 border border-indigo-200 dark:border-indigo-800 flex-shrink-0">
+                        <i data-lucide="user" class="w-4 h-4"></i>
+                    </div>
+                    <div class="overflow-hidden">
+                        <p class="text-xs font-bold text-gray-900 dark:text-white truncate" id="adminNameDisplay">Admin</p>
+                        <p class="text-[10px] text-brand-600 dark:text-brand-400 font-medium">Superuser</p>
+                    </div>
+                </div>
+                
+                <!-- Logout Button -->
+                <button onclick="logout()" class="w-full h-10 bg-red-50 hover:bg-red-100 dark:bg-red-900/20 dark:hover:bg-red-900/40 text-red-600 dark:text-red-400 border border-red-100 dark:border-red-900/50 rounded-lg font-bold text-[11px] transition-all flex justify-center items-center overflow-hidden">
+                    <i data-lucide="log-out" class="w-4 h-4 flex-shrink-0"></i>
+                    <span class="sidebar-text ml-2">Keluar Sesi</span>
                 </button>
-                <button onclick="switchTab('users')" id="tab-users" class="w-full flex items-center gap-3 px-4 py-3 text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-xl font-medium transition-colors border border-transparent">
-                    <i data-lucide="users" class="w-5 h-5"></i> Kelola Akun
-                </button>
-                <button onclick="switchTab('activity')" id="tab-activity" class="w-full flex items-center gap-3 px-4 py-3 text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-xl font-medium transition-colors border border-transparent">
-                    <i data-lucide="activity" class="w-5 h-5"></i> Log Aktivitas
-                </button>
-            </nav>
+            </div>
         </aside>
 
-        <!-- Dynamic Panels -->
-        <section class="flex-1 min-w-0">
+        <!-- Overlay for Mobile Sidebar -->
+        <div id="mobileSidebarOverlay" onclick="toggleMobileSidebar()" class="fixed inset-0 bg-black/50 z-30 hidden md:hidden backdrop-blur-sm transition-opacity"></div>
+
+
+        <!-- Main Content (Canvas) -->
+        <main class="flex-1 flex flex-col relative overflow-hidden bg-gray-50/50 dark:bg-gray-900/10">
+            
+            <!-- Mobile Top Header (Hanya muncul di HP) -->
+            <header class="md:hidden h-14 border-b border-gray-200 dark:border-gray-800 px-4 flex items-center justify-between shrink-0 bg-white dark:bg-gray-900 z-10">
+                <button onclick="toggleMobileSidebar()" class="p-2 -ml-2 text-gray-600 dark:text-gray-300 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">
+                    <i data-lucide="menu" class="w-5 h-5"></i>
+                </button>
+                <div class="font-bold text-sm tracking-tight text-gray-900 dark:text-white" id="mobilePageTitle">Dasbor Admin</div>
+                <div class="w-9"></div><!-- Spacer for centering -->
+            </header>
+
+            <section class="flex-1 overflow-y-auto p-4 md:p-8 relative hover-scroll min-w-0">
             
             <!-- PANEL 1: Overview -->
             <div id="panel-overview" class="space-y-6">
@@ -320,7 +390,7 @@
             </div>
 
         </section>
-    </main>
+        </main>
 
     </div> <!-- End Admin Dashboard Layout -->
 
