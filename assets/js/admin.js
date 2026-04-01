@@ -269,40 +269,15 @@ function formatDate(isoString) {
 
 // Load Dashboard Overview
 async function loadDashboardData() {
+    // 1. Fetch Profiles Top 10
     try {
-        // Fetch 5 profiles for overview
-        const { data: profiles, error: errProf } = await supabaseClient
+        const { data: profiles, error } = await supabaseClient
             .from('profiles')
             .select('*')
             .order('created_at', { ascending: false })
-            .limit(5);
-
-        // Fetch User Count (Efficiently)
-        const { count: totalUsers } = await supabaseClient
-            .from('profiles')
-            .select('id', { count: 'exact', head: true });
-
-        // Fetch Activity Today
-        const startOfDay = new Date();
-        startOfDay.setHours(0,0,0,0);
-        const { count: todayActivity } = await supabaseClient
-            .from('activity_logs')
-            .select('id', { count: 'exact', head: true })
-            .gte('created_at', startOfDay.toISOString());
-
-        // Fetch Active Sessions
-        const { count: activeSessions } = await supabaseClient
-            .from('user_sessions')
-            .select('id', { count: 'exact', head: true });
-
-        // Bind
-        document.getElementById('statTotalUsers').textContent = totalUsers || 0;
-        document.getElementById('statTodayActivity').textContent = todayActivity || 0;
-        document.getElementById('statActiveSessions').textContent = activeSessions || 0;
-
-        renderActivityChart();
-
-        if (!errProf && profiles) {
+            .limit(10);
+            
+        if (!error && profiles) {
             const tbody = document.getElementById('overviewUserTableBody');
             tbody.innerHTML = '';
             profiles.forEach(p => {
@@ -323,7 +298,27 @@ async function loadDashboardData() {
                 tbody.appendChild(tr);
             });
         }
-    } catch (e) { console.error("Error loading overview:", e); }
+    } catch(e) { console.warn("Profiles error:", e); }
+
+    // 2. Counts
+    try {
+        const { count: totalUsers } = await supabaseClient.from('profiles').select('id', { count: 'exact', head: true });
+        document.getElementById('statTotalUsers').textContent = totalUsers || 0;
+    } catch(e) {}
+    
+    try {
+        const startOfDay = new Date(); startOfDay.setHours(0,0,0,0);
+        const { count: todayActivity } = await supabaseClient.from('activity_logs').select('id', { count: 'exact', head: true }).gte('created_at', startOfDay.toISOString());
+        document.getElementById('statTodayActivity').textContent = todayActivity || 0;
+    } catch(e) {}
+
+    try {
+        const { count: activeSessions } = await supabaseClient.from('user_sessions').select('id', { count: 'exact', head: true });
+        document.getElementById('statActiveSessions').textContent = activeSessions || "N/A";
+    } catch(e) {}
+
+    // 3. Render Chart (dilindungi sendiri di dalam fungsinya)
+    renderActivityChart();
 }
 
 // Helper Get Effective Plan
@@ -440,7 +435,7 @@ async function loadActivityLogs() {
             .from('activity_logs')
             .select('*')
             .order('created_at', { ascending: false })
-            .limit(100);
+            .limit(20);
 
         if (error) throw error;
         
@@ -939,6 +934,8 @@ function openNotificationModal() {
     document.getElementById('notifKeyId').value = '';
     document.getElementById('notifHtmlContent').value = '';
     document.getElementById('notifIsEnabled').checked = true;
+    document.getElementById('notifModalTitle').innerHTML = '<i data-lucide="bell" class="w-5 h-5 text-brand-500"></i> Buat Notifikasi Baru';
+    lucide.createIcons();
     document.getElementById('modalEditNotification').classList.add('active');
 }
 
@@ -950,6 +947,8 @@ function editNotification(index) {
     document.getElementById('notifKeyId').value = data.key_id;
     document.getElementById('notifHtmlContent').value = data.html_content || '';
     document.getElementById('notifIsEnabled').checked = data.is_enabled;
+    document.getElementById('notifModalTitle').innerHTML = '<i data-lucide="edit-3" class="w-5 h-5 text-brand-500"></i> Edit Notifikasi (' + data.key_id + ')';
+    lucide.createIcons();
     document.getElementById('modalEditNotification').classList.add('active');
 }
 
@@ -974,34 +973,61 @@ async function saveNotification() {
     };
 
     if(!payload.key_id) return alert("Key ID Wajib!");
+    
+    const ori = btn.innerHTML;
+    btn.innerHTML = 'Menyimpan...';
     btn.disabled = true;
 
     try {
-        let result = id ? await supabaseClient.from('gracely_notifications').update(payload).eq('id', id) : await supabaseClient.from('gracely_notifications').insert([payload]);
-        if (result.error) throw result.error;
+        let error = null;
+        if(id) {
+            const res = await supabaseClient.from('gracely_notifications').update(payload).eq('id', id);
+            error = res.error;
+        } else {
+            const res = await supabaseClient.from('gracely_notifications').insert([payload]);
+            error = res.error;
+        }
+        
+        if (error) throw error;
         closeModal('modalEditNotification');
+        alert("Notifikasi disimpan!");
         loadNotifications();
-    } catch (e) { alert("Gagal: " + e.message); } 
-    finally { btn.disabled = false; }
+    } catch (e) { 
+        alert("Gagal Menyimpan Data! (Cek RLS/Koneksi):\n" + e.message); 
+    } finally { 
+        btn.innerHTML = ori;
+        btn.disabled = false; 
+    }
 }
 
 // -- 6. Services Logics
-async function loadServices() {
+let currentServicePage = 1;
+
+async function loadServices(page = 1) {
+    currentServicePage = page;
+    const limitInput = document.getElementById('serviceLimitInput');
+    const limit = limitInput ? parseInt(limitInput.value) : 10;
+    
     const tbody = document.getElementById('servicesTableBody');
     const loading = document.getElementById('servicesLoading');
     if (loading) loading.classList.remove('hidden');
     
     try {
-        const { data: services, error } = await supabaseClient
+        const fromRow = (page - 1) * limit;
+        const toRow = fromRow + limit - 1;
+        
+        const { data: services, count, error } = await supabaseClient
             .from('gracely_services')
-            .select('*')
-            .order('created_at', { ascending: false });
+            .select('*', { count: 'exact' })
+            .order('created_at', { ascending: false })
+            .range(fromRow, toRow);
             
         if (error) throw error;
         
         tbody.innerHTML = '';
         if (!services || services.length === 0) {
             tbody.innerHTML = `<tr><td colspan="4" class="px-6 py-4 text-center text-xs text-gray-500 font-medium">Belum ada layanan eksternal yang dikonfigurasi.</td></tr>`;
+            updateServicePagination(0, limit);
             return;
         }
 
@@ -1037,6 +1063,7 @@ async function loadServices() {
             `;
             tbody.appendChild(tr);
         });
+        updateServicePagination(count, limit);
         lucide.createIcons();
     } catch (e) {
         tbody.innerHTML = `<tr><td colspan="4" class="px-6 py-4 text-center text-xs text-red-500 font-medium whitespace-pre-wrap">Gagal memuat tabel:\n${e.message}</td></tr>`;
@@ -1044,6 +1071,18 @@ async function loadServices() {
     } finally {
         if (loading) loading.classList.add('hidden');
     }
+}
+
+function updateServicePagination(totalRows, limit) {
+    const totalPages = Math.ceil(totalRows / limit) || 1;
+    const label = document.getElementById('servicePageLabel');
+    if(label) label.textContent = `Halaman ${currentServicePage} / ${totalPages} (${totalRows} total)`;
+}
+
+function changeServicePage(dir) {
+    // Basic navigation (dir === 1 or -1)
+    if(dir === 1) { loadServices(currentServicePage + 1); }
+    else if(dir === -1 && currentServicePage > 1) { loadServices(currentServicePage - 1); }
 }
 
 function openServiceModal() { alert("Kerangka Modal Tersedia. Tambahkan form HTML jika table schema sudah permanen."); }
