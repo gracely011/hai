@@ -153,22 +153,9 @@ function toggleThemeOnly() {
 }
 
 function updateThemeSidebarUI() {
-    const isDark = document.documentElement.classList.contains('dark');
-    const btnLight = document.getElementById('btnThemeLight');
-    const btnDark = document.getElementById('btnThemeDark');
-    
-    const activeClass = "flex-1 py-1.5 text-[11px] font-bold bg-white dark:bg-gray-700 rounded-md shadow text-gray-800 dark:text-white transition-colors flex justify-center items-center gap-1.5";
-    const inactiveClass = "flex-1 py-1.5 text-[11px] font-bold text-gray-500 dark:text-gray-400 hover:text-gray-800 dark:hover:text-white transition-colors flex justify-center items-center gap-1.5";
-    
-    if (btnLight && btnDark) {
-        if (isDark) {
-            btnDark.className = activeClass;
-            btnLight.className = inactiveClass;
-        } else {
-            btnLight.className = activeClass;
-            btnDark.className = inactiveClass;
-        }
-    }
+    // There are no dedicated theme buttons in the sidebar header anymore.
+    // They are moved to the "More" menu and just toggle. 
+    // This function can remain empty or handle global updates.
 }
 
 // Verifikasi Hak Akses Admin melalui RPC
@@ -220,16 +207,17 @@ async function verifyAdminAccess() {
 }
 
 // Tab Switching
+// Tab Switching
 function switchTab(tabId) {
     // Hide all
     Object.values(tabs).forEach(el => el.classList.add('hidden'));
     Object.values(tabButons).forEach(el => {
-        el.className = "w-full flex items-center px-3 py-2.5 text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg font-semibold transition-colors border border-transparent group";
+        el.classList.remove('active');
     });
 
     // Show active
     tabs[tabId].classList.remove('hidden');
-    tabButons[tabId].className = "w-full flex items-center px-3 py-2.5 bg-brand-50 text-brand-700 dark:bg-brand-900/40 dark:text-brand-400 rounded-lg font-bold transition-colors border border-transparent group";
+    tabButons[tabId].classList.add('active');
 
     // Update Mobile Title
     const mobileTitle = document.getElementById('mobilePageTitle');
@@ -237,8 +225,8 @@ function switchTab(tabId) {
         if (tabId === 'overview') mobileTitle.textContent = 'Dasbor Admin';
         if (tabId === 'users') mobileTitle.textContent = 'Kelola Akun';
         if (tabId === 'activity') mobileTitle.textContent = 'Log Aktivitas';
-        if (tabId === 'notifications') mobileTitle.textContent = 'Sistem Notif';
-        if (tabId === 'services') mobileTitle.textContent = 'Manajemen Layanan';
+        if (tabId === 'notifications') mobileTitle.textContent = 'Notifikasi';
+        if (tabId === 'services') mobileTitle.textContent = 'Layanan Kustom';
     }
 
     // Auto-close mobile sidebar if open
@@ -255,6 +243,29 @@ function switchTab(tabId) {
     if (tabId === 'notifications') loadNotifications();
     if (tabId === 'services') loadServices();
 }
+
+// "Lainnya" More Menu Popup Toggle
+function toggleMoreMenu(event) {
+    if(event) {
+        event.stopPropagation();
+        event.preventDefault();
+    }
+    const menu = document.getElementById('moreMenuPopup');
+    if(menu) {
+        menu.classList.toggle('open');
+    }
+}
+
+// Close "Lainnya" menu when clicked outside
+document.addEventListener('click', function(e) {
+    const menu = document.getElementById('moreMenuPopup');
+    if(menu && menu.classList.contains('open')) {
+        // If the click is not inside the menu
+        if(!menu.contains(e.target) && !e.target.closest('[onclick="toggleMoreMenu(event)"]')) {
+            menu.classList.remove('open');
+        }
+    }
+});
 
 // Format Tanggal
 function formatDate(isoString) {
