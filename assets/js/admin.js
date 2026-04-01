@@ -273,7 +273,7 @@ async function loadDashboardData() {
         // Fetch 5 profiles for overview
         const { data: profiles, error: errProf } = await supabaseClient
             .from('profiles')
-            .select('id, name, premiumExpiryDate, pro_expiry_date, phantom_expiry_date, last_sign_in, created_at')
+            .select('*')
             .order('created_at', { ascending: false })
             .limit(5);
 
@@ -356,7 +356,7 @@ async function loadUsers() {
     try {
         const { data: profiles, error } = await supabaseClient
             .from('profiles')
-            .select('id, name, allow_multilogin, max_devices, premiumExpiryDate, pro_expiry_date, phantom_expiry_date, last_sign_in, created_at')
+            .select('*')
             .order('created_at', { ascending: false })
             .limit(100);
 
@@ -548,6 +548,12 @@ function selectPlanForm(planType) {
     } else {
         dateInput.value = '';
     }
+
+    // Set Multi Login Setup
+    const mLoginChk = document.getElementById('editMultiLogin');
+    const mLoginMax = document.getElementById('editMaxDevices');
+    if(mLoginChk) mLoginChk.checked = user.allow_multilogin || false;
+    if(mLoginMax) mLoginMax.value = user.max_devices || 1;
 }
 
 // Tanggal Preset Calculator
@@ -580,13 +586,26 @@ async function saveSubscription() {
         const targetDate = inputVal ? new Date(inputVal).toISOString() : null;
 
         // Panggil RPC
-        const { data, error } = await supabaseClient.rpc('admin_update_subscription', {
+        const { error } = await supabaseClient.rpc('admin_update_subscription', {
             p_target_uid: activeEditTargetUid,
             p_plan_type: activePlanType,
             p_expire_date: targetDate
         });
 
         if (error) throw error;
+
+        // Menyimpan status multi-login langsung ke tabel profiles
+        const mLogChk = document.getElementById('editMultiLogin');
+        const mLogMax = document.getElementById('editMaxDevices');
+        if(mLogChk && mLogMax) {
+            const isMulti = mLogChk.checked;
+            const maxDev = parseInt(mLogMax.value) || 1;
+            const res = await supabaseClient.from('profiles').update({
+                allow_multilogin: isMulti,
+                max_devices: maxDev
+            }).eq('id', activeEditTargetUid);
+            if(res.error) console.warn("Failed updating multi-login:", res.error);
+        }
 
         // Sukses
         closeModal('modalEditSub');
@@ -657,8 +676,7 @@ async function renderActivityChart() {
         const { data: logs, error } = await supabaseClient
             .from('activity_logs')
             .select('created_at, activity')
-            .gte('created_at', sevenDaysAgo.toISOString())
-            .ilike('activity', '%login%');
+            .gte('created_at', sevenDaysAgo.toISOString());
             
         const dataCounts = [0, 0, 0, 0, 0, 0, 0];
         if (!error && logs) {
@@ -867,6 +885,8 @@ async function quickActionCreateDummy() {
 }
 
 // -- 5. Notifications CRUD
+let cachedNotifications = [];
+
 async function loadNotifications() {
     document.getElementById('notificationsLoading').classList.remove('hidden');
     document.getElementById('notificationsTableBody').innerHTML = '';
@@ -877,13 +897,14 @@ async function loadNotifications() {
             .order('created_at', { ascending: false });
         if (error) throw error;
 
+        cachedNotifications = notifs || [];
         const tbody = document.getElementById('notificationsTableBody');
-        if (!notifs || notifs.length === 0) {
+        if (cachedNotifications.length === 0) {
             tbody.innerHTML = `<tr><td colspan="4" class="px-6 py-4 text-center text-xs text-gray-500">Tidak ada notifikasi sistem di database.</td></tr>`;
             return;
         }
 
-        notifs.forEach(n => {
+        cachedNotifications.forEach((n, index) => {
             const tr = document.createElement('tr');
             tr.className = "hover:bg-gray-50/50 dark:hover:bg-gray-800/30 transition-colors";
             tr.innerHTML = `
@@ -900,10 +921,9 @@ async function loadNotifications() {
                     </div>
                 </td>
                 <td class="px-6 py-4 text-right">
-                    <button onclick='editNotification(${JSON.stringify(n).replace(/'/g, "\\'")})' title="Edit Popup" class="p-1.5 bg-blue-50 hover:bg-blue-100 text-blue-600 rounded transition-colors dark:bg-blue-900/30 dark:hover:bg-blue-900/60 dark:text-blue-400">
+                    <button onclick="editNotification(${index})" title="Edit Popup" class="p-1.5 bg-blue-50 hover:bg-blue-100 text-blue-600 rounded transition-colors dark:bg-blue-900/30 dark:hover:bg-blue-900/60 dark:text-blue-400">
                         <i data-lucide="edit-3" class="w-4 h-4"></i>
                     </button>
-                    <!-- For real world, add delete button + RPC here -->
                 </td>
             `;
             tbody.appendChild(tr);
@@ -922,7 +942,9 @@ function openNotificationModal() {
     document.getElementById('modalEditNotification').classList.add('active');
 }
 
-function editNotification(data) {
+function editNotification(index) {
+    const data = cachedNotifications[index];
+    if(!data) return;
     document.getElementById('notifId').value = data.id;
     document.getElementById('notifType').value = data.type;
     document.getElementById('notifKeyId').value = data.key_id;
@@ -966,7 +988,62 @@ async function saveNotification() {
 // -- 6. Services Logics
 async function loadServices() {
     const tbody = document.getElementById('servicesTableBody');
-    tbody.innerHTML = `<tr><td colspan="4" class="px-6 py-4 text-center text-xs text-gray-500 font-medium">Tabel 'gracely_services' akan otomatis termuat jika tabel tersebut sudah eksis.</td></tr>`;
+    const loading = document.getElementById('servicesLoading');
+    if (loading) loading.classList.remove('hidden');
+    
+    try {
+        const { data: services, error } = await supabaseClient
+            .from('gracely_services')
+            .select('*')
+            .order('created_at', { ascending: false });
+            
+        if (error) throw error;
+        
+        tbody.innerHTML = '';
+        if (!services || services.length === 0) {
+            tbody.innerHTML = `<tr><td colspan="4" class="px-6 py-4 text-center text-xs text-gray-500 font-medium">Belum ada layanan eksternal yang dikonfigurasi.</td></tr>`;
+            return;
+        }
+
+        services.forEach(svc => {
+            const tr = document.createElement('tr');
+            tr.className = "hover:bg-gray-50/50 dark:hover:bg-gray-800/30 transition-colors";
+            
+            const name = svc.name || svc.title || svc.service_name || svc.id || 'Layanan Anonim';
+            const isActive = svc.is_active !== undefined ? svc.is_active : (svc.status === 'active' || svc.is_enabled);
+            const url = svc.url || svc.endpoint || svc.link || '-';
+            
+            tr.innerHTML = `
+                <td class="px-6 py-4">
+                    <div class="font-bold text-gray-900 dark:text-gray-100">${name}</div>
+                    <div class="text-[10px] text-gray-500 font-mono mt-0.5">${svc.id || '-'}</div>
+                </td>
+                <td class="px-6 py-4">
+                    <div class="flex items-center gap-2">
+                        <span class="relative flex h-2.5 w-2.5">
+                            ${isActive ? `<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span><span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-green-500"></span>` : `<span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-red-500"></span>`}
+                        </span>
+                        <span class="text-xs font-bold ${isActive ? 'text-green-600 dark:text-green-400' : 'text-red-500'}">${isActive ? 'Layanan Tersedia' : 'Sedang Gangguan / Mati'}</span>
+                    </div>
+                </td>
+                <td class="px-6 py-4 text-xs font-mono text-gray-500 dark:text-gray-400 max-w-[200px] truncate" title="${url}">
+                    ${url}
+                </td>
+                <td class="px-6 py-4 text-right">
+                    <button onclick="alert('Fungsi Edit Layanan (Update Row) Belum Disediakan')" class="p-1.5 bg-blue-50 hover:bg-blue-100 text-blue-600 rounded transition-colors dark:bg-blue-900/30 dark:hover:bg-blue-900/60 dark:text-blue-400">
+                        <i data-lucide="settings" class="w-4 h-4"></i>
+                    </button>
+                </td>
+            `;
+            tbody.appendChild(tr);
+        });
+        lucide.createIcons();
+    } catch (e) {
+        tbody.innerHTML = `<tr><td colspan="4" class="px-6 py-4 text-center text-xs text-red-500 font-medium whitespace-pre-wrap">Gagal memuat tabel:\n${e.message}</td></tr>`;
+        console.error("Gagal load layanan: ", e);
+    } finally {
+        if (loading) loading.classList.add('hidden');
+    }
 }
 
-function openServiceModal() { alert("Simulasi UI selesai. Backend tabel ini perlu dikonstruksi melalui SQL Editor Supabase terlebih dahulu."); }
+function openServiceModal() { alert("Kerangka Modal Tersedia. Tambahkan form HTML jika table schema sudah permanen."); }
