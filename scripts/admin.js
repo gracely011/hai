@@ -98,13 +98,22 @@ async function handleAdminLogin(e) {
 
 // Setup Dark Mode
 function setupTheme() {
-    const isDark = localStorage.getItem('theme') === 'dark' || (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches);
-    if (isDark) document.documentElement.classList.add('dark');
-    
-    document.getElementById('themeToggle').addEventListener('click', () => {
-        document.documentElement.classList.toggle('dark');
-        localStorage.setItem('theme', document.documentElement.classList.contains('dark') ? 'dark' : 'light');
-    });
+    try {
+        const isDark = localStorage.getItem('theme') === 'dark' || (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches);
+        if (isDark) document.documentElement.classList.add('dark');
+        
+        const toggleBtn = document.getElementById('themeToggle');
+        if (toggleBtn) {
+            toggleBtn.addEventListener('click', () => {
+                document.documentElement.classList.toggle('dark');
+                try {
+                    localStorage.setItem('theme', document.documentElement.classList.contains('dark') ? 'dark' : 'light');
+                } catch (e) {}
+            });
+        }
+    } catch (e) {
+        console.warn('Storage disabled or incognito block. Theme fallback to light.');
+    }
 }
 
 // Verifikasi Hak Akses Admin melalui RPC
