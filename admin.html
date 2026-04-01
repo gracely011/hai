@@ -31,6 +31,9 @@
     
     <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
@@ -198,6 +201,19 @@
                     </button>
                     
                     <div class="sidebar-text pt-4 pb-2">
+                        <p class="text-[10px] font-bold text-gray-400 dark:text-gray-500 uppercase tracking-wider px-1">Sistem & Konfigurasi</p>
+                    </div>
+                    
+                    <button onclick="switchTab('notifications')" id="tab-notifications" class="w-full flex items-center px-3 py-2.5 text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg font-semibold transition-colors border border-transparent group">
+                        <i data-lucide="bell-ring" class="w-5 h-5 flex-shrink-0 group-hover:scale-110 transition-transform"></i> 
+                        <span class="sidebar-text ml-3 text-sm">Notifikasi (Popup)</span>
+                    </button>
+                    <button onclick="switchTab('services')" id="tab-services" class="w-full flex items-center px-3 py-2.5 text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg font-semibold transition-colors border border-transparent group">
+                        <i data-lucide="layers" class="w-5 h-5 flex-shrink-0 group-hover:scale-110 transition-transform"></i> 
+                        <span class="sidebar-text ml-3 text-sm">Layanan Kustom</span>
+                    </button>
+                    
+                    <div class="sidebar-text pt-4 pb-2">
                         <p class="text-[10px] font-bold text-gray-400 dark:text-gray-500 uppercase tracking-wider px-1">Tampilan</p>
                     </div>
                     
@@ -281,36 +297,60 @@
                             </div>
                         </div>
                     </div>
-                    <div class="glass-panel p-6 rounded-2xl shadow-sm">
-                        <div class="flex items-center justify-between">
-                            <div>
-                                <p class="text-sm font-medium text-gray-500 dark:text-gray-400">Sesi Aktif (Multi-login)</p>
-                                <p class="text-3xl font-bold text-gray-900 dark:text-white mt-2" id="statActiveSessions">0</p>
+                    <div class="glass-panel p-6 rounded-2xl shadow-sm relative overflow-hidden group">
+                        <!-- Indikator Status Server -->
+                        <div class="absolute top-4 right-4 flex items-center gap-1.5">
+                            <span class="relative flex h-2.5 w-2.5">
+                                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                                <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-green-500"></span>
+                            </span>
+                            <span class="text-[10px] font-bold text-green-600 dark:text-green-400">Online</span>
+                        </div>
+                        <div class="flex flex-col h-full justify-between">
+                            <div class="mb-2 mt-4">
+                                <p class="text-xs font-bold text-gray-400 uppercase tracking-wider">Aksi Cepat Superuser</p>
                             </div>
-                            <div class="p-3 bg-purple-50 dark:bg-purple-900/30 rounded-full text-purple-600 dark:text-purple-400">
-                                <i data-lucide="smartphone" class="w-6 h-6"></i>
+                            <div class="flex flex-col gap-2 relative z-10 w-full">
+                                <button onclick="quickActionForceLogout()" class="w-full flex items-center justify-between px-3 py-2 bg-red-50 hover:bg-red-100 dark:bg-red-900/20 dark:hover:bg-red-900/40 text-red-600 dark:text-red-400 text-xs font-bold rounded-lg transition-colors border border-red-100 dark:border-red-900/50">
+                                    <span class="flex items-center gap-2"><i data-lucide="power" class="w-3.5 h-3.5"></i> Logout Semua Pengguna</span>
+                                </button>
+                                <button onclick="quickActionCreateDummy()" id="btnCreateDummy" class="w-full flex items-center justify-between px-3 py-2 bg-indigo-50 hover:bg-indigo-100 dark:bg-indigo-900/20 dark:hover:bg-indigo-900/40 text-indigo-600 dark:text-indigo-400 text-xs font-bold rounded-lg transition-colors border border-indigo-100 dark:border-indigo-900/50">
+                                    <span class="flex items-center gap-2"><i data-lucide="user-plus" class="w-3.5 h-3.5"></i> Buat Dummy User Akun</span>
+                                </button>
                             </div>
+                            <i data-lucide="zap" class="absolute -bottom-4 -right-4 w-24 h-24 text-gray-100 dark:text-gray-800/50 -z-0 opacity-50 group-hover:scale-110 transition-transform"></i>
                         </div>
                     </div>
                 </div>
 
-                <div class="glass-panel rounded-2xl shadow-sm overflow-hidden">
-                    <div class="px-6 py-5 border-b border-gray-100 dark:border-gray-800">
-                        <h3 class="text-base font-bold text-gray-900 dark:text-white">Pendaftar Terakhir (5 Terbaru)</h3>
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+                    <!-- Chart Panel (Memakan 2 Kolom di Desktop) -->
+                    <div class="glass-panel p-6 rounded-2xl shadow-sm lg:col-span-2 flex flex-col">
+                        <div class="flex justify-between items-center mb-4">
+                            <h3 class="text-base font-bold text-gray-900 dark:text-white">Tren Aktivitas 7 Hari Terakhir</h3>
+                            <div class="flex gap-2">
+                                <span class="px-2 py-1 bg-brand-50 text-brand-700 dark:bg-brand-900/30 dark:text-brand-300 rounded text-xs font-bold">Log Masuk</span>
+                            </div>
+                        </div>
+                        <div class="relative flex-1 min-h-[250px] w-full">
+                            <canvas id="activityChart"></canvas>
+                        </div>
                     </div>
-                    <div class="overflow-x-auto">
-                        <table class="w-full text-sm text-left">
-                            <thead class="bg-gray-50 dark:bg-gray-800/50 text-gray-500 dark:text-gray-400">
-                                <tr>
-                                    <th class="px-6 py-3 font-medium">Nama / Email</th>
-                                    <th class="px-6 py-3 font-medium">Paket</th>
-                                    <th class="px-6 py-3 font-medium">Waktu Daftar</th>
-                                </tr>
-                            </thead>
-                            <tbody id="overviewUserTableBody" class="divide-y divide-gray-100 dark:divide-gray-800">
-                                <!-- Data injected via JS -->
-                            </tbody>
-                        </table>
+
+                    <!-- Recent Registrations (Memakan 1 Kolom) -->
+                    <div class="glass-panel rounded-2xl shadow-sm overflow-hidden flex flex-col h-full lg:col-span-1">
+                        <div class="px-6 py-5 border-b border-gray-100 dark:border-gray-800 bg-gray-50/50 dark:bg-gray-800/20">
+                            <h3 class="text-base font-bold text-gray-900 dark:text-white flex items-center gap-2">
+                                <i data-lucide="user-plus" class="w-4 h-4 text-brand-500"></i> Pendaftar Baru
+                            </h3>
+                        </div>
+                        <div class="overflow-x-auto hover-scroll flex-1">
+                            <table class="w-full text-sm text-left">
+                                <tbody id="overviewUserTableBody" class="divide-y divide-gray-100 dark:divide-gray-800">
+                                    <!-- Data injected via JS -->
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -322,9 +362,14 @@
                         <h2 class="text-2xl font-bold text-gray-900 dark:text-white">Kelola Akun</h2>
                         <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Daftar pengguna (Maks. 100 terbaru)</p>
                     </div>
-                    <div class="relative w-full sm:w-72">
-                        <i data-lucide="search" class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400"></i>
-                        <input type="text" id="userSearchInput" placeholder="Cari email atau nama..." class="w-full pl-10 pr-4 py-2 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl outline-none focus:ring-2 focus:ring-brand-500 text-sm">
+                    <div class="flex gap-2 w-full sm:w-auto">
+                        <div class="relative flex-1 sm:w-64">
+                            <i data-lucide="search" class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400"></i>
+                            <input type="text" id="userSearchInput" placeholder="Cari email atau nama..." class="w-full pl-10 pr-4 py-2 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl outline-none focus:ring-2 focus:ring-brand-500 text-sm">
+                        </div>
+                        <button onclick="exportTableToCSV('usersTableBody', 'gracely_users.csv')" class="px-3 py-2 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-gray-700 rounded-xl transition-colors font-bold text-xs flex items-center gap-1.5" title="Ekspor ke CSV">
+                            <i data-lucide="download" class="w-4 h-4"></i> <span class="hidden sm:inline">CSV</span>
+                        </button>
                     </div>
                 </div>
 
@@ -361,9 +406,14 @@
                         <h2 class="text-2xl font-bold text-gray-900 dark:text-white">Log Aktivitas</h2>
                         <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Cek riwayat akses keamanan (100 terbaru)</p>
                     </div>
-                    <button onclick="loadActivityLogs()" class="p-2 border border-gray-200 dark:border-gray-700 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-600 dark:text-gray-400 transition-colors">
-                        <i data-lucide="refresh-cw" class="w-4 h-4"></i>
-                    </button>
+                    <div class="flex gap-2">
+                        <button onclick="exportTableToCSV('activityTableBody', 'gracely_activity_logs.csv')" class="px-3 py-2 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-gray-700 rounded-lg transition-colors font-bold text-xs flex items-center gap-1.5" title="Ekspor ke CSV">
+                            <i data-lucide="download" class="w-4 h-4"></i> <span class="hidden sm:inline">Ekspor CSV</span>
+                        </button>
+                        <button onclick="loadActivityLogs()" class="p-2 border border-gray-200 dark:border-gray-700 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-600 dark:text-gray-400 transition-colors">
+                            <i data-lucide="refresh-cw" class="w-4 h-4"></i>
+                        </button>
+                    </div>
                 </div>
 
                 <div class="glass-panel rounded-2xl shadow-sm overflow-hidden">
@@ -383,6 +433,74 @@
                             </tbody>
                         </table>
                         <div id="activityLoading" class="py-12 flex justify-center">
+                            <div class="loader"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PANEL 4: Notifications (gracely_notifications) -->
+            <div id="panel-notifications" class="space-y-6 hidden">
+                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                    <div>
+                        <h2 class="text-2xl font-bold text-gray-900 dark:text-white">Pengaturan Notifikasi (HTML)</h2>
+                        <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Kelola *popup* interaktif (pengumuman & akses folder).</p>
+                    </div>
+                    <button onclick="openNotificationModal()" class="px-4 py-2 bg-brand-600 hover:bg-brand-700 text-white font-bold rounded-xl shadow transition-all flex items-center justify-center gap-2 text-sm">
+                        <i data-lucide="plus" class="w-4 h-4"></i> Buat Notifikasi Baru
+                    </button>
+                </div>
+
+                <div class="glass-panel rounded-2xl shadow-sm overflow-hidden min-h-[400px]">
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-sm text-left">
+                            <thead class="bg-gray-50 dark:bg-gray-800/50 text-gray-500 dark:text-gray-400 uppercase text-[11px] font-bold tracking-wider">
+                                <tr>
+                                    <th class="px-6 py-4">Target ID (key_id)</th>
+                                    <th class="px-6 py-4">Tipe</th>
+                                    <th class="px-6 py-4">Status & Waktu Dibuat</th>
+                                    <th class="px-6 py-4 text-right">Aksi</th>
+                                </tr>
+                            </thead>
+                            <tbody id="notificationsTableBody" class="divide-y divide-gray-100 dark:divide-gray-800">
+                                <!-- Data injected via JS -->
+                            </tbody>
+                        </table>
+                        <div id="notificationsLoading" class="py-12 flex justify-center hidden">
+                            <div class="loader"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PANEL 5: Gracely Services -->
+            <div id="panel-services" class="space-y-6 hidden">
+                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                    <div>
+                        <h2 class="text-2xl font-bold text-gray-900 dark:text-white">Kelola Layanan</h2>
+                        <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Daftar layanan terhubung yang bisa diakses user.</p>
+                    </div>
+                    <button onclick="openServiceModal()" class="px-4 py-2 bg-brand-600 hover:bg-brand-700 text-white font-bold rounded-xl shadow transition-all flex items-center justify-center gap-2 text-sm">
+                        <i data-lucide="plus" class="w-4 h-4"></i> Tambah Layanan
+                    </button>
+                </div>
+
+                <div class="glass-panel rounded-2xl shadow-sm overflow-hidden min-h-[400px]">
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-sm text-left">
+                            <thead class="bg-gray-50 dark:bg-gray-800/50 text-gray-500 dark:text-gray-400 uppercase text-[11px] font-bold tracking-wider">
+                                <tr>
+                                    <th class="px-6 py-4">ID / Layanan</th>
+                                    <th class="px-6 py-4">Status/Visibility</th>
+                                    <th class="px-6 py-4">Detail URL</th>
+                                    <th class="px-6 py-4 text-right">Aksi</th>
+                                </tr>
+                            </thead>
+                            <tbody id="servicesTableBody" class="divide-y divide-gray-100 dark:divide-gray-800">
+                                <!-- Data injected via JS -->
+                            </tbody>
+                        </table>
+                        <div id="servicesLoading" class="py-12 flex justify-center hidden">
                             <div class="loader"></div>
                         </div>
                     </div>
@@ -467,6 +585,145 @@
             </div>
         </div>
     </div>
+
+    <!-- Modals for Notifications & Services -->
+    <!-- Modal: Edit/Create Notification -->
+    <div id="modalEditNotification" class="modal fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm p-4">
+        <div class="modal-content bg-white dark:bg-gray-800 rounded-2xl shadow-2xl w-full max-w-2xl overflow-hidden">
+            <div class="px-6 py-4 border-b border-gray-100 dark:border-gray-700 flex justify-between items-center bg-gray-50 dark:bg-gray-800/50">
+                <h3 class="font-bold text-lg text-gray-900 dark:text-white flex items-center gap-2" id="notifModalTitle">
+                    <i data-lucide="bell" class="w-5 h-5 text-brand-500"></i> Buat Notifikasi Baru
+                </h3>
+                <button onclick="closeModal('modalEditNotification')" class="text-gray-400 hover:text-gray-600 dark:hover:text-gray-200">
+                    <i data-lucide="x" class="w-5 h-5"></i>
+                </button>
+            </div>
+            <div class="p-6 space-y-4">
+                <input type="hidden" id="notifId">
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-[11px] font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-2">Tipe (Type)</label>
+                        <select id="notifType" class="w-full px-4 py-2.5 bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-xl outline-none focus:ring-2 focus:ring-brand-500 text-sm">
+                            <option value="announcement">Global Announcement</option>
+                            <option value="folderInfo">Folder / Tool Info</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-[11px] font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-2">Key ID (Target)</label>
+                        <input type="text" id="notifKeyId" placeholder="Misal: chatgpt-group-id" class="w-full px-4 py-2.5 bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-xl outline-none focus:ring-2 focus:ring-brand-500 text-sm">
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-[11px] font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-2 flex justify-between">
+                        <span>Konten HTML (HTML Source)</span>
+                        <a href="#" onclick="copyHtmlTemplate()" class="text-brand-500 hover:underline">Isi Template Dasar</a>
+                    </label>
+                    <textarea id="notifHtmlContent" rows="8" class="w-full px-4 py-3 bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-xl outline-none focus:ring-2 focus:ring-brand-500 text-sm font-mono text-gray-600 dark:text-gray-400" placeholder="<div class='notificationModal-content'>..."></textarea>
+                </div>
+                <div class="flex items-center gap-3 bg-gray-50 dark:bg-gray-900 p-3 rounded-xl border border-gray-200 dark:border-gray-700">
+                    <label class="relative inline-flex items-center cursor-pointer">
+                        <input type="checkbox" id="notifIsEnabled" class="sr-only peer" checked>
+                        <div class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-2 peer-focus:ring-brand-300 dark:peer-focus:ring-brand-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-brand-500"></div>
+                    </label>
+                    <span class="text-sm font-semibold text-gray-700 dark:text-gray-300">Aktifkan Notifikasi Ini?</span>
+                </div>
+            </div>
+            <div class="px-6 py-4 bg-gray-50 dark:bg-gray-800/80 border-t border-gray-100 dark:border-gray-700 flex justify-end gap-3">
+                <button onclick="closeModal('modalEditNotification')" class="px-4 py-2 text-sm font-semibold text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-lg transition-colors">Batal</button>
+                <button onclick="saveNotification()" id="btnSaveNotif" class="px-4 py-2 text-sm font-bold text-white bg-brand-600 hover:bg-brand-700 shadow flex items-center gap-2 rounded-lg transition-colors">
+                    Simpan Data
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Right Drawer for User Details -->
+    <div id="drawerUserDetail" class="fixed inset-y-0 right-0 w-full md:w-[400px] bg-white dark:bg-gray-900 shadow-2xl border-l border-gray-200 dark:border-gray-800 transform translate-x-full transition-transform duration-300 ease-in-out z-50 flex flex-col">
+        <div class="flex items-center justify-between p-4 border-b border-gray-200 dark:border-gray-800 bg-gray-50/50 dark:bg-gray-800/50">
+            <h3 class="font-bold text-gray-900 dark:text-white flex items-center gap-2">
+                <i data-lucide="user-circle" class="w-5 h-5 text-gray-500"></i> Detail Profil
+            </h3>
+            <button onclick="closeDrawer('drawerUserDetail')" class="p-2 text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-full transition-colors">
+                <i data-lucide="x" class="w-5 h-5"></i>
+            </button>
+        </div>
+        <div class="flex-1 overflow-y-auto p-6 space-y-6 hover-scroll">
+            <div id="drawerLoading" class="flex justify-center items-center h-48 hidden">
+                <div class="loader aspect-square w-12 border-4"></div>
+            </div>
+            <div id="drawerContent" class="space-y-6">
+                <!-- Header Name -->
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-indigo-100 dark:bg-indigo-900/30 text-indigo-500 rounded-full flex items-center justify-center mx-auto mb-3 shadow-inner">
+                        <i data-lucide="user" class="w-10 h-10"></i>
+                    </div>
+                    <h2 class="text-xl font-bold text-gray-900 dark:text-white" id="dl-name">Loading...</h2>
+                    <p class="text-xs font-mono text-gray-500 mt-1" id="dl-id">---</p>
+                </div>
+
+                <!-- Info Grid -->
+                <div class="bg-gray-50 dark:bg-gray-800/50 rounded-xl p-4 space-y-3 border border-gray-100 dark:border-gray-700">
+                    <div class="flex justify-between items-center border-b border-gray-200 dark:border-gray-700 pb-2">
+                        <span class="text-xs font-bold text-gray-500 uppercase">Status Lisensi</span>
+                        <span id="dl-plan" class="px-2 py-0.5 text-xs font-bold rounded bg-gray-200 text-gray-800">Free</span>
+                    </div>
+                    <div class="flex justify-between items-center border-b border-gray-200 dark:border-gray-700 pb-2">
+                        <span class="text-xs font-bold text-gray-500 uppercase">Tipe Login</span>
+                        <span id="dl-login-type" class="text-xs font-bold text-gray-700 dark:text-gray-300">Single</span>
+                    </div>
+                    <div class="flex justify-between items-center pb-1">
+                        <span class="text-xs font-bold text-gray-500 uppercase">Kapasitas Multi</span>
+                        <span id="dl-max-device" class="text-xs font-bold text-gray-700 dark:text-gray-300">1 Perangkat</span>
+                    </div>
+                </div>
+
+                <!-- Expiry Info Grid -->
+                <div class="space-y-3">
+                    <h4 class="text-[11px] font-bold text-gray-400 uppercase tracking-wider mx-1">Siklus Masa Aktif</h4>
+                    <div class="grid grid-cols-1 gap-2">
+                        <div class="bg-white dark:bg-gray-800 p-3 rounded-lg border border-gray-200 dark:border-gray-700 flex justify-between items-center">
+                            <span class="text-sm font-semibold text-gray-700 dark:text-gray-300">Premium</span>
+                            <span class="text-xs text-gray-500 font-mono" id="dl-prem-exp">-</span>
+                        </div>
+                        <div class="bg-white dark:bg-gray-800 p-3 rounded-lg border border-gray-200 dark:border-gray-700 flex justify-between items-center">
+                            <span class="text-sm font-semibold text-gray-700 dark:text-gray-300">Pro</span>
+                            <span class="text-xs text-gray-500 font-mono" id="dl-pro-exp">-</span>
+                        </div>
+                        <div class="bg-white dark:bg-gray-800 p-3 rounded-lg border border-gray-200 dark:border-gray-700 flex justify-between items-center">
+                            <span class="text-sm font-semibold text-gray-700 dark:text-gray-300">Phantom</span>
+                            <span class="text-xs text-gray-500 font-mono" id="dl-phant-exp">-</span>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- Timestamps -->
+                 <div class="space-y-3">
+                    <h4 class="text-[11px] font-bold text-gray-400 uppercase tracking-wider mx-1">Metrik Waktu</h4>
+                    <div class="bg-white dark:bg-gray-800 p-3 rounded-lg border border-gray-200 dark:border-gray-700 space-y-2">
+                        <div class="flex justify-between items-center">
+                            <span class="text-xs text-gray-500">Waktu Mendaftar</span>
+                            <span class="text-[11px] font-mono text-gray-700 dark:text-gray-300" id="dl-created">-</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-xs text-gray-500">Terakhir Login (Update DB)</span>
+                            <span class="text-[11px] font-mono text-gray-700 dark:text-gray-300" id="dl-last-login">-</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="p-4 bg-gray-50 dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 flex flex-col gap-2 relative z-10 shrink-0">
+            <button onclick="openEditSubModal(activeDrawerUid)" class="w-full flex justify-center items-center gap-2 py-2.5 bg-brand-600 hover:bg-brand-700 text-white rounded-lg text-sm font-bold shadow transition-all">
+                <i data-lucide="pen-tool" class="w-4 h-4"></i> Atur Lisensi & Kadaluarsa
+            </button>
+            <button onclick="openDeleteModal(activeDrawerUid)" class="w-full flex justify-center items-center gap-2 py-2.5 bg-red-50 hover:bg-red-100 text-red-600 border border-red-200 dark:bg-red-900/20 dark:border-red-800 dark:text-red-400 rounded-lg text-sm font-bold transition-all">
+                <i data-lucide="trash-2" class="w-4 h-4"></i> Hapus Permanen
+            </button>
+        </div>
+    </div>
+    
+    <!-- Drawer Overlay -->
+    <div id="drawerOverlay" onclick="closeDrawer('drawerUserDetail')" class="fixed inset-0 bg-black/40 backdrop-blur-sm z-40 hidden transition-opacity"></div>
 
     <!-- Scripts -->
     <script src="auth.js?v=auth-fresh-1"></script>

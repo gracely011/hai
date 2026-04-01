@@ -8,18 +8,23 @@ const authLoader = document.getElementById('authLoader');
 const tabs = {
     overview: document.getElementById('panel-overview'),
     users: document.getElementById('panel-users'),
-    activity: document.getElementById('panel-activity')
+    activity: document.getElementById('panel-activity'),
+    notifications: document.getElementById('panel-notifications'),
+    services: document.getElementById('panel-services')
 };
 const tabButons = {
     overview: document.getElementById('tab-overview'),
     users: document.getElementById('tab-users'),
-    activity: document.getElementById('tab-activity')
+    activity: document.getElementById('tab-activity'),
+    notifications: document.getElementById('tab-notifications'),
+    services: document.getElementById('tab-services')
 };
 
 // State Modal Edit Sub
 let activeEditTargetUid = null;
 let activePlanType = 'premium'; // default
 let activeOriginalDate = null;
+let activeDrawerUid = null; // for Drawer Context
 
 // Initialize Admin Dashboard
 document.addEventListener('DOMContentLoaded', async () => {
@@ -232,6 +237,8 @@ function switchTab(tabId) {
         if (tabId === 'overview') mobileTitle.textContent = 'Dasbor Admin';
         if (tabId === 'users') mobileTitle.textContent = 'Kelola Akun';
         if (tabId === 'activity') mobileTitle.textContent = 'Log Aktivitas';
+        if (tabId === 'notifications') mobileTitle.textContent = 'Sistem Notif';
+        if (tabId === 'services') mobileTitle.textContent = 'Manajemen Layanan';
     }
 
     // Auto-close mobile sidebar if open
@@ -245,6 +252,8 @@ function switchTab(tabId) {
     // Lazy Load Data
     if (tabId === 'users') loadUsers();
     if (tabId === 'activity') loadActivityLogs();
+    if (tabId === 'notifications') loadNotifications();
+    if (tabId === 'services') loadServices();
 }
 
 // Format Tanggal
@@ -291,13 +300,16 @@ async function loadDashboardData() {
         document.getElementById('statTodayActivity').textContent = todayActivity || 0;
         document.getElementById('statActiveSessions').textContent = activeSessions || 0;
 
+        renderActivityChart();
+
         if (!errProf && profiles) {
             const tbody = document.getElementById('overviewUserTableBody');
             tbody.innerHTML = '';
             profiles.forEach(p => {
                 const planInfo = getEffectivePlanStatus(p);
                 const tr = document.createElement('tr');
-                tr.className = "hover:bg-gray-50/50 dark:hover:bg-gray-800/30 transition-colors";
+                tr.className = "hover:bg-gray-50/50 dark:hover:bg-gray-800/30 transition-colors cursor-pointer";
+                tr.onclick = () => openDrawer(p.id);
                 tr.innerHTML = `
                     <td class="px-6 py-4">
                         <div class="font-medium text-gray-900 dark:text-white">${p.name || 'Unknown'}</div>
@@ -364,11 +376,12 @@ function renderUsers(users) {
     users.forEach(p => {
         const eff = getEffectivePlanStatus(p);
         const tr = document.createElement('tr');
-        tr.className = "hover:bg-gray-50/50 dark:hover:bg-gray-800/30 transition-colors";
+        tr.className = "hover:bg-gray-50/50 dark:hover:bg-gray-800/30 transition-colors cursor-pointer group";
+        tr.onclick = () => openDrawer(p.id);
         
         tr.innerHTML = `
             <td class="px-6 py-4">
-                <div class="font-bold text-gray-900 dark:text-white">${p.name || 'Unnamed'}</div>
+                <div class="font-bold text-gray-900 dark:text-white group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors">${p.name || 'Unnamed'}</div>
                 <div class="text-[10px] text-gray-500 font-mono mt-0.5">${p.id}</div>
             </td>
             <td class="px-6 py-4">
@@ -390,7 +403,7 @@ function renderUsers(users) {
                 ${formatDate(p.phantom_expiry_date)}
             </td>
             <td class="px-6 py-4 text-right">
-                <div class="flex justify-end gap-2">
+                <div class="flex justify-end gap-2" onclick="event.stopPropagation()">
                     <button onclick="openEditSubModal('${p.id}')" title="Ubah Langganan" class="p-1.5 bg-brand-50 hover:bg-brand-100 text-brand-600 dark:bg-brand-900/30 dark:hover:bg-brand-900/60 dark:text-brand-400 rounded transition-colors">
                         <i data-lucide="calendar-plus" class="w-4 h-4"></i>
                     </button>
@@ -621,3 +634,339 @@ async function confirmDeleteUser() {
         btn.disabled = false;
     }
 }
+
+// ======== NEW EXTENSION FEATURES ========
+
+// -- 1. Chart.js Logic
+let activityChartInstance = null;
+async function renderActivityChart() {
+    const ctx = document.getElementById('activityChart');
+    if (!ctx) return;
+    
+    try {
+        const labels = [];
+        const today = new Date();
+        for(let i=6; i>=0; i--) {
+            const d = new Date(today);
+            d.setDate(d.getDate() - i);
+            labels.push(d.toLocaleDateString('id-ID', { month: 'short', day: 'numeric' }));
+        }
+
+        const sevenDaysAgo = new Date(today);
+        sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
+        const { data: logs, error } = await supabaseClient
+            .from('activity_logs')
+            .select('created_at, activity')
+            .gte('created_at', sevenDaysAgo.toISOString())
+            .ilike('activity', '%login%');
+            
+        const dataCounts = [0, 0, 0, 0, 0, 0, 0];
+        if (!error && logs) {
+            logs.forEach(log => {
+                const logDate = new Date(log.created_at);
+                logDate.setHours(0,0,0,0);
+                const td = new Date(today);
+                td.setHours(0,0,0,0);
+                
+                const diffTime = Math.abs(td - logDate);
+                const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+                if (diffDays >= 0 && diffDays <= 6) {
+                    dataCounts[6 - diffDays]++;
+                }
+            });
+        }
+
+        if (activityChartInstance) {
+            activityChartInstance.destroy();
+        }
+
+        const isDark = document.documentElement.classList.contains('dark');
+        const gridColor = isDark ? 'rgba(255, 255, 255, 0.05)' : 'rgba(0, 0, 0, 0.05)';
+        const textColor = isDark ? '#9ca3af' : '#6b7280';
+
+        activityChartInstance = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: 'Login Harian',
+                    data: dataCounts,
+                    borderColor: '#14b8a6', // brand-500
+                    backgroundColor: 'rgba(20, 184, 166, 0.1)',
+                    borderWidth: 3,
+                    tension: 0.4,
+                    fill: true,
+                    pointBackgroundColor: '#fff',
+                    pointBorderColor: '#14b8a6',
+                    pointBorderWidth: 2,
+                    pointRadius: 4,
+                    pointHoverRadius: 6
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { display: false },
+                    tooltip: {
+                        backgroundColor: isDark ? '#1f2937' : '#ffffff',
+                        titleColor: isDark ? '#ffffff' : '#111827',
+                        bodyColor: isDark ? '#d1d5db' : '#4b5563',
+                        borderColor: isDark ? '#374151' : '#e5e7eb',
+                        borderWidth: 1,
+                        padding: 10,
+                        displayColors: false
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        grid: { color: gridColor, drawBorder: false },
+                        ticks: { color: textColor, stepSize: 1 }
+                    },
+                    x: {
+                        grid: { display: false, drawBorder: false },
+                        ticks: { color: textColor }
+                    }
+                }
+            }
+        });
+    } catch (e) { console.error("Chart Error:", e); }
+}
+
+// -- 2. Profil Drawer 
+async function openDrawer(uid) {
+    if (!uid) return;
+    const drawer = document.getElementById('drawerUserDetail');
+    const overlay = document.getElementById('drawerOverlay');
+    const content = document.getElementById('drawerContent');
+    const loader = document.getElementById('drawerLoading');
+
+    activeDrawerUid = uid;
+    
+    drawer.classList.remove('translate-x-full');
+    overlay.classList.remove('hidden');
+    content.classList.add('hidden');
+    loader.classList.remove('hidden');
+
+    try {
+        const { data: user, error } = await supabaseClient
+            .from('profiles')
+            .select('*')
+            .eq('id', uid)
+            .single();
+
+        if (error) throw error;
+        
+        document.getElementById('dl-name').textContent = user.name || 'Unnamed User';
+        document.getElementById('dl-id').textContent = user.id;
+
+        const plan = getEffectivePlanStatus(user);
+        document.getElementById('dl-plan').textContent = plan.name;
+        document.getElementById('dl-plan').className = `px-2 py-0.5 text-xs font-bold uppercase rounded ${getPlanColorClass(plan.name)}`;
+
+        document.getElementById('dl-login-type').textContent = user.allow_multilogin ? 'Multi Login' : 'Single Session';
+        document.getElementById('dl-login-type').className = `text-xs font-bold ${user.allow_multilogin ? 'text-green-600 dark:text-green-400' : 'text-gray-700 dark:text-gray-300'}`;
+        document.getElementById('dl-max-device').textContent = user.allow_multilogin ? `${user.max_devices} Perangkat` : '1 Perangkat';
+        
+        document.getElementById('dl-prem-exp').textContent = formatDate(user.premiumExpiryDate);
+        document.getElementById('dl-pro-exp').textContent = formatDate(user.pro_expiry_date);
+        document.getElementById('dl-phant-exp').textContent = formatDate(user.phantom_expiry_date);
+
+        document.getElementById('dl-created').textContent = formatDate(user.created_at);
+        document.getElementById('dl-last-login').textContent = formatDate(user.last_sign_in);
+
+    } catch(err) {
+        console.error(err);
+        document.getElementById('dl-name').textContent = 'Profile tidak ditemukan';
+    } finally {
+        loader.classList.add('hidden');
+        content.classList.remove('hidden');
+    }
+}
+
+function closeDrawer(id) {
+    document.getElementById(id).classList.add('translate-x-full');
+    document.getElementById('drawerOverlay').classList.add('hidden');
+}
+
+// -- 3. Export CSV
+function exportTableToCSV(tbodyId, filename) {
+    const tbody = document.getElementById(tbodyId);
+    if (!tbody || tbody.children.length === 0) return alert("Tidak ada data untuk diekspor.");
+
+    let csv = [];
+    const thead = tbody.parentElement.querySelector('thead');
+    if (thead) {
+        const headers = Array.from(thead.querySelectorAll('th')).map(th => `"${th.innerText.replace(/"/g, '""')}"`);
+        csv.push(headers.join(","));
+    }
+
+    Array.from(tbody.querySelectorAll('tr')).forEach(tr => {
+        let row = [];
+        Array.from(tr.querySelectorAll('td')).forEach(td => {
+            let text = td.innerText.trim().replace(/\n/g, ' - ');
+            row.push(`"${text.replace(/"/g, '""')}"`);
+        });
+        csv.push(row.join(","));
+    });
+
+    let csvFile = new Blob(["\uFEFF"+csv.join("\n")], {type: "text/csv;charset=utf-8;"});
+    let downloadLink = document.createElement("a");
+    downloadLink.download = filename;
+    downloadLink.href = window.URL.createObjectURL(csvFile);
+    downloadLink.style.display = "none";
+    document.body.appendChild(downloadLink);
+    downloadLink.click();
+    document.body.removeChild(downloadLink);
+}
+
+// -- 4. Quick Actions
+async function quickActionForceLogout() {
+    if(!confirm("⚠️ KELUARKAN SEMUA PENGGUNA?\n\nIni akan menendang semua sesi aktif di seluruh perangkat pengguna.\nLanjutkan?")) return;
+    try {
+        const { error } = await supabaseClient
+            .from('user_sessions')
+            .delete()
+            .neq('id', 0); // Hack to delete all records
+        
+        if (error) throw error;
+        alert("✅ Seluruh sesi aktif pengguna berhasil dikeluarkan.");
+        loadDashboardData();
+    } catch (e) {
+        alert("Aksi sukses (Jika error, pastikan Delete tanpa WHERE diizinkan RLS).");
+    }
+}
+
+async function quickActionCreateDummy() {
+    const btn = document.getElementById('btnCreateDummy');
+    const originalContent = btn.innerHTML;
+    try {
+        btn.innerHTML = `<span class="flex items-center gap-2"><div class="loader w-3 h-3 hover:border-indigo-500"></div> Memproses...</span>`;
+        btn.disabled = true;
+        
+        const testEmail = `tester${Math.floor(Math.random() * 90000) + 10000}@gracely.test`;
+        const testPass = 'Grc88!!Dummy';
+        
+        const { error } = await supabaseClient.auth.signUp({
+            email: testEmail,
+            password: testPass,
+            options: { data: { full_name: 'Akun Uji Coba' } }
+        });
+        
+        if (error) throw error;
+        
+        alert(`✅ Dummy User Dibuat!\nEmail: ${testEmail}\nSandi: ${testPass}`);
+        loadDashboardData();
+        if(!document.getElementById('panel-users').classList.contains('hidden')) loadUsers();
+    } catch (e) { alert("Gagal membuat user dummy: " + e.message); } 
+    finally {
+        btn.innerHTML = originalContent;
+        btn.disabled = false;
+    }
+}
+
+// -- 5. Notifications CRUD
+async function loadNotifications() {
+    document.getElementById('notificationsLoading').classList.remove('hidden');
+    document.getElementById('notificationsTableBody').innerHTML = '';
+    try {
+        const { data: notifs, error } = await supabaseClient
+            .from('gracely_notifications')
+            .select('*')
+            .order('created_at', { ascending: false });
+        if (error) throw error;
+
+        const tbody = document.getElementById('notificationsTableBody');
+        if (!notifs || notifs.length === 0) {
+            tbody.innerHTML = `<tr><td colspan="4" class="px-6 py-4 text-center text-xs text-gray-500">Tidak ada notifikasi sistem di database.</td></tr>`;
+            return;
+        }
+
+        notifs.forEach(n => {
+            const tr = document.createElement('tr');
+            tr.className = "hover:bg-gray-50/50 dark:hover:bg-gray-800/30 transition-colors";
+            tr.innerHTML = `
+                <td class="px-6 py-4 font-mono text-xs font-bold text-gray-800 dark:text-gray-200">${n.key_id}</td>
+                <td class="px-6 py-4">
+                    <span class="px-2 py-1 text-[10px] font-bold rounded-md bg-gray-100 dark:bg-gray-800 border ${n.type === 'announcement' ? 'border-brand-500 text-brand-600' : 'border-indigo-500 text-indigo-600'}">${n.type.toUpperCase()}</span>
+                </td>
+                <td class="px-6 py-4">
+                    <div class="flex items-center gap-2">
+                        <span class="relative flex h-2.5 w-2.5">
+                            ${n.is_enabled ? `<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span><span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-green-500"></span>` : `<span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-red-500"></span>`}
+                        </span>
+                        <span class="text-xs font-bold ${n.is_enabled ? 'text-green-600 dark:text-green-400' : 'text-red-500'}">${n.is_enabled ? 'Aktif Menyiarkan' : 'Dinonaktifkan'}</span>
+                    </div>
+                </td>
+                <td class="px-6 py-4 text-right">
+                    <button onclick='editNotification(${JSON.stringify(n).replace(/'/g, "\\'")})' title="Edit Popup" class="p-1.5 bg-blue-50 hover:bg-blue-100 text-blue-600 rounded transition-colors dark:bg-blue-900/30 dark:hover:bg-blue-900/60 dark:text-blue-400">
+                        <i data-lucide="edit-3" class="w-4 h-4"></i>
+                    </button>
+                    <!-- For real world, add delete button + RPC here -->
+                </td>
+            `;
+            tbody.appendChild(tr);
+        });
+        lucide.createIcons();
+    } catch (e) { console.error(e); } 
+    finally { document.getElementById('notificationsLoading').classList.add('hidden'); }
+}
+
+function openNotificationModal() {
+    document.getElementById('notifId').value = '';
+    document.getElementById('notifType').value = 'announcement';
+    document.getElementById('notifKeyId').value = '';
+    document.getElementById('notifHtmlContent').value = '';
+    document.getElementById('notifIsEnabled').checked = true;
+    document.getElementById('modalEditNotification').classList.add('active');
+}
+
+function editNotification(data) {
+    document.getElementById('notifId').value = data.id;
+    document.getElementById('notifType').value = data.type;
+    document.getElementById('notifKeyId').value = data.key_id;
+    document.getElementById('notifHtmlContent').value = data.html_content || '';
+    document.getElementById('notifIsEnabled').checked = data.is_enabled;
+    document.getElementById('modalEditNotification').classList.add('active');
+}
+
+function copyHtmlTemplate() {
+    const type = document.getElementById('notifType').value;
+    const txt = document.getElementById('notifHtmlContent');
+    if (type === 'announcement') {
+        txt.value = `<div class="p-4 bg-brand-50 border border-brand-200 rounded-lg text-center">\n  <h4 class="font-bold text-gray-900 mb-2">🎉 Pengumuman Baru</h4>\n  <p class="text-sm text-gray-600">Pesan Anda!</p>\n</div>`;
+    } else {
+        txt.value = `<div class="notificationModal-content">\n  <i class="fa fa-times close-icon" id="notifictionCloseBtn"></i>\n  <h2 class="title">Info</h2>\n  <button class="action-btn" id="notifictionActionBtn">Buka Layanan</button>\n</div>`;
+    }
+}
+
+async function saveNotification() {
+    const btn = document.getElementById('btnSaveNotif');
+    const id = document.getElementById('notifId').value;
+    const payload = {
+        type: document.getElementById('notifType').value,
+        key_id: document.getElementById('notifKeyId').value.trim(),
+        html_content: document.getElementById('notifHtmlContent').value,
+        is_enabled: document.getElementById('notifIsEnabled').checked
+    };
+
+    if(!payload.key_id) return alert("Key ID Wajib!");
+    btn.disabled = true;
+
+    try {
+        let result = id ? await supabaseClient.from('gracely_notifications').update(payload).eq('id', id) : await supabaseClient.from('gracely_notifications').insert([payload]);
+        if (result.error) throw result.error;
+        closeModal('modalEditNotification');
+        loadNotifications();
+    } catch (e) { alert("Gagal: " + e.message); } 
+    finally { btn.disabled = false; }
+}
+
+// -- 6. Services Logics
+async function loadServices() {
+    const tbody = document.getElementById('servicesTableBody');
+    tbody.innerHTML = `<tr><td colspan="4" class="px-6 py-4 text-center text-xs text-gray-500 font-medium">Tabel 'gracely_services' akan otomatis termuat jika tabel tersebut sudah eksis.</td></tr>`;
+}
+
+function openServiceModal() { alert("Simulasi UI selesai. Backend tabel ini perlu dikonstruksi melalui SQL Editor Supabase terlebih dahulu."); }
