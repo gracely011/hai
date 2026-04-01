@@ -37,6 +37,7 @@ jobs:
           javascript-obfuscator ./assets/snow.js --output ./assets/snow.js $OPTIONS
           javascript-obfuscator ./assets/youtube-noads-2.0-final.js --output ./assets/youtube-noads-2.0-final.js $OPTIONS
           javascript-obfuscator ./assets/js/main.js --output ./assets/js/main.js $OPTIONS
+          javascript-obfuscator ./assets/js/admin.js --output ./assets/js/admin.js $OPTIONS
           
           # Extension Assets
           javascript-obfuscator ./assets/images/extension/gg.js --output ./assets/images/extension/gg.js $OPTIONS
