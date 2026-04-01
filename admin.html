@@ -82,6 +82,55 @@
         <h2 class="text-lg font-bold text-gray-800 dark:text-gray-200">Memverifikasi Akses Admin...</h2>
     </div>
 
+    <!-- Admin Login Panel (Hidden by default, shown if no session) -->
+    <div id="adminLoginPanel" class="hidden flex-1 w-full flex items-center justify-center p-4 min-h-screen">
+        <div class="glass-panel w-full max-w-md rounded-2xl shadow-xl overflow-hidden p-8 border border-white/20 dark:border-gray-700/50">
+            <div class="text-center mb-8">
+                <div class="w-16 h-16 bg-brand-100 dark:bg-brand-900/30 rounded-2xl flex items-center justify-center mx-auto mb-4 text-brand-500 shadow-inner">
+                    <i data-lucide="shield-check" class="w-8 h-8"></i>
+                </div>
+                <h1 class="text-2xl font-bold text-gray-900 dark:text-white mt-2">Gracely Admin</h1>
+                <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Masuk untuk mengelola sistem Gracely</p>
+            </div>
+            
+            <form id="adminLoginForm" onsubmit="handleAdminLogin(event)" class="space-y-5">
+                <div id="adminLoginError" class="hidden p-3 bg-red-50 dark:bg-red-900/30 border border-red-200 dark:border-red-800/50 rounded-xl text-sm text-red-600 dark:text-red-400 font-medium">
+                    <!-- Error message goes here -->
+                </div>
+                
+                <div>
+                    <label class="block text-[11px] font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-2">Email Administrator</label>
+                    <div class="relative">
+                        <i data-lucide="mail" class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400"></i>
+                        <input type="email" id="adminEmail" required placeholder="admin@example.com" class="w-full pl-10 pr-4 py-2.5 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl outline-none focus:ring-2 focus:ring-brand-500 text-sm transition-shadow">
+                    </div>
+                </div>
+                
+                <div>
+                    <label class="block text-[11px] font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-2">Kata Sandi</label>
+                    <div class="relative">
+                        <i data-lucide="lock" class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400"></i>
+                        <input type="password" id="adminPassword" required placeholder="••••••••" class="w-full pl-10 pr-4 py-2.5 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl outline-none focus:ring-2 focus:ring-brand-500 text-sm transition-shadow">
+                    </div>
+                </div>
+                
+                <button type="submit" id="btnAdminLogin" class="w-full py-2.5 bg-brand-600 hover:bg-brand-700 text-white font-bold rounded-xl shadow transition-all flex items-center justify-center gap-2 mt-4 text-sm">
+                    <span>Masuk sebagai Admin</span>
+                    <i data-lucide="chevron-right" class="w-4 h-4"></i>
+                </button>
+            </form>
+            
+            <div class="mt-6 pt-6 border-t border-gray-100 dark:border-gray-800 text-center">
+                <a href="login.html" class="text-xs text-brand-600 hover:text-brand-700 dark:text-brand-400 dark:hover:text-brand-300 font-medium transition-colors">
+                    &larr; Kembali ke Portal Pengguna
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Admin Dashboard Layout Wrapper -->
+    <div id="adminDashboardLayout" class="hidden flex-col w-full min-h-screen">
+
     <!-- Top Navbar -->
     <header class="glass-panel sticky top-0 z-40 w-full shadow-sm">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -272,6 +321,8 @@
 
         </section>
     </main>
+
+    </div> <!-- End Admin Dashboard Layout -->
 
     <!-- Modal: Edit Subscription -->
     <div id="modalEditSub" class="modal fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm p-4">

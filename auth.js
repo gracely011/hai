@@ -721,7 +721,12 @@ async function logout() {
     // Explicit trigger for extension to wipe data
     setCookie('UnangJahaCookieOnLae', 'true', 1);
 
-    window.location.href = 'login.html';
+    // Handle Redirect Gracefully
+    if (window.location.pathname.includes('admin.html')) {
+        window.location.reload();
+    } else {
+        window.location.href = 'login.html';
+    }
 }
 
 function isAuthenticated() { return localStorage.getItem('isAuthenticated') === 'true'; }
@@ -748,10 +753,10 @@ async function requireAuth() {
         const myBrowserFingerprint = await getDeviceFingerprint();
 
         // Panggil RPC Keamanan Gracely (Mencocokkan sidik jari dengan isi user_sessions)
-        const rpcResponse = await fetch(`${SUPABASE_URL}/rest/v1/rpc/get_gracely_auth_status`, {
+        const rpcResponse = await fetch(`${supabaseUrl}/rest/v1/rpc/get_gracely_auth_status`, {
             method: 'POST',
             headers: {
-                'apikey': SUPABASE_KEY,
+                'apikey': supabaseAnonKey,
                 'Authorization': `Bearer ${token}`,
                 'Content-Type': 'application/json'
             },
