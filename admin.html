@@ -86,7 +86,6 @@
         .ig-sidebar {
             width: 72px; /* collapsed icon only */
             transition: width 0.2s cubic-bezier(0.2, 0, 0, 1);
-            border-right: 1px solid #dbdbdb;
             position: fixed;
             left: 0;
             top: 0;
@@ -99,7 +98,7 @@
         }
         .dark .ig-sidebar {
             background: #000;
-            border-right: 1px solid #262626;
+            /* Border dihilangkan di dark mode agar menyatu sempurna */
         }
         
         /* Expand on hover for desktop */
@@ -163,20 +162,75 @@
             background: #fff;
             border-radius: 16px;
             box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-            display: flex;
-            flex-direction: column;
-            padding: 8px;
             transform: translateY(10px) scale(0.95);
             transform-origin: bottom left;
             opacity: 0;
             pointer-events: none;
             transition: all 0.2s cubic-bezier(0.2, 0, 0, 1);
             z-index: 60;
+            overflow: hidden; /* For nested sliding panels */
         }
         .dark .ig-more-menu {
             background: #262626;
             box-shadow: 0 4px 12px rgba(0,0,0,0.5);
         }
+        .ig-more-menu.open {
+            transform: translateY(0) scale(1);
+            opacity: 1;
+            pointer-events: auto;
+        }
+        
+        /* Nested Panels */
+        .more-panels-wrapper {
+            display: flex;
+            width: 200%;
+            transition: transform 0.25s cubic-bezier(0.2, 0, 0, 1);
+        }
+        .more-panel {
+            width: 50%; /* 50% of 200% = 100% of container */
+            display: flex;
+            flex-direction: column;
+            padding: 8px;
+            flex-shrink: 0;
+        }
+        .ig-more-menu.show-theme .more-panels-wrapper {
+            transform: translateX(-50%);
+        }
+
+        /* IG Toggle Switch */
+        .ig-toggle {
+            appearance: none;
+            width: 44px;
+            height: 24px;
+            background-color: #dbdbdb;
+            border-radius: 12px;
+            position: relative;
+            cursor: pointer;
+            outline: none;
+            transition: background-color 0.2s ease;
+            flex-shrink: 0;
+        }
+        .dark .ig-toggle { background-color: #363636; }
+        .ig-toggle:checked { background-color: #000; }
+        .dark .ig-toggle:checked { background-color: #fff; }
+        .ig-toggle::after {
+            content: '';
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            width: 20px;
+            height: 20px;
+            background-color: #fff;
+            border-radius: 50%;
+            transition: transform 0.2s cubic-bezier(0.2, 0, 0, 1);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+        .dark .ig-toggle::after { background-color: #b0b0b0; }
+        .ig-toggle:checked::after {
+            transform: translateX(20px);
+            background-color: #fff;
+        }
+        .dark .ig-toggle:checked::after { background-color: #000; }
         .ig-more-menu.open {
             transform: translateY(0) scale(1);
             opacity: 1;
@@ -215,9 +269,42 @@
         .hover-scroll::-webkit-scrollbar-thumb { background-color: transparent; border-radius: 10px; }
         .hover-scroll:hover::-webkit-scrollbar-thumb { background-color: #dbdbdb; }
         .dark .hover-scroll:hover::-webkit-scrollbar-thumb { background-color: #363636; }
+        
+        /* Resizable Column Setup */
+        .table-wrapper {
+            overflow-x: auto;
+            border-radius: 0.5rem;
+        }
+        .resizable-table {
+            border-collapse: collapse;
+            table-layout: fixed;
+            width: 100%;
+            min-width: 800px; /* Base width */
+        }
+        .resizable-th {
+            position: relative;
+            user-select: none;
+        }
+        .resizer {
+            position: absolute;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            width: 5px;
+            cursor: col-resize;
+            background-color: transparent;
+            transition: background-color 0.2s;
+            z-index: 1;
+        }
+        .resizable-th:hover .resizer, .resizer.resizing {
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+        .dark .resizable-th:hover .resizer, .dark .resizer.resizing {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
     </style>
 </head>
-<body class="h-screen flex flex-col overflow-hidden bg-gray-50 dark:bg-gray-950 text-gray-800 dark:text-gray-200 transition-colors duration-200">
+<body class="h-screen flex flex-col overflow-hidden bg-white dark:bg-black text-gray-800 dark:text-gray-200 transition-colors duration-200">
 
     <!-- Global Loader -->
     <div id="authLoader" class="fixed inset-0 bg-white/80 dark:bg-gray-900/80 backdrop-blur z-[100] flex flex-col justify-center items-center">
@@ -280,7 +367,7 @@
         <aside id="adminSidebar" class="ig-sidebar -translate-x-full md:translate-x-0">
             
             <!-- Instagram Logo (Just text styled like IG) -->
-            <div class="px-3 pt-8 pb-6 mb-2 flex items-center h-[73px]">
+            <div class="px-3 pt-6 pb-6 mb-4 flex items-center h-[73px]">
                 <a href="#" class="menu-item group hover:bg-transparent! w-full" style="padding: 12px; margin: 0; display: flex; align-items: center; justify-content: start;">
                     <!-- Ikon IG Asli -->
                     <svg aria-label="Instagram" class="transition-transform group-hover:scale-105 flex-shrink-0" fill="currentColor" height="24" role="img" viewBox="0 0 24 24" width="24"><title>Instagram</title><path d="M12 2.982c2.937 0 3.285.011 4.445.064a6.087 6.087 0 0 1 2.042.379 3.408 3.408 0 0 1 1.265.823 3.408 3.408 0 0 1 .823 1.265 6.087 6.087 0 0 1 .379 2.042c.053 1.16.064 1.508.064 4.445s-.011 3.285-.064 4.445a6.087 6.087 0 0 1-.379 2.042 3.643 3.643 0 0 1-2.088 2.088 6.087 6.087 0 0 1-2.042.379c-1.16.053-1.508.064-4.445.064s-3.285-.011-4.445-.064a6.087 6.087 0 0 1-2.043-.379 3.408 3.408 0 0 1-1.264-.823 3.408 3.408 0 0 1-.823-1.265 6.087 6.087 0 0 1-.379-2.042c-.053-1.16-.064-1.508-.064-4.445s.011-3.285.064-4.445a6.087 6.087 0 0 1 .379-2.042 3.408 3.408 0 0 1 .823-1.265 3.408 3.408 0 0 1 1.265-.823 6.087 6.087 0 0 1 2.042-.379c1.16-.053 1.508-.064 4.445-.064M12 1c-2.987 0-3.362.013-4.535.066a8.074 8.074 0 0 0-2.67.511 5.392 5.392 0 0 0-1.949 1.27 5.392 5.392 0 0 0-1.269 1.948 8.074 8.074 0 0 0-.51 2.67C1.012 8.638 1 9.013 1 12s.013 3.362.066 4.535a8.074 8.074 0 0 0 .511 2.67 5.392 5.392 0 0 0 1.27 1.949 5.392 5.392 0 0 0 1.948 1.269 8.074 8.074 0 0 0 2.67.51C8.638 22.988 9.013 23 12 23s3.362-.013 4.535-.066a8.074 8.074 0 0 0 2.67-.511 5.625 5.625 0 0 0 3.218-3.218 8.074 8.074 0 0 0 .51-2.67C22.988 15.362 23 14.987 23 12s-.013-3.362-.066-4.535a8.074 8.074 0 0 0-.511-2.67 5.392 5.392 0 0 0-1.27-1.949 5.392 5.392 0 0 0-1.948-1.269 8.074 8.074 0 0 0-2.67-.51C15.362 1.012 14.987 1 12 1Zm0 5.351A5.649 5.649 0 1 0 17.649 12 5.649 5.649 0 0 0 12 6.351Zm0 9.316A3.667 3.667 0 1 1 15.667 12 3.667 3.667 0 0 1 12 15.667Zm5.872-10.859a1.32 1.32 0 1 0 1.32 1.32 1.32 1.32 0 0 0-1.32-1.32Z"></path></svg>
@@ -340,20 +427,36 @@
             <div class="mt-auto px-0 pb-4 shrink-0 relative">
                 <!-- Popup Lainnya Menu -->
                 <div id="moreMenuPopup" class="ig-more-menu hidden">
-                    <a onclick="alert('Pengaturan segera hadir')" class="ig-more-item gap-3">
-                        <svg aria-label="Pengaturan" fill="currentColor" height="24" role="img" viewBox="0 0 24 24" width="24"><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="2"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z" fill="none" stroke="currentColor" stroke-width="2"></path></svg>
-                        <span>Pengaturan</span>
-                    </a>
-                    <a onclick="toggleThemeOnly()" class="ig-more-item gap-3">
-                        <svg aria-label="Ubah Tampilan" fill="currentColor" height="24" role="img" viewBox="0 0 24 24" width="24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-                        <span>Ubah Tampilan</span>
-                    </a>
-                    
-                    <div class="ig-more-separator"></div>
-                    
-                    <a onclick="logout()" class="ig-more-item gap-3">
-                        <span>Keluar</span>
-                    </a>
+                    <div class="more-panels-wrapper">
+                        <!-- Panel Utama -->
+                        <div class="more-panel">
+                            <a onclick="showThemePanel(event)" class="ig-more-item gap-3">
+                                <svg aria-label="Ubah Tampilan" fill="currentColor" height="24" role="img" viewBox="0 0 24 24" width="24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                <span class="flex-1">Ubah Tampilan</span>
+                            </a>
+                            
+                            <div class="ig-more-separator"></div>
+                            
+                            <a onclick="logout()" class="ig-more-item gap-3">
+                                <span>Keluar</span>
+                            </a>
+                        </div>
+                        
+                        <!-- Panel Tema -->
+                        <div class="more-panel">
+                            <div class="flex items-center gap-3 p-3 border-b border-gray-100 dark:border-gray-800 mb-2">
+                                <button onclick="hideThemePanel(event)" class="text-gray-500 hover:text-gray-900 dark:hover:text-white transition-colors">
+                                    <svg fill="currentColor" height="20" viewBox="0 0 24 24" width="20"><path d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6z"></path></svg>
+                                </button>
+                                <span class="font-bold">Ubah tampilan</span>
+                                <svg class="ml-auto text-gray-400" fill="currentColor" height="20" viewBox="0 0 24 24" width="20"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                            </div>
+                            <label class="flex items-center justify-between p-3 cursor-pointer hover:bg-gray-50 dark:hover:bg-white/5 rounded-lg transition-colors">
+                                <span>Mode gelap</span>
+                                <input type="checkbox" id="igThemeToggle" class="ig-toggle" onchange="toggleIGTheme(this)">
+                            </label>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- Tombol Lainnya -->
@@ -495,8 +598,8 @@
                 </div>
 
                 <div class="glass-panel rounded-2xl shadow-sm overflow-hidden">
-                    <div class="overflow-x-auto min-h-[400px]">
-                        <table class="w-full text-sm text-left whitespace-nowrap">
+                    <div class="table-wrapper min-h-[400px]">
+                        <table class="resizable-table text-sm text-left whitespace-nowrap">
                             <thead class="bg-gray-50 dark:bg-gray-800/50 text-gray-500 dark:text-gray-400 uppercase text-[11px] font-bold tracking-wider">
                                 <tr>
                                     <th class="px-6 py-4">Pengguna</th>
@@ -538,8 +641,8 @@
                 </div>
 
                 <div class="glass-panel rounded-2xl shadow-sm overflow-hidden">
-                    <div class="overflow-x-auto min-h-[400px]">
-                        <table class="w-full text-sm text-left">
+                    <div class="table-wrapper min-h-[400px]">
+                        <table class="resizable-table text-sm text-left whitespace-nowrap">
                             <thead class="bg-gray-50 dark:bg-gray-800/50 text-gray-500 dark:text-gray-400 uppercase text-[11px] font-bold tracking-wider">
                                 <tr>
                                     <th class="px-6 py-4">Waktu</th>
@@ -573,8 +676,8 @@
                 </div>
 
                 <div class="glass-panel rounded-2xl shadow-sm overflow-hidden min-h-[400px]">
-                    <div class="overflow-x-auto">
-                        <table class="w-full text-sm text-left">
+                    <div class="table-wrapper">
+                        <table class="resizable-table text-sm text-left whitespace-nowrap">
                             <thead class="bg-gray-50 dark:bg-gray-800/50 text-gray-500 dark:text-gray-400 uppercase text-[11px] font-bold tracking-wider">
                                 <tr>
                                     <th class="px-6 py-4">Target ID (key_id)</th>
