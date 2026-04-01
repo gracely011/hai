@@ -30,6 +30,7 @@ let activeDrawerUid = null; // for Drawer Context
 document.addEventListener('DOMContentLoaded', async () => {
     lucide.createIcons();
     setupTheme();
+    initResizableTables();
     
     // Panggil logika autentikasi khusus Admin (tanpa requireAuth global)
     await initAdminAuth();
@@ -148,14 +149,18 @@ function setAdminTheme(theme) {
 }
 
 function toggleThemeOnly() {
+    // Old theme toggler, preserved if needed elsewhere. Next features use toggleIGTheme.
     const isDark = document.documentElement.classList.contains('dark');
     setAdminTheme(isDark ? 'light' : 'dark');
 }
 
 function updateThemeSidebarUI() {
-    // There are no dedicated theme buttons in the sidebar header anymore.
-    // They are moved to the "More" menu and just toggle. 
-    // This function can remain empty or handle global updates.
+    // Update the IG Theme Toggle Checkbox to match system state
+    const isDark = document.documentElement.classList.contains('dark');
+    const igToggle = document.getElementById('igThemeToggle');
+    if (igToggle) {
+        igToggle.checked = isDark;
+    }
 }
 
 // Verifikasi Hak Akses Admin melalui RPC
@@ -253,7 +258,41 @@ function toggleMoreMenu(event) {
     const menu = document.getElementById('moreMenuPopup');
     if(menu) {
         menu.classList.toggle('open');
+        // Selalu kembalikan ke panel utama setiap kali dibuka
+        if (menu.classList.contains('open')) {
+            menu.classList.remove('show-theme');
+        }
     }
+}
+
+// Menampilkan Panel Mode Gelap di dalam Popup "Lainnya"
+function showThemePanel(event) {
+    if(event) {
+        event.stopPropagation();
+        event.preventDefault();
+    }
+    const menu = document.getElementById('moreMenuPopup');
+    if (menu) {
+        menu.classList.add('show-theme');
+    }
+}
+
+// Menyembunyikan Panel Mode Gelap / Kembali ke Menu Utama
+function hideThemePanel(event) {
+    if(event) {
+        event.stopPropagation();
+        event.preventDefault();
+    }
+    const menu = document.getElementById('moreMenuPopup');
+    if (menu) {
+        menu.classList.remove('show-theme');
+    }
+}
+
+// Logic untuk Toggle Mode Gelap
+function toggleIGTheme(checkbox) {
+    // Jika checkbox tercentang, aktifkan dark mode
+    setAdminTheme(checkbox.checked ? 'dark' : 'light');
 }
 
 // Close "Lainnya" menu when clicked outside
@@ -1097,3 +1136,53 @@ function changeServicePage(dir) {
 }
 
 function openServiceModal() { alert("Kerangka Modal Tersedia. Tambahkan form HTML jika table schema sudah permanen."); }
+
+// --- Table Explorer (Resizable Columns) ---
+function initResizableTables() {
+    const tables = document.querySelectorAll('.resizable-table');
+    tables.forEach(table => {
+        const ths = table.querySelectorAll('thead th');
+        ths.forEach(th => {
+            if (!th.classList.contains('resizable-th')) {
+                th.classList.add('resizable-th');
+            }
+            if (!th.querySelector('.resizer')) {
+                const resizer = document.createElement('div');
+                resizer.classList.add('resizer');
+                th.appendChild(resizer);
+                createResizableColumn(th, resizer);
+            }
+        });
+    });
+}
+
+function createResizableColumn(th, resizer) {
+    let x = 0;
+    let w = 0;
+
+    const mouseDownHandler = function(e) {
+        // Hentikan select teks
+        e.preventDefault();
+        
+        x = e.clientX;
+        const styles = window.getComputedStyle(th);
+        w = parseInt(styles.width, 10);
+
+        document.addEventListener('mousemove', mouseMoveHandler);
+        document.addEventListener('mouseup', mouseUpHandler);
+        resizer.classList.add('resizing');
+    };
+
+    const mouseMoveHandler = function(e) {
+        const dx = e.clientX - x;
+        th.style.width = `${w + dx}px`;
+    };
+
+    const mouseUpHandler = function() {
+        document.removeEventListener('mousemove', mouseMoveHandler);
+        document.removeEventListener('mouseup', mouseUpHandler);
+        resizer.classList.remove('resizing');
+    };
+
+    resizer.addEventListener('mousedown', mouseDownHandler);
+}
