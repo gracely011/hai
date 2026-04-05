@@ -43,6 +43,19 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icon-css@1.1.0/css/flag-icon.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="auth.js?v=limitPopupFix"></script>
+    <script>
+      (function() {
+        const isAuth = localStorage.getItem('isAuthenticated') === 'true';
+        if (!isAuth) {
+          window.location.href = "login.html";
+        } else {
+          const planNum = localStorage.getItem('userPlanNumber');
+          if (planNum !== '004') {
+            window.location.href = "dashboard.html";
+          }
+        }
+      })();
+    </script>
     <script src="assets/script.js?v=branding"></script>
   </head>
   

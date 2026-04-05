@@ -770,7 +770,7 @@ function initDashboardPlanStatus() {
           <div class="menu-section">
             <div class="menu-section-mini-header">Your plan</div>
             <img src="assets/images/logo/gracely_mobile_white.png" alt="Logo" id="logo" class="top-right-image">
-            <div class="${planNumber === '004' ? 'menu-section-plan-phantomwitcher' : 'menu-section-plan-premium'}">${planName}</div>
+            <div class="${planNumber === '004' ? 'menu-section-plan-phantomwitcher' : 'menu-section-plan-premium'}">${planName === 'The Phantom' ? 'Pro + The Phantom' : planName}</div>
             <div class="menu-section-plan-description">`;
 
         let hasShownDate = false;
