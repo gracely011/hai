@@ -44,22 +44,29 @@
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="auth.js?v=limitPopupFix"></script>
     <script>
-      (function() {
-        const isAuth = localStorage.getItem('isAuthenticated') === 'true';
-        if (!isAuth) {
-          window.location.href = "login.html";
-        } else {
-          const phantomExpiry = localStorage.getItem('phantomExpiryDate');
-          let isValid = false;
-          if (phantomExpiry && phantomExpiry !== 'null' && phantomExpiry !== 'undefined') {
-            const expiryDate = new Date(phantomExpiry);
-            if (!isNaN(expiryDate.getTime()) && expiryDate > new Date()) {
-              isValid = true;
-            }
+      (async () => {
+        if (typeof isAuthenticated !== 'function' || !isAuthenticated()) {
+          window.location.replace("login.html");
+          return;
+        }
+        
+        // Jalankan pemeriksaan sisi server Gracely
+        await requireAuth();
+        
+        // Pastikan kembali tidak tertendang setelah cek server
+        if (!isAuthenticated()) return;
+
+        const phantomExpiry = localStorage.getItem('phantomExpiryDate');
+        let isValid = false;
+        if (phantomExpiry && phantomExpiry !== 'null' && phantomExpiry !== 'undefined') {
+          const expiryDate = new Date(phantomExpiry);
+          if (!isNaN(expiryDate.getTime()) && expiryDate > new Date()) {
+            isValid = true;
           }
-          if (!isValid) {
-            window.location.href = "dashboard.html";
-          }
+        }
+        
+        if (!isValid) {
+          window.location.replace("dashboard.html");
         }
       })();
     </script>
