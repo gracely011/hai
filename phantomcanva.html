@@ -49,8 +49,15 @@
         if (!isAuth) {
           window.location.href = "login.html";
         } else {
-          const planNum = localStorage.getItem('userPlanNumber');
-          if (planNum !== '004') {
+          const phantomExpiry = localStorage.getItem('phantomExpiryDate');
+          let isValid = false;
+          if (phantomExpiry && phantomExpiry !== 'null' && phantomExpiry !== 'undefined') {
+            const expiryDate = new Date(phantomExpiry);
+            if (!isNaN(expiryDate.getTime()) && expiryDate > new Date()) {
+              isValid = true;
+            }
+          }
+          if (!isValid) {
             window.location.href = "dashboard.html";
           }
         }
