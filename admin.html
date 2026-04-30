@@ -1,995 +1,586 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Dashboard | Gracely</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram Replica</title>
+  <link rel="stylesheet" href="admin.css">
+  
+  <!-- Supabase & Custom Global Styles -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    /* Admin custom styles adapting to IG3 CSS variables */
+    .loader {
+        border: 3px solid var(--surface-2); border-top: 3px solid #0095f6; border-radius: 50%; width: 24px; height: 24px; animation: spin 1s linear infinite; margin: 0 auto;
+    }
+    @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
     
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            darkMode: 'class',
-            theme: {
-                extend: {
-                    colors: {
-                        brand: {
-                            50: '#f0fdfa',
-                            100: '#ccfbf1',
-                            500: '#14b8a6',
-                            600: '#0d9488',
-                            900: '#134e4a',
-                        }
-                    }
-                }
-            }
-        }
-    </script>
+    .admin-table { width: 100%; border-collapse: collapse; font-size: 13px; text-align: left; white-space: nowrap; }
+    .admin-table th { padding: 12px 16px; color: var(--muted); font-weight: 600; border-bottom: 2px solid var(--line); text-transform: uppercase; font-size: 11px; }
+    .admin-table td { padding: 12px 16px; border-bottom: 1px solid var(--line); color: var(--text); }
+    .admin-table tbody tr:hover { background-color: var(--surface-2); cursor: pointer; }
     
-    <!-- Supabase -->
-    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    .badge { padding: 4px 8px; border-radius: 4px; font-size: 10px; font-weight: bold; text-transform: uppercase; }
+    .badge-premium { background: rgba(20, 184, 166, 0.1); color: #14b8a6; }
+    .badge-pro { background: rgba(59, 130, 246, 0.1); color: #3b82f6; }
+    .badge-phantom { background: rgba(168, 85, 247, 0.1); color: #a855f7; }
+    .badge-free { background: var(--surface-2); color: var(--text); }
+
+    .modal { display: none; position: fixed; inset: 0; z-index: 1000; background: rgba(0,0,0,0.6); backdrop-filter: blur(4px); align-items: center; justify-content: center; padding: 16px; }
+    .modal.active { display: flex; }
+    .modal-content { background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow); border-radius: 20px; width: 100%; max-width: 480px; overflow: hidden; }
+    .modal-header { padding: 16px 20px; border-bottom: 1px solid var(--line); display: flex; justify-content: space-between; align-items: center; }
+    .modal-header h3 { margin: 0; font-size: 16px; font-weight: 600; display:flex; align-items:center; gap:8px;}
+    .modal-close { border: 0; background: transparent; color: var(--muted); cursor: pointer; padding: 0; }
+    .modal-body { padding: 20px; }
+    .modal-footer { padding: 16px 20px; border-top: 1px solid var(--line); background: var(--surface-2); display: flex; justify-content: flex-end; gap: 12px; }
+    .btn { padding: 10px 16px; border-radius: 10px; border: 0; font-weight: 600; cursor: pointer; }
+    .btn-primary { background: #0095f6; color: #fff; }
+    .btn-danger { background: #ed4956; color: #fff; }
+    .btn-cancel { background: transparent; color: var(--text); } .btn-cancel:hover { background: var(--surface-2); }
     
-    <!-- Lucide Icons -->
-    <script src="https://unpkg.com/lucide@latest"></script>
+    .form-group { margin-bottom: 16px; }
+    .form-group label { display: block; margin-bottom: 8px; font-size: 11px; font-weight: 600; text-transform: uppercase; color: var(--muted); }
+    .form-control { width: 100%; padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--text); outline: none; }
     
-    <!-- Chart.js -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    /* Input Checkbox iOS style */
+    .switch-input { display: none; }
+    .switch-label { width: 38px; height: 22px; border-radius: 999px; background: #80868f; position: relative; transition: .2s; display: inline-block; cursor: pointer;}
+    .switch-label::after { content: ""; position: absolute; top: 3px; left: 3px; width: 16px; height: 16px; border-radius: 50%; background: #fff; transition: .2s; }
+    .switch-input:checked + .switch-label { background: #0095f6; }
+    .switch-input:checked + .switch-label::after { left: 19px; }
 
-    <style>
-        /* System Font for Instagram Look */
-        :root {
-            --ig-sys-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-        }
-        body { 
-            font-family: var(--ig-sys-font); 
-        }
-
-        .glass-panel {
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(226, 232, 240, 0.8);
-        }
-        .dark .glass-panel {
-            background: rgba(31, 41, 55, 0.95);
-            border: 1px solid rgba(55, 65, 81, 0.8);
-        }
-        /* Loader */
-        .loader {
-            border: 3px solid #f3f3f3;
-            border-top: 3px solid #14b8a6;
-            border-radius: 50%;
-            width: 24px;
-            height: 24px;
-            animation: spin 1s linear infinite;
-        }
-        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
-        
-        /* Modal Transitions */
-        .modal {
-            opacity: 0;
-            pointer-events: none;
-            transition: all 0.3s ease;
-        }
-        .modal.active {
-            opacity: 1;
-            pointer-events: auto;
-        }
-        .modal-content {
-            transform: scale(0.95) translateY(20px);
-            transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
-        }
-        .modal.active .modal-content {
-            transform: scale(1) translateY(0);
-        }
-
-        /* Instagram Sidebar Styling */
-        .ig-sidebar {
-            width: 72px; /* collapsed icon only */
-            transition: width 0.2s cubic-bezier(0.2, 0, 0, 1);
-            position: fixed;
-            left: 0;
-            top: 0;
-            height: 100vh;
-            background: #fff;
-            z-index: 50;
-            display: flex;
-            flex-direction: column;
-        }
-        .dark .ig-sidebar {
-            background: #000;
-            /* Border dihilangkan di dark mode agar menyatu sempurna */
-        }
-        
-        /* Expand on hover for desktop */
-        @media (min-width: 768px) {
-            .ig-sidebar:hover {
-                width: 244px; /* expanded width like IG */
-                box-shadow: 4px 0 24px rgba(0,0,0,0.05);
-            }
-            .ig-sidebar:hover .menu-label {
-                opacity: 1;
-                visibility: visible;
-                transition-delay: 0.1s;
-            }
-            .main-content-layout {
-                margin-left: 72px; /* make space for narrow sidebar */
-            }
-        }
-        
-        .menu-item {
-            display: flex;
-            align-items: center;
-            padding: 12px;
-            margin: 4px 12px;
-            border-radius: 8px;
-            color: #000;
-            transition: background-color 0.2s ease;
-            text-decoration: none;
-            cursor: pointer;
-            user-select: none;
-        }
-        .dark .menu-item { color: #fff; }
-        .menu-item:hover { background-color: rgba(0,0,0,0.05); }
-        .dark .menu-item:hover { background-color: rgba(255,255,255,0.1); }
-        
-        .menu-label {
-            margin-left: 16px;
-            font-size: 16px;
-            white-space: nowrap;
-            opacity: 0;
-            visibility: hidden;
-            transition: opacity 0.2s ease, visibility 0s 0.2s; /* delay hide */
-        }
-        .ig-sidebar:hover .menu-label {
-            transition: opacity 0.2s ease;
-        }
-
-        .menu-item.active { font-weight: 700; }
-        .menu-item:not(.active) { font-weight: 400; }
-        
-        /* Hidden classes for unactive / active SVGs */
-        .svg-active { display: none; }
-        .menu-item.active .svg-active { display: block; }
-        .menu-item.active .svg-inactive { display: none; }
-
-        /* More Menu Popup */
-        .ig-more-menu {
-            position: absolute;
-            bottom: 74px;
-            left: 12px;
-            width: 266px;
-            background: #fff;
-            border-radius: 16px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-            transform: translateY(10px) scale(0.95);
-            transform-origin: bottom left;
-            opacity: 0;
-            pointer-events: none;
-            transition: all 0.2s cubic-bezier(0.2, 0, 0, 1);
-            z-index: 60;
-            overflow: hidden; /* For nested sliding panels */
-        }
-        .dark .ig-more-menu {
-            background: #262626;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.5);
-        }
-        .ig-more-menu.open {
-            transform: translateY(0) scale(1);
-            opacity: 1;
-            pointer-events: auto;
-        }
-        
-        /* Nested Panels */
-        .more-panels-wrapper {
-            display: flex;
-            width: 200%;
-            transition: transform 0.25s cubic-bezier(0.2, 0, 0, 1);
-        }
-        .more-panel {
-            width: 50%; /* 50% of 200% = 100% of container */
-            display: flex;
-            flex-direction: column;
-            padding: 8px;
-            flex-shrink: 0;
-        }
-        .ig-more-menu.show-theme .more-panels-wrapper {
-            transform: translateX(-50%);
-        }
-
-        /* IG Toggle Switch */
-        .ig-toggle {
-            appearance: none;
-            width: 44px;
-            height: 24px;
-            background-color: #dbdbdb;
-            border-radius: 12px;
-            position: relative;
-            cursor: pointer;
-            outline: none;
-            transition: background-color 0.2s ease;
-            flex-shrink: 0;
-        }
-        .dark .ig-toggle { background-color: #363636; }
-        .ig-toggle:checked { background-color: #000; }
-        .dark .ig-toggle:checked { background-color: #fff; }
-        .ig-toggle::after {
-            content: '';
-            position: absolute;
-            top: 2px;
-            left: 2px;
-            width: 20px;
-            height: 20px;
-            background-color: #fff;
-            border-radius: 50%;
-            transition: transform 0.2s cubic-bezier(0.2, 0, 0, 1);
-            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-        }
-        .dark .ig-toggle::after { background-color: #b0b0b0; }
-        .ig-toggle:checked::after {
-            transform: translateX(20px);
-            background-color: #fff;
-        }
-        .dark .ig-toggle:checked::after { background-color: #000; }
-        .ig-more-menu.open {
-            transform: translateY(0) scale(1);
-            opacity: 1;
-            pointer-events: auto;
-        }
-        .ig-more-item {
-            display: flex;
-            align-items: center;
-            padding: 16px;
-            font-size: 14px;
-            color: #000;
-            border-radius: 8px;
-            text-decoration: none;
-            cursor: pointer;
-            transition: background 0.2s;
-        }
-        .dark .ig-more-item { color: #fff; }
-        .ig-more-item:hover { background: rgba(0,0,0,0.05); }
-        .dark .ig-more-item:hover { background: rgba(255,255,255,0.1); }
-        .ig-more-separator {
-            height: 1px;
-            background: #dbdbdb;
-            margin: 8px 0;
-        }
-        .dark .ig-more-separator { background: #363636; }
-        
-        /* Minimalist Hover-Only Scrollbar */
-        .hover-scroll {
-            scrollbar-width: thin;
-            scrollbar-color: transparent transparent;
-        }
-        .hover-scroll:hover { scrollbar-color: #dbdbdb transparent; }
-        .dark .hover-scroll:hover { scrollbar-color: #363636 transparent; }
-        .hover-scroll::-webkit-scrollbar { width: 5px; height: 5px; }
-        .hover-scroll::-webkit-scrollbar-track { background-color: transparent; }
-        .hover-scroll::-webkit-scrollbar-thumb { background-color: transparent; border-radius: 10px; }
-        .hover-scroll:hover::-webkit-scrollbar-thumb { background-color: #dbdbdb; }
-        .dark .hover-scroll:hover::-webkit-scrollbar-thumb { background-color: #363636; }
-        
-        /* Resizable Column Setup */
-        .table-wrapper {
-            overflow-x: auto;
-            border-radius: 0.5rem;
-        }
-        .resizable-table {
-            border-collapse: collapse;
-            table-layout: fixed;
-            width: 100%;
-            min-width: 800px; /* Base width */
-        }
-        .resizable-th {
-            position: relative;
-            user-select: none;
-        }
-        .resizer {
-            position: absolute;
-            right: 0;
-            top: 0;
-            bottom: 0;
-            width: 5px;
-            cursor: col-resize;
-            background-color: transparent;
-            transition: background-color 0.2s;
-            z-index: 1;
-        }
-        .resizable-th:hover .resizer, .resizer.resizing {
-            background-color: rgba(0, 0, 0, 0.1);
-        }
-        .dark .resizable-th:hover .resizer, .dark .resizer.resizing {
-            background-color: rgba(255, 255, 255, 0.2);
-        }
-    </style>
+    #drawerUserDetail { position: fixed; top: 0; right: 0; bottom: 0; width: 400px; background: var(--surface); border-left: 1px solid var(--line); z-index: 1000; transform: translateX(100%); transition: transform 0.3s cubic-bezier(0.2, 0, 0, 1); display: flex; flex-direction: column; }
+    #drawerUserDetail.active { transform: translateX(0); }
+    #drawerOverlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.4); z-index: 999; }
+    #drawerOverlay.active { display: block; }
+    .drawer-body { flex: 1; overflow-y: auto; padding: 20px; }
+    .drawer-info-box { background: var(--surface-2); padding: 16px; border-radius: 12px; margin-bottom: 16px; }
+    .drawer-info-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+    .drawer-info-value { font-size: 13px; font-weight: 600; color: var(--text); }
+  </style>
 </head>
-<body class="h-screen flex flex-col overflow-hidden bg-white dark:bg-black text-gray-800 dark:text-gray-200 transition-colors duration-200">
+<body>
+  <div class="ig-app">
+    <aside class="rail" aria-label="Navigasi utama">
+      <div class="rail-brand">
+        <button class="rail-btn logo" type="button" aria-label="Instagram">
+          <svg aria-label="Instagram" fill="currentColor" height="24" role="img" viewBox="0 0 24 24" width="24">
+            <title>Instagram</title>
+            <path d="M12 2.982c2.937 0 3.285.011 4.445.064a6.087 6.087 0 0 1 2.042.379 3.408 3.408 0 0 1 1.265.823 3.408 3.408 0 0 1 .823 1.265 6.087 6.087 0 0 1 .379 2.042c.053 1.16.064 1.508.064 4.445s-.011 3.285-.064 4.445a6.087 6.087 0 0 1-.379 2.042 3.643 3.643 0 0 1-2.088 2.088 6.087 6.087 0 0 1-2.042.379c-1.16.053-1.508.064-4.445.064s-3.285-.011-4.445-.064a6.087 6.087 0 0 1-2.043-.379 3.408 3.408 0 0 1-1.264-.823 3.408 3.408 0 0 1-.823-1.265 6.087 6.087 0 0 1-.379-2.042c-.053-1.16-.064-1.508-.064-4.445s.011-3.285.064-4.445a6.087 6.087 0 0 1 .379-2.042 3.408 3.408 0 0 1 .823-1.265 3.408 3.408 0 0 1 1.265-.823 6.087 6.087 0 0 1 2.042-.379c1.16-.053 1.508-.064 4.445-.064M12 1c-2.987 0-3.362.013-4.535.066a8.074 8.074 0 0 0-2.67.511 5.392 5.392 0 0 0-1.949 1.27 5.392 5.392 0 0 0-1.269 1.948 8.074 8.074 0 0 0-.51 2.67C1.012 8.638 1 9.013 1 12s.013 3.362.066 4.535a8.074 8.074 0 0 0 .511 2.67 5.392 5.392 0 0 0 1.27 1.949 5.392 5.392 0 0 0 1.948 1.269 8.074 8.074 0 0 0 2.67.51C8.638 22.988 9.013 23 12 23s3.362-.013 4.535-.066a8.074 8.074 0 0 0 2.67-.511 5.625 5.625 0 0 0 3.218-3.218 8.074 8.074 0 0 0 .51-2.67C22.988 15.362 23 14.987 23 12s-.013-3.362-.066-4.535a8.074 8.074 0 0 0-.511-2.67 5.392 5.392 0 0 0-1.27-1.949 5.392 5.392 0 0 0-1.948-1.269 8.074 8.074 0 0 0-2.67-.51C15.362 1.012 14.987 1 12 1Zm0 5.351A5.649 5.649 0 1 0 17.649 12 5.649 5.649 0 0 0 12 6.351Zm0 9.316A3.667 3.667 0 1 1 15.667 12 3.667 3.667 0 0 1 12 15.667Zm5.872-10.859a1.32 1.32 0 1 0 1.32 1.32 1.32 1.32 0 0 0-1.32-1.32Z"></path>
+          </svg>
+        </button>
+      </div>
 
-    <!-- Global Loader -->
-    <div id="authLoader" class="fixed inset-0 bg-white/80 dark:bg-gray-900/80 backdrop-blur z-[100] flex flex-col justify-center items-center">
-        <div class="loader mb-4 w-12 h-12 border-4"></div>
-        <h2 class="text-lg font-bold text-gray-800 dark:text-gray-200">Memverifikasi Akses Admin...</h2>
-    </div>
+      <nav aria-label="Menu samping">
+        <ul class="rail-main">
+          <li><button class="rail-btn active" type="button" data-panel="overview" aria-label="Beranda">
+            <span class="nav-icon-stack" aria-hidden="true">
+              <svg class="icon-outline" viewBox="0 0 24 24"><path d="m21.762 8.786-7-6.68C13.266.68 10.734.68 9.238 2.106l-7 6.681A4.017 4.017 0 0 0 1 11.68V20c0 1.654 1.346 3 3 3h5.005a1 1 0 0 0 1-1L10 15c0-1.103.897-2 2-2 1.09 0 1.98.877 2 1.962L13.999 22a1 1 0 0 0 1 1H20c1.654 0 3-1.346 3-3v-8.32a4.021 4.021 0 0 0-1.238-2.894ZM21 20a1 1 0 0 1-1 1h-4.001L16 15c0-2.206-1.794-4-4-4s-4 1.794-4 4l.005 6H4a1 1 0 0 1-1-1v-8.32c0-.543.226-1.07.62-1.447l7-6.68c.747-.714 2.013-.714 2.76 0l7 6.68c.394.376.62.904.62 1.448V20Z"></path></svg>
+              <svg class="icon-filled" viewBox="0 0 24 24"><path d="m21.762 8.786-7-6.68a3.994 3.994 0 0 0-5.524 0l-7 6.681A4.017 4.017 0 0 0 1 11.68V19c0 2.206 1.794 4 4 4h3.005a1 1 0 0 0 1-1v-7.003a2.997 2.997 0 0 1 5.994 0V22a1 1 0 0 0 1 1H19c2.206 0 4-1.794 4-4v-7.32a4.02 4.02 0 0 0-1.238-2.894Z"></path></svg>
+            </span>
+            <span class="rail-label">Ringkasan</span>
+          </button></li>
+          
+          <li><button class="rail-btn" type="button" data-panel="activity" aria-label="Pesan">
+            <span class="nav-icon-stack" aria-hidden="true">
+              <svg class="icon-outline" viewBox="0 0 24 24"><path d="M13.973 20.046 21.77 6.928C22.8 5.195 21.55 3 19.535 3H4.466C2.138 3 .984 5.825 2.646 7.456l4.842 4.752 1.723 7.121c.548 2.266 3.571 2.721 4.762.717Z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"></path><line fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="7.488" x2="15.515" y1="12.208" y2="7.641"></line></svg>
+              <svg class="icon-filled" viewBox="0 0 24 24"><path d="M22.513 3.576C21.826 2.552 20.617 2 19.384 2H4.621c-1.474 0-2.878.818-3.46 2.173-.6 1.398-.297 2.935.784 3.997l3.359 3.295a1 1 0 0 0 1.195.156l8.522-4.849a1 1 0 1 1 .988 1.738l-8.526 4.851a1 1 0 0 0-.477 1.104l1.218 5.038c.343 1.418 1.487 2.534 2.927 2.766.208.034.412.051.616.051 1.26 0 2.401-.644 3.066-1.763l7.796-13.118a3.572 3.572 0 0 0-.116-3.863Z"></path></svg>
+            </span>
+            <span class="rail-label">Aktivitas</span></button></li>
 
-    <!-- Admin Login Panel (Hidden by default, shown if no session) -->
-    <div id="adminLoginPanel" class="hidden flex-1 w-full flex items-center justify-center p-4 min-h-screen">
-        <div class="glass-panel w-full max-w-md rounded-2xl shadow-xl overflow-hidden p-8 border border-white/20 dark:border-gray-700/50">
-            <div class="text-center mb-8">
-                <div class="w-16 h-16 bg-brand-100 dark:bg-brand-900/30 rounded-2xl flex items-center justify-center mx-auto mb-4 text-brand-500 shadow-inner">
-                    <i data-lucide="shield-check" class="w-8 h-8"></i>
-                </div>
-                <h1 class="text-2xl font-bold text-gray-900 dark:text-white mt-2">Gracely Admin</h1>
-                <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Masuk untuk mengelola sistem Gracely</p>
-            </div>
-            
-            <form id="adminLoginForm" onsubmit="handleAdminLogin(event)" class="space-y-5">
-                <div id="adminLoginError" class="hidden p-3 bg-red-50 dark:bg-red-900/30 border border-red-200 dark:border-red-800/50 rounded-xl text-sm text-red-600 dark:text-red-400 font-medium">
-                    <!-- Error message goes here -->
-                </div>
-                
-                <div>
-                    <label class="block text-[11px] font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-2">Email Administrator</label>
-                    <div class="relative">
-                        <i data-lucide="mail" class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400"></i>
-                        <input type="email" id="adminEmail" required placeholder="admin@example.com" class="w-full pl-10 pr-4 py-2.5 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl outline-none focus:ring-2 focus:ring-brand-500 text-sm transition-shadow">
-                    </div>
-                </div>
-                
-                <div>
-                    <label class="block text-[11px] font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-2">Kata Sandi</label>
-                    <div class="relative">
-                        <i data-lucide="lock" class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400"></i>
-                        <input type="password" id="adminPassword" required placeholder="••••••••" class="w-full pl-10 pr-4 py-2.5 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl outline-none focus:ring-2 focus:ring-brand-500 text-sm transition-shadow">
-                    </div>
-                </div>
-                
-                <button type="submit" id="btnAdminLogin" class="w-full py-2.5 bg-brand-600 hover:bg-brand-700 text-white font-bold rounded-xl shadow transition-all flex items-center justify-center gap-2 mt-4 text-sm">
-                    <span>Masuk sebagai Admin</span>
-                    <i data-lucide="chevron-right" class="w-4 h-4"></i>
-                </button>
-            </form>
-            
-            <div class="mt-6 pt-6 border-t border-gray-100 dark:border-gray-800 text-center">
-                <a href="login.html" class="text-xs text-brand-600 hover:text-brand-700 dark:text-brand-400 dark:hover:text-brand-300 font-medium transition-colors">
-                    &larr; Kembali ke Portal Pengguna
-                </a>
-            </div>
+
+          <li><button class="rail-btn" type="button" data-panel="users" aria-label="Cari"><span class="nav-icon-stack" aria-hidden="true"><svg class="icon-outline" viewBox="0 0 24 24"><path d="M19 10.5A8.5 8.5 0 1 1 10.5 2a8.5 8.5 0 0 1 8.5 8.5Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><line fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="16.511" x2="22" y1="16.511" y2="22"></line></svg><svg class="icon-filled" viewBox="0 0 24 24"><path d="M18.5 10.5a8 8 0 1 1-8-8 8 8 0 0 1 8 8Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path><line fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" x1="16.511" x2="21.643" y1="16.511" y2="21.643"></line></svg></span><span class="rail-label">Akun</span></button></li>
+          
+          <li><button class="rail-btn" type="button" data-panel="notifications" aria-label="Notifikasi"><span class="nav-icon-stack" aria-hidden="true"><svg class="icon-outline" viewBox="0 0 24 24"><path d="M16.792 3.904A4.989 4.989 0 0 1 21.5 9.122c0 3.072-2.652 4.959-5.197 7.222-2.512 2.243-3.865 3.469-4.303 3.752-.477-.309-2.143-1.823-4.303-3.752C5.141 14.072 2.5 12.167 2.5 9.122a4.989 4.989 0 0 1 4.708-5.218 4.21 4.21 0 0 1 3.675 1.941c.84 1.175.98 1.763 1.12 1.763s.278-.588 1.11-1.766a4.17 4.17 0 0 1 3.679-1.938m0-2a6.04 6.04 0 0 0-4.797 2.127 6.052 6.052 0 0 0-4.787-2.127A6.985 6.985 0 0 0 .5 9.122c0 3.61 2.55 5.827 5.015 7.97.283.246.569.494.853.747l1.027.918a44.998 44.998 0 0 0 3.518 3.018 2 2 0 0 0 2.174 0 45.263 45.263 0 0 0 3.626-3.115l.922-.824c.293-.26.59-.519.885-.774 2.334-2.025 4.98-4.32 4.98-7.94a6.985 6.985 0 0 0-6.708-7.218Z"></path></svg><svg class="icon-filled" viewBox="0 0 24 24"><path d="M16.792 2.904A4.984 4.984 0 0 0 12 5.166a4.983 4.983 0 0 0-4.792-2.262A5.983 5.983 0 0 0 1.5 9.122c0 3.151 2.11 4.985 4.777 7.302l.833.724A44.54 44.54 0 0 0 10.86 20.4a2 2 0 0 0 2.28 0 44.507 44.507 0 0 0 3.75-3.252l.833-.724c2.668-2.317 4.777-4.151 4.777-7.302a5.983 5.983 0 0 0-5.708-6.218Z"></path></svg></span><span class="rail-label">Notifikasi</span></button></li>
+
+          <li><button class="rail-btn" type="button" data-panel="services" aria-label="Buat"><span class="nav-icon-stack" aria-hidden="true"><svg class="icon-outline" viewBox="0 0 24 24"><path d="M21 11h-8V3a1 1 0 1 0-2 0v8H3a1 1 0 1 0 0 2h8v8a1 1 0 1 0 2 0v-8h8a1 1 0 1 0 0-2Z"></path></svg><svg class="icon-filled" viewBox="0 0 24 24"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2Zm-1 10h-5v5a1 1 0 1 1-2 0v-5H6a1 1 0 1 1 0-2h5V6a1 1 0 1 1 2 0v5h5a1 1 0 1 1 0 2Z"></path></svg></span><span class="rail-label">Layanan</span></button></li>
+
+          
+          <li><button class="rail-btn avatar-btn" type="button" data-panel="profil" aria-label="Profil"><img src="profil.jpg" alt="Profil"><span class="rail-label">Profil</span></button></li>
+        </ul>
+      </nav>
+
+      <nav aria-label="Menu tambahan">
+        <ul class="rail-footer">
+          <li><button class="rail-btn" type="button" id="moreButton" aria-label="Lainnya" aria-haspopup="dialog" aria-controls="morePopover"><svg viewBox="0 0 24 24"><line fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="3" x2="21" y1="4" y2="4"></line><line fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="3" x2="21" y1="12" y2="12"></line><line fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="3" x2="21" y1="20" y2="20"></line></svg><span class="rail-label">Lainnya</span></button></li>
+          
+        </ul>
+      </nav>
+
+      <div class="more-popover hidden" id="morePopover" role="dialog" aria-label="Menu lainnya" aria-modal="false">
+        <div class="menu-screen" id="mainMenu">
+          <button class="menu-item" type="button">
+            <span class="menu-item-icon settings-icon-wrap" aria-hidden="true">
+              <svg class="settings-menu-icon" fill="currentColor" width="18" height="18" viewBox="0 0 24 24" style="width:18px;height:18px;display:block">
+                <circle cx="12" cy="12" fill="none" r="8.635" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></circle><path d="M14.232 3.656a1.269 1.269 0 0 1-.796-.66L12.93 2h-1.86l-.505.996a1.269 1.269 0 0 1-.796.66m-.001 16.688a1.269 1.269 0 0 1 .796.66l.505.996h1.862l.505-.996a1.269 1.269 0 0 1 .796-.66M3.656 9.768a1.269 1.269 0 0 1-.66.796L2 11.07v1.862l.996.505a1.269 1.269 0 0 1 .66.796m16.688-.001a1.269 1.269 0 0 1 .66-.796L22 12.93v-1.86l-.996-.505a1.269 1.269 0 0 1-.66-.796M7.678 4.522a1.269 1.269 0 0 1-1.03.096l-1.06-.348L4.27 5.587l.348 1.062a1.269 1.269 0 0 1-.096 1.03m11.8 11.799a1.269 1.269 0 0 1 1.03-.096l1.06.348 1.318-1.317-.348-1.062a1.269 1.269 0 0 1 .096-1.03m-14.956.001a1.269 1.269 0 0 1 .096 1.03l-.348 1.06 1.317 1.318 1.062-.348a1.269 1.269 0 0 1 1.03.096m11.799-11.8a1.269 1.269 0 0 1-.096-1.03l.348-1.06-1.317-1.318-1.062.348a1.269 1.269 0 0 1-1.03-.096" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"></path>
+              </svg>
+            </span>
+            <span class="menu-label">Pengaturan</span>
+          </button>
+          <button class="menu-item" type="button">
+            <span class="menu-item-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path d="M19 1H5C2.794 1 1 2.794 1 5v14c0 2.206 1.794 4 4 4h14c2.206 0 4-1.794 4-4V5c0-2.206-1.794-4-4-4ZM5 3h14c1.103 0 2 .897 2 2v6h-2.382l-2.723-5.447c-.34-.678-1.45-.678-1.79 0L9 15.764l-2.105-4.211A1 1 0 0 0 6 11H3V5c0-1.103.897-2 2-2Zm14 18H5c-1.103 0-2-.897-2-2v-6h2.382l2.723 5.447a1 1 0 0 0 1.79 0L15 8.236l2.105 4.211A1 1 0 0 0 18 13h3v6c0 1.103-.897 2-2 2Z"></path>
+              </svg>
+            </span>
+            <span class="menu-label">Aktivitas Anda</span>
+          </button>
+          <button class="menu-item" type="button">
+            <span class="menu-item-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <polygon fill="none" points="20 21 12 13.44 4 21 4 3 20 3 20 21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+              </svg>
+            </span>
+            <span class="menu-label">Tersimpan</span>
+          </button>
+          <button class="menu-item" type="button" id="themeMenuButton">
+            <span class="menu-item-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path d="M12.00018,4.5a1,1,0,0,0,1-1V2a1,1,0,0,0-2,0V3.5A1.00005,1.00005,0,0,0,12.00018,4.5ZM5.28241,6.69678A.99989.99989,0,1,0,6.69647,5.28271l-1.06054-1.061A.99989.99989,0,0,0,4.22186,5.63574ZM4.50018,12a1,1,0,0,0-1-1h-1.5a1,1,0,0,0,0,2h1.5A1,1,0,0,0,4.50018,12Zm.78223,5.30322-1.06055,1.061a.99989.99989,0,1,0,1.41407,1.41406l1.06054-1.061a.99989.99989,0,0,0-1.41406-1.41407ZM12.00018,19.5a1.00005,1.00005,0,0,0-1,1V22a1,1,0,0,0,2,0V20.5A1,1,0,0,0,12.00018,19.5Zm6.71729-2.19678a.99989.99989,0,0,0-1.41406,1.41407l1.06054,1.061A.99989.99989,0,0,0,19.778,18.36426ZM22.00018,11h-1.5a1,1,0,0,0,0,2h1.5a1,1,0,0,0,0-2ZM18.01044,6.98975a.996.996,0,0,0,.707-.293l1.06055-1.061A.99989.99989,0,0,0,18.364,4.22168l-1.06054,1.061a1,1,0,0,0,.707,1.707ZM12.00018,6a6,6,0,1,0,6,6A6.00657,6.00657,0,0,0,12.00018,6Zm0,10a4,4,0,1,1,4-4A4.00458,4.00458,0,0,1,12.00018,16Z"></path>
+              </svg>
+            </span>
+            <span class="menu-label">Ubah tampilan</span>
+          </button>
+          <button class="menu-item" type="button">
+            <span class="menu-item-icon" aria-hidden="true">
+              <svg aria-label="Laporkan masalah" class="x1lliihq x1n2onr6 x5n08af" fill="currentColor" height="18" role="img" viewBox="0 0 24 24" width="18"><path d="M18.001 1h-12a5.006 5.006 0 0 0-5 5v9.005a5.006 5.006 0 0 0 5 5h2.514l2.789 2.712a1 1 0 0 0 1.394 0l2.787-2.712h2.516a5.006 5.006 0 0 0 5-5V6a5.006 5.006 0 0 0-5-5Zm3 14.005a3.003 3.003 0 0 1-3 3h-2.936a1 1 0 0 0-.79.387l-2.274 2.212-2.276-2.212a1 1 0 0 0-.79-.387H6a3.003 3.003 0 0 1-3-3V6a3.003 3.003 0 0 1 3-3h12a3.003 3.003 0 0 1 3 3Zm-9-1.66a1.229 1.229 0 1 0 1.228 1.228A1.23 1.23 0 0 0 12 13.344Zm0-8.117a1.274 1.274 0 0 0-.933.396 1.108 1.108 0 0 0-.3.838l.347 4.861a.892.892 0 0 0 1.77 0l.348-4.86a1.106 1.106 0 0 0-.3-.838A1.272 1.272 0 0 0 12 5.228Z"></path></svg>
+            </span>
+            <span class="menu-label">Laporkan masalah</span>
+          </button>
+          <div class="menu-divider"></div>
+          <button class="menu-plain" type="button">Alihkan Akun</button>
+          <div class="menu-divider"></div>
+          <button class="menu-logout" type="button" id="logoutButton">Keluar</button>
         </div>
-    </div>
 
-    <!-- Admin Dashboard Layout Wrapper (Hidden initially) -->
-    <div id="adminDashboardLayout" class="hidden flex-1 flex overflow-hidden">
+        <div class="menu-screen hidden" id="themeMenu">
+          <div class="theme-head">
+            <button class="back-btn" type="button" id="themeBackButton" aria-label="Kembali">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M15.5 19 8.5 12l7-7" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2"></path>
+              </svg>
+            </button>
+            <strong>Ubah tampilan</strong>
+            <span class="theme-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="3.2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></circle>
+                <path d="M12 2.75V5.1M12 18.9v2.35M5.46 5.46l1.66 1.66M16.88 16.88l1.66 1.66M2.75 12H5.1M18.9 12h2.35M5.46 18.54l1.66-1.66M16.88 7.12l1.66-1.66" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+              </svg>
+            </span>
+          </div>
+          <div class="menu-divider"></div>
+          <label class="theme-row">
+            <span>Mode gelap</span>
+            <input type="checkbox" id="themeToggle">
+            <span class="switch"></span>
+          </label>
+        </div>
+      </div>
+    </aside>
+
+    <nav class="mobile-nav" aria-label="Navigasi mobile">
+      <ul class="mobile-nav-list">
+        <li><button class="mobile-nav-btn active" type="button" data-panel="overview" aria-label="Beranda">
+          <span class="nav-icon-stack" aria-hidden="true">
+            <svg class="icon-outline" viewBox="0 0 24 24"><path d="M9.005 16.545a2.997 2.997 0 0 1 5.99 0V21H19a3 3 0 0 0 3-3v-6.588a1 1 0 0 0-.314-.728l-8-7.422a1 1 0 0 0-1.372 0l-8 7.422a1 1 0 0 0-.314.728V18a3 3 0 0 0 3 3h4.005Z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"></path></svg>
+            <svg class="icon-filled" viewBox="0 0 24 24"><path d="m21.762 8.786-7-6.68a3.994 3.994 0 0 0-5.524 0l-7 6.681A4.017 4.017 0 0 0 1 11.68V19c0 2.206 1.794 4 4 4h3.005a1 1 0 0 0 1-1v-7.003a2.997 2.997 0 0 1 5.994 0V22a1 1 0 0 0 1 1H19c2.206 0 4-1.794 4-4v-7.32a4.02 4.02 0 0 0-1.238-2.894Z"></path></svg>
+          </span>
+        </button></li>
+        <li><button class="mobile-nav-btn" type="button" data-panel="users" aria-label="Cari"><span class="nav-icon-stack" aria-hidden="true"><svg class="icon-outline" viewBox="0 0 24 24"><path d="M19 10.5A8.5 8.5 0 1 1 10.5 2a8.5 8.5 0 0 1 8.5 8.5Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><line fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="16.511" x2="22" y1="16.511" y2="22"></line></svg><svg class="icon-filled" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M10.5 2a8.5 8.5 0 1 0 5.665 14.836l4.628 4.628 1.414-1.414-4.628-4.628A8.5 8.5 0 0 0 10.5 2Zm0 2a6.5 6.5 0 1 1 0 13a6.5 6.5 0 0 1 0-13Z"></path></svg></span></button></li>
+        <li><button class="mobile-nav-btn" type="button" data-panel="services" aria-label="Buat"><span class="nav-icon-stack" aria-hidden="true"><svg class="icon-outline" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"></rect><path d="M12 7v10M7 12h10" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2"></path></svg><svg class="icon-filled" viewBox="0 0 24 24"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2Zm-1 10h-5v5a1 1 0 1 1-2 0v-5H6a1 1 0 1 1 0-2h5V6a1 1 0 1 1 2 0v5h5a1 1 0 1 1 0 2Z"></path></svg></span></button></li>
         
-        <!-- Sidebar Controls IG Style -->
-        <!-- Pada perangkat mobile tetap disembunyikan menggunakan translate jika perlu, 
-             tapi di desktop akan berupa fixed sidebar -->
-        <aside id="adminSidebar" class="ig-sidebar -translate-x-full md:translate-x-0">
-            
-            <!-- Instagram Logo (Just text styled like IG) -->
-            <div class="px-3 pt-6 pb-6 mb-4 flex items-center h-[73px]">
-                <a href="#" class="menu-item group hover:bg-transparent! w-full" style="padding: 12px; margin: 0; display: flex; align-items: center; justify-content: start;">
-                    <!-- Ikon IG Asli -->
-                    <svg aria-label="Instagram" class="transition-transform group-hover:scale-105 flex-shrink-0" fill="currentColor" height="24" role="img" viewBox="0 0 24 24" width="24"><title>Instagram</title><path d="M12 2.982c2.937 0 3.285.011 4.445.064a6.087 6.087 0 0 1 2.042.379 3.408 3.408 0 0 1 1.265.823 3.408 3.408 0 0 1 .823 1.265 6.087 6.087 0 0 1 .379 2.042c.053 1.16.064 1.508.064 4.445s-.011 3.285-.064 4.445a6.087 6.087 0 0 1-.379 2.042 3.643 3.643 0 0 1-2.088 2.088 6.087 6.087 0 0 1-2.042.379c-1.16.053-1.508.064-4.445.064s-3.285-.011-4.445-.064a6.087 6.087 0 0 1-2.043-.379 3.408 3.408 0 0 1-1.264-.823 3.408 3.408 0 0 1-.823-1.265 6.087 6.087 0 0 1-.379-2.042c-.053-1.16-.064-1.508-.064-4.445s.011-3.285.064-4.445a6.087 6.087 0 0 1 .379-2.042 3.408 3.408 0 0 1 .823-1.265 3.408 3.408 0 0 1 1.265-.823 6.087 6.087 0 0 1 2.042-.379c1.16-.053 1.508-.064 4.445-.064M12 1c-2.987 0-3.362.013-4.535.066a8.074 8.074 0 0 0-2.67.511 5.392 5.392 0 0 0-1.949 1.27 5.392 5.392 0 0 0-1.269 1.948 8.074 8.074 0 0 0-.51 2.67C1.012 8.638 1 9.013 1 12s.013 3.362.066 4.535a8.074 8.074 0 0 0 .511 2.67 5.392 5.392 0 0 0 1.27 1.949 5.392 5.392 0 0 0 1.948 1.269 8.074 8.074 0 0 0 2.67.51C8.638 22.988 9.013 23 12 23s3.362-.013 4.535-.066a8.074 8.074 0 0 0 2.67-.511 5.625 5.625 0 0 0 3.218-3.218 8.074 8.074 0 0 0 .51-2.67C22.988 15.362 23 14.987 23 12s-.013-3.362-.066-4.535a8.074 8.074 0 0 0-.511-2.67 5.392 5.392 0 0 0-1.27-1.949 5.392 5.392 0 0 0-1.948-1.269 8.074 8.074 0 0 0-2.67-.51C15.362 1.012 14.987 1 12 1Zm0 5.351A5.649 5.649 0 1 0 17.649 12 5.649 5.649 0 0 0 12 6.351Zm0 9.316A3.667 3.667 0 1 1 15.667 12 3.667 3.667 0 0 1 12 15.667Zm5.872-10.859a1.32 1.32 0 1 0 1.32 1.32 1.32 1.32 0 0 0-1.32-1.32Z"></path></svg>
-                </a>
+        <li><button class="mobile-nav-btn avatar" type="button" data-panel="profil" aria-label="Profil"><img src="profil.jpg" alt="Profil"></button></li>
+      </ul>
+    </nav>
+
+    <main class="content" id="main-content">
+      <!-- GLOBAL PANELS (Wrapped in normal logic) -->
+      
+      <!-- AUTH LOADER -->
+      <div id="authLoader" style="position:fixed;inset:0;background:var(--bg);z-index:9999;display:flex;flex-direction:column;justify-content:center;align-items:center;">
+          <div class="loader" style="width:40px;height:40px;border-width:4px;"></div>
+          <h2 style="margin-top:20px;color:var(--text);font-weight:600;">Memverifikasi Akses Admin...</h2>
+      </div>
+
+      <!-- LOGIN -->
+      <div id="adminLoginPanel" class="hidden" style="min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;background:var(--bg);padding:16px;">
+          <div class="panel-card" style="width:100%;max-width:400px;text-align:center;">
+              <svg aria-label="Gracely" fill="var(--text)" height="40" role="img" viewBox="0 0 24 24" width="40" style="margin:0 auto 20px;">
+                  <path d="M12 2.982c2.937 0 3.285.011 4.445.064a6.087 6.087 0 0 1 2.042.379..."></path>
+              </svg>
+              <h1 style="font-size:24px;margin-bottom:8px;">Gracely Admin</h1>
+              <p style="color:var(--muted);font-size:14px;margin-bottom:24px;">Masuk untuk mengelola sistem Gracely</p>
+              
+              <form id="adminLoginForm" onsubmit="handleAdminLogin(event)" style="text-align:left;">
+                  <div id="adminLoginError" class="hidden" style="padding:12px;background:rgba(237,73,86,0.1);color:#ed4956;border-radius:8px;font-size:13px;margin-bottom:16px;"></div>
+                  
+                  <div class="form-group">
+                      <input type="email" id="adminEmail" required placeholder="Email Administrator" class="form-control">
+                  </div>
+                  <div class="form-group">
+                      <input type="password" id="adminPassword" required placeholder="Kata Sandi" class="form-control">
+                  </div>
+                  <button type="submit" id="btnAdminLogin" class="btn btn-primary" style="width:100%;">Masuk sebagai Admin</button>
+              </form>
+          </div>
+      </div>
+
+      <!-- MAIN APP (Rendered inside content so rail pushes it correctly) -->
+      <div id="adminDashboardLayout" class="hidden">
+      <!-- DASHBOARD PANELS -->
+      
+      <!-- 1. OVERVIEW -->
+      <section class="panel active" id="panel-overview" aria-label="Ringkasan">
+        <div class="dashboard-shell">
+          <header class="dashboard-head">
+            <div>
+              <h1>Ringkasan Sistem</h1>
+              <p>Status database Gracely secara langsung.</p>
             </div>
-
-            <!-- Menus -->
-            <div class="flex-1 flex flex-col justify-center gap-1 overflow-y-auto hover-scroll pb-4">
-                <a onclick="switchTab('overview')" id="tab-overview" class="menu-item active">
-                    <!-- Home Outline (Inactive) -->
-                    <svg aria-label="Beranda" class="svg-inactive flex-shrink-0" fill="currentColor" height="24" role="img" viewBox="0 0 24 24" width="24"><path d="M9.005 16.545a2.997 2.997 0 0 1 2.997-2.997A2.997 2.997 0 0 1 15 16.545V22h7V11.543L12 2 2 11.543V22h7v-5.455Z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"></path></svg>
-                    <!-- Home Filled (Active) -->
-                    <svg aria-label="Beranda" class="svg-active flex-shrink-0" fill="currentColor" height="24" role="img" viewBox="0 0 24 24" width="24"><path d="m21.762 8.786-7-6.68a3.994 3.994 0 0 0-5.524 0l-7 6.681A4.017 4.017 0 0 0 1 11.68V19c0 2.206 1.794 4 4 4h3.005a1 1 0 0 0 1-1v-7.003a2.997 2.997 0 0 1 5.994 0V22a1 1 0 0 0 1 1H19c2.206 0 4-1.794 4-4v-7.32a4.02 4.02 0 0 0-1.238-2.894Z"></path></svg>
-                    <span class="menu-label">Beranda</span>
-                </a>
-                
-                <a onclick="switchTab('users')" id="tab-users" class="menu-item">
-                    <!-- Akun Outline -->
-                    <svg aria-label="Akun" class="svg-inactive flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" height="24" viewBox="0 0 24 24" width="24"><circle cx="12" cy="7" r="4"/><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/></svg>
-                    <!-- Akun Filled -->
-                    <svg aria-label="Akun" class="svg-active flex-shrink-0" fill="currentColor" height="24" viewBox="0 0 24 24" width="24"><circle cx="12" cy="7" r="4"/><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" fill="currentColor"/></svg>
-                    <span class="menu-label">Akun</span>
-                </a>
-
-                <a onclick="switchTab('activity')" id="tab-activity" class="menu-item">
-                    <!-- Activity / Pulse Outline -->
-                    <svg aria-label="Aktivitas" class="svg-inactive flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" height="24" viewBox="0 0 24 24" width="24"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>
-                    <!-- Activity / Pulse Filled -->
-                    <svg aria-label="Aktivitas" class="svg-active flex-shrink-0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" height="24" viewBox="0 0 24 24" width="24"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>
-                    <span class="menu-label">Aktivitas</span>
-                </a>
-
-                <a onclick="switchTab('notifications')" id="tab-notifications" class="menu-item">
-                    <!-- Notifikasi Outline (Heart) -->
-                    <svg aria-label="Notifikasi" class="svg-inactive flex-shrink-0" fill="currentColor" height="24" role="img" viewBox="0 0 24 24" width="24"><path d="M16.792 3.904A4.989 4.989 0 0 1 21.5 9.122c0 3.072-2.652 4.959-5.197 7.222-2.512 2.243-3.865 3.469-4.303 3.752-.477-.309-2.143-1.823-4.303-3.752C5.141 14.072 2.5 12.167 2.5 9.122a4.989 4.989 0 0 1 4.708-5.218 4.21 4.21 0 0 1 3.675 1.941c.84 1.175.98 1.763 1.12 1.763s.278-.588 1.11-1.766a4.17 4.17 0 0 1 3.679-1.938m0-2a6.04 6.04 0 0 0-4.797 2.127 6.052 6.052 0 0 0-4.787-2.127A6.985 6.985 0 0 0 .5 9.122c0 3.61 2.55 5.827 5.015 7.97.283.246.569.494.853.747l1.027.918a44.998 44.998 0 0 0 3.518 3.018 2 2 0 0 0 2.174 0 45.263 45.263 0 0 0 3.626-3.115l.922-.824c.293-.26.59-.519.885-.774 2.334-2.025 4.98-4.32 4.98-7.94a6.985 6.985 0 0 0-6.708-7.218Z"></path></svg>
-                    <!-- Notifikasi Filled (Heart) -->
-                    <svg aria-label="Notifikasi" class="svg-active flex-shrink-0" fill="currentColor" height="24" role="img" viewBox="0 0 24 24" width="24"><path d="M4.303 16.345q-1.464-1.353-2.51-2.5 1.34-1.503 2.126-2.8 1.956-2.54 3.39-3.791A9.76 9.76 0 0 1 12 5.071a9.76 9.76 0 0 1 4.691 2.183q1.433 1.25 3.39 3.791 1.042 1.63 2.126 2.8 0 0-2.51 2.5-4.57 4.18-7.7 5.8a12.18 12.18 0 0 1-3.323 1 10.15 10.15 0 0 1-1.342.348h-.065a10.15 10.15 0 0 1-1.342-.348 12.18 12.18 0 0 1-3.323-1q-3.13-1.62-7.7-5.8Z" fill="#ff3040"></path></svg>
-                    <span class="menu-label">Notifikasi</span>
-                </a>
-
-                <a onclick="switchTab('services')" id="tab-services" class="menu-item">
-                    <!-- Layanan Outline (Grid) -->
-                    <svg aria-label="Layanan" class="svg-inactive flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" height="24" viewBox="0 0 24 24" width="24"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
-                    <!-- Layanan Filled -->
-                    <svg aria-label="Layanan" class="svg-active flex-shrink-0" fill="currentColor" height="24" viewBox="0 0 24 24" width="24"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
-                    <span class="menu-label">Layanan</span>
-                </a>
-
-                <a onclick="alert('Pencarian segera hadir!')" class="menu-item">
-                    <!-- Cari Outline -->
-                    <svg aria-label="Cari" class="flex-shrink-0" fill="currentColor" height="24" role="img" viewBox="0 0 24 24" width="24"><path d="M19 10.5A8.5 8.5 0 1 1 10.5 2a8.5 8.5 0 0 1 8.5 8.5Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><line fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="16.511" x2="22" y1="16.511" y2="22"></line></svg>
-                    <span class="menu-label">Jelajahi</span>
-                </a>
+            <div class="dashboard-filters">
+                <span style="font-weight:600; padding:4px 10px; background:var(--surface-2); border-radius:12px;">Admin Aktif: <span id="adminNameDisplay" style="color:#0095f6;">-</span></span>
             </div>
-
-            <!-- Hamburger / Lainnya -->
-            <div class="mt-auto px-0 pb-4 shrink-0 relative">
-                <!-- Popup Lainnya Menu -->
-                <div id="moreMenuPopup" class="ig-more-menu">
-                    <div class="more-panels-wrapper">
-                        <!-- Panel Utama -->
-                        <div class="more-panel">
-                            <a onclick="showThemePanel(event)" class="ig-more-item gap-3">
-                                <svg aria-label="Ubah Tampilan" fill="currentColor" height="24" role="img" viewBox="0 0 24 24" width="24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-                                <span class="flex-1">Ubah Tampilan</span>
-                            </a>
-                            
-                            <div class="ig-more-separator"></div>
-                            
-                            <a onclick="logout()" class="ig-more-item gap-3">
-                                <span>Keluar</span>
-                            </a>
-                        </div>
-                        
-                        <!-- Panel Tema -->
-                        <div class="more-panel">
-                            <div class="flex items-center gap-3 p-3 border-b border-gray-100 dark:border-gray-800 mb-2">
-                                <button onclick="hideThemePanel(event)" class="text-gray-500 hover:text-gray-900 dark:hover:text-white transition-colors">
-                                    <svg fill="currentColor" height="20" viewBox="0 0 24 24" width="20"><path d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6z"></path></svg>
-                                </button>
-                                <span class="font-bold">Ubah tampilan</span>
-                                <svg class="ml-auto text-gray-400" fill="currentColor" height="20" viewBox="0 0 24 24" width="20"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-                            </div>
-                            <label class="flex items-center justify-between p-3 cursor-pointer hover:bg-gray-50 dark:hover:bg-white/5 rounded-lg transition-colors">
-                                <span>Mode gelap</span>
-                                <input type="checkbox" id="igThemeToggle" class="ig-toggle" onchange="toggleIGTheme(this)">
-                            </label>
-                        </div>
+          </header>
+          <div class="dashboard-grid">
+            <section class="dashboard-card dashboard-main-card">
+                <div style="display:flex; justify-content:space-between; margin-bottom: 30px;">
+                    <div>
+                        <p style="color:var(--muted); font-size:14px;">Total Pengguna</p>
+                        <h2 id="statTotalUsers" style="font-size:36px; margin:4px 0 0;">0</h2>
+                    </div>
+                    <div>
+                        <p style="color:var(--muted); font-size:14px;">Aktivitas Hari Ini</p>
+                        <h2 id="statTodayActivity" style="font-size:36px; margin:4px 0 0;">0</h2>
                     </div>
                 </div>
+                
+                <h2 style="font-size:16px; margin-bottom:16px; font-weight:600;">Tren Aktivitas 7 Hari Terakhir</h2>
+                <div style="position:relative; width:100%; height:250px;">
+                    <canvas id="activityChart"></canvas>
+                </div>
+            </section>
+            <section class="dashboard-card dashboard-side-card">
+              <h2>Aksi Cepat Superuser</h2>
+              <div class="dashboard-action-list" style="margin-bottom:32px;">
+                <article style="align-items:center; cursor:pointer;" onclick="quickActionForceLogout()">
+                    <div class="dash-plus" style="background:rgba(237,73,86,0.1); color:#ed4956; font-size:24px;"><i data-lucide="power"></i></div>
+                    <div><strong>Logout Semua Pengguna</strong><p>Putus paksa seluruh sesi.</p></div>
+                </article>
+                <article style="align-items:center; cursor:pointer;" onclick="quickActionCreateDummy()" id="btnCreateDummy">
+                    <div class="dash-plus" style="background:rgba(0,149,246,0.1); color:#0095f6; font-size:24px;"><i data-lucide="user-plus"></i></div>
+                    <div><strong>Buat Dummy User Akun</strong><p>Suntik user percobaan.</p></div>
+                </article>
+              </div>
 
-                <!-- Tombol Lainnya -->
-                <a onclick="toggleMoreMenu(event)" class="menu-item">
-                    <svg aria-label="Pengaturan" class="flex-shrink-0" fill="currentColor" height="24" role="img" viewBox="0 0 24 24" width="24"><line fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="3" x2="21" y1="4" y2="4"></line><line fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="3" x2="21" y1="12" y2="12"></line><line fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="3" x2="21" y1="20" y2="20"></line></svg>
-                    <span class="menu-label font-bold text-gray-900 dark:text-gray-100" id="adminNameDisplay">Lainnya</span>
-                </a>
+              <h2>Pendaftar Baru</h2>
+              <div class="activity-list" id="overviewUserTableBody">
+                <!-- Data goes here styled as activity-row -->
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. USERS -->
+      <section class="panel" id="panel-users" aria-label="Akun">
+        <div class="explore-shell">
+          <div class="explore-topbar" style="display:flex; gap:16px; max-width:none; justify-content:space-between; align-items:center;">
+             <div style="flex:1;">
+                <h1 style="font-size:24px; margin:0 0 6px;">Kelola Akun</h1>
+                <p style="color:var(--muted); font-size:14px; margin:0;">Daftar lengkap pengguna terdaftar (Maks. 100 terbaru)</p>
+             </div>
+             <div style="display:flex; gap:12px;">
+                 <div class="explore-search" style="width: 250px;">
+                    <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor" stroke="none"><path d="M19 10.5A8.5 8.5 0 1 1 10.5 2a8.5 8.5 0 0 1 8.5 8.5Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><line fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="16.511" x2="22" y1="16.511" y2="22"></line></svg>
+                    <input type="text" id="userSearchInput" placeholder="Cari email/nama" style="border:0;background:transparent;color:var(--text);width:100%;outline:none;">
+                 </div>
+                 <button class="btn" style="background:var(--surface-2); color:var(--text);" onclick="exportTableToCSV('usersTableBody', 'gracely_users.csv')">Ekspor CSV</button>
+             </div>
+          </div>
+          
+          <div class="panel-sheet" style="padding:0; overflow:hidden;">
+            <div id="usersLoading" style="text-align:center; padding:40px;"><div class="loader"></div></div>
+            <div class="admin-table-container">
+                <table class="admin-table">
+                    <thead>
+                        <tr>
+                            <th>Pengguna</th>
+                            <th>Status & Login</th>
+                            <th>Premium Expiry</th>
+                            <th>Pro Expiry</th>
+                            <th>Phantom Expiry</th>
+                            <th style="text-align:right;">Aksi</th>
+                        </tr>
+                    </thead>
+                    <tbody id="usersTableBody">
+                    </tbody>
+                </table>
             </div>
-            
-        </aside>
+          </div>
+        </div>
+      </section>
 
-        <!-- Overlay for Mobile Sidebar -->
-        <div id="mobileSidebarOverlay" onclick="toggleMobileSidebar()" class="fixed inset-0 bg-black/50 z-30 hidden md:hidden backdrop-blur-sm transition-opacity"></div>
+      <!-- 3. ACTIVITY LOGS -->
+      <section class="panel" id="panel-activity" aria-label="Aktivitas">
+        <div class="explore-shell">
+            <div class="explore-topbar" style="display:flex; justify-content:space-between; align-items:center;">
+                 <div>
+                    <h1 style="font-size:24px; margin:0 0 6px;">Log Aktivitas</h1>
+                    <p style="color:var(--muted); font-size:14px; margin:0;">Riwayat keamanan akses login terbaru.</p>
+                 </div>
+                 <button class="btn" style="background:var(--surface-2); color:var(--text);" onclick="loadActivityLogs()">Refresh</button>
+            </div>
+            <div class="panel-sheet">
+               <div id="activityLoading" style="text-align:center; padding:40px;"><div class="loader"></div></div>
+               <div class="activity-list" id="activityTableBody">
+                  <!-- JS injected activity-row -->
+               </div>
+            </div>
+        </div>
+      </section>
 
-        <!-- Main Content (Canvas) -->
-        <main class="flex-1 flex flex-col relative overflow-y-auto bg-white dark:bg-black main-content-layout">
-            
-            <!-- Mobile Top Header (Hanya muncul di HP) -->
-            <header class="md:hidden h-[60px] border-b border-gray-200 dark:border-gray-800 px-4 flex items-center justify-between shrink-0 bg-white dark:bg-black z-10 sticky top-0">
-                <div class="font-bold text-lg tracking-tight text-gray-900 dark:text-white" id="mobilePageTitle">Gracely Admin</div>
-                <button onclick="toggleMobileSidebar()" class="p-2 -mr-2 text-gray-900 dark:text-white rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">
-                    <i data-lucide="menu" class="w-6 h-6"></i>
-                </button>
+      <!-- 4. NOTIFICATIONS -->
+      <section class="panel" id="panel-notifications" aria-label="Notifikasi">
+        <div class="panel-stack">
+          <section class="panel-sheet">
+            <header class="sheet-head" style="display:flex; justify-content:space-between; align-items:center;">
+              <div>
+                  <h1>Pengaturan Notifikasi</h1>
+                  <p>Kelola popup interaktif untuk Global & Folder Info.</p>
+              </div>
+              <button class="btn btn-primary" onclick="openNotificationModal()">Buat Notifikasi Baru</button>
             </header>
-
-            <section class="flex-1 px-4 py-6 md:px-12 md:py-10 w-full relative hover-scroll min-w-0">
             
-            <!-- PANEL 1: Overview -->
-            <div id="panel-overview" class="space-y-6">
-                <div>
-                    <h2 class="text-2xl font-bold text-gray-900 dark:text-white">Ringkasan Sistem</h2>
-                    <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Status database Gracely secara langsung.</p>
-                </div>
-                
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-                    <div class="glass-panel p-6 rounded-2xl shadow-sm">
-                        <div class="flex items-center justify-between">
-                            <div>
-                                <p class="text-sm font-medium text-gray-500 dark:text-gray-400">Total Pengguna</p>
-                                <p class="text-3xl font-bold text-gray-900 dark:text-white mt-2" id="statTotalUsers">0</p>
-                            </div>
-                            <div class="p-3 bg-blue-50 dark:bg-blue-900/30 rounded-full text-blue-600 dark:text-blue-400">
-                                <i data-lucide="users" class="w-6 h-6"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="glass-panel p-6 rounded-2xl shadow-sm">
-                        <div class="flex items-center justify-between">
-                            <div>
-                                <p class="text-sm font-medium text-gray-500 dark:text-gray-400">Aktivitas Hari Ini</p>
-                                <p class="text-3xl font-bold text-gray-900 dark:text-white mt-2" id="statTodayActivity">0</p>
-                            </div>
-                            <div class="p-3 bg-brand-50 dark:bg-brand-900/30 rounded-full text-brand-600 dark:text-brand-400">
-                                <i data-lucide="mouse-pointer-click" class="w-6 h-6"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="glass-panel p-6 rounded-2xl shadow-sm relative overflow-hidden group">
-                        <!-- Indikator Status Server -->
-                        <div class="absolute top-4 right-4 flex items-center gap-1.5">
-                            <span class="relative flex h-2.5 w-2.5">
-                                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-                                <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-green-500"></span>
-                            </span>
-                            <span class="text-[10px] font-bold text-green-600 dark:text-green-400">Online</span>
-                        </div>
-                        <div class="flex flex-col h-full justify-between">
-                            <div class="mb-2 mt-4">
-                                <p class="text-xs font-bold text-gray-400 uppercase tracking-wider">Aksi Cepat Superuser</p>
-                            </div>
-                            <div class="flex flex-col gap-2 relative z-10 w-full">
-                                <button onclick="quickActionForceLogout()" class="w-full flex items-center justify-between px-3 py-2 bg-red-50 hover:bg-red-100 dark:bg-red-900/20 dark:hover:bg-red-900/40 text-red-600 dark:text-red-400 text-xs font-bold rounded-lg transition-colors border border-red-100 dark:border-red-900/50">
-                                    <span class="flex items-center gap-2"><i data-lucide="power" class="w-3.5 h-3.5"></i> Logout Semua Pengguna</span>
-                                </button>
-                                <button onclick="quickActionCreateDummy()" id="btnCreateDummy" class="w-full flex items-center justify-between px-3 py-2 bg-indigo-50 hover:bg-indigo-100 dark:bg-indigo-900/20 dark:hover:bg-indigo-900/40 text-indigo-600 dark:text-indigo-400 text-xs font-bold rounded-lg transition-colors border border-indigo-100 dark:border-indigo-900/50">
-                                    <span class="flex items-center gap-2"><i data-lucide="user-plus" class="w-3.5 h-3.5"></i> Buat Dummy User Akun</span>
-                                </button>
-                            </div>
-                            <i data-lucide="zap" class="absolute -bottom-4 -right-4 w-24 h-24 text-gray-100 dark:text-gray-800/50 -z-0 opacity-50 group-hover:scale-110 transition-transform"></i>
-                        </div>
-                    </div>
-                </div>
+            <div id="notificationsLoading" style="text-align:center; padding:40px; display:none;"><div class="loader"></div></div>
+            <div class="admin-table-container">
+                <table class="admin-table">
+                    <thead>
+                        <tr>
+                            <th>Target ID (key_id)</th>
+                            <th>Tipe</th>
+                            <th>Status & Waktu Dibuat</th>
+                            <th style="text-align:right;">Aksi</th>
+                        </tr>
+                    </thead>
+                    <tbody id="notificationsTableBody">
+                    </tbody>
+                </table>
+            </div>
+          </section>
+        </div>
+      </section>
 
-                <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
-                    <!-- Chart Panel (Memakan 2 Kolom di Desktop) -->
-                    <div class="glass-panel p-6 rounded-2xl shadow-sm lg:col-span-2 flex flex-col">
-                        <div class="flex justify-between items-center mb-4">
-                            <h3 class="text-base font-bold text-gray-900 dark:text-white">Tren Aktivitas 7 Hari Terakhir</h3>
-                            <div class="flex gap-2">
-                                <span class="px-2 py-1 bg-brand-50 text-brand-700 dark:bg-brand-900/30 dark:text-brand-300 rounded text-xs font-bold">Log Masuk</span>
-                            </div>
-                        </div>
-                        <div class="relative flex-1 min-h-[250px] w-full">
-                            <canvas id="activityChart"></canvas>
-                        </div>
-                    </div>
-
-                    <!-- Recent Registrations (Memakan 1 Kolom) -->
-                    <div class="glass-panel rounded-2xl shadow-sm overflow-hidden flex flex-col h-full lg:col-span-1">
-                        <div class="px-6 py-5 border-b border-gray-100 dark:border-gray-800 bg-gray-50/50 dark:bg-gray-800/20">
-                            <h3 class="text-base font-bold text-gray-900 dark:text-white flex items-center gap-2">
-                                <i data-lucide="user-plus" class="w-4 h-4 text-brand-500"></i> Pendaftar Baru
-                            </h3>
-                        </div>
-                        <div class="overflow-x-auto hover-scroll flex-1">
-                            <table class="w-full text-sm text-left">
-                                <thead class="bg-gray-50 dark:bg-gray-800/50 text-gray-500 dark:text-gray-400 uppercase text-[10px] font-bold tracking-wider">
-                                    <tr>
-                                        <th class="px-6 py-3">PENGGUNA</th>
-                                        <th class="px-6 py-3">STATUS</th>
-                                        <th class="px-6 py-3">BERGABUNG</th>
-                                    </tr>
-                                </thead>
-                                <tbody id="overviewUserTableBody" class="divide-y divide-gray-100 dark:divide-gray-800">
-                                    <!-- Data injected via JS -->
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
+      <!-- 5. SERVICES -->
+      <section class="panel" id="panel-services" aria-label="Layanan">
+        <div class="panel-stack narrow">
+          <section class="panel-sheet">
+            <header class="sheet-head" style="display:flex; justify-content:space-between; align-items:center;">
+              <div>
+                  <h1>Kelola Layanan Kustom</h1>
+                  <p>Aplikasi pihak ketiga yang terlihat oleh klien di portalnya.</p>
+              </div>
+              <button class="btn btn-primary" onclick="openServiceModal()"><i data-lucide="plus" style="width:16px; height:16px; display:inline-block; vertical-align:middle; margin-right:4px;"></i> Tambah Layanan</button>
+            </header>
+            
+            <div id="servicesLoading" style="text-align:center; padding:40px; display:none;"><div class="loader"></div></div>
+            <div class="apps-grid" id="servicesGrid">
+               <!-- Injected by JS -->
+            </div>
+            
+            <!-- We also leave table body for compatibility if needed, but hide it -->
+            <tbody id="servicesTableBody" style="display:none;"></tbody>
+            
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-top:24px; padding-top:16px; border-top:1px solid var(--line);">
+                <select id="serviceLimitInput" onchange="loadServices(1)" style="padding:6px; border-radius:6px; background:var(--surface-2); border:1px solid var(--line); color:var(--text);">
+                    <option value="10">10 Layanan</option>
+                    <option value="50">50 Layanan</option>
+                </select>
+                <div style="display:flex; gap:8px;">
+                    <button class="btn" style="background:var(--surface-2); color:var(--text);" onclick="changeServicePage(-1)">Prev</button>
+                    <button class="btn" style="background:var(--surface-2); color:var(--text);" onclick="changeServicePage(1)">Next</button>
                 </div>
             </div>
-
-            <!-- PANEL 2: Manage Users -->
-            <div id="panel-users" class="space-y-6 hidden">
-                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
-                    <div>
-                        <h2 class="text-2xl font-bold text-gray-900 dark:text-white">Kelola Akun</h2>
-                        <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Daftar pengguna (Maks. 100 terbaru)</p>
-                    </div>
-                    <div class="flex gap-2 w-full sm:w-auto">
-                        <div class="relative flex-1 sm:w-64">
-                            <i data-lucide="search" class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400"></i>
-                            <input type="text" id="userSearchInput" placeholder="Cari email atau nama..." class="w-full pl-10 pr-4 py-2 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl outline-none focus:ring-2 focus:ring-brand-500 text-sm">
-                        </div>
-                        <button onclick="exportTableToCSV('usersTableBody', 'gracely_users.csv')" class="px-3 py-2 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-gray-700 rounded-xl transition-colors font-bold text-xs flex items-center gap-1.5" title="Ekspor ke CSV">
-                            <i data-lucide="download" class="w-4 h-4"></i> <span class="hidden sm:inline">CSV</span>
-                        </button>
-                    </div>
-                </div>
-
-                <div class="glass-panel rounded-2xl shadow-sm overflow-hidden">
-                    <div class="table-wrapper min-h-[400px]">
-                        <table class="resizable-table text-sm text-left whitespace-nowrap">
-                            <thead class="bg-gray-50 dark:bg-gray-800/50 text-gray-500 dark:text-gray-400 uppercase text-[11px] font-bold tracking-wider">
-                                <tr>
-                                    <th class="px-6 py-4">Pengguna</th>
-                                    <th class="px-6 py-4">Status & Multi-Login</th>
-                                    <th class="px-6 py-4">Premium Expiry</th>
-                                    <th class="px-6 py-4">Pro Expiry</th>
-                                    <th class="px-6 py-4">Phantom Expiry</th>
-                                    <th class="px-6 py-4 text-right">Aksi</th>
-                                </tr>
-                            </thead>
-                            <tbody id="usersTableBody" class="divide-y divide-gray-100 dark:divide-gray-800">
-                                <!-- Data injected via JS -->
-                            </tbody>
-                        </table>
-                        
-                        <!-- Loading State Table -->
-                        <div id="usersLoading" class="py-12 flex justify-center">
-                            <div class="loader"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- PANEL 3: Activity Logs -->
-            <div id="panel-activity" class="space-y-6 hidden">
-                <div class="flex justify-between items-center">
-                    <div>
-                        <h2 class="text-2xl font-bold text-gray-900 dark:text-white">Log Aktivitas</h2>
-                        <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Cek riwayat akses keamanan (100 terbaru)</p>
-                    </div>
-                    <div class="flex gap-2">
-                        <button onclick="exportTableToCSV('activityTableBody', 'gracely_activity_logs.csv')" class="px-3 py-2 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-gray-700 rounded-lg transition-colors font-bold text-xs flex items-center gap-1.5" title="Ekspor ke CSV">
-                            <i data-lucide="download" class="w-4 h-4"></i> <span class="hidden sm:inline">Ekspor CSV</span>
-                        </button>
-                        <button onclick="loadActivityLogs()" class="p-2 border border-gray-200 dark:border-gray-700 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-600 dark:text-gray-400 transition-colors">
-                            <i data-lucide="refresh-cw" class="w-4 h-4"></i>
-                        </button>
-                    </div>
-                </div>
-
-                <div class="glass-panel rounded-2xl shadow-sm overflow-hidden">
-                    <div class="table-wrapper min-h-[400px]">
-                        <table class="resizable-table text-sm text-left whitespace-nowrap">
-                            <thead class="bg-gray-50 dark:bg-gray-800/50 text-gray-500 dark:text-gray-400 uppercase text-[11px] font-bold tracking-wider">
-                                <tr>
-                                    <th class="px-6 py-4">Waktu</th>
-                                    <th class="px-6 py-4">Pengguna</th>
-                                    <th class="px-6 py-4">Aktivitas</th>
-                                    <th class="px-6 py-4">Alamat IP / Lokasi</th>
-                                    <th class="px-6 py-4">Perangkat</th>
-                                </tr>
-                            </thead>
-                            <tbody id="activityTableBody" class="divide-y divide-gray-100 dark:divide-gray-800">
-                                <!-- Data injected via JS -->
-                            </tbody>
-                        </table>
-                        <div id="activityLoading" class="py-12 flex justify-center">
-                            <div class="loader"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- PANEL 4: Notifications (gracely_notifications) -->
-            <div id="panel-notifications" class="space-y-6 hidden">
-                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
-                    <div>
-                        <h2 class="text-2xl font-bold text-gray-900 dark:text-white">Pengaturan Notifikasi (HTML)</h2>
-                        <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Kelola *popup* interaktif (pengumuman & akses folder).</p>
-                    </div>
-                    <button onclick="openNotificationModal()" class="px-4 py-2 bg-brand-600 hover:bg-brand-700 text-white font-bold rounded-xl shadow transition-all flex items-center justify-center gap-2 text-sm">
-                        <i data-lucide="plus" class="w-4 h-4"></i> Buat Notifikasi Baru
-                    </button>
-                </div>
-
-                <div class="glass-panel rounded-2xl shadow-sm overflow-hidden min-h-[400px]">
-                    <div class="table-wrapper">
-                        <table class="resizable-table text-sm text-left whitespace-nowrap">
-                            <thead class="bg-gray-50 dark:bg-gray-800/50 text-gray-500 dark:text-gray-400 uppercase text-[11px] font-bold tracking-wider">
-                                <tr>
-                                    <th class="px-6 py-4">Target ID (key_id)</th>
-                                    <th class="px-6 py-4">Tipe</th>
-                                    <th class="px-6 py-4">Status & Waktu Dibuat</th>
-                                    <th class="px-6 py-4 text-right">Aksi</th>
-                                </tr>
-                            </thead>
-                            <tbody id="notificationsTableBody" class="divide-y divide-gray-100 dark:divide-gray-800">
-                                <!-- Data injected via JS -->
-                            </tbody>
-                        </table>
-                        <div id="notificationsLoading" class="py-12 flex justify-center hidden">
-                            <div class="loader"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- PANEL 5: Gracely Services -->
-            <div id="panel-services" class="space-y-6 hidden">
-                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
-                    <div>
-                        <h2 class="text-2xl font-bold text-gray-900 dark:text-white">Kelola Layanan</h2>
-                        <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Daftar layanan terhubung yang bisa diakses user.</p>
-                    </div>
-                    <div class="flex gap-2 w-full sm:w-auto">
-                        <select id="serviceLimitInput" onchange="loadServices(1)" class="px-3 py-2 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl outline-none focus:ring-2 focus:ring-brand-500 text-sm text-gray-700 dark:text-gray-300 font-bold shadow-sm">
-                            <option value="10">10 Baris</option>
-                            <option value="50">50 Baris</option>
-                            <option value="100">100 Baris</option>
-                            <option value="300">300 Baris</option>
-                        </select>
-                        <button onclick="openServiceModal()" class="flex-1 sm:flex-none px-4 py-2 bg-brand-600 hover:bg-brand-700 text-white font-bold rounded-xl shadow transition-all flex items-center justify-center gap-2 text-sm">
-                            <i data-lucide="plus" class="w-4 h-4"></i> Tambah Layanan
-                        </button>
-                    </div>
-                </div>
-
-                <div class="glass-panel rounded-2xl shadow-sm overflow-hidden min-h-[400px] flex flex-col">
-                    <div class="overflow-x-auto">
-                        <table class="w-full text-sm text-left">
-                            <thead class="bg-gray-50 dark:bg-gray-800/50 text-gray-500 dark:text-gray-400 uppercase text-[11px] font-bold tracking-wider">
-                                <tr>
-                                    <th class="px-6 py-4">ID / Layanan</th>
-                                    <th class="px-6 py-4">Status/Visibility</th>
-                                    <th class="px-6 py-4">Detail URL</th>
-                                    <th class="px-6 py-4 text-right">Aksi</th>
-                                </tr>
-                            </thead>
-                            <tbody id="servicesTableBody" class="divide-y divide-gray-100 dark:divide-gray-800">
-                                <!-- Data injected via JS -->
-                            </tbody>
-                        </table>
-                        <div id="servicesLoading" class="py-12 flex justify-center hidden">
-                            <div class="loader cursor-pointer"></div>
-                        </div>
-                    </div>
-                    
-                    <div class="p-4 border-t border-gray-100 dark:border-gray-800 bg-gray-50/50 dark:bg-gray-800/20 flex flex-col sm:flex-row items-center justify-between gap-4 mt-auto">
-                        <span id="servicePageLabel" class="text-xs text-gray-500 dark:text-gray-400 font-bold tracking-wide">Halaman 1 / ?</span>
-                        <div class="flex items-center gap-2">
-                            <button onclick="changeServicePage(-1)" class="px-3 py-1.5 text-xs font-bold text-gray-600 dark:text-gray-300 bg-white dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded flex items-center gap-1 hover:bg-gray-50 dark:hover:bg-gray-600 transition-colors shadow-sm">
-                                <i data-lucide="chevron-left" class="w-3.5 h-3.5"></i> Prev
-                            </button>
-                            <button onclick="changeServicePage(1)" class="px-3 py-1.5 text-xs font-bold text-gray-600 dark:text-gray-300 bg-white dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded flex items-center gap-1 hover:bg-gray-50 dark:hover:bg-gray-600 transition-colors shadow-sm">
-                                Next <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-        </main>
-
-    </div> <!-- End Admin Dashboard Layout -->
-
-    <!-- Modal: Edit Subscription -->
-    <div id="modalEditSub" class="modal fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm p-4">
-        <div class="modal-content bg-white dark:bg-gray-800 rounded-2xl shadow-2xl w-full max-w-md overflow-hidden">
-            <div class="px-6 py-4 border-b border-gray-100 dark:border-gray-700 flex justify-between items-center">
-                <h3 class="font-bold text-lg text-gray-900 dark:text-white flex items-center gap-2">
-                    <i data-lucide="calendar-clock" class="w-5 h-5 text-brand-500"></i> Atur Jangka Waktu
-                </h3>
-                <button onclick="closeModal('modalEditSub')" class="text-gray-400 hover:text-gray-600 dark:hover:text-gray-200">
-                    <i data-lucide="x" class="w-5 h-5"></i>
-                </button>
-            </div>
-            <div class="p-6 space-y-4">
-                <p class="text-sm text-gray-600 dark:text-gray-400">Pengguna: <strong id="editSubUserName" class="text-gray-900 dark:text-white"></strong></p>
-                
-                <div>
-                    <label class="block text-[11px] font-bold uppercase tracking-wider text-gray-500 dark:text-gray-400 mb-1">Pilih Paket Langganan</label>
-                    <div class="grid grid-cols-3 gap-2">
-                        <button type="button" onclick="selectPlanForm('premium')" id="btnPlanPremium" class="py-2 border-2 border-brand-500 bg-brand-50 dark:bg-brand-900/30 text-brand-700 dark:text-brand-400 font-bold rounded-lg text-sm transition-all shadow-sm">Premium</button>
-                        <button type="button" onclick="selectPlanForm('pro')" id="btnPlanPro" class="py-2 border border-gray-200 dark:border-gray-700 text-gray-600 dark:text-gray-400 font-medium rounded-lg text-sm hover:border-brand-500 transition-all">Pro</button>
-                        <button type="button" onclick="selectPlanForm('phantom')" id="btnPlanPhantom" class="py-2 border border-gray-200 dark:border-gray-700 text-gray-600 dark:text-gray-400 font-medium rounded-lg text-sm hover:border-brand-500 transition-all">Phantom</button>
-                    </div>
-                </div>
-
-                <div class="pt-2 border-t border-gray-100 dark:border-gray-700">
-                    <label class="block text-[11px] font-bold uppercase tracking-wider text-gray-500 dark:text-gray-400 mb-2">Preset Tambah Waktu</label>
-                    <div class="grid grid-cols-3 gap-2 mb-3">
-                        <button onclick="addDatePreset(30)" class="py-1.5 bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-200 text-xs font-semibold rounded">+1 Bulan</button>
-                        <button onclick="addDatePreset(180)" class="py-1.5 bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-200 text-xs font-semibold rounded">+6 Bulan</button>
-                        <button onclick="addDatePreset(365)" class="py-1.5 bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-200 text-xs font-semibold rounded">+1 Tahun</button>
-                    </div>
-                    
-                    <label class="block text-[11px] font-bold uppercase tracking-wider text-gray-500 dark:text-gray-400 mb-1">Atau Pilih Tanggal Pasti (Bebas)</label>
-                    <input type="datetime-local" id="editSubDate" class="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 text-gray-900 dark:text-white bg-white dark:bg-gray-900 rounded-lg outline-none focus:ring-2 focus:ring-brand-500">
-                    <p class="text-[10px] text-gray-500 mt-1 mb-3">Kosongkan kolom tanggal untuk menyetel ulang / mencabut paket.</p>
-                </div>
-                
-                <!-- NEW: Multi Login Setup -->
-                <div class="pt-3 border-t border-gray-100 dark:border-gray-700">
-                    <label class="block text-[11px] font-bold uppercase tracking-wider text-brand-600 dark:text-brand-400 mb-2">Kapasitas Perangkat & Login</label>
-                    <div class="flex items-center justify-between mb-3 bg-gray-50 dark:bg-gray-800/80 p-3 rounded-lg border border-gray-100 dark:border-gray-700">
-                        <div>
-                            <p class="text-sm font-bold text-gray-900 dark:text-white">Izinkan Multi-Login</p>
-                            <p class="text-[10px] text-gray-500">Bebas masuk berbarengan di >1 perangkat.</p>
-                        </div>
-                        <label class="relative inline-flex items-center cursor-pointer">
-                            <input type="checkbox" id="editMultiLogin" class="sr-only peer">
-                            <div class="w-9 h-5 bg-gray-200 peer-focus:outline-none rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all dark:border-gray-600 peer-checked:bg-brand-500"></div>
-                        </label>
-                    </div>
-                    <div class="flex items-center justify-between bg-gray-50 dark:bg-gray-800/80 p-3 rounded-lg border border-gray-100 dark:border-gray-700">
-                        <div>
-                            <p class="text-sm font-bold text-gray-900 dark:text-white">Batas Maksimal Perangkat</p>
-                            <p class="text-[10px] text-gray-500">Ketik angka batas (contoh: 3).</p>
-                        </div>
-                        <input type="number" id="editMaxDevices" min="1" max="99" class="w-20 px-3 py-1.5 border border-gray-300 dark:border-gray-600 text-gray-900 dark:text-white bg-white dark:bg-gray-900 rounded outline-none focus:ring-2 focus:ring-brand-500 text-center font-bold font-mono">
-                    </div>
-                </div>
-            </div>
-            <div class="px-6 py-4 bg-gray-50 dark:bg-gray-800/80 border-t border-gray-100 dark:border-gray-700 flex justify-end gap-3">
-                <button onclick="closeModal('modalEditSub')" class="px-4 py-2 text-sm font-semibold text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-lg transition-colors">Batal</button>
-                <button onclick="saveSubscription()" id="btnSaveSub" class="px-4 py-2 text-sm font-bold text-white bg-brand-600 hover:bg-brand-700 shadow flex items-center gap-2 rounded-lg transition-colors">
-                    Simpan Perubahan
-                </button>
+          </section>
+        </div>
+      </section>
+      
+      </div> <!-- End Main App Dashboard Layout -->
+      
+      <!-- MODALS AND DRAWERS -->
+      <!-- Drawer: User Details -->
+      <div id="drawerOverlay" onclick="closeDrawer('drawerUserDetail')"></div>
+      <div id="drawerUserDetail">
+        <div class="drawer-header">
+            <h3><i data-lucide="user"></i> Detail Profil</h3>
+            <button class="modal-close" onclick="closeDrawer('drawerUserDetail')"><i data-lucide="x"></i></button>
+        </div>
+        <div class="drawer-body">
+            <div id="drawerLoading" class="hidden" style="text-align:center; padding:40px;"><div class="loader"></div></div>
+            <div id="drawerContent">
+               <div style="text-align:center; margin-bottom:24px;">
+                   <h2 id="dl-name" style="font-size:20px; font-weight:600; margin:0 0 4px;">Loading...</h2>
+                   <p id="dl-id" style="font-family:monospace; color:var(--muted); font-size:12px; margin:0;">---</p>
+               </div>
+               
+               <div class="drawer-info-box">
+                   <div class="drawer-info-row">
+                       <span class="drawer-info-label">Status Lisensi</span>
+                       <span id="dl-plan" class="badge badge-free">Free</span>
+                   </div>
+                   <div class="drawer-info-row">
+                       <span class="drawer-info-label">Tipe Login</span>
+                       <span id="dl-login-type" class="drawer-info-value">Single</span>
+                   </div>
+                   <div class="drawer-info-row">
+                       <span class="drawer-info-label">Kapasitas Multi</span>
+                       <span id="dl-max-device" class="drawer-info-value">1 Perangkat</span>
+                   </div>
+               </div>
+               
+               <h4 style="font-size:11px; font-weight:600; color:var(--muted); text-transform:uppercase; margin-bottom:8px;">Siklus Expired Tanggal</h4>
+               <div class="drawer-info-box">
+                   <div class="drawer-info-row">
+                       <span class="drawer-info-label">Premium</span>
+                       <span id="dl-prem-exp" class="drawer-info-value font-mono">-</span>
+                   </div>
+                   <div class="drawer-info-row">
+                       <span class="drawer-info-label">Pro</span>
+                       <span id="dl-pro-exp" class="drawer-info-value font-mono">-</span>
+                   </div>
+                   <div class="drawer-info-row">
+                       <span class="drawer-info-label">Phantom</span>
+                       <span id="dl-phant-exp" class="drawer-info-value font-mono">-</span>
+                   </div>
+               </div>
             </div>
         </div>
-    </div>
-
-    <!-- Modal: Delete User -->
-    <div id="modalDeleteUser" class="modal fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm p-4">
-        <div class="modal-content bg-white dark:bg-gray-800 rounded-2xl shadow-2xl w-full max-w-sm overflow-hidden border border-red-500/50">
-            <div class="p-6 text-center">
-                <div class="w-16 h-16 bg-red-100 dark:bg-red-900/30 rounded-full flex items-center justify-center mx-auto mb-4 text-red-500">
-                    <i data-lucide="alert-triangle" class="w-8 h-8"></i>
-                </div>
-                <h3 class="font-bold text-xl text-gray-900 dark:text-white mb-2">Hapus Pengguna?</h3>
-                <p class="text-sm text-gray-500 dark:text-gray-400">Anda akan menghapus secara permanen akun milik <strong id="deleteUserName" class="text-gray-800 dark:text-gray-200"></strong> dari database (`auth.users`).</p>
-                <div class="mt-4 p-3 bg-red-50 dark:bg-red-900/20 rounded-lg text-left">
-                    <p class="text-xs text-red-600 dark:text-red-400 font-semibold mb-1"><i data-lucide="shield-alert" class="w-3 h-3 inline"></i> PERINGATAN KERAS:</p>
-                    <ul class="text-[11px] text-red-500 list-disc list-inside space-y-1">
-                        <li>Profil akan sirna via Cascade.</li>
-                        <li>Sesi akan terputus paksa.</li>
-                        <li>User ini tidak bisa dikembalikan.</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="px-6 py-4 bg-gray-50 dark:bg-gray-800/80 border-t border-gray-100 dark:border-gray-700 flex justify-end gap-3">
-                <button onclick="closeModal('modalDeleteUser')" class="px-4 py-2 text-sm font-semibold text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-lg transition-colors">Batal</button>
-                <button onclick="confirmDeleteUser()" id="btnConfirmDelete" class="px-4 py-2 text-sm font-bold text-white bg-red-600 hover:bg-red-700 shadow rounded-lg transition-colors flex items-center gap-2">
-                    Ya, Hapus Permanen
-                </button>
-            </div>
+        <div class="drawer-footer">
+            <button class="btn btn-primary" onclick="openEditSubModal(activeDrawerUid)">Atur Lisensi & Kadaluarsa</button>
+            <button class="btn btn-danger" onclick="openDeleteModal(activeDrawerUid)">Hapus Permanen Akun</button>
         </div>
-    </div>
+      </div>
 
-    <!-- Modals for Notifications & Services -->
-    <!-- Modal: Edit/Create Notification -->
-    <div id="modalEditNotification" class="modal fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm p-4">
-        <div class="modal-content bg-white dark:bg-gray-800 rounded-2xl shadow-2xl w-full max-w-2xl overflow-hidden">
-            <div class="px-6 py-4 border-b border-gray-100 dark:border-gray-700 flex justify-between items-center bg-gray-50 dark:bg-gray-800/50">
-                <h3 class="font-bold text-lg text-gray-900 dark:text-white flex items-center gap-2" id="notifModalTitle">
-                    <i data-lucide="bell" class="w-5 h-5 text-brand-500"></i> Buat Notifikasi Baru
-                </h3>
-                <button onclick="closeModal('modalEditNotification')" class="text-gray-400 hover:text-gray-600 dark:hover:text-gray-200">
-                    <i data-lucide="x" class="w-5 h-5"></i>
-                </button>
-            </div>
-            <div class="p-6 space-y-4">
-                <input type="hidden" id="notifId">
-                <div class="grid grid-cols-2 gap-4">
-                    <div>
-                        <label class="block text-[11px] font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-2">Tipe (Type)</label>
-                        <select id="notifType" class="w-full px-4 py-2.5 bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-xl outline-none focus:ring-2 focus:ring-brand-500 text-sm">
-                            <option value="announcement">Global Announcement</option>
-                            <option value="folderInfo">Folder / Tool Info</option>
-                        </select>
-                    </div>
-                    <div>
-                        <label class="block text-[11px] font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-2">Key ID (Target)</label>
-                        <input type="text" id="notifKeyId" placeholder="Misal: chatgpt-group-id" class="w-full px-4 py-2.5 bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-xl outline-none focus:ring-2 focus:ring-brand-500 text-sm">
-                    </div>
-                </div>
-                <div>
-                    <label class="block text-[11px] font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-2 flex justify-between">
-                        <span>Konten HTML (HTML Source)</span>
-                        <a href="#" onclick="copyHtmlTemplate()" class="text-brand-500 hover:underline">Isi Template Dasar</a>
-                    </label>
-                    <textarea id="notifHtmlContent" rows="8" class="w-full px-4 py-3 bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-xl outline-none focus:ring-2 focus:ring-brand-500 text-sm font-mono text-gray-600 dark:text-gray-400" placeholder="<div class='notificationModal-content'>..."></textarea>
-                </div>
-                <div class="flex items-center gap-3 bg-gray-50 dark:bg-gray-900 p-3 rounded-xl border border-gray-200 dark:border-gray-700">
-                    <label class="relative inline-flex items-center cursor-pointer">
-                        <input type="checkbox" id="notifIsEnabled" class="sr-only peer" checked>
-                        <div class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-2 peer-focus:ring-brand-300 dark:peer-focus:ring-brand-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-brand-500"></div>
-                    </label>
-                    <span class="text-sm font-semibold text-gray-700 dark:text-gray-300">Aktifkan Notifikasi Ini?</span>
-                </div>
-            </div>
-            <div class="px-6 py-4 bg-gray-50 dark:bg-gray-800/80 border-t border-gray-100 dark:border-gray-700 flex justify-end gap-3">
-                <button onclick="closeModal('modalEditNotification')" class="px-4 py-2 text-sm font-semibold text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-lg transition-colors">Batal</button>
-                <button onclick="saveNotification()" id="btnSaveNotif" class="px-4 py-2 text-sm font-bold text-white bg-brand-600 hover:bg-brand-700 shadow flex items-center gap-2 rounded-lg transition-colors">
-                    Simpan Data
-                </button>
-            </div>
-        </div>
-    </div>
-
-    <!-- Right Drawer for User Details -->
-    <div id="drawerUserDetail" class="fixed inset-y-0 right-0 w-full md:w-[400px] bg-white dark:bg-gray-900 shadow-2xl border-l border-gray-200 dark:border-gray-800 transform translate-x-full transition-transform duration-300 ease-in-out z-50 flex flex-col">
-        <div class="flex items-center justify-between p-4 border-b border-gray-200 dark:border-gray-800 bg-gray-50/50 dark:bg-gray-800/50">
-            <h3 class="font-bold text-gray-900 dark:text-white flex items-center gap-2">
-                <i data-lucide="user-circle" class="w-5 h-5 text-gray-500"></i> Detail Profil
-            </h3>
-            <button onclick="closeDrawer('drawerUserDetail')" class="p-2 text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-full transition-colors">
-                <i data-lucide="x" class="w-5 h-5"></i>
-            </button>
-        </div>
-        <div class="flex-1 overflow-y-auto p-6 space-y-6 hover-scroll">
-            <div id="drawerLoading" class="flex justify-center items-center h-48 hidden">
-                <div class="loader aspect-square w-12 border-4"></div>
-            </div>
-            <div id="drawerContent" class="space-y-6">
-                <!-- Header Name -->
-                <div class="text-center">
-                    <div class="w-20 h-20 bg-indigo-100 dark:bg-indigo-900/30 text-indigo-500 rounded-full flex items-center justify-center mx-auto mb-3 shadow-inner">
-                        <i data-lucide="user" class="w-10 h-10"></i>
-                    </div>
-                    <h2 class="text-xl font-bold text-gray-900 dark:text-white" id="dl-name">Loading...</h2>
-                    <p class="text-xs font-mono text-gray-500 mt-1" id="dl-id">---</p>
-                </div>
-
-                <!-- Info Grid -->
-                <div class="bg-gray-50 dark:bg-gray-800/50 rounded-xl p-4 space-y-3 border border-gray-100 dark:border-gray-700">
-                    <div class="flex justify-between items-center border-b border-gray-200 dark:border-gray-700 pb-2">
-                        <span class="text-xs font-bold text-gray-500 uppercase">Status Lisensi</span>
-                        <span id="dl-plan" class="px-2 py-0.5 text-xs font-bold rounded bg-gray-200 text-gray-800">Free</span>
-                    </div>
-                    <div class="flex justify-between items-center border-b border-gray-200 dark:border-gray-700 pb-2">
-                        <span class="text-xs font-bold text-gray-500 uppercase">Tipe Login</span>
-                        <span id="dl-login-type" class="text-xs font-bold text-gray-700 dark:text-gray-300">Single</span>
-                    </div>
-                    <div class="flex justify-between items-center pb-1">
-                        <span class="text-xs font-bold text-gray-500 uppercase">Kapasitas Multi</span>
-                        <span id="dl-max-device" class="text-xs font-bold text-gray-700 dark:text-gray-300">1 Perangkat</span>
-                    </div>
-                </div>
-
-                <!-- Expiry Info Grid -->
-                <div class="space-y-3">
-                    <h4 class="text-[11px] font-bold text-gray-400 uppercase tracking-wider mx-1">Siklus Masa Aktif</h4>
-                    <div class="grid grid-cols-1 gap-2">
-                        <div class="bg-white dark:bg-gray-800 p-3 rounded-lg border border-gray-200 dark:border-gray-700 flex justify-between items-center">
-                            <span class="text-sm font-semibold text-gray-700 dark:text-gray-300">Premium</span>
-                            <span class="text-xs text-gray-500 font-mono" id="dl-prem-exp">-</span>
-                        </div>
-                        <div class="bg-white dark:bg-gray-800 p-3 rounded-lg border border-gray-200 dark:border-gray-700 flex justify-between items-center">
-                            <span class="text-sm font-semibold text-gray-700 dark:text-gray-300">Pro</span>
-                            <span class="text-xs text-gray-500 font-mono" id="dl-pro-exp">-</span>
-                        </div>
-                        <div class="bg-white dark:bg-gray-800 p-3 rounded-lg border border-gray-200 dark:border-gray-700 flex justify-between items-center">
-                            <span class="text-sm font-semibold text-gray-700 dark:text-gray-300">Phantom</span>
-                            <span class="text-xs text-gray-500 font-mono" id="dl-phant-exp">-</span>
-                        </div>
-                    </div>
-                </div>
-
-                 <!-- Timestamps -->
-                 <div class="space-y-3">
-                    <h4 class="text-[11px] font-bold text-gray-400 uppercase tracking-wider mx-1">Metrik Waktu</h4>
-                    <div class="bg-white dark:bg-gray-800 p-3 rounded-lg border border-gray-200 dark:border-gray-700 space-y-2">
-                        <div class="flex justify-between items-center">
-                            <span class="text-xs text-gray-500">Waktu Mendaftar</span>
-                            <span class="text-[11px] font-mono text-gray-700 dark:text-gray-300" id="dl-created">-</span>
-                        </div>
-                        <div class="flex justify-between items-center">
-                            <span class="text-xs text-gray-500">Terakhir Login (Update DB)</span>
-                            <span class="text-[11px] font-mono text-gray-700 dark:text-gray-300" id="dl-last-login">-</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="p-4 bg-gray-50 dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 flex flex-col gap-2 relative z-10 shrink-0">
-            <button onclick="openEditSubModal(activeDrawerUid)" class="w-full flex justify-center items-center gap-2 py-2.5 bg-brand-600 hover:bg-brand-700 text-white rounded-lg text-sm font-bold shadow transition-all">
-                <i data-lucide="pen-tool" class="w-4 h-4"></i> Atur Lisensi & Kadaluarsa
-            </button>
-            <button onclick="openDeleteModal(activeDrawerUid)" class="w-full flex justify-center items-center gap-2 py-2.5 bg-red-50 hover:bg-red-100 text-red-600 border border-red-200 dark:bg-red-900/20 dark:border-red-800 dark:text-red-400 rounded-lg text-sm font-bold transition-all">
-                <i data-lucide="trash-2" class="w-4 h-4"></i> Hapus Permanen
-            </button>
-        </div>
-    </div>
-    
-    <!-- Drawer Overlay -->
-    <div id="drawerOverlay" onclick="closeDrawer('drawerUserDetail')" class="fixed inset-0 bg-black/40 backdrop-blur-sm z-40 hidden transition-opacity"></div>
-
-    <!-- Scripts -->
-    <script src="auth.js?v=auth-fresh-1"></script>
-    <script src="assets/js/admin.js?v=admin-fresh-2"></script>
+      <!-- Modal: Edit Subscription -->
+      <div id="modalEditSub" class="modal">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h3><i data-lucide="edit"></i> Ubah Langganan</h3>
+                  <button class="modal-close" onclick="closeModal('modalEditSub')"><i data-lucide="x"></i></button>
+              </div>
+              <div class="modal-body">
+                  <p style="margin-bottom:16px;">Pengguna: <strong id="editSubUserName"></strong></p>
+                  
+                  <div class="form-group">
+                      <label>Pilih Paket</label>
+                      <div style="display:flex; gap:8px;">
+                          <button id="btnPlanPremium" onclick="selectPlanForm('premium')" style="flex:1; padding:10px; border-radius:8px; border:1px solid #14b8a6; background:rgba(20,184,166,0.1); color:#14b8a6; font-weight:bold; cursor:pointer;">Premium</button>
+                          <button id="btnPlanPro" onclick="selectPlanForm('pro')" style="flex:1; padding:10px; border-radius:8px; border:1px solid var(--line); background:var(--surface-2); color:var(--text); font-weight:bold; cursor:pointer;">Pro</button>
+                          <button id="btnPlanPhantom" onclick="selectPlanForm('phantom')" style="flex:1; padding:10px; border-radius:8px; border:1px solid var(--line); background:var(--surface-2); color:var(--text); font-weight:bold; cursor:pointer;">Phantom</button>
+                      </div>
+                  </div>
+                  
+                  <div class="form-group">
+                      <label>Isi Tanggal Expired (Biarkan kosong untuk reset)</label>
+                      <input type="datetime-local" id="editSubDate" class="form-control">
+                      <div style="display:flex; gap:8px; margin-top:8px;">
+                          <button class="btn" onclick="addDatePreset(30)" style="flex:1; background:var(--surface-2); color:var(--text); padding:6px; font-size:12px;">+1 Bulan</button>
+                          <button class="btn" onclick="addDatePreset(180)" style="flex:1; background:var(--surface-2); color:var(--text); padding:6px; font-size:12px;">+6 Bulan</button>
+                          <button class="btn" onclick="addDatePreset(365)" style="flex:1; background:var(--surface-2); color:var(--text); padding:6px; font-size:12px;">+1 Tahun</button>
+                      </div>
+                  </div>
+                  
+                  <div style="background:var(--surface-2); padding:16px; border-radius:12px;">
+                      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+                          <div>
+                              <strong style="font-size:13px;">Izinkan Multi-Login</strong>
+                              <p style="font-size:11px; margin:0; color:var(--muted);">Izinkan masuk di >1 perangkat.</p>
+                          </div>
+                          <div>
+                              <input type="checkbox" id="editMultiLogin" class="switch-input">
+                              <label for="editMultiLogin" class="switch-label"></label>
+                          </div>
+                      </div>
+                      <div style="display:flex; justify-content:space-between; align-items:center;">
+                          <div>
+                              <strong style="font-size:13px;">Batas Maks Perangkat</strong>
+                          </div>
+                          <input type="number" id="editMaxDevices" min="1" max="99" class="form-control" style="width:70px; text-align:center;">
+                      </div>
+                  </div>
+              </div>
+              <div class="modal-footer">
+                  <button class="btn btn-cancel" onclick="closeModal('modalEditSub')">Batal</button>
+                  <button class="btn btn-primary" id="btnSaveSub" onclick="saveSubscription()">Simpan Perubahan</button>
+              </div>
+          </div>
+      </div>
+      
+      <!-- Modal: Delete User -->
+      <div id="modalDeleteUser" class="modal">
+          <div class="modal-content">
+              <div class="modal-body" style="text-align:center; padding:32px 20px;">
+                  <div style="color:#ed4956; margin-bottom:16px;"><i data-lucide="alert-triangle" style="width:48px;height:48px;"></i></div>
+                  <h3 style="font-size:20px; font-weight:600; margin-bottom:8px;">Hapus Pengguna?</h3>
+                  <p style="color:var(--muted); font-size:14px;">Tindakan ini permanen. Akun <strong><span id="deleteUserName"></span></strong> akan sirna selamanya dari database.</p>
+              </div>
+              <div class="modal-footer">
+                  <button class="btn btn-cancel" onclick="closeModal('modalDeleteUser')">Batal</button>
+                  <button class="btn btn-danger" id="btnConfirmDelete" onclick="confirmDeleteUser()">Hapus Permanen</button>
+              </div>
+          </div>
+      </div>
+      
+      <!-- Modal: Notification -->
+      <div id="modalEditNotification" class="modal">
+          <div class="modal-content" style="max-width:600px;">
+              <div class="modal-header">
+                  <h3 id="notifModalTitle">Buat Notifikasi</h3>
+                  <button class="modal-close" onclick="closeModal('modalEditNotification')"><i data-lucide="x"></i></button>
+              </div>
+              <div class="modal-body">
+                  <input type="hidden" id="notifId">
+                  <div style="display:flex; gap:16px;">
+                      <div class="form-group" style="flex:1;">
+                          <label>Tipe</label>
+                          <select id="notifType" class="form-control">
+                              <option value="announcement">Global Announcement</option>
+                              <option value="folderInfo">Folder / Tool Info</option>
+                          </select>
+                      </div>
+                      <div class="form-group" style="flex:1;">
+                          <label>Key ID</label>
+                          <input type="text" id="notifKeyId" class="form-control" placeholder="Target Key">
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <div style="display:flex; justify-content:space-between; margin-bottom:8px;">
+                          <label style="margin:0;">Konten HTML</label>
+                          <a href="#" onclick="copyHtmlTemplate()" style="font-size:11px; color:#0095f6;">Template Standar</a>
+                      </div>
+                      <textarea id="notifHtmlContent" rows="6" class="form-control" style="font-family:monospace; resize:vertical;"></textarea>
+                  </div>
+                  <div style="display:flex; align-items:center; gap:12px;">
+                      <input type="checkbox" id="notifIsEnabled" class="switch-input" checked>
+                      <label for="notifIsEnabled" class="switch-label"></label>
+                      <strong style="font-size:14px;">Aktifkan Notifikasi?</strong>
+                  </div>
+              </div>
+              <div class="modal-footer">
+                  <button class="btn btn-cancel" onclick="closeModal('modalEditNotification')">Batal</button>
+                  <button class="btn btn-primary" id="btnSaveNotif" onclick="saveNotification()">Simpan Notifikasi</button>
+              </div>
+          </div>
+      </div>
+      
+      <!-- Script injection logic -->
+      <script src="auth.js?v=auth-fresh-1"></script>
+      <script src="assets/js/admin.js?v=admin-fresh-2"></script>
+      <script src="assets/js/admin_ui.js?v=ui-1"></script>
+      </main>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
