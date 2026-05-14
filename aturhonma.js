@@ -310,12 +310,12 @@ const gracelyConfig = {
   },
   versionControl: {
     extensionName: "Gracely Extension",
-    requiredExtensionVersion: "0",
+    requiredExtensionVersion: "2.2",
     guardName: "Gracely Guard",
-    requiredGuardVersion: "0",
+    requiredGuardVersion: "1.0.3",
     onVersionMismatchUrl: "https://gracely011.github.io/hai/update.html",
-    sharedVerificationCode: "NONAKTIF",
+    sharedVerificationCode: "Mazmur_118:13-14",
     updateUrl: "https://gracely011.github.io/hai/dashboard.html",
-    updateMessageHTML: "<div class='notificationModal-content'><i class='fa fa-times close-icon' id='notification-close'></i><h2 style='margin: 0 0 16px 0; text-align: center; color: #2c3e50; font-size: 22px; border-bottom: 3px solid #333333; padding-bottom: 8px;'>Update Required</h2><div style='background: #f8f9fa; padding: 12px; border-radius: 8px; margin-bottom: 10px;'><p style='margin: 6px 0; font-size: 14px;'> Versi <b>Gracely Extension</b> dan <b>Gracely Guard</b> Anda sudah usang.</p></div><div style='border: 2px dashed #666666; padding: 8px 10px; border-radius: 8px; background: #f5f5f5; margin-bottom: 12px;'><p style='margin: 0; text-align: center; color: #333333; font-size: 13px;'><b>Please Update Gracely Extension</b>😊🙏</p></div><div style='border: 2px dashed #666666; padding: 8px 10px; border-radius: 8px; background: #f5f5f5; margin-bottom: 12px;'><p style='margin: 0; text-align: center; color: #333333; font-size: 13px;'><b>Please Update Gracely Guard</b>😊🙏</p></div><div style='display:none;'><span id='update-countdown'>30</span></div><button class='ud-main-btn' id='notification-ok'>OK Lae</button></div>"
+    updateMessageHTML: "<div class=notificationModal-content><i class="close-icon fa fa-times"id=notification-close></i><h2 style="margin:0 0 16px 0;text-align:center;color:#2c3e50;font-size:22px;border-bottom:3px solid #333;padding-bottom:8px">Update Required</h2><div style=background:#f8f9fa;padding:12px;border-radius:8px;margin-bottom:10px><p style="margin:6px 0;font-size:14px">Versi <b>Gracely Extension</b> dan <b>Gracely Guard</b> Anda sudah usang.</div><div style="border:2px dashed #666;padding:8px 10px;border-radius:8px;background:#f5f5f5;margin-bottom:12px"><p style=margin:0;text-align:center;color:#333;font-size:13px><b>Please Update Gracely Extension</b>😊🙏<p style=margin:0;text-align:center;color:#333;font-size:13px><b>Please Update Gracely Guard</b>😊🙏</div><div style=display:none><span id=update-countdown>30</span></div><button class=ud-main-btn id=notification-ok>OK Lae</button></div>"
   }
 };
