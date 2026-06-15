@@ -1,4 +1,4 @@
-﻿// DOMAIN CHECK DISABLED FOR LOCAL DEV
+// DOMAIN CHECK DISABLED FOR LOCAL DEV
 // (function () {
 //     var a = ["draft.gracely.my.id", "localhost", "127.0.0.1"],
 //         h = window.location.hostname,
@@ -9,9 +9,7 @@
 //             o = !0;
 //             break
 //         }
-//     if (o && h === "draft.gracely.my.id" && !p.startsWith("/hai/")) {
-//         o = !1
-//     }
+
 //     o || (window.location.href = "https://draft.gracely.my.id/")
 // })();
 

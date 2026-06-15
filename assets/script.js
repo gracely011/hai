@@ -1,4 +1,4 @@
-﻿// 0. INIT CHECK
+// 0. INIT CHECK
 // Debug log removed as per user request
 // Last Deploy: 2026-02-08 23:15 (Domain Lock Active)
 
@@ -60,9 +60,7 @@
             break;
         }
     }
-    if (o && h === "draft.gracely.my.id" && !p.startsWith("/hai/")) {
-        o = !1;
-    }
+
     if (!o) {
         // Only redirect if NOT local development/file
         // window.location.href = "https://draft.gracely.my.id/";
