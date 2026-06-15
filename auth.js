@@ -354,10 +354,18 @@ async function logUserActivity({ userId, userName, activity, deviceName = null, 
 
 async function signup(name, email, password) {
     try {
+        const captchaToken = document.querySelector('[name="cf-turnstile-response"]')?.value;
+        if (!captchaToken) {
+            throw new Error("Silakan selesaikan verifikasi keamanan (CAPTCHA) terlebih dahulu.");
+        }
+
         const { data, error } = await supabaseClient.auth.signUp({
             email: email,
             password: password,
-            options: { data: { full_name: name } }
+            options: { 
+                data: { full_name: name },
+                captchaToken: captchaToken
+            }
         });
         if (error) throw error;
         
@@ -376,9 +384,17 @@ async function signup(name, email, password) {
 
 async function login(email, password) {
     try {
+        const captchaToken = document.querySelector('[name="cf-turnstile-response"]')?.value;
+        if (!captchaToken) {
+            throw new Error("Silakan selesaikan verifikasi keamanan (CAPTCHA) terlebih dahulu.");
+        }
+
         let { data: authData, error: authError } = await supabaseClient.auth.signInWithPassword({
             email: email,
             password: password,
+            options: {
+                captchaToken: captchaToken
+            }
         });
         if (authError) throw authError;
 
@@ -621,8 +637,14 @@ async function login(email, password) {
 
 async function sendPasswordResetEmail(email) {
     try {
+        const captchaToken = document.querySelector('[name="cf-turnstile-response"]')?.value;
+        if (!captchaToken) {
+            throw new Error("Silakan selesaikan verifikasi keamanan (CAPTCHA) terlebih dahulu.");
+        }
+
         await supabaseClient.auth.resetPasswordForEmail(email, {
             redirectTo: 'https://draft.gracely.my.id/password.html',
+            captchaToken: captchaToken
         });
         return { success: true, message: 'Jika email terdaftar, tautan reset kata sandi telah dikirim ke kotak masuk Anda.' };
     } catch (error) { return { success: false, message: 'Gagal memproses permintaan.' }; }
