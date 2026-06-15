@@ -289,7 +289,7 @@ const defaultNavbarHTML = () => `
     <div class="row">
       <div class="col-lg-12">
         <nav class="navbar navbar-expand-lg">
-          <a class="navbar-brand" href="/">
+          <a class="navbar-brand" href="https://draft.gracely.my.id/">
             <img src="assets/images/logo/gracely_mobile_white.png" alt="Logo" id="logo" />
           </a>
           <button class="navbar-toggler">
@@ -297,11 +297,11 @@ const defaultNavbarHTML = () => `
           </button>
           <div class="navbar-collapse">
             <ul id="nav" class="navbar-nav mx-auto">
-              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#home" data-i18n="home">${t('home')}</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#features" data-i18n="features">${t('features')}</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#about" data-i18n="about">${t('about')}</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#pricing" data-i18n="pricing">${t('pricing')}</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#services" data-i18n="services">${t('services')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="#home" data-i18n="home">${t('home')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="#features" data-i18n="features">${t('features')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="#about" data-i18n="about">${t('about')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="#pricing" data-i18n="pricing">${t('pricing')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="#services" data-i18n="services">${t('services')}</a></li>
             </ul>
           </div>
           <div class="navbar-btn d-flex align-items-center">
@@ -321,7 +321,7 @@ const loggedInNavbarHTML = (userName) => `
     <div class="row">
       <div class="col-lg-12">
         <nav class="navbar navbar-expand-lg">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="https://draft.gracely.my.id/">
              <img src="assets/images/logo/gracely_mobile_white.png" alt="Logo" id="logo" />
           </a>
           <button class="navbar-toggler">
@@ -329,11 +329,11 @@ const loggedInNavbarHTML = (userName) => `
           </button>
           <div class="navbar-collapse">
              <ul id="nav" class="navbar-nav mx-auto">
-              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#home" data-i18n="home">${t('home')}</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#features" data-i18n="features">${t('features')}</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#about" data-i18n="about">${t('about')}</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#pricing" data-i18n="pricing">${t('pricing')}</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="index.html#services" data-i18n="services">${t('services')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="#home" data-i18n="home">${t('home')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="#features" data-i18n="features">${t('features')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="#about" data-i18n="about">${t('about')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="#pricing" data-i18n="pricing">${t('pricing')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="#services" data-i18n="services">${t('services')}</a></li>
             </ul>
           </div>
           <div class="navbar-btn d-flex align-items-center">
@@ -374,9 +374,9 @@ const footerHTML = `
           <div class="ud-widget">
             <h5 class="ud-widget-title" data-i18n="about">${t('about')}</h5>
             <ul class="ud-widget-links">
-              <li><a href="index.html#features" data-i18n="features">${t('features')}</a></li>
-              <li><a href="index.html#about" data-i18n="about">${t('about')}</a></li>
-              <li><a href="index.html#pricing" data-i18n="pricing">${t('pricing')}</a></li>
+              <li><a href="#features" data-i18n="features">${t('features')}</a></li>
+              <li><a href="#about" data-i18n="about">${t('about')}</a></li>
+              <li><a href="#pricing" data-i18n="pricing">${t('pricing')}</a></li>
             </ul>
           </div>
         </div>
@@ -399,7 +399,7 @@ const footerHTML = `
           <ul class="ud-footer-bottom-left">
             <li><a href="privacy.html" data-i18n="privacy">${t('privacy')}</a></li>
             <li><a href="terms.html" data-i18n="terms">${t('terms')}</a></li>
-            <li><a href="index.html#contact" data-i18n="contact">${t('contact')}</a></li>
+            <li><a href="#contact" data-i18n="contact">${t('contact')}</a></li>
           </ul>
         </div>
         <div class="col-md-4"><p class="ud-footer-bottom-right">Gracely &copy; 2024-${new Date().getFullYear()}</p></div>
