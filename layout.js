@@ -1,4 +1,4 @@
-// Branding moved to script.js
+﻿// Branding moved to script.js
 
 (function () {
   if (!document.querySelector('link[href*="flag-icon-css"]')) {
@@ -22,7 +22,7 @@
 
 const announcementBarHTML = `
 <div class="announcement-bar">
-  The only official Gracely website is https://gracely011.github.io/hai/. Please be aware of fake websites.
+  The only official Gracely website is https://draft.gracely.my.id/. Please be aware of fake websites.
 </div>`;
 
 const translations = {
