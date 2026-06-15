@@ -352,28 +352,11 @@ async function logUserActivity({ userId, userName, activity, deviceName = null, 
 }
 // --- END LOGGING HELPER ---
 
-function clearTurnstileError() {
-    const existing = document.querySelector('.messagebox.turnstile-error');
-    if (existing) existing.remove();
-}
-
-function showTurnstileError() {
-    const wrapper = document.querySelector('.ud-login-wrapper');
-    if (wrapper && !document.querySelector('.messagebox.turnstile-error')) {
-        const p = document.createElement('p');
-        p.className = 'messagebox turnstile-error';
-        p.innerHTML = '<span class="icon"><i class="lni lni-information"></i></span>Invalid Cloudflare Turnstile data.';
-        wrapper.parentNode.insertBefore(p, wrapper);
-    }
-}
-
 async function signup(name, email, password) {
     try {
-        clearTurnstileError();
         const captchaToken = document.querySelector('[name="cf-turnstile-response"]')?.value;
         if (!captchaToken) {
-            showTurnstileError();
-            throw new Error(" ");
+            throw new Error("Silakan selesaikan verifikasi keamanan (CAPTCHA) terlebih dahulu.");
         }
 
         const { data, error } = await supabaseClient.auth.signUp({
@@ -401,11 +384,9 @@ async function signup(name, email, password) {
 
 async function login(email, password) {
     try {
-        clearTurnstileError();
         const captchaToken = document.querySelector('[name="cf-turnstile-response"]')?.value;
         if (!captchaToken) {
-            showTurnstileError();
-            throw new Error(" ");
+            throw new Error("Silakan selesaikan verifikasi keamanan (CAPTCHA) terlebih dahulu.");
         }
 
         let { data: authData, error: authError } = await supabaseClient.auth.signInWithPassword({
@@ -656,11 +637,9 @@ async function login(email, password) {
 
 async function sendPasswordResetEmail(email) {
     try {
-        clearTurnstileError();
         const captchaToken = document.querySelector('[name="cf-turnstile-response"]')?.value;
         if (!captchaToken) {
-            showTurnstileError();
-            throw new Error(" ");
+            throw new Error("Silakan selesaikan verifikasi keamanan (CAPTCHA) terlebih dahulu.");
         }
 
         await supabaseClient.auth.resetPasswordForEmail(email, {
