@@ -234,20 +234,20 @@ async function checkPremiumExpiryWarning() {
     const hoursLeft = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
 
     if (daysLeft > 4 || daysLeft < 0) return false;
-    
+
     // --- CEK LIMIT HARIAN EXPIRY WARNING ---
     const lastExpiryStr = localStorage.getItem('lastExpiryWarningDateDB');
     if (lastExpiryStr) {
-        const lastExpiry = new Date(lastExpiryStr);
-        const todayReset = new Date();
-        todayReset.setHours(0, 0, 0, 0); // Reset pada jam 00:00 hari ini
-        
-        // Peringatan akan muncul kembali jika belum ada catatan log hari ini
-        if (lastExpiry >= todayReset) {
-            return false; // Sudah ditampilkan hari ini
-        }
+      const lastExpiry = new Date(lastExpiryStr);
+      const todayReset = new Date();
+      todayReset.setHours(0, 0, 0, 0); // Reset pada jam 00:00 hari ini
+
+      // Peringatan akan muncul kembali jika belum ada catatan log hari ini
+      if (lastExpiry >= todayReset) {
+        return false; // Sudah ditampilkan hari ini
+      }
     }
-    
+
     const modalContainer = document.getElementById('notification-0');
     if (!modalContainer) return false;
     const modalContent = modalContainer.querySelector('.notificationModal-content');
@@ -264,10 +264,10 @@ async function checkPremiumExpiryWarning() {
       modalContainer.setAttribute('data-priority', 'high'); // Tag as High Priority
       modalContainer.style.visibility = 'visible';
       modalContainer.style.opacity = '1';
-      const closeModal = () => { 
-          modalContainer.style.display = 'none'; 
-          localStorage.setItem('lastExpiryWarningDateDB', new Date().toISOString());
-          if(typeof updateLastPopupDate === 'function') updateLastPopupDate('expiry');
+      const closeModal = () => {
+        modalContainer.style.display = 'none';
+        localStorage.setItem('lastExpiryWarningDateDB', new Date().toISOString());
+        if (typeof updateLastPopupDate === 'function') updateLastPopupDate('expiry');
       };
       const closeBtn = modalContainer.querySelector('#notification-close');
       const okBtn = modalContainer.querySelector('#notification-ok');
@@ -289,7 +289,7 @@ const defaultNavbarHTML = () => `
     <div class="row">
       <div class="col-lg-12">
         <nav class="navbar navbar-expand-lg">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="/">
             <img src="assets/images/logo/gracely_mobile_white.png" alt="Logo" id="logo" />
           </a>
           <button class="navbar-toggler">
@@ -536,8 +536,8 @@ async function loadExternalConfig(callback) {
         callback();
         return;
       }
-    } catch(e) {}
-    
+    } catch (e) { }
+
     // Fallback for Local Dev (Valid JS file)
     const script = document.createElement('script');
     script.textContent = text;
@@ -601,7 +601,7 @@ async function initializeWebsiteAnnouncement() {
         localStorage.setItem("notificationLastShown", nowStr);
         localStorage.setItem("notificationLastShownId", o);
         localStorage.setItem("lastPopupDateDB", isoNowStr); // Immediate UI sync
-        if(typeof updateLastPopupDate === 'function') updateLastPopupDate('info');
+        if (typeof updateLastPopupDate === 'function') updateLastPopupDate('info');
       };
 
       const closeBtn = modalDiv.querySelector("#notification-close");
@@ -620,9 +620,9 @@ async function initializeWebsiteAnnouncement() {
     let lastShownTime = null;
 
     if (lastShownStrDB) {
-        lastShownTime = new Date(lastShownStrDB).getTime();
+      lastShownTime = new Date(lastShownStrDB).getTime();
     } else if (lastShownLocalStr) {
-        lastShownTime = parseInt(lastShownLocalStr);
+      lastShownTime = parseInt(lastShownLocalStr);
     }
 
     if (!lastShownTime) {
@@ -688,7 +688,7 @@ async function initializeWebsiteAnnouncement() {
 function init3DTextEffect() {
   const textElement = document.getElementById('text-3d');
   if (!textElement) return;
-  
+
   const maxRotation = 90;
 
   document.addEventListener('mousemove', (e) => {
@@ -719,11 +719,11 @@ function initDashboardPlanStatus() {
   // REALTIME EXTENSION REFRESH LISTENER
   // Will be triggered by auth.js on Supabase push update
   if (!window.hasRegisteredPlanRefreshListener) {
-      document.addEventListener('gracelyPlanRefresh', () => {
-          // console.log("Realtime UI Update Triggered: Re-rendering dashboard plan cards...");
-          renderPlanStatus();
-      });
-      window.hasRegisteredPlanRefreshListener = true;
+    document.addEventListener('gracelyPlanRefresh', () => {
+      // console.log("Realtime UI Update Triggered: Re-rendering dashboard plan cards...");
+      renderPlanStatus();
+    });
+    window.hasRegisteredPlanRefreshListener = true;
   }
 
   function formatExactUTC(dateString) {
@@ -774,29 +774,29 @@ function initDashboardPlanStatus() {
             <div class="menu-section-plan-description">`;
 
         let hasShownDate = false;
-        
+
         const fmtPremium = safeFormat(datePremium);
         const fmtPro = safeFormat(datePro);
         const fmtPhantom = safeFormat(datePhantom);
-        
+
         const currentPlanLevel = parseInt(planNumber, 10) || 1;
 
         // Tampilkan masa aktif Premium jika user setidaknya Premium (002, 003, 004)
         if (currentPlanLevel >= 2 && fmtPremium) {
-            planHTML += `<div>Your <b>Premium</b> is valid until ${fmtPremium}.</div>`; 
-            hasShownDate = true;
+          planHTML += `<div>Your <b>Premium</b> is valid until ${fmtPremium}.</div>`;
+          hasShownDate = true;
         }
-        
+
         // Tampilkan masa aktif Pro jika user setidaknya Pro (003, 004)
         if (currentPlanLevel >= 3 && fmtPro) {
-            planHTML += `<div>Your <b>Pro</b> is valid until ${fmtPro}.</div>`; 
-            hasShownDate = true;
+          planHTML += `<div>Your <b>Pro</b> is valid until ${fmtPro}.</div>`;
+          hasShownDate = true;
         }
 
         // Tampilkan masa aktif Phantom jika user Phantom (004)
         if (currentPlanLevel >= 4 && fmtPhantom) {
-            planHTML += `<div>Your <b>The Phantom</b> is valid until ${fmtPhantom}.</div>`; 
-            hasShownDate = true;
+          planHTML += `<div>Your <b>The Phantom</b> is valid until ${fmtPhantom}.</div>`;
+          hasShownDate = true;
         }
 
         if (!hasShownDate) { planHTML += `<div>Active</div>`; }
@@ -823,34 +823,34 @@ function initDashboardPlanStatus() {
 
   // 2. Background Fetch for auto-updating plan without logout
   if (typeof getUserId === 'function' && typeof getPremiumStatus === 'function') {
-      (async function fetchFreshPlan() {
-          try {
-              const userId = await getUserId();
-              if (userId) {
-                  const status = await getPremiumStatus(userId);
-                  if (status) {
-                      const oldPlanName = localStorage.getItem('userPlanName');
-                      const oldPremium = localStorage.getItem('isPremium');
-                      
-                      localStorage.setItem('isPremium', status.isPremium);
-                      localStorage.setItem('userPlanName', status.planName);
-                      localStorage.setItem('userPlanNumber', status.planNumber);
-                      
-                      if (status.premiumExpiryDate) localStorage.setItem('premiumExpiryDate', status.premiumExpiryDate); else localStorage.removeItem('premiumExpiryDate');
-                      if (status.proExpiryDate) localStorage.setItem('proExpiryDate', status.proExpiryDate); else localStorage.removeItem('proExpiryDate');
-                      if (status.phantomExpiryDate) localStorage.setItem('phantomExpiryDate', status.phantomExpiryDate); else localStorage.removeItem('phantomExpiryDate');
-                      
-                      // Trigger extension sync if plan toggled
-                      if (oldPremium !== String(status.isPremium) || oldPlanName !== status.planName) {
-                          if (typeof setCookie === 'function') setCookie('gracely_plan_sync', Date.now().toString(), 1);
-                      }
-                      
-                      // Re-render UI with fresh DB data
-                      renderPlanStatus();
-                  }
-              }
-          } catch (e) { console.error("Auto plan fetch error:", e); }
-      })();
+    (async function fetchFreshPlan() {
+      try {
+        const userId = await getUserId();
+        if (userId) {
+          const status = await getPremiumStatus(userId);
+          if (status) {
+            const oldPlanName = localStorage.getItem('userPlanName');
+            const oldPremium = localStorage.getItem('isPremium');
+
+            localStorage.setItem('isPremium', status.isPremium);
+            localStorage.setItem('userPlanName', status.planName);
+            localStorage.setItem('userPlanNumber', status.planNumber);
+
+            if (status.premiumExpiryDate) localStorage.setItem('premiumExpiryDate', status.premiumExpiryDate); else localStorage.removeItem('premiumExpiryDate');
+            if (status.proExpiryDate) localStorage.setItem('proExpiryDate', status.proExpiryDate); else localStorage.removeItem('proExpiryDate');
+            if (status.phantomExpiryDate) localStorage.setItem('phantomExpiryDate', status.phantomExpiryDate); else localStorage.removeItem('phantomExpiryDate');
+
+            // Trigger extension sync if plan toggled
+            if (oldPremium !== String(status.isPremium) || oldPlanName !== status.planName) {
+              if (typeof setCookie === 'function') setCookie('gracely_plan_sync', Date.now().toString(), 1);
+            }
+
+            // Re-render UI with fresh DB data
+            renderPlanStatus();
+          }
+        }
+      } catch (e) { console.error("Auto plan fetch error:", e); }
+    })();
   }
 }
 
@@ -1194,7 +1194,7 @@ function initSignupPage() {
   }
 
   if (emailInput && suggestionEl) {
-    emailInput.addEventListener("blur", function() {
+    emailInput.addEventListener("blur", function () {
       const value = this.value.trim();
       suggestionEl.innerHTML = "";
       if (!value.includes("@")) return;
@@ -1282,7 +1282,7 @@ function initPageScripts() {
   const path = window.location.pathname;
   const page = path.split('/').pop() || 'index.html';
 
-  switch(page) {
+  switch (page) {
     case '404.html':
     case 'blocked.html':
     case 'maintenance.html':
