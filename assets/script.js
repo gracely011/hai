@@ -1,4 +1,4 @@
-// 0. INIT CHECK
+﻿// 0. INIT CHECK
 // Debug log removed as per user request
 // Last Deploy: 2026-02-08 23:15 (Domain Lock Active)
 
@@ -16,7 +16,7 @@
             try {
                 Object.defineProperty(window, '__gracelyBlockRedirect', {
                     value: function (url) {
-                        if (url && typeof url === 'string' && url.includes('gracely011.github.io')) {
+                        if (url && typeof url === 'string' && url.includes('draft.gracely.my.id')) {
                             console.warn('🚫 BLOCKED redirect to:', url);
                             return true; // blocked
                         }
@@ -50,7 +50,7 @@
     // Allow file protocol for local testing without redirect
     if (window.location.protocol === 'file:') return;
 
-    var a = ["gracely011.github.io", "localhost", "127.0.0.1"],
+    var a = ["draft.gracely.my.id", "localhost", "127.0.0.1"],
         h = window.location.hostname,
         p = window.location.pathname,
         o = !1;
@@ -60,12 +60,12 @@
             break;
         }
     }
-    if (o && h === "gracely011.github.io" && !p.startsWith("/hai/")) {
+    if (o && h === "draft.gracely.my.id" && !p.startsWith("/hai/")) {
         o = !1;
     }
     if (!o) {
         // Only redirect if NOT local development/file
-        // window.location.href = "https://gracely011.github.io/hai/";
+        // window.location.href = "https://draft.gracely.my.id/";
         console.warn("⚠️ Domain check failed but redirect DISABLED for local dev");
     }
 })();

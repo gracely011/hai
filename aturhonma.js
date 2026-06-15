@@ -1,4 +1,4 @@
-const gracelyConfig = {
+﻿const gracelyConfig = {
   // Config Version: 2.2.1 (Pure JS Decrypted)
   blockedUrlPatterns: [
     "*academia.edu/logout*",
@@ -179,17 +179,17 @@ const gracelyConfig = {
     "*chutes.ai/app/api?/delete-api-key*"
   ],
   urls: {
-    profileIcon: "https://gracely011.github.io/hai/assets/halo/halooo.png",
-    tutorial: "https://gracely011.github.io/hai/tutorial.html",
-    purchase: "https://gracely011.github.io/hai/premium.html",
+    profileIcon: "https://draft.gracely.my.id/assets/halo/halooo.png",
+    tutorial: "https://draft.gracely.my.id/tutorial.html",
+    purchase: "https://draft.gracely.my.id/premium.html",
     onInstallHomepage: "https://www.instagram.com/petrusperdana1/",
-    onInstallSocial: "https://gracely011.github.io/hai/extension.html",
+    onInstallSocial: "https://draft.gracely.my.id/extension.html",
     onUninstall: "https://petrussiahaan.blogspot.com/p/ruang-syahdu.html",
-    onGuardMissing: "https://gracely011.github.io/hai/guardrequired.html",
-    onLogoutBlock: "https://gracely011.github.io/hai/blocked.html",
-    onLoggedOutRedirect: "https://gracely011.github.io/hai/login.html",
-    onFreeUserRedirect: "https://gracely011.github.io/hai/premium.html",
-    onGuardUninstallRedirect: "https://gracely011.github.io/hai/"
+    onGuardMissing: "https://draft.gracely.my.id/guardrequired.html",
+    onLogoutBlock: "https://draft.gracely.my.id/blocked.html",
+    onLoggedOutRedirect: "https://draft.gracely.my.id/login.html",
+    onFreeUserRedirect: "https://draft.gracely.my.id/premium.html",
+    onGuardUninstallRedirect: "https://draft.gracely.my.id/"
   },
   debugModeEnabled: true,
   notifications: {
@@ -197,7 +197,7 @@ const gracelyConfig = {
     announcement: {
       enabled: true,
       id: "info-html-nov-2025",
-      html: "<div class='notificationModal-content'><i class='fa fa-times close-icon' id='notification-close'></i> <h2 style='margin: 0 0 16px 0; text-align: center; color: #2c3e50; font-size: 22px; border-bottom: 3px solid #333333; padding-bottom: 8px;'>Informasi</h2> <div style='background: #f8f9fa; padding: 12px; border-radius: 8px; margin-bottom: 10px;'> <p style='margin: 6px 0; font-size: 14px;'><b>Web Portal</b>: gracely011.github.io/hai/</p> <p style='margin: 6px 0; font-size: 14px;'><b>My Blog</b>: petrussiahaan.blogspot.com</p> </div> <div style='border: 2px dashed #666666; padding: 8px 10px; border-radius: 8px; background: #f5f5f5; margin-bottom: 12px;'> <p style='margin: 0; text-align: center; color: #333333; font-size: 13px;'>Jika bukan TUHAN yang menolong aku,</p> <p style='margin: 0; text-align: center; color: #333333; font-size: 13px;'>nyaris aku diam di tempat sunyi.</p> <p style='margin: 0; text-align: center; color: #333333; font-size: 13px;'><b>Mazmur 94 : 17</b> 😊🙏</p> </div><button class='ud-main-btn' id='notification-ok'>OK Lae</button></div>"
+      html: "<div class='notificationModal-content'><i class='fa fa-times close-icon' id='notification-close'></i> <h2 style='margin: 0 0 16px 0; text-align: center; color: #2c3e50; font-size: 22px; border-bottom: 3px solid #333333; padding-bottom: 8px;'>Informasi</h2> <div style='background: #f8f9fa; padding: 12px; border-radius: 8px; margin-bottom: 10px;'> <p style='margin: 6px 0; font-size: 14px;'><b>Web Portal</b>: draft.gracely.my.id/</p> <p style='margin: 6px 0; font-size: 14px;'><b>My Blog</b>: petrussiahaan.blogspot.com</p> </div> <div style='border: 2px dashed #666666; padding: 8px 10px; border-radius: 8px; background: #f5f5f5; margin-bottom: 12px;'> <p style='margin: 0; text-align: center; color: #333333; font-size: 13px;'>Jika bukan TUHAN yang menolong aku,</p> <p style='margin: 0; text-align: center; color: #333333; font-size: 13px;'>nyaris aku diam di tempat sunyi.</p> <p style='margin: 0; text-align: center; color: #333333; font-size: 13px;'><b>Mazmur 94 : 17</b> 😊🙏</p> </div><button class='ud-main-btn' id='notification-ok'>OK Lae</button></div>"
     },
     folderInfo: {
       "chatgpt-group-id": {
@@ -313,9 +313,9 @@ const gracelyConfig = {
     requiredExtensionVersion: "2.2",
     guardName: "Gracely Guard",
     requiredGuardVersion: "1.0.3",
-    onVersionMismatchUrl: "https://gracely011.github.io/hai/update.html",
+    onVersionMismatchUrl: "https://draft.gracely.my.id/update.html",
     sharedVerificationCode: "Mazmur_118:13-14",
-    updateUrl: "https://gracely011.github.io/hai/dashboard.html",
+    updateUrl: "https://draft.gracely.my.id/dashboard.html",
     updateMessageHTML: "<div class='notificationModal-content'><i class='close-icon fa fa-times' id='notification-close'></i><h2 style='margin:0 0 16px 0;text-align:center;color:#2c3e50;font-size:22px;border-bottom:3px solid #333;padding-bottom:8px'>Update Required</h2><div style='background:#f8f9fa;padding:12px;border-radius:8px;margin-bottom:10px'><p style='margin:6px 0;font-size:14px'>Versi <b>Gracely Extension</b> dan <b>Gracely Guard</b> Anda sudah usang.</div><div style='border:2px dashed #666;padding:8px 10px;border-radius:8px;background:#f5f5f5;margin-bottom:12px'><p style='margin:0;text-align:center;color:#333;font-size:13px'><b>Please Update Gracely Extension</b>😊🙏<p style='margin:0;text-align:center;color:#333;font-size:13px'><b>Please Update Gracely Guard</b>😊🙏</div><div style='display:none'><span id='update-countdown'>30</span></div><button class='ud-main-btn' id='notification-ok'>OK Lae</button></div>"
   }
 };

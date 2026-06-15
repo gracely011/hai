@@ -1,6 +1,6 @@
-// DOMAIN CHECK DISABLED FOR LOCAL DEV
+﻿// DOMAIN CHECK DISABLED FOR LOCAL DEV
 // (function () {
-//     var a = ["gracely011.github.io", "localhost", "127.0.0.1"],
+//     var a = ["draft.gracely.my.id", "localhost", "127.0.0.1"],
 //         h = window.location.hostname,
 //         p = window.location.pathname,
 //         o = !1;
@@ -9,10 +9,10 @@
 //             o = !0;
 //             break
 //         }
-//     if (o && h === "gracely011.github.io" && !p.startsWith("/hai/")) {
+//     if (o && h === "draft.gracely.my.id" && !p.startsWith("/hai/")) {
 //         o = !1
 //     }
-//     o || (window.location.href = "https://gracely011.github.io/hai/")
+//     o || (window.location.href = "https://draft.gracely.my.id/")
 // })();
 
 // --- AGGRESSIVE CLEANUP START ---
@@ -624,7 +624,7 @@ async function login(email, password) {
 async function sendPasswordResetEmail(email) {
     try {
         await supabaseClient.auth.resetPasswordForEmail(email, {
-            redirectTo: 'https://gracely011.github.io/hai/password.html',
+            redirectTo: 'https://draft.gracely.my.id/password.html',
         });
         return { success: true, message: 'Jika email terdaftar, tautan reset kata sandi telah dikirim ke kotak masuk Anda.' };
     } catch (error) { return { success: false, message: 'Gagal memproses permintaan.' }; }

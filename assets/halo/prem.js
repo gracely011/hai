@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "meta": {
       "id": "academia-1000",
@@ -184,7 +184,7 @@
       "id": "alight-motion-1001",
       "name": "Alight Motion",
       "icon": "https://play-lh.googleusercontent.com/OU0BlP8C9-V7ECl2crma7B48nzDbK7liSLjn0j_fpTlyWG6qyEE-mw_KFZ9aOXF0a3w",
-      "url": "https://gracely011.github.io/hai/motion.html",
+      "url": "https://draft.gracely.my.id/motion.html",
       "category": "design"
     },
     "cookies": [
@@ -197,7 +197,7 @@
         "domain": "alightmotion.com"
       }
     ],
-    "sourceUrl": "https://gracely011.github.io/hai/motion.html"
+    "sourceUrl": "https://draft.gracely.my.id/motion.html"
   },
   {
     "meta": {
@@ -13400,7 +13400,7 @@
       "id": "codedex-1014",
       "name": "Codedex",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2sH_6-EH9eaPT8YfscbEcq3-i1KLzvZ50JQ&s",
-      "url": "https://gracely011.github.io/hai/manual.html?name=Codedex&login=codedex@belajaar.id&password=CodedexMilikGroupy2025!&url=https://www.codedex.io/login",
+      "url": "https://draft.gracely.my.id/manual.html?name=Codedex&login=codedex@belajaar.id&password=CodedexMilikGroupy2025!&url=https://www.codedex.io/login",
       "category": "productivity"
     },
     "cookies": [
@@ -13413,14 +13413,14 @@
         "domain": "codedex.io"
       }
     ],
-    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Codedex&login=codedex@belajaar.id&password=CodedexMilikGroupy2025!&url=https://www.codedex.io/login"
+    "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Codedex&login=codedex@belajaar.id&password=CodedexMilikGroupy2025!&url=https://www.codedex.io/login"
   },
   {
     "meta": {
       "id": "consensus-1016",
       "name": "Consensus",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRweoQJzl9iPGJqBYN-uOcjxdcH72RA9W1PKiCmAisHjg&s",
-      "url": "https://gracely011.github.io/hai/manual.html?name=Consensus&login=gd@belajaar.id&password=WeAreGroupy2025!&url=https://consensus.app/account",
+      "url": "https://draft.gracely.my.id/manual.html?name=Consensus&login=gd@belajaar.id&password=WeAreGroupy2025!&url=https://consensus.app/account",
       "category": "education"
     },
     "cookies": [
@@ -13433,7 +13433,7 @@
         "domain": "consensus.app"
       }
     ],
-    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Consensus&login=gd@belajaar.id&password=WeAreGroupy2025!&url=https://consensus.app/account"
+    "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Consensus&login=gd@belajaar.id&password=WeAreGroupy2025!&url=https://consensus.app/account"
   },
   {
     "meta": {
@@ -21717,7 +21717,7 @@
       "id": "ground-news-1033",
       "name": "Ground News",
       "icon": "https://play-lh.googleusercontent.com/61Y1REKFBgC1C6YxQwZA56516gR1zCw-HIaNyP_WV_MnR6Fuofzd8-uWBHzKxZP7mwM",
-      "url": "https://gracely011.github.io/hai/manual.html?name=Ground%20News&login=news@belajaar.id&password=NewsGroupy2025!&url=https://ground.news/login",
+      "url": "https://draft.gracely.my.id/manual.html?name=Ground%20News&login=news@belajaar.id&password=NewsGroupy2025!&url=https://ground.news/login",
       "category": "productivity"
     },
     "cookies": [
@@ -21730,7 +21730,7 @@
         "domain": "ground.news"
       }
     ],
-    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Ground%20News&login=news@belajaar.id&password=NewsGroupy2025!&url=https://ground.news/login"
+    "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Ground%20News&login=news@belajaar.id&password=NewsGroupy2025!&url=https://ground.news/login"
   },
   {
     "meta": {
@@ -22082,7 +22082,7 @@
       "id": "hbo-max-1035",
       "name": "HBO Max",
       "icon": "https://play-lh.googleusercontent.com/bvyVXgpxu65YO3PNeVhNM9Y7ao7g7FnnKdoNXcwqO48aOlVvnH_b2O9rcZzgEFHzHtI",
-      "url": "https://gracely011.github.io/hai/manual.html?name=HBO%20Max%202&login=hbo01@belajaar.id&password=HBOgroupy2025!&url=https://play.max.com",
+      "url": "https://draft.gracely.my.id/manual.html?name=HBO%20Max%202&login=hbo01@belajaar.id&password=HBOgroupy2025!&url=https://play.max.com",
       "category": "streaming",
       "isGroup": true
     },
@@ -22099,7 +22099,7 @@
             "domain": "hbo.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=HBO%20Max%202&login=hbo01@belajaar.id&password=HBOgroupy2025!&url=https://play.max.com"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=HBO%20Max%202&login=hbo01@belajaar.id&password=HBOgroupy2025!&url=https://play.max.com"
       },
       {
         "name": "HBO Max 2",
@@ -22113,7 +22113,7 @@
             "domain": "hbo.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=HBO%20Max%202&login=hbo01@belajaar.id&password=HBOgroupy2025!&url=https://play.max.com"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=HBO%20Max%202&login=hbo01@belajaar.id&password=HBOgroupy2025!&url=https://play.max.com"
       }
     ]
   },
@@ -24422,7 +24422,7 @@
       "id": "mentimeter-1048",
       "name": "Mentimeter",
       "icon": "https://images.saasworthy.com/mentimeter_870_logo_1600681783_e5oqu.png",
-      "url": "https://gracely011.github.io/hai/manual.html?name=Mentimeter&login=mentimeter@prem1um.xyz&password=MentimeterGroupy2025!&url=https://www.mentimeter.com/app/home",
+      "url": "https://draft.gracely.my.id/manual.html?name=Mentimeter&login=mentimeter@prem1um.xyz&password=MentimeterGroupy2025!&url=https://www.mentimeter.com/app/home",
       "category": "productivity"
     },
     "cookies": [
@@ -24435,7 +24435,7 @@
         "domain": "mentimeter.com"
       }
     ],
-    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Mentimeter&login=mentimeter@prem1um.xyz&password=MentimeterGroupy2025!&url=https://www.mentimeter.com/app/home"
+    "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Mentimeter&login=mentimeter@prem1um.xyz&password=MentimeterGroupy2025!&url=https://www.mentimeter.com/app/home"
   },
   {
     "meta": {
@@ -31125,7 +31125,7 @@
       "id": "picsart-1059",
       "name": "Picsart",
       "icon": "https://play-lh.googleusercontent.com/1JMJ518jogwPeaD0pYn2mBu1cRLD0xRi45wNbtTIRvam1_xx-y3KJOjRAx-W9P4Lf0U=s256-rw",
-      "url": "https://gracely011.github.io/hai/manual.html?name=Picsart&login=turner@wareyk.com&password=Premium@123&url=https://picsart.com",
+      "url": "https://draft.gracely.my.id/manual.html?name=Picsart&login=turner@wareyk.com&password=Premium@123&url=https://picsart.com",
       "category": "design",
       "isGroup": true
     },
@@ -31142,7 +31142,7 @@
             "domain": "picsart.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Picsart&login=turner@wareyk.com&password=Premium@123&url=https://picsart.com"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Picsart&login=turner@wareyk.com&password=Premium@123&url=https://picsart.com"
       },
       {
         "name": "Picsart 2",
@@ -31156,7 +31156,7 @@
             "domain": "picsart.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Picsart%202&login=mckinn@wareyk.com&password=Premium@123&url=https://picsart.com"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Picsart%202&login=mckinn@wareyk.com&password=Premium@123&url=https://picsart.com"
       },
       {
         "name": "Picsart 3",
@@ -31170,7 +31170,7 @@
             "domain": "picsart.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Picsart%203&login=thomps@wareyk.com&password=Premium@123&url=https://picsart.com"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Picsart%203&login=thomps@wareyk.com&password=Premium@123&url=https://picsart.com"
       }
     ]
   },
@@ -35612,7 +35612,7 @@
       "id": "canva-pro-group-id",
       "name": "Pro: Canva",
       "icon": "https://play-lh.googleusercontent.com/JC3HW-ps59VAEU3vuJoi3I5XB_IQ9ISuILLudUY9uLSW7eKfqtXitrB-fF865rV4TQ",
-      "url": "https://gracely011.github.io/hai/manual.html?name=Canva&login=natthawut1976@syapdak.biz.id&password=masuk123&url=https://canva.com",
+      "url": "https://draft.gracely.my.id/manual.html?name=Canva&login=natthawut1976@syapdak.biz.id&password=masuk123&url=https://canva.com",
       "category": [
         "design",
         "proexclusive"
@@ -35632,7 +35632,7 @@
             "domain": "canvapro.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva&login=natthawut1976@syapdak.biz.id&password=masuk123&url=https://canva.com"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Canva&login=natthawut1976@syapdak.biz.id&password=masuk123&url=https://canva.com"
       },
       {
         "name": "Pro: Canva 2",
@@ -35646,7 +35646,7 @@
             "domain": "canvapro.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%202&login=kreslo@syapdak.biz.id&password=masuk123&url=https://canva.com"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Canva%202&login=kreslo@syapdak.biz.id&password=masuk123&url=https://canva.com"
       },
       {
         "name": "Pro: Canva 3",
@@ -35660,7 +35660,7 @@
             "domain": "canvapro.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%203&login=shevyakovanton@syapdak.biz.id&password=masuk123&url=https://canva.com"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Canva%203&login=shevyakovanton@syapdak.biz.id&password=masuk123&url=https://canva.com"
       },
       {
         "name": "Pro: Canva 4",
@@ -35674,7 +35674,7 @@
             "domain": "canvapro.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%204&login=toxinbox@syapdak.biz.id&password=masuk123&url=https://canva.com"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Canva%204&login=toxinbox@syapdak.biz.id&password=masuk123&url=https://canva.com"
       },
       {
         "name": "Pro: Canva 5",
@@ -35688,7 +35688,7 @@
             "domain": "canvapro.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%205&login=uralprom1@syapdak.biz.id&password=masuk123&url=https://canva.com"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Canva%205&login=uralprom1@syapdak.biz.id&password=masuk123&url=https://canva.com"
       },
       {
         "name": "Pro: Canva 6",
@@ -35702,7 +35702,7 @@
             "domain": "canvapro.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%206&login=kadjke@syapdak.biz.id&password=masuk123&url=https://canva.com"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Canva%206&login=kadjke@syapdak.biz.id&password=masuk123&url=https://canva.com"
       },
       {
         "name": "Pro: Canva 7",
@@ -35716,7 +35716,7 @@
             "domain": "canvapro.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%207&login=nevs83@syapdak.biz.id&password=masuk123&url=https://canva.com"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Canva%207&login=nevs83@syapdak.biz.id&password=masuk123&url=https://canva.com"
       },
       {
         "name": "Pro: Canva 8",
@@ -35730,7 +35730,7 @@
             "domain": "canvapro.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%208&login=lmdp@syapdak.biz.id&password=masuk123&url=https://canva.com"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Canva%208&login=lmdp@syapdak.biz.id&password=masuk123&url=https://canva.com"
       },
       {
         "name": "Pro: Canva 9",
@@ -35744,7 +35744,7 @@
             "domain": "canvapro.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%209&login=gcrowder@syapdak.biz.id&password=masuk123&url=https://canva.com"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Canva%209&login=gcrowder@syapdak.biz.id&password=masuk123&url=https://canva.com"
       },
       {
         "name": "Pro: Canva 10",
@@ -35758,7 +35758,7 @@
             "domain": "canvapro.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2010&login=clucvanen@syapdak.biz.id&password=masuk123&url=https://canva.com"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Canva%2010&login=clucvanen@syapdak.biz.id&password=masuk123&url=https://canva.com"
       },
       {
         "name": "Pro: Canva 11",
@@ -35772,7 +35772,7 @@
             "domain": "canvapro.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2011&login=rinats79@syapdak.biz.id&password=masuk123&url=https://canva.com"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Canva%2011&login=rinats79@syapdak.biz.id&password=masuk123&url=https://canva.com"
       },
       {
         "name": "Pro: Canva 12",
@@ -35786,7 +35786,7 @@
             "domain": "canvapro.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2012&login=likesajid@syapdak.biz.id&password=masuk123&url=https://canva.com"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Canva%2012&login=likesajid@syapdak.biz.id&password=masuk123&url=https://canva.com"
       },
       {
         "name": "Pro: Canva 13",
@@ -35800,7 +35800,7 @@
             "domain": "canvapro.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2013&login=erlitog@syapdak.biz.id&password=masuk123&url=https://canva.com"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Canva%2013&login=erlitog@syapdak.biz.id&password=masuk123&url=https://canva.com"
       },
       {
         "name": "Pro: Canva 14",
@@ -35814,7 +35814,7 @@
             "domain": "canvapro.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2014&login=lottoph@syapdak.biz.id&password=masuk123&url=https://canva.com"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Canva%2014&login=lottoph@syapdak.biz.id&password=masuk123&url=https://canva.com"
       },
       {
         "name": "Pro: Canva 15",
@@ -35828,7 +35828,7 @@
             "domain": "canvapro.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2015&login=zonanaruto@syapdak.biz.id&password=masuk123&url=https://canva.com"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Canva%2015&login=zonanaruto@syapdak.biz.id&password=masuk123&url=https://canva.com"
       },
       {
         "name": "Pro: Canva 16",
@@ -35842,7 +35842,7 @@
             "domain": "canvapro.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2016&login=masi2802@syapdak.biz.id&password=masuk123&url=https://canva.com"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Canva%2016&login=masi2802@syapdak.biz.id&password=masuk123&url=https://canva.com"
       },
       {
         "name": "Pro: Canva 17",
@@ -35856,7 +35856,7 @@
             "domain": "canvapro.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2017&login=lyon66@syapdak.biz.id&password=masuk123&url=https://canva.com"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Canva%2017&login=lyon66@syapdak.biz.id&password=masuk123&url=https://canva.com"
       },
       {
         "name": "Pro: Canva 18",
@@ -35870,7 +35870,7 @@
             "domain": "canvapro.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2018&login=malingtahu@syapdak.biz.id&password=masuk123&url=https://canva.com"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Canva%2018&login=malingtahu@syapdak.biz.id&password=masuk123&url=https://canva.com"
       },
       {
         "name": "Pro: Canva 19",
@@ -35884,7 +35884,7 @@
             "domain": "canvapro.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2019&login=donskogo36@syapdak.biz.id&password=masuk123&url=https://canva.com"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Canva%2019&login=donskogo36@syapdak.biz.id&password=masuk123&url=https://canva.com"
       },
       {
         "name": "Pro: Canva 20",
@@ -35898,7 +35898,7 @@
             "domain": "canvapro.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2020&login=leshamelnkov@syapdak.biz.id&password=masuk123&url=https://canva.com"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Canva%2020&login=leshamelnkov@syapdak.biz.id&password=masuk123&url=https://canva.com"
       },
       {
         "name": "Pro: Canva 21",
@@ -35912,7 +35912,7 @@
             "domain": "canvapro.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Canva%2021&login=pvaelna@syapdak.biz.id&password=masuk123&url=https://canva.com"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Canva%2021&login=pvaelna@syapdak.biz.id&password=masuk123&url=https://canva.com"
       }
     ]
   },
@@ -36879,7 +36879,7 @@
       "id": "scite-1065",
       "name": "Scite",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHo4BcTYbuMiQFR7oUYKZy6zjOgzEORDrzeie96OS1sj3Ur0LpoCPV_ts&s=10",
-      "url": "https://gracely011.github.io/hai/manual.html?name=Scite&login=sct@tokito.xyz&password=Sc1teGroupy%&url=https://scite.ai/assistant",
+      "url": "https://draft.gracely.my.id/manual.html?name=Scite&login=sct@tokito.xyz&password=Sc1teGroupy%&url=https://scite.ai/assistant",
       "category": "productivity",
       "isGroup": true
     },
@@ -36896,7 +36896,7 @@
             "domain": "scite.ai"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Scite&login=sct@tokito.xyz&password=Sc1teGroupy%&url=https://scite.ai/assistant"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Scite&login=sct@tokito.xyz&password=Sc1teGroupy%&url=https://scite.ai/assistant"
       },
       {
         "name": "Scite 2",
@@ -36910,7 +36910,7 @@
             "domain": "scite.ai"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Scite%202&login=groupypro@belajaar.id&password=MilikGroupy2025!&url=https://scite.ai/assistant"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Scite%202&login=groupypro@belajaar.id&password=MilikGroupy2025!&url=https://scite.ai/assistant"
       },
       {
         "name": "Scite 3",
@@ -36924,7 +36924,7 @@
             "domain": "scite.ai"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Scite%203&login=sct1@prem1um.xyz&password=Groupy2025!ajksdhkwu&url=https://scite.ai/assistant"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Scite%203&login=sct1@prem1um.xyz&password=Groupy2025!ajksdhkwu&url=https://scite.ai/assistant"
       },
       {
         "name": "Scite 4",
@@ -36938,7 +36938,7 @@
             "domain": "scite.ai"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Scite%204&login=sct2@prem1um.xyz&password=Groupy2025!ajksdhkwu&url=https://scite.ai/assistant"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Scite%204&login=sct2@prem1um.xyz&password=Groupy2025!ajksdhkwu&url=https://scite.ai/assistant"
       },
       {
         "name": "Scite 5",
@@ -36952,7 +36952,7 @@
             "domain": "scite.ai"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Scite%205&login=sct3@prem1um.xyz&password=Groupy2025!ajksdhkwu&url=https://scite.ai/assistant"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Scite%205&login=sct3@prem1um.xyz&password=Groupy2025!ajksdhkwu&url=https://scite.ai/assistant"
       }
     ]
   },
@@ -39874,7 +39874,7 @@
       "id": "shots-1068",
       "name": "Shots",
       "icon": "https://pbs.twimg.com/profile_images/1517996453146378245/RTP0-Jy3_400x400.jpg",
-      "url": "https://gracely011.github.io/hai/manual.html?name=Shots&login=shots@prem1um.xyz&password=ShotsShotsShotsGroupy!&url=https://shots.so",
+      "url": "https://draft.gracely.my.id/manual.html?name=Shots&login=shots@prem1um.xyz&password=ShotsShotsShotsGroupy!&url=https://shots.so",
       "category": "design"
     },
     "cookies": [
@@ -39887,7 +39887,7 @@
         "domain": "shots.so"
       }
     ],
-    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Shots&login=shots@prem1um.xyz&password=ShotsShotsShotsGroupy!&url=https://shots.so"
+    "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Shots&login=shots@prem1um.xyz&password=ShotsShotsShotsGroupy!&url=https://shots.so"
   },
   {
     "meta": {
@@ -40557,7 +40557,7 @@
       "id": "slidesgo-1071",
       "name": "Slidesgo",
       "icon": "https://cdn-icons-png.flaticon.com/512/14649/14649063.png",
-      "url": "https://gracely011.github.io/hai/manual.html?name=Slidesgo&login=gpy&password=NsW3xRmPMv&url=https://slidesgo.com/team/user209226220-team-68879521",
+      "url": "https://draft.gracely.my.id/manual.html?name=Slidesgo&login=gpy&password=NsW3xRmPMv&url=https://slidesgo.com/team/user209226220-team-68879521",
       "category": "design"
     },
     "cookies": [
@@ -40570,7 +40570,7 @@
         "domain": "slidesgo.com"
       }
     ],
-    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Slidesgo&login=gpy&password=NsW3xRmPMv&url=https://slidesgo.com/team/user209226220-team-68879521"
+    "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Slidesgo&login=gpy&password=NsW3xRmPMv&url=https://slidesgo.com/team/user209226220-team-68879521"
   },
   {
     "meta": {
@@ -40765,7 +40765,7 @@
       "id": "sololearn-1073",
       "name": "Sololearn",
       "icon": "https://play-lh.googleusercontent.com/zxbe_H6JVg6ZnIeA1xorxxXr416kKdShmyonBzi5Qe28-GNdczX-NST_ul0AQJ007OA",
-      "url": "https://gracely011.github.io/hai/manual.html?name=Sololearn&login=sololearn@belajaar.id&password=WeAreGroupy2025!&url=https://www.sololearn.com/en/users/login",
+      "url": "https://draft.gracely.my.id/manual.html?name=Sololearn&login=sololearn@belajaar.id&password=WeAreGroupy2025!&url=https://www.sololearn.com/en/users/login",
       "category": "education"
     },
     "cookies": [
@@ -40778,7 +40778,7 @@
         "domain": "sololearn.com"
       }
     ],
-    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Sololearn&login=sololearn@belajaar.id&password=WeAreGroupy2025!&url=https://www.sololearn.com/en/users/login"
+    "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Sololearn&login=sololearn@belajaar.id&password=WeAreGroupy2025!&url=https://www.sololearn.com/en/users/login"
   },
   {
     "meta": {
@@ -47750,7 +47750,7 @@
       "id": "storytribe-1075",
       "name": "StoryTribe",
       "icon": "https://media.licdn.com/dms/image/v2/D560BAQGFNn9uuWNKvA/company-logo_200_200/B56ZWE4DUHGUAU-/0/1741691041788/storytribeapp_logo?e=2147483647&v=beta&t=3qm4zJ4TSorw5yxfeP9WtXnDj_DKgiqhVZeGH42wT7g",
-      "url": "https://gracely011.github.io/hai/manual.html?name=StoryTribe&login=beapp@prem1um.xyz&password=MilikGroupy2025!&url=https://storytribeapp.com/login-signup",
+      "url": "https://draft.gracely.my.id/manual.html?name=StoryTribe&login=beapp@prem1um.xyz&password=MilikGroupy2025!&url=https://storytribeapp.com/login-signup",
       "category": "productivity"
     },
     "cookies": [
@@ -47763,7 +47763,7 @@
         "domain": "storytribe.app"
       }
     ],
-    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=StoryTribe&login=beapp@prem1um.xyz&password=MilikGroupy2025!&url=https://storytribeapp.com/login-signup"
+    "sourceUrl": "https://draft.gracely.my.id/manual.html?name=StoryTribe&login=beapp@prem1um.xyz&password=MilikGroupy2025!&url=https://storytribeapp.com/login-signup"
   },
   {
     "meta": {
@@ -48485,7 +48485,7 @@
       "id": "the-wall-street-journal-1084",
       "name": "The Wall Street Journal",
       "icon": "https://play-lh.googleusercontent.com/eksxaPfxbTVb6VTl5aj1sXLpKc_N9Z6AZ3_5Oq6JhTXmgEQza-1v58a66p_ID0phE2Zv",
-      "url": "https://gracely011.github.io/hai/manual.html?name=The%20Wall%20Street%20Journal&login=wsj@killua.cloud&password=TheWallStreetJournalGroupy2025!!!&url=https://www.wsj.com",
+      "url": "https://draft.gracely.my.id/manual.html?name=The%20Wall%20Street%20Journal&login=wsj@killua.cloud&password=TheWallStreetJournalGroupy2025!!!&url=https://www.wsj.com",
       "category": "productivity"
     },
     "cookies": [
@@ -48498,14 +48498,14 @@
         "domain": "wsj.com"
       }
     ],
-    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=The%20Wall%20Street%20Journal&login=wsj@killua.cloud&password=TheWallStreetJournalGroupy2025!!!&url=https://www.wsj.com"
+    "sourceUrl": "https://draft.gracely.my.id/manual.html?name=The%20Wall%20Street%20Journal&login=wsj@killua.cloud&password=TheWallStreetJournalGroupy2025!!!&url=https://www.wsj.com"
   },
   {
     "meta": {
       "id": "turnitin-1078",
       "name": "Turnitin",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIrf73LGu_mACI2Mc_jdghOV02eXRocoXKo0o3qZHFjGgJMUr5M_v8uwap&s=10",
-      "url": "https://gracely011.github.io/hai/manual.html?name=Turnitin&login=halo@belajaar.id&password=TurnitinmilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us",
+      "url": "https://draft.gracely.my.id/manual.html?name=Turnitin&login=halo@belajaar.id&password=TurnitinmilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us",
       "category": "productivity",
       "isGroup": true
     },
@@ -48522,7 +48522,7 @@
             "domain": "turnitin.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Turnitin&login=halo@belajaar.id&password=TurnitinmilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Turnitin&login=halo@belajaar.id&password=TurnitinmilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us"
       },
       {
         "name": "Turnitin 2",
@@ -48536,7 +48536,7 @@
             "domain": "turnitin.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Turnitin%202&login=hola@belajaar.id&password=TurnitinmilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Turnitin%202&login=hola@belajaar.id&password=TurnitinmilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us"
       },
       {
         "name": "Turnitin 3",
@@ -48550,7 +48550,7 @@
             "domain": "turnitin.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Turnitin%203&login=hola@tokito.xyz&password=TurnitinmilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Turnitin%203&login=hola@tokito.xyz&password=TurnitinmilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us"
       },
       {
         "name": "Turnitin 4",
@@ -48564,7 +48564,7 @@
             "domain": "turnitin.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Turnitin%204&login=bangor@tokito.xyz&password=TurnitinmilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Turnitin%204&login=bangor@tokito.xyz&password=TurnitinmilikGroupy2025!&url=https://www.turnitin.com/login_page.asp?lang=en_us"
       }
     ]
   },
@@ -50358,7 +50358,7 @@
       "id": "virtual-threads-1081",
       "name": "Virtual Threads",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_zqaiVJeMxFHsHmHsk8ViZdV3v-nd11cpPw&s",
-      "url": "https://gracely011.github.io/hai/manual.html?name=Virtual%20Threads&login=step1@belajaar.id&password=WeAreGroupy2025!&url=https://www.virtualthreads.io/login",
+      "url": "https://draft.gracely.my.id/manual.html?name=Virtual%20Threads&login=step1@belajaar.id&password=WeAreGroupy2025!&url=https://www.virtualthreads.io/login",
       "category": "productivity"
     },
     "cookies": [
@@ -50371,14 +50371,14 @@
         "domain": "virtual-threads.com"
       }
     ],
-    "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Virtual%20Threads&login=step1@belajaar.id&password=WeAreGroupy2025!&url=https://www.virtualthreads.io/login"
+    "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Virtual%20Threads&login=step1@belajaar.id&password=WeAreGroupy2025!&url=https://www.virtualthreads.io/login"
   },
   {
     "meta": {
       "id": "viu-1082",
       "name": "Viu",
       "icon": "https://groupy.id/assets/images/services/viu.png",
-      "url": "https://gracely011.github.io/hai/manual.html?name=Viu&login=jessidrti1872@moviesisme.com&password=viuku123&url=https://viu.com",
+      "url": "https://draft.gracely.my.id/manual.html?name=Viu&login=jessidrti1872@moviesisme.com&password=viuku123&url=https://viu.com",
       "category": "streaming",
       "isGroup": true
     },
@@ -50395,7 +50395,7 @@
             "domain": "viu.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Viu&login=jessidrti1872@moviesisme.com&password=viuku123&url=https://viu.com"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Viu&login=jessidrti1872@moviesisme.com&password=viuku123&url=https://viu.com"
       },
       {
         "name": "Viu 2",
@@ -50409,7 +50409,7 @@
             "domain": "viu.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Viu%202&login=kamalramadan6885@moviesisme.com&password=viuku123&url=https://viu.com"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Viu%202&login=kamalramadan6885@moviesisme.com&password=viuku123&url=https://viu.com"
       },
       {
         "name": "Viu 3",
@@ -50423,7 +50423,7 @@
             "domain": "viu.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Viu%203&login=kamalwinarsih34@moviesisme.com&password=viuku123&url=https://viu.com"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Viu%203&login=kamalwinarsih34@moviesisme.com&password=viuku123&url=https://viu.com"
       },
       {
         "name": "Viu 4",
@@ -50437,7 +50437,7 @@
             "domain": "viu.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Viu%204&login=kamajagaw0966@moviesisme.com&password=viuku123&url=https://viu.com"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Viu%204&login=kamajagaw0966@moviesisme.com&password=viuku123&url=https://viu.com"
       },
       {
         "name": "Viu 5",
@@ -50451,7 +50451,7 @@
             "domain": "viu.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Viu%205&login=kalasirait3030@moviesisme.com&password=viuku123&url=https://viu.com"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Viu%205&login=kalasirait3030@moviesisme.com&password=viuku123&url=https://viu.com"
       },
       {
         "name": "Viu 6",
@@ -50465,7 +50465,7 @@
             "domain": "viu.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Viu%206&login=kamarianapitupulu5971@moviesisme.com&password=viuku123&url=https://viu.com"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Viu%206&login=kamarianapitupulu5971@moviesisme.com&password=viuku123&url=https://viu.com"
       },
       {
         "name": "Viu 7",
@@ -50479,7 +50479,7 @@
             "domain": "viu.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Viu%207&login=kambalisaptono896@moviesisme.com&password=viuku123&url=https://viu.com"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Viu%207&login=kambalisaptono896@moviesisme.com&password=viuku123&url=https://viu.com"
       },
       {
         "name": "Viu 8",
@@ -50493,7 +50493,7 @@
             "domain": "viu.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Viu%208&login=kambaliutami98@moviesisme.com&password=viuku123&url=https://viu.com"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Viu%208&login=kambaliutami98@moviesisme.com&password=viuku123&url=https://viu.com"
       },
       {
         "name": "Viu 9",
@@ -50507,7 +50507,7 @@
             "domain": "viu.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Viu%209&login=jonodrg83@moviesisme.com&password=viuku123&url=https://viu.com"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Viu%209&login=jonodrg83@moviesisme.com&password=viuku123&url=https://viu.com"
       },
       {
         "name": "Viu 10",
@@ -50521,7 +50521,7 @@
             "domain": "viu.com"
           }
         ],
-        "sourceUrl": "https://gracely011.github.io/hai/manual.html?name=Viu%2010&login=kamilalailasarisei731@moviesisme.com&password=viuku123&url=https://viu.com"
+        "sourceUrl": "https://draft.gracely.my.id/manual.html?name=Viu%2010&login=kamilalailasarisei731@moviesisme.com&password=viuku123&url=https://viu.com"
       }
     ]
   },
@@ -52403,7 +52403,7 @@
       "id": "youtube-noads-1085",
       "name": "YouTube NoAds",
       "icon": "https://play-lh.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc",
-      "url": "https://gracely011.github.io/hai/youtube-noads.html",
+      "url": "https://draft.gracely.my.id/youtube-noads.html",
       "category": "streaming"
     },
     "cookies": [
@@ -52416,6 +52416,6 @@
         "domain": "youtube.com"
       }
     ],
-    "sourceUrl": "https://gracely011.github.io/hai/youtube-noads.html"
+    "sourceUrl": "https://draft.gracely.my.id/youtube-noads.html"
   }
 ]
