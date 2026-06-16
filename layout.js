@@ -1,4 +1,4 @@
-﻿// Branding moved to script.js
+// Branding moved to script.js
 
 (function () {
   if (!document.querySelector('link[href*="flag-icon-css"]')) {
@@ -1249,13 +1249,25 @@ function initSignupPage() {
     if (typeof signup === 'function') {
       const result = await signup(name, email, password);
       if (result.success) {
-        alert('Pendaftaran berhasil! Silakan langsung Login.');
-        window.location.href = 'login.html';
+        submitButton.innerHTML = 'Logging in...';
+        const loginResult = typeof login === 'function' ? await login(email, password) : { success: false };
+        if (loginResult && loginResult.success) {
+          window.location.href = 'dashboard.html';
+        } else {
+          alert('Pendaftaran berhasil! Silakan Log in.');
+          window.location.href = 'login.html';
+        }
       } else {
         let message = result.message;
         if (message.includes("violates row-level security policy") || message.includes("duplicate key value")) {
-          alert('Pendaftaran berhasil! Silakan langsung Login.');
-          window.location.href = 'login.html';
+          submitButton.innerHTML = 'Logging in...';
+          const loginResult = typeof login === 'function' ? await login(email, password) : { success: false };
+          if (loginResult && loginResult.success) {
+            window.location.href = 'dashboard.html';
+          } else {
+            alert('Pendaftaran berhasil! Silakan Log in.');
+            window.location.href = 'login.html';
+          }
           return;
         }
         if (message.includes("User already registered")) message = "Akun dengan email ini sudah terdaftar. Silakan Log in.";
