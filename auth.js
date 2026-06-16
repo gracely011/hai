@@ -399,23 +399,35 @@ async function signup(name, email, password) {
     } catch (error) { return { success: false, message: error.message }; }
 }
 
-async function login(email, password) {
+async function login(email, password, skipCaptchaAndSignIn = false) {
     try {
-        clearTurnstileError();
-        const captchaToken = document.querySelector('[name="cf-turnstile-response"]')?.value;
-        if (!captchaToken) {
-            showTurnstileError();
-            throw new Error(" ");
-        }
+        let authData;
 
-        let { data: authData, error: authError } = await supabaseClient.auth.signInWithPassword({
-            email: email,
-            password: password,
-            options: {
-                captchaToken: captchaToken
+        if (!skipCaptchaAndSignIn) {
+            clearTurnstileError();
+            const captchaToken = document.querySelector('[name="cf-turnstile-response"]')?.value;
+            if (!captchaToken) {
+                showTurnstileError();
+                throw new Error(" ");
             }
-        });
-        if (authError) throw authError;
+
+            let { data, error: authError } = await supabaseClient.auth.signInWithPassword({
+                email: email,
+                password: password,
+                options: {
+                    captchaToken: captchaToken
+                }
+            });
+            if (authError) throw authError;
+            authData = data;
+        } else {
+            // Sesi sudah terbuat otomatis oleh Supabase saat signUp berhasil
+            let { data, error: sessionError } = await supabaseClient.auth.getSession();
+            if (sessionError || !data.session) {
+                throw new Error("Gagal mengambil sesi otomatis.");
+            }
+            authData = { user: data.session.user, session: data.session };
+        }
 
         // Fetch Minimal Profile Data for UI
         let { data: profileData, error: profileError } = await supabaseClient
