@@ -22,7 +22,7 @@
 
 const announcementBarHTML = `
 <div class="announcement-bar">
-  The only official Gracely website is https://draft.gracely.my.id/. Please be aware of fake websites.
+  The only official Gracely website is <strong><a href="https://draft.gracely.my.id/" target="_blank">https://draft.gracely.my.id/</a></strong>. Please be aware of fake websites.
 </div>`;
 
 const translations = {
@@ -297,11 +297,11 @@ const defaultNavbarHTML = () => `
           </button>
           <div class="navbar-collapse">
             <ul id="nav" class="navbar-nav mx-auto">
-              <li class="nav-item"><a class="ud-menu-scroll" href="#home" data-i18n="home">${t('home')}</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="#features" data-i18n="features">${t('features')}</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="#about" data-i18n="about">${t('about')}</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="#pricing" data-i18n="pricing">${t('pricing')}</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="#services" data-i18n="services">${t('services')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="https://draft.gracely.my.id/#home" data-i18n="home">${t('home')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="https://draft.gracely.my.id/#features" data-i18n="features">${t('features')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="https://draft.gracely.my.id/#about" data-i18n="about">${t('about')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="https://draft.gracely.my.id/#pricing" data-i18n="pricing">${t('pricing')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="https://draft.gracely.my.id/#services" data-i18n="services">${t('services')}</a></li>
             </ul>
           </div>
           <div class="navbar-btn d-flex align-items-center">
@@ -329,11 +329,11 @@ const loggedInNavbarHTML = (userName) => `
           </button>
           <div class="navbar-collapse">
              <ul id="nav" class="navbar-nav mx-auto">
-              <li class="nav-item"><a class="ud-menu-scroll" href="#home" data-i18n="home">${t('home')}</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="#features" data-i18n="features">${t('features')}</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="#about" data-i18n="about">${t('about')}</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="#pricing" data-i18n="pricing">${t('pricing')}</a></li>
-              <li class="nav-item"><a class="ud-menu-scroll" href="#services" data-i18n="services">${t('services')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="https://draft.gracely.my.id/#home" data-i18n="home">${t('home')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="https://draft.gracely.my.id/#features" data-i18n="features">${t('features')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="https://draft.gracely.my.id/#about" data-i18n="about">${t('about')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="https://draft.gracely.my.id/#pricing" data-i18n="pricing">${t('pricing')}</a></li>
+              <li class="nav-item"><a class="ud-menu-scroll" href="https://draft.gracely.my.id/#services" data-i18n="services">${t('services')}</a></li>
             </ul>
           </div>
           <div class="navbar-btn d-flex align-items-center">
