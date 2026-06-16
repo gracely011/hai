@@ -675,12 +675,25 @@ async function sendPasswordResetEmail(email) {
             throw new Error(" ");
         }
 
-        await supabaseClient.auth.resetPasswordForEmail(email, {
+        const { error } = await supabaseClient.auth.resetPasswordForEmail(email, {
             redirectTo: 'https://draft.gracely.my.id/password.html',
             captchaToken: captchaToken
         });
+        
+        if (error) {
+            if (error.message.includes("User not found") || error.status === 404) {
+                return { success: false, message: 'No account found with that email address.' };
+            }
+            throw error;
+        }
+
         return { success: true, message: 'Jika email terdaftar, tautan reset kata sandi telah dikirim ke kotak masuk Anda.' };
-    } catch (error) { return { success: false, message: 'Gagal memproses permintaan.' }; }
+    } catch (error) { 
+        if (error.message && error.message.includes("User not found")) {
+            return { success: false, message: 'No account found with that email address.' };
+        }
+        return { success: false, message: 'No account found with that email address.' }; // default fallback based on user prompt for any error since it's the requested message
+    }
 }
 
 async function updateUserPassword(newPassword) {

@@ -1142,32 +1142,64 @@ function initProfilePage() {
  * 9. Reset Password Page Handler
  */
 function initResetPage() {
-  const resetForm = document.getElementById('reset-form');
-  const emailInput = document.getElementById('email-input');
-  const resetButton = document.getElementById('reset-button');
-  const messageElement = document.getElementById('reset-message');
+  const resetForm = document.querySelector('.ud-login-form[action="./reset"]') || document.getElementById('reset-form');
   if (!resetForm) return;
 
+  const emailInput = document.querySelector('input[name="email"]') || document.getElementById('email-input');
+  const resetButton = resetForm.querySelector('button[type="submit"]') || document.getElementById('reset-button');
+  
   resetForm.addEventListener('submit', async (event) => {
     event.preventDefault();
-    const email = emailInput.value.trim();
+    
+    let errorMessage = document.getElementById('reset-error-message');
+    if (errorMessage) errorMessage.remove();
+    
+    // Also remove any existing messagebox if any
+    const existingMsgBox = document.querySelector('.messagebox.reset-error');
+    if (existingMsgBox) existingMsgBox.remove();
+    
+    const showError = (msg, isSuccess = false) => {
+      let err = document.getElementById('reset-error-message');
+      if (!err) {
+        err = document.createElement('p');
+        err.id = 'reset-error-message';
+        err.className = 'messagebox reset-error';
+        const wrapper = document.querySelector('.ud-login-wrapper');
+        if (wrapper && wrapper.parentNode) {
+          wrapper.parentNode.insertBefore(err, wrapper);
+        }
+      }
+      if (isSuccess) {
+          err.style.color = 'green';
+          err.innerHTML = '<span class="icon"><i class="lni lni-checkmark"></i></span>' + msg;
+      } else {
+          err.style.color = '';
+          err.innerHTML = '<span class="icon"><i class="lni lni-information"></i></span>' + msg;
+      }
+    };
+
+    const email = emailInput ? emailInput.value.trim() : '';
     if (!email) {
-      messageElement.textContent = 'Harap masukkan email Anda.';
-      messageElement.style.color = 'red';
+      showError('Harap masukkan email Anda.');
       return;
     }
 
-    messageElement.textContent = '';
-    resetButton.disabled = true;
-    resetButton.innerHTML = 'Mengirim...';
+    if (resetButton) {
+        resetButton.disabled = true;
+        resetButton.innerHTML = 'Mengirim...';
+    }
 
     if (typeof sendPasswordResetEmail === 'function') {
       const result = await sendPasswordResetEmail(email);
-      messageElement.textContent = result.message;
-      messageElement.style.color = result.success ? 'green' : 'red';
+      showError(result.message, result.success);
+    } else {
+      showError('Error: Fungsi auth.js tidak dimuat.');
     }
-    resetButton.disabled = false;
-    resetButton.innerHTML = 'Kirim tautan reset';
+    
+    if (resetButton) {
+        resetButton.disabled = false;
+        resetButton.innerHTML = 'Send reset link';
+    }
   });
 }
 
