@@ -675,6 +675,16 @@ async function sendPasswordResetEmail(email) {
             throw new Error(" ");
         }
 
+        // 1. Cek apakah email terdaftar di database menggunakan RPC
+        const { data: emailExists, error: rpcError } = await supabaseClient.rpc('check_email_exists', {
+            check_email: email
+        });
+
+        if (rpcError || !emailExists) {
+            return { success: false, message: 'No account found with that email address.' };
+        }
+
+        // 2. Jika email terdaftar, jalankan reset password
         const { error } = await supabaseClient.auth.resetPasswordForEmail(email, {
             redirectTo: 'https://draft.gracely.my.id/password.html',
             captchaToken: captchaToken
@@ -687,12 +697,12 @@ async function sendPasswordResetEmail(email) {
             throw error;
         }
 
-        return { success: true, message: 'Jika email terdaftar, tautan reset kata sandi telah dikirim ke kotak masuk Anda.' };
+        return { success: true, message: 'Reset link sent successfully.' };
     } catch (error) { 
         if (error.message && error.message.includes("User not found")) {
             return { success: false, message: 'No account found with that email address.' };
         }
-        return { success: false, message: 'No account found with that email address.' }; // default fallback based on user prompt for any error since it's the requested message
+        return { success: false, message: 'No account found with that email address.' };
     }
 }
 

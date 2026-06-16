@@ -1169,13 +1169,8 @@ function initResetPage() {
           wrapper.parentNode.insertBefore(err, wrapper);
         }
       }
-      if (isSuccess) {
-          err.style.color = 'green';
-          err.innerHTML = '<span class="icon"><i class="lni lni-checkmark"></i></span>' + msg;
-      } else {
-          err.style.color = '';
-          err.innerHTML = '<span class="icon"><i class="lni lni-information"></i></span>' + msg;
-      }
+      err.style.color = '';
+      err.innerHTML = '<span class="icon"><i class="lni lni-information"></i></span>' + msg;
     };
 
     const email = emailInput ? emailInput.value.trim() : '';
