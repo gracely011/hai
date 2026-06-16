@@ -554,40 +554,44 @@ async function initializeWebsiteAnnouncement() {
     const isAuth = localStorage.getItem('isAuthenticated') === 'true';
     if (!isAuth) return; // Exit if not logged in
 
-    if (typeof gracelyConfig === 'undefined') return;
+    if (typeof supabaseClient === 'undefined') {
+      console.warn("Supabase client not loaded, skipping web notifications.");
+      return;
+    }
 
-    const t = gracelyConfig.notifications?.announcement;
-    if (!t || !t.enabled || !t.id) return;
+    // Ambil notifikasi khusus web yang sedang aktif
+    const { data: notifications, error } = await supabaseClient
+      .from('gracely_notifications')
+      .select('*')
+      .eq('target_platform', 'web')
+      .eq('is_enabled', true)
+      .limit(1);
+
+    if (error) {
+      console.error("Error fetching web notifications:", error);
+      return;
+    }
+
+    if (!notifications || notifications.length === 0) {
+      return; // Tidak ada notifikasi aktif untuk web
+    }
+
+    const t = notifications[0];
+    const n = t.html_content;
+    const o = t.key_id;
+
+    if (!n || !o) return;
 
     const modalDiv = document.getElementById('notification-0');
     if (!modalDiv) return;
-    const modalContent = modalDiv.querySelector('.notificationModal-content');
-    // Note: modalContent might be null if we use innerHTML on modalDiv directly later, but let's grab it if needed.
-
-    // Default content generator if html is missing
-    let e = "";
-    t.lines && Array.isArray(t.lines) && (e = t.lines.map(l => `<p>${l}</p>`).join(""));
-    const n = t.html || `<div class="notificationModal-content"><i class="fa fa-times close-icon" id="notification-close"></i><h2>${t.title}</h2>${e}<button class="ud-main-btn" id="notification-ok">OK</button></div>`;
-    const o = t.id;
 
     const show = () => {
-      // Apply content
-      // If t.html is present, it usually contains the "notificationModal-content" div wrapper itself or inner content?
-      // Checking aturhonma.js, "html" includes "<div class='notificationModal-content'>...</div>".
-      // So we should replace the innerHTML of modalDiv (container) to fully replace the auto-generated empty content div.
       // Priority Check: If a High Priority modal is already open, DO NOT OVERWRITE
       if (modalDiv.style.display === 'flex' && modalDiv.getAttribute('data-priority') === 'high') {
-        // console.log("Announcement skipped due to High Priority modal.");
         return;
       }
 
-      if (t.html) {
-        modalDiv.innerHTML = t.html;
-      } else {
-        if (modalContent) modalContent.innerHTML = n;
-        else modalDiv.innerHTML = `<div class="notificationModal-content">${n}</div>`;
-      }
-
+      modalDiv.innerHTML = n;
       modalDiv.removeAttribute('data-priority'); // Reset priority for normal announcements
 
       modalDiv.style.display = 'flex';
@@ -641,11 +645,11 @@ async function initializeWebsiteAnnouncement() {
       if (lastShown < resetThreshold) {
         // Sudah lewat hari (jam 7 pagi)
         shouldShow = true;
-      } else if (o !== lastId && !lastShownStrDB) {
-        // ID beda dan belum ada data dari DB (fallback ke perilaku lama jika ID ganti)
+      } else if (o !== lastId) {
+        // Jika ID dari database beda dengan ID sebelumnya (notifikasi baru)
         shouldShow = true;
       } else {
-        // Masih di rentang hari yang sama, JANGAN TAMPILKAN, ignore perbedaan ID
+        // Masih di rentang hari yang sama dan ID sama, JANGAN TAMPILKAN
         shouldShow = false;
       }
     }
