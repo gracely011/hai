@@ -1250,7 +1250,7 @@ function initSignupPage() {
       const result = await signup(name, email, password);
       if (result.success) {
         submitButton.innerHTML = 'Logging in...';
-        const loginResult = typeof login === 'function' ? await login(email, password) : { success: false };
+        const loginResult = typeof login === 'function' ? await login(email, password, true) : { success: false };
         if (loginResult && loginResult.success) {
           window.location.href = 'dashboard.html';
         } else {
