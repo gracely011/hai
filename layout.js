@@ -1262,11 +1262,25 @@ function initSignupPage() {
         let message = result.message;
         if (message.includes("violates row-level security policy") || message.includes("duplicate key value")) {
           submitButton.innerHTML = 'Logging in...';
+          
+          if (typeof turnstile !== 'undefined') {
+              let oldToken = document.querySelector('[name="cf-turnstile-response"]')?.value;
+              turnstile.reset();
+              let attempts = 0;
+              while(attempts < 20) {
+                  await new Promise(r => setTimeout(r, 250));
+                  let newToken = document.querySelector('[name="cf-turnstile-response"]')?.value;
+                  if (newToken && newToken !== oldToken) break;
+                  attempts++;
+              }
+          }
+
           const loginResult = typeof login === 'function' ? await login(email, password) : { success: false };
           if (loginResult && loginResult.success) {
             window.location.href = 'dashboard.html';
           } else {
-            alert('Pendaftaran berhasil! Silakan Log in.');
+            console.error("Fallback Auto-Login failed:", loginResult.message);
+            alert('Pendaftaran berhasil! Silakan Log in.\n(Info: Auto-login tertunda karena ' + (loginResult.message || 'menunggu respon server') + ')');
             window.location.href = 'login.html';
           }
           return;
