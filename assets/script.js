@@ -42,7 +42,7 @@
 
     console.log('%cgracely', 'color: black; font-size: 60px; font-weight: bold; font-family: "Montserrat", sans-serif;');
     console.log('%cUnlock Premium Together', 'color: black; font-size: 20px; font-weight: bold; font-family: "Montserrat", sans-serif;');
-    console.log('%ccontact@gracely.id', 'color: black; font-size: 15px; font-weight: bold; font-family: "Montserrat", sans-serif;');
+    console.log('%ccontact@gracely.my.id', 'color: black; font-size: 15px; font-weight: bold; font-family: "Montserrat", sans-serif;');
 })();
 
 // 2. Domain Security Check
@@ -126,7 +126,7 @@ function initializeScripts() {
             event.preventDefault();
             let errorMessage = document.getElementById('login-error-message');
             if (errorMessage) errorMessage.remove();
-            
+
             const showError = (msg) => {
                 let err = document.getElementById('login-error-message');
                 if (!err) {
