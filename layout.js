@@ -1254,7 +1254,8 @@ function initSignupPage() {
         if (loginResult && loginResult.success) {
           window.location.href = 'dashboard.html';
         } else {
-          alert('Pendaftaran berhasil! Silakan Log in.');
+          console.error("Auto-Login failed:", loginResult.message);
+          alert('Pendaftaran berhasil! Silakan Log in.\n(Info: Auto-login tertunda karena ' + (loginResult.message || 'menunggu respon server') + ')');
           window.location.href = 'login.html';
         }
       } else {
