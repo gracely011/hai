@@ -125,25 +125,28 @@ function initializeScripts() {
         loginForm.addEventListener('submit', async (event) => {
             event.preventDefault();
             let errorMessage = document.getElementById('login-error-message');
-            if (!errorMessage) {
-                errorMessage = document.createElement('p');
-                errorMessage.id = 'login-error-message';
-                errorMessage.style.color = 'red';
-                errorMessage.style.marginTop = '15px';
-                const buttonContainer = loginForm.querySelector('.ud-form-group');
-                if (buttonContainer) {
-                    loginForm.insertBefore(errorMessage, buttonContainer);
-                } else {
-                    loginForm.appendChild(errorMessage);
+            if (errorMessage) errorMessage.remove();
+            
+            const showError = (msg) => {
+                let err = document.getElementById('login-error-message');
+                if (!err) {
+                    err = document.createElement('p');
+                    err.id = 'login-error-message';
+                    err.className = 'messagebox';
+                    const wrapper = document.querySelector('.ud-login-wrapper');
+                    if (wrapper && wrapper.parentNode) {
+                        wrapper.parentNode.insertBefore(err, wrapper);
+                    }
                 }
-            }
-            errorMessage.textContent = '';
+                err.innerHTML = '<span class="icon"><i class="lni lni-information"></i></span>' + msg;
+            };
+
             const emailInput = document.getElementById('email');
             const passwordInput = document.getElementById('password');
             const email = emailInput ? emailInput.value.trim() : '';
             const password = passwordInput ? passwordInput.value.trim() : '';
             if (!email || !password) {
-                errorMessage.textContent = "Email dan password tidak boleh kosong.";
+                showError("Email dan password tidak boleh kosong.");
                 return;
             }
             const submitButton = loginForm.querySelector('button[type="submit"]');
@@ -154,7 +157,7 @@ function initializeScripts() {
                 // Use relative path for local dev support
                 window.location.href = "dashboard.html";
             } else {
-                errorMessage.textContent = result.message;
+                showError(result.message);
                 submitButton.disabled = false;
                 submitButton.innerHTML = 'Log in';
             }

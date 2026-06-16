@@ -660,7 +660,7 @@ async function login(email, password, skipCaptchaAndSignIn = false) {
         eraseCookie('gracely_session_token');
         eraseCookie('gracely_refresh_token');
         if (error.message.includes("Invalid login credentials")) {
-            return { success: false, message: 'Email atau password salah.' };
+            return { success: false, message: 'Invalid email or password.' };
         }
         return { success: false, message: error.message };
     }
