@@ -389,6 +389,28 @@ const footerHTML = `
             </ul>
           </div>
         </div>
+        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
+          <div class="ud-widget">
+            <h5 class="ud-widget-title">Extension</h5>
+            <ul class="ud-widget-links">
+              <li>
+                <a href="./dashboard" rel="nofollow noopener" target="_blank">Download extension <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-10">
+          <div class="ud-widget">
+            <h5 class="ud-widget-title">Partners</h5>
+            <ul class="ud-widget-brands">
+              <li>
+                <a href="https://cloudflare.com/" rel="nofollow noopener" target="_blank">
+                  <img src="https://companieslogo.com/img/orig/NET_BIG.D-52893f5e.png" alt="Cloudflare" style="max-height: 25px;">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -812,7 +834,7 @@ function initDashboardPlanStatus() {
             <div class="menu-section-mini-header">Your plan</div>
             <img src="assets/images/logo/gracely_mobile_white.png" alt="Logo" id="logo" class="top-right-image">
             <div class="menu-section-plan-free">${planName}</div>
-            <div class="menu-section-plan-description">Premium is required to access Gracely Extension.</div>
+            <div class="menu-section-plan-description">Premium are required to access Gracely Extension.</div>
           </div>`;
       }
     } catch (err) {
@@ -1098,12 +1120,12 @@ function initProfilePage() {
   const showMessage = (msg, isSuccess = false) => {
     let existingMsg = document.getElementById('profile-messagebox');
     if (existingMsg) existingMsg.remove();
-    
+
     let msgElement = document.createElement('p');
     msgElement.id = 'profile-messagebox';
     msgElement.className = 'messagebox';
     msgElement.innerHTML = '<span class="icon"><i class="lni lni-information"></i></span>' + msg;
-    
+
     const wrapper = document.querySelector('.ud-login-wrapper');
     if (wrapper && wrapper.parentNode) {
       wrapper.parentNode.insertBefore(msgElement, wrapper);
@@ -1119,16 +1141,16 @@ function initProfilePage() {
         setTimeout(() => { window.location.href = 'login.html'; }, 2000);
         return;
       }
-      
+
       if (typeof checkProfileUpdateLimit === 'function') {
         const limitCheck = await checkProfileUpdateLimit(user.id);
         if (limitCheck.limited) {
-            nameInput.disabled = true;
-            updateButton.disabled = true;
-            updateButton.style.backgroundColor = '#808080';
-            updateButton.style.opacity = '0.7';
-            updateButton.style.cursor = 'not-allowed';
-            showMessage('You have reached the maximum profile updates for today (3/3).');
+          nameInput.disabled = true;
+          updateButton.disabled = true;
+          updateButton.style.backgroundColor = '#808080';
+          updateButton.style.opacity = '0.7';
+          updateButton.style.cursor = 'not-allowed';
+          showMessage('You have reached the maximum profile updates for today (3/3).');
         }
       }
 
@@ -1161,7 +1183,7 @@ function initProfilePage() {
       const result = await updateUserName(newName);
       const displayMsg = result.success ? 'Profile updated successfully.' : result.message;
       showMessage(displayMsg, result.success);
-      
+
       if (result.success) {
         // Change button color and disable it indefinitely after success
         updateButton.style.backgroundColor = '#808080';
@@ -1187,17 +1209,17 @@ function initResetPage() {
 
   const emailInput = document.querySelector('input[name="email"]') || document.getElementById('email-input');
   const resetButton = resetForm.querySelector('button[type="submit"]') || document.getElementById('reset-button');
-  
+
   resetForm.addEventListener('submit', async (event) => {
     event.preventDefault();
-    
+
     let errorMessage = document.getElementById('reset-error-message');
     if (errorMessage) errorMessage.remove();
-    
+
     // Also remove any existing messagebox if any
     const existingMsgBox = document.querySelector('.messagebox.reset-error');
     if (existingMsgBox) existingMsgBox.remove();
-    
+
     const showError = (msg, isSuccess = false) => {
       let err = document.getElementById('reset-error-message');
       if (!err) {
@@ -1220,8 +1242,8 @@ function initResetPage() {
     }
 
     if (resetButton) {
-        resetButton.disabled = true;
-        resetButton.innerHTML = 'Mengirim...';
+      resetButton.disabled = true;
+      resetButton.innerHTML = 'Mengirim...';
     }
 
     if (typeof sendPasswordResetEmail === 'function') {
@@ -1230,10 +1252,10 @@ function initResetPage() {
     } else {
       showError('Error: Fungsi auth.js tidak dimuat.');
     }
-    
+
     if (resetButton) {
-        resetButton.disabled = false;
-        resetButton.innerHTML = 'Send reset link';
+      resetButton.disabled = false;
+      resetButton.innerHTML = 'Send reset link';
     }
   });
 }
@@ -1329,17 +1351,17 @@ function initSignupPage() {
         let message = result.message;
         if (message.includes("violates row-level security policy") || message.includes("duplicate key value")) {
           submitButton.innerHTML = 'Logging in...';
-          
+
           if (typeof turnstile !== 'undefined') {
-              let oldToken = document.querySelector('[name="cf-turnstile-response"]')?.value;
-              turnstile.reset();
-              let attempts = 0;
-              while(attempts < 20) {
-                  await new Promise(r => setTimeout(r, 250));
-                  let newToken = document.querySelector('[name="cf-turnstile-response"]')?.value;
-                  if (newToken && newToken !== oldToken) break;
-                  attempts++;
-              }
+            let oldToken = document.querySelector('[name="cf-turnstile-response"]')?.value;
+            turnstile.reset();
+            let attempts = 0;
+            while (attempts < 20) {
+              await new Promise(r => setTimeout(r, 250));
+              let newToken = document.querySelector('[name="cf-turnstile-response"]')?.value;
+              if (newToken && newToken !== oldToken) break;
+              attempts++;
+            }
           }
 
           const loginResult = typeof login === 'function' ? await login(email, password) : { success: false };
