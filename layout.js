@@ -1155,7 +1155,7 @@ function initProfilePage() {
     if (existingMsg) existingMsg.remove();
 
     updateButton.disabled = true;
-    updateButton.innerHTML = 'Menyimpan...';
+    updateButton.innerHTML = 'Saving...';
 
     if (typeof updateUserName === 'function') {
       const result = await updateUserName(newName);
