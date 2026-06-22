@@ -1119,6 +1119,19 @@ function initProfilePage() {
         setTimeout(() => { window.location.href = 'login.html'; }, 2000);
         return;
       }
+      
+      if (typeof checkProfileUpdateLimit === 'function') {
+        const limitCheck = await checkProfileUpdateLimit(user.id);
+        if (limitCheck.limited) {
+            nameInput.disabled = true;
+            updateButton.disabled = true;
+            updateButton.style.backgroundColor = '#808080';
+            updateButton.style.opacity = '0.7';
+            updateButton.style.cursor = 'not-allowed';
+            showMessage('You have reached the maximum profile updates for today (3/3).');
+        }
+      }
+
       const storedName = localStorage.getItem('userName');
       nameInput.value = storedName || user.user_metadata?.full_name || '';
       emailInput.value = user.email || '';
@@ -1148,11 +1161,20 @@ function initProfilePage() {
       const result = await updateUserName(newName);
       const displayMsg = result.success ? 'Profile updated successfully.' : result.message;
       showMessage(displayMsg, result.success);
+      
+      if (result.success) {
+        // Change button color and disable it indefinitely after success
+        updateButton.style.backgroundColor = '#808080';
+        updateButton.style.opacity = '0.7';
+        updateButton.style.cursor = 'not-allowed';
+        updateButton.innerHTML = 'Save profile';
+        return; // Do not re-enable the button
+      }
     } else {
       showMessage('Error: Fungsi auth.js tidak dimuat.');
     }
     updateButton.disabled = false;
-    updateButton.innerHTML = 'Simpan Profil';
+    updateButton.innerHTML = 'Save profile';
   });
 }
 

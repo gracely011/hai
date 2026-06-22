@@ -715,14 +715,51 @@ async function updateUserPassword(newPassword) {
     } catch (error) { return { success: false, message: 'Gagal memperbarui password.' }; }
 }
 
+async function checkProfileUpdateLimit(userId) {
+    try {
+        const past24h = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString();
+        const { error, count } = await supabaseClient
+            .from('activity_logs')
+            .select('*', { count: 'exact', head: true })
+            .eq('user_id', userId)
+            .eq('activity', 'Profile Name Updated')
+            .gte('created_at', past24h);
+
+        if (error) {
+            console.warn('Error checking update limit:', error);
+            return { limited: false, count: 0 };
+        }
+        
+        const updatesCount = count || 0;
+        return { limited: updatesCount >= 3, count: updatesCount };
+    } catch (e) {
+        console.warn('Exception checking update limit:', e);
+        return { limited: false, count: 0 };
+    }
+}
+
 async function updateUserName(newName) {
     try {
         const { data: { user } } = await supabaseClient.auth.getUser();
         if (!user) throw new Error("Sesi berakhir.");
+
+        const limitCheck = await checkProfileUpdateLimit(user.id);
+        if (limitCheck.limited) {
+            throw new Error("Batas edit profil tercapai (maksimal 3 kali per 24 jam).");
+        }
+
         const { error } = await supabaseClient.from('profiles').update({ name: newName }).eq('id', user.id);
         if (error) throw error;
+        
         await supabaseClient.auth.updateUser({ data: { full_name: newName } });
         localStorage.setItem('userName', newName);
+
+        await logUserActivity({
+            userId: user.id,
+            userName: newName,
+            activity: 'Profile Name Updated'
+        });
+
         return { success: true, message: 'Nama berhasil diperbarui!' };
     } catch (error) { return { success: false, message: error.message }; }
 }
