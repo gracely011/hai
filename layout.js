@@ -1095,13 +1095,27 @@ function initProfilePage() {
   const messageElement = document.getElementById('update-message');
   if (!form) return;
 
+  const showMessage = (msg, isSuccess = false) => {
+    let existingMsg = document.getElementById('profile-messagebox');
+    if (existingMsg) existingMsg.remove();
+    
+    let msgElement = document.createElement('p');
+    msgElement.id = 'profile-messagebox';
+    msgElement.className = 'messagebox';
+    msgElement.innerHTML = '<span class="icon"><i class="lni lni-information"></i></span>' + msg;
+    
+    const wrapper = document.querySelector('.ud-login-wrapper');
+    if (wrapper && wrapper.parentNode) {
+      wrapper.parentNode.insertBefore(msgElement, wrapper);
+    }
+  };
+
   async function loadUserData() {
     try {
       if (typeof supabaseClient === 'undefined') return;
       const { data: { user }, error } = await supabaseClient.auth.getUser();
       if (error || !user) {
-        messageElement.textContent = 'Sesi berakhir. Silakan login ulang.';
-        messageElement.style.color = 'red';
+        showMessage('Sesi berakhir. Silakan login ulang.');
         setTimeout(() => { window.location.href = 'login.html'; }, 2000);
         return;
       }
@@ -1110,8 +1124,7 @@ function initProfilePage() {
       emailInput.value = user.email || '';
     } catch (e) {
       console.error('Error loading user data:', e);
-      messageElement.textContent = 'Gagal memuat data profil.';
-      messageElement.style.color = 'red';
+      showMessage('Gagal memuat data profil.');
     }
   }
   loadUserData();
@@ -1120,22 +1133,23 @@ function initProfilePage() {
     event.preventDefault();
     const newName = nameInput.value.trim();
     if (!newName) {
-      messageElement.textContent = 'Nama tidak boleh kosong.';
-      messageElement.style.color = 'red';
+      showMessage('Nama tidak boleh kosong.');
       return;
     }
 
-    messageElement.textContent = '';
+    if (messageElement) messageElement.style.display = 'none';
+    let existingMsg = document.getElementById('profile-messagebox');
+    if (existingMsg) existingMsg.remove();
+
     updateButton.disabled = true;
     updateButton.innerHTML = 'Menyimpan...';
 
     if (typeof updateUserName === 'function') {
       const result = await updateUserName(newName);
-      messageElement.textContent = result.message;
-      messageElement.style.color = result.success ? 'green' : 'red';
+      const displayMsg = result.success ? 'Profile updated successfully.' : result.message;
+      showMessage(displayMsg, result.success);
     } else {
-      messageElement.textContent = 'Error: Fungsi auth.js tidak dimuat.';
-      messageElement.style.color = 'red';
+      showMessage('Error: Fungsi auth.js tidak dimuat.');
     }
     updateButton.disabled = false;
     updateButton.innerHTML = 'Simpan Profil';
