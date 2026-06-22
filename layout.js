@@ -384,8 +384,8 @@ const footerHTML = `
           <div class="ud-widget">
             <h5 class="ud-widget-title" data-i18n="dashboard">${t('dashboard')}</h5>
             <ul class="ud-widget-links">
-              <li><a href="dashboard.html" data-i18n="view_dashboard">${t('view_dashboard')}</a></li>
-              <li><a href="premium.html" data-i18n="purchase_premium">${t('purchase_premium')}</a></li>
+              <li><a href="dashboard.html" data-i18n="view_dashboard">${t('view_dashboard')}<i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+              <li><a href="premium.html" data-i18n="purchase_premium">${t('purchase_premium')}<i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
             </ul>
           </div>
         </div>
@@ -405,7 +405,7 @@ const footerHTML = `
             <ul class="ud-widget-brands">
               <li>
                 <a href="https://cloudflare.com/" rel="nofollow noopener" target="_blank">
-                  <img src="https://companieslogo.com/img/orig/NET_BIG.D-52893f5e.png" alt="Cloudflare" style="max-height: 25px;">
+                  <img src="https://companieslogo.com/img/orig/NET_BIG.D-52893f5e.png" alt="Cloudflare">
                 </a>
               </li>
             </ul>
