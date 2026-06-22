@@ -357,3 +357,41 @@ async function checkSessionValidity(localSessionId) {
         }
     }
 }
+
+// --- TURNSTILE VALIDATION BLOCKER ---
+window.onTurnstileSuccess = function(token) {
+    document.querySelectorAll('.cf-turnstile').forEach(el => {
+        const form = el.closest('form');
+        if (form) {
+            const btn = form.querySelector('button[type="submit"]');
+            if (btn) {
+                btn.disabled = false;
+                btn.style.opacity = '1';
+                btn.style.cursor = 'pointer';
+            }
+        }
+    });
+};
+
+window.onTurnstileExpired = function() {
+    window.onTurnstileError();
+};
+
+window.onTurnstileError = function() {
+    document.querySelectorAll('.cf-turnstile').forEach(el => {
+        const form = el.closest('form');
+        if (form) {
+            const btn = form.querySelector('button[type="submit"]');
+            if (btn) {
+                btn.disabled = true;
+                btn.style.opacity = '0.5';
+                btn.style.cursor = 'not-allowed';
+            }
+        }
+    });
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+    // Kunci tombol submit secara default saat DOM dimuat
+    window.onTurnstileError();
+});
