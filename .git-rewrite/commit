@@ -1,0 +1,6 @@
+tree 083fdaaf02081c32f7872df74bdf74c7fc139ae7
+parent 8e982ecc94e6fd4ede22c2ed8036054f8a4eb4bd
+author gracely011 <gracely011@users.noreply.github.com> 1781599361 +0700
+committer gracely011 <gracely011@users.noreply.github.com> 1781599361 +0700
+
+Feat: Auto-login after signup
