@@ -1,4 +1,4 @@
-// admin.js - Logika Manajemen Dasbor Admin Gracely
+﻿// admin.js - Logika Manajemen Dasbor Admin Gracely
 
 let currentAdminUid = null;
 let allUsersCache = [];
@@ -886,7 +886,7 @@ function exportTableToCSV(tbodyId, filename) {
 
 // -- 4. Quick Actions
 async function quickActionForceLogout() {
-    if(!confirm("⚠️ KELUARKAN SEMUA PENGGUNA?\n\nIni akan menendang semua sesi aktif di seluruh perangkat pengguna.\nLanjutkan?")) return;
+    if(!confirm("âš ï¸ KELUARKAN SEMUA PENGGUNA?\n\nIni akan menendang semua sesi aktif di seluruh perangkat pengguna.\nLanjutkan?")) return;
     try {
         const { error } = await supabaseClient
             .from('user_sessions')
@@ -894,7 +894,7 @@ async function quickActionForceLogout() {
             .neq('id', 0); // Hack to delete all records
         
         if (error) throw error;
-        alert("✅ Seluruh sesi aktif pengguna berhasil dikeluarkan.");
+        alert("âœ… Seluruh sesi aktif pengguna berhasil dikeluarkan.");
         loadDashboardData();
     } catch (e) {
         alert("Aksi sukses (Jika error, pastikan Delete tanpa WHERE diizinkan RLS).");
@@ -919,7 +919,7 @@ async function quickActionCreateDummy() {
         
         if (error) throw error;
         
-        alert(`✅ Dummy User Dibuat!\nEmail: ${testEmail}\nSandi: ${testPass}`);
+        alert(`âœ… Dummy User Dibuat!\nEmail: ${testEmail}\nSandi: ${testPass}`);
         loadDashboardData();
         if(!document.getElementById('panel-users').classList.contains('hidden')) loadUsers();
     } catch (e) { alert("Gagal membuat user dummy: " + e.message); } 
@@ -1006,7 +1006,7 @@ function copyHtmlTemplate() {
     const type = document.getElementById('notifType').value;
     const txt = document.getElementById('notifHtmlContent');
     if (type === 'announcement') {
-        txt.value = `<div class="p-4 bg-brand-50 border border-brand-200 rounded-lg text-center">\n  <h4 class="font-bold text-gray-900 mb-2">🎉 Pengumuman Baru</h4>\n  <p class="text-sm text-gray-600">Pesan Anda!</p>\n</div>`;
+        txt.value = `<div class="p-4 bg-brand-50 border border-brand-200 rounded-lg text-center">\n  <h4 class="font-bold text-gray-900 mb-2">ðŸŽ‰ Pengumuman Baru</h4>\n  <p class="text-sm text-gray-600">Pesan Anda!</p>\n</div>`;
     } else {
         txt.value = `<div class="notificationModal-content">\n  <i class="fa fa-times close-icon" id="notifictionCloseBtn"></i>\n  <h2 class="title">Info</h2>\n  <button class="action-btn" id="notifictionActionBtn">Buka Layanan</button>\n</div>`;
     }
@@ -1186,3 +1186,4 @@ function createResizableColumn(th, resizer) {
 
     resizer.addEventListener('mousedown', mouseDownHandler);
 }
+
