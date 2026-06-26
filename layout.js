@@ -1,6 +1,13 @@
 // Branding moved to script.js
 
 (function () {
+  // --- AUTO-CLEAN URL (.html) ---
+  if (window.location.pathname.endsWith('.html')) {
+      let cleanPath = window.location.pathname.replace(/\.html$/, '');
+      if (cleanPath.endsWith('/index')) cleanPath = cleanPath.replace(/\/index$/, '/');
+      window.history.replaceState(null, '', cleanPath + window.location.search + window.location.hash);
+  }
+
   if (!document.querySelector('link[href*="flag-icon-css"]')) {
     const link = document.createElement('link');
     link.rel = 'stylesheet';
@@ -461,7 +468,7 @@ const backToTopHTML = `<a href="javascript:void(0)" class="back-to-top"><i class
 
 function modifyIndexPageContent() {
   const path = window.location.pathname;
-  const isIndexPage = path.endsWith('/') || path.endsWith('/hai/') || path.endsWith('index.html');
+  const isIndexPage = path.endsWith('/') || path.endsWith('/hai/') || path.endsWith('index.html') || path.includes('index');
   if (!isIndexPage) return;
 
   if (typeof isAuthenticated === 'function' && isAuthenticated()) {
@@ -1396,34 +1403,35 @@ function onSubmit(token) {
  */
 function initPageScripts() {
   const path = window.location.pathname;
-  const page = path.split('/').pop() || 'index.html';
+  let page = path.split('/').pop() || 'index';
+  page = page.replace(/\.html$/, '');
 
   switch (page) {
-    case '404.html':
-    case 'blocked.html':
-    case 'maintenance.html':
+    case '404':
+    case 'blocked':
+    case 'maintenance':
       init3DTextEffect();
       break;
-    case 'dashboard.html':
+    case 'dashboard':
       initDashboardPlanStatus();
       initVideoModals();
       break;
-    case 'logs.html':
+    case 'logs':
       initActivityLogsPage();
       break;
-    case 'manual.html':
+    case 'manual':
       initManualPage();
       break;
-    case 'password.html':
+    case 'password':
       initPasswordPage();
       break;
-    case 'profile.html':
+    case 'profile':
       initProfilePage();
       break;
-    case 'reset.html':
+    case 'reset':
       initResetPage();
       break;
-    case 'signup.html':
+    case 'signup':
       initSignupPage();
       break;
   }

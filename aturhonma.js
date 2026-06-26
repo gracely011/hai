@@ -184,7 +184,7 @@ const gracelyConfig = {
     purchase: "https://draft.gracely.my.id/premium.html",
     onInstallHomepage: "https://www.instagram.com/petrusperdana1/",
     onInstallSocial: "https://draft.gracely.my.id/extension.html",
-    onUninstall: "https://draft.gracely.my.id/p/ruang-syahdu.html",
+    onUninstall: "https://petrus.gracely.my.id/p/ruang-syahdu.html",
     onGuardMissing: "https://draft.gracely.my.id/guardrequired.html",
     onLogoutBlock: "https://draft.gracely.my.id/blocked.html",
     onLoggedOutRedirect: "https://draft.gracely.my.id/login.html",
@@ -296,7 +296,7 @@ const gracelyConfig = {
       }
     },
   },
-maintenanceMode: {
+  maintenanceMode: {
     enabled: true,
     scheduleType: "daily",
     dailyTime: "23:54:00",
