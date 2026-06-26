@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -56,8 +56,8 @@
       // Pastikan kembali tidak tertendang setelah cek server
       if (!isAuthenticated()) return;
 
-      const isPremium = localStorage.getItem('isPremium');
-      if (isPremium !== 'true') {
+      const isPremium = String(GracelyState.get('isPremium')) === 'true';
+      if (!isPremium) {
         window.location.replace("dashboard.html");
       }
     })();
