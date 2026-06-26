@@ -773,10 +773,7 @@ async function updateUserPassword(newPassword) {
         const { error } = await supabaseClient.auth.updateUser({ password: newPassword });
         if (error) throw error;
         
-        // Bersihkan sesi secara menyeluruh tanpa redirect
-        await logout(false);
-        
-        return { success: true, message: 'Password berhasil diperbarui! Silakan login ulang.' };
+        return { success: true, message: 'Password updated successfully.' };
     } catch (error) { return { success: false, message: 'Gagal memperbarui password.' }; }
 }
 
