@@ -1,4 +1,4 @@
-﻿// Branding moved to script.js
+// Branding moved to script.js
 
 (function () {
   // --- AUTO-CLEAN URL (.html) ---
@@ -781,7 +781,7 @@ function initDashboardPlanStatus() {
   }
 
   function renderPlanStatus() {
-    const isPremium = GracelyState.get('isPremium') === 'true';
+    const isPremium = String(GracelyState.get('isPremium')) === 'true';
     const planName = GracelyState.get('userPlanName') || 'No Premium';
     const planNumber = GracelyState.get('userPlanNumber') || '001';
 
