@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -15,9 +15,8 @@
         (async () => {
             await requireAuth();
 
-            // Proteksi esktra: Mengecek masa aktif Premium berdasarkan tanggal kedaluwarsa
-            const expiryDateStr = localStorage.getItem('premiumExpiryDate');
-            const isPremiumValid = expiryDateStr && new Date() <= new Date(expiryDateStr);
+            // Proteksi esktra: Mengecek masa aktif Premium dari state global
+            const isPremiumValid = String(GracelyState.get('isPremium')) === 'true';
 
             if (!isPremiumValid) {
                 window.location.href = 'premium.html';
