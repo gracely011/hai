@@ -2,10 +2,12 @@
 
 (function () {
   // --- AUTO-CLEAN URL (.html) ---
-  if (window.location.pathname.endsWith('.html')) {
-      let cleanPath = window.location.pathname.replace(/\.html$/, '');
-      if (cleanPath.endsWith('/index')) cleanPath = cleanPath.replace(/\/index$/, '/');
-      window.history.replaceState(null, '', cleanPath + window.location.search + window.location.hash);
+  if (window.location.pathname.endsWith('.html') && window.location.protocol !== 'file:') {
+      try {
+          let cleanPath = window.location.pathname.replace(/\.html$/, '');
+          if (cleanPath.endsWith('/index')) cleanPath = cleanPath.replace(/\/index$/, '/');
+          window.history.replaceState(null, '', cleanPath + window.location.search + window.location.hash);
+      } catch (e) { console.warn("Clean URL error:", e); }
   }
 
   if (!document.querySelector('link[href*="flag-icon-css"]')) {
