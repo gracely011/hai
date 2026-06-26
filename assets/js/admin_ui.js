@@ -1,4 +1,4 @@
-const railButtons = [...document.querySelectorAll(".rail-btn[data-panel]")];
+﻿const railButtons = [...document.querySelectorAll(".rail-btn[data-panel]")];
 const mobileButtons = [...document.querySelectorAll(".mobile-nav-btn[data-panel]")];
 const panels = [...document.querySelectorAll(".panel")];
 const moreButton = document.getElementById("moreButton");
@@ -143,3 +143,4 @@ applyTheme(localStorage.getItem(THEME_KEY) || "light");
 document.addEventListener("DOMContentLoaded", () => {
     setActivePanel(localStorage.getItem(PANEL_KEY) || "overview");
 });
+

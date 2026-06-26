@@ -1,4 +1,4 @@
-﻿// --- SECURE STATE HELPER ---
+// --- SECURE STATE HELPER ---
 window.GracelyState = {
     _key: '_gx_state',
     _getAll: function() {
@@ -30,6 +30,27 @@ window.GracelyState = {
         localStorage.removeItem(this._key);
     }
 };
+
+// --- MIGRATION SCRIPT ---
+// Pindahkan data lama yang terekspos ke state yang aman, lalu hapus dari root local storage
+(function migrateOldState() {
+    const oldKeys = [
+        'isAuthenticated', 'userEmail', 'userName', 'isPremium',
+        'userPlanName', 'userPlanNumber', 'premiumExpiryDate',
+        'proExpiryDate', 'phantomExpiryDate', 'lastPopupDateDB',
+        'lastExpiryWarningDateDB', 'gracely_db_session_id',
+        'gracelyPremiumConfig', 'gracely_active_session_token',
+        'gracely_config_url', 'notificationLastShown', 'notificationLastShownId'
+    ];
+    oldKeys.forEach(k => {
+        const val = localStorage.getItem(k);
+        if (val !== null) {
+            window.GracelyState.set(k, val);
+            localStorage.removeItem(k);
+        }
+    });
+})();
+// --- END MIGRATION SCRIPT ---
 // --- END SECURE STATE HELPER ---
 // DOMAIN CHECK DISABLED FOR LOCAL DEV
 // (function () {
