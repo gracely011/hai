@@ -1,3 +1,36 @@
+﻿// --- SECURE STATE HELPER ---
+window.GracelyState = {
+    _key: '_gx_state',
+    _getAll: function() {
+        try {
+            const raw = localStorage.getItem(this._key);
+            if (!raw) return {};
+            return JSON.parse(atob(raw));
+        } catch (e) {
+            return {};
+        }
+    },
+    _saveAll: function(data) {
+        localStorage.setItem(this._key, btoa(JSON.stringify(data)));
+    },
+    get: function(key) {
+        return this._getAll()[key];
+    },
+    set: function(key, value) {
+        const data = this._getAll();
+        data[key] = value;
+        this._saveAll(data);
+    },
+    remove: function(key) {
+        const data = this._getAll();
+        delete data[key];
+        this._saveAll(data);
+    },
+    clear: function() {
+        localStorage.removeItem(this._key);
+    }
+};
+// --- END SECURE STATE HELPER ---
 // DOMAIN CHECK DISABLED FOR LOCAL DEV
 // (function () {
 //     var a = ["draft.gracely.my.id", "localhost", "127.0.0.1"],
@@ -595,37 +628,37 @@ async function login(email, password, skipCaptchaAndSignIn = false) {
         }
 
         // Only store purely UI-related data
-        localStorage.setItem('isAuthenticated', 'true');
-        localStorage.setItem('userEmail', authData.user.email);
-        localStorage.setItem('userName', userName);
-        localStorage.setItem('isPremium', isCurrentlyPremium); // UI toggle
-        localStorage.setItem('userPlanName', finalPlanName);
-        localStorage.setItem('userPlanNumber', finalPlanNumber);
-        localStorage.setItem('premiumExpiryDate', profileData.premiumExpiryDate);
-        localStorage.setItem('proExpiryDate', profileData.pro_expiry_date);
-        localStorage.setItem('phantomExpiryDate', profileData.phantom_expiry_date);
+        GracelyState.set('isAuthenticated', 'true');
+        GracelyState.set('userEmail', authData.user.email);
+        GracelyState.set('userName', userName);
+        GracelyState.set('isPremium', isCurrentlyPremium); // UI toggle
+        GracelyState.set('userPlanName', finalPlanName);
+        GracelyState.set('userPlanNumber', finalPlanNumber);
+        GracelyState.set('premiumExpiryDate', profileData.premiumExpiryDate);
+        GracelyState.set('proExpiryDate', profileData.pro_expiry_date);
+        GracelyState.set('phantomExpiryDate', profileData.phantom_expiry_date);
         
         // Simpan waktu terakhir popup dari Profil jika ada
         if (profileData.last_popup_date) {
-            localStorage.setItem('lastPopupDateDB', profileData.last_popup_date);
+            GracelyState.set('lastPopupDateDB', profileData.last_popup_date);
         } else {
-            localStorage.removeItem('lastPopupDateDB');
+            GracelyState.remove('lastPopupDateDB');
         }
 
         if (profileData.last_expiry_warning_date) {
-            localStorage.setItem('lastExpiryWarningDateDB', profileData.last_expiry_warning_date);
+            GracelyState.set('lastExpiryWarningDateDB', profileData.last_expiry_warning_date);
         } else {
-            localStorage.removeItem('lastExpiryWarningDateDB');
+            GracelyState.remove('lastExpiryWarningDateDB');
         }
 
         // IMPORTANT: Store the DB Session ID so script.js can verify it!
-        localStorage.setItem('gracely_db_session_id', uniqueSessionID);
+        GracelyState.set('gracely_db_session_id', uniqueSessionID);
 
         // CLEANUP: Remove legacy items to avoid confusion
-        localStorage.removeItem('gracely_config_url');
-        localStorage.removeItem('gracelyPremiumConfig');
-        // localStorage.removeItem('gracely_db_session_id'); // DO NOT REMOVE THIS!
-        localStorage.removeItem('gracely_active_session_token');
+        GracelyState.remove('gracely_config_url');
+        GracelyState.remove('gracelyPremiumConfig');
+        // GracelyState.remove('gracely_db_session_id'); // DO NOT REMOVE THIS!
+        GracelyState.remove('gracely_active_session_token');
 
         eraseCookie('gracely_active_session');
         eraseCookie('is_premium');
@@ -652,7 +685,7 @@ async function login(email, password, skipCaptchaAndSignIn = false) {
 
         return { success: true };
     } catch (error) {
-        localStorage.clear();
+        GracelyState.clear(); localStorage.clear();
         eraseCookie('gracely_active_session');
         eraseCookie('is_premium');
         eraseCookie('gracely_config_url');
@@ -752,7 +785,7 @@ async function updateUserName(newName) {
         if (error) throw error;
         
         await supabaseClient.auth.updateUser({ data: { full_name: newName } });
-        localStorage.setItem('userName', newName);
+        GracelyState.set('userName', newName);
 
         await logUserActivity({
             userId: user.id,
@@ -775,10 +808,10 @@ async function updateLastPopupDate(type) {
         
         if (type === 'info') {
             updateData.last_popup_date = now;
-            localStorage.setItem('lastPopupDateDB', now);
+            GracelyState.set('lastPopupDateDB', now);
         } else if (type === 'expiry') {
             updateData.last_expiry_warning_date = now;
-            localStorage.setItem('lastExpiryWarningDateDB', now);
+            GracelyState.set('lastExpiryWarningDateDB', now);
         }
 
         const { error } = await supabaseClient.from('profiles')
@@ -798,9 +831,9 @@ async function updateLastPopupDate(type) {
 
 async function logout() {
     const userId = await getUserId();
-    const currentName = localStorage.getItem('userName') || 'Unknown';
-    // Ambil session ID SEBELUM localStorage.clear() dipanggil
-    const mySessionId = localStorage.getItem('gracely_db_session_id');
+    const currentName = GracelyState.get('userName') || 'Unknown';
+    // Ambil session ID SEBELUM GracelyState.clear(); localStorage.clear() dipanggil
+    const mySessionId = GracelyState.get('gracely_db_session_id');
 
     if (userId) {
         const now = new Date().toISOString();
@@ -824,7 +857,7 @@ async function logout() {
         });
     }
 
-    localStorage.clear();
+    GracelyState.clear(); localStorage.clear();
     eraseCookie('gracely_active_session');
     eraseCookie('is_premium');
     eraseCookie('gracely_config_url');
@@ -842,7 +875,7 @@ async function logout() {
     }
 }
 
-function isAuthenticated() { return localStorage.getItem('isAuthenticated') === 'true'; }
+function isAuthenticated() { return GracelyState.get('isAuthenticated') === 'true'; }
 
 // CRITICAL SECURITY: Server-side validation untuk multiuser environment
 async function requireAuth() {
@@ -901,7 +934,7 @@ async function requireAuth() {
         }
 
         // Optional check: Ensure the correct profile is being viewed
-        const storedEmail = localStorage.getItem('userEmail');
+        const storedEmail = GracelyState.get('userEmail');
         const { data: userData } = await supabaseClient.auth.getUser();
         if (userData?.user && storedEmail && userData.user.email !== storedEmail) {
             await logout();
@@ -962,18 +995,18 @@ async function initRealtimeProfileListener() {
                 let isCurrentlyPremium = (finalPlanNumber !== '001');
 
                 // Update Local Storage purely UI
-                localStorage.setItem('isPremium', isCurrentlyPremium);
-                localStorage.setItem('userPlanName', finalPlanName);
-                localStorage.setItem('userPlanNumber', finalPlanNumber);
+                GracelyState.set('isPremium', isCurrentlyPremium);
+                GracelyState.set('userPlanName', finalPlanName);
+                GracelyState.set('userPlanNumber', finalPlanNumber);
 
-                if (newData.premiumExpiryDate) localStorage.setItem('premiumExpiryDate', newData.premiumExpiryDate);
-                else localStorage.removeItem('premiumExpiryDate');
+                if (newData.premiumExpiryDate) GracelyState.set('premiumExpiryDate', newData.premiumExpiryDate);
+                else GracelyState.remove('premiumExpiryDate');
 
-                if (newData.pro_expiry_date) localStorage.setItem('proExpiryDate', newData.pro_expiry_date);
-                else localStorage.removeItem('proExpiryDate');
+                if (newData.pro_expiry_date) GracelyState.set('proExpiryDate', newData.pro_expiry_date);
+                else GracelyState.remove('proExpiryDate');
 
-                if (newData.phantom_expiry_date) localStorage.setItem('phantomExpiryDate', newData.phantom_expiry_date);
-                else localStorage.removeItem('phantomExpiryDate');
+                if (newData.phantom_expiry_date) GracelyState.set('phantomExpiryDate', newData.phantom_expiry_date);
+                else GracelyState.remove('phantomExpiryDate');
 
                 // FORCE EXTENSION TO WAKE UP AND SYNC via Cookie 
                 // Extension usually listens to cookie changes or validates per action
@@ -995,3 +1028,4 @@ if (isAuthenticated()) {
     setTimeout(initRealtimeProfileListener, 2000); // Delay slightly to ensure getUserId is ready
 }
 // --- END REALTIME PROFILE LISTENER ---
+

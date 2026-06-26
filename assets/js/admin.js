@@ -84,7 +84,7 @@ async function handleAdminLogin(e) {
         if (error || !isAdmin) {
             // Jika bukan admin, tendang sesi tersebut
             await supabaseClient.auth.signOut();
-            localStorage.removeItem('isAuthenticated');
+            GracelyState.remove('isAuthenticated');
             throw new Error('Akses Ditolak: Anda bukan administrator.');
         }
         
@@ -178,7 +178,7 @@ async function verifyAdminAccess() {
         }
 
         // Set nama admin
-        document.getElementById('adminNameDisplay').textContent = localStorage.getItem('userName') || 'Admin Utama';
+        document.getElementById('adminNameDisplay').textContent = GracelyState.get('userName') || 'Admin Utama';
         
         // Hide Loader, Hide Login Form, Show Main Dashboard
         document.getElementById('authLoader').classList.add('hidden');
