@@ -5,13 +5,17 @@ window.GracelyState = {
         try {
             const raw = localStorage.getItem(this._key);
             if (!raw) return {};
-            return JSON.parse(atob(raw));
+            return JSON.parse(decodeURIComponent(escape(atob(raw))));
         } catch (e) {
             return {};
         }
     },
     _saveAll: function(data) {
-        localStorage.setItem(this._key, btoa(JSON.stringify(data)));
+        try {
+            localStorage.setItem(this._key, btoa(unescape(encodeURIComponent(JSON.stringify(data)))));
+        } catch (e) {
+            console.warn('GracelyState Error:', e);
+        }
     },
     get: function(key) {
         return this._getAll()[key];
@@ -34,21 +38,25 @@ window.GracelyState = {
 // --- MIGRATION SCRIPT ---
 // Pindahkan data lama yang terekspos ke state yang aman, lalu hapus dari root local storage
 (function migrateOldState() {
-    const oldKeys = [
-        'isAuthenticated', 'userEmail', 'userName', 'isPremium',
-        'userPlanName', 'userPlanNumber', 'premiumExpiryDate',
-        'proExpiryDate', 'phantomExpiryDate', 'lastPopupDateDB',
-        'lastExpiryWarningDateDB', 'gracely_db_session_id',
-        'gracelyPremiumConfig', 'gracely_active_session_token',
-        'gracely_config_url', 'notificationLastShown', 'notificationLastShownId'
-    ];
-    oldKeys.forEach(k => {
-        const val = localStorage.getItem(k);
-        if (val !== null) {
-            window.GracelyState.set(k, val);
-            localStorage.removeItem(k);
-        }
-    });
+    try {
+        const oldKeys = [
+            'isAuthenticated', 'userEmail', 'userName', 'isPremium',
+            'userPlanName', 'userPlanNumber', 'premiumExpiryDate',
+            'proExpiryDate', 'phantomExpiryDate', 'lastPopupDateDB',
+            'lastExpiryWarningDateDB', 'gracely_db_session_id',
+            'gracelyPremiumConfig', 'gracely_active_session_token',
+            'gracely_config_url', 'notificationLastShown', 'notificationLastShownId'
+        ];
+        oldKeys.forEach(k => {
+            const val = localStorage.getItem(k);
+            if (val !== null) {
+                window.GracelyState.set(k, val);
+                localStorage.removeItem(k);
+            }
+        });
+    } catch(e) {
+        console.warn('Migrasi state gagal, dilewati:', e);
+    }
 })();
 // --- END MIGRATION SCRIPT ---
 // --- END SECURE STATE HELPER ---
@@ -920,10 +928,10 @@ async function requireAuth() {
         const myBrowserFingerprint = await getDeviceFingerprint();
 
         // Panggil RPC Keamanan Gracely (Mencocokkan sidik jari dengan isi user_sessions)
-        const rpcResponse = await fetch(`${supabaseUrl}/rest/v1/rpc/get_gracely_auth_status`, {
+        const rpcResponse = await fetch(`${SUPABASE_URL}/rest/v1/rpc/get_gracely_auth_status`, {
             method: 'POST',
             headers: {
-                'apikey': supabaseAnonKey,
+                'apikey': SUPABASE_KEY,
                 'Authorization': `Bearer ${token}`,
                 'Content-Type': 'application/json'
             },
