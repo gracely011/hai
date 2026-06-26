@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -118,7 +118,7 @@
   </style>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 
-  <script src="auth.js"></script>
+  <script src="auth.js?v=auth-unicode-fix"></script>
   <script>(async () => { await requireAuth(); })();</script>
   <script src="assets/script.js?v=branding"></script>
 </head>
@@ -156,11 +156,11 @@
               <div class="groupy-form-group">
                 <select name="paymentMethod">
 
-                  <option selected value="QRIS">(🇮🇩/🇸🇬/🇲🇾/🇵🇭/🇹🇭) QRIS by ShopeePay (Rp 750 + 0.7% Fee)
+                  <option selected value="QRIS">(ðŸ‡®ðŸ‡©/ðŸ‡¸ðŸ‡¬/ðŸ‡²ðŸ‡¾/ðŸ‡µðŸ‡­/ðŸ‡¹ðŸ‡­) QRIS by ShopeePay (Rp 750 + 0.7% Fee)
                   </option>
-                  <option value="QRIS2">(🇮🇩) QRIS (Rp 750 + 0.7% Fee)</option>
-                  <option value="BCAVA">(🇮🇩) BCA Virtual Account (Rp 5.500 Fee)</option>
-                  <option value="ALFAMART">(🇮🇩) Alfamart (Rp 3.500 Fee)</option>
+                  <option value="QRIS2">(ðŸ‡®ðŸ‡©) QRIS (Rp 750 + 0.7% Fee)</option>
+                  <option value="BCAVA">(ðŸ‡®ðŸ‡©) BCA Virtual Account (Rp 5.500 Fee)</option>
+                  <option value="ALFAMART">(ðŸ‡®ðŸ‡©) Alfamart (Rp 3.500 Fee)</option>
                 </select>
                 <label for="paymentMethod">Payment method</label>
               </div>
@@ -213,3 +213,4 @@
 </body>
 
 </html>
+
