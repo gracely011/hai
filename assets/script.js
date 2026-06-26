@@ -151,7 +151,7 @@ function initializeScripts() {
             }
             const submitButton = loginForm.querySelector('button[type="submit"]');
             submitButton.disabled = true;
-            submitButton.innerHTML = 'Memuat...';
+            submitButton.innerHTML = 'Loading...';
             const result = await login(email, password);
             if (result.success) {
                 // Use relative path for local dev support
@@ -359,7 +359,7 @@ async function checkSessionValidity(localSessionId) {
 }
 
 // --- TURNSTILE VALIDATION BLOCKER ---
-window.onTurnstileSuccess = function(token) {
+window.onTurnstileSuccess = function (token) {
     document.querySelectorAll('.cf-turnstile').forEach(el => {
         const form = el.closest('form');
         if (form) {
@@ -373,11 +373,11 @@ window.onTurnstileSuccess = function(token) {
     });
 };
 
-window.onTurnstileExpired = function() {
+window.onTurnstileExpired = function () {
     window.onTurnstileError();
 };
 
-window.onTurnstileError = function() {
+window.onTurnstileError = function () {
     document.querySelectorAll('.cf-turnstile').forEach(el => {
         const form = el.closest('form');
         if (form) {

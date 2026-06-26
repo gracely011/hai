@@ -1088,7 +1088,9 @@ function initPasswordPage() {
       messageElement.textContent = result.message;
       if (result.success) {
         messageElement.style.color = 'green';
-        setTimeout(() => { window.location.href = 'login.html'; }, 3000);
+        updateButton.disabled = false;
+        updateButton.innerHTML = 'Ubah Kata Sandi';
+        if (form) form.reset();
       } else {
         messageElement.style.color = 'red';
         updateButton.disabled = false;
