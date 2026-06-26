@@ -835,7 +835,7 @@ async function logout() {
     setCookie('UnangJahaCookieOnLae', 'true', 1);
 
     // Handle Redirect Gracefully
-    if (window.location.pathname.includes('admin.html')) {
+    if (window.location.pathname.includes('admin')) {
         window.location.reload();
     } else {
         window.location.href = 'login.html';
