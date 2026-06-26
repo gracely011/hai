@@ -1436,6 +1436,53 @@ function initPageScripts() {
     case 'signup':
       initSignupPage();
       break;
+    case 'canva':
+    case 'phantomcanva':
+      initDynamicLinksPage(page);
+      break;
+  }
+}
+
+/**
+ * Initialize dynamic links from Supabase
+ */
+async function initDynamicLinksPage(pageName) {
+  const container = document.getElementById('dynamic-links-container');
+  if (!container) return;
+
+  try {
+    if (typeof supabaseClient === 'undefined') {
+      console.warn("supabaseClient is not defined.");
+      return;
+    }
+
+    const { data, error } = await supabaseClient
+      .from('links_update')
+      .select('html_content')
+      .eq('page_name', pageName)
+      .eq('is_enabled', true)
+      .maybeSingle();
+
+    if (error || !data) {
+      container.innerHTML = '<p style="text-align: center; color: red;">Belum ada link atau akses dimatikan.</p>';
+      return;
+    }
+
+    container.innerHTML = data.html_content;
+
+    // Re-bind events because HTML is newly injected
+    const joinLink = document.getElementById('join-team-link');
+    const urlSelect = document.getElementById('url-select');
+
+    if (joinLink && urlSelect) {
+      urlSelect.addEventListener('change', function () {
+        joinLink.href = this.value;
+      });
+    }
+
+  } catch (err) {
+    console.error("Error fetching dynamic links:", err);
+    container.innerHTML = '<p style="text-align: center; color: red;">An error occurred while loading.</p>';
   }
 }
 
