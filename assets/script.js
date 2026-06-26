@@ -207,14 +207,14 @@ function initializeScripts() {
     startSessionCheckLoop();
 }
 function handleMultiLoginKick(message) {
-    localStorage.removeItem('isAuthenticated');
-    localStorage.removeItem('userEmail');
-    localStorage.removeItem('userName');
-    localStorage.removeItem('isPremium');
-    localStorage.removeItem('gracely_active_session_token');
-    localStorage.removeItem('premiumExpiryDate');
-    localStorage.removeItem('gracelyPremiumConfig');
-    localStorage.removeItem('gracely_db_session_id');
+    GracelyState.remove('isAuthenticated');
+    GracelyState.remove('userEmail');
+    GracelyState.remove('userName');
+    GracelyState.remove('isPremium');
+    GracelyState.remove('gracely_active_session_token');
+    GracelyState.remove('premiumExpiryDate');
+    GracelyState.remove('gracelyPremiumConfig');
+    GracelyState.remove('gracely_db_session_id');
 
     // 1. Force Clear Main Session Cookie
     document.cookie = 'gracely_session_token=; Max-Age=-99999999; path=/; SameSite=Lax; Secure';
@@ -234,30 +234,30 @@ function handleMultiLoginKick(message) {
     window.location.href = 'login.html';
 }
 function handleStatusUpdate(dbStatus) {
-    localStorage.removeItem('isPremium');
-    localStorage.removeItem('premiumExpiryDate');
-    localStorage.removeItem('gracelyPremiumConfig');
+    GracelyState.remove('isPremium');
+    GracelyState.remove('premiumExpiryDate');
+    GracelyState.remove('gracelyPremiumConfig');
 
     // Update Plan Details
-    localStorage.setItem('userPlanName', dbStatus.planName || 'No Premium');
-    localStorage.setItem('userPlanNumber', dbStatus.planNumber || '0');
+    GracelyState.set('userPlanName', dbStatus.planName || 'No Premium');
+    GracelyState.set('userPlanNumber', dbStatus.planNumber || '0');
 
     // Update Premium Status
     if (dbStatus.isPremium) {
-        localStorage.setItem('isPremium', 'true');
-        localStorage.setItem('premiumExpiryDate', dbStatus.premiumExpiryDate || '');
-        localStorage.setItem('gracelyPremiumConfig', dbStatus.premiumConfig || '');
+        GracelyState.set('isPremium', 'true');
+        GracelyState.set('premiumExpiryDate', dbStatus.premiumExpiryDate || '');
+        GracelyState.set('gracelyPremiumConfig', dbStatus.premiumConfig || '');
     } else {
-        localStorage.setItem('isPremium', 'false');
+        GracelyState.set('isPremium', 'false');
     }
 }
 
 function startSessionCheckLoop() {
     // 1. Periksa apakah user login
-    if (localStorage.getItem('isAuthenticated') !== 'true') { return; }
+    if (GracelyState.get('isAuthenticated') !== 'true') { return; }
 
     // 2. Ambil ID Sesi
-    const localSessionId = localStorage.getItem('gracely_db_session_id');
+    const localSessionId = GracelyState.get('gracely_db_session_id');
     if (!localSessionId) {
         return;
     }
@@ -339,10 +339,10 @@ async function checkSessionValidity(localSessionId) {
         if (userId) {
             const dbStatus = await getPremiumStatus(userId);
             if (dbStatus) {
-                const currentPremium = localStorage.getItem('isPremium');
-                const currentExpiry = localStorage.getItem('premiumExpiryDate');
-                const currentPlanName = localStorage.getItem('userPlanName');
-                const currentPlanNumber = localStorage.getItem('userPlanNumber');
+                const currentPremium = GracelyState.get('isPremium');
+                const currentExpiry = GracelyState.get('premiumExpiryDate');
+                const currentPlanName = GracelyState.get('userPlanName');
+                const currentPlanNumber = GracelyState.get('userPlanNumber');
 
                 const newPremium = dbStatus.isPremium ? 'true' : 'false';
                 const premiumChanged = newPremium !== currentPremium;
