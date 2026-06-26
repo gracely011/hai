@@ -1,4 +1,4 @@
-// Branding moved to script.js
+﻿// Branding moved to script.js
 
 (function () {
   // --- AUTO-CLEAN URL (.html) ---
@@ -234,7 +234,7 @@ function getLanguageDropdownHTML() {
 async function checkPremiumExpiryWarning() {
   try {
     if (typeof isAuthenticated !== 'function' || !isAuthenticated()) return false;
-    const expiryDateStr = localStorage.getItem('premiumExpiryDate');
+    const expiryDateStr = GracelyState.get('premiumExpiryDate');
     if (!expiryDateStr) return false;
     const expiryDate = new Date(expiryDateStr);
     const now = new Date();
@@ -245,7 +245,7 @@ async function checkPremiumExpiryWarning() {
     if (daysLeft > 4 || daysLeft < 0) return false;
 
     // --- CEK LIMIT HARIAN EXPIRY WARNING ---
-    const lastExpiryStr = localStorage.getItem('lastExpiryWarningDateDB');
+    const lastExpiryStr = GracelyState.get('lastExpiryWarningDateDB');
     if (lastExpiryStr) {
       const lastExpiry = new Date(lastExpiryStr);
       const todayReset = new Date();
@@ -263,7 +263,7 @@ async function checkPremiumExpiryWarning() {
     const showExpiryModal = () => {
       const modalHTML = ` 
                 <i class="fa fa-times gracely-modal-close-icon" id="notification-close"></i> 
-                <h2>🔔</h2> 
+                <h2>ðŸ””</h2> 
                 <p>Your Premium will <b>expire in ${daysLeft} day(s) and ${hoursLeft} hour(s)</b>.</p> 
                 <p>Please renew it to extend your Premium access.</p> 
                 <button class="ud-main-btn w-50" id="notification-ok" style="margin-top: 10px;">OK</button> 
@@ -275,7 +275,7 @@ async function checkPremiumExpiryWarning() {
       modalContainer.style.opacity = '1';
       const closeModal = () => {
         modalContainer.style.display = 'none';
-        localStorage.setItem('lastExpiryWarningDateDB', new Date().toISOString());
+        GracelyState.set('lastExpiryWarningDateDB', new Date().toISOString());
         if (typeof updateLastPopupDate === 'function') updateLastPopupDate('expiry');
       };
       const closeBtn = modalContainer.querySelector('#notification-close');
@@ -505,7 +505,7 @@ function loadLayout() {
 
   if (navbarPlaceholder) {
     if (typeof isAuthenticated === 'function' && isAuthenticated()) {
-      const userName = localStorage.getItem("userName") || "Member";
+      const userName = GracelyState.get('userName') || "Member";
       navbarPlaceholder.innerHTML = loggedInNavbarHTML(userName);
       setTimeout(() => {
         const logoutBtn = document.getElementById('logout-button');
@@ -582,7 +582,7 @@ async function loadExternalConfig(callback) {
 async function initializeWebsiteAnnouncement() {
   try {
     // SECURITY CHECK: Only show for logged-in users
-    const isAuth = localStorage.getItem('isAuthenticated') === 'true';
+    const isAuth = GracelyState.get('isAuthenticated') === 'true';
     if (!isAuth) return; // Exit if not logged in
 
     if (typeof supabaseClient === 'undefined') {
@@ -633,9 +633,9 @@ async function initializeWebsiteAnnouncement() {
         modalDiv.style.display = 'none';
         const nowStr = Date.now().toString();
         const isoNowStr = new Date().toISOString();
-        localStorage.setItem("notificationLastShown", nowStr);
-        localStorage.setItem("notificationLastShownId", o);
-        localStorage.setItem("lastPopupDateDB", isoNowStr); // Immediate UI sync
+        GracelyState.set('notificationLastShown', nowStr);
+        GracelyState.set('notificationLastShownId', o);
+        GracelyState.set('lastPopupDateDB', isoNowStr); // Immediate UI sync
         if (typeof updateLastPopupDate === 'function') updateLastPopupDate('info');
       };
 
@@ -646,10 +646,10 @@ async function initializeWebsiteAnnouncement() {
     };
 
     // --- LOGIKA LIMIT HARIAN POPUP ---
-    const lastShownStrDB = localStorage.getItem('lastPopupDateDB');
-    const lastShownLocalStr = localStorage.getItem("notificationLastShown");
+    const lastShownStrDB = GracelyState.get('lastPopupDateDB');
+    const lastShownLocalStr = GracelyState.get('notificationLastShown');
     // ID checking
-    const lastId = localStorage.getItem("notificationLastShownId");
+    const lastId = GracelyState.get('notificationLastShownId');
 
     let shouldShow = false;
     let lastShownTime = null;
@@ -781,16 +781,16 @@ function initDashboardPlanStatus() {
   }
 
   function renderPlanStatus() {
-    const isPremium = localStorage.getItem('isPremium') === 'true';
-    const planName = localStorage.getItem('userPlanName') || 'No Premium';
-    const planNumber = localStorage.getItem('userPlanNumber') || '001';
+    const isPremium = GracelyState.get('isPremium') === 'true';
+    const planName = GracelyState.get('userPlanName') || 'No Premium';
+    const planNumber = GracelyState.get('userPlanNumber') || '001';
 
     let planHTML = '';
     try {
       if (isPremium) {
-        const datePremium = localStorage.getItem('premiumExpiryDate');
-        const datePro = localStorage.getItem('proExpiryDate');
-        const datePhantom = localStorage.getItem('phantomExpiryDate');
+        const datePremium = GracelyState.get('premiumExpiryDate');
+        const datePro = GracelyState.get('proExpiryDate');
+        const datePhantom = GracelyState.get('phantomExpiryDate');
 
         const safeFormat = (dateStr) => {
           try {
@@ -864,16 +864,16 @@ function initDashboardPlanStatus() {
         if (userId) {
           const status = await getPremiumStatus(userId);
           if (status) {
-            const oldPlanName = localStorage.getItem('userPlanName');
-            const oldPremium = localStorage.getItem('isPremium');
+            const oldPlanName = GracelyState.get('userPlanName');
+            const oldPremium = GracelyState.get('isPremium');
 
-            localStorage.setItem('isPremium', status.isPremium);
-            localStorage.setItem('userPlanName', status.planName);
-            localStorage.setItem('userPlanNumber', status.planNumber);
+            GracelyState.set('isPremium', status.isPremium);
+            GracelyState.set('userPlanName', status.planName);
+            GracelyState.set('userPlanNumber', status.planNumber);
 
-            if (status.premiumExpiryDate) localStorage.setItem('premiumExpiryDate', status.premiumExpiryDate); else localStorage.removeItem('premiumExpiryDate');
-            if (status.proExpiryDate) localStorage.setItem('proExpiryDate', status.proExpiryDate); else localStorage.removeItem('proExpiryDate');
-            if (status.phantomExpiryDate) localStorage.setItem('phantomExpiryDate', status.phantomExpiryDate); else localStorage.removeItem('phantomExpiryDate');
+            if (status.premiumExpiryDate) GracelyState.set('premiumExpiryDate', status.premiumExpiryDate); else GracelyState.remove('premiumExpiryDate');
+            if (status.proExpiryDate) GracelyState.set('proExpiryDate', status.proExpiryDate); else GracelyState.remove('proExpiryDate');
+            if (status.phantomExpiryDate) GracelyState.set('phantomExpiryDate', status.phantomExpiryDate); else GracelyState.remove('phantomExpiryDate');
 
             // Trigger extension sync if plan toggled
             if (oldPremium !== String(status.isPremium) || oldPlanName !== status.planName) {
@@ -1163,7 +1163,7 @@ function initProfilePage() {
         }
       }
 
-      const storedName = localStorage.getItem('userName');
+      const storedName = GracelyState.get('userName');
       nameInput.value = storedName || user.user_metadata?.full_name || '';
       emailInput.value = user.email || '';
     } catch (e) {
@@ -1494,4 +1494,5 @@ document.addEventListener("DOMContentLoaded", () => {
   loadLayout();
   initPageScripts();
 });
+
 
