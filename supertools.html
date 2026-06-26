@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -10,7 +10,7 @@
 
     <script src="https://unpkg.com/lucide@latest"></script>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script src="auth.js"></script>
+    <script src="auth.js?v=auth-unicode-fix"></script>
     <script>
         (async () => {
             await requireAuth();
@@ -363,17 +363,17 @@
                     <button onclick="calcClear()" class="calc-btn cl">C</button>
                     <button onclick="calcInput('(')" class="calc-btn op">(</button>
                     <button onclick="calcInput(')')" class="calc-btn op">)</button>
-                    <button onclick="calcInput('/')" class="calc-btn op">÷</button>
+                    <button onclick="calcInput('/')" class="calc-btn op">Ã·</button>
 
                     <button onclick="calcInput('7')" class="calc-btn">7</button>
                     <button onclick="calcInput('8')" class="calc-btn">8</button>
                     <button onclick="calcInput('9')" class="calc-btn">9</button>
-                    <button onclick="calcInput('*')" class="calc-btn op">×</button>
+                    <button onclick="calcInput('*')" class="calc-btn op">Ã—</button>
 
                     <button onclick="calcInput('4')" class="calc-btn">4</button>
                     <button onclick="calcInput('5')" class="calc-btn">5</button>
                     <button onclick="calcInput('6')" class="calc-btn">6</button>
-                    <button onclick="calcInput('-')" class="calc-btn op">−</button>
+                    <button onclick="calcInput('-')" class="calc-btn op">âˆ’</button>
 
                     <button onclick="calcInput('1')" class="calc-btn">1</button>
                     <button onclick="calcInput('2')" class="calc-btn">2</button>
@@ -680,7 +680,7 @@
                     <div class="pt-4 border-t border-gray-100">
                         <label class="flex items-center gap-2 cursor-pointer w-max">
                             <input type="checkbox" id="json-obf-aes" class="w-4 h-4 text-amber-500 rounded focus:ring-amber-500" onchange="document.getElementById('aes-input-container').classList.toggle('hidden', !this.checked)">
-                            <span class="text-sm font-bold text-amber-600">🔒 Aktifkan Enkripsi AES (Password)</span>
+                            <span class="text-sm font-bold text-amber-600">ðŸ”’ Aktifkan Enkripsi AES (Password)</span>
                         </label>
                         
                         <div id="aes-input-container" class="hidden mt-3 ml-6">
@@ -1581,3 +1581,4 @@
 </body>
 
 </html>
+
