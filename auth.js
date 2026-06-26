@@ -772,7 +772,10 @@ async function updateUserPassword(newPassword) {
     try {
         const { error } = await supabaseClient.auth.updateUser({ password: newPassword });
         if (error) throw error;
-        await supabaseClient.auth.signOut();
+        
+        // Bersihkan sesi secara menyeluruh tanpa redirect
+        await logout(false);
+        
         return { success: true, message: 'Password berhasil diperbarui! Silakan login ulang.' };
     } catch (error) { return { success: false, message: 'Gagal memperbarui password.' }; }
 }
@@ -858,7 +861,7 @@ async function updateLastPopupDate(type) {
     }
 }
 
-async function logout() {
+async function logout(redirect = true) {
     const userId = await getUserId();
     const currentName = GracelyState.get('userName') || 'Unknown';
     // Ambil session ID SEBELUM GracelyState.clear(); localStorage.clear() dipanggil
@@ -896,11 +899,13 @@ async function logout() {
     // Explicit trigger for extension to wipe data
     setCookie('UnangJahaCookieOnLae', 'true', 1);
 
-    // Handle Redirect Gracefully
-    if (window.location.pathname.includes('admin')) {
-        window.location.reload();
-    } else {
-        window.location.href = 'login.html';
+    if (redirect) {
+        // Handle Redirect Gracefully
+        if (window.location.pathname.includes('admin')) {
+            window.location.reload();
+        } else {
+            window.location.href = 'login.html';
+        }
     }
 }
 
