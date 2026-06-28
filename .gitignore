@@ -7,6 +7,6 @@ rewrite2.sh
 .git-rewrite/
 aturhonma - Copy.js
 *.md
-!.agents/AGENTS.md
+.agents/
 vector/
 tabel sql/
