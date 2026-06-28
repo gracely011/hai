@@ -482,11 +482,20 @@ function modifyIndexPageContent() {
 }
 
 async function loadAnnouncementBar() {
-  const announcementPlaceholder = document.getElementById("announcement-placeholder");
   const navbarPlaceholder = document.getElementById("navbar-placeholder");
 
-  // Jika tidak ada announcement-placeholder atau TIDAK ADA navbar-placeholder, hentikan
-  if (!announcementPlaceholder || !navbarPlaceholder) return;
+  // Jika TIDAK ADA navbar-placeholder, hentikan (sesuai request: kecuali yang gak ada menunya)
+  if (!navbarPlaceholder) return;
+
+  // Coba cari announcement-placeholder
+  let announcementPlaceholder = document.getElementById("announcement-placeholder");
+  
+  // Jika tidak ada, buat dan sisipkan tepat sebelum navbarPlaceholder
+  if (!announcementPlaceholder) {
+      announcementPlaceholder = document.createElement("div");
+      announcementPlaceholder.id = "announcement-placeholder";
+      navbarPlaceholder.parentNode.insertBefore(announcementPlaceholder, navbarPlaceholder);
+  }
 
   try {
     if (typeof supabaseClient === 'undefined') {
