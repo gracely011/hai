@@ -54,8 +54,8 @@ jobs:
 
       - name: Setup Git Config
         run: |
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
+          git config --global user.name "gracely011"
+          git config --global user.email "gracely011@users.noreply.github.com"
 
       - name: Force Push to Main
         run: |
