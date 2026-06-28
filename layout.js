@@ -260,7 +260,7 @@ async function checkPremiumExpiryWarning() {
     const showExpiryModal = () => {
       const modalHTML = ` 
                 <i class="fa fa-times gracely-modal-close-icon" id="notification-close"></i> 
-                <h2>ðŸ””</h2> 
+                <h2><i class="fa-solid fa-bell" style="color: #f39c12;"></i></h2> 
                 <p>Your Premium will <b>expire in ${daysLeft} day(s) and ${hoursLeft} hour(s)</b>.</p> 
                 <p>Please renew it to extend your Premium access.</p> 
                 <button class="ud-main-btn w-50" id="notification-ok" style="margin-top: 10px;">OK</button> 
