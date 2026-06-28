@@ -29,10 +29,7 @@
   };
 })();
 
-const announcementBarHTML = `
-<div class="announcement-bar">
-  The only official Gracely website is <strong><a href="https://draft.gracely.my.id/" target="_blank">https://draft.gracely.my.id/</a></strong>. Please be aware of fake websites.
-</div>`;
+// Announcement bar is now dynamically loaded via loadAnnouncementBar()
 
 const translations = {
   en: {
@@ -484,6 +481,39 @@ function modifyIndexPageContent() {
   }
 }
 
+async function loadAnnouncementBar() {
+  const announcementPlaceholder = document.getElementById("announcement-placeholder");
+  const navbarPlaceholder = document.getElementById("navbar-placeholder");
+
+  // Jika tidak ada announcement-placeholder atau TIDAK ADA navbar-placeholder, hentikan
+  if (!announcementPlaceholder || !navbarPlaceholder) return;
+
+  try {
+    if (typeof supabaseClient === 'undefined') {
+      console.warn("supabaseClient is not defined. Cannot load announcement bar.");
+      return;
+    }
+
+    const { data, error } = await supabaseClient
+      .from('links_update')
+      .select('html_content')
+      .eq('page_name', 'announcement_bar')
+      .eq('is_enabled', true)
+      .maybeSingle();
+
+    if (error) {
+      console.error("Error fetching announcement bar:", error);
+      return;
+    }
+
+    if (data && data.html_content) {
+      announcementPlaceholder.innerHTML = data.html_content;
+    }
+  } catch (err) {
+    console.error("Failed to load announcement bar:", err);
+  }
+}
+
 function loadLayout() {
   const announcementPlaceholder = document.getElementById("announcement-placeholder");
   const navbarPlaceholder = document.getElementById("navbar-placeholder");
@@ -499,7 +529,7 @@ function loadLayout() {
     document.body.appendChild(modalDiv);
   }
 
-  if (announcementPlaceholder) announcementPlaceholder.innerHTML = announcementBarHTML;
+  loadAnnouncementBar();
   if (footerPlaceholder) footerPlaceholder.innerHTML = footerHTML;
   if (backToTopPlaceholder) backToTopPlaceholder.innerHTML = backToTopHTML;
 
